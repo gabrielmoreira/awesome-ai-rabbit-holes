@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docuwriter__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Documentation
         anchor_text: DocuWriter.ai
         extracted_url: https://docuwriter.ai
-        surrounding_text: '- **[DocuWriter.ai](https://www.docuwriter.ai/)** – AI documentation generator for codebases and APIs.'
+        surrounding_text: "- **[DocuWriter.ai](https://www.docuwriter.ai/)** – AI documentation generator for codebases and APIs."
         confidence: high
     - id: discovery__www__docuwriter__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Documentation
         anchor_text: DocuWriter.ai
         extracted_url: https://www.docuwriter.ai
-        surrounding_text: '- **[DocuWriter.ai](https://www.docuwriter.ai/)** – AI documentation generator for codebases and APIs.'
+        surrounding_text: "- **[DocuWriter.ai](https://www.docuwriter.ai/)** – AI documentation generator for codebases and APIs."
         confidence: high
 metadata:
   github:
@@ -51,25 +51,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    AI-powered tool that generates and maintains code documentation, API docs, and UML diagrams from connected
-    repositories.
-  why_it_matters: >-
-    Automates the creation and synchronization of technical documentation for codebases, reducing onboarding friction
-    and combating documentation rot.
-  mental_damage: Finally, a way to make your 12-year-old monolith’s documentation less terrifying than the code itself.
+  summary: DocuWriter.ai is an AI-powered platform that generates, organizes, and maintains complete, structured documentation for entire codebases using AST parsing and AI agents.
+  why_it_matters: It eliminates manual documentation work by automatically keeping API references, architecture diagrams, and module docs in sync with code changes, reducing onboarding friction and knowledge loss.
+  mental_damage: Finally, a tool that promises your docs won’t be three years out of date — until you realize you now have to trust an AI to not hallucinate your system’s architecture.
   tags:
     - documentation
-    - code-analysis
-    - api-docs
-    - uml
-    - mcp-server
+    - ai
+    - developer-productivity
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product primarily augments developer workflows by integrating with repositories and AI agents (via MCP) to
-    generate and maintain documentation, rather than acting as a standalone coding assistant.
+  reason: The product primarily augments developer workflows by integrating with repositories and AI agents (via MCP) to generate and maintain documentation, rather than acting as a standalone coding assistant.
   evidence:
     - Generates code docs, API docs, and UML diagrams from connected repos (GitHub, GitLab, etc.)
     - Publishes as an MCP server for native access by Cursor, Claude, and other AI agents
@@ -77,44 +69,40 @@ curation:
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'app-builders'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:33:42.513Z'
+    updated_at: "2026-09-28T04:40:48.492Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:2f3e5c9527dc98a114f2d94a9fdbcf9e8ba6b8ee8efa3705be8c76f9454d9245
-      proposed_primary_category: ai-dev-extensions
-      disagreement: false
-      decision_reason: >-
-        The product primarily augments developer workflows by integrating with repositories and AI agents (via MCP) to
-        generate and maintain documentation, rather than acting as a standalone coding assistant.
+      category_rules_version: c367d6101132
+      input_hash: sha256:7f65d4a18b56f6293ba89e61be7b1d1975b475a502bca18c57b3a3abd80cd3bc
+      proposed_primary_category: app-builders
+      disagreement: true
+      decision_reason: DocuWriter.ai generates deployable documentation artifacts (Markdown, PDF, Confluence, etc.) from codebases via AI, functioning as a prompt-to-internal-tool system rather than a coding agent or extension.
       decision_evidence:
-        - Generates code docs, API docs, and UML diagrams from connected repos (GitHub, GitLab, etc.)
-        - Publishes as an MCP server for native access by Cursor, Claude, and other AI agents
-        - Listed in awesome-ai-coding-tools under Documentation
+        - Generates complete codebase documentation from connected repositories using AST parsing and AI
+        - Outputs deployable artifacts like API references, UML diagrams, and architecture docs exportable to Markdown, Word, PDF, Git, or Confluence
+        - Positioned as a platform for creating and managing structured documentation for entire codebases, not for editing code
       category_candidates:
-        - ai-dev-extensions
-        - context-engineering
-      contrastive_reason: >-
-        Choose ai-dev-extensions over context-engineering because the core value is repository integration and
-        documentation generation, not a standalone context or memory system.
-      review_reason: null
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because DocuWriter.ai’s core function is generating deployable documentation sites and internal knowledge systems from code, not editing or writing code within a developer’s existing workflow.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'app-builders'"
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.965Z'
+    updated_at: "2026-07-21T15:20:21.965Z"
     cause: null
     next_retry_at: null
   stars:

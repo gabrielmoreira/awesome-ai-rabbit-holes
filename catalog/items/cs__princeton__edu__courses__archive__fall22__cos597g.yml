@@ -51,22 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Princeton graduate course (Fall 2022) on understanding large language models, covering technical foundations, capabilities, fine-tuning, system design, and ethics.
-  why_it_matters: Provides a structured academic perspective on LLMs, useful for developers seeking deep theoretical grounding in model behavior and limitations.
-  mental_damage: The only thing harder than building with LLMs is passing this course.
+  summary: An advanced graduate course on large language models covering their technical foundations, capabilities, and applications through research paper discussions and a final project.
+  why_it_matters: Provides structured, in-depth learning for developers seeking to understand LLMs from a research perspective, complementing hands-on tooling with theoretical grounding.
+  mental_damage: Yet another reminder that keeping up with LLMs feels less like skill-building and more like cramming for a final exam you didn’t sign up for.
   tags:
     - course
-    - llm-theory
-    - academic
+    - llm
+    - research
+    - nlp
     - princeton
   confidence: high
 curation:
   status: excluded
-  reason: This is an academic course, not a developer tool, framework, or workflow product.
+  reason: This is an educational course, not a developer-facing AI tool, agent, workflow, or infrastructure product; it lacks any product identity or executable artifact relevant to software development tooling.
   evidence:
-    - Source-list context explicitly labels it as a '课程 Course'
-    - Primary page excerpt describes lectures, assignments, and project requirements for a university course
-    - No indication of a software product, tool, or developer-facing workflow
+    - "Repo description: (none)"
+    - "Scraped site context identifies it as 'COS 597G: Understanding Large Language Models', a Princeton graduate course with lectures, readings, and a final project"
+    - Source-list context shows it appears in awesome-LLM-resources under '课程 Course' (Course section)
 placement:
   primary_category: null
   section: null
@@ -76,24 +77,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:33:29.754Z"
+    updated_at: "2026-09-28T04:40:29.187Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3cd5121fcd307608ce477aa97b09890420ed36f48f9268733e1a1a55c6a67e18
+      category_rules_version: c367d6101132
+      input_hash: sha256:61728b12a6d0c5e0eea648d718762d2b2751016779f53f4527ec8dcfc2d06eca
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an academic course, not a developer tool, framework, or workflow product.
+      decision_reason: This is an educational course, not a developer-facing AI tool, agent, workflow, or infrastructure product; it lacks any product identity or executable artifact relevant to software development tooling.
       decision_evidence:
-        - Source-list context explicitly labels it as a '课程 Course'
-        - Primary page excerpt describes lectures, assignments, and project requirements for a university course
-        - No indication of a software product, tool, or developer-facing workflow
+        - "Repo description: (none)"
+        - "Scraped site context identifies it as 'COS 597G: Understanding Large Language Models', a Princeton graduate course with lectures, readings, and a final project"
+        - Source-list context shows it appears in awesome-LLM-resources under '课程 Course' (Course section)
       category_candidates: []
       contrastive_reason: null
       review_reason: null

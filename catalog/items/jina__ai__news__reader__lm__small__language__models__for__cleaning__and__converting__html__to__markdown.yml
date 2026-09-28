@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Reader-LM is a pair of small language models (0.5B and 1.5B parameters) designed to convert raw, noisy HTML from the web into clean markdown.
-  why_it_matters: It offers developers a lightweight, long-context alternative to larger models for preprocessing web content into LLM-friendly markdown, improving grounding and reducing noise.
-  mental_damage: Because nothing says 'modern web scraping' like replacing regex and heuristics with a 1.5B parameter model that still can't handle your corporate footer.
+  summary: Reader-LM is a pair of small language models (0.5B and 1.5B parameters) designed to convert raw, noisy HTML into clean markdown using a 256K context window.
+  why_it_matters: It provides developers a lightweight, cost-efficient way to preprocess web content for LLMs without relying on fragile heuristic pipelines.
+  mental_damage: Yet another model claiming to solve HTML-to-markdown 'better' — as if developers weren’t already drowning in parsing libraries and regex band-aids.
   tags:
-    - html-to-markdown
-    - small-language-models
-    - web-scraping
-    - long-context
-    - jina-ai
+    - html-processing
+    - small-language-model
+    - markdown-generation
   confidence: high
 curation:
   status: excluded
-  reason: The project is a specialized model for HTML-to-markdown conversion, not a developer tool, framework, or workflow product—it's a model artifact with no direct developer-tooling surface.
+  reason: Reader-LM is a model for data transformation, not a developer-facing tool, agent, framework, or infrastructure that changes how software is built or maintained.
   evidence:
-    - Core product is two SLMs (0.5B and 1.5B) for HTML-to-markdown conversion, not a tool or workflow
-    - Primary use case is preprocessing web content for LLMs, not developer workflow augmentation
-    - No repo, CLI, SDK, or integration layer—just model checkpoints and a Colab notebook
+    - The project releases two SLMs (reader-lm-0.5b and reader-lm-1.5b) on Hugging Face for converting HTML to markdown.
+    - It is positioned as a replacement for heuristic-based pipelines like Jina Reader, focusing on model performance and training efficiency.
+    - No evidence of CLI, SDK, IDE integration, agent behavior, or workflow automation for developers — it is a model artifact, not a tool.
 placement:
   primary_category: null
   section: null
@@ -73,24 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:44.070Z"
+    updated_at: "2026-09-28T04:30:03.335Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b4a19f19307f6a35947a01e0a781a4ffe1d2f998a909b82986cd146f75c18d26
+      category_rules_version: c367d6101132
+      input_hash: sha256:4d76a22d1ac0da0710858377643655406dd8389e5581fbd5837197555716077d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a specialized model for HTML-to-markdown conversion, not a developer tool, framework, or workflow product—it's a model artifact with no direct developer-tooling surface.
+      decision_reason: Reader-LM is a model for data transformation, not a developer-facing tool, agent, framework, or infrastructure that changes how software is built or maintained.
       decision_evidence:
-        - Core product is two SLMs (0.5B and 1.5B) for HTML-to-markdown conversion, not a tool or workflow
-        - Primary use case is preprocessing web content for LLMs, not developer workflow augmentation
-        - No repo, CLI, SDK, or integration layer—just model checkpoints and a Colab notebook
+        - The project releases two SLMs (reader-lm-0.5b and reader-lm-1.5b) on Hugging Face for converting HTML to markdown.
+        - It is positioned as a replacement for heuristic-based pipelines like Jina Reader, focusing on model performance and training efficiency.
+        - No evidence of CLI, SDK, IDE integration, agent behavior, or workflow automation for developers — it is a model artifact, not a tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Humanloop was a development platform for LLM applications that has now joined Anthropic and is sunsetting its platform.
-  why_it_matters: It previously enabled developers to build, manage, and evaluate AI applications, shaping industry standards for LLM workflows.
-  mental_damage: Another pioneer absorbed into the Anthropic singularity, leaving early adopters to migrate their evals and prompts.
+  summary: Humanloop was a development platform for managing and evaluating LLM applications, now being sunsetted following its acquisition by Anthropic.
+  why_it_matters: It was an early infrastructure player focused on the prompt management and evaluation lifecycle of LLM-based software.
+  mental_damage: "It is the quintessential AI startup lifecycle: spend years building a specialized tool only to have it absorbed into a model provider's dashboard."
   tags:
     - llmops
-    - evaluation
-    - sunset
     - anthropic
+    - sunset
+    - evaluation
   confidence: high
 curation:
   status: excluded
-  reason: The project is defunct (sunset) and no longer operates as a standalone developer tool, making it unsuitable for an active catalog.
+  reason: The Humanloop platform is being sunsetted as part of its acquisition by Anthropic, making it no longer a usable tool for developers.
   evidence:
-    - Announcement states Humanloop is joining Anthropic and sunsetting its platform
-    - Source-list context confirms it was an LLMOps tool but is now defunct
+    - The site announcement explicitly states, 'As we sunset the Humanloop platform...'
+    - The text confirms the team is joining Anthropic to integrate their work.
 placement:
   primary_category: null
   section: null
@@ -69,23 +69,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:19.316Z"
+    updated_at: "2026-09-28T04:29:19.900Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5fa03a95edadfec0ff2056eda46e25ae895ad81b1f9dd7cd2308ed3caee7f9ea
+      category_rules_version: c367d6101132
+      input_hash: sha256:4a4e4629eec83ab0ffdbe4b4d816b19f17184604b586541ad5511a706a3a1ecd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is defunct (sunset) and no longer operates as a standalone developer tool, making it unsuitable for an active catalog.
+      decision_reason: The Humanloop platform is being sunsetted as part of its acquisition by Anthropic, making it no longer a usable tool for developers.
       decision_evidence:
-        - Announcement states Humanloop is joining Anthropic and sunsetting its platform
-        - Source-list context confirms it was an LLMOps tool but is now defunct
+        - The site announcement explicitly states, 'As we sunset the Humanloop platform...'
+        - The text confirms the team is joining Anthropic to integrate their work.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

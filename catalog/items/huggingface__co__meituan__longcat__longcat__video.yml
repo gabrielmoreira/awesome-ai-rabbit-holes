@@ -37,22 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A foundational video generation model by Meituan capable of text-to-video, image-to-video, and video-continuation tasks.
-  why_it_matters: It provides an open-source alternative for high-quality, long-duration video synthesis using a unified architecture.
-  mental_damage: "Just what your local GPU needed: another 13.6B parameter weight folder to manage while you pretend you're a film director."
-  tags:
-    - video-generation
-    - text-to-video
-    - open-source
-    - multimodal
+  summary: A 13.6B parameter foundational video generation model supporting text-to-video, image-to-video, and video-continuation tasks.
+  why_it_matters: N/A (excluded from catalog)
+  mental_damage: N/A (excluded from catalog)
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: This is a foundational model/checkpoint rather than a developer-facing tool, agent, or workflow utility.
+  reason: This project is a foundational machine learning model weight repository, which falls under general ML research rather than the catalog's focus on developer-centric coding tools, agents, and orchestration.
   evidence:
-    - The project is a model repository on Hugging Face, not a developer tool or SDK.
-    - It provides weights for video generation rather than code-editing, orchestration, or deployment infrastructure.
-    - The core functionality is multimodal content generation, which falls outside the scope of developer-centric AI tooling.
+    - Identified as a 13.6B parameter foundational video generation model
+    - Primarily provides model weights and training technical reports rather than a developer-facing coding tool or workflow
 placement:
   primary_category: null
   section: null
@@ -73,24 +68,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:11.717Z"
+    updated_at: "2026-09-28T04:27:16.578Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:45c9c74047c42d65a5351ae60c644f16a24be8ed13883d60d2d92d56759d90f8
+      category_rules_version: c367d6101132
+      input_hash: sha256:ef56e0af564aa7307b05b5fd0067a742617939063a9d2e322507e566c77b3bd1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a foundational model/checkpoint rather than a developer-facing tool, agent, or workflow utility.
+      decision_reason: This project is a foundational machine learning model weight repository, which falls under general ML research rather than the catalog's focus on developer-centric coding tools, agents, and orchestration.
       decision_evidence:
-        - The project is a model repository on Hugging Face, not a developer tool or SDK.
-        - It provides weights for video generation rather than code-editing, orchestration, or deployment infrastructure.
-        - The core functionality is multimodal content generation, which falls outside the scope of developer-centric AI tooling.
+        - Identified as a 13.6B parameter foundational video generation model
+        - Primarily provides model weights and training technical reports rather than a developer-facing coding tool or workflow
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -36,21 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language resource hub summarizing LLM materials including coding assistance, agent workflows, and MCP.
-  why_it_matters: Provides a curated overview of LLM tools and concepts for developers seeking non-English resources.
-  mental_damage: Another directory promising to be the 'world's best' while you still don't know which agent to use for your PR.
+  summary: kexue.fm is a Chinese personal science blog covering diverse academic and technical topics.
+  why_it_matters: It provides educational content that may interest developers exploring interdisciplinary science concepts.
+  mental_damage: Another rabbit hole of interesting but tangentially related reading that delays actual coding work.
   tags:
-    - directory
-    - tutorial
-    - chinese
-    - llm-resources
+    - blog
+    - education
+    - science
   confidence: high
 curation:
   status: excluded
-  reason: This is a tutorial/resource directory rather than a developer tool, and its primary value is educational/curational rather than operational.
+  reason: kexue.fm is a personal science blog with no developer-facing tooling, agent, infrastructure, or workflow product; it is an educational resource lacking any direct application to AI-assisted software development.
   evidence:
-    - Source-list context describes it as a 'summary of the world's best LLM resources' in a tutorial section
-    - No repo description or README excerpt indicates a standalone tool or product
+    - The source-list context shows it appears in awesome-LLM-resources under '教程 Tutorial', indicating it is curated as educational material, not a tool.
+    - No repository, description, README, or product identity is provided; the homepage is a personal blog with no indication of being a developer tool.
 placement:
   primary_category: null
   section: null
@@ -69,23 +68,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:47.022Z"
+    updated_at: "2026-09-28T04:30:26.905Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1a7a358b56e2e802a102d52e1cbda48a6be640acc4723794a4742af1348f9cdd
+      category_rules_version: c367d6101132
+      input_hash: sha256:82bcd4a71c0ab146d2ecdc138846d8b2e3bf9bdc3231b47726a54280ac30ae92
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a tutorial/resource directory rather than a developer tool, and its primary value is educational/curational rather than operational.
+      decision_reason: kexue.fm is a personal science blog with no developer-facing tooling, agent, infrastructure, or workflow product; it is an educational resource lacking any direct application to AI-assisted software development.
       decision_evidence:
-        - Source-list context describes it as a 'summary of the world's best LLM resources' in a tutorial section
-        - No repo description or README excerpt indicates a standalone tool or product
+        - The source-list context shows it appears in awesome-LLM-resources under '教程 Tutorial', indicating it is curated as educational material, not a tool.
+        - No repository, description, README, or product identity is provided; the homepage is a personal blog with no indication of being a developer tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

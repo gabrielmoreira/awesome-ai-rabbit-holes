@@ -51,21 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Coursera course focused on prompt engineering for ChatGPT applications.
-  why_it_matters: Teaches developers how to design effective prompts for AI applications, a foundational skill for building and interacting with AI systems.
-  mental_damage: The only thing harder than writing good prompts is convincing yourself you’ve written good prompts.
+  summary: Coursera course on prompt engineering for ChatGPT offered by Vanderbilt University.
+  why_it_matters: Teaches developers practical prompt patterns to improve productivity with large language models.
+  mental_damage: Another reminder that you’ll need a certificate to prove you can talk to a chatbot effectively.
   tags:
-    - course
     - prompt-engineering
     - education
+    - llm
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational course, not a developer tool, framework, or workflow product, so it falls outside the catalog's scope of practical AI tools for software developers.
+  reason: This is an educational course, not a developer tool, agent, framework, or infrastructure product.
   evidence:
-    - Source-list context identifies it as a course (课程 Course)
-    - URL points to a Coursera course page, not a repo or tool
-    - No repo description, stars, or code artifacts indicate it is a product
+    - Scraped site context describes it as a Coursera course with modules, videos, assignments, and a shareable certificate.
+    - Source-list context places it in 'awesome-LLM-resources' under the '课程 Course' section, confirming its identity as learning material.
+    - No evidence of it being a runnable tool, SDK, agent, or platform that developers integrate into workflows.
 placement:
   primary_category: null
   section: null
@@ -75,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:33:30.232Z"
+    updated_at: "2026-09-28T04:40:31.145Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a1700d333010c090df6c4f273e33c93130a9855ca2d5a979725714394c05a008
+      category_rules_version: c367d6101132
+      input_hash: sha256:19eefc569c3cdb701b35510534711b13e2cb637531c8a4321df2ee456471bcc7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational course, not a developer tool, framework, or workflow product, so it falls outside the catalog's scope of practical AI tools for software developers.
+      decision_reason: This is an educational course, not a developer tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - Source-list context identifies it as a course (课程 Course)
-        - URL points to a Coursera course page, not a repo or tool
-        - No repo description, stars, or code artifacts indicate it is a product
+        - Scraped site context describes it as a Coursera course with modules, videos, assignments, and a shareable certificate.
+        - Source-list context places it in 'awesome-LLM-resources' under the '课程 Course' section, confirming its identity as learning material.
+        - No evidence of it being a runnable tool, SDK, agent, or platform that developers integrate into workflows.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

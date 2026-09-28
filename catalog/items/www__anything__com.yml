@@ -36,21 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Unidentifiable project; no description, README, or site context was provided for https://www.anything.com.
-  why_it_matters: We cannot assess developer relevance without any product signals, documentation, or stated workflow.
-  mental_damage: Reviewing a bare domain with zero context is like pair-programming with a loading spinner—eventually you question whether the tool, or your will to curate, actually exists.
-  tags:
-    - unknown
-    - placeholder
-    - insufficient-data
+  summary: www.anything.com is a placeholder domain with no discernible AI developer tooling function.
+  why_it_matters: It does not provide any practical AI tool, agent, workflow, or infrastructure relevant to software developers.
+  mental_damage: Another dead link in the AI tooling graveyard, reminding us that not every .com is a startup.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: With no repo description, README excerpt, or scraped site context, there is no evidence this is a developer-facing AI tool, so safe abstain is the only option.
+  reason: The domain resolves to no identifiable product, tool, or resource, and offers no developer-facing AI functionality.
   evidence:
-    - Repo description is empty.
-    - No README excerpt or scraped site context available.
-    - Stars, topics, dates, and license are all unknown.
+    - Repo description is missing
+    - README excerpt is not provided
+    - Scraped site context is absent
+    - Source-list context shows no curation in any developer tooling list
+    - No stars, creation date, or push activity indicate a live project
 placement:
   primary_category: null
   section: null
@@ -69,24 +68,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-23T05:13:45.201Z"
+    updated_at: "2026-09-28T04:52:05.491Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:500e32476f47fc5838c3450f5ab9568459cf8532bf11c7a648b0d479ca264551
+      category_rules_version: c367d6101132
+      input_hash: sha256:d637d809e87510ebb68f7f577fe7adafa4fad31a9972359b8e03f77386fc02bd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: With no repo description, README excerpt, or scraped site context, there is no evidence this is a developer-facing AI tool, so safe abstain is the only option.
+      decision_reason: The domain resolves to no identifiable product, tool, or resource, and offers no developer-facing AI functionality.
       decision_evidence:
-        - Repo description is empty.
-        - No README excerpt or scraped site context available.
-        - Stars, topics, dates, and license are all unknown.
+        - Repo description is missing
+        - README excerpt is not provided
+        - Scraped site context is absent
+        - Source-list context shows no curation in any developer tooling list
+        - No stars, creation date, or push activity indicate a live project
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A website analysis tool that extracts insights, monitors brands, and exposes security risks from URLs.
-  why_it_matters: Developers can use it to quickly audit third-party sites or dependencies for security or compliance risks.
-  mental_damage: Because nothing says 'modern development' like treating every URL as a potential biohazard.
+  summary: urldna.io is a web-based tool that analyzes URLs for data insights, brand monitoring, and security risk exposure, positioning itself as a 'DNA test for websites'.
+  why_it_matters: It matters to developers who need automated, external visibility into web assets for security audits, brand protection, or competitive intelligence without building custom scraping or analysis pipelines.
+  mental_damage: Another tool promising to 'unleash insights' from URLs while adding yet another SaaS tab to the developer’s already overflowing dashboard of monitoring services.
   tags:
-    - website-analysis
     - security
-    - brand-monitoring
+    - web-analysis
+    - monitoring
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a general website analysis service, not a developer-tooling product focused on coding, agents, or AI workflows.
+  reason: urldna.io is a general-purpose URL analysis and brand monitoring service with no clear developer-tooling identity, workflow integration, or AI agent/component role — it functions as an external SaaS insight platform rather than a tool for coding, agent orchestration, context engineering, or app building.
   evidence:
-    - Scraped site context describes it as a website insights/brand monitoring/security risk tool
-    - No evidence of code editing, agent orchestration, or developer workflow integration
-    - Source-list context shows it in an MCP servers list, but MCP is not the product identity
+    - Scraped site context describes it as analyzing data, monitoring brands, and exposing security risks via URL analysis — a general insight tool, not a developer-facing AI agent or workflow enhancer
+    - Source-list placement in awesome-mcp-servers is based on MCP compatibility, but the product’s identity is URL analytics, not MCP infrastructure, making MCP a feature, not core identity
+    - No evidence of integration with coding agents, IDEs, agent runtimes, or workflows — it presents as a standalone web tool for brand and security teams, not developers shaping AI behavior or code
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:29.590Z"
+    updated_at: "2026-09-28T04:48:37.809Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:bac5e24d407937a0c86737cc80ba22c1c68843732ee4ccda267d8cd5cb87628c
+      category_rules_version: c367d6101132
+      input_hash: sha256:1974e302a487ba3e4af9b88843083766467d6d3ce0df71ef861a6ccc002c9a29
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a general website analysis service, not a developer-tooling product focused on coding, agents, or AI workflows.
+      decision_reason: urldna.io is a general-purpose URL analysis and brand monitoring service with no clear developer-tooling identity, workflow integration, or AI agent/component role — it functions as an external SaaS insight platform rather than a tool for coding, agent orchestration, context engineering, or app building.
       decision_evidence:
-        - Scraped site context describes it as a website insights/brand monitoring/security risk tool
-        - No evidence of code editing, agent orchestration, or developer workflow integration
-        - Source-list context shows it in an MCP servers list, but MCP is not the product identity
+        - Scraped site context describes it as analyzing data, monitoring brands, and exposing security risks via URL analysis — a general insight tool, not a developer-facing AI agent or workflow enhancer
+        - Source-list placement in awesome-mcp-servers is based on MCP compatibility, but the product’s identity is URL analytics, not MCP infrastructure, making MCP a feature, not core identity
+        - No evidence of integration with coding agents, IDEs, agent runtimes, or workflows — it presents as a standalone web tool for brand and security teams, not developers shaping AI behavior or code
       category_candidates: []
       contrastive_reason: null
       review_reason: null

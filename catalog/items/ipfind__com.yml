@@ -37,22 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A free IP address geo-locator and reverse lookup API service that returns location data in JSON format.
-  why_it_matters: Developers can integrate this API to quickly fetch geographic and network details from IP addresses for logging, analytics, or user personalization.
-  mental_damage: Because nothing says 'modern development' like arguing with a timezone field at 3 AM.
+  summary: IP Find is a free IP address geolocation API service that returns location data, timezone, currency, and language information via JSON endpoints.
+  why_it_matters: Developers can quickly enrich applications with geolocation data without managing their own IP databases or infrastructure.
+  mental_damage: Another useful API wrapped in a signup wall, reminding us that even basic network utilities now require an account and marketing emails.
   tags:
-    - ip-geolocation
     - api
-    - json
-    - developer-tools
+    - geolocation
+    - networking
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose IP geolocation API service with no AI, coding assistant, or developer-tooling angle beyond being a standard web API.
+  reason: IP Find is a general-purpose IP geolocation API with no specific developer-tooling workflow, AI integration, or code-centric functionality; it serves broad application needs rather than software development processes.
   evidence:
-    - Product is a reverse IP lookup/geo-locator API with JSON responses
-    - No AI, agent, IDE, framework, or developer-workflow-specific functionality mentioned
-    - Primary value is IP-to-location data, not developer-tooling
+    - The service provides IP-to-location lookup via HTTP API with JSON responses, targeting general use cases like personal projects, businesses, and enterprise applications.
+    - No AI, machine learning, agent, coding assistant, or developer workflow features are mentioned in the README excerpt or site context.
+    - The product markets itself as a free web service for IP geolocation, not as a tool for coding, debugging, agent orchestration, or software development enhancement.
 placement:
   primary_category: null
   section: null
@@ -71,24 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:33.132Z"
+    updated_at: "2026-09-28T04:29:37.645Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ced3cd929722a49f86cc9f7769a132852447ada57d2a9e036a2b4302bf509c6b
+      category_rules_version: c367d6101132
+      input_hash: sha256:86619d29b0046eda1cd33ea83ddc80ab4c3bd04065a7bdb05b5c2cbae3e56437
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a general-purpose IP geolocation API service with no AI, coding assistant, or developer-tooling angle beyond being a standard web API.
+      decision_reason: IP Find is a general-purpose IP geolocation API with no specific developer-tooling workflow, AI integration, or code-centric functionality; it serves broad application needs rather than software development processes.
       decision_evidence:
-        - Product is a reverse IP lookup/geo-locator API with JSON responses
-        - No AI, agent, IDE, framework, or developer-workflow-specific functionality mentioned
-        - Primary value is IP-to-location data, not developer-tooling
+        - The service provides IP-to-location lookup via HTTP API with JSON responses, targeting general use cases like personal projects, businesses, and enterprise applications.
+        - No AI, machine learning, agent, coding assistant, or developer workflow features are mentioned in the README excerpt or site context.
+        - The product markets itself as a free web service for IP geolocation, not as a tool for coding, debugging, agent orchestration, or software development enhancement.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

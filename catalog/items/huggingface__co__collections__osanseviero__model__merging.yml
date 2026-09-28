@@ -36,25 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated collection of research papers on model merging techniques for LLMs.
-  why_it_matters: Provides developers with a chronological list of foundational and recent papers on model merging, useful for understanding and implementing advanced model fusion methods.
-  mental_damage: Because nothing says 'practical' like a 253-upvote collection of papers you'll never have time to read.
+  summary: A curated collection of research papers focused on the techniques and evolution of model merging for large language models.
+  why_it_matters: It provides a chronological roadmap of the mathematical and algorithmic foundations required to combine model weights without full retraining.
+  mental_damage: It is a convenient way to track exactly how many new merging algorithms will make your current implementation obsolete by next Tuesday.
   tags:
     - model-merging
-    - research-papers
-    - llm-fusion
-    - huggingface-collection
+    - llm-research
+    - huggingface
   confidence: high
 curation:
-  status: excluded
-  reason: This is a research paper collection, not a practical developer tool, framework, or workflow product.
+  status: included
+  reason: This is a curated collection of research papers that serves as a foundational discovery resource for developers exploring model merging.
   evidence:
-    - Source-list context places it under '论文 Paper' (Papers) section
-    - Scraped site context describes it as a chronological list of papers on model merging
-    - No executable tool, SDK, or developer-facing workflow is provided
+    - Hugging Face collection of papers
+    - Chronological list of model merging research
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Awesome Lists & Directories
 lifecycle:
   status: incubating
   reason: null
@@ -70,25 +68,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:47.480Z"
+    updated_at: "2026-09-28T04:25:27.696Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7c0b6337e7e7ed1fa2560653438e73f7067684c2a73c4c995c05a533c76e699a
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:237011b0a550f648e0b2ba000476f3311712ca28114ebae8c3dab5afc198bb61
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a research paper collection, not a practical developer tool, framework, or workflow product.
+      decision_reason: This is a curated collection of research papers that serves as a foundational discovery resource for developers exploring model merging.
       decision_evidence:
-        - Source-list context places it under '论文 Paper' (Papers) section
-        - Scraped site context describes it as a chronological list of papers on model merging
-        - No executable tool, SDK, or developer-facing workflow is provided
-      category_candidates: []
-      contrastive_reason: null
+        - Hugging Face collection of papers
+        - Chronological list of model merging research
+      category_candidates:
+        - awesome-awesomes
+        - ai-frameworks
+      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the resource is a curated list of academic research rather than a functional SDK or library.
       review_reason: null
       review_resume_lifecycle: null

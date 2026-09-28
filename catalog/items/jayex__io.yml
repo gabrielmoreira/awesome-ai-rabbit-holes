@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: JayeX is a cloud-native CI/CD platform built on Kubernetes, offering GitOps-based Tekton pipelines, multi-cluster management, preview environments, and ChatOps.
-  why_it_matters: It automates CI/CD workflows for Kubernetes applications, reducing the need for deep Kubernetes or Tekton expertise.
-  mental_damage: Finally, a way to automate Kubernetes deployments without becoming a Kubernetes expert—until you have to debug the automation.
+  summary: JayeX is a Kubernetes-based CI/CD platform that automates Tekton pipelines, GitOps workflows, preview environments, and ChatOps for pull requests.
+  why_it_matters: It reduces the operational overhead of setting up Kubernetes-native CI/CD by automating pipeline creation and environment management from GitOps principles.
+  mental_damage: Another CI/CD platform promising to abstract away Kubernetes complexity, just as developers finally start to understand it.
   tags:
-    - ci-cd
     - kubernetes
+    - cicd
     - gitops
     - tekton
     - devops
   confidence: high
 curation:
   status: excluded
-  reason: JayeX is a DevOps/CI-CD platform, not an AI-powered developer tool, and thus falls outside the catalog's scope of AI tools for software developers.
+  reason: JayeX is a DevOps infrastructure tool focused on CI/CD automation for Kubernetes, with no AI agent, coding assistant, or developer-facing AI workflow integration; it does not meet the catalog's scope for practical AI tools relevant to software developers.
   evidence:
-    - Primary product identity is a CI/CD platform built on Kubernetes with GitOps and Tekton pipelines
-    - No AI-specific functionality or developer-tooling angle mentioned in the description or scraped context
-    - Source-list context places it under DevOps and Infrastructure, not AI coding tools
+    - Repo description is missing; scraped site context identifies JayeX as 'Cloud Native CI/CD Built On Kubernetes' with features like Tekton pipelines, GitOps, preview environments, and ChatOps.
+    - No mention of AI, LLMs, agents, prompts, or intelligent automation in the README excerpt or site context—core functionality is declarative CI/CD and GitOps tooling.
+    - Listed in awesome-ai-coding-tools under 'DevOps and Infrastructure' section, but this placement reflects a broad or mistaken inclusion; the tool itself lacks AI-driven developer workflow enhancement.
 placement:
   primary_category: null
   section: null
@@ -71,24 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:34.300Z"
+    updated_at: "2026-09-28T04:29:41.015Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:63b45f1251089fd07a1e3675431356a74ecbfd7bb9afbd83921551ed37e1f356
+      category_rules_version: c367d6101132
+      input_hash: sha256:579f8c97c8409460518acaf7c7ce52a73b7c79408e23943255a07888b4a9fa93
       proposed_primary_category: null
       disagreement: false
-      decision_reason: JayeX is a DevOps/CI-CD platform, not an AI-powered developer tool, and thus falls outside the catalog's scope of AI tools for software developers.
+      decision_reason: JayeX is a DevOps infrastructure tool focused on CI/CD automation for Kubernetes, with no AI agent, coding assistant, or developer-facing AI workflow integration; it does not meet the catalog's scope for practical AI tools relevant to software developers.
       decision_evidence:
-        - Primary product identity is a CI/CD platform built on Kubernetes with GitOps and Tekton pipelines
-        - No AI-specific functionality or developer-tooling angle mentioned in the description or scraped context
-        - Source-list context places it under DevOps and Infrastructure, not AI coding tools
+        - Repo description is missing; scraped site context identifies JayeX as 'Cloud Native CI/CD Built On Kubernetes' with features like Tekton pipelines, GitOps, preview environments, and ChatOps.
+        - No mention of AI, LLMs, agents, prompts, or intelligent automation in the README excerpt or site context—core functionality is declarative CI/CD and GitOps tooling.
+        - Listed in awesome-ai-coding-tools under 'DevOps and Infrastructure' section, but this placement reflects a broad or mistaken inclusion; the tool itself lacks AI-driven developer workflow enhancement.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

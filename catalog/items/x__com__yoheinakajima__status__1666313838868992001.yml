@@ -36,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: BabyDeerAGI is a modified version of BabyAGI with parallel task execution, GPT-3.5-turbo support, user input tools, and web search query rewriting.
-  why_it_matters: It offers developers a lightweight, faster alternative to the original BabyAGI with practical improvements like parallel tasking and cost-effective model usage.
-  mental_damage: Because nothing says 'production-ready' like a 350-line agent that rewrites its own web searches.
+  summary: BabyDeerAGI is a ~350-line Python modification of BabyAGI that adds parallel task execution, user input handling, query rewriting for web search, and result saving.
+  why_it_matters: It demonstrates how lightweight, task-driven autonomous agents can be extended with practical capabilities like parallelism and user interaction using only GPT-3.5-turbo.
+  mental_damage: Another reminder that reinventing the agent wheel in 350 lines of code is both impressive and slightly tragic when you realize you’ll never finish your own side project.
   tags:
     - autonomous-agents
-    - task-automation
-    - gpt-3.5-turbo
-    - babyagi-fork
-  confidence: high
+    - task-driven
+    - python
+    - experimental
+  confidence: medium
 curation:
-  status: excluded
-  reason: The project is a fork/mod of BabyAGI (an autonomous agent framework) rather than a developer-facing coding assistant, IDE, extension, or tooling product.
+  status: included
+  reason: BabyDeerAGI is a lightweight autonomous agent that performs coding-related tasks via task planning and execution, fitting the coding agents category as a developer-facing agent that acts on goals through code and tool use.
   evidence:
-    - Described as a 'mod of OG @babyagi_' with added features like parallel tasks and GPT-3.5-turbo support
-    - Listed in 'awesome-ai-agents' under BabyDeerAGI, indicating its identity as an autonomous agent rather than developer tooling
-    - No repo description, stars, or activity signals to suggest it is a maintained developer tool
+    - Described as a 'mod of OG @babyagi_' with parallel tasks, user input tool, query rewrite in web search, and result saving
+    - Positioned as a task-driven autonomous agent that leverages GPT-3.5-turbo, web search, and LangChain to autonomously create and perform tasks based on an objective
+    - Listed in awesome-ai-agents under the BabyDeerAGI section as a mod of BabyAGI with enhanced capabilities
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: incubating
   reason: null
@@ -70,25 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:53.148Z"
+    updated_at: "2026-09-28T04:51:23.355Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a3385ad9fca45e973f48712e45f30b3988121e0e1e4dd1f2e848a906c28725cd
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:8f15da8053aa90e48d628932d1bd77ffad3a3661b9fb94879778ada1d0efe6e0
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The project is a fork/mod of BabyAGI (an autonomous agent framework) rather than a developer-facing coding assistant, IDE, extension, or tooling product.
+      decision_reason: BabyDeerAGI is a lightweight autonomous agent that performs coding-related tasks via task planning and execution, fitting the coding agents category as a developer-facing agent that acts on goals through code and tool use.
       decision_evidence:
-        - Described as a 'mod of OG @babyagi_' with added features like parallel tasks and GPT-3.5-turbo support
-        - Listed in 'awesome-ai-agents' under BabyDeerAGI, indicating its identity as an autonomous agent rather than developer tooling
-        - No repo description, stars, or activity signals to suggest it is a maintained developer tool
-      category_candidates: []
-      contrastive_reason: null
+        - Described as a 'mod of OG @babyagi_' with parallel tasks, user input tool, query rewrite in web search, and result saving
+        - Positioned as a task-driven autonomous agent that leverages GPT-3.5-turbo, web search, and LangChain to autonomously create and perform tasks based on an objective
+        - Listed in awesome-ai-agents under the BabyDeerAGI section as a mod of BabyAGI with enhanced capabilities
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because BabyDeerAGI is a single autonomous agent executing tasks, not a platform for coordinating multiple agents or managing agent workflows.
       review_reason: null
       review_resume_lifecycle: null

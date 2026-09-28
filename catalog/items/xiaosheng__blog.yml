@@ -36,23 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A technical blog covering machine learning, NLP, and practical LLM implementations like OpenAI API usage and Transformer architectures.
-  why_it_matters: Provides deep-dive tutorials and technical explanations on core AI concepts like Transformers, tokenization, and API integration.
-  mental_damage: A relentless reminder that you still need to understand how a Transformer works before you can effectively prompt one.
+  summary: A personal blog with no accessible content, returning a 404 error on the homepage.
+  why_it_matters: It does not matter to developers as there is no tool, resource, or accessible information provided.
+  mental_damage: Another AI-era vanity domain that exists only to remind you how many blogs promise insight and deliver nothing.
   tags:
-    - tutorials
-    - nlp
-    - machine-learning
-    - transformers
-    - llm
+    - blog
+    - dead-link
   confidence: high
 curation:
   status: excluded
-  reason: The project is a personal technical blog/tutorial hub rather than a standalone software tool or developer-facing product.
+  reason: The site returns a 404 error and offers no discernible content, tool, or developer-facing resource, making it impossible to assess as a tool or resource.
   evidence:
-    - Content consists of educational articles and tutorials (e.g., 'How to add new tokens to Transformers')
-    - Primary purpose is publishing technical insights and walkthroughs rather than providing a tool or service
-    - Matches the exclusion criteria for 'educational guides or media resources'
+    - The primary page excerpt shows '404 Not Found'
+    - No repo description, README, or meaningful site context was provided
+    - Listed in awesome-LLM-resources under '教程 Tutorial' but the linked resource is inaccessible
 placement:
   primary_category: null
   section: null
@@ -71,24 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:01.274Z"
+    updated_at: "2026-09-28T04:51:33.906Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b1fb2a39337094bef2fb2811c09e7e2dfa7bf6d13814c9c142c10cd8b7a5c7cc
+      category_rules_version: c367d6101132
+      input_hash: sha256:0cc6eeb2233ce7cc85df18e95830d632eeff98cb3fb87c897cb58a2f2866c4aa
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a personal technical blog/tutorial hub rather than a standalone software tool or developer-facing product.
+      decision_reason: The site returns a 404 error and offers no discernible content, tool, or developer-facing resource, making it impossible to assess as a tool or resource.
       decision_evidence:
-        - Content consists of educational articles and tutorials (e.g., 'How to add new tokens to Transformers')
-        - Primary purpose is publishing technical insights and walkthroughs rather than providing a tool or service
-        - Matches the exclusion criteria for 'educational guides or media resources'
+        - The primary page excerpt shows '404 Not Found'
+        - No repo description, README, or meaningful site context was provided
+        - Listed in awesome-LLM-resources under '教程 Tutorial' but the linked resource is inaccessible
       category_candidates: []
       contrastive_reason: null
       review_reason: null

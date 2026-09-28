@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kapeli__com__dash__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,11 +19,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Dash
         extracted_url: https://kapeli.com/dash
-        surrounding_text: >-
-          - [Kapeli/dash-mcp-server](https://github.com/Kapeli/dash-mcp-server) [![Kapeli/dash-mcp-server MCP
-          server](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server)
-          🐍 🏠 🍎 - MCP server for [Dash](https://kapeli.com/dash), the macOS API documentation browser. Instant search
-          over 200+ documentation sets.
+        surrounding_text: "- [Kapeli/dash-mcp-server](https://github.com/Kapeli/dash-mcp-server) [![Kapeli/dash-mcp-server MCP server](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server) 🐍 🏠 🍎 - MCP server for [Dash](https://kapeli.com/dash), the macOS API documentation browser. Instant search over 200+ documentation sets."
         confidence: high
 metadata:
   github:
@@ -41,41 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Dash is a macOS API documentation browser and code snippet manager with offline access to 200+ documentation sets
-    and MCP support for AI assistant integration.
-  why_it_matters: >-
-    It gives developers instant, offline access to extensive API documentation and integrates with AI assistants via MCP
-    to provide up-to-date context.
-  mental_damage: >-
-    Finally, a way to make your AI assistant stop hallucinating API parameters—by giving it the docs you already
-    downloaded but forgot about.
+  summary: Dash is an offline documentation browser and snippet manager for macOS and Windows that provides instant access to 200+ API docsets and supports MCP for AI integration.
+  why_it_matters: Developers can quickly reference documentation and expand code snippets without leaving their workflow, improving lookup speed and reducing context switching.
+  mental_damage: Another tool promising to save you time by adding yet another place to search when you're already drowning in tabs, docs, and AI assistants.
   tags:
     - documentation
-    - mcp
-    - macos
-    - offline
     - snippets
+    - offline
+    - mcp
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is a core feature of Dash, enabling AI assistants to access its documentation sets, making it a domain-specific
-    MCP server.
+  reason: MCP is a core feature of Dash, enabling AI assistants to access its documentation sets, making it a domain-specific MCP server.
   evidence:
     - Dash provides offline access to 200+ API documentation sets and explicitly features MCP support for AI integration
     - Listed in awesome-mcp-servers under Developer Tools as a server implementation
 placement:
   primary_category: memory-and-context
   secondary_categories: []
-  section: Retrieval & Fresh Docs
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'extensions-and-addons'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,32 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:28:48.167Z'
+    updated_at: "2026-09-28T04:30:34.325Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:c857d2c1e5169363acfa994463e52b577df2907520a6e4cdeb7b2ed29e81dd92
-      proposed_primary_category: mcp
-      disagreement: false
-      decision_reason: >-
-        MCP is a core feature of Dash, enabling AI assistants to access its documentation sets, making it a
-        domain-specific MCP server.
+      category_rules_version: c367d6101132
+      input_hash: sha256:81c6c310976989af7053b8e11b05e8457f19a9f5a1fb88b74baea959a85a9407
+      proposed_primary_category: extensions-and-addons
+      disagreement: true
+      decision_reason: Dash is primarily a documentation and snippet tool that integrates with IDEs and editors (like VS Code, Xcode, Vim) to enhance developer workflows, making it an extension/addon rather than a standalone coding agent or app builder.
       decision_evidence:
-        - >-
-          Dash provides offline access to 200+ API documentation sets and explicitly features MCP support for AI
-          integration
-        - Listed in awesome-mcp-servers under Developer Tools as a server implementation
+        - Dash provides instant offline access to 200+ API documentation sets and code snippets.
+        - Dash supports MCP for AI integration with Claude and other AI agents.
+        - Dash offers deep integration with IDEs/editors including Xcode, VS Code, Vim, Emacs, JetBrains, and more.
       category_candidates:
+        - extensions-and-addons
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because Dash's primary identity is a documentation tool that exposes its
-        capabilities via MCP, not an extension augmenting another assistant.
-      review_reason: null
+      contrastive_reason: Choose extensions-and-addons over mcp because Dash's core identity is as a documentation browser and snippet manager with IDE integrations, while MCP support is a feature for AI compatibility, not the product's primary purpose.
+      review_reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'extensions-and-addons'"
       review_resume_lifecycle: null

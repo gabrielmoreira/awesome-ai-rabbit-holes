@@ -37,23 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An open-source text-to-video diffusion model with high-fidelity motion and strong prompt adherence.
-  why_it_matters: It provides developers with a state-of-the-art video generation model under a permissive Apache 2.0 license, enabling integration into creative or multimedia workflows.
-  mental_damage: Now you can spend your GPU budget on generating videos of astronauts in jungles instead of fixing your actual bugs.
+  summary: An open-source, 10B parameter text-to-video diffusion model featuring an asymmetric diffusion transformer architecture.
+  why_it_matters: It provides high-fidelity, open-weights video generation capabilities for developers building generative media applications.
+  mental_damage: Another reason to spend your weekend troubleshooting VRAM requirements instead of actually shipping code.
   tags:
     - text-to-video
+    - open-weights
     - diffusion-model
-    - video-generation
-    - open-source
-    - multimedia
   confidence: high
 curation:
   status: excluded
-  reason: This is a raw model checkpoint for video generation, not a developer tool, framework, or workflow product within the catalog's scope.
+  reason: The project is a foundational video generation model rather than a tool designed to assist with coding, agent orchestration, or developer workflows.
   evidence:
-    - Primary artifact is a video generation model (text-to-video diffusion) with no developer-tooling identity
-    - Source-list context places it under 'Video > Models', reinforcing its model-first identity
-    - README and scraped context focus on model usage, architecture, and inference, not developer tooling
+    - The project's identity is a text-to-video diffusion model (Mochi 1).
+    - The documentation describes model architecture and weights rather than a developer-facing utility or runtime.
 placement:
   primary_category: null
   section: null
@@ -74,24 +71,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:54.520Z"
+    updated_at: "2026-09-28T04:26:24.448Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5d10d21b888e0712071144a3a68dbbc93f12d127b006da0a5e306edff5ab63ae
+      category_rules_version: c367d6101132
+      input_hash: sha256:491abb0d7b4acb272ede51e0251af5b7570aea2c9221de413d5e757d50999c46
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a raw model checkpoint for video generation, not a developer tool, framework, or workflow product within the catalog's scope.
+      decision_reason: The project is a foundational video generation model rather than a tool designed to assist with coding, agent orchestration, or developer workflows.
       decision_evidence:
-        - Primary artifact is a video generation model (text-to-video diffusion) with no developer-tooling identity
-        - Source-list context places it under 'Video > Models', reinforcing its model-first identity
-        - README and scraped context focus on model usage, architecture, and inference, not developer tooling
+        - The project's identity is a text-to-video diffusion model (Mochi 1).
+        - The documentation describes model architecture and weights rather than a developer-facing utility or runtime.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

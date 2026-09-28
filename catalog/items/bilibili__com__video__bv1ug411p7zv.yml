@@ -51,23 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A 137-video public course on large models by Tsinghua NLP's Liu Zhiyuan team, covering theory, practice, and applications like prompt learning, model training, and biomedical NLP.
-  why_it_matters: Provides structured, academic-grade education on LLM fundamentals and advanced topics for developers seeking deep technical grounding.
-  mental_damage: Finally, a way to spend 137 videos learning why your prompts still don’t work.
+  summary: A Bilibili video series from Tsinghua NLP Lab introducing large model theory and practice, covering topics from neural networks to biomedical NLP and legal AI applications.
+  why_it_matters: Provides a structured educational resource for developers to build foundational knowledge in LLMs and related AI systems.
+  mental_damage: Watching 137 videos to feel caught up in AI is the developer’s version of doomscrolling through a syllabus.
   tags:
-    - course
     - education
-    - llm-theory
-    - chinese
-    - academic
+    - llm
+    - nlp
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational video course, not a developer tool, framework, or workflow product.
+  reason: This is an educational lecture series, not a developer-facing AI tool, agent, framework, or infrastructure product; it lacks any interactive, automatable, or workflow-integrating functionality for software development.
   evidence:
-    - Source-list context explicitly labels it as a '课程 Course'
-    - Scraped site context describes it as a video course with 137 lectures
-    - No repo, no code, no tooling—purely educational media
+    - The resource is a Bilibili video course titled '清华 NLP 刘知远团队大模型公开课' with 137 lectures on LLM theory and practice.
+    - Scraped content shows it covers academic topics like Transformers, Prompt Tuning, BMTrain, and biomedical NLP — all presented as lectures, not tools.
+    - No evidence of code, CLI, API, SDK, agent behavior, or workflow integration; it is purely instructional content.
 placement:
   primary_category: null
   section: null
@@ -77,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:45.403Z"
+    updated_at: "2026-09-28T04:39:22.263Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:8558ae2ce0d13ad91fb4f05d527e327000776586946615d0678d151365ca5635
+      category_rules_version: c367d6101132
+      input_hash: sha256:e7b0481e7f1ac337d43e91837cfc602d63a03d7df942254c5fef9db91177a8ea
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational video course, not a developer tool, framework, or workflow product.
+      decision_reason: This is an educational lecture series, not a developer-facing AI tool, agent, framework, or infrastructure product; it lacks any interactive, automatable, or workflow-integrating functionality for software development.
       decision_evidence:
-        - Source-list context explicitly labels it as a '课程 Course'
-        - Scraped site context describes it as a video course with 137 lectures
-        - No repo, no code, no tooling—purely educational media
+        - The resource is a Bilibili video course titled '清华 NLP 刘知远团队大模型公开课' with 137 lectures on LLM theory and practice.
+        - Scraped content shows it covers academic topics like Transformers, Prompt Tuning, BMTrain, and biomedical NLP — all presented as lectures, not tools.
+        - No evidence of code, CLI, API, SDK, agent behavior, or workflow integration; it is purely instructional content.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

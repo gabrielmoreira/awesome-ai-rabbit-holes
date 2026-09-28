@@ -36,22 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An introductory online course by Andrew Ng teaching generative AI fundamentals, use cases, and business/societal impacts.
-  why_it_matters: Provides non-technical professionals and business leaders with foundational knowledge of generative AI, including practical applications and strategic considerations.
-  mental_damage: Another course promising to make you AI-literate without writing a line of code, because apparently knowing how to prompt is now a career skill.
+  summary: Generative AI for Everyone is an introductory Coursera course by Andrew Ng that explains generative AI concepts, tools, and real-world applications for non-technical audiences.
+  why_it_matters: It provides developers with a foundational understanding of generative AI to better collaborate with non-technical teams and evaluate AI tools in business contexts.
+  mental_damage: Watching yet another 'AI for everyone' course makes you wonder if the real skill is learning how to politely nod while your manager talks about transforming synergies.
   tags:
-    - course
     - education
-    - generative-ai
-    - non-technical
+    - ai-literacy
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational course, not a developer tool, framework, or workflow product; it falls outside the catalog's scope of practical AI tools for software developers.
+  reason: This is an educational resource with no developer-facing tooling, agent behavior, or workflow integration — it teaches about AI but does not assist in building, running, or evaluating AI systems.
   evidence:
-    - Course description explicitly targets non-developers ('no coding skills or prior knowledge of AI required')
-    - Primary value is education and strategy, not developer-tooling or workflow augmentation
-    - No evidence of code-first artifacts, SDKs, or developer-facing integrations
+    - The course is designed for anyone interested in generative AI, explicitly stating it does not require coding skills or prior AI knowledge.
+    - Learning objectives focus on understanding AI impacts, use cases, and strategy — not coding, agent orchestration, prompt engineering as a tool, or app generation.
+    - No GitHub repo, CLI, SDK, or deployable artifact is associated; it is purely a video-based Coursera offering.
 placement:
   primary_category: null
   section: null
@@ -70,24 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:59.695Z"
+    updated_at: "2026-09-28T04:30:58.893Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1666caf14abc9725b7ca8e4c4b75dcf3673de95af7ed876ebb44ffd1bc0d9b54
+      category_rules_version: c367d6101132
+      input_hash: sha256:61ecd2f2aa1fab941f99e341dd75a1c9b01c4fb180fa21b85a28ae8dec2c41e0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational course, not a developer tool, framework, or workflow product; it falls outside the catalog's scope of practical AI tools for software developers.
+      decision_reason: This is an educational resource with no developer-facing tooling, agent behavior, or workflow integration — it teaches about AI but does not assist in building, running, or evaluating AI systems.
       decision_evidence:
-        - Course description explicitly targets non-developers ('no coding skills or prior knowledge of AI required')
-        - Primary value is education and strategy, not developer-tooling or workflow augmentation
-        - No evidence of code-first artifacts, SDKs, or developer-facing integrations
+        - The course is designed for anyone interested in generative AI, explicitly stating it does not require coding skills or prior AI knowledge.
+        - Learning objectives focus on understanding AI impacts, use cases, and strategy — not coding, agent orchestration, prompt engineering as a tool, or app generation.
+        - No GitHub repo, CLI, SDK, or deployable artifact is associated; it is purely a video-based Coursera offering.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

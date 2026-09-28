@@ -53,27 +53,27 @@ metadata:
       fetched_at: "2026-09-24T04:12:57.973Z"
       bytes: 10518
 insights:
-  summary: An open-source relay protocol and binary for remotely accessing terminal-based coding agents via a browser or phone.
-  why_it_matters: It allows developers to maintain a persistent, mobile-accessible connection to their local AI coding sessions without the security overhead of SSH or VPNs.
-  mental_damage: Because your terminal-based coding agent still hasn't quite achieved its dream of being a mobile-first social media app.
+  summary: An open-source relay enabling remote terminal access to coding agents like Claude Code via a self-hosted WebSocket proxy.
+  why_it_matters: Lets developers securely run local terminal-based AI agents from any browser or phone without opening inbound ports or using SSH.
+  mental_damage: Finally, a way to feel productive while pretending your laptop is a cloud server you can SSH into from the toilet.
   tags:
-    - claude-code
     - remote-access
-    - terminal
-    - session-management
+    - claude-code
+    - terminal-proxy
     - self-hosted
+    - websocket
   confidence: high
 curation:
-  status: included
-  reason: The tool functions as a connectivity layer that augments existing terminal agents with remote access capabilities rather than acting as the assistant itself.
+  status: excluded
+  reason: termlink-relay is infrastructure for remote terminal access, not a coding agent itself; it enables agents but does not perform coding tasks.
   evidence:
-    - Provides remote access for Claude Code, Codex CLI, and Cursor Agent
-    - Uses a relay/host/client architecture to bypass SSH and VPN requirements
-    - Repo is an open-source subset of the commercial TermLink product
+    - "Repo description: 'Remote access and session management for Claude Code'"
+    - "README: 'connection protocol and a single termrelay binary that speaks it'"
+    - "Source-list context: listed under 'Session managers & parallel runners' in awesome-cli-coding-agents"
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -89,30 +89,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-28T04:55:33.006Z"
+    cause: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3706841a4ec68910e557679e4a4f098bf9c97f351ba70b49d8a56380f2d92565
-      proposed_primary_category: ai-dev-extensions
+      category_rules_version: c367d6101132
+      input_hash: sha256:6a494e4979ff46f95bfe893e901d6d5a41d1ee9c473ef29c9bdaf71253eaf5c7
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool functions as a connectivity layer that augments existing terminal agents with remote access capabilities rather than acting as the assistant itself.
+      decision_reason: termlink-relay is infrastructure for remote terminal access, not a coding agent itself; it enables agents but does not perform coding tasks.
       decision_evidence:
-        - Provides remote access for Claude Code, Codex CLI, and Cursor Agent
-        - Uses a relay/host/client architecture to bypass SSH and VPN requirements
-        - Repo is an open-source subset of the commercial TermLink product
-      category_candidates:
-        - ai-dev-extensions
-        - agent-orchestration
-      contrastive_reason: Choose ai-dev-extensions over agent-orchestration because the tool is a specialized connectivity extension for remote session access rather than a control plane for coordinating multiple autonomous agents.
+        - "Repo description: 'Remote access and session management for Claude Code'"
+        - "README: 'connection protocol and a single termrelay binary that speaks it'"
+        - "Source-list context: listed under 'Session managers & parallel runners' in awesome-cli-coding-agents"
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null

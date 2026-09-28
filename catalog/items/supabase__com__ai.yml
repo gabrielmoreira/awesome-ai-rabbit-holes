@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Supabase's AI service offering for integrating AI capabilities into applications.
-  why_it_matters: Provides developers with managed AI infrastructure and APIs to add AI features to their apps without building from scratch.
-  mental_damage: Now you can add AI to your Supabase project, because apparently your database wasn't already doing enough.
+  summary: Supabase's AI landing page offering resources and tools for building AI applications using their platform.
+  why_it_matters: Provides developers with a centralized hub to access Supabase-integrated AI tutorials, templates, and services for faster AI app development.
+  mental_damage: Another 'AI solutions' page that makes you wonder if clicking through will actually save time or just add another tab to your ever-growing AI tool graveyard.
   tags:
-    - ai-api
+    - ai
     - supabase
-    - backend
-    - database
+    - resources
   confidence: high
 curation:
   status: excluded
-  reason: This is a hosted AI service/API offering from Supabase, not a developer tool, extension, or workflow product in the catalog's scope.
+  reason: The Supabase AI page is a resource hub and marketing landing page, not a standalone developer tool, agent, or infrastructure product with clear utility for coding workflows.
   evidence:
-    - Source-list context places it under 'Database and API Tools' in awesome-ai-coding-tools
-    - URL points to Supabase's AI product page, not a standalone tool or repo
+    - URL is a Supabase.com subdomain with no GitHub repo, indicating it's a documentation or marketing page
+    - No repo description, stars, or activity signals suggest it's not a tool under active development
+    - Source-list context shows it's only listed in 'awesome-ai-coding-tools' under 'Database and API Tools' as a referral, not as a primary tool
 placement:
   primary_category: null
   section: null
@@ -69,23 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:21.462Z"
+    updated_at: "2026-09-28T04:38:36.200Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0c0e17f6371b20568cc7c8c9f46345a5c3d5d671a56c3aac36a98b551bdd7596
+      category_rules_version: c367d6101132
+      input_hash: sha256:48abcfd42dddf3f5022a865a70dd0184ab820dd76bbd19d2c82544e1033b69de
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a hosted AI service/API offering from Supabase, not a developer tool, extension, or workflow product in the catalog's scope.
+      decision_reason: The Supabase AI page is a resource hub and marketing landing page, not a standalone developer tool, agent, or infrastructure product with clear utility for coding workflows.
       decision_evidence:
-        - Source-list context places it under 'Database and API Tools' in awesome-ai-coding-tools
-        - URL points to Supabase's AI product page, not a standalone tool or repo
+        - URL is a Supabase.com subdomain with no GitHub repo, indicating it's a documentation or marketing page
+        - No repo description, stars, or activity signals suggest it's not a tool under active development
+        - Source-list context shows it's only listed in 'awesome-ai-coding-tools' under 'Database and API Tools' as a referral, not as a primary tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__magicloops__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Magic Loops
         anchor_text: Magic Loops
         extracted_url: https://magicloops.dev
-        surrounding_text: '## [Magic Loops](https://magicloops.dev/)'
+        surrounding_text: "## [Magic Loops](https://magicloops.dev/)"
         confidence: high
     - id: discovery__magicloops__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,9 +33,7 @@ provenance:
           - App Builders
         anchor_text: MagicLoops
         extracted_url: https://magicloops.dev
-        surrounding_text: >-
-          - **[MagicLoops](https://magicloops.dev)** – No-code platform for creating apps in minutes from text
-          instructions.
+        surrounding_text: "- **[MagicLoops](https://magicloops.dev)** – No-code platform for creating apps in minutes from text instructions."
         confidence: high
 metadata:
   github:
@@ -53,39 +51,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A no-code platform for building AI-native apps by combining LLMs and code into simple automations.
-  why_it_matters: >-
-    Lets developers and non-developers create and deploy AI-powered apps without writing code, focusing on prompt-to-app
-    workflows.
-  mental_damage: >-
-    Finally, a way to build apps without coding—just in time for everyone to realize they still need to debug the LLM’s
-    hallucinations.
+  summary: Magic Loops is a no-code platform that combines LLMs and code to create simple automations and AI-native apps from prompts.
+  why_it_matters: It lets developers and non-developers turn natural language into deployable utilities, dashboards, or tools without writing code or managing infrastructure.
+  mental_damage: Another prompt-to-app abstraction layer that promises to replace your job with a slider and a prayer.
   tags:
-    - no-code
     - app-builder
-    - ai-automation
-    - prompt-to-app
+    - no-code
+    - llm
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is turning prompts into deployed apps, aligning with the App Builders category's focus
-    on prompt-to-app workflows.
+  reason: Magic Loops fits the app-builder category because its core loop is turning prompts into deployable apps and automations from a blank slate, not editing existing codebases.
   evidence:
-    - 'Site description: ''Combine LLMs and code to create simple automations'''
-    - 'Tagline: ''Build Apps without coding'''
-    - 'Source-list context: Listed under ''App Builders'' in awesome-ai-coding-tools'
+    - The site describes itself as a 'no-code, all-code platform that builds professional AI-native apps in minutes'
+    - Source lists place it in the App Builders section of awesome-ai-coding-tools and the Magic Loops section of awesome-ai-agents
+    - The showcased examples are end-user apps like expense trackers, idea generators, and image transformers — not code editors or agents
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: Full App Builders
+  section: Internal Tools & Dashboards
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.597Z'
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
@@ -94,31 +85,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:29:21.498Z'
+    updated_at: "2026-09-28T04:32:03.152Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:117694e25897fbd72848165934f1c1340f0792a75959be2b2e43af1256bb0f78
+      category_rules_version: c367d6101132
+      input_hash: sha256:d1304656a0a5107b148c10de03d97fd7da4fd361c30e7ce88a272938bf1b4d59
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        The product's core identity is turning prompts into deployed apps, aligning with the App Builders category's
-        focus on prompt-to-app workflows.
+      decision_reason: Magic Loops fits the app-builder category because its core loop is turning prompts into deployable apps and automations from a blank slate, not editing existing codebases.
       decision_evidence:
-        - 'Site description: ''Combine LLMs and code to create simple automations'''
-        - 'Tagline: ''Build Apps without coding'''
-        - 'Source-list context: Listed under ''App Builders'' in awesome-ai-coding-tools'
+        - The site describes itself as a 'no-code, all-code platform that builds professional AI-native apps in minutes'
+        - Source lists place it in the App Builders section of awesome-ai-coding-tools and the Magic Loops section of awesome-ai-agents
+        - The showcased examples are end-user apps like expense trackers, idea generators, and image transformers — not code editors or agents
       category_candidates:
         - app-builders
-        - agent-orchestration
-      contrastive_reason: >-
-        Choose app-builders over agent-orchestration because the primary value is creating end-user apps from prompts,
-        not coordinating multiple agents.
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because Magic Loops generates new apps from prompts rather than acting as an autonomous coding assistant that edits existing repositories.
       review_reason: null
       review_resume_lifecycle: null

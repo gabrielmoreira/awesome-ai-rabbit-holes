@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OpenAI's official website and platform for accessing its AI models and APIs.
-  why_it_matters: Provides developers with access to foundational models and APIs that power many AI coding tools and integrations.
-  mental_damage: The one place where every developer suddenly remembers they have an API key they’re not using.
+  summary: OpenAI is an AI research and deployment company providing large language models like GPT via API services.
+  why_it_matters: Developers use OpenAI's models as foundational components for building AI-powered applications and agents.
+  mental_damage: Relying on a single vendor for model access creates lock-in anxiety masked as convenience.
   tags:
-    - ai-platform
-    - model-provider
+    - llm
     - api
+    - ai-provider
   confidence: high
 curation:
   status: excluded
-  reason: OpenAI is a model provider and platform, not a developer tooling product in the catalog's scope (coding agents, IDEs, extensions, etc.).
+  reason: OpenAI is a model provider and API service, not a developer-facing tool, agent, or infrastructure product that directly aids coding workflows.
   evidence:
-    - Source-list context places it under 'Code Models' in awesome-ai-coding-tools, but the catalog excludes raw model providers
-    - No repo description or README indicates a developer-tooling product identity
-    - Primary identity is a model/API platform, not a coding assistant, IDE, extension, or workflow tool
+    - "Repo description: (none)"
+    - "Source-list context: listed in awesome-ai-coding-tools under 'Code Models' section"
+    - No evidence of being a coding agent, app builder, framework, or developer tool
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:16.808Z"
+    updated_at: "2026-09-28T04:33:58.255Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:aa2a43d946bf52952b9e8f79745c9822a1b7771600e806c5030bd1f7ee36685c
+      category_rules_version: c367d6101132
+      input_hash: sha256:fc1fb4a9ee8806b8ea614058931e93c3c03e799d17262fccf0ec827aba7d0170
       proposed_primary_category: null
       disagreement: false
-      decision_reason: OpenAI is a model provider and platform, not a developer tooling product in the catalog's scope (coding agents, IDEs, extensions, etc.).
+      decision_reason: OpenAI is a model provider and API service, not a developer-facing tool, agent, or infrastructure product that directly aids coding workflows.
       decision_evidence:
-        - Source-list context places it under 'Code Models' in awesome-ai-coding-tools, but the catalog excludes raw model providers
-        - No repo description or README indicates a developer-tooling product identity
-        - Primary identity is a model/API platform, not a coding assistant, IDE, extension, or workflow tool
+        - "Repo description: (none)"
+        - "Source-list context: listed in awesome-ai-coding-tools under 'Code Models' section"
+        - No evidence of being a coding agent, app builder, framework, or developer tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

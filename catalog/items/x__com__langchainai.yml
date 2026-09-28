@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The official X/Twitter account for LangChain, a framework for building applications with large language models.
-  why_it_matters: LangChain provides developers with modular components and chains for integrating LLMs into applications, simplifying complex workflows.
-  mental_damage: Another framework to learn before you can finally ship that side project you’ve been procrastinating on for years.
+  summary: LangChainAI is the official X (Twitter) account for the LangChain framework, sharing updates and community content.
+  why_it_matters: It serves as a news and announcements channel for developers using LangChain to build AI applications.
+  mental_damage: Following yet another AI framework's social feed adds to the noise of trying to stay updated without missing a breaking change.
   tags:
+    - news
     - framework
-    - llm
-    - ai-sdk
-    - langchain
+    - social-media
   confidence: high
 curation:
   status: excluded
-  reason: This is a social media account, not a standalone developer tool, framework, or product.
+  reason: The X account is a communication channel for an existing framework, not a standalone developer tool or product that fits any catalog category.
   evidence:
-    - URL points to an X/Twitter profile, not a repo or product page
-    - No repo description, README, or scraped site context indicating a usable tool
-    - Source-list context references it as part of an 'awesome-langchain' list, but the item itself is not a tool
+    - Source-list shows it is only listed in 'awesome-langchain' as a reference to the LangChain Framework
+    - Scraped site context from X.com shows only a generic error page, confirming it is a social media profile
+    - No repo description, README, or product details are provided to indicate tooling functionality
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:35.169Z"
+    updated_at: "2026-09-28T04:50:55.941Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:fe2064d8e008acadbb6cf3ead7a0cca424b8c43f24cfb358611fcf96f137353f
+      category_rules_version: c367d6101132
+      input_hash: sha256:062159715b6a903fdcb90683edc41ade90a8d79aa00bad531cfc498df4119ce1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a social media account, not a standalone developer tool, framework, or product.
+      decision_reason: The X account is a communication channel for an existing framework, not a standalone developer tool or product that fits any catalog category.
       decision_evidence:
-        - URL points to an X/Twitter profile, not a repo or product page
-        - No repo description, README, or scraped site context indicating a usable tool
-        - Source-list context references it as part of an 'awesome-langchain' list, but the item itself is not a tool
+        - Source-list shows it is only listed in 'awesome-langchain' as a reference to the LangChain Framework
+        - Scraped site context from X.com shows only a generic error page, confirming it is a social media profile
+        - No repo description, README, or product details are provided to indicate tooling functionality
       category_candidates: []
       contrastive_reason: null
       review_reason: null

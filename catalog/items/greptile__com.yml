@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__greptile__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Greptile
         extracted_url: https://greptile.com/code-review-bot
-        surrounding_text: '- **[Greptile](https://greptile.com/code-review-bot)** – AI bot for in-depth code review and PR analysis.'
+        surrounding_text: "- **[Greptile](https://greptile.com/code-review-bot)** – AI bot for in-depth code review and PR analysis."
         confidence: high
     - id: discovery__www__greptile__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Greptile
         extracted_url: https://greptile.com/code-review-bot
-        surrounding_text: '- **[Greptile](https://greptile.com/code-review-bot)** – AI bot for in-depth code review and PR analysis.'
+        surrounding_text: "- **[Greptile](https://greptile.com/code-review-bot)** – AI bot for in-depth code review and PR analysis."
         confidence: high
 metadata:
   github:
@@ -51,25 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AI-powered code review platform that analyzes pull requests with full codebase context using a swarm of agents.
-  why_it_matters: Automates PR reviews to catch bugs, style violations, and security risks faster than human reviewers alone.
-  mental_damage: Finally, a tool that can nag about your code quality without the existential dread of a human reviewer.
+  summary: Greptile is an AI-powered code review agent that analyzes pull requests using a graph-indexed codebase and a swarm of specialized agents to catch bugs, style issues, and logical errors.
+  why_it_matters: It reduces the cognitive load of manual PR review by providing context-aware feedback that catches multi-file bugs and improves code quality before merge.
+  mental_damage: Finally, an AI reviewer that doesn’t just complain about missing semicolons but actually understands why your refactor broke the auth flow three files deep.
   tags:
-    - code-review
-    - ai-agents
-    - pr-automation
-    - static-analysis
-    - enterprise
+    - ai-code-review
+    - pull-requests
+    - code-quality
   confidence: high
 curation:
   status: included
-  reason: >-
-    Greptile is a primary coding assistant focused on reviewing, testing, and validating code changes in PR workflows,
-    fitting the 'Review, Testing & Repair Agents' section.
+  reason: Greptile functions as an autonomous coding agent whose primary identity is reviewing and improving code via PR analysis, fitting the coding-agents category due to its direct action on codebases and diff-level intervention.
   evidence:
-    - Described as 'AI Code Reviews that understand your entire codebase' with swarm-of-agents analysis
-    - Core functionality includes indexing codebases, reviewing PRs, and learning team standards
-    - Source-list context places it in 'Code Review and Refactoring' section
+    - AI agents that review and test pull requests with full context of the codebase.
+    - Constructs a graph index of your codebase, then uses a swarm of agents to review changes and flag issues.
+    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring' as an AI-powered coding tool.
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -80,42 +76,36 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:34:52.230Z'
+    updated_at: "2026-09-28T04:41:43.606Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:9ad6937a3904ccf7dbbea44f41222bcdc226ef01df083a3a9ca9538966003d8f
+      category_rules_version: c367d6101132
+      input_hash: sha256:bf4870614a7053222e0cd31deb42ff2d6473e028c11d64299e18f7af18265ebc
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        Greptile is a primary coding assistant focused on reviewing, testing, and validating code changes in PR
-        workflows, fitting the 'Review, Testing & Repair Agents' section.
+      decision_reason: Greptile functions as an autonomous coding agent whose primary identity is reviewing and improving code via PR analysis, fitting the coding-agents category due to its direct action on codebases and diff-level intervention.
       decision_evidence:
-        - Described as 'AI Code Reviews that understand your entire codebase' with swarm-of-agents analysis
-        - Core functionality includes indexing codebases, reviewing PRs, and learning team standards
-        - Source-list context places it in 'Code Review and Refactoring' section
+        - AI agents that review and test pull requests with full context of the codebase.
+        - Constructs a graph index of your codebase, then uses a swarm of agents to review changes and flag issues.
+        - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring' as an AI-powered coding tool.
       category_candidates:
         - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because Greptile is a standalone PR review assistant, not merely an
-        extension for another coding tool.
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Greptile acts as a primary coding agent performing autonomous PR review, not merely extending another agent’s capabilities.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.966Z'
+    updated_at: "2026-07-21T15:20:21.966Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending

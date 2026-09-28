@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__webflow__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - App Builders
         anchor_text: Webflow AI
         extracted_url: https://webflow.com/ai
-        surrounding_text: >-
-          - **[Webflow AI](https://webflow.com/ai)** – AI features within Webflow for automated design and content
-          generation.
+        surrounding_text: "- **[Webflow AI](https://webflow.com/ai)** – AI features within Webflow for automated design and content generation."
         confidence: high
 metadata:
   github:
@@ -38,42 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Webflow AI is a suite of AI-powered features embedded in the Webflow platform for building, managing, and optimizing
-    websites.
-  why_it_matters: >-
-    It accelerates web development workflows by generating sites, code components, copy, and CMS content directly within
-    Webflow, reducing repetitive tasks for developers and designers.
-  mental_damage: >-
-    Now you can generate entire websites from a prompt, but you’ll still spend hours tweaking the CSS to make it look
-    *exactly* like the Figma mock.
+  summary: Webflow AI is a suite of generative AI features embedded in the Webflow platform for building, managing, and optimizing websites.
+  why_it_matters: It lets developers and designers accelerate site creation, generate code/components, and optimize content using AI without leaving Webflow.
+  mental_damage: Another website builder slapping 'AI' on its existing features and calling it innovation.
   tags:
-    - website-builder
-    - ai-site-generator
-    - no-code
     - webflow
-    - prompt-to-site
+    - site-builder
+    - ai-features
   confidence: high
 curation:
-  status: included
-  reason: >-
-    The core product identity is a prompt-to-site builder and AI-assisted web development platform, not a primary coding
-    assistant or extension.
+  status: excluded
+  reason: Webflow AI is a feature set within a visual site builder, not a standalone developer tool for coding agents, app generation, or workflow orchestration.
   evidence:
-    - Primary page excerpt describes AI site builder generating entire websites from prompts
-    - Source-list context places it in 'App Builders' section
-    - Features include generating sites, code components, and CMS content from prompts
+    - "From source-list context: listed under 'App Builders' in awesome-ai-coding-tools with description 'Learn how Webflow can help you elevate web experiences with the power of AI'"
+    - "From README excerpt: Webflow AI helps 'build a site, modify page designs, generate copy, generate code, and optimize for conversion' — all within the Webflow platform"
+    - "From scraped site context: Primary identity is Webflow platform with AI features like site builder, code components, CMS generation, and AEO/SEO optimization"
 placement:
-  primary_category: app-builders
+  primary_category: null
   secondary_categories: []
-  section: Site & Landing Page Builders
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,31 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:39:00.177Z'
+    updated_at: "2026-09-28T04:49:31.568Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:aef540475a87508b92ad3f74d8f882744493a1426ba73ab53cda1687fd95100f
-      proposed_primary_category: app-builders
+      category_rules_version: c367d6101132
+      input_hash: sha256:ec9c7248609c4125bc48e5c52319d2b26c51e29d16c979c918d960e38463dda8
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The core product identity is a prompt-to-site builder and AI-assisted web development platform, not a primary
-        coding assistant or extension.
+      decision_reason: Webflow AI is a feature set within a visual site builder, not a standalone developer tool for coding agents, app generation, or workflow orchestration.
       decision_evidence:
-        - Primary page excerpt describes AI site builder generating entire websites from prompts
-        - Source-list context places it in 'App Builders' section
-        - Features include generating sites, code components, and CMS content from prompts
-      category_candidates:
-        - app-builders
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose app-builders over ai-dev-extensions because the main surface turns prompts into websites rather than
-        augmenting another coding tool.
+        - "From source-list context: listed under 'App Builders' in awesome-ai-coding-tools with description 'Learn how Webflow can help you elevate web experiences with the power of AI'"
+        - "From README excerpt: Webflow AI helps 'build a site, modify page designs, generate copy, generate code, and optimize for conversion' — all within the Webflow platform"
+        - "From scraped site context: Primary identity is Webflow platform with AI features like site builder, code components, CMS generation, and AEO/SEO optimization"
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

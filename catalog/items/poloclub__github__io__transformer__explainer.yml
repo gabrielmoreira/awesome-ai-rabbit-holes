@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An interactive visualization tool that explains how transformer models (like GPT) work by demonstrating tokenization, attention mechanisms, and next-token prediction in a live GPT-2 model.
-  why_it_matters: Helps developers intuitively grasp the internals of transformer architectures, which is foundational for debugging, fine-tuning, or building with LLMs.
-  mental_damage: Finally, a way to see why your model hallucinates—just watch the attention heads ignore your prompt entirely.
+  summary: Transformer Explainer is an interactive visualization tool that demonstrates how transformer models work in LLMs like GPT using a live GPT-2 small model in the browser.
+  why_it_matters: It helps developers intuitively understand transformer internals — attention, embeddings, and token generation — through hands-on exploration of a real model.
+  mental_damage: Finally, a way to visualize attention weights without pretending you understand the math while nodding along in paper reading groups.
   tags:
     - education
-    - transformers
     - visualization
-    - gpt-2
+    - transformers
+    - llm
     - interactive
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational visualization tool for understanding transformer internals, not a developer tool for building, integrating, or operating AI workflows.
+  reason: Transformer Explainer is an educational resource for understanding model architecture, not a developer-facing AI tool for coding, agents, workflows, or infrastructure.
   evidence:
-    - Primary product is an interactive explainer for transformer architecture (GPT-2) with no coding/agent/workflow utility
-    - Source-list context places it under 'Course' (educational) rather than developer tooling
-    - No evidence of repo activity, stars, or developer-facing integration
+    - Scraped site context describes it as 'an interactive visualization tool showing you how transformer models work in large language models (LLM) like GPT'
+    - Source-list context places it in 'awesome-LLM-resources' under '课程 Course' (Course section), indicating educational intent
+    - No evidence of coding assistance, agent behavior, workflow integration, or tooling for software development tasks
 placement:
   primary_category: null
   section: null
@@ -73,24 +73,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:36.599Z"
+    updated_at: "2026-09-28T04:34:44.198Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:01a40e64b00fd3d884248becbfa666aad780f986bd0e68eb42e6ac1bc25bc6ce
+      category_rules_version: c367d6101132
+      input_hash: sha256:d193e5f16e5e59596beb7691a8ff0c2ba4a1217bf86916302f9e071c089df171
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational visualization tool for understanding transformer internals, not a developer tool for building, integrating, or operating AI workflows.
+      decision_reason: Transformer Explainer is an educational resource for understanding model architecture, not a developer-facing AI tool for coding, agents, workflows, or infrastructure.
       decision_evidence:
-        - Primary product is an interactive explainer for transformer architecture (GPT-2) with no coding/agent/workflow utility
-        - Source-list context places it under 'Course' (educational) rather than developer tooling
-        - No evidence of repo activity, stars, or developer-facing integration
+        - Scraped site context describes it as 'an interactive visualization tool showing you how transformer models work in large language models (LLM) like GPT'
+        - Source-list context places it in 'awesome-LLM-resources' under '课程 Course' (Course section), indicating educational intent
+        - No evidence of coding assistance, agent behavior, workflow integration, or tooling for software development tasks
       category_candidates: []
       contrastive_reason: null
       review_reason: null

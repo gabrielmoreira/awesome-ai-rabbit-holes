@@ -53,51 +53,52 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OpsLevel is an internal developer portal that unifies tools, knowledge, and tasks to improve developer experience and software standards.
-  why_it_matters: It helps engineering teams automate code maintenance, enforce standards, and centralize visibility across their tech stack.
-  mental_damage: Because nothing says 'developer autonomy' like another platform to manage your platforms.
+  summary: OpsLevel is an internal developer portal that provides a unified catalog, scorecards, workflows, and AI-powered context to improve developer experience and software standards.
+  why_it_matters: It centralizes service ownership, documentation, and workflows so developers spend less time hunting for context and more time coding.
+  mental_damage: Yet another portal promising to be the single pane of glass, adding yet another tab to the developer's context-switching hell.
   tags:
     - internal-developer-portal
-    - software-catalog
-    - dev-productivity
-    - platform-engineering
-  confidence: high
+    - developer-experience
+    - service-catalog
+  confidence: medium
 curation:
-  status: excluded
-  reason: OpsLevel is a broad SaaS platform for internal developer portals and software catalogs, not a developer-facing AI tool, framework, or workflow product.
+  status: included
+  reason: OpsLevel is an internal developer portal platform, not a developer-facing AI tool or infrastructure; it belongs in curated lists as a navigation aid for engineering teams evaluating IDPs.
   evidence:
-    - Primary product is an internal developer portal (not AI-first)
-    - Source-list context shows it as a general developer tool, not AI-specific
-    - No evidence of AI coding, orchestration, or prompt/context engineering as core functionality
+    - Scraped site context describes OpsLevel as an internal developer portal unifying tools, knowledge, and tasks
+    - Features include service catalog, scorecards, workflows, and AI-powered context layer, but no AI agent or tooling that developers directly use for coding tasks
+    - No evidence of being a coding agent, app builder, framework, or MCP server; it is a SaaS platform for platform engineering and developer productivity
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Ecosystem Maps & Landscapes
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:03.124Z"
+    updated_at: "2026-09-28T04:43:36.652Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7145b9a3ea82c2e7bd16b90e61cb7a68a740b570061c217a9ca1efc951d0d26c
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:d42abf5ed6935195e43e9a075cba2ff81c18cd9ca4d060df6cc12e2e2a4ed344
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: OpsLevel is a broad SaaS platform for internal developer portals and software catalogs, not a developer-facing AI tool, framework, or workflow product.
+      decision_reason: OpsLevel is an internal developer portal platform, not a developer-facing AI tool or infrastructure; it belongs in curated lists as a navigation aid for engineering teams evaluating IDPs.
       decision_evidence:
-        - Primary product is an internal developer portal (not AI-first)
-        - Source-list context shows it as a general developer tool, not AI-specific
-        - No evidence of AI coding, orchestration, or prompt/context engineering as core functionality
-      category_candidates: []
-      contrastive_reason: null
+        - Scraped site context describes OpsLevel as an internal developer portal unifying tools, knowledge, and tasks
+        - Features include service catalog, scorecards, workflows, and AI-powered context layer, but no AI agent or tooling that developers directly use for coding tasks
+        - No evidence of being a coding agent, app builder, framework, or MCP server; it is a SaaS platform for platform engineering and developer productivity
+      category_candidates:
+        - awesome-awesomes
+        - agent-orchestration
+      contrastive_reason: Choose awesome-awesomes over agent-orchestration because OpsLevel is an internal developer portal platform, not a tool for coordinating multiple AI agents or managing agent workflows.
       review_reason: null
       review_resume_lifecycle: null
   discover:

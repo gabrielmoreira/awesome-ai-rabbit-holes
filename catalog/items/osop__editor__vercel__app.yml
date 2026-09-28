@@ -37,19 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Vercel-hosted web app whose only discernible identity is the title 'My Google AI Studio App'; no description, README, or product claims are available.
-  why_it_matters: There is no extractable developer value proposition from the provided signals.
-  mental_damage: When the entire product page is just the default title of an exported Google AI Studio app, you start to suspect the rabbit hole has collapsed into a singularity.
-  tags:
-    - unverified
+  summary: osop-editor.vercel.app is a Vercel-hosted Google AI Studio app with no clear developer-tooling identity.
+  why_it_matters: It does not meaningfully change how developers write, test, or deploy code, nor does it serve as a coding agent, app builder, or infrastructure tool.
+  mental_damage: Another vague AI demo that pretends to be useful while offering zero clarity on what it actually does for engineers.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: "Extreme absence of substance: zero description, zero README claims, a scraped placeholder title, and unknown metadata make this an unforced fit for a curated developer tooling catalog."
+  reason: The tool lacks any discernible developer-facing functionality; it appears to be a hosted Google AI Studio interface with no coding-agent, app-builder, or infrastructure traits.
   evidence:
-    - Repo description is '(none)' and no README excerpt was provided.
-    - Scraped site context shows only the title 'My Google AI Studio App' with no description, indicating a placeholder or unpublished page rather than a defined product.
-    - All credibility signals — stars, created_at, pushed_at, license, topics — are unknown.
+    - Repo description is missing, and the scraped site title 'My Google AI Studio App' suggests a generic AI interface, not a developer tool.
+    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure' but linked to a Google AI Studio app, which is not a coding agent or orchestration tool.
+    - No README, stars, creation date, or push activity provided to assess functionality or maintenance.
 placement:
   primary_category: null
   section: null
@@ -68,24 +67,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-23T05:12:21.292Z"
+    updated_at: "2026-09-28T04:51:57.199Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:f45bd9b26235ec610857a616e8404a65ae30d69fce3a75d97840f7282c9dc159
+      category_rules_version: c367d6101132
+      input_hash: sha256:ce6920df255bef3f0d87ce186faf8c5a68909b2115a585eb99ad1e90aca9e1ac
       proposed_primary_category: null
       disagreement: false
-      decision_reason: "Extreme absence of substance: zero description, zero README claims, a scraped placeholder title, and unknown metadata make this an unforced fit for a curated developer tooling catalog."
+      decision_reason: The tool lacks any discernible developer-facing functionality; it appears to be a hosted Google AI Studio interface with no coding-agent, app-builder, or infrastructure traits.
       decision_evidence:
-        - Repo description is '(none)' and no README excerpt was provided.
-        - Scraped site context shows only the title 'My Google AI Studio App' with no description, indicating a placeholder or unpublished page rather than a defined product.
-        - All credibility signals — stars, created_at, pushed_at, license, topics — are unknown.
+        - Repo description is missing, and the scraped site title 'My Google AI Studio App' suggests a generic AI interface, not a developer tool.
+        - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure' but linked to a Google AI Studio app, which is not a coding agent or orchestration tool.
+        - No README, stars, creation date, or push activity provided to assess functionality or maintenance.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

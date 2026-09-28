@@ -37,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An open-source 15B-parameter single-stream transformer model for fast audio-video generation with multilingual support.
-  why_it_matters: It offers developers a unified, high-performance model for generating synchronized audio-video content from text and images.
-  mental_damage: Finally, a model that can make your AI-generated videos lip-sync perfectly—just in time for your next existential crisis about deepfakes.
+  summary: A 15B-parameter single-stream Transformer foundation model for synchronized audio-video generation.
+  why_it_matters: It provides high-fidelity, low-latency generation of expressive human facial and body motion paired with synchronized audio.
+  mental_damage: A model that can perfectly synchronize lip movements, yet we still can't get our coding agents to stop hallucinating library versions.
   tags:
-    - audio-video-generation
+    - video-generation
+    - foundation-model
+    - audio-video
     - multimodal
-    - open-source
-    - transformer
-    - high-performance
   confidence: high
 curation:
   status: excluded
-  reason: This is a raw multimodal generative model (audio-video) without a developer-tooling angle, workflow integration, or coding-specific utility.
+  reason: The project is a foundation model for generative media rather than a tool or framework specifically designed to assist in software development workflows, coding agents, or developer infrastructure.
   evidence:
-    - Primary product is a model for audio-video generation, not a developer tool or workflow
-    - Source-list context places it under 'Video > Models', not developer tooling
-    - README and scraped context focus on model architecture, performance, and inference, not developer workflows
+    - The repository primarily provides model weights and architecture for audio-video generation.
+    - The product identity is a generative media model, which falls under general ML research rather than the developer-tooling scope of the catalog.
 placement:
   primary_category: null
   section: null
@@ -74,24 +72,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:50.068Z"
+    updated_at: "2026-09-28T04:25:54.326Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:bdd458b0989727c564c4516fc2bb777ffddafbc04d061ac69df784f1b57d553a
+      category_rules_version: c367d6101132
+      input_hash: sha256:58682ea9984ec3d739d5b1d020b875d726461b2131cac77480ce61b1c697ab34
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a raw multimodal generative model (audio-video) without a developer-tooling angle, workflow integration, or coding-specific utility.
+      decision_reason: The project is a foundation model for generative media rather than a tool or framework specifically designed to assist in software development workflows, coding agents, or developer infrastructure.
       decision_evidence:
-        - Primary product is a model for audio-video generation, not a developer tool or workflow
-        - Source-list context places it under 'Video > Models', not developer tooling
-        - README and scraped context focus on model architecture, performance, and inference, not developer workflows
+        - The repository primarily provides model weights and architecture for audio-video generation.
+        - The product identity is a generative media model, which falls under general ML research rather than the developer-tooling scope of the catalog.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

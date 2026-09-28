@@ -39,23 +39,21 @@ metadata:
       fetched_at: "2026-09-24T04:12:59.332Z"
       bytes: 3223
 insights:
-  summary: An MCP server that exposes clj-kondo linting capabilities for Clojure/ClojureScript/EDN files to AI assistants like Claude Code.
-  why_it_matters: Enables AI coding assistants to lint Clojure projects without built-in language support, filling a gap in their native tooling.
-  mental_damage: Now your AI assistant can finally stop pretending it understands your Clojure macros.
+  summary: clj-kondo-mcp is an MCP server that exposes clj-kondo linting for Clojure/ClojureScript/EDN files via the Model Context Protocol.
+  why_it_matters: It lets AI coding assistants like Claude Code lint Clojure projects without built-in support, improving code quality in agent-assisted workflows.
+  mental_damage: Another MCP server for a niche linter, because every AI agent now needs its own CLI tool wrapper to feel useful.
   tags:
     - mcp
     - clojure
     - linting
-    - clj-kondo
-    - code-quality
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing clj-kondo linting via MCP tool calls, making it a clear fit for MCP Servers & Tooling.
+  reason: The product's primary identity is an MCP server providing linting capabilities, not a coding agent or extension, making MCP the correct category.
   evidence:
-    - README explicitly describes it as an MCP server for clj-kondo linting
-    - Provides a single MCP tool (`lint_clojure`) for Clojure file analysis
-    - Listed in awesome-mcp-servers under Community Servers
+    - README describes it as 'A Model Context Protocol (MCP) server that provides clj-kondo linting capabilities'
+    - Source-list context shows it appears in awesome-mcp-servers under Community Servers
+    - It exposes a single MCP tool (lint_clojure) and requires configuration as an MCP server in client settings
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -75,30 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:56:16.118Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a4d984a47eff2663a94a8fe874a6b8f45a903fadd54a5b97a90dbbd3bd4c2440
+      category_rules_version: c367d6101132
+      input_hash: sha256:4a2c3bb871d1a25d99b3381a974fe0da9021469bc74521f27ff25936c8761df3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing clj-kondo linting via MCP tool calls, making it a clear fit for MCP Servers & Tooling.
+      decision_reason: The product's primary identity is an MCP server providing linting capabilities, not a coding agent or extension, making MCP the correct category.
       decision_evidence:
-        - README explicitly describes it as an MCP server for clj-kondo linting
-        - Provides a single MCP tool (`lint_clojure`) for Clojure file analysis
-        - Listed in awesome-mcp-servers under Community Servers
+        - README describes it as 'A Model Context Protocol (MCP) server that provides clj-kondo linting capabilities'
+        - Source-list context shows it appears in awesome-mcp-servers under Community Servers
+        - It exposes a single MCP tool (lint_clojure) and requires configuration as an MCP server in client settings
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension for another assistant), and MCP is its primary identity.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server exposing tools over the protocol, not a plugin that extends a coding agent's interface.
       review_reason: null
       review_resume_lifecycle: null

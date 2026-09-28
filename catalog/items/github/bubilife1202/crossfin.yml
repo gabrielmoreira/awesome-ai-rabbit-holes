@@ -50,23 +50,23 @@ metadata:
       fetched_at: "2026-09-24T04:13:04.358Z"
       bytes: 12829
 insights:
-  summary: An MCP server that provides AI agents with access to Asian crypto markets via a routing engine and x402 payments across 14 exchanges.
-  why_it_matters: It enables AI agents to interact with region-locked, language-restricted Asian crypto exchanges and perform cross-exchange routing, which is otherwise inaccessible to automated workflows.
-  mental_damage: Now your agent can arbitrage the kimchi premium while you pretend to understand what a bridge coin is.
+  summary: CrossFin is a financial router and MCP server enabling AI agents to access Asian crypto exchanges, find optimal transfer routes, and pay for APIs via the x402 protocol.
+  why_it_matters: "It solves a niche but real problem: giving AI agents programmatic access to fragmented Asian crypto markets that are otherwise blocked by language, IP, and KYC barriers."
+  mental_damage: Another day, another protocol trying to turn your LLM into a cross-border arbitrage bot you didn’t ask for but might accidentally profit from.
   tags:
-    - mcp
     - crypto
-    - finance
+    - mcp
     - routing
     - x402
-  confidence: high
+    - defi
+  confidence: medium
 curation:
   status: included
-  reason: "MCP is the product identity: it is a server implementation providing domain-specific tools (crypto routing, premiums, payments) for AI agents via MCP."
+  reason: CrossFin’s core identity is an MCP server exposing crypto routing and payment tools, making MCP its primary protocol identity rather than a side feature.
   evidence:
-    - Repo description explicitly identifies it as an MCP server for AI agents accessing Asian crypto markets
-    - README details 16 MCP tools and installation via MCP client config
-    - Listed in awesome-mcp-servers under Finance & Fintech
+    - "Repo description: 'The only way AI agents access Asian crypto markets. Routing engine + x402 payments across 9 exchanges.'"
+    - "README emphasizes MCP installation: 'Add this to your MCP client config' and lists 16 MCP tools like find_optimal_route and call_paid_service."
+    - Product positions itself as a financial router for AI agents, with x402 payment readiness and real-time Asian premium data.
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -86,30 +86,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-28T04:58:56.023Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a63adcee76eea190cf6c981b1b4cd8191d4d88fc7d3a07ba04f4a5e9498cd5d6
+      category_rules_version: c367d6101132
+      input_hash: sha256:6930e50880ec4a74b3245b32edaf7ab30d3bf5b4f10965e5448bfe5cd9a76e4e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a server implementation providing domain-specific tools (crypto routing, premiums, payments) for AI agents via MCP."
+      decision_reason: CrossFin’s core identity is an MCP server exposing crypto routing and payment tools, making MCP its primary protocol identity rather than a side feature.
       decision_evidence:
-        - Repo description explicitly identifies it as an MCP server for AI agents accessing Asian crypto markets
-        - README details 16 MCP tools and installation via MCP client config
-        - Listed in awesome-mcp-servers under Finance & Fintech
+        - "Repo description: 'The only way AI agents access Asian crypto markets. Routing engine + x402 payments across 9 exchanges.'"
+        - "README emphasizes MCP installation: 'Add this to your MCP client config' and lists 16 MCP tools like find_optimal_route and call_paid_service."
+        - Product positions itself as a financial router for AI agents, with x402 payment readiness and real-time Asian premium data.
       category_candidates:
         - mcp
-        - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server providing domain-specific tools, not a code-first SDK or library.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because CrossFin is an MCP server whose product identity is the MCP protocol itself, not a tool that extends another agent’s capabilities.
       review_reason: null
       review_resume_lifecycle: null

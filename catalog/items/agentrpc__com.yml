@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentrpc__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-20T15:10:47.684Z'
+      discovered_at: "2026-07-20T15:10:47.684Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,12 +18,10 @@ provenance:
           - Official Servers
         anchor_text: AgentRPC
         extracted_url: https://agentrpc.com
-        surrounding_text: >-
-          - **[AgentRPC](https://github.com/agentrpc/agentrpc)** - Connect to any function, any language, across network
-          boundaries using [AgentRPC](https://www.agentrpc.com/).
+        surrounding_text: "- **[AgentRPC](https://github.com/agentrpc/agentrpc)** - Connect to any function, any language, across network boundaries using [AgentRPC](https://www.agentrpc.com/)."
         confidence: high
     - id: discovery__www__agentrpc__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,9 +33,7 @@ provenance:
           - Official Servers
         anchor_text: AgentRPC
         extracted_url: https://www.agentrpc.com
-        surrounding_text: >-
-          - **[AgentRPC](https://github.com/agentrpc/agentrpc)** - Connect to any function, any language, across network
-          boundaries using [AgentRPC](https://www.agentrpc.com/).
+        surrounding_text: "- **[AgentRPC](https://github.com/agentrpc/agentrpc)** - Connect to any function, any language, across network boundaries using [AgentRPC](https://www.agentrpc.com/)."
         confidence: high
 metadata:
   github:
@@ -55,62 +51,58 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AgentRPC is a platform for building and deploying AI agents with remote procedure call capabilities.
-  why_it_matters: It enables developers to create agents that can be invoked remotely, facilitating distributed AI workflows.
-  mental_damage: Because nothing says 'scalable' like turning your agents into a microservice nightmare.
+  summary: AgentRPC is a universal RPC layer enabling communication between AI agents.
+  why_it_matters: It lets developers connect and coordinate disparate agents through standardized remote procedure calls.
+  mental_damage: Another layer to glue together the growing tower of agent abstractions we pretend will simplify things.
   tags:
-    - agent-platform
     - rpc
-    - distributed-ai
+    - agent-communication
+    - orchestration
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is listed in awesome-mcp-servers as an official server and its core identity is exposing services via
-    the Model Context Protocol.
+  reason: AgentRPC's core function is enabling inter-agent communication via RPC, placing it squarely in agent orchestration as infrastructure for coordinating multiple agents rather than being a coding agent or MCP-first tool.
   evidence:
-    - Listed in awesome-mcp-servers under the 'Official Servers' section.
-    - Domain agentrpc.com implies a focus on RPC-style communication for agents.
+    - Listed in awesome-mcp-servers under 'Official Servers' section, indicating recognition in MCP ecosystem
+    - Described as a 'universal RPC layer for agents' in agent-orchestration canonical positives
+    - Focuses on agent-to-agent communication rather than coding tasks or MCP server functionality
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: Agent Runtimes & Harnesses
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''agent-orchestration'''
+  status: incubating
+  reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:32:12.471Z'
+    updated_at: "2026-09-28T04:38:24.903Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:aca856ba7a6130faa8736122f03a55854248e7bf1705fbe78db352ab74f77fdb
+      category_rules_version: c367d6101132
+      input_hash: sha256:996fc2e68eaea39dbf9f254e934ab11dc1dade5ae7626d969aecc01fb0164485
       proposed_primary_category: agent-orchestration
-      disagreement: true
-      decision_reason: >-
-        AgentRPC's core value is coordinating and deploying agents with RPC capabilities, fitting the multi-agent
-        runtime platform description.
+      disagreement: false
+      decision_reason: AgentRPC's core function is enabling inter-agent communication via RPC, placing it squarely in agent orchestration as infrastructure for coordinating multiple agents rather than being a coding agent or MCP-first tool.
       decision_evidence:
-        - Seen in awesome-mcp-servers under Official Servers, indicating MCP relevance
-        - Product identity centers on agent coordination and remote invocation
+        - Listed in awesome-mcp-servers under 'Official Servers' section, indicating recognition in MCP ecosystem
+        - Described as a 'universal RPC layer for agents' in agent-orchestration canonical positives
+        - Focuses on agent-to-agent communication rather than coding tasks or MCP server functionality
       category_candidates:
         - agent-orchestration
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because the product is an operated platform for agent coordination
-        rather than a code-first library.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''agent-orchestration'''
+        - mcp
+      contrastive_reason: Choose agent-orchestration over mcp because AgentRPC's primary identity is enabling agent communication via RPC, not serving as MCP infrastructure, despite appearing in MCP-related listings.
+      review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T15:10:47.688Z'
+    updated_at: "2026-07-20T15:10:47.688Z"
     cause: null
     next_retry_at: null
   stars:

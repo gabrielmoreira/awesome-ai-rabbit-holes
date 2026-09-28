@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__fewsats__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,12 +18,10 @@ provenance:
           - Official Servers
         anchor_text: Fewsats
         extracted_url: https://fewsats.com
-        surrounding_text: >-
-          - **[Fewsats](https://github.com/Fewsats/fewsats-mcp)** - Enable AI Agents to purchase anything in a secure
-          way using [Fewsats](https://fewsats.com)
+        surrounding_text: "- **[Fewsats](https://github.com/Fewsats/fewsats-mcp)** - Enable AI Agents to purchase anything in a secure way using [Fewsats](https://fewsats.com)"
         confidence: high
     - id: discovery__www__fewsats__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,9 +33,7 @@ provenance:
           - Official Servers
         anchor_text: Fewsats
         extracted_url: https://fewsats.com
-        surrounding_text: >-
-          - **[Fewsats](https://github.com/Fewsats/fewsats-mcp)** - Enable AI Agents to purchase anything in a secure
-          way using [Fewsats](https://fewsats.com)
+        surrounding_text: "- **[Fewsats](https://github.com/Fewsats/fewsats-mcp)** - Enable AI Agents to purchase anything in a secure way using [Fewsats](https://fewsats.com)"
         confidence: high
 metadata:
   github:
@@ -55,65 +51,59 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Fewsats is an MCP server designed for interactive reasoning and tool-use within the Model Context Protocol
-    ecosystem.
-  why_it_matters: It provides a standardized way for AI models to interact with complex reasoning workflows via the MCP protocol.
-  mental_damage: One more specialized protocol layer to debug when your agent starts hallucinating logic gates.
+  summary: Fewsats is an MCP server enabling Bitcoin payments via the Lightning Network for AI agents.
+  why_it_matters: It lets developers integrate instant, low-fee Bitcoin transactions into AI agent workflows through a standardized MCP interface.
+  mental_damage: Another day, another MCP server promising to solve payments—because apparently every agent now needs its own wallet.
   tags:
     - mcp
-    - protocol
-    - reasoning
-    - agent-infrastructure
-  confidence: medium
+    - bitcoin
+    - lightning
+    - payments
+  confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is explicitly categorized as an MCP server in existing curated lists, making MCP its primary product
-    identity.
+  reason: Fewsats is primarily an MCP server exposing Bitcoin Lightning Network payment capabilities, making its core identity MCP infrastructure rather than a coding agent, extension, or app builder.
   evidence:
-    - Listed in awesome-mcp-servers under Official Servers
-    - Product identity is tied to Model Context Protocol integration
+    - Listed in awesome-mcp-servers under 'Official Servers' section
+    - Homepage indicates it is an MCP server for Bitcoin/Lightning payments
+    - No evidence of it being a coding agent, IDE extension, or app generator
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:34:26.389Z'
+    updated_at: "2026-09-28T04:41:22.667Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:c79c8379247d8c4d5eab15e58f2adf7ba4415a30eb0a01653e1b4fa215a75537
+      category_rules_version: c367d6101132
+      input_hash: sha256:4a90ed1f3de6604f7d680ad505c59f94e197581248175a1d3e1d5462021b05c1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The tool is explicitly categorized as an MCP server in existing curated lists, making MCP its primary product
-        identity.
+      decision_reason: Fewsats is primarily an MCP server exposing Bitcoin Lightning Network payment capabilities, making its core identity MCP infrastructure rather than a coding agent, extension, or app builder.
       decision_evidence:
-        - Listed in awesome-mcp-servers under Official Servers
-        - Product identity is tied to Model Context Protocol integration
+        - Listed in awesome-mcp-servers under 'Official Servers' section
+        - Homepage indicates it is an MCP server for Bitcoin/Lightning payments
+        - No evidence of it being a coding agent, IDE extension, or app generator
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the tool's core identity is a protocol implementation rather than a
-        simple host integration.
+        - coding-agents
+      contrastive_reason: Choose mcp over coding-agents because Fewsats is an MCP server exposing financial tools via the Model Context Protocol, not an autonomous coding agent that writes or edits code.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.965Z'
+    updated_at: "2026-07-21T15:20:21.965Z"
     cause: null
     next_retry_at: null
   stars:

@@ -43,22 +43,20 @@ metadata:
       fetched_at: "2026-09-24T04:13:04.962Z"
       bytes: 2469
 insights:
-  summary: Caffe is a fast open deep learning framework developed by Berkeley AI Research and community contributors.
-  why_it_matters: It provides developers with a modular and expressive framework for building and deploying deep learning models, particularly for vision tasks.
-  mental_damage: Another framework to add to the graveyard of 'I’ll learn this next weekend' tabs.
+  summary: Caffe is a fast open deep learning framework for building and training neural network models.
+  why_it_matters: It provides high-performance tools for deep learning research and development, enabling developers to train models efficiently.
+  mental_damage: The promise of fast, modular deep learning clashes with the reality that you still need a PhD to use it effectively.
   tags:
     - deep-learning
     - framework
-    - vision
-    - modular
+    - ai
   confidence: high
 curation:
   status: excluded
-  reason: Caffe is a deep learning framework primarily used for research and model training, not a developer-tooling product focused on coding agents, workflows, or app-building.
+  reason: Caffe is a deep learning framework, not a developer-facing AI tool for coding, agents, or app building, so it does not fit the catalog's scope.
   evidence:
-    - Repo description explicitly states it is a 'fast open framework for deep learning'
-    - README emphasizes its role as a deep learning framework for vision tasks
-    - Source-list context places it under 'Training > Frameworks for Training' in an LLMOps list, not developer-tooling
+    - "Repo description: \"Caffe: a fast open framework for deep learning.\""
+    - "Archived: no, but pushed at 2024-07-31 and created in 2013, indicating long-term maintenance but no modern developer tooling relevance"
 placement:
   primary_category: null
   section: null
@@ -77,27 +75,24 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-28T04:59:26.278Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:88235a7f6474ebf4b5d56d77c6b3d2f2a717c575b62472beddbb10ff558f9ba4
+      category_rules_version: c367d6101132
+      input_hash: sha256:6fe84ba50a29e1d671b78fbd78781340c24321201bfc506bfd9300b19289292d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Caffe is a deep learning framework primarily used for research and model training, not a developer-tooling product focused on coding agents, workflows, or app-building.
+      decision_reason: Caffe is a deep learning framework, not a developer-facing AI tool for coding, agents, or app building, so it does not fit the catalog's scope.
       decision_evidence:
-        - Repo description explicitly states it is a 'fast open framework for deep learning'
-        - README emphasizes its role as a deep learning framework for vision tasks
-        - Source-list context places it under 'Training > Frameworks for Training' in an LLMOps list, not developer-tooling
+        - "Repo description: \"Caffe: a fast open framework for deep learning.\""
+        - "Archived: no, but pushed at 2024-07-31 and created in 2013, indicating long-term maintenance but no modern developer tooling relevance"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

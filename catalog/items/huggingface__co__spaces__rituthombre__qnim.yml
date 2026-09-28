@@ -37,21 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Hugging Face Space named QNim with no clear description or functional status, currently failing to launch.
-  why_it_matters: It does not currently demonstrate any developer-relevant functionality or value.
-  mental_damage: Another Hugging Face Space that times out before it can even tell you what it does.
-  tags:
-    - huggingface
-    - unclear-purpose
-    - non-functional
+  summary: A Hugging Face Space hosting a community-made agent or chatbot demo.
+  why_it_matters: ""
+  mental_damage: ""
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The project has no clear description, functional status, or developer-tooling relevance, and is currently non-operational.
+  reason: The project lacks a clear developer-tooling identity and currently presents as a broken community demo on Hugging Face.
   evidence:
-    - No repo description or README excerpt provided
-    - Hugging Face Space shows runtime errors and launch timeouts
-    - No evidence of developer-tooling focus or practical AI utility
+    - Hugging Face Space reports a runtime error and launch timeout
+    - No functional README or developer-facing description is provided
+    - Source-list context categorizes it as a community chatbot demo rather than a developer tool
 placement:
   primary_category: null
   section: null
@@ -70,24 +67,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:15.378Z"
+    updated_at: "2026-09-28T04:28:29.746Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:31d0cf549dbf5a57c177e96bd00e282cf6a01d60fb7cee8247f06d6599a53b76
+      category_rules_version: c367d6101132
+      input_hash: sha256:d6b4b47e96f5e2fafce51ede49bec5040006751428dc9e8fe2755387bbd92282
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project has no clear description, functional status, or developer-tooling relevance, and is currently non-operational.
+      decision_reason: The project lacks a clear developer-tooling identity and currently presents as a broken community demo on Hugging Face.
       decision_evidence:
-        - No repo description or README excerpt provided
-        - Hugging Face Space shows runtime errors and launch timeouts
-        - No evidence of developer-tooling focus or practical AI utility
+        - Hugging Face Space reports a runtime error and launch timeout
+        - No functional README or developer-facing description is provided
+        - Source-list context categorizes it as a community chatbot demo rather than a developer tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

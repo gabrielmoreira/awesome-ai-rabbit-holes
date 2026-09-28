@@ -36,21 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Durable is an AI-powered business builder that creates websites, CRM, booking tools, and marketing assets from prompts.
-  why_it_matters: It lets non-technical users launch and manage full business operations via AI without coding or multiple SaaS tools.
-  mental_damage: The quiet horror of realizing your side hustle now runs on an AI that upsells SEO while you sleep.
+  summary: Durable.com is an AI-powered platform that helps users create websites, manage customers, and run marketing for small businesses from a single dashboard.
+  why_it_matters: It offers non-technical small business owners a way to launch and operate online without needing developers or multiple SaaS tools.
+  mental_damage: Another 'AI business builder' promising to replace entire teams with a chatbot, while developers quietly rebuild the same thing in Next.js.
   tags:
-    - app-builder
-    - ai-business-tools
+    - website-builder
+    - ai-marketing
+    - crm
     - no-code
+    - small-business
   confidence: high
 curation:
   status: excluded
-  reason: Durable is a general AI business platform for non-developers, not a developer-facing tool for coding, workflow automation, or software creation.
+  reason: Durable is an end-user AI platform for non-technical business owners to build websites and manage operations, not a developer-facing tool for coding, agent workflows, or infrastructure.
   evidence:
-    - "Source-list context: categorized under 'App Builders' in awesome-ai-coding-tools but markets to business owners, not developers"
-    - "README/scraped site: positions itself as a complete business builder for coaches, handymen, photographers, etc., with no mention of code, repos, or dev workflows"
-    - "Core features: AI website builder, CRM, bookings, marketing — all aimed at small business operations, not developer tooling"
+    - Marketed as 'The complete AI business builder' for creating websites, managing customers, and growing businesses with AI
+    - Target audience includes coaches, handymen, photographers, and other service professionals — not developers or engineering teams
+    - Outputs are deployable websites and business tools via natural language, placing it in the app builder category, but its primary users are non-technical small business owners
 placement:
   primary_category: null
   section: null
@@ -69,24 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:27:45.994Z"
+    updated_at: "2026-09-28T04:54:52.531Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:18f12179fc5c87fce29d5d8597671fcc3d8b4fd1f6060c5f8b7a517538b52fe3
+      category_rules_version: c367d6101132
+      input_hash: sha256:c5e10e9520003a27521692d61ec53b52c65510204bde5c1d48d7bad26093c405
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Durable is a general AI business platform for non-developers, not a developer-facing tool for coding, workflow automation, or software creation.
+      decision_reason: Durable is an end-user AI platform for non-technical business owners to build websites and manage operations, not a developer-facing tool for coding, agent workflows, or infrastructure.
       decision_evidence:
-        - "Source-list context: categorized under 'App Builders' in awesome-ai-coding-tools but markets to business owners, not developers"
-        - "README/scraped site: positions itself as a complete business builder for coaches, handymen, photographers, etc., with no mention of code, repos, or dev workflows"
-        - "Core features: AI website builder, CRM, bookings, marketing — all aimed at small business operations, not developer tooling"
+        - Marketed as 'The complete AI business builder' for creating websites, managing customers, and growing businesses with AI
+        - Target audience includes coaches, handymen, photographers, and other service professionals — not developers or engineering teams
+        - Outputs are deployable websites and business tools via natural language, placing it in the app builder category, but its primary users are non-technical small business owners
       category_candidates: []
       contrastive_reason: null
       review_reason: null

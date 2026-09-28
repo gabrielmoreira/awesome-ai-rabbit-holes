@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pieces__app__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Code Search and Navigation
         anchor_text: Pieces.app
         extracted_url: https://pieces.app
-        surrounding_text: '- **[Pieces.app](https://pieces.app/)** – AI-powered code snippet management, search, and sharing.'
+        surrounding_text: "- **[Pieces.app](https://pieces.app/)** – AI-powered code snippet management, search, and sharing."
         confidence: high
 metadata:
   github:
@@ -36,40 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Pieces is a desktop application that builds a searchable artificial memory from a developer's work across
-    applications, enabling context recovery and integration with AI tools.
-  why_it_matters: >-
-    It helps developers resume work, recover past decisions, and bring real context into AI assistants by capturing and
-    indexing activity from IDEs, browsers, chats, and other tools.
-  mental_damage: Finally, a way to remember why you wrote that regex six months ago—assuming Pieces was running when you did.
+  summary: Pieces is an AI-powered memory layer that continuously captures user activity across apps and surfaces contextual information to assist in work and decision-making.
+  why_it_matters: It reduces context-switching and information loss by turning past interactions into searchable, reusable memory for developers and knowledge workers.
+  mental_damage: Finally, a tool that remembers everything you’ve ever copied, pasted, or glanced at — so you can feel guilty about forgetting it in the first place.
   tags:
-    - memory-layer
-    - context-retrieval
-    - developer-productivity
-    - mcp-server
-    - cross-app-indexing
+    - memory
+    - context
+    - productivity
+    - ai
   confidence: high
 curation:
-  status: included
-  reason: >-
-    The core product is a memory and context system that captures, indexes, and retrieves developer work across tools,
-    fitting the context-engineering category better than extensions or agents.
+  status: excluded
+  reason: Pieces is a general-purpose AI memory and context tool focused on personal productivity across apps, not a developer-specific coding agent, framework, or workflow tool.
   evidence:
-    - Described as 'artificial memory from your work' for context recovery in AI tools
-    - Captures and indexes activity from IDEs, browsers, chats, and AI assistants
-    - Offers an MCP server to carry history into AI tools like Claude and Cursor
+    - Scraped site context describes Pieces as 'the memory layer for everything you do' capturing research, chats, emails, meetings, and app usage
+    - Source-list context places it in 'Code Search and Navigation' but its functionality spans Gmail, Outlook, Chrome, Slack, Figma, and other non-coding tools
+    - Core functionality centers on passive activity capture and contextual recall, not code generation, editing, review, or agent orchestration
 placement:
-  primary_category: memory-and-context
+  primary_category: null
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,31 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:30:31.564Z'
+    updated_at: "2026-09-28T04:34:33.095Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:143e98ddb84d79ce9171e82ba19b62de36d89a7bda8f1e0bd5f22503c4c9a768
-      proposed_primary_category: context-engineering
+      category_rules_version: c367d6101132
+      input_hash: sha256:9df5acb32ae90b4220c9492086cec7e6d897d6521da012de7587ae68259b4b54
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The core product is a memory and context system that captures, indexes, and retrieves developer work across
-        tools, fitting the context-engineering category better than extensions or agents.
+      decision_reason: Pieces is a general-purpose AI memory and context tool focused on personal productivity across apps, not a developer-specific coding agent, framework, or workflow tool.
       decision_evidence:
-        - Described as 'artificial memory from your work' for context recovery in AI tools
-        - Captures and indexes activity from IDEs, browsers, chats, and AI assistants
-        - Offers an MCP server to carry history into AI tools like Claude and Cursor
-      category_candidates:
-        - context-engineering
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose context-engineering over ai-dev-extensions because the primary novelty is the memory and retrieval system
-        itself, not just host integrations.
+        - Scraped site context describes Pieces as 'the memory layer for everything you do' capturing research, chats, emails, meetings, and app usage
+        - Source-list context places it in 'Code Search and Navigation' but its functionality spans Gmail, Outlook, Chrome, Slack, Figma, and other non-coding tools
+        - Core functionality centers on passive activity capture and contextual recall, not code generation, editing, review, or agent orchestration
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

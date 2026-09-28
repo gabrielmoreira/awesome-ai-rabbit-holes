@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Ruliad Chat is a web interface for interacting with AI models, branded as 'Self Sovereign Intelligence'.
-  why_it_matters: It offers developers a private, self-hosted chat interface for AI interaction, emphasizing data ownership and control.
-  mental_damage: Another chat UI promising sovereignty while you still wonder if 'self-hosted' just means debugging Docker logs at 2 a.m.
+  summary: Ruliad Chat is a self-sovereign intelligence chat interface.
+  why_it_matters: It offers developers a private, user-controlled alternative to hosted AI chat platforms.
+  mental_damage: Another chat UI promising sovereignty while you still wrestle with model drift and token limits.
   tags:
     - chat-interface
-    - self-hosted
+    - self-sovereign
     - ai
-  confidence: high
+  confidence: medium
 curation:
   status: excluded
-  reason: Ruliad Chat is a generic AI chat interface with no specific developer-tooling focus, lacking features like code generation, debugging, or workflow integration.
+  reason: Ruliad Chat is a general-purpose AI chat interface without clear developer-tooling focus, making it out of scope for the catalog.
   evidence:
-    - Scraped site context describes it as 'Ruliad Chat' with 'Self Sovereign Intelligence' as description — a general AI chat portal.
-    - No evidence of coding assistance, agent behavior, or developer workflow enhancement in title, description, or source-list context.
-    - Listed in awesome-ai-agents under 'Naut' section, but the linked page 'Self Sovereign Intelligence' suggests a philosophical or general AI agent directory, not a developer tool.
+    - Repo description is missing; scraped site context describes it as 'Self Sovereign Intelligence' with no mention of coding, agents, or developer workflows.
+    - Listed in awesome-ai-agents under 'Naut' section, but the site itself shows no agent-like behavior or code-centric features.
+    - No evidence of integration with development tools, code editing, or agent orchestration; appears to be a standalone chat frontend.
 placement:
   primary_category: null
   section: null
@@ -69,25 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:27:54.327Z"
+    updated_at: "2026-09-28T04:54:55.167Z"
     cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:9a136a0615680be0e88b964f668e85fce940288b51cc7dba7df197f03c9624f3
+      category_rules_version: c367d6101132
+      input_hash: sha256:c77a2ad964970fc57842ec212e852b846eaa563db3645c82075467d5a958d5d1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Ruliad Chat is a generic AI chat interface with no specific developer-tooling focus, lacking features like code generation, debugging, or workflow integration.
+      decision_reason: Ruliad Chat is a general-purpose AI chat interface without clear developer-tooling focus, making it out of scope for the catalog.
       decision_evidence:
-        - Scraped site context describes it as 'Ruliad Chat' with 'Self Sovereign Intelligence' as description — a general AI chat portal.
-        - No evidence of coding assistance, agent behavior, or developer workflow enhancement in title, description, or source-list context.
-        - Listed in awesome-ai-agents under 'Naut' section, but the linked page 'Self Sovereign Intelligence' suggests a philosophical or general AI agent directory, not a developer tool.
+        - Repo description is missing; scraped site context describes it as 'Self Sovereign Intelligence' with no mention of coding, agents, or developer workflows.
+        - Listed in awesome-ai-agents under 'Naut' section, but the site itself shows no agent-like behavior or code-centric features.
+        - No evidence of integration with development tools, code editing, or agent orchestration; appears to be a standalone chat frontend.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132

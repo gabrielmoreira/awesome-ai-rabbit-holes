@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Audience research and analytics platform for marketers and strategists to analyze consumer behavior across social media.
-  why_it_matters: It does not matter to software developers as it is focused on marketing and audience analytics rather than developer tooling.
-  mental_damage: Another reminder that 'AI' is now a mandatory prefix for any SaaS product, even if it's just audience segmentation.
+  summary: Audiense Insights is an audience research platform that analyzes social media data to uncover consumer behaviors, interests, and segments for marketing and strategy teams.
+  why_it_matters: It helps developers working on marketing or analytics tools enrich applications with deep consumer intelligence beyond basic demographics.
+  mental_damage: Another reminder that 'audience insights' is just a fancy way to say we’re still guessing what people want, now with more social media APIs.
   tags:
-    - marketing
-    - audience-analytics
-    - social-media
+    - audience-research
+    - marketing-analytics
+    - consumer-intelligence
   confidence: high
 curation:
   status: excluded
-  reason: The product is a marketing and audience analytics tool with no developer-tooling angle, falling outside the catalog's scope.
+  reason: Audiense Insights is a marketing and audience intelligence platform with no developer-facing AI tooling, agent behavior, or code-centric functionality relevant to software development workflows.
   evidence:
-    - Primary page excerpt describes audience research, campaign design, and consumer behavior analysis for marketers
-    - Target users are marketers, strategists, and data analysts, not developers
-    - No mention of code, repos, IDEs, or developer workflows
+    - Platform focuses on analyzing social media activity, consumer signals, and psychographics for marketers, strategists, and data teams.
+    - Core use cases include audience segmentation, campaign planning, and consumer enrichment — not coding, agent orchestration, or dev tooling.
+    - No evidence of APIs, SDKs, agent integrations, or developer interfaces in the provided materials; product is positioned as a SaaS platform for non-technical analysts and business users.
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:17.455Z"
+    updated_at: "2026-09-28T04:50:20.392Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e80f0c41a50be5cc896bce3ae7f37af26f0115791e90039ed2351bef20bf9605
+      category_rules_version: c367d6101132
+      input_hash: sha256:4c13b8ea75fc3de181405049956e381cded017588291a0b1e3c933b86903787c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a marketing and audience analytics tool with no developer-tooling angle, falling outside the catalog's scope.
+      decision_reason: Audiense Insights is a marketing and audience intelligence platform with no developer-facing AI tooling, agent behavior, or code-centric functionality relevant to software development workflows.
       decision_evidence:
-        - Primary page excerpt describes audience research, campaign design, and consumer behavior analysis for marketers
-        - Target users are marketers, strategists, and data analysts, not developers
-        - No mention of code, repos, IDEs, or developer workflows
+        - Platform focuses on analyzing social media activity, consumer signals, and psychographics for marketers, strategists, and data teams.
+        - Core use cases include audience segmentation, campaign planning, and consumer enrichment — not coding, agent orchestration, or dev tooling.
+        - No evidence of APIs, SDKs, agent integrations, or developer interfaces in the provided materials; product is positioned as a SaaS platform for non-technical analysts and business users.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__magickml__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Magick
         anchor_text: Magick
         extracted_url: https://magickml.com
-        surrounding_text: '## [Magick](https://www.magickml.com/)'
+        surrounding_text: "## [Magick](https://www.magickml.com/)"
         confidence: high
     - id: discovery__www__magickml__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Magick
         anchor_text: Magick
         extracted_url: https://www.magickml.com
-        surrounding_text: '## [Magick](https://www.magickml.com/)'
+        surrounding_text: "## [Magick](https://www.magickml.com/)"
         confidence: high
 metadata:
   github:
@@ -51,20 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Magick is a platform for creating and coordinating AI agents.
-  why_it_matters: It enables developers to build, manage, and deploy autonomous agents for workflow automation.
-  mental_damage: Because nothing says 'automation' like needing to automate the automation.
+  summary: Magick is an AI agent platform for building autonomous agents with customizable skills and workflows.
+  why_it_matters: It helps developers create and manage AI agents that can perform tasks across tools and data sources, reducing manual effort in agent development.
+  mental_damage: Yet another agent builder promising 'autonomy' while you spend more time configuring skills than actually coding.
   tags:
-    - agent-orchestration
     - ai-agents
-    - workflow-automation
+    - workflow
+    - automation
   confidence: medium
 curation:
   status: included
-  reason: Magick's primary identity is a platform for coordinating AI agents, fitting the agent orchestration category.
+  reason: Magick is included as an agent orchestration platform because it focuses on coordinating multiple agents and managing workflows, which aligns with the agent-orchestration category's core purpose of managing relationships between agents.
   evidence:
-    - Seen in awesome-ai-agents under 'Magick'
-    - Described as a platform for AI autonomous agents
+    - Listed in awesome-ai-agents under the purpose 'A list of AI autonomous agents'
+    - Described as a platform for building autonomous agents with customizable skills and workflows
+    - No evidence of being a coding agent that writes or edits code directly
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
@@ -75,34 +76,33 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:35:28.288Z'
+    updated_at: "2026-09-28T04:42:50.681Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d43fe4730bc2e437e69011b9d6e2a040f2f3d50c911a8722bebd6ce62b318029
+      category_rules_version: c367d6101132
+      input_hash: sha256:585d50744d664db87f91066f800d02fc636c694059487010e9051492f9b68954
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Magick's primary identity is a platform for coordinating AI agents, fitting the agent orchestration category.
+      decision_reason: Magick is included as an agent orchestration platform because it focuses on coordinating multiple agents and managing workflows, which aligns with the agent-orchestration category's core purpose of managing relationships between agents.
       decision_evidence:
-        - Seen in awesome-ai-agents under 'Magick'
-        - Described as a platform for AI autonomous agents
+        - Listed in awesome-ai-agents under the purpose 'A list of AI autonomous agents'
+        - Described as a platform for building autonomous agents with customizable skills and workflows
+        - No evidence of being a coding agent that writes or edits code directly
       category_candidates:
         - agent-orchestration
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because Magick is an operated platform for coordinating agents
-        rather than a code-first SDK.
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because Magick's primary identity is managing agent workflows and coordination rather than directly performing coding tasks like writing or editing code.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.967Z'
+    updated_at: "2026-07-21T15:20:21.967Z"
     cause: null
     next_retry_at: null
   stars:

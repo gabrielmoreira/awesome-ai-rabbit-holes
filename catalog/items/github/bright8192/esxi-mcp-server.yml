@@ -40,23 +40,21 @@ metadata:
       fetched_at: "2026-09-24T04:13:03.170Z"
       bytes: 3905
 insights:
-  summary: A VMware ESXi/vCenter management server built on MCP, exposing REST API interfaces for virtual machine lifecycle and performance monitoring.
-  why_it_matters: Lets developers integrate VMware infrastructure management directly into MCP-compatible workflows, enabling programmatic control of VMs from AI agents or tools.
-  mental_damage: Now your AI agent can spin up VMs while you're still trying to remember your vCenter password.
+  summary: An MCP server providing REST API interfaces for managing VMware ESXi/vCenter virtual machines.
+  why_it_matters: Gives AI agents a standardized way to provision and monitor VMs via MCP, simplifying infrastructure automation in developer workflows.
+  mental_damage: Another day, another MCP wrapper for legacy systems we pretend will revolutionize DevOps.
   tags:
     - mcp
     - vmware
     - infrastructure
-    - esxi
-    - virtualization
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here—a server implementation exposing VMware management capabilities via MCP protocol.
+  reason: The product's core identity is an MCP server exposing VMware management tools, making MCP its primary purpose rather than a side rather than an add-on to another system.
   evidence:
-    - Repo description explicitly states it is an MCP-based server for ESXi/vCenter management
-    - README details MCP-specific implementation (SSE, JSON-RPC, tool interfaces)
-    - Already listed in awesome-mcp-servers under Cloud Platforms
+    - "Repo description: 'A VMware ESXi/vCenter management server based on MCP (Model Control Protocol)'"
+    - README emphasizes MCP-based server functionality with REST API interfaces for VM management
+    - Listed in awesome-mcp-servers under Cloud Platforms section
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -76,30 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:58:22.586Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d140360e2ed4c903b8dd9a456634fcf4325b367fa3310e9ad35cfdbc1b983231
+      category_rules_version: c367d6101132
+      input_hash: sha256:db9272a174d8d9930725e95a65d6b1be7dafb1fed6d30f11be550cd965aec0f4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here—a server implementation exposing VMware management capabilities via MCP protocol.
+      decision_reason: The product's core identity is an MCP server exposing VMware management tools, making MCP its primary purpose rather than a side rather than an add-on to another system.
       decision_evidence:
-        - Repo description explicitly states it is an MCP-based server for ESXi/vCenter management
-        - README details MCP-specific implementation (SSE, JSON-RPC, tool interfaces)
-        - Already listed in awesome-mcp-servers under Cloud Platforms
+        - "Repo description: 'A VMware ESXi/vCenter management server based on MCP (Model Control Protocol)'"
+        - README emphasizes MCP-based server functionality with REST API interfaces for VM management
+        - Listed in awesome-mcp-servers under Cloud Platforms section
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension augmenting another assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server as its primary identity, not a plugin that extends another coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null

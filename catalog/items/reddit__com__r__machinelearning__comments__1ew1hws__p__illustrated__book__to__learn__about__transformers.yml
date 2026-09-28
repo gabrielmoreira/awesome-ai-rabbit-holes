@@ -51,22 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Reddit post linking to an illustrated book for learning about Transformers and LLMs.
-  why_it_matters: It provides educational material for developers looking to understand the fundamentals of transformer models and large language models.
-  mental_damage: Another day, another book to add to the pile of things you’ll never finish reading but will feel guilty about not finishing.
+  summary: An illustrated educational book explaining Transformers and LLMs.
+  why_it_matters: Helps developers understand foundational AI concepts through visual explanations.
+  mental_damage: Another illustrated guide that makes you feel smart without writing a single line of code.
   tags:
     - education
+    - llm
     - transformers
-    - llms
     - book
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational resource (a book) rather than a practical AI tool, agent, workflow, or infrastructure relevant to software developers.
+  reason: An educational book is not a developer-facing AI tool, agent, workflow, or infrastructure product; it is a learning resource outside the catalog's scope of practical AI tooling for software developers.
   evidence:
-    - The URL points to a Reddit post about an illustrated book
-    - The source-list context categorizes it under '书籍 Book' (Books)
-    - No repo, tool, or developer-facing product is described
+    - The resource is described as an 'illustrated book to learn about Transformers & LLMs'
+    - It appears in the 'awesome-LLM-resources' list under the '书籍 Book' section
 placement:
   primary_category: null
   section: null
@@ -76,24 +75,23 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:44.355Z"
+    updated_at: "2026-09-28T04:44:49.382Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b8c38b6115c12806096df3185b6d199e6a2ec0227f1e54a7f17f8ad99051919d
+      category_rules_version: c367d6101132
+      input_hash: sha256:ce8e55d2ea46ed671782ce2a84e87aa3fbbfc4566135eae3b867ef1766b7312c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational resource (a book) rather than a practical AI tool, agent, workflow, or infrastructure relevant to software developers.
+      decision_reason: An educational book is not a developer-facing AI tool, agent, workflow, or infrastructure product; it is a learning resource outside the catalog's scope of practical AI tooling for software developers.
       decision_evidence:
-        - The URL points to a Reddit post about an illustrated book
-        - The source-list context categorizes it under '书籍 Book' (Books)
-        - No repo, tool, or developer-facing product is described
+        - The resource is described as an 'illustrated book to learn about Transformers & LLMs'
+        - It appears in the 'awesome-LLM-resources' list under the '书籍 Book' section
       category_candidates: []
       contrastive_reason: null
       review_reason: null

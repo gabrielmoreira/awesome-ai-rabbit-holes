@@ -51,51 +51,52 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: NVIDIA's marketing page for RTX AI PCs, positioning local AI acceleration for gaming, creativity, and productivity.
-  why_it_matters: It signals hardware-level support for running AI workloads locally on consumer-grade GPUs, which can impact developer tooling choices for on-device inference.
-  mental_damage: Nothing says 'developer tool' like a regional selector dropdown and a wall of product categories.
+  summary: NVIDIA ChatRTX is a desktop AI assistant that runs locally on RTX PCs to answer questions using personal documents and data.
+  why_it_matters: It lets developers run private, offline LLM-powered search and Q&A on their own files without relying on cloud APIs or internet access.
+  mental_damage: Another 'AI PC' app that makes you wonder if your GPU is now a full-time therapist for your messy Downloads folder.
   tags:
-    - nvidia
-    - rtx
-    - local-ai-hardware
-    - marketing-page
-  confidence: high
+    - local-ai
+    - desktop-assistant
+    - offline-ai
+  confidence: medium
 curation:
-  status: excluded
-  reason: This is a corporate marketing page for AI-capable hardware, not a developer tool, framework, or workflow product.
+  status: included
+  reason: NVIDIA ChatRTX is a self-hosted desktop application that runs LLMs locally on RTX hardware for private document querying, fitting the local AI runtime category.
   evidence:
-    - Page is a product catalog for RTX AI PCs with no actionable developer tooling
-    - Scraped content is entirely navigation and regional selectors
-    - Source-list context places it under 'Inference' in a broad LLM resource list, not as a tool
+    - Scraped site context describes it as 'AI PCs for gaming, creating, productivity and development' with local AI capabilities
+    - Positioned as an on-device assistant (Project G-Assist) that uses RTX GPUs for private inference without cloud dependency
+    - Appears in awesome-LLM-resources under 'Inference' section as a tool for local model use
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Desktop Chat & UIs
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:56.981Z"
+    updated_at: "2026-09-28T04:43:29.035Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b5d8f04e2a4812b3efcc8a7ed010f970755e505f5cbac0c50a83175735fb9c2d
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:75de7c8769ce900461d8ace7a0725817864f49fe8e76ed26fed917160c68243b
+      proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: This is a corporate marketing page for AI-capable hardware, not a developer tool, framework, or workflow product.
+      decision_reason: NVIDIA ChatRTX is a self-hosted desktop application that runs LLMs locally on RTX hardware for private document querying, fitting the local AI runtime category.
       decision_evidence:
-        - Page is a product catalog for RTX AI PCs with no actionable developer tooling
-        - Scraped content is entirely navigation and regional selectors
-        - Source-list context places it under 'Inference' in a broad LLM resource list, not as a tool
-      category_candidates: []
-      contrastive_reason: null
+        - Scraped site context describes it as 'AI PCs for gaming, creating, productivity and development' with local AI capabilities
+        - Positioned as an on-device assistant (Project G-Assist) that uses RTX GPUs for private inference without cloud dependency
+        - Appears in awesome-LLM-resources under 'Inference' section as a tool for local model use
+      category_candidates:
+        - local-ai
+        - app-builders
+      contrastive_reason: Choose local-ai over app-builders because ChatRTX is a local desktop chat UI for querying personal data, not a tool that generates deployable apps from prompts.
       review_reason: null
       review_resume_lifecycle: null
   discover:

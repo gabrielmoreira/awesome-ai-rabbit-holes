@@ -51,51 +51,53 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Mux is a developer-focused video API platform for streaming, encoding, and analyzing video content.
-  why_it_matters: It provides building blocks for integrating video into applications, including AI-powered workflows like transcription, moderation, and summarization.
-  mental_damage: Now you can spend less time wrestling with FFmpeg and more time explaining to stakeholders why your video pipeline costs are still a mystery.
+  summary: Mux is a video API platform that enables developers to stream, encode, analyze, and manipulate video with AI-powered features like transcription, moderation, and summarization.
+  why_it_matters: It lets developers integrate sophisticated video processing into apps with minimal code, abstracting away complex infrastructure like encoding pipelines and AI model orchestration.
+  mental_damage: Another 'AI-powered' feature dropdown that makes you wonder if your cat video really needed sentiment analysis to go viral.
   tags:
-    - video-api
-    - ai-workflows
-    - streaming
+    - video
+    - api
+    - ai-infrastructure
     - developer-tools
-  confidence: high
+  confidence: medium
 curation:
-  status: excluded
-  reason: Mux is a video infrastructure platform, not a developer-tooling product focused on AI agents, workflows, or coding assistance.
+  status: included
+  reason: Mux provides a developer-facing SDK and API for video processing with AI capabilities, fitting as a provider abstraction layer rather than a standalone agent, orchestrator, or app builder.
   evidence:
-    - Primary product is a video API for streaming, encoding, and analysis
-    - AI features (e.g., transcription, moderation) are secondary to core video infrastructure
-    - Source-list context (awesome-mcp-servers) is tangential to its primary identity
+    - Offers SDKs for Node, Python, Go, Elixir, Ruby, PHP, iOS, and Android
+    - Marketed as 'Video for developers' with API-first integration and prebuilt AI workflows (Mux Robots)
+    - Appears in awesome-mcp-servers list under 'Official Servers' section, indicating recognition as infrastructure
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider & Model Abstractions
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:42.673Z"
+    updated_at: "2026-09-28T04:43:23.664Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e84f48350093457a1ed8b27d03e06a94c1a57f920f6a0e8d1aa164b441e38c8b
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:d4d39fd45e42081bf7606bb4e92a219d24ab6e133404c2a0e0acc898929a992c
+      proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: Mux is a video infrastructure platform, not a developer-tooling product focused on AI agents, workflows, or coding assistance.
+      decision_reason: Mux provides a developer-facing SDK and API for video processing with AI capabilities, fitting as a provider abstraction layer rather than a standalone agent, orchestrator, or app builder.
       decision_evidence:
-        - Primary product is a video API for streaming, encoding, and analysis
-        - AI features (e.g., transcription, moderation) are secondary to core video infrastructure
-        - Source-list context (awesome-mcp-servers) is tangential to its primary identity
-      category_candidates: []
-      contrastive_reason: null
+        - Offers SDKs for Node, Python, Go, Elixir, Ruby, PHP, iOS, and Android
+        - Marketed as 'Video for developers' with API-first integration and prebuilt AI workflows (Mux Robots)
+        - Appears in awesome-mcp-servers list under 'Official Servers' section, indicating recognition as infrastructure
+      category_candidates:
+        - ai-frameworks
+        - mcp
+      contrastive_reason: Choose ai-frameworks over mcp because Mux's primary identity is a video API/SDK platform, not MCP infrastructure — while it may support MCP, its core value is video abstraction, not protocol serving.
       review_reason: null
       review_resume_lifecycle: null
   discover:

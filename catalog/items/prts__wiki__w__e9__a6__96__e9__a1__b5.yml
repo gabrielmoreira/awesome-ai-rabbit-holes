@@ -37,19 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A non-profit Chinese-language wiki for the game Arknights (明日方舟).
-  why_it_matters: It does not matter to software developers as it is a fan-maintained game resource site.
-  mental_damage: The only code here is the MediaWiki template syntax.
+  summary: A Chinese-language MediaWiki wiki for the mobile game Arknights, maintained by fans and hosting game data, guides, and community resources.
+  why_it_matters: It serves as a reference for developers building fan tools, mods, or analytics related to Arknights by providing structured, community-maintained game data.
+  mental_damage: Another reminder that even the most niche fandoms now run on the same wiki engine that powers half of AI documentation.
   tags:
-    - game-wiki
-    - non-developer
+    - wiki
+    - gaming
+    - reference
   confidence: high
 curation:
   status: excluded
-  reason: This is a game wiki with no developer-tooling angle, AI or otherwise.
+  reason: It is a fan-maintained game wiki with no AI tooling, agent behavior, or developer workflow integration; its purpose is game documentation, not AI-assisted development.
   evidence:
-    - Site title and description explicitly identify it as a game wiki for Arknights
-    - Content is entirely game-related (characters, items, events, etc.) with no mention of AI, coding, or developer tools
+    - The site is a MediaWiki-based wiki for the game Arknights, with no mention of AI, agents, or developer tooling
+    - Content focuses on operator stats, maps, events, and game mechanics, not code, prompts, or AI workflows
+    - No repository, stars, or activity signals indicate it is a software tool or AI product
 placement:
   primary_category: null
   section: null
@@ -68,23 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:44.845Z"
+    updated_at: "2026-09-28T04:35:01.822Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:685b51933b6cee987f6b485949a41d93fc23ec4524f827279b074bada8d2eaac
+      category_rules_version: c367d6101132
+      input_hash: sha256:60009bf00f55b8ae80ff5685e0604d6df7ea08ba79da290df0488d57c7702f72
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a game wiki with no developer-tooling angle, AI or otherwise.
+      decision_reason: It is a fan-maintained game wiki with no AI tooling, agent behavior, or developer workflow integration; its purpose is game documentation, not AI-assisted development.
       decision_evidence:
-        - Site title and description explicitly identify it as a game wiki for Arknights
-        - Content is entirely game-related (characters, items, events, etc.) with no mention of AI, coding, or developer tools
+        - The site is a MediaWiki-based wiki for the game Arknights, with no mention of AI, agents, or developer tooling
+        - Content focuses on operator stats, maps, events, and game mechanics, not code, prompts, or AI workflows
+        - No repository, stars, or activity signals indicate it is a software tool or AI product
       category_candidates: []
       contrastive_reason: null
       review_reason: null

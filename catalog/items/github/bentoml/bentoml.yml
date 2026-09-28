@@ -70,26 +70,26 @@ metadata:
       fetched_at: "2026-09-24T04:12:57.645Z"
       bytes: 9909
 insights:
-  summary: BentoML is a Python framework for building and serving AI model inference APIs, job queues, and multi-model pipelines.
-  why_it_matters: It simplifies turning ML models into production-ready APIs with Docker packaging, performance optimizations, and cloud deployment.
-  mental_damage: Finally, a way to serve models without writing a custom Flask app for the 17th time.
+  summary: BentoML is a Python library for building model inference APIs and multi-model serving systems for AI apps.
+  why_it_matters: It lets developers turn any ML model into a production-ready API with minimal code, handling containerization, scaling, and deployment.
+  mental_damage: Finally, a way to serve your fine-tuned llama without wrestling with Flask, Gunicorn, and Dockerfiles at 2 a.m.
   tags:
     - model-serving
-    - inference-api
+    - inference
     - mlops
     - python
-    - docker
+    - api
   confidence: high
 curation:
   status: included
-  reason: BentoML is a code-first framework for building and serving AI inference systems, fitting the Frameworks & SDKs category.
+  reason: BentoML is a code-first Python SDK that developers import to build and serve model inference APIs, fitting the Frameworks & SDKs category as a provider abstraction layer rather than an orchestration platform or app builder.
   evidence:
     - "Repo description: 'The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!'"
     - "README: 'BentoML is a Python library for building online serving systems optimized for AI apps and model inference.'"
-    - "Source-list context: Listed in Awesome-LLMOps under 'Serving > Frameworks/Servers for Serving'"
+    - "Source-list context: Included in Awesome-LLMOps under 'Serving > Frameworks/Servers for Serving'"
 placement:
   primary_category: ai-frameworks
-  section: Workflow & Graph Engines
+  section: Provider & Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (8628) exceeded threshold (150)
@@ -105,30 +105,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:55:25.320Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:bc8b8a644e009b8565202ff58f20eb76405fa91e3dd0aaa10f8ee0fed93d8654
+      category_rules_version: c367d6101132
+      input_hash: sha256:79f1416bf3a689595ae97e971323f6b66df5e05e569ba85c4e09a0104f4bb3fe
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: BentoML is a code-first framework for building and serving AI inference systems, fitting the Frameworks & SDKs category.
+      decision_reason: BentoML is a code-first Python SDK that developers import to build and serve model inference APIs, fitting the Frameworks & SDKs category as a provider abstraction layer rather than an orchestration platform or app builder.
       decision_evidence:
         - "Repo description: 'The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!'"
         - "README: 'BentoML is a Python library for building online serving systems optimized for AI apps and model inference.'"
-        - "Source-list context: Listed in Awesome-LLMOps under 'Serving > Frameworks/Servers for Serving'"
+        - "Source-list context: Included in Awesome-LLMOps under 'Serving > Frameworks/Servers for Serving'"
       category_candidates:
         - ai-frameworks
-        - local-ai
-      contrastive_reason: Choose ai-frameworks over local-ai because BentoML is a code-first framework for serving models rather than a local runtime or desktop app.
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers import and program against BentoML as a library/SDK to build serving systems, rather than using it as a operated workbench or control plane for managing agent teams.
       review_reason: null
       review_resume_lifecycle: null

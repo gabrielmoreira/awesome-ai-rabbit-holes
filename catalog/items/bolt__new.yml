@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bolt__new__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,12 +18,10 @@ provenance:
           - App Builders
         anchor_text: Bolt.new
         extracted_url: https://bolt.new
-        surrounding_text: >-
-          - **[Bolt.new](https://bolt.new)** – Build, edit, and deploy full-stack web apps in the browser using natural
-          language with one-click deployment.
+        surrounding_text: "- **[Bolt.new](https://bolt.new)** – Build, edit, and deploy full-stack web apps in the browser using natural language with one-click deployment."
         confidence: high
     - id: discovery__bolt__new__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -53,31 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An AI-powered platform for generating, managing, and deploying full-stack web applications and websites from text
-    prompts.
-  why_it_matters: >-
-    It collapses the distance between a prompt and a live, hosted application by handling scaffolding, backend
-    infrastructure, and deployment automatically.
-  mental_damage: >-
-    The existential realization that your specialized knowledge of boilerplate and deployment pipelines is becoming a
-    legacy skill.
+  summary: Bolt.new is an AI-powered app builder that generates full websites and applications from natural language prompts.
+  why_it_matters: It lets developers and non-developers go from idea to deployable product rapidly without writing code manually.
+  mental_damage: Another tool promising to replace developers while simultaneously flooding the market with AI-generated SaaS clones nobody asked for.
   tags:
     - app-builder
-    - full-stack
-    - deployment
-    - prototyping
-    - web-dev
+    - ai-coding
+    - no-code
+    - prompt-to-app
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a prompt-to-app platform that provides a complete lifecycle from generation to hosting, rather than a tool
-    primarily for editing existing codebases.
+  reason: Bolt.new's core identity is generating deployable apps from prompts, not editing existing codebases, making it a clear fit for app builders over coding agents.
   evidence:
-    - Identifies as an 'AI App Builder' and 'AI Website Builder'
-    - Provides integrated infrastructure including hosting, databases, and authentication via Bolt Cloud
-    - UX is centered on turning prompts/ideas into live products
+    - "Scraped site: 'Build and scale high-performing websites & apps using your words'"
+    - "Source-list: listed in awesome-ai-coding-tools under App Builders section"
+    - "README excerpt: 'Create stunning apps & websites by chatting with AI' and 'Bolt does the heavy lifting for you'"
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -88,7 +77,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.596Z'
+    updated_at: "2026-05-06T22:12:15.596Z"
     cause: null
     next_retry_at: null
   stars:
@@ -97,31 +86,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-08-27T06:14:20.904Z'
+    updated_at: "2026-09-28T04:53:20.619Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:8de95113ece901335f454f46bff9d9a59a8f2843a50026560169241209c9cb59
+      category_rules_version: c367d6101132
+      input_hash: sha256:f143dd81715c4179e43ad121b56ab4683f4eb9d91a2bb1d9880ee3a6475de30f
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        It is a prompt-to-app platform that provides a complete lifecycle from generation to hosting, rather than a tool
-        primarily for editing existing codebases.
+      decision_reason: Bolt.new's core identity is generating deployable apps from prompts, not editing existing codebases, making it a clear fit for app builders over coding agents.
       decision_evidence:
-        - Identifies as an 'AI App Builder' and 'AI Website Builder'
-        - Provides integrated infrastructure including hosting, databases, and authentication via Bolt Cloud
-        - UX is centered on turning prompts/ideas into live products
+        - "Scraped site: 'Build and scale high-performing websites & apps using your words'"
+        - "Source-list: listed in awesome-ai-coding-tools under App Builders section"
+        - "README excerpt: 'Create stunning apps & websites by chatting with AI' and 'Bolt does the heavy lifting for you'"
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because the product's core identity is generating and deploying complete,
-        hosted applications from prompts rather than serving as a general-purpose coding assistant for existing repos.
+      contrastive_reason: Choose app-builders over coding-agents because Bolt.new's primary function is generating new apps from scratch via prompts, not acting as an autonomous coding assistant that edits existing repositories.
       review_reason: null
       review_resume_lifecycle: null

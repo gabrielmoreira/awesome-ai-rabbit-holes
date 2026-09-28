@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gocharlie__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - GoCharlie
         anchor_text: GoCharlie
         extracted_url: https://gocharlie.ai
-        surrounding_text: '## [GoCharlie](https://gocharlie.ai/)'
+        surrounding_text: "## [GoCharlie](https://gocharlie.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,33 +36,30 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GoCharlie is an AI agent platform for autonomous task execution.
-  why_it_matters: It provides developers with a way to delegate complex workflows to AI agents that can operate autonomously.
-  mental_damage: Because nothing says 'autonomous' like an agent that still needs you to babysit its edge cases.
+  summary: GoCharlie.ai presents itself as an autonomous AI agent (listed in awesome-ai-agents) with no explicit developer-facing coding focus.
+  why_it_matters: If it were a developer tool, it would suggest another AI agent promising to automate coding tasks, but there is no evidence of that.
+  mental_damage: Yet another AI agent that promises autonomy while you wonder if it just generates more marketing copy.
   tags:
-    - ai-agents
-    - autonomous-workflows
-    - task-automation
-  confidence: medium
+    - ai-agent
+    - content-generation
+  confidence: low
 curation:
-  status: included
-  reason: >-
-    GoCharlie is listed in awesome-ai-agents as a multi-agent coordination platform, fitting the agent orchestration
-    category.
+  status: excluded
+  reason: No evidence it is a developer-facing coding agent, app builder, or related dev tool; appears to be a general AI content agent.
   evidence:
-    - 'Seen in awesome-ai-agents under section: GoCharlie'
-    - Described as an AI autonomous agent in source-list context
+    - Listed in awesome-ai-agents under GoCharlie section
+    - URL suggests a branded AI service (gocharlie.ai) with no public repo description or README indicating developer tooling
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,30 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:27:22.784Z'
+    updated_at: "2026-09-28T04:19:59.818Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d83e3278b81f7eb82cddfe874825b39a3666cdc52846f7941da2cd82773b129e
-      proposed_primary_category: agent-orchestration
+      category_rules_version: c367d6101132
+      input_hash: sha256:f95a7bda1dfb47128efa1c5658a4f87ae1b1b41d74f374f0dee2627ad7df9696
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        GoCharlie is listed in awesome-ai-agents as a multi-agent coordination platform, fitting the agent orchestration
-        category.
+      decision_reason: No evidence it is a developer-facing coding agent, app builder, or related dev tool; appears to be a general AI content agent.
       decision_evidence:
-        - 'Seen in awesome-ai-agents under section: GoCharlie'
-        - Described as an AI autonomous agent in source-list context
-      category_candidates:
-        - agent-orchestration
-        - coding-agents
-      contrastive_reason: >-
-        Choose agent-orchestration over coding-agents because the primary identity is multi-agent coordination rather
-        than direct code editing.
-      review_reason: null
+        - Listed in awesome-ai-agents under GoCharlie section
+        - URL suggests a branded AI service (gocharlie.ai) with no public repo description or README indicating developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

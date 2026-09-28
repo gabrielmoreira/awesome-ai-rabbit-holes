@@ -36,25 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A collection of blog posts and resources covering various LLM topics including multi-modal generation, agents, and MCP.
-  why_it_matters: Provides a curated stream of technical content and tutorials for developers keeping up with rapidly evolving AI paradigms like MCP and agentic workflows.
-  mental_damage: Just another high-signal rabbit hole to add to the infinite scroll of 'ust-read' AI tutorials.
+  summary: blog_list.html is a static HTML page listing articles from the TechDIYLife website, which shares tech DIY content, YouTube videos, GitHub code, and free ebooks.
+  why_it_matters: It serves as a navigation aid for developers seeking tutorials or resources on AI and programming topics shared by the TechDIYLife channel.
+  mental_damage: Yet another link farm pretending to be a curated tool, adding to the infinite scroll of marginally useful AI resource lists.
   tags:
-    - tutorials
-    - llm
-    - ai-development
-    - educational
-  confidence: high
+    - resource-list
+    - blog
+    - ai-tutorials
+  confidence: medium
 curation:
-  status: excluded
-  reason: The project is a collection of blog posts and tutorials rather than a standalone developer tool or platform.
+  status: included
+  reason: The page functions as a curated publication feed of AI and developer content, aligning with awesome-awesomes' purpose of helping developers discover resources, even if it's a simple HTML list.
   evidence:
-    - Site title indicates it is a blog list ('文章列表')
-    - Source-list context identifies it as a 'Tutorial' resource
-    - Primary content is educational media rather than a product or tool
+    - Appears in awesome-LLM-resources under '教程 Tutorial' as a source for LLM resources including Agent and辅助编程
+    - "Scraped title and description identify it as 'AI开发者de频道：文章列表' from TechDIYLife: 技术DIY生活，YouTube频道，Github代码，免费电子书籍分享"
+    - The page is a static article list (blog_list.html) with no interactive tooling, SDK, or agent behavior
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Publications & Feeds
 lifecycle:
   status: incubating
   reason: null
@@ -70,25 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:02.295Z"
+    updated_at: "2026-09-28T04:47:01.472Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e0faeea83bc26df0f875e6402a02fe3823ba6b194b8231533c4030ed88298cca
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:87df4952d5b45db687a1345d77dfda89a79192dd61859b0ad910a550db72caa0
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: The project is a collection of blog posts and tutorials rather than a standalone developer tool or platform.
+      decision_reason: The page functions as a curated publication feed of AI and developer content, aligning with awesome-awesomes' purpose of helping developers discover resources, even if it's a simple HTML list.
       decision_evidence:
-        - Site title indicates it is a blog list ('文章列表')
-        - Source-list context identifies it as a 'Tutorial' resource
-        - Primary content is educational media rather than a product or tool
-      category_candidates: []
-      contrastive_reason: null
+        - Appears in awesome-LLM-resources under '教程 Tutorial' as a source for LLM resources including Agent and辅助编程
+        - "Scraped title and description identify it as 'AI开发者de频道：文章列表' from TechDIYLife: 技术DIY生活，YouTube频道，Github代码，免费电子书籍分享"
+        - The page is a static article list (blog_list.html) with no interactive tooling, SDK, or agent behavior
+      category_candidates:
+        - awesome-awesomes
+        - skills
+      contrastive_reason: Choose awesome-awesomes over skills because it is a curated publication feed of content, not a reusable skill pack or ruleset installed into an agent.
       review_reason: null
       review_resume_lifecycle: null

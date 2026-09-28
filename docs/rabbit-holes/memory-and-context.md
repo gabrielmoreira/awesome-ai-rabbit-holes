@@ -113,15 +113,6 @@ Systems that improve what goes into the model: persistent agent memory, retrieva
   `agent-memory` `markdown` `rag` `local-first` `knowledge-base`
   </details>
 
-- **[PromptSource](https://github.com/bigscience-workshop/promptsource)** `⭐ 3k` `updated >1y` Toolkit for creating, sharing and using natural language prompts with a public pool of 2000+ prompts for 170+ datasets. <details><summary>More about</summary>
-
-  Developers can programmatically apply and manage prompts for NLP datasets, enabling consistent zero-shot and few-shot experimentation.
-
-  _Finally, a way to turn your dataset into a prompt zoo where every example gets its own Jinja2 circus act._
-
-  `prompt-engineering` `nlp` `datasets` `jinja2` `huggingface`
-  </details>
-
 - **[CocoIndex Code](https://github.com/cocoindex-io/cocoindex-code)** `⭐ 2.7k` `updated ≤30d` A lightweight AST-based semantic code search CLI that optimizes context for coding agents by reducing token usage. <details><summary>More about</summary>
 
   It helps developers and coding agents work faster by providing precise, token-efficient code search and retrieval for large codebases.
@@ -167,7 +158,7 @@ Systems that improve what goes into the model: persistent agent memory, retrieva
   `cag` `rag-alternative` `context-augmentation` `llm-optimization`
   </details>
 
-- **[ref-tools-mcp](https://github.com/ref-tools/ref-tools-mcp)** `⭐ 1.1k` `updated ≤90d` An MCP server that provides AI coding tools with token-efficient access to documentation through agentic search and targeted content retrieval. <details><summary>More about</summary>
+- **[ref-tools-mcp](https://github.com/ref-tools/ref-tools-mcp)** `⭐ 1.1k` `updated ≤180d` An MCP server that provides AI coding tools with token-efficient access to documentation through agentic search and targeted content retrieval. <details><summary>More about</summary>
 
   It reduces context rot and API costs by fetching only the most relevant documentation snippets instead of dumping entire pages into the model's context window.
 
@@ -329,7 +320,7 @@ Systems that improve what goes into the model: persistent agent memory, retrieva
   `agent-memory` `context-engineering` `mcp-compatible` `langchain-integration` `procedural-learning`
   </details>
 
-- **[omega-memory/omega-memory](https://github.com/omega-memory/omega-memory)** `⭐ 189` `updated ≤90d` A local-first persistent memory system that provides cross-model semantic memory, knowledge graphs, and MCP server integration for AI coding agents like Claude, Cursor, and Windsurf. <details><summary>More about</summary>
+- **[omega-memory/omega-memory](https://github.com/omega-memory/omega-memory)** `⭐ 189` `updated ≤180d` A local-first persistent memory system that provides cross-model semantic memory, knowledge graphs, and MCP server integration for AI coding agents like Claude, Cursor, and Windsurf. <details><summary>More about</summary>
 
   It eliminates context re-explanation across sessions by giving agents a local, provider-agnostic memory layer with semantic search and knowledge graph traversal.
 
@@ -666,15 +657,6 @@ _These are new or low-traffic entries being watched._
   `mcp` `context-engineering` `self-hosted` `agentic-workflow`
   </details>
 
-- **[bshea-1/Routed](https://github.com/bshea-1/routed)** `⭐ 22` `updated ≤30d` A local hybrid search engine that routes coding prompts to specific agent skills to minimize context pollution and token costs. <details><summary>More about</summary>
-
-  It enables developers to use large, specialized skill sets in their AI assistants without overwhelming the model's context window or increasing latency.
-
-  _Another layer of middleware to debug when your agent suddenly forgets how to write Python because of a BM25 weighting error._
-
-  `mcp` `prompt-routing` `local-ai` `context-management` `agent-skills`
-  </details>
-
 - **[promptext](https://github.com/1broseidon/promptext)** `⭐ 22` `updated ≤180d` A CLI tool that extracts and optimizes codebase context into token-efficient formats for LLMs. <details><summary>More about</summary>
 
   It solves the tedious process of manually selecting relevant files and managing token budgets when feeding large repositories into AI assistants.
@@ -684,7 +666,7 @@ _These are new or low-traffic entries being watched._
   `cli` `context-management` `token-optimization` `codebase-analysis` `golang`
   </details>
 
-- **[gzoonet/cortex](https://github.com/gzoonet/cortex)** `⭐ 21` `updated ≤30d` Local-first knowledge graph for developers that watches project files, builds a knowledge graph with LLMs, and allows natural language queries across projects. <details><summary>More about</summary>
+- **[gzoonet/cortex](https://github.com/gzoonet/cortex)** `⭐ 21` `updated ≤90d` Local-first knowledge graph for developers that watches project files, builds a knowledge graph with LLMs, and allows natural language queries across projects. <details><summary>More about</summary>
 
   It helps developers retrieve scattered decisions, patterns, and context across multiple projects without manually searching through files.
 
@@ -756,7 +738,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `knowledge-base` `governance` `git-native`
   </details>
 
-- **[vasayxtx/mcp-prompt-engine](https://github.com/vasayxtx/mcp-prompt-engine)** `⭐ 18` `updated ≤180d` MCP Prompt Engine is a Go-based MCP server that serves dynamic prompt templates using Go text/template syntax. <details><summary>More about</summary>
+- **[vasayxtx/mcp-prompt-engine](https://github.com/vasayxtx/mcp-prompt-engine)** `⭐ 18` `updated ≤1y` MCP Prompt Engine is a Go-based MCP server that serves dynamic prompt templates using Go text/template syntax. <details><summary>More about</summary>
 
   It lets developers manage and version prompt templates as code, making prompt reuse and dynamic argument injection reliable across MCP clients.
 
@@ -765,13 +747,13 @@ _These are new or low-traffic entries being watched._
   `mcp` `prompt-templates` `go`
   </details>
 
-- **[besslframework-stack/project-tessera](https://github.com/besslframework-stack/project-tessera)** `⭐ 17` `updated ≤1y` Tessera is a local-first, encrypted memory layer for AI assistants with 58 MCP tools and 54 REST endpoints. <details><summary>More about</summary>
+- **[besslframework-stack/project-tessera](https://github.com/besslframework-stack/project-tessera)** `⭐ 17` `updated ≤1y` Tessera is a local-first memory layer for AI agents with encrypted storage, document search, and an HTTP API for persistent knowledge across sessions. <details><summary>More about</summary>
 
-  It gives developers persistent, searchable, and self-maintaining memory for AI workflows without external dependencies or infrastructure.
+  It lets developers give AI agents long-term memory without API keys or infrastructure, reducing context loss in extended workflows.
 
-  _Finally, a way to remember what your AI forgot five minutes ago—now with 58 ways to lose the encryption key._
+  _Finally, a way to make your AI remember your mistakes so you don’t have to repeat them in every new session._
 
-  `memory` `mcp` `local-first` `encryption` `context-engineering`
+  `memory` `local-ai` `context-engineering`
   </details>
 
 - **[masondelan/selvedge](https://github.com/masondelan/selvedge)** `⭐ 17` `updated ≤90d` A local MCP server that captures an AI agent's reasoning live as code changes are made, storing structured change events with justifications in a local SQLite database for later audit. <details><summary>More about</summary>
@@ -981,7 +963,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `memory` `code-graph`
   </details>
 
-- **[TheStack-ai/waypath](https://github.com/thestack-ai/waypath)** `⭐ 4` `updated ≤90d` A local-first CLI and MCP server that gives coding agents like Claude Code and Codex persistent, graph-aware memory backed by a single SQLite database with promotion and review governance. <details><summary>More about</summary>
+- **[TheStack-ai/waypath](https://github.com/thestack-ai/waypath)** `⭐ 4` `updated ≤180d` A local-first CLI and MCP server that gives coding agents like Claude Code and Codex persistent, graph-aware memory backed by a single SQLite database with promotion and review governance. <details><summary>More about</summary>
 
   It lets developers maintain a canonical, reviewable memory layer across sessions without relying on cloud services or vector blobs that silently hallucinate.
 
@@ -1134,22 +1116,13 @@ _These are new or low-traffic entries being watched._
   `mcp` `npm` `documentation` `context-retrieval` `typescript`
   </details>
 
-- **[Context by Fulcra](https://fulcradynamics.com)** A unified, user-owned context backend that provides a persistent 'context lake' for AI agents to share data, memory, and knowledge. <details><summary>More about</summary>
+- **[Context by Fulcra](https://fulcradynamics.com)** Fulcra is a user-owned context backend for AI agents that unifies real-world data, files, and agent work into a controllable context lake. <details><summary>More about</summary>
 
-  It solves the fragmentation problem where different AI agents or models have no shared awareness of a user's history, files, or previous agent interactions.
+  It solves the fragmentation of agent memory by giving developers a shared, persistent context that travels across agents and models.
 
-  _Because now your agents can finally build a coherent, shared personality based on the digital wreckage of your life._
+  _Finally, a place where your AI agents can gossip about you without you being able to delete the chat history._
 
-  `context` `memory` `mcp` `sdk` `agent-infrastructure`
-  </details>
-
-- **[Dash](https://kapeli.com/dash)** Dash is a macOS API documentation browser and code snippet manager with offline access to 200+ documentation sets and MCP support for AI assistant integration. <details><summary>More about</summary>
-
-  It gives developers instant, offline access to extensive API documentation and integrates with AI assistants via MCP to provide up-to-date context.
-
-  _Finally, a way to make your AI assistant stop hallucinating API parameters—by giving it the docs you already downloaded but forgot about._
-
-  `documentation` `mcp` `macos` `offline` `snippets`
+  `context-engineering` `mcp` `data-platform`
   </details>
 
 - **[Dosu](https://dosu.dev)** Dosu is a knowledge infrastructure layer that automatically captures and syncs team documentation to reduce token usage and improve agent performance. <details><summary>More about</summary>
@@ -1161,22 +1134,22 @@ _These are new or low-traffic entries being watched._
   `mcp` `knowledge-base` `agent-infrastructure` `documentation` `context-management`
   </details>
 
-- **[Exa](https://exa.ai)** A web search API designed to provide real-time, structured data and token-efficient context to AI agents. <details><summary>More about</summary>
+- **[Graphlit](https://graphlit.com)** Graphlit provides a managed context layer for AI agents with real-time sync across Slack, GitHub, and Jira, plus built-in semantic search. <details><summary>More about</summary>
 
-  It enables agents to bypass training data cutoffs with high-accuracy retrieval and structured information that reduces context window bloat.
+  It reduces the operational overhead of keeping agent context fresh and synchronized across developer tools.
 
-  _Your agent can now hallucinate about events that happened five minutes ago with unprecedented, high-fidelity precision._
+  _Finally, a way to outsource the context window anxiety your agents were already giving you._
 
-  `search-api` `retrieval` `agentic-search` `context-engineering` `structured-data`
+  `context` `mcp` `agent-tools`
   </details>
 
-- **[Graphlit](https://graphlit.com)** A context layer for AI agents that provides real-time sync across Slack, GitHub, Jira, and other sources with built-in semantic search. <details><summary>More about</summary>
+- **[HackMD](https://hackmd.io)** HackMD is a real-time collaborative Markdown editor that provides versioned notes and API access for teams and AI agents to share context. <details><summary>More about</summary>
 
-  Developers can give their agents up-to-date, cross-platform context without managing separate integrations or search infrastructure.
+  It reduces token overhead for agents by serving Markdown directly and keeps human-AI workflows synchronized through shared, version-controlled documentation.
 
-  _Finally, a way to make your agents stop hallucinating about the Jira ticket you closed three sprints ago._
+  _Another tool promising to be the 'universal context layer' while adding yet another tab to check when your agent's output diverges from the team's latest Markdown doc._
 
-  `context-layer` `ai-agents` `semantic-search` `real-time-sync`
+  `collaborative-editing` `markdown` `ai-context` `developer-tools`
   </details>
 
 - **[Izlo](https://getizlo.com)** Izlo is a prompt management platform that provides version control, collaboration, and testing workflows for team-based AI prompts. <details><summary>More about</summary>
@@ -1188,40 +1161,31 @@ _These are new or low-traffic entries being watched._
   `prompt-management` `prompt-ops` `collaboration` `version-control` `testing`
   </details>
 
-- **[MemClaw](https://memclaw.me/en/claw)** MemClaw is a persistent project memory system for OpenClaw that provides isolated workspaces, visible memory, and team collaboration. <details><summary>More about</summary>
+- **[Powerdrill AI](https://powerdrill.ai)** Powerdrill.ai is an AI-powered data analysis workspace with memory that allows users to query documents and databases in plain language and get sourced answers. <details><summary>More about</summary>
 
-  It solves the problem of context blending and memory loss in long-running OpenClaw conversations by scoping memory to projects and making it shareable.
+  It lets developers and analysts explore internal data without writing SQL or moving data, accelerating insight generation from private or on-premise sources.
 
-  _Finally, a way to stop OpenClaw from forgetting which client you were talking about five minutes ago._
+  _Another 'AI workspace' promising memory and learning from every use, as if the real problem was forgetting your last pivot table._
 
-  `openclaw` `memory` `project-context` `collaboration`
+  `ai-data-analysis` `context-engineering` `private-cloud`
   </details>
 
-- **[Pieces.app](https://pieces.app)** Pieces is a desktop application that builds a searchable artificial memory from a developer's work across applications, enabling context recovery and integration with AI tools. <details><summary>More about</summary>
+- **[Prompteams](https://prompteams.com)** Prompteams is a prompt management system with versioning, testing, and auto-generated APIs for team collaboration on LLM prompts. <details><summary>More about</summary>
 
-  It helps developers resume work, recover past decisions, and bring real context into AI assistants by capturing and indexing activity from IDEs, browsers, chats, and other tools.
+  It gives developers a Git-like workflow for prompt iteration, testing, and deployment, reducing friction in LLM integration.
 
-  _Finally, a way to remember why you wrote that regex six months ago—assuming Pieces was running when you did._
+  _Finally, a way to treat your prompts like code — until you realize you’re now versioning hallucinations._
 
-  `memory-layer` `context-retrieval` `developer-productivity` `mcp-server` `cross-app-indexing`
+  `prompt-management` `llm-ops` `versioning`
   </details>
 
-- **[PromptFoundry](https://promptfoundry.ai)** PromptFoundry is a platform for managing and optimizing AI prompts. <details><summary>More about</summary>
+- **[PromptHub](https://prompthub.us)** PromptHub is a prompt management platform for teams that enables versioning, testing, and deployment of prompts with Git-based workflows and AI-assisted creation tools. <details><summary>More about</summary>
 
-  It helps developers systematically improve prompt quality and consistency for AI-driven workflows.
+  It gives developers a structured way to manage prompts as version-controlled artifacts, reducing drift and improving reproducibility in AI-integrated workflows.
 
-  _Because nothing says 'productivity' like spending hours perfecting the prompt that will save you minutes._
+  _Another tool promising to tame the chaos of prompt sprawl, while quietly adding yet another login tab to your overflowing SaaS dashboard._
 
-  `prompt-engineering` `ai-workflows` `context-management`
-  </details>
-
-- **[PromptHub](https://prompthub.us)** PromptHub is a prompt management platform for teams to discover, version, test, and deploy prompts. <details><summary>More about</summary>
-
-  It centralizes prompt engineering workflows with Git-based versioning, testing, and deployment, making prompt iteration and collaboration more structured for developers.
-
-  _Finally, a place to version your prompts so you can stop pretending they’re not code._
-
-  `prompt-management` `prompt-engineering` `versioning` `testing` `collaboration`
+  `prompt-management` `versioning` `collaboration` `ai-tooling`
   </details>
 
 - **[PromptLayer 🍰](https://promptlayer.com)** A platform for managing prompt versions, running LLM evaluations, and monitoring agent observability in production. <details><summary>More about</summary>
@@ -1233,29 +1197,11 @@ _These are new or low-traffic entries being watched._
   `prompt-management` `llmops` `observability` `evals` `tracing`
   </details>
 
-- **[Tavily](https://tavily.com)** A real-time search and content extraction API designed to provide fresh web context for AI agents and RAG workflows. <details><summary>More about</summary>
+- **[Vectorize](https://vectorize.io)** Vectorize provides open-source agent memory (Hindsight) that enables AI agents to learn from experience and retain persistent context across sessions. <details><summary>More about</summary>
 
-  It allows developers to ground agentic reasoning in live web data, significantly reducing hallucinations caused by model training cutoffs.
+  It gives developers a way to equip agents with long-term memory that improves judgment and reduces repetitive mistakes.
 
-  _At least now your agent can search the live web to confirm its own hallucinations in real-time._
+  _Another memory system promising your agents will finally stop making the same dumb mistake twice—until you realize it’s just another layer to debug._
 
-  `search` `rag` `retrieval` `api` `context`
-  </details>
-
-- **[Theneo.io](https://theneo.io)** A developer portal platform for API references, guides, changelogs, and private customer portals with AI-powered documentation and agent-ready features like MCP and llms.txt. <details><summary>More about</summary>
-
-  It unifies API documentation, changelogs, and customer portals in a single collaborative workspace with AI assistance, reducing drift between code and docs.
-
-  _Finally, a place where engineers, writers, PMs, and agents can all fight over the same cursor in real time._
-
-  `api-docs` `developer-portal` `ai-documentation` `mcp` `collaboration`
-  </details>
-
-- **[Vectorize](https://vectorize.io)** Open source agent memory system that enables persistent, per-user context and learning for AI agents. <details><summary>More about</summary>
-
-  Developers can give their agents persistent memory that improves over time, reducing repetitive mistakes and enabling cross-session continuity.
-
-  _Finally, your agent will remember that you prefer tabs over spaces—until it forgets again next major version._
-
-  `agent-memory` `mcp-server` `context-persistence` `llm-memory` `hindsight`
+  `memory` `agent` `mcp`
   </details>

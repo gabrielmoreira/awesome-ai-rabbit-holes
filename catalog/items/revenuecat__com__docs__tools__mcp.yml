@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__revenuecat__com__docs__tools__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,12 +18,10 @@ provenance:
           - Official Servers
         anchor_text: RevenueCat
         extracted_url: https://revenuecat.com/docs/tools/mcp/overview
-        surrounding_text: >-
-          - **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in
-          [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment.
+        surrounding_text: "- **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment."
         confidence: high
     - id: discovery__www__revenuecat__com__docs__tools__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,9 +33,7 @@ provenance:
           - Official Servers
         anchor_text: RevenueCat
         extracted_url: https://www.revenuecat.com/docs/tools/mcp/overview
-        surrounding_text: >-
-          - **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in
-          [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment.
+        surrounding_text: "- **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment."
         confidence: high
 metadata:
   github:
@@ -55,61 +51,57 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server implementation that provides RevenueCat access to AI models.
-  why_it_matters: >-
-    It allows AI agents to query subscription data, revenue metrics, and customer entitlements via the Model Context
-    Protocol.
-  mental_damage: Now your LLM can judge your MRR growth in real-time while you try to ignore it.
+  summary: RevenueCat's Model Context Protocol server exposing subscription and in-app purchase tools for AI agents.
+  why_it_matters: Lets AI agents securely access subscription data and billing workflows via a standardized interface, enabling finance-aware automations.
+  mental_damage: Yet another MCP server promising to let your AI handle money—just pray it doesn’t refund your user by accident.
   tags:
     - mcp
-    - revenue-cat
-    - saas
-    - subscriptions
-    - ai-integration
-  confidence: high
+    - finance
+    - billing
+  confidence: medium
 curation:
   status: included
-  reason: The product is specifically an MCP server designed to bridge a domain-specific API (RevenueCat) with AI clients.
+  reason: RevenueCat’s MCP server is primarily an MCP infrastructure product exposing financial tools, making MCP Ecosystem the correct fit over extensions or agents.
   evidence:
-    - URL points directly to mcp documentation
-    - Source-list context identifies it as an Official Server in awesome-mcp-servers
+    - Source-list context shows inclusion in awesome-mcp-servers under 'Official Servers'
+    - "URL path indicates it is an MCP server: /docs/tools/mcp"
+    - Product identity is MCP server exposing RevenueCat’s subscription and purchase capabilities
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:37:06.363Z'
+    updated_at: "2026-09-28T04:45:27.179Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3b8fec21d7c0951d71a7790573eb6e878718308b98fbef0e6a84307a7c411124
+      category_rules_version: c367d6101132
+      input_hash: sha256:e87f8e3296e879b38531cc99b9c19710756a8c3577eeb30bf9ea3cf5e1baab63
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is specifically an MCP server designed to bridge a domain-specific API (RevenueCat) with AI clients.
+      decision_reason: RevenueCat’s MCP server is primarily an MCP infrastructure product exposing financial tools, making MCP Ecosystem the correct fit over extensions or agents.
       decision_evidence:
-        - URL points directly to mcp documentation
-        - Source-list context identifies it as an Official Server in awesome-mcp-servers
+        - Source-list context shows inclusion in awesome-mcp-servers under 'Official Servers'
+        - "URL path indicates it is an MCP server: /docs/tools/mcp"
+        - Product identity is MCP server exposing RevenueCat’s subscription and purchase capabilities
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product identity is a protocol-specific server rather than a host
-        integration for a specific editor.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product’s primary identity is being an MCP server, not a tool that extends a coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.969Z'
+    updated_at: "2026-07-21T15:20:21.969Z"
     cause: null
     next_retry_at: null
   stars:

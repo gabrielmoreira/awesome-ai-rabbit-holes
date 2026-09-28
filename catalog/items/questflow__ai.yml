@@ -36,22 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI finance agent platform for investment analysis, strategy execution, and portfolio management across markets.
-  why_it_matters: It offers developers a domain-specific agentic framework for financial data integration, strategy modeling, and automated trading workflows.
-  mental_damage: Because nothing says 'developer tooling' like an AI that can lose your life savings faster than a segfault in production.
+  summary: Questflow is an AI Finance Agent that lets users invest alongside top investors by connecting accounts, applying strategies, and executing trades through natural language.
+  why_it_matters: It demonstrates how AI agents can be specialized for domain-specific workflows like finance, offering developers a pattern for building agents that integrate real-world data, permissions, and execution.
+  mental_damage: Another AI agent promising outsized returns while quietly adding yet another layer of abstraction between you and your money.
   tags:
+    - ai-agent
     - finance
-    - agent-platform
-    - trading
-    - domain-specific
   confidence: high
 curation:
   status: excluded
-  reason: The product is a vertical finance-focused AI agent platform, not a developer-tooling product for software development workflows.
+  reason: Questflow is a domain-specific AI agent for finance and investing, not a developer-facing tool for coding, workflow orchestration, or AI infrastructure relevant to software development workflows.
   evidence:
-    - Primary product identity is an AI finance agent for investment (scraped site context)
-    - Core features center on trading, portfolio management, and financial data integration (README excerpt)
-    - Source-list context places it in an AI agents list but for finance, not developer tooling
+    - Scraped site context describes Questflow as 'an AI finance agent that lets you invest alongside top investors across markets' with features like connecting wallets, executing trades, and following top investor strategies.
+    - No evidence of developer tooling, code generation, API/SDK offerings, or integration with coding agents, editors, or development workflows.
+    - Source-list placement in awesome-ai-agents under 'Questflow' section confirms its categorization as an AI agent for finance, not developer tooling.
 placement:
   primary_category: null
   section: null
@@ -70,24 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:53.193Z"
+    updated_at: "2026-09-28T04:35:13.908Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4e30afeb06771ebc6e813f202ccc878a81779b87d15ecd9dc745a1c1c0e93898
+      category_rules_version: c367d6101132
+      input_hash: sha256:a38dbf0744a356bc814e9e1ef0d5ed04155a6689e10c5affc150948076ae3976
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a vertical finance-focused AI agent platform, not a developer-tooling product for software development workflows.
+      decision_reason: Questflow is a domain-specific AI agent for finance and investing, not a developer-facing tool for coding, workflow orchestration, or AI infrastructure relevant to software development workflows.
       decision_evidence:
-        - Primary product identity is an AI finance agent for investment (scraped site context)
-        - Core features center on trading, portfolio management, and financial data integration (README excerpt)
-        - Source-list context places it in an AI agents list but for finance, not developer tooling
+        - Scraped site context describes Questflow as 'an AI finance agent that lets you invest alongside top investors across markets' with features like connecting wallets, executing trades, and following top investor strategies.
+        - No evidence of developer tooling, code generation, API/SDK offerings, or integration with coding agents, editors, or development workflows.
+        - Source-list placement in awesome-ai-agents under 'Questflow' section confirms its categorization as an AI agent for finance, not developer tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

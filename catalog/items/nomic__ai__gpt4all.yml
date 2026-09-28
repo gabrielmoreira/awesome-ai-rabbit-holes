@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__nomic__ai__gpt4all__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-07-20T15:10:47.684Z'
+      discovered_at: "2026-07-20T15:10:47.684Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,10 +18,10 @@ provenance:
           - Inference UI
         anchor_text: GPT4All
         extracted_url: https://gpt4all.io
-        surrounding_text: '- [GPT4All](https://gpt4all.io) - A free-to-use, locally running, privacy-aware chatbot.'
+        surrounding_text: "- [GPT4All](https://gpt4all.io) - A free-to-use, locally running, privacy-aware chatbot."
         confidence: high
     - id: discovery__nomic__ai__gpt4all__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-20T15:10:47.684Z'
+      discovered_at: "2026-07-20T15:10:47.684Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,10 +33,10 @@ provenance:
           - Local LLM Tools
         anchor_text: GPT4All
         extracted_url: https://gpt4all.io
-        surrounding_text: '- **[GPT4All](https://gpt4all.io/)** – Free, local, privacy-aware chatbot running LLMs on consumer hardware.'
+        surrounding_text: "- **[GPT4All](https://gpt4all.io/)** – Free, local, privacy-aware chatbot running LLMs on consumer hardware."
         confidence: high
     - id: discovery__www__nomic__ai__gpt4all__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -48,10 +48,10 @@ provenance:
           - Inference UI
         anchor_text: GPT4All
         extracted_url: https://gpt4all.io
-        surrounding_text: '- [GPT4All](https://gpt4all.io) - A free-to-use, locally running, privacy-aware chatbot.'
+        surrounding_text: "- [GPT4All](https://gpt4all.io) - A free-to-use, locally running, privacy-aware chatbot."
         confidence: high
     - id: discovery__www__nomic__ai__gpt4all__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -63,7 +63,7 @@ provenance:
           - Local LLM Tools
         anchor_text: GPT4All
         extracted_url: https://gpt4all.io
-        surrounding_text: '- **[GPT4All](https://gpt4all.io/)** – Free, local, privacy-aware chatbot running LLMs on consumer hardware.'
+        surrounding_text: "- **[GPT4All](https://gpt4all.io/)** – Free, local, privacy-aware chatbot running LLMs on consumer hardware."
         confidence: high
 metadata:
   github:
@@ -81,28 +81,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A desktop application for running open-source AI models locally on Windows, macOS, and Linux with full customization
-    and document chat capabilities.
-  why_it_matters: >-
-    Enables developers to run and experiment with LLMs privately on their own hardware without cloud dependency or data
-    leakage.
-  mental_damage: Finally, a way to run models locally without your laptop sounding like a jet engine—until you actually try it.
+  summary: GPT4All is a desktop application that runs open-source language models locally on Windows, macOS, and Linux for private, offline AI chat and document interaction.
+  why_it_matters: It lets developers run and experiment with LLMs without internet or cloud dependencies, enabling private prototyping and offline workflows.
+  mental_damage: Finally, an AI tool that won’t leak your code — until you accidentally paste it into the local chat and forget it’s writing to a log file somewhere.
   tags:
     - local-ai
-    - desktop
-    - privacy
-    - llm-runtime
+    - desktop-chat
+    - offline-llm
   confidence: high
 curation:
   status: included
-  reason: >-
-    Core identity is a local runtime/desktop app for on-device inference, aligning with the Local AI category's focus on
-    private, self-hosted execution.
+  reason: GPT4All is a self-hosted desktop chat app whose primary identity is running LLMs locally for private use, matching the core definition of Local & Self-hosted AI, not a coding agent or app builder.
   evidence:
-    - Site description explicitly states 'Run open-source AI models locally on your device' with no cloud required
-    - Source lists categorize it under 'Local LLM Tools' and 'Inference UI'
-    - Product positioning emphasizes local execution, privacy, and developer control
+    - Runs open-source language models on Windows, macOS, and Linux—with full customization, local document chat (LocalDocs), and support for thousands of models
+    - Delivers private, high-performance AI right on your device—no cloud required, no data leaves your machine
+    - Listed in awesome-local-ai under 'Inference UI' and awesome-ai-coding-tools under 'Local LLM Tools' as a tool for running models locally
 placement:
   primary_category: local-ai
   secondary_categories: []
@@ -113,37 +106,33 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:35:42.469Z'
+    updated_at: "2026-09-28T04:43:10.192Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3630a198e2d4acfdc8258d4d5eb88dfc3441c8cde29b5bee759d2f3f9327cfb5
+      category_rules_version: c367d6101132
+      input_hash: sha256:01375e8d4492c24eaa90b665b6df282f4eec97789db0443f40bf9d5b56a31a24
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: >-
-        Core identity is a local runtime/desktop app for on-device inference, aligning with the Local AI category's
-        focus on private, self-hosted execution.
+      decision_reason: GPT4All is a self-hosted desktop chat app whose primary identity is running LLMs locally for private use, matching the core definition of Local & Self-hosted AI, not a coding agent or app builder.
       decision_evidence:
-        - Site description explicitly states 'Run open-source AI models locally on your device' with no cloud required
-        - Source lists categorize it under 'Local LLM Tools' and 'Inference UI'
-        - Product positioning emphasizes local execution, privacy, and developer control
+        - Runs open-source language models on Windows, macOS, and Linux—with full customization, local document chat (LocalDocs), and support for thousands of models
+        - Delivers private, high-performance AI right on your device—no cloud required, no data leaves your machine
+        - Listed in awesome-local-ai under 'Inference UI' and awesome-ai-coding-tools under 'Local LLM Tools' as a tool for running models locally
       category_candidates:
         - local-ai
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose local-ai over ai-frameworks because the primary value is the end-user desktop app for local inference,
-        not a code-first SDK or library.
+        - app-builders
+      contrastive_reason: Choose local-ai over app-builders because GPT4All is a desktop chat UI for local model interaction, not a tool that generates deployable apps from prompts.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T15:10:47.687Z'
+    updated_at: "2026-07-20T15:10:47.687Z"
     cause: null
     next_retry_at: null
   stars:

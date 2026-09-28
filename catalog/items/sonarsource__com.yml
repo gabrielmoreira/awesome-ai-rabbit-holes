@@ -51,52 +51,54 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: SonarQube is a static analysis platform for continuous code quality and security inspection, with AI-assisted code review and verification features.
-  why_it_matters: It helps developers catch quality and security issues early in CI/CD workflows and IDEs, now extending into AI agent workflows via MCP integration.
-  mental_damage: Now your AI agents can also be haunted by the same SonarQube warnings that keep you up at night.
+  summary: SonarQube is a multi-layered code verification and governance platform that integrates AI agents for security, quality, and remediation across CI/CD workflows.
+  why_it_matters: It provides independent, auditable code verification that lets developers safely use AI coding agents by catching issues before they reach production.
+  mental_damage: Finally, a way to feel guilty about AI-generated code at scale, with enterprise-grade audit trails.
   tags:
-    - static-analysis
     - code-quality
     - security
-    - mcp-integration
-    - ci-cd
-  confidence: high
+    - ai-verification
+    - devsecops
+    - mcp
+  confidence: medium
 curation:
-  status: excluded
-  reason: SonarQube is primarily a static analysis and code quality platform, not an AI-native developer tool or workflow; its MCP server is a secondary integration feature, not its core identity.
+  status: included
+  reason: SonarQube is primarily a code verification and governance platform that provides APIs, CLI, and SDKs for developers to integrate security and quality checks into their workflows, aligning with the Frameworks & SDKs category as a provider abstraction layer rather than a standalone coding agent or orchestrator.
   evidence:
-    - Core product is static analysis (SonarQube Server/Cloud/IDE) for code quality/security
-    - MCP Server is listed as one of many integrations, not the primary product
-    - Source-list context shows it in an MCP servers list, but the product itself is not MCP-first
+    - Offers SonarQube CLI, IDE extensions, and MCP server for integrating code quality into developer workflows
+    - Marketed as an 'independent AI code verification platform' providing multi-layered review of all code
+    - Provides SDKs and plugins for major AI coding agents (Claude Code, Cursor, Copilot) to verify AI-generated code
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider & Model Abstractions
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:16.168Z"
+    updated_at: "2026-09-28T04:45:54.589Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:68153d2a4b3ef918455d84bec579edc2769869c061e121d13d79e720b3a149cb
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:bc35a043029b00aee6365d37af79290ed0a8b55eb8cab2a05d135828492fca21
+      proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: SonarQube is primarily a static analysis and code quality platform, not an AI-native developer tool or workflow; its MCP server is a secondary integration feature, not its core identity.
+      decision_reason: SonarQube is primarily a code verification and governance platform that provides APIs, CLI, and SDKs for developers to integrate security and quality checks into their workflows, aligning with the Frameworks & SDKs category as a provider abstraction layer rather than a standalone coding agent or orchestrator.
       decision_evidence:
-        - Core product is static analysis (SonarQube Server/Cloud/IDE) for code quality/security
-        - MCP Server is listed as one of many integrations, not the primary product
-        - Source-list context shows it in an MCP servers list, but the product itself is not MCP-first
-      category_candidates: []
-      contrastive_reason: null
+        - Offers SonarQube CLI, IDE extensions, and MCP server for integrating code quality into developer workflows
+        - Marketed as an 'independent AI code verification platform' providing multi-layered review of all code
+        - Provides SDKs and plugins for major AI coding agents (Claude Code, Cursor, Copilot) to verify AI-generated code
+      category_candidates:
+        - ai-frameworks
+        - mcp
+      contrastive_reason: Choose ai-frameworks over mcp because while SonarQube offers an MCP server, its core identity is as a code verification platform providing SDKs, CLI, and abstractions for developers to build secure AI-assisted workflows, not as MCP-first infrastructure.
       review_reason: null
       review_resume_lifecycle: null
   discover:

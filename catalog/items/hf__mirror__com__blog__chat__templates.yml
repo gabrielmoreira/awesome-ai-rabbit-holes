@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A blog post or resource page about chat templates, likely related to Hugging Face's model interaction formats.
-  why_it_matters: Chat templates standardize how prompts are formatted for LLMs, which can simplify model integration for developers.
-  mental_damage: Another layer of abstraction to remember before your model even sees the prompt.
+  summary: A Hugging Face blog post explaining the implementation and importance of chat templates for LLM prompting.
+  why_it_matters: Properly applying chat templates is essential for ensuring prompts are formatted correctly for a model's specific training distribution.
+  mental_damage: Because nothing says 'I'm a professional AI engineer' quite like debugging why your model thinks the user's input is actually part of the system prompt.
   tags:
-    - prompt-formatting
     - huggingface
+    - prompting
     - chat-templates
+    - documentation
   confidence: high
 curation:
   status: excluded
-  reason: This is a blog/resource page, not a standalone developer tool, framework, or product.
+  reason: The resource is a single blog post/documentation article rather than a standalone tool, framework, or product.
   evidence:
-    - URL points to a blog post ('/blog/chat-templates')
-    - Scraped page is a redirect notice, not a product page
-    - No repo description, stars, or code artifacts provided
+    - The source URL leads to a technical blog post on Hugging Face.
+    - The content is educational documentation explaining a concept rather than a functional developer tool or library.
 placement:
   primary_category: null
   section: null
@@ -71,24 +71,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:30.397Z"
+    updated_at: "2026-09-28T04:21:06.783Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e0798308777305c75280247888f7ddd41e7d3ea28a4b3bff0db0d3a60db90c66
+      category_rules_version: c367d6101132
+      input_hash: sha256:52b1c7035bc5ba9963661cd3b5753a8e4533dc56a84a32d4bb50e19f866004ac
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a blog/resource page, not a standalone developer tool, framework, or product.
+      decision_reason: The resource is a single blog post/documentation article rather than a standalone tool, framework, or product.
       decision_evidence:
-        - URL points to a blog post ('/blog/chat-templates')
-        - Scraped page is a redirect notice, not a product page
-        - No repo description, stars, or code artifacts provided
+        - The source URL leads to a technical blog post on Hugging Face.
+        - The content is educational documentation explaining a concept rather than a functional developer tool or library.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

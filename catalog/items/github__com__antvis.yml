@@ -52,23 +52,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AntV is an open-source AI-powered data visualization suite by Ant Group, offering chart libraries, R&D tools, and intelligent visualization frameworks.
-  why_it_matters: Developers can integrate AI-driven visualization capabilities into applications, leveraging structured series for statistical, graph, geographical, and unstructured data analysis.
-  mental_damage: Because nothing says 'modern development' like turning your data into a Möbius strip of charts.
+  summary: AntV is a data visualization team and open-source project offering chart libraries (G2, G6, L7, etc.) and AI-powered visualization tools like AVA and MCP servers for chart generation.
+  why_it_matters: Provides developers with mature, grammar-based visualization frameworks and experimental AI integrations for turning data into interactive visuals.
+  mental_damage: Yet another visualization library promising AI-powered insights while you still have to manually pick which of its eight chart series to use.
   tags:
-    - data-visualization
-    - ai-powered
-    - javascript
-    - ant-group
-    - chart-libraries
+    - visualization
+    - charts
+    - ai
   confidence: high
 curation:
   status: excluded
-  reason: The project is a data visualization suite with AI enhancements, not a developer-tooling product focused on coding agents, workflows, or infrastructure.
+  reason: AntV is primarily a data visualization library ecosystem with AI as an experimental add-on, not a developer-facing AI tool whose core function is coding, agent behavior, or workflow automation.
   evidence:
-    - Primary identity is data visualization (chart libraries, R&D tools, AI-powered visualization)
-    - No evidence of coding agents, IDE integrations, or developer workflow tooling
-    - Focus is on turning data into visual outputs, not assisting with code development
+    - Repo description missing; README emphasizes chart libraries (G2, G6, L7, T8) and AI-powered intelligent visualization as a secondary capability.
+    - Core offerings are visualization frameworks and chart libraries, not agents, app builders, or orchestration tools for developers.
+    - AI features like AVA and mcp-server-chart are presented as sub-projects under the broader AntV visualization mission.
 placement:
   primary_category: null
   section: null
@@ -89,24 +87,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:02.738Z"
+    updated_at: "2026-09-28T04:16:11.023Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:94a97b841a3022d4de8de454a0207b8774c18a3a1bd545f3056673914d1d561f
+      category_rules_version: c367d6101132
+      input_hash: sha256:e567fcac6111e919ec0c5b58dfb832bb68254d1dabbf6a5e7763263059bb64d9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a data visualization suite with AI enhancements, not a developer-tooling product focused on coding agents, workflows, or infrastructure.
+      decision_reason: AntV is primarily a data visualization library ecosystem with AI as an experimental add-on, not a developer-facing AI tool whose core function is coding, agent behavior, or workflow automation.
       decision_evidence:
-        - Primary identity is data visualization (chart libraries, R&D tools, AI-powered visualization)
-        - No evidence of coding agents, IDE integrations, or developer workflow tooling
-        - Focus is on turning data into visual outputs, not assisting with code development
+        - Repo description missing; README emphasizes chart libraries (G2, G6, L7, T8) and AI-powered intelligent visualization as a secondary capability.
+        - Core offerings are visualization frameworks and chart libraries, not agents, app builders, or orchestration tools for developers.
+        - AI features like AVA and mcp-server-chart are presented as sub-projects under the broader AntV visualization mission.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

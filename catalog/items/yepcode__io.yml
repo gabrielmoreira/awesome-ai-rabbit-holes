@@ -36,16 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A developer-first platform to build, run, and scale AI-powered integrations and automations in secure, isolated cloud sandboxes.
-  why_it_matters: Lets developers write and execute code (including AI-generated scripts) with built-in secrets, dependencies, logs, and audit trails—without managing infrastructure.
-  mental_damage: Finally, a way to run AI-generated scripts without the existential dread of dependency hell or secret leakage.
+  summary: YepCode is a developer-first platform for building, running, and scaling AI-powered integrations in secure sandboxes with dependency and secrets management.
+  why_it_matters: It lets developers run AI-generated or custom code integrations without managing infrastructure, reducing DevOps overhead.
+  mental_damage: Another 'Zapier for developers' pitch that somehow still requires you to write the code Zapier was supposed to eliminate.
   tags:
-    - ai-integrations
-    - sandboxed-execution
-    - automation
-    - mcp-server
+    - integrations
     - serverless
-  confidence: high
+    - ai-workflows
+  confidence: medium
 curation:
   status: included
   reason: YepCode is a platform whose core integration bridge is exposing processes as MCP tools and providing a run_code MCP tool, making MCP a primary product identity rather than a side feature.
@@ -58,7 +56,7 @@ placement:
   section: null
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'app-builders'"
 processing:
   discover:
     status: done
@@ -71,27 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:57.568Z"
+    updated_at: "2026-09-28T04:51:29.148Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:970743f667ecc65382db52717b4cd64f64d07762b949124f613efca82356f7f7
-      proposed_primary_category: ai-frameworks
+      category_rules_version: c367d6101132
+      input_hash: sha256:a7a26f90728ba2246b7e15e14c64163a7d37707461c3c87ccb1a9e1bf6c08e26
+      proposed_primary_category: app-builders
       disagreement: true
-      decision_reason: Primary identity is a code-first SDK/platform for running integrations/automations, not an MCP-first tool or orchestration workbench.
+      decision_reason: YepCode primarily enables developers to turn prompts or scripts into deployable integrations and automations, aligning with app-builder patterns rather than coding agents or orchestration platforms.
       decision_evidence:
-        - Core pitch is running code (including AI-generated) in secure sandboxes with dependencies/secrets/logs
-        - Offers SDKs for Node.js/Python and REST API for programmatic execution
-        - MCP server is a compatibility feature, not the product identity
+        - "Scraped site context states: 'Build, run, and scale AI-powered integrations — faster and safer. Run code (including AI-generated) in secure sandboxes with dependencies, secrets, logs, and audit trails built in.'"
+        - "Source-list context from awesome-mcp-servers lists it under 'Official Servers' with the description: 'Run code (including AI-generated) in secure sandboxes with dependencies, secrets, logs, and audit trails built in. No DevOps hassle.'"
+        - "README excerpt emphasizes: 'Write code that connects to any API, database, or service. Run AI-generated scripts safely in isolated sandboxes... Ship integrations in days — without standing up infrastructure.'"
       category_candidates:
-        - ai-frameworks
-        - mcp
-      contrastive_reason: Choose ai-frameworks over mcp because the product's core is a developer platform/SDK for running code, with MCP as an integration option rather than the primary identity.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
+        - app-builders
+        - agent-orchestration
+      contrastive_reason: Choose app-builders over agent-orchestration because YepCode focuses on turning code/prompts into deployable integrations rather than coordinating multiple agents or managing agent workflows as its core function.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'app-builders'"
       review_resume_lifecycle: null

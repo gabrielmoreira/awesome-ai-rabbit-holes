@@ -37,20 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Canny-powered feedback board for the Saga team to collect and prioritize user feature requests.
-  why_it_matters: It does not matter to developers as a tool for their workflows; it is a product feedback channel for Saga.
-  mental_damage: The only thing being orchestrated here is the backlog of your hopes and dreams.
+  summary: Saga is a note-taking and workspace tool with a feedback board powered by Canny.
+  why_it_matters: It lets teams collect and prioritize feature requests for internal productivity tools.
+  mental_damage: Another feedback SaaS where developers vote on whether they want dark mode or kanban boards.
   tags:
     - feedback
-    - product-management
-    - saga
+    - saas
+    - internal-tools
   confidence: high
 curation:
   status: excluded
-  reason: This is a product feedback board, not a developer tool, framework, or workflow component.
+  reason: Saga is a general productivity and note-taking platform, not a developer-facing AI tool or infrastructure.
   evidence:
-    - Scraped site context identifies it as a Canny feedback board for Saga
-    - Source-list context shows it as a feedback link, not a tool
+    - Source-list context shows it appears in awesome-ai-agents only as a feedback mechanism for the Saga team, not as an AI agent itself.
+    - Scraped site context describes it as a Canny-powered feedback board for feature requests, with no mention of AI coding, agents, or developer tooling.
+    - No evidence of AI integration, coding assistance, or developer workflow automation in the provided inputs.
 placement:
   primary_category: null
   section: null
@@ -69,23 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:19.244Z"
+    updated_at: "2026-09-28T04:36:29.129Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b3c7fa150f6ef20992c1712e4c46d7401e326ece535707d7d75e15617c7c121b
+      category_rules_version: c367d6101132
+      input_hash: sha256:38052992450cfb93948ac52aecc581d0e2b92265f79d19e8c69d7eece4437063
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a product feedback board, not a developer tool, framework, or workflow component.
+      decision_reason: Saga is a general productivity and note-taking platform, not a developer-facing AI tool or infrastructure.
       decision_evidence:
-        - Scraped site context identifies it as a Canny feedback board for Saga
-        - Source-list context shows it as a feedback link, not a tool
+        - Source-list context shows it appears in awesome-ai-agents only as a feedback mechanism for the Saga team, not as an AI agent itself.
+        - Scraped site context describes it as a Canny-powered feedback board for feature requests, with no mention of AI coding, agents, or developer tooling.
+        - No evidence of AI integration, coding assistance, or developer workflow automation in the provided inputs.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

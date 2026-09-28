@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/seven128/project-tiny-context-harness
         surrounding_text: "- **[Project Tiny Context Harness](https://github.com/Seven128/project-tiny-context-harness)** `⭐ 3` — Minimal repo-native project memory for CLI coding agents. Installs `AGENTS.md`, `project_context/**`, role Skills, and a `validate-context` gate so Codex, Claude Code, Cursor, Gemini CLI, OpenCode, and similar agents can recover project intent, boundaries, and validation paths across fresh sessions. MIT."
         confidence: high
+    - id: discovery__github__seven128__project-tiny-context-harness__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-28T04:13:54.113Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: Project Tiny Context Harness
+        extracted_url: https://github.com/seven128/project-tiny-context-harness
+        surrounding_text: "- **[Project Tiny Context Harness](https://github.com/Seven128/project-tiny-context-harness)** – Minimal repo-native project memory for AI coding agents. Installs `AGENTS.md`, `project_context/**`, role Skills, and a `validate-context` gate so fresh Codex, Claude Code, Cursor, Gemini CLI, OpenCode, and similar sessions can recover project intent, boundaries, and validation paths."
+        confidence: high
 metadata:
   github:
     stars: 3
@@ -77,7 +92,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.715Z"
+    updated_at: "2026-09-28T04:13:54.116Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,7 +102,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-24T04:13:12.447Z"
+    updated_at: "2026-09-28T04:14:00.168Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

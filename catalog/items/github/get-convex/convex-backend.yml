@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/get-convex/convex-backend
         surrounding_text: "- [get-convex/convex-backend](https://stack.convex.dev/convex-mcp-server) 📇 ☁️ - Convex database integration to introspect tables, functions, and run oneoff queries ([Source](https://github.com/get-convex/convex-backend/blob/main/npm-packages/convex/src/cli/mcp.ts))"
         confidence: high
+    - id: discovery__github__get-convex__convex-backend__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-28T04:13:54.113Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 🗄️ Databases
+        anchor_text: get-convex/convex-backend
+        extracted_url: https://github.com/get-convex/convex-backend
+        surrounding_text: "-   **[get-convex/convex-backend](https://github.com/get-convex/convex-backend)** [![GitHub stars](https://img.shields.io/github/stars/get-convex/convex-backend?style=social)](https://github.com/get-convex/convex-backend): Official Convex MCP server (`npx convex mcp start`, shipped in the Convex CLI) that introspects Convex tables and functions and runs one-off queries."
+        confidence: high
 metadata:
   github:
     stars: 12473
@@ -71,7 +87,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: "2026-09-28T04:13:54.114Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,7 +97,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-24T04:13:12.445Z"
+    updated_at: "2026-09-28T04:14:00.165Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

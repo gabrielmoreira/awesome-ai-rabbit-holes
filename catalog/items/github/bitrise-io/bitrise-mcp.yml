@@ -44,26 +44,25 @@ metadata:
       fetched_at: "2026-09-24T04:12:59.789Z"
       bytes: 1941
 insights:
-  summary: MCP Server for the Bitrise API, enabling app management, build operations, and artifact management.
-  why_it_matters: Developers can integrate Bitrise CI/CD capabilities directly into MCP-compatible assistants for streamlined build and deployment workflows.
-  mental_damage: Now your AI assistant can trigger builds while you pretend to understand the failure logs.
+  summary: An MCP server that exposes Bitrise API capabilities for app management, build operations, and artifact handling.
+  why_it_matters: It lets developers control Bitrise CI/CD workflows via natural language prompts in AI assistants like Claude Code or Cursor.
+  mental_damage: Yet another MCP server promising to turn your AI pair programmer into a DevOps intern who still needs you to fix the YAML.
   tags:
     - mcp
     - bitrise
     - ci-cd
-    - build-automation
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here, with the server providing Bitrise API access as its core function.
+  reason: The product is an MCP server whose core identity is exposing Bitrise API functionality over the Model Context Protocol, making MCP its primary purpose rather than a side feature.
   evidence:
-    - Repo description explicitly states it is an MCP Server for Bitrise API
-    - README details comprehensive Bitrise API access via MCP
-    - Listed in awesome-mcp-servers under Developer Tools
+    - "Repo description: 'MCP Server for the Bitrise API, enabling app management, build operations, artifact management and more.'"
+    - README emphasizes MCP Server title and provides installation guides for AI assistants like Claude Code, Cursor, and GitHub Copilot.
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools as an MCP server.
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
@@ -79,30 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:56:38.026Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d88d721288b5e831f9a6cc7ec2da0f0abb7435d4077d76ab29eb8d17254c5d71
+      category_rules_version: c367d6101132
+      input_hash: sha256:5b5f4ea0ecfddef6c6097bd26e144b2ba720232251f0e8b4cb807e0c8acb0894
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here, with the server providing Bitrise API access as its core function.
+      decision_reason: The product is an MCP server whose core identity is exposing Bitrise API functionality over the Model Context Protocol, making MCP its primary purpose rather than a side feature.
       decision_evidence:
-        - Repo description explicitly states it is an MCP Server for Bitrise API
-        - README details comprehensive Bitrise API access via MCP
-        - Listed in awesome-mcp-servers under Developer Tools
+        - "Repo description: 'MCP Server for the Bitrise API, enabling app management, build operations, artifact management and more.'"
+        - README emphasizes MCP Server title and provides installation guides for AI assistants like Claude Code, Cursor, and GitHub Copilot.
+        - Listed in awesome-mcp-servers under Server Implementations > Developer Tools as an MCP server.
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension layer for another assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's identity is being an MCP server infrastructure layer, not a plugin that augments a coding agent's capabilities.
       review_reason: null
       review_resume_lifecycle: null

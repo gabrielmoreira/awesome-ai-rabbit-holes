@@ -36,26 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: HackMD is a real-time collaborative Markdown editor and workspace for teams and agents.
-  why_it_matters: It provides a shared context layer where teams and AI agents can collaborate on documentation, drafts, and knowledge sharing in Markdown format.
-  mental_damage: Now your agents can finally stop pretending they understand your team's handwritten notes.
+  summary: HackMD is a real-time collaborative Markdown editor that provides versioned notes and API access for teams and AI agents to share context.
+  why_it_matters: It reduces token overhead for agents by serving Markdown directly and keeps human-AI workflows synchronized through shared, version-controlled documentation.
+  mental_damage: Another tool promising to be the 'universal context layer' while adding yet another tab to check when your agent's output diverges from the team's latest Markdown doc.
   tags:
-    - collaboration
+    - collaborative-editing
     - markdown
-    - context-layer
-    - api
-    - agents
-  confidence: high
+    - ai-context
+    - developer-tools
+  confidence: medium
 curation:
-  status: excluded
-  reason: HackMD is primarily a collaborative Markdown editor and workspace, not a developer-tooling product focused on AI agents, coding assistance, or workflow automation.
+  status: included
+  reason: HackMD functions as a persistent knowledge base where agents can retrieve and write Markdown context via API, fitting the memory-and-context category's focus on externalized agent memory and knowledge storage.
   evidence:
-    - Core product is a real-time Markdown editor for teams and communities
-    - AI agent integration is a secondary feature, not the primary product identity
-    - No evidence of being a coding assistant, framework, or developer toolkit
+    - Every HackMD note is Markdown all the way down, enabling agents to pull context/reference docs via REST API or CLI
+    - Push agent-generated drafts back into your workspace with version history tracking
+    - Explicitly positioned as a 'shared context layer' for teams and agents to stay aligned
 placement:
-  primary_category: null
-  section: null
+  primary_category: memory-and-context
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
@@ -71,25 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:28.181Z"
+    updated_at: "2026-09-28T04:20:32.687Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7dffc24fa3e611750e011ea24a0808700cfffd3328440d01abefbe38ae9c2bd2
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:4104043ffa860a787ce1dff4efa572b68f563903a8e98e91c7b04608d84b3336
+      proposed_primary_category: memory-and-context
       disagreement: false
-      decision_reason: HackMD is primarily a collaborative Markdown editor and workspace, not a developer-tooling product focused on AI agents, coding assistance, or workflow automation.
+      decision_reason: HackMD functions as a persistent knowledge base where agents can retrieve and write Markdown context via API, fitting the memory-and-context category's focus on externalized agent memory and knowledge storage.
       decision_evidence:
-        - Core product is a real-time Markdown editor for teams and communities
-        - AI agent integration is a secondary feature, not the primary product identity
-        - No evidence of being a coding assistant, framework, or developer toolkit
-      category_candidates: []
-      contrastive_reason: null
+        - Every HackMD note is Markdown all the way down, enabling agents to pull context/reference docs via REST API or CLI
+        - Push agent-generated drafts back into your workspace with version history tracking
+        - Explicitly positioned as a 'shared context layer' for teams and agents to stay aligned
+      category_candidates:
+        - memory-and-context
+        - mcp
+      contrastive_reason: Choose memory-and-context over mcp because HackMD's core identity is a collaborative Markdown workspace for context sharing, not MCP server infrastructure, with no evidence of MCP being its primary protocol in the provided description.
       review_reason: null
       review_resume_lifecycle: null

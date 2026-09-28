@@ -37,22 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A sparse Mixture-of-Experts large language model by Mistral AI that outperforms Llama 2 70B on most benchmarks.
-  why_it_matters: It provides a high-performance, open-weights alternative for developers building complex reasoning and coding workflows without being locked into proprietary APIs.
-  mental_damage: It's another heavy-weight model to benchmark, fine-tune, and eventually watch be eclipsed by a slightly larger, slightly faster successor.
+  summary: Mixtral-8x7B-v0.1 is a pretrained sparse Mixture of Experts large language model from Mistral AI.
+  why_it_matters: It provides a high-performance open-weight LLM that developers can fine-tune, serve locally, or use as a foundation for AI-powered applications.
+  mental_damage: Another week, another 'state-of-the-art' model that makes your fine-tuning pipeline feel perpetually outdated.
   tags:
-    - mixtral
-    - mixture-of-experts
-    - open-weights
-    - mistral-ai
+    - llm
+    - moe
+    - mistral
+    - huggingface
+    - vllm
   confidence: high
 curation:
   status: excluded
-  reason: This is a raw model weights repository, not a developer-facing tool, framework, or interface.
+  reason: It is a raw model weight repository without a meaningful SDK, API surface, or developer-facing tooling identity; it serves as infrastructure for others to build upon, not a developer tool itself.
   evidence:
-    - Repo contains model weights and configuration rather than a tool or SDK.
-    - Primary identity is a pretrained generative Sparse Mixture of Experts model.
-    - Does not provide a standalone workflow, interface, or developer-tooling layer.
+    - Repo description is absent; the Hugging Face page shows only model card, weights, and basic inference examples.
+    - It is listed in Awesome-LLMOps under 'Model > Large Language Model', indicating it is treated as a model asset, not a developer tool.
+    - The product provides no autonomous coding behavior, app generation, orchestration, or workflow enhancement — only model weights for consumption.
 placement:
   primary_category: null
   section: null
@@ -73,24 +74,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:29.014Z"
+    updated_at: "2026-09-28T04:29:32.186Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:168e438b765d144f5b1bfadff4f51d8c9a4efa6969375c24f2161f8dc3751150
+      category_rules_version: c367d6101132
+      input_hash: sha256:90e627c87ffbdc291332248f96792c18818b86a684ab7bb6207f52a0d3e6d0cc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a raw model weights repository, not a developer-facing tool, framework, or interface.
+      decision_reason: It is a raw model weight repository without a meaningful SDK, API surface, or developer-facing tooling identity; it serves as infrastructure for others to build upon, not a developer tool itself.
       decision_evidence:
-        - Repo contains model weights and configuration rather than a tool or SDK.
-        - Primary identity is a pretrained generative Sparse Mixture of Experts model.
-        - Does not provide a standalone workflow, interface, or developer-tooling layer.
+        - Repo description is absent; the Hugging Face page shows only model card, weights, and basic inference examples.
+        - It is listed in Awesome-LLMOps under 'Model > Large Language Model', indicating it is treated as a model asset, not a developer tool.
+        - The product provides no autonomous coding behavior, app generation, orchestration, or workflow enhancement — only model weights for consumption.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

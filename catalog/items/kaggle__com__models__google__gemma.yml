@@ -53,51 +53,52 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Gemma is a family of lightweight, open models derived from Google's research and technology used to create the Gemini models.
-  why_it_matters: It provides developers with accessible, open-weight models for experimentation and integration into applications.
-  mental_damage: Another model family to benchmark against, because your existing 17 local LLMs weren't enough.
+  summary: Gemma is a family of lightweight, open language models released by Google via Kaggle Models.
+  why_it_matters: Provides developers with accessible, compact models for local fine-tuning and inference without relying on proprietary APIs.
+  mental_damage: Another model drop that promises efficiency but still requires you to wrestle with quantization and VRAM limits to run locally.
   tags:
-    - open-models
+    - open-model
+    - local-ai
     - google
-    - lightweight
-    - gemini-derived
-  confidence: high
+  confidence: medium
 curation:
-  status: excluded
-  reason: Gemma is a raw model family, not a developer tool, framework, or workflow product.
+  status: included
+  reason: Gemma is a model family designed for local execution and self-hosting, fitting the Local & Self-hosted AI category as a foundational model for local inference stacks.
   evidence:
-    - Described as a family of lightweight, open models
-    - No evidence of developer-tooling, SDK, or runtime identity
-    - Listed in Awesome-LLMOps under 'Model > Large Language Model' (not tooling)
+    - "Repo description: Gemma is a family of lightweight, open models built from the research and technology that Google used to create the Gemini models."
+    - "Seen in source lists: Awesome-LLMOps lists Gemma under Model > Large Language Model, indicating its role as a deployable model for developer use."
+    - "Homepage: (none) — but Kaggle model listing implies self-serve download and local usage intent."
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Local API Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:07.667Z"
+    updated_at: "2026-09-28T04:42:10.711Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7327d6a2657af823c2b8e0178c9d0cf93a8add62cabd7f2fdf4582924d534363
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:446c0b83967d96b38bb2ce7a2e9b149c07e16266fb3ea9739dc802abcb39d2ce
+      proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: Gemma is a raw model family, not a developer tool, framework, or workflow product.
+      decision_reason: Gemma is a model family designed for local execution and self-hosting, fitting the Local & Self-hosted AI category as a foundational model for local inference stacks.
       decision_evidence:
-        - Described as a family of lightweight, open models
-        - No evidence of developer-tooling, SDK, or runtime identity
-        - Listed in Awesome-LLMOps under 'Model > Large Language Model' (not tooling)
-      category_candidates: []
-      contrastive_reason: null
+        - "Repo description: Gemma is a family of lightweight, open models built from the research and technology that Google used to create the Gemini models."
+        - "Seen in source lists: Awesome-LLMOps lists Gemma under Model > Large Language Model, indicating its role as a deployable model for developer use."
+        - "Homepage: (none) — but Kaggle model listing implies self-serve download and local usage intent."
+      category_candidates:
+        - local-ai
+        - ai-frameworks
+      contrastive_reason: Choose local-ai over ai-frameworks because Gemma is a model weight distribution, not a code library or SDK developers import to build applications.
       review_reason: null
       review_resume_lifecycle: null
   discover:

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__langchain__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-07-20T15:10:47.684Z'
+      discovered_at: "2026-07-20T15:10:47.684Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,10 +18,10 @@ provenance:
           - Developer tools
         anchor_text: LangChain
         extracted_url: https://langchain.com
-        surrounding_text: '- [LangChain](https://langchain.com/) - A framework for developing applications powered by language models.'
+        surrounding_text: "- [LangChain](https://langchain.com/) - A framework for developing applications powered by language models."
         confidence: high
     - id: discovery__langchain__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-20T15:10:47.684Z'
+      discovered_at: "2026-07-20T15:10:47.684Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,12 +33,10 @@ provenance:
           - AI Frameworks and SDKs
         anchor_text: LangChain
         extracted_url: https://langchain.com
-        surrounding_text: >-
-          - **[LangChain](https://www.langchain.com/)** – The most popular framework for building LLM-powered
-          applications with chains, agents, and retrieval.
+        surrounding_text: "- **[LangChain](https://www.langchain.com/)** – The most popular framework for building LLM-powered applications with chains, agents, and retrieval."
         confidence: high
     - id: discovery__www__langchain__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -50,10 +48,10 @@ provenance:
           - Developer tools
         anchor_text: LangChain
         extracted_url: https://langchain.com
-        surrounding_text: '- [LangChain](https://langchain.com/) - A framework for developing applications powered by language models.'
+        surrounding_text: "- [LangChain](https://langchain.com/) - A framework for developing applications powered by language models."
         confidence: high
     - id: discovery__www__langchain__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -65,9 +63,7 @@ provenance:
           - AI Frameworks and SDKs
         anchor_text: LangChain
         extracted_url: https://www.langchain.com
-        surrounding_text: >-
-          - **[LangChain](https://www.langchain.com/)** – The most popular framework for building LLM-powered
-          applications with chains, agents, and retrieval.
+        surrounding_text: "- **[LangChain](https://www.langchain.com/)** – The most popular framework for building LLM-powered applications with chains, agents, and retrieval."
         confidence: high
 metadata:
   github:
@@ -85,31 +81,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    LangChain provides open-source frameworks and a platform for developers to build, test, and deploy reliable AI
-    agents.
-  why_it_matters: >-
-    It gives developers code-first building blocks and a hosted platform to create, observe, and scale agent workflows
-    across the full development lifecycle.
-  mental_damage: Now you too can spend six months debugging a chain of thought that still hallucinates your database schema.
+  summary: LangChain is a framework and SDK for building applications with language agents, offering abstractions for LLMs, chains, agents, and tools.
+  why_it_matters: It gives developers a composable way to prototype and productionize agent-based applications without reinventing prompt chaining or tool use.
+  mental_damage: Another layer of abstraction to learn just to realize you're still debugging why the agent won't call the right tool.
   tags:
-    - agent-framework
-    - sdk
-    - observability
-    - deployment
-    - python
+    - framework
+    - agent-sdk
+    - llm-abstraction
   confidence: high
 curation:
   status: included
-  reason: >-
-    LangChain is primarily a code-first framework and SDK for building agents, not a standalone assistant, IDE, or
-    orchestration platform.
+  reason: LangChain is a code-first library developers import to build agent systems, not an autonomous coding agent or orchestration platform, making it a clear fit for ai-frameworks.
   evidence:
-    - >-
-      Scraped site context describes it as 'engineering platform and open source frameworks developers use to build,
-      test, and deploy reliable AI agents'
-    - Source-list context places it in 'AI Frameworks and SDKs' and 'Developer tools'
-    - Canonical positives for ai-frameworks include LangChain
+    - Repo description frames LangChain as enabling companies to 'own their intelligence' via an open agent engineering platform.
+    - Scraped site shows products like langchain, langgraph, and deepagents as frameworks for building agents with low-level control or quick starts.
+    - Source lists categorize it under 'AI Frameworks and SDKs' in awesome-ai-coding-tools and 'Developer tools' in awesome-local-ai.
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
@@ -120,39 +106,33 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:35:11.110Z'
+    updated_at: "2026-09-28T04:42:17.456Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:44331cca9854d769923c1860c5af00ad5f19fc8ec8d067c7a54657fa96661c21
+      category_rules_version: c367d6101132
+      input_hash: sha256:40e646f1de56ebb4789014cabcdc587bde521cb10f8c9a27e6ff95a2538a0b27
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: >-
-        LangChain is primarily a code-first framework and SDK for building agents, not a standalone assistant, IDE, or
-        orchestration platform.
+      decision_reason: LangChain is a code-first library developers import to build agent systems, not an autonomous coding agent or orchestration platform, making it a clear fit for ai-frameworks.
       decision_evidence:
-        - >-
-          Scraped site context describes it as 'engineering platform and open source frameworks developers use to build,
-          test, and deploy reliable AI agents'
-        - Source-list context places it in 'AI Frameworks and SDKs' and 'Developer tools'
-        - Canonical positives for ai-frameworks include LangChain
+        - Repo description frames LangChain as enabling companies to 'own their intelligence' via an open agent engineering platform.
+        - Scraped site shows products like langchain, langgraph, and deepagents as frameworks for building agents with low-level control or quick starts.
+        - Source lists categorize it under 'AI Frameworks and SDKs' in awesome-ai-coding-tools and 'Developer tools' in awesome-local-ai.
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: >-
-        Choose ai-frameworks over agent-orchestration because LangChain's primary identity is as a code-first
-        framework/SDK rather than an operated workbench or control plane.
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because LangChain is imported and programmed against as an SDK, not operated as a hosted platform for coordinating agent teams.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T15:10:47.687Z'
+    updated_at: "2026-07-20T15:10:47.687Z"
     cause: null
     next_retry_at: null
   stars:

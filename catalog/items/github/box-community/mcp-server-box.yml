@@ -39,22 +39,23 @@ metadata:
       fetched_at: "2026-09-24T04:13:02.446Z"
       bytes: 5549
 insights:
-  summary: A discontinued community-built MCP server for connecting AI agents to Box enterprise content.
-  why_it_matters: It provided a way for developers to integrate Box content with MCP-compatible AI agents before Box's official hosted solution.
-  mental_damage: Nothing says 'enterprise AI' like a deprecated repo with a migration notice longer than the README.
+  summary: An archived MCP server that enabled AI agents to securely access and manage files, folders, metadata, and collaboration features in Box.
+  why_it_matters: Provided developers a standardized way to connect AI agents to enterprise content in Box via the Model Context Protocol, enabling AI-driven document workflows without custom API integration.
+  mental_damage: The comforting illusion that your AI agent can finally organize your company's chaotic file shares — until you realize it’s discontinued and you’re back to yelling at SharePoint.
   tags:
     - mcp
     - box
-    - enterprise-integration
-    - deprecated
+    - discontinued
+    - enterprise
+    - file-management
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived and explicitly discontinued, with Box directing users to their official hosted MCP server instead.
+  reason: The repository is archived and explicitly marked as discontinued, with Box directing users to an officially hosted MCP server, making this a defunct integration with no active maintenance or usability.
   evidence:
-    - "Repo description: 'Securely connect AI agents to your enterprise content in Box'"
-    - "README contains a WARNING: 'This repository is discontinued and no longer maintained.'"
-    - Archived flag is true
+    - "Archived: yes"
+    - "README states: 'This repository is discontinued and no longer maintained.' and directs users to Box's officially hosted MCP server"
+    - Source-list context appears in awesome-mcp-servers under 'Official Servers', but the project itself is inactive
 placement:
   primary_category: null
   section: null
@@ -73,27 +74,25 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:57:52.574Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:61d7179c653fd4f713776f5fa73659e9738ecf939ddb13e94373744f8c7990f2
+      category_rules_version: c367d6101132
+      input_hash: sha256:535f88743d2559ebb72e02078e37f8cee3251198fae75314d53363221ae561d6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The repository is archived and explicitly discontinued, with Box directing users to their official hosted MCP server instead.
+      decision_reason: The repository is archived and explicitly marked as discontinued, with Box directing users to an officially hosted MCP server, making this a defunct integration with no active maintenance or usability.
       decision_evidence:
-        - "Repo description: 'Securely connect AI agents to your enterprise content in Box'"
-        - "README contains a WARNING: 'This repository is discontinued and no longer maintained.'"
-        - Archived flag is true
+        - "Archived: yes"
+        - "README states: 'This repository is discontinued and no longer maintained.' and directs users to Box's officially hosted MCP server"
+        - Source-list context appears in awesome-mcp-servers under 'Official Servers', but the project itself is inactive
       category_candidates: []
       contrastive_reason: null
       review_reason: null

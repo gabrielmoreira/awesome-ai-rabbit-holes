@@ -36,24 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Zhihu article summarizing global LLM resources, including categories like multimodal generation, agents, coding assistance, and MCP.
-  why_it_matters: Provides a curated overview of LLM tools and resources, which can help developers discover relevant AI workflows and integrations.
-  mental_damage: Another meta-list to bookmark and forget about until the next wave of AI tooling hype.
+  summary: A Zhihu column article summarizing global LLM resources across modalities, agents, coding assistance, and related topics.
+  why_it_matters: Serves as a curated reference for developers seeking a broad overview of LLM applications and tooling in one place.
+  mental_damage: Another exhaustive list that promises clarity but adds to the stack of bookmarks you’ll never actually open.
   tags:
+    - llm
+    - resources
     - curated-list
-    - llm-resources
-    - zhihu
-  confidence: high
+    - ai
+  confidence: medium
 curation:
-  status: excluded
-  reason: The item is a static article/list rather than a standalone developer tool, platform, or operated workflow.
+  status: included
+  reason: The resource is a curated list of LLM tools and topics, making it a developer-facing discovery aid rather than a standalone tool, fitting the awesome-awesomes category.
   evidence:
-    - URL points to a Zhihu article (zhuanlan.zhihu.com)
-    - Source-list context describes it as a summary of LLM resources
-    - No repo, stars, or code artifacts provided
+    - Seen in awesome-LLM-resources under the '技巧 Tips' section as a summary of the world's best LLM resources.
+    - The URL points to a Zhihu column article presenting a structured overview of LLM modalities, agents, coding assistance, and related domains.
+    - No indication of being a runtime, SDK, agent, or platform — it is a static informational resource focused on curation.
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Awesome Lists & Directories
 lifecycle:
   status: incubating
   reason: null
@@ -69,25 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:12.013Z"
+    updated_at: "2026-09-28T04:51:52.462Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3a60f0bae60eb4c735f54ceadbdd56cd4ec639ffe59055c6d31140c6b1ecbf64
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:611e3125c2c80d1af83259258f1e87d350652ed8a46bf586ce4deb9b4eb121a1
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: The item is a static article/list rather than a standalone developer tool, platform, or operated workflow.
+      decision_reason: The resource is a curated list of LLM tools and topics, making it a developer-facing discovery aid rather than a standalone tool, fitting the awesome-awesomes category.
       decision_evidence:
-        - URL points to a Zhihu article (zhuanlan.zhihu.com)
-        - Source-list context describes it as a summary of LLM resources
-        - No repo, stars, or code artifacts provided
-      category_candidates: []
-      contrastive_reason: null
+        - Seen in awesome-LLM-resources under the '技巧 Tips' section as a summary of the world's best LLM resources.
+        - The URL points to a Zhihu column article presenting a structured overview of LLM modalities, agents, coding assistance, and related domains.
+        - No indication of being a runtime, SDK, agent, or platform — it is a static informational resource focused on curation.
+      category_candidates:
+        - awesome-awesomes
+        - skills
+      contrastive_reason: Choose awesome-awesomes over skills because the resource is a curated list of LLM topics and tools for discovery, not a reusable skill pack or rules file intended for installation into coding agents.
       review_reason: null
       review_resume_lifecycle: null

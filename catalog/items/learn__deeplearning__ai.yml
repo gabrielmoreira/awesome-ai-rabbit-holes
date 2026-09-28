@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An online learning platform offering AI and machine learning courses, including prompt engineering and agent development.
-  why_it_matters: Provides structured educational content for developers looking to upskill in AI/ML, including practical topics like prompt engineering and agent workflows.
-  mental_damage: Another course platform promising to turn you into an AI power user, because apparently reading docs is now a superpower.
+  summary: learn.deeplearning.ai is the DeepLearning.AI educational platform offering courses and specializations in machine learning, deep learning, and AI.
+  why_it_matters: Provides structured learning paths for developers to build AI skills and stay current with foundational and applied AI concepts.
+  mental_damage: Another reminder that your GitHub stars won’t fix the fact you still can’t explain backpropagation at a whiteboard.
   tags:
     - education
-    - ai-courses
-    - prompt-engineering
-    - learning-platform
+    - courses
+    - ai-learning
   confidence: high
 curation:
   status: excluded
-  reason: This is a general AI/ML educational platform, not a developer tool, framework, or workflow product that fits the catalog's scope of practical AI tools for software developers.
+  reason: learn.deeplearning.ai is an educational platform, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - Primary page excerpt describes a learning platform with courses and study tips, not a tool or workflow product
-    - No repo description or code-first artifact; purely a hosted educational service
-    - Catalog scope excludes generic AI directories, broad AI news, and vague resource dumps with no developer-tooling angle
+    - Source-list context shows it is categorized under '课程 Course' in awesome-LLM-resources as an educational resource
+    - No evidence of being a coding agent, app builder, framework, or any developer-tooling product in the README or description
+    - The platform's purpose is delivering courses and specializations, not enabling AI-assisted development workflows
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:03.043Z"
+    updated_at: "2026-09-28T04:31:04.823Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5997540b31e5eff97b310eed34d2cd7afaa887554a71c5bcd4f0741f255af031
+      category_rules_version: c367d6101132
+      input_hash: sha256:0034f2e37f6eae05f8b767790bafcfb0e18f7c4c0cf31848b6062bfbb9fba749
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a general AI/ML educational platform, not a developer tool, framework, or workflow product that fits the catalog's scope of practical AI tools for software developers.
+      decision_reason: learn.deeplearning.ai is an educational platform, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - Primary page excerpt describes a learning platform with courses and study tips, not a tool or workflow product
-        - No repo description or code-first artifact; purely a hosted educational service
-        - Catalog scope excludes generic AI directories, broad AI news, and vague resource dumps with no developer-tooling angle
+        - Source-list context shows it is categorized under '课程 Course' in awesome-LLM-resources as an educational resource
+        - No evidence of being a coding agent, app builder, framework, or any developer-tooling product in the README or description
+        - The platform's purpose is delivering courses and specializations, not enabling AI-assisted development workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null

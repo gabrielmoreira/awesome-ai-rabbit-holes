@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A sign-in page for Zhihu, a Chinese Q&A and knowledge-sharing platform.
-  why_it_matters: It is a general-purpose social and knowledge platform rather than a specialized AI developer tool or a curated directory of tools.
-  mental_damage: The hollow realization that your deep dive into AI technicals has successfully led you directly to a login wall.
+  summary: 知乎 (Zhihu) is a Chinese knowledge-sharing Q&A platform and creator community.
+  why_it_matters: It provides technical and professional knowledge relevant to developers, but is not itself a developer tool.
+  mental_damage: Another reminder that even the best knowledge platforms don’t write your code for you.
   tags:
-    - zhihu
-    - q&a
+    - knowledge-platform
     - community
+    - qa
   confidence: high
 curation:
   status: excluded
-  reason: The input is a login page for a general-purpose social Q&A platform, which does not meet the catalog's requirement for practical AI tools, agents, or specialized developer infrastructure.
+  reason: Zhihu is a general-purpose knowledge-sharing platform without a primary identity as a developer-facing AI tool, agent, or infrastructure.
   evidence:
-    - The URL is a sign-in page for Zhihu.
-    - The scraped context describes Zhihu as a general-purpose knowledge-sharing and social community.
-    - While included in a third-party 'awesome' list, the site itself is a platform rather than a curated directory or a developer tool.
+    - Repo description is empty; the platform is described as a 'knowledge-sharing community and creator platform' with no mention of AI-assisted development.
+    - Scraped site context frames Zhihu as a broad Q&A and content platform for topics like tech, business, and culture, not as a tool for coding, agents, or workflows.
+    - Appears in awesome-LLM-resources only as a tutorial resource, not as a tool or product with developer-facing AI functionality.
 placement:
   primary_category: null
   section: null
@@ -69,25 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:20:31.750Z"
+    updated_at: "2026-09-28T04:54:11.224Z"
     cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:44904e731b0caeb6f51906bd92a27d7ec38442425285d0df16d8044939844a30
+      category_rules_version: c367d6101132
+      input_hash: sha256:a34f8fde41bb240554ede253c2943de44f1027191f6951ab15aaa7a882848a84
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a login page for a general-purpose social Q&A platform, which does not meet the catalog's requirement for practical AI tools, agents, or specialized developer infrastructure.
+      decision_reason: Zhihu is a general-purpose knowledge-sharing platform without a primary identity as a developer-facing AI tool, agent, or infrastructure.
       decision_evidence:
-        - The URL is a sign-in page for Zhihu.
-        - The scraped context describes Zhihu as a general-purpose knowledge-sharing and social community.
-        - While included in a third-party 'awesome' list, the site itself is a platform rather than a curated directory or a developer tool.
+        - Repo description is empty; the platform is described as a 'knowledge-sharing community and creator platform' with no mention of AI-assisted development.
+        - Scraped site context frames Zhihu as a broad Q&A and content platform for topics like tech, business, and culture, not as a tool for coding, agents, or workflows.
+        - Appears in awesome-LLM-resources only as a tutorial resource, not as a tool or product with developer-facing AI functionality.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__endorlabs__com__ai__code__security__review__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,13 +18,10 @@ provenance:
           - Security
         anchor_text: Endor Labs
         extracted_url: https://endorlabs.com/ai-code-security-review
-        surrounding_text: >-
-          - **[Endor Labs](https://www.endorlabs.com/ai-code-security-review)** – AI code review for security risks and
-          architectural vulnerabilities.
+        surrounding_text: "- **[Endor Labs](https://www.endorlabs.com/ai-code-security-review)** – AI code review for security risks and architectural vulnerabilities."
         confidence: high
-    - id: >-
-        discovery__www__endorlabs__com__ai__code__security__review__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__www__endorlabs__com__ai__code__security__review__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -36,9 +33,7 @@ provenance:
           - Security
         anchor_text: Endor Labs
         extracted_url: https://www.endorlabs.com/ai-code-security-review
-        surrounding_text: >-
-          - **[Endor Labs](https://www.endorlabs.com/ai-code-security-review)** – AI code review for security risks and
-          architectural vulnerabilities.
+        surrounding_text: "- **[Endor Labs](https://www.endorlabs.com/ai-code-security-review)** – AI code review for security risks and architectural vulnerabilities."
         confidence: high
 metadata:
   github:
@@ -56,73 +51,58 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A SaaS platform for AI-powered code security review that analyzes pull requests for application security risks.
-  why_it_matters: >-
-    It helps developers catch security issues in AI-generated or human-written code early in the PR workflow, reducing
-    noise and speeding up remediation.
-  mental_damage: Now your PRs can be haunted by not just lint errors, but also by a trio of AI agents judging your auth flows.
+  summary: Endor Labs offers AI-powered security review that analyzes pull requests for application security changes using AI agents trained as developer, architect, and security engineer personas.
+  why_it_matters: It helps developers catch security risks in AI- and human-generated code that traditional scanners miss, especially around business logic and architecture changes.
+  mental_damage: Another tool promising to reduce noise while adding yet another layer of AI agents to your PR workflow, because one wasn’t enough.
   tags:
     - security
-    - code-review
     - ai-agents
-    - pull-requests
-  confidence: high
+    - code-review
+  confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is a developer-facing assistant that directly reviews code changes in pull requests for security risks,
-    fitting the 'Review, Testing & Repair Agents' section.
+  reason: The product is a developer-facing assistant that directly reviews code changes in pull requests for security risks, fitting the 'Review, Testing & Repair Agents' section.
   evidence:
-    - >-
-      Described as 'Review AI-generated code with application security designed to catch real issues, reduce noise, and
-      speed up remediation in pull requests'
+    - Described as 'Review AI-generated code with application security designed to catch real issues, reduce noise, and speed up remediation in pull requests'
     - Uses AI agents to analyze PRs for security architecture changes and prioritizes findings by impact and confidence
     - Listed in awesome-ai-coding-tools under Security section
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:33:43.510Z'
+    updated_at: "2026-09-28T04:40:57.698Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a0f6c39350c8caf2012823ad0f08967533d29bf3f1785b5b27ba36657e3da736
-      proposed_primary_category: coding-agents
-      disagreement: false
-      decision_reason: >-
-        The product is a developer-facing assistant that directly reviews code changes in pull requests for security
-        risks, fitting the 'Review, Testing & Repair Agents' section.
+      category_rules_version: c367d6101132
+      input_hash: sha256:51f44b1b395447fee042a00da4280c84bc7ef9d6efbb7daa2163b2def3c48019
+      proposed_primary_category: extensions-and-addons
+      disagreement: true
+      decision_reason: Endor Labs functions as a security add-on that integrates with coding agents and PR workflows to analyze changes, making it an extension rather than a standalone coding agent or orchestrator.
       decision_evidence:
-        - >-
-          Described as 'Review AI-generated code with application security designed to catch real issues, reduce noise,
-          and speed up remediation in pull requests'
-        - >-
-          Uses AI agents to analyze PRs for security architecture changes and prioritizes findings by impact and
-          confidence
-        - Listed in awesome-ai-coding-tools under Security section
+        - Analyzes pull requests using a trio of AI agents to surface security architecture changes
+        - Integrates with GitHub, GitHub Copilot, Claude, Cursor, and other developer tools
+        - Listed in 'awesome-ai-coding-tools' under the Security section for AI code review
       category_candidates:
+        - extensions-and-addons
         - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because the primary product is a standalone code review assistant,
-        not an extension augmenting another assistant.
-      review_reason: null
+      contrastive_reason: Choose extensions-and-addons over coding-agents because Endor Labs primarily augments existing coding agents and PR workflows with security analysis rather than acting as a primary coding assistant that writes or edits code.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.965Z'
+    updated_at: "2026-07-21T15:20:21.965Z"
     cause: null
     next_retry_at: null
   stars:

@@ -36,25 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Wispy is an AI autonomous agent listed in the awesome-ai-agents directory.
-  why_it_matters: It offers developers a way to automate tasks through an autonomous agent, potentially streamlining workflows.
-  mental_damage: Another agent to add to your already overcrowded toolchain, because why not?
+  summary: Wispy is an AI agent listed in the awesome-ai-agents directory under the purpose of AI autonomous agents.
+  why_it_matters: It represents a curated entry in the AI agent ecosystem, helping developers discover autonomous agent tools.
+  mental_damage: Another agent in the list, reminding us that 'awesome' now means 'we scraped a GitHub star and called it a resource'.
   tags:
-    - autonomous-agent
-    - ai-automation
-  confidence: low
+    - ai-agents
+    - curated-list
+  confidence: high
 curation:
   status: excluded
-  reason: The project lacks sufficient grounded information (no repo description, README, or clear product identity) to confirm its fit in the developer-tooling scope.
+  reason: Wispy is not a standalone tool or product but merely a listing in an awesome list, with no evidence of being a developer-facing AI tool, agent, or infrastructure.
   evidence:
-    - No repo description, README, or scraped site context provided
-    - Only appears in a generic 'awesome-ai-agents' list with no developer-tooling specificity
+    - "Seen in source lists / directories: awesome-ai-agents | purpose: A list of AI autonomous agents | section: Wispy"
+    - No repo description, README excerpt, or scraped site context provided to substantiate what Wispy actually does
+    - No stars, creation date, or push history indicating traction or activity
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -67,24 +68,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:11.867Z"
+    updated_at: "2026-09-28T04:50:04.075Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1d8674f49bae2b8149d8a1c520199dc16f658880abd5d945fcc8498e42891780
+      category_rules_version: c367d6101132
+      input_hash: sha256:526298f5a5837f9f736d384cbaa52b576e73a97aaef28a8c389dc72122423e2f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project lacks sufficient grounded information (no repo description, README, or clear product identity) to confirm its fit in the developer-tooling scope.
+      decision_reason: Wispy is not a standalone tool or product but merely a listing in an awesome list, with no evidence of being a developer-facing AI tool, agent, or infrastructure.
       decision_evidence:
-        - No repo description, README, or scraped site context provided
-        - Only appears in a generic 'awesome-ai-agents' list with no developer-tooling specificity
+        - "Seen in source lists / directories: awesome-ai-agents | purpose: A list of AI autonomous agents | section: Wispy"
+        - No repo description, README excerpt, or scraped site context provided to substantiate what Wispy actually does
+        - No stars, creation date, or push history indicating traction or activity
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+      review_reason: null
       review_resume_lifecycle: null

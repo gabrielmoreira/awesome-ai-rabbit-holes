@@ -51,23 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: RevenueCat is a subscription backend platform for managing in-app purchases and customer data across iOS, Android, and web.
-  why_it_matters: It simplifies cross-platform purchase implementation and receipt validation, freeing developers from platform-specific edge cases.
-  mental_damage: Now you can spend less time debugging StoreKit and more time explaining to marketing why your paywall A/B test results are statistically insignificant.
+  summary: RevenueCat is a subscription backend service for managing in-app purchases, customer data, and revenue across iOS, Android, and web platforms.
+  why_it_matters: It reduces engineering overhead for subscription infrastructure, letting developers focus on product features instead of payment platform maintenance.
+  mental_damage: Yet another reminder that 'just use Stripe' ignores the 3 a.m. panic when Apple changes receipt validation rules for the seventeenth time.
   tags:
     - subscriptions
-    - in-app-purchases
+    - payments
     - backend
-    - mobile
-    - billing
   confidence: high
 curation:
   status: excluded
-  reason: RevenueCat is a SaaS platform for app monetization and subscription management, not a developer tool focused on AI workflows, coding assistance, or AI infrastructure.
+  reason: RevenueCat is a SaaS subscription and payments platform with no AI agent, coding tool, or developer-facing automation core; its inclusion in awesome-mcp-servers is incidental and does not confer developer-tooling identity.
   evidence:
-    - Primary product is a subscription backend for in-app purchases (scraped site context)
-    - No AI-specific functionality or developer-tooling angle in description or README
-    - Source-list context shows it appears in MCP servers list but its core identity is not MCP or AI-related
+    - RevenueCat describes itself as a 'subscription backend-in-a-box' for powering in-app purchases and managing customer data.
+    - It appears in awesome-mcp-servers only as an 'Official Server' entry, but the linked page shows no MCP-specific functionality — only general app business claims.
+    - No evidence of AI agents, code generation, IDE extensions, or developer workflow automation in the product description or feature list.
 placement:
   primary_category: null
   section: null
@@ -77,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:56.627Z"
+    updated_at: "2026-09-28T04:45:06.664Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d2ac35768a9f23f149846fd79becef48858660d1822f6e8a02c7f403cf24eaab
+      category_rules_version: c367d6101132
+      input_hash: sha256:5e1390eb6e64065708c93d23b6ebc8f3b3f1f65aad43cd4b64a013f2821575cb
       proposed_primary_category: null
       disagreement: false
-      decision_reason: RevenueCat is a SaaS platform for app monetization and subscription management, not a developer tool focused on AI workflows, coding assistance, or AI infrastructure.
+      decision_reason: RevenueCat is a SaaS subscription and payments platform with no AI agent, coding tool, or developer-facing automation core; its inclusion in awesome-mcp-servers is incidental and does not confer developer-tooling identity.
       decision_evidence:
-        - Primary product is a subscription backend for in-app purchases (scraped site context)
-        - No AI-specific functionality or developer-tooling angle in description or README
-        - Source-list context shows it appears in MCP servers list but its core identity is not MCP or AI-related
+        - RevenueCat describes itself as a 'subscription backend-in-a-box' for powering in-app purchases and managing customer data.
+        - It appears in awesome-mcp-servers only as an 'Official Server' entry, but the linked page shows no MCP-specific functionality — only general app business claims.
+        - No evidence of AI agents, code generation, IDE extensions, or developer workflow automation in the product description or feature list.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

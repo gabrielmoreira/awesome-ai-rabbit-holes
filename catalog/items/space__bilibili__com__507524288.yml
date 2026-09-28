@@ -36,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili creator space providing video, article, and social updates on various AI topics including Agents, MCP, and model training.
-  why_it_matters: It serves as an educational resource for developers looking to follow academic-to-industry trends in the rapidly evolving AI landscape.
-  mental_damage: Another high-quality content feed to add to the infinite scroll of tutorials you'll definitely watch... eventually.
+  summary: Bilibili personal space for NICE Academic sharing AI-related videos, audio, articles, and updates.
+  why_it_matters: Provides developer-relevant AI educational content from early-career researchers focused on academic-to-industry translation.
+  mental_damage: Another resource dump where watching 20-minute talks feels like productivity but mostly just delays writing code.
   tags:
-    - tutorials
-    - education
-    - chinese-resources
-    - llm-trends
+    - video
+    - academic
+    - ai-education
+    - bilibili
+    - resource
   confidence: high
 curation:
   status: excluded
-  reason: This is a content creator's social space for sharing tutorials and news rather than a standalone developer tool or software product.
+  reason: It is a personal content hub for educational videos and updates, not a developer-facing AI tool, agent, framework, or workflow product.
   evidence:
-    - Scraped site context describes it as a personal space for sharing videos, articles, and updates.
-    - Source-list context places it in a 'Tutorial' section of an awesome list.
-    - It lacks a primary product identity as a piece of software, SDK, or platform.
+    - Bilibili personal space offering videos, audio, articles, and updates from NICE Academic
+    - Described as an AI sharing platform focusing on 'academic-落地-创业' (academic-industry-entrepreneurship) closed loop
+    - Listed in awesome-LLM-resources under '教程 Tutorial' as a resource, not a tool
 placement:
   primary_category: null
   section: null
@@ -70,24 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:04.282Z"
+    updated_at: "2026-09-28T04:38:07.898Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b63e544a11d54aaff6420e0dda64abc314b767925137d4676943b0ea7391b312
+      category_rules_version: c367d6101132
+      input_hash: sha256:bd23caeaa040b64b619f9e688a9de9748f6f9de24875d151dd71e486e2422d46
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a content creator's social space for sharing tutorials and news rather than a standalone developer tool or software product.
+      decision_reason: It is a personal content hub for educational videos and updates, not a developer-facing AI tool, agent, framework, or workflow product.
       decision_evidence:
-        - Scraped site context describes it as a personal space for sharing videos, articles, and updates.
-        - Source-list context places it in a 'Tutorial' section of an awesome list.
-        - It lacks a primary product identity as a piece of software, SDK, or platform.
+        - Bilibili personal space offering videos, audio, articles, and updates from NICE Academic
+        - Described as an AI sharing platform focusing on 'academic-落地-创业' (academic-industry-entrepreneurship) closed loop
+        - Listed in awesome-LLM-resources under '教程 Tutorial' as a resource, not a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

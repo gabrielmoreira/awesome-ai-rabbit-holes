@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A lesson in Clay University teaching how to use Claygent, Clay's AI web scraper for real-time data enrichment.
-  why_it_matters: It demonstrates how developers or GTM teams can automate the extraction of niche, real-time data from websites to solve 'last mile' enrichment problems.
-  mental_damage: Because nothing says 'modern workflow' like teaching an AI to scrape LinkedIn profiles so you don’t have to.
+  summary: A Clay University lesson on using Claygent, an AI web scraper for enriching company and people data with real-time web research.
+  why_it_matters: Shows developers how to automate last-mile data enrichment that traditional providers miss, using AI to scrape live web content for GTM use cases.
+  mental_damage: Another reminder that your 'AI workflow' still depends on manually prompting a browser to read company websites like it's 2003.
   tags:
-    - gtm-automation
-    - web-scraping
+    - ai-scraping
     - data-enrichment
-    - clay
-    - ai-agent
+    - gtm-automation
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational lesson, not a standalone developer tool, framework, or product.
+  reason: This is an educational lesson about using a feature within a broader platform (Clay), not a standalone AI developer tool or product; it lacks product identity and is documentation-first.
   evidence:
-    - The URL points to a Clay University lesson, not a repo or product
-    - The content is a tutorial on using Claygent, not the tool itself
-    - No GitHub repo, stars, or code artifacts are present
+    - URL points to a Clay University lesson page, not a GitHub repo or standalone tool
+    - "Primary content is a course lesson titled 'Enriching with Claygent' within 'Clay 101: GTM Automation'"
+    - No evidence of a deployable product, SDK, agent, or framework — only usage instructions for Claygent inside Clay
 placement:
   primary_category: null
   section: null
@@ -71,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:28.490Z"
+    updated_at: "2026-09-28T04:48:13.933Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:105cba40f43c0e56539f9ef3c7f75985e984c3ae1309c7c37e257e6ac7de1d9c
+      category_rules_version: c367d6101132
+      input_hash: sha256:e034a2c12701b891fee63d1db42eabb425b28a3f28ef35211ae87af8cc20ad5c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational lesson, not a standalone developer tool, framework, or product.
+      decision_reason: This is an educational lesson about using a feature within a broader platform (Clay), not a standalone AI developer tool or product; it lacks product identity and is documentation-first.
       decision_evidence:
-        - The URL points to a Clay University lesson, not a repo or product
-        - The content is a tutorial on using Claygent, not the tool itself
-        - No GitHub repo, stars, or code artifacts are present
+        - URL points to a Clay University lesson page, not a GitHub repo or standalone tool
+        - "Primary content is a course lesson titled 'Enriching with Claygent' within 'Clay 101: GTM Automation'"
+        - No evidence of a deployable product, SDK, agent, or framework — only usage instructions for Claygent inside Clay
       category_candidates: []
       contrastive_reason: null
       review_reason: null

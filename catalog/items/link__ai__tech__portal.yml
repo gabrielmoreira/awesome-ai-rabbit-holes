@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__link__ai__tech__portal__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,7 +18,7 @@ provenance:
           - 智能体 Agents
         anchor_text: LinkAI
         extracted_url: https://link-ai.tech/portal
-        surrounding_text: '9. [LinkAI](https://link-ai.tech/portal): 一站式 AI 智能体搭建平台'
+        surrounding_text: "9. [LinkAI](https://link-ai.tech/portal): 一站式 AI 智能体搭建平台"
         confidence: high
 metadata:
   github:
@@ -36,42 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    LinkAI is an enterprise-grade all-in-one AI agent platform that aggregates multimodal models, RAG knowledge bases,
-    databases, plugins, and workflows for building and deploying AI agents.
-  why_it_matters: >-
-    It enables developers to create and manage AI agents with zero-code integration into websites, enterprise messaging,
-    and collaboration platforms, streamlining AI adoption in business workflows.
-  mental_damage: >-
-    Another platform promising to turn your enterprise into an AI utopia, because nothing says 'productivity' like a
-    10-tab interface for configuring agents.
+  summary: LinkAI is an enterprise AI agent platform offering multimodal model integration, RAG knowledge bases, workflow automation, and cross-channel deployment for business applications.
+  why_it_matters: It enables developers to build and deploy AI agents with private knowledge and complex task execution capabilities via zero-code integration into enterprise communication tools.
+  mental_damage: Another 'one-stop AI platform' promising enterprise agility while locking teams into proprietary workflows and channel-specific vendor dependencies.
   tags:
     - ai-agents
-    - enterprise
-    - no-code
-    - multimodal
+    - enterprise-ai
     - workflow-automation
   confidence: high
 curation:
-  status: included
-  reason: >-
-    The product is a platform for coordinating and deploying multiple AI agents with workflow, plugin, and multimodal
-    capabilities, fitting the agent orchestration category.
+  status: excluded
+  reason: LinkAI is an end-user enterprise platform for deploying AI agents in business contexts like customer service and internal operations, not a developer-facing tool for coding, agent building, or workflow engineering.
   evidence:
-    - Described as an 'enterprise-level one-stop AI agent platform' with RAG, databases, plugins, and workflows
-    - Supports zero-code integration into multiple enterprise channels (WeChat, DingTalk, etc.)
-    - Source-list context places it under 'Agents' in a curated LLM resources list
+    - Source-list description emphasizes enterprise use cases:智能客服, 私域运营, 企业效率助手, and industry solutions in消费, 健康, 文教, 科技制造.
+    - Scraped site highlights zero-code接入 for websites, 企业微信, 公众号, 钉钉, 飞书等应用渠道, targeting business users over developer tooling.
+    - Open-source projects listed (bot-on-anything, CowAgent, AgentMesh, LinkAI CLI) are integrations or agents built *on* the platform, not the platform itself as a dev tool.
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,31 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:29:03.171Z'
+    updated_at: "2026-09-28T04:31:06.121Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:28b8b057c7aa409e4cf440cc6b400bdb172552a62de2ef9348a69bc02379c4b2
-      proposed_primary_category: agent-orchestration
+      category_rules_version: c367d6101132
+      input_hash: sha256:4945ff536b938d8c48dd5ef6566243a7af7b5e1ccd709d7ebfca5e719fe4ff11
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is a platform for coordinating and deploying multiple AI agents with workflow, plugin, and
-        multimodal capabilities, fitting the agent orchestration category.
+      decision_reason: LinkAI is an end-user enterprise platform for deploying AI agents in business contexts like customer service and internal operations, not a developer-facing tool for coding, agent building, or workflow engineering.
       decision_evidence:
-        - Described as an 'enterprise-level one-stop AI agent platform' with RAG, databases, plugins, and workflows
-        - Supports zero-code integration into multiple enterprise channels (WeChat, DingTalk, etc.)
-        - Source-list context places it under 'Agents' in a curated LLM resources list
-      category_candidates:
-        - agent-orchestration
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because the product is an operated platform for building and
-        managing agents, not a code-first library or SDK.
+        - Source-list description emphasizes enterprise use cases:智能客服, 私域运营, 企业效率助手, and industry solutions in消费, 健康, 文教, 科技制造.
+        - Scraped site highlights zero-code接入 for websites, 企业微信, 公众号, 钉钉, 飞书等应用渠道, targeting business users over developer tooling.
+        - Open-source projects listed (bot-on-anything, CowAgent, AgentMesh, LinkAI CLI) are integrations or agents built *on* the platform, not the platform itself as a dev tool.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

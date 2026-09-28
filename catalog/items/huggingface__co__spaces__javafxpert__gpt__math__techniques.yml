@@ -37,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Hugging Face Space hosting a math-focused GPT application.
-  why_it_matters: It provides a specialized interface for mathematical problem-solving using LLMs, which may be useful for developers working on math-heavy tasks.
-  mental_damage: Because nothing says 'production-ready' like a Hugging Face Space with a build error.
+  summary: A Hugging Face Space demonstrating specific mathematical reasoning techniques for GPT models.
+  why_it_matters: It serves as a research playground for exploring how specific prompting or reasoning patterns can improve LLM performance on mathematical tasks.
+  mental_damage: Another specialized research demo that promises to solve math once and for all, right before it hits a token limit.
   tags:
+    - huggingface
+    - llm-reasoning
     - math
-    - huggingface-space
-    - gpt
   confidence: high
 curation:
   status: excluded
-  reason: The project is a niche demo/app rather than a developer tool, framework, or workflow component, and its build error suggests it is not actively maintained or reliable.
+  reason: The project is a specialized research demonstration/playground on Hugging Face rather than a practical developer tool, framework, or coding agent.
   evidence:
-    - Hugging Face Space with a build error (not functional)
-    - No repo description, stars, or clear developer-tooling angle
-    - Listed in an 'awesome-langchain' directory under 'Other / Chatbots', not a developer tool
+    - Hosted as a Hugging Face Space
+    - Title and context indicate a focus on demonstrating mathematical reasoning techniques rather than providing a developer utility
+    - Lacks the infrastructure or integration identity required for the catalog scope
 placement:
   primary_category: null
   section: null
@@ -70,24 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:12.516Z"
+    updated_at: "2026-09-28T04:27:42.154Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a773aa0823841de1f9d3a2779091e41ac97c59020e4cf315a79b78c8b8be4352
+      category_rules_version: c367d6101132
+      input_hash: sha256:831df4e52c6f2b214acd0b2212c3d1874342e415db336658c5a781b2d37bad92
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a niche demo/app rather than a developer tool, framework, or workflow component, and its build error suggests it is not actively maintained or reliable.
+      decision_reason: The project is a specialized research demonstration/playground on Hugging Face rather than a practical developer tool, framework, or coding agent.
       decision_evidence:
-        - Hugging Face Space with a build error (not functional)
-        - No repo description, stars, or clear developer-tooling angle
-        - Listed in an 'awesome-langchain' directory under 'Other / Chatbots', not a developer tool
+        - Hosted as a Hugging Face Space
+        - Title and context indicate a focus on demonstrating mathematical reasoning techniques rather than providing a developer utility
+        - Lacks the infrastructure or integration identity required for the catalog scope
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A personal AI assistant platform with memory, app integrations, and automated task execution for email, calendar, and workflow management.
-  why_it_matters: It automates repetitive personal and professional tasks (email triage, scheduling, research) with persistent memory and skill learning, reducing manual overhead for developers who juggle many contexts.
-  mental_damage: Finally, an AI that remembers your preferences—just in time for you to forget which of your 17 assistants is handling what.
+  summary: Vellum is a personal AI assistant with persistent memory and task automation that runs locally or in the cloud to manage personal and business workflows.
+  why_it_matters: It gives developers a private, extensible AI agent that can act across tools like email, calendar, and code, reducing context-switching overhead.
+  mental_damage: Another 'always-on' AI companion promising to remember your life while quietly training the expectation that your assistant should anticipate your needs before you do.
   tags:
+    - ai-assistant
     - personal-ai
-    - automation
-    - memory-systems
-    - workflow-assistant
+    - task-automation
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general-purpose personal AI assistant focused on life/work automation (email, calendar, travel) rather than developer-specific coding, tooling, or workflow integration.
+  reason: Vellum is a general-purpose personal AI assistant focused on life and business task automation, not developer-specific coding tasks or workflows.
   evidence:
-    - Primary pitch centers on personal productivity (email triage, calendar management, meeting prep) with no developer-tooling angle
-    - Comparison table positions it against general AI assistants (Hermes, OpenClaw, Claude Cowork) rather than coding tools
-    - Plugin hub includes 'Developer' as one of many categories (4/23), not the core identity
+    - README emphasizes managing groceries, guitar practice, flight prices, and date nights as core use cases
+    - Scraped site describes it as 'a personal AI assistant for your busywork' with no mention of code editing, repo interaction, or development tooling
+    - Source-list context places it in Awesome-LLMOps under a vague personal assistant description, not a developer tool
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:28.581Z"
+    updated_at: "2026-09-28T04:50:43.240Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ea392f8e06c79e89849d29b684befa1d00992c0e41a742be4cf8f37888241400
+      category_rules_version: c367d6101132
+      input_hash: sha256:460cfabe94dd31d24f290dc238ec96317e8c8414e4856f7dbc89aa31c1ff7872
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a general-purpose personal AI assistant focused on life/work automation (email, calendar, travel) rather than developer-specific coding, tooling, or workflow integration.
+      decision_reason: Vellum is a general-purpose personal AI assistant focused on life and business task automation, not developer-specific coding tasks or workflows.
       decision_evidence:
-        - Primary pitch centers on personal productivity (email triage, calendar management, meeting prep) with no developer-tooling angle
-        - Comparison table positions it against general AI assistants (Hermes, OpenClaw, Claude Cowork) rather than coding tools
-        - Plugin hub includes 'Developer' as one of many categories (4/23), not the core identity
+        - README emphasizes managing groceries, guitar practice, flight prices, and date nights as core use cases
+        - Scraped site describes it as 'a personal AI assistant for your busywork' with no mention of code editing, repo interaction, or development tooling
+        - Source-list context places it in Awesome-LLMOps under a vague personal assistant description, not a developer tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

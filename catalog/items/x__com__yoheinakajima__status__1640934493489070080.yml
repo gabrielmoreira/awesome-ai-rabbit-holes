@@ -37,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A tweet introducing a task-driven autonomous agent using GPT-4, Pinecone vector search, and LangChain to autonomously create and perform tasks based on an objective.
-  why_it_matters: It demonstrates an early example of autonomous agent workflows for developers, combining LLM reasoning with vector search for task execution.
-  mental_damage: Nothing says 'production-ready' like a viral tweet thread about an agent that might or might not still exist.
+  summary: A Twitter/X thread by Yohei Nakajima introducing the 'Task-Driven Autonomous Agent' concept, later open-sourced as Baby AGI.
+  why_it_matters: It popularized the idea of autonomous agents that generate and prioritize their own tasks, influencing early AI agent experimentation.
+  mental_damage: Watching an AI recursively spawn its own to-do list feels like delegating work to a hyperactive intern who never sleeps.
   tags:
-    - autonomous-agents
-    - gpt-4
-    - langchain
-    - pinecone
-    - task-automation
+    - ai-agents
+    - experimental
+    - twitter-thread
   confidence: high
 curation:
   status: excluded
-  reason: This is a social media post announcing a concept, not a standalone product, repo, or tool with a developer-tooling identity.
+  reason: This is a social media post announcing an idea, not a standalone developer tool, product, or reusable artifact suitable for inclusion in a curated catalog of AI developer tooling.
   evidence:
-    - The URL points to a tweet, not a GitHub repo or product page
-    - No repo description, stars, or code artifacts are provided
-    - The content is a conceptual announcement, not an operational tool
+    - Source is a Twitter/X status URL with no associated GitHub repo or downloadable product in the inputs
+    - The content is a narrative thread describing a prototype and its open-sourcing, not a tool with defined usage, installation, or API
+    - Later clarified as open-sourcing 'Baby AGI' via a GitHub link, but that repo is not provided or evaluated here
 placement:
   primary_category: null
   section: null
@@ -72,24 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:40.724Z"
+    updated_at: "2026-09-28T04:51:08.187Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:287b927df9ae05a1980090ecd2ed9ce628a20a3982d8afdd1cd2d490da3f0d76
+      category_rules_version: c367d6101132
+      input_hash: sha256:4249f022984babb393e63bf251e4bb81345cadc3469613267e4d3b9a769a1372
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a social media post announcing a concept, not a standalone product, repo, or tool with a developer-tooling identity.
+      decision_reason: This is a social media post announcing an idea, not a standalone developer tool, product, or reusable artifact suitable for inclusion in a curated catalog of AI developer tooling.
       decision_evidence:
-        - The URL points to a tweet, not a GitHub repo or product page
-        - No repo description, stars, or code artifacts are provided
-        - The content is a conceptual announcement, not an operational tool
+        - Source is a Twitter/X status URL with no associated GitHub repo or downloadable product in the inputs
+        - The content is a narrative thread describing a prototype and its open-sourcing, not a tool with defined usage, installation, or API
+        - Later clarified as open-sourcing 'Baby AGI' via a GitHub link, but that repo is not provided or evaluated here
       category_candidates: []
       contrastive_reason: null
       review_reason: null

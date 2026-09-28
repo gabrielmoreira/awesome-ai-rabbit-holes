@@ -51,23 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Rember is an AI-powered flashcard generator that creates spaced repetition cards from various inputs and integrates with MCP-enabled chat apps.
-  why_it_matters: It helps developers and learners capture and retain technical knowledge by automating high-quality flashcard creation from diverse sources like PDFs, AI chats, and videos.
-  mental_damage: Now you can turn your entire AI chat history into a guilt-inducing backlog of things you technically learned but will never review.
+  summary: Rember is an AI-powered flashcard generator that creates spaced-repetition cards from text, PDFs, YouTube, and AI chats using MCP integration.
+  why_it_matters: It helps developers turn learning materials into reviewable knowledge with minimal effort, using AI to apply proven spaced repetition principles.
+  mental_damage: Finally, a way to feel guilty about forgetting what you just read, now with AI-generated flashcards to reinforce the illusion of productivity.
   tags:
     - flashcards
+    - spaced-repetition
     - mcp
     - learning
-    - knowledge-management
-    - spaced-repetition
+    - ai
   confidence: high
 curation:
   status: excluded
-  reason: Rember is a consumer-facing learning tool with an MCP integration, not a developer-tooling product at its core.
+  reason: Rember is a personal knowledge tool for generating flashcards, not a developer-facing AI tool for coding, workflows, or infrastructure, so it falls outside the catalog's scope.
   evidence:
-    - Primary product is an AI canvas for flashcards targeting learners (not developers)
-    - MCP integration is a secondary feature for capturing AI chat content
-    - Listed in awesome-mcp-servers as an MCP server, but core identity is a learning app
+    - Rember generates flashcards from PDFs, YouTube, and AI chats using MCP for knowledge retention
+    - The tool is positioned as a learning aid for serious learners, not a coding agent, app builder, or dev infrastructure
+    - It appears in awesome-mcp-servers as an MCP server, but its core identity is flashcard generation, not MCP infrastructure
 placement:
   primary_category: null
   section: null
@@ -77,24 +77,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:53.301Z"
+    updated_at: "2026-09-28T04:45:01.871Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d968e8d9ebba414bd3a405916787b894d3f357140e282a89dc9af4dc5ca47796
+      category_rules_version: c367d6101132
+      input_hash: sha256:fe1093cfc7b392519ad91ccad8c33fe7c275828cabc22da2e00385b679152c1c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Rember is a consumer-facing learning tool with an MCP integration, not a developer-tooling product at its core.
+      decision_reason: Rember is a personal knowledge tool for generating flashcards, not a developer-facing AI tool for coding, workflows, or infrastructure, so it falls outside the catalog's scope.
       decision_evidence:
-        - Primary product is an AI canvas for flashcards targeting learners (not developers)
-        - MCP integration is a secondary feature for capturing AI chat content
-        - Listed in awesome-mcp-servers as an MCP server, but core identity is a learning app
+        - Rember generates flashcards from PDFs, YouTube, and AI chats using MCP for knowledge retention
+        - The tool is positioned as a learning aid for serious learners, not a coding agent, app builder, or dev infrastructure
+        - It appears in awesome-mcp-servers as an MCP server, but its core identity is flashcard generation, not MCP infrastructure
       category_candidates: []
       contrastive_reason: null
       review_reason: null

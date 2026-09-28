@@ -51,21 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Reddit community focused on the concept of the technological singularity.
-  why_it_matters: It does not matter to developers as a practical tooling resource.
-  mental_damage: The singularity is always 20 years away, but this subreddit is already here.
+  summary: A Reddit community focused on discussion of the technological singularity and future AI developments.
+  why_it_matters: Provides a forum for developers to engage with speculative AI futures, though not a practical tool for daily workflows.
+  mental_damage: Another place to argue about timelines while your PRs sit unreviewed and your local models fail to quantize.
   tags:
     - community
     - discussion
-    - reddit
+    - ai-futures
   confidence: high
 curation:
   status: excluded
-  reason: This is a discussion forum, not a developer tool, framework, or workflow product.
+  reason: The singularity subreddit is a discussion forum, not a developer-facing AI tool, agent, or infrastructure product.
   evidence:
-    - URL points to a Reddit community (r/singularity)
-    - No repo, no tooling, no developer-facing product identity
-    - Source-list context lists it under 'Community' in an awesome list
+    - URL points to reddit.com/r/singularity, a community discussion platform
+    - No repo description, README, or product details indicating tooling functionality
+    - Listed in awesome-local-ai under 'Community' section, indicating it's a resource/discussion, not a tool
 placement:
   primary_category: null
   section: null
@@ -75,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:57.320Z"
+    updated_at: "2026-09-28T04:45:07.542Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d9bfeb252529d8336da1fd8cdfcf0eb9a0874b0933e96173519d3c5282aa2c8c
+      category_rules_version: c367d6101132
+      input_hash: sha256:03fef70e6094f2a83c61d8070f8ef9291391f47b5ef126f41de95a5425b29b2e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a discussion forum, not a developer tool, framework, or workflow product.
+      decision_reason: The singularity subreddit is a discussion forum, not a developer-facing AI tool, agent, or infrastructure product.
       decision_evidence:
-        - URL points to a Reddit community (r/singularity)
-        - No repo, no tooling, no developer-facing product identity
-        - Source-list context lists it under 'Community' in an awesome list
+        - URL points to reddit.com/r/singularity, a community discussion platform
+        - No repo description, README, or product details indicating tooling functionality
+        - Listed in awesome-local-ai under 'Community' section, indicating it's a resource/discussion, not a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

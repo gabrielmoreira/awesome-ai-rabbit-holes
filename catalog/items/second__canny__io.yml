@@ -37,20 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The URL second.canny.io resolves to a non-existent company page with no functional content.
-  why_it_matters: It does not provide any developer-facing AI tooling or resources.
-  mental_damage: Even the 404 page is a letdown in an ecosystem of overpromised URLs.
-  tags:
-    - dead-link
-    - non-functional
+  summary: Canny is a company not found at the provided URL, returning a 'Company Not Found' error.
+  why_it_matters: It does not matter to developers as no product, tool, or service is accessible or described at the given location.
+  mental_damage: The quiet horror of clicking a link only to be told the company you're looking for doesn't exist — a metaphor for half the AI tooling ecosystem.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The linked page does not describe or provide any AI tooling, developer resources, or functional product.
+  reason: The URL resolves to a 'Company Not Found' error with no product description, functionality, or developer-facing tooling present, making it impossible to assess as an AI developer tool.
   evidence:
-    - Scraped site context shows 'Company Not Found' with no functional content
-    - No repo description, README, or meaningful metadata provided
-    - Source-list context references 'Canny' but the URL resolves to a dead end
+    - "Scraped site excerpt states: 'Company Not Found. There is no such company. Did you enter the right URL?'"
+    - No repo description, README, or meaningful content is available to determine what the tool does or who it is for.
+    - Source-list context shows it was listed in awesome-ai-agents, but the linked page is inaccessible and provides no evidence of an AI agent or developer tool.
 placement:
   primary_category: null
   section: null
@@ -69,24 +67,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:25.143Z"
+    updated_at: "2026-09-28T04:36:54.972Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:9da12824baa60e85216d8fee7cc015f44c706e3208208b22af2f05f7a12c1b47
+      category_rules_version: c367d6101132
+      input_hash: sha256:342fff488ba5e0860a011d7cbcbba4c42deb0e1ed028f42202f2076e06caf1ff
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The linked page does not describe or provide any AI tooling, developer resources, or functional product.
+      decision_reason: The URL resolves to a 'Company Not Found' error with no product description, functionality, or developer-facing tooling present, making it impossible to assess as an AI developer tool.
       decision_evidence:
-        - Scraped site context shows 'Company Not Found' with no functional content
-        - No repo description, README, or meaningful metadata provided
-        - Source-list context references 'Canny' but the URL resolves to a dead end
+        - "Scraped site excerpt states: 'Company Not Found. There is no such company. Did you enter the right URL?'"
+        - No repo description, README, or meaningful content is available to determine what the tool does or who it is for.
+        - Source-list context shows it was listed in awesome-ai-agents, but the linked page is inaccessible and provides no evidence of an AI agent or developer tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

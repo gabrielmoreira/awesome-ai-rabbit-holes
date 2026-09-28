@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huyenchip__com__llama__police__html__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,9 +18,7 @@ provenance:
           - Lists
         anchor_text: llama-police
         extracted_url: https://huyenchip.com/llama-police.html
-        surrounding_text: >-
-          - [llama-police](https://huyenchip.com/llama-police.html) - A list of Open Source LLM Tools from [Chip
-          Huyen](https://huyenchip.com)
+        surrounding_text: "- [llama-police](https://huyenchip.com/llama-police.html) - A list of Open Source LLM Tools from [Chip Huyen](https://huyenchip.com)"
         confidence: high
 metadata:
   github:
@@ -38,33 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated list of open source LLM tools, now redirected to GoodAIList.com.
-  why_it_matters: Provides developers with a navigable directory of trending open source AI tools and repositories.
-  mental_damage: >-
-    Another list of lists, because the only thing harder than finding AI tools is finding the list of lists that
-    contains them.
+  summary: An automatically updated list of open source LLM tools hosted on Huyen Chip's blog.
+  why_it_matters: Provides a frequently refreshed directory for discovering open source LLM projects relevant to developers.
+  mental_damage: Another list to skim while wondering if any of these tools will actually ship before the next framework drops.
   tags:
-    - directory
-    - open-source
+    - awesome-list
     - llm-tools
-    - curated-list
-  confidence: high
+    - curated-directory
+  confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The page functions as a curated directory of open source LLM tools, matching the intent of awesome lists despite being hosted on a personal blog.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - Source-list context shows inclusion in awesome-local-ai under 'Lists' section
+    - Scraped page describes itself as 'Open Source LLM Tools' updated every 12 hours with browsing and search features
+    - No evidence of being a standalone tool, agent, or framework—purely a reference listing
 placement:
-  primary_category: null
+  primary_category: awesome-awesomes
   secondary_categories: []
-  section: null
+  section: Awesome Lists & Directories
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,29 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:28:31.614Z'
+    updated_at: "2026-09-28T04:29:39.897Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:314d41be63df1701852ade9d0f272eb6ad52f5e689699841f63e774289326197
+      category_rules_version: c367d6101132
+      input_hash: sha256:9f49c1a88dbd2c655e9e12148cd2aef193ecfa1308adfd11e7a1ae6df44e5840
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of AI tools, which fits the scope of navigation aids for developers.
+      decision_reason: The page functions as a curated directory of open source LLM tools, matching the intent of awesome lists despite being hosted on a personal blog.
       decision_evidence:
-        - Page explicitly describes itself as a list of open source LLM tools
-        - Source-list context shows it is included in awesome-local-ai under Lists
-        - Content is now hosted at GoodAIList.com as a dedicated directory
+        - Source-list context shows inclusion in awesome-local-ai under 'Lists' section
+        - Scraped page describes itself as 'Open Source LLM Tools' updated every 12 hours with browsing and search features
+        - No evidence of being a standalone tool, agent, or framework—purely a reference listing
       category_candidates:
         - awesome-awesomes
-        - newsletters-and-feeds
-      contrastive_reason: >-
-        Choose awesome-awesomes over newsletters-and-feeds because the primary value is discovery via a curated
-        directory rather than recurring commentary or media.
+        - local-ai
+      contrastive_reason: Choose awesome-awesomes over local-ai because the page is a curated list of tools rather than a runtime or infrastructure for running models locally.
       review_reason: null
       review_resume_lifecycle: null

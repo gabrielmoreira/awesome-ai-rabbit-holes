@@ -84,9 +84,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-08-27T06:25:02.825Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-09-28T04:14:00.164Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template

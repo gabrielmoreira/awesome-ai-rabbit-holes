@@ -37,22 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A long-form technical blog post by Lilian Weng explaining the architecture and components of LLM-powered autonomous agents.
-  why_it_matters: Provides a comprehensive conceptual framework for developers building or understanding agent systems, covering planning, memory, and tool use.
-  mental_damage: Reading this will make you question whether your agent is actually autonomous or just a very expensive TODO list.
+  summary: A blog post describing the components of LLM-powered autonomous agents, including planning, memory, and tool use, with examples like AutoGPT and BabyAGI.
+  why_it_matters: Provides a foundational conceptual overview for developers interested in building or understanding LLM agent architectures.
+  mental_damage: Yet another taxonomy of agent parts that makes you feel like you need a flowchart just to keep up with the hype.
   tags:
+    - overview
     - llm-agents
-    - conceptual-guide
-    - autonomous-agents
-    - research-overview
+    - conceptual
   confidence: high
 curation:
   status: excluded
-  reason: This is a blog post/educational resource, not a practical developer tool, framework, or product.
+  reason: This is an educational blog post, not a tool, framework, or product that developers can use or integrate into their workflows; it lacks executable code, installable artifacts, or runtime functionality.
   evidence:
-    - The URL and scraped context confirm it is a blog post on Lil'Log
-    - The content is a detailed explanation of LLM-powered agent systems, not a usable tool or library
-    - Source-list context shows it is referenced as an example in an awesome list, not as a standalone product
+    - Source is a GitHub Pages blog post (lilianweng.github.io) with no associated code repository or tooling
+    - Content is explanatory, describing agent components like planning, memory, and tool use using examples (AutoGPT, BabyAGI) but offering no deployable artifact or SDK
+    - Appears in awesome-ai-agents as a linked page for context, not as a curatable tool itself
 placement:
   primary_category: null
   section: null
@@ -73,24 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:00.105Z"
+    updated_at: "2026-09-28T04:31:00.255Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:2fd5db34f4b9f713d2d9a6fefb5c4c3cf7729cb4e5b1c5ca9c91118fb8b75cad
+      category_rules_version: c367d6101132
+      input_hash: sha256:876c97a6eb16d926f6a2baf16a8ef79c16696da4c241e87c6383e971557dd361
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a blog post/educational resource, not a practical developer tool, framework, or product.
+      decision_reason: This is an educational blog post, not a tool, framework, or product that developers can use or integrate into their workflows; it lacks executable code, installable artifacts, or runtime functionality.
       decision_evidence:
-        - The URL and scraped context confirm it is a blog post on Lil'Log
-        - The content is a detailed explanation of LLM-powered agent systems, not a usable tool or library
-        - Source-list context shows it is referenced as an example in an awesome list, not as a standalone product
+        - Source is a GitHub Pages blog post (lilianweng.github.io) with no associated code repository or tooling
+        - Content is explanatory, describing agent components like planning, memory, and tool use using examples (AutoGPT, BabyAGI) but offering no deployable artifact or SDK
+        - Appears in awesome-ai-agents as a linked page for context, not as a curatable tool itself
       category_candidates: []
       contrastive_reason: null
       review_reason: null

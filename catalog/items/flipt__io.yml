@@ -37,9 +37,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Git-native, self-hostable feature flag management platform.
-  why_it_matters: It allows developers to manage feature rollouts through Git-synced workflows and an intuitive UI to reduce deployment risk.
-  mental_damage: It provides the illusion of safety, right up until you toggle the wrong flag in production.
+  summary: Flipt is a self-hosted feature flag management platform that syncs UI changes to Git for safe deployments.
+  why_it_matters: It lets developers control feature rollouts through Git-native workflows, reducing deployment risk without adding complexity.
+  mental_damage: Finally, a way to feel in control of production while still pretending you're not just YAML-drunk.
   tags:
     - feature-flags
     - devops
@@ -48,10 +48,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Flipt is a standard feature flag management utility and does not fall within the scope of AI-centric developer tooling or AI workflows.
+  reason: Flipt is a feature flag platform focused on deployment safety and Git synchronization, not an AI tool, agent, or developer-facing AI infrastructure.
   evidence:
-    - Scraped site context and README focus exclusively on feature flag management and Git-native workflows
-    - Product identity is infrastructure for safe deployments, not an AI tool, agent, or model-centric framework
+    - Primary product is Git-native feature flag management with UI and SDKs for evaluating flags
+    - No mention of AI, agents, LLMs, prompts, or AI-assisted development in core functionality or marketing
+    - Positioned as a DevOps tool for safe deployments, not AI-enhanced coding workflows
 placement:
   primary_category: null
   section: null
@@ -70,24 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:18:00.398Z"
+    updated_at: "2026-09-28T04:53:48.239Z"
     cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:024ce4dc9ab1ee0b604ec99c7e8b31b1a34893076339b0a0ebd92f929ead84fb
+      category_rules_version: c367d6101132
+      input_hash: sha256:486a8f954dd6854c41c3321d1c2593f1b6904d7cdaf87feddff2670274000be6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Flipt is a standard feature flag management utility and does not fall within the scope of AI-centric developer tooling or AI workflows.
+      decision_reason: Flipt is a feature flag platform focused on deployment safety and Git synchronization, not an AI tool, agent, or developer-facing AI infrastructure.
       decision_evidence:
-        - Scraped site context and README focus exclusively on feature flag management and Git-native workflows
-        - Product identity is infrastructure for safe deployments, not an AI tool, agent, or model-centric framework
+        - Primary product is Git-native feature flag management with UI and SDKs for evaluating flags
+        - No mention of AI, agents, LLMs, prompts, or AI-assisted development in core functionality or marketing
+        - Positioned as a DevOps tool for safe deployments, not AI-enhanced coding workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132

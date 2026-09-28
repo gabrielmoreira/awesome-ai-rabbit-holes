@@ -51,21 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A REST API providing real-time and historical cryptocurrency prices, market data, and metadata across 251+ networks.
-  why_it_matters: Developers building financial, trading, or blockchain-adjacent applications can integrate reliable crypto market data without managing their own node infrastructure.
-  mental_damage: Now you can finally answer 'how much is my stack worth?' in your terminal with the same precision as your anxiety.
+  summary: CoinGecko API is a public cryptocurrency data service providing real-time and historical market data, prices, and metadata for developers.
+  why_it_matters: It gives developers reliable access to crypto market data for building trading bots, portfolio trackers, or analytics tools without running their own data pipelines.
+  mental_damage: Another API key to manage while pretending your DeFi side project will finally make you rich.
   tags:
-    - crypto-api
+    - crypto
     - market-data
-    - financial-integration
+    - api
   confidence: high
 curation:
   status: excluded
-  reason: This is a domain-specific financial data API (crypto markets) with no developer-tooling, AI, or coding workflow angle.
+  reason: CoinGecko API is a general-purpose data service, not a developer-facing AI tool, agent, or infrastructure — its inclusion in awesome-mcp-servers does not change its core identity as a crypto data provider.
   evidence:
-    - Scraped site context describes it as a crypto price/market data API
-    - Source-list context shows it appears in an MCP servers list, but its core identity is a financial data API, not MCP infrastructure
-    - No evidence of AI, coding assistance, or developer workflow integration
+    - Scraped site context describes it as a 'Crypto Data API' for prices, metadata, and charts, with no mention of AI, agents, or developer tooling beyond generic API access.
+    - Source-list context shows it appears in awesome-mcp-servers as an Official Server, but MCP compatibility alone is insufficient for inclusion — the product identity must be MCP infrastructure, which it is not.
+    - No README or repo description indicates AI-driven features, agent behavior, or developer workflow enhancement; it is a standard REST API for cryptocurrency data.
 placement:
   primary_category: null
   section: null
@@ -75,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:33:15.148Z"
+    updated_at: "2026-09-28T04:40:16.855Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:c0e710e6e0a216311476b00d8cef565e0b487f0d79e60b6b55beb08414633a66
+      category_rules_version: c367d6101132
+      input_hash: sha256:21171eb5210b15e6e60264e8a406fc5bc6a89e446a881ddcf5eee7cf6e63ab46
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a domain-specific financial data API (crypto markets) with no developer-tooling, AI, or coding workflow angle.
+      decision_reason: CoinGecko API is a general-purpose data service, not a developer-facing AI tool, agent, or infrastructure — its inclusion in awesome-mcp-servers does not change its core identity as a crypto data provider.
       decision_evidence:
-        - Scraped site context describes it as a crypto price/market data API
-        - Source-list context shows it appears in an MCP servers list, but its core identity is a financial data API, not MCP infrastructure
-        - No evidence of AI, coding assistance, or developer workflow integration
+        - Scraped site context describes it as a 'Crypto Data API' for prices, metadata, and charts, with no mention of AI, agents, or developer tooling beyond generic API access.
+        - Source-list context shows it appears in awesome-mcp-servers as an Official Server, but MCP compatibility alone is insufficient for inclusion — the product identity must be MCP infrastructure, which it is not.
+        - No README or repo description indicates AI-driven features, agent behavior, or developer workflow enhancement; it is a standard REST API for cryptocurrency data.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

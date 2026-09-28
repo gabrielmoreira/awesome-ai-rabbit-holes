@@ -51,21 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Reddit community focused on Stable Diffusion, a text-to-image AI model.
-  why_it_matters: It does not provide developer-tooling value beyond general AI discussion.
-  mental_damage: The only thing being diffused here is the boundary between 'AI tool' and 'subreddit'.
+  summary: StableDiffusion is a Reddit community for discussing the Stable Diffusion image generation model.
+  why_it_matters: It serves as a discussion forum for users to share prompts, results, and troubleshooting around AI image generation.
+  mental_damage: Another niche subreddit where developers go to argue about CFG scales instead of writing code.
   tags:
+    - ai
     - community
-    - image-generation
-    - reddit
+    - discussion
   confidence: high
 curation:
   status: excluded
-  reason: This is a community forum, not a practical AI tool, framework, or workflow for software developers.
+  reason: StableDiffusion is a Reddit community focused on image generation discussion, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - URL points to a Reddit community (r/StableDiffusion)
-    - No repo description, README, or tooling identity provided
-    - Source-list context lists it under 'Community' in an awesome-local-ai list
+    - URL is https://reddit.com/r/StableDiffusion, indicating a Reddit community
+    - Listed in 'awesome-local-ai' under 'Community' section, confirming its identity as a discussion forum
+    - No repo description, README, or product claims indicating it is a tool for software developers
 placement:
   primary_category: null
   section: null
@@ -75,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:08.474Z"
+    updated_at: "2026-09-28T04:45:30.719Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:733a55e45e85d4d83e3f8c86a78c2aff194c8ec7cd17cbd60d641f97a2a9886e
+      category_rules_version: c367d6101132
+      input_hash: sha256:a5ebe681be2360ea04e0b7a031d741220f31cd88e4caa5e109151d66ceb673b5
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a community forum, not a practical AI tool, framework, or workflow for software developers.
+      decision_reason: StableDiffusion is a Reddit community focused on image generation discussion, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - URL points to a Reddit community (r/StableDiffusion)
-        - No repo description, README, or tooling identity provided
-        - Source-list context lists it under 'Community' in an awesome-local-ai list
+        - URL is https://reddit.com/r/StableDiffusion, indicating a Reddit community
+        - Listed in 'awesome-local-ai' under 'Community' section, confirming its identity as a discussion forum
+        - No repo description, README, or product claims indicating it is a tool for software developers
       category_candidates: []
       contrastive_reason: null
       review_reason: null

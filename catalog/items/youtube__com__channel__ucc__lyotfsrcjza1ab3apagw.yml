@@ -51,21 +51,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An unidentified YouTube channel with no available description, README, or content metadata.
-  why_it_matters: Insufficient information to determine relevance to developer workflows.
-  mental_damage: Discovering a bare channel ID in a tooling catalog evokes the same optimism as starring a repo you will never clone.
-  tags:
-    - youtube-channel
-    - unknown
-    - unverified
+  summary: A YouTube channel with no public description or identifiable AI developer tooling content.
+  why_it_matters: Unclear; no evidence of relevance to software developers or AI workflows.
+  mental_damage: Subscribing to mystery channels in hopes they’ll reveal the next Cursor killer.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: No evidence this is a developer tool, framework, or curated publication; it is an unidentified YouTube channel with no description or README, so it falls outside the catalog scope.
+  reason: The input provides no identifiable product, tool, or developer-facing AI functionality — only a YouTube channel URL with no description, metadata, or signals of AI tooling relevance.
   evidence:
-    - URL is a YouTube channel with no provided title, description, or content context.
-    - Repository metadata is entirely unknown (no description, stars, dates, license, or README).
-    - Source-list placement in awesome-langchain is insufficient to establish identity as a practical developer tool or recurring developer publication.
+    - Repo description is missing
+    - No README excerpt or scoped site context provided
+    - Seen only in awesome-langchain as a passive list inclusion with no contextual fit
 placement:
   primary_category: null
   section: null
@@ -75,24 +72,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-23T05:15:11.486Z"
+    updated_at: "2026-09-28T04:52:09.208Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b4651aaeae46c2531c5a8def4c375b04955b122ea50c17c9612a4a4f2f2b9133
+      category_rules_version: c367d6101132
+      input_hash: sha256:16153887b201a140a02a3fe27649e6b1f328ca942438ef05fe1a9d94c63b70eb
       proposed_primary_category: null
       disagreement: false
-      decision_reason: No evidence this is a developer tool, framework, or curated publication; it is an unidentified YouTube channel with no description or README, so it falls outside the catalog scope.
+      decision_reason: The input provides no identifiable product, tool, or developer-facing AI functionality — only a YouTube channel URL with no description, metadata, or signals of AI tooling relevance.
       decision_evidence:
-        - URL is a YouTube channel with no provided title, description, or content context.
-        - Repository metadata is entirely unknown (no description, stars, dates, license, or README).
-        - Source-list placement in awesome-langchain is insufficient to establish identity as a practical developer tool or recurring developer publication.
+        - Repo description is missing
+        - No README excerpt or scoped site context provided
+        - Seen only in awesome-langchain as a passive list inclusion with no contextual fit
       category_candidates: []
       contrastive_reason: null
       review_reason: null

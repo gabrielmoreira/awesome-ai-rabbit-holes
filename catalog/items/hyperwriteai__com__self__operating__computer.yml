@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hyperwriteai__com__self__operating__computer__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Self-operating computer
         anchor_text: Self-operating computer
         extracted_url: https://hyperwriteai.com/self-operating-computer
-        surrounding_text: '## [Self-operating computer](https://www.hyperwriteai.com/self-operating-computer)'
+        surrounding_text: "## [Self-operating computer](https://www.hyperwriteai.com/self-operating-computer)"
         confidence: high
     - id: discovery__www__hyperwriteai__com__self__operating__computer__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Self-operating computer
         anchor_text: Self-operating computer
         extracted_url: https://www.hyperwriteai.com/self-operating-computer
-        surrounding_text: '## [Self-operating computer](https://www.hyperwriteai.com/self-operating-computer)'
+        surrounding_text: "## [Self-operating computer](https://www.hyperwriteai.com/self-operating-computer)"
         confidence: high
 metadata:
   github:
@@ -51,67 +51,56 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A self-operating computer product by Hyperwrite AI that automates tasks across a user's system.
-  why_it_matters: >-
-    It promises to reduce manual workflow steps by autonomously executing tasks on a user's computer, potentially
-    streamlining repetitive or complex operations for developers.
-  mental_damage: >-
-    The idea of a computer that operates itself is either the future of productivity or the beginning of a very
-    confusing debugging session.
+  summary: Self-operating computer is an AI agent that automates desktop tasks by controlling the mouse and keyboard to operate software applications.
+  why_it_matters: It demonstrates how AI can replace manual GUI interactions, potentially reducing repetitive work for developers who use desktop applications in their workflows.
+  mental_damage: Watching an AI click through dialogs you used to dread is equal parts relief and existential dread about what 'work' even means anymore.
   tags:
-    - automation
     - ai-agent
-    - workflow
     - desktop-automation
+    - computer-use
   confidence: medium
 curation:
-  status: included
-  reason: >-
-    It is a developer-relevant autonomous agent that operates across a computer environment, fitting the broader
-    definition of coding agents that interact with systems to perform tasks.
+  status: excluded
+  reason: While it automates computer use, Self-operating computer does not perform coding tasks as its primary function and lacks a clear developer-tooling angle beyond general desktop automation.
   evidence:
-    - Listed in awesome-ai-agents under 'Self-operating computer'
-    - Product identity is a self-operating computer, implying autonomous task execution
+    - Source-list context shows it appears in awesome-ai-agents under 'Self-operating computer' as an autonomous agent example
+    - No repo description, README excerpt, or detailed functionality provided to confirm coding-related capabilities
+    - The tool's described purpose is general computer operation via mouse/keyboard control, not code writing, editing, or debugging
 placement:
-  primary_category: coding-agents
+  primary_category: null
   secondary_categories: []
-  section: Browser & Computer-Use Agents
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:35:03.368Z'
+    updated_at: "2026-09-28T04:41:59.065Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:10b35b2533746223d9f05eeec19683440b82eaad8ece8f6053cb59c7aa4f8f5c
-      proposed_primary_category: coding-agents
+      category_rules_version: c367d6101132
+      input_hash: sha256:b71de7e7590fc97f7549dc63504cafe36505d48f9776622d8e779c3b0faf16f8
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        It is a developer-relevant autonomous agent that operates across a computer environment, fitting the broader
-        definition of coding agents that interact with systems to perform tasks.
+      decision_reason: While it automates computer use, Self-operating computer does not perform coding tasks as its primary function and lacks a clear developer-tooling angle beyond general desktop automation.
       decision_evidence:
-        - Listed in awesome-ai-agents under 'Self-operating computer'
-        - Product identity is a self-operating computer, implying autonomous task execution
-      category_candidates:
-        - coding-agents
-        - agent-orchestration
-      contrastive_reason: >-
-        Choose coding-agents over agent-orchestration because the product is presented as a single autonomous agent
-        operating a computer, not a platform coordinating multiple agents.
+        - Source-list context shows it appears in awesome-ai-agents under 'Self-operating computer' as an autonomous agent example
+        - No repo description, README excerpt, or detailed functionality provided to confirm coding-related capabilities
+        - The tool's described purpose is general computer operation via mouse/keyboard control, not code writing, editing, or debugging
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.966Z'
+    updated_at: "2026-07-21T15:20:21.966Z"
     cause: null
     next_retry_at: null
   stars:

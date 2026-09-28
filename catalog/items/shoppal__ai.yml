@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ShopPal AI is a U.S.-based service provider offering AI infrastructure integration, operational enablement, and go-to-market execution for fashion and apparel brands.
-  why_it_matters: It helps fashion companies deploy AI systems like shopping agents and visual AI without building large internal teams.
-  mental_damage: Because nothing says 'developer tooling' like a fashion AI outfit generator with a 79% CTR uplift.
+  summary: ShopPal AI is a U.S.-based AI system integration and go-to-market partner for fashion and apparel brands.
+  why_it_matters: It helps fashion companies deploy AI-powered shopping agents and content without building internal AI teams.
+  mental_damage: Another vertical-specific AI consultancy promising to 'transform' an industry while selling PowerPoint-driven integration services.
   tags:
-    - fashion-ai
-    - ecommerce
+    - ai-consulting
+    - fashion-tech
     - system-integration
-    - go-to-market
   confidence: high
 curation:
   status: excluded
-  reason: It is a vertical SaaS/service provider for fashion commerce, not a developer-facing AI tool, framework, or workflow product.
+  reason: ShopPal AI is a services provider focused on AI integration and go-to-market execution for fashion brands, not a developer-facing tool, agent, framework, or infrastructure product.
   evidence:
-    - Primary page excerpt describes AI infrastructure and go-to-market services for fashion brands
-    - No repo, code, SDK, or developer tooling identity
-    - Source-list context places it in 'ShopPal' under 'AI autonomous agents' but the product is a service, not a tool
+    - ShopPal AI operates as an AI system integration and execution partner for fashion and apparel brands
+    - Services include AI infrastructure integration, operational enablement, and go-to-market execution
+    - Target clients are mid-to-large fashion brands seeking to deploy AI without large internal teams
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:35.607Z"
+    updated_at: "2026-09-28T04:37:13.761Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4c3caf68a0cce38862f9608854adeac59c6d3dd368883f922304db514c7bd15a
+      category_rules_version: c367d6101132
+      input_hash: sha256:4513b661f519ad498d4a1cd475cd3eaf178385e41862f41d8d3fdbba9d879d1e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a vertical SaaS/service provider for fashion commerce, not a developer-facing AI tool, framework, or workflow product.
+      decision_reason: ShopPal AI is a services provider focused on AI integration and go-to-market execution for fashion brands, not a developer-facing tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - Primary page excerpt describes AI infrastructure and go-to-market services for fashion brands
-        - No repo, code, SDK, or developer tooling identity
-        - Source-list context places it in 'ShopPal' under 'AI autonomous agents' but the product is a service, not a tool
+        - ShopPal AI operates as an AI system integration and execution partner for fashion and apparel brands
+        - Services include AI infrastructure integration, operational enablement, and go-to-market execution
+        - Target clients are mid-to-large fashion brands seeking to deploy AI without large internal teams
       category_candidates: []
       contrastive_reason: null
       review_reason: null

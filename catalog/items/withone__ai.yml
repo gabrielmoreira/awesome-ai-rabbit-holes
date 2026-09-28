@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__withone__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,12 +19,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Pica
         extracted_url: https://picaos.com
-        surrounding_text: >-
-          - [picahq/mcp](https://github.com/picahq/mcp) 🎖️ 🦀 📇 ☁️ - One MCP for all your integrations — powered by
-          [Pica](https://www.picaos.com), the infrastructure for intelligent, collaborative agents.
+        surrounding_text: "- [picahq/mcp](https://github.com/picahq/mcp) 🎖️ 🦀 📇 ☁️ - One MCP for all your integrations — powered by [Pica](https://www.picaos.com), the infrastructure for intelligent, collaborative agents."
         confidence: high
     - id: discovery__www__withone__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -37,9 +35,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Pica
         extracted_url: https://www.picaos.com
-        surrounding_text: >-
-          - [picahq/mcp](https://github.com/picahq/mcp) 🎖️ 🦀 📇 ☁️ - One MCP for all your integrations — powered by
-          [Pica](https://www.picaos.com), the infrastructure for intelligent, collaborative agents.
+        surrounding_text: "- [picahq/mcp](https://github.com/picahq/mcp) 🎖️ 🦀 📇 ☁️ - One MCP for all your integrations — powered by [Pica](https://www.picaos.com), the infrastructure for intelligent, collaborative agents."
         confidence: high
 metadata:
   github:
@@ -57,27 +53,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    One is an agent infrastructure platform that connects AI agents to 500+ apps with managed auth, memory, scheduling,
-    and tool integrations via a CLI.
-  why_it_matters: >-
-    It lets developers give agents production-safe access to external platforms without drowning the context window in
-    tool schemas.
-  mental_damage: >-
-    Finally, a way to stop your agent from hallucinating API fields while still pretending it can use every SaaS under
-    the sun.
+  summary: One is an integration runtime that provides AI agents with managed auth, memory, scheduling, webhooks, and access to 115,976+ open-source tool integrations through a single CLI.
+  why_it_matters: It eliminates the boilerplate of connecting AI agents to apps by handling auth, token refresh, and tool discovery so developers can focus on agent logic rather than integration plumbing.
+  mental_damage: Finally, a tool that lets your AI agent send a Slack message without you writing 200 lines of OAuth boilerplate — until you realize you now have to debug why your agent booked a flight to Reykjavik using your corporate card.
   tags:
-    - agent-infrastructure
-    - tool-integration
-    - cli
-    - auth-management
-    - workflow-automation
+    - ai-agents
+    - integrations
+    - mcp
+    - agent-runtime
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a runtime platform for coordinating agent workflows across 500+ integrations, not a coding assistant
-    or extension.
+  reason: The product is a runtime platform for coordinating agent workflows across 500+ integrations, not a coding assistant or extension.
   evidence:
     - Described as 'agent infrastructure' with managed auth, memory, and scheduling for agents
     - CLI enables multi-step workflows across platforms (HubSpot, Linear, Slack, Gmail, etc.)
@@ -85,49 +72,43 @@ curation:
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
-  section: API & Service Integrations
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'agent-orchestration'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:39:06.834Z'
+    updated_at: "2026-09-28T04:50:03.525Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:9f4e7a8986994b4977ca0acc6171c958b97fd33213a1a694fc9912910b5d9417
+      category_rules_version: c367d6101132
+      input_hash: sha256:540749db58d493b275d26f81871616bfc8cde8464da0c0d6ee92f06d707ac8f5
       proposed_primary_category: agent-orchestration
-      disagreement: false
-      decision_reason: >-
-        The product is a runtime platform for coordinating agent workflows across 500+ integrations, not a coding
-        assistant or extension.
+      disagreement: true
+      decision_reason: One provides a control plane for deploying, monitoring, and managing fleets of specialized AI agents with skills, memory, channels, and workflow automation — making it an agent orchestration platform rather than a single coding agent or extension.
       decision_evidence:
-        - Described as 'agent infrastructure' with managed auth, memory, and scheduling for agents
-        - CLI enables multi-step workflows across platforms (HubSpot, Linear, Slack, Gmail, etc.)
-        - Listed in awesome-mcp-servers under 'Developer Tools' as a server implementation
+        - One lets users 'Start with a single personal agent. Scale to a fleet of specialized agents, each with their own skills, memory, and channels. Orchestrate them from one platform.'
+        - It provides agent fleets, channels (Slack, Telegram, WhatsApp), webhooks, cron jobs, and memory — core capabilities of an agent orchestration runtime.
+        - The product positions itself as 'The complete infrastructure layer for production agents' with a dashboard to deploy, monitor, and control what agents can access.
       category_candidates:
         - agent-orchestration
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because the product is an operated runtime platform for agents,
-        not a code-first SDK or library.
-      review_reason: null
+        - mcp
+      contrastive_reason: Choose agent-orchestration over MCP because while One uses MCP as a bridge for APIs, its core identity is managing fleets of agents with skills, memory, scheduling, and deployment — not being an MCP server or client as its primary purpose.
+      review_reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'agent-orchestration'"
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending

@@ -44,22 +44,21 @@ metadata:
       fetched_at: "2026-09-24T04:12:58.521Z"
       bytes: 4018
 insights:
-  summary: MCP server that enables AI agents to perform WHOIS lookups for domain, TLD, IP, and ASN details.
-  why_it_matters: Lets developers query domain registration and ownership details directly from their AI coding assistant without leaving the IDE or terminal.
-  mental_damage: Now your AI can tell you who owns that domain you just typo-squatted during a late-night coding session.
+  summary: MCP Server for whois lookups.
+  why_it_matters: Lets developers query domain registration details directly from their AI agent without leaving the IDE or terminal.
+  mental_damage: Finally, an excuse to ask your AI if your startup’s dream domain is taken instead of actually building something.
   tags:
-    - mcp-server
+    - mcp
     - whois
-    - domain-lookup
-    - ai-integration
+    - networking
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing WHOIS lookup capabilities via the Model Context Protocol.
+  reason: The product’s core identity is an MCP server exposing whois lookup capabilities, matching the MCP category’s requirement that MCP be the product’s primary identity.
   evidence:
-    - Repo description explicitly states 'MCP Server for whois lookups'
-    - README confirms it's a Model Context Protocol server for WHOIS functionality
-    - Listed in awesome-mcp-servers under 'Community Servers'
+    - "Repo description: 'MCP Server for whois lookups.'"
+    - "README: 'This MCP server allows AI agents like Claude Desktop, Cursor, Windsurf,.. etc to perform WHOIS lookups and retrieve domain details.'"
+    - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -79,30 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:55:56.262Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:6cd57a5be92d17c9244d141a80ec9b769e40406e9ebfa030c065949438a9f283
+      category_rules_version: c367d6101132
+      input_hash: sha256:7620b8ed573395900e05b9ac76d13dd338a7e523a741151684b6bf2318bece3f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing WHOIS lookup capabilities via the Model Context Protocol.
+      decision_reason: The product’s core identity is an MCP server exposing whois lookup capabilities, matching the MCP category’s requirement that MCP be the product’s primary identity.
       decision_evidence:
-        - Repo description explicitly states 'MCP Server for whois lookups'
-        - README confirms it's a Model Context Protocol server for WHOIS functionality
-        - Listed in awesome-mcp-servers under 'Community Servers'
+        - "Repo description: 'MCP Server for whois lookups.'"
+        - "README: 'This MCP server allows AI agents like Claude Desktop, Cursor, Windsurf,.. etc to perform WHOIS lookups and retrieve domain details.'"
+        - Listed in awesome-mcp-servers under Community Servers
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server whose identity is providing domain lookup tools over MCP, not merely extending a coding agent’s functionality.
       review_reason: null
       review_resume_lifecycle: null

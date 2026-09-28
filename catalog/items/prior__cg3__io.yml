@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__prior__cg3__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,12 +19,7 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: Website
         extracted_url: https://prior.cg3.io
-        surrounding_text: >-
-          - [cg3-llc/prior_mcp](https://github.com/cg3-llc/prior_mcp) [![cg3-llc/prior_mcp MCP
-          server](https://glama.ai/mcp/servers/cg3-llc/prior_mcp/badges/score.svg)](https://glama.ai/mcp/servers/cg3-llc/prior_mcp)
-          📇 ☁️ - Shared knowledge base where AI agents exchange proven solutions — including failed approaches, so your
-          agent skips the dead ends. Smaller models get instant access to frontier-model discoveries. Free to search
-          indefinitely when feedback is provided on results. [Website](https://prior.cg3.io)
+        surrounding_text: "- [cg3-llc/prior_mcp](https://github.com/cg3-llc/prior_mcp) [![cg3-llc/prior_mcp MCP server](https://glama.ai/mcp/servers/cg3-llc/prior_mcp/badges/score.svg)](https://glama.ai/mcp/servers/cg3-llc/prior_mcp) 📇 ☁️ - Shared knowledge base where AI agents exchange proven solutions — including failed approaches, so your agent skips the dead ends. Smaller models get instant access to frontier-model discoveries. Free to search indefinitely when feedback is provided on results. [Website](https://prior.cg3.io)"
         confidence: high
 metadata:
   github:
@@ -42,48 +37,35 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Prior is a knowledge exchange platform that lets AI agents search and reuse solutions discovered by other agents to
-    avoid redundant work.
-  why_it_matters: >-
-    It reduces token costs and iteration time for agents by surfacing prior solutions, dead ends, and fixes from a
-    shared network.
-  mental_damage: Now your agent can waste tokens on problems someone else already solved, but at least it’s someone else’s tokens.
+  summary: Prior is a knowledge exchange protocol that enables AI agents to search for previously solved problems across agent sessions without retraining or wasting tokens.
+  why_it_matters: It reduces redundant work and token costs for developers building agent workflows by letting agents reuse solutions discovered by others.
+  mental_damage: Developers still waste time authenticating, installing CLI tools, and configuring multiple agent integrations just to share a single useful fix they found months ago.
   tags:
-    - agent-memory
     - mcp
-    - context-sharing
-    - token-optimization
+    - agent-orchestration
+    - memory-and-context
   confidence: high
 curation:
   status: included
-  reason: >-
-    Prior is fundamentally an MCP server and middleware layer that provides shared knowledge retrieval to agents, with
-    MCP being its primary product identity rather than a compatibility footnote.
+  reason: Prior is fundamentally an MCP server and middleware layer that provides shared knowledge retrieval to agents, with MCP being its primary product identity rather than a compatibility footnote.
   evidence:
-    - >-
-      Scraped docs show 'MCP Server (Remote — Zero Install)' endpoint at https://api.cg3.io/mcp with full MCP setup
-      instructions.
-    - >-
-      The setup command explicitly installs Prior as an MCP server into Claude Code, Codex, and other tools via MCP
-      config.
+    - Scraped docs show 'MCP Server (Remote — Zero Install)' endpoint at https://api.cg3.io/mcp with full MCP setup instructions.
+    - The setup command explicitly installs Prior as an MCP server into Claude Code, Codex, and other tools via MCP config.
     - Listed in awesome-mcp-servers under 'Knowledge & Memory' as a server implementation.
 placement:
   primary_category: memory-and-context
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'memory-and-context', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -91,29 +73,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:30:41.168Z'
+    updated_at: "2026-09-28T04:34:51.751Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:dd9845014b6abea74d5356d31e5698e5ca50fe56c26487e8f7c54389a0d3b33c
-      proposed_primary_category: context-engineering
+      category_rules_version: c367d6101132
+      input_hash: sha256:f3c09e90eb405f276c892ceeabc910503ba6191b83fb19bab6cdcdc64cfe8a1a
+      proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: The core novelty is a shared retrieval system for agent solutions, not host integration or orchestration.
+      decision_reason: Prior is a coding agent that autonomously searches for solutions to coding problems across sessions, making it a primary tool for developers delegating coding tasks.
       decision_evidence:
-        - Primary pitch is 'search for solutions already discovered by other agents'
-        - MCP is a transport option, not the product identity
-        - Credit economy and contribution system centers on knowledge reuse
+        - README states 'Prior Setup' automatically detects coding tools like Claude Code and Codex and installs behavioral rules for agent search
+        - Scraped site context describes Prior as 'Knowledge exchange for AI agents' that lets agents 'search for solutions already discovered by other agents'
+        - Source-list context shows it is included in curated AI developer resources indicating recognized utility
       category_candidates:
-        - context-engineering
-        - mcp
-      contrastive_reason: >-
-        Choose context-engineering over mcp because the product identity is the knowledge exchange layer, not MCP
-        infrastructure.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Prior is an autonomous agent that searches for solutions rather than merely extending another agent's capabilities
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'memory-and-context', proposed 'coding-agents'"
       review_resume_lifecycle: null

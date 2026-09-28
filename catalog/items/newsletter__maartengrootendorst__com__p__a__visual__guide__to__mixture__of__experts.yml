@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A visual guide explaining Mixture of Experts (MoE) in Large Language Models through detailed illustrations and technical breakdowns.
-  why_it_matters: It helps developers understand the architectural and performance implications of MoE, a key technique in modern LLM design.
-  mental_damage: Finally, a 50-visualization deep dive to explain why your GPU fans sound like a jet engine when running Mixtral.
+  summary: A visual guide explaining Mixture of Experts (MoE) in large language models through diagrams and text.
+  why_it_matters: Helps developers understand a key efficiency technique used in modern LLMs like Mixtral, informing model selection and architecture decisions.
+  mental_damage: Another deep-dive article that makes you feel smart for 20 minutes before you forget how routers actually work.
   tags:
-    - educational
-    - llm-architecture
-    - mixture-of-experts
-    - visual-guide
+    - llm
+    - architecture
+    - education
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational article/newsletter post, not a developer tool, framework, or workflow product.
+  reason: This is an educational resource about a machine learning technique, not a developer-facing AI tool, agent, or infrastructure for building or using AI in software development.
   evidence:
-    - The URL is a Substack newsletter post, not a repo or tool
-    - The content is a long-form explanation with visualizations, not a functional product
-    - Source-list context places it under 'Tips' in a resource summary, not as a tool
+    - Source-list context shows it appears in awesome-LLM-resources under '技巧 Tips' as a general LLM resource
+    - Scraped site context describes it as a visual guide/newsletter post explaining MoE concepts, not a tool or platform
+    - No evidence of code, SDK, agent functionality, or developer workflow integration
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:07.388Z"
+    updated_at: "2026-09-28T04:33:43.152Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:9354efcdda41b3ea1a46151b13e4ac08c533f3c4e5d2c416e8bff69c99b8dcac
+      category_rules_version: c367d6101132
+      input_hash: sha256:9ef47d4ec46b94ba151e23eed1d0ac4fe4f5ae216bcfdbcdfcb7f34ea7831e37
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational article/newsletter post, not a developer tool, framework, or workflow product.
+      decision_reason: This is an educational resource about a machine learning technique, not a developer-facing AI tool, agent, or infrastructure for building or using AI in software development.
       decision_evidence:
-        - The URL is a Substack newsletter post, not a repo or tool
-        - The content is a long-form explanation with visualizations, not a functional product
-        - Source-list context places it under 'Tips' in a resource summary, not as a tool
+        - Source-list context shows it appears in awesome-LLM-resources under '技巧 Tips' as a general LLM resource
+        - Scraped site context describes it as a visual guide/newsletter post explaining MoE concepts, not a tool or platform
+        - No evidence of code, SDK, agent functionality, or developer workflow integration
       category_candidates: []
       contrastive_reason: null
       review_reason: null

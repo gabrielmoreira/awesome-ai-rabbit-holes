@@ -90,23 +90,23 @@ metadata:
       fetched_at: "2026-09-24T04:13:00.423Z"
       bytes: 24798
 insights:
-  summary: MCP server that bridges language servers with AI agents, providing stateful code intelligence and workflow tools.
-  why_it_matters: It gives AI agents accurate, context-aware code analysis by leveraging real language servers, reducing incorrect edits and token usage.
-  mental_damage: Finally, an MCP server that doesn’t just pretend to understand your codebase.
+  summary: agent-lsp is an MCP server that orchestrates language servers into agent-native workflows for AI-powered code intelligence.
+  why_it_matters: It reduces cold-start latency and token usage by keeping language servers warm and exposing batch, speculative editing workflows to AI agents via MCP.
+  mental_damage: Another layer of abstraction to make your AI coding assistant feel less like a toddler with a chainsaw and more like a sleep-deprived intern who finally had coffee.
   tags:
     - mcp
     - lsp
+    - orchestration
     - code-intelligence
-    - agent-workflows
-    - token-optimization
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: MCP is the core product identity, with the server explicitly designed to bridge LSP and agent workflows.
+  reason: agent-lsp's core identity is an MCP server that exposes language server capabilities via MCP, making MCP its primary protocol identity rather than a coding agent or extension.
   evidence:
     - "Repo description: 'MCP server that orchestrates language servers into agent-native workflows'"
-    - "README: 'agent-lsp is a stateful runtime over real language servers' with MCP as the primary protocol"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - "README: 'agent-lsp is an MCP server that orchestrates existing LSP servers into agent-native workflows'"
+    - "Source-list: listed in awesome-mcp-servers under Server Implementations > Developer Tools"
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -126,30 +126,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:56:51.107Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3b48e84a876831a6582a71d6cf35ea851ed84b37284f46cb8c9ba21e22281fff
+      category_rules_version: c367d6101132
+      input_hash: sha256:650d867eff4bf574f64f4b524d848aedaec41f679326466a3bec1b6308a30ae3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the core product identity, with the server explicitly designed to bridge LSP and agent workflows.
+      decision_reason: agent-lsp's core identity is an MCP server that exposes language server capabilities via MCP, making MCP its primary protocol identity rather than a coding agent or extension.
       decision_evidence:
         - "Repo description: 'MCP server that orchestrates language servers into agent-native workflows'"
-        - "README: 'agent-lsp is a stateful runtime over real language servers' with MCP as the primary protocol"
-        - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+        - "README: 'agent-lsp is an MCP server that orchestrates existing LSP servers into agent-native workflows'"
+        - "Source-list: listed in awesome-mcp-servers under Server Implementations > Developer Tools"
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension for another assistant.
+        - coding-agents
+      contrastive_reason: Choose mcp over coding-agents because agent-lsp is an MCP server whose primary function is exposing LSP capabilities via MCP, not autonomously performing coding tasks as an agent.
       review_reason: null
       review_resume_lifecycle: null

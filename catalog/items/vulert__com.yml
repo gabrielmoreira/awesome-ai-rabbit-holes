@@ -36,26 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Vulert is a SaaS platform for software composition analysis (SCA) that monitors dependencies via manifest/SBOM files and provides real-time vulnerability and license compliance alerts without code access.
-  why_it_matters: It lets developers and security teams continuously scan for vulnerabilities and license risks across projects without installing agents or exposing source code.
-  mental_damage: Finally, a security tool that won’t ask for your SSH keys—just your package-lock.json and your soul.
+  summary: Vulert is a web-based software composition analysis service that scans dependency manifests and SBOMs to detect vulnerabilities and provide version-specific remediation guidance without accessing source code.
+  why_it_matters: It lets developers monitor open-source dependencies for vulnerabilities continuously and get actionable fixes, especially useful for auditing AI-generated code changes.
+  mental_damage: Another tool to add to the growing list of things you have to remember to run before shipping, because trusting AI-generated dependencies is now a compliance liability.
   tags:
+    - security
     - sca
-    - vulnerability-scanning
-    - license-compliance
-    - sbom
-    - devsecops
+    - dependency-monitoring
   confidence: high
 curation:
-  status: excluded
-  reason: Vulert is a security/compliance SaaS platform, not a developer-tooling product focused on AI-assisted coding, agents, or workflows.
+  status: included
+  reason: Vulert is a security scanning tool that integrates with coding agents via MCP to provide vulnerability monitoring and remediation guidance, making it an extension that enhances agent workflows rather than a standalone coding agent or framework.
   evidence:
-    - Primary product is SCA and vulnerability monitoring, not AI-powered coding assistance
-    - Source-list context places it under 'Security' in a general AI coding tools list, but the tool itself is not AI-native
-    - No AI agent, framework, or developer workflow augmentation mentioned in its core pitch
+    - Scraped site context shows Vulert provides software composition analysis with no install, using manifest files, and offers real-time vulnerability alerts.
+    - "Primary page excerpt includes a dedicated section: 'MCP for Coding Agents' describing how Vulert connects to Codex, Claude Code, Cursor and other MCP-compatible agents to scan dependency files before and after changes."
+    - Source-list context from awesome-ai-coding-tools places it in the Security section, noting it provides software composition analysis with no install, using manifest files, and real-time vulnerability alerts.
 placement:
-  primary_category: null
-  section: null
+  primary_category: extensions-and-addons
+  section: Security & DevSecOps
 lifecycle:
   status: incubating
   reason: null
@@ -71,25 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:48.758Z"
+    updated_at: "2026-09-28T04:49:07.880Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:316628bcaa4c49ca62fe411cccaac9fbcd6333864c1fcb8e3acbcaa3743d5479
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:0d18a4d6e23319602c458dc5478df5e4bd5933308c0192398feff413d56bea6a
+      proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: Vulert is a security/compliance SaaS platform, not a developer-tooling product focused on AI-assisted coding, agents, or workflows.
+      decision_reason: Vulert is a security scanning tool that integrates with coding agents via MCP to provide vulnerability monitoring and remediation guidance, making it an extension that enhances agent workflows rather than a standalone coding agent or framework.
       decision_evidence:
-        - Primary product is SCA and vulnerability monitoring, not AI-powered coding assistance
-        - Source-list context places it under 'Security' in a general AI coding tools list, but the tool itself is not AI-native
-        - No AI agent, framework, or developer workflow augmentation mentioned in its core pitch
-      category_candidates: []
-      contrastive_reason: null
+        - Scraped site context shows Vulert provides software composition analysis with no install, using manifest files, and offers real-time vulnerability alerts.
+        - "Primary page excerpt includes a dedicated section: 'MCP for Coding Agents' describing how Vulert connects to Codex, Claude Code, Cursor and other MCP-compatible agents to scan dependency files before and after changes."
+        - Source-list context from awesome-ai-coding-tools places it in the Security section, noting it provides software composition analysis with no install, using manifest files, and real-time vulnerability alerts.
+      category_candidates:
+        - extensions-and-addons
+        - mcp
+      contrastive_reason: Choose extensions-and-addons over mcp because Vulert's primary identity is a security scanning service that offers MCP as an integration feature for coding agents, not an MCP server, client, or infrastructure tool whose core purpose is enabling the Model Context Protocol.
       review_reason: null
       review_resume_lifecycle: null

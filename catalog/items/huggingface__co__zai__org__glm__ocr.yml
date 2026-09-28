@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GLM-OCR is a vision-language model hosted on Hugging Face for OCR tasks, specializing in text extraction from images and documents.
-  why_it_matters: It provides developers with a high-performance, open-source OCR model for parsing text from images, tables, and scanned documents, useful in document processing workflows.
-  mental_damage: Finally, a model that can read your PDFs better than you can, but still can't explain why it misread that one critical number.
+  summary: GLM-OCR is a Hugging Face-hosted vision-language model for optical character recognition that extracts text from images.
+  why_it_matters: Provides developers a ready-to-use OCR model via API or local inference for extracting text from documents, scans, or UI screenshots in automation pipelines.
+  mental_damage: Another model card in the endless Hugging Face scroll, promising productivity while adding to the pile of 'I'll integrate this someday' tabs.
   tags:
     - ocr
-    - vision-language-model
-    - document-parsing
+    - vision-model
     - huggingface
+    - image-to-text
   confidence: high
 curation:
   status: excluded
-  reason: GLM-OCR is a specialized OCR model, not a developer tool, framework, or workflow product—it does not fit the catalog's scope of practical AI tools, agents, or infrastructure for software developers.
+  reason: GLM-OCR is a general-purpose OCR model without a developer-tooling-specific interface, workflow integration, or agent identity; it serves as raw ML infrastructure rather than a tool for coding, app building, or AI-assisted development.
   evidence:
-    - The project is a Hugging Face model repo for OCR tasks, not a tool, SDK, or workflow product
-    - Source-list context places it under 'Data' in a general LLM resource list, not developer tooling
-    - No evidence of developer-facing integrations, APIs, or workflows beyond model inference
+    - Repo description is missing; Hugging Face page shows it as a vision-language model for OCR with no mention of developer workflows, coding agents, or tooling integrations.
+    - Evaluated on general OCR benchmarks (OLMOCR, ParseBench, MDPBench) with no developer-facing API, SDK, or extension described.
+    - Source-list appearance is in a general LLM resources list under '数据 Data', indicating broad ML resource curation, not developer tooling.
 placement:
   primary_category: null
   section: null
@@ -72,24 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:19.723Z"
+    updated_at: "2026-09-28T04:29:17.796Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0ac7af8548564465ca6c0a90abd59ebeea970ea100f26a7b5d8836aecf1d6917
+      category_rules_version: c367d6101132
+      input_hash: sha256:d9d06adcd016e9524a1864b82025fb69254bc242b6036df4859adb2fd5e4062a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: GLM-OCR is a specialized OCR model, not a developer tool, framework, or workflow product—it does not fit the catalog's scope of practical AI tools, agents, or infrastructure for software developers.
+      decision_reason: GLM-OCR is a general-purpose OCR model without a developer-tooling-specific interface, workflow integration, or agent identity; it serves as raw ML infrastructure rather than a tool for coding, app building, or AI-assisted development.
       decision_evidence:
-        - The project is a Hugging Face model repo for OCR tasks, not a tool, SDK, or workflow product
-        - Source-list context places it under 'Data' in a general LLM resource list, not developer tooling
-        - No evidence of developer-facing integrations, APIs, or workflows beyond model inference
+        - Repo description is missing; Hugging Face page shows it as a vision-language model for OCR with no mention of developer workflows, coding agents, or tooling integrations.
+        - Evaluated on general OCR benchmarks (OLMOCR, ParseBench, MDPBench) with no developer-facing API, SDK, or extension described.
+        - Source-list appearance is in a general LLM resources list under '数据 Data', indicating broad ML resource curation, not developer tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

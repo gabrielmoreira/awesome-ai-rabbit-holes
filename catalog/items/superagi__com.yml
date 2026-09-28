@@ -51,21 +51,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: SuperAGI is an AI sales agent that autonomously finds and engages with prospects 24/7.
-  why_it_matters: It automates outbound sales workflows, but offers no direct developer-tooling value for coding, building, or integrating AI into software projects.
-  mental_damage: Finally, a way to offload your sales pipeline to an AI that will cold-email prospects while you debug your own code.
+  summary: SuperAGI is an AI sales agent that works 24×7 to find and engage with prospects without hiring.
+  why_it_matters: It matters to developers as an example of AI agents applied to sales automation, not software development workflows.
+  mental_damage: Another AI agent promising to replace humans in a function developers rarely need automated, adding to the noise of misapplied agent hype.
   tags:
-    - ai-sales-agent
-    - automation
-    - non-developer
+    - ai-agents
+    - sales-automation
   confidence: high
 curation:
   status: excluded
-  reason: The product is a vertical sales automation agent with no developer-tooling angle, falling outside the catalog's scope of practical AI tools for software developers.
+  reason: SuperAGI is an AI sales agent focused on prospecting and engagement, which has no identity as a developer-facing tool for coding, workflow automation, or AI infrastructure relevant to software developers.
   evidence:
-    - Described as an 'AI sales agent' in both source lists and scraped site context
-    - No mention of code editing, development workflows, or developer integrations
-    - Primary value is sales prospecting, not developer productivity
+    - "Scraped site context: 'SuperAGI is an AI sales agent that works 24×7 to find & engage with prospects without the hassle of hiring.'"
+    - "Source-list context: Listed in awesome-ai-agents and awesome-local-ai as an AI sales agent for prospecting, not a developer tool."
 placement:
   primary_category: null
   section: null
@@ -84,24 +82,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:18.982Z"
+    updated_at: "2026-09-28T04:46:10.447Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:63f15ef0d64d253f1139880ca221c1f6fe608e4850dff7ebd519b8b5716908df
+      category_rules_version: c367d6101132
+      input_hash: sha256:15068c164dba2c181cde1ae2cccfe074e856761e8b29a5d302d5b88eb2299e88
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a vertical sales automation agent with no developer-tooling angle, falling outside the catalog's scope of practical AI tools for software developers.
+      decision_reason: SuperAGI is an AI sales agent focused on prospecting and engagement, which has no identity as a developer-facing tool for coding, workflow automation, or AI infrastructure relevant to software developers.
       decision_evidence:
-        - Described as an 'AI sales agent' in both source lists and scraped site context
-        - No mention of code editing, development workflows, or developer integrations
-        - Primary value is sales prospecting, not developer productivity
+        - "Scraped site context: 'SuperAGI is an AI sales agent that works 24×7 to find & engage with prospects without the hassle of hiring.'"
+        - "Source-list context: Listed in awesome-ai-agents and awesome-local-ai as an AI sales agent for prospecting, not a developer tool."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

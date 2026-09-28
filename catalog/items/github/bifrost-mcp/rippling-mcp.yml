@@ -39,22 +39,21 @@ metadata:
       fetched_at: "2026-09-24T04:12:58.777Z"
       bytes: 4671
 insights:
-  summary: An MCP server that exposes Rippling's HR/IT/Finance platform APIs to AI agents via 18 tools for employee, department, leave, and company data.
-  why_it_matters: Lets developers integrate Rippling's workforce data into AI workflows without building custom API wrappers.
-  mental_damage: Now your AI can approve PTO requests before you’ve even finished your coffee.
+  summary: An MCP server that exposes Rippling HR/IT/Finance platform data and actions via the Model Context Protocol for AI agent consumption.
+  why_it_matters: Lets developers connect AI agents to Rippling data using a standardized interface, avoiding custom API glue code.
+  mental_damage: Another niche MCP server adding to the growing list of 'AI can now talk to your SaaS' wrappers that agents will rarely use.
   tags:
-    - mcp-server
-    - rippling
-    - hr-integration
-    - enterprise-data
-  confidence: high
+    - mcp
+    - hr
+    - api-wrapper
+  confidence: medium
 curation:
   status: included
-  reason: "MCP is the product identity: a dedicated server exposing Rippling's APIs through the Model Context Protocol."
+  reason: The product's primary identity is an MCP server exposing Rippling platform capabilities, fitting the MCP ecosystem category where the protocol is the core offering.
   evidence:
-    - Repo description explicitly states it is an MCP server for Rippling
-    - README details 18 tools for Rippling data domains with MCP SDK usage
-    - Source-list context places it in an MCP server directory
+    - "Repo description: 'MCP server for Rippling HR/IT/Finance platform'"
+    - "README: 'An open-source Model Context Protocol (MCP) server for the Rippling platform'"
+    - Lists 18 tools exposed via MCP for employee, leave, groups, and company data
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -74,30 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-28T04:56:03.065Z"
+    cause: null
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4241f353ad12599ba51e26e2552aacc3ad456dc0c325a33ab6d16aab089c33b9
+      category_rules_version: c367d6101132
+      input_hash: sha256:01139cec9e1cfd7e0e64dae1b17699e1693d13899d36b5360d5cf08fa61a29fe
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: a dedicated server exposing Rippling's APIs through the Model Context Protocol."
+      decision_reason: The product's primary identity is an MCP server exposing Rippling platform capabilities, fitting the MCP ecosystem category where the protocol is the core offering.
       decision_evidence:
-        - Repo description explicitly states it is an MCP server for Rippling
-        - README details 18 tools for Rippling data domains with MCP SDK usage
-        - Source-list context places it in an MCP server directory
+        - "Repo description: 'MCP server for Rippling HR/IT/Finance platform'"
+        - "README: 'An open-source Model Context Protocol (MCP) server for the Rippling platform'"
+        - Lists 18 tools exposed via MCP for employee, leave, groups, and company data
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server whose identity is the protocol itself, not an add-on that extends a coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132

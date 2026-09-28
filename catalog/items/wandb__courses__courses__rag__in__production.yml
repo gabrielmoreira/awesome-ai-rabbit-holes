@@ -51,23 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A free course teaching production-ready RAG techniques for engineers, including evaluation, data ingestion, retrieval, and optimization.
-  why_it_matters: Provides practical, tested solutions for moving RAG prototypes to production with better accuracy, lower costs, and fewer hallucinations.
-  mental_damage: Finally, a course that teaches you how to make RAG work in production instead of just pretending it does.
+  summary: RAG++ is an online course teaching how to transition RAG systems from proof-of-concept to production deployment.
+  why_it_matters: It helps developers bridge the gap between RAG prototypes and scalable, maintainable systems in real-world applications.
+  mental_damage: Another reminder that your 'working' RAG demo will collapse under real traffic, and now there's a course to tell you why.
   tags:
     - rag
-    - course
     - production
-    - retrieval
-    - evaluation
+    - course
+    - llm
+    - ai-engineering
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational course, not a developer tool, framework, or product that fits the catalog's scope of practical AI tools, agents, or workflows.
+  reason: RAG++ is an educational course, not a developer-facing AI tool, agent, framework, or infrastructure product; it teaches concepts but does not provide runnable tooling or code that developers directly use in their workflows.
   evidence:
-    - The URL and scraped context confirm it is a course hosted on W&B AI Academy
-    - The README excerpt and source-list context describe it as a 'course' with lessons, notebooks, and guest instructors
-    - The primary value is educational content, not a tool or library for developers to integrate or use
+    - "Repo description: (none)"
+    - "Source-list context: included in awesome-LLM-resources under '课程 Course' (Course section)"
+    - URL points to wandb.courses, indicating it is a hosted educational offering, not open-source software
 placement:
   primary_category: null
   section: null
@@ -77,24 +77,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:52.991Z"
+    updated_at: "2026-09-28T04:49:10.745Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d170d56bbc7e6de9e8b19ed236713fb1d16d5ec20f59a5da75aafb41158da83d
+      category_rules_version: c367d6101132
+      input_hash: sha256:775f4ea04a60ad36bc2ebc4ffa426791a52b721f61834679d036e9bd6c8fe479
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational course, not a developer tool, framework, or product that fits the catalog's scope of practical AI tools, agents, or workflows.
+      decision_reason: RAG++ is an educational course, not a developer-facing AI tool, agent, framework, or infrastructure product; it teaches concepts but does not provide runnable tooling or code that developers directly use in their workflows.
       decision_evidence:
-        - The URL and scraped context confirm it is a course hosted on W&B AI Academy
-        - The README excerpt and source-list context describe it as a 'course' with lessons, notebooks, and guest instructors
-        - The primary value is educational content, not a tool or library for developers to integrate or use
+        - "Repo description: (none)"
+        - "Source-list context: included in awesome-LLM-resources under '课程 Course' (Course section)"
+        - URL points to wandb.courses, indicating it is a hosted educational offering, not open-source software
       category_candidates: []
       contrastive_reason: null
       review_reason: null

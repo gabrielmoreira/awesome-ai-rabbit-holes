@@ -51,22 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A SaaS platform offering AI agents for market intelligence, marketing, and sales automation.
-  why_it_matters: It automates content generation, market monitoring, and sales support for businesses, but is not developer-focused.
-  mental_damage: Another AI tool promising to replace your marketing team while your codebase quietly rots.
+  summary: AGENTS.inc is an enterprise AI agent platform marketed for marketing, sales, and market intelligence use cases.
+  why_it_matters: It positions itself as an autonomous workforce for business functions, but offers no visible developer tooling or integration points.
+  mental_damage: Another 'AI agent' rebrand selling buzzword bingo to enterprises while developers wonder where the code is.
   tags:
-    - marketing-automation
-    - ai-agents
-    - saas
-    - business-intelligence
+    - enterprise
+    - marketing
+    - sales
   confidence: high
 curation:
   status: excluded
-  reason: The product is a business-oriented SaaS platform for marketing, sales, and market intelligence, not a developer-tooling product.
+  reason: AGENTS.inc is marketed as an enterprise AI workforce for business users, not a developer-facing tool for coding, workflow automation, or infrastructure — it lacks any indication of being usable by developers to build, extend, or operate AI systems.
   evidence:
-    - Site context describes AI agents for marketing copy, reports, and sales automation
-    - Use cases include market monitoring, competitor analysis, and CRM updates, not code or development workflows
-    - Source-list context places it in a general AI agents list, not a developer tools directory
+    - "Repo description: (none)"
+    - "Scraped site context: Autonomous AI agents for enterprise enterprise marketing, sales and market intelligence. In production at Kaufland, AXA, E.ON, Petrobras, Henkel and Messe München."
+    - "Source-list context: Listed in awesome-ai-agents under 'Autonomous AI agents for enterprise enterprise marketing, sales and market intelligence'"
 placement:
   primary_category: null
   section: null
@@ -76,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:19.638Z"
+    updated_at: "2026-09-28T04:38:44.971Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a4f607684dbd180a876a386931ec21a1db4e5135986eb5fd227f1fddfa125e59
+      category_rules_version: c367d6101132
+      input_hash: sha256:3e272bc11ec6be27e21081b3036d842f9e37b2480b93334cf2ea799200964463
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a business-oriented SaaS platform for marketing, sales, and market intelligence, not a developer-tooling product.
+      decision_reason: AGENTS.inc is marketed as an enterprise AI workforce for business users, not a developer-facing tool for coding, workflow automation, or infrastructure — it lacks any indication of being usable by developers to build, extend, or operate AI systems.
       decision_evidence:
-        - Site context describes AI agents for marketing copy, reports, and sales automation
-        - Use cases include market monitoring, competitor analysis, and CRM updates, not code or development workflows
-        - Source-list context places it in a general AI agents list, not a developer tools directory
+        - "Repo description: (none)"
+        - "Scraped site context: Autonomous AI agents for enterprise enterprise marketing, sales and market intelligence. In production at Kaufland, AXA, E.ON, Petrobras, Henkel and Messe München."
+        - "Source-list context: Listed in awesome-ai-agents under 'Autonomous AI agents for enterprise enterprise marketing, sales and market intelligence'"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

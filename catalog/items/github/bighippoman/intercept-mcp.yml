@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-09-24T04:12:59.116Z"
       bytes: 20226
 insights:
-  summary: MCP server that fetches web content as clean markdown with a multi-tier fallback chain.
-  why_it_matters: Developers can give their AI assistants reliable access to web content (tweets, YouTube, PDFs, etc.) without hitting paywalls, 403s, or raw HTML.
-  mental_damage: Finally, an MCP server that treats the web like a first-class data source instead of a hostile firehose of HTML.
+  summary: MCP server that fetches web content and converts it to clean markdown via a multi-tier fallback chain including site-specific handlers and shared caching.
+  why_it_matters: Lets AI agents reliably read web pages without hitting paywalls or raw HTML, improving context quality for coding and research tasks.
+  mental_damage: Another MCP server promising to fix the web, adding yet another layer to the ever-growing stack of tools AI needs just to read a tweet.
   tags:
-    - mcp-server
-    - web-scraping
-    - markdown-extraction
-    - ai-context
-    - fallback-pipeline
+    - mcp
+    - web-fetch
+    - markdown
+    - browser-automation
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a server that exposes web-fetching tools via MCP, with its own caching and fallback logic."
+  reason: The product is an MCP server whose core identity is exposing web content fetching as a tool over the Model Context Protocol, making MCP its primary identity rather than a side feature.
   evidence:
-    - Repo description explicitly identifies it as an MCP server
-    - README details MCP client integration (Claude Code, Cursor, etc.) and MCP tooling (`fetch`, `search`)
-    - Source-list context places it in an MCP servers directory under Browser Automation
+    - "Repo description: 'MCP server with multi-tier fallback chain for fetching web content as clean markdown'"
+    - "README: 'Give your AI the ability to read the web' and works with any MCP client via stdio"
+    - Listed in awesome-mcp-servers under Browser Automation section
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -76,30 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:56:10.017Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a6ff170ee4f688369fd2c246d2389431da01bc65bbb7cf8d4e61246a784beeb5
+      category_rules_version: c367d6101132
+      input_hash: sha256:ab9892de27ee8ab2eda5149694420984032cd829b9c2295da82bcca64a3ff62b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a server that exposes web-fetching tools via MCP, with its own caching and fallback logic."
+      decision_reason: The product is an MCP server whose core identity is exposing web content fetching as a tool over the Model Context Protocol, making MCP its primary identity rather than a side feature.
       decision_evidence:
-        - Repo description explicitly identifies it as an MCP server
-        - README details MCP client integration (Claude Code, Cursor, etc.) and MCP tooling (`fetch`, `search`)
-        - Source-list context places it in an MCP servers directory under Browser Automation
+        - "Repo description: 'MCP server with multi-tier fallback chain for fetching web content as clean markdown'"
+        - "README: 'Give your AI the ability to read the web' and works with any MCP client via stdio"
+        - Listed in awesome-mcp-servers under Browser Automation section
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server with its own tooling and identity, not merely an extension for another assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server exposing web-fetch tools, not an extension that augments another agent with specific capabilities.
       review_reason: null
       review_resume_lifecycle: null

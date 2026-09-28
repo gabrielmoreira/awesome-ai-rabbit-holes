@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Hugging Face Space for creating and customizing data processing pipelines for Common Crawl data.
-  why_it_matters: It allows developers to filter, extract, and adjust parameters for Common Crawl datasets, which is useful for preparing large-scale web data for AI training or analysis.
-  mental_damage: Because nothing says 'fun' like wrangling petabytes of unstructured web data with a UI that may or may not be asleep.
+  summary: A web-based interface for creating and customizing data processing pipelines for Common Crawl datasets.
+  why_it_matters: It simplifies the complex task of filtering and extracting high-quality text from massive web crawls, which is a prerequisite for effective LLM training.
+  mental_damage: Nothing cures developer optimism faster than the realization that your model's intelligence is entirely dependent on how many hours you spend fighting web-scale text cleaning pipelines.
   tags:
-    - data-pipelines
+    - data-engineering
+    - llm-training
     - common-crawl
-    - huggingface-spaces
-    - data-processing
+    - data-pipeline
   confidence: high
 curation:
   status: excluded
-  reason: This is a data processing pipeline tool for Common Crawl, not a developer-facing AI coding tool, agent, or workflow infrastructure.
+  reason: The tool is a specialized data engineering utility for LLM preprocessing, which falls outside the catalog's specific focus on coding agents, IDE extensions, and agentic developer workflows.
   evidence:
-    - The tool is described as a pipeline creator for Common Crawl data, not a coding assistant or developer tool
-    - It is categorized under '数据 Data' in the source list, not under any developer-tooling section
-    - The primary value is data filtering/extraction, not code generation, review, or developer workflow augmentation
+    - Hosted on Hugging Face Spaces as a GUI-based pipeline creator
+    - Primary function is filtering and extracting data from Common Crawl
+    - Categorized under 'Data' in existing source lists
 placement:
   primary_category: null
   section: null
@@ -70,24 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:16.392Z"
+    updated_at: "2026-09-28T04:29:11.614Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d6ad82eba1038637dd545e90a1a12d7733451d33dac60f22e92b3fe2fe0ff13d
+      category_rules_version: c367d6101132
+      input_hash: sha256:25579891f685c149a5a6450e9e84ec05a81c3efbada898e5befb899ce9a1b69d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a data processing pipeline tool for Common Crawl, not a developer-facing AI coding tool, agent, or workflow infrastructure.
+      decision_reason: The tool is a specialized data engineering utility for LLM preprocessing, which falls outside the catalog's specific focus on coding agents, IDE extensions, and agentic developer workflows.
       decision_evidence:
-        - The tool is described as a pipeline creator for Common Crawl data, not a coding assistant or developer tool
-        - It is categorized under '数据 Data' in the source list, not under any developer-tooling section
-        - The primary value is data filtering/extraction, not code generation, review, or developer workflow augmentation
+        - Hosted on Hugging Face Spaces as a GUI-based pipeline creator
+        - Primary function is filtering and extracting data from Common Crawl
+        - Categorized under 'Data' in existing source lists
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pear__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: PearAI
         extracted_url: https://pear.ai
-        surrounding_text: '- **[PearAI](https://pear.ai/)** – Open-source AI-powered code editor.'
+        surrounding_text: "- **[PearAI](https://pear.ai/)** – Open-source AI-powered code editor."
         confidence: high
 metadata:
   github:
@@ -36,38 +36,30 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: PearAI is an AI-native code editor and development environment.
-  why_it_matters: >-
-    It provides developers with an integrated AI assistant directly within the editor surface, streamlining coding
-    workflows.
-  mental_damage: >-
-    Another editor that promises to write your code for you, but you’ll still spend an hour arguing with it about tabs
-    vs. spaces.
+  summary: pear.ai appears to be a cursorrules-style AI coding assistant or editor extension, marketed for coding workflows.
+  why_it_matters: If it functions as an AI coding assistant or editor extension, it could streamline code generation, editing, or review within a developer's existing IDE or terminal workflow.
+  mental_damage: Another AI tool promising to 'understand your codebase' while adding yet another sidebar to your already overcrowded IDE.
   tags:
-    - ai-ide
-    - code-editor
-    - ai-native
-    - development-environment
-  confidence: high
+    - ai-assistant
+    - ide-extension
+  confidence: low
 curation:
   status: included
-  reason: >-
-    PearAI is explicitly listed as a canonical positive in the IDEs & Editors category, and its primary product identity
-    is an AI-native editor surface rather than a plugin, terminal agent, or framework.
+  reason: Based on its presence in awesome-ai-coding-tools under 'Code Editors and Assistants' and its branding, pear.ai likely functions as an AI coding agent or editor extension that assists with coding tasks, fitting the coding-agents category; however, without a README or detailed description, confidence is limited.
   evidence:
-    - Seen in awesome-ai-coding-tools under 'Code Editors and Assistants'
-    - Canonical positive example for ai-ides-editors category
+    - Listed in awesome-ai-coding-tools under the section 'Code Editors and Assistants'
+    - URL and name suggest an AI-powered coding assistant or editor tool
 placement:
   primary_category: coding-agents
   secondary_categories: []
   section: IDE-Native & Editor Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,30 +68,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:30:28.506Z'
+    updated_at: "2026-09-28T04:34:20.384Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:8e8b1f42ea19f0d22202539af40008fc7f745b7ce2c6f8153d4e156031021ef1
-      proposed_primary_category: ai-ides-editors
+      category_rules_version: c367d6101132
+      input_hash: sha256:0f7acefacd08d5c7b11355deb2fa1e64398ea09f9e1a97a3fa25f5a636bcdd5a
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        PearAI is explicitly listed as a canonical positive in the IDEs & Editors category, and its primary product
-        identity is an AI-native editor surface rather than a plugin, terminal agent, or framework.
+      decision_reason: Based on its presence in awesome-ai-coding-tools under 'Code Editors and Assistants' and its branding, pear.ai likely functions as an AI coding agent or editor extension that assists with coding tasks, fitting the coding-agents category; however, without a README or detailed description, confidence is limited.
       decision_evidence:
-        - Seen in awesome-ai-coding-tools under 'Code Editors and Assistants'
-        - Canonical positive example for ai-ides-editors category
+        - Listed in awesome-ai-coding-tools under the section 'Code Editors and Assistants'
+        - URL and name suggest an AI-powered coding assistant or editor tool
       category_candidates:
-        - ai-ides-editors
         - coding-agents
-      contrastive_reason: >-
-        Choose ai-ides-editors over coding-agents because the primary product surface is the AI-native editor itself
-        rather than a standalone coding assistant.
-      review_reason: null
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because the source-list placement and branding suggest pear.ai is positioned as a primary coding assistant rather than a mere add-on to another agent or editor.
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

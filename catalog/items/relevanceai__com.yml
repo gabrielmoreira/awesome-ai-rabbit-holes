@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__relevanceai__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Relevance AI
         anchor_text: Relevance AI
         extracted_url: https://relevanceai.com
-        surrounding_text: '## [Relevance AI](https://relevanceai.com/)'
+        surrounding_text: "## [Relevance AI](https://relevanceai.com/)"
         confidence: high
 metadata:
   github:
@@ -36,40 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An enterprise platform for building, deploying, and orchestrating specialized AI agents with integrated LLM routing,
-    tracing, and evaluation.
-  why_it_matters: >-
-    It provides a unified infrastructure stack for moving from simple LLM prompts to managed, autonomous agentic
-    workflows.
-  mental_damage: Because why debug a single function when you can manage an entire autonomous workforce of specialist agents instead?
+  summary: Relevance AI is an enterprise platform for building and running specialist AI agents to automate business tasks in sales, marketing, HR, and operations.
+  why_it_matters: It lets non-technical teams deploy AI agents that handle repetitive workflows like CRM enrichment or meeting prep, reducing manual effort in go-to-market functions.
+  mental_damage: Another 'AI workforce' platform promising ROI while quietly reinventing the idea that every business process needs its own bespoke agent army.
   tags:
-    - agent-orchestration
-    - llmops
+    - ai-agents
     - enterprise-ai
-    - agentic-workflows
-    - mcp
+    - workflow-automation
   confidence: high
 curation:
-  status: included
-  reason: >-
-    Relevance AI acts as an operated control plane and runtime platform that integrates routing, job queues,
-    observability, and evals for multi-agent systems.
+  status: excluded
+  reason: Relevance AI is a business-focused AI agent platform for sales, HR, and operations workflows, not a developer-facing tool for coding, app-building, or agent infrastructure.
   evidence:
-    - Claims to ship an all-in-one system for routing, queues, evals, and tracing to replace custom-built stacks.
-    - Features an 'MCP Gateway' for agent tool access and integrated tracing/observability.
-    - Positions itself as a platform for managing 'specialist agents' across entire enterprise workforces.
+    - Marketed as a platform for 'specialist agents for every task' in sales, marketing, HR, and customer success
+    - Agents automate business tasks like CRM enrichment, meeting prep, and invoice chasing — not code editing or software development
+    - Positioned as an enterprise workforce platform with SOC 2, GDPR, and audit logs, not a devtool or SDK
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,31 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-08-27T06:12:49.075Z'
+    updated_at: "2026-09-28T04:52:42.838Z"
     cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:075c87f2c7d2b83342ebe67413654ab427302fb000908982a62b9d167a6fba77
-      proposed_primary_category: agent-orchestration
+      category_rules_version: c367d6101132
+      input_hash: sha256:06f11c9606d1be32d047866ef7441c8c599d9d6ccda9cff469b76b7eff0ea35e
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Relevance AI acts as an operated control plane and runtime platform that integrates routing, job queues,
-        observability, and evals for multi-agent systems.
+      decision_reason: Relevance AI is a business-focused AI agent platform for sales, HR, and operations workflows, not a developer-facing tool for coding, app-building, or agent infrastructure.
       decision_evidence:
-        - Claims to ship an all-in-one system for routing, queues, evals, and tracing to replace custom-built stacks.
-        - Features an 'MCP Gateway' for agent tool access and integrated tracing/observability.
-        - Positions itself as a platform for managing 'specialist agents' across entire enterprise workforces.
-      category_candidates:
-        - agent-orchestration
-        - evals
-      contrastive_reason: >-
-        Choose agent-orchestration over evals because its primary identity is a platform for coordinating entire agentic
-        workforces, with evals serving as a core integrated capability rather than the sole product.
+        - Marketed as a platform for 'specialist agents for every task' in sales, marketing, HR, and customer success
+        - Agents automate business tasks like CRM enrichment, meeting prep, and invoice chasing — not code editing or software development
+        - Positioned as an enterprise workforce platform with SOC 2, GDPR, and audit logs, not a devtool or SDK
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

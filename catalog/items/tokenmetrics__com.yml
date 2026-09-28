@@ -51,20 +51,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Token Metrics is a platform for cryptocurrency analytics and investment tools.
-  why_it_matters: It provides market data and insights for crypto investors, not developer workflows.
-  mental_damage: Because nothing says 'developer tooling' like a platform that helps you lose money on memecoins.
+  summary: Token Metrics is a financial data platform providing cryptocurrency analytics and ratings.
+  why_it_matters: It offers AI-driven crypto insights that could inform trading or investment decisions for developers involved in fintech or blockchain projects.
+  mental_damage: Another dashboard promising alpha through AI, adding to the noise of tools that claim to predict volatile markets while you just want to ship code.
   tags:
+    - finance
     - crypto
     - analytics
-    - investment
   confidence: high
 curation:
   status: excluded
-  reason: The product is a cryptocurrency analytics platform with no developer-tooling angle, falling outside the catalog's scope.
+  reason: Token Metrics is a financial analytics service for cryptocurrency markets, lacking any developer-tooling focus such as code generation, agent orchestration, or workflow automation relevant to software engineering workflows.
   evidence:
-    - Source-list context shows it appears in an MCP servers list, but its core identity is crypto analytics, not MCP infrastructure
-    - No repo description, README, or developer-focused claims are present
+    - "Seen in source list: awesome-mcp-servers under 'Official Servers' section"
+    - Platform description centers on cryptocurrency ratings, analytics, and market insights
 placement:
   primary_category: null
   section: null
@@ -74,23 +74,23 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:26.265Z"
+    updated_at: "2026-09-28T04:48:04.432Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4edbc38d4bede0fe53b8e2332a2b58a143dddae62d6cb9e5ac75aa2817bdeff0
+      category_rules_version: c367d6101132
+      input_hash: sha256:6ff29b7aa26dee8bedc2e8fd6bee3a63d38df1b6179a2cda6e188efc1e440eab
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a cryptocurrency analytics platform with no developer-tooling angle, falling outside the catalog's scope.
+      decision_reason: Token Metrics is a financial analytics service for cryptocurrency markets, lacking any developer-tooling focus such as code generation, agent orchestration, or workflow automation relevant to software engineering workflows.
       decision_evidence:
-        - Source-list context shows it appears in an MCP servers list, but its core identity is crypto analytics, not MCP infrastructure
-        - No repo description, README, or developer-focused claims are present
+        - "Seen in source list: awesome-mcp-servers under 'Official Servers' section"
+        - Platform description centers on cryptocurrency ratings, analytics, and market insights
       category_candidates: []
       contrastive_reason: null
       review_reason: null

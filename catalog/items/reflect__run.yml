@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: SmartBear Reflect is an AI-powered, codeless web and mobile testing platform for automated UI, API, and visual testing.
-  why_it_matters: It lets teams create and maintain automated tests without writing code, reducing test maintenance overhead as UIs evolve.
-  mental_damage: Finally, a way to make your UI tests break less often—unless the AI decides your app is now a sentient toaster.
+  summary: SmartBear Reflect is an AI-powered, codeless test automation platform for web and mobile applications that converts plain-English test steps into automated actions.
+  why_it_matters: It reduces test maintenance by adapting to UI changes, enabling developers to maintain test coverage without fragile selectors or constant script updates.
+  mental_damage: Another AI testing tool promising to end flaky tests, as if the real problem wasn’t treating QA as an afterthought until release day.
   tags:
     - testing
-    - qa
-    - codeless-automation
-    - ai-testing
-    - web-testing
+    - ai
+    - codeless
   confidence: high
 curation:
   status: excluded
-  reason: This is a QA/testing SaaS product for end-to-end test automation, not a developer-tooling product for building, extending, or orchestrating AI agents or workflows.
+  reason: Reflect is a QA/testing platform focused on application integrity through AI-driven test automation, not a developer-facing AI tool for coding, agents, or workflow augmentation.
   evidence:
-    - Product is positioned as 'AI-powered, codeless web and mobile testing' for application integrity
-    - Core value is test automation (web, mobile, API, visual) without code, not developer tooling for AI workflows
-    - Source-list context places it in 'Testing and QA' section of a general AI coding tools list
+    - Product description emphasizes 'AI-powered test automation that maintains application integrity' and 'codeless web and mobile testing'
+    - Primary use cases are functional, visual, API, and mobile testing — not code generation, editing, or agent orchestration
+    - Marketed to testers and QA teams, with integrations into test management tools like Zephyr and CI/CD, not developer IDEs or agents
 placement:
   primary_category: null
   section: null
@@ -71,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:00.267Z"
+    updated_at: "2026-09-28T04:35:36.405Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d707fd60488dcf76b689b3da03d3e23c46ab6d43585f50d146fffe0fc790b161
+      category_rules_version: c367d6101132
+      input_hash: sha256:55d9454e068f68111204eecb6b16135ea07b921302ae9ef08f53fc6a1be47cb8
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a QA/testing SaaS product for end-to-end test automation, not a developer-tooling product for building, extending, or orchestrating AI agents or workflows.
+      decision_reason: Reflect is a QA/testing platform focused on application integrity through AI-driven test automation, not a developer-facing AI tool for coding, agents, or workflow augmentation.
       decision_evidence:
-        - Product is positioned as 'AI-powered, codeless web and mobile testing' for application integrity
-        - Core value is test automation (web, mobile, API, visual) without code, not developer tooling for AI workflows
-        - Source-list context places it in 'Testing and QA' section of a general AI coding tools list
+        - Product description emphasizes 'AI-powered test automation that maintains application integrity' and 'codeless web and mobile testing'
+        - Primary use cases are functional, visual, API, and mobile testing — not code generation, editing, or agent orchestration
+        - Marketed to testers and QA teams, with integrations into test management tools like Zephyr and CI/CD, not developer IDEs or agents
       category_candidates: []
       contrastive_reason: null
       review_reason: null

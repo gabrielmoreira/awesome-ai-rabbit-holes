@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__rube__app__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Rube
         extracted_url: https://rube.composio.dev
-        surrounding_text: >-
-          - **[Rube](https://rube.composio.dev)** - Rube is a Model Context Protocol (MCP) server that connects your AI
-          tools to 500+ apps like Gmail, Slack, GitHub, and Notion. Simply install it in your AI client, authenticate
-          once with your apps, and start asking your AI to perform real actions like "Send an email" or "Create a task."
+        surrounding_text: "- **[Rube](https://rube.composio.dev)** - Rube is a Model Context Protocol (MCP) server that connects your AI tools to 500+ apps like Gmail, Slack, GitHub, and Notion. Simply install it in your AI client, authenticate once with your apps, and start asking your AI to perform real actions like \"Send an email\" or \"Create a task.\""
         confidence: high
 metadata:
   github:
@@ -39,39 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Rube by Composio is a platform that enables AI agents to interact with various apps like Gmail, Slack, and VSCode
-    through pre-built integrations.
-  why_it_matters: >-
-    It allows developers to automate cross-app workflows (e.g., summarizing emails, creating tasks) by connecting AI
-    assistants to their existing tools.
-  mental_damage: Now your AI can block deep work time for you, because apparently we’ve outsourced even the act of focusing.
+  summary: Rube was an AI agent platform that has been discontinued as of May 16, 2026, with all services shut down and refunds processed.
+  why_it_matters: It does not matter anymore — the product is fully discontinued and no longer usable for any developer workflow.
+  mental_damage: The existential dread of investing time in an AI agent that gets sunsetted before you finish reading its goodbye note.
   tags:
-    - ai-integration
-    - workflow-automation
-    - multi-app
-    - mcp-compatible
+    - discontinued
+    - ai-agent
+    - sunset
   confidence: high
 curation:
-  status: included
-  reason: >-
-    Rube is listed in awesome-mcp-servers as an official server and its primary identity is providing MCP-based
-    integrations to connect AI assistants to external apps.
+  status: excluded
+  reason: The product is explicitly discontinued with no remaining functionality, making it irrelevant to the catalog's scope of practical, usable developer tooling.
   evidence:
-    - Listed in awesome-mcp-servers under 'Official Servers' as an MCP server by Composio.
-    - Site context explicitly highlights compatibility with 'MCP' alongside VSCode, Claude, and Cursor.
-    - Primary page excerpt focuses on app integrations (Gmail, Slack) rather than direct code editing.
+    - Rube has been discontinued as of May 16, 2026, with all payments refunded and services shut down.
+    - "The site states: 'Rube was discontinued on May 16, 2026. All payments have been refunded.'"
+    - No active repository, stars, or recent activity is provided, confirming abandonment.
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: null
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,31 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:31:22.745Z'
+    updated_at: "2026-09-28T04:36:42.487Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:31448162b9284bc1abbfd98fc92177ad407b06d3f953e13077e36279e8a9d443
-      proposed_primary_category: ai-dev-extensions
-      disagreement: true
-      decision_reason: >-
-        Rube primarily augments existing AI assistants (Claude, Cursor, etc.) with cross-app integrations rather than
-        acting as a standalone coding assistant.
+      category_rules_version: c367d6101132
+      input_hash: sha256:e153dce5d2b4d1bbb2c316a4dcf12402a4afeeaa8dc588da19415dae2035307a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is explicitly discontinued with no remaining functionality, making it irrelevant to the catalog's scope of practical, usable developer tooling.
       decision_evidence:
-        - Site describes it as enabling AI to work across apps like Gmail, Slack, VSCode
-        - Listed in awesome-mcp-servers under 'Official Servers' as a Composio product
-        - Explicitly supports MCP as one of its integration protocols
-      category_candidates:
-        - ai-dev-extensions
-        - mcp
-      contrastive_reason: >-
-        Choose ai-dev-extensions over mcp because while Rube supports MCP, its core identity is cross-app integration
-        for AI assistants rather than MCP-specific infrastructure.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
+        - Rube has been discontinued as of May 16, 2026, with all payments refunded and services shut down.
+        - "The site states: 'Rube was discontinued on May 16, 2026. All payments have been refunded.'"
+        - No active repository, stars, or recent activity is provided, confirming abandonment.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

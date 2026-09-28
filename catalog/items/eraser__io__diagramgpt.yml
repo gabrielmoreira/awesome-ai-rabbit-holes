@@ -51,51 +51,52 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI diagram generator that creates technical diagrams from plain English or code snippet prompts.
-  why_it_matters: Developers can quickly generate and iterate on technical diagrams (sequence, flowcharts, ERDs, cloud architecture, etc.) without manual drawing tools.
-  mental_damage: Now you can spend more time arguing about diagram conventions than actually drawing them.
+  summary: DiagramGPT is an AI diagram generator that creates polished technical diagrams from text prompts in seconds.
+  why_it_matters: It lets developers quickly produce and iterate on architecture, flow, and system diagrams without manual drawing tools.
+  mental_damage: Another AI tool promising to replace the whiteboard, while developers still end up manually tweaking the output in Eraser anyway.
   tags:
-    - diagramming
-    - ai-generation
-    - technical-docs
-    - visualization
-  confidence: high
+    - diagrams
+    - ai-generated
+    - documentation
+  confidence: medium
 curation:
-  status: excluded
-  reason: The product is a diagram generator for technical documentation, not a developer tool for coding, agent orchestration, or workflow automation.
+  status: included
+  reason: DiagramGPT generates deployable diagram artifacts from prompts, fitting the app-builder pattern of turning natural language into usable output, even if the output is a diagram rather than a full app.
   evidence:
-    - Primary product is an AI diagram generator for technical diagrams (sequence, flowcharts, ERDs, etc.)
-    - Source-list context places it under 'Documentation' in awesome-ai-coding-tools
-    - Core value is visualization, not code editing, agent coordination, or developer workflow augmentation
+    - Generate polished diagrams from text prompts in seconds.
+    - The diagrams can be edited in Eraser, a docs and diagram tool built for engineering teams.
+    - Seen in awesome-ai-coding-tools under Documentation for generating diagrams from text prompts.
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Internal Tools & Dashboards
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:33:46.023Z"
+    updated_at: "2026-09-28T04:40:57.213Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:544e0fee3ce4cfbc0a9b5fa77e317ac43c4b99019e0b65506d87816e2bd2ac06
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:49c5c79bde56b9d2bb245646b435f55133cb3f653294b5e599d5db273c1b0e39
+      proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product is a diagram generator for technical documentation, not a developer tool for coding, agent orchestration, or workflow automation.
+      decision_reason: DiagramGPT generates deployable diagram artifacts from prompts, fitting the app-builder pattern of turning natural language into usable output, even if the output is a diagram rather than a full app.
       decision_evidence:
-        - Primary product is an AI diagram generator for technical diagrams (sequence, flowcharts, ERDs, etc.)
-        - Source-list context places it under 'Documentation' in awesome-ai-coding-tools
-        - Core value is visualization, not code editing, agent coordination, or developer workflow augmentation
-      category_candidates: []
-      contrastive_reason: null
+        - Generate polished diagrams from text prompts in seconds.
+        - The diagrams can be edited in Eraser, a docs and diagram tool built for engineering teams.
+        - Seen in awesome-ai-coding-tools under Documentation for generating diagrams from text prompts.
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because DiagramGPT creates new deployable diagram artifacts from prompts rather than editing or assisting within an existing codebase.
       review_reason: null
       review_resume_lifecycle: null
   discover:

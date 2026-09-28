@@ -22,6 +22,37 @@ provenance:
         extracted_url: https://github.com/mnemehq/mneme
         surrounding_text: "- **[Mneme](https://github.com/MnemeHQ/mneme)** `⭐ 18` — Turns architectural decisions and ADRs into deterministic guardrails for coding agents: records decisions in an auditable corpus, retrieves the relevant ones when an agent needs guidance, enforces governed rules at the earliest boundary each workflow exposes, and audits the mutation paths it cannot block. Python, MIT."
         confidence: high
+    - id: discovery__github__mnemehq__mneme__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-28T04:13:54.113Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: MnemeHQ/mneme
+        extracted_url: https://github.com/mnemehq/mneme
+        surrounding_text: "- [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) [![Mneme Decision MCP server](https://glama.ai/mcp/servers/MnemeHQ/mneme/badges/score.svg)](https://glama.ai/mcp/servers/MnemeHQ/mneme) 🐍 📇 🏠 🍎 🪟 🐧 - Architectural decision governance for coding agents: submit proposals and query canonical decisions and their lineage, while humans keep final authority."
+        confidence: high
+    - id: discovery__github__mnemehq__mneme__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-28T04:13:54.113Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: Mneme HQ
+        extracted_url: https://github.com/theov823/mneme
+        surrounding_text: "- **[Mneme HQ](https://github.com/TheoV823/mneme)** – Enforce architectural decisions on every AI coding assistant call. Deterministic retrieval and pre-flight governance for Claude Code, Cursor, and agent workflows."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -56,7 +87,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-27T06:08:24.607Z"
+    updated_at: "2026-09-28T04:13:54.114Z"
     cause: null
     next_retry_at: null
   stars:
@@ -65,7 +96,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-24T04:13:12.446Z"
+    updated_at: "2026-09-28T04:14:00.167Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

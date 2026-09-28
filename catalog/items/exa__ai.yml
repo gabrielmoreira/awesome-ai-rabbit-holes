@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__exa__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Exa
         extracted_url: https://exa.ai
-        surrounding_text: '- **[Exa](https://github.com/exa-labs/exa-mcp-server)** - Search Engine made for AIs by [Exa](https://exa.ai)'
+        surrounding_text: "- **[Exa](https://github.com/exa-labs/exa-mcp-server)** - Search Engine made for AIs by [Exa](https://exa.ai)"
         confidence: high
 metadata:
   github:
@@ -36,25 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web search API designed to provide real-time, structured data and token-efficient context to AI agents.
-  why_it_matters: >-
-    It enables agents to bypass training data cutoffs with high-accuracy retrieval and structured information that
-    reduces context window bloat.
-  mental_damage: >-
-    Your agent can now hallucinate about events that happened five minutes ago with unprecedented, high-fidelity
-    precision.
+  summary: Exa is a web search API that provides realtime, token-efficient search results for AI agents.
+  why_it_matters: It gives AI coding agents up-to-date web context with structured outputs and citations, reducing hallucinations and improving code generation accuracy.
+  mental_damage: Yet another API to wire into your agent stack, promising perfect search while you still spend hours debugging why it returned the wrong GitHub issue.
   tags:
     - search-api
-    - retrieval
-    - agentic-search
-    - context-engineering
-    - structured-data
+    - ai-context
+    - mcp
   confidence: high
 curation:
   status: included
-  reason: >-
-    Exa's primary identity is a specialized retrieval engine focused on providing high-quality, real-time context to AI
-    agents.
+  reason: Exa's primary identity is a specialized retrieval engine focused on providing high-quality, real-time context to AI agents.
   evidence:
     - Offers a Search API built specifically for agentic workflows
     - Uses 'highlights' to provide token-efficient context excerpts
@@ -62,14 +54,14 @@ curation:
 placement:
   primary_category: memory-and-context
   secondary_categories: []
-  section: Retrieval & Fresh Docs
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'mcp'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,31 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-08-31T13:31:10.009Z'
+    updated_at: "2026-09-28T04:55:19.632Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:bca2985948cc72ea5c92e796fcca0d960463427c840d6f51936c2822adf2a502
-      proposed_primary_category: context-engineering
-      disagreement: false
-      decision_reason: >-
-        Exa's primary identity is a specialized retrieval engine focused on providing high-quality, real-time context to
-        AI agents.
+      category_rules_version: c367d6101132
+      input_hash: sha256:b79bb4861f9c629609f2aecb7d72fd1f3438a0ae9f7b70dca936fea0d6bebb4b
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: Exa's primary identity is as an MCP server providing web search capabilities to AI agents, matching the MCP ecosystem's purpose of enabling agent-tool communication.
       decision_evidence:
-        - Offers a Search API built specifically for agentic workflows
-        - Uses 'highlights' to provide token-efficient context excerpts
-        - Provides structured data extraction from web content
+        - Listed in awesome-mcp-servers under 'Official Servers' with description 'The Exa Web search API retrieves the best, realtime data from the web for your AI'
+        - Scraped site shows Exa offers an MCP Server product alongside Search, Contents, Agent, and Monitors APIs
+        - Core product is a search API that enables agents to access web data, positioning it as tool infrastructure rather than a coding agent or app builder
       category_candidates:
-        - context-engineering
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose context-engineering over ai-frameworks because the product's core novelty is its specialized retrieval
-        and context-shaping infrastructure rather than being a general-purpose programming library.
-      review_reason: null
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because Exa's MCP server is its primary product identity, not an add-on that extends another coding agent's capabilities.
+      review_reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'mcp'"
       review_resume_lifecycle: null

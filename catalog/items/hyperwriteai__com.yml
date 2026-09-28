@@ -81,22 +81,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: HyperWrite is a browser-based AI writing assistant offering autocomplete, research, and document editing features.
-  why_it_matters: It accelerates content creation and research workflows for non-developers, but offers no direct code editing or developer tooling.
-  mental_damage: Another AI tool promising to make you a better writer while you stare at a blinking cursor in Gmail.
+  summary: HyperWrite is an AI-powered writing assistant with autocomplete, web search, citation, and custom tool creation features accessed via a Chrome extension and document editor.
+  why_it_matters: It helps developers write documentation, emails, and research content faster by integrating AI suggestions directly into browser-based workflows.
+  mental_damage: Another AI writing tool promising to eliminate writer’s block while adding yet another tab to your already-overloaded browser.
   tags:
-    - writing-assistant
+    - writing
     - browser-extension
-    - content-generation
-    - research-tools
+    - ai-assistant
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general-purpose AI writing assistant with no developer-tooling angle, code editing, or repo workflow integration.
+  reason: HyperWrite is a general-purpose AI writing assistant focused on content generation, emails, and research — not developer-specific tasks like coding, debugging, or codebase editing.
   evidence:
-    - Site description focuses on writing, research, and document editing
-    - Features include autocomplete, web search, and citations for text generation
-    - No mention of code editing, debugging, or developer workflows
+    - Scraped site context emphasizes 'AI writing assistant', 'content generation', 'research', 'speeches', and 'email responder' with no mention of code or development workflows.
+    - Appears in awesome-ai-agents and awesome-local-ai under generic agent sections, but its described functionality aligns with writing productivity, not software development tooling.
+    - Primary features include AutoWrite, TypeAhead, Email Response, HyperChat, and Scholar AI — all targeting broad writing and communication tasks, not developer-facing agent behavior.
 placement:
   primary_category: null
   section: null
@@ -106,24 +105,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:05.569Z"
+    updated_at: "2026-09-28T04:42:01.857Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:45d37f4acb44158cdbd27e0d1ebd505f8e419c0e3b520688d26e63db90b63b47
+      category_rules_version: c367d6101132
+      input_hash: sha256:e4ffe7fbf2886e25e39d1b9636012c420bd29664eae81ec5ee5cc847c8e104f6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a general-purpose AI writing assistant with no developer-tooling angle, code editing, or repo workflow integration.
+      decision_reason: HyperWrite is a general-purpose AI writing assistant focused on content generation, emails, and research — not developer-specific tasks like coding, debugging, or codebase editing.
       decision_evidence:
-        - Site description focuses on writing, research, and document editing
-        - Features include autocomplete, web search, and citations for text generation
-        - No mention of code editing, debugging, or developer workflows
+        - Scraped site context emphasizes 'AI writing assistant', 'content generation', 'research', 'speeches', and 'email responder' with no mention of code or development workflows.
+        - Appears in awesome-ai-agents and awesome-local-ai under generic agent sections, but its described functionality aligns with writing productivity, not software development tooling.
+        - Primary features include AutoWrite, TypeAhead, Email Response, HyperChat, and Scholar AI — all targeting broad writing and communication tasks, not developer-facing agent behavior.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

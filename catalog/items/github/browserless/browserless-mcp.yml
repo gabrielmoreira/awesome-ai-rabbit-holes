@@ -40,9 +40,9 @@ metadata:
       fetched_at: "2026-09-24T04:13:03.535Z"
       bytes: 29059
 insights:
-  summary: An MCP server that exposes Browserless.io's web scraping and automation APIs to LLM clients.
-  why_it_matters: Lets developers connect AI assistants to headless browser capabilities like scraping, crawling, and Lighthouse audits without managing infrastructure.
-  mental_damage: Finally, a way to make your AI agent feel useful while it waits for Cloudflare to stop blocking it.
+  summary: Official MCP server that exposes Browserless.io's smart scraper, search, and browser automation tools to LLM clients via the Model Context Protocol.
+  why_it_matters: Lets AI agents perform real-world web tasks like scraping, crawling, and Lighthouse audits without managing Puppeteer or headless browsers themselves.
+  mental_damage: Another MCP server promising to let your AI 'use the web' — as if the hard part wasn’t getting it to stop hallucinating trip itineraries from 2007.
   tags:
     - mcp
     - browser-automation
@@ -50,11 +50,11 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is exposing Browserless.io functionality via the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
+  reason: This is an MCP server whose core identity is exposing Browserless.io’s automation capabilities over MCP, making it a pure MCP infrastructure fit rather than a coding agent or extension.
   evidence:
     - "Repo description: 'Official MCP server for the Browserless.io'"
-    - "README title and first line: 'Browserless MCP Server' and 'MCP (Model Context Protocol) server for Browserless.io'"
-    - Lists tools like `browserless_smartscraper`, `browserless_crawl`, and `browserless_agent` that expose Browserless APIs through MCP
+    - "README: 'MCP (Model Context Protocol) server for Browserless.io — expose the Browserless smart scraper API to LLM clients'"
+    - Listed in awesome-mcp-servers under Browser Automation
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -74,30 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-28T04:58:34.955Z"
+    cause: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d1a7659f49f28fe534eaf2955806c8df609c529469a2be23a5f9c0838d85a785
+      category_rules_version: c367d6101132
+      input_hash: sha256:75eefbc17c31560d162f88816beee540d7d1d927a6808d20dbf17f958a83625f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose core identity is exposing Browserless.io functionality via the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
+      decision_reason: This is an MCP server whose core identity is exposing Browserless.io’s automation capabilities over MCP, making it a pure MCP infrastructure fit rather than a coding agent or extension.
       decision_evidence:
         - "Repo description: 'Official MCP server for the Browserless.io'"
-        - "README title and first line: 'Browserless MCP Server' and 'MCP (Model Context Protocol) server for Browserless.io'"
-        - Lists tools like `browserless_smartscraper`, `browserless_crawl`, and `browserless_agent` that expose Browserless APIs through MCP
+        - "README: 'MCP (Model Context Protocol) server for Browserless.io — expose the Browserless smart scraper API to LLM clients'"
+        - Listed in awesome-mcp-servers under Browser Automation
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server as its primary identity, not an extension that augments another assistant with browser capabilities.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product’s primary identity is being an MCP server, not a plugin that augments a coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null

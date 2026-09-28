@@ -51,51 +51,52 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: FLAML is a Python library for fast and lightweight automated machine learning (AutoML) that optimizes model selection and hyperparameter tuning with low computational cost.
-  why_it_matters: It automates the trial-and-error process of selecting learners and hyperparameters, reducing the computational overhead for developers working with ad-hoc training datasets.
-  mental_damage: Because nothing says 'lightweight' like a library that still requires you to understand AutoML to use it.
+  summary: FLAML is a fast and lightweight AutoML library from Microsoft Research that automates learner and hyperparameter selection with low computational cost.
+  why_it_matters: It lets developers build accurate ML models efficiently without manual tuning, saving time and compute resources.
+  mental_damage: Finally, an AI tool that doesn’t need a GPU farm just to tell you which model to use—now your laptop can join the AutoML party.
   tags:
     - automl
     - machine-learning
-    - hyperparameter-tuning
     - python-library
-  confidence: high
+  confidence: medium
 curation:
-  status: excluded
-  reason: FLAML is a research-driven AutoML library for traditional machine learning, not a developer-tooling product focused on AI-assisted software development workflows.
+  status: included
+  reason: FML is a code-first Python library developers import to automate ML model selection, fitting the Frameworks & SDKs category as a developer-facing SDK for AutoML workflows.
   evidence:
-    - Primary identity is a Python AutoML library for model selection and hyperparameter tuning
-    - Source-list context places it under AutoML in an LLMOps directory, not developer-tooling
-    - Core value proposition is low-cost ML model optimization, not code generation, review, or developer workflow augmentation
+    - Described as a 'Python library' that finds accurate models automatically with low computational cost
+    - Listed in Awesome-LLMOps under the AutoML section as a tool for developers
+    - Positioned as a lightweight, efficient solution requiring only several lines of code to use
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: LLM & Agent SDKs
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:28.423Z"
+    updated_at: "2026-09-28T04:43:03.633Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:357cd0611e3d1503156c57733688771f2c793c69e01b13bb778616d37c49e62b
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:b45526ad7075ba6ace8b685251f90be48b8282e97b313fe93e937618db53142f
+      proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: FLAML is a research-driven AutoML library for traditional machine learning, not a developer-tooling product focused on AI-assisted software development workflows.
+      decision_reason: FML is a code-first Python library developers import to automate ML model selection, fitting the Frameworks & SDKs category as a developer-facing SDK for AutoML workflows.
       decision_evidence:
-        - Primary identity is a Python AutoML library for model selection and hyperparameter tuning
-        - Source-list context places it under AutoML in an LLMOps directory, not developer-tooling
-        - Core value proposition is low-cost ML model optimization, not code generation, review, or developer workflow augmentation
-      category_candidates: []
-      contrastive_reason: null
+        - Described as a 'Python library' that finds accurate models automatically with low computational cost
+        - Listed in Awesome-LLMOps under the AutoML section as a tool for developers
+        - Positioned as a lightweight, efficient solution requiring only several lines of code to use
+      category_candidates:
+        - ai-frameworks
+        - app-builders
+      contrastive_reason: Choose ai-frameworks over app-builders because FLAML is a library developers import to automate ML model selection within code, not a prompt-to-app generator that creates deployable artifacts from scratch.
       review_reason: null
       review_resume_lifecycle: null
   discover:

@@ -36,20 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: YouTube is a video-sharing platform for uploading, watching, and sharing videos and music.
-  why_it_matters: It does not provide developer tooling, coding assistance, or AI-enhanced workflows relevant to software development.
-  mental_damage: Another reminder that 'AI tooling' lists sometimes mistake entertainment platforms for productivity gains.
+  summary: YouTube is a video-sharing platform for uploading, watching, and distributing videos and music.
+  why_it_matters: Developers use YouTube for tutorials, conference talks, and learning new tools, but it does not directly assist with coding tasks or software development workflows.
+  mental_damage: Another reminder that half your open-source education comes from algorithmically recommended 10-minute videos with suspiciously loud intros.
   tags:
     - video
     - platform
+    - media
   confidence: high
 curation:
   status: excluded
-  reason: YouTube is a general-purpose video platform with no developer-facing AI tooling, coding agents, or workflow enhancements for software developers.
+  reason: YouTube is a general-purpose media platform not focused on developer tooling, AI-assisted coding, or any workflow relevant to the catalog's scope.
   evidence:
     - "Repo description: (none)"
-    - "Scraped site title: YouTube"
-    - "Scraped site description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+    - "Scraped site context: Title: YouTube, Description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
 placement:
   primary_category: null
   section: null
@@ -68,25 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:27:58.994Z"
+    updated_at: "2026-09-28T04:55:01.744Z"
     cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:460175a3ad40125b1b91caacb2016aa697088a998f630be62483e9b3f7e7398a
+      category_rules_version: c367d6101132
+      input_hash: sha256:0a90b8cad513e9dfcd1fab96d8cdbb23d450cc034e4b7ff168bd4d8acc17072f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: YouTube is a general-purpose video platform with no developer-facing AI tooling, coding agents, or workflow enhancements for software developers.
+      decision_reason: YouTube is a general-purpose media platform not focused on developer tooling, AI-assisted coding, or any workflow relevant to the catalog's scope.
       decision_evidence:
         - "Repo description: (none)"
-        - "Scraped site title: YouTube"
-        - "Scraped site description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+        - "Scraped site context: Title: YouTube, Description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132

@@ -51,22 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A guest post on Latent.Space detailing practical strategies for using OpenAI's o1 model effectively, framed as a 'report generator' rather than a chat model.
-  why_it_matters: It provides actionable insights for developers on how to adapt their workflows to leverage o1's reasoning capabilities for tasks like code generation, architectural planning, and evals.
-  mental_damage: Turns out the secret to making o1 work is treating it like a new hire who needs 10x the context and a very specific brief.
+  summary: A Substack article explaining how to use OpenAI's o1 model effectively by treating it as a report generator rather than a chat model.
+  why_it_matters: It provides practical guidance for developers on prompting strategies to leverage o1's strength in generating structured outputs like code and technical reports.
+  mental_damage: Yet another reminder that we must unlearn everything we know about talking to AI just to get it to stop contradicting itself.
   tags:
-    - o1
     - prompt-engineering
-    - workflow-tips
-    - developer-guides
+    - llm-usage
+    - o1
   confidence: high
 curation:
   status: excluded
-  reason: This is a media article (guest post) rather than a standalone developer tool, framework, or product.
+  reason: The input is a standalone blog post or article, not a tool, product, or developer-facing infrastructure; it lacks executable or installable artifacts for developers to use in their workflow.
   evidence:
-    - The URL and scraped context confirm it is a Substack article, not a repo or tool
-    - The content is a narrative guide on using o1, not a product or library
-    - Source-list context places it under 'Tips' in a general LLM resources list, not a developer-tooling category
+    - Source is a Substack article titled 'o1 isn’t a chat model (and that’s the point)' with no repo, CLI, SDK, or runtime.
+    - Describes personal experience and tips for using o1, but does not offer a tool, framework, or integration.
+    - Appears in an awesome list as a resource/link under '技巧 Tips', indicating it is curated content, not a developer tool.
 placement:
   primary_category: null
   section: null
@@ -76,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:20.834Z"
+    updated_at: "2026-09-28T04:42:23.050Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:de3e460d6a1cc091a40177ac7c901e9a5f2b9a684a9cbfcbc9e42b1ffe6e3f4d
+      category_rules_version: c367d6101132
+      input_hash: sha256:bb77cfee91a69216c3ea2962463a8be8cc7ee8df456ba1a3f89d1124be48bfdc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a media article (guest post) rather than a standalone developer tool, framework, or product.
+      decision_reason: The input is a standalone blog post or article, not a tool, product, or developer-facing infrastructure; it lacks executable or installable artifacts for developers to use in their workflow.
       decision_evidence:
-        - The URL and scraped context confirm it is a Substack article, not a repo or tool
-        - The content is a narrative guide on using o1, not a product or library
-        - Source-list context places it under 'Tips' in a general LLM resources list, not a developer-tooling category
+        - Source is a Substack article titled 'o1 isn’t a chat model (and that’s the point)' with no repo, CLI, SDK, or runtime.
+        - Describes personal experience and tips for using o1, but does not offer a tool, framework, or integration.
+        - Appears in an awesome list as a resource/link under '技巧 Tips', indicating it is curated content, not a developer tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

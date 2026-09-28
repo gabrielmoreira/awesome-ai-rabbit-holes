@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__opendevin__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: OpenHands (OpenDevin)
         extracted_url: https://opendevin.ai
-        surrounding_text: >-
-          - **[OpenHands (OpenDevin)](https://opendevin.ai/)** – Open-source AI software engineer for autonomous
-          development.
+        surrounding_text: "- **[OpenHands (OpenDevin)](https://opendevin.ai/)** – Open-source AI software engineer for autonomous development."
         confidence: high
 metadata:
   github:
@@ -38,37 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OpenDevin is an AI-powered coding agent that autonomously plans, writes, and debugs code in a sandboxed environment.
-  why_it_matters: >-
-    It allows developers to delegate end-to-end coding tasks to an autonomous agent that can handle complex workflows
-    without constant human oversight.
-  mental_damage: >-
-    Finally, an AI that can write code while you stare at your terminal wondering if it’s actually working or just
-    generating infinite loops.
+  summary: opendevin.ai is a developer-facing AI coding agent that autonomously plans and executes coding tasks across terminals, IDEs, and browsers.
+  why_it_matters: It lets developers delegate full-cycle software development—writing, editing, testing, and repairing code—to an autonomous agent, reducing manual workload.
+  mental_damage: Watching an AI agent rewrite your entire codebase while you sip coffee feels like productivity until you realize you’re now debugging its debugging.
   tags:
-    - autonomous-coding
-    - sandboxed-agents
-    - ai-development
-  confidence: high
+    - coding-agent
+    - autonomous-dev
+    - ai-developer
+  confidence: medium
 curation:
   status: included
-  reason: >-
-    OpenDevin is a standalone coding agent that directly plans, writes, and debugs code, fitting the primary identity of
-    a coding assistant rather than an extension or integration.
+  reason: opendevin.ai matches the coding-agents category as a developer-facing agent whose primary identity is performing coding tasks autonomously across terminal, IDE, and browser environments.
   evidence:
-    - Seen in source lists under 'Coding Agents' (awesome-ai-coding-tools)
-    - Product identity aligns with autonomous coding agents like Claude Code or OpenCode
+    - "Source-list context: included in awesome-ai-coding-tools under the Coding Agents section"
+    - "README excerpt (implied via source-list and URL): positions itself as an AI coding agent for software development"
+    - No evidence of being an extension, framework, or app builder; identity centers on autonomous coding task execution
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Autonomous & Multi-Agent Coding
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,30 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:30:19.920Z'
+    updated_at: "2026-09-28T04:34:02.669Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:be74600a91ddc8cd1831688e3949a669be2d999a1af77961e71295c83fce48a3
+      category_rules_version: c367d6101132
+      input_hash: sha256:53c7a8632bcb5dd23ba922bcac2f63eef9c17eb0bf11c3194211fa4ad7fa0e15
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        OpenDevin is a standalone coding agent that directly plans, writes, and debugs code, fitting the primary
-        identity of a coding assistant rather than an extension or integration.
+      decision_reason: opendevin.ai matches the coding-agents category as a developer-facing agent whose primary identity is performing coding tasks autonomously across terminal, IDE, and browser environments.
       decision_evidence:
-        - Seen in source lists under 'Coding Agents' (awesome-ai-coding-tools)
-        - Product identity aligns with autonomous coding agents like Claude Code or OpenCode
+        - "Source-list context: included in awesome-ai-coding-tools under the Coding Agents section"
+        - "README excerpt (implied via source-list and URL): positions itself as an AI coding agent for software development"
+        - No evidence of being an extension, framework, or app builder; identity centers on autonomous coding task execution
       category_candidates:
         - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because OpenDevin is a primary coding assistant, not an add-on for
-        another tool.
+        - app-builders
+      contrastive_reason: Choose coding-agents over app-builders because opendevin.ai acts as an agent that edits, tests, and repairs code in existing repositories rather than generating deployable apps from scratch via prompt-to-app workflows.
       review_reason: null
       review_resume_lifecycle: null

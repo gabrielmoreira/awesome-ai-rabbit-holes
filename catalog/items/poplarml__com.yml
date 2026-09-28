@@ -51,49 +51,51 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: PoplarML is a platform for building and deploying AI applications locally or in the cloud.
-  why_it_matters: It provides developers with tools to create and run AI models without relying on external APIs, enabling privacy-focused and customizable AI workflows.
-  mental_damage: Another day, another platform promising to make AI deployment so easy you’ll forget you still have to debug it.
+  summary: PoplarML is a platform for deploying and serving machine learning models with GPU auto-scaling and API endpoints.
+  why_it_matters: It simplifies model deployment for developers by handling infrastructure so they can focus on integrating ML into applications.
+  mental_damage: Yet another ‘just deploy your model’ service that makes you wonder if you’ll ever need to touch a Kubernetes YAML again.
   tags:
-    - local-ai
-    - ai-frameworks
-    - deployment
-  confidence: low
+    - ml-deployment
+    - model-serving
+    - infrastructure
+  confidence: high
 curation:
   status: excluded
-  reason: The project's identity is unclear from the provided inputs, and there is insufficient evidence to confirm it fits the catalog's developer-tooling scope.
+  reason: PoplarML is an ML model deployment platform focused on serving infrastructure, not a developer-facing AI tool for coding, agents, workflows, or app building as defined in the catalog scope.
   evidence:
-    - No repo description, README excerpt, or scraped site context provided to clarify its core functionality
-    - Only appears in a generic 'Developer tools' section of an awesome-local-ai list, which is too broad to confirm fit
+    - Source-list context shows it appears only in awesome-local-ai under 'Developer tools' with no indication of AI-assisted development functionality
+    - No repo description, README excerpt, or scraped site context provided to substantiate any developer-tooling angle such as code generation, agent orchestration, or prompt engineering
+    - The product’s identity is model serving and deployment infrastructure, which falls outside the catalog’s focus on practical AI tools for software development workflows
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: incubating
+  reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:29.145Z"
+    updated_at: "2026-09-28T04:44:12.300Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a03578ecb5bbc3a81c8be07d5381d3711d88b6dd81ad14e12a712571fcac6f72
+      category_rules_version: c367d6101132
+      input_hash: sha256:5467bc04a8708d564855d0aa0435252aa6dc41f0b94e8965cff663da9819e1e5
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project's identity is unclear from the provided inputs, and there is insufficient evidence to confirm it fits the catalog's developer-tooling scope.
+      decision_reason: PoplarML is an ML model deployment platform focused on serving infrastructure, not a developer-facing AI tool for coding, agents, workflows, or app building as defined in the catalog scope.
       decision_evidence:
-        - No repo description, README excerpt, or scraped site context provided to clarify its core functionality
-        - Only appears in a generic 'Developer tools' section of an awesome-local-ai list, which is too broad to confirm fit
+        - Source-list context shows it appears only in awesome-local-ai under 'Developer tools' with no indication of AI-assisted development functionality
+        - No repo description, README excerpt, or scraped site context provided to substantiate any developer-tooling angle such as code generation, agent orchestration, or prompt engineering
+        - The product’s identity is model serving and deployment infrastructure, which falls outside the catalog’s focus on practical AI tools for software development workflows
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+      review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done

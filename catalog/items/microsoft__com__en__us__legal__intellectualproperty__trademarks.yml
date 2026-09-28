@@ -51,22 +51,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Microsoft's official trademark and brand usage guidelines for referring to Microsoft products, services, and assets.
-  why_it_matters: Ensures developers and partners correctly reference Microsoft's trademarks without legal risk or brand dilution.
-  mental_damage: The one document you'll need to read before naming your next project 'AzureHelper 3000'.
+  summary: Microsoft's official Trademark and Brand Guidelines for using Microsoft trademarks, logos, and brand assets of Microsoft software, products, and services.
+  why_it_matters: Helps developers and partners legally and correctly reference Microsoft technologies in marketing, documentation, and apps without infringement.
+  mental_damage: Another layer of legal overhead to navigate just to say 'our app works with Azure' without summoning a cease-and-desist.
   tags:
-    - legal
-    - branding
     - trademarks
-    - microsoft
+    - legal
+    - guidelines
   confidence: high
 curation:
   status: excluded
-  reason: This is a legal resource page, not a developer tool, framework, or workflow product.
+  reason: This is a legal/documentation resource about trademark usage, not an AI developer tool, agent, framework, or workflow enhancement relevant to coding or AI-assisted development.
   evidence:
-    - Page is Microsoft's legal trademark guidelines, not a tool or product
-    - Source-list context places it under '™️ Trademarks' in awesome-copilot, confirming its non-tooling nature
-    - No code, SDK, runtime, or developer workflow functionality is described
+    - Source-list context shows it appears in awesome-copilot under a '™️ Trademarks' section as a reference for proper Microsoft trademark use.
+    - Scraped site context confirms it is Microsoft's legal Trademark and Brand Guidelines page detailing approved and prohibited uses of Microsoft logos, names, and brand assets.
 placement:
   primary_category: null
   section: null
@@ -76,24 +74,23 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:28.169Z"
+    updated_at: "2026-09-28T04:42:49.264Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3c619a880b98dcbd0b1683c09aa1bd092d36a77d0a837aa2ef3c0da3c3fa0661
+      category_rules_version: c367d6101132
+      input_hash: sha256:30bf2246ae7b51de0a5ee815f75a8ec1177962e5ac85bcc10e16cc602583bb50
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a legal resource page, not a developer tool, framework, or workflow product.
+      decision_reason: This is a legal/documentation resource about trademark usage, not an AI developer tool, agent, framework, or workflow enhancement relevant to coding or AI-assisted development.
       decision_evidence:
-        - Page is Microsoft's legal trademark guidelines, not a tool or product
-        - Source-list context places it under '™️ Trademarks' in awesome-copilot, confirming its non-tooling nature
-        - No code, SDK, runtime, or developer workflow functionality is described
+        - Source-list context shows it appears in awesome-copilot under a '™️ Trademarks' section as a reference for proper Microsoft trademark use.
+        - Scraped site context confirms it is Microsoft's legal Trademark and Brand Guidelines page detailing approved and prohibited uses of Microsoft logos, names, and brand assets.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -51,21 +51,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: B2 AI is a platform for autonomous AI agents.
-  why_it_matters: It offers developers a way to deploy or coordinate AI agents for workflow automation.
-  mental_damage: Another day, another agent platform promising to automate all the things you still have to babysit.
+  summary: B2 AI is an autonomous AI agent listed in the awesome-ai-agents directory under the purpose 'A list of AI autonomous agents'.
+  why_it_matters: It represents an attempt to surface AI agents for developers, though its actual capabilities and scope are undefined in the provided inputs.
+  mental_damage: Another mysterious AI agent name dropped into an awesome list with zero description, forcing developers to guess whether it writes code or just dreams in prompts.
   tags:
-    - ai-agents
-    - automation
-    - workflow
-  confidence: medium
+    - ai-agent
+    - uncategorized
+  confidence: high
 curation:
   status: excluded
-  reason: The project is listed as an AI autonomous agent platform, but lacks concrete developer-tooling specifics (no repo, no README, no clear coding/IDE/CLI integration) to justify inclusion in this catalog.
+  reason: The project lacks any concrete description of what it does, who it is for, or how it assists developers—no repo description, README, or usable homepage is provided, making it impossible to verify a developer-tooling fit.
   evidence:
-    - Source-list context identifies it as an AI autonomous agent in 'awesome-ai-agents'
-    - No repo description, README, or technical details provided
-    - No clear developer-tooling angle (e.g., coding, IDE, CLI, or framework) in available signals
+    - "Repo description: (none)"
+    - "README excerpt: (not provided)"
+    - "Seen in source lists / directories: awesome-ai-agents | purpose: A list of AI autonomous agents | section: B2 AI"
 placement:
   primary_category: null
   section: null
@@ -75,24 +74,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:38.111Z"
+    updated_at: "2026-09-28T04:39:04.132Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b6e848cd3288d877ad29749f7ad7430d90f7e49fdf07916e1ec7e2e9dc0984fd
+      category_rules_version: c367d6101132
+      input_hash: sha256:ffd8100805888d14cec9a8252c8ead996fcd5a62b0eab35f58eac3841c84cf10
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is listed as an AI autonomous agent platform, but lacks concrete developer-tooling specifics (no repo, no README, no clear coding/IDE/CLI integration) to justify inclusion in this catalog.
+      decision_reason: The project lacks any concrete description of what it does, who it is for, or how it assists developers—no repo description, README, or usable homepage is provided, making it impossible to verify a developer-tooling fit.
       decision_evidence:
-        - Source-list context identifies it as an AI autonomous agent in 'awesome-ai-agents'
-        - No repo description, README, or technical details provided
-        - No clear developer-tooling angle (e.g., coding, IDE, CLI, or framework) in available signals
+        - "Repo description: (none)"
+        - "README excerpt: (not provided)"
+        - "Seen in source lists / directories: awesome-ai-agents | purpose: A list of AI autonomous agents | section: B2 AI"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

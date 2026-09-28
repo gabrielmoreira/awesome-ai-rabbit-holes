@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__langchain__com__blog__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -18,10 +18,10 @@ provenance:
           - LangChain Framework
         anchor_text: Langchain Blog
         extracted_url: https://blog.langchain.dev
-        surrounding_text: '- [Langchain Blog](https://blog.langchain.dev/): The Official Langchain blog'
+        surrounding_text: "- [Langchain Blog](https://blog.langchain.dev/): The Official Langchain blog"
         confidence: high
     - id: discovery__www__langchain__com__blog__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -33,7 +33,7 @@ provenance:
           - LangChain Framework
         anchor_text: Langchain Blog
         extracted_url: https://blog.langchain.dev
-        surrounding_text: '- [Langchain Blog](https://blog.langchain.dev/): The Official Langchain blog'
+        surrounding_text: "- [Langchain Blog](https://blog.langchain.dev/): The Official Langchain blog"
         confidence: high
 metadata:
   github:
@@ -51,25 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    The official blog of LangChain, featuring tutorials, case studies, and technical insights on building AI agents with
-    LangSmith, Deep Agents, LangGraph, and LangChain.
-  why_it_matters: >-
-    Provides developers with practical guidance, updates, and deep dives into agent engineering workflows and tools
-    within the LangChain ecosystem.
-  mental_damage: Another blog to bookmark in the ever-growing graveyard of tabs you’ll never actually read.
+  summary: LangChain Blog is the official blog of LangChain, publishing tutorials, case studies, and technical insights on building AI agents with LangChain and related technologies.
+  why_it_matters: It provides developers with practical guidance and real-world examples for using LangChain to build and deploy agent systems.
+  mental_damage: Reading yet another 'how we built our paid media agent' post while your own LangChain agent still can't remember yesterday's conversation.
   tags:
     - blog
     - langchain
-    - agent-engineering
-    - tutorials
-    - case-studies
+    - ai-agents
   confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: The LangChain Blog is a publication, not a developer tool, and its primary value is content curation rather than providing a usable AI development product.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - Source-list context shows it appears in awesome-langchain as a linked page under 'LangChain Framework' section, described as 'Explore tutorials, case studies, and technical insights'
+    - Scraped site context confirms it is a blog with posts like 'Harrison's In the Loop', 'LangSmith Engine v2', and 'Building Prod with Jev and LangGraph'
+    - It lacks any standalone product identity—it is a supporting resource page for the LangChain framework, not a tool developers install or use directly
 placement:
   primary_category: null
   secondary_categories: []
@@ -80,35 +76,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:35:09.779Z'
+    updated_at: "2026-09-28T04:42:16.552Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a0a86e2c771d7992bc49dc87c334799c2bd29b05c3983b9418f4cf501b28ef2c
-      proposed_primary_category: newsletters-and-feeds
+      category_rules_version: c367d6101132
+      input_hash: sha256:67f9126265f95da998f84d322f06f63109100404b570c700523c23a9df4d8702
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: The primary value is recurring commentary, updates, and educational publishing rather than direct tooling.
+      decision_reason: The LangChain Blog is a publication, not a developer tool, and its primary value is content curation rather than providing a usable AI development product.
       decision_evidence:
-        - Scraped site context describes it as a blog with tutorials, case studies, and technical insights
-        - Source-list context places it under a LangChain-focused awesome list as a resource
-        - The page excerpt highlights featured stories, guides, and educational content
-      category_candidates:
-        - newsletters-and-feeds
-        - awesome-awesomes
-      contrastive_reason: >-
-        Choose newsletters-and-feeds over awesome-awesomes because the product is a media surface (blog) rather than a
-        curated list or directory.
+        - Source-list context shows it appears in awesome-langchain as a linked page under 'LangChain Framework' section, described as 'Explore tutorials, case studies, and technical insights'
+        - Scraped site context confirms it is a blog with posts like 'Harrison's In the Loop', 'LangSmith Engine v2', and 'Building Prod with Jev and LangGraph'
+        - It lacks any standalone product identity—it is a supporting resource page for the LangChain framework, not a tool developers install or use directly
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.967Z'
+    updated_at: "2026-07-21T15:20:21.967Z"
     cause: null
     next_retry_at: null
   stars:

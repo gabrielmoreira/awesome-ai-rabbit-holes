@@ -53,22 +53,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Error monitoring and performance observability platform for mobile and web applications.
-  why_it_matters: It helps developers identify and resolve application crashes and performance bottlenecks in real time.
-  mental_damage: Because why manually trace a stack trace when you can let an LLM confidently hallucinate the fix instead?
+  summary: BugSnag is an application performance and error monitoring platform for mobile and web apps that provides error tracking, performance monitoring, and distributed tracing.
+  why_it_matters: It helps development teams identify, prioritize, and fix production bugs and performance issues faster by surfacing real-time error data and user impact metrics.
+  mental_damage: Another monitoring tool promising to reduce alert fatigue while adding yet another dashboard to your DevOps sprawl.
   tags:
-    - error-monitoring
-    - observability
+    - monitoring
+    - error-tracking
     - performance
-    - mcp
   confidence: high
 curation:
   status: excluded
-  reason: Bugsnag is a broad, standalone SaaS observability platform; its MCP server is a feature used to augment other tools rather than being its primary product identity.
+  reason: BugSnag is an application monitoring and observability platform focused on error tracking and performance metrics, not an AI tool or developer-facing AI infrastructure that assists with coding, agents, or model interactions.
   evidence:
-    - Scraped site context identifies the core product as 'Error Monitoring' and 'Performance Monitoring'.
-    - The MCP server is described as an integration to bring error data into an IDE, which is secondary to the primary platform identity.
-    - The product identity as a broad SaaS platform is an explicit exclusion signal for the Extensions & Integrations category.
+    - The product description emphasizes error monitoring, performance monitoring, and distributed tracing for mobile and web applications.
+    - It positions itself as a stability and observability platform for development teams to monitor app health and user impact.
+    - No AI capabilities, agent functionality, or developer tooling for coding, prompts, or model interactions are described in the provided context.
 placement:
   primary_category: null
   section: null
@@ -78,28 +77,28 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-08-27T06:10:30.616Z"
+    updated_at: "2026-09-28T04:52:17.987Z"
     cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4527dde49086f269a4a5bd3796dd622c773323709df83d181815fdfbddad196f
+      category_rules_version: c367d6101132
+      input_hash: sha256:983ea3b39b5e292e5b0ee2f7af31101340ea766f4185155cc9db5afefc64b4c4
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Bugsnag is a broad, standalone SaaS observability platform; its MCP server is a feature used to augment other tools rather than being its primary product identity.
+      decision_reason: BugSnag is an application monitoring and observability platform focused on error tracking and performance metrics, not an AI tool or developer-facing AI infrastructure that assists with coding, agents, or model interactions.
       decision_evidence:
-        - Scraped site context identifies the core product as 'Error Monitoring' and 'Performance Monitoring'.
-        - The MCP server is described as an integration to bring error data into an IDE, which is secondary to the primary platform identity.
-        - The product identity as a broad SaaS platform is an explicit exclusion signal for the Extensions & Integrations category.
+        - The product description emphasizes error monitoring, performance monitoring, and distributed tracing for mobile and web applications.
+        - It positions itself as a stability and observability platform for development teams to monitor app health and user impact.
+        - No AI capabilities, agent functionality, or developer tooling for coding, prompts, or model interactions are described in the provided context.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
   discover:
     status: done
     updated_at: "2026-06-01T05:40:05.294Z"

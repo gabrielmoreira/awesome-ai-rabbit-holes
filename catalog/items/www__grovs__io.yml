@@ -37,23 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: First-party attribution, deep linking, and revenue analytics platform for mobile apps with open-source SDK and EU hosting.
-  why_it_matters: Developers gain transparent, privacy-compliant attribution and revenue tracking without third-party data sharing or probabilistic fingerprinting.
-  mental_damage: Finally, an attribution platform that doesn’t treat your data like a timeshare.
+  summary: Grovs is an open-source, EU-hosted first-party attribution and deep linking platform for apps.
+  why_it_matters: It gives developers privacy-compliant, deterministic attribution without third-party data sharing or black-box tracking.
+  mental_damage: Finally, an attribution tool that doesn’t make you feel like you’re selling your users’ souls to ad networks.
   tags:
     - attribution
-    - mobile-analytics
-    - open-source
+    - deep-linking
     - privacy
+    - open-source
     - eu-hosted
   confidence: high
 curation:
   status: excluded
-  reason: This is a mobile app growth/attribution SaaS platform, not a developer-tooling product for AI workflows, coding, or agentic systems.
+  reason: Grovs is a marketing and analytics infrastructure tool focused on attribution, deep linking, and revenue tracking—not a developer-facing AI coding agent, app builder, framework, or related AI tooling product.
   evidence:
-    - Core product is attribution, deep linking, and revenue analytics for apps
-    - Marketed to marketing teams and app growth, not developers building AI tools
-    - No AI, coding, or agentic workflows mentioned in the product description or features
+    - The platform provides first-party attribution, deep linking, and revenue analytics for apps, with no mention of AI-assisted coding, app generation, or developer workflow enhancement.
+    - Its core value proposition centers on marketing, compliance, and cost savings for growth teams—not on assisting software developers with coding, agents, or AI tooling.
+    - While open source and offering an SDK, the product’s identity is as a growth/attribution engine, not an AI-powered developer tool.
 placement:
   primary_category: null
   section: null
@@ -72,24 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:27.357Z"
+    updated_at: "2026-09-28T04:50:40.328Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:94a7135e248feae007dd7c2ecdadb45b8d89f94243bf5de0f9614dba1a45903c
+      category_rules_version: c367d6101132
+      input_hash: sha256:c5e3458c53e1ad552bc336406fc57c737e2774727a0624f995d66b273e12cea0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a mobile app growth/attribution SaaS platform, not a developer-tooling product for AI workflows, coding, or agentic systems.
+      decision_reason: Grovs is a marketing and analytics infrastructure tool focused on attribution, deep linking, and revenue tracking—not a developer-facing AI coding agent, app builder, framework, or related AI tooling product.
       decision_evidence:
-        - Core product is attribution, deep linking, and revenue analytics for apps
-        - Marketed to marketing teams and app growth, not developers building AI tools
-        - No AI, coding, or agentic workflows mentioned in the product description or features
+        - The platform provides first-party attribution, deep linking, and revenue analytics for apps, with no mention of AI-assisted coding, app generation, or developer workflow enhancement.
+        - Its core value proposition centers on marketing, compliance, and cost savings for growth teams—not on assisting software developers with coding, agents, or AI tooling.
+        - While open source and offering an SDK, the product’s identity is as a growth/attribution engine, not an AI-powered developer tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

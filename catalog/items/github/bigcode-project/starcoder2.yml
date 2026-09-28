@@ -39,23 +39,22 @@ metadata:
       fetched_at: "2026-09-24T04:12:59.021Z"
       bytes: 7444
 insights:
-  summary: StarCoder2 is a family of open-source code generation models (3B, 7B, 15B) trained on 600+ programming languages and natural language text.
-  why_it_matters: It provides developers with high-context, long-window models specifically optimized for code completion across a vast range of languages.
-  mental_damage: Finally, a model that remembers your entire monorepo’s worth of context—just don’t ask it to write the PR description.
+  summary: StarCoder2 is a family of open-weight code generation models trained on 600+ programming languages for code completion tasks.
+  why_it_matters: Provides developers with permissively licensed, high-performance code LLMs that can be fine-tuned and deployed locally or via inference endpoints.
+  mental_damage: Another reminder that the real bottleneck in AI-assisted coding isn’t the model—it’s resisting the urge to fine-tune yet another 15B parameter checkpoint on your lunch break.
   tags:
-    - code-generation
+    - code-models
+    - llm
     - open-source
-    - long-context
-    - transformers
     - huggingface
   confidence: high
 curation:
   status: excluded
-  reason: StarCoder2 is a raw model family, not a developer tool, framework, or workflow product—it lacks a runtime, serving layer, or app identity required for inclusion.
+  reason: StarCoder2 is a raw model weight repository without a meaningful SDK, agent interface, or developer-facing tool identity—it is a foundation model, not a tool for developers to use directly in workflows.
   evidence:
-    - Repo description and README explicitly position it as a model family for code generation
-    - Primary artifact is model checkpoints (e.g., bigcode/starcoder2-15b) with usage via HuggingFace Transformers
-    - No evidence of a standalone tool, CLI, IDE, or workflow product beyond model inference
+    - "Repo description: 'Home of StarCoder2!'"
+    - README focuses on model usage, fine-tuning, and inference via Transformers—no agent behavior, IDE integration, or autonomous coding claims
+    - Not listed in any source list under a developer-facing tool section; appears only in 'awesome-ai-coding-tools' under 'Code Models', confirming its identity as a model, not a tool
 placement:
   primary_category: null
   section: null
@@ -74,27 +73,25 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:56:10.364Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d1c3e7fdd663a454f4b353ac6f51d1cce503ec67bcb8a28dd2631c74a00cc5a1
+      category_rules_version: c367d6101132
+      input_hash: sha256:2e481787d99280ba8dca657bc3a56361e45e2a2383f4f949cb9b995322895205
       proposed_primary_category: null
       disagreement: false
-      decision_reason: StarCoder2 is a raw model family, not a developer tool, framework, or workflow product—it lacks a runtime, serving layer, or app identity required for inclusion.
+      decision_reason: StarCoder2 is a raw model weight repository without a meaningful SDK, agent interface, or developer-facing tool identity—it is a foundation model, not a tool for developers to use directly in workflows.
       decision_evidence:
-        - Repo description and README explicitly position it as a model family for code generation
-        - Primary artifact is model checkpoints (e.g., bigcode/starcoder2-15b) with usage via HuggingFace Transformers
-        - No evidence of a standalone tool, CLI, IDE, or workflow product beyond model inference
+        - "Repo description: 'Home of StarCoder2!'"
+        - README focuses on model usage, fine-tuning, and inference via Transformers—no agent behavior, IDE integration, or autonomous coding claims
+        - Not listed in any source list under a developer-facing tool section; appears only in 'awesome-ai-coding-tools' under 'Code Models', confirming its identity as a model, not a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

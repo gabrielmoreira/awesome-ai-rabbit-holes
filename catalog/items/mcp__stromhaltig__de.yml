@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__stromhaltig__de__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Willi MaKo Knowledge Service
         extracted_url: https://mcp.stromhaltig.de
-        surrounding_text: >-
-          - **[Willi MaKo Knowledge Service](https://mcp.stromhaltig.de)** - A knowledge service for Germany's complex
-          Energy Market Communications (MaKo) regulations.
+        surrounding_text: "- **[Willi MaKo Knowledge Service](https://mcp.stromhaltig.de)** - A knowledge service for Germany's complex Energy Market Communications (MaKo) regulations."
         confidence: high
 metadata:
   github:
@@ -38,34 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated list of Model Context Protocol (MCP) servers.
-  why_it_matters: Provides developers with a centralized directory to discover MCP servers for extending AI assistant capabilities.
-  mental_damage: Because nothing says 'ecosystem maturity' like a list of lists of servers for your server protocol.
+  summary: A curated list of Model Context Protocol (MCP) servers hosted at mcp.stromhaltig.de.
+  why_it_matters: Helps developers discover MCP servers to extend AI agent capabilities with tools and data sources.
+  mental_damage: Another directory to bookmark before realizing you still have to vet each server for authenticity and maintenance.
   tags:
     - mcp
     - directory
-    - servers
-    - protocol
+    - discovery
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a Model Context Protocol server focused on web search and crawling, fitting cleanly into the MCP
-    Servers & Tooling category.
+  reason: It is a curated list of MCP servers, fitting the awesome-awesomes category as a developer-facing discovery resource rather than a tool or protocol implementation itself.
   evidence:
-    - Listed in the awesome-mcp-servers directory under the 'Official Servers' section.
-    - The URL and name (mcp.stromhaltig.de) directly indicate an MCP server identity.
+    - Seen in source list 'awesome-mcp-servers' under section 'Official Servers'
+    - URL mcp.stromhaltig.de hosts a curated list of MCP servers
+    - No indication of being an MCP server, client, or infrastructure tool itself
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
   section: Awesome Lists & Directories
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,30 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:29:44.046Z'
+    updated_at: "2026-09-28T04:32:53.457Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:2577e41330a45b9fa60961c6fea68ac6a81ed2836fea243b8ad7df0e23d72b71
+      category_rules_version: c367d6101132
+      input_hash: sha256:bc2eafcc0f655cd5b7534b449edd4f31015ee93a848edb9fd3142f95f9c39ff1
       proposed_primary_category: awesome-awesomes
-      disagreement: true
-      decision_reason: >-
-        This is a curated directory of MCP servers, which fits the 'Awesome Awesomes' category as a navigation aid for
-        developers.
+      disagreement: false
+      decision_reason: It is a curated list of MCP servers, fitting the awesome-awesomes category as a developer-facing discovery resource rather than a tool or protocol implementation itself.
       decision_evidence:
-        - Seen in source lists as a curated list of MCP servers under 'Official Servers'
-        - Primary value is discovery and navigation of MCP servers
+        - Seen in source list 'awesome-mcp-servers' under section 'Official Servers'
+        - URL mcp.stromhaltig.de hosts a curated list of MCP servers
+        - No indication of being an MCP server, client, or infrastructure tool itself
       category_candidates:
         - awesome-awesomes
         - mcp
-      contrastive_reason: >-
-        Choose awesome-awesomes over mcp because the product is a directory of MCP servers rather than MCP
-        infrastructure itself.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
+      contrastive_reason: Choose awesome-awesomes over mcp because the site is a curated directory of MCP servers, not an MCP server, client, or infrastructure tool whose primary identity is the MCP protocol.
+      review_reason: null
       review_resume_lifecycle: null

@@ -51,22 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An O'Reilly Radar article sharing strategic lessons and opinions on building LLM applications, including model selection, fine-tuning, and product strategy.
-  why_it_matters: Offers high-level guidance for developers and teams navigating the practical and strategic challenges of integrating LLMs into products.
-  mental_damage: Reading this will make you question every GPU purchase and fine-tuning experiment you’ve ever considered.
+  summary: An O'Reilly Radar blog post sharing strategic insights from a year of building LLM applications, covering build vs. buy, iteration, human-centered AI, and getting started with prompting and evaluations.
+  why_it_matters: Provides experienced, practical guidance for developers and teams on how to strategically approach LLM product development rather than chasing trends.
+  mental_damage: Another reminder that the real work is in the undifferentiated heavy lifting of systems and evaluation, not in fine-tuning the latest model you saw on Twitter.
   tags:
-    - strategy
-    - llm-adoption
-    - product-guidance
-    - oreilly
+    - llm-strategy
+    - ai-product-development
+    - getting-started
   confidence: high
 curation:
   status: excluded
-  reason: This is a long-form article/essay offering strategic advice, not a practical AI tool, framework, or developer-facing product.
+  reason: This is an informational blog post, not a developer-facing tool, agent, framework, or infrastructure product; it lacks any executable or integratable artifact for developers to use in their workflow.
   evidence:
-    - The URL and scraped context confirm it is an O'Reilly Radar article, not a repo or tool
-    - The content is opinionated strategic guidance, not a usable product or library
-    - Source-list context places it under 'Tips' in a general LLM resource list, not a developer-tooling category
+    - "The source is an O'Reilly Radar blog article titled 'What We Learned from a Year of Building with LLMs (Part III): Strategy'"
+    - The content is a narrative essay sharing opinions and lessons learned, with no claims of providing code, SDKs, APIs, or tools for direct developer use
+    - It appears in an awesome list as a resource under '技巧 Tips', indicating its role is educational curation rather than a functional developer tool
 placement:
   primary_category: null
   section: null
@@ -76,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:06.777Z"
+    updated_at: "2026-09-28T04:43:42.113Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:f851f348980ae92190d3c4011b455687f5ee32150804c92518a6f14358732701
+      category_rules_version: c367d6101132
+      input_hash: sha256:c13ae77f8ca3ffc2b72cc47bc4ba79e7ed328e171408f774317ee338b59f847b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a long-form article/essay offering strategic advice, not a practical AI tool, framework, or developer-facing product.
+      decision_reason: This is an informational blog post, not a developer-facing tool, agent, framework, or infrastructure product; it lacks any executable or integratable artifact for developers to use in their workflow.
       decision_evidence:
-        - The URL and scraped context confirm it is an O'Reilly Radar article, not a repo or tool
-        - The content is opinionated strategic guidance, not a usable product or library
-        - Source-list context places it under 'Tips' in a general LLM resource list, not a developer-tooling category
+        - "The source is an O'Reilly Radar blog article titled 'What We Learned from a Year of Building with LLMs (Part III): Strategy'"
+        - The content is a narrative essay sharing opinions and lessons learned, with no claims of providing code, SDKs, APIs, or tools for direct developer use
+        - It appears in an awesome list as a resource under '技巧 Tips', indicating its role is educational curation rather than a functional developer tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

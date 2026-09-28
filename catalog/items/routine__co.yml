@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Routine is an AI-powered workspace that combines tasks, calendars, and notes into a single productivity platform.
-  why_it_matters: It centralizes workflows for developers and teams, offering AI-driven automation, meeting notes, and task management to reduce context-switching.
-  mental_damage: Finally, a tool that promises to replace Notion, Todoist, and your calendar—just in time for you to realize you still need all three.
+  summary: Routine is an AI-powered productivity app that unifies tasks, calendars, notes, and automation across platforms.
+  why_it_matters: It consolidates personal and team workflows into a single AI-driven workspace, reducing context switching for developers managing multiple tools.
+  mental_damage: Another all-in-one workspace promising to replace your stack, now with AI agents that delegate your to-do list back to you.
   tags:
     - productivity
-    - ai-workspace
+    - ai-assistant
     - task-management
-    - automation
   confidence: high
 curation:
   status: excluded
-  reason: Routine is a general-purpose productivity SaaS for tasks, calendars, and notes, not a developer-tooling product focused on coding, agents, or AI workflows.
+  reason: Routine is a general productivity platform with AI features, not a developer-facing tool for coding, agents, or AI infrastructure; its primary identity is task and calendar management, not software development workflows.
   evidence:
-    - Product description explicitly positions it as a workspace for tasks, calendars, and notes
-    - No evidence of code editing, repo interaction, or developer-specific workflows
-    - Source-list context (awesome-mcp-servers) is misleading; MCP is not the product identity
+    - "Scraped site context: Routine combines tasks, calendars, and notes into an AI-powered workspace for professionals and teams."
+    - README excerpt emphasizes AI agents for automating mundane work, meeting notes, and voice delegation — not coding or development tasks.
+    - "Source-list context: Listed in awesome-mcp-servers as an 'Official Server' but described as a workspace tool, not MCP infrastructure."
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:22.201Z"
+    updated_at: "2026-09-28T04:36:34.016Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:9e63ab14e801defdb5d1ed6a90b0da9a7ce8f5b3eef037ad5e9442ddab274075
+      category_rules_version: c367d6101132
+      input_hash: sha256:ece4c88b1b13ff7650e74394c90d5cfc229ad3b5f742e080a7fc9ef213034c35
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Routine is a general-purpose productivity SaaS for tasks, calendars, and notes, not a developer-tooling product focused on coding, agents, or AI workflows.
+      decision_reason: Routine is a general productivity platform with AI features, not a developer-facing tool for coding, agents, or AI infrastructure; its primary identity is task and calendar management, not software development workflows.
       decision_evidence:
-        - Product description explicitly positions it as a workspace for tasks, calendars, and notes
-        - No evidence of code editing, repo interaction, or developer-specific workflows
-        - Source-list context (awesome-mcp-servers) is misleading; MCP is not the product identity
+        - "Scraped site context: Routine combines tasks, calendars, and notes into an AI-powered workspace for professionals and teams."
+        - README excerpt emphasizes AI agents for automating mundane work, meeting notes, and voice delegation — not coding or development tasks.
+        - "Source-list context: Listed in awesome-mcp-servers as an 'Official Server' but described as a workspace tool, not MCP infrastructure."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

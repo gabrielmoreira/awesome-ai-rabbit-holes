@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__embold__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Embold
         extracted_url: https://embold.io
-        surrounding_text: '- **[Embold](https://embold.io/)** – AI code analysis for quality, maintainability, and tech debt.'
+        surrounding_text: "- **[Embold](https://embold.io/)** – AI code analysis for quality, maintainability, and tech debt."
         confidence: high
 metadata:
   github:
@@ -36,25 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A static code analysis platform that automates the detection of technical debt, security vulnerabilities, and
-    structural anti-patterns.
-  why_it_matters: >-
-    It helps teams maintain code quality and security by surfacing structural issues and smells during the development
-    and pull request process.
-  mental_damage: It provides a centralized dashboard to quantify exactly how much technical debt you are currently accruing.
+  summary: Embold is a static code analysis platform that identifies vulnerabilities, anti-patterns, and code smells in codebases before they ship.
+  why_it_matters: It helps developers prevent technical debt by surfacing code quality issues early in the development workflow.
+  mental_damage: Yet another tool telling you your code is terrible, now with BrowserStack branding and IDE plugins to haunt your commits.
   tags:
     - static-analysis
     - code-quality
-    - technical-debt
-    - code-review
-    - security
-  confidence: high
+    - devsecops
+  confidence: medium
 curation:
   status: included
-  reason: >-
-    It functions as an automated code reviewer that identifies anti-patterns and vulnerabilities across the development
-    lifecycle.
+  reason: It functions as an automated code reviewer that identifies anti-patterns and vulnerabilities across the development lifecycle.
   evidence:
     - Product claims to identify vulnerabilities, anti-patterns, and code smells.
     - Features automated pull request reviews for GitHub, GitLab, Bitbucket, and Azure DevOps.
@@ -62,14 +54,14 @@ curation:
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,31 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-08-27T06:11:04.391Z'
+    updated_at: "2026-09-28T04:52:23.589Z"
     cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:fe1d33194ca63bf210b7da5df67c881810c7fda1d2b8ee5f3ca48a723aa87047
-      proposed_primary_category: coding-agents
-      disagreement: false
-      decision_reason: >-
-        It functions as an automated code reviewer that identifies anti-patterns and vulnerabilities across the
-        development lifecycle.
+      category_rules_version: c367d6101132
+      input_hash: sha256:dafce9edaddfae690a6a3e7d861278140868b63a5c6acdcaf4c2611b2f6df5f5
+      proposed_primary_category: extensions-and-addons
+      disagreement: true
+      decision_reason: Embold is a static code analysis tool that integrates with IDEs and CI/CD pipelines to provide code quality feedback, making it an extension/add-on rather than a standalone coding agent or framework.
       decision_evidence:
-        - Product claims to identify vulnerabilities, anti-patterns, and code smells.
-        - Features automated pull request reviews for GitHub, GitLab, Bitbucket, and Azure DevOps.
-        - Provides refactoring support and IDE plugins for VS Code, IntelliJ, and Visual Studio.
+        - Source-list context places it in 'awesome-ai-coding-tools' under 'Code Review and Refactoring'
+        - README emphasizes IDE plugins for IntelliJ, VS Code, Visual Studio, and Android Studio for real-time feedback
+        - Product description focuses on scanning PRs, commits, and pushes to detect vulnerabilities and anti-patterns
       category_candidates:
-        - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because it is a standalone analysis platform with its own workflow
-        and UI, rather than just a plugin for another assistant.
-      review_reason: null
+        - extensions-and-addons
+        - evals
+      contrastive_reason: Choose extensions-and-addons over evals because Embold's primary function is integrating with developer workflows to provide real-time code quality feedback, not measuring or benchmarking AI/model behavior.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
       review_resume_lifecycle: null

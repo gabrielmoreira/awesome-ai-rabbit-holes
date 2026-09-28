@@ -51,21 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AI website builder for small businesses that generates professional sites from text descriptions.
-  why_it_matters: It eliminates the need for coding or design skills to create business websites, but this is not a developer tool.
-  mental_damage: Another 'no code' tool that promises to replace developers, while developers still have to explain to clients why their site looks like everyone else's.
+  summary: Mixo is an AI-powered website builder that creates complete business sites from natural language prompts without coding.
+  why_it_matters: It lets non-technical founders and solo developers launch professional web presences instantly, bypassing traditional dev workflows.
+  mental_damage: The quiet dread of knowing your hand-crafted portfolio site just lost to a chiropractor’s AI-generated landing page.
   tags:
     - no-code
-    - website-builder
-    - ai-for-business
+    - site-builder
+    - ai-generated
   confidence: high
 curation:
   status: excluded
-  reason: Mixo is a business-oriented AI website builder with no developer-tooling angle, targeting non-technical users rather than software developers.
+  reason: Mixo is an end-user AI site builder for small businesses, not a developer-facing tool for coding, editing, or extending software workflows.
   evidence:
-    - Site description explicitly targets small businesses with 'no coding needed'
-    - Primary value is generating business websites from text prompts
-    - Source-list context places it in 'Developer tools' but the product itself is not developer-facing
+    - Creates professional business websites in minutes with no coding needed
+    - Trusted by 3M+ businesses worldwide for launch-and-get-leads use cases
+    - Output is deployable sites, not code edits, scaffolds, or dev tool integrations
 placement:
   primary_category: null
   section: null
@@ -75,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:41.548Z"
+    updated_at: "2026-09-28T04:43:11.891Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4d95a5504af629c165b445fe053f7fc9e41d37e658aabbcca030c628c77c9996
+      category_rules_version: c367d6101132
+      input_hash: sha256:1b153405e4b9f80bd79cba0b68fdd72e7bf5612c84fadf532b9c199644ab40bf
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Mixo is a business-oriented AI website builder with no developer-tooling angle, targeting non-technical users rather than software developers.
+      decision_reason: Mixo is an end-user AI site builder for small businesses, not a developer-facing tool for coding, editing, or extending software workflows.
       decision_evidence:
-        - Site description explicitly targets small businesses with 'no coding needed'
-        - Primary value is generating business websites from text prompts
-        - Source-list context places it in 'Developer tools' but the product itself is not developer-facing
+        - Creates professional business websites in minutes with no coding needed
+        - Trusted by 3M+ businesses worldwide for launch-and-get-leads use cases
+        - Output is deployable sites, not code edits, scaffolds, or dev tool integrations
       category_candidates: []
       contrastive_reason: null
       review_reason: null

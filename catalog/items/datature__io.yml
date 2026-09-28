@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An end-to-end computer vision platform for data labeling, model training, and deployment.
-  why_it_matters: It provides a unified workflow to transition from manual visual data annotation to production-ready vision APIs.
-  mental_damage: The 'end-to-end' promise usually just means a whole new set of credentials to manage in your enterprise stack.
+  summary: Datature is an end-to-end platform for data labeling, model training, and deployment of Vision AI models.
+  why_it_matters: It gives developers a unified workflow to build and ship computer vision models without juggling multiple tools.
+  mental_damage: Another 'all-in-one' platform promising to replace your messy MLOps stack with yet another vendor lock-in.
   tags:
     - computer-vision
     - mlops
-    - data-labeling
-    - model-training
+    - platform
   confidence: high
 curation:
   status: excluded
-  reason: Datature is a specialized computer vision lifecycle platform rather than a tool for coding assistance, LLM orchestration, or agentic software development.
+  reason: Datature is a specialized computer vision platform focused on data labeling, training, and deployment—not a general AI developer tool like coding agents, app builders, or frameworks.
   evidence:
-    - Platform focuses on vision-specific tasks like object detection, segmentation, and classification
-    - Core value proposition is the labeling-to-deployment pipeline for vision models
-    - Does not align with the catalog's primary categories of coding agents, IDEs, or prompt engineering
+    - Repo description is missing; scraped site context describes it as an 'end-to-end platform for data labeling, model training, and deployment' for Vision AI.
+    - Source-list context shows it appears in 'awesome-local-ai' under 'Developer tools' but the platform itself is SaaS-hosted and not local/self-hosted AI.
+    - Core functionality centers on annotation, model training, and deployment APIs—not code generation, agent behavior, or developer-facing AI tooling.
 placement:
   primary_category: null
   section: null
@@ -70,25 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:17:34.161Z"
+    updated_at: "2026-09-28T04:53:44.475Z"
     cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:454ade51c054181d1a5b6579279e5cde452b88b9d263f2d483b817be87ddbcb8
+      category_rules_version: c367d6101132
+      input_hash: sha256:4423f2f1d8e8294afc2f2d8fe34e534b89f2c698d3a78785c039914bdd319e73
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Datature is a specialized computer vision lifecycle platform rather than a tool for coding assistance, LLM orchestration, or agentic software development.
+      decision_reason: Datature is a specialized computer vision platform focused on data labeling, training, and deployment—not a general AI developer tool like coding agents, app builders, or frameworks.
       decision_evidence:
-        - Platform focuses on vision-specific tasks like object detection, segmentation, and classification
-        - Core value proposition is the labeling-to-deployment pipeline for vision models
-        - Does not align with the catalog's primary categories of coding agents, IDEs, or prompt engineering
+        - Repo description is missing; scraped site context describes it as an 'end-to-end platform for data labeling, model training, and deployment' for Vision AI.
+        - Source-list context shows it appears in 'awesome-local-ai' under 'Developer tools' but the platform itself is SaaS-hosted and not local/self-hosted AI.
+        - Core functionality centers on annotation, model training, and deployment APIs—not code generation, agent behavior, or developer-facing AI tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132

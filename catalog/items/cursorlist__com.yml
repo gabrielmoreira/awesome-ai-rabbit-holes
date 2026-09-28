@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cursorlist__com__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -18,7 +18,7 @@ provenance:
           - Directories
         anchor_text: CursorList
         extracted_url: https://cursorlist.com
-        surrounding_text: '- [CursorList](https://cursorlist.com)'
+        surrounding_text: "- [CursorList](https://cursorlist.com)"
         confidence: high
 metadata:
   github:
@@ -36,45 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory of .cursorrule files and SOPs for customizing the behavior of the Cursor AI editor.
-  why_it_matters: >-
-    It provides developers with pre-configured, stack-specific prompt rules to improve the accuracy and code style of
-    their AI coding assistant.
-  mental_damage: >-
-    It confirms we have entered the era of needing a curated library of instructions on how to properly instruct our
-    instructions.
+  summary: CursorList.com is a curated directory for browsing and submitting .cursorrule files and SOPs for the Cursor AI editor.
+  why_it_matters: It helps developers quickly find and share editor-specific behavior rules that improve AI-assisted coding consistency.
+  mental_damage: Another rule collection promising cleaner AI output while silently adding to the cognitive load of managing ever-more-niche configuration fragments.
   tags:
     - cursor
-    - cursorrules
-    - prompt-engineering
+    - rules
     - directory
   confidence: high
 curation:
   status: included
-  reason: >-
-    The platform acts as a specialized registry of reusable instruction assets (.cursorrules) designed to enhance
-    specific coding workflows.
+  reason: The platform acts as a specialized registry of reusable instruction assets (.cursorrules) designed to enhance specific coding workflows.
   evidence:
-    - >-
-      Scraped content shows a searchable collection of .cursorrule files for various tech stacks like Angular, NextJS,
-      and Solidity
+    - Scraped content shows a searchable collection of .cursorrule files for various tech stacks like Angular, NextJS, and Solidity
     - The site description identifies its purpose as managing and viewing .cursorrule files and SOPs
 placement:
   primary_category: skills
   secondary_categories: []
-  section: Registries & Directories
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'skills', proposed 'awesome-awesomes'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -82,32 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-08-31T13:30:27.285Z'
+    updated_at: "2026-09-28T04:55:18.726Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d9d18211985966e635447fdb2c66631c569108e1027c829ee7aa0a9227854302
-      proposed_primary_category: skills
-      disagreement: false
-      decision_reason: >-
-        The platform acts as a specialized registry of reusable instruction assets (.cursorrules) designed to enhance
-        specific coding workflows.
+      category_rules_version: c367d6101132
+      input_hash: sha256:57da51d06ffe06091d1c56b8aebcd6eeb876bc9de634779b180ab437d1c84819
+      proposed_primary_category: awesome-awesomes
+      disagreement: true
+      decision_reason: CursorList.com is a curated directory of .cursorrule files and SOPs, making it a developer-facing resource for discovering and sharing editor-specific AI behavior configurations, which fits the role of an awesome list or directory.
       decision_evidence:
-        - >-
-          Scraped content shows a searchable collection of .cursorrule files for various tech stacks like Angular,
-          NextJS, and Solidity
-        - The site description identifies its purpose as managing and viewing .cursorrule files and SOPs
+        - "Appears in the awesome-cursorrules source list with purpose: 'Configuration files that enhance Cursor AI editor experience with custom rules and behaviors'"
+        - Site describes itself as a place to 'Manage and view .cursorrule files and SOPs' for Cursor AI
+        - Primary content consists of tagged .cursorrule submissions for various frameworks and languages
       category_candidates:
-        - skills
         - awesome-awesomes
-      contrastive_reason: >-
-        Choose skills over awesome-awesomes because the core value is a specialized registry of reusable prompt assets
-        rather than a general directory of AI tools.
-      review_reason: null
+        - skills
+      contrastive_reason: Choose awesome-awesomes over skills because CursorList.com is a curated directory of rule files for discovery, not a skill pack or registry for distributing executable agent behaviors.
+      review_reason: "Categorization review required: placement disagreement: retained 'skills', proposed 'awesome-awesomes'"
       review_resume_lifecycle: null

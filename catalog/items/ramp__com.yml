@@ -36,20 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A corporate card and spend management platform.
-  why_it_matters: It does not matter to developers as a developer-tooling product.
-  mental_damage: The only thing it develops is a sense of existential dread about expense reports.
+  summary: Ramp is a corporate finance platform offering expense management, corporate cards, and automated accounting workflows.
+  why_it_matters: It helps developers indirectly by reducing finance-team friction and streamlining reimbursement for SaaS, cloud, and API spending.
+  mental_damage: Another finance tool pretending its API docs will make engineers care about spend approval workflows.
   tags:
     - finance
     - saas
+    - expense-management
   confidence: high
 curation:
   status: excluded
-  reason: This is a financial SaaS product with no developer-tooling angle, and its appearance in an MCP servers list is likely a false positive or misclassification.
+  reason: Ramp is a corporate finance and spend management platform with no developer-facing AI tooling, coding agent, or workflow automation identity relevant to the catalog.
   evidence:
-    - URL and name point to ramp.com, a corporate card/spend management platform
-    - No repo description, topics, or developer-facing signals
-    - Source-list context (awesome-mcp-servers) appears to be a misclassification
+    - "Repo description: (none)"
+    - "Seen in source lists / directories: awesome-mcp-servers | purpose: A curated list of Model Context Protocol (MCP) servers | section: Official Servers"
 placement:
   primary_category: null
   section: null
@@ -68,24 +68,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:51.150Z"
+    updated_at: "2026-09-28T04:35:07.225Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3375e61013b3d0d0bf6beaa4f79ab89a25c0fbedc885cb061433f65acc26f98d
+      category_rules_version: c367d6101132
+      input_hash: sha256:5c8f50152afc72c3950a2a4743cd294f782ddd47f0d53c0ed4c777a628fcc7a8
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a financial SaaS product with no developer-tooling angle, and its appearance in an MCP servers list is likely a false positive or misclassification.
+      decision_reason: Ramp is a corporate finance and spend management platform with no developer-facing AI tooling, coding agent, or workflow automation identity relevant to the catalog.
       decision_evidence:
-        - URL and name point to ramp.com, a corporate card/spend management platform
-        - No repo description, topics, or developer-facing signals
-        - Source-list context (awesome-mcp-servers) appears to be a misclassification
+        - "Repo description: (none)"
+        - "Seen in source lists / directories: awesome-mcp-servers | purpose: A curated list of Model Context Protocol (MCP) servers | section: Official Servers"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

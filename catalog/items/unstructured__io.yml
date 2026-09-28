@@ -36,27 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A platform providing Model Context Protocol (MCP) servers for structured data extraction and integration.
-  why_it_matters: Developers can use its MCP servers to connect AI assistants to unstructured data sources, enabling richer context for coding workflows.
-  mental_damage: Now your AI can finally read those PDFs you swore you’d organize in 2022.
+  summary: unstructured.io provides tools to extract, clean, and structure unstructured data like documents, PDFs, and web pages for downstream AI processing.
+  why_it_matters: It reduces the friction of turning messy real-world data into model-ready inputs, a critical bottleneck in building reliable AI applications.
+  mental_damage: Yet another preprocessing layer you didn’t know you needed until your LLM started hallucinating from bad OCR.
   tags:
-    - mcp
-    - data-extraction
-    - context-protocol
-    - unstructured-data
-  confidence: high
+    - data-prep
+    - etl
+    - ai-infrastructure
+  confidence: medium
 curation:
   status: included
-  reason: The product is a developer-facing toolkit and API for document ingestion and transformation, fitting as a code-first building block for AI retrieval infrastructure rather than a coding agent or MCP server.
+  reason: unstructured.io is a developer-facing SDK and API for data extraction and transformation, functioning as reusable infrastructure that developers import and program against to prepare inputs for AI systems, aligning with the Frameworks & SDKs category.
   evidence:
-    - Listed in awesome-mcp-servers as an Official Server, but the core product is a document ingestion platform, not MCP infrastructure itself.
-    - The homepage and description focus on ingesting and transforming unstructured documents for LLM workflows, not acting as a coding assistant.
+    - "Seen in source list: awesome-mcp-servers under 'Official Servers', indicating recognition in curated developer tooling ecosystems."
+    - Product focuses on extracting and structuring unstructured data (PDFs, HTML, etc.) for AI workflows, a foundational infrastructure task.
+    - No evidence of being a coding agent, app builder, or orchestrator — its core value is in programmable data processing, not autonomous coding or prompt-to-app generation.
 placement:
   primary_category: ai-frameworks
-  section: null
+  section: Memory & Retrieval Infrastructure
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'mcp'"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -69,26 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:29.983Z"
+    updated_at: "2026-09-28T04:48:32.584Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:27f12c0c10b4cd9e11f4636008bd2825b94a3ffe98a1130904f481ea35850d2d
-      proposed_primary_category: mcp
-      disagreement: true
-      decision_reason: MCP is the product identity, and it is listed as an official MCP server in a curated MCP directory.
+      category_rules_version: c367d6101132
+      input_hash: sha256:db96bc7002451636c851a3be66073849fbb087afe731c8048c704f8ce41960c0
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: unstructured.io is a developer-facing SDK and API for data extraction and transformation, functioning as reusable infrastructure that developers import and program against to prepare inputs for AI systems, aligning with the Frameworks & SDKs category.
       decision_evidence:
-        - Seen in awesome-mcp-servers under 'Official Servers'
-        - Product identity centers on MCP server functionality for unstructured data
+        - "Seen in source list: awesome-mcp-servers under 'Official Servers', indicating recognition in curated developer tooling ecosystems."
+        - Product focuses on extracting and structuring unstructured data (PDFs, HTML, etc.) for AI workflows, a foundational infrastructure task.
+        - No evidence of being a coding agent, app builder, or orchestrator — its core value is in programmable data processing, not autonomous coding or prompt-to-app generation.
       category_candidates:
-        - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because MCP is the primary adopted thing, not a compatibility footnote.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'mcp'"
+        - ai-frameworks
+        - memory-and-context
+      contrastive_reason: Choose ai-frameworks over memory-and-context because unstructured.io is primarily an importable SDK for data extraction pipelines, not a persistent memory or context management system for agent sessions.
+      review_reason: null
       review_resume_lifecycle: null

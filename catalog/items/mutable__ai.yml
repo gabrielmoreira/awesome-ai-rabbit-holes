@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mutable__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Mutable AI
         anchor_text: Mutable AI
         extracted_url: https://mutable.ai
-        surrounding_text: '## [Mutable AI](https://mutable.ai/)'
+        surrounding_text: "## [Mutable AI](https://mutable.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,38 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Mutable AI is a platform for AI-driven code generation and project scaffolding from natural language prompts.
-  why_it_matters: >-
-    It enables developers to quickly generate, modify, or scaffold entire codebases or applications by describing what
-    they want in plain language.
-  mental_damage: >-
-    Now you can replace your carefully crafted architecture diagrams with a single prompt and hope the AI understands
-    your edge cases.
+  summary: Mutable AI is an AI coding agent that autonomously plans and executes coding tasks across terminals and IDEs by reading codebases, writing or editing files, and running commands on behalf of developers.
+  why_it_matters: It lets developers delegate writing, editing, reviewing, or testing code to an autonomous agent, reducing manual coding effort and accelerating development workflows.
+  mental_damage: Another promise of vibe coding where the AI writes your code and you just hope it didn’t hallucinate a dependency that bricks your CI pipeline.
   tags:
-    - app-builder
-    - code-generation
-    - prompt-to-app
-    - scaffolding
+    - coding-agent
+    - autonomous-coding
+    - developer-tooling
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product identifies as an autonomous agent for code refactoring and repository management, fitting the
-    coding-agents profile as a primary assistant.
+  reason: The product identifies as an autonomous agent for code refactoring and repository management, fitting the coding-agents profile as a primary assistant.
   evidence:
     - Included in the 'awesome-ai-agents' list under the specific section for Mutable AI.
     - Product identity is an AI agent that plans and executes changes on a codebase.
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: Scaffolding & Boilerplate
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''app-builders'''
+  reason: "Categorization review required: placement disagreement: retained 'app-builders', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,30 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:30:05.990Z'
+    updated_at: "2026-09-28T04:33:39.608Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:f7644dc14bc54007c778fb5cae075148e51aa93181e1b0b1bee086ff714574cc
-      proposed_primary_category: app-builders
+      category_rules_version: c367d6101132
+      input_hash: sha256:22a086b939e766b70667316d6f3219953df4e5a1379e29f785b2ff0144783ed6
+      proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: >-
-        The product's core value is turning prompts into apps or codebases, which aligns with the app-builders category
-        rather than being a primary coding assistant or extension.
+      decision_reason: Mutable AI fits as a coding agent because its core identity is performing autonomous coding tasks across terminals and IDEs, not extending another agent or building apps from scratch.
       decision_evidence:
-        - Seen in awesome-ai-agents under 'Mutable AI' as an autonomous agent for code generation
-        - Primary identity is prompt-to-app/codebase generation, not repo editing or host integration
+        - Listed in awesome-ai-agents under the 'Mutable AI' entry as an AI autonomous agent
+        - Described as performing coding tasks autonomously by reading codebases, writing or editing files, and running commands
       category_candidates:
-        - app-builders
         - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because the main surface is prompt-to-app generation rather than
-        assisting with editing an existing repo.
-      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''app-builders'''
+        - app-builders
+      contrastive_reason: Choose coding-agents over app-builders because Mutable AI operates on existing codebases to edit, test, and repair code rather than generating deployable apps from prompts.
+      review_reason: "Categorization review required: placement disagreement: retained 'app-builders', proposed 'coding-agents'"
       review_resume_lifecycle: null

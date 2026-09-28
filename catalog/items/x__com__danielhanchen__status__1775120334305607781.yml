@@ -37,25 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A tweet announcing SWE-agent, an open-source system for autonomously solving GitHub repo issues with GPT-4, achieving 12.29% on 100% of the SWE Bench test set.
-  why_it_matters: It demonstrates a competitive open-source alternative to proprietary coding agents like Devin, with comparable performance on software engineering benchmarks.
-  mental_damage: The arms race of SWE-bench scores is the new Stack Overflow reputation.
+  summary: SWE-agent is an open source autonomous coding agent that solves GitHub issues using GPT-4 with a custom agent-computer interface.
+  why_it_matters: It demonstrates competitive performance on SWE-bench while being fully open source, offering a transparent alternative to closed agents like Devin.
+  mental_damage: Another week, another open source Devin clone raising hopes that this time the agent will finally fix your stuck PR.
   tags:
-    - coding-agents
-    - benchmark
+    - coding-agent
     - open-source
-    - gpt-4
+    - swe-bench
   confidence: high
 curation:
-  status: excluded
-  reason: The item is a social media post announcing a project, not the project itself or a standalone tool.
+  status: included
+  reason: SWE-agent is a standalone autonomous coding agent that operates on GitHub repos, making it a direct fit for the coding-agents category rather than an extension or framework.
   evidence:
-    - The URL points to a tweet, not a GitHub repo or product page
-    - The content is an announcement, not a usable tool or framework
-    - No direct link to the actual SWE-agent project in the provided inputs
+    - Described as 'an open source Devin getting 12.29% on 100% of the SWE Bench test set' and 'our new system for autonomously solving issues in GitHub repos'
+    - Uses a novel 'agent-computer interface to make it easy for GPT-4 to edit+run code' and operates via terminal/CLI workflows
+    - Listed in awesome-ai-agents under 'SWE Agent' with explicit focus on autonomous GitHub issue resolution
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
@@ -71,25 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:39.825Z"
+    updated_at: "2026-09-28T04:51:05.085Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:54bde94d942fdaf7429f4b827cbf2f68c483c7277bb3f1876d985c9963831b4e
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:46aeb14db4c64f12b8b2d6fdc83c2028cb4f4b5e73c8f6782667e3bf33953bb9
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The item is a social media post announcing a project, not the project itself or a standalone tool.
+      decision_reason: SWE-agent is a standalone autonomous coding agent that operates on GitHub repos, making it a direct fit for the coding-agents category rather than an extension or framework.
       decision_evidence:
-        - The URL points to a tweet, not a GitHub repo or product page
-        - The content is an announcement, not a usable tool or framework
-        - No direct link to the actual SWE-agent project in the provided inputs
-      category_candidates: []
-      contrastive_reason: null
+        - Described as 'an open source Devin getting 12.29% on 100% of the SWE Bench test set' and 'our new system for autonomously solving issues in GitHub repos'
+        - Uses a novel 'agent-computer interface to make it easy for GPT-4 to edit+run code' and operates via terminal/CLI workflows
+        - Listed in awesome-ai-agents under 'SWE Agent' with explicit focus on autonomous GitHub issue resolution
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because SWE-agent is a single autonomous agent performing coding tasks, not a platform coordinating multiple agents or managing agent workflows.
       review_reason: null
       review_resume_lifecycle: null

@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese translation of a practical guide on building LLM applications, covering prompting, RAG, workflows, evaluation, and monitoring.
-  why_it_matters: It distills battle-tested insights from experienced practitioners on LLM application development, offering actionable advice for developers.
-  mental_damage: Reading this will make you question every RAG pipeline you’ve ever built.
+  summary: A Chinese-translated blog post sharing tactical best practices for building LLM applications, covering prompting, RAG, workflow engineering, and evaluation.
+  why_it_matters: Provides practical, experience-driven guidance for developers integrating LLMs into real products, drawn from production use by industry practitioners.
+  mental_damage: Another reminder that the real LLM app secret is just doing the boring engineering work nobody tweets about.
   tags:
-    - llm-guide
-    - rag
+    - llm
     - prompt-engineering
+    - rag
+    - workflow
     - evaluation
-    - translation
   confidence: high
 curation:
   status: excluded
-  reason: This is a translated article/guide, not a standalone developer tool, framework, or product.
+  reason: The resource is an educational article, not a developer-facing tool, agent, framework, or infrastructure product; it lacks runtime, SDK, or actionable output for direct use in workflows.
   evidence:
-    - The URL and scraped context confirm it is a blog post/translation of an essay on LLM application building.
-    - The content is educational and advisory, not a tool or library.
-    - Source-list context shows it is categorized under '技巧 Tips' (Tips/Techniques) in an awesome list, not as a tool.
+    - Source is a translated blog post (index.html) from a personal site, not a GitHub repo or tool distribution.
+    - Content consists of tactical advice and best practices, with no downloadable code, CLI, API, or installable artifact.
+    - Listed in awesome-LLM-resources under '技巧 Tips' as a reading resource, not a tool or platform.
 placement:
   primary_category: null
   section: null
@@ -73,24 +73,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:37.850Z"
+    updated_at: "2026-09-28T04:29:48.561Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7af66096b8e2987a3137e48f5a1c0182057766f718b4f857719e8247bbbd5b34
+      category_rules_version: c367d6101132
+      input_hash: sha256:294c1ee57200a3184b7004d758069bbc1a4f08f0cd53ea5a4e5e3867bda4e84d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a translated article/guide, not a standalone developer tool, framework, or product.
+      decision_reason: The resource is an educational article, not a developer-facing tool, agent, framework, or infrastructure product; it lacks runtime, SDK, or actionable output for direct use in workflows.
       decision_evidence:
-        - The URL and scraped context confirm it is a blog post/translation of an essay on LLM application building.
-        - The content is educational and advisory, not a tool or library.
-        - Source-list context shows it is categorized under '技巧 Tips' (Tips/Techniques) in an awesome list, not as a tool.
+        - Source is a translated blog post (index.html) from a personal site, not a GitHub repo or tool distribution.
+        - Content consists of tactical advice and best practices, with no downloadable code, CLI, API, or installable artifact.
+        - Listed in awesome-LLM-resources under '技巧 Tips' as a reading resource, not a tool or platform.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

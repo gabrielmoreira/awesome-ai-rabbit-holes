@@ -36,19 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A domain name (mcpservers.net) listed for sale on Spaceship.com.
-  why_it_matters: It does not matter to developers as it is not a tool, library, or service.
-  mental_damage: The only thing being deployed here is a $50,000 invoice.
-  tags:
-    - domain-sale
-    - mcp-adjacent
+  summary: mcpservers.net is a domain marketplace listing for the sale of the mcpservers.net domain via Spaceship.com.
+  why_it_matters: It does not matter to developers as a tool, agent, or infrastructure; it is a domain sale listing with no developer-facing functionality.
+  mental_damage: The anxiety of mistaking a domain parking page for an MCP server registry is the quiet horror of AI tooling fatigue.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: This is a domain sale page, not a developer tool, framework, or resource.
+  reason: The site is a domain sales page with no MCP server, client, tool, or developer product; it offers no functionality relevant to AI-assisted development workflows.
   evidence:
-    - Scraped site context shows it is a domain for sale on Spaceship.com
-    - No repo, README, or functional tooling is present
+    - The scraped page shows a domain listing for sale with pricing, payment methods, and transfer support via Spaceship.com.
+    - No README, repo description, or tool functionality is provided; the source-list context only references the domain name in a list title.
+    - There is no evidence of MCP server implementation, tool exposure, registry operation, or any developer-facing service.
 placement:
   primary_category: null
   section: null
@@ -67,23 +66,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:50.614Z"
+    updated_at: "2026-09-28T04:33:13.562Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:f0168c90eaa13a106eb9af78d23a008ca93d375cc4c86b16d093ab8108c32f3f
+      category_rules_version: c367d6101132
+      input_hash: sha256:6e46c6183467154fd55bf52b5393eb3811dbd64e98a2461e6d4ff9b1151d4747
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a domain sale page, not a developer tool, framework, or resource.
+      decision_reason: The site is a domain sales page with no MCP server, client, tool, or developer product; it offers no functionality relevant to AI-assisted development workflows.
       decision_evidence:
-        - Scraped site context shows it is a domain for sale on Spaceship.com
-        - No repo, README, or functional tooling is present
+        - The scraped page shows a domain listing for sale with pricing, payment methods, and transfer support via Spaceship.com.
+        - No README, repo description, or tool functionality is provided; the source-list context only references the domain name in a list title.
+        - There is no evidence of MCP server implementation, tool exposure, registry operation, or any developer-facing service.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

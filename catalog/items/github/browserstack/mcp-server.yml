@@ -45,26 +45,24 @@ metadata:
       fetched_at: "2026-09-24T04:13:03.710Z"
       bytes: 30073
 insights:
-  summary: BrowserStack's official MCP server for integrating their testing platform with MCP-enabled clients.
-  why_it_matters: Lets developers trigger BrowserStack's device/browser testing, accessibility scans, and test management directly from IDEs or LLMs using natural language.
-  mental_damage: Now you can debug your app on an iPhone 15 Pro Max without leaving your editor, because context switching was the real bug all along.
+  summary: BrowserStack's official MCP server exposing test execution, debugging, and accessibility tools over the Model Context Protocol.
+  why_it_matters: Lets developers trigger real-device testing, test debugging, and a11y scans from natural language inside MCP-enabled IDEs like Cursor or Claude.
+  mental_damage: Another MCP server promising to eliminate context switching while adding yet another protocol to juggle.
   tags:
-    - mcp-server
+    - mcp
     - testing
     - browserstack
-    - qa
-    - accessibility
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: this is a dedicated MCP server exposing BrowserStack's testing capabilities."
+  reason: The product's core identity is an MCP server providing BrowserStack's testing capabilities over MCP, not a coding agent or extension.
   evidence:
-    - Repo description explicitly states 'BrowserStack's Official MCP Server'
-    - README centers on MCP integration with BrowserStack's test platform
-    - Listed in awesome-mcp-servers under 'Official Servers'
+    - "Repo description: 'BrowserStack's Official MCP Server'"
+    - "README: 'Manage test cases, execute manual or automated tests, debug issues, and even fix code—directly within tools like Cursor, Claude, or any MCP-enabled client'"
+    - "Seen in source list: awesome-mcp-servers under 'Official Servers'"
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (152) exceeded threshold (150)
@@ -80,30 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-28T04:58:41.115Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:31b5754eb1a0011d3486129fe09d50cda5b38b73ca0ccb8fb047d4e08c67a333
+      category_rules_version: c367d6101132
+      input_hash: sha256:a4afa156ada0a2d8b7e1792fa78a6d0280538292b315bac9add2b9fddb21fa89
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: this is a dedicated MCP server exposing BrowserStack's testing capabilities."
+      decision_reason: The product's core identity is an MCP server providing BrowserStack's testing capabilities over MCP, not a coding agent or extension.
       decision_evidence:
-        - Repo description explicitly states 'BrowserStack's Official MCP Server'
-        - README centers on MCP integration with BrowserStack's test platform
-        - Listed in awesome-mcp-servers under 'Official Servers'
+        - "Repo description: 'BrowserStack's Official MCP Server'"
+        - "README: 'Manage test cases, execute manual or automated tests, debug issues, and even fix code—directly within tools like Cursor, Claude, or any MCP-enabled client'"
+        - "Seen in source list: awesome-mcp-servers under 'Official Servers'"
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server exposing domain capabilities, not a plugin that augments a host agent with new features.
       review_reason: null
       review_resume_lifecycle: null

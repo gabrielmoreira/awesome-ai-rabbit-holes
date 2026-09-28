@@ -51,48 +51,52 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Puzzlet AI is a platform listed under LLMOps tools for developers.
-  why_it_matters: It provides LLMOps capabilities, which help developers manage and operationalize large language models in production workflows.
-  mental_damage: Because nothing says 'production-ready' like another acronym to argue about in your next team sync.
+  summary: Puzzlet AI is a web-based tool that generates code from natural language prompts for software development tasks.
+  why_it_matters: It lets developers quickly prototype or scaffold code by describing intent in plain language, reducing boilerplate writing.
+  mental_damage: Another prompt-to-code tool that promises to replace thinking with typing, until you realize you still need to read and debug what it spat out.
   tags:
-    - llmops
-    - developer-tools
-    - ai-operations
-  confidence: high
+    - code-generation
+    - prompt-to-code
+    - developer-tool
+  confidence: medium
 curation:
-  status: excluded
-  reason: The project is categorized under LLMOps in its source list, which falls outside the catalog's scope of practical AI tools, agents, workflows, and app-building products directly relevant to software developers.
+  status: included
+  reason: Puzzlet AI's core function is generating deployable code from prompts, aligning with app builders that turn natural language into working artifacts rather than editing existing codebases.
   evidence:
-    - Seen in Awesome-LLMOps under LLMOps section
-    - No clear developer-tooling angle beyond LLMOps classification
+    - Homepage puzzlet.ai markets itself as turning prompts into code for developers
+    - Listed in Awesome-LLMOps under LLMOps section, indicating developer-facing tooling relevance
+    - No evidence of operating as a coding agent within an existing repo or IDE; focuses on generation from scratch
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Scaffolding & Boilerplate
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:35.974Z"
+    updated_at: "2026-09-28T04:44:40.981Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:9e6962b0bbf92b06824a531fa6f02d3711742b6a8c5b76651a8c4de1f262d03a
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:8d5d31fd88c905653ca297214a4e93cea47f58ee90c4e62db1abf69107d6a420
+      proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The project is categorized under LLMOps in its source list, which falls outside the catalog's scope of practical AI tools, agents, workflows, and app-building products directly relevant to software developers.
+      decision_reason: Puzzlet AI's core function is generating deployable code from prompts, aligning with app builders that turn natural language into working artifacts rather than editing existing codebases.
       decision_evidence:
-        - Seen in Awesome-LLMOps under LLMOps section
-        - No clear developer-tooling angle beyond LLMOps classification
-      category_candidates: []
-      contrastive_reason: null
+        - Homepage puzzlet.ai markets itself as turning prompts into code for developers
+        - Listed in Awesome-LLMOps under LLMOps section, indicating developer-facing tooling relevance
+        - No evidence of operating as a coding agent within an existing repo or IDE; focuses on generation from scratch
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because Puzzlet AI generates new code from prompts rather than acting as an autonomous agent that edits or extends an existing codebase.
       review_reason: null
       review_resume_lifecycle: null
   discover:

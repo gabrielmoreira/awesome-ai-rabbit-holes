@@ -54,26 +54,26 @@ metadata:
       fetched_at: "2026-09-24T04:13:01.850Z"
       bytes: 40250
 insights:
-  summary: A CLI and MCP server that performs deterministic motion audits and vision-LLM design reviews for web animations.
-  why_it_matters: It bridges the 'vision gap' for AI coding agents, allowing them to validate the actual visual motion and UX of a running app rather than just reading the CSS.
-  mental_damage: Because nothing says 'modern development' like having an LLM audit your easing curves to ensure your loading spinners aren't accidentally causing existential dread.
+  summary: MotionLint is a CLI tool that performs deterministic motion audits and vision-LLM design reviews of web animations via Playwright and MCP integration.
+  why_it_matters: It closes the gap between AI coding agents and visual output by measuring actual animation behavior and feeding ranked findings back into the developer workflow.
+  mental_damage: Finally, a way to make your AI pair programmer feel guilty about that 600ms modal it swore was 'subtle'.
   tags:
-    - motion-design
+    - animation
+    - linting
     - mcp
-    - qa-automation
-    - ui-testing
     - claude-code
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The tool functions as a capability provider that augments coding assistants like Claude Code and Cursor with specialized visual/motion QA workflows.
+  reason: MotionLint primarily functions as an MCP server and CLI tool that extends Claude Code and Cursor with animation audit and vision-LLM review capabilities, making it an add-on rather than a standalone coding agent.
   evidence:
-    - Acts as an MCP server to feed visual design findings back into the coding agent loop
-    - Provides deterministic animation measurement via Playwright
-    - Solves the problem of AI agents being 'blind' to what the user actually sees
+    - Runs as an MCP server inside Claude Code and Cursor per README
+    - Provides deterministic motion audit and vision-LLM design review as additive features to coding agents
+    - Primary identity is enhancing existing agents with motion analysis, not autonomous coding
 placement:
   primary_category: extensions-and-addons
-  section: Testing & Code Quality
+  section: Claude Code & Agent Tools
 lifecycle:
   status: incubating
   reason: null
@@ -89,30 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-28T04:57:33.174Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4e19349c18dfd1943e02cdedb81ba27fc8c4881eb3fea4f7ed7efd8835c3ffc7
-      proposed_primary_category: ai-dev-extensions
+      category_rules_version: c367d6101132
+      input_hash: sha256:a28be29e7ec80a217dadcd2b5f76702056518f855026419cb9124ab6a679e9cb
+      proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: The tool functions as a capability provider that augments coding assistants like Claude Code and Cursor with specialized visual/motion QA workflows.
+      decision_reason: MotionLint primarily functions as an MCP server and CLI tool that extends Claude Code and Cursor with animation audit and vision-LLM review capabilities, making it an add-on rather than a standalone coding agent.
       decision_evidence:
-        - Acts as an MCP server to feed visual design findings back into the coding agent loop
-        - Provides deterministic animation measurement via Playwright
-        - Solves the problem of AI agents being 'blind' to what the user actually sees
+        - Runs as an MCP server inside Claude Code and Cursor per README
+        - Provides deterministic motion audit and vision-LLM design review as additive features to coding agents
+        - Primary identity is enhancing existing agents with motion analysis, not autonomous coding
       category_candidates:
-        - ai-dev-extensions
-        - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because the primary product identity is a motion-auditing tool that uses MCP as an integration layer to augment agent capabilities.
+        - extensions-and-addons
+        - coding-agents
+      contrastive_reason: Choose extensions-and-addons over coding-agents because MotionLint mainly augments Claude Code and Cursor with animation review and audit capabilities rather than acting as a primary coding assistant that writes or edits code.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132

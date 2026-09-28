@@ -37,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OpenAI's official documentation for function calling, enabling LLMs to connect to external data and systems via API.
-  why_it_matters: It provides developers with a standardized way to extend LLM capabilities by defining and invoking external functions.
-  mental_damage: Now you can argue with your model about whether it actually called the right function or just hallucinated the JSON.
+  summary: OpenAI's documentation for function calling, enabling LLMs to connect to external data.
+  why_it_matters: Teaches developers how to let models invoke tools, bridging chat to real-world actions.
+  mental_damage: Another reminder that 'just add functions' is the new 'just add blockchain' for shipping half-baked integrations.
   tags:
     - openai
-    - function-calling
-    - api-docs
-    - llm-integration
+    - llm
+    - tooling
+    - api
   confidence: high
 curation:
   status: excluded
-  reason: This is official API documentation, not a standalone developer tool or product.
+  reason: This is documentation, not a standalone developer tool or product; it describes a feature but does not provide runnable software, SDKs, or agent behavior.
   evidence:
-    - The URL and scraped context confirm this is OpenAI's official docs page for function calling
-    - The content is purely documentation, not a tool, library, or runtime
+    - URL is OpenAI's documentation site (platform.openai.com/docs/guides/gpt/function-calling)
+    - No repo, stars, or installation instructions; purely explanatory content
 placement:
   primary_category: null
   section: null
@@ -70,23 +70,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:30.134Z"
+    updated_at: "2026-09-28T04:34:29.705Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e5821c4f04a81d06692a92314d2ef2a28fe64cdbdb97a599ceee82f747721b7a
+      category_rules_version: c367d6101132
+      input_hash: sha256:c9719933d54dc9bc5b29c149d374a036903d110dd8d98cc38a67f8d0c9e8fbdd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is official API documentation, not a standalone developer tool or product.
+      decision_reason: This is documentation, not a standalone developer tool or product; it describes a feature but does not provide runnable software, SDKs, or agent behavior.
       decision_evidence:
-        - The URL and scraped context confirm this is OpenAI's official docs page for function calling
-        - The content is purely documentation, not a tool, library, or runtime
+        - URL is OpenAI's documentation site (platform.openai.com/docs/guides/gpt/function-calling)
+        - No repo, stars, or installation instructions; purely explanatory content
       category_candidates: []
       contrastive_reason: null
       review_reason: null

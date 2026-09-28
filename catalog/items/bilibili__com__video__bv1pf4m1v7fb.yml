@@ -51,22 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language video tutorial series on Bilibili introducing large language models (LLMs), covering their history, pretraining, adaptation, usage, and evaluation.
-  why_it_matters: It provides a structured educational resource for developers new to LLM technology, but it is not a practical tool or workflow for software development.
-  mental_damage: Another tutorial series to add to the watchlist you’ll never finish.
+  summary: This is a Bilibili video tutorial introducing LLM text generation technology, covering its history, pre-training, fine-tuning, usage, and evaluation for beginners.
+  why_it_matters: It serves as an educational resource for developers seeking foundational knowledge about LLMs and their practical application in text generation.
+  mental_damage: Yet another video tutorial promising to 'easily introduce' LLMs, adding to the endless backlog of content developers feel guilty for not watching.
   tags:
-    - tutorial
     - llm
-    - educational
-    - chinese
+    - tutorial
+    - education
+    - nlp
+    - ai
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational video series, not a practical AI tool, workflow, or developer-facing infrastructure.
+  reason: This is an educational video resource, not a developer-facing AI tool, agent, workflow, or infrastructure product; it lacks any executable tooling, SDK, agent behavior, or workflow integration relevant to software development practices.
   evidence:
-    - The URL points to a Bilibili video, not a GitHub repo or tool page
-    - The content is described as a tutorial series for LLM beginners
-    - No evidence of a code-first product, SDK, or developer tool
+    - "The source is a Bilibili video (BV1pF4m1V7FB) titled '轻松入门大语言模型（LLM）: 总篇集' with no associated GitHub repo or tool."
+    - The README/scraped context describes it as a tutorial covering LLM history, pre-training, fine-tuning, usage, and evaluation — purely educational content.
+    - It appears in 'awesome-LLM-resources' under the '技巧 Tips' section as a learning resource, not as a tool or framework for developers to use in workflows.
 placement:
   primary_category: null
   section: null
@@ -76,24 +77,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:44.227Z"
+    updated_at: "2026-09-28T04:39:18.104Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:16390e53f681e46a9f56b01273641916c07b269b93cea95a2f6469bc4e38a5f2
+      category_rules_version: c367d6101132
+      input_hash: sha256:14501debc40cc18501407401f2e5d980cdfc1763b7c022d022615cd63b4c60a6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational video series, not a practical AI tool, workflow, or developer-facing infrastructure.
+      decision_reason: This is an educational video resource, not a developer-facing AI tool, agent, workflow, or infrastructure product; it lacks any executable tooling, SDK, agent behavior, or workflow integration relevant to software development practices.
       decision_evidence:
-        - The URL points to a Bilibili video, not a GitHub repo or tool page
-        - The content is described as a tutorial series for LLM beginners
-        - No evidence of a code-first product, SDK, or developer tool
+        - "The source is a Bilibili video (BV1pF4m1V7FB) titled '轻松入门大语言模型（LLM）: 总篇集' with no associated GitHub repo or tool."
+        - The README/scraped context describes it as a tutorial covering LLM history, pre-training, fine-tuning, usage, and evaluation — purely educational content.
+        - It appears in 'awesome-LLM-resources' under the '技巧 Tips' section as a learning resource, not as a tool or framework for developers to use in workflows.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

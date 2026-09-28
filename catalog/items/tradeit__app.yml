@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__tradeit__app__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Trade Agent
         extracted_url: https://thetradeagent.ai
-        surrounding_text: >-
-          - **[Trade Agent](https://github.com/Trade-Agent/trade-agent-mcp)** - Execute stock and crypto trades via
-          [Trade Agent](https://thetradeagent.ai/)
+        surrounding_text: "- **[Trade Agent](https://github.com/Trade-Agent/trade-agent-mcp)** - Execute stock and crypto trades via [Trade Agent](https://thetradeagent.ai/)"
         confidence: high
 metadata:
   github:
@@ -38,42 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Embedded trading infrastructure enabling stock, crypto, ETF, and options trading via linked brokerages for websites,
-    AI agents, newsletters, and Discord servers.
-  why_it_matters: >-
-    Developers can integrate real trading capabilities into their apps or AI workflows without building brokerage
-    connections from scratch.
-  mental_damage: >-
-    Now your AI agent can day-trade on your behalf, because nothing says 'responsible development' like automated crypto
-    orders.
+  summary: Trade It is a brokerage integration layer that enables drafting and confirming stock, options, and crypto trades from Claude, ChatGPT, Discord, or embedded surfaces using existing brokerage accounts.
+  why_it_matters: It lets developers and traders execute trades through conversational AI without leaving their chat or switching apps, reducing context switching in trading workflows.
+  mental_damage: Finally, a way to feel the existential dread of options trading while chatting with an AI that can’t talk you out of it.
   tags:
     - trading
-    - mcp-server
-    - finance
-    - embedded-infra
-    - brokerage-api
+    - brokerage-integration
+    - ai-agent-tool
   confidence: high
 curation:
-  status: included
-  reason: >-
-    The product's core identity is an MCP server for trading, explicitly marketed as a way to give AI agents (Claude,
-    ChatGPT, etc.) trading capabilities via MCP.
+  status: excluded
+  reason: Trade It is a brokerage trading interface, not a developer-facing AI tool for coding, app building, agents, or infrastructure; its primary use case is financial trading, not software development workflows.
   evidence:
-    - 'Primary page excerpt explicitly mentions ''Agentic: MCP Server'' as one of three launch paths'
-    - Describes connecting Trade It to 'custom AI agents and chatbots like ChatGPT, Claude, & Gemini'
-    - MCP is presented as a first-class integration, not a compatibility footnote
+    - Primary function is connecting brokerages (Robinhood, Schwab, Coinbase) to trade stocks, options, and crypto via Claude, ChatGPT, or Discord
+    - Marketed as a trading tool for investors, with no mention of coding, code generation, or developer tooling in README or site
+    - Output is trade confirmation cards, not code, apps, agents, or development artifacts
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,31 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:38:10.127Z'
+    updated_at: "2026-09-28T04:47:31.134Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:36681ab02119999ec125abca729c7b5e5079f69e1b1f6b901c5c9119fce87eb7
-      proposed_primary_category: mcp
+      category_rules_version: c367d6101132
+      input_hash: sha256:f9e5b753f7fe79f57963638c61d5ff486b4da8edd221c81b76cc700e5676c160
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product's core identity is an MCP server for trading, explicitly marketed as a way to give AI agents
-        (Claude, ChatGPT, etc.) trading capabilities via MCP.
+      decision_reason: Trade It is a brokerage trading interface, not a developer-facing AI tool for coding, app building, agents, or infrastructure; its primary use case is financial trading, not software development workflows.
       decision_evidence:
-        - 'Primary page excerpt explicitly mentions ''Agentic: MCP Server'' as one of three launch paths'
-        - Describes connecting Trade It to 'custom AI agents and chatbots like ChatGPT, Claude, & Gemini'
-        - MCP is presented as a first-class integration, not a compatibility footnote
-      category_candidates:
-        - mcp
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose mcp over ai-frameworks because the product's primary identity is an MCP server for trading, not a general
-        SDK or framework.
+        - Primary function is connecting brokerages (Robinhood, Schwab, Coinbase) to trade stocks, options, and crypto via Claude, ChatGPT, or Discord
+        - Marketed as a trading tool for investors, with no mention of coding, code generation, or developer tooling in README or site
+        - Output is trade confirmation cards, not code, apps, agents, or development artifacts
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

@@ -51,52 +51,54 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Dash0 is an OpenTelemetry-native observability platform for monitoring AI agents, code, and production systems with cost control.
-  why_it_matters: It closes the feedback loop between AI-driven development and production by providing unified observability for both coding agents and runtime systems.
-  mental_damage: Now your AI agents can watch your AI agents, while you watch the bill.
+  summary: Dash0 is an OpenTelemetry-native observability platform for monitoring AI agents and applications in production.
+  why_it_matters: It gives developers visibility into AI-generated code and agent behavior, helping close the loop between coding velocity and production stability.
+  mental_damage: Another observability tool promising to fix the chaos AI coding tools created, while adding yet another dashboard to the burnout cycle.
   tags:
     - observability
     - opentelemetry
     - ai-agents
-    - production-monitoring
-    - cost-control
-  confidence: high
+    - monitoring
+    - devtools
+  confidence: medium
 curation:
-  status: excluded
-  reason: Dash0 is primarily an observability platform for production systems and AI agents, not a developer tool for building, extending, or orchestrating AI workflows.
+  status: included
+  reason: Dash0 focuses on observability and tracing of AI agent behavior in production, which aligns with the evals category's focus on measuring, tracing, and comparing agent behavior rather than acting as a coding agent or app builder.
   evidence:
-    - Core product is OpenTelemetry-native observability with APM, RUM, and infra monitoring
-    - Focuses on production monitoring, cost control, and incident response rather than developer tooling
-    - Source-list context shows it as an MCP server, but MCP is a compatibility feature, not the product identity
+    - Dash0 acquires Polar Signals and provides AI SDLC Insights, Chat Automations, and Auto-tune for monitoring agents writing code
+    - Product emphasizes 'See everything happening in production' and 'fix problems automatically' for AI-generated code
+    - Listed in awesome-mcp-servers under 'Official Servers' with description referencing OpenTelemetry Native Observability
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability & Tracing
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:33:36.828Z"
+    updated_at: "2026-09-28T04:40:37.428Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0d9f933e3b38e54a3a520c9a9131996ebf7c5f84a218bd89a7ed82b623b68401
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:d564204e8e7a1e6ac580d3b252122da5d5638dfbb335c1c05a4803e24f72fc61
+      proposed_primary_category: evals
       disagreement: false
-      decision_reason: Dash0 is primarily an observability platform for production systems and AI agents, not a developer tool for building, extending, or orchestrating AI workflows.
+      decision_reason: Dash0 focuses on observability and tracing of AI agent behavior in production, which aligns with the evals category's focus on measuring, tracing, and comparing agent behavior rather than acting as a coding agent or app builder.
       decision_evidence:
-        - Core product is OpenTelemetry-native observability with APM, RUM, and infra monitoring
-        - Focuses on production monitoring, cost control, and incident response rather than developer tooling
-        - Source-list context shows it as an MCP server, but MCP is a compatibility feature, not the product identity
-      category_candidates: []
-      contrastive_reason: null
+        - Dash0 acquires Polar Signals and provides AI SDLC Insights, Chat Automations, and Auto-tune for monitoring agents writing code
+        - Product emphasizes 'See everything happening in production' and 'fix problems automatically' for AI-generated code
+        - Listed in awesome-mcp-servers under 'Official Servers' with description referencing OpenTelemetry Native Observability
+      category_candidates:
+        - evals
+        - memory-and-context
+      contrastive_reason: Choose evals over memory-and-context because Dash0's core job is measuring, tracing, and comparing AI agent behavior in production rather than focusing on persistent memory, retrieval, or context compression for agents.
       review_reason: null
       review_resume_lifecycle: null
   discover:

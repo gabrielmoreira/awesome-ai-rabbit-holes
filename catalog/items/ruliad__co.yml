@@ -36,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Ruliad Chat is a web-based AI chat interface branded as Self Sovereign Intelligence.
-  why_it_matters: It offers a developer-facing chat experience, though its specific coding or workflow capabilities are unclear from the provided context.
-  mental_damage: Another chat interface in a sea of chat interfaces, because the world needed more places to type prompts.
+  summary: Ruliad Chat is a self-sovereign intelligence chat interface.
+  why_it_matters: It offers developers a private, locally controlled AI chat experience focused on autonomy and data ownership.
+  mental_damage: Another chat UI promising sovereignty while you still wonder if it just wraps a cloud model behind a local frontend.
   tags:
-    - ai-chat
-    - web-interface
-  confidence: high
+    - local-ai
+    - chat
+  confidence: medium
 curation:
-  status: excluded
-  reason: The product is a generic AI chat interface with no clear developer-tooling focus, coding capabilities, or integration with developer workflows.
+  status: included
+  reason: Ruliad Chat emphasizes self-sovereign intelligence and local execution, aligning with local AI desktop chat tools that prioritize privacy and offline use.
   evidence:
-    - Site title and description ('Ruliad Chat', 'Self Sovereign Intelligence') suggest a chat interface rather than a developer tool
-    - No repo description, README, or technical details to confirm developer-specific functionality
+    - "Scraped site title: 'Ruliad Chat'"
+    - "Scraped site description: 'Self Sovereign Intelligence'"
+    - No evidence of code editing, agent orchestration, or app generation; focuses on chat interaction
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Desktop Chat & UIs
 lifecycle:
   status: incubating
   reason: null
@@ -67,24 +68,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:16.140Z"
+    updated_at: "2026-09-28T04:36:19.503Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:c169e01a0eae7e04531f65dd31f392190c678f045fb3c38e38a17fd273298dab
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:e72f00d7bfbc09b0d4880bfa65de42429270dcf5b963b36bcacb225353d56824
+      proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: The product is a generic AI chat interface with no clear developer-tooling focus, coding capabilities, or integration with developer workflows.
+      decision_reason: Ruliad Chat emphasizes self-sovereign intelligence and local execution, aligning with local AI desktop chat tools that prioritize privacy and offline use.
       decision_evidence:
-        - Site title and description ('Ruliad Chat', 'Self Sovereign Intelligence') suggest a chat interface rather than a developer tool
-        - No repo description, README, or technical details to confirm developer-specific functionality
-      category_candidates: []
-      contrastive_reason: null
+        - "Scraped site title: 'Ruliad Chat'"
+        - "Scraped site description: 'Self Sovereign Intelligence'"
+        - No evidence of code editing, agent orchestration, or app generation; focuses on chat interaction
+      category_candidates:
+        - local-ai
+        - coding-agents
+      contrastive_reason: Choose local-ai over coding-agents because Ruliad Chat is a desktop chat interface for private AI interaction, not an agent that autonomously writes, edits, or reviews code.
       review_reason: null
       review_resume_lifecycle: null

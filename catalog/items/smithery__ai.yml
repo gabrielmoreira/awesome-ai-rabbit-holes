@@ -36,27 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: smithery.ai is a platform listed under MCP (Model Context Protocol) resources in a curated LLM directory.
-  why_it_matters: It appears to provide MCP-related functionality, which can help developers integrate or extend AI tools with standardized context protocols.
-  mental_damage: Another MCP entry in the ecosystem, because apparently we need a protocol for our protocols.
+  summary: Smithery is a registry and discovery platform for MCP servers that enables AI agents to connect to thousands of tools and services.
+  why_it_matters: It simplifies agent tooling by handling authentication, sessions, and credentials, letting developers focus on building agent capabilities rather than integration plumbing.
+  mental_damage: Another layer in the MCP stack that makes you wonder if we’re just shifting complexity from API keys to tool discovery fatigue.
   tags:
     - mcp
-    - protocol
-    - developer-tools
-  confidence: low
+    - registry
+    - discovery
+  confidence: high
 curation:
-  status: excluded
-  reason: The project's identity and purpose are unclear from the provided inputs, and the only signal is its inclusion in an MCP section of a broad LLM resource list, which is insufficient to confirm a developer-tooling fit.
+  status: included
+  reason: Smithery’s core identity is as an MCP registry and discovery service, not a coding agent, framework, or orchestrator, making MCP Ecosystem the correct category.
   evidence:
-    - No repo description, README, or homepage context provided
-    - Only appears in a generic LLM resource list under MCP section
-    - No concrete evidence of developer-facing tooling or functionality
+    - Smithery is described as a platform to 'Connect agents to thousands of tools and services' with MCP handling auth, credentials, and sessions.
+    - It appears in the awesome-LLM-resources list under the 模型上下文协议 MCP section, indicating recognition as an MCP-focused resource.
+    - The site features numerous MCP servers (e.g., OneSignal, Exa Search, DevMatch) that users can add to their toolbox, confirming its role as an MCP registry and discovery hub.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Registries & Discovery
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -69,25 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:39.468Z"
+    updated_at: "2026-09-28T04:37:37.682Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:cbb1019d27f4267330813923fa677b126ed56d4d1ced0e02941c9a2eb52f16bb
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:c76ad6f873262115102ce4c16a719493c8861b1f94bbbaa7d189dd4d82da0c53
+      proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's identity and purpose are unclear from the provided inputs, and the only signal is its inclusion in an MCP section of a broad LLM resource list, which is insufficient to confirm a developer-tooling fit.
+      decision_reason: Smithery’s core identity is as an MCP registry and discovery service, not a coding agent, framework, or orchestrator, making MCP Ecosystem the correct category.
       decision_evidence:
-        - No repo description, README, or homepage context provided
-        - Only appears in a generic LLM resource list under MCP section
-        - No concrete evidence of developer-facing tooling or functionality
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+        - Smithery is described as a platform to 'Connect agents to thousands of tools and services' with MCP handling auth, credentials, and sessions.
+        - It appears in the awesome-LLM-resources list under the 模型上下文协议 MCP section, indicating recognition as an MCP-focused resource.
+        - The site features numerous MCP servers (e.g., OneSignal, Exa Search, DevMatch) that users can add to their toolbox, confirming its role as an MCP registry and discovery hub.
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because Smithery is an MCP registry and discovery platform, not a tool that extends a specific coding agent or editor.
+      review_reason: null
       review_resume_lifecycle: null

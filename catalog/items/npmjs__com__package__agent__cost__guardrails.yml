@@ -36,24 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An npm package for managing and enforcing cost guardrails for AI agents.
-  why_it_matters: Helps developers control and monitor expenses when running AI agents, preventing unexpected costs.
-  mental_damage: Because nothing says 'developer productivity' like a tool that exists solely to stop your agents from bankrupting you.
+  summary: agent-cost-guardrails is an npm package that provides cost monitoring and budget controls for AI agents.
+  why_it_matters: Helps developers prevent runaway AI spending by setting usage limits and alerts for agent operations.
+  mental_damage: Finally, a way to feel guilty about both your code quality and your cloud bill at the same time.
   tags:
     - cost-management
     - ai-agents
-    - npm-package
-  confidence: high
+    - budgeting
+  confidence: medium
 curation:
-  status: excluded
-  reason: The package is a utility for cost control rather than a developer-facing AI tool, framework, or workflow product.
+  status: included
+  reason: It functions as a tool that extends AI agents with cost control capabilities rather than being a standalone agent or framework.
   evidence:
-    - Package name and description indicate a cost guardrails utility for AI agents
-    - No evidence of direct developer workflow augmentation (e.g., coding, orchestration, or context engineering)
-    - Source-list context (Developer Productivity Tools) is too broad to override the lack of fit
+    - Appears in awesome-ai-coding-tools under Developer Productivity Tools
+    - Distributed as an npm package suggesting integration into agent workflows
+    - Name implies guardrail functionality for agent cost management
 placement:
-  primary_category: null
-  section: null
+  primary_category: extensions-and-addons
+  section: Claude Code & Agent Tools
 lifecycle:
   status: incubating
   reason: null
@@ -69,25 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:11.348Z"
+    updated_at: "2026-09-28T04:33:46.436Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:73d3db4fb9219bbef785c62e1ed58eba8f4389b51ba781c08f594beafc5db7a1
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:3c9af459bf218dff15c67354aff983ec68d07035872e4e2f2b7f286e8b7dc05b
+      proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: The package is a utility for cost control rather than a developer-facing AI tool, framework, or workflow product.
+      decision_reason: It functions as a tool that extends AI agents with cost control capabilities rather than being a standalone agent or framework.
       decision_evidence:
-        - Package name and description indicate a cost guardrails utility for AI agents
-        - No evidence of direct developer workflow augmentation (e.g., coding, orchestration, or context engineering)
-        - Source-list context (Developer Productivity Tools) is too broad to override the lack of fit
-      category_candidates: []
-      contrastive_reason: null
+        - Appears in awesome-ai-coding-tools under Developer Productivity Tools
+        - Distributed as an npm package suggesting integration into agent workflows
+        - Name implies guardrail functionality for agent cost management
+      category_candidates:
+        - extensions-and-addons
+        - coding-agents
+      contrastive_reason: Choose extensions-and-addons over coding-agents because it provides cost monitoring as an add-on capability for agents rather than performing coding tasks autonomously.
       review_reason: null
       review_resume_lifecycle: null

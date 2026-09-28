@@ -36,28 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A no-code AI chatbot platform for automating customer support across chat, voice, and email channels.
-  why_it_matters: It reduces operational costs and response times for customer support teams by automating repetitive tasks like FAQs, order tracking, and appointment bookings.
-  mental_damage: Another SaaS promising to replace your support team with a bot that somehow knows your CRM better than you do.
+  summary: workhub.ai is a website promoting a tool called WorkBot that appears to be an AI autonomous agent.
+  why_it_matters: If it delivers on autonomous agent capabilities, it could help developers automate multi-step tasks without constant supervision.
+  mental_damage: Another 'autonomous agent' promising to replace your job while you nervously refresh the page waiting for it to actually do something useful.
   tags:
-    - customer-support
-    - no-code
-    - ai-chatbot
+    - ai-agent
     - automation
-  confidence: high
+  confidence: low
 curation:
   status: excluded
-  reason: This is a business-facing customer support automation tool, not a developer-tooling product.
+  reason: The available information only shows a marketing site for 'WorkBot' with no concrete details about its functionality, technical implementation, or developer-facing interface, making it impossible to determine if it fits any developer tooling category.
   evidence:
-    - Primary product is a no-code AI chatbot for customer support (chat, voice, email)
-    - Target audience is support managers, marketers, and SMBs, not software developers
-    - Source-list context places it in 'WorkBot' section of an AI agents list for customer support
+    - No GitHub repository or source code is linked, only a marketing website at workhub.ai
+    - Listed in awesome-ai-agents under the 'WorkBot' section with no further description
+    - No README, feature list, or technical documentation is provided in the inputs
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -70,25 +68,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:13.935Z"
+    updated_at: "2026-09-28T04:50:07.062Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:c43b012ccfbffe38dd97acd397f3ecdd30c515ddf877bacbf170954319549ec7
+      category_rules_version: c367d6101132
+      input_hash: sha256:87bacaa6c07e4b9167ec77f518d497277cd89ec6bab4952e3ea3c8296a75f8c7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a business-facing customer support automation tool, not a developer-tooling product.
+      decision_reason: The available information only shows a marketing site for 'WorkBot' with no concrete details about its functionality, technical implementation, or developer-facing interface, making it impossible to determine if it fits any developer tooling category.
       decision_evidence:
-        - Primary product is a no-code AI chatbot for customer support (chat, voice, email)
-        - Target audience is support managers, marketers, and SMBs, not software developers
-        - Source-list context places it in 'WorkBot' section of an AI agents list for customer support
+        - No GitHub repository or source code is linked, only a marketing website at workhub.ai
+        - Listed in awesome-ai-agents under the 'WorkBot' section with no further description
+        - No README, feature list, or technical documentation is provided in the inputs
       category_candidates: []
       contrastive_reason: null
-      review_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

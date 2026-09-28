@@ -36,26 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A platform for creating, sharing, and automating AI-driven DeFi trading strategies with a developer SDK and agent runtime.
-  why_it_matters: It provides an end-to-end infrastructure for autonomous DeFi operations, including strategy automation, benchmarking, and multi-tool reasoning for financial agents.
-  mental_damage: Now your code can lose money in DeFi while you sleep, and it will do so with deterministic, fault-tolerant resilience.
+  summary: UnifAI Network is a developer platform for building and deploying AI agents focused on DeFi strategy automation using a deterministic runtime and unified tool integration.
+  why_it_matters: It offers developers a turnkey way to create, test, and run autonomous DeFi agents without managing infrastructure or writing low-level protocol glue code.
+  mental_damage: Another ‘agent platform’ promising to replace dev work with YAML and hope, while quietly requiring deep DeFi expertise to avoid rug pulls.
   tags:
     - defi
-    - agent-orchestration
-    - finance
-    - automation
-    - sdk
-  confidence: high
+    - ai-agents
+    - developer-platform
+  confidence: medium
 curation:
-  status: excluded
-  reason: The product is a vertical DeFi agent platform with no clear developer-tooling angle beyond its own domain-specific SDK, and its primary audience is financial strategy creators rather than general software developers.
+  status: included
+  reason: UnifAI Network fits as an app builder because its core offering lets users describe DeFi strategies in natural language or via a UI to generate and deploy autonomous agent apps that execute on-chain logic, rather than acting as a coding agent that edits existing codebases.
   evidence:
-    - Primary page excerpt focuses on DeFi strategy automation, agent runtime, and financial benchmarks
-    - Mentions 'Developer SDK' but core product is a finance-specific agent platform
-    - Source-list context places it in MCP servers, but MCP is not the product identity
+    - UnifAI developed an AI agent builder for finding and creating liquidity positions. Design your own, or market-make like the experts with pre-built strategies from the LP Army.
+    - The product creates deployable agent strategies that autonomously open and close positions based on defined logic, with users putting in $SOL and letting the agent manage the rest.
+    - It positions itself as an end-user platform for creating, sharing, copying, and automating strategies with ease, targeting non-coder experts and developers alike.
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Internal Tools & Dashboards
 lifecycle:
   status: incubating
   reason: null
@@ -71,25 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:27.699Z"
+    updated_at: "2026-09-28T04:48:10.264Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:2b94fd31db8b3706db6e40a2f1987bfda2bed8168555d2f005b423bdbaca0055
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:c2ab3ece8e261a563b05c46d25066dee84718103c7ffa036963247e5fe536ca9
+      proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product is a vertical DeFi agent platform with no clear developer-tooling angle beyond its own domain-specific SDK, and its primary audience is financial strategy creators rather than general software developers.
+      decision_reason: UnifAI Network fits as an app builder because its core offering lets users describe DeFi strategies in natural language or via a UI to generate and deploy autonomous agent apps that execute on-chain logic, rather than acting as a coding agent that edits existing codebases.
       decision_evidence:
-        - Primary page excerpt focuses on DeFi strategy automation, agent runtime, and financial benchmarks
-        - Mentions 'Developer SDK' but core product is a finance-specific agent platform
-        - Source-list context places it in MCP servers, but MCP is not the product identity
-      category_candidates: []
-      contrastive_reason: null
+        - UnifAI developed an AI agent builder for finding and creating liquidity positions. Design your own, or market-make like the experts with pre-built strategies from the LP Army.
+        - The product creates deployable agent strategies that autonomously open and close positions based on defined logic, with users putting in $SOL and letting the agent manage the rest.
+        - It positions itself as an end-user platform for creating, sharing, copying, and automating strategies with ease, targeting non-coder experts and developers alike.
+      category_candidates:
+        - app-builders
+        - agent-orchestration
+      contrastive_reason: Choose app-builders over agent-orchestration because UnifAI’s main surface turns prompts or UI inputs into deployed agent strategies (apps) rather than primarily coordinating multiple agents in a workforce or control plane.
       review_reason: null
       review_resume_lifecycle: null

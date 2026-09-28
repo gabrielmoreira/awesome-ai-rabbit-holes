@@ -37,21 +37,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: MovieLens 1M is a stable benchmark dataset containing 1 million movie ratings from 6,000 users on 4,000 movies, released in 2003.
-  why_it_matters: It provides a standardized dataset for evaluating recommendation systems, which can be useful for developers building or testing AI-driven recommendation workflows.
-  mental_damage: Nothing says 'cutting-edge AI' like a 20-year-old dataset of Blockbuster-era movie ratings.
+  summary: A benchmark dataset consisting of 1 million movie ratings from 6,000 users across 4,000 movies.
+  why_it_matters: It provides a foundational dataset for training and evaluating recommendation system algorithms.
+  mental_damage: The unsettling realization that modern AI agents are often still being benchmarked against data from 2003.
   tags:
     - dataset
-    - benchmark
     - recommendation-systems
   confidence: high
 curation:
   status: excluded
-  reason: This is a dataset for recommendation system research, not a developer tool, framework, or workflow product within the catalog's scope.
+  reason: This is a static research dataset rather than a developer-facing tool, agent, framework, or infrastructure product.
   evidence:
-    - The project is a static dataset (1M movie ratings) with no developer-tooling functionality
-    - Source-list context places it under 'Agent4Rec' in an AI agents list, but the product itself is not a tool or agent
-    - No evidence of code, SDK, runtime, or workflow integration for developers
+    - The project is a collection of movie ratings, not executable software or an SDK
+    - It is categorized as a benchmark dataset for ML research rather than developer tooling
 placement:
   primary_category: null
   section: null
@@ -70,24 +68,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:26.112Z"
+    updated_at: "2026-09-28T04:19:37.672Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1deaa43f250ebaae9a926490a8a8ae9995de2b440cfaed707040be0b8c02cddf
+      category_rules_version: c367d6101132
+      input_hash: sha256:90e88510a8ce7cc74673a016c69449d89f370492033b7d9c67bbcfa908d57fb0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a dataset for recommendation system research, not a developer tool, framework, or workflow product within the catalog's scope.
+      decision_reason: This is a static research dataset rather than a developer-facing tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - The project is a static dataset (1M movie ratings) with no developer-tooling functionality
-        - Source-list context places it under 'Agent4Rec' in an AI agents list, but the product itself is not a tool or agent
-        - No evidence of code, SDK, runtime, or workflow integration for developers
+        - The project is a collection of movie ratings, not executable software or an SDK
+        - It is categorized as a benchmark dataset for ML research rather than developer tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null

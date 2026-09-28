@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A demo page showcasing GPTLocalhost, a tool for integrating local AI models into Microsoft Word.
-  why_it_matters: It demonstrates how developers can use various local AI runtimes (e.g., Ollama, LM Studio, llama.cpp) within a familiar productivity environment.
-  mental_damage: Because nothing says 'developer workflow' like turning Word into a Jupyter notebook for LLM experimentation.
+  summary: A demo site showcasing video tutorials for running various local LLMs inside Microsoft Word.
+  why_it_matters: Illustrates how developers can experiment with local AI models in a familiar desktop app, though it targets end‑users rather than developer tooling.
+  mental_damage: Another reminder that watching someone else paste a model into Word feels like productivity theater.
   tags:
+    - demo
     - local-ai
     - microsoft-word
-    - demo
-    - integration
   confidence: high
 curation:
   status: excluded
-  reason: This is a demo page for a product (GPTLocalhost) rather than a standalone developer tool, and the catalog scope excludes generic demo pages or marketing sites.
+  reason: It is a demonstration/tutorial page, not a developer‑facing AI tool, agent, framework, or infrastructure that fits the catalog's scope.
   evidence:
-    - The URL points to a demo page, not a repo or product homepage
-    - The page content is a list of video demos for integrating local AI in Microsoft Word
-    - No repo description, stars, or code artifacts are provided
+    - "Site title: 'Demos - GPTLocalhost' with description pointing to YouTube demos of local LLMs in Microsoft Word."
+    - Content consists solely of embedded videos showing usage of LLMs (e.g., Ollama, LM Studio, llama.cpp) inside Word, no code, SDK, or agent.
+    - Listed in awesome-local-ai under Inference UI, but the page itself offers no developer tooling or API.
 placement:
   primary_category: null
   section: null
@@ -72,24 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:22.237Z"
+    updated_at: "2026-09-28T04:18:51.557Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:dccf954b09543f5b9a78894ed21ec0c05274fd1f47786ddfc3fc02eac1226b60
+      category_rules_version: c367d6101132
+      input_hash: sha256:6de0df9663e270f8e1799df1bd0b17446412e1dd5ec281bb84db619b75ce3430
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a demo page for a product (GPTLocalhost) rather than a standalone developer tool, and the catalog scope excludes generic demo pages or marketing sites.
+      decision_reason: It is a demonstration/tutorial page, not a developer‑facing AI tool, agent, framework, or infrastructure that fits the catalog's scope.
       decision_evidence:
-        - The URL points to a demo page, not a repo or product homepage
-        - The page content is a list of video demos for integrating local AI in Microsoft Word
-        - No repo description, stars, or code artifacts are provided
+        - "Site title: 'Demos - GPTLocalhost' with description pointing to YouTube demos of local LLMs in Microsoft Word."
+        - Content consists solely of embedded videos showing usage of LLMs (e.g., Ollama, LM Studio, llama.cpp) inside Word, no code, SDK, or agent.
+        - Listed in awesome-local-ai under Inference UI, but the page itself offers no developer tooling or API.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

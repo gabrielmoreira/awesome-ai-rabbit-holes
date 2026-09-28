@@ -36,20 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The desktop application for interacting with Anthropic's Claude LLM.
-  why_it_matters: Provides a native interface for accessing Claude's reasoning and coding capabilities outside of a web browser.
-  mental_damage: Another window to keep open while waiting for a model to finish writing the boilerplate you could have written in five minutes.
+  summary: Claude AI's native desktop application for direct access to the assistant.
+  why_it_matters: Provides a dedicated interface for developers to use Claude without browser or terminal constraints.
+  mental_damage: Yet another siloed way to talk to the same model, adding app fatigue to prompt fatigue.
   tags:
+    - ai
+    - desktop
     - claude
-    - desktop-app
-    - chat-client
   confidence: high
 curation:
   status: excluded
-  reason: The Claude desktop app is a general-purpose chat client rather than a specialized developer tool like a coding agent, IDE, or framework.
+  reason: Claude Desktop is a client interface for a model provider, not a developer tool that performs coding tasks, builds apps, or extends agents.
   evidence:
-    - The URL points to a general-purpose LLM interface rather than a developer-specific tool
-    - The product identity is a chat client, lacking native repository-aware or agentic code-manipulation features required for the coding-agents category
+    - "URL: https://claude.ai/desktop — official Claude AI desktop client"
+    - "Source-list context: listed in awesome-ai-coding-tools under 'Code Editors and Assistants'"
+    - No evidence of autonomous coding, app generation, or agent extension capabilities
 placement:
   primary_category: null
   section: null
@@ -68,23 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:14:45.443Z"
+    updated_at: "2026-09-28T04:53:22.933Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:69e55afd7384861ab5f7493b2743f5e98d6e0f110b7b4590894ed0eaa3bd6d45
+      category_rules_version: c367d6101132
+      input_hash: sha256:b08740be8ea05d5e8596fa682d22827612a139281aa143f4c6c73bdd7d38bc37
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The Claude desktop app is a general-purpose chat client rather than a specialized developer tool like a coding agent, IDE, or framework.
+      decision_reason: Claude Desktop is a client interface for a model provider, not a developer tool that performs coding tasks, builds apps, or extends agents.
       decision_evidence:
-        - The URL points to a general-purpose LLM interface rather than a developer-specific tool
-        - The product identity is a chat client, lacking native repository-aware or agentic code-manipulation features required for the coding-agents category
+        - "URL: https://claude.ai/desktop — official Claude AI desktop client"
+        - "Source-list context: listed in awesome-ai-coding-tools under 'Code Editors and Assistants'"
+        - No evidence of autonomous coding, app generation, or agent extension capabilities
       category_candidates: []
       contrastive_reason: null
       review_reason: null

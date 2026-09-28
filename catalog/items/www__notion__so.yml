@@ -36,20 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Notion is a collaborative workspace and productivity platform for notes, databases, wikis, and project management.
-  why_it_matters: It is not a developer-tooling product focused on AI-assisted coding workflows.
-  mental_damage: The only rabbit hole here is the one where you spend three hours formatting a table instead of writing code.
+  summary: Notion is a general-purpose note-taking and workspace application for personal and team productivity.
+  why_it_matters: It is not a developer-facing AI tool and does not focus on coding, agents, or software development workflows.
+  mental_damage: Another all-in-one tool that promises to replace everything but delivers yet another tab to manage.
   tags:
     - productivity
-    - collaboration
     - notes
+    - workspace
   confidence: high
 curation:
   status: excluded
-  reason: Notion is a general-purpose productivity platform with no developer-tooling or AI coding workflow focus.
+  reason: Notion is a general productivity platform with no primary identity as an AI developer tool, agent, framework, or infrastructure relevant to software development workflows.
   evidence:
-    - URL and product identity are Notion's main site, a non-developer SaaS
-    - No repo description, topics, or signals indicating AI coding tooling
+    - "Repo description: (none)"
+    - "URL: https://www.notion.so (a note-taking and workspace app)"
+    - No README excerpt or scraped site context provided indicating AI developer tooling
 placement:
   primary_category: null
   section: null
@@ -68,23 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:21.639Z"
+    updated_at: "2026-09-28T04:50:30.277Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b5143c15354af83658741f92f28265c1cf69d188311829b6891dcdc9f9ce6e63
+      category_rules_version: c367d6101132
+      input_hash: sha256:44c98eb56c1535af5909eef78c04a54a9db514d98101999c04f1259b10caf1f9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Notion is a general-purpose productivity platform with no developer-tooling or AI coding workflow focus.
+      decision_reason: Notion is a general productivity platform with no primary identity as an AI developer tool, agent, framework, or infrastructure relevant to software development workflows.
       decision_evidence:
-        - URL and product identity are Notion's main site, a non-developer SaaS
-        - No repo description, topics, or signals indicating AI coding tooling
+        - "Repo description: (none)"
+        - "URL: https://www.notion.so (a note-taking and workspace app)"
+        - No README excerpt or scraped site context provided indicating AI developer tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null

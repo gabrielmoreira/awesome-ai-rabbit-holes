@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: 669720247 is a Bilibili personal space belonging to a vehicle algorithm engineer sharing educational content on autonomous driving algorithms.
-  why_it_matters: Offers developer-relevant technical videos on autonomous driving algorithms from industry-experienced engineers.
-  mental_damage: Another 'follow for ML career tips' account that buries signal under algorithm lecture vibes and无注释 code snippets.
+  summary: Bilibili personal space for an algorithm engineer sharing videos, audio, articles, and updates about vehicle algorithm engineering and LLM systems.
+  why_it_matters: Provides educational content on LLM systems and vehicle algorithms that developers can learn from.
+  mental_damage: Another creator hoping their niche technical ramblings become the next cursedawesome list.
   tags:
-    - video
-    - tutorial
-    - autonomous-driving
+    - education
+    - llm
+    - vehicle-algorithms
   confidence: high
 curation:
   status: excluded
-  reason: This is a personal educational media channel, not a developer-facing AI tool, agent, or infrastructure product.
+  reason: This is a personal content creator's Bilibili page sharing videos and articles, not a developer tool, agent, framework, or infrastructure product.
   evidence:
-    - Bilibili personal space (UP主) sharing videos, audio, articles about autonomous driving algorithms
-    - Source-list context describes it as a tutorial resource for vehicle algorithm engineers, not a dev tool
-    - No GitHub repo, no product identity, no tooling, framework, or agent capabilities described
+    - Scraped site context describes it as a personal space providing videos, audio, articles, and updates from an algorithm engineer
+    - Source-list context shows it's included in awesome-LLM-resources under '教程 Tutorial' as educational content
+    - No evidence of being a tool, agent, SDK, platform, or any developer-facing product that performs coding tasks or aids development workflows
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:55.921Z"
+    updated_at: "2026-09-28T04:37:58.913Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:9d092ff1f332082480bb6b6c9875ba075e0add4a14a249e3bffe1cab8d048fc6
+      category_rules_version: c367d6101132
+      input_hash: sha256:ad15114bb4eaf5f2c66f11b7677c92178a6e52c52bf3ecd662a254c467e0e652
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a personal educational media channel, not a developer-facing AI tool, agent, or infrastructure product.
+      decision_reason: This is a personal content creator's Bilibili page sharing videos and articles, not a developer tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - Bilibili personal space (UP主) sharing videos, audio, articles about autonomous driving algorithms
-        - Source-list context describes it as a tutorial resource for vehicle algorithm engineers, not a dev tool
-        - No GitHub repo, no product identity, no tooling, framework, or agent capabilities described
+        - Scraped site context describes it as a personal space providing videos, audio, articles, and updates from an algorithm engineer
+        - Source-list context shows it's included in awesome-LLM-resources under '教程 Tutorial' as educational content
+        - No evidence of being a tool, agent, SDK, platform, or any developer-facing product that performs coding tasks or aids development workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__llmresourceshub__vercel__app__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,7 +18,7 @@ provenance:
           - 课程 Course
         anchor_text: LLM Resources Hub
         extracted_url: https://llmresourceshub.vercel.app
-        surrounding_text: '> [LLM Resources Hub](https://llmresourceshub.vercel.app/)'
+        surrounding_text: "> [LLM Resources Hub](https://llmresourceshub.vercel.app/)"
         confidence: high
 metadata:
   github:
@@ -36,32 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated directory of LLM resources, tools, and learning materials for developers.
-  why_it_matters: >-
-    Provides a centralized hub for developers to discover AI/ML tools, frameworks, and educational content relevant to
-    their workflows.
-  mental_damage: Another directory to bookmark in the ever-growing graveyard of 'definitive' AI resource lists.
+  summary: A curated collection of LLM resources, tools, and learning materials.
+  why_it_matters: Helps developers discover relevant AI development resources in one place.
+  mental_damage: Another link dump promising to save you from link dumps.
   tags:
-    - directory
-    - llm-resources
+    - llm
+    - resources
     - curated-list
   confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The site is a curated directory of LLM resources, matching the purpose of awesome-awesomes as a discovery aid for developers rather than a standalone tool or product.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Scraped site title: 'LLM Resource Hub'"
+    - "Scraped site description: 'A comprehensive collection of Large Language Model (LLM) resources, tools, and learning materials.'"
+    - "Appears in source list: awesome-LLM-resources under section '课程 Course' with summary describing it as a collection of LLM resources and tools"
 placement:
-  primary_category: null
+  primary_category: awesome-awesomes
   secondary_categories: []
-  section: null
+  section: Awesome Lists & Directories
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,32 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:29:10.818Z'
+    updated_at: "2026-09-28T04:31:20.418Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a65f36cd325e0883aa40662d8e9d3deeea90af77c95767d9ff4469e821162e53
+      category_rules_version: c367d6101132
+      input_hash: sha256:ecacbf50ca107551aebd8a66b6cb2878d6313a7766f6fc933693226285015028
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: >-
-        This is a curated directory of LLM resources, which fits the scope of navigation aids for developers under the
-        awesome-awesomes category.
+      decision_reason: The site is a curated directory of LLM resources, matching the purpose of awesome-awesomes as a discovery aid for developers rather than a standalone tool or product.
       decision_evidence:
-        - >-
-          Scraped site context describes it as 'A comprehensive collection of Large Language Model (LLM) resources,
-          tools, and learning materials.'
-        - Source-list context places it in a curated list of LLM resources under the 'Course' section.
+        - "Scraped site title: 'LLM Resource Hub'"
+        - "Scraped site description: 'A comprehensive collection of Large Language Model (LLM) resources, tools, and learning materials.'"
+        - "Appears in source list: awesome-LLM-resources under section '课程 Course' with summary describing it as a collection of LLM resources and tools"
       category_candidates:
         - awesome-awesomes
-        - newsletters-and-feeds
-      contrastive_reason: >-
-        Choose awesome-awesomes over newsletters-and-feeds because the primary value is discovery and navigation of
-        resources, not recurring commentary or updates.
+        - skills
+      contrastive_reason: Choose awesome-awesomes over skills because the site is a curated directory of resources, not a registry or collection of installable skill packs or rules for coding agents.
       review_reason: null
       review_resume_lifecycle: null

@@ -51,22 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A communications platform offering APIs for SMS, voice, email, and conversational AI, with additional features like conversation memory and orchestration.
-  why_it_matters: Developers can integrate AI-driven communication workflows (e.g., customer support, notifications) into applications via Twilio's APIs and AI features.
-  mental_damage: Now your AI can also spam customers via SMS, because why should humans have all the fun.
+  summary: Twilio is a communications platform offering APIs for SMS, voice, email, and conversational AI to build customer engagement experiences.
+  why_it_matters: Developers use Twilio to embed real-time communication and AI-driven conversations into applications without managing telecom infrastructure.
+  mental_damage: Yet another reminder that 'agentic era' is just the latest buzzword for wrapping Twilio’s decade-old SMS API in fresh AI marketing.
   tags:
+    - communications
+    - ai
+    - sms
+    - voice
     - cpas
-    - ai-communications
-    - customer-engagement
-    - api-platform
   confidence: high
 curation:
   status: excluded
-  reason: Twilio is a general-purpose communications platform (CPaaS) with AI features, not a developer-tooling product focused on coding workflows, agent orchestration, or AI infrastructure for software development.
+  reason: Twilio is a broad SaaS communications platform with AI features, not a developer-facing AI tool whose primary identity is coding agents, app building, or agent orchestration.
   evidence:
-    - Primary identity is a CPaaS platform for SMS/voice/email, not a coding assistant or developer toolchain
-    - AI features are conversational (customer-facing) rather than developer-facing workflows
-    - Source-list context (awesome-mcp-servers) is tangential; MCP is not the product identity
+    - "Source-list context: appears in awesome-mcp-servers as an 'Official Server' but only due to MCP compatibility, not MCP identity"
+    - "Scraped site context: positions itself as a CPaaS platform for SMS, voice, email, and conversational AI, not a coding agent or dev tool"
+    - No evidence of being a standalone AI developer tool; markets to enterprise, startups, and industries broadly
 placement:
   primary_category: null
   section: null
@@ -76,24 +77,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:29.101Z"
+    updated_at: "2026-09-28T04:48:21.010Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:13fb3dcda34d0dd5c34a53f47b12a1a4c774096bdf1033b5cdc340b2b744639f
+      category_rules_version: c367d6101132
+      input_hash: sha256:e77bb0fca247676e29364a2ea4e519e09929265467b652616bae3582dc7a5095
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Twilio is a general-purpose communications platform (CPaaS) with AI features, not a developer-tooling product focused on coding workflows, agent orchestration, or AI infrastructure for software development.
+      decision_reason: Twilio is a broad SaaS communications platform with AI features, not a developer-facing AI tool whose primary identity is coding agents, app building, or agent orchestration.
       decision_evidence:
-        - Primary identity is a CPaaS platform for SMS/voice/email, not a coding assistant or developer toolchain
-        - AI features are conversational (customer-facing) rather than developer-facing workflows
-        - Source-list context (awesome-mcp-servers) is tangential; MCP is not the product identity
+        - "Source-list context: appears in awesome-mcp-servers as an 'Official Server' but only due to MCP compatibility, not MCP identity"
+        - "Scraped site context: positions itself as a CPaaS platform for SMS, voice, email, and conversational AI, not a coding agent or dev tool"
+        - No evidence of being a standalone AI developer tool; markets to enterprise, startups, and industries broadly
       category_candidates: []
       contrastive_reason: null
       review_reason: null

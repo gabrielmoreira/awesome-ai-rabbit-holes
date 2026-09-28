@@ -44,15 +44,15 @@ metadata:
       fetched_at: "2026-09-24T04:13:01.366Z"
       bytes: 7427
 insights:
-  summary: A kanban-based task manager and workspace orchestrator for coordinating multiple coding agents like Claude Code, Codex, and Gemini CLI.
-  why_it_matters: It streamlines planning, execution, and review workflows for developers using AI coding agents by providing a unified interface for task management and agent coordination.
-  mental_damage: Now you can spend less time herding cats and more time herding coding agents.
+  summary: Vibe Kanban is a terminal-based tool that integrates coding agents with kanban issue planning, workspace execution, and PR workflows.
+  why_it_matters: It streamlines the human-in-the-loop agent workflow by combining task planning, agent execution, and review in one CLI-driven interface.
+  mental_damage: Finally, a way to feel productive while watching an AI agent implement your poorly defined kanban card.
   tags:
-    - agent-orchestration
-    - task-management
-    - coding-agents
     - kanban
-    - multi-agent
+    - coding-agent
+    - workspace
+    - cli
+    - task-management
   confidence: high
 curation:
   status: included
@@ -63,10 +63,10 @@ curation:
     - Source-list context places it in 'Harnesses & orchestration' and 'Workflow Management' sections
 placement:
   primary_category: agent-orchestration
-  section: Visual Builders & Workbenches
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (25993) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
 processing:
   discover:
     status: done
@@ -79,30 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:57:23.439Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:415db5d0218b386a583026dfbff27eef223c4475eebad4c4334b6517dddfecba
-      proposed_primary_category: agent-orchestration
-      disagreement: false
-      decision_reason: The product's core value is coordinating multiple coding agents in a shared workspace with kanban-style task management, fitting the agent orchestration category.
+      category_rules_version: c367d6101132
+      input_hash: sha256:b158436f4cf22cad2950ee288ec796a09899f57d011364beaba003487bf99cfc
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: Vibe Kanban primarily functions as a workflow extension that enhances coding agents with kanban planning, workspace orchestration, and PR integration rather than acting as a standalone coding agent.
       decision_evidence:
-        - README describes it as a tool to 'get 10X more out of Claude Code, Codex or any coding agent' with kanban planning and multi-agent workspace execution
-        - Supports 10+ coding agents (Claude Code, Codex, Gemini CLI, etc.) in a unified interface
-        - Source-list context places it in 'Harnesses & orchestration' and 'Workflow Management' sections
+        - "Repo description states: 'Get 10X more out of Claude Code, Codex or any coding agent'"
+        - README emphasizes planning with kanban issues, running agents in workspaces, reviewing diffs, and switching between agents
+        - Source-list placement in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'
       category_candidates:
-        - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the primary product identity is a multi-agent workbench rather than a thin extension for a single assistant.
-      review_reason: null
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because Vibe Kanban augments existing coding agents with workflow capabilities rather than performing coding tasks autonomously as its primary function.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
       review_resume_lifecycle: null

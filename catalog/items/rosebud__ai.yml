@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__rosebud__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - App Builders
         anchor_text: Rosebud AI
         extracted_url: https://rosebud.ai
-        surrounding_text: '- **[Rosebud AI](https://rosebud.ai)** – Vibe coding platform for 3D games and interactive web apps.'
+        surrounding_text: "- **[Rosebud AI](https://rosebud.ai)** – Vibe coding platform for 3D games and interactive web apps."
         confidence: high
 metadata:
   github:
@@ -36,27 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web platform for creating and deploying playable games from AI prompts without coding.
-  why_it_matters: It enables non-developers or developers to prototype and deploy games quickly using natural language descriptions.
-  mental_damage: >-
-    Now you can build a game in an afternoon, but you’ll still spend the next six months tweaking the prompt to get the
-    NPCs to stop walking through walls.
+  summary: Rosebud AI Game Maker lets users create and deploy playable games from AI prompts or templates without coding.
+  why_it_matters: Enables rapid prototyping of games through natural language, lowering the barrier to entry for game development and interactive experiences.
+  mental_damage: Another promise that describing your dream game in a textbox will magically ship something playable—until you hit the limits of what 'no coding required' actually means.
   tags:
-    - game-development
-    - prompt-to-app
+    - app-builder
+    - game-dev
     - no-code
-    - ai-generation
+    - prompt-to-app
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core value is turning prompts into deployable games, fitting the prompt-to-app builder category rather
-    than a coding assistant or IDE.
+  reason: Rosebud AI's core identity is generating complete, deployable games from prompts without requiring users to edit an existing codebase, fitting the app-builder pattern.
   evidence:
-    - >-
-      Site description explicitly states 'Create playable games with AI prompts. Describe your idea or choose a
-      template, then build and deploy your game. No coding required.'
-    - Source-list context places it in 'App Builders' section of awesome-ai-coding-tools.
+    - "Scraped site context: 'Create playable games with AI prompts. Describe your idea or choose a template, then build and deploy your game. No coding required.'"
+    - "Source-list context: Listed in awesome-ai-coding-tools under App Builders section with the same prompt-to-game description."
+    - "Primary page excerpt shows workflow: describe game or pick template → create → deploy, with no mention of editing existing repositories."
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -67,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,32 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:31:12.375Z'
+    updated_at: "2026-09-28T04:36:09.601Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e21e68241c37b7590f569129bdf45ea232457a03035106a4014626c4e78c908d
+      category_rules_version: c367d6101132
+      input_hash: sha256:e090578e7120b2ff0d4f5788679dbf14591a573633e54dbaae4b129a072164d5
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        The product's core value is turning prompts into deployable games, fitting the prompt-to-app builder category
-        rather than a coding assistant or IDE.
+      decision_reason: Rosebud AI's core identity is generating complete, deployable games from prompts without requiring users to edit an existing codebase, fitting the app-builder pattern.
       decision_evidence:
-        - >-
-          Site description explicitly states 'Create playable games with AI prompts. Describe your idea or choose a
-          template, then build and deploy your game. No coding required.'
-        - Source-list context places it in 'App Builders' section of awesome-ai-coding-tools.
+        - "Scraped site context: 'Create playable games with AI prompts. Describe your idea or choose a template, then build and deploy your game. No coding required.'"
+        - "Source-list context: Listed in awesome-ai-coding-tools under App Builders section with the same prompt-to-game description."
+        - "Primary page excerpt shows workflow: describe game or pick template → create → deploy, with no mention of editing existing repositories."
       category_candidates:
         - app-builders
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose app-builders over ai-frameworks because the primary surface is a hosted prompt-to-app builder, not a
-        code-first SDK or library.
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because Rosebud generates new games from prompts rather than acting as an agent that edits or assists within an existing codebase.
       review_reason: null
       review_resume_lifecycle: null

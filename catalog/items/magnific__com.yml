@@ -51,23 +51,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Magnific (formerly Freepik) is a creative AI platform for generating and editing images, videos, audio, and 3D content with workflow automation and MCP/API integrations.
-  why_it_matters: It offers developers MCP and API access to integrate AI-driven creative tools (image/video/audio generation, upscaling, editing) into their workflows or products.
-  mental_damage: Now your codebase can demand cinematic product shots and voiceovers, because why should designers have all the fun.
+  summary: Freepik (now Magnific) is a creative AI platform for generating, editing, and managing images, video, audio, and 3D content with MCP integration.
+  why_it_matters: It gives developers access to generative media tools via API and MCP for building AI-powered creative workflows inside agent-based applications.
+  mental_damage: Another 'everything AI' dashboard that makes you wonder if your IDE needs a background remover to feel complete.
   tags:
-    - creative-ai
-    - mcp-integration
-    - api
-    - multimodal
-    - workflow-automation
+    - creative-tools
+    - mcp
+    - media-generation
   confidence: high
 curation:
   status: excluded
-  reason: The core product is a creative AI platform for non-developers (designers, marketers, filmmakers), not a developer-tooling product, despite offering MCP/API access as a secondary feature.
+  reason: Freepik/Magnific is a generative media platform for creatives, not a developer-facing AI tool for coding, agents, or software workflows.
   evidence:
-    - Primary identity is a creative platform for image/video/audio/3D generation (per scraped site context)
-    - Target audience is creatives, enterprises, and agencies (per homepage messaging)
-    - MCP/API are listed as integrations, not the main product (per 'Connect via MCP and use Magnific from any AI agent' section)
+    - "Source-list placement: listed under 'UI Generators' in awesome-ai-coding-tools with no developer-tooling focus"
+    - "README/scraped context: emphasizes image/video/audio/3D generation, stock assets, and creative workflows — not code or agent interaction"
 placement:
   primary_category: null
   section: null
@@ -77,24 +74,23 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:24.999Z"
+    updated_at: "2026-09-28T04:42:46.690Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:bd3ae0b0c8cecc7a2cf8234d510d9a8c04b1fe8a224b70a15e24883198f81467
+      category_rules_version: c367d6101132
+      input_hash: sha256:907d4a41a15143389aade272608cc1d879bec33267c0da93ab3ceff1240130b1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The core product is a creative AI platform for non-developers (designers, marketers, filmmakers), not a developer-tooling product, despite offering MCP/API access as a secondary feature.
+      decision_reason: Freepik/Magnific is a generative media platform for creatives, not a developer-facing AI tool for coding, agents, or software workflows.
       decision_evidence:
-        - Primary identity is a creative platform for image/video/audio/3D generation (per scraped site context)
-        - Target audience is creatives, enterprises, and agencies (per homepage messaging)
-        - MCP/API are listed as integrations, not the main product (per 'Connect via MCP and use Magnific from any AI agent' section)
+        - "Source-list placement: listed under 'UI Generators' in awesome-ai-coding-tools with no developer-tooling focus"
+        - "README/scraped context: emphasizes image/video/audio/3D generation, stock assets, and creative workflows — not code or agent interaction"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

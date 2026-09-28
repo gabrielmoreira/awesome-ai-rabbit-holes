@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__create__xyz__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - App Builders
         anchor_text: Create.xyz
         extracted_url: https://create.xyz
-        surrounding_text: '- **[Create.xyz](https://create.xyz/)** – AI-powered app creation from natural language.'
+        surrounding_text: "- **[Create.xyz](https://create.xyz/)** – AI-powered app creation from natural language."
         confidence: high
 metadata:
   github:
@@ -36,25 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered platform that generates applications, websites, and tools from natural language descriptions.
-  why_it_matters: It enables rapid prototyping and the creation of functional digital products through prompt-based generation.
-  mental_damage: >-
-    The barrier to starting a new project has been reduced so low that your backlog of abandoned ideas is about to
-    become unmanageable.
+  summary: create.xyz is an AI app builder that turns natural language prompts into deployable mobile apps, websites, and tools with code generation and 40+ integrations.
+  why_it_matters: It lets developers skip boilerplate and go from idea to working product instantly using AI-generated full-stack code.
+  mental_damage: The quiet horror of realizing your weekend project now has a better CI/CD pipeline than your day job.
   tags:
-    - app-builders
+    - app-builder
+    - ai-agent
+    - full-stack
+    - no-code
     - prompt-to-app
-    - rapid-prototyping
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a prompt-to-app surface focused on generating new products rather than assisting in the manual
-    editing of existing codebases.
+  reason: create.xyz generates complete, deployable apps from prompts without requiring an existing codebase, matching the core identity of an AI app builder rather than a coding agent or extension.
   evidence:
-    - Scraped site context identifies the tool as an 'AI app builder' that turns words into apps and sites.
-    - Existing inclusion in 'awesome-ai-coding-tools' under the App Builders section.
-    - The product focus is on creating new tools and products from descriptions.
+    - "Scraped site context: 'Turn your words into mobile apps, sites, tools, and products - built with code'"
+    - "Source-list context: listed in awesome-ai-coding-tools under App Builders for turning ideas into apps"
+    - "README excerpt: 'Anything is your AI agent for turning ideas into apps. Build sites, apps, tools, products and more just by describing what you want'"
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -65,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.964Z'
+    updated_at: "2026-07-21T15:20:21.964Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,31 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-08-27T06:17:36.931Z'
+    updated_at: "2026-09-28T04:53:39.040Z"
     cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7e19348ec2d73583437c1404bed71a01d6a2d68338bdc52057c5b770b4fbe5e8
+      category_rules_version: c367d6101132
+      input_hash: sha256:37bdd3d193cc9a63bcfdb466af112a5ac656e4d1859539519211d677ed9be37e
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        The product is a prompt-to-app surface focused on generating new products rather than assisting in the manual
-        editing of existing codebases.
+      decision_reason: create.xyz generates complete, deployable apps from prompts without requiring an existing codebase, matching the core identity of an AI app builder rather than a coding agent or extension.
       decision_evidence:
-        - Scraped site context identifies the tool as an 'AI app builder' that turns words into apps and sites.
-        - Existing inclusion in 'awesome-ai-coding-tools' under the App Builders section.
-        - The product focus is on creating new tools and products from descriptions.
+        - "Scraped site context: 'Turn your words into mobile apps, sites, tools, and products - built with code'"
+        - "Source-list context: listed in awesome-ai-coding-tools under App Builders for turning ideas into apps"
+        - "README excerpt: 'Anything is your AI agent for turning ideas into apps. Build sites, apps, tools, products and more just by describing what you want'"
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because the primary user experience centers on generating new
-        applications from prompts rather than helping a developer edit an existing repository.
+      contrastive_reason: Choose app-builders over coding-agents because create.xyz’s primary function is generating new apps from prompts, not editing or assisting within an existing codebase.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__systemprompt__io__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,12 +18,7 @@ provenance:
           - LLMOps
         anchor_text: systemprompt.io
         extracted_url: https://systemprompt.io
-        surrounding_text: >-
-          | [systemprompt.io](https://systemprompt.io)                         | Systemprompt.io is a Rest API with
-          quality tooling to enable the creation, use and observability of prompts in any AI system. Control every
-          detail of your prompt for a SOTA prompt management
-          experience.                                                                                                                                                                                             
-          |                                                                                                           |
+        surrounding_text: "| [systemprompt.io](https://systemprompt.io)                         | Systemprompt.io is a Rest API with quality tooling to enable the creation, use and observability of prompts in any AI system. Control every detail of your prompt for a SOTA prompt management experience.                                                                                                                                                                                              |                                                                                                           |"
         confidence: high
 metadata:
   github:
@@ -41,39 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A self-hosted Rust binary that provides a unified control plane for governing, logging, and cost-tracking AI
-    interactions across multiple providers and agents.
-  why_it_matters: >-
-    Developers can centrally enforce policies, manage secrets, and audit all AI actions across teams and providers
-    without vendor lock-in.
-  mental_damage: Finally, a way to stop your AI from leaking secrets—just in time for your CISO to ask why it took so long.
+  summary: SystemPrompt is a self-hosted Rust runtime for governing AI client access, model routing, and tool execution with centralized policy enforcement and audit logging.
+  why_it_matters: It gives development teams a way to enforce security and compliance policies on AI agents without changing their existing workflows or tools.
+  mental_damage: Finally, a control plane for the AI agents you didn’t realize were already running wild in your infra.
   tags:
-    - self-hosted
     - ai-governance
-    - control-plane
+    - self-hosted
+    - security
     - mcp
-    - enterprise
-  confidence: high
+    - rust
+  confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is a control plane for coordinating and governing multiple AI agents and providers, fitting the Agent
-    Orchestration category's focus on operated workbenches and runtime platforms.
+  reason: SystemPrompt functions as an enterprise control plane that coordinates multiple AI agents by managing identity, tool access, model routing, and policy enforcement across clients and providers, fitting the agent orchestration category as a hosted platform for governing agent behavior.
   evidence:
-    - Described as 'one compiled Rust binary that governs, logs, and costs every AI interaction across every provider'
-    - Supports multi-agent governance (Claude, Codex, Gemini, etc.) with centralized rule enforcement
-    - Self-hosted, extensible architecture with MCP server support and audit logging
+    - SystemPrompt provides a self-hosted control plane that connects identity, models, tools, and audit in your environment with policy enforcement before tool execution.
+    - It enables teams to govern connected AI clients, apply access rules, route model requests, and inspect governed execution records and audit trails.
+    - The product emphasizes deploying the Rust runtime with PostgreSQL on infrastructure you control, positioning it as an operated platform rather than a library or extension.
 placement:
   primary_category: agent-orchestration
-  section: Hosted Agent Platforms
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,33 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:37:34.955Z'
+    updated_at: "2026-09-28T04:46:30.737Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1b69052b05077513bd634c190d410e5f92c14470d86328e52e23162f122f5c7f
+      category_rules_version: c367d6101132
+      input_hash: sha256:c9304c8556f3e682b20dcd5bac09360cb07ec0231fe61b135a1b14b58819c7ae
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        The product is a control plane for coordinating and governing multiple AI agents and providers, fitting the
-        Agent Orchestration category's focus on operated workbenches and runtime platforms.
+      decision_reason: SystemPrompt functions as an enterprise control plane that coordinates multiple AI agents by managing identity, tool access, model routing, and policy enforcement across clients and providers, fitting the agent orchestration category as a hosted platform for governing agent behavior.
       decision_evidence:
-        - >-
-          Described as 'one compiled Rust binary that governs, logs, and costs every AI interaction across every
-          provider'
-        - Supports multi-agent governance (Claude, Codex, Gemini, etc.) with centralized rule enforcement
-        - Self-hosted, extensible architecture with MCP server support and audit logging
+        - SystemPrompt provides a self-hosted control plane that connects identity, models, tools, and audit in your environment with policy enforcement before tool execution.
+        - It enables teams to govern connected AI clients, apply access rules, route model requests, and inspect governed execution records and audit trails.
+        - The product emphasizes deploying the Rust runtime with PostgreSQL on infrastructure you control, positioning it as an operated platform rather than a library or extension.
       category_candidates:
         - agent-orchestration
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because the product is an operated control plane for governing
-        agents, not a code-first library or SDK.
+        - mcp
+      contrastive_reason: Choose agent-orchestration over mcp because SystemPrompt’s primary identity is an enterprise control plane for governing AI agent behavior, not MCP infrastructure—while it supports MCP gateways, its core value lies in policy enforcement, audit, and client/model orchestration, not being an MCP server or client.
       review_reason: null
       review_resume_lifecycle: null

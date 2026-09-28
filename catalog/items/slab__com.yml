@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Slab is a knowledge base and wiki software for creating, organizing, and discovering organizational knowledge.
-  why_it_matters: It centralizes documentation and integrates with tools like GitHub, but it is not a developer-tooling product.
-  mental_damage: Another place to write docs that no one will read until the onboarding checklist demands it.
+  summary: Slab is a knowledge base and wiki software for teams to create, organize, and search internal documentation.
+  why_it_matters: It centralizes company knowledge so developers can find documentation, onboarding material, and tribal info without digging through scattered tools.
+  mental_damage: Another place to check when you can't remember where the team decided to document the API auth flow.
   tags:
-    - knowledge-base
     - documentation
-    - collaboration
+    - knowledge-base
+    - team-wiki
   confidence: high
 curation:
   status: excluded
-  reason: Slab is a general knowledge base/wikis product, not a developer-tooling product focused on AI-assisted coding workflows.
+  reason: Slab is a general-purpose knowledge management tool with no developer-specific AI features, coding assistance, or workflow automation relevant to the catalog's scope.
   evidence:
-    - Site describes itself as 'knowledge base & wiki software'
-    - Primary value is content creation, organization, and discovery for teams
-    - Source-list context places it under 'Documentation' in a general AI coding tools list, but the product itself is not AI-native or developer-specific
+    - "Repo description: (none)"
+    - "Scraped site context: Title: Slab - Knowledge Base & Wiki Software; Description: Discover why our easy creation, organization, and numerous integrations, make us so popular with non-technical and tech-savvy teams alike."
+    - "Source-list context: Listed in awesome-ai-coding-tools under 'Documentation' section with no indication of AI-powered functionality."
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:37.259Z"
+    updated_at: "2026-09-28T04:37:22.064Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b66dacd50db3b9a6131d5398bf5d6713772140b9fd4dc38f4d3bb9af0ff6c484
+      category_rules_version: c367d6101132
+      input_hash: sha256:e66d1db5acd0c12359ab9083d7be60f964c44623274ef392e1daea82ed1c9ff9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Slab is a general knowledge base/wikis product, not a developer-tooling product focused on AI-assisted coding workflows.
+      decision_reason: Slab is a general-purpose knowledge management tool with no developer-specific AI features, coding assistance, or workflow automation relevant to the catalog's scope.
       decision_evidence:
-        - Site describes itself as 'knowledge base & wiki software'
-        - Primary value is content creation, organization, and discovery for teams
-        - Source-list context places it under 'Documentation' in a general AI coding tools list, but the product itself is not AI-native or developer-specific
+        - "Repo description: (none)"
+        - "Scraped site context: Title: Slab - Knowledge Base & Wiki Software; Description: Discover why our easy creation, organization, and numerous integrations, make us so popular with non-technical and tech-savvy teams alike."
+        - "Source-list context: Listed in awesome-ai-coding-tools under 'Documentation' section with no indication of AI-powered functionality."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

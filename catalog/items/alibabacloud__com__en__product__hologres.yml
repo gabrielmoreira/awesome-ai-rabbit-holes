@@ -51,23 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Hologres is a PostgreSQL-compatible real-time data warehouse engine for OLAP and ad hoc analysis at PB scale.
-  why_it_matters: It enables developers to perform high-concurrency, low-latency analytics on massive datasets without pre-computation, integrating with Flink and MaxCompute for end-to-end real-time data workflows.
-  mental_damage: Because nothing says 'modern data stack' like a warehouse that can finally keep up with your Jira backlog of analytics requests.
+  summary: Hologres is Alibaba Cloud's real-time data warehouse engine compatible with PostgreSQL, designed for OLAP, high-concurrency data serving, and integration with Flink and DataWorks.
+  why_it_matters: It enables developers to build real-time analytics applications with sub-second query responses on petabyte-scale data without rearchitecting their stack.
+  mental_damage: Another 'AI-ready' data warehouse promising real-time insights while you spend more time tuning Flink connectors than writing SQL.
   tags:
     - data-warehouse
-    - olap
     - real-time-analytics
     - postgresql-compatible
+    - flink-integration
     - alibaba-cloud
   confidence: high
 curation:
   status: excluded
-  reason: Hologres is a cloud data warehouse product, not a developer-facing AI tool, agent, or workflow infrastructure; it falls outside the catalog's scope of AI/agent/tooling for software developers.
+  reason: Hologres is a real-time data warehouse and analytics engine, not a developer-facing AI tool, agent, workflow, or infrastructure product; its inclusion in awesome-mcp-servers is incidental and does not establish AI developer-tooling identity.
   evidence:
-    - Product description focuses on real-time data warehouse capabilities (OLAP, PB-scale analytics, Flink/MaxCompute integration)
-    - No AI/agent/tooling identity in the core pitch; it is a data infrastructure product
-    - Source-list context (awesome-mcp-servers) is a false positive—Hologres is not an MCP server, just listed there with a generic data description
+    - Described as 'an all-in-one real-time data warehouse engine that is compatible with PostgreSQL' and 'supports online analytical processing (OLAP) and ad hoc analysis of PB-scale data'
+    - Primary use cases center on real-time data processing, interactive analysis, and centralized data serving for BI and enterprise workloads, not AI agent interactions or coding workflows
+    - Listed in awesome-mcp-servers under 'Official Servers' but the MCP connection is not detailed in the scraped content, and the product's core identity remains data warehousing
 placement:
   primary_category: null
   section: null
@@ -77,24 +77,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:24.647Z"
+    updated_at: "2026-09-28T04:38:39.580Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:dc2eea31257e79091897b5c914e65efa6e8d4a40855f0cfe266aa0de014d9625
+      category_rules_version: c367d6101132
+      input_hash: sha256:7eefb29c61f5581c5e5c00af99742441e7de9b7f636bb3f0d3f57091655563c6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Hologres is a cloud data warehouse product, not a developer-facing AI tool, agent, or workflow infrastructure; it falls outside the catalog's scope of AI/agent/tooling for software developers.
+      decision_reason: Hologres is a real-time data warehouse and analytics engine, not a developer-facing AI tool, agent, workflow, or infrastructure product; its inclusion in awesome-mcp-servers is incidental and does not establish AI developer-tooling identity.
       decision_evidence:
-        - Product description focuses on real-time data warehouse capabilities (OLAP, PB-scale analytics, Flink/MaxCompute integration)
-        - No AI/agent/tooling identity in the core pitch; it is a data infrastructure product
-        - Source-list context (awesome-mcp-servers) is a false positive—Hologres is not an MCP server, just listed there with a generic data description
+        - Described as 'an all-in-one real-time data warehouse engine that is compatible with PostgreSQL' and 'supports online analytical processing (OLAP) and ad hoc analysis of PB-scale data'
+        - Primary use cases center on real-time data processing, interactive analysis, and centralized data serving for BI and enterprise workloads, not AI agent interactions or coding workflows
+        - Listed in awesome-mcp-servers under 'Official Servers' but the MCP connection is not detailed in the scraped content, and the product's core identity remains data warehousing
       category_candidates: []
       contrastive_reason: null
       review_reason: null

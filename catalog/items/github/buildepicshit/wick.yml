@@ -54,15 +54,15 @@ metadata:
       fetched_at: "2026-09-24T04:13:04.425Z"
       bytes: 5924
 insights:
-  summary: MCP server providing Roslyn-enriched C# exception telemetry for Godot Engine to AI assistants.
-  why_it_matters: Reduces debugging turns from 8+ to 1 by enriching raw stack traces with source context, caller chains, and scene state for AI diagnosis.
-  mental_damage: "Finally, an MCP server that speaks the one language Godot C# devs actually need: 'here’s the crash, now fix it'."
+  summary: Roslyn-enriched C# exception telemetry for Godot Engine, exposed over MCP.
+  why_it_matters: Eliminates 8+ turn debugging cycles for Godot C# developers by capturing rich source context with exceptions.
+  mental_damage: The moment your Godot C# game crashes, you're stuck staring at a raw stack trace while your AI assistant asks you to open files for the 8th time.
   tags:
-    - mcp-server
+    - mcp
     - godot
     - csharp
     - debugging
-    - roslyn
+    - telemetry
   confidence: high
 curation:
   status: included
@@ -74,10 +74,10 @@ curation:
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'mcp', proposed 'coding-agents'"
 processing:
   discover:
     status: done
@@ -90,30 +90,29 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-28T04:59:02.946Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e4568b1060fff248d4ecbb582f9dfb450eb7677323475d3799fb68f84f472355
-      proposed_primary_category: mcp
-      disagreement: false
-      decision_reason: "MCP is the product identity: a domain-specific server exposing Godot C# telemetry over MCP."
+      category_rules_version: c367d6101132
+      input_hash: sha256:eb953ae16c13a97c98738e1839352c5e29efe8f1ca2ca4b30a7f609da2d4b050
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: Wick is a primary coding agent that autonomously enhances debugging workflows for Godot C# developers through MCP integration.
       decision_evidence:
-        - Repo description explicitly states 'Roslyn-enriched C# exception telemetry for Godot Engine, exposed over MCP'
-        - README details MCP server setup, tool groups, and architecture centered on MCP protocol
-        - Topics include 'mcp-server' and 'model-context-protocol'
+        - Repo description states it provides "Roslyn-enriched C# exception telemetry for Godot Engine, exposed over MCP"
+        - README claims it "captures that exception, enriches it with Roslyn-powered source context... and hands the full picture to the AI in one call"
+        - "Stars: 20 indicates early ecosystem traction"
+        - "Pushed at: 2026-08-17T12:38:55Z shows recent activity"
       category_candidates:
-        - mcp
+        - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension to another assistant).
-      review_reason: null
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Wick is the primary agent enhancing debugging workflows rather than merely augmenting another assistant's capabilities.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'mcp', proposed 'coding-agents'"
       review_resume_lifecycle: null

@@ -51,23 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI email assistant that automates inbox organization, drafts replies, blocks cold emails, and provides analytics for Gmail and Outlook.
-  why_it_matters: It reduces email management overhead for developers and teams by automating categorization, drafting, and workflow integrations.
-  mental_damage: Finally, a tool that promises to turn your inbox into a place of zen—until you realize it’s just another SaaS to manage.
+  summary: Inbox Zero is an open-source AI email assistant that organizes inboxes, drafts replies, blocks cold emails, and provides analytics across email providers.
+  why_it_matters: It helps developers reclaim time from email overload by automating triage, drafting, and unsubscribing using AI trained on their own communication patterns.
+  mental_damage: Another AI tool promising to give you back an hour a day — as if the real bottleneck in software wasn't meetings, context switching, or tech debt.
   tags:
-    - email-automation
+    - email
     - ai-assistant
     - productivity
     - open-source
-    - soc2-compliant
   confidence: high
 curation:
   status: excluded
-  reason: This is an end-user productivity tool for email management, not a developer-facing AI tool for coding, orchestration, or infrastructure.
+  reason: Inbox Zero is a personal productivity tool for email management with no direct relevance to software development workflows, coding agents, or developer-facing infrastructure.
   evidence:
-    - Primary product is an AI email assistant for inbox organization and reply drafting
-    - Target users are professionals/teams managing email workflows, not developers building software
-    - Source-list context shows it listed under MCP servers, but MCP is only a compatibility footnote, not the core identity
+    - "Source-list context: appears in awesome-mcp-servers as an 'Official Server' but is described as an 'AI executive assistant' for email, not MCP infrastructure"
+    - "README excerpt: focuses on organizing inboxes, drafting replies in your voice, bulk unsubscribing, and email analytics — none of which involve code, repos, terminals, or developer tooling"
+    - "Scraped site context: markets to founders, executives, realtors, and support teams — not developers or engineering workflows"
 placement:
   primary_category: null
   section: null
@@ -77,24 +76,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:35.274Z"
+    updated_at: "2026-09-28T04:41:28.465Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d8e0cbdfe845cec44b66b8a4ba79f2006e5afb822555a33d08e89e5d5c124051
+      category_rules_version: c367d6101132
+      input_hash: sha256:2e181649535c7434addf2e87720ee7a4bbafd66cc61a222a478aecdea04b8ccc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an end-user productivity tool for email management, not a developer-facing AI tool for coding, orchestration, or infrastructure.
+      decision_reason: Inbox Zero is a personal productivity tool for email management with no direct relevance to software development workflows, coding agents, or developer-facing infrastructure.
       decision_evidence:
-        - Primary product is an AI email assistant for inbox organization and reply drafting
-        - Target users are professionals/teams managing email workflows, not developers building software
-        - Source-list context shows it listed under MCP servers, but MCP is only a compatibility footnote, not the core identity
+        - "Source-list context: appears in awesome-mcp-servers as an 'Official Server' but is described as an 'AI executive assistant' for email, not MCP infrastructure"
+        - "README excerpt: focuses on organizing inboxes, drafting replies in your voice, bulk unsubscribing, and email analytics — none of which involve code, repos, terminals, or developer tooling"
+        - "Scraped site context: markets to founders, executives, realtors, and support teams — not developers or engineering workflows"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

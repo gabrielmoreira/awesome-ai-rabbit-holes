@@ -51,20 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Reddit community focused on local AI tools and discussions.
-  why_it_matters: Provides a space for developers to discover and discuss local AI tools and workflows.
-  mental_damage: Another place to lose hours arguing about which local LLM is the least wrong.
+  summary: LocalLLaMA is a Reddit community for discussing local AI model usage, tools, and techniques.
+  why_it_matters: It serves as a grassroots hub where developers share practical insights on running LLMs locally, helping others navigate privacy, cost, and self-hosting trade-offs.
+  mental_damage: Joining feels like gaining wisdom — until you realize half the advice is 'just quantize it more' and the other half is people arguing about whether 4-bit is heresy.
   tags:
     - community
-    - local-ai
     - discussion
+    - local-ai
   confidence: high
 curation:
   status: excluded
-  reason: This is a community forum, not a developer tool, framework, or product.
+  reason: LocalLLaMA is a Reddit community forum, not a developer-facing tool, agent, framework, or infrastructure product; it lacks the functional identity required for inclusion in this catalog.
   evidence:
-    - Source-list context identifies it as a 'Community' entry in an awesome list
-    - URL points to a Reddit community, not a standalone tool or repo
+    - URL points to reddit.com/r/LocalLLaMA, indicating a social discussion community
+    - No repo description, README, or product claims describe a tool, agent, or technical artifact
+    - Source-list context shows it is only referenced as a 'Community' section in awesome-local-ai, not as a tool
 placement:
   primary_category: null
   section: null
@@ -74,23 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:58.261Z"
+    updated_at: "2026-09-28T04:45:10.139Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:34741c64ee10b8dc2c311447a04699be43151e4581549a41577477b2b1a4cbb0
+      category_rules_version: c367d6101132
+      input_hash: sha256:f26e1f7bd429dbfacfa1441388d2430d17f3f71176eb993f06469e7cad5643b9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a community forum, not a developer tool, framework, or product.
+      decision_reason: LocalLLaMA is a Reddit community forum, not a developer-facing tool, agent, framework, or infrastructure product; it lacks the functional identity required for inclusion in this catalog.
       decision_evidence:
-        - Source-list context identifies it as a 'Community' entry in an awesome list
-        - URL points to a Reddit community, not a standalone tool or repo
+        - URL points to reddit.com/r/LocalLLaMA, indicating a social discussion community
+        - No repo description, README, or product claims describe a tool, agent, or technical artifact
+        - Source-list context shows it is only referenced as a 'Community' section in awesome-local-ai, not as a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

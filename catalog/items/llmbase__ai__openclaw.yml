@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__llmbase__ai__openclaw__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,35 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OpenClaw is a skill or capability layer referenced in a curated LLM resource list under the 'Skills' section.
-  why_it_matters: >-
-    It appears to provide reusable skills or workflows for AI agents, potentially streamlining developer tasks through
-    pre-built capabilities.
-  mental_damage: Another day, another abstraction layer between you and the code you’re paid to write.
+  summary: OpenClaw is a repository referenced in an awesome list for LLM resources, described as a skill or tool within the AI development ecosystem.
+  why_it_matters: It may offer reusable components or guidance for developers working with LLMs, agents, or related AI workflows.
+  mental_damage: Another vaguely defined LLM resource that promises to elevate your agent game while leaving you questioning what it actually does.
   tags:
+    - llm
     - skills
-    - agent-capabilities
-    - workflow-automation
-  confidence: medium
+    - resources
+  confidence: low
 curation:
-  status: included
-  reason: >-
-    The project is explicitly listed under 'Skills' in a curated LLM resource directory, aligning with the reusable
-    skill packs or registries category.
+  status: excluded
+  reason: The available inputs do not describe a standalone product, tool, or system with clear developer-facing functionality; it appears only as a referenced item in an awesome list without sufficient detail to determine its actual purpose or identity.
   evidence:
-    - Seen in awesome-LLM-resources under section '技能 Skills'
-    - No repo description or README to contradict the skills classification
+    - Repo description is missing, providing no factual basis for what openclaw is.
+    - No README excerpt, scraped site context, or homepage details are available to substantiate claims or functionality.
+    - "Only source-list context exists: it is referenced in 'awesome-LLM-resources' under the '技能 Skills' section, indicating it may be a skill pack or resource, but without confirmation of installable content or tool identity."
 placement:
-  primary_category: skills
+  primary_category: null
   secondary_categories: []
-  section: Skill Packs & Libraries
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,30 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:29:16.601Z'
+    updated_at: "2026-09-28T04:31:34.530Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:8216d454e6808ade84b11757611f87e80e8c2e166572179d316bb07b8ae1cb1a
-      proposed_primary_category: skills
+      category_rules_version: c367d6101132
+      input_hash: sha256:2655bd74573785ad70f89edf4034b7be57dbb4cd76b6b5c8d24ff44f68b7b0ee
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is explicitly listed under 'Skills' in a curated LLM resource directory, aligning with the reusable
-        skill packs or registries category.
+      decision_reason: The available inputs do not describe a standalone product, tool, or system with clear developer-facing functionality; it appears only as a referenced item in an awesome list without sufficient detail to determine its actual purpose or identity.
       decision_evidence:
-        - Seen in awesome-LLM-resources under section '技能 Skills'
-        - No repo description or README to contradict the skills classification
-      category_candidates:
-        - skills
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose skills over ai-dev-extensions because the source-list context identifies it as a skill/registry rather
-        than a host integration.
-      review_reason: null
+        - Repo description is missing, providing no factual basis for what openclaw is.
+        - No README excerpt, scraped site context, or homepage details are available to substantiate claims or functionality.
+        - "Only source-list context exists: it is referenced in 'awesome-LLM-resources' under the '技能 Skills' section, indicating it may be a skill pack or resource, but without confirmation of installable content or tool identity."
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

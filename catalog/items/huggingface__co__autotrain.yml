@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AutoTrain is Hugging Face's no-code tool for automatically training, evaluating, and deploying state-of-the-art ML models.
-  why_it_matters: It lets developers and non-researchers fine-tune and deploy models (including LLMs) without writing training code, accelerating experimentation and productionization.
-  mental_damage: Finally, a way to fine-tune models without remembering whether it's `transformers.Trainer` or `transformers.TrainingArguments` that needs the `output_dir`.
+  summary: An automated machine learning platform for training and deploying various models, including LLMs and image classifiers, with minimal code.
+  why_it_matters: It allows developers to fine-tune and deploy specialized models without having to manage the complex underlying training infrastructure.
+  mental_damage: It trades the headache of writing training loops for the existential dread of cleaning your datasets.
   tags:
-    - automl
-    - fine-tuning
+    - autotrain
     - huggingface
-    - model-deployment
+    - automl
+    - finetuning
+    - mlops
   confidence: high
 curation:
   status: excluded
-  reason: AutoTrain is a no-code AutoML platform for model training/deployment, not a developer-tooling product for coding workflows, IDEs, agents, or app-building.
+  reason: AutoTrain is an AutoML platform for model training, which doesn't fit the specific developer-tooling categories of agents, coding extensions, or context engineering.
   evidence:
-    - Primary page excerpt describes it as a no-code tool for training and deploying ML models
-    - Tasks include LLM finetuning, image classification, text classification, etc., not code editing or repo workflows
-    - Source-list context places it under 'Fine-Tuning', reinforcing its ML training focus
+    - The product is an operated platform for training and deployment rather than a code-first SDK or framework.
+    - Its primary purpose is model training/AutoML, which falls outside the catalog's specific focus on agents, prompt engineering, and coding workflows.
 placement:
   primary_category: null
   section: null
@@ -70,24 +70,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:45.213Z"
+    updated_at: "2026-09-28T04:25:05.046Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:8cc5335ed8760fe50a8bb1557d8cbdd4503a43fc7b0dc72cc82e2ed92fb59d07
+      category_rules_version: c367d6101132
+      input_hash: sha256:8489bcc818c1e6f00c0b06b8e89311eeb84f6abe4dad7b9a914a644db0810c61
       proposed_primary_category: null
       disagreement: false
-      decision_reason: AutoTrain is a no-code AutoML platform for model training/deployment, not a developer-tooling product for coding workflows, IDEs, agents, or app-building.
+      decision_reason: AutoTrain is an AutoML platform for model training, which doesn't fit the specific developer-tooling categories of agents, coding extensions, or context engineering.
       decision_evidence:
-        - Primary page excerpt describes it as a no-code tool for training and deploying ML models
-        - Tasks include LLM finetuning, image classification, text classification, etc., not code editing or repo workflows
-        - Source-list context places it under 'Fine-Tuning', reinforcing its ML training focus
+        - The product is an operated platform for training and deployment rather than a code-first SDK or framework.
+        - Its primary purpose is model training/AutoML, which falls outside the catalog's specific focus on agents, prompt engineering, and coding workflows.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__theneo__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Documentation
         anchor_text: Theneo.io
         extracted_url: https://theneo.io
-        surrounding_text: '- **[Theneo.io](https://theneo.io/)** – AI-powered API documentation generation.'
+        surrounding_text: "- **[Theneo.io](https://theneo.io/)** – AI-powered API documentation generation."
         confidence: high
     - id: discovery__www__theneo__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Documentation
         anchor_text: Theneo.io
         extracted_url: https://theneo.io
-        surrounding_text: '- **[Theneo.io](https://theneo.io/)** – AI-powered API documentation generation.'
+        surrounding_text: "- **[Theneo.io](https://theneo.io/)** – AI-powered API documentation generation."
         confidence: high
 metadata:
   github:
@@ -51,69 +51,56 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A developer portal platform for API references, guides, changelogs, and private customer portals with AI-powered
-    documentation and agent-ready features like MCP and llms.txt.
-  why_it_matters: >-
-    It unifies API documentation, changelogs, and customer portals in a single collaborative workspace with AI
-    assistance, reducing drift between code and docs.
-  mental_damage: Finally, a place where engineers, writers, PMs, and agents can all fight over the same cursor in real time.
+  summary: Theneo.io is a developer portal platform for creating, hosting, and collaborating on API documentation with real-time co-editing, AI-powered Ask Bot, changelogs, and MCP server capabilities.
+  why_it_matters: It reduces documentation drift by keeping API specs, guides, and changelogs in sync with code through collaborative editing and automated updates.
+  mental_damage: Another tool promising to fix the eternal 'who forgot to update the docs?' problem, now with AI and MCP hype.
   tags:
     - api-docs
     - developer-portal
-    - ai-documentation
-    - mcp
     - collaboration
+    - mcp
   confidence: high
 curation:
-  status: included
-  reason: >-
-    The core value is AI-powered documentation and agent-ready context (MCP, llms.txt) for APIs, which aligns with
-    prompt/context engineering rather than being a primary coding assistant or extension.
+  status: excluded
+  reason: Theneo is primarily an API documentation and developer portal SaaS platform, not a developer-facing AI coding tool, agent, framework, or infrastructure product.
   evidence:
-    - Primary product is a developer portal for API docs, guides, and changelogs with AI features
-    - Explicitly supports MCP Server and llms.txt for agent access to docs
-    - Positioned as a collaboration platform for docs, not a coding assistant or IDE
+    - Theneo helps humans and AI agents ship API docs together—with private developer portals, real-time co-editing, changelogs, MCP, llms.txt, and Ask AI.
+    - Core features center on API reference, user guides, changelog, developer portal, and enterprise Swagger editor—documentation workflows, not code generation or editing.
+    - Positioned as a platform for engineers, writers, PMs, and agents to collaborate on docs, not as a coding assistant, SDK, or agent orchestration tool.
 placement:
-  primary_category: memory-and-context
-  section: Retrieval & Fresh Docs
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:38:00.752Z'
+    updated_at: "2026-09-28T04:47:07.120Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:48ce4836c39f2cf24f14248dafeee17875005ae041d0053384b23ad585d836f6
-      proposed_primary_category: context-engineering
+      category_rules_version: c367d6101132
+      input_hash: sha256:8e7f798e4b5d9386e49c5d40d23f9e3f5c41701a610a3496d16eb1d6c4e665f8
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The core value is AI-powered documentation and agent-ready context (MCP, llms.txt) for APIs, which aligns with
-        prompt/context engineering rather than being a primary coding assistant or extension.
+      decision_reason: Theneo is primarily an API documentation and developer portal SaaS platform, not a developer-facing AI coding tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - Primary product is a developer portal for API docs, guides, and changelogs with AI features
-        - Explicitly supports MCP Server and llms.txt for agent access to docs
-        - Positioned as a collaboration platform for docs, not a coding assistant or IDE
-      category_candidates:
-        - context-engineering
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose context-engineering over ai-dev-extensions because the core novelty is agent-ready documentation and
-        retrieval (MCP, llms.txt) rather than host integration for another assistant.
+        - Theneo helps humans and AI agents ship API docs together—with private developer portals, real-time co-editing, changelogs, MCP, llms.txt, and Ask AI.
+        - Core features center on API reference, user guides, changelog, developer portal, and enterprise Swagger editor—documentation workflows, not code generation or editing.
+        - Positioned as a platform for engineers, writers, PMs, and agents to collaborate on docs, not as a coding assistant, SDK, or agent orchestration tool.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:

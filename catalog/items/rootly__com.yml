@@ -52,23 +52,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-native incident management platform for engineering teams to detect, manage, resolve, and learn from incidents.
-  why_it_matters: It integrates AI into on-call, incident response, and retrospectives to reduce resolution times and prevent repeat incidents.
-  mental_damage: Now your pager can wake you up with a root cause analysis and a suggested fix, because nothing says 'restful sleep' like an AI-generated postmortem.
+  summary: Rootly is an AI-powered incident management platform for engineering teams to detect, respond to, and learn from incidents faster.
+  why_it_matters: It integrates AI into on-call and incident response workflows to reduce mean time to resolution and automate post-mortems.
+  mental_damage: Another platform promising AI will finally make being on-call tolerable, as if the real problem was insufficient summarization.
   tags:
-    - incident-management
-    - ai-ops
-    - sre
+    - incident-response
+    - ai-sre
     - on-call
-    - mcp-server
   confidence: high
 curation:
   status: excluded
-  reason: Rootly is a SaaS incident management platform with AI features, not a developer tool, framework, or extension for coding workflows.
+  reason: Rootly is an incident management SaaS platform with AI features, not a developer-facing AI tool, agent, or infrastructure component within the catalog's scope.
   evidence:
-    - Primary product is an incident management SaaS platform, not a coding assistant or developer tool
-    - MCP server is a secondary integration, not the core product identity
-    - Source-list context shows it listed under MCP servers, but the product itself is not MCP-first
+    - Scraped site context describes it as an 'AI-native incident management platform' for engineering teams to detect, manage, resolve, and learn from incidents
+    - Featured sections include On-Call, Incident Response, AI SRE, Retrospectives, and Status Page — all operational reliability functions
+    - Source-list context appears in awesome-mcp-servers as a 'Community Server' entry, indicating MCP is an add-on feature, not the product identity
 placement:
   primary_category: null
   section: null
@@ -87,24 +85,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:16.448Z"
+    updated_at: "2026-09-28T04:36:21.210Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:587e707a5a7fc059b88d2be2bc5326f45aae12fa0356cfa7cb4068f0c21f78ef
+      category_rules_version: c367d6101132
+      input_hash: sha256:63686c38f1804f9a5e20e87fb7c5768632d2e53131026d0cce787ba4f84405cb
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Rootly is a SaaS incident management platform with AI features, not a developer tool, framework, or extension for coding workflows.
+      decision_reason: Rootly is an incident management SaaS platform with AI features, not a developer-facing AI tool, agent, or infrastructure component within the catalog's scope.
       decision_evidence:
-        - Primary product is an incident management SaaS platform, not a coding assistant or developer tool
-        - MCP server is a secondary integration, not the core product identity
-        - Source-list context shows it listed under MCP servers, but the product itself is not MCP-first
+        - Scraped site context describes it as an 'AI-native incident management platform' for engineering teams to detect, manage, resolve, and learn from incidents
+        - Featured sections include On-Call, Incident Response, AI SRE, Retrospectives, and Status Page — all operational reliability functions
+        - Source-list context appears in awesome-mcp-servers as a 'Community Server' entry, indicating MCP is an add-on feature, not the product identity
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -36,25 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A daily digest of trending AI research papers curated by AK and the Hugging Face community.
-  why_it_matters: Keeps developers updated on cutting-edge AI research that may influence future tooling or methodologies.
-  mental_damage: Another feed to make you feel like you're falling behind on the literature while you're just trying to ship code.
+  summary: A daily feed of trending AI research papers curated by the Hugging Face community.
+  why_it_matters: It allows developers to track the latest breakthroughs in model architectures, agentic workflows, and training methodologies in real-time.
+  mental_damage: It provides just enough cutting-edge content to ensure you feel academically inadequate before your first cup of coffee.
   tags:
-    - ai-research
-    - newsletter
+    - research
     - papers
     - huggingface
+    - ai-news
   confidence: high
 curation:
-  status: excluded
-  reason: This is a research paper digest/feed, not a developer tool, framework, or workflow product.
+  status: included
+  reason: The product serves as a recurring publication and discovery feed for AI research, making it a curated resource for staying current.
   evidence:
-    - Scraped site context describes it as 'Your daily dose of AI research from AK'
-    - Source-list context places it under '论文 Paper' (Papers) section
-    - Primary page excerpt shows a list of research papers with summaries and upvotes
+    - Scraped site context describes the tool as 'Daily Papers' from Hugging Face
+    - The page structure consists of a curated list of trending research submissions
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Publications & Feeds
 lifecycle:
   status: incubating
   reason: null
@@ -70,25 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:09.130Z"
+    updated_at: "2026-09-28T04:26:59.045Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ce6bcc586126dbf6f092aa87236a7047d1148cbe06a4f890309a3db91d1ff4d6
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:6a587548ee06816b3b5906fff163eb75e278790fdd0832b3a8aa875f2f58b704
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a research paper digest/feed, not a developer tool, framework, or workflow product.
+      decision_reason: The product serves as a recurring publication and discovery feed for AI research, making it a curated resource for staying current.
       decision_evidence:
-        - Scraped site context describes it as 'Your daily dose of AI research from AK'
-        - Source-list context places it under '论文 Paper' (Papers) section
-        - Primary page excerpt shows a list of research papers with summaries and upvotes
-      category_candidates: []
-      contrastive_reason: null
+        - Scraped site context describes the tool as 'Daily Papers' from Hugging Face
+        - The page structure consists of a curated list of trending research submissions
+      category_candidates:
+        - awesome-awesomes
+        - evals
+      contrastive_reason: Choose awesome-awesomes over evals because the core identity is a discovery feed for research rather than a platform for conducting model measurements or benchmarking.
       review_reason: null
       review_resume_lifecycle: null

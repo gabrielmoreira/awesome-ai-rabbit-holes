@@ -51,22 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Striveworks is an enterprise AIOps platform for building, deploying, and maintaining AI models, primarily targeting defense and government sectors.
-  why_it_matters: It promises rapid model deployment and adaptive AI for operational environments, but its focus is on enterprise AIOps rather than developer tooling.
-  mental_damage: Another platform where the demo request form is the main interface, and the AI is too busy bridging battlefield efforts to debug your Python.
+  summary: Striveworks is an enterprise AI platform for rapidly building, deploying, and maintaining adaptive AI models in government and defense sectors.
+  why_it_matters: It matters to developers seeking end-to-end AI model lifecycle tools in regulated environments where speed and trust are critical.
+  mental_damage: Another 'AI that learns and stays ahead' promise wrapped in military contracts and demo request forms.
   tags:
-    - enterprise-ai
-    - aiops
+    - ai-platform
+    - enterprise
     - defense
-    - model-deployment
   confidence: high
 curation:
   status: excluded
-  reason: The product is an enterprise AIOps platform for defense/government use cases, not a developer-facing coding tool, framework, or workflow utility.
+  reason: Striveworks is an enterprise AI platform focused on model deployment and operations in defense contexts, not a developer-facing AI tool for coding, workflow orchestration, or agent building as defined in the catalog scope.
   evidence:
-    - Scraped site context describes it as a platform for building, launching, and maintaining AI models in operational environments (e.g., battlefield AI, multi-domain awareness)
-    - Primary page excerpt emphasizes defense contracts, military applications, and enterprise AI deployment, not developer tooling
-    - Source-list context places it under 'Tips' in a broad LLM resources list, not a developer-tooling category
+    - Scraped site context describes Striveworks as helping organizations 'build, launch, and maintain AI models in hours—not months' with adaptive, trustworthy AI for evolving environments.
+    - Primary page excerpt emphasizes government and defense use cases, including multi-domain awareness, adaptive ATR, and cloud-to-edge deployment for operational theaters.
+    - Appears in awesome-LLM-resources under '技巧 Tips' as a resource for 'Build, launch, and maintain AI models in hours—not months' but lacks developer tooling identity.
 placement:
   primary_category: null
   section: null
@@ -76,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:17.338Z"
+    updated_at: "2026-09-28T04:45:57.603Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:f0c28de55a9e465e5033633a8f92a91198b2ec85bac18df4c76168f312ad7eee
+      category_rules_version: c367d6101132
+      input_hash: sha256:1dff29d1fb90ed77cf8bf155129b0e8c1b8b7401007e34571ff5f37041866e99
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is an enterprise AIOps platform for defense/government use cases, not a developer-facing coding tool, framework, or workflow utility.
+      decision_reason: Striveworks is an enterprise AI platform focused on model deployment and operations in defense contexts, not a developer-facing AI tool for coding, workflow orchestration, or agent building as defined in the catalog scope.
       decision_evidence:
-        - Scraped site context describes it as a platform for building, launching, and maintaining AI models in operational environments (e.g., battlefield AI, multi-domain awareness)
-        - Primary page excerpt emphasizes defense contracts, military applications, and enterprise AI deployment, not developer tooling
-        - Source-list context places it under 'Tips' in a broad LLM resources list, not a developer-tooling category
+        - Scraped site context describes Striveworks as helping organizations 'build, launch, and maintain AI models in hours—not months' with adaptive, trustworthy AI for evolving environments.
+        - Primary page excerpt emphasizes government and defense use cases, including multi-domain awareness, adaptive ATR, and cloud-to-edge deployment for operational theaters.
+        - Appears in awesome-LLM-resources under '技巧 Tips' as a resource for 'Build, launch, and maintain AI models in hours—not months' but lacks developer tooling identity.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

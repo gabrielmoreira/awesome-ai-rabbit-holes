@@ -51,23 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili video tutorial explaining Agent Skills (Claude Skills), its concept, technical principles, and practical applications, including comparisons with MCP.
-  why_it_matters: It provides developers with a comprehensive guide to understanding and implementing Agent Skills, a newly standardized cross-platform feature for AI coding assistants.
-  mental_damage: Another day, another standard to learn before your current workflow becomes legacy.
+  summary: A Bilibili video tutorial teaching Agent Skills (Claude Skills) as an installable content format for AI coding agents like Claude Code and Cursor.
+  why_it_matters: It educates developers on a portable, reusable skill standard that enhances agent behavior across multiple AI coding tools.
+  mental_damage: Another day, another AI tutorial promising 99% less yak-shaving while the ecosystem fragments faster than you can say 'standard'.
   tags:
     - tutorial
     - agent-skills
-    - video
-    - bilibili
-    - education
+    - ai-education
   confidence: high
 curation:
   status: excluded
-  reason: This is a video tutorial, not a standalone developer tool, framework, or product; it falls outside the catalog's scope of practical AI tools and infrastructure.
+  reason: Excluded because it is an educational video resource, not a standalone developer tool or installable skill pack itself.
   evidence:
-    - The URL points to a Bilibili video, not a GitHub repo or product page
-    - The content is a tutorial/educational resource, not a tool or library
-    - The source-list context shows it categorized under 'Skills' in a general LLM resources list, not as a product
+    - "Source is a Bilibili video (URL: bilibili.com/video/BV1HuiyBQE9G) with no associated GitHub repo or executable product."
+    - The video teaches Agent Skills but does not distribute or host skill content; it references external repos like github.com/tech-shrimp/agent-skills-examples.
+    - Appears in awesome-LLM-resources under '技能 Skills' as a learning resource, not as a tool or skill registry.
 placement:
   primary_category: null
   section: null
@@ -77,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:45.550Z"
+    updated_at: "2026-09-28T04:39:21.184Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:cbcf12361d507d54b91ed083c2f9ee09c59fd07013d49ba924f8524da9f6da49
+      category_rules_version: c367d6101132
+      input_hash: sha256:168ee3c815bde6a0946edcf1d96409ffad7b0feff4f5c25a0b25a3f2b5f485c2
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a video tutorial, not a standalone developer tool, framework, or product; it falls outside the catalog's scope of practical AI tools and infrastructure.
+      decision_reason: Excluded because it is an educational video resource, not a standalone developer tool or installable skill pack itself.
       decision_evidence:
-        - The URL points to a Bilibili video, not a GitHub repo or product page
-        - The content is a tutorial/educational resource, not a tool or library
-        - The source-list context shows it categorized under 'Skills' in a general LLM resources list, not as a product
+        - "Source is a Bilibili video (URL: bilibili.com/video/BV1HuiyBQE9G) with no associated GitHub repo or executable product."
+        - The video teaches Agent Skills but does not distribute or host skill content; it references external repos like github.com/tech-shrimp/agent-skills-examples.
+        - Appears in awesome-LLM-resources under '技能 Skills' as a learning resource, not as a tool or skill registry.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

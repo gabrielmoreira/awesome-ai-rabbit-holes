@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: JFrog Xray is an enterprise-grade software composition analysis (SCA) tool for detecting vulnerabilities, managing licenses, and mitigating open-source risks in real-time.
-  why_it_matters: It helps developers identify, prioritize, and remediate security and compliance issues in dependencies early in the development cycle.
-  mental_damage: Because nothing says 'modern development' like a tool that reminds you your entire supply chain is one log4j away from chaos.
+  summary: Xray is a DevSecOps tool that scans container images and binaries for security vulnerabilities, malware, and policy violations.
+  why_it_matters: It helps developers catch security issues early in the CI/CD pipeline by integrating automated scanning into build and deployment workflows.
+  mental_damage: Because nothing says 'move fast and break things' like waiting for a security scan to finish before you can ship.
   tags:
     - security
-    - sca
     - devsecops
-    - compliance
-    - dependency-management
+    - scanning
   confidence: high
 curation:
   status: excluded
-  reason: Xray is a security and compliance tool for software supply chains, not a developer-facing AI tool, agent, or workflow product.
+  reason: Xray is a general-purpose DevSecOps scanning tool with no AI-specific functionality or developer-facing AI agent, assistant, or workflow features; its inclusion in an AI coding tools list appears to be a categorization error.
   evidence:
-    - Primary product identity is SCA (Software Composition Analysis) for vulnerabilities and license compliance
-    - Source-list context places it under 'Security' in a general AI coding tools list, not as an AI-native developer tool
-    - No AI-specific functionality described in the core product pitch
+    - "Repo description: (none)"
+    - "Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding tools | section: Security"
+    - No README excerpt, scraped site context, or other signals indicate AI, agent, or developer tooling behavior beyond standard security scanning.
 placement:
   primary_category: null
   section: null
@@ -71,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:46.904Z"
+    updated_at: "2026-09-28T04:30:17.355Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1184b70405e3944c8f7e4fb4632282102f56048a4ac502e7b08f830bdb66d123
+      category_rules_version: c367d6101132
+      input_hash: sha256:2f33320db5e9bcbd8c646200b16157184c1672b1d20365930ba2bc0682d1653b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Xray is a security and compliance tool for software supply chains, not a developer-facing AI tool, agent, or workflow product.
+      decision_reason: Xray is a general-purpose DevSecOps scanning tool with no AI-specific functionality or developer-facing AI agent, assistant, or workflow features; its inclusion in an AI coding tools list appears to be a categorization error.
       decision_evidence:
-        - Primary product identity is SCA (Software Composition Analysis) for vulnerabilities and license compliance
-        - Source-list context places it under 'Security' in a general AI coding tools list, not as an AI-native developer tool
-        - No AI-specific functionality described in the core product pitch
+        - "Repo description: (none)"
+        - "Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding tools | section: Security"
+        - No README excerpt, scraped site context, or other signals indicate AI, agent, or developer tooling behavior beyond standard security scanning.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

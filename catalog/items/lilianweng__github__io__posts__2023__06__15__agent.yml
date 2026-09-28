@@ -37,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A blog post titled 'Agent' from Lilian Weng's technical blog, discussing AI agent systems and frameworks.
-  why_it_matters: Provides educational insights into AI agent architectures and workflows for developers exploring agentic systems.
-  mental_damage: Another thinkpiece to skim while your actual agents spin in circles.
+  summary: A blog post by Lilian Weng explaining the components and architecture of AI agents, published in June 2023.
+  why_it_matters: Serves as an educational resource for developers seeking to understand agent design patterns and system components.
+  mental_damage: Another link in the endless chain of 'read this post to finally get agents' that subtly pressures developers to keep up with foundational content.
   tags:
-    - agent-orchestration
-    - tutorial
-    - blog-post
+    - blog
+    - educational
+    - ai-agents
   confidence: high
 curation:
   status: excluded
-  reason: This is a blog post/tutorial rather than a practical developer tool, framework, or product.
+  reason: The resource is a standalone educational blog post, not a developer tool, agent, framework, or infrastructure product, and thus falls outside the catalog's scope.
   evidence:
-    - URL points to a blog post on Lilian Weng's site
-    - Source-list context lists it under 'Learning Resources > Tutorials & Guides'
-    - No repo, stars, or code artifacts provided
+    - Source URL is a GitHub Pages blog post (lilianweng.github.io/posts/2023-06-15-agent), not a GitHub repo or tool
+    - Appears in source lists only as a learning resource in awesome-agent-orchestration under Tutorials & Guides
+    - No indication of being a usable product, SDK, framework, or agent that developers can install or operate
 placement:
   primary_category: null
   section: null
@@ -70,24 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:56.636Z"
+    updated_at: "2026-09-28T04:30:51.770Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:387e46e1203c8c9092b25c37789fa1c131bea1e89ac892bb4d91f53d062dce3f
+      category_rules_version: c367d6101132
+      input_hash: sha256:542ef25b8f5e22a67a7cf3d509a1ecc1ff83bbf8d5782ea4f14d4d82e69ae487
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a blog post/tutorial rather than a practical developer tool, framework, or product.
+      decision_reason: The resource is a standalone educational blog post, not a developer tool, agent, framework, or infrastructure product, and thus falls outside the catalog's scope.
       decision_evidence:
-        - URL points to a blog post on Lilian Weng's site
-        - Source-list context lists it under 'Learning Resources > Tutorials & Guides'
-        - No repo, stars, or code artifacts provided
+        - Source URL is a GitHub Pages blog post (lilianweng.github.io/posts/2023-06-15-agent), not a GitHub repo or tool
+        - Appears in source lists only as a learning resource in awesome-agent-orchestration under Tutorials & Guides
+        - No indication of being a usable product, SDK, framework, or agent that developers can install or operate
       category_candidates: []
       contrastive_reason: null
       review_reason: null

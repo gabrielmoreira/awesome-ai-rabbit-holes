@@ -51,22 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An O'Reilly Radar article sharing operational lessons from building LLM applications over a year.
-  why_it_matters: Offers practical insights on data, models, product, and team considerations for developers working with LLMs.
-  mental_damage: Reading this will make you question every prompt you’ve ever written and every model you’ve ever pinned.
+  summary: What We Learned from a Year of Building with LLMs (Part II) is an O'Reilly Radar blog post sharing operational lessons from building LLM applications.
+  why_it_matters: It offers practical insights on data, model, product, and people challenges in LLM application development that developers can apply to their work.
+  mental_damage: Another reminder that shipping AI apps is less about model benchmarks and more about wrangling humans, data, and model drift in production.
   tags:
-    - llm-operations
-    - best-practices
-    - article
-    - oreilly
+    - llm
+    - operations
+    - blog
   confidence: high
 curation:
   status: excluded
-  reason: This is a long-form article/essay, not a developer tool, framework, or product.
+  reason: This is an educational blog post, not a tool, framework, or product that developers can use or integrate into their workflows.
   evidence:
-    - URL points to an O'Reilly Radar blog post, not a repo or tool
-    - Content is an essay with operational advice, not a usable product or library
-    - Source-list context places it under 'Tips' in a general LLM resource list, not a tooling category
+    - Scraped site context identifies it as an O'Reilly Radar blog post titled 'What We Learned from a Year of Building with LLMs (Part II)'
+    - Source-list context shows it appears in awesome-LLM-resources under '技巧 Tips' as a resource summary
+    - No evidence of it being a standalone product, agent, SDK, or tool that developers can install or use
 placement:
   primary_category: null
   section: null
@@ -76,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:29.258Z"
+    updated_at: "2026-09-28T04:44:09.225Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:18d005cd6d6769e9b9b50f3abae3ac5709a4c16a6264f203d310d22b002211bb
+      category_rules_version: c367d6101132
+      input_hash: sha256:50645ac12a5c90da69c3670d22b936dbfc9932fe834883cd03364f4ef9471f6a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a long-form article/essay, not a developer tool, framework, or product.
+      decision_reason: This is an educational blog post, not a tool, framework, or product that developers can use or integrate into their workflows.
       decision_evidence:
-        - URL points to an O'Reilly Radar blog post, not a repo or tool
-        - Content is an essay with operational advice, not a usable product or library
-        - Source-list context places it under 'Tips' in a general LLM resource list, not a tooling category
+        - Scraped site context identifies it as an O'Reilly Radar blog post titled 'What We Learned from a Year of Building with LLMs (Part II)'
+        - Source-list context shows it appears in awesome-LLM-resources under '技巧 Tips' as a resource summary
+        - No evidence of it being a standalone product, agent, SDK, or tool that developers can install or use
       category_candidates: []
       contrastive_reason: null
       review_reason: null

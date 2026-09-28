@@ -51,23 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Salesforce platform for building and customizing autonomous AI agents with full Salesforce ecosystem integration.
-  why_it_matters: Enables developers to create AI agents that interact with Salesforce data and workflows for customer and employee support.
-  mental_damage: Because nothing says 'developer productivity' like locking your agents into a CRM vendor’s walled garden.
+  summary: Airkit.ai is a Salesforce-branded platform for building autonomous AI agents for employee and customer support, deeply integrated with the Salesforce ecosystem.
+  why_it_matters: It lets developers and admins deploy AI agents within Salesforce without leaving the CRM, reducing context-switching for service, sales, and marketing workflows.
+  mental_damage: Another 'AI agent' platform that requires you to buy into a walled garden just to get basic LLM functionality wrapped in enterprise sales decks.
   tags:
     - salesforce
     - ai-agents
-    - enterprise
-    - saas
-    - crm
+    - low-code
   confidence: high
 curation:
   status: excluded
-  reason: This is a Salesforce-specific SaaS platform for building AI agents, not a developer-tooling product focused on coding workflows, local execution, or general-purpose AI tooling.
+  reason: Airkit.ai is a SaaS platform for enterprise AI agents tied to Salesforce, not a developer-facing tool for coding, workflow automation, or local AI work; it lacks a primary identity as a coding agent, framework, or orchestrator for developers.
   evidence:
-    - Primary page excerpt describes it as a platform for building AI agents integrated with Salesforce ecosystem
-    - Source-list context places it in a general AI agents list, not developer-tooling
-    - No GitHub repo or code-first identity; purely a hosted Salesforce product
+    - Seen in awesome-ai-agents under the purpose 'A list of AI autonomous agents' with the description 'Build and customize autonomous AI agents to support your employees and customers 24/7, including full integration with the Salesforce ecosystem.'
+    - The scraped site context positions Agentforce as a Salesforce product line for CRM-integrated AI agents across sales, service, marketing, and commerce clouds — not a tool developers import, extend, or run locally.
+    - No evidence of CLI, SDK, framework, extension, or local runtime; the product is a hosted platform whose value is in Salesforce integration, not developer tooling.
 placement:
   primary_category: null
   section: null
@@ -77,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:14.929Z"
+    updated_at: "2026-09-28T04:45:49.518Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:126f0c9014d41c2efe06e036f40faadc0152fb935640929ca0ec8c6249204215
+      category_rules_version: c367d6101132
+      input_hash: sha256:e8fe767bf8cbc55067391a8d59c286b786d7787ee20f195ea56c983af9449345
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a Salesforce-specific SaaS platform for building AI agents, not a developer-tooling product focused on coding workflows, local execution, or general-purpose AI tooling.
+      decision_reason: Airkit.ai is a SaaS platform for enterprise AI agents tied to Salesforce, not a developer-facing tool for coding, workflow automation, or local AI work; it lacks a primary identity as a coding agent, framework, or orchestrator for developers.
       decision_evidence:
-        - Primary page excerpt describes it as a platform for building AI agents integrated with Salesforce ecosystem
-        - Source-list context places it in a general AI agents list, not developer-tooling
-        - No GitHub repo or code-first identity; purely a hosted Salesforce product
+        - Seen in awesome-ai-agents under the purpose 'A list of AI autonomous agents' with the description 'Build and customize autonomous AI agents to support your employees and customers 24/7, including full integration with the Salesforce ecosystem.'
+        - The scraped site context positions Agentforce as a Salesforce product line for CRM-integrated AI agents across sales, service, marketing, and commerce clouds — not a tool developers import, extend, or run locally.
+        - No evidence of CLI, SDK, framework, extension, or local runtime; the product is a hosted platform whose value is in Salesforce integration, not developer tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

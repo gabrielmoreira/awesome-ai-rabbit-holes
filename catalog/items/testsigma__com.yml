@@ -36,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Testsigma is an AI-powered quality intelligence platform for test automation and release confidence scoring.
-  why_it_matters: It automates test generation, execution, and coverage analysis to help engineering teams validate releases with evidence rather than guesswork.
-  mental_damage: Now your QA team can finally stop being the last line of defense against your AI-accelerated codebase.
+  summary: Testsigma is a SaaS platform that uses AI agents to generate, run, self-heal, and diagnose automated tests for web, mobile, API, and Salesforce applications, providing release confidence scoring.
+  why_it_matters: It reduces manual test maintenance and gives developers and QA teams an evidence-based confidence score before deployment, integrating with CI/CD and AI coding tools.
+  mental_damage: Finally, a tool that tells you not just if your tests pass, but whether you’re allowed to feel safe about shipping — because passing tests and actual confidence were never the same thing.
   tags:
     - testing
     - qa
-    - ai-automation
+    - ai-agents
+    - cicd
     - release-confidence
-    - test-coverage
   confidence: high
 curation:
-  status: excluded
-  reason: Testsigma is primarily a QA/testing platform rather than a developer-tooling product focused on coding agents, frameworks, or workflows.
+  status: included
+  reason: Testsigma’s core value is measuring test coverage, diagnosing gaps, and scoring release confidence — aligning with evals’ focus on measuring and improving agent/model behavior via scoring, tracing, and regression detection.
   evidence:
-    - Described as a 'quality intelligence platform for the AI-led coding era' with test automation at its core
-    - Source-list context places it under 'Testing and QA' in awesome-ai-coding-tools
-    - Core value is test generation, execution, and release confidence scoring, not developer workflow augmentation
+    - Scores release confidence using pass rate, coverage percentage, and critical path analysis
+    - Diagnoses untested changes and coverage gaps before release
+    - Integrates with AI coding tools like Claude Code to include their tests in coverage analysis
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Prompt Regression & Testing
 lifecycle:
   status: incubating
   reason: null
@@ -71,25 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:56.601Z"
+    updated_at: "2026-09-28T04:46:57.101Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:488f726ffabe0a92a62a1b697fc83af87eaa3c3d6d3baf39309fee1049ca4e8c
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:0a024182ade1fff7f17adf1c3c5b2b5fd4a484a360dda2c8d0dda2c477ec7e25
+      proposed_primary_category: evals
       disagreement: false
-      decision_reason: Testsigma is primarily a QA/testing platform rather than a developer-tooling product focused on coding agents, frameworks, or workflows.
+      decision_reason: Testsigma’s core value is measuring test coverage, diagnosing gaps, and scoring release confidence — aligning with evals’ focus on measuring and improving agent/model behavior via scoring, tracing, and regression detection.
       decision_evidence:
-        - Described as a 'quality intelligence platform for the AI-led coding era' with test automation at its core
-        - Source-list context places it under 'Testing and QA' in awesome-ai-coding-tools
-        - Core value is test generation, execution, and release confidence scoring, not developer workflow augmentation
-      category_candidates: []
-      contrastive_reason: null
+        - Scores release confidence using pass rate, coverage percentage, and critical path analysis
+        - Diagnoses untested changes and coverage gaps before release
+        - Integrates with AI coding tools like Claude Code to include their tests in coverage analysis
+      category_candidates:
+        - evals
+        - extensions-and-addons
+      contrastive_reason: Choose evals over extensions-and-addons because Testsigma’s primary identity is measuring and scoring test behavior and release readiness, not extending a coding agent or editor with a specific integration layer.
       review_reason: null
       review_resume_lifecycle: null

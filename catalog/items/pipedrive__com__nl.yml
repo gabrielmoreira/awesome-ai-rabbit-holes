@@ -37,21 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Pipedrive is a CRM platform with a Dutch-language landing page.
-  why_it_matters: It does not provide developer-facing AI tooling or workflows.
-  mental_damage: Another SaaS landing page masquerading as a developer tool in the wrong catalog.
-  tags:
-    - crm
-    - saas
-    - non-developer
+  summary: nl is a Pipedrive-hosted URL with no GitHub repository, README, or discernible developer tooling identity.
+  why_it_matters: It does not matter to developers as it provides no coding agent, framework, extension, or infrastructure relevant to software development workflows.
+  mental_damage: Another link in the graveyard of AI tooling where curiosity goes to die after one click.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: This is a CRM platform, not a developer-facing AI tool, framework, or workflow.
+  reason: The input provides no evidence of a developer-facing AI tool, agent, or infrastructure — only a hosted URL with no repo, description, README, or activity signals.
   evidence:
-    - URL points to pipedrive.com/nl (a CRM SaaS)
-    - No repo description, topics, or developer-tooling signals
-    - No evidence of AI, coding, or developer workflow integration
+    - Repo description is none
+    - README excerpt is not provided
+    - Stars, created_at, pushed_at, and archived status are all unknown
 placement:
   primary_category: null
   section: null
@@ -70,25 +67,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:20:10.614Z"
+    updated_at: "2026-09-28T04:54:04.745Z"
     cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b224c6941a780419bbd9c4b98f5f9663d7424efd174cf0b54fe7833c64110245
+      category_rules_version: c367d6101132
+      input_hash: sha256:b4b4027927a09c28b6f0d3ef9084ed1c8519a34db0793685203b817f92a75bb8
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a CRM platform, not a developer-facing AI tool, framework, or workflow.
+      decision_reason: The input provides no evidence of a developer-facing AI tool, agent, or infrastructure — only a hosted URL with no repo, description, README, or activity signals.
       decision_evidence:
-        - URL points to pipedrive.com/nl (a CRM SaaS)
-        - No repo description, topics, or developer-tooling signals
-        - No evidence of AI, coding, or developer workflow integration
+        - Repo description is none
+        - README excerpt is not provided
+        - Stars, created_at, pushed_at, and archived status are all unknown
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132

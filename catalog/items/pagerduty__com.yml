@@ -51,23 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: PagerDuty is an AI-first operations platform for incident management, automation, and prevention in enterprise environments.
-  why_it_matters: It helps developers and operations teams automate, resolve, and prevent critical issues with AI agents and integrations across the tech stack.
-  mental_damage: Now your incidents can be resolved by AI agents while you wonder if you’re still needed.
+  summary: PagerDuty is an AI-first incident management and operations platform that automates detection, response, and resolution of critical issues across enterprise systems.
+  why_it_matters: It reduces mean-time-to-action and automates SRE workflows, letting engineers focus on building rather than firefighting.
+  mental_damage: Another platform promising to 'turn incidents into intelligence' while your on-call pager still screams at 3 a.m.
   tags:
-    - devops
     - incident-management
     - ai-agents
+    - devops
     - automation
-    - enterprise
   confidence: high
 curation:
   status: excluded
-  reason: PagerDuty is a broad enterprise operations platform with AI features, not a developer-tooling product focused on coding, building, or integrating AI into development workflows.
+  reason: PagerDuty is an enterprise operations and incident management platform whose AI features support workflow automation and alert triage, not developer-facing coding tasks or code generation.
   evidence:
-    - Primary product identity is incident management and operations (DevOps/Infrastructure), not developer-facing AI tooling
-    - Source-list context places it under DevOps and Infrastructure, not developer tooling
-    - Core value is AI for operations (SRE, incident response), not coding, app-building, or developer workflow augmentation
+    - Source-list context places it in 'DevOps and Infrastructure' section of awesome-ai-coding-tools, indicating adjacency but not core developer tooling identity.
+    - README and site context emphasize incident detection, automated resolution, SRE agents, and enterprise integrations — not code editing, writing, or repo interaction.
+    - Core identity is an AI-enhanced operations cloud for mission-critical work, not a coding agent, app builder, or dev tool that acts on codebases.
 placement:
   primary_category: null
   section: null
@@ -77,24 +76,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:11.520Z"
+    updated_at: "2026-09-28T04:43:45.331Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b36f253d2dd4ac0b1536e1dc397b899aae30af858c38cc26d487aeda4177f26e
+      category_rules_version: c367d6101132
+      input_hash: sha256:b3318d6912cab3da62b88e6f32026059568ad3b7d5872eb6df84ae3c525a5d41
       proposed_primary_category: null
       disagreement: false
-      decision_reason: PagerDuty is a broad enterprise operations platform with AI features, not a developer-tooling product focused on coding, building, or integrating AI into development workflows.
+      decision_reason: PagerDuty is an enterprise operations and incident management platform whose AI features support workflow automation and alert triage, not developer-facing coding tasks or code generation.
       decision_evidence:
-        - Primary product identity is incident management and operations (DevOps/Infrastructure), not developer-facing AI tooling
-        - Source-list context places it under DevOps and Infrastructure, not developer tooling
-        - Core value is AI for operations (SRE, incident response), not coding, app-building, or developer workflow augmentation
+        - Source-list context places it in 'DevOps and Infrastructure' section of awesome-ai-coding-tools, indicating adjacency but not core developer tooling identity.
+        - README and site context emphasize incident detection, automated resolution, SRE agents, and enterprise integrations — not code editing, writing, or repo interaction.
+        - Core identity is an AI-enhanced operations cloud for mission-critical work, not a coding agent, app builder, or dev tool that acts on codebases.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

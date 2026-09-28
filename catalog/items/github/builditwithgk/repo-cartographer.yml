@@ -54,23 +54,23 @@ metadata:
       fetched_at: "2026-09-24T04:13:04.620Z"
       bytes: 9297
 insights:
-  summary: An MCP server, CLI, and GitHub Action that generates architecture diagrams and dependency maps to provide structured context to LLMs.
-  why_it_matters: It provides deterministic structural facts to coding assistants, preventing them from hallucinating incorrect dependency graphs or file relationships.
-  mental_damage: Because we have officially reached the stage of needing to provide AI assistants with a map just so they don't get lost in their own hallucinations.
+  summary: Repo-cartographer is an MCP server, CLI, and GitHub Action that generates Mermaid or Graphviz architecture diagrams from any repository and enforces architecture rules via CI.
+  why_it_matters: It gives developers an automated, model-agnostic way to visualize and govern codebase structure directly in their workflow without hallucination.
+  mental_damage: Finally, a tool that promises to make architecture diagrams actually accurate—until you realize you now have to maintain yet another YAML file to keep it happy.
   tags:
     - mcp
     - architecture
     - cli
-    - context
-    - diagrams
+    - devtools
+    - ci
   confidence: high
 curation:
   status: included
-  reason: It functions as context-shaping infrastructure by converting complex codebase structures into deterministic, machine-readable facts for LLMs.
+  reason: The product's core identity is an MCP server that exposes architecture analysis and diagram generation as tools over the Model Context Protocol, making MCP its primary purpose rather than a side feature.
   evidence:
-    - The README explicitly states 'The server extracts hard facts. The model does the reasoning.'
-    - It provides structured JSON and Mermaid/Graphviz diagrams to ground model reasoning
-    - It is explicitly compatible with various AI clients via the Model Context Protocol
+    - Repo description explicitly states it is an MCP server, CLI, and GitHub Action
+    - README emphasizes it speaks MCP over stdio and works with any MCP client like Claude Code or Cursor
+    - Listed in awesome-mcp-servers under Server Implementations > Architecture & Design
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -90,30 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-28T04:59:07.655Z"
+    cause: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0d3f49aa784d7f1dd0c49c87992df6e43a68a97138d71d474fa0aad64113c5dd
-      proposed_primary_category: context-engineering
+      category_rules_version: c367d6101132
+      input_hash: sha256:52bdc25adee0c78ab457b4aa6c9f0e936fe27fda7b674f419fe24fbfea02bb04
+      proposed_primary_category: mcp
       disagreement: false
-      decision_reason: It functions as context-shaping infrastructure by converting complex codebase structures into deterministic, machine-readable facts for LLMs.
+      decision_reason: The product's core identity is an MCP server that exposes architecture analysis and diagram generation as tools over the Model Context Protocol, making MCP its primary purpose rather than a side feature.
       decision_evidence:
-        - The README explicitly states 'The server extracts hard facts. The model does the reasoning.'
-        - It provides structured JSON and Mermaid/Graphviz diagrams to ground model reasoning
-        - It is explicitly compatible with various AI clients via the Model Context Protocol
+        - Repo description explicitly states it is an MCP server, CLI, and GitHub Action
+        - README emphasizes it speaks MCP over stdio and works with any MCP client like Claude Code or Cursor
+        - Listed in awesome-mcp-servers under Server Implementations > Architecture & Design
       category_candidates:
-        - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because its primary value is providing structured context to ground LLM reasoning rather than serving as a generic protocol utility.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's main identity is providing MCP infrastructure (a server exposing architecture tools), not extending a host agent with new capabilities.
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null

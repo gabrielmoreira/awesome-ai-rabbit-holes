@@ -37,23 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GitHub is an AI-powered developer platform for building, collaborating on, and shipping software.
-  why_it_matters: It provides an integrated ecosystem for developers to write, review, test, and deploy code with AI assistance and automation tools.
-  mental_damage: The platform now promises to let you delegate entire workflows to Copilot, because apparently writing code was the easy part.
+  summary: The global developer platform for version control, collaboration, and automated workflows.
+  why_it_matters: It serves as the foundational infrastructure and host for much of the AI tooling and agent ecosystem.
+  mental_damage: Trying to catalog the platform that hosts the tools is like trying to catalog the ocean while you're drowning in it.
   tags:
-    - developer-platform
-    - ai-assisted-coding
+    - platform
+    - devops
     - collaboration
-    - ci-cd
-    - version-control
   confidence: high
 curation:
   status: excluded
-  reason: GitHub is a broad developer platform and SaaS product, not a focused AI tool, agent, or workflow component within the catalog's scope.
+  reason: GitHub is a massive, foundational developer platform that hosts various AI tools rather than being a specific AI tool or agent itself.
   evidence:
-    - Primary identity is a general developer platform (version control, CI/CD, project management)
-    - AI features (Copilot, MCP Registry) are integrated but not the core product identity
-    - Source-list context shows it appears in an MCP registry list, but MCP is only a feature, not the product identity
+    - Scraped context identifies GitHub as a 'developer platform' containing diverse features like Actions, Codespaces, and Copilot.
+    - The product identity is a broad host environment rather than a specialized AI-driven utility or agent.
 placement:
   primary_category: null
   section: null
@@ -74,24 +71,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:07.734Z"
+    updated_at: "2026-09-28T04:16:02.058Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a7ca2a79ba89a82ac8ec084a7da71fdf166c78b92c65f4c1ce7451b9547d831e
+      category_rules_version: c367d6101132
+      input_hash: sha256:3e5b796bea4e998317609b11d6847d0dd8b62ee6987b292f516740bdadf4fceb
       proposed_primary_category: null
       disagreement: false
-      decision_reason: GitHub is a broad developer platform and SaaS product, not a focused AI tool, agent, or workflow component within the catalog's scope.
+      decision_reason: GitHub is a massive, foundational developer platform that hosts various AI tools rather than being a specific AI tool or agent itself.
       decision_evidence:
-        - Primary identity is a general developer platform (version control, CI/CD, project management)
-        - AI features (Copilot, MCP Registry) are integrated but not the core product identity
-        - Source-list context shows it appears in an MCP registry list, but MCP is only a feature, not the product identity
+        - Scraped context identifies GitHub as a 'developer platform' containing diverse features like Actions, Codespaces, and Copilot.
+        - The product identity is a broad host environment rather than a specialized AI-driven utility or agent.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

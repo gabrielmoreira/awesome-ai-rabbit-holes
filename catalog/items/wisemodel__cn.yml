@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__wisemodel__cn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,39 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A neutral open-source AI community platform aggregating models, datasets, code, and agent ecosystem resources.
-  why_it_matters: >-
-    Provides a centralized hub for developers to discover and navigate cutting-edge AI models, datasets, and
-    agent-related tools.
-  mental_damage: Another all-in-one AI ecosystem platform that promises to be the last one you’ll ever need, until the next one.
+  summary: wisemodel.cn is a neutral open AI community platform aggregating models, datasets, and code for building agent ecosystems.
+  why_it_matters: It offers a centralized, all-in-one hub for developers to discover and access cutting-edge AI resources to accelerate agent-based development.
+  mental_damage: Another 'everything AI' portal promising agent utopia while adding to the infinite scroll of resource overload.
   tags:
-    - ai-community
-    - agent-ecosystem
-    - directory
-    - open-source
+    - ai-platform
     - model-hub
+    - agent-ecosystem
   confidence: high
 curation:
-  status: included
-  reason: >-
-    The product is a curated directory and discovery platform for AI resources, fitting the 'Awesome Awesomes' category
-    for navigation aids.
+  status: excluded
+  reason: It is a general AI resource directory and community platform without a clear developer-tooling product identity; it aggregates content rather than providing a tool, agent, framework, or workflow that developers actively use to build, edit, or orchestrate code or agents.
   evidence:
-    - >-
-      Described as a 'neutral open-source AI community' aggregating models, datasets, code, and agent ecosystem
-      resources
-    - Positioned as an 'all-in-one platform' for the agent ecosystem in source-list context
+    - Described as a '中立开放的AI开源社区' (neutral open AI open-source community) pooling models, datasets, and code
+    - Positioned as an 'all-in-one platform for building future agent ecosystems' — a broad vision, not a specific developer tool
+    - Listed in awesome-LLM-resources under '社区 Community' as a resource summary, not a tool
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,32 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:39:08.591Z'
+    updated_at: "2026-09-28T04:49:53.812Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:23269cfdd8ce6d98f666daba575170ee3402433be0f7a557317fd4b645654c3c
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: c367d6101132
+      input_hash: sha256:a449b1d5aebab84714dfb2a8d92b6a0b2f7922508341a5960eb7ef840167bd2a
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is a curated directory and discovery platform for AI resources, fitting the 'Awesome Awesomes'
-        category for navigation aids.
+      decision_reason: It is a general AI resource directory and community platform without a clear developer-tooling product identity; it aggregates content rather than providing a tool, agent, framework, or workflow that developers actively use to build, edit, or orchestrate code or agents.
       decision_evidence:
-        - >-
-          Described as a 'neutral open-source AI community' aggregating models, datasets, code, and agent ecosystem
-          resources
-        - Positioned as an 'all-in-one platform' for the agent ecosystem in source-list context
-      category_candidates:
-        - awesome-awesomes
-        - agent-orchestration
-      contrastive_reason: >-
-        Choose awesome-awesomes over agent-orchestration because the primary value is discovery and navigation rather
-        than multi-agent coordination.
+        - Described as a '中立开放的AI开源社区' (neutral open AI open-source community) pooling models, datasets, and code
+        - Positioned as an 'all-in-one platform for building future agent ecosystems' — a broad vision, not a specific developer tool
+        - Listed in awesome-LLM-resources under '社区 Community' as a resource summary, not a tool
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

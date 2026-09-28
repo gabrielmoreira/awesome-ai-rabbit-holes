@@ -36,20 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A technical blog post detailing a method to remove refusal mechanisms from LLMs using residual stream intervention and weight orthogonalization.
-  why_it_matters: It provides a way to bypass safety fine-tuning to create unrestricted models without the heavy cost of full retraining.
-  mental_damage: Because nothing says 'software developer' like spending an entire afternoon surgically removing a model's moral compass through linear algebra.
+  summary: A Hugging Face blog post describing a technique called 'abliteration' that removes the refusal mechanism from LLMs to make them uncensorable.
+  why_it_matters: Developers seeking to bypass LLM safety filters can apply this technique to make models respond to any prompt, though at the cost of degraded performance.
+  mental_damage: The existential dread of realizing your carefully aligned model is now a wildcard that will happily explain how to build a bomb if you ask nicely.
   tags:
     - llm
-    - uncensoring
+    - safety
+    - jailbreak
     - mechanistic-interpretability
   confidence: high
 curation:
   status: excluded
-  reason: The content is a technical blog post and implementation guide rather than a standalone developer tool, framework, or agent.
+  reason: This is an educational blog post about a model modification technique, not a developer-facing tool, product, or infrastructure that fits any catalog category.
   evidence:
-    - Source is a Hugging Face community article by Maxime Labonne
-    - The content is a one-off technical tutorial and code implementation guide rather than a packaged product or library
+    - The source is a Hugging Face blog post by Maxime Labonne, not a GitHub repo or standalone product
+    - The content describes a research technique for uncensoring LLMs via weight orthogonalization, with no tool, SDK, or service being offered
+    - Appears in an awesome list as a resource under '技巧 Tips', indicating it is curated as educational content, not a developer tool
 placement:
   primary_category: null
   section: null
@@ -70,23 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:12:19.420Z"
+    updated_at: "2026-09-28T04:52:39.239Z"
     cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:54d049c055c9d98c6f36b5b50c2c79c309230cc961a358d12b9fc69e566ca212
+      category_rules_version: c367d6101132
+      input_hash: sha256:f4e1bb70604a8d6be9b10f315896d280f074acab870ed6d96dd881d1f28955c1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The content is a technical blog post and implementation guide rather than a standalone developer tool, framework, or agent.
+      decision_reason: This is an educational blog post about a model modification technique, not a developer-facing tool, product, or infrastructure that fits any catalog category.
       decision_evidence:
-        - Source is a Hugging Face community article by Maxime Labonne
-        - The content is a one-off technical tutorial and code implementation guide rather than a packaged product or library
+        - The source is a Hugging Face blog post by Maxime Labonne, not a GitHub repo or standalone product
+        - The content describes a research technique for uncensoring LLMs via weight orthogonalization, with no tool, SDK, or service being offered
+        - Appears in an awesome list as a resource under '技巧 Tips', indicating it is curated as educational content, not a developer tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

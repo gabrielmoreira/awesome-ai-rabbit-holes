@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: TalentOS's MCP feature page, likely describing their Model Context Protocol integration or server offering.
-  why_it_matters: Provides developers with MCP-based tooling or server capabilities for extending AI assistant contexts.
-  mental_damage: Another MCP page that may or may not be the actual protocol, just the marketing of it.
+  summary: A documentation page for Model Context Protocol (MCP) features on talentohq.com, describing MCP capabilities but not providing a standalone MCP server, client, or tool.
+  why_it_matters: It explains MCP concepts but does not offer deployable infrastructure or tooling for developers to use.
+  mental_damage: Another marketing page pretending to be a tool while developers search for actual MCP implementations to integrate.
   tags:
+    - documentation
     - mcp
-    - protocol
-    - integration
+    - overview
   confidence: high
 curation:
   status: excluded
-  reason: The URL points to a feature page rather than a standalone product, repo, or toolkit, and there is no evidence of a concrete MCP server, client, or tooling artifact.
+  reason: The URL is a feature overview page, not a deployable MCP server, client, or tool; it lacks MCP product identity and is excluded as documentation rather than infrastructure.
   evidence:
-    - URL is a feature page (talentohq.com/features/mcp), not a repo or standalone tool
-    - No repo description, stars, or code artifacts provided
-    - Source-list context only shows it in an MCP servers list, but the page itself is not a server
+    - "URL: https://talentohq.com/features/mcp is a features page, not a GitHub repo or standalone tool"
+    - "Repo description: (none), indicating no associated codebase or product"
+    - "Seen in source lists: awesome-mcp-servers lists it under 'Official Servers' but this is a documentation page, not an operational MCP server"
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:38.961Z"
+    updated_at: "2026-09-28T04:46:32.255Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:470cc9e27b2e334491373296606aed8b24bd042808ca14a152ca7d8ec52d9b66
+      category_rules_version: c367d6101132
+      input_hash: sha256:eb6f7cafcad8177716059bf24d7f13dc020179edf2a6f147887f2ae1768978a3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The URL points to a feature page rather than a standalone product, repo, or toolkit, and there is no evidence of a concrete MCP server, client, or tooling artifact.
+      decision_reason: The URL is a feature overview page, not a deployable MCP server, client, or tool; it lacks MCP product identity and is excluded as documentation rather than infrastructure.
       decision_evidence:
-        - URL is a feature page (talentohq.com/features/mcp), not a repo or standalone tool
-        - No repo description, stars, or code artifacts provided
-        - Source-list context only shows it in an MCP servers list, but the page itself is not a server
+        - "URL: https://talentohq.com/features/mcp is a features page, not a GitHub repo or standalone tool"
+        - "Repo description: (none), indicating no associated codebase or product"
+        - "Seen in source lists: awesome-mcp-servers lists it under 'Official Servers' but this is a documentation page, not an operational MCP server"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

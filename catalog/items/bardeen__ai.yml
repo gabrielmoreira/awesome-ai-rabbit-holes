@@ -51,23 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Bardeen is an AI-powered automation platform for lead generation, web scraping, contact enrichment, and workflow automation.
-  why_it_matters: It automates repetitive tasks like lead discovery, data enrichment, and outreach for GTM teams, reducing manual effort in sales and operations workflows.
-  mental_damage: Finally, a way to automate the soul-crushing parts of sales prospecting—just in time to realize you still have to talk to humans.
+  summary: Bardeen is an AI-powered automation platform for scraping web data, enriching leads, and syncing with spreadsheets.
+  why_it_matters: It helps developers and GTM teams automate lead-generation workflows that would otherwise require custom scripts or manual data entry.
+  mental_damage: Another tool promising to replace your Python scraper with a click-through UI, just when you finally got BeautifulSoup working.
   tags:
     - automation
-    - lead-generation
     - web-scraping
-    - workflow
-    - gtm
+    - lead-enrichment
   confidence: high
 curation:
   status: excluded
-  reason: Bardeen is a GTM-focused automation and lead generation SaaS platform, not a developer-tooling product for coding, agent orchestration, or AI workflow infrastructure.
+  reason: Bardeen is a GTM-focused automation and lead-generation platform, not a developer-facing AI tool for coding, agents, or workflows intrinsic to software development.
   evidence:
-    - Primary product is agentic web scraping and lead enrichment for sales/GTM teams
-    - No developer-facing coding, IDE, or agent orchestration capabilities
-    - Source-list context places it in AI agents lists but for business automation, not developer workflows
+    - "Scraped site context: 'Find and reach leads no one else can. Source leads with our agentic web scraper, qualify them with AI and reach them with contact enrichment.'"
+    - "Source-list context: Appears in awesome-ai-agents under 'Bardeen' with description focused on lead scraping and enrichment for solopreneurs, real estate, recruiting, and PE."
+    - README/product excerpt emphasizes sales, marketing, and ops use cases (SDRs, AEs, CSMs, RevOps), not developer tooling or code-related workflows.
 placement:
   primary_category: null
   section: null
@@ -77,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:39.489Z"
+    updated_at: "2026-09-28T04:39:07.807Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3fbb29408f274bc2239dba70dcabd5a179b05e5a3a6c64d0722548313cbde5f3
+      category_rules_version: c367d6101132
+      input_hash: sha256:4d174060886201c5282052eecb1c8643e62e1cbf74a28cdb69ce620830f770ef
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Bardeen is a GTM-focused automation and lead generation SaaS platform, not a developer-tooling product for coding, agent orchestration, or AI workflow infrastructure.
+      decision_reason: Bardeen is a GTM-focused automation and lead-generation platform, not a developer-facing AI tool for coding, agents, or workflows intrinsic to software development.
       decision_evidence:
-        - Primary product is agentic web scraping and lead enrichment for sales/GTM teams
-        - No developer-facing coding, IDE, or agent orchestration capabilities
-        - Source-list context places it in AI agents lists but for business automation, not developer workflows
+        - "Scraped site context: 'Find and reach leads no one else can. Source leads with our agentic web scraper, qualify them with AI and reach them with contact enrichment.'"
+        - "Source-list context: Appears in awesome-ai-agents under 'Bardeen' with description focused on lead scraping and enrichment for solopreneurs, real estate, recruiting, and PE."
+        - README/product excerpt emphasizes sales, marketing, and ops use cases (SDRs, AEs, CSMs, RevOps), not developer tooling or code-related workflows.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

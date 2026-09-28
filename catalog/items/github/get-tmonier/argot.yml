@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/get-tmonier/argot
         surrounding_text: "- [get-tmonier/argot](https://github.com/get-tmonier/argot) [![get-tmonier/argot MCP server](https://glama.ai/mcp/servers/get-tmonier/argot/badges/score.svg)](https://glama.ai/mcp/servers/get-tmonier/argot) 🎖️ 🦀 🏠 🍎 🪟 🐧 - Guardrail that checks agent-written code against a repo's own git-history-learned patterns — flags foreign dependencies, reinvented functions, misplaced code, broken layering, and gamed tests. Exposes `voice_context` (the repo's familiar imports/idioms for a file, so agents write in-voice before generating), `check` (score a generated hunk against the repo's patterns), and `explain`. 100% local, no LLM, single Rust binary. `npm i -g @tmonier/argot`"
         confidence: high
+    - id: discovery__github__get-tmonier__argot__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-28T04:13:54.113Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: argot
+        extracted_url: https://github.com/get-tmonier/argot
+        surrounding_text: "- **[argot](https://github.com/get-tmonier/argot)** – Guardrail that flags AI-written code foreign to a repo's own patterns (unfamiliar deps and APIs, reinvented functions, misplaced code, layering breaks, tests gamed to pass CI), learned statistically from git history. Runs 100% local as a single Rust binary, no second LLM."
+        confidence: high
 metadata:
   github:
     stars: 48
@@ -85,7 +100,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-27T05:20:52.310Z"
+    updated_at: "2026-09-28T04:13:54.115Z"
     cause: null
     next_retry_at: null
   stars:
@@ -95,7 +110,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-24T04:13:12.445Z"
+    updated_at: "2026-09-28T04:14:00.165Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

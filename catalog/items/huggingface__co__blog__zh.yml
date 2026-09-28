@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Hugging Face's official blog featuring community and technical articles about AI/ML developments.
-  why_it_matters: Provides educational and technical insights into AI/ML trends, tools, and research that developers can leverage in their workflows.
-  mental_damage: Another blog to add to your already overflowing RSS feed of AI content you’ll never finish reading.
+  summary: The Chinese-language blog for the Hugging Face AI platform.
+  why_it_matters: It provides localized technical deep-dives, tutorials, and news regarding the open-source AI ecosystem.
+  mental_damage: It provides a convenient, localized stream of news to ensure you are always aware of exactly which model just made your current stack obsolete.
   tags:
-    - blog
-    - ai-ml-education
-    - community-articles
     - huggingface
+    - blog
+    - chinese
+    - tutorials
   confidence: high
 curation:
   status: excluded
-  reason: This is a blog/publication surface, not a developer tool, framework, or product in the catalog's scope.
+  reason: The blog is a resource section of the larger Hugging Face platform rather than an independent tool or standalone publication.
   evidence:
-    - Scraped site context identifies it as a 'Community Articles' blog on Hugging Face
-    - Source-list context places it under '教程 Tutorial' in a general LLM resources list
-    - No indication of a standalone tool, library, or developer-facing product
+    - The URL is a sub-directory of the Hugging Face platform
+    - The content serves as documentation and news for the existing Hugging Face ecosystem
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:37.764Z"
+    updated_at: "2026-09-28T04:23:07.638Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:317a8b4f7934a8be2e596b4a847ac9e4db2e273ffd7394e3e170831f584847aa
+      category_rules_version: c367d6101132
+      input_hash: sha256:9a9d2ef4bfcc2a3e05c75724fa00ec1201a50f5da4af5362a91318f75c976e60
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a blog/publication surface, not a developer tool, framework, or product in the catalog's scope.
+      decision_reason: The blog is a resource section of the larger Hugging Face platform rather than an independent tool or standalone publication.
       decision_evidence:
-        - Scraped site context identifies it as a 'Community Articles' blog on Hugging Face
-        - Source-list context places it under '教程 Tutorial' in a general LLM resources list
-        - No indication of a standalone tool, library, or developer-facing product
+        - The URL is a sub-directory of the Hugging Face platform
+        - The content serves as documentation and news for the existing Hugging Face ecosystem
       category_candidates: []
       contrastive_reason: null
       review_reason: null

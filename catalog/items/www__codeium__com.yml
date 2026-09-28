@@ -36,15 +36,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Devin Desktop is a desktop application for managing and coordinating multiple local and cloud coding agents from a unified interface.
-  why_it_matters: It allows developers to delegate, monitor, and review work across multiple agents and repositories without switching contexts, integrating a full IDE for debugging and validation.
-  mental_damage: Now you can watch a fleet of agents argue over tabs vs. spaces while you question your life choices.
+  summary: Devin Desktop is a desktop IDE with agent management features for coordinating local and cloud coding agents.
+  why_it_matters: It lets developers manage fleets of coding agents from a single IDE surface, combining code editing with agent orchestration.
+  mental_damage: Finally, a way to feel guilty about underutilizing not just one AI agent, but an entire fleet of them.
   tags:
-    - multi-agent
-    - ide-integration
+    - ide
     - agent-orchestration
-    - coding-assistant
-    - desktop
+    - mcp
   confidence: high
 curation:
   status: included
@@ -70,27 +68,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:19.914Z"
+    updated_at: "2026-09-28T04:50:29.024Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:6775db042ee4a23567d3c43ab360b86542ed8117159a8f2709b91a7b29012b6c
+      category_rules_version: c367d6101132
+      input_hash: sha256:b0e9d8dd2d841b60edcc9754a4f085c105083efbda72ad94a348820de7c97b36
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: The primary product identity is a workbench for coordinating multiple agents, tasks, and shared workflows, not a single coding assistant or IDE.
+      decision_reason: Devin Desktop’s core identity is managing multiple agents via Spaces, Kanban, and multi-agent workflows, making it an agent orchestration platform despite its IDE features.
       decision_evidence:
-        - "Product description: 'Manage fleets of local and cloud agents from one surface'"
-        - Includes multi-agent management, shared context (Spaces), and a full IDE for review/debugging
-        - Positioned as 'the home for every agent you run' with explicit multi-agent coordination features
+        - Manage fleets of local and cloud agents from one surface. Plan, delegate, review, and ship without leaving your editor.
+        - Devin Desktop is the home for coding agents to do your best work. You decide what to build, then your agents write the code, chase the edge cases, and test every detail.
+        - Use Spaces to share context and Git worktrees across all your agents.
       category_candidates:
         - agent-orchestration
-        - ai-ides-editors
-      contrastive_reason: Choose agent-orchestration over ai-ides-editors because the core value is multi-agent coordination and shared workflows, not the IDE surface itself.
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because the primary value is coordinating multiple agents and managing agent workflows, not performing coding tasks directly as a solo agent.
       review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
       review_resume_lifecycle: null

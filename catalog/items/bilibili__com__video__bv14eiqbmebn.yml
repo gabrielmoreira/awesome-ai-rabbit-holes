@@ -53,23 +53,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili video featuring an interview between Lovart founder Chen Mian and Luo Yonghao discussing AI, entrepreneurship, and Lovart's design-focused AI agent product.
-  why_it_matters: It provides developer-relevant context about Lovart, a design-oriented AI agent product, but does not itself offer a practical tool or workflow for developers.
-  mental_damage: Watching a 3.5-hour interview about AI agents instead of building one.
+  summary: A Bilibili video interview with Lovart founder Chen Mian discussing his entrepreneurial journey and the AI design agent Lovart.
+  why_it_matters: Provides insight into the origins and vision of Lovart, an AI design agent, which may interest developers exploring AI-powered creative tools.
+  mental_damage: Watching yet another founder interview to understand if their AI tool is actually useful or just well-marketed.
   tags:
-    - interview
-    - ai-agent
+    - ai-design
+    - founder-interview
     - lovart
-    - bilibili
-    - podcast
   confidence: high
 curation:
   status: excluded
-  reason: This is a media resource (interview video) rather than a practical AI tool, framework, or workflow for developers.
+  reason: The resource is a video interview about a founder's backstory and company narrative, not a developer-facing AI tool, agent, or infrastructure that aids software development workflows.
   evidence:
-    - URL points to a Bilibili video, not a repo or tool
-    - Scraped context confirms it is an interview/podcast-style video
-    - Source-list context categorizes it under 'Podcast' in an LLM resources list
+    - The URL is a Bilibili video (BV14eiQBmEbN) featuring an interview with Lovart founder Chen Mian and Luo Yonghao.
+    - The scraped site context and transcript focus on the founder's entrepreneurial history, company achievements, and promotional content about Lovart as a design agent, with no mention of developer tooling, APIs, SDKs, or integration capabilities for software engineers.
+    - Source-list inclusion is in 'awesome-LLM-resources' under a podcast/suggestion section, indicating it is treated as a general LLM resource or media content, not a developer tool.
 placement:
   primary_category: null
   section: null
@@ -79,24 +77,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:37.631Z"
+    updated_at: "2026-09-28T04:39:08.952Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:c29d723be4e76084943a9b96002df2881b787de7d3994c3261c24d3564eeb653
+      category_rules_version: c367d6101132
+      input_hash: sha256:503cee2be572633ba1ec5fc3da9ac126648ba9d427dc45522c59f91c46d9c428
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a media resource (interview video) rather than a practical AI tool, framework, or workflow for developers.
+      decision_reason: The resource is a video interview about a founder's backstory and company narrative, not a developer-facing AI tool, agent, or infrastructure that aids software development workflows.
       decision_evidence:
-        - URL points to a Bilibili video, not a repo or tool
-        - Scraped context confirms it is an interview/podcast-style video
-        - Source-list context categorizes it under 'Podcast' in an LLM resources list
+        - The URL is a Bilibili video (BV14eiQBmEbN) featuring an interview with Lovart founder Chen Mian and Luo Yonghao.
+        - The scraped site context and transcript focus on the founder's entrepreneurial history, company achievements, and promotional content about Lovart as a design agent, with no mention of developer tooling, APIs, SDKs, or integration capabilities for software engineers.
+        - Source-list inclusion is in 'awesome-LLM-resources' under a podcast/suggestion section, indicating it is treated as a general LLM resource or media content, not a developer tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

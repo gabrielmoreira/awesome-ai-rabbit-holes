@@ -52,25 +52,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The Model Context Protocol (MCP) is an open-source standard for connecting AI applications to external systems like data sources, tools, and workflows.
-  why_it_matters: It enables AI assistants to access and interact with external systems (e.g., files, databases, APIs) in a standardized way, reducing integration complexity for developers.
-  mental_damage: Finally, a USB-C port for AI—because nothing says 'standardization' like another protocol to learn.
+  summary: Model Context Protocol (MCP) is an open standard enabling AI applications to connect to external systems like data sources, tools, and workflows.
+  why_it_matters: MCP reduces development complexity by providing a unified interface for AI agents to access real-world tools and data, improving integration across ecosystems.
+  mental_damage: Another protocol promising seamless AI integration while developers juggle ten competing standards just to get a model to read a file.
   tags:
     - protocol
     - ai-integration
-    - standard
     - mcp
+    - developer-tools
   confidence: high
 curation:
-  status: excluded
-  reason: This is documentation for the MCP protocol itself, not a standalone product, tool, or library. It is an auxiliary resource page rather than a developer-facing tool.
+  status: included
+  reason: The Model Context Protocol is an open standard whose primary identity is enabling AI applications to interface with external systems via a shared protocol, fitting squarely in the MCP Ecosystem category as infrastructure for clients, servers, and tooling.
   evidence:
-    - The URL points to MCP's official documentation (intro page)
-    - The page describes MCP's purpose and architecture but does not present a usable tool or library
-    - Source-list context shows it is referenced as explanatory material, not a product
+    - The page defines MCP as 'an open-source standard for connecting AI applications to external systems' and compares it to 'a USB-C port for AI applications'.
+    - It emphasizes MCP's role in enabling agents to access data sources, tools, and workflows, with developer benefits centered on reduced integration time and complexity.
+    - The site navigation and content focus on building MCP servers, clients, apps, and developer tooling like the MCP Inspector, indicating MCP is the core product identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
@@ -86,25 +86,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:57.978Z"
+    updated_at: "2026-09-28T04:33:27.524Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1fa69d4f62775713e8aa4987e43c9ab656002bc7383ae0fbb2d5a8ff7d68e8c8
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:4caa768b135be94500b3655ac4c7533c6f9eda0a740153fef7d956f48bf3b254
+      proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is documentation for the MCP protocol itself, not a standalone product, tool, or library. It is an auxiliary resource page rather than a developer-facing tool.
+      decision_reason: The Model Context Protocol is an open standard whose primary identity is enabling AI applications to interface with external systems via a shared protocol, fitting squarely in the MCP Ecosystem category as infrastructure for clients, servers, and tooling.
       decision_evidence:
-        - The URL points to MCP's official documentation (intro page)
-        - The page describes MCP's purpose and architecture but does not present a usable tool or library
-        - Source-list context shows it is referenced as explanatory material, not a product
-      category_candidates: []
-      contrastive_reason: null
+        - The page defines MCP as 'an open-source standard for connecting AI applications to external systems' and compares it to 'a USB-C port for AI applications'.
+        - It emphasizes MCP's role in enabling agents to access data sources, tools, and workflows, with developer benefits centered on reduced integration time and complexity.
+        - The site navigation and content focus on building MCP servers, clients, apps, and developer tooling like the MCP Inspector, indicating MCP is the core product identity.
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because MCP is a protocol standard for interoperability, not a code-first library or SDK developers import and program against.
       review_reason: null
       review_resume_lifecycle: null

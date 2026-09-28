@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: "Stanford's CS25: Transformers United is a seminar course featuring top researchers discussing the latest breakthroughs in Transformer and AI research."
-  why_it_matters: It provides developers with direct access to cutting-edge research insights and discussions from leading figures in AI, useful for staying current with foundational model advancements.
-  mental_damage: You’ll finally understand why everyone keeps saying 'attention is all you need'—and then immediately forget it by the next lecture.
+  summary: CS25 is a Stanford seminar course on Transformers research featuring lectures from top AI researchers.
+  why_it_matters: Provides developers with access to cutting-edge Transformer research talks that can inform AI engineering work.
+  mental_damage: Watching yet another AI lecture series while your PRs rot and your local LLM keeps hallucinating about your codebase.
   tags:
-    - course
-    - transformers
-    - ai-research
-    - stanford
     - education
+    - research
+    - ai
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational course, not a practical developer tool, framework, or workflow product.
+  reason: CS25 is an educational course and lecture series, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - The project is a Stanford seminar course, not a software tool or library
-    - The primary value is educational content (lectures, talks, research discussions) rather than developer-tooling functionality
-    - Source-list context places it under '课程 Course' (Course), confirming its educational nature
+    - Scraped site context describes CS25 as 'one of Stanford's hottest seminar courses' featuring talks from researchers like Geoffrey Hinton and Andrej Karpathy
+    - Source-list context shows it appears in 'awesome-LLM-resources' under the '课程 Course' section as an educational resource
+    - Primary page excerpt emphasizes weekly attendance to talks/lectures as the only homework, with no mention of developer tooling, code generation, or AI agent functionality
 placement:
   primary_category: null
   section: null
@@ -71,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:59.098Z"
+    updated_at: "2026-09-28T04:49:28.986Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:64ffdc7284c405c6e7987e6afe46ca5df6c0d0f275b8b684299925280103ca1c
+      category_rules_version: c367d6101132
+      input_hash: sha256:2c9eaa1c87d6306a41e8bc31b890278aab07a24ab651d2db6f7d2228e244df93
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational course, not a practical developer tool, framework, or workflow product.
+      decision_reason: CS25 is an educational course and lecture series, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - The project is a Stanford seminar course, not a software tool or library
-        - The primary value is educational content (lectures, talks, research discussions) rather than developer-tooling functionality
-        - Source-list context places it under '课程 Course' (Course), confirming its educational nature
+        - Scraped site context describes CS25 as 'one of Stanford's hottest seminar courses' featuring talks from researchers like Geoffrey Hinton and Andrej Karpathy
+        - Source-list context shows it appears in 'awesome-LLM-resources' under the '课程 Course' section as an educational resource
+        - Primary page excerpt emphasizes weekly attendance to talks/lectures as the only homework, with no mention of developer tooling, code generation, or AI agent functionality
       category_candidates: []
       contrastive_reason: null
       review_reason: null

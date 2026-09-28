@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Saga AI is an AI assistant integrated into a workspace for notes, docs, and tasks, offering content drafting, brainstorming, grammar checking, and translation.
-  why_it_matters: It embeds generative AI directly into a productivity workspace, reducing context-switching for non-code writing and editing tasks.
-  mental_damage: Now you can write meeting notes with the same tool you use to procrastinate writing meeting notes.
+  summary: Saga AI is an AI assistant for drafting, brainstorming, grammar checking, and translating content within a notes and tasks workspace.
+  why_it_matters: It lets developers generate and refine text content without leaving their workspace, reducing context-switching during documentation or communication tasks.
+  mental_damage: Another AI wrapper promising to ‘just work inside your notes’ while quietly training on your most half-baked meeting summaries.
   tags:
-    - productivity
     - ai-assistant
-    - workspace
     - content-creation
+    - workspace-integration
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general-purpose AI assistant for content creation and productivity tasks, not a developer-tooling product focused on coding, agents, or workflows.
+  reason: Saga AI is a general-purpose AI assistant for content creation and productivity, not a developer-facing tool focused on coding, agents, or infrastructure; its presence in awesome-ai-agents is incidental and does not establish a developer-tooling identity.
   evidence:
-    - Primary use cases are content creation, translation, grammar checking, and note-taking
-    - Marketed as an AI workspace for notes, docs, and tasks, not code or development workflows
-    - Source-list context describes it as a content drafting and brainstorming tool, not a coding assistant
+    - Repo description is missing; scraped site context positions it as an AI assistant for drafting, brainstorming, grammar check, and translation.
+    - Primary use cases include content creation, meeting notes, studying, and job posts — not code generation, editing, or developer workflows.
+    - "Listed in awesome-ai-agents under 'Saga' with description: 'Saga AI is your AI assistant for drafting content, brainstorming ideas, fixing grammar, and translating to 20+ languages.'"
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:18.736Z"
+    updated_at: "2026-09-28T04:36:25.371Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:2647cb5bf3279e39ab0772da1cff49a32c208fb7e105e5eef4dca74287c09dd7
+      category_rules_version: c367d6101132
+      input_hash: sha256:819a1531db291ec876f36724025b9e78218cd1ac53efa517840876c0353f6b8b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a general-purpose AI assistant for content creation and productivity tasks, not a developer-tooling product focused on coding, agents, or workflows.
+      decision_reason: Saga AI is a general-purpose AI assistant for content creation and productivity, not a developer-facing tool focused on coding, agents, or infrastructure; its presence in awesome-ai-agents is incidental and does not establish a developer-tooling identity.
       decision_evidence:
-        - Primary use cases are content creation, translation, grammar checking, and note-taking
-        - Marketed as an AI workspace for notes, docs, and tasks, not code or development workflows
-        - Source-list context describes it as a content drafting and brainstorming tool, not a coding assistant
+        - Repo description is missing; scraped site context positions it as an AI assistant for drafting, brainstorming, grammar check, and translation.
+        - Primary use cases include content creation, meeting notes, studying, and job posts — not code generation, editing, or developer workflows.
+        - "Listed in awesome-ai-agents under 'Saga' with description: 'Saga AI is your AI assistant for drafting content, brainstorming ideas, fixing grammar, and translating to 20+ languages.'"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

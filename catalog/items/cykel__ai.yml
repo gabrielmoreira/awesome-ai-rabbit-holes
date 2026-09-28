@@ -51,22 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A SaaS platform offering AI 'digital workers' for recruitment, sales, and research tasks.
-  why_it_matters: It automates repetitive business workflows like candidate sourcing, sales outreach, and market research for non-developer teams.
-  mental_damage: Now your sales team can outsource their LinkedIn spam to an AI that works 24/7, because human dignity was the real bottleneck.
+  summary: Cykel is a commercial platform offering autonomous AI digital workers for recruitment, sales, and research tasks.
+  why_it_matters: It positions itself as an end-to-end business automation tool using AI agents, but lacks clear developer tooling integration or open model access.
+  mental_damage: Another AI vendor promising superhuman productivity while locking users into opaque, paid workflows you can’t inspect or extend.
   tags:
     - ai-agents
     - business-automation
     - saas
-    - vertical-agents
   confidence: high
 curation:
   status: excluded
-  reason: This is a business-focused SaaS platform for vertical agents (recruitment, sales, research) rather than a developer-tooling product.
+  reason: Cykel is a hosted SaaS platform for business process automation using proprietary AI workers, not a developer-facing tool for coding, workflow orchestration, or infrastructure.
   evidence:
-    - Site describes 'digital workers' for recruitment, sales, and research (Lucy, Eve, Samson)
-    - Target audience is business teams (talent, sales, advisory) not developers
-    - No developer workflow, code editing, or technical integration as primary value
+    - Markets Lucy, Eve, and Samson as AI workers for recruitment, sales, and research — not coding or developer tasks
+    - Describes itself as a 'digital worker platform' that integrates with ATS, CRM, and business tools — not IDEs, terminals, or codebases
+    - Listed in awesome-ai-agents under a generic 'Cykel' section with no technical or developer-oriented description
 placement:
   primary_category: null
   section: null
@@ -76,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:33:21.873Z"
+    updated_at: "2026-09-28T04:40:28.469Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a7da48dd6c4eced8a5b0d503e9529fa0fc60895fcd6aea1a8d29531c1af375c5
+      category_rules_version: c367d6101132
+      input_hash: sha256:c82ef9132ebc9a37a08f89984a7bf2efd4814615a56653f66fcf14e455da8551
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a business-focused SaaS platform for vertical agents (recruitment, sales, research) rather than a developer-tooling product.
+      decision_reason: Cykel is a hosted SaaS platform for business process automation using proprietary AI workers, not a developer-facing tool for coding, workflow orchestration, or infrastructure.
       decision_evidence:
-        - Site describes 'digital workers' for recruitment, sales, and research (Lucy, Eve, Samson)
-        - Target audience is business teams (talent, sales, advisory) not developers
-        - No developer workflow, code editing, or technical integration as primary value
+        - Markets Lucy, Eve, and Samson as AI workers for recruitment, sales, and research — not coding or developer tasks
+        - Describes itself as a 'digital worker platform' that integrates with ATS, CRM, and business tools — not IDEs, terminals, or codebases
+        - Listed in awesome-ai-agents under a generic 'Cykel' section with no technical or developer-oriented description
       category_candidates: []
       contrastive_reason: null
       review_reason: null

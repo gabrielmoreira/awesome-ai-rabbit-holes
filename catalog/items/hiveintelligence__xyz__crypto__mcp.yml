@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hiveintelligence__xyz__crypto__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,13 +18,10 @@ provenance:
           - Official Servers
         anchor_text: remote server
         extracted_url: https://hiveintelligence.xyz/crypto-mcp
-        surrounding_text: >-
-          - **[Hive Intelligence](https://github.com/hive-intel/hive-crypto-mcp)** 📇 ☁️ 🏠 - Hive Intelligence:
-          Ultimate cryptocurrency MCP for AI assistants with unified access to crypto, DeFi, and Web3 analytics. Hive's
-          remote mcp server guide [remote server](https://hiveintelligence.xyz/crypto-mcp).
+        surrounding_text: "- **[Hive Intelligence](https://github.com/hive-intel/hive-crypto-mcp)** 📇 ☁️ 🏠 - Hive Intelligence: Ultimate cryptocurrency MCP for AI assistants with unified access to crypto, DeFi, and Web3 analytics. Hive's remote mcp server guide [remote server](https://hiveintelligence.xyz/crypto-mcp)."
         confidence: high
     - id: discovery__www__hiveintelligence__xyz__crypto__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -36,10 +33,7 @@ provenance:
           - Official Servers
         anchor_text: remote server
         extracted_url: https://hiveintelligence.xyz/crypto-mcp
-        surrounding_text: >-
-          - **[Hive Intelligence](https://github.com/hive-intel/hive-crypto-mcp)** 📇 ☁️ 🏠 - Hive Intelligence:
-          Ultimate cryptocurrency MCP for AI assistants with unified access to crypto, DeFi, and Web3 analytics. Hive's
-          remote mcp server guide [remote server](https://hiveintelligence.xyz/crypto-mcp).
+        surrounding_text: "- **[Hive Intelligence](https://github.com/hive-intel/hive-crypto-mcp)** 📇 ☁️ 🏠 - Hive Intelligence: Ultimate cryptocurrency MCP for AI assistants with unified access to crypto, DeFi, and Web3 analytics. Hive's remote mcp server guide [remote server](https://hiveintelligence.xyz/crypto-mcp)."
         confidence: high
 metadata:
   github:
@@ -57,27 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A managed MCP server providing evidence-backed crypto due diligence tools for AI agents across 11 provider groups.
-  why_it_matters: >-
-    Developers can integrate a single MCP endpoint to access normalized crypto market, DeFi, wallet, security, and
-    on-chain data without stitching together multiple provider APIs.
-  mental_damage: Now your AI agent can finally explain why your token portfolio is a dumpster fire, with citations.
+  summary: Hive Intelligence provides an MCP server exposing 525 crypto-focused tools via discovery, schema, and execution primitives.
+  why_it_matters: It lets AI agents access normalized crypto data and DeFi analytics without manual tool wiring or context overload.
+  mental_damage: Another MCP server promising to save agents from tool fatigue while adding yet another endpoint to memorize.
   tags:
     - mcp
     - crypto
-    - data-providers
-    - ai-agents
-    - due-diligence
+    - defi
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server providing domain-specific (crypto) tools for AI agents, fitting the MCP
-    Servers & Tooling category.
+  reason: Hive Intelligence is an MCP server whose primary identity is exposing crypto and DeFi tools over the Model Context Protocol, fitting the MCP category's core definition.
   evidence:
-    - Described as a 'Crypto MCP Server for AI Agents' with a managed endpoint (https://mcp.hiveintelligence.xyz/mcp)
-    - Explicitly listed in awesome-mcp-servers under 'Official Servers'
-    - Core functionality is exposing 537+ callable tools via MCP for crypto data access
+    - The product exposes 525 callable tools via an MCP endpoint at https://mcp.hiveintelligence.xyz/mcp
+    - It provides discovery (search_tools), schema (get_api_endpoint_schema), and execution (invoke_api_endpoint) workflows for agents
+    - It normalizes 15 data sources including CoinGecko, Alchemy, and CCXT for crypto market data, wallet analysis, and DeFi analytics
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -88,39 +76,33 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:34:55.359Z'
+    updated_at: "2026-09-28T04:41:44.293Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:48b59e224b019f706a09062dc823f78906afa61c013fc62bde9aeeaa734a28aa
+      category_rules_version: c367d6101132
+      input_hash: sha256:22f03a6d6aac9a1d41f7b619b97ab6156719090942b1d90937c0b79708054ba2
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product's core identity is an MCP server providing domain-specific (crypto) tools for AI agents, fitting the
-        MCP Servers & Tooling category.
+      decision_reason: Hive Intelligence is an MCP server whose primary identity is exposing crypto and DeFi tools over the Model Context Protocol, fitting the MCP category's core definition.
       decision_evidence:
-        - >-
-          Described as a 'Crypto MCP Server for AI Agents' with a managed endpoint
-          (https://mcp.hiveintelligence.xyz/mcp)
-        - Explicitly listed in awesome-mcp-servers under 'Official Servers'
-        - Core functionality is exposing 537+ callable tools via MCP for crypto data access
+        - The product exposes 525 callable tools via an MCP endpoint at https://mcp.hiveintelligence.xyz/mcp
+        - It provides discovery (search_tools), schema (get_api_endpoint_schema), and execution (invoke_api_endpoint) workflows for agents
+        - It normalizes 15 data sources including CoinGecko, Alchemy, and CCXT for crypto market data, wallet analysis, and DeFi analytics
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the primary product is an MCP server (domain-specific tooling) rather
-        than an extension augmenting another assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because Hive Intelligence is an MCP server exposing tools over the protocol, not an extension that augments a host agent with specific capabilities.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.966Z'
+    updated_at: "2026-07-21T15:20:21.966Z"
     cause: null
     next_retry_at: null
   stars:

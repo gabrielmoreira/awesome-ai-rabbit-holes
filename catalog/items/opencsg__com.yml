@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__opencsg__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,42 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    OpenCSG is a hybrid Hugging Face ecosystem platform offering enterprise-grade private alternatives (CSGHub) and
-    AgenticOps tooling (CSGShip) for AI agent construction.
-  why_it_matters: >-
-    It provides developers with a self-hosted Hugging Face alternative and a platform for building and deploying AI
-    agents, addressing enterprise needs for privacy and agent workflows.
-  mental_damage: >-
-    Because nothing says 'enterprise AI' like a platform that promises to be both your Hugging Face and your agent
-    overlord.
+  summary: OpenCSG is a hybrid Hugging Face–style platform offering CSGHub for enterprise open-source model hosting and CSGShip for AgenticOps intelligent agent construction.
+  why_it_matters: It provides infrastructure for developers to self-host model ecosystems and build agent workflows without relying on proprietary cloud platforms.
+  mental_damage: Another ‘open alternative’ to Hugging Face that forces you to evaluate whether yet another platform lock-in is worth avoiding the original lock-in.
   tags:
-    - agent-platform
-    - self-hosted
-    - huggingface-alternative
+    - agent-ops
+    - model-hosting
     - enterprise-ai
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is primarily a platform for coordinating and deploying AI agents (AgenticOps) and managing model
-    ecosystems, fitting the agent orchestration category.
+  reason: OpenCSG’s core identity is as an enterprise platform for building and operating agent teams via CSGShip, fitting agent orchestration more than a coding agent or framework.
   evidence:
-    - >-
-      Described as a 'Hybrid Huggingface+ large model ecosystem platform' with CSGShip for 'AgenticOps intelligent agent
-      construction'
-    - Positioned as enabling 'enterprise AI transformation' and 'large model application deployment'
-    - Listed in a curated LLM resources directory under 'Community' but with clear platform/orchestration focus
+    - "Source-list description: 'CSGShip助力AgenticOps智能体构建' (CSGShip aids AgenticOps intelligent agent construction)"
+    - "Scraped site context: OpenCSG打造'Hybrid Huggingface+ 大模型生态平台' and '助力大模型落地应用' (empowers large model deployment)"
+    - No evidence of code editing, CLI agent behavior, or SDK/library distribution; focuses on platform-level agent workflow enablement
 placement:
   primary_category: agent-orchestration
-  section: Hosted Agent Platforms
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,33 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:30:20.097Z'
+    updated_at: "2026-09-28T04:34:06.104Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:08bf3fb58459c98b64d34fff420ca05f28a14198d8df41845ab9c68d640fdc52
+      category_rules_version: c367d6101132
+      input_hash: sha256:e53a6e8db0e50350626538c6e6e781daf12a56d5a853169529730192218182e9
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        The product is primarily a platform for coordinating and deploying AI agents (AgenticOps) and managing model
-        ecosystems, fitting the agent orchestration category.
+      decision_reason: OpenCSG’s core identity is as an enterprise platform for building and operating agent teams via CSGShip, fitting agent orchestration more than a coding agent or framework.
       decision_evidence:
-        - >-
-          Described as a 'Hybrid Huggingface+ large model ecosystem platform' with CSGShip for 'AgenticOps intelligent
-          agent construction'
-        - Positioned as enabling 'enterprise AI transformation' and 'large model application deployment'
-        - Listed in a curated LLM resources directory under 'Community' but with clear platform/orchestration focus
+        - "Source-list description: 'CSGShip助力AgenticOps智能体构建' (CSGShip aids AgenticOps intelligent agent construction)"
+        - "Scraped site context: OpenCSG打造'Hybrid Huggingface+ 大模型生态平台' and '助力大模型落地应用' (empowers large model deployment)"
+        - No evidence of code editing, CLI agent behavior, or SDK/library distribution; focuses on platform-level agent workflow enablement
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because the product is an operated platform for agent construction
-        and deployment rather than a code-first SDK or library.
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because OpenCSG positions itself as an operated enterprise platform (via CSGShip) for constructing agent teams, not a code-first library developers import and program against.
       review_reason: null
       review_resume_lifecycle: null

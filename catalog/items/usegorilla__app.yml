@@ -37,22 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A SaaS lead discovery tool that searches Reddit, X, YouTube, TikTok, and LinkedIn for potential early users based on a product idea.
-  why_it_matters: It helps solo founders and developers find high-intent leads across social platforms without manual searching or cold outreach.
-  mental_damage: Finally, a way to turn your existential dread about finding users into a $0.99 API call.
+  summary: Gorilla is a web service that scans public social media platforms for posts matching a user-provided product idea and ranks them by buying intent.
+  why_it_matters: It helps developers validate demand for product ideas by surfacing real user signals across Reddit, X, YouTube, TikTok, LinkedIn, and Threads.
+  mental_damage: Finally, a tool that turns founder anxiety into a $5 CSV file of strangers vaguely interested in your niche.
   tags:
-    - lead-generation
-    - saas
-    - mcp-server
-    - founder-tools
+    - market-research
+    - idea-validation
+    - lead-gen
+    - saas-tools
   confidence: high
 curation:
   status: excluded
-  reason: The product is a SaaS marketing/lead discovery tool for founders, not a developer-tooling product for coding, building, or integrating AI workflows.
+  reason: Gorilla is a market research and lead generation tool for validating product ideas via social listening; it does not assist with coding, agent workflows, app building, or any developer-facing AI-tooling function central to the catalog’s scope.
   evidence:
-    - Primary product is lead discovery across social platforms for SaaS ideas
-    - Target audience is solo founders, not developers integrating AI into workflows
-    - MCP server is a secondary integration, not the core product identity
+    - "Scraped site context: 'Drop in your idea. Gorilla scans Reddit, X, YouTube, TikTok, LinkedIn and Threads for real demand — and rank every post by how close they are to buying what you're building.'"
+    - "Use cases section: Lists lead generation for startups, Reddit monitoring, voice of customer — all marketing/sales functions, not developer tooling."
+    - "Pricing: $5 per run, one-off payment — positioned as a disposable insight tool for founders/marketers, not a dev workflow component."
 placement:
   primary_category: null
   section: null
@@ -71,24 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:37.294Z"
+    updated_at: "2026-09-28T04:48:47.600Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5ce2b4a1ed7b44d1f1fae9bfc75060c5a4b7ddf3b5604507bc8807e97d559d87
+      category_rules_version: c367d6101132
+      input_hash: sha256:a25d0f2a29986560831c51c0875c41c8d9729e91f922aa743c776f6d44788ce3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a SaaS marketing/lead discovery tool for founders, not a developer-tooling product for coding, building, or integrating AI workflows.
+      decision_reason: Gorilla is a market research and lead generation tool for validating product ideas via social listening; it does not assist with coding, agent workflows, app building, or any developer-facing AI-tooling function central to the catalog’s scope.
       decision_evidence:
-        - Primary product is lead discovery across social platforms for SaaS ideas
-        - Target audience is solo founders, not developers integrating AI into workflows
-        - MCP server is a secondary integration, not the core product identity
+        - "Scraped site context: 'Drop in your idea. Gorilla scans Reddit, X, YouTube, TikTok, LinkedIn and Threads for real demand — and rank every post by how close they are to buying what you're building.'"
+        - "Use cases section: Lists lead generation for startups, Reddit monitoring, voice of customer — all marketing/sales functions, not developer tooling."
+        - "Pricing: $5 per run, one-off payment — positioned as a disposable insight tool for founders/marketers, not a dev workflow component."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

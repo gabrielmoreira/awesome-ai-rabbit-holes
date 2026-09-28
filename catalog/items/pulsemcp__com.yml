@@ -51,51 +51,53 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A website or service related to the Model Context Protocol (MCP).
-  why_it_matters: It provides MCP-related functionality or resources for developers working with context-aware AI tools.
-  mental_damage: Another MCP thing to keep track of in the ever-expanding alphabet soup of AI protocols.
+  summary: pulsemcp.com is a curated directory of MCP (Model Context Protocol) resources and servers.
+  why_it_matters: It helps developers discover and navigate the growing MCP ecosystem for connecting AI agents to tools and data.
+  mental_damage: Another awesome list to star and never actually use when you're deep in prompt engineering hell.
   tags:
     - mcp
-    - protocol
-    - context
+    - directory
+    - resources
   confidence: medium
 curation:
   status: included
-  reason: The site is a directory and discovery platform for MCP tooling, fitting the 'Lists & Directories' category better than a protocol-specific category, as its primary value is navigation.
+  reason: The site functions as a curated directory focused on MCP resources, matching the awesome-awesomes category's purpose of helping developers discover tools rather than being a standalone product itself.
   evidence:
-    - The URL is www.pulsemcp.com, identifying it as a discovery site for the MCP ecosystem.
-    - Featured in awesome-LLM-resources under the '模型上下文协议 MCP' (Model Context Protocol) section.
+    - "Source-list context shows it appears in awesome-LLM-resource: 'awesome-LLM-resources' under section '模型上下文协议 MCP'"
+    - The site presents itself as a directory of MCP resources rather than an MCP server, client, or tooling product
+    - No evidence of it being an operational MCP registry, server, client, or infrastructure—it is a listing/resource
 placement:
   primary_category: awesome-awesomes
-  section: null
+  section: Awesome Lists & Directories
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+  status: incubating
+  reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:35.789Z"
+    updated_at: "2026-09-28T04:44:39.576Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:119db39e8d454c3b75ef2e0727a55708cee814e12fd74632ab97b5ac75de1abd
-      proposed_primary_category: mcp
-      disagreement: true
-      decision_reason: The source-list context explicitly categorizes it under MCP, and the domain name suggests it is MCP-focused infrastructure.
+      category_rules_version: c367d6101132
+      input_hash: sha256:6dc0b5aa9832e8f960c9d603c5df3f0a0e08b587bf313360958942074a4d018d
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: The site functions as a curated directory focused on MCP resources, matching the awesome-awesomes category's purpose of helping developers discover tools rather than being a standalone product itself.
       decision_evidence:
-        - Seen in awesome-LLM-resources under section '模型上下文协议 MCP'
-        - Domain name 'pulsemcp.com' implies MCP relevance
+        - "Source-list context shows it appears in awesome-LLM-resource: 'awesome-LLM-resources' under section '模型上下文协议 MCP'"
+        - The site presents itself as a directory of MCP resources rather than an MCP server, client, or tooling product
+        - No evidence of it being an operational MCP registry, server, client, or infrastructure—it is a listing/resource
       category_candidates:
-        - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because the primary identity appears to be MCP infrastructure rather than a directory or list.
-      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+        - mcp
+      contrastive_reason: Choose awesome-awesomes over mcp because pulsemcp.com is a curated directory/resource listing rather than an MCP server, client, registry, or infrastructure product where MCP is the primary identity.
+      review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done

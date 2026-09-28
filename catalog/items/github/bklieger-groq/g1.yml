@@ -39,22 +39,20 @@ metadata:
       fetched_at: "2026-09-24T04:13:00.210Z"
       bytes: 7886
 insights:
-  summary: A project using Llama-3.1 70b on Groq to create o1-like reasoning chains.
-  why_it_matters: It demonstrates how to implement advanced reasoning workflows with open models on high-performance inference hardware.
-  mental_damage: Because nothing says 'production ready' like a 3-star repo implementing o1-style reasoning the week Groq drops a new model.
+  summary: g1 is a prototype demonstrating o1-like reasoning chains via prompting strategies on Llama-3.1 70b using Groq.
+  why_it_matters: It shows how prompting alone can improve reasoning accuracy on logic problems without model retraining, offering a lightweight exploration path for developers.
+  mental_damage: Another prompt engineering trick that makes you wonder if we're just rediscovering how to beg LLMs nicely.
   tags:
-    - reasoning-chains
-    - llama-3.1
-    - groq
-    - o1-style
+    - prompt-engineering
+    - reasoning
   confidence: high
 curation:
   status: excluded
-  reason: The project is a proof-of-concept demonstration rather than a developer-facing tool, framework, or workflow product.
+  reason: g1 is a research prototype focused on prompting strategies for reasoning improvement, not a developer-facing AI tool or product that integrates into workflows, builds apps, or provides reusable infrastructure.
   evidence:
-    - Repo description explicitly frames it as a demonstration ('create o1-like reasoning chains')
-    - Only 3 stars and created very recently (2025-12-30)
-    - No README excerpt or broader tooling identity provided
+    - "Repo description: 'g1: Using Llama-3.1 70b on Groq to create o1-like reasoning chains'"
+    - "README: 'This is an early prototype of using prompting strategies to improve the LLM's reasoning capabilities' and 'g1 is experimental and being open sourced to help inspire the open source community'"
+    - No evidence of integration with developer tools, code editing, app generation, or reusable infrastructure; focused solely on demonstrating a prompting technique
 placement:
   primary_category: null
   section: null
@@ -73,27 +71,25 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:56:43.663Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:28ff65a5610ebe52bca14dbe70929abb5efe61a0cc66cf5cd98f7063ba15a19e
+      category_rules_version: c367d6101132
+      input_hash: sha256:dac6565a6050f253e45c199f88dc274b7955cade3b7f1a639933d73b46cf9b43
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a proof-of-concept demonstration rather than a developer-facing tool, framework, or workflow product.
+      decision_reason: g1 is a research prototype focused on prompting strategies for reasoning improvement, not a developer-facing AI tool or product that integrates into workflows, builds apps, or provides reusable infrastructure.
       decision_evidence:
-        - Repo description explicitly frames it as a demonstration ('create o1-like reasoning chains')
-        - Only 3 stars and created very recently (2025-12-30)
-        - No README excerpt or broader tooling identity provided
+        - "Repo description: 'g1: Using Llama-3.1 70b on Groq to create o1-like reasoning chains'"
+        - "README: 'This is an early prototype of using prompting strategies to improve the LLM's reasoning capabilities' and 'g1 is experimental and being open sourced to help inspire the open source community'"
+        - No evidence of integration with developer tools, code editing, app generation, or reusable infrastructure; focused solely on demonstrating a prompting technique
       category_candidates: []
       contrastive_reason: null
       review_reason: null

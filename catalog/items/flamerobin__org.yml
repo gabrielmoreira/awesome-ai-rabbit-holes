@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__flamerobin__org__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,14 +19,7 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: FlameRobin's
         extracted_url: https://flamerobin.org
-        surrounding_text: >-
-          - [Michael2150/flamerobin-mcp-server](https://github.com/Michael2150/flamerobin-mcp-server)
-          [![Michael2150/flamerobin-mcp-server MCP
-          server](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server)
-          #️⃣ 🏠 🪟 - Firebird database MCP server that reads connection details from
-          [FlameRobin's](http://www.flamerobin.org/) config — no credential setup required. Access all locally
-          registered databases in one session with full schema introspection, DDL/DML execution, execution plans, and
-          missing index analysis.
+        surrounding_text: "- [Michael2150/flamerobin-mcp-server](https://github.com/Michael2150/flamerobin-mcp-server) [![Michael2150/flamerobin-mcp-server MCP server](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server) #️⃣ 🏠 🪟 - Firebird database MCP server that reads connection details from [FlameRobin's](http://www.flamerobin.org/) config — no credential setup required. Access all locally registered databases in one session with full schema introspection, DDL/DML execution, execution plans, and missing index analysis."
         confidence: high
 metadata:
   github:
@@ -44,35 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A database-specific implementation of the Model Context Protocol (MCP).
-  why_it_matters: >-
-    It allows AI coding assistants to interact with and query database schemas and data using the standardized MCP
-    interface.
-  mental_damage: >-
-    Because giving an LLM direct access to your production database is exactly the kind of high-stakes chaos the
-    industry craves.
+  summary: Flamerobin is a cross-platform GUI client for managing Firebird databases.
+  why_it_matters: It helps developers interact with Firebird databases through a visual interface rather than writing SQL manually.
+  mental_damage: Another desktop GUI tool that reminds us we still can’t escape the 2000s-era database admin workflow.
   tags:
-    - mcp
     - database
-    - infrastructure
-  confidence: medium
+    - gui
+    - firebird
+  confidence: high
 curation:
-  status: included
-  reason: The tool is identified as an MCP server for databases, making it a direct piece of MCP infrastructure.
+  status: excluded
+  reason: Flamerobin is a database administration GUI with no AI capabilities, developer-tooling automation, or integration with coding agents, editors, or agent workflows.
   evidence:
-    - Listed in awesome-mcp-servers
-    - Categorized under Database server implementations
+    - Repo description is missing; the homepage describes Flamerobin as a 'GUI administration tool for Firebird database'.
+    - No mention of AI, agents, code generation, automation, or developer workflow enhancements in the available context.
+    - The tool is a standalone desktop app for database management, not an AI-powered developer tool.
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: Data & Databases
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.965Z'
+    updated_at: "2026-07-21T15:20:21.965Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,26 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-08-27T06:17:49.224Z'
+    updated_at: "2026-09-28T04:53:44.292Z"
     cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:47352c82e1f87553a0e6d696ae386cf3ba9904cbf12d75d9d19c7c24ce32c793
-      proposed_primary_category: mcp
+      category_rules_version: c367d6101132
+      input_hash: sha256:1cc140f21d93a96e1c1a7a537f8d42cbbecc6f7135c05aee111306d5fc2d4a17
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is identified as an MCP server for databases, making it a direct piece of MCP infrastructure.
+      decision_reason: Flamerobin is a database administration GUI with no AI capabilities, developer-tooling automation, or integration with coding agents, editors, or agent workflows.
       decision_evidence:
-        - Listed in awesome-mcp-servers
-        - Categorized under Database server implementations
-      category_candidates:
-        - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is an MCP server implementation.
+        - Repo description is missing; the homepage describes Flamerobin as a 'GUI administration tool for Firebird database'.
+        - No mention of AI, agents, code generation, automation, or developer workflow enhancements in the available context.
+        - The tool is a standalone desktop app for database management, not an AI-powered developer tool.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132

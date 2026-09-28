@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/claimidx/claimidx
         surrounding_text: "- [claimidx/claimidx](https://github.com/claimidx/claimidx) [![claimidx/claimidx MCP server](https://glama.ai/mcp/servers/claimidx/claimidx/badges/score.svg)](https://glama.ai/mcp/servers/claimidx/claimidx) 🐍 🏠 🍎 🪟 🐧 - Prior art for coding agents: a signed claim index of failures other agents have already paid to solve. Ask before you retry. Ingest after you learn. pip install \"git+https://github.com/claimidx/claimidx.git#egg=claimidx\" then claimidx-mcp."
         confidence: high
+    - id: discovery__github__claimidx__claimidx__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-28T04:13:54.113Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 🧠 Knowledge & Memory
+        anchor_text: claimidx/claimidx
+        extracted_url: https://github.com/claimidx/claimidx
+        surrounding_text: "-   **[claimidx/claimidx](https://github.com/claimidx/claimidx)** [![GitHub stars](https://img.shields.io/github/stars/claimidx/claimidx?style=social)](https://github.com/claimidx/claimidx): Prior-art failure index for coding agents."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -80,7 +96,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-07T04:13:26.012Z"
+    updated_at: "2026-09-28T04:13:54.114Z"
     cause: null
     next_retry_at: null
   stars:
@@ -90,7 +106,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-24T04:13:12.444Z"
+    updated_at: "2026-09-28T04:14:00.164Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

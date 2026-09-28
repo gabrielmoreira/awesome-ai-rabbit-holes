@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__llm__leaderboard__streamlit__app__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,9 +18,7 @@ provenance:
           - LLM Leaderboard
         anchor_text: LLM-Leaderboard-streamlit
         extracted_url: https://llm-leaderboard.streamlit.app
-        surrounding_text: >-
-          - [LLM-Leaderboard-streamlit](https://llm-leaderboard.streamlit.app/) - A joint community effort to create one
-          central leaderboard for LLMs.
+        surrounding_text: "- [LLM-Leaderboard-streamlit](https://llm-leaderboard.streamlit.app/) - A joint community effort to create one central leaderboard for LLMs."
         confidence: high
 metadata:
   github:
@@ -38,36 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Streamlit web app that displays a leaderboard of large language models.
-  why_it_matters: Provides developers with a comparative view of LLM performance, useful for model selection and benchmarking.
-  mental_damage: >-
-    Because nothing says 'productivity' like spending an hour picking the perfect model from a leaderboard instead of
-    writing code.
+  summary: llm-leaderboard.streamlit.app is a Streamlit-hosted LLM leaderboard for comparing model performance.
+  why_it_matters: It helps developers quickly evaluate and compare LLMs for tooling options in one place.
+  mental_damage: Another leaderboard to bookmark and never actually use when picking a model.
   tags:
     - llm
     - leaderboard
-    - benchmarking
     - streamlit
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: >-
-    The tool is a leaderboard for LLMs, which aligns with the evals category's focus on measuring and comparing model
-    behavior.
+  reason: The tool is a leaderboard for LLMs, which aligns with the evals category's focus on measuring and comparing model behavior.
   evidence:
-    - 'Source-list context: listed under ''LLM Leaderboard'' in awesome-local-ai'
+    - "Source-list context: listed under 'LLM Leaderboard' in awesome-local-ai"
     - URL and name indicate it is a leaderboard for LLMs
 placement:
   primary_category: evals
   secondary_categories: []
-  section: Agent & LLM Benchmarks
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'awesome-awesomes'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,30 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:29:13.163Z'
+    updated_at: "2026-09-28T04:31:26.390Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:92a4555382278c9d02554b43e11ddd0ea4a102a6188be12571440bff8de2e10e
-      proposed_primary_category: evals
-      disagreement: false
-      decision_reason: >-
-        The tool is a leaderboard for LLMs, which aligns with the evals category's focus on measuring and comparing
-        model behavior.
+      category_rules_version: c367d6101132
+      input_hash: sha256:eacc85aaf73e61441f8109564d66bfec0f2a6ff60e600c55517de8e0b86b4169
+      proposed_primary_category: awesome-awesomes
+      disagreement: true
+      decision_reason: It is a curated directory of LLM leaderboards, fitting the awesome lists pattern as a discovery tool for developers.
       decision_evidence:
-        - 'Source-list context: listed under ''LLM Leaderboard'' in awesome-local-ai'
-        - URL and name indicate it is a leaderboard for LLMs
+        - Listed in awesome-local-ai under the 'LLM Leaderboard' section
+        - Hosted via Streamlit as a public-facing comparison interface
+        - No claims of being a coding agent, framework, or orchestration platform
       category_candidates:
-        - evals
         - awesome-awesomes
-      contrastive_reason: >-
-        Choose evals over awesome-awesomes because the primary function is benchmarking/comparison rather than ecosystem
-        navigation.
-      review_reason: null
+        - evals
+      contrastive_reason: Choose awesome-awesomes over evals because it serves as a curated directory for discovery rather than a tool for measuring or benchmarking model behavior.
+      review_reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'awesome-awesomes'"
       review_resume_lifecycle: null

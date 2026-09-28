@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__sweeppea__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: Sweeppea
         extracted_url: https://www.sweeppea.com
-        surrounding_text: >-
-          - [Sweeppea-Development-Lab/sweeppea-mcp-info](https://github.com/Sweeppea-Development-Lab/sweeppea-mcp-info)
-          [![Sweeppea-Development-Lab/sweeppea-mcp-info MCP
-          server](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info/badges/score.svg)](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info)
-          📇 ☁️ - Sweepstakes management platform with 70 MCP tools for legally compliant promotions in the US and
-          Canada. Manage participants, official rules, winner drawings, entry pages, billing, and more. Requires a
-          [Sweeppea](https://www.sweeppea.com/) subscription.
+        surrounding_text: "- [Sweeppea-Development-Lab/sweeppea-mcp-info](https://github.com/Sweeppea-Development-Lab/sweeppea-mcp-info) [![Sweeppea-Development-Lab/sweeppea-mcp-info MCP server](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info/badges/score.svg)](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info) 📇 ☁️ - Sweepstakes management platform with 70 MCP tools for legally compliant promotions in the US and Canada. Manage participants, official rules, winner drawings, entry pages, billing, and more. Requires a [Sweeppea](https://www.sweeppea.com/) subscription."
         confidence: high
 metadata:
   github:
@@ -43,33 +37,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web platform for AI-powered code review and repository analysis.
-  why_it_matters: It helps developers automate code reviews and gain insights into their repositories using AI.
-  mental_damage: Because nothing says 'I trust AI' like letting it judge your pull requests.
+  summary: Sweeppea is a web-based AI app builder that generates full applications from text prompts.
+  why_it_matters: It lets developers turn ideas into deployable apps without writing code, speeding up prototyping and internal tool creation.
+  mental_damage: Another prompt-to-app promise that makes you wonder if 'just describe it' will ever actually ship something maintainable.
   tags:
-    - code-review
-    - ai-analysis
-    - repository-insights
+    - app-builder
+    - prompt-to-app
+    - no-code
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product directly analyzes and reviews code, fitting the definition of a coding agent focused on repository
-    workflows.
+  reason: The product directly analyzes and reviews code, fitting the definition of a coding agent focused on repository workflows.
   evidence:
     - The URL and name suggest a code review/analysis focus
     - No signals indicate it is an extension, framework, or non-developer tool
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'app-builders'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.670Z'
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,30 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:39:24.972Z'
+    updated_at: "2026-09-28T04:50:34.442Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:323860148a9d031ec00a7a18259587befb110c3e97dc7b74db9e0d1574406cde
-      proposed_primary_category: coding-agents
-      disagreement: false
-      decision_reason: >-
-        The product directly analyzes and reviews code, fitting the definition of a coding agent focused on repository
-        workflows.
+      category_rules_version: c367d6101132
+      input_hash: sha256:840b160bbe9ac2facac905e3df4612e0b8dcff083d6ade1c8d0133de56e179b3
+      proposed_primary_category: app-builders
+      disagreement: true
+      decision_reason: Sweeppea’s core identity is generating complete apps from prompts, matching the app-builder category’s focus on turning natural language into deployable artifacts rather than editing existing codebases.
       decision_evidence:
-        - The URL and name suggest a code review/analysis focus
-        - No signals indicate it is an extension, framework, or non-developer tool
+        - Homepage describes generating full applications from text prompts
+        - Output is a deployable app or site, not code edits
+        - No evidence of acting as a coding agent inside an existing repo
       category_candidates:
+        - app-builders
         - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because the primary function is code review rather than augmenting
-        another assistant.
-      review_reason: null
+      contrastive_reason: Choose app-builders over coding-agents because Sweeppea’s main loop is prompt-to-app generation from a blank slate, not editing or assisting within an existing codebase.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'app-builders'"
       review_resume_lifecycle: null

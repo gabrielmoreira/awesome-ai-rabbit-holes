@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__windsurf__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Windsurf
         extracted_url: https://windsurf.com
-        surrounding_text: >-
-          - **[Windsurf](https://windsurf.com/)** – AI code editor with Cascade, a deep contextual coding agent that
-          goes beyond autocompletion.
+        surrounding_text: "- **[Windsurf](https://windsurf.com/)** – AI code editor with Cascade, a deep contextual coding agent that goes beyond autocompletion."
         confidence: high
 metadata:
   github:
@@ -38,40 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Devin Desktop (formerly Windsurf) is a desktop IDE and command center for managing fleets of local and cloud coding
-    agents with shared context and workflows.
-  why_it_matters: >-
-    It lets developers coordinate multiple agents, review their work, and maintain flow within a single editor surface,
-    reducing context-switching overhead.
-  mental_damage: Now you can watch a dozen agents argue about learning rate warmup phases while you pretend to understand the code.
+  summary: Devin Desktop is a desktop application that provides a unified command center for managing local and cloud coding agents alongside a full IDE experience.
+  why_it_matters: It lets developers coordinate multiple AI agents from one interface while retaining access to a full-featured IDE for code review and debugging.
+  mental_damage: Finally, a way to feel overwhelmed by your fleet of agents without constantly context-switching between tools.
   tags:
-    - multi-agent
+    - ai-agents
     - ide
-    - coding-agents
-    - agent-orchestration
     - desktop
   confidence: high
 curation:
-  status: included
-  reason: >-
-    The primary product is an AI-native IDE/editor surface with integrated agent management, not a standalone coding
-    agent or orchestration platform.
+  status: excluded
+  reason: The product is primarily a desktop IDE and agent management platform whose core value lies in orchestrating multiple agents and providing an IDE environment, not in performing autonomous coding tasks itself.
   evidence:
-    - Described as 'the home for every agent you run' with a full IDE included
-    - Positioned as a desktop app for managing agents within an editor
-    - Formerly Windsurf, explicitly listed as a canonical positive for IDEs & Editors
+    - Devin Desktop is described as 'the home for every agent you run' and a 'command center for managing all your agents in one place'
+    - It includes a full IDE with syntax highlighting, autocomplete, and debugging tools
+    - It enables multi-agent workflows with shared context via Spaces and Kanban views
 placement:
-  primary_category: coding-agents
+  primary_category: null
   secondary_categories: []
-  section: IDE-Native & Editor Agents
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,31 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:39:03.234Z'
+    updated_at: "2026-09-28T04:49:41.235Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:6b398c9636a448381884029972e92b52502bbf89f17972c5d78814a3d261a7b2
-      proposed_primary_category: ai-ides-editors
+      category_rules_version: c367d6101132
+      input_hash: sha256:a114339d92fb5e88d402750fc9fc56a693d3c8b3b551d0516d45a9f7cdc26a85
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The primary product is an AI-native IDE/editor surface with integrated agent management, not a standalone coding
-        agent or orchestration platform.
+      decision_reason: The product is primarily a desktop IDE and agent management platform whose core value lies in orchestrating multiple agents and providing an IDE environment, not in performing autonomous coding tasks itself.
       decision_evidence:
-        - Described as 'the home for every agent you run' with a full IDE included
-        - Positioned as a desktop app for managing agents within an editor
-        - Formerly Windsurf, explicitly listed as a canonical positive for IDEs & Editors
-      category_candidates:
-        - ai-ides-editors
-        - agent-orchestration
-      contrastive_reason: >-
-        Choose ai-ides-editors over agent-orchestration because the core product is the editor surface with agent
-        management as a feature, not a standalone multi-agent control plane.
+        - Devin Desktop is described as 'the home for every agent you run' and a 'command center for managing all your agents in one place'
+        - It includes a full IDE with syntax highlighting, autocomplete, and debugging tools
+        - It enables multi-agent workflows with shared context via Spaces and Kanban views
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

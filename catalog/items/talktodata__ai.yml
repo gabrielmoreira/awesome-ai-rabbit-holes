@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A SaaS AI data analyst that connects to SQL databases and spreadsheets to answer natural language questions and generate visualizations.
-  why_it_matters: Developers can offload ad-hoc data analysis and visualization tasks to a conversational interface instead of writing queries or using BI tools.
-  mental_damage: Finally, a way to ask your database questions in plain English—just like you always dreamed, before remembering you still need to clean the data first.
+  summary: TalktoData.ai is a natural-language AI interface for querying structured data sources and generating visualizations without writing code.
+  why_it_matters: Lets developers and analysts get instant data insights by asking questions in plain English instead of writing SQL or using BI tools.
+  mental_damage: Another 'chat with your data' wrapper that promises to replace analysts while quietly adding yet another SaaS login to your stack.
   tags:
-    - data-analysis
-    - natural-language-query
-    - visualization
-    - sql
-    - spreadsheets
+    - data
+    - analytics
+    - ai-assistant
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose data analysis SaaS for end-users, not a developer-tooling product focused on coding workflows, infrastructure, or app-building.
+  reason: TalktoData is an end-user data analytics assistant, not a developer-facing AI tool for coding, agents, or workflow automation.
   evidence:
-    - Primary product is a conversational AI data analyst for SQL/spreadsheets
-    - Marketed as a business/end-user tool (e.g., 'Trusted By Employees At')
-    - Source-list context places it in a generic AI agents directory, not developer tooling
+    - Marketed as an 'AI Data Analyst' for business users to ask questions and get visualizations from spreadsheets and SQL databases
+    - No evidence of code generation, agent behavior, or developer tooling; focused on natural language querying for non-technical users
+    - Listed in awesome-ai-agents under a data analyst use case, but the tool itself is an end-user analytics platform, not an autonomous agent
 placement:
   primary_category: null
   section: null
@@ -71,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:46.770Z"
+    updated_at: "2026-09-28T04:46:44.173Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:409f9133b158e925b94bac3419c568d2087fac389eea372c056b64eae3753787
+      category_rules_version: c367d6101132
+      input_hash: sha256:031268b8a75ed570b01cb8db061a967adc6459d446183ee8b10a5cceba5ba940
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a general-purpose data analysis SaaS for end-users, not a developer-tooling product focused on coding workflows, infrastructure, or app-building.
+      decision_reason: TalktoData is an end-user data analytics assistant, not a developer-facing AI tool for coding, agents, or workflow automation.
       decision_evidence:
-        - Primary product is a conversational AI data analyst for SQL/spreadsheets
-        - Marketed as a business/end-user tool (e.g., 'Trusted By Employees At')
-        - Source-list context places it in a generic AI agents directory, not developer tooling
+        - Marketed as an 'AI Data Analyst' for business users to ask questions and get visualizations from spreadsheets and SQL databases
+        - No evidence of code generation, agent behavior, or developer tooling; focused on natural language querying for non-technical users
+        - Listed in awesome-ai-agents under a data analyst use case, but the tool itself is an end-user analytics platform, not an autonomous agent
       category_candidates: []
       contrastive_reason: null
       review_reason: null

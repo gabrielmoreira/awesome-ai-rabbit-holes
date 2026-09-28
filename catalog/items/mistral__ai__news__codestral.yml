@@ -36,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Codestral is Mistral AI's first open-weight code generation model, designed for coding tasks across 80+ programming languages.
-  why_it_matters: It enables developers to generate, complete, and interact with code via a shared instruction and fill-in-the-middle API endpoint, improving productivity and reducing errors.
-  mental_damage: Another model to benchmark against, because nothing says 'productivity' like spending a week evaluating which LLM saves you 10 minutes.
+  summary: Codestral is an open-weight 22B parameter code generation model from Mistral AI trained on 80+ programming languages with a 32k context window.
+  why_it_matters: Provides developers with a high-performance, permissively licensed foundation model for code completion, test generation, and AI-assisted development workflows.
+  mental_damage: Another model release that briefly makes you consider fine-tuning your own LLM instead of coping with autocomplete latency.
   tags:
+    - code-model
+    - foundation-model
+    - mistral
     - code-generation
-    - mistral-ai
     - open-weights
-    - fill-in-the-middle
-    - api
   confidence: high
 curation:
-  status: excluded
-  reason: Codestral is a raw model release, not a developer tool, framework, or product with a distinct workflow or integration identity.
+  status: included
+  reason: Codestral is a developer-facing foundation model SDK/API offering, not a coding agent or app builder — it provides the underlying model that developers import or call via API to build their own AI-powered coding tools.
   evidence:
-    - The page describes Codestral as a model, not a tool or product with a distinct developer workflow.
-    - The primary artifact is the model itself (available on HuggingFace) and its API endpoints, not a standalone assistant, IDE, or framework.
-    - Source-list context places it under 'Code Models', reinforcing its identity as a model rather than a tool.
+    - Described as an 'open-weight generative AI model explicitly designed for code generation tasks' with a dedicated API endpoint
+    - Integrated into developer tools like Continue.dev, Tabnine, LlamaIndex, and LangChain as a model backend
+    - Listed in awesome-ai-coding-tools under 'Code Models' section as a model platform for enterprises
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider & Model Abstractions
 lifecycle:
   status: incubating
   reason: null
@@ -71,25 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:58.112Z"
+    updated_at: "2026-09-28T04:33:22.024Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:8b5e1c41163ee26d48e0416ba0f034956c5aa2f25fb5da0884e993f66898df68
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:7da52062f37d086a999e62787dccb4d7c7a3eac12f76cda448caae161c2be0ec
+      proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: Codestral is a raw model release, not a developer tool, framework, or product with a distinct workflow or integration identity.
+      decision_reason: Codestral is a developer-facing foundation model SDK/API offering, not a coding agent or app builder — it provides the underlying model that developers import or call via API to build their own AI-powered coding tools.
       decision_evidence:
-        - The page describes Codestral as a model, not a tool or product with a distinct developer workflow.
-        - The primary artifact is the model itself (available on HuggingFace) and its API endpoints, not a standalone assistant, IDE, or framework.
-        - Source-list context places it under 'Code Models', reinforcing its identity as a model rather than a tool.
-      category_candidates: []
-      contrastive_reason: null
+        - Described as an 'open-weight generative AI model explicitly designed for code generation tasks' with a dedicated API endpoint
+        - Integrated into developer tools like Continue.dev, Tabnine, LlamaIndex, and LangChain as a model backend
+        - Listed in awesome-ai-coding-tools under 'Code Models' section as a model platform for enterprises
+      category_candidates:
+        - ai-frameworks
+        - coding-agents
+      contrastive_reason: Choose ai-frameworks over coding-agents because Codestral is a foundation model and API provider that developers import or call, not an autonomous agent that performs coding tasks directly.
       review_reason: null
       review_resume_lifecycle: null

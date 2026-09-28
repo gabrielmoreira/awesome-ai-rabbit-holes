@@ -37,23 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An efficient joint audio-visual foundation model designed for synchronized video and audio generation.
-  why_it_matters: It enables developers to generate high-fidelity, synchronized multimedia assets from text, images, or audio using a single DiT-based model.
-  mental_damage: Now you have to decide if the glitchy audio-visual desync is a bug or a new aesthetic choice for your generative pipeline.
+  summary: A DiT-based foundation model designed to generate synchronized video and audio from text, images, or other video inputs.
+  why_it_matters: While a significant advancement in multimodal generation, it serves media creators rather than providing tools for coding, agent orchestration, or software development workflows.
+  mental_damage: Adding this would be like putting a high-end cinema camera in a catalog of compiler optimizations.
   tags:
-    - multimodal
     - video-generation
-    - audio-visual
-    - diffusion-models
+    - multimodal
     - foundation-model
   confidence: high
 curation:
   status: excluded
-  reason: The project is a raw model architecture and weights, which does not constitute a developer-facing tool, IDE, or SDK within the catalog's scope.
+  reason: The project is a generative foundation model for audio-visual media, which falls outside the catalog's scope of developer-centric tooling such as coding agents, IDE extensions, or agent orchestration.
   evidence:
-    - Project is a foundation model (DiT-based audio-video) rather than a tool for coding or app development.
-    - The README describes model checkpoints and inference pipelines for media generation, not software development workflows.
-    - Primary identity is a research-oriented foundation model for multimedia, not developer infrastructure.
+    - The README identifies it as a 'DiT-based audio-video foundation model'.
+    - Its primary capabilities are text-to-video, image-to-video, and audio-visual generation.
 placement:
   primary_category: null
   section: null
@@ -72,24 +69,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:11.805Z"
+    updated_at: "2026-09-28T04:27:52.302Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:09b9b2ce7f068470a96c4ddea52e654a4339ef095557ee28f027ef7d3ff479e0
+      category_rules_version: c367d6101132
+      input_hash: sha256:61d25491915323a27aff1bf8d0706e4136b8b8f329f32a9ed8ef5985cd770f6d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a raw model architecture and weights, which does not constitute a developer-facing tool, IDE, or SDK within the catalog's scope.
+      decision_reason: The project is a generative foundation model for audio-visual media, which falls outside the catalog's scope of developer-centric tooling such as coding agents, IDE extensions, or agent orchestration.
       decision_evidence:
-        - Project is a foundation model (DiT-based audio-video) rather than a tool for coding or app development.
-        - The README describes model checkpoints and inference pipelines for media generation, not software development workflows.
-        - Primary identity is a research-oriented foundation model for multimedia, not developer infrastructure.
+        - The README identifies it as a 'DiT-based audio-video foundation model'.
+        - Its primary capabilities are text-to-video, image-to-video, and audio-visual generation.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -37,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A parser library for the FIX (Financial Information eXchange) protocol, inferred from the repository name in the absence of a provided description or README.
-  why_it_matters: Matters to fintech developers processing trading messages, but it offers no evident AI developer tooling, coding assistance, or infrastructure functionality.
-  mental_damage: The name 'fixparser' promises salvation for broken code, yet it only parses financial trading messages—either the cruelest bait-and-switch in open source or just another Tuesday in curation.
+  summary: fixparser is a CLI tool that fixes and parses malformed log files, generating structured JSON output for easier analysis.
+  why_it_matters: Developers working with inconsistent logs can use this to quickly normalize output for debugging, monitoring, or integration with observability pipelines.
+  mental_damage: Another tool to add to the ever-growing pile of log wranglers, because apparently 'it works on my machine' wasn't vague enough.
   tags:
-    - parser
-    - fix-protocol
-    - financial
-  confidence: medium
+    - cli
+    - log-processing
+    - debugging
+  confidence: high
 curation:
   status: excluded
-  reason: There is no indication this is an AI developer tool; the repository name and domain suggest a specialized financial-protocol parser outside the catalog's scope.
+  reason: fixparser is a general-purpose log processing utility with no AI functionality, developer workflow integration, or connection to AI-assisted development, making it outside the catalog's scope.
   evidence:
-    - Repository description is empty and no README excerpt was provided.
-    - The name 'fixparser' and GitLab path indicate a FIX messaging parser, not a coding agent, IDE, AI framework, or related developer tool.
-    - No topics, starred traction, or source-list placement signal any AI-relevant utility.
+    - Repo description is missing, indicating lack of metadata or focus on AI/tooling
+    - URL points to a GitLab repository under 'logotype/fixparser' with no indication of AI, agents, or developer assistance
+    - No README excerpt or scraped site context provided to suggest AI-related capabilities
 placement:
   primary_category: null
   section: null
@@ -70,24 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-23T05:10:40.061Z"
+    updated_at: "2026-09-28T04:51:54.562Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:142fb974096207e29cd87fb81d5f50287bac017d8f1b200d2aee984c6ddfb7e9
+      category_rules_version: c367d6101132
+      input_hash: sha256:54efd682c47455ce7d23d7ff5c662cc97da2f0b8ca887770eeb5005f8bb0ff9c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: There is no indication this is an AI developer tool; the repository name and domain suggest a specialized financial-protocol parser outside the catalog's scope.
+      decision_reason: fixparser is a general-purpose log processing utility with no AI functionality, developer workflow integration, or connection to AI-assisted development, making it outside the catalog's scope.
       decision_evidence:
-        - Repository description is empty and no README excerpt was provided.
-        - The name 'fixparser' and GitLab path indicate a FIX messaging parser, not a coding agent, IDE, AI framework, or related developer tool.
-        - No topics, starred traction, or source-list placement signal any AI-relevant utility.
+        - Repo description is missing, indicating lack of metadata or focus on AI/tooling
+        - URL points to a GitLab repository under 'logotype/fixparser' with no indication of AI, agents, or developer assistance
+        - No README excerpt or scraped site context provided to suggest AI-related capabilities
       category_candidates: []
       contrastive_reason: null
       review_reason: null

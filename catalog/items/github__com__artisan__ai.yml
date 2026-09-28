@@ -36,20 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-first platform for automating outbound workflows with AI employees.
-  why_it_matters: It offers an all-in-one solution for outbound automation, which may streamline sales or marketing workflows for teams.
-  mental_damage: Because nothing says 'developer tool' like an AI employee cold-emailing your leads while you debug the actual codebase.
+  summary: An AI-powered platform designed to automate outbound sales and marketing processes using autonomous 'AI employees'.
+  why_it_matters: While it leverages agentic workflows, the product is a business-facing sales tool rather than a tool for the software development lifecycle.
+  mental_damage: The dream of replacing the entire sales department with a single script is closer than we'd like to admit.
   tags:
-    - ai-platform
-    - outbound-automation
-    - sales-tools
+    - sales-automation
+    - outbound
+    - ai-agents
   confidence: high
 curation:
   status: excluded
-  reason: The product is a sales/outbound automation platform, not a developer-facing coding tool, framework, or workflow.
+  reason: The product is a business-process automation tool for outbound outreach, which falls outside the scope of developer-facing coding, infrastructure, or agentic tooling.
   evidence:
-    - Source-list context describes it as an 'AI-First Platform Powered by AI Employees' for outbound automation
-    - Scraped site context confirms focus on outbound automation, not developer tooling
+    - Scraped site description identifies the product as an 'All-In-One, AI-First Platform' for 'Automating Your Outbound'
+    - Source-list context links the tool to 'Automate Your Outbound' rather than developer workflows
 placement:
   primary_category: null
   section: null
@@ -70,23 +70,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:55.222Z"
+    updated_at: "2026-09-28T04:14:44.827Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:823a576acccdba67fe33f6a5ea303507e26c4128eb055ed58626935b38b41a77
+      category_rules_version: c367d6101132
+      input_hash: sha256:34cf4477b17877a21546074aefa702d6b360b4fefe96099194864cfb2a5312fb
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a sales/outbound automation platform, not a developer-facing coding tool, framework, or workflow.
+      decision_reason: The product is a business-process automation tool for outbound outreach, which falls outside the scope of developer-facing coding, infrastructure, or agentic tooling.
       decision_evidence:
-        - Source-list context describes it as an 'AI-First Platform Powered by AI Employees' for outbound automation
-        - Scraped site context confirms focus on outbound automation, not developer tooling
+        - Scraped site description identifies the product as an 'All-In-One, AI-First Platform' for 'Automating Your Outbound'
+        - Source-list context links the tool to 'Automate Your Outbound' rather than developer workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -51,52 +51,52 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Dot is an AI data analyst SaaS that answers natural language data questions, generates reports, and integrates with tools like Slack and Snowflake.
-  why_it_matters: It enables non-technical teams to perform complex data analysis without writing SQL or building dashboards, saving time and democratizing data access.
-  mental_damage: Finally, a way for executives to ask for pivot tables in Slack and get them in seconds—because nothing says productivity like a 3 AM 'quick revenue check' from your CEO.
+  summary: Dot is an AI data analyst that answers data questions via chat, generates automated reports, and provides context from connected data systems.
+  why_it_matters: It lets developers and data teams get instant insights from databases without writing SQL or building dashboards, accelerating data-driven decisions.
+  mental_damage: Another tool promising to make data 'accessible' while quietly adding another Slack bot to ignore until the quarterly report is due.
   tags:
-    - data-analysis
-    - ai-saas
-    - business-intelligence
-    - natural-language-query
-    - automated-reporting
+    - ai-analyst
+    - data-tools
+    - automated-reports
   confidence: high
 curation:
-  status: excluded
-  reason: Dot is a business intelligence and data analysis SaaS product, not a developer-tooling product focused on coding, agents, or workflows for software developers.
+  status: included
+  reason: Dot fits as an app builder because its core function is turning natural language prompts into deployable internal tools like charts, reports, and presentations, not editing existing codebases.
   evidence:
-    - Product is positioned as an AI data analyst for teams (not developers)
-    - Core features are chat-based data Q&A, automated reports, and context agents for business metrics
-    - Integrations target business tools (Slack, Teams, email) and data warehouses (Snowflake, BigQuery), not developer workflows
+    - Dot answers data questions in seconds by asking in plain English, finding tables, writing SQL, and generating charts
+    - It delivers automated, presentation-ready PowerPoint reports on schedule and enables deep analysis with drill-downs
+    - It is positioned as an AI data analyst for teams, trusted by Duolingo, Choco, and Emerge, with impact studies showing time savings
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Internal Tools & Dashboards
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:19.752Z"
+    updated_at: "2026-09-28T04:41:18.349Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:194769ac1c4c9ab48217150c4dd7bdbf0f26334d0aed18d6ef2956e8e29cf7b5
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:6378e5cad2ee0c323052c680fe7d70e41d19236e6f69c1db97d79c910af2974c
+      proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: Dot is a business intelligence and data analysis SaaS product, not a developer-tooling product focused on coding, agents, or workflows for software developers.
+      decision_reason: Dot fits as an app builder because its core function is turning natural language prompts into deployable internal tools like charts, reports, and presentations, not editing existing codebases.
       decision_evidence:
-        - Product is positioned as an AI data analyst for teams (not developers)
-        - Core features are chat-based data Q&A, automated reports, and context agents for business metrics
-        - Integrations target business tools (Slack, Teams, email) and data warehouses (Snowflake, BigQuery), not developer workflows
-      category_candidates: []
-      contrastive_reason: null
+        - Dot answers data questions in seconds by asking in plain English, finding tables, writing SQL, and generating charts
+        - It delivers automated, presentation-ready PowerPoint reports on schedule and enables deep analysis with drill-downs
+        - It is positioned as an AI data analyst for teams, trusted by Duolingo, Choco, and Emerge, with impact studies showing time savings
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because Dot generates new deployable artifacts like reports and dashboards from prompts rather than editing or maintaining an existing codebase.
       review_reason: null
       review_resume_lifecycle: null
   discover:

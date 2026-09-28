@@ -37,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A travel planning website for Hawaii tours and activities with an AI concierge named Nani that builds custom itineraries.
-  why_it_matters: It does not matter to software developers as it is a consumer-facing travel planning tool.
-  mental_damage: The only code this will debug is the HTML for its own booking buttons.
+  summary: Aloha.fyi is an AI-powered travel concierge that plans and books full-day Hawaii itineraries with real bookable experiences.
+  why_it_matters: It demonstrates applied AI for trip planning, but offers no direct utility to software developers' workflows or toolchains.
+  mental_damage: Another reminder that 'AI concierge' is now a label slapped on anything with a chatbot and a commission link.
   tags:
     - travel
     - ai-concierge
-    - consumer-tool
+    - tourism
   confidence: high
 curation:
   status: excluded
-  reason: This is a consumer travel planning service with an AI assistant for trip itineraries, not a developer tool or workflow.
+  reason: The product is a consumer-facing travel planning service with no developer-facing tooling, API, SDK, or workflow integration relevant to software engineering.
   evidence:
-    - Site title and description explicitly describe Hawaii tours and activities
-    - Primary page excerpt focuses on travel planning, bookings, and local guides
-    - No mention of developer tools, coding, or software workflows
+    - Scraped site context shows it is a Hawaii tour and activity booking platform with an AI concierge named Nani
+    - README excerpt describes planning snorkeling, luaus, helicopter tours, and restaurant bookings — all consumer leisure activities
+    - No mention of code, APIs, developer tools, CLI, IDE integration, or any software development workflow
 placement:
   primary_category: null
   section: null
@@ -70,24 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:18.206Z"
+    updated_at: "2026-09-28T04:50:16.473Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:73f1b34cab7191cd0a817dc5be973e57a468cde53d19b69654dc3455ce741010
+      category_rules_version: c367d6101132
+      input_hash: sha256:3e03549f1f2b9624ab9cb8192b0a1c062c844acc40e54b3a424bc23ba3d6af38
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a consumer travel planning service with an AI assistant for trip itineraries, not a developer tool or workflow.
+      decision_reason: The product is a consumer-facing travel planning service with no developer-facing tooling, API, SDK, or workflow integration relevant to software engineering.
       decision_evidence:
-        - Site title and description explicitly describe Hawaii tours and activities
-        - Primary page excerpt focuses on travel planning, bookings, and local guides
-        - No mention of developer tools, coding, or software workflows
+        - Scraped site context shows it is a Hawaii tour and activity booking platform with an AI concierge named Nani
+        - README excerpt describes planning snorkeling, luaus, helicopter tours, and restaurant bookings — all consumer leisure activities
+        - No mention of code, APIs, developer tools, CLI, IDE integration, or any software development workflow
       category_candidates: []
       contrastive_reason: null
       review_reason: null

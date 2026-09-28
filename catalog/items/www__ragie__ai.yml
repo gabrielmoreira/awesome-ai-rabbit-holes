@@ -37,25 +37,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web-based platform for RAG (Retrieval-Augmented Generation) workflows.
-  why_it_matters: It provides developers with a hosted interface for building, testing, and deploying RAG pipelines without managing infrastructure.
-  mental_damage: Now you can spend less time debugging vector embeddings and more time explaining to your manager why your AI still hallucinates.
+  summary: Ragie is a managed RAG-as-a-service platform that provides APIs for document ingestion, chunking, embedding, and retrieval to augment LLMs with private data.
+  why_it_matters: It lets developers add retrieval-augmented generation to AI apps without building and maintaining their own vector database or data pipelines.
+  mental_damage: Another abstraction layer between your prompt and the model, promising simplicity while you debug why your embeddings returned the wrong chunk at 2 a.m.
   tags:
     - rag
-    - hosted
     - retrieval
-    - ai-workflows
+    - api
+    - managed-service
   confidence: medium
 curation:
-  status: excluded
-  reason: The product is a hosted RAG platform, which falls outside the catalog's focus on developer-tooling workflows, integrations, or infrastructure directly tied to coding, debugging, or app-building.
+  status: included
+  reason: Ragie provides a managed retrieval and context infrastructure service that developers integrate via API to enhance LLM context, fitting the Memory & Retrieval Infrastructure subsection of Frameworks & SDKs.
   evidence:
-    - No repo description or README excerpt provided to confirm developer-tooling focus
-    - URL and name suggest a hosted RAG service rather than a developer tool or integration
-    - No evidence of code-first, IDE, CLI, or agent workflow integration
+    - Homepage describes Ragie as a 'managed RAG platform' with APIs for ingesting, processing, and querying data
+    - Core offering is document chunking, embedding, and retrieval as a service to augment LLMs
+    - No evidence of being a coding agent, app builder, or orchestrator; identity is infrastructure for context retrieval
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: incubating
   reason: null
@@ -71,25 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:31.959Z"
+    updated_at: "2026-09-28T04:50:46.158Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:600ef0bea027a94f126f320fd9c18b3632399f9111e0945b9218f01dd240c706
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:17df776ffa35b0d02b9f5ec937a86f2735576a009a43c87084d7451cc9edeb39
+      proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: The product is a hosted RAG platform, which falls outside the catalog's focus on developer-tooling workflows, integrations, or infrastructure directly tied to coding, debugging, or app-building.
+      decision_reason: Ragie provides a managed retrieval and context infrastructure service that developers integrate via API to enhance LLM context, fitting the Memory & Retrieval Infrastructure subsection of Frameworks & SDKs.
       decision_evidence:
-        - No repo description or README excerpt provided to confirm developer-tooling focus
-        - URL and name suggest a hosted RAG service rather than a developer tool or integration
-        - No evidence of code-first, IDE, CLI, or agent workflow integration
-      category_candidates: []
-      contrastive_reason: null
+        - Homepage describes Ragie as a 'managed RAG platform' with APIs for ingesting, processing, and querying data
+        - Core offering is document chunking, embedding, and retrieval as a service to augment LLMs
+        - No evidence of being a coding agent, app builder, or orchestrator; identity is infrastructure for context retrieval
+      category_candidates:
+        - ai-frameworks
+        - memory-and-context
+      contrastive_reason: Choose ai-frameworks over memory-and-context because Ragie is a managed API service developers import and call in code, not a self-hosted memory system or local context tool.
       review_reason: null
       review_resume_lifecycle: null

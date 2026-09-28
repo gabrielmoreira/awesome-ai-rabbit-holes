@@ -95,6 +95,15 @@ Awesome lists, curated directories, ecosystem maps, newsletters, and publication
   `curated-list` `agent-frameworks` `discovery` `awesome-list`
   </details>
 
+- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 1.3k` `updated ≤30d` A curated directory listing terminal-native AI coding agents and their orchestration harnesses. <details><summary>More about</summary>
+
+  Helps developers discover and compare CLI-based AI coding agents that can autonomously edit, test, and manage code in local repositories.
+
+  _Yet another awesome list to star, fork, and never actually use when cursor-tab is faster._
+
+  `awesome-list` `cli` `coding-agents`
+  </details>
+
 - **[awesome-ai-sdks](https://github.com/e2b-dev/awesome-ai-sdks)** `⭐ 1.2k` `updated ≤90d` A curated database of SDKs, frameworks, libraries, and tools for creating, monitoring, debugging, and deploying autonomous AI agents. <details><summary>More about</summary>
 
   Developers can discover and compare foundational building blocks for agent development without reinventing infrastructure.
@@ -126,6 +135,33 @@ Awesome lists, curated directories, ecosystem maps, newsletters, and publication
 
 _These are new or low-traffic entries being watched._
 
+- **[![Stargazers repo roster for @WangRongsheng/awesome-LLM-resourses](https://reporoster.com/stars/WangRongsheng/awesome-LLM-resourses)** awesome-LLM-resourses is a curated list of LLM-related resources covering topics like multimodal generation, agents, coding assistance, and MCP. <details><summary>More about</summary>
+
+  It helps developers discover a broad range of LLM tools and materials in one place, reducing discovery friction.
+
+  _Yet another awesome list promising to be 'the best' while adding to the infinite scroll of resource overload._
+
+  `awesome-list` `llm-resources` `curated`
+  </details>
+
+- **[AI开发者频道](https://techdiylife.github.io/blog/blog_list.html)** blog_list.html is a static HTML page listing articles from the TechDIYLife website, which shares tech DIY content, YouTube videos, GitHub code, and free ebooks. <details><summary>More about</summary>
+
+  It serves as a navigation aid for developers seeking tutorials or resources on AI and programming topics shared by the TechDIYLife channel.
+
+  _Yet another link farm pretending to be a curated tool, adding to the infinite scroll of marginally useful AI resource lists._
+
+  `resource-list` `blog` `ai-tutorials`
+  </details>
+
+- **[All skills →](https://awesome-copilot.github.com/skills)** A curated list of community-contributed instructions, agents, skills, and configurations for GitHub Copilot. <details><summary>More about</summary>
+
+  Helps developers extend GitHub Copilot's behavior using community-tested skill packs and configurations.
+
+  _Yet another awesome list promising to fix your AI pair programmer, while you still wonder if it'll ever stop suggesting console.log as a solution._
+
+  `copilot` `skills` `awesome-list`
+  </details>
+
 - **[Altern](https://altern.ai)** A curated directory of AI tools, agents, and SDKs. <details><summary>More about</summary>
 
   It acts as a discovery layer for developers trying to navigate the rapidly shifting landscape of AI-powered development utilities.
@@ -142,6 +178,33 @@ _These are new or low-traffic entries being watched._
   _Another specialized feed to help you achieve the illusion of being 'up to date' in an ecosystem that changes every Tuesday._
 
   `langchain` `newsletter` `curation` `ai-ecosystem`
+  </details>
+
+- **[B站：TechBeat人工智能社区](https://space.bilibili.com/209732435)** TechBeat人工智能社区的个人哔哩哔哩空间，分享AI相关的视频、音频、文章和动态。. <details><summary>More about</summary>
+
+  提供AI学习资源的聚合入口，帮助开发者通过多媒体内容了解AI前沿。.
+
+  _另一个你该订阅的AI UP主，让你的收藏夹和焦虑同步增长。._
+
+  `ai-news` `video-content` `learning-resources`
+  </details>
+
+- **[Chip Huyen](https://huyenchip.com)** Chip Huyen is a writer, computer scientist, and AI systems expert who shares insights on AI productionization through blog posts, books, talks, and curated resource lists. <details><summary>More about</summary>
+
+  Her curated lists and writing help developers navigate AI infrastructure, MLOps, and open-source tooling by distilling real-world production experience into accessible guidance.
+
+  _Following her advice feels like getting career counseling from someone who’s already shipped the future — while you’re still debugging your .env file._
+
+  `blog` `curated-list` `ai-education` `mlops` `newsletter`
+  </details>
+
+- **[Chip Huyen](https://huyenchip.com/blog)** Chip Huyen's personal blog on AI system design and production practices. <details><summary>More about</summary>
+
+  Provides practical insights on deploying AI systems in production, drawn from real-world experience and research.
+
+  _Another reminder that reading about AI in production is easier than actually doing it._
+
+  `blog` `ai-production` `mloops`
   </details>
 
 - **[CodeCosts](https://codecosts.pages.dev)** A comparison and cost calculation platform for AI coding assistants and IDEs. <details><summary>More about</summary>
@@ -162,13 +225,76 @@ _These are new or low-traffic entries being watched._
   `mcp` `protocols` `integrations` `ai-tooling`
   </details>
 
-- **[https://mcp.pfvc.io/mcp/](https://mcp.pfvc.io/mcp)** A curated list of Model Context Protocol (MCP) servers. <details><summary>More about</summary>
+- **[HuggingFace](https://huggingface.co)** Hugging Face is a platform for hosting, discovering, and collaborating on machine learning models, datasets, and applications. <details><summary>More about</summary>
 
-  Helps developers discover and navigate MCP servers for extending AI assistant capabilities.
+  It provides developers with centralized access to pre-trained models, datasets, and demo apps (Spaces), accelerating ML experimentation and deployment.
 
-  _Because nothing says 'ecosystem maturity' like a list of lists of servers for a protocol you just learned exists._
+  _Endless model cards and leaderboards create the illusion of progress while you're just scrolling through another fine-tuned Llama variant nobody asked for._
 
-  `mcp` `directory` `servers` `discovery`
+  `model-hub` `ml-platform` `developer-tools`
+  </details>
+
+- **[Huggingface Daily Papers](https://huggingface.co/papers)** A daily feed of trending AI research papers curated by the Hugging Face community. <details><summary>More about</summary>
+
+  It allows developers to track the latest breakthroughs in model architectures, agentic workflows, and training methodologies in real-time.
+
+  _It provides just enough cutting-edge content to ensure you feel academically inadequate before your first cup of coffee._
+
+  `research` `papers` `huggingface` `ai-news`
+  </details>
+
+- **[Large Language Model Agents](https://llmagents-learning.org/f24)** f24 is a Fall 2024 MOOC on Large Language Model Agents covering topics like reasoning, tool use, code generation, and multi-agent systems. <details><summary>More about</summary>
+
+  It provides structured educational content for developers seeking to understand and build LLM agents through expert-led lectures and hands-on labs.
+
+  _Another syllabus to bookmark while pretending you’ll eventually watch all 12 lectures between sprint planning and incident response._
+
+  `education` `llm-agents` `course`
+  </details>
+
+- **[llama-police.html](https://huyenchip.com/llama-police.html)** An automatically updated list of open source LLM tools hosted on Huyen Chip's blog. <details><summary>More about</summary>
+
+  Provides a frequently refreshed directory for discovering open source LLM projects relevant to developers.
+
+  _Another list to skim while wondering if any of these tools will actually ship before the next framework drops._
+
+  `awesome-list` `llm-tools` `curated-directory`
+  </details>
+
+- **[LLM Evaluation: A Complete Course](https://comet.com/site/llm-course)** A free self-paced course on LLM evaluation techniques using Opik and open source tools, aimed at AI developers and data scientists. <details><summary>More about</summary>
+
+  Teaches practical evaluation skills like LLM-as-a-judge metrics and monitoring that help developers ship reliable LLM applications.
+
+  _Another free course that promises to fix your evals while you quietly wonder if your models still hallucinate in production._
+
+  `llm` `evaluation` `course` `opik` `ai-developer`
+  </details>
+
+- **[LLM Resources Hub](https://llmresourceshub.vercel.app)** A curated collection of LLM resources, tools, and learning materials. <details><summary>More about</summary>
+
+  Helps developers discover relevant AI development resources in one place.
+
+  _Another link dump promising to save you from link dumps._
+
+  `llm` `resources` `curated-list`
+  </details>
+
+- **[LLM训练-pretrain](https://zhuanlan.zhihu.com/p/718354385)** A Zhihu column article summarizing global LLM resources across modalities, agents, coding assistance, and related topics. <details><summary>More about</summary>
+
+  Serves as a curated reference for developers seeking a broad overview of LLM applications and tooling in one place.
+
+  _Another exhaustive list that promises clarity but adds to the stack of bookmarks you’ll never actually open._
+
+  `llm` `resources` `curated-list` `ai`
+  </details>
+
+- **[Model Merging Paper](https://huggingface.co/collections/osanseviero/model-merging)** A curated collection of research papers focused on the techniques and evolution of model merging for large language models. <details><summary>More about</summary>
+
+  It provides a chronological roadmap of the mathematical and algorithmic foundations required to combine model weights without full retraining.
+
+  _It is a convenient way to track exactly how many new merging algorithms will make your current implementation obsolete by next Tuesday._
+
+  `model-merging` `llm-research` `huggingface`
   </details>
 
 - **[on Discord](https://discord.com/invite/35NF4Y8WSE)** The official Discord community for E2B, a runtime sandbox designed for executing code within AI applications. <details><summary>More about</summary>
@@ -180,11 +306,29 @@ _These are new or low-traffic entries being watched._
   `community` `runtime` `sandboxing` `agent-infrastructure`
   </details>
 
-- **[WiseModel](https://wisemodel.cn)** A neutral open-source AI community platform aggregating models, datasets, code, and agent ecosystem resources. <details><summary>More about</summary>
+- **[OpsLevel](https://opslevel.com)** OpsLevel is an internal developer portal that provides a unified catalog, scorecards, workflows, and AI-powered context to improve developer experience and software standards. <details><summary>More about</summary>
 
-  Provides a centralized hub for developers to discover and navigate cutting-edge AI models, datasets, and agent-related tools.
+  It centralizes service ownership, documentation, and workflows so developers spend less time hunting for context and more time coding.
 
-  _Another all-in-one AI ecosystem platform that promises to be the last one you’ll ever need, until the next one._
+  _Yet another portal promising to be the single pane of glass, adding yet another tab to the developer's context-switching hell._
 
-  `ai-community` `agent-ecosystem` `directory` `open-source` `model-hub`
+  `internal-developer-portal` `developer-experience` `service-catalog`
+  </details>
+
+- **[pulsemcp.com](https://pulsemcp.com)** pulsemcp.com is a curated directory of MCP (Model Context Protocol) resources and servers. <details><summary>More about</summary>
+
+  It helps developers discover and navigate the growing MCP ecosystem for connecting AI agents to tools and data.
+
+  _Another awesome list to star and never actually use when you're deep in prompt engineering hell._
+
+  `mcp` `directory` `resources`
+  </details>
+
+- **[Willi MaKo Knowledge Service](https://mcp.stromhaltig.de)** A curated list of Model Context Protocol (MCP) servers hosted at mcp.stromhaltig.de. <details><summary>More about</summary>
+
+  Helps developers discover MCP servers to extend AI agent capabilities with tools and data sources.
+
+  _Another directory to bookmark before realizing you still have to vet each server for authenticity and maintenance._
+
+  `mcp` `directory` `discovery`
   </details>

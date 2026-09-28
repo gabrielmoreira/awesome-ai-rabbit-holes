@@ -37,20 +37,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A landing page for Julius AI showcasing its use cases.
-  why_it_matters: It provides examples of how Julius AI can be applied, but does not itself constitute a developer tool.
-  mental_damage: Another marketing page pretending to be a product.
+  summary: Julius AI use_cases page listing example applications of Julius AI for data analysis and visualization.
+  why_it_matters: Shows developers potential AI-assisted data workflows they could adapt or build upon.
+  mental_damage: Another reminder that 'see what AI can do' pages are the new documentation for tools you’ll never actually use.
   tags:
-    - marketing
-    - use-cases
+    - ai-examples
+    - data-analysis
   confidence: high
 curation:
   status: excluded
-  reason: This is a marketing page for Julius AI, not a standalone developer tool or product.
+  reason: The page is a marketing use-case gallery, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - URL points to a use-cases page, not a repo or tool
-    - No repo description, stars, or code artifacts provided
-    - Source-list context only references it as a description under Julius
+    - Source-list context shows it appears only in awesome-ai-agents as a description entry under Julius > Description
+    - No repo description, stars, creation/update dates, or license are provided — indicating no standalone developer tool
 placement:
   primary_category: null
   section: null
@@ -69,24 +68,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:44.589Z"
+    updated_at: "2026-09-28T04:30:07.242Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:64695900d4177ba5b44c8f67cdf8bb744ec126bd67cc5e9ad243c11492138941
+      category_rules_version: c367d6101132
+      input_hash: sha256:560c9ebfdbdb2c1fd188c657de4a53f8dce40a917ac92c02f75ffeb95424da63
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a marketing page for Julius AI, not a standalone developer tool or product.
+      decision_reason: The page is a marketing use-case gallery, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - URL points to a use-cases page, not a repo or tool
-        - No repo description, stars, or code artifacts provided
-        - Source-list context only references it as a description under Julius
+        - Source-list context shows it appears only in awesome-ai-agents as a description entry under Julius > Description
+        - No repo description, stars, creation/update dates, or license are provided — indicating no standalone developer tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Rygen.io is a hosted AI gateway offering enterprise-grade security and privacy for AI model access.
-  why_it_matters: It provides developers with a cost-effective, secure way to integrate AI models into their workflows without managing infrastructure.
-  mental_damage: Another API wrapper promising to be the last one you'll ever need, until the next one.
+  summary: Rygen.io is an AI model gateway offering low-cost API access to various AI models with an emphasis on enterprise security and privacy.
+  why_it_matters: Provides developers with an affordable, secure way to integrate AI models into applications without managing infrastructure.
+  mental_damage: Another API gateway promising 'uncompromised AI' while developers juggle model selection, cost, and vendor lock-in anxiety.
   tags:
-    - ai-gateway
-    - enterprise-ai
-    - api-infrastructure
+    - api-gateway
+    - ai-models
+    - enterprise
   confidence: high
 curation:
   status: excluded
-  reason: The product is a hosted AI gateway/API infrastructure, not a developer-tooling product focused on coding workflows, agent orchestration, or app building.
+  reason: Rygen.io is primarily an AI model access gateway, not a developer-facing AI tool, agent, framework, or infrastructure that directly aids coding workflows.
   evidence:
-    - Site describes itself as 'The world's most affordable Gateway to AI' with enterprise security/privacy
-    - No evidence of code editing, agent orchestration, or developer workflow integration
-    - Listed in Awesome-LLMOps under LLMOps (infrastructure focus)
+    - Scraped site excerpt describes it as 'The world's most affordable Gateway to AI' with focus on API uptime, enterprise security, and privacy.
+    - No evidence of coding assistance, agent behavior, app building, framework, or developer tooling functionality.
+    - Listed in Awesome-LLMOps under LLMOps section, which focuses on operational tooling for LLMs rather than direct developer coding aids.
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:32.938Z"
+    updated_at: "2026-09-28T04:37:10.923Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:aa623010ba34503bf9de6e51f69964ab5ae70a398431cb3f82150456ee207a5e
+      category_rules_version: c367d6101132
+      input_hash: sha256:934ac54cffba88c8b3bfcf756a250bd7388031f79a6d948c1929a1eaa1f881f9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a hosted AI gateway/API infrastructure, not a developer-tooling product focused on coding workflows, agent orchestration, or app building.
+      decision_reason: Rygen.io is primarily an AI model access gateway, not a developer-facing AI tool, agent, framework, or infrastructure that directly aids coding workflows.
       decision_evidence:
-        - Site describes itself as 'The world's most affordable Gateway to AI' with enterprise security/privacy
-        - No evidence of code editing, agent orchestration, or developer workflow integration
-        - Listed in Awesome-LLMOps under LLMOps (infrastructure focus)
+        - Scraped site excerpt describes it as 'The world's most affordable Gateway to AI' with focus on API uptime, enterprise security, and privacy.
+        - No evidence of coding assistance, agent behavior, app building, framework, or developer tooling functionality.
+        - Listed in Awesome-LLMOps under LLMOps section, which focuses on operational tooling for LLMs rather than direct developer coding aids.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

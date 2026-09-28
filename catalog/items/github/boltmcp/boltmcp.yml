@@ -45,30 +45,28 @@ metadata:
       fetched_at: "2026-09-24T04:13:02.119Z"
       bytes: 994
 insights:
-  summary: BoltMCP is an enterprise-grade MCP orchestration platform for creating, deploying, and managing custom MCP servers on-premises.
-  why_it_matters: It enables developers to self-host and coordinate MCP servers with rich customization, OAuth 2 security, and Streamable HTTP transport for production environments.
-  mental_damage: Because nothing says 'enterprise-grade' like spinning up MCP servers on-the-fly while your Kubernetes cluster quietly weeps.
+  summary: BoltMCP is an MCP server that installs via Helm chart to expose cluster management capabilities to AI agents.
+  why_it_matters: It lets developers provision and manage Kubernetes infrastructure through natural language in coding agents like Claude Code.
+  mental_damage: Yet another way to feel powerful while secretly hoping your AI won't delete production.
   tags:
     - mcp
-    - orchestration
-    - self-hosted
-    - enterprise
     - kubernetes
+    - infrastructure
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP-first platform for building and operating MCP servers, not a generic framework or extension, making it a clear fit for MCP Servers & Tooling.
+  reason: BoltMCP's core identity is providing MCP server functionality for Kubernetes cluster management, making MCP its primary purpose rather than a secondary feature.
   evidence:
-    - README defines it as 'an enterprise-grade MCP orchestration platform to create, deploy, and manage custom MCP servers on-premises.'
-    - Source list places it in awesome-mcp-servers under Server Implementations > Aggregators.
-    - Bundles MCP client playground and official MCP Inspector, reinforcing MCP infrastructure identity.
+    - Repository topics include mcp, mcp-server, and skills indicating MCP focus
+    - README describes installation via Helm chart to expose infrastructure to Claude Code agent
+    - Listed in awesome-mcp-servers under Server Implementations > Aggregators
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Cloud & API Integration
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'agent-orchestration'"
+  status: promotion_candidate
+  reason: Stars (371) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -81,30 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:57:41.753Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3877ed808bb8db451a9b9a50d41bc52f65bb2d2dfca96d59eaa586d9f4b94f5d
-      proposed_primary_category: agent-orchestration
-      disagreement: true
-      decision_reason: BoltMCP is a runtime platform for coordinating and deploying MCP servers, fitting the agent orchestration category as a control plane for multi-agent workflows.
+      category_rules_version: c367d6101132
+      input_hash: sha256:4dd6f84ec393b93951bae7e389a114d225d550649bf54a99eaf01f1e7bf3436c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: BoltMCP's core identity is providing MCP server functionality for Kubernetes cluster management, making MCP its primary purpose rather than a secondary feature.
       decision_evidence:
-        - README describes it as an 'enterprise-grade MCP orchestration platform'
-        - Supports self-hosted Kubernetes deployments with Helm
-        - Includes MCP client playground and inspector for multi-server coordination
+        - Repository topics include mcp, mcp-server, and skills indicating MCP focus
+        - README describes installation via Helm chart to expose infrastructure to Claude Code agent
+        - Listed in awesome-mcp-servers under Server Implementations > Aggregators
       category_candidates:
-        - agent-orchestration
         - mcp
-      contrastive_reason: Choose agent-orchestration over mcp because the primary identity is a runtime platform for coordinating MCP servers rather than MCP infrastructure itself.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'agent-orchestration'"
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because BoltMCP is an MCP server exposing infrastructure capabilities, not primarily an extension that augments another agent's functionality.
+      review_reason: null
       review_resume_lifecycle: null

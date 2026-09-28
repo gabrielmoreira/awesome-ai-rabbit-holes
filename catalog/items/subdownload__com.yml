@@ -37,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web service that extracts, summarizes, and stores YouTube video transcripts in a personal knowledge base with API and MCP server access.
-  why_it_matters: Developers can programmatically access video content for research, documentation, or AI workflows without manual transcription.
-  mental_damage: Now you can finally stop pretending you’ll watch that 2-hour conference talk later.
+  summary: SubDownload.com is a community-powered platform for searching, generating, and sharing AI-summarized transcripts of YouTube videos and podcasts.
+  why_it_matters: It lets developers quickly extract knowledge from long-form media without watching, saving time on research and learning.
+  mental_damage: Another tool promising to 'save you time' by adding yet another tab to your already overflowing research workflow.
   tags:
-    - youtube-transcripts
+    - media-summarization
     - knowledge-base
-    - mcp-server
-    - api
-    - video-summarization
+    - ai-transcription
   confidence: high
 curation:
   status: excluded
-  reason: The product is a consumer-facing YouTube transcript and knowledge base tool, not a developer-tooling product at its core.
+  reason: SubDownload is a media summarization and knowledge sharing platform focused on YouTube and podcasts, with no developer-tooling identity or direct integration into coding workflows beyond generic API/MCP access.
   evidence:
-    - Primary value is end-user YouTube transcript extraction and personal knowledge base
-    - MCP server and API are secondary integrations, not the main product identity
-    - No repo, stars, or developer-first positioning in the scraped context
+    - The platform's core functionality is summarizing YouTube videos and podcasts via AI, with features like multilingual summaries, timestamped playback, and community voting.
+    - It markets itself to researchers, curators, and content creators — not developers — and positions its MCP server and Agent Skills as optional integrations, not primary product identity.
+    - While it offers an MCP server and agent skills, these are compatibility features; the product's main value is media summarization, not enhancing developer agents or coding tasks.
 placement:
   primary_category: null
   section: null
@@ -72,24 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:09.260Z"
+    updated_at: "2026-09-28T04:38:18.537Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e94136a7c22affd97d6ab92a20e348595ffa8c3570f0d029983fb12c18bc74c1
+      category_rules_version: c367d6101132
+      input_hash: sha256:e32f4817c51ede1c92f219efd79e86e32ec37be41af20320f3c60b90231c72f0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a consumer-facing YouTube transcript and knowledge base tool, not a developer-tooling product at its core.
+      decision_reason: SubDownload is a media summarization and knowledge sharing platform focused on YouTube and podcasts, with no developer-tooling identity or direct integration into coding workflows beyond generic API/MCP access.
       decision_evidence:
-        - Primary value is end-user YouTube transcript extraction and personal knowledge base
-        - MCP server and API are secondary integrations, not the main product identity
-        - No repo, stars, or developer-first positioning in the scraped context
+        - The platform's core functionality is summarizing YouTube videos and podcasts via AI, with features like multilingual summaries, timestamped playback, and community voting.
+        - It markets itself to researchers, curators, and content creators — not developers — and positions its MCP server and Agent Skills as optional integrations, not primary product identity.
+        - While it offers an MCP server and agent skills, these are compatibility features; the product's main value is media summarization, not enhancing developer agents or coding tasks.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

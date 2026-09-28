@@ -51,53 +51,54 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A SaaS AI chatbot that generates and executes SQL queries against connected databases, enabling natural language data analysis and dashboard building.
-  why_it_matters: Lets non-technical users query production databases without writing SQL, while offering developers embeddable widgets and on-premise deployment options.
-  mental_damage: Finally, a way to let your CEO run arbitrary queries on production data—what could go wrong?
+  summary: AskYourDatabase is an AI-powered desktop and web chatbot that turns natural language questions into SQL queries, answers, and charts for supported databases.
+  why_it_matters: It lets developers and analysts explore database data without writing SQL manually, speeding up ad-hoc analysis and reducing context-switching between tools.
+  mental_damage: Finally, a tool that lets you pretend you understand databases while the AI quietly writes your JOINs for you.
   tags:
-    - sql
     - database
-    - natural-language-query
-    - business-intelligence
-    - saas
-  confidence: high
+    - sql
+    - ai-chatbot
+    - analytics
+  confidence: medium
 curation:
-  status: excluded
-  reason: This is a business intelligence/SaaS product for end-users and non-technical teams, not a developer-tooling product focused on coding workflows, IDEs, or agent infrastructure.
+  status: included
+  reason: AskYourDatabase primarily turns prompts into deployable internal tools (dashboards, chatbots) for database interaction, fitting the app-builder pattern more than a coding agent or extension.
   evidence:
-    - Primary value is natural language SQL generation for non-technical users (CEOs, customer support, sales)
-    - Marketed as a BI/dashboard tool with embeddable widgets, not a developer workflow enhancement
-    - Source-list context places it in a general AI agents list, not a developer-tooling directory
+    - Product generates charts and dashboards from natural language queries without requiring SQL
+    - Offers Desktop app for analysis and Website Chatbot for embedding in customer-facing applications
+    - Marketed as turning business questions into checked answers with visual exploration
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Internal Tools & Dashboards
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:28.859Z"
+    updated_at: "2026-09-28T04:38:52.620Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:6b1d382b804003e7b6a6d25b3377de3943cc619499b71d4b66b65394daccea6c
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:8b33cb956010cf690d7de7fb417cc8b7bfcebc00baa9da1f23d54c1cfefd8fcd
+      proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: This is a business intelligence/SaaS product for end-users and non-technical teams, not a developer-tooling product focused on coding workflows, IDEs, or agent infrastructure.
+      decision_reason: AskYourDatabase primarily turns prompts into deployable internal tools (dashboards, chatbots) for database interaction, fitting the app-builder pattern more than a coding agent or extension.
       decision_evidence:
-        - Primary value is natural language SQL generation for non-technical users (CEOs, customer support, sales)
-        - Marketed as a BI/dashboard tool with embeddable widgets, not a developer workflow enhancement
-        - Source-list context places it in a general AI agents list, not a developer-tooling directory
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: null
+        - Product generates charts and dashboards from natural language queries without requiring SQL
+        - Offers Desktop app for analysis and Website Chatbot for embedding in customer-facing applications
+        - Marketed as turning business questions into checked answers with visual exploration
+      category_candidates:
+        - app-builders
+        - ai-dev-extensions
+      contrastive_reason: Choose app-builders over ai-dev-extensions because AskYourDatabase’s core value is generating deployable analytics tools from prompts, not augmenting another coding assistant with integrations.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
       review_resume_lifecycle: null
   discover:
     status: done

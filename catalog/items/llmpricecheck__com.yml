@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web tool for comparing and calculating LLM API pricing across providers like OpenAI, Anthropic, Google, and others.
-  why_it_matters: Helps developers optimize AI budgets by providing up-to-date pricing comparisons for major LLM APIs.
-  mental_damage: Because nothing says 'modern development' like staring at a spreadsheet of token costs instead of writing code.
+  summary: LLMPriceCheck is a web tool for comparing and calculating pricing across LLM API providers.
+  why_it_matters: Helps developers estimate and optimize costs when choosing or switching between LLM APIs for their applications.
+  mental_damage: Another spreadsheet in disguise, pretending that saving $0.0003 per token is a engineering win.
   tags:
     - pricing
+    - cost-management
     - llm
-    - comparison
-    - cost-optimization
   confidence: high
 curation:
   status: excluded
-  reason: This is a cost comparison tool for LLM APIs, not a developer-tooling product that fits the catalog's scope of practical AI tools, agents, workflows, or infrastructure for software developers.
+  reason: It is a pricing comparison website with no developer-facing tooling, SDK, agent, or workflow integration — it does not build, run, measure, or extend AI development in a way that fits the catalog's scope.
   evidence:
-    - The tool's primary function is comparing LLM API pricing, not assisting with development workflows
-    - No evidence of code editing, debugging, orchestration, or other developer-centric capabilities
-    - Source-list context places it under 'Inference' in a general LLM resources list, not a developer-tooling category
+    - Scraped site context shows it is a web-based LLM API price calculator and comparison table
+    - Source-list context lists it under 'Inference' in an awesome list as a resource, not a tool
+    - No evidence of code, CLI, SDK, extension, or integration capabilities in README or description
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:16.839Z"
+    updated_at: "2026-09-28T04:31:41.550Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:775116f05ff283fcd20a449c1d3898226bd6f471015dc035fedcb5f829b6f140
+      category_rules_version: c367d6101132
+      input_hash: sha256:3b3bc808868fd638f8afe979391380ae1e880e7be4c6367414a2161aaeb65ae8
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a cost comparison tool for LLM APIs, not a developer-tooling product that fits the catalog's scope of practical AI tools, agents, workflows, or infrastructure for software developers.
+      decision_reason: It is a pricing comparison website with no developer-facing tooling, SDK, agent, or workflow integration — it does not build, run, measure, or extend AI development in a way that fits the catalog's scope.
       decision_evidence:
-        - The tool's primary function is comparing LLM API pricing, not assisting with development workflows
-        - No evidence of code editing, debugging, orchestration, or other developer-centric capabilities
-        - Source-list context places it under 'Inference' in a general LLM resources list, not a developer-tooling category
+        - Scraped site context shows it is a web-based LLM API price calculator and comparison table
+        - Source-list context lists it under 'Inference' in an awesome list as a resource, not a tool
+        - No evidence of code, CLI, SDK, extension, or integration capabilities in README or description
       category_candidates: []
       contrastive_reason: null
       review_reason: null

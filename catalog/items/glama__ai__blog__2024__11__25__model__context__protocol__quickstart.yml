@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A tutorial blog post introducing the Model Context Protocol (MCP) and its ecosystem, including servers, clients, and use cases.
-  why_it_matters: Explains how MCP standardizes AI model interactions with external tools and data sources, which developers can leverage for unified integrations.
-  mental_damage: Another protocol to standardize the chaos we created by not standardizing the last protocol.
+  summary: A blog post explaining the Model Context Protocol (MCP) standard, its components, and how to test MCP servers using Claude Desktop.
+  why_it_matters: Helps developers understand how MCP enables AI agents to interact with external tools and data sources through a unified interface.
+  mental_damage: Another deep-dive protocol explainer that makes you feel like you need to implement three new things before lunch just to stay relevant.
   tags:
-    - mcp
+    - model-context-protocol
     - tutorial
-    - protocol
-    - integration
+    - ai-infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: This is a tutorial/blog post, not a standalone product, framework, or tool—it does not fit the catalog's scope of practical AI tools for developers.
+  reason: This is documentation explaining a protocol standard, not a developer-facing tool, agent, or infrastructure product that performs a function.
   evidence:
-    - The URL and scraped context confirm this is a blog post titled 'Model Context Protocol (MCP) Quickstart'
-    - The content is educational (explains MCP, its components, and early adoption) rather than a usable tool or library
-    - Source-list context shows it is categorized under 'Tutorials' in awesome-mcp-servers
+    - Source is a blog post on glama.ai titled 'Model Context Protocol (MCP) Quickstart'
+    - Content explains MCP concepts, components, and setup instructions without offering executable tooling
+    - Appears in awesome-mcp-servers under 'Tutorials' section, indicating educational rather than operational purpose
 placement:
   primary_category: null
   section: null
@@ -72,24 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:12.263Z"
+    updated_at: "2026-09-28T04:16:15.256Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5390407e2d6e26eda805693e60d04ca0f9409d7bc5947ee5fdc2785bca4a9f30
+      category_rules_version: c367d6101132
+      input_hash: sha256:d7bfc7c30ffd9570c7c328b189f7c87e29d6d38de0a06219d74116d8202ea535
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a tutorial/blog post, not a standalone product, framework, or tool—it does not fit the catalog's scope of practical AI tools for developers.
+      decision_reason: This is documentation explaining a protocol standard, not a developer-facing tool, agent, or infrastructure product that performs a function.
       decision_evidence:
-        - The URL and scraped context confirm this is a blog post titled 'Model Context Protocol (MCP) Quickstart'
-        - The content is educational (explains MCP, its components, and early adoption) rather than a usable tool or library
-        - Source-list context shows it is categorized under 'Tutorials' in awesome-mcp-servers
+        - Source is a blog post on glama.ai titled 'Model Context Protocol (MCP) Quickstart'
+        - Content explains MCP concepts, components, and setup instructions without offering executable tooling
+        - Appears in awesome-mcp-servers under 'Tutorials' section, indicating educational rather than operational purpose
       category_candidates: []
       contrastive_reason: null
       review_reason: null

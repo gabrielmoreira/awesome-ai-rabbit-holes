@@ -37,19 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A personal finance and budgeting application.
-  why_it_matters: It is a consumer-facing fintech product and does not serve a purpose within a software development workflow.
-  mental_damage: It tracks your actual bank balance rather than your simulated technical debt.
+  summary: copilot.money is a finance-focused website offering AI-powered personal finance tools and insights.
+  why_it_matters: It matters to developers seeking AI applications in fintech, though it does not provide developer tooling or code-related functionality.
+  mental_damage: Another AI site promising to ‘optimize your money’ while you wonder if it actually writes budgeting scripts or just scrapes your Mint data.
   tags:
-    - fintech
-    - personal-finance
+    - finance
+    - ai
   confidence: high
 curation:
   status: excluded
-  reason: The product is a consumer finance tool and falls entirely outside the scope of developer-centric AI infrastructure and tooling.
+  reason: copilot.money is a consumer-facing personal finance site with no developer-facing tooling, SDKs, agents, or infrastructure relevant to software development workflows.
   evidence:
-    - The URL copilot.money is associated with a consumer personal finance service.
-    - No repo description or README was provided to indicate any developer-tooling functionality.
+    - The site describes itself as offering 'AI-powered personal finance insights' and budgeting tools.
+    - No repository, code, API, or developer documentation is referenced in the provided inputs.
+    - The product’s core function is financial advice and tracking, not coding assistance, app generation, or AI tooling for developers.
 placement:
   primary_category: null
   section: null
@@ -68,23 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:14:46.624Z"
+    updated_at: "2026-09-28T04:53:28.325Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:56cb216807a8d2c34a163ed99766465ecc7a97ec31fda8bf74223ba2f2f84762
+      category_rules_version: c367d6101132
+      input_hash: sha256:a1645c9ddb2e2ef32816126337667fea4766e29f272f0c9b26643cfd67593219
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a consumer finance tool and falls entirely outside the scope of developer-centric AI infrastructure and tooling.
+      decision_reason: copilot.money is a consumer-facing personal finance site with no developer-facing tooling, SDKs, agents, or infrastructure relevant to software development workflows.
       decision_evidence:
-        - The URL copilot.money is associated with a consumer personal finance service.
-        - No repo description or README was provided to indicate any developer-tooling functionality.
+        - The site describes itself as offering 'AI-powered personal finance insights' and budgeting tools.
+        - No repository, code, API, or developer documentation is referenced in the provided inputs.
+        - The product’s core function is financial advice and tracking, not coding assistance, app generation, or AI tooling for developers.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

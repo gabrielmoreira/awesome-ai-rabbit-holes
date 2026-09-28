@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A short course teaching how to build a multimodal RAG system for querying video content.
-  why_it_matters: It provides developers with practical guidance on implementing video-based retrieval-augmented generation workflows.
-  mental_damage: Now you can finally ask your unindexed Zoom recordings what that one thing was, assuming you have an hour to spare.
+  summary: A short course on multimodal RAG for chatting with videos using Deep Learning Academy.
+  why_it_matters: Teaches developers how to build video-aware retrieval systems for multimodal AI applications.
+  mental_damage: Another AI course promising to unlock the next level of prompting fatigue.
   tags:
-    - course
-    - multimodal
-    - rag
-    - video
-    - education
+    - ai-education
+    - multimodal-rag
+    - video-understanding
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational course, not a developer tool, framework, or workflow product.
+  reason: This is an educational course, not a developer-facing AI tool, agent, or infrastructure product; it lacks runtime, SDK, or deployable artifact identity.
   evidence:
-    - The page describes a short course with video lessons and code examples
-    - The primary value is educational content, not a usable tool or library
-    - The course is no longer available as of June 26, 2025
+    - Source is a DeepLearning.AI short course page, not a GitHub repo or standalone tool
+    - Listed in awesome-LLM-resources under '课程 Course', indicating educational content
+    - No evidence of code, API, agent behavior, or developer workflow integration in the inputs
 placement:
   primary_category: null
   section: null
@@ -71,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:19.645Z"
+    updated_at: "2026-09-28T04:50:24.870Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:17f7f090c21c9548c1f5dc9f8e63cf2ddf49e78ad3d2c77f8807af35e00853cc
+      category_rules_version: c367d6101132
+      input_hash: sha256:682a5fdec4745969dab928e49b4ae6d3ff485923bf98c03e8a964335fb11e5a2
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational course, not a developer tool, framework, or workflow product.
+      decision_reason: This is an educational course, not a developer-facing AI tool, agent, or infrastructure product; it lacks runtime, SDK, or deployable artifact identity.
       decision_evidence:
-        - The page describes a short course with video lessons and code examples
-        - The primary value is educational content, not a usable tool or library
-        - The course is no longer available as of June 26, 2025
+        - Source is a DeepLearning.AI short course page, not a GitHub repo or standalone tool
+        - Listed in awesome-LLM-resources under '课程 Course', indicating educational content
+        - No evidence of code, API, agent behavior, or developer workflow integration in the inputs
       category_candidates: []
       contrastive_reason: null
       review_reason: null

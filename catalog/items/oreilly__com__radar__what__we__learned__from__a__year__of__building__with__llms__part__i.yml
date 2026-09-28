@@ -51,22 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An O'Reilly Radar article sharing tactical lessons and best practices for building real-world applications with LLMs.
-  why_it_matters: It distills practical, hard-won insights on prompting, RAG, evaluation, and workflow design for developers shipping LLM-powered products.
-  mental_damage: Reading this will make you question every 2,000-token frankenprompt you’ve ever written.
+  summary: What We Learned from a Year of Building with LLMs (Part I) is a technical article sharing tactical lessons on prompting, RAG, and evaluation from real-world LLM application development.
+  why_it_matters: It distills practical, experience-based guidance for developers navigating the gap between LLM demos and production-ready applications.
+  mental_damage: Another reminder that the real work isn't in the demo but in the mundane, unglamorous engineering that no one tweets about.
   tags:
-    - llm-best-practices
-    - rag
-    - prompt-engineering
-    - lessons-learned
+    - llm
+    - best-practices
+    - tactics
   confidence: high
 curation:
   status: excluded
-  reason: This is a long-form article/essay, not a developer tool, framework, or product.
+  reason: The resource is an educational article, not a developer-facing tool, framework, or product that changes workflows; it lacks the interactive or functional identity required for inclusion.
   evidence:
-    - The URL and scraped context confirm it is an O'Reilly Radar blog post, not a repo or tool
-    - The content is educational commentary, not a standalone product or library
-    - Source-list context places it in a 'Tips' section, not a tooling category
+    - Source-list context shows it appears in awesome-LLM-resources under '技巧 Tips' as a linked article.
+    - Scraped site and README excerpt confirm it is an O'Reilly Radar blog post sharing lessons and methodologies, not a tool or platform.
+    - No evidence of a usable product, SDK, agent, or infrastructure that developers can install, import, or operate.
 placement:
   primary_category: null
   section: null
@@ -76,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:03.859Z"
+    updated_at: "2026-09-28T04:43:38.280Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3241d203065318e0e4764fc59ac3e87af6e4ae6cc1429e63347228764f17e8b6
+      category_rules_version: c367d6101132
+      input_hash: sha256:ec6b53bcce5188d39d1421f5b1a37ca118afc7870c06b02c74486d10d10a9291
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a long-form article/essay, not a developer tool, framework, or product.
+      decision_reason: The resource is an educational article, not a developer-facing tool, framework, or product that changes workflows; it lacks the interactive or functional identity required for inclusion.
       decision_evidence:
-        - The URL and scraped context confirm it is an O'Reilly Radar blog post, not a repo or tool
-        - The content is educational commentary, not a standalone product or library
-        - Source-list context places it in a 'Tips' section, not a tooling category
+        - Source-list context shows it appears in awesome-LLM-resources under '技巧 Tips' as a linked article.
+        - Scraped site and README excerpt confirm it is an O'Reilly Radar blog post sharing lessons and methodologies, not a tool or platform.
+        - No evidence of a usable product, SDK, agent, or infrastructure that developers can install, import, or operate.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

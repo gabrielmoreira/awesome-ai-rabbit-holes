@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A documentation cookbook for developing GraphRAG applications using the DB-GPT framework.
-  why_it_matters: It provides a structured implementation guide for moving from vanilla RAG to more complex graph-based retrieval workflows.
-  mental_damage: Because standard RAG wasn't quite high-maintenance enough without adding graph topology to the stack.
+  summary: Graph RAG app development cookbook documentation for DB-GPT, focusing on building applications with graph-enhanced retrieval-augmented generation.
+  why_it_matters: Provides developers with a structured guide to implement graph-based RAG techniques for improved context retrieval in AI applications.
+  mental_damage: Another specialized RAG variant promising better answers while adding complexity to an already fragmented retrieval landscape.
   tags:
-    - rag
     - graph-rag
-    - db-gpt
-    - documentation
+    - rag
+    - cookbook
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation guide/cookbook rather than a standalone software product or tool.
+  reason: Excluded as it is documentation/tutorial content rather than a standalone developer tool or product, lacking actionable workflow integration or executable artifact.
   evidence:
-    - The URL points specifically to a documentation cookbook path
-    - The content is a tutorial/guide for implementing a specific pattern (GraphRAG) rather than the tool itself
+    - "URL points to documentation page: https://docs.dbgpt.cn/docs/cookbook/rag/graph_rag_app_develop"
+    - Appears in awesome-LLM-resources under '知识库 RAG' section as a resource summary
+    - No evidence of being a runnable tool, framework, agent, or app builder — purely educational/cookbook content
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:17:46.131Z"
+    updated_at: "2026-09-28T04:53:42.014Z"
     cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e1dc9f6c5a231c851c3bb93ba8c05482ab9e31e9e318422a6749f54c76823c30
+      category_rules_version: c367d6101132
+      input_hash: sha256:e056589fef292f6b035eaf35752fff180a8feaa2ac7d1b4fb2a5694700aa3518
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a documentation guide/cookbook rather than a standalone software product or tool.
+      decision_reason: Excluded as it is documentation/tutorial content rather than a standalone developer tool or product, lacking actionable workflow integration or executable artifact.
       decision_evidence:
-        - The URL points specifically to a documentation cookbook path
-        - The content is a tutorial/guide for implementing a specific pattern (GraphRAG) rather than the tool itself
+        - "URL points to documentation page: https://docs.dbgpt.cn/docs/cookbook/rag/graph_rag_app_develop"
+        - Appears in awesome-LLM-resources under '知识库 RAG' section as a resource summary
+        - No evidence of being a runnable tool, framework, agent, or app builder — purely educational/cookbook content
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132

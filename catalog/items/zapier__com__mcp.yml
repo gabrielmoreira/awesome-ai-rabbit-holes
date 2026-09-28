@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__zapier__com__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Zapier
         extracted_url: https://zapier.com/mcp
-        surrounding_text: '- **[Zapier](https://zapier.com/mcp)** - Connect your AI Agents to 8,000 apps instantly.'
+        surrounding_text: "- **[Zapier](https://zapier.com/mcp)** - Connect your AI Agents to 8,000 apps instantly."
         confidence: high
 metadata:
   github:
@@ -36,42 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Zapier MCP is a Model Context Protocol server that connects AI assistants like Claude, ChatGPT, and Cursor to 9,000+
-    apps via Zapier's integration ecosystem.
-  why_it_matters: >-
-    It enables AI agents to perform actions across thousands of SaaS apps without custom code, bridging the gap between
-    AI reasoning and real-world workflow automation.
-  mental_damage: Finally, your AI can do your busywork—until you realize you now have to audit its busywork.
+  summary: Zapier MCP is a Model Context Protocol server that connects AI clients to 9,000+ apps via Zapier's managed auth and action ecosystem.
+  why_it_matters: It lets developers extend AI agents with real-world app actions without building custom integrations or managing credentials.
+  mental_damage: Finally, a way to make your AI agent feel useful while still being entirely dependent on Zapier's pricing and uptime.
   tags:
     - mcp
-    - automation
-    - zapier
-    - ai-integration
-    - workflow
+    - ai-integrations
+    - workflow-automation
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: Zapier MCP is explicitly a Model Context Protocol server that exposes Zapier's app
-    integrations to AI clients.
+  reason: Zapier MCP is an MCP server whose core identity is exposing 9,000+ apps and 66,000+ actions over the Model Context Protocol, making it a canonical MCP infrastructure product rather than a coding agent or extension.
   evidence:
-    - Source-list context lists it under 'Official Servers' in awesome-mcp-servers
-    - >-
-      Scraped site context explicitly describes it as 'Zapier MCP connects Claude, ChatGPT, and other tools to 30,000+
-      actions across 9,000+ apps'
-    - The product's core value is MCP-based integration, not a broader platform or extension
+    - Described as 'MCP' throughout the page and positioned as a secure way to connect AI clients to apps via Zapier
+    - Lists 9,000+ apps and 66,000+ triggers/actions discoverable by AI agents through MCP
+    - Source-list context shows inclusion in awesome-mcp-servers under 'Official Servers' section
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.671Z'
+    updated_at: "2026-05-06T22:12:15.671Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,33 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:40:08.870Z'
+    updated_at: "2026-09-28T04:51:49.179Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:afba861100ca71813eee29d7a5f20889b6b966f41d15702f5086b4bff4e9cb41
+      category_rules_version: c367d6101132
+      input_hash: sha256:9b14e32f06787a631eb020580604c72e4d580b413efb86d104c00d65d999d273
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        MCP is the product identity here: Zapier MCP is explicitly a Model Context Protocol server that exposes Zapier's
-        app integrations to AI clients.
+      decision_reason: Zapier MCP is an MCP server whose core identity is exposing 9,000+ apps and 66,000+ actions over the Model Context Protocol, making it a canonical MCP infrastructure product rather than a coding agent or extension.
       decision_evidence:
-        - Source-list context lists it under 'Official Servers' in awesome-mcp-servers
-        - >-
-          Scraped site context explicitly describes it as 'Zapier MCP connects Claude, ChatGPT, and other tools to
-          30,000+ actions across 9,000+ apps'
-        - The product's core value is MCP-based integration, not a broader platform or extension
+        - Described as 'MCP' throughout the page and positioned as a secure way to connect AI clients to apps via Zapier
+        - Lists 9,000+ apps and 66,000+ triggers/actions discoverable by AI agents through MCP
+        - Source-list context shows inclusion in awesome-mcp-servers under 'Official Servers' section
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server exposing Zapier's
-        integrations, not merely an extension for another AI tool.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because Zapier MCP's primary identity is as an MCP server exposing app capabilities, not as an extension that augments a coding agent's workflow.
       review_reason: null
       review_resume_lifecycle: null

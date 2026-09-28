@@ -51,22 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A guide article on writing effective specifications for AI agents, originally published on Addy Osmani’s Substack.
-  why_it_matters: It provides practical frameworks for structuring specs that keep AI coding agents focused and productive.
-  mental_damage: Finally, a way to stop your AI agent from turning a simple task into a 10,000-line RFC.
+  summary: An O'Reilly Radar blog post explaining how to write effective specifications for AI agents using principles like starting high-level, structuring like a PRD, and breaking tasks into modular prompts.
+  why_it_matters: Teaches developers a practical workflow to improve agent output quality and maintain control when using AI coding agents like Claude Code or Gemini CLI.
+  mental_damage: Another reminder that the real bottleneck isn't the model — it's your ability to write a spec that doesn't make the AI hallucinate a blockchain when you asked for a to-do list.
   tags:
     - spec-driven-development
     - ai-agents
-    - guide
+    - prompt-engineering
+    - developer-workflow
     - best-practices
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational article/guide, not a standalone developer tool, framework, or product.
+  reason: This is an educational blog post, not a tool, framework, or product that developers install or use directly in their workflow, so it does not meet the catalog's requirement for developer-facing AI tooling.
   evidence:
-    - The URL and context confirm it is a republished blog post/article
-    - The content is instructional (how-to guide) rather than a usable tool or library
-    - Source-list context shows it appears in a curated list of resources, not as a product
+    - The source is an O'Reilly Radar blog post by Addy Osmani, not a GitHub repo or standalone product.
+    - The content is a guide/tutorial on writing specs for AI agents, not an executable tool, SDK, agent, or platform.
+    - It appears in the 'awesome-spec-driven-development' list under 'Introductions' as a linked article, indicating it is a resource, not a tool.
 placement:
   primary_category: null
   section: null
@@ -76,24 +77,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:14.288Z"
+    updated_at: "2026-09-28T04:43:48.986Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:cc9d7db55226ec53441eb7214ac59b58a684df9e7da0a9030eef14c72da267d1
+      category_rules_version: c367d6101132
+      input_hash: sha256:eead271835f262fa3e0b57fefde664d078dbf0bfb0bd886cc860887dc2cddef7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational article/guide, not a standalone developer tool, framework, or product.
+      decision_reason: This is an educational blog post, not a tool, framework, or product that developers install or use directly in their workflow, so it does not meet the catalog's requirement for developer-facing AI tooling.
       decision_evidence:
-        - The URL and context confirm it is a republished blog post/article
-        - The content is instructional (how-to guide) rather than a usable tool or library
-        - Source-list context shows it appears in a curated list of resources, not as a product
+        - The source is an O'Reilly Radar blog post by Addy Osmani, not a GitHub repo or standalone product.
+        - The content is a guide/tutorial on writing specs for AI agents, not an executable tool, SDK, agent, or platform.
+        - It appears in the 'awesome-spec-driven-development' list under 'Introductions' as a linked article, indicating it is a resource, not a tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

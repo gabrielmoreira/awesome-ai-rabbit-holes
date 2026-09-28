@@ -40,27 +40,25 @@ metadata:
       fetched_at: "2026-09-24T04:13:00.007Z"
       bytes: 1240
 insights:
-  summary: A monorepo containing MCP (Model Context Protocol) servers for Bitte AI integrations.
-  why_it_matters: Provides MCP server implementations that enable integration with Bitte AI services, expanding the tooling ecosystem for developers using MCP-compatible clients.
-  mental_damage: Another MCP server to add to your growing list of protocol adapters you’ll forget how to configure by next week.
+  summary: This is a monorepo containing MCP (Model Control Protocol) servers for Bitte AI integrations.
+  why_it_matters: It provides ready-to-use MCP servers that let AI agents access Bitte AI services through a standardized protocol.
+  mental_damage: Another day, another protocol wrapper promising seamless AI-tool interoperability while we all just want our agents to stop hallucinating API keys.
   tags:
     - mcp
-    - server
-    - bitte-ai
     - protocol
-    - integration
-  confidence: high
+    - server
+  confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation for Bitte AI, making MCP its primary identity.
+  reason: The project's core identity is providing MCP servers as infrastructure for the Model Control Protocol, making MCP its primary product rather than a side feature.
   evidence:
-    - README describes it as a monorepo containing MCP servers for different services
-    - Includes a Bitte AI MCP server with a public SSE endpoint
-    - Listed in awesome-mcp-servers under Finance & Fintech
+    - README describes it as 'MCP (Model Control Protocol) servers for different services'
+    - Provides configuration examples for adding MCP servers to Cursor settings
+    - Monorepo structure focused on MCP server packages (bitte-ai service)
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
@@ -76,30 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:56:41.021Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:65e18751f104dcc3abcfbe92670a593bf02d7eb143a0bd00ec3cdc21e57e646e
+      category_rules_version: c367d6101132
+      input_hash: sha256:6a9d74ac3cc7f7387683472bd71536bec99b8f0b085b09f96b1e08763cac0f84
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly an MCP server implementation for Bitte AI, making MCP its primary identity.
+      decision_reason: The project's core identity is providing MCP servers as infrastructure for the Model Control Protocol, making MCP its primary product rather than a side feature.
       decision_evidence:
-        - README describes it as a monorepo containing MCP servers for different services
-        - Includes a Bitte AI MCP server with a public SSE endpoint
-        - Listed in awesome-mcp-servers under Finance & Fintech
+        - README describes it as 'MCP (Model Control Protocol) servers for different services'
+        - Provides configuration examples for adding MCP servers to Cursor settings
+        - Monorepo structure focused on MCP server packages (bitte-ai service)
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension augmenting another assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's primary identity is MCP server infrastructure, not augmenting a host coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null

@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A SaaS platform for AI phone call agents that automate outbound/inbound calls, lead qualification, and meeting scheduling across phone, SMS, and WhatsApp.
-  why_it_matters: It does not directly assist developers with coding, debugging, or building software.
-  mental_damage: Finally, a way to offload your sales calls to AI—just when you were hoping to offload your code reviews.
+  summary: Harmony AI is a voice AI platform that automates sales and support calls for revenue teams.
+  why_it_matters: It lets developers integrate AI-powered phone agents into CRM and telephony stacks without building voice infrastructure from scratch.
+  mental_damage: Another AI that talks to humans so developers don’t have to, until the phone rings and it’s still you.
   tags:
-    - ai-agents
+    - voice-ai
     - sales-automation
-    - telephony
-    - saas
+    - crm-integration
   confidence: high
 curation:
   status: excluded
-  reason: This is a business/telephony automation product (AI call agents for sales workflows) with no developer-tooling angle, coding assistance, or adjacent infrastructure for software developers.
+  reason: Harmony AI is a business-focused voice agent platform for revenue teams, not a developer-facing AI tool for coding, workflows, or app building.
   evidence:
-    - Scraped site context describes AI phone call agents for lead qualification, meeting scheduling, and revenue driving
-    - Source-list context places it under 'Developer tools' in a local AI directory, but the product itself is sales/telephony-focused
-    - No repo, code, SDK, or developer-facing integration surface is presented
+    - Scraped site context emphasizes voice AI for lead qualification, booking calls, and payment reminders, not developer tooling.
+    - No repo description, stars, or activity signals indicate it is a developer tool or open-source project.
+    - It positions itself as a turnkey platform for sales teams, not an SDK, framework, or agent developers customize or extend.
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:18.007Z"
+    updated_at: "2026-09-28T04:34:04.413Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:40a222ce90aeddade56ffc57f357717f32ac8dcd9327feeaf42b2cb616087e27
+      category_rules_version: c367d6101132
+      input_hash: sha256:950a1aa79d33074ec581da4e62a0b36f409e4fc1cbd8689346c26a4f203a5be1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a business/telephony automation product (AI call agents for sales workflows) with no developer-tooling angle, coding assistance, or adjacent infrastructure for software developers.
+      decision_reason: Harmony AI is a business-focused voice agent platform for revenue teams, not a developer-facing AI tool for coding, workflows, or app building.
       decision_evidence:
-        - Scraped site context describes AI phone call agents for lead qualification, meeting scheduling, and revenue driving
-        - Source-list context places it under 'Developer tools' in a local AI directory, but the product itself is sales/telephony-focused
-        - No repo, code, SDK, or developer-facing integration surface is presented
+        - Scraped site context emphasizes voice AI for lead qualification, booking calls, and payment reminders, not developer tooling.
+        - No repo description, stars, or activity signals indicate it is a developer tool or open-source project.
+        - It positions itself as a turnkey platform for sales teams, not an SDK, framework, or agent developers customize or extend.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

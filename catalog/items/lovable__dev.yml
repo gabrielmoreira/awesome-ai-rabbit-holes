@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__lovable__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - App Builders
         anchor_text: Lovable
         extracted_url: https://lovable.dev
-        surrounding_text: '- **[Lovable](https://lovable.dev/)** – Create and deploy web apps from a single prompt in a browser tab.'
+        surrounding_text: "- **[Lovable](https://lovable.dev/)** – Create and deploy web apps from a single prompt in a browser tab."
         confidence: high
     - id: discovery__lovable__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-06-04T05:40:27.160Z'
+      discovered_at: "2026-06-04T05:40:27.160Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - GPT Engineer
         anchor_text: GPT Engineer
         extracted_url: https://gptengineer.app
-        surrounding_text: '## [GPT Engineer](https://gptengineer.app/)'
+        surrounding_text: "## [GPT Engineer](https://gptengineer.app/)"
         confidence: high
 metadata:
   github:
@@ -51,27 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A SaaS platform for building apps, websites, and digital products from prompts without deep coding skills.
-  why_it_matters: Enables rapid prototyping and deployment of full-stack applications for non-technical or semi-technical users.
-  mental_damage: Finally, a way to build apps without writing code—until you need to debug the AI-generated code.
+  summary: Lovable.dev is an AI-powered platform that builds apps and websites from natural language prompts or uploaded designs.
+  why_it_matters: It lets developers and non-developers turn ideas into working prototypes instantly, skipping manual setup and boilerplate.
+  mental_damage: Watch your weekend project get built by AI while you question whether you still need to learn CSS.
   tags:
     - app-builder
-    - prompt-to-app
     - no-code
-    - ai-platform
-    - prototyping
+    - ai
   confidence: high
 curation:
   status: included
-  reason: The product's core value is turning prompts into deployable apps/sites, fitting the App Builders category.
+  reason: Lovable.dev matches the app-builders category by generating deployable apps from prompts without requiring an existing codebase, as evidenced by its prompt-to-app workflow and source-list placement.
   evidence:
-    - >-
-      Site description: 'Build apps, websites, and digital products faster using Lovable's AI-powered platform, no deep
-      coding skills required.'
-    - 'Source-list context: Listed under ''App Builders'' in awesome-ai-coding-tools.'
-    - >-
-      Primary page excerpt emphasizes prompt-to-app workflow ('Start with an idea... Watch it come to life... Refine and
-      ship').
+    - "Scraped site: 'Build apps, websites, and digital products faster using Lovable's AI-powered platform, no deep coding skills required.'"
+    - "Source-list: listed in awesome-ai-coding-tools under App Builders with description 'Build apps, websites, and digital products faster using Lovable's AI-powered platform, no deep coding skills required.'"
+    - "README excerpt: 'Create apps and websites by chatting with AI', 'Watch it come to life', 'Refine and ship', 'Deploy it to the world with one click'"
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -82,7 +76,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-04T05:40:27.161Z'
+    updated_at: "2026-06-04T05:40:27.161Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,33 +85,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:29:20.143Z'
+    updated_at: "2026-09-28T04:31:50.509Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:52e5b1cf3d7cec2209845e65a8b9e603e149c6fc7eca28bb89d8533b6e4a8d6f
+      category_rules_version: c367d6101132
+      input_hash: sha256:82ab39ffe8c2eb5b3a060a7a665ba43a8d47d7515aadc147145c0928dc45c37e
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product's core value is turning prompts into deployable apps/sites, fitting the App Builders category.
+      decision_reason: Lovable.dev matches the app-builders category by generating deployable apps from prompts without requiring an existing codebase, as evidenced by its prompt-to-app workflow and source-list placement.
       decision_evidence:
-        - >-
-          Site description: 'Build apps, websites, and digital products faster using Lovable's AI-powered platform, no
-          deep coding skills required.'
-        - 'Source-list context: Listed under ''App Builders'' in awesome-ai-coding-tools.'
-        - >-
-          Primary page excerpt emphasizes prompt-to-app workflow ('Start with an idea... Watch it come to life... Refine
-          and ship').
+        - "Scraped site: 'Build apps, websites, and digital products faster using Lovable's AI-powered platform, no deep coding skills required.'"
+        - "Source-list: listed in awesome-ai-coding-tools under App Builders with description 'Build apps, websites, and digital products faster using Lovable's AI-powered platform, no deep coding skills required.'"
+        - "README excerpt: 'Create apps and websites by chatting with AI', 'Watch it come to life', 'Refine and ship', 'Deploy it to the world with one click'"
       category_candidates:
         - app-builders
-        - agent-orchestration
-      contrastive_reason: >-
-        Choose app-builders over agent-orchestration because the product is a prompt-to-app platform, not a multi-agent
-        coordination system.
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because Lovable.dev generates new apps from prompts rather than editing existing codebases, which is the core of coding agents.
       review_reason: null
       review_resume_lifecycle: null

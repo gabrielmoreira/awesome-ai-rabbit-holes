@@ -51,22 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language blog post explaining Beam Search and its code implementation in text generation tasks.
-  why_it_matters: It provides a detailed technical breakdown of Beam Search and related sampling strategies for developers working on NLP or generative AI.
-  mental_damage: Another day, another deep dive into decoding strategies that will haunt your dreams of deterministic code.
+  summary: A blog post explaining Beam Search decoding strategy with code examples from the Hugging Face Transformers library.
+  why_it_matters: Helps developers understand a core text generation algorithm used in LLMs for improving output quality beyond greedy decoding.
+  mental_damage: Another reminder that decoding strategies are the secret sauce no one talks about until your model starts repeating 'the the the'.
   tags:
-    - beam-search
     - nlp
-    - text-generation
-    - educational
+    - decoding
+    - llm
+    - beam-search
+    - tutorial
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational blog post, not a practical AI tool, framework, or developer-facing product.
+  reason: The resource is an educational blog post about an algorithm, not a developer-facing AI tool, agent, workflow, or product.
   evidence:
-    - The URL points to a blog post on cnblogs.com
-    - The content is a tutorial/explanation of Beam Search with code examples
-    - No repo, no installable tool, no SDK, no runtime, no integration
+    - Source is a CNBlogs article titled 'Beam Search快速理解及代码解析'
+    - Content is a tutorial explaining Beam Search with code snippets, not a standalone tool or service
+    - No evidence of being a reusable SDK, agent, app builder, or infrastructure for developers to use
 placement:
   primary_category: null
   section: null
@@ -76,24 +77,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:33:00.337Z"
+    updated_at: "2026-09-28T04:39:53.007Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:579ad66f62b474ea6fa1da4cd3e6a1c6f3bf42c51af262e2ccf267095305b16d
+      category_rules_version: c367d6101132
+      input_hash: sha256:8da29a3db444b273d7629b7671748b37be7f4bfd01b335ea4290b216741c2439
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational blog post, not a practical AI tool, framework, or developer-facing product.
+      decision_reason: The resource is an educational blog post about an algorithm, not a developer-facing AI tool, agent, workflow, or product.
       decision_evidence:
-        - The URL points to a blog post on cnblogs.com
-        - The content is a tutorial/explanation of Beam Search with code examples
-        - No repo, no installable tool, no SDK, no runtime, no integration
+        - Source is a CNBlogs article titled 'Beam Search快速理解及代码解析'
+        - Content is a tutorial explaining Beam Search with code snippets, not a standalone tool or service
+        - No evidence of being a reusable SDK, agent, app builder, or infrastructure for developers to use
       category_candidates: []
       contrastive_reason: null
       review_reason: null

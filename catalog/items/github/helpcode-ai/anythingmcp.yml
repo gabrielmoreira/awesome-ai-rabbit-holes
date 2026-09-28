@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/helpcode-ai/anythingmcp
         surrounding_text: "- [HelpCode-ai/anythingmcp](https://github.com/HelpCode-ai/anythingmcp) [![HelpCode-ai/anythingmcp MCP server](https://glama.ai/mcp/servers/HelpCode-ai/anythingmcp/badges/score.svg)](https://glama.ai/mcp/servers/HelpCode-ai/anythingmcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - Self-hosted source-available MCP gateway and API-to-MCP bridge. Converts REST, SOAP/WSDL, GraphQL, and SQL/NoSQL databases (PostgreSQL, MySQL, MariaDB, MSSQL, Oracle, MongoDB, SQLite) into MCP tools — no SDK, no code. Imports OpenAPI / Postman / WSDL / GraphQL specs; bridges multiple MCP servers behind one endpoint. Ships with 29 pre-built adapters (DHL, DATEV, Weclapp, Personio, Handelsregister, Shopware 6, VIES, OpenPLZ, Bundesbank, etc.). OAuth2 (PKCE + Client Credentials), Bearer, API Key, WS-Security, TLS certs. AES-256-GCM credential encryption, full audit log, per-user MCP API keys, tool-level RBAC."
         confidence: high
+    - id: discovery__github__helpcode-ai__anythingmcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-28T04:13:54.113Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 💻 Developer Tools
+        anchor_text: HelpCode-ai/anythingmcp
+        extracted_url: https://github.com/helpcode-ai/anythingmcp
+        surrounding_text: "-   **[HelpCode-ai/anythingmcp](https://github.com/HelpCode-ai/anythingmcp)** [![GitHub stars](https://img.shields.io/github/stars/HelpCode-ai/anythingmcp?style=social)](https://github.com/HelpCode-ai/anythingmcp): Self-hosted MCP gateway that turns REST/OpenAPI, SOAP, GraphQL and SQL systems into MCP tools without code, with 258 ready adapters for ERP, e-commerce and more."
+        confidence: high
 metadata:
   github:
     stars: 168
@@ -87,7 +103,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.456Z"
+    updated_at: "2026-09-28T04:13:54.115Z"
     cause: null
     next_retry_at: null
   stars:
@@ -97,7 +113,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-24T04:13:12.445Z"
+    updated_at: "2026-09-28T04:14:00.165Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

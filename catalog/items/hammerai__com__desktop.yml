@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hammerai__com__desktop__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,12 +18,10 @@ provenance:
           - Inference UI
         anchor_text: HammerAI
         extracted_url: https://hammerai.com/desktop
-        surrounding_text: >-
-          - [HammerAI](https://www.hammerai.com/desktop) - Simple character-chat interface to run LLMs on Windows, Mac,
-          and Linux. Uses Ollama under the hood and is offline, free to chat, and requires zero configuration.
+        surrounding_text: "- [HammerAI](https://www.hammerai.com/desktop) - Simple character-chat interface to run LLMs on Windows, Mac, and Linux. Uses Ollama under the hood and is offline, free to chat, and requires zero configuration."
         confidence: high
     - id: discovery__www__hammerai__com__desktop__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -35,9 +33,7 @@ provenance:
           - Inference UI
         anchor_text: HammerAI
         extracted_url: https://www.hammerai.com/desktop
-        surrounding_text: >-
-          - [HammerAI](https://www.hammerai.com/desktop) - Simple character-chat interface to run LLMs on Windows, Mac,
-          and Linux. Uses Ollama under the hood and is offline, free to chat, and requires zero configuration.
+        surrounding_text: "- [HammerAI](https://www.hammerai.com/desktop) - Simple character-chat interface to run LLMs on Windows, Mac, and Linux. Uses Ollama under the hood and is offline, free to chat, and requires zero configuration."
         confidence: high
 metadata:
   github:
@@ -55,66 +51,56 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A desktop app for offline AI character chat that runs LLMs locally using Ollama and Llama.cpp.
-  why_it_matters: Developers can test or interact with local models in a private, offline environment without cloud dependencies.
-  mental_damage: Finally, a way to argue with AI characters on a desert island with GPU acceleration.
+  summary: HammerAI is a desktop application that lets users chat with AI characters and generate stories and images offline using locally run LLMs via Ollama.
+  why_it_matters: It offers a private, zero-config way to run local LLMs for creative and conversational use without relying on cloud services.
+  mental_damage: Another local chat app promising 'works out of the box' while silently hoping you don’t ask it to debug your Kubernetes cluster.
   tags:
     - local-ai
-    - desktop
+    - desktop-app
     - ollama
-    - offline
-    - chat
   confidence: high
 curation:
-  status: included
-  reason: >-
-    The product is a local-first desktop app centered on running LLMs offline, which aligns with the Local AI category's
-    focus on private, self-hosted, or on-device execution.
+  status: excluded
+  reason: HammerAI is a general-purpose local LLM chat interface focused on roleplay, storytelling, and image generation, not developer-facing tooling or workflows.
   evidence:
-    - Described as a desktop app for offline AI chat running LLMs locally via Ollama and Llama.cpp
-    - Listed in awesome-local-ai under Inference UI
-    - Emphasizes privacy, offline use, and local GPU acceleration
+    - Described as a desktop app for chatting with AI characters offline using Ollama, with features like character creation, story writing, and image generation.
+    - No mention of code editing, debugging, terminal use, IDE integration, or any software development workflow in the README or site excerpt.
+    - Listed in awesome-local-ai under 'Inference UI' as a tool for chatting with AI characters, not for coding or developer tooling.
 placement:
-  primary_category: local-ai
+  primary_category: null
   secondary_categories: []
-  section: Desktop Chat & UIs
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-21T15:34:49.434Z'
+    updated_at: "2026-09-28T04:41:38.814Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:efdde68a6d12f5807099cd699d31ad72414b567418a8d852ec03dda6efcfbfad
-      proposed_primary_category: local-ai
+      category_rules_version: c367d6101132
+      input_hash: sha256:1c2b63e812b40bc1ac28e75b9475e34fab37ee007544ce5814d5f470dc1ff6f4
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is a local-first desktop app centered on running LLMs offline, which aligns with the Local AI
-        category's focus on private, self-hosted, or on-device execution.
+      decision_reason: HammerAI is a general-purpose local LLM chat interface focused on roleplay, storytelling, and image generation, not developer-facing tooling or workflows.
       decision_evidence:
-        - Described as a desktop app for offline AI chat running LLMs locally via Ollama and Llama.cpp
-        - Listed in awesome-local-ai under Inference UI
-        - Emphasizes privacy, offline use, and local GPU acceleration
-      category_candidates:
-        - local-ai
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose local-ai over ai-frameworks because the product is a desktop interface for local inference, not a
-        code-first SDK or library.
+        - Described as a desktop app for chatting with AI characters offline using Ollama, with features like character creation, story writing, and image generation.
+        - No mention of code editing, debugging, terminal use, IDE integration, or any software development workflow in the README or site excerpt.
+        - Listed in awesome-local-ai under 'Inference UI' as a tool for chatting with AI characters, not for coding or developer tooling.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.966Z'
+    updated_at: "2026-07-21T15:20:21.966Z"
     cause: null
     next_retry_at: null
   stars:

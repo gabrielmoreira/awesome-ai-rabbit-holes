@@ -40,27 +40,25 @@ metadata:
       fetched_at: "2026-09-24T04:12:59.563Z"
       bytes: 1812
 insights:
-  summary: An MCP server that audits images on public web pages, comparing natural versus rendered dimensions, detecting oversized images, and breaking down formats.
-  why_it_matters: Gives AI agents like Claude, Cursor, and Windsurf a zero-install way to diagnose image bloat and web-performance issues during development.
-  mental_damage: We are now installing dedicated servers so our coding agents can tell us that someone uploaded a 4 MB PNG and called it a thumbnail.
+  summary: MCP server that audits images on any web page for natural vs rendered dimensions, oversized detection, and format breakdown.
+  why_it_matters: Gives AI agents a way to catch image-performance issues during development without needing a local browser.
+  mental_damage: Yet another niche MCP server that makes you wonder if we're building tools for agents or just for the sake of having tools.
   tags:
     - mcp
-    - web-performance
+    - developer-tools
     - image-audit
-    - developer-tooling
-    - agent-integration
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project is an MCP server whose sole purpose is exposing image-auditing capabilities to AI agents; MCP is the product identity, not an adapter or side feature.
+  reason: The product is an MCP server exposing image-audit capabilities over the Model Context Protocol, making MCP its primary identity rather than a side feature.
   evidence:
-    - README explicitly brands the project as an MCP server for Claude, Cursor, and Windsurf with a single scan tool.
-    - Repository description states it is an MCP server powered by imagedimensions.com.
-    - Listed in awesome-mcp-servers under Developer Tools, confirming community categorization as MCP infrastructure.
+    - "Repo description: 'MCP server that audits images on any web page'"
+    - "README: Explicitly positions itself as an MCP server for AI agents like Claude and Cursor"
+    - "Source-list context: Included in awesome-mcp-servers under Developer Tools"
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
@@ -76,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-28T04:56:26.742Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:2d9e30acf1746eb869ca36494251c28f26c95f45068abab4c7fb14a66404bf73
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server exposing image-audit capabilities over the Model Context Protocol, making MCP its primary identity rather than a side feature.
+      decision_evidence:
+        - "Repo description: 'MCP server that audits images on any web page'"
+        - "README: Explicitly positions itself as an MCP server for AI agents like Claude and Cursor"
+        - "Source-list context: Included in awesome-mcp-servers under Developer Tools"
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's core identity is being an MCP server, not an extension that augments another agent.
+      review_reason: null
+      review_resume_lifecycle: null

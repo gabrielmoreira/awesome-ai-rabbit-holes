@@ -40,23 +40,21 @@ metadata:
       fetched_at: "2026-09-24T04:12:59.282Z"
       bytes: 20550
 insights:
-  summary: Deprecated model card repository for the BigScience BLOOM multilingual language model.
-  why_it_matters: It provides standardized documentation for a large open-access multilingual language model, which was a significant community effort in 2022.
-  mental_damage: The repo is deprecated, pointing to Hugging Face, because even model cards have a half-life shorter than a startup’s runway.
+  summary: A deprecated model card for the BLOOM multilingual language model, now redirected to Hugging Face.
+  why_it_matters: Serves as a historical reference for documentation practices in large open-source ML projects, though no longer maintained.
+  mental_damage: Another artifact reminding us that even well-funded open science projects eventually get archived when the hype moves on.
   tags:
-    - model-card
     - documentation
+    - ml-model
     - deprecated
-    - bloom
-    - multilingual
   confidence: high
 curation:
   status: excluded
-  reason: This is a deprecated documentation artifact for a specific model, not a developer tool, framework, or workflow product.
+  reason: This is a static documentation page for a released ML model, not a developer-facing AI tool, agent, or infrastructure relevant to coding workflows.
   evidence:
-    - README explicitly states 'DEPRECATED. This is now live at https://huggingface.co/bigscience/bloom'
-    - Repo is a model card (documentation) rather than a tool, library, or runtime
-    - No active development (last push in 2022, archived status not set but effectively superseded)
+    - Repo description is missing; README states it is DEPRECATED and redirects to Hugging Face
+    - Content is a model card detailing BLOOM's architecture, training data, and licensing — not a tool for developers to use in coding tasks
+    - No evidence of being a runtime, SDK, agent, or workflow tool; purely informational and archival
 placement:
   primary_category: null
   section: null
@@ -75,27 +73,25 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:56:12.845Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:2a74f5b07b9e99fc182d7e1d37bef2b4b2a8af5524fb65d54362fb4e797c6f79
+      category_rules_version: c367d6101132
+      input_hash: sha256:7040c64d06b661c2ada5b4ddb2d824a89b9a4ce32ecabd66e5a7495c0db6cbac
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a deprecated documentation artifact for a specific model, not a developer tool, framework, or workflow product.
+      decision_reason: This is a static documentation page for a released ML model, not a developer-facing AI tool, agent, or infrastructure relevant to coding workflows.
       decision_evidence:
-        - README explicitly states 'DEPRECATED. This is now live at https://huggingface.co/bigscience/bloom'
-        - Repo is a model card (documentation) rather than a tool, library, or runtime
-        - No active development (last push in 2022, archived status not set but effectively superseded)
+        - Repo description is missing; README states it is DEPRECATED and redirects to Hugging Face
+        - Content is a model card detailing BLOOM's architecture, training data, and licensing — not a tool for developers to use in coding tasks
+        - No evidence of being a runtime, SDK, agent, or workflow tool; purely informational and archival
       category_candidates: []
       contrastive_reason: null
       review_reason: null

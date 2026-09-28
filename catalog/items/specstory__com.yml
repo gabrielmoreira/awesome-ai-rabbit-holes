@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__specstory__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: SpecStory
         extracted_url: https://specstory.com
-        surrounding_text: >-
-          - **[SpecStory](https://specstory.com/)** – Cursor/VS Code/Claude Code extension for summarizing and sharing
-          AI chat context.
+        surrounding_text: "- **[SpecStory](https://specstory.com/)** – Cursor/VS Code/Claude Code extension for summarizing and sharing AI chat context."
         confidence: high
 metadata:
   github:
@@ -38,44 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A tool that automatically captures and centralizes AI chat history from Cursor, Copilot, Claude Code, and Codex for
-    searchable, persistent context.
-  why_it_matters: >-
-    Eliminates context loss between coding sessions by making all past AI conversations searchable and reusable across
-    projects and team members.
-  mental_damage: Finally, a way to remember what you told the AI last Tuesday at 3 AM.
+  summary: SpecStory is a platform that saves and syncs coding agent conversation history and runs software tests to send reproducible failures back to agents.
+  why_it_matters: It helps developers retain context across AI coding sessions and close the feedback loop between test failures and agent-driven fixes.
+  mental_damage: Another layer of metadata to manage while waiting for your AI to stop hallucinating edge cases.
   tags:
-    - context-management
-    - ai-chat-history
     - developer-productivity
-    - cursor-integration
-    - claude-code
+    - ai-agents
+    - testing
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is capturing and resurfacing context from other coding assistants rather than acting as
-    a primary coding agent itself, making it a memory/context add-on for existing tools.
+  reason: The product's core identity is capturing and resurfacing context from other coding assistants rather than acting as a primary coding agent itself, making it a memory/context add-on for existing tools.
   evidence:
-    - >-
-      Scraped site states: 'Automatically capture every chat from Cursor, Copilot, Claude Code & Codex. Save locally,
-      access everywhere.'
-    - >-
-      Primary value is 'Never lose context' and 'Search your entire development history instantly' across multiple AI
-      coding tools.
+    - "Scraped site states: 'Automatically capture every chat from Cursor, Copilot, Claude Code & Codex. Save locally, access everywhere.'"
+    - Primary value is 'Never lose context' and 'Search your entire development history instantly' across multiple AI coding tools.
     - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools' as a conversation capture utility.
 placement:
   primary_category: memory-and-context
   secondary_categories: []
-  section: Context & Session Management
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''context-engineering'''
+  reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'extensions-and-addons'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,37 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:31:56.055Z'
+    updated_at: "2026-09-28T04:37:55.636Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b94703ad3bdd4df824d5f165e0de0c05622e69a4fe389400b981dcbd23cb203c
-      proposed_primary_category: context-engineering
+      category_rules_version: c367d6101132
+      input_hash: sha256:c9815b2bd429300a531056c9379b3137e81080e0a386bd85eb6365b72d23ac09
+      proposed_primary_category: extensions-and-addons
       disagreement: true
-      decision_reason: >-
-        Core value is persistent memory and context retrieval for AI coding sessions, not host integration or primary
-        assistance.
+      decision_reason: SpecStory primarily functions as an extension that augments coding agents with conversation persistence and test feedback, rather than acting as a standalone coding agent or app builder.
       decision_evidence:
-        - >-
-          Product pitch: 'Never lose an AI conversation again. Automatically capture every chat from Cursor, Copilot,
-          Claude Code & Codex'
-        - >-
-          Features: 'All your AI chats searchable in one place', 'Stop losing valuable context', 'Search your entire
-          development history instantly'
-        - 'Source-list placement: ''Developer Productivity Tools'' in awesome-ai-coding-tools'
+        - Source-list context describes it as saving conversations behind code and sending defects back to coding agents
+        - README emphasizes keeping prompts and decisions from coding agent sessions and syncing them for reuse
+        - Product positioning centers on extending agent workflows via extensions, CLI, and cloud — not autonomous code editing
       category_candidates:
-        - context-engineering
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose context-engineering over ai-dev-extensions because the core novelty is memory and retrieval of AI
-        conversations rather than augmenting a host assistant with new capabilities.
-      review_reason: >-
-        Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed
-        'context-engineering'
+        - extensions-and-addons
+        - coding-agents
+      contrastive_reason: Choose extensions-and-addons over coding-agents because SpecStory's primary role is augmenting existing agents with memory and test feedback, not autonomously planning or executing coding tasks.
+      review_reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'extensions-and-addons'"
       review_resume_lifecycle: null

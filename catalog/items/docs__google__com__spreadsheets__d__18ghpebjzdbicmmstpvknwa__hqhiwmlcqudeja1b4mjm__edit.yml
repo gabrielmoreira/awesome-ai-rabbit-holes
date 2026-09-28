@@ -36,19 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Google Sheet comparing LLM token pricing, context windows, and relative costs across various providers.
-  why_it_matters: Provides a quick reference for developers to estimate the operational costs of different model providers.
-  mental_damage: The ability to calculate the exact price of a hallucination in real-time.
+  summary: A Google Sheets spreadsheet comparing input/output pricing and context lengths for various LLMs.
+  why_it_matters: Helps developers estimate costs when choosing models for API usage in AI-powered applications.
+  mental_damage: Yet another pricing table to bookmark, ignore, and rediscover when the bill arrives.
   tags:
-    - llm-pricing
+    - llm
+    - pricing
     - reference
   confidence: high
 curation:
   status: excluded
-  reason: This is an auxiliary reference spreadsheet rather than a standalone developer tool, framework, or curated directory.
+  reason: The resource is a static pricing reference sheet, not a developer-facing AI tool, agent, workflow, or infrastructure component.
   evidence:
-    - The URL and scraped content point to a single Google Sheet containing a pricing table.
-    - It lacks the identity of a software product, agent, or organized ecosystem map.
+    - Source is a Google Doc spreadsheet titled 'LLM Pricing' with token cost and context window data
+    - Appears in awesome-LLM-resources under '技巧 Tips' as a curated resource, not a tool
+    - No evidence of interactivity, automation, code integration, or developer workflow enhancement
 placement:
   primary_category: null
   section: null
@@ -67,23 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:10:24.452Z"
+    updated_at: "2026-09-28T04:52:17.135Z"
     cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:cb35749e9e696e4adb83736702ef8dcb5a9769f6a36ebeead4f98d4d1fcc2381
+      category_rules_version: c367d6101132
+      input_hash: sha256:cf68238cb8d419fb65ed3e8edeae1ce493459faffd7818ba4e04d3e7d981ae05
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an auxiliary reference spreadsheet rather than a standalone developer tool, framework, or curated directory.
+      decision_reason: The resource is a static pricing reference sheet, not a developer-facing AI tool, agent, workflow, or infrastructure component.
       decision_evidence:
-        - The URL and scraped content point to a single Google Sheet containing a pricing table.
-        - It lacks the identity of a software product, agent, or organized ecosystem map.
+        - Source is a Google Doc spreadsheet titled 'LLM Pricing' with token cost and context window data
+        - Appears in awesome-LLM-resources under '技巧 Tips' as a curated resource, not a tool
+        - No evidence of interactivity, automation, code integration, or developer workflow enhancement
       category_candidates: []
       contrastive_reason: null
       review_reason: null

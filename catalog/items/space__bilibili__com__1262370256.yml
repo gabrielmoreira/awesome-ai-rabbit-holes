@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili personal space for user '漆妮妮' sharing videos, audio, articles, and other content.
-  why_it_matters: It does not matter to developers as it is a personal content-sharing profile, not a developer tool.
-  mental_damage: Another reminder that 'awesome-LLM-resources' sometimes includes things that are just awesome in the literal sense.
+  summary: A Bilibili personal space (user profile) for the content creator 漆妮妮, hosting videos, audio, articles, and updates.
+  why_it_matters: It does not provide any developer-facing AI tooling, workflow, or infrastructure relevant to software development.
+  mental_damage: Another reminder that not every AI-related URL is a tool — sometimes it's just someone's video feed with a misleading awesome-list link.
   tags:
     - bilibili
-    - personal-profile
-    - non-developer-tool
+    - content-creator
+    - personal-space
   confidence: high
 curation:
   status: excluded
-  reason: This is a personal content-sharing profile on Bilibili, not a practical AI tool, workflow, or developer-facing resource.
+  reason: The resource is a personal Bilibili profile, not an AI tool, agent, framework, or developer-facing product; it lacks any identity or functionality tied to software development workflows.
   evidence:
-    - URL points to a Bilibili personal space
-    - Scraped site context confirms it is a user profile for sharing videos/audio/articles
-    - No repo description, code, or developer tooling signals
+    - "URL is a Bilibili user space: https://space.bilibili.com/1262370256"
+    - Scraped site context describes it as a personal homepage offering videos, audio, articles, and updates from UP主 漆妮妮
+    - Source-list context shows it appears in awesome-LLM-resources under '教程 Tutorial' as a linked personal space, not as a tool or resource
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:39.618Z"
+    updated_at: "2026-09-28T04:37:40.690Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:f780e5ed77aa21ab50dec601947a162175d87b420f661f881f96b8cd810c75c8
+      category_rules_version: c367d6101132
+      input_hash: sha256:ccf1fb7c45b4f949a46f5e464129f3da78ec323ae1557576752c77b2179154ac
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a personal content-sharing profile on Bilibili, not a practical AI tool, workflow, or developer-facing resource.
+      decision_reason: The resource is a personal Bilibili profile, not an AI tool, agent, framework, or developer-facing product; it lacks any identity or functionality tied to software development workflows.
       decision_evidence:
-        - URL points to a Bilibili personal space
-        - Scraped site context confirms it is a user profile for sharing videos/audio/articles
-        - No repo description, code, or developer tooling signals
+        - "URL is a Bilibili user space: https://space.bilibili.com/1262370256"
+        - Scraped site context describes it as a personal homepage offering videos, audio, articles, and updates from UP主 漆妮妮
+        - Source-list context shows it appears in awesome-LLM-resources under '教程 Tutorial' as a linked personal space, not as a tool or resource
       category_candidates: []
       contrastive_reason: null
       review_reason: null

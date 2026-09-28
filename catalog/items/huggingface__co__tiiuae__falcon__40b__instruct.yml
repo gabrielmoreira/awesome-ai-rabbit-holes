@@ -37,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Falcon-40B-Instruct is a 40B-parameter causal decoder-only instruct model fine-tuned on Baize and RefinedWeb data, optimized for inference with FlashAttention and multiquery attention.
-  why_it_matters: It offers developers a high-performance, open-source alternative for text generation tasks with strong benchmarks and Apache 2.0 licensing.
-  mental_damage: Another model to benchmark against, because nothing says productivity like spending a week comparing LLM outputs on the same prompt.
+  summary: Falcon-40B-Instruct is a 40-billion-parameter causal decoder-only language model fine-tuned for text generation and hosted on Hugging Face.
+  why_it_matters: It provides developers with a powerful open-source foundation model for building or fine-tuning custom text-generation applications under a permissive license.
+  mental_damage: Another reminder that running this locally requires more VRAM than most laptops have, pushing developers toward cloud APIs they wanted to avoid.
   tags:
+    - llm
     - text-generation
-    - open-source
-    - instruct-model
-    - falcon
-    - pytorch
+    - hugging-face
   confidence: high
 curation:
   status: excluded
-  reason: This is a raw model checkpoint (Hugging Face repo) without a developer-tooling identity; the catalog focuses on tools, workflows, and infrastructure, not standalone model weights.
+  reason: Falcon-40B-Instruct is a raw model weight repository without a meaningful SDK, agent interface, or developer-facing tooling identity — it is a model artifact, not a tool for developers to use directly in workflows.
   evidence:
-    - "Primary artifact is a model checkpoint (repoType: model) on Hugging Face"
-    - No runtime, SDK, or tooling layer beyond standard Transformers/vLLM usage
-    - Source-list context places it under 'Model > Large Language Model' in Awesome-LLMOps, confirming model-first identity
+    - Repo type is 'model' with no CLI, SDK, or agent interface described in inputs
+    - Primary usage requires importing via transformers or serving through external engines like vLLM or SGLang
+    - Appears in Awesome-LLMOps only as a model entry under 'Large Language Model', not as a developer tool
 placement:
   primary_category: null
   section: null
@@ -74,24 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:26.140Z"
+    updated_at: "2026-09-28T04:29:27.882Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ffdc6007e7424f9ca814c7981bd15712327ecaf22d4917fdac5894db53d31aa8
+      category_rules_version: c367d6101132
+      input_hash: sha256:58c85339682120c859b3d6df8f05544a8daa5d7966b76d4bb20ca5109674d1be
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a raw model checkpoint (Hugging Face repo) without a developer-tooling identity; the catalog focuses on tools, workflows, and infrastructure, not standalone model weights.
+      decision_reason: Falcon-40B-Instruct is a raw model weight repository without a meaningful SDK, agent interface, or developer-facing tooling identity — it is a model artifact, not a tool for developers to use directly in workflows.
       decision_evidence:
-        - "Primary artifact is a model checkpoint (repoType: model) on Hugging Face"
-        - No runtime, SDK, or tooling layer beyond standard Transformers/vLLM usage
-        - Source-list context places it under 'Model > Large Language Model' in Awesome-LLMOps, confirming model-first identity
+        - Repo type is 'model' with no CLI, SDK, or agent interface described in inputs
+        - Primary usage requires importing via transformers or serving through external engines like vLLM or SGLang
+        - Appears in Awesome-LLMOps only as a model entry under 'Large Language Model', not as a developer tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

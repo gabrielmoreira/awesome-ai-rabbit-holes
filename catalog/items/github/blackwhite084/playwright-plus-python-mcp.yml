@@ -55,22 +55,21 @@ metadata:
       fetched_at: "2026-09-24T04:13:00.597Z"
       bytes: 4198
 insights:
-  summary: An MCP server that exposes Playwright browser automation tools for use with MCP-compatible clients.
-  why_it_matters: It lets developers control browsers programmatically through the Model Context Protocol, enabling automated testing, scraping, or interaction within AI workflows.
-  mental_damage: Now your AI can click buttons for you—just like a junior dev, but with more YAML.
+  summary: playwright-plus-python-mcp is an MCP server exposing Playwright browser automation tools for integration with AI agents.
+  why_it_matters: It enables AI agents to perform web navigation, screenshots, and DOM interactions via standardized MCP tool calls, extending their browser automation capabilities.
+  mental_damage: Yet another MCP server wrapping a mature library—because the world clearly needed another way for AI to click buttons on web pages.
   tags:
     - mcp
     - browser-automation
     - playwright
-    - testing
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing Playwright browser automation tools via MCP.
+  reason: The project's core identity is an MCP server that exposes Playwright tools over the Model Context Protocol, making MCP its primary product identity rather than a coding agent or extension.
   evidence:
-    - README describes it as 'A MCP server with playwright tools'
-    - Source lists categorize it under MCP servers (Browser Automation)
-    - Implements MCP tools like playwright_navigate, playwright_screenshot, etc.
+    - README describes the project as 'playwright-server MCP server' with MCP-defined resources, prompts, and tools like playwright_navigate and playwright_screenshot
+    - Source-list context shows inclusion in awesome-mcp-list and awesome-mcp-servers under browser automation sections
+    - No evidence of autonomous coding behavior; the server provides browser control primitives for use by agents, not code editing or generation
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -90,30 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:56:53.795Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:44b0c040da906168271444e728e3b96ceb61294969552e1c74e7ca14222add4f
+      category_rules_version: c367d6101132
+      input_hash: sha256:f08c5b994cc93453d698384d852b2d925f42fcedc25fcd45dc60f7b662836369
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing Playwright browser automation tools via MCP.
+      decision_reason: The project's core identity is an MCP server that exposes Playwright tools over the Model Context Protocol, making MCP its primary product identity rather than a coding agent or extension.
       decision_evidence:
-        - README describes it as 'A MCP server with playwright tools'
-        - Source lists categorize it under MCP servers (Browser Automation)
-        - Implements MCP tools like playwright_navigate, playwright_screenshot, etc.
+        - README describes the project as 'playwright-server MCP server' with MCP-defined resources, prompts, and tools like playwright_navigate and playwright_screenshot
+        - Source-list context shows inclusion in awesome-mcp-list and awesome-mcp-servers under browser automation sections
+        - No evidence of autonomous coding behavior; the server provides browser control primitives for use by agents, not code editing or generation
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server whose identity is defined by the MCP protocol, not by its role as an add-on to a specific coding agent host.
       review_reason: null
       review_resume_lifecycle: null

@@ -91,11 +91,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
+    status: deferred
+    updated_at: "2026-09-28T04:58:52.260Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__btsouth__toolport: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": Toolport's\"... is not valid JSON"
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
@@ -114,7 +114,7 @@ processing:
       contrastive_reason: Choose mcp over ai-dev-extensions because the tool is a dedicated protocol gateway and middleware layer rather than a simple integration designed to augment a single specific editor.
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

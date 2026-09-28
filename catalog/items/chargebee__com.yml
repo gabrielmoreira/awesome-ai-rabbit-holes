@@ -83,23 +83,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Chargebee is a SaaS billing and monetization platform for subscription, usage-based, and hybrid pricing models, including AI-specific monetization.
-  why_it_matters: It provides developer-facing APIs and integrations to automate billing, invoicing, and revenue operations for AI and SaaS products.
-  mental_damage: Now you can spend less time arguing with Stripe webhooks and more time arguing with your AI about whether to charge per token or per prompt.
+  summary: Chargebee is a billing and monetization platform for SaaS and AI companies that supports usage-based pricing, subscription management, and revenue operations.
+  why_it_matters: Developers integrate Chargebee via APIs and SDKs to automate billing, usage tracking, and pricing experiments without building custom monetization infrastructure.
+  mental_damage: Yet another reminder that your side project’s ‘just add a Stripe checkout’ plan collapses when your AI agent starts charging per-token and you need ASC 606 compliance at 2 a.m.
   tags:
     - billing
     - monetization
+    - api
     - saas
-    - ai-pricing
-    - subscriptions
+    - ai
   confidence: high
 curation:
   status: excluded
-  reason: Chargebee is a general SaaS billing and monetization platform, not a developer tool focused on AI workflows, coding assistance, or adjacent infrastructure.
+  reason: Chargebee is a SaaS billing platform, not a developer-facing AI tool, agent, framework, or infrastructure; its MCP server listing is incidental to its core identity as revenue operations software.
   evidence:
-    - Primary product is a billing/revenue operations platform for SaaS and AI companies
-    - Source-list context shows it appears in MCP server lists, but MCP is only a compatibility feature, not the core identity
-    - No evidence of coding assistance, agent orchestration, or developer-tooling focus beyond APIs
+    - Scraped site context identifies Chargebee as a billing and monetization platform for 6,500+ businesses, with no claim to be an AI developer tool
+    - Source-list placement in awesome-mcp-servers is under 'Official Servers' but describes Chargebee’s billing features, not MCP-specific tooling
+    - README and site excerpt emphasize revenue stacks, payment gateways, invoicing, and financial operations — not coding agents, app generation, or agent orchestration
 placement:
   primary_category: null
   section: null
@@ -109,24 +109,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:56.293Z"
+    updated_at: "2026-09-28T04:39:42.535Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:16d59eb62a100f738287059a6525d558fcc2cda0d3a6db1470609d34b5e4d348
+      category_rules_version: c367d6101132
+      input_hash: sha256:06a8b8bdaa7be35980d9e31c66abb9bac6ed6734735db00f7b349b2e7998b040
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Chargebee is a general SaaS billing and monetization platform, not a developer tool focused on AI workflows, coding assistance, or adjacent infrastructure.
+      decision_reason: Chargebee is a SaaS billing platform, not a developer-facing AI tool, agent, framework, or infrastructure; its MCP server listing is incidental to its core identity as revenue operations software.
       decision_evidence:
-        - Primary product is a billing/revenue operations platform for SaaS and AI companies
-        - Source-list context shows it appears in MCP server lists, but MCP is only a compatibility feature, not the core identity
-        - No evidence of coding assistance, agent orchestration, or developer-tooling focus beyond APIs
+        - Scraped site context identifies Chargebee as a billing and monetization platform for 6,500+ businesses, with no claim to be an AI developer tool
+        - Source-list placement in awesome-mcp-servers is under 'Official Servers' but describes Chargebee’s billing features, not MCP-specific tooling
+        - README and site excerpt emphasize revenue stacks, payment gateways, invoicing, and financial operations — not coding agents, app generation, or agent orchestration
       category_candidates: []
       contrastive_reason: null
       review_reason: null

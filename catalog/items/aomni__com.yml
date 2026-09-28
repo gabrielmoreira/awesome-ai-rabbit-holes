@@ -51,51 +51,52 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A SaaS platform providing AI-powered sales research and account-based automation for revenue teams.
-  why_it_matters: It automates account research and personalized outreach for sales teams, but offers no direct developer-tooling value.
-  mental_damage: Another AI agent that promises to replace your sales team’s coffee-fueled LinkedIn stalking with a SOC 2-compliant stalking-as-a-service.
+  summary: Duet is a hosted workspace platform that allows consultants and agencies to build, deploy, and manage AI agents with persistent memory, skill files, and real computer access for client-specific workflows.
+  why_it_matters: It lets developers package their agent-building expertise into reusable, client-isolated workspaces that persist state and run continuously without infrastructure overhead.
+  mental_damage: Finally, a way to sell the same agent to ten clients while pretending each one is a bespoke miracle — and not have to explain why it keeps logging into their Slack as 'Acme Corp'.
   tags:
-    - sales-automation
-    - gtm
-    - abm
-    - enterprise-saas
-  confidence: high
+    - agent-hosting
+    - client-workspaces
+    - persistent-memory
+  confidence: medium
 curation:
-  status: excluded
-  reason: The product is a sales/GTM automation platform with no developer-tooling angle, falling outside the catalog's scope of practical AI tools for software developers.
+  status: included
+  reason: Duet is a hosted control plane for managing multiple agent instances across client workspaces, with built-in scheduling, file sharing, and multi-agent collaboration — making it a platform for operating agent teams rather than a single coding agent.
   evidence:
-    - Site description explicitly targets revenue teams and ABM automation
-    - Primary value proposition is sales research, account planning, and outreach personalization
-    - No mention of code, development workflows, or developer-facing integrations
+    - Duet gives each client a workspace that holds your agents, their memory and skill files, the apps they build, and an always-on machine to run them.
+    - You look after the agent. Duet looks after everything under it.
+    - "One workspace, everyone in it: Files and shared memory every agent reads and writes, with teammates in the same sessions."
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:24.946Z"
+    updated_at: "2026-09-28T04:38:45.515Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:78db7865f1bedb3a43aaa027c96de4c8269e5e7c42ace01fd7ea490930f503a1
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:b9668d5960737b2873c8508ce8e1bf39d3ab8b047649a741cf4965485a02dec2
+      proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is a sales/GTM automation platform with no developer-tooling angle, falling outside the catalog's scope of practical AI tools for software developers.
+      decision_reason: Duet is a hosted control plane for managing multiple agent instances across client workspaces, with built-in scheduling, file sharing, and multi-agent collaboration — making it a platform for operating agent teams rather than a single coding agent.
       decision_evidence:
-        - Site description explicitly targets revenue teams and ABM automation
-        - Primary value proposition is sales research, account planning, and outreach personalization
-        - No mention of code, development workflows, or developer-facing integrations
-      category_candidates: []
-      contrastive_reason: null
+        - Duet gives each client a workspace that holds your agents, their memory and skill files, the apps they build, and an always-on machine to run them.
+        - You look after the agent. Duet looks after everything under it.
+        - "One workspace, everyone in it: Files and shared memory every agent reads and writes, with teammates in the same sessions."
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because Duet’s primary value is managing multiple agent workspaces, scheduling, shared memory, and client isolation — not autonomous coding tasks on a codebase.
       review_reason: null
       review_resume_lifecycle: null
   discover:

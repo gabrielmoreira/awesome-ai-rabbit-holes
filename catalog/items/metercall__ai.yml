@@ -36,29 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: RailCall is a local-first governance layer for AI agents that uses staged approvals and verifiable receipts to secure data-sensitive workflows.
-  why_it_matters: It addresses the critical trust gap in agentic workflows by providing a 'dry-run' and human-in-the-loop mechanism that prevents autonomous agents from making irreversible or unverified changes to sensitive production data.
-  mental_damage: Finally, an automated way to prove to your compliance department that the LLM isn't hallucinating your company's entire bank balance into a void.
+  summary: RailCall is a local-first governance tool that lets AI agents draft workflows and data actions, which must be human-approved before execution and produce verifiable cryptographic receipts.
+  why_it_matters: It lets developers safely run AI agents on sensitive data by enforcing approval gates and auditability without data leaving the machine.
+  mental_damage: Finally, a way to feel paranoid about AI agents that also gives you a notarized alibi when they inevitably misbehave.
   tags:
     - local-first
     - governance
-    - agent-orchestration
-    - mcp
-    - security
+    - ai-agents
+    - audit
+    - workflows
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is turning a text description into a working system ('Build me a CRM'), fitting the prompt-to-app builder profile rather than a repo-editing coding agent.
+  reason: RailCall fits as an app builder because its core flow turns natural language prompts into governed apps, workflows, or internal tools that execute locally with human approval and cryptographic receipts, rather than acting as a coding agent editing existing code.
   evidence:
-    - Site claims 'Tell it what you want. We just build it.' and 'This isn't a chatbot — it's a builder.'
-    - "Explicit example use case: 'Build me a CRM with invoicing and scheduling.'"
-    - Already curated in awesome-ai-coding-tools under the 'App Builders' section.
+    - Describe any program — RailCall composes it from a pre-audited library and the integrations on your left rail, then runs it airlocked. One receipt for the build, one for every flow.
+    - Every run mints an Ed25519-signed receipt — independently verifiable, offline.
+    - "Source-list context: placed in awesome-ai-coding-tools under App Builders with description 'Run AI agents on your data — it never leaves your machine. Local-first governance: dry-run by default, BYOK, every flow minted to a tamper-evident receipt.'"
 placement:
   primary_category: app-builders
-  section: null
+  section: Internal Tools & Dashboards
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'app-builders', proposed 'agent-orchestration'"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -71,27 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:36.278Z"
+    updated_at: "2026-09-28T04:34:40.048Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ef1816c989908de00beb405a2f849e0c76b08ddb3d532d2efc452fa7ada0c423
-      proposed_primary_category: agent-orchestration
-      disagreement: true
-      decision_reason: The product acts as a control plane and runtime platform that coordinates agent execution through a governed, staged, and verified loopback architecture.
+      category_rules_version: c367d6101132
+      input_hash: sha256:1deaa0f8b757dc6af8388c1c097311a17bdbf9e32aef4cb3511d2bf8ebcd16f3
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: RailCall fits as an app builder because its core flow turns natural language prompts into governed apps, workflows, or internal tools that execute locally with human approval and cryptographic receipts, rather than acting as a coding agent editing existing code.
       decision_evidence:
-        - Provides a 'governed loop' with staging, approval, and receipting for agent actions
-        - Operates as a local control plane/daemon to secure sensitive data during reasoning
-        - Includes a 'Builder' and 'Monitor' for composing and tracking complex workflows
+        - Describe any program — RailCall composes it from a pre-audited library and the integrations on your left rail, then runs it airlocked. One receipt for the build, one for every flow.
+        - Every run mints an Ed25519-signed receipt — independently verifiable, offline.
+        - "Source-list context: placed in awesome-ai-coding-tools under App Builders with description 'Run AI agents on your data — it never leaves your machine. Local-first governance: dry-run by default, BYOK, every flow minted to a tamper-evident receipt.'"
       category_candidates:
-        - agent-orchestration
-        - spec-driven-development
-      contrastive_reason: Choose agent-orchestration over spec-driven-development because the product's core novelty is the runtime control plane and execution loop rather than just the generation of specifications.
-      review_reason: "Categorization review required: placement disagreement: retained 'app-builders', proposed 'agent-orchestration'"
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because RailCall's primary identity is turning prompts into deployable governed apps and workflows from scratch, not editing or assisting within an existing codebase.
+      review_reason: null
       review_resume_lifecycle: null

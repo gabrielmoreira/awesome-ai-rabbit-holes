@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__pythagora__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: Pythagora
         extracted_url: https://pythagora.ai
-        surrounding_text: '- **[Pythagora](https://pythagora.ai/)** – AI agent that builds apps through conversational interaction.'
+        surrounding_text: "- **[Pythagora](https://pythagora.ai/)** – AI agent that builds apps through conversational interaction."
         confidence: high
 metadata:
   github:
@@ -36,36 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Pazi is an AI-powered platform for building and deploying applications from natural language descriptions.
-  why_it_matters: >-
-    It enables developers to create functional apps or tools by describing what they want in plain language, reducing
-    the need for manual coding.
-  mental_damage: Finally, a way to turn your half-baked app ideas into fully-baked technical debt.
+  summary: Pazi is a business-focused AI agent platform that builds and runs AI teams to execute business ideas from a dashboard.
+  why_it_matters: It attempts to replace manual business setup with autonomous AI agents handling planning, execution, and workflow coordination for entrepreneurs.
+  mental_damage: Another AI tool promising to 'build your business' while you sip coffee, adding to the pile of vaporware that confuses agent orchestration with actual revenue.
   tags:
-    - app-builder
-    - prompt-to-app
-    - ai-platform
-  confidence: medium
+    - ai-agents
+    - business-automation
+    - workflow-platform
+  confidence: high
 curation:
-  status: included
-  reason: The product's core value is turning prompts into deployed applications, which aligns with the app-builders category.
+  status: excluded
+  reason: Pazi is a business automation platform focused on end-to-end idea execution via AI agents, not a developer-facing tool for coding, app building, or workflow engineering; its core value targets non-technical users launching ventures, not software development workflows.
   evidence:
-    - Site title and context indicate it is a platform named Pazi
-    - Description implies a focus on building/deploying from natural language
-    - >-
-      Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code
-      collaboration.
+    - The site positions Pazi as building 'a team around you and starts making it happen' for business ideas like coffee shops, books, and apps, with no mention of code editing, SDKs, or developer tooling.
+    - Features emphasize dashboards, opportunity tracking, task calendars, and business pulse — generic workflow and project management, not code-centric AI assistance.
+    - Use cases span e-commerce, SaaS, health, education, and creative industries, framed as end-user business outcomes, not developer productivity gains.
 placement:
-  primary_category: app-builders
+  primary_category: null
   secondary_categories: []
-  section: Full App Builders
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.669Z'
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,33 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:39:23.287Z'
+    updated_at: "2026-09-28T04:50:32.438Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5398fce2322730a0fc9465116dced7b5fb30dff1d0b8d2c2466482ee9aa627a4
-      proposed_primary_category: app-builders
+      category_rules_version: c367d6101132
+      input_hash: sha256:3e1be7cd7e20ec2b31f0c04209455c1d2b76f033cd9c2d0ff6b489b3b7bf1a37
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product's core value is turning prompts into deployed applications, which aligns with the app-builders
-        category.
+      decision_reason: Pazi is a business automation platform focused on end-to-end idea execution via AI agents, not a developer-facing tool for coding, app building, or workflow engineering; its core value targets non-technical users launching ventures, not software development workflows.
       decision_evidence:
-        - Site title and context indicate it is a platform named Pazi
-        - Description implies a focus on building/deploying from natural language
-        - >-
-          Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct
-          code collaboration.
-      category_candidates:
-        - app-builders
-        - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because the primary workflow is prompt-to-app rather than repo editing or
-        debugging.
+        - The site positions Pazi as building 'a team around you and starts making it happen' for business ideas like coffee shops, books, and apps, with no mention of code editing, SDKs, or developer tooling.
+        - Features emphasize dashboards, opportunity tracking, task calendars, and business pulse — generic workflow and project management, not code-centric AI assistance.
+        - Use cases span e-commerce, SaaS, health, education, and creative industries, framed as end-user business outcomes, not developer productivity gains.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

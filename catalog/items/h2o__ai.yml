@@ -36,26 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: H2O.ai is an end-to-end enterprise GenAI platform for private, on-premises or air-gapped deployments, combining predictive and generative AI with agentic workflows.
-  why_it_matters: It enables developers to build, fine-tune, and deploy AI agents and models on private infrastructure with enterprise-grade controls and integrations.
-  mental_damage: Because nothing says 'developer-friendly' like a platform that promises to own every part of your stack while also being air-gapped from the outside world.
+  summary: An end-to-end generative and predictive AI platform designed for air-gapped, on-premises, and private cloud environments.
+  why_it_matters: It enables developers in highly regulated industries to build and deploy autonomous agents and models while maintaining total data sovereignty.
+  mental_damage: It's 'local AI' for people who have to clear their model weights with a compliance committee first.
   tags:
     - enterprise-ai
-    - agent-platform
-    - on-premises
-    - genai
+    - local-ai
     - mlops
+    - generative-ai
   confidence: high
 curation:
-  status: excluded
-  reason: The product is a broad enterprise AI platform with agentic workflows, but its primary identity is not developer-tooling focused (e.g., coding agents, IDEs, or frameworks) and leans heavily into enterprise SaaS, vertical agents, and MLOps rather than practical developer workflows.
+  status: included
+  reason: The platform's primary identity is centered on providing a secure, self-hosted stack for generative and predictive AI in private environments.
   evidence:
-    - Described as an 'end-to-end GenAI platform' for air-gapped/on-prem deployments (source-list context)
-    - Core offerings include vertical agents, MLOps, and enterprise app integrations (scraped site context)
-    - No direct developer-tooling angle (e.g., coding agents, IDEs, or frameworks) in its primary pitch
+    - Maintains a core focus on air-gapped, on-premises, and VPC deployments for sovereign AI
+    - Offers developer-facing tools like H2O LLM Studio for private model fine-tuning
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Fine-tuning & Training
 lifecycle:
   status: incubating
   reason: null
@@ -71,25 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:29.387Z"
+    updated_at: "2026-09-28T04:20:43.348Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:6de49db87b389be74d5fe0d5e445c82b8096c07df41320ed7f6161a84d95d602
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:686a8a081eb70d77b48269ac90c81ef52164dc8c6e5ca8ad228b208b6e4604c8
+      proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: The product is a broad enterprise AI platform with agentic workflows, but its primary identity is not developer-tooling focused (e.g., coding agents, IDEs, or frameworks) and leans heavily into enterprise SaaS, vertical agents, and MLOps rather than practical developer workflows.
+      decision_reason: The platform's primary identity is centered on providing a secure, self-hosted stack for generative and predictive AI in private environments.
       decision_evidence:
-        - Described as an 'end-to-end GenAI platform' for air-gapped/on-prem deployments (source-list context)
-        - Core offerings include vertical agents, MLOps, and enterprise app integrations (scraped site context)
-        - No direct developer-tooling angle (e.g., coding agents, IDEs, or frameworks) in its primary pitch
-      category_candidates: []
-      contrastive_reason: null
+        - Maintains a core focus on air-gapped, on-premises, and VPC deployments for sovereign AI
+        - Offers developer-facing tools like H2O LLM Studio for private model fine-tuning
+      category_candidates:
+        - local-ai
+        - ai-frameworks
+      contrastive_reason: Choose local-ai over ai-frameworks because the product's defining value proposition is its capability for secure, self-hosted, and air-gapped execution rather than just being a programmable library.
       review_reason: null
       review_resume_lifecycle: null

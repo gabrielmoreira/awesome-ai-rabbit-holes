@@ -36,23 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered web utility for formatting, validating, and repairing broken JSON strings using Claude.
-  why_it_matters: It automates the correction of common JSON syntax errors, such as missing commas or unquoted keys, through a simple web interface.
-  mental_damage: Because we have officially reached the point where a single missing comma is a cognitive hurdle too high to clear without LLM intervention.
+  summary: JSONFix is a free online tool that formats, validates, minifies, and uses Claude to automatically repair broken JSON.
+  why_it_matters: Developers can instantly fix malformed JSON from APIs, configs, or LLM outputs without writing custom parsers or regexes.
+  mental_damage: Another bandaid for the eternal JSON hell, where even AIs need therapy to handle commas and quotes.
   tags:
     - json
-    - utility
-    - ai-fixer
-  confidence: high
+    - formatter
+    - ai-fix
+    - developer-tool
+    - online-utility
+  confidence: medium
 curation:
-  status: excluded
-  reason: The tool is a single-purpose web utility for a micro-task, which does not meet the criteria for the highly specialized categories like Coding Agents or Extensions.
+  status: included
+  reason: JSONFix is a standalone utility that improves JSON reliability in development workflows, acting as a helper tool rather than a coding agent or app builder.
   evidence:
-    - Standalone web-based JSON formatting and repair tool
-    - Lacks the repo-wide, IDE-integrated, or orchestration-focused scope required by the catalog categories
+    - Primary function is formatting, validating, minifying, and AI-fixing broken JSON via Claude
+    - Appears in awesome-ai-coding-tools under Developer Productivity Tools as a generated Create Next App page
+    - No evidence of being a coding agent, framework, or platform — it is a single-purpose online tool
 placement:
-  primary_category: null
-  section: null
+  primary_category: extensions-and-addons
+  section: Testing & Code Quality
 lifecycle:
   status: incubating
   reason: null
@@ -68,24 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:12:34.724Z"
+    updated_at: "2026-09-28T04:52:41.943Z"
     cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:df281a6b13047531538d8d1cf0e2feaf0b0c43449947c3f4db1160c554622691
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:22cde70c4a2e96e3af590e3d7cb3a4956794e92eda27fb097068dcab558297e9
+      proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: The tool is a single-purpose web utility for a micro-task, which does not meet the criteria for the highly specialized categories like Coding Agents or Extensions.
+      decision_reason: JSONFix is a standalone utility that improves JSON reliability in development workflows, acting as a helper tool rather than a coding agent or app builder.
       decision_evidence:
-        - Standalone web-based JSON formatting and repair tool
-        - Lacks the repo-wide, IDE-integrated, or orchestration-focused scope required by the catalog categories
-      category_candidates: []
-      contrastive_reason: null
+        - Primary function is formatting, validating, minifying, and AI-fixing broken JSON via Claude
+        - Appears in awesome-ai-coding-tools under Developer Productivity Tools as a generated Create Next App page
+        - No evidence of being a coding agent, framework, or platform — it is a single-purpose online tool
+      category_candidates:
+        - extensions-and-addons
+        - app-builders
+      contrastive_reason: Choose extensions-and-addons over app-builders because JSONFix does not generate apps from prompts but instead fixes JSON as a workflow utility.
       review_reason: null
       review_resume_lifecycle: null

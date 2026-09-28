@@ -37,20 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Matt Brockman (@badphilosopher) is an individual's X (Twitter) account sharing commentary on AI, software, and infrastructure.
-  why_it_matters: Occasionally surfaces relevant infrastructure discussions (e.g., E2B sandboxes) that developers might find useful for context.
-  mental_damage: Following yet another AI takes account hoping for signal, but mostly getting vibes and retweets of sandbox drama.
-  tags:
-    - social-media
-    - ai-commentary
+  summary: Matt Brockman (@badphilosopher) is an individual X (Twitter) account sharing personal commentary and retweets about AI infrastructure, not a developer tool or product.
+  why_it_matters: It does not provide any developer-facing functionality, workflow improvement, or tooling relevant to software development.
+  mental_damage: Following another AI-adjacent personality account in hopes of catching tooltips through osmosis is the developer equivalent of checking LinkedIn for gossip.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: It is a personal social media account, not a developer-facing tool, product, or navigational resource for AI-assisted software development.
+  reason: The account is a personal social media profile with no identifiable product, tool, or service offering; it is excluded because it lacks developer tooling identity or utility.
   evidence:
-    - "Source is an X (Twitter) profile: @badphilosopher"
-    - Content consists of personal commentary and retweets about AI infrastructure (e.g., E2B, Firecracker)
-    - No evidence of a reusable tool, agent, framework, or developer workflow product
+    - URL is a personal X/Twitter profile (https://x.com/badphilosopher)
+    - Scraped site context shows only personal posts and retweets, no tool, product, or service description
+    - Source-list context cites 'playing in the sand' as description, indicating informal personal use, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -69,24 +67,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:28:01.174Z"
+    updated_at: "2026-09-28T04:55:07.115Z"
     cause: null
-    attempts: 6
+    attempts: 7
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:2faae6bb13a9112eb4778ff697adabac39f34aef56b30b4d3f87662fd01ca5ab
+      category_rules_version: c367d6101132
+      input_hash: sha256:c499518f57ef19f10bdbfde950b8d77119589fc184fe40e6a82676657c59171d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a personal social media account, not a developer-facing tool, product, or navigational resource for AI-assisted software development.
+      decision_reason: The account is a personal social media profile with no identifiable product, tool, or service offering; it is excluded because it lacks developer tooling identity or utility.
       decision_evidence:
-        - "Source is an X (Twitter) profile: @badphilosopher"
-        - Content consists of personal commentary and retweets about AI infrastructure (e.g., E2B, Firecracker)
-        - No evidence of a reusable tool, agent, framework, or developer workflow product
+        - URL is a personal X/Twitter profile (https://x.com/badphilosopher)
+        - Scraped site context shows only personal posts and retweets, no tool, product, or service description
+        - Source-list context cites 'playing in the sand' as description, indicating informal personal use, not developer tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null

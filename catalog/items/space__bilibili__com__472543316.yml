@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili creator profile sharing technical tutorials and updates on LLMs, agents, and MCP.
-  why_it_matters: Provides educational video content and technical commentary on emerging AI technologies like agentic workflows and MCP.
-  mental_damage: Because one more video tutorial is exactly what you need to achieve total paralysis by analysis.
+  summary: A Bilibili personal space sharing AI-related videos, audio, articles, and updates from the creator 'AI老兵文哲'.
+  why_it_matters: It serves as a content feed for developers interested in AI tutorials and discussions in Chinese.
+  mental_damage: Another personality-driven AI content hub where signal gets lost in the noise of endless uploads.
   tags:
-    - tutorials
-    - llm
-    - agents
-    - mcp
-    - video-content
+    - content
+    - bilibili
+    - ai-news
   confidence: high
 curation:
   status: excluded
-  reason: The resource is a personal media profile/tutorial channel rather than a standalone developer tool or directory.
+  reason: The project is a personal content channel, not a developer tool, agent, framework, or infrastructure relevant to software development workflows.
   evidence:
-    - Source-list context classifies it as a 'Tutorial' (教程)
-    - Scraped site context describes it as a personal space for sharing videos and articles
-    - Content is media-based (video/audio) rather than a functional software tool
+    - Source-list context describes it as a Bilibili personal space offering videos, audio, articles, and updates from 'AI老兵文哲'.
+    - No evidence of being a tool, agent, SDK, or platform — it is a content feed, not a usable developer product.
+    - Appears in awesome-LLM-resources under '教程 Tutorial' as a resource list entry, not as a tool itself.
 placement:
   primary_category: null
   section: null
@@ -71,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:12.092Z"
+    updated_at: "2026-09-28T04:38:21.491Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:25f1dcf7810d2852273e1d09eb979f8e5a2fbb90a0ad464745956f981c83432f
+      category_rules_version: c367d6101132
+      input_hash: sha256:a7dec26cdf63b707b15f559cb4239671b88c53531b1c82c3fd107f8c516da10e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The resource is a personal media profile/tutorial channel rather than a standalone developer tool or directory.
+      decision_reason: The project is a personal content channel, not a developer tool, agent, framework, or infrastructure relevant to software development workflows.
       decision_evidence:
-        - Source-list context classifies it as a 'Tutorial' (教程)
-        - Scraped site context describes it as a personal space for sharing videos and articles
-        - Content is media-based (video/audio) rather than a functional software tool
+        - Source-list context describes it as a Bilibili personal space offering videos, audio, articles, and updates from 'AI老兵文哲'.
+        - No evidence of being a tool, agent, SDK, or platform — it is a content feed, not a usable developer product.
+        - Appears in awesome-LLM-resources under '教程 Tutorial' as a resource list entry, not as a tool itself.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

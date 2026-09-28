@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ellipsis__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Ellipsis
         anchor_text: Ellipsis
         extracted_url: https://ellipsis.dev
-        surrounding_text: '## [Ellipsis](https://ellipsis.dev/?utm_source=awesome-ai-agents)'
+        surrounding_text: "## [Ellipsis](https://ellipsis.dev/?utm_source=awesome-ai-agents)"
         confidence: high
     - id: discovery__www__ellipsis__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Ellipsis
         anchor_text: Ellipsis
         extracted_url: https://ellipsis.dev
-        surrounding_text: '## [Ellipsis](https://ellipsis.dev/?utm_source=awesome-ai-agents)'
+        surrounding_text: "## [Ellipsis](https://ellipsis.dev/?utm_source=awesome-ai-agents)"
         confidence: high
 metadata:
   github:
@@ -51,72 +51,58 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A cloud platform for managing and running sandboxed coding agents via YAML configuration files.
-  why_it_matters: >-
-    It provides the necessary infrastructure—sandboxing, permissions, and budget controls—to deploy autonomous agents
-    into professional engineering workflows safely.
-  mental_damage: Now you can finally delegate your technical debt to a cloud-hosted agent that has its own budget to blow.
+  summary: Ellipsis is a managed cloud platform that runs Claude Code agents defined by YAML config files to automate coding tasks like feature building, bug fixing, and production investigations.
+  why_it_matters: It lets developers delegate repeatable coding work to reliable cloud-based agents without managing local environments, permissions, or budgets.
+  mental_damage: Finally, a way to outsource your guilt about not writing tests to a YAML-defined agent in the cloud.
   tags:
-    - coding-agents
-    - infrastructure
-    - sandboxing
-    - governance
-    - automation
-  confidence: high
+    - ai-agents
+    - cloud-automation
+    - claude-code
+  confidence: medium
 curation:
   status: included
-  reason: >-
-    Ellipsis functions as a primary coding assistant that reviews code, generates fixes, and answers questions directly
-    within the repo PR workflow, fitting the 'Review, Testing & Repair Agents' section of coding-agents.
+  reason: Ellipsis functions as a primary coding assistant that reviews code, generates fixes, and answers questions directly within the repo PR workflow, fitting the 'Review, Testing & Repair Agents' section of coding-agents.
   evidence:
-    - >-
-      Listed in awesome-ai-agents as 'Automated code reviews and bug fixes' with capability to 'generate working, tested
-      code'.
+    - Listed in awesome-ai-agents as 'Automated code reviews and bug fixes' with capability to 'generate working, tested code'.
     - Landing page states it provides 'AI Code Reviews & Bug Fixes' and 'Async Code Generation' via GitHub comments.
-    - >-
-      Claims installation in 67,000+ GitHub repositories with capabilities including smart reviews and Q&A via
-      @ellipsis-dev mentions.
+    - Claims installation in 67,000+ GitHub repositories with capabilities including smart reviews and Q&A via @ellipsis-dev mentions.
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
+  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-08-27T06:10:40.777Z'
+    updated_at: "2026-09-28T04:52:21.955Z"
     cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b3ee6e47fa0f7bdb22e1c648cd15f6720625f52c1bb768be53fb8b70736915b4
-      proposed_primary_category: agent-orchestration
+      category_rules_version: c367d6101132
+      input_hash: sha256:f3c1d59580460769f73603d99af284a2ff0954a6e94a017ce1ad831647737546
+      proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: >-
-        It acts as a managed control plane and runtime environment for deploying and governing multiple coding agents
-        rather than being a single primary coding assistant.
+      decision_reason: Ellipsis functions as a remote, managed Claude Code agent that performs autonomous coding tasks via API-triggered sessions, making it a coding agent rather than an extension or orchestrator.
       decision_evidence:
-        - Describes itself as a 'Cloud platform for coding agents'
-        - Provides sandboxed execution, scoped permissions, and budget caps
-        - Enables 'Agents as code' via YAML configuration
+        - Defined agents run coding tasks like summarizing PRs, posting Slack digests, and investigating production issues using Claude Code in isolated cloud environments.
+        - Users invoke agents via API or schedules to execute coding workflows (e.g., running tests, building features) with full terminal and file access.
+        - The platform positions itself as 'Your agent. Our infrastructure' — the agent does the coding, Ellipsis provides the sandbox.
       category_candidates:
-        - agent-orchestration
         - coding-agents
-      contrastive_reason: >-
-        Choose agent-orchestration over coding-agents because it functions as the managed infrastructure and control
-        plane for running agents rather than acting as the primary assistant itself.
-      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because Ellipsis runs individual agents to perform coding tasks, rather than coordinating multiple agents or managing agent workflows as a platform.
+      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.965Z'
+    updated_at: "2026-07-21T15:20:21.965Z"
     cause: null
     next_retry_at: null
   stars:

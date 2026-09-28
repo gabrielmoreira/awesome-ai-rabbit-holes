@@ -36,25 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Hugging Face is a platform for the machine learning community to collaborate on models, datasets, and applications.
-  why_it_matters: It provides developers with a centralized hub to discover, share, and deploy AI models, datasets, and applications, accelerating ML workflows.
-  mental_damage: The one place where you can spend hours browsing models you’ll never actually use.
+  summary: Hugging Face is a platform for hosting, discovering, and collaborating on machine learning models, datasets, and applications.
+  why_it_matters: It provides developers with centralized access to pre-trained models, datasets, and demo apps (Spaces), accelerating ML experimentation and deployment.
+  mental_damage: Endless model cards and leaderboards create the illusion of progress while you're just scrolling through another fine-tuned Llama variant nobody asked for.
   tags:
     - model-hub
     - ml-platform
-    - ai-community
-    - dataset-repository
-  confidence: high
+    - developer-tools
+  confidence: medium
 curation:
-  status: excluded
-  reason: Hugging Face is a broad ML community platform and model hub, not a developer-tooling product focused on coding agents, workflows, or developer-specific integrations.
+  status: included
+  reason: While Hugging Face hosts models and tools, its inclusion in awesome-LLM-resources as a community resource and its role as a curated ecosystem hub aligns best with the awesome-awesomes category for developer-facing discovery and navigation.
   evidence:
-    - Primary identity is a community platform for models, datasets, and applications
-    - No direct focus on developer-tooling workflows like coding agents, IDEs, or app builders
-    - Source-list context places it under 'Community', not developer tools
+    - Listed in awesome-LLM-resources under the '社区 Community' section as a journey to advance and democratize AI through open source and open science.
+    - Scraped site context identifies it as 'The AI community building the future' and a platform for collaborating on models, datasets, and applications.
+    - Hosts model repos, datasets, Spaces (apps), and documentation, functioning as a central hub for ML resource discovery.
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Awesome Lists & Directories
 lifecycle:
   status: incubating
   reason: null
@@ -70,25 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:27.320Z"
+    updated_at: "2026-09-28T04:29:35.306Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d65f5cba9574494e060c984c1732ed74ceb8109c483af94cf8f38a54ebf8c036
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:9f25045f1639d08ba6ad5114ad3065b5c3439e7465c15462627a61306f69ba79
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: Hugging Face is a broad ML community platform and model hub, not a developer-tooling product focused on coding agents, workflows, or developer-specific integrations.
+      decision_reason: While Hugging Face hosts models and tools, its inclusion in awesome-LLM-resources as a community resource and its role as a curated ecosystem hub aligns best with the awesome-awesomes category for developer-facing discovery and navigation.
       decision_evidence:
-        - Primary identity is a community platform for models, datasets, and applications
-        - No direct focus on developer-tooling workflows like coding agents, IDEs, or app builders
-        - Source-list context places it under 'Community', not developer tools
-      category_candidates: []
-      contrastive_reason: null
+        - Listed in awesome-LLM-resources under the '社区 Community' section as a journey to advance and democratize AI through open source and open science.
+        - Scraped site context identifies it as 'The AI community building the future' and a platform for collaborating on models, datasets, and applications.
+        - Hosts model repos, datasets, Spaces (apps), and documentation, functioning as a central hub for ML resource discovery.
+      category_candidates:
+        - awesome-awesomes
+        - mcp
+      contrastive_reason: Choose awesome-awesomes over mcp because Hugging Face's primary identity is as a community and resource hub for ML discovery, not as an MCP server, client, or infrastructure whose core purpose is enabling the Model Context Protocol.
       review_reason: null
       review_resume_lifecycle: null

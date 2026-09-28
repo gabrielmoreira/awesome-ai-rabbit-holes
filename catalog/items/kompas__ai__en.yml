@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered personal knowledge management tool designed to capture, connect, and grow ideas through a knowledge graph.
-  why_it_matters: While useful for researchers and writers, it lacks a direct application to software development or engineering workflows.
-  mental_damage: One more application to manage the thoughts you'll eventually forget because you were too busy debugging.
+  summary: Kompas is a desktop app for capturing, connecting, and developing personal ideas into structured writing using AI as a thinking partner.
+  why_it_matters: It helps developers turn fragmented thoughts, notes, and conversations into coherent output by surfacing relevant past work during writing sessions.
+  mental_damage: Another tool promising to finally make your scattered ideas useful — until you realize you now have to manage yet another knowledge graph.
   tags:
-    - pkm
-    - knowledge-graph
-    - local-ai
-    - writing-tools
+    - knowledge-management
+    - writing-assistant
+    - ai-augmentation
   confidence: high
 curation:
   status: excluded
-  reason: The product is a personal knowledge management (PKM) tool for writers and researchers, lacking a specific focus on software development, coding, or engineering workflows.
+  reason: Kompas is a personal knowledge and writing tool focused on idea development and reflection, not on software development workflows, coding tasks, or developer-facing tooling.
   evidence:
-    - Target audience explicitly includes essayists, researchers, and founders.
-    - Core functionality focuses on note-taking, session-based thinking, and writing rather than code manipulation or dev-ops.
+    - Marketed for essayists, researchers, founders, and Obsidian/Logseq users to grow ideas and reveal connections between concepts
+    - Core workflow centers on capturing sessions, connecting past notes, and writing from personal thought graphs — not code editing, generation, or agent-assisted development
+    - Describes itself as 'a place where your ideas grow' and 'a compass for thought', with no mention of coding, software development, or developer tooling
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:18:21.171Z"
+    updated_at: "2026-09-28T04:53:56.066Z"
     cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3cbb5cc6e1225f353c92c0467d8333604d10b6be3476dbae5c57661155b64fe3
+      category_rules_version: c367d6101132
+      input_hash: sha256:a2ab815aa4252e91708e671b6d1c53a7a76e0c9f9a865db603a032f949791b44
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a personal knowledge management (PKM) tool for writers and researchers, lacking a specific focus on software development, coding, or engineering workflows.
+      decision_reason: Kompas is a personal knowledge and writing tool focused on idea development and reflection, not on software development workflows, coding tasks, or developer-facing tooling.
       decision_evidence:
-        - Target audience explicitly includes essayists, researchers, and founders.
-        - Core functionality focuses on note-taking, session-based thinking, and writing rather than code manipulation or dev-ops.
+        - Marketed for essayists, researchers, founders, and Obsidian/Logseq users to grow ideas and reveal connections between concepts
+        - Core workflow centers on capturing sessions, connecting past notes, and writing from personal thought graphs — not code editing, generation, or agent-assisted development
+        - Describes itself as 'a place where your ideas grow' and 'a compass for thought', with no mention of coding, software development, or developer tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132

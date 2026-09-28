@@ -51,22 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Qodana is a static code analysis engine that brings JetBrains IDE inspections to CI pipelines.
-  why_it_matters: It helps developers enforce code quality standards automatically in their CI workflows without manual IDE checks.
-  mental_damage: Now your CI pipeline can judge your code with the same passive-aggressive rigor as your JetBrains IDE.
+  summary: Qodana is a static code analysis tool that brings JetBrains IDE inspections to CI pipelines for code quality improvement.
+  why_it_matters: It helps developers catch bugs, vulnerabilities, and code smells early by enforcing consistent code quality standards in automated workflows.
+  mental_damage: Another layer of CI noise to ignore when the build fails because someone used 'var' instead of 'let' in a JavaScript file.
   tags:
     - static-analysis
-    - ci
     - code-quality
-    - jetbrains
+    - ci-integration
   confidence: high
 curation:
   status: excluded
-  reason: Qodana is a static analysis tool for CI pipelines, not an AI-powered coding assistant, framework, or developer workflow tool.
+  reason: Qodana is a traditional static analysis tool without AI-powered features, so it does not meet the catalog's requirement for practical AI tools or agents relevant to software developers.
   evidence:
-    - Described as a static code analysis engine for CI pipelines
-    - No AI/ML or agentic capabilities mentioned in its core pitch
-    - Source-list context places it under 'Code Review and Refactoring' but not as an AI tool
+    - "Repo description: none (no GitHub repo provided)"
+    - "Scraped site context: Qodana is a static code analysis engine that helps improve code quality by bringing inspections from JetBrains IDEs to your CI pipeline. Try it now for free!"
+    - "Source-list context: listed in awesome-ai-coding-tools under Code Review and Refactoring, but the description mentions only static analysis, not AI"
 placement:
   primary_category: null
   section: null
@@ -76,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:18.043Z"
+    updated_at: "2026-09-28T04:42:22.022Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:c6bcf64b467d630884d0dbab4def8be4dc0eb95bf6837d7dd13d5e2a88fa974f
+      category_rules_version: c367d6101132
+      input_hash: sha256:1d8dca39ac24a9fd27722cb71e9eda34ef55e018efe4dc940fdf598947208dcd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Qodana is a static analysis tool for CI pipelines, not an AI-powered coding assistant, framework, or developer workflow tool.
+      decision_reason: Qodana is a traditional static analysis tool without AI-powered features, so it does not meet the catalog's requirement for practical AI tools or agents relevant to software developers.
       decision_evidence:
-        - Described as a static code analysis engine for CI pipelines
-        - No AI/ML or agentic capabilities mentioned in its core pitch
-        - Source-list context places it under 'Code Review and Refactoring' but not as an AI tool
+        - "Repo description: none (no GitHub repo provided)"
+        - "Scraped site context: Qodana is a static code analysis engine that helps improve code quality by bringing inspections from JetBrains IDEs to your CI pipeline. Try it now for free!"
+        - "Source-list context: listed in awesome-ai-coding-tools under Code Review and Refactoring, but the description mentions only static analysis, not AI"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

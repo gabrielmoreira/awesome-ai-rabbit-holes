@@ -36,20 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An online book titled 'Understanding Deep Learning' providing educational content on deep learning concepts.
-  why_it_matters: It offers developers a structured resource to deepen their understanding of deep learning principles.
-  mental_damage: Another book to add to the pile of things you’ll never finish reading but will feel guilty about not reading.
+  summary: An online textbook titled Understanding Deep Learning hosted at udlbook.github.io/udlbook.
+  why_it_matters: Provides structured educational content on deep learning concepts for developers seeking foundational knowledge.
+  mental_damage: Another PDF-in-disguise promising enlightenment while you procrastinate on actually shipping code.
   tags:
-    - education
-    - deep-learning
     - book
+    - deep-learning
+    - education
   confidence: high
 curation:
   status: excluded
-  reason: The project is an educational book, not a practical AI tool, workflow, or developer-facing infrastructure.
+  reason: It is an educational resource (a book) without developer tooling, agent, workflow, or infrastructure functionality — outside the catalog's scope.
   evidence:
-    - Source-list context identifies it as a book under the '书籍 Book' section
-    - Scraped site context confirms it is titled 'Understanding Deep Learning' with no tooling or code-first identity
+    - Scraped site context shows title 'Understanding Deep Learning' and no tool-like functionality.
+    - Source-list context places it in 'awesome-LLM-resources' under '书籍 Book' as a linked page.
+    - No repository, CLI, SDK, agent, or runtime behavior is described in any input.
 placement:
   primary_category: null
   section: null
@@ -68,23 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:24.816Z"
+    updated_at: "2026-09-28T04:48:21.891Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:90dc15e996843935bbd71d8eb80040db6288b6939e1c1714da674c39ed0b1f63
+      category_rules_version: c367d6101132
+      input_hash: sha256:bbd3f7e684e0df0784d9439551be00f476256b02cb1308f28c0b6ab533114e17
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is an educational book, not a practical AI tool, workflow, or developer-facing infrastructure.
+      decision_reason: It is an educational resource (a book) without developer tooling, agent, workflow, or infrastructure functionality — outside the catalog's scope.
       decision_evidence:
-        - Source-list context identifies it as a book under the '书籍 Book' section
-        - Scraped site context confirms it is titled 'Understanding Deep Learning' with no tooling or code-first identity
+        - Scraped site context shows title 'Understanding Deep Learning' and no tool-like functionality.
+        - Source-list context places it in 'awesome-LLM-resources' under '书籍 Book' as a linked page.
+        - No repository, CLI, SDK, agent, or runtime behavior is described in any input.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

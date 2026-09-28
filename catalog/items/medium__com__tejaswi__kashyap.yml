@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Medium user profile and blog for Tejaswi Kashyap, cited in aggregate LLM resource lists as a source of tutorials.
-  why_it_matters: It offers educational reading for developers exploring LLMs, but it is a publication page rather than a reusable tool, framework, or platform.
-  mental_damage: Treating a personal Medium profile as developer infrastructure because an awesome list filed it under 'tutorial' is exactly how tooling catalogs turn into digital hoarding.
+  summary: A Medium blog post by @tejaswi_kashyap containing LLM resources and tutorials for developers.
+  why_it_matters: Aggregates LLM learning materials across multiple AI domains, helping developers find educational content.
+  mental_damage: Yet another link farm pretending to be a curated resource in an ocean of link farms.
   tags:
-    - medium
-    - blog
+    - llm
     - tutorial
-    - llm-resources
+    - resources
   confidence: high
 curation:
   status: excluded
-  reason: This is a personal Medium profile with no standalone product identity; it is auxiliary educational content rather than a developer tool, directory, or operated publication feed, so it falls outside the catalog's scope.
+  reason: The source is a Medium blog post, not a standalone tool, product, or developer-facing infrastructure; it is educational content lacking operational utility for developers.
   evidence:
-    - No repo description, README, stars, or topical tags exist; the URL is a bare Medium user profile with no developer-tooling surface.
-    - Source-list context places it in the '教程 Tutorial' section of a general LLM resources list, indicating one-off articles rather than a tool or framework.
-    - None of the category use_when criteria are satisfied because there is no evidence of a product, agent, IDE, extension, orchestration layer, or curated media feed.
+    - Source is a Medium article by @tejaswi_kashyap, not a GitHub repo or tool
+    - Listed in awesome-LLM-resources under '教程 Tutorial' as educational content
+    - No indicators of being a deployable tool, agent, framework, or infrastructure
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-23T05:11:50.448Z"
+    updated_at: "2026-09-28T04:51:57.888Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:47ae613ee3c7bf8924b57584a21a55a1d5bd703623ffbe4a1e32a7e17738a097
+      category_rules_version: c367d6101132
+      input_hash: sha256:e0ed545093b241e701d286aa522b13d032fc71c14f94445eb7b5209e6d70f3ca
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a personal Medium profile with no standalone product identity; it is auxiliary educational content rather than a developer tool, directory, or operated publication feed, so it falls outside the catalog's scope.
+      decision_reason: The source is a Medium blog post, not a standalone tool, product, or developer-facing infrastructure; it is educational content lacking operational utility for developers.
       decision_evidence:
-        - No repo description, README, stars, or topical tags exist; the URL is a bare Medium user profile with no developer-tooling surface.
-        - Source-list context places it in the '教程 Tutorial' section of a general LLM resources list, indicating one-off articles rather than a tool or framework.
-        - None of the category use_when criteria are satisfied because there is no evidence of a product, agent, IDE, extension, orchestration layer, or curated media feed.
+        - Source is a Medium article by @tejaswi_kashyap, not a GitHub repo or tool
+        - Listed in awesome-LLM-resources under '教程 Tutorial' as educational content
+        - No indicators of being a deployable tool, agent, framework, or infrastructure
       category_candidates: []
       contrastive_reason: null
       review_reason: null

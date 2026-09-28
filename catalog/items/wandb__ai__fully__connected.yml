@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A community and publication hub by Weights & Biases where ML practitioners share news, papers, findings, and reports.
-  why_it_matters: It helps developers stay updated on the latest machine learning research and practical insights from the community.
-  mental_damage: Another feed to distract you from actually shipping code while convincing yourself it's professional development.
+  summary: Fully Connected is a Weights & Biases community hub for machine learning practitioners to discover and share news, papers, findings, and reports.
+  why_it_matters: It helps ML developers stay updated on cutting-edge research and industry developments through a curated community feed.
+  mental_damage: Another feed to scroll through while pretending you're keeping up with the latest transformer variant that will never be replicated.
   tags:
-    - ml-community
-    - publication
-    - news-feed
+    - community
+    - news
+    - ml-resources
   confidence: high
 curation:
   status: excluded
-  reason: This is a publication/feed focused on ML news and research, not a developer tool, framework, or workflow product.
+  reason: Fully Connected is a community resource and news hub, not a developer-facing AI tool, agent, workflow, or infrastructure product; it lacks any coding, building, or automation functionality relevant to software developers' daily workflows.
   evidence:
-    - Described as a community for sharing ML news, papers, and findings
-    - Source-list context places it under 'Tutorial' in a general LLM resources list
-    - No indication of developer-tooling functionality or workflow integration
+    - Scraped site context describes it as 'Where leading machine learning practitioners discover and share news, papers, findings and reports. An ML community from Weights & Biases.'
+    - Source-list context shows it is curated in awesome-LLM-resources under '教程 Tutorial' as a resource summary, not a tool.
+    - No evidence of coding assistance, app building, agent orchestration, or any developer tooling functionality in the provided inputs.
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:55.200Z"
+    updated_at: "2026-09-28T04:49:17.151Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d6ecd08d54f5d70a8cf5f07ae1907ebe5da0ac44ea2eed7b7ef8614f8ce772e3
+      category_rules_version: c367d6101132
+      input_hash: sha256:50653a15d8254f4932ac725d74aefcc78ade4896ee585110c88830ae3e202909
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a publication/feed focused on ML news and research, not a developer tool, framework, or workflow product.
+      decision_reason: Fully Connected is a community resource and news hub, not a developer-facing AI tool, agent, workflow, or infrastructure product; it lacks any coding, building, or automation functionality relevant to software developers' daily workflows.
       decision_evidence:
-        - Described as a community for sharing ML news, papers, and findings
-        - Source-list context places it under 'Tutorial' in a general LLM resources list
-        - No indication of developer-tooling functionality or workflow integration
+        - Scraped site context describes it as 'Where leading machine learning practitioners discover and share news, papers, findings and reports. An ML community from Weights & Biases.'
+        - Source-list context shows it is curated in awesome-LLM-resources under '教程 Tutorial' as a resource summary, not a tool.
+        - No evidence of coding assistance, app building, agent orchestration, or any developer tooling functionality in the provided inputs.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

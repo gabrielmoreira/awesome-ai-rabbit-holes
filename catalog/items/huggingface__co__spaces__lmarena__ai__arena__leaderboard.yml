@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Hugging Face Space that displays the LMArena leaderboard in a full-screen iframe view.
-  why_it_matters: Provides a convenient, no-input-required way to browse LLM rankings for developers tracking model performance.
-  mental_damage: Because nothing says 'cutting-edge AI' like an iframe wrapping a leaderboard.
+  summary: Arena Leaderboard is a Hugging Face Space that displays the current LMArena leaderboard showing how language models rank against each other.
+  why_it_matters: Provides developers a quick, no-input way to compare model performance for informed selection in AI-powered development workflows.
+  mental_damage: "Watching model rankings shift daily fuels the illusion that picking the #1 model today will somehow future-proof your code against tomorrow’s benchmark volatility."
   tags:
     - leaderboard
-    - llm-comparison
-    - huggingface-space
-  confidence: high
+    - model-comparison
+  confidence: medium
 curation:
-  status: excluded
-  reason: This is a passive leaderboard viewer, not a developer tool, framework, or workflow component.
+  status: included
+  reason: The tool’s core function is displaying a live leaderboard of model performance, which aligns with evaluating and comparing LLMs—a key aspect of the evals category, even though it lacks interactive scoring or benchmark running.
   evidence:
-    - The Space loads the LMArena leaderboard in an iframe with no interactive input
-    - Source-list context places it under 'LLM Leaderboard' in a local AI tools directory, not as a developer tool
+    - "Scraped site context: 'This app displays the current LMArena leaderboard, showing how different language models rank against each other.'"
+    - "Source-list context: listed in awesome-local-ai under 'LLM Leaderboard' with description matching the leaderboard view."
+    - No evidence of agent behavior, code generation, or workflow integration—purely a static or auto-updating ranking display.
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: incubating
   reason: null
@@ -68,24 +68,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:20.672Z"
+    updated_at: "2026-09-28T04:29:23.792Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:da447423c5250cae6ab6c392491116ba08fb320394a3d63bec0fe699278cac84
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:bd01c34b70b82a365944ac6d3f1d554f4dbee55b0e4ab6da288bb16ab4ae0e33
+      proposed_primary_category: evals
       disagreement: false
-      decision_reason: This is a passive leaderboard viewer, not a developer tool, framework, or workflow component.
+      decision_reason: The tool’s core function is displaying a live leaderboard of model performance, which aligns with evaluating and comparing LLMs—a key aspect of the evals category, even though it lacks interactive scoring or benchmark running.
       decision_evidence:
-        - The Space loads the LMArena leaderboard in an iframe with no interactive input
-        - Source-list context places it under 'LLM Leaderboard' in a local AI tools directory, not as a developer tool
-      category_candidates: []
-      contrastive_reason: null
+        - "Scraped site context: 'This app displays the current LMArena leaderboard, showing how different language models rank against each other.'"
+        - "Source-list context: listed in awesome-local-ai under 'LLM Leaderboard' with description matching the leaderboard view."
+        - No evidence of agent behavior, code generation, or workflow integration—purely a static or auto-updating ranking display.
+      category_candidates:
+        - evals
+        - awesome-awesomes
+      contrastive_reason: Choose evals over awesome-awesomes because the product is a functional benchmarking display (LMArena leaderboard) rather than a curated list or directory of tools.
       review_reason: null
       review_resume_lifecycle: null

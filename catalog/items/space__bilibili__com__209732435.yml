@@ -36,24 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Bilibili personal space for TechBeat AI community, hosting videos, articles, and updates.
-  why_it_matters: It does not matter to developers as a tooling resource; it is a media hub for AI content consumption.
-  mental_damage: Another reminder that 'AI resources' can mean anything from a CLI agent to a YouTube channel.
+  summary: TechBeat人工智能社区的个人哔哩哔哩空间，分享AI相关的视频、音频、文章和动态。
+  why_it_matters: 提供AI学习资源的聚合入口，帮助开发者通过多媒体内容了解AI前沿。
+  mental_damage: 另一个你该订阅的AI UP主，让你的收藏夹和焦虑同步增长。
   tags:
-    - media
-    - community
-    - non-developer-tooling
-  confidence: high
+    - ai-news
+    - video-content
+    - learning-resources
+  confidence: medium
 curation:
-  status: excluded
-  reason: This is a media/personal space for AI content, not a developer-facing tool, framework, or workflow product.
+  status: included
+  reason: 作为TechBeat社区UP主的个人空间，其核心价值在于内容聚合和AI学习资源的持续输出，符合awesome-awesomes中出版物与信息流的定位。
   evidence:
-    - URL points to a Bilibili personal space (space.bilibili.com)
-    - Scraped context describes it as a content hub for videos, articles, and updates
-    - Source-list context places it under 'Tutorial' in a general LLM resources list
+    - 出现在awesome-LLM-resources中的‘教程 Tutorial’部分，被描述为‘全世界最好的LLM资料总结’的来源之一
+    - 哔哩哔哩个人空间提供TechBeat社区分享的视频、音频、文章、动态、收藏等内容，每周Talk更新
+    - 强调‘想要全方位无死角学习AI，请移步www.techbeat.net’，表明其作为学习资源导向平台的定位
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Publications & Feeds
 lifecycle:
   status: incubating
   reason: null
@@ -69,25 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:47.572Z"
+    updated_at: "2026-09-28T04:37:51.895Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d8a045cde3fc92a9193bc83a9d152b2c7f1fc25af68417ceba22e90be6e71407
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:57b6b6fa88b4478b182e417710260948785b6777397f6cd8c500df4ce62d1512
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a media/personal space for AI content, not a developer-facing tool, framework, or workflow product.
+      decision_reason: 作为TechBeat社区UP主的个人空间，其核心价值在于内容聚合和AI学习资源的持续输出，符合awesome-awesomes中出版物与信息流的定位。
       decision_evidence:
-        - URL points to a Bilibili personal space (space.bilibili.com)
-        - Scraped context describes it as a content hub for videos, articles, and updates
-        - Source-list context places it under 'Tutorial' in a general LLM resources list
-      category_candidates: []
-      contrastive_reason: null
+        - 出现在awesome-LLM-resources中的‘教程 Tutorial’部分，被描述为‘全世界最好的LLM资料总结’的来源之一
+        - 哔哩哔哩个人空间提供TechBeat社区分享的视频、音频、文章、动态、收藏等内容，每周Talk更新
+        - 强调‘想要全方位无死角学习AI，请移步www.techbeat.net’，表明其作为学习资源导向平台的定位
+      category_candidates:
+        - awesome-awesomes
+        - coding-agents
+      contrastive_reason: Choose awesome-awesomes over coding-agents because it is a content publication feed focused on AI learning resources, not an agent that performs coding tasks.
       review_reason: null
       review_resume_lifecycle: null

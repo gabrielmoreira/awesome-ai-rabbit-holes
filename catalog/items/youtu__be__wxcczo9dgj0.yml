@@ -36,22 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube video demonstrating how Claude can interact with SQLite databases via the Model Context Protocol (MCP).
-  why_it_matters: Shows developers a practical integration pattern for connecting LLMs to local databases as context.
-  mental_damage: Another video proving that the future of databases is a YouTube tutorial watched at 2x speed.
-  tags:
-    - mcp
-    - sqlite
-    - demo
-    - video
+  summary: A YouTube video with no identifiable developer tooling content.
+  why_it_matters: It does not meaningfully impact developer workflows, AI-assisted coding, or related tooling.
+  mental_damage: Another reminder that not every link in the wild is a productivity breakthrough, just someone’s upload.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: This is a video demonstration, not a standalone developer tool or product.
+  reason: The input is a bare YouTube URL with no description, code, or tooling claims; it lacks any developer-facing product identity.
   evidence:
-    - URL is a YouTube video link
-    - Scraped context confirms it is a video titled 'Claude Can Use Your SQLite Database'
-    - No repo, code, or installable artifact is provided
+    - URL points to a YouTube video (https://youtu.be/wxCCzo9dGj0)
+    - Scraped site context shows generic YouTube homepage text, no project or tool description
+    - No repo description, README, or source-list context to indicate developer tooling relevance
 placement:
   primary_category: null
   section: null
@@ -70,24 +66,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:59.701Z"
+    updated_at: "2026-09-28T04:51:30.027Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1104b4b06b56bc0806b2b071039b8f29847539f0030fde2d90f44b54c9a6ce77
+      category_rules_version: c367d6101132
+      input_hash: sha256:dc01f26363e8eb6aeeb050a55b61362cab95e838098665342649de14f713f5dd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a video demonstration, not a standalone developer tool or product.
+      decision_reason: The input is a bare YouTube URL with no description, code, or tooling claims; it lacks any developer-facing product identity.
       decision_evidence:
-        - URL is a YouTube video link
-        - Scraped context confirms it is a video titled 'Claude Can Use Your SQLite Database'
-        - No repo, code, or installable artifact is provided
+        - URL points to a YouTube video (https://youtu.be/wxCCzo9dGj0)
+        - Scraped site context shows generic YouTube homepage text, no project or tool description
+        - No repo description, README, or source-list context to indicate developer tooling relevance
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -51,22 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A practical guidebook website covering LLM pitfalls in open source software development.
-  why_it_matters: Helps developers anticipate and mitigate common issues when integrating LLMs into OSS projects.
-  mental_damage: Finally, a field guide for the landmines we’ve all stepped on while trying to make AI do useful things in code.
+  summary: "Taming LLMs: A Practical Guide to LLM Pitfalls with Open Source Software is a book and website focused on LLM risks, failure modes, and mitigation strategies using open source tooling."
+  why_it_matters: It helps developers anticipate and avoid common LLM integration issues like hallucinations, prompt injection, and unsafe outputs when building AI-powered systems.
+  mental_damage: Another reminder that shipping AI features means becoming a part-time safety engineer whether you signed up for it or not.
   tags:
-    - guide
-    - llm-pitfalls
-    - oss
-    - best-practices
+    - llm
+    - safety
+    - research
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational guide/resource rather than a developer tool, framework, or workflow product.
+  reason: This is an educational resource and guide, not a developer-facing tool, agent, framework, or infrastructure that directly aids in coding, building, or operating AI systems.
   evidence:
-    - Source-list context lists it under '书籍 Book' (books) in awesome-LLM-resources
-    - URL points to a static guide website (tamingllms.com) with no tooling or code artifact
-    - No repo description, stars, or code signals indicate it is a product rather than content
+    - Source-list context shows it is curated in awesome-LLM-resources under the '书籍 Book' section as a educational resource
+    - The name and URL indicate it is a practical guide/book, not a runnable tool, SDK, agent, or platform
+    - No claims of being a coding agent, app builder, framework, or infrastructure are present in the inputs
 placement:
   primary_category: null
   section: null
@@ -76,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:36.256Z"
+    updated_at: "2026-09-28T04:46:29.473Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d820dc44dfdfdaf4c7a1dc7b99de2e3d0cb556dd046946b1d11c72c04664a854
+      category_rules_version: c367d6101132
+      input_hash: sha256:9729491133d7ce51bd349e793452d55c12b0bda73ac5c6e6f2448970377217a4
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational guide/resource rather than a developer tool, framework, or workflow product.
+      decision_reason: This is an educational resource and guide, not a developer-facing tool, agent, framework, or infrastructure that directly aids in coding, building, or operating AI systems.
       decision_evidence:
-        - Source-list context lists it under '书籍 Book' (books) in awesome-LLM-resources
-        - URL points to a static guide website (tamingllms.com) with no tooling or code artifact
-        - No repo description, stars, or code signals indicate it is a product rather than content
+        - Source-list context shows it is curated in awesome-LLM-resources under the '书籍 Book' section as a educational resource
+        - The name and URL indicate it is a practical guide/book, not a runnable tool, SDK, agent, or platform
+        - No claims of being a coding agent, app builder, framework, or infrastructure are present in the inputs
       category_candidates: []
       contrastive_reason: null
       review_reason: null

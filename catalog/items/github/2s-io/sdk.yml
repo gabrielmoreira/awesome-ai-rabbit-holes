@@ -71,9 +71,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-09-17T04:13:26.023Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-28T04:13:57.127Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for 2s-io/sdk
     next_retry_at: null
   categorize:
     status: done

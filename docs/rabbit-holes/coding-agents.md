@@ -23,7 +23,7 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `coding-agent` `terminal-native` `open-source` `multi-agent` `self-hostable`
   </details>
 
-- **[Claw Code](https://github.com/ultraworkers/claw-code)** `⭐ 194.8k` `updated ≤90d` Claw Code is a Rust-based CLI coding agent that uses Anthropic's API to read, plan, edit, and test code in a repository. <details><summary>More about</summary>
+- **[Claw Code](https://github.com/ultraworkers/claw-code)** `⭐ 194.8k` `updated ≤180d` Claw Code is a Rust-based CLI coding agent that uses Anthropic's API to read, plan, edit, and test code in a repository. <details><summary>More about</summary>
 
   It gives developers a terminal-native coding assistant that can autonomously execute coding tasks end-to-end.
 
@@ -104,7 +104,7 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `cli` `code-execution` `local-ai` `python` `terminal-agent`
   </details>
 
-- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 66.4k` `updated ≤30d` Spec-driven development (SDD) tooling for AI coding assistants that generates structured spec artifacts before code implementation. <details><summary>More about</summary>
+- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 66.4k` `updated ≤90d` Spec-driven development (SDD) tooling for AI coding assistants that generates structured spec artifacts before code implementation. <details><summary>More about</summary>
 
   Provides a predictable workflow for aligning humans and AI on requirements before writing code, reducing vague prompts and rework.
 
@@ -129,15 +129,6 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   _Now you can delegate your entire terminal session to a Rust-powered agent and wonder if you actually still know how to write a bash script._
 
   `ai-agent` `cli` `mcp` `open-source` `automation`
-  </details>
-
-- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 53.4k` `updated ≤30d` An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects. <details><summary>More about</summary>
-
-  It provides developers with guided, expert-collaborator workflows for end-to-end project development, from brainstorming to deployment, rather than just generating code.
-
-  _Finally, a framework that promises to turn your chaotic solo coding sessions into a corporate boardroom meeting with 12 imaginary colleagues._
-
-  `spec-driven-development` `agent-orchestration` `workflow-automation` `ai-collaboration` `agile`
   </details>
 
 - **[Aider](https://github.com/aider-ai/aider)** `⭐ 49k` `updated ≤180d` A terminal-based AI pair programmer that can edit code, manage git commits, and run tests. <details><summary>More about</summary>
@@ -185,7 +176,7 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `coding-agent` `ci-checks` `pr-review` `open-source` `cli`
   </details>
 
-- **[esengine/deepseek-reasonix](https://github.com/esengine/deepseek-reasonix)** `⭐ 35.2k` `updated ≤30d` Reasonix is a terminal-native AI coding agent built around DeepSeek with prefix-cache stability for long-running autonomous coding sessions. <details><summary>More about</summary>
+- **[esengine/deepseek-reasonix](https://github.com/esengine/deepseek-reasonix)** `⭐ 35.2k` `updated ≤90d` Reasonix is a terminal-native AI coding agent built around DeepSeek with prefix-cache stability for long-running autonomous coding sessions. <details><summary>More about</summary>
 
   It lets developers delegate sustained coding work to a local agent that maintains context over time without constant re-prompting.
 
@@ -311,7 +302,7 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `cli` `coding-agent` `rust` `terminal` `mcp`
   </details>
 
-- **[Devika](https://github.com/stitionai/devika)** `⭐ 19.5k` `updated ≤1y` Devika is an open-source AI software engineer designed to take high-level human instructions, plan steps, research online, and write code to achieve objectives, positioned as an alternative to Cognition AI's Devin. <details><summary>More about</summary>
+- **[Devika](https://github.com/stitionai/devika)** `⭐ 19.5k` `updated >1y` Devika is an open-source AI software engineer designed to take high-level human instructions, plan steps, research online, and write code to achieve objectives, positioned as an alternative to Cognition AI's Devin. <details><summary>More about</summary>
 
   It provides developers with a self-hosted, transparent agentic coding environment capable of handling complex tasks across multiple LLM backends including local models via Ollama.
 
@@ -905,13 +896,13 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `spec-driven-development` `ai-planning` `prompt-generation` `architecture-diagrams`
   </details>
 
-- **[Coro Code](https://github.com/blushyes/coro-code)** `⭐ 369` `updated ≤1y` Open-source CLI coding agent written in Rust, offering a terminal-native alternative to Claude Code with multi-provider LLM support. <details><summary>More about</summary>
+- **[Coro Code](https://github.com/blushyes/coro-code)** `⭐ 369` `updated ≤1y` Coro Code is an open-source CLI coding agent written in Rust that enables developers to generate, debug, and manage code via terminal-based interactions with LLMs. <details><summary>More about</summary>
 
-  Developers get a fast, local-first coding assistant with a rich TUI that can read, edit, and execute code directly in their terminal workflow.
+  It offers a performant, self-hostable alternative to proprietary coding agents like Claude Code, giving developers full control over their AI-assisted coding workflow.
 
-  _Another day, another CLI agent promising to out-Claude Claude Code while you’re still waiting for your last PR to pass CI._
+  _Another terminal-based AI coding agent promising to replace your editor—because clearly, what we needed was more ways to talk to LLMs through a blinking cursor._
 
-  `cli-agent` `rust` `terminal-ui` `code-generation` `multi-llm`
+  `cli` `coding-agent` `rust` `llm`
   </details>
 
 - **[junie](https://github.com/jetbrains/junie)** `⭐ 346` `updated ≤90d` An LLM-agnostic AI coding agent by JetBrains that operates in the terminal, IDE, or CI/CD pipelines to plan, write, and ship code. <details><summary>More about</summary>
@@ -1260,7 +1251,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `deepseek` `terminal` `self-hosted` `flask`
   </details>
 
-- **[git-parsec](https://github.com/erishforg/git-parsec)** `⭐ 15` `updated ≤30d` Git worktree lifecycle manager that automates ticket-to-PR workflows with Jira, GitHub, and GitLab integration, including stacked PRs and AI agent support. <details><summary>More about</summary>
+- **[git-parsec](https://github.com/erishforg/git-parsec)** `⭐ 15` `updated ≤90d` Git worktree lifecycle manager that automates ticket-to-PR workflows with Jira, GitHub, and GitLab integration, including stacked PRs and AI agent support. <details><summary>More about</summary>
 
   It eliminates manual Git worktree management and PR creation by automating the full development loop from ticket to merged PR, with features tailored for parallel development and AI agent workflows.
 
@@ -1404,6 +1395,24 @@ _These are new or low-traffic entries being watched._
   `code-review` `ai-detection` `quality-analysis` `dashboard`
   </details>
 
+- **["An open source Devin getting 12.29% on 100% of the SWE Bench test set vs Devin's 13.84% on 25% of the test set!"](https://x.com/danielhanchen/status/1775120334305607781)** SWE-agent is an open source autonomous coding agent that solves GitHub issues using GPT-4 with a custom agent-computer interface. <details><summary>More about</summary>
+
+  It demonstrates competitive performance on SWE-bench while being fully open source, offering a transparent alternative to closed agents like Devin.
+
+  _Another week, another open source Devin clone raising hopes that this time the agent will finally fix your stuck PR._
+
+  `coding-agent` `open-source` `swe-bench`
+  </details>
+
+- **[AgentRunner.ai](https://agentrunner.ai)** AgentRunner.ai is a platform for running and managing autonomous AI agents that perform coding tasks. <details><summary>More about</summary>
+
+  It lets developers delegate coding work to agents, reducing manual effort in writing, testing, and debugging code.
+
+  _Another promise of 'set and forget' AI coding that makes you wonder if you're outsourcing your job or just creating more surveillance._
+
+  `ai-agents` `developer-tooling` `autonomous-coding`
+  </details>
+
 - **[Aide](https://aide.dev)** Aide is an AI-native developer tools lab focused on using inference-time scaling and agentic systems to automate software engineering tasks. <details><summary>More about</summary>
 
   It attempts to solve complex engineering problems by scaling computation during inference to achieve higher accuracy on benchmarks like SWE-bench.
@@ -1467,13 +1476,13 @@ _These are new or low-traffic entries being watched._
   `ai-dev-extensions` `curated-lists`
   </details>
 
-- **[Blackbox AI](https://blackbox.ai)** Blackbox AI is a multi-agent coding platform offering an AI-native IDE, VS Code extension, CLI, and unified inference API for building and shipping software faster. <details><summary>More about</summary>
+- **[BabyDeerAGI](https://x.com/yoheinakajima/status/1666313838868992001)** BabyDeerAGI is a ~350-line Python modification of BabyAGI that adds parallel task execution, user input handling, query rewriting for web search, and result saving. <details><summary>More about</summary>
 
-  It enables developers to dispatch autonomous coding agents from terminal, IDE, or API, with parallel execution, evaluation, and encrypted inference across multiple models.
+  It demonstrates how lightweight, task-driven autonomous agents can be extended with practical capabilities like parallelism and user interaction using only GPT-3.5-turbo.
 
-  _Now you can watch 12 agents argue over your rate-limiting middleware while Chairman LLM judges them like a coding Olympics._
+  _Another reminder that reinventing the agent wheel in 350 lines of code is both impressive and slightly tragic when you realize you’ll never finish your own side project._
 
-  `multi-agent` `coding-assistant` `cli` `ide` `inference-api`
+  `autonomous-agents` `task-driven` `python` `experimental`
   </details>
 
 - **[Checksum AI](https://checksum.ai)** An AI-powered testing platform that automatically generates, executes, and self-heals Playwright end-to-end and API tests. <details><summary>More about</summary>
@@ -1485,22 +1494,22 @@ _These are new or low-traffic entries being watched._
   `e2e-testing` `playwright` `automated-qa` `self-healing-tests` `ci-cd`
   </details>
 
-- **[Code Autopilot](https://codeautopilot.com)** A GitHub-integrated AI coding assistant that automates bug fixes, feature implementation, and PR reviews within existing workflows. <details><summary>More about</summary>
+- **[Code Autopilot](https://codeautopilot.com)** Code Autopilot is a GitHub-integrated AI coding agent that solves bugs, implements features, and reviews pull requests using LLM-powered agents. <details><summary>More about</summary>
 
-  It embeds AI assistance directly into GitHub issues and PRs, reducing context-switching for developers.
+  It reduces manual coding effort by automating issue resolution and PR workflows directly within GitHub.
 
-  _Now your GitHub issues can argue with you in real-time, just like a human teammate._
+  _Another promise of an 'AI dev team' that makes you wonder if your junior devs are just getting outsourced to a prompt._
 
-  `github-integration` `pr-review` `bug-fixing` `code-generation`
+  `coding-agent` `github-integration` `ai-dev-assistant`
   </details>
 
-- **[CodeBuddy](https://codebuddy.cn)** Tencent Cloud's CodeBuddy is an AI coding assistant based on the Hunyuan code model, offering technical dialogue, code completion, code diagnosis, and optimization. <details><summary>More about</summary>
+- **[CodeBuddy](https://codebuddy.cn)** CodeBuddy is an AI coding assistant by Tencent Cloud that provides code completion, technical dialogue, and optimization using the Hunyuan code model. <details><summary>More about</summary>
 
-  It helps developers generate high-quality code, solve technical problems, and improve coding efficiency through AI-powered assistance.
+  It offers developers an integrated AI pair programmer for writing, reviewing, and improving code within their workflow.
 
-  _Another day, another cloud giant offering to finish your code while you wonder if it’ll also finish your career._
+  _Another cloud-locked AI coding buddy promising to fix your bugs while you wonder if it’s just autocomplete with extra steps._
 
-  `coding-assistant` `tencent` `hunyuan` `code-completion` `code-optimization`
+  `ai-coding-assistant` `tencent-cloud` `code-completion`
   </details>
 
 - **[Codegen](https://codegen.com/home)** An AI-powered development platform that automates workflows from ticket creation to pull request completion. <details><summary>More about</summary>
@@ -1530,22 +1539,13 @@ _These are new or low-traffic entries being watched._
   `ai-testing` `qa-automation` `mcp` `enterprise-software` `agent-validation`
   </details>
 
-- **[Copilot Workspace](https://githubnext.com/projects/copilot-workspace)** An agentic development environment designed for everyday coding tasks. <details><summary>More about</summary>
+- **[Copilot Workspace](https://githubnext.com/projects/copilot-workspace)** An agentic development environment designed to perform everyday coding tasks through a plan-driven workflow. <details><summary>More about</summary>
 
-  It offers developers a dedicated workspace where AI agents can assist with planning, writing, and managing code-related workflows.
+  It moves the developer from writing line-by-line code to reviewing and refining high-level implementation plans generated by an agent.
 
-  _Now you can argue with an agent about tabs vs. spaces in a workspace that was probably built by another agent._
+  _The experience of spending more time reviewing an agent's plan than it would have taken to just write the code yourself._
 
-  `agentic-dev` `workspace` `coding-assistant`
-  </details>
-
-- **[Cortex Code CLI](https://snowflake.com/en/product/cortex-code)** Snowflake Cortex Code CLI is a terminal-native AI coding agent for code generation and repository tasks. <details><summary>More about</summary>
-
-  It provides developers with a CLI-based assistant for planning, writing, and debugging code directly in their terminal workflow.
-
-  _Another CLI agent to argue with your existing CLI agent about which one should edit the file._
-
-  `cli` `coding-agent` `snowflake` `terminal` `closed-source`
+  `github-copilot` `agentic-dev` `plan-execute` `github-next`
   </details>
 
 - **[Cursor](https://cursor.com)** An AI-native code editor designed for building software through agentic assistance and deep codebase understanding. <details><summary>More about</summary>
@@ -1611,40 +1611,13 @@ _These are new or low-traffic entries being watched._
   `coding-agent` `autonomous-agent` `software-engineering` `cloud-agent` `refactoring`
   </details>
 
-- **[DiffBlue Cover](https://diffblue.com)** Diffblue Testing Agent is an autonomous AI tool that generates, verifies, and fixes unit tests at enterprise scale. <details><summary>More about</summary>
+- **[GitHub Copilot X](https://github.com/features/preview/copilot-x)** GitHub Copilot X is a preview of next-generation AI coding features integrating chat, voice, and pull request support into GitHub's Copilot service. <details><summary>More about</summary>
 
-  It automates comprehensive test coverage for large codebases, reducing manual developer effort in regression testing and legacy modernization.
+  It aims to deepen AI assistance across the GitHub workflow, potentially reducing context switching for developers already using Copilot.
 
-  _Finally, a way to stop babysitting your AI coding agent while it writes tests that might actually work._
+  _Another AI-powered 'X' promising to revolutionize coding while quietly increasing dependency on a single vendor's ecosystem._
 
-  `testing` `automation` `enterprise` `unit-tests` `ai-agents`
-  </details>
-
-- **[Embold](https://embold.io)** A static code analysis platform that automates the detection of technical debt, security vulnerabilities, and structural anti-patterns. <details><summary>More about</summary>
-
-  It helps teams maintain code quality and security by surfacing structural issues and smells during the development and pull request process.
-
-  _It provides a centralized dashboard to quantify exactly how much technical debt you are currently accruing._
-
-  `static-analysis` `code-quality` `technical-debt` `code-review` `security`
-  </details>
-
-- **[Endor Labs](https://endorlabs.com/ai-code-security-review)** A SaaS platform for AI-powered code security review that analyzes pull requests for application security risks. <details><summary>More about</summary>
-
-  It helps developers catch security issues in AI-generated or human-written code early in the PR workflow, reducing noise and speeding up remediation.
-
-  _Now your PRs can be haunted by not just lint errors, but also by a trio of AI agents judging your auth flows._
-
-  `security` `code-review` `ai-agents` `pull-requests`
-  </details>
-
-- **[GitHub Copilot X](https://github.com/features/preview/copilot-x)** GitHub's suite of agentic features for Copilot, integrating chat, CLI, and automated pull request workflows. <details><summary>More about</summary>
-
-  It shifts the developer experience from simple code completion to proactive assistance capable of planning, debugging, and managing repo-wide tasks.
-
-  _You will eventually find yourself spending more time reviewing the agent's pull requests than actually writing your own code._
-
-  `github` `copilot` `coding-agent` `cli` `workflow`
+  `copilot` `ai-coding-assistant` `github`
   </details>
 
 - **[Google Code Assist (Gemini)](https://codeassist.google)** Google's enterprise-grade AI coding assistance service integrated within Google Cloud and IDEs. <details><summary>More about</summary>
@@ -1656,13 +1629,13 @@ _These are new or low-traffic entries being watched._
   `google-cloud` `gemini` `enterprise-ai` `cloud-ide`
   </details>
 
-- **[Greptile](https://greptile.com)** AI-powered code review platform that analyzes pull requests with full codebase context using a swarm of agents. <details><summary>More about</summary>
+- **[Greptile](https://greptile.com)** Greptile is an AI-powered code review agent that analyzes pull requests using a graph-indexed codebase and a swarm of specialized agents to catch bugs, style issues, and logical errors. <details><summary>More about</summary>
 
-  Automates PR reviews to catch bugs, style violations, and security risks faster than human reviewers alone.
+  It reduces the cognitive load of manual PR review by providing context-aware feedback that catches multi-file bugs and improves code quality before merge.
 
-  _Finally, a tool that can nag about your code quality without the existential dread of a human reviewer._
+  _Finally, an AI reviewer that doesn’t just complain about missing semicolons but actually understands why your refactor broke the auth flow three files deep._
 
-  `code-review` `ai-agents` `pr-automation` `static-analysis` `enterprise`
+  `ai-code-review` `pull-requests` `code-quality`
   </details>
 
 - **[HackerOne Code](https://hackerone.com/product/code)** HackerOne Code is a security-focused AI coding assistant for identifying and fixing vulnerabilities in code. <details><summary>More about</summary>
@@ -1674,40 +1647,49 @@ _These are new or low-traffic entries being watched._
   `security` `code-analysis` `vulnerability-detection` `ai-assistant`
   </details>
 
-- **[Kilo Code](https://kilo.ai)** Kilo is an open source AI coding agent available in VS Code, JetBrains, CLI, and Cloud, offering access to 500+ models with zero markup and support for local models. <details><summary>More about</summary>
+- **[Julius](https://julius.ai)** Julius.ai is an autonomous AI agent platform focused on data analysis and code execution. <details><summary>More about</summary>
 
-  It provides a unified, open-source agent experience across multiple IDEs and platforms, allowing developers to use their own API keys and maintain code privacy with local models.
+  It lets developers delegate data wrangling, visualization, and statistical modeling tasks to an AI that writes and runs Python or R code in a sandboxed environment.
 
-  _Finally, an AI coding agent that doesn’t force you to choose between your wallet and your privacy._
+  _Finally, an AI that pretends to be your data scientist while you nervously watch it pip install packages into your ephemeral container._
 
-  `coding-agent` `multi-ide` `open-source` `local-ai` `model-gateway`
+  `ai-agent` `data-science` `code-execution`
   </details>
 
-- **[Kiro](https://kiro.dev)** Kiro is an agentic AI platform with IDE, CLI, and web interfaces that turns prompts into executable specs, validates code correctness, and implements tasks with parallel agents. <details><summary>More about</summary>
+- **[JunieAI (JetBrains)](https://jetbrains.com/junieai)** Junie by JetBrains is an AI coding agent that works with any model via Bring Your Own Key and operates in terminal, IDE, or CI/CD environments. <details><summary>More about</summary>
 
-  It brings structure to AI-assisted development by enforcing spec-driven workflows, property-based testing, and multi-agent collaboration for complex codebases.
+  It lets developers use their preferred AI model with JetBrains' IDE intelligence for coding tasks without vendor lock-in.
 
-  _Finally, an AI that won’t just vibe-code your way into production—it’ll first write a spec to explain why your vibe was wrong._
+  _Another coding agent promising cost savings while you juggle model selection, plan approvals, and remote control from your phone._
 
-  `spec-driven-development` `multi-agent` `ide` `cli` `code-validation`
+  `ai-agent` `jetbrains` `byok` `terminal-ide`
   </details>
 
-- **[Mabl](https://mabl.com)** An agentic testing platform that automates test creation, execution, maintenance, and analysis for web, mobile, and API applications. <details><summary>More about</summary>
+- **[Kilo Code](https://kilo.ai)** Kilo is an open source AI coding agent that operates across VS Code, JetBrains, CLI, and cloud environments with access to 500+ models and local model support. <details><summary>More about</summary>
 
-  It shifts testing left by integrating into dev workflows, using AI to auto-generate and self-heal tests, reducing manual QA bottlenecks.
+  It gives developers a unified, private, and markup-free AI coding experience across their preferred tools without vendor lock-in.
 
-  _Now your tests can write themselves, but you’ll still spend hours explaining to stakeholders why the AI ‘fixed’ a flaky test by deleting it._
+  _Yet another agent promising to be 'the one' for every workflow, adding to the paralysis of choosing which AI to trust with your code today._
 
-  `testing` `qa` `agentic-testing` `automation` `ci-cd`
+  `ai-agent` `ide-integration` `cli-tool` `open-source` `multi-model`
   </details>
 
-- **[Mentat](https://mentat.ai)** An AI-powered coding assistant designed for complex, multi-file repository manipulation. <details><summary>More about</summary>
+- **[Kiro](https://kiro.dev)** Kiro is an agentic AI platform with IDE, CLI, web, and mobile interfaces that turns prompts into executable specs and implements them with parallel agents. <details><summary>More about</summary>
 
-  It moves beyond simple chat interfaces by allowing an agent to understand and execute changes across an entire codebase.
+  It gives developers a structured way to go from natural language to working code with automated reasoning and property-based testing to catch bugs unit tests miss.
 
-  _It's just one more way to watch an agent confidently rewrite your entire architecture while you grab a coffee._
+  _Yet another tool promising to eliminate the gap between intent and implementation, as if spec-writing weren’t already hard enough._
 
-  `coding-agent` `cli-tool` `repository-agent`
+  `agentic` `spec-driven` `coding-agent`
+  </details>
+
+- **[Mentat](https://mentat.ai)** Mentat.ai is a developer tool marketed as an AI-powered coding agent that operates via CLI or IDE to perform autonomous coding tasks. <details><summary>More about</summary>
+
+  It claims to let developers delegate writing, editing, and reviewing code to an AI agent, potentially speeding up development workflows.
+
+  _Another agent promising to free you from coding, while you spend more time prompting it than typing._
+
+  `ai-agent` `cli` `developer-tool`
   </details>
 
 - **[Mentat CLI](https://mentat.ai/docs/cli)** A CLI tool from Mentat that provides terminal-native AI coding assistance. <details><summary>More about</summary>
@@ -1728,40 +1710,22 @@ _These are new or low-traffic entries being watched._
   `ai-testing` `e2e-tests` `qa-automation` `self-healing-tests`
   </details>
 
-- **[OpenAI Codex CLI](https://openai.com/blog/openai-codex)** OpenAI Codex is a model designed to understand and generate code. <details><summary>More about</summary>
+- **[Open Interpreter](https://openinterpreter.com)** Open Interpreter is an open-source coding agent that executes code locally using low-cost or open-weight models. <details><summary>More about</summary>
 
-  It enables developers to automate coding tasks, from writing functions to translating between programming languages.
+  It lets developers delegate coding tasks to an autonomous agent that runs on their own machine, reducing reliance on cloud APIs.
 
-  _The moment you realize your junior dev might be obsolete, but your senior dev just got a new pair of hands._
+  _Watching an AI fumble through your terminal with sudo access is the new pair programming nightmare._
 
-  `code-generation` `openai` `coding-agent`
+  `coding-agent` `local-ai` `autonomous`
   </details>
 
-- **[OpenHands (OpenDevin)](https://opendevin.ai)** OpenDevin is an AI-powered coding agent that autonomously plans, writes, and debugs code in a sandboxed environment. <details><summary>More about</summary>
+- **[OpenHands (OpenDevin)](https://opendevin.ai)** opendevin.ai is a developer-facing AI coding agent that autonomously plans and executes coding tasks across terminals, IDEs, and browsers. <details><summary>More about</summary>
 
-  It allows developers to delegate end-to-end coding tasks to an autonomous agent that can handle complex workflows without constant human oversight.
+  It lets developers delegate full-cycle software development—writing, editing, testing, and repairing code—to an autonomous agent, reducing manual workload.
 
-  _Finally, an AI that can write code while you stare at your terminal wondering if it’s actually working or just generating infinite loops._
+  _Watching an AI agent rewrite your entire codebase while you sip coffee feels like productivity until you realize you’re now debugging its debugging._
 
-  `autonomous-coding` `sandboxed-agents` `ai-development`
-  </details>
-
-- **[PearAI](https://pear.ai)** PearAI is an AI-native code editor and development environment. <details><summary>More about</summary>
-
-  It provides developers with an integrated AI assistant directly within the editor surface, streamlining coding workflows.
-
-  _Another editor that promises to write your code for you, but you’ll still spend an hour arguing with it about tabs vs. spaces._
-
-  `ai-ide` `code-editor` `ai-native` `development-environment`
-  </details>
-
-- **[Pixee](https://pixee.ai)** Agentic AppSec platform that uses AI to triage, prioritize, and auto-fix vulnerabilities in codebases with high developer merge rates. <details><summary>More about</summary>
-
-  It automates the tedious, high-friction parts of security remediation—filtering false positives, generating context-aware fixes, and integrating with existing workflows—so developers can merge security patches without context-switching.
-
-  _Finally, a tool that turns your security backlog into a PR queue your team might actually merge instead of ignore._
-
-  `appsec` `automated-remediation` `code-review` `vulnerability-management`
+  `coding-agent` `autonomous-dev` `ai-developer`
   </details>
 
 - **[Potpie](https://potpie.ai)** A web-based AI coding assistant that helps developers write, review, and debug code. <details><summary>More about</summary>
@@ -1773,58 +1737,22 @@ _These are new or low-traffic entries being watched._
   `coding-assistant` `web-based` `ai-development`
   </details>
 
-- **[Prode.ai](https://prode.ai)** ProdE is a planning layer for agentic development that turns ideas into coding-agent-ready specs grounded in your codebase. <details><summary>More about</summary>
+- **[Qoder](https://qoder.com)** Qoder is an AI-powered IDE and agent platform that offers intelligent code completion, conversational programming, and autonomous coding agents across desktop, mobile, CLI, and IDE plugin formats. <details><summary>More about</summary>
 
-  It standardizes planning across engineering orgs by mapping dependencies, generating specs, and providing context to coding agents via MCP, reducing rework and token costs.
+  It positions itself as an agentic coding environment where developers delegate coding tasks to AI, promising significant time savings by automating planning, implementation, and testing workflows.
 
-  _Finally, a tool that lets PMs and engineers agree on what 'done' looks like before the agents start guessing._
+  _Another AI IDE claiming to replace your workflow with agents — now with mobile monitoring and 'Quest Mode' specs that may or may not survive contact with legacy code._
 
-  `spec-driven-development` `mcp` `codebase-intelligence` `agent-planning`
+  `ai-ide` `coding-agent` `agentic-ide`
   </details>
 
-- **[PullRequest](https://pullrequest.com)** HackerOne Code (formerly PullRequest) is a SaaS platform combining AI and human expert review for code security audits and remediation guidance. <details><summary>More about</summary>
+- **[Refact.ai](https://refact.ai)** Refact.ai is an open-source, self-hostable AI coding agent that integrates with IDEs to autonomously generate, review, debug, and refactor code across multiple programming languages using RAG and fine-tuned models. <details><summary>More about</summary>
 
-  It helps developers catch vulnerabilities before production by integrating AI-enhanced security reviews with human validation into existing workflows.
+  It gives developers a private, customizable alternative to cloud-based coding assistants like Cursor or Copilot, enabling full codebase awareness and workflow automation without exposing data to third parties.
 
-  _Finally, a way to outsource your code review guilt to both a machine and a human at the same time._
+  _Another agent promising to be your 'digital twin' while you sit back and watch it write code — until you realize you still have to review its 14-minute GUI masterpiece for subtle logic flaws._
 
-  `code-review` `security` `ai-human-hybrid` `saas` `vulnerability-detection`
-  </details>
-
-- **[Qoder](https://qoder.com)** Qoder is an AI coding platform offering intelligent code completion, conversational programming, and automatic code generation with IDE integrations. <details><summary>More about</summary>
-
-  It provides developers with an autonomous coding assistant that integrates with mainstream IDEs like VS Code and JetBrains, aiming to streamline code generation and task execution.
-
-  _Another day, another AI assistant promising to 'redefine how work gets done'—this time with multi-agent collaboration and 26-hour execution marathons._
-
-  `ai-coding-assistant` `ide-integration` `multi-agent` `autonomous-development`
-  </details>
-
-- **[Qodo (CodiumAI)](https://qodo.ai)** Qodo is an AI-powered code review and governance platform that enforces coding standards and detects issues across repositories. <details><summary>More about</summary>
-
-  It automates high-precision code reviews with full codebase context, reducing manual review time and ensuring consistency in AI-assisted development workflows.
-
-  _Finally, a tool that lets you offload the guilt of rubber-stamping AI-generated PRs to an actual AI._
-
-  `code-review` `governance` `ai-agents` `sdlc` `standards-enforcement`
-  </details>
-
-- **[Raycast AI](https://raycast.com/core-features/ai)** Raycast AI is an OS-integrated AI assistant that combines multiple leading models with extensions for productivity and workflow automation on macOS. <details><summary>More about</summary>
-
-  It gives developers a unified interface to access 30+ LLMs and automate tasks via AI extensions, directly within their operating system.
-
-  _Now you can ask your OS to move PDFs to trash while debating the benefits of ice baths with Claude Opus 4.8._
-
-  `os-integration` `multi-model` `productivity` `automation` `macos`
-  </details>
-
-- **[Refact.ai](https://refact.ai)** An open-source autonomous AI coding agent that plans, executes, and deploys tasks in IDEs with full context awareness and on-premise deployment options. <details><summary>More about</summary>
-
-  Developers can delegate end-to-end coding tasks (generation, debugging, testing) to Refact.ai, which integrates with codebases, tools, and workflows while offering self-hosting for data control.
-
-  _Finally, an AI agent that claims to do 95% of your work—just in time for you to spend the other 5% debugging its hallucinations._
-
-  `autonomous-agent` `ide-integration` `self-hosted` `code-generation` `rag`
+  `ai-agent` `coding-assistant` `self-hosted` `ide-integration` `rag`
   </details>
 
 - **[Review](https://aifordevelopers.org/tool/antigravity)** Antigravity is an AI-native IDE built on a VS Code fork that uses autonomous agents to plan, write, execute, and test code. <details><summary>More about</summary>
@@ -1845,31 +1773,13 @@ _These are new or low-traffic entries being watched._
   `coding-agent` `bug-triage` `operational-engineering` `slack-integration`
   </details>
 
-- **[Rovo Dev (Atlassian)](https://atlassian.com/blog/development/rovo-dev-command-line-interface)** Rovo Dev CLI is an enterprise-focused command-line AI agent from Atlassian that assists with code understanding, development, and Atlassian ecosystem integration. <details><summary>More about</summary>
+- **[Rovo Dev (Atlassian)](https://atlassian.com/blog/development/rovo-dev-command-line-interface)** Rovo Dev CLI is an Atlassian-powered command-line AI agent that understands, writes, and edits code while integrating with Jira, Confluence, and Bitbucket. <details><summary>More about</summary>
 
-  It turns the terminal into an intelligent development partner that accelerates coding, debugging, and workflow automation while maintaining deep integration with Atlassian tools like Jira and Confluence.
+  It lets developers perform end-to-end coding tasks — from issue to PR — without leaving the terminal, reducing context switching in enterprise workflows.
 
-  _Finally, an AI that understands your Jira tickets as well as you pretend to._
+  _Finally, an AI agent that asks for your Jira ticket number before it starts refactoring your legacy monolith._
 
-  `cli-agent` `enterprise-ai` `atlassian-integration` `code-assistant` `swe-bench-leader`
-  </details>
-
-- **[Self-operating computer](https://hyperwriteai.com/self-operating-computer)** A self-operating computer product by Hyperwrite AI that automates tasks across a user's system. <details><summary>More about</summary>
-
-  It promises to reduce manual workflow steps by autonomously executing tasks on a user's computer, potentially streamlining repetitive or complex operations for developers.
-
-  _The idea of a computer that operates itself is either the future of productivity or the beginning of a very confusing debugging session._
-
-  `automation` `ai-agent` `workflow` `desktop-automation`
-  </details>
-
-- **[Sweeppea](https://www.sweeppea.com)** A web platform for AI-powered code review and repository analysis. <details><summary>More about</summary>
-
-  It helps developers automate code reviews and gain insights into their repositories using AI.
-
-  _Because nothing says 'I trust AI' like letting it judge your pull requests._
-
-  `code-review` `ai-analysis` `repository-insights`
+  `cli-agent` `atlassian` `enterprise-dev`
   </details>
 
 - **[Tabnine CLI](https://docs.tabnine.com/main/getting-started/tabnine-cli)** An AI-powered coding assistant that operates directly within the terminal. <details><summary>More about</summary>
@@ -1881,49 +1791,40 @@ _These are new or low-traffic entries being watched._
   `cli` `terminal` `coding-assistant` `code-review` `code-search`
   </details>
 
-- **[Taskeract](https://taskeract.com)** Desktop AI coding tool where agents run in real terminals, enabling code generation, PR reviews, and merges with built-in git workflows. <details><summary>More about</summary>
+- **[Taskeract](https://taskeract.com)** Taskeract is a desktop application that runs AI coding agents in isolated terminal sessions with integrated git workflows, issue tracking, and PR review capabilities. <details><summary>More about</summary>
 
-  Developers can delegate repo work to AI agents in isolated, terminal-native environments with full git integration and multi-agent support.
+  It lets developers use multiple AI coding agents side-by-side in sandboxed environments while maintaining full git workflow visibility without context switching.
 
-  _Finally, a way to let AI agents fight over your merge conflicts in parallel terminals while you sip coffee and question your life choices._
+  _The anxiety of juggling Claude Code, OpenAI Codex, and OpenCode in separate windows just to avoid one agent overwriting another’s work._
 
-  `ai-coding` `multi-agent` `git-integration` `desktop-app` `terminal-native`
+  `ai-coding-agent` `desktop-app` `git-workflow` `multi-agent` `isolated-terminals`
   </details>
 
-- **[Test Driver](https://testdriver.ai)** AI-powered end-to-end testing platform that writes and runs UI tests in real desktop sandboxes for GitHub repos. <details><summary>More about</summary>
+- **[Test Driver](https://testdriver.ai)** TestDriver is an AI-powered end-to-end testing agent that automatically generates and runs UI tests from pull requests in real desktop sandboxes to catch regressions before merge. <details><summary>More about</summary>
 
-  Automates regression testing and UI test generation for pull requests, reducing manual QA effort for developers.
+  It eliminates manual UI test writing by using AI vision to validate PRs and contribute passing tests back as code, reducing regression risk in CI.
 
-  _Finally, a bot that writes tests so you can stop pretending you’ll write them later._
+  _Finally, an AI that doesn’t just review code but actually clicks ‘Sign Up’ for you—now your guilt over skipped E2E tests is automated away._
 
-  `testing` `ai-testing` `github-integration` `e2e-tests` `regression-testing`
+  `testing` `ai-agent` `qa` `e2e` `ci-cd`
   </details>
 
-- **[TestRigor](https://testrigor.com)** AI-based test automation tool that uses plain English to create and maintain end-to-end test cases. <details><summary>More about</summary>
+- **[Trae](https://trae.ai)** Trae offers TraeCode as an AI coding engineer and TraeWork as an AI work assistant for developer workflows. <details><summary>More about</summary>
 
-  Reduces QA overhead by enabling non-technical users to write and maintain automated tests, improving coverage and stability.
+  It positions itself as an autonomous coding agent that can write, edit, and review code to accelerate development tasks.
 
-  _Finally, a way to turn your QA team’s plain-English complaints into executable test cases._
+  _Another AI promising to be your 10x engineer while you still have to prompt it to fix the semicolons it missed._
 
-  `testing` `qa` `no-code` `ai-testing` `end-to-end`
+  `ai-agent` `coding-assistant`
   </details>
 
-- **[Trae](https://trae.ai)** TRAE IDE is an AI-native development environment that integrates into workflows to assist with coding tasks. <details><summary>More about</summary>
+- **[Tusk](https://usetusk.ai)** Tusk is an AI testing platform that generates and maintains unit, API, and integration tests from live traffic to prevent regressions and boost code coverage. <details><summary>More about</summary>
 
-  It offers developers a dedicated AI-powered IDE surface to accelerate coding and collaboration.
+  It automates test creation and maintenance using production traffic, reducing manual effort in achieving high test coverage and catching regressions early.
 
-  _Another IDE promises to 10x your productivity, because apparently 2x was too modest._
+  _Hope you enjoy watching AI write tests for your legacy code while you pretend technical debt is just a feature._
 
-  `ai-ide` `coding-assistant` `developer-tools`
-  </details>
-
-- **[Tusk](https://usetusk.ai)** AI testing platform for API, unit, and integration testing that generates and maintains tests using live traffic and business context. <details><summary>More about</summary>
-
-  It automates test generation and maintenance to prevent regressions and boost code coverage, particularly useful for teams scaling test suites with AI assistance.
-
-  _Finally, a way to offload writing tests to AI—until you realize you now have to debug the AI-generated tests._
-
-  `testing` `ai-automation` `regression-prevention` `code-coverage`
+  `testing` `test-generation` `ai-agent`
   </details>
 
 - **[What The Diff](https://whatthediff.ai)** An AI-powered GitHub and GitLab app that generates plain-English explanations of pull request diffs and automates PR descriptions, summaries, and changelogs. <details><summary>More about</summary>
@@ -1935,22 +1836,22 @@ _These are new or low-traffic entries being watched._
   `code-review` `github-integration` `gitlab-integration` `pr-automation`
   </details>
 
-- **[Windsurf](https://windsurf.com)** Devin Desktop (formerly Windsurf) is a desktop IDE and command center for managing fleets of local and cloud coding agents with shared context and workflows. <details><summary>More about</summary>
+- **[Windsurf](https://windsurf.com/editor)** Windsurf Editor is an AI agent-powered IDE that combines a coding assistant (Cascade) and autonomous cloud agent (Devin) to assist with code editing, generation, and task delegation. <details><summary>More about</summary>
 
-  It lets developers coordinate multiple agents, review their work, and maintain flow within a single editor surface, reducing context-switching overhead.
+  It aims to keep developers in flow by integrating AI agents directly into the IDE to reduce context switching and automate coding tasks.
 
-  _Now you can watch a dozen agents argue about learning rate warmup phases while you pretend to understand the code._
+  _Another IDE that promises to make coding feel like magic, as if the real problem was ever a lack of enchantment in our syntax highlighting._
 
-  `multi-agent` `ide` `coding-agents` `agent-orchestration` `desktop`
+  `ai-ide` `coding-agent` `developer-tool`
   </details>
 
-- **[Windsurf](https://windsurf.com/editor)** Windsurf Editor is an AI agent-powered IDE designed to integrate AI assistance directly into the coding workflow. <details><summary>More about</summary>
+- **[Wopee.io](https://wopee.io)** Wopee.io is an AI-powered web testing service that generates Playwright tests from a URL and self-heals when the UI changes. <details><summary>More about</summary>
 
-  It offers developers a unified environment where AI agents like Cascade and Devin can plan, code, and manage tasks without leaving the editor.
+  It reduces test maintenance and increases coverage by automating test generation and adaptation for web applications.
 
-  _Now you can delegate debugging to an agent while you pretend to understand the codebase._
+  _Finally, an AI that tests the AI-generated code so humans don’t have to pretend they’re QA._
 
-  `ai-ide` `agentic-coding` `code-assistant` `multi-agent`
+  `testing` `ai-agents` `playwright`
   </details>
 
 - **[Y-combinator company](https://ycombinator.com/companies/tusk)** Tusk is an AI agent that generates unit and integration tests for pull requests by analyzing codebase context and running suggestions in an ephemeral CI sandbox. <details><summary>More about</summary>
@@ -1960,15 +1861,6 @@ _These are new or low-traffic entries being watched._
   _It writes the tests you sacrificed to meet the deadline, so your CI bot can discover the bug before your next high-value demo does._
 
   `test-generation` `ci-cd` `pr-agent` `code-quality` `regression-testing`
-  </details>
-
-- **[Zed](https://zed.dev)** Zed is an AI-native code editor built for speed and collaboration. <details><summary>More about</summary>
-
-  It offers a modern, performant editing experience with integrated AI assistance for developers.
-
-  _Another editor to argue about in Slack while your PRs rot._
-
-  `editor` `ai-native` `collaboration` `performance`
   </details>
 
 - **[滑铁卢大学 CS 886: Recent Advances on Foundation Models](https://cs.uwaterloo.ca/~wenhuche/teaching/cs886)** CS 886 is a University of Waterloo course focused on recent advances in foundation models, covering topics from RNNs and transformers to multimodal models and agent systems. <details><summary>More about</summary>

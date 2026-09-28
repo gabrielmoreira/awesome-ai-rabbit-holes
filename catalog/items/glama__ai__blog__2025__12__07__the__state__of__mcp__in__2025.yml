@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An opinion piece analyzing the MCP ecosystem's trends, challenges, and opportunities in 2025.
-  why_it_matters: Provides developers with a high-level overview of the MCP landscape, including adoption patterns, monetization models, and emerging use cases like background agents and MCP Apps.
-  mental_damage: Reading this will make you question whether you should build an MCP server, host one, or just wait for the next pivot.
+  summary: An opinion piece analyzing the MCP ecosystem landscape, trends, and opportunities in 2025 based on the author's experience building in the space.
+  why_it_matters: Provides developers with a curated overview of MCP adoption, tooling, and market direction to inform tool selection and architecture decisions.
+  mental_damage: Yet another 'state of' blog post pretending to be neutral while subtly promoting the author's own platform in every category it analyzes.
   tags:
     - mcp
-    - ecosystem-analysis
-    - trends
-    - opinion
+    - ecosystem
+    - blog
   confidence: high
 curation:
   status: excluded
-  reason: This is a one-off opinion article/blog post, not a standalone product, tool, or recurring feed, so it falls outside the catalog's scope of practical AI tools and infrastructure.
+  reason: This is a blog post, not a tool, product, or developer-facing infrastructure; it lacks the runtime, SDK, or product identity required for inclusion in the catalog.
   evidence:
-    - The page is explicitly labeled as an opinion piece ('This is an opinion piece about the MCP ecosystem based on my observations and research').
-    - The content is analytical commentary, not a tool, framework, or platform.
-    - The canonical positives for 'Publications & Feeds' explicitly exclude one-off articles unless they are landmark essays, and this does not qualify as a recurring feed.
+    - The source is a blog post on glama.ai titled 'The State of MCP in 2025' with no indication of being a deployable tool or platform
+    - The content is descriptive and opinion-based, analyzing trends, companies, and market movements in the MCP ecosystem
+    - No evidence of the author offering a downloadable, installable, or operable product via this URL
 placement:
   primary_category: null
   section: null
@@ -72,24 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:14.351Z"
+    updated_at: "2026-09-28T04:16:28.401Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:99afdfa0920b85eef54ae4fcb713755738dc172405dc401c7c9ad98779563436
+      category_rules_version: c367d6101132
+      input_hash: sha256:437db456e7ae165e020ceb9663507ca108f681932828911566c825a67f79b564
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a one-off opinion article/blog post, not a standalone product, tool, or recurring feed, so it falls outside the catalog's scope of practical AI tools and infrastructure.
+      decision_reason: This is a blog post, not a tool, product, or developer-facing infrastructure; it lacks the runtime, SDK, or product identity required for inclusion in the catalog.
       decision_evidence:
-        - The page is explicitly labeled as an opinion piece ('This is an opinion piece about the MCP ecosystem based on my observations and research').
-        - The content is analytical commentary, not a tool, framework, or platform.
-        - The canonical positives for 'Publications & Feeds' explicitly exclude one-off articles unless they are landmark essays, and this does not qualify as a recurring feed.
+        - The source is a blog post on glama.ai titled 'The State of MCP in 2025' with no indication of being a deployable tool or platform
+        - The content is descriptive and opinion-based, analyzing trends, companies, and market movements in the MCP ecosystem
+        - No evidence of the author offering a downloadable, installable, or operable product via this URL
       category_candidates: []
       contrastive_reason: null
       review_reason: null

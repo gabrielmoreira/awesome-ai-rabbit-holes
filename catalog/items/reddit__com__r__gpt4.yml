@@ -51,21 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Reddit community dedicated to discussions about GPT-4.
-  why_it_matters: It provides a space for developers to share insights, updates, and use cases related to GPT-4.
-  mental_damage: Another subreddit to compulsively refresh while waiting for the next model drop.
+  summary: Reddit community for discussing GPT-4 and related AI topics.
+  why_it_matters: Provides a space for developers to share experiences, ask questions, and stay updated on GPT-4 usage and limitations.
+  mental_damage: Another place to obsess over token limits and hallucinations while pretending you're being productive.
   tags:
     - community
     - discussion
-    - gpt-4
+    - ai-news
   confidence: high
 curation:
   status: excluded
-  reason: This is a community discussion forum, not a developer tool, framework, or workflow product.
+  reason: Excluded because it is a social media community focused on general AI discussion, not a developer tool, agent, workflow, or infrastructure product.
   evidence:
-    - URL points to a Reddit community (r/GPT4)
-    - No repo, tool, or product identity—only a discussion space
-    - Source-list context lists it under 'Community' in an awesome list
+    - Source URL is a Reddit community (r/GPT4), not a GitHub repo or standalone product.
+    - Listed in awesome-local-ai under 'Community' section, indicating it is a discussion forum, not a tool.
+    - No description of functionality, workflow integration, or developer-facing product capabilities.
 placement:
   primary_category: null
   section: null
@@ -75,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:43.949Z"
+    updated_at: "2026-09-28T04:44:47.621Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:f1643db90d801347c4580fb5db381c355aa6883aa832ce6a6fd445f376712ecc
+      category_rules_version: c367d6101132
+      input_hash: sha256:abd5d6f498720dcf5d9b8701806f704ce2d68b6dfb67271c965bb1aec757e6a7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a community discussion forum, not a developer tool, framework, or workflow product.
+      decision_reason: Excluded because it is a social media community focused on general AI discussion, not a developer tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - URL points to a Reddit community (r/GPT4)
-        - No repo, tool, or product identity—only a discussion space
-        - Source-list context lists it under 'Community' in an awesome list
+        - Source URL is a Reddit community (r/GPT4), not a GitHub repo or standalone product.
+        - Listed in awesome-local-ai under 'Community' section, indicating it is a discussion forum, not a tool.
+        - No description of functionality, workflow integration, or developer-facing product capabilities.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

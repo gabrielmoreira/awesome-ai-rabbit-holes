@@ -37,22 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A blog documenting a self-hosted AI stack running a 119B parameter model on local hardware, with technical articles on setup, fixes, and operational insights.
-  why_it_matters: Provides practical, firsthand documentation for developers attempting to run large models locally without cloud dependencies.
-  mental_damage: Finally, a blog that proves you can burn through electricity like a Bitcoin miner while pretending it's for productivity.
+  summary: Sovereign AI Blog is a self-hosted AI engineering log documenting fixes, setups, and architecture notes for running LLMs on personal hardware like DGX Spark.
+  why_it_matters: It provides practical, battle-tested guidance for developers attempting self-hosted AI stacks without relying on cloud services.
+  mental_damage: Another blog reminding you that running AI at home means becoming a sysadmin, electrician, and therapist all at once.
   tags:
-    - self-hosted-ai
-    - local-inference
-    - blog
-    - documentation
+    - self-hosted
+    - local-ai
+    - engineering-log
   confidence: high
 curation:
   status: excluded
-  reason: This is a blog/publication, not a developer tool, framework, or product; it falls outside the catalog's scope of practical AI tools and infrastructure.
+  reason: The Sovereign AI Blog is a documentation and commentary resource, not a developer-facing tool, agent, framework, or infrastructure product that directly aids in coding, app building, or AI workflow execution.
   evidence:
-    - Primary page describes it as a 'Sovereign AI Blog' with articles on self-hosted AI setups
-    - Content is educational/media (articles, guides) rather than a usable tool or library
-    - No evidence of a codebase, SDK, or developer-facing product
+    - The site describes itself as an 'engineering log' and 'reference engineering log for sovereign AI' focused on documenting real system fixes and setups.
+    - Content consists of blog posts about hardware setup, error troubleshooting, and personal anecdotes from self-hosted AI experimentation.
+    - No evidence of a deployable tool, SDK, agent, framework, or service that developers can install or use in their workflow.
 placement:
   primary_category: null
   section: null
@@ -71,24 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:42.150Z"
+    updated_at: "2026-09-28T04:37:45.178Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b1fc99dd256190f9d88c9975c65056d9fd1a5e2273b59187a0899e8453df230c
+      category_rules_version: c367d6101132
+      input_hash: sha256:dafa9af1d329a59e57a2ba98044fe3c3ebb7cc0e25793e57153a25a7dbe6ea31
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a blog/publication, not a developer tool, framework, or product; it falls outside the catalog's scope of practical AI tools and infrastructure.
+      decision_reason: The Sovereign AI Blog is a documentation and commentary resource, not a developer-facing tool, agent, framework, or infrastructure product that directly aids in coding, app building, or AI workflow execution.
       decision_evidence:
-        - Primary page describes it as a 'Sovereign AI Blog' with articles on self-hosted AI setups
-        - Content is educational/media (articles, guides) rather than a usable tool or library
-        - No evidence of a codebase, SDK, or developer-facing product
+        - The site describes itself as an 'engineering log' and 'reference engineering log for sovereign AI' focused on documenting real system fixes and setups.
+        - Content consists of blog posts about hardware setup, error troubleshooting, and personal anecdotes from self-hosted AI experimentation.
+        - No evidence of a deployable tool, SDK, agent, framework, or service that developers can install or use in their workflow.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -51,22 +51,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation for Sourcegraph's Cody, an AI coding assistant integrated with Sourcegraph's code intelligence platform.
-  why_it_matters: It provides developers with an AI assistant that leverages Sourcegraph's advanced search to deliver context-aware code completions, edits, and debugging across local and remote codebases.
-  mental_damage: Now you can debug code you didn’t write, in a codebase you don’t understand, with an AI that might hallucinate the parts it can’t find.
+  summary: Documentation for Cody, an AI coding assistant from Sourcegraph.
+  why_it_matters: Helps developers use Cody effectively by providing setup, feature, and integration details.
+  mental_damage: Yet another reason to juggle multiple tabs while hoping the AI understands your codebase context.
   tags:
-    - ai-coding-assistant
-    - code-intelligence
-    - sourcegraph
-    - context-aware
-    - ide-integration
+    - documentation
+    - ai-assistant
   confidence: high
 curation:
   status: excluded
-  reason: This is documentation for Cody, not the standalone product itself; the catalog tracks products, not their docs.
+  reason: Excluded because it is documentation rather than a standalone AI developer tool.
   evidence:
-    - The URL and scraped context confirm this is the documentation site for Cody, not the product repo or a standalone tool.
-    - The page explicitly describes itself as 'Documentation for Sourcegraph, the code intelligence platform.'
+    - URL is sourcegraph.com/docs, indicating documentation site
+    - Content describes Cody features but is clearly a help page
+    - No evidence of being a downloadable, installable, or operable product
 placement:
   primary_category: null
   section: null
@@ -85,23 +83,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:41.739Z"
+    updated_at: "2026-09-28T04:37:44.531Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:11bb0c25778b7e041a3f0627270291613cc95247c974e5d05314aae7a828d102
+      category_rules_version: c367d6101132
+      input_hash: sha256:a1bfa3154d2172b7ea62c4be25a94d77db6c99785d48d02d9d1d6e9196c6d1c1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is documentation for Cody, not the standalone product itself; the catalog tracks products, not their docs.
+      decision_reason: Excluded because it is documentation rather than a standalone AI developer tool.
       decision_evidence:
-        - The URL and scraped context confirm this is the documentation site for Cody, not the product repo or a standalone tool.
-        - The page explicitly describes itself as 'Documentation for Sourcegraph, the code intelligence platform.'
+        - URL is sourcegraph.com/docs, indicating documentation site
+        - Content describes Cody features but is clearly a help page
+        - No evidence of being a downloadable, installable, or operable product
       category_candidates: []
       contrastive_reason: null
       review_reason: null

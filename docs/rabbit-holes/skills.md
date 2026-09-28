@@ -243,40 +243,13 @@ _These are new or low-traffic entries being watched._
   `agent-skills` `marketplace` `registry` `mcp` `automation`
   </details>
 
-- **[CursorDirectory](https://cursor.directory)** A curated directory of custom rules and configuration files for the Cursor AI editor. <details><summary>More about</summary>
+- **[Modelscope Skills](https://modelscope.cn/skills)** ModelScope Skills is a directory of reusable skill components that extend AI model applications within the ModelScope community. <details><summary>More about</summary>
 
-  It enables developers to quickly optimize Cursor's performance for specific frameworks and workflows using community-driven prompt rules.
+  It helps developers discover and reuse pre-built AI skills to accelerate model integration without starting from scratch.
 
-  _Because we have officially entered the era where we need a directory just to tell our editor how to behave._
+  _Another skill hub promising modularity while quietly adding to the endless pile of AI Lego bricks nobody asked to assemble._
 
-  `cursor` `rules` `prompt-engineering` `editor-configs`
-  </details>
-
-- **[CursorList](https://cursorlist.com)** A directory of .cursorrule files and SOPs for customizing the behavior of the Cursor AI editor. <details><summary>More about</summary>
-
-  It provides developers with pre-configured, stack-specific prompt rules to improve the accuracy and code style of their AI coding assistant.
-
-  _It confirms we have entered the era of needing a curated library of instructions on how to properly instruct our instructions._
-
-  `cursor` `cursorrules` `prompt-engineering` `directory`
-  </details>
-
-- **[llmbase](https://llmbase.ai/openclaw)** OpenClaw is a skill or capability layer referenced in a curated LLM resource list under the 'Skills' section. <details><summary>More about</summary>
-
-  It appears to provide reusable skills or workflows for AI agents, potentially streamlining developer tasks through pre-built capabilities.
-
-  _Another day, another abstraction layer between you and the code you’re paid to write._
-
-  `skills` `agent-capabilities` `workflow-automation`
-  </details>
-
-- **[Modelscope Skills](https://modelscope.cn/skills)** A community-driven registry of reusable skill components for AI models, hosted on ModelScope. <details><summary>More about</summary>
-
-  Developers can discover and integrate pre-built skills to extend AI model capabilities without reinventing common workflows.
-
-  _Now you can spend hours browsing skills instead of writing code, because someone else already wrote the code you need._
-
-  `skills-registry` `model-extensions` `reusable-components` `community-driven`
+  `skills` `directory` `modelscope`
   </details>
 
 - **[openclawmp.stepfun.com](https://openclawmp.stepfun.com)** A marketplace for sharing and installing skills, plugins, triggers, and communicators to extend AI agents. <details><summary>More about</summary>
@@ -288,15 +261,6 @@ _These are new or low-traffic entries being watched._
   `agent-skills` `marketplace` `plugins` `triggers` `communicators`
   </details>
 
-- **[SkillHub](https://skillhub.cn)** A Chinese-language AI skills community curating and reviewing top AI skills for practical use. <details><summary>More about</summary>
-
-  It helps Chinese-speaking developers discover vetted, high-quality AI skills for their workflows.
-
-  _Another directory promising to cut through the noise, while adding to it._
-
-  `directory` `skills` `chinese` `curated`
-  </details>
-
 - **[Skills.Sh](https://skills.sh)** A directory and registry for discovering and installing reusable skills for AI agents. <details><summary>More about</summary>
 
   Developers can extend their AI agents with pre-built, shareable capabilities for specific workflows or domains.
@@ -306,11 +270,11 @@ _These are new or low-traffic entries being watched._
   `skills-registry` `ai-agents` `reusable-components` `workflow-automation`
   </details>
 
-- **[Skillsmp](https://skillsmp.com)** A marketplace and registry for discovering and installing agent skills in the open SKILL.md format, compatible with Claude Code, Codex CLI, and ChatGPT. <details><summary>More about</summary>
+- **[Skillsmp](https://skillsmp.com)** SkillsMP is a searchable marketplace for 1.7M+ agent skills in SKILL.md format compatible with Claude Code, Codex CLI, and ChatGPT. <details><summary>More about</summary>
 
-  It solves the discovery and distribution problem for modular AI coding assistant skills, making it easier to find, share, and install reusable capabilities.
+  It gives developers a centralized registry to discover, evaluate, and install reusable agent behaviors without writing custom prompts or skills from scratch.
 
-  _Now you can spend hours browsing 1.2M skills instead of just writing code._
+  _Another directory where you spend more time browsing skills than actually using them, hoping one finally understands your weird repo._
 
-  `skills-registry` `ai-coding-assistants` `skill-md` `discovery` `marketplace`
+  `agent-skills` `registry` `skill-packs`
   </details>

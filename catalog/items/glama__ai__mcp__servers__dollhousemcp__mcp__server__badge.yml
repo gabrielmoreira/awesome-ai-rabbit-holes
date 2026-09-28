@@ -5,9 +5,8 @@ canonical_url: https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__glama__ai__mcp__servers__dollhousemcp__mcp__server__badge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__glama__ai__mcp__servers__dollhousemcp__mcp__server__badge__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -18,15 +17,9 @@ provenance:
         section_path:
           - Server Implementations
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
-        anchor_text: '![DollhouseMCP MCP server'
+        anchor_text: "![DollhouseMCP MCP server"
         extracted_url: https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge
-        surrounding_text: >-
-          - [DollhouseMCP/mcp-server](https://github.com/DollhouseMCP/mcp-server) [![DollhouseMCP MCP
-          server](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge)](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server)
-          📇 🏠 🍎 🪟 🐧 - One-line installable MCP server that adds reusable customization elements — personas, skills,
-          templates, agents, memory, and ensembles (collected customization tools) — to any MCP Client application.
-          Dynamic permissioning for safe AI operations, a robust validation architecture, versioning, and a public
-          collection of shareable content. Install: `npx @dollhousemcp/mcp-server@latest --web`.
+        surrounding_text: "- [DollhouseMCP/mcp-server](https://github.com/DollhouseMCP/mcp-server) [![DollhouseMCP MCP server](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge)](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server) 📇 🏠 🍎 🪟 🐧 - One-line installable MCP server that adds reusable customization elements — personas, skills, templates, agents, memory, and ensembles (collected customization tools) — to any MCP Client application. Dynamic permissioning for safe AI operations, a robust validation architecture, versioning, and a public collection of shareable content. Install: `npx @dollhousemcp/mcp-server@latest --web`."
         confidence: high
 metadata:
   github:
@@ -44,31 +37,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server for generating badges.
-  why_it_matters: Allows developers to integrate badge generation capabilities into MCP-compatible workflows.
-  mental_damage: Because every project needs another badge to prove it exists.
-  tags:
-    - mcp
-    - badges
-    - server
-  confidence: high
+  summary: ""
+  why_it_matters: ""
+  mental_damage: ""
+  tags: []
+  confidence: low
 curation:
-  status: included
-  reason: This is an MCP server whose primary identity is providing badge generation as an MCP-compatible service.
+  status: excluded
+  reason: The project provides no description or README content, making it impossible to determine its utility or whether it meets the catalog's technical scope.
   evidence:
-    - URL path indicates it is an MCP server ('/mcp/servers/')
-    - Product name and path ('badge') suggest it is a badge generation server
+    - No repo description provided
+    - No README excerpt provided
+    - URL indicates an MCP server entry but lacks any functional context
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: Middleware & Generic
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,28 +68,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:27:15.353Z'
+    updated_at: "2026-09-28T04:17:27.920Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:334e748e4d496b51b26c45c8254703f311ed310920ef4c1f6c9c9e2ad37a2f83
-      proposed_primary_category: mcp
+      category_rules_version: c367d6101132
+      input_hash: sha256:4b426a44822fd49151a60f171d6818a922a4f7f43851eca0b319b8f2fb944c62
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an MCP server whose primary identity is providing badge generation as an MCP-compatible service.
+      decision_reason: The project provides no description or README content, making it impossible to determine its utility or whether it meets the catalog's technical scope.
       decision_evidence:
-        - URL path indicates it is an MCP server ('/mcp/servers/')
-        - Product name and path ('badge') suggest it is a badge generation server
-      category_candidates:
-        - mcp
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product identity is an MCP server, not an extension for another
-        tool.
-      review_reason: null
+        - No repo description provided
+        - No README excerpt provided
+        - URL indicates an MCP server entry but lacks any functional context
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

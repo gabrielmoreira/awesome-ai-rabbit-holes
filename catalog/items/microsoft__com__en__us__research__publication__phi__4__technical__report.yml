@@ -51,22 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Phi-4 is a 14B parameter language model from Microsoft Research, trained with a focus on synthetic data and optimized for reasoning tasks.
-  why_it_matters: It offers developers a smaller, high-performance model for STEM-focused reasoning tasks, potentially reducing compute costs while maintaining strong accuracy.
-  mental_damage: Another model release where the real question is whether your GPU can handle the context window before your patience does.
+  summary: Phi-4 is a 14-billion parameter language model developed by Microsoft Research focused on complex reasoning and STEM performance through synthetic data and post-training innovations.
+  why_it_matters: It provides a high-reasoning-capacity open model that developers can use as a foundation for building AI-powered applications requiring strong logical and technical reasoning.
+  mental_damage: Another parameter-count arms race where 'reasoning' is the new benchmark theater and every lab pretends their synthetic data recipe is the secret sauce.
   tags:
     - language-model
-    - microsoft
     - reasoning
-    - stem
+    - microsoft-ai
   confidence: high
 curation:
   status: excluded
-  reason: Phi-4 is a raw model release (research artifact) without a developer-tooling identity, runtime, or integration layer that fits the catalog's scope.
+  reason: Phi-4 is a raw language model without any developer-facing tooling, SDK, agent interface, or application layer; it is a research artifact, not a product for direct developer use in workflows.
   evidence:
-    - Primary page describes it as a '14B parameter model' with a technical report focus
-    - No repo, CLI, SDK, or tooling surface is presented—only a research publication
-    - Source-list context places it under 'Code Models' but the catalog excludes raw model checkpoints
+    - Repo description is missing; the project is a technical report, not a software tool
+    - Scraped context shows it is a research publication from Microsoft Research with no SDK, CLI, or hosted service described
+    - Source-list context places it only in 'Code Models' section of awesome-ai-coding-tools, which lists models, not developer-facing tools
 placement:
   primary_category: null
   section: null
@@ -76,24 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:31.320Z"
+    updated_at: "2026-09-28T04:42:54.005Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1138470800b72788cb375becd670c4e861f760366668a3e6d245991921b5d447
+      category_rules_version: c367d6101132
+      input_hash: sha256:a7f32abed35534f4f815e77d4b9dbe99fd915f7dcaf768f32c42a1cfb80fa570
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Phi-4 is a raw model release (research artifact) without a developer-tooling identity, runtime, or integration layer that fits the catalog's scope.
+      decision_reason: Phi-4 is a raw language model without any developer-facing tooling, SDK, agent interface, or application layer; it is a research artifact, not a product for direct developer use in workflows.
       decision_evidence:
-        - Primary page describes it as a '14B parameter model' with a technical report focus
-        - No repo, CLI, SDK, or tooling surface is presented—only a research publication
-        - Source-list context places it under 'Code Models' but the catalog excludes raw model checkpoints
+        - Repo description is missing; the project is a technical report, not a software tool
+        - Scraped context shows it is a research publication from Microsoft Research with no SDK, CLI, or hosted service described
+        - Source-list context places it only in 'Code Models' section of awesome-ai-coding-tools, which lists models, not developer-facing tools
       category_candidates: []
       contrastive_reason: null
       review_reason: null

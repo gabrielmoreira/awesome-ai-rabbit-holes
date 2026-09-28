@@ -93,9 +93,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-07-21T15:23:45.123Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-09-28T04:14:00.164Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Riff is a platform providing AI agents for procurement, planning, and logistics workflows in supply chain operations.
-  why_it_matters: It automates repetitive operational tasks like order confirmations, ERP updates, and invoice matching, freeing teams to focus on strategic decisions.
-  mental_damage: Finally, an AI that can chase suppliers by email so you don’t have to.
+  summary: Riff.ai is a platform for building and deploying AI agents that understand business operations, act across enterprise systems, and work alongside human teams.
+  why_it_matters: It enables developers to create domain-specific AI agents that integrate with ERP and other core systems to automate operational workflows.
+  mental_damage: Another 'AI workforce' platform promising to replace judgment with agents that take the volume while humans take the blame.
   tags:
-    - supply-chain
-    - enterprise-agents
-    - procurement
-    - logistics
-    - automation
+    - ai-agents
+    - enterprise-ai
+    - workflow-automation
   confidence: high
 curation:
   status: excluded
-  reason: The product is a vertical SaaS platform for supply chain operations, not a developer-facing coding tool, framework, or workflow infrastructure.
+  reason: Riff.ai is an enterprise AI agent platform focused on business process automation, not a developer-facing coding tool, agent builder, or infrastructure relevant to software development workflows.
   evidence:
-    - Primary page describes AI agents for procurement, planning, and logistics workflows
-    - Target audience is supply chain teams, not software developers
-    - No developer-tooling angle (e.g., code editing, SDKs, or integrations for dev workflows)
+    - "Source-list context: listed in awesome-ai-coding-tools under App Builders, but the platform description emphasizes ERP integration, order handling, procurement, and industrial operations, not code generation or developer tooling"
+    - "Scraped site context: positions Riff as a platform for AI agents that 'understand your operations, act across your systems and work alongside your people' — targeting business users and enterprise IT, not developers writing or editing code"
+    - No evidence of coding agent behavior, app generation from prompts, framework/SDK distribution, or any developer-tooling identity in the provided materials
 placement:
   primary_category: null
   section: null
@@ -71,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:14.026Z"
+    updated_at: "2026-09-28T04:36:13.989Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1e1a235322095a01ba3f62b5fc0e2af06bc6f9f79d6d719999337e54ea648eac
+      category_rules_version: c367d6101132
+      input_hash: sha256:99af4ef6f09721208f4867b6dda3a9256028e833749b1a0e8554aa8a16f48f9b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a vertical SaaS platform for supply chain operations, not a developer-facing coding tool, framework, or workflow infrastructure.
+      decision_reason: Riff.ai is an enterprise AI agent platform focused on business process automation, not a developer-facing coding tool, agent builder, or infrastructure relevant to software development workflows.
       decision_evidence:
-        - Primary page describes AI agents for procurement, planning, and logistics workflows
-        - Target audience is supply chain teams, not software developers
-        - No developer-tooling angle (e.g., code editing, SDKs, or integrations for dev workflows)
+        - "Source-list context: listed in awesome-ai-coding-tools under App Builders, but the platform description emphasizes ERP integration, order handling, procurement, and industrial operations, not code generation or developer tooling"
+        - "Scraped site context: positions Riff as a platform for AI agents that 'understand your operations, act across your systems and work alongside your people' — targeting business users and enterprise IT, not developers writing or editing code"
+        - No evidence of coding agent behavior, app generation from prompts, framework/SDK distribution, or any developer-tooling identity in the provided materials
       category_candidates: []
       contrastive_reason: null
       review_reason: null

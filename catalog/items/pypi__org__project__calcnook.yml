@@ -37,26 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Python package named calcnook with unclear functionality due to missing documentation and a non-functional project page.
-  why_it_matters: Unclear; the project's purpose and developer value cannot be determined from available information.
-  mental_damage: Another PyPI package that exists in the void between 'might be useful' and 'completely undocumented'.
-  tags:
-    - python
-    - undocumented
-  confidence: high
+  summary: calcnook is a Python package hosted on PyPI with no clear description or functional details available from its page.
+  why_it_matters: It is unclear what calcnook does or how it benefits developers due to missing documentation and project metadata.
+  mental_damage: Another mysterious PyPI package that leaves you wondering if it’s useful or just a namespace squat with extra steps.
+  tags: []
+  confidence: low
 curation:
   status: excluded
-  reason: Excluded due to lack of verifiable information about its purpose, functionality, or developer relevance.
+  reason: The project lacks any discernible identity, functionality, or developer-facing value — no description, README, or usable details are present to assess fit.
   evidence:
-    - No repo description or README excerpt provided
-    - Project page fails to load (scraped site context shows error)
-    - No clear signals of developer-tooling scope or category fit
+    - Repo description is missing
+    - PyPI page shows no usable content beyond a broken site excerpt about a required part failing to load
+    - No stars, creation date, or activity signals are available
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -69,25 +67,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:55.134Z"
+    updated_at: "2026-09-28T04:35:17.392Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:8927601d959d6aaf2f9d0bba49b9a06e170393c1e57b0afb50bb13981b9f01f6
+      category_rules_version: c367d6101132
+      input_hash: sha256:c136e416b518e71007310d7d1aafb8139cbe4b22c8b8216b35d907038a7f3875
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Excluded due to lack of verifiable information about its purpose, functionality, or developer relevance.
+      decision_reason: The project lacks any discernible identity, functionality, or developer-facing value — no description, README, or usable details are present to assess fit.
       decision_evidence:
-        - No repo description or README excerpt provided
-        - Project page fails to load (scraped site context shows error)
-        - No clear signals of developer-tooling scope or category fit
+        - Repo description is missing
+        - PyPI page shows no usable content beyond a broken site excerpt about a required part failing to load
+        - No stars, creation date, or activity signals are available
       category_candidates: []
       contrastive_reason: null
-      review_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Stanford CS324 course website for Understanding and Developing Large Language Models.
-  why_it_matters: Provides structured educational content on LLMs, including hands-on projects for evaluating and building models.
-  mental_damage: The only thing harder than building LLMs is grading Stanford students who think they can.
+  summary: Stanford CS324 is a graduate-level course on large language models covering modeling, training, scaling, ethics, and hands-on projects.
+  why_it_matters: It provides structured, in-depth education on LLMs with practical projects, helping developers build foundational knowledge beyond surface-level tool usage.
+  mental_damage: Another reminder that understanding AI requires more than copying prompt engineering tutorials from Twitter.
   tags:
-    - course
     - education
     - llm
-    - stanford
+    - course
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational course website, not a developer tool, framework, or workflow product.
+  reason: It is an educational course resource, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - The site is a course page for CS324 at Stanford, focused on teaching LLMs
-    - Primary content is lectures, paper reviews, and student projects, not a tool or library
-    - Source-list context places it under 'Course' section, confirming its educational nature
+    - "Repo description: Understanding and developing large language models."
+    - "Scraped site context: Title 'Home', description 'Understanding and developing large language models.'"
+    - "Source-list context: Included in awesome-LLM-resources under section '课程 Course' (Course)"
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:06.056Z"
+    updated_at: "2026-09-28T04:38:12.218Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:fd8c5d017f31e5620019d875011467a8d3069c66fa9c88be8cdbb0112ad33243
+      category_rules_version: c367d6101132
+      input_hash: sha256:35663219f8e3f192ae5a099ca066361052a4d6c5d374cb085374c9f07f084145
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational course website, not a developer tool, framework, or workflow product.
+      decision_reason: It is an educational course resource, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - The site is a course page for CS324 at Stanford, focused on teaching LLMs
-        - Primary content is lectures, paper reviews, and student projects, not a tool or library
-        - Source-list context places it under 'Course' section, confirming its educational nature
+        - "Repo description: Understanding and developing large language models."
+        - "Scraped site context: Title 'Home', description 'Understanding and developing large language models.'"
+        - "Source-list context: Included in awesome-LLM-resources under section '课程 Course' (Course)"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

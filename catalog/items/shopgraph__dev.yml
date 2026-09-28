@@ -37,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An API for extracting product data from e-commerce URLs with per-field provenance and freshness metadata.
-  why_it_matters: Developers building automation for e-commerce pipelines can rely on structured, traceable product data without managing extraction infrastructure.
-  mental_damage: Finally, an API that tells you not just what it scraped, but how it scraped it—so your agents can argue about reliability instead of just guessing.
+  summary: ShopGraph is a product data extraction API that returns structured UCP format with per-field provenance and freshness signals.
+  why_it_matters: It lets developers trust automated product data pipelines by showing exactly how each field was derived and how recent it is.
+  mental_damage: Finally, an extraction tool that forces you to confront the uncomfortable truth that your scraped data might be lying to you.
   tags:
-    - e-commerce
     - data-extraction
     - provenance
     - api
-    - automation
   confidence: high
 curation:
   status: excluded
-  reason: The product is a domain-specific e-commerce data extraction API, not a developer-tooling product for coding, agent orchestration, or AI workflows.
+  reason: ShopGraph is a data extraction API for e-commerce product information, not a developer-facing AI tool for coding, agents, workflows, or infrastructure.
   evidence:
-    - Primary product is an extraction API for e-commerce product data
-    - Core value is provenance/freshness metadata for automation pipelines
-    - No developer-tooling angle (coding, agents, IDEs, frameworks, etc.)
+    - ShopGraph extracts product data from URLs and returns UCP schema JSON with extraction method and freshness per field
+    - The tool focuses on commerce data reliability for automation pipelines, not code generation, editing, or AI agent assistance
+    - No evidence of AI model interaction, prompt engineering, agent behavior, or developer workflow integration in the provided context
 placement:
   primary_category: null
   section: null
@@ -72,24 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:30.645Z"
+    updated_at: "2026-09-28T04:37:06.863Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:6b1b03159db63c2fa51111be3b6d9204d91e7c612757227f6ea9443e0f87efc6
+      category_rules_version: c367d6101132
+      input_hash: sha256:c9e551775e2a54f908ce57bae2b5b683f70b755651007146eba73c77456aacf3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a domain-specific e-commerce data extraction API, not a developer-tooling product for coding, agent orchestration, or AI workflows.
+      decision_reason: ShopGraph is a data extraction API for e-commerce product information, not a developer-facing AI tool for coding, agents, workflows, or infrastructure.
       decision_evidence:
-        - Primary product is an extraction API for e-commerce product data
-        - Core value is provenance/freshness metadata for automation pipelines
-        - No developer-tooling angle (coding, agents, IDEs, frameworks, etc.)
+        - ShopGraph extracts product data from URLs and returns UCP schema JSON with extraction method and freshness per field
+        - The tool focuses on commerce data reliability for automation pipelines, not code generation, editing, or AI agent assistance
+        - No evidence of AI model interaction, prompt engineering, agent behavior, or developer workflow integration in the provided context
       category_candidates: []
       contrastive_reason: null
       review_reason: null

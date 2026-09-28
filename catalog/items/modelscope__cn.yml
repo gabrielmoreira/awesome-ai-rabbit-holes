@@ -36,22 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ModelScope is a Chinese community platform aggregating advanced machine learning models with one-stop services for exploration, inference, training, deployment, and application.
-  why_it_matters: It provides developers with a centralized hub to discover, customize, and deploy models across domains, streamlining the ML workflow from experimentation to production.
-  mental_damage: Another model zoo where you’ll spend more time comparing versions than actually shipping anything.
+  summary: ModelScope.cn is a Chinese open-source model community offering models, datasets, and online demos as a one-stop service.
+  why_it_matters: It gives developers access to a centralized hub for discovering and testing open-source models, reducing the friction of model exploration.
+  mental_damage: Another model zoo where you spend more time comparing benchmarks than writing code, hoping this one doesn’t require a PhD to run.
   tags:
     - model-hub
-    - mlops
-    - chinese-community
-    - model-deployment
+    - open-source
+    - discovery
   confidence: high
 curation:
   status: excluded
-  reason: The platform is a general ML model hub and community, not a developer-tooling product focused on coding agents, workflows, or adjacent infrastructure.
+  reason: ModelScope.cn is a model discovery and hosting platform, not a developer-facing AI tool for coding, agents, workflows, or infrastructure; it lacks any agentic, coding, or tooling identity.
   evidence:
-    - Described as a 'one-stop service' for model exploration, inference, training, deployment, and application
-    - Positioned as a community for discovering and sharing models, not a coding tool or workflow
-    - Source-list context places it under 'Community' rather than developer tooling
+    - "Repo description: (none)"
+    - "Scraped site description: ModelScope 魔搭社区——开源模型社区，提供模型、数据集与在线 Demo 的一站式服务。"
 placement:
   primary_category: null
   section: null
@@ -70,24 +68,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:03.809Z"
+    updated_at: "2026-09-28T04:33:29.197Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ca33ea554d89e7de24b3a346674bf92c7fd7a8afe66ae88d2744ee4640d748bf
+      category_rules_version: c367d6101132
+      input_hash: sha256:4ce040c0ab0c649ed5368209baa17c51f1b16759a7a7aba59bdaa4e46c1ecf8d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The platform is a general ML model hub and community, not a developer-tooling product focused on coding agents, workflows, or adjacent infrastructure.
+      decision_reason: ModelScope.cn is a model discovery and hosting platform, not a developer-facing AI tool for coding, agents, workflows, or infrastructure; it lacks any agentic, coding, or tooling identity.
       decision_evidence:
-        - Described as a 'one-stop service' for model exploration, inference, training, deployment, and application
-        - Positioned as a community for discovering and sharing models, not a coding tool or workflow
-        - Source-list context places it under 'Community' rather than developer tooling
+        - "Repo description: (none)"
+        - "Scraped site description: ModelScope 魔搭社区——开源模型社区，提供模型、数据集与在线 Demo 的一站式服务。"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

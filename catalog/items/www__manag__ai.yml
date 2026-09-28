@@ -36,20 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A sparse landing page at manag.ai whose only visible title is 'ABYZ Admin Panel', with no product description or claim.
-  why_it_matters: No discernible developer-relevant capability can be identified from the information available.
-  mental_damage: Nothing screams 'next-gen AI infrastructure' like a .ai domain whose entire public payload is the words 'ABYZ Admin Panel'.
-  tags:
-    - landing-page
-    - unclear
+  summary: www.manag.ai hosts the ABYZ Admin Panel, a generic admin interface with no stated AI functionality.
+  why_it_matters: It does not currently claim to assist developers with AI-powered coding, workflows, or tooling.
+  mental_damage: Another admin panel pretending relevance in the AI directory swamp.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: There is no verifiable product identity, feature set, or developer workflow described; the page title alone does not establish it as a practical AI tool for software developers.
+  reason: The site provides no evidence of AI capabilities, developer tooling, or integration with coding workflows; it appears to be a generic admin dashboard.
   evidence:
-    - Scraped site context shows only the title 'ABYZ Admin Panel' and no description.
-    - No repo description, README excerpt, stars, or source-list context is available.
-    - No AI feature claims, coding workflows, or developer-tooling angles are visible.
+    - "Title: ABYZ Admin Panel"
+    - "Description: (none)"
+    - No README, repo description, or AI-related claims provided
 placement:
   primary_category: null
   section: null
@@ -68,24 +66,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-23T05:14:03.293Z"
+    updated_at: "2026-09-28T04:52:06.617Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:91c74bda6d2b07c2c0fb426855b1a96654161114e9c4b03fd4db7547f4570907
+      category_rules_version: c367d6101132
+      input_hash: sha256:9b849776d4c2884d9017b23c103ff9d59d32c5b56f0b41c86382c992f257d45b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: There is no verifiable product identity, feature set, or developer workflow described; the page title alone does not establish it as a practical AI tool for software developers.
+      decision_reason: The site provides no evidence of AI capabilities, developer tooling, or integration with coding workflows; it appears to be a generic admin dashboard.
       decision_evidence:
-        - Scraped site context shows only the title 'ABYZ Admin Panel' and no description.
-        - No repo description, README excerpt, stars, or source-list context is available.
-        - No AI feature claims, coding workflows, or developer-tooling angles are visible.
+        - "Title: ABYZ Admin Panel"
+        - "Description: (none)"
+        - No README, repo description, or AI-related claims provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

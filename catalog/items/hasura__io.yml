@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Hasura provides data access infrastructure for AI and digital experiences, including PromptQL and GraphQL APIs.
-  why_it_matters: It enables developers to deliver accurate, fast, and secure data access for AI applications and digital products.
-  mental_damage: Now you can spend less time debugging your GraphQL queries and more time explaining to your PM why the AI still hallucinates.
+  summary: A GraphQL engine and data delivery network that enables data access for AI applications through PromptQL.
+  why_it_matters: It provides a structured, secure way to expose enterprise data sources to AI models via specialized APIs.
+  mental_damage: Another layer of data abstraction to configure before you even get to the actual model.
   tags:
-    - data-access
     - graphql
-    - ai-infrastructure
-    - api-tools
+    - api
+    - data-infrastructure
+    - promptql
   confidence: high
 curation:
   status: excluded
-  reason: Hasura is a data access and API infrastructure platform, not a developer-tooling product focused on AI coding workflows, agents, or app-building.
+  reason: While Hasura provides data access for AI via PromptQL, its core identity is a data infrastructure and GraphQL engine rather than an AI-native developer tool like an agent, framework, or context management system.
   evidence:
-    - Primary product identity is data access and API infrastructure (GraphQL, PromptQL)
-    - Source-list context places it under 'Database and API Tools' in a general AI coding tools list
-    - No evidence of direct coding assistance, agent orchestration, or developer workflow augmentation
+    - Scraped site context identifies the product's primary identity as a 'GraphQL Engine' and 'Data Delivery Network'.
+    - The product functions as a data provider for AI rather than a tool used to build, orchestrate, or prompt AI workflows.
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:26.778Z"
+    updated_at: "2026-09-28T04:20:21.385Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:6e662b0bbc850500e1363af172b549a6e1a091962091778399c3a3c225a96929
+      category_rules_version: c367d6101132
+      input_hash: sha256:e2935021098b60bcc76c8e0bdbb466599ee3052204bd180e37514c0016514d76
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Hasura is a data access and API infrastructure platform, not a developer-tooling product focused on AI coding workflows, agents, or app-building.
+      decision_reason: While Hasura provides data access for AI via PromptQL, its core identity is a data infrastructure and GraphQL engine rather than an AI-native developer tool like an agent, framework, or context management system.
       decision_evidence:
-        - Primary product identity is data access and API infrastructure (GraphQL, PromptQL)
-        - Source-list context places it under 'Database and API Tools' in a general AI coding tools list
-        - No evidence of direct coding assistance, agent orchestration, or developer workflow augmentation
+        - Scraped site context identifies the product's primary identity as a 'GraphQL Engine' and 'Data Delivery Network'.
+        - The product functions as a data provider for AI rather than a tool used to build, orchestrate, or prompt AI workflows.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -71,9 +71,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-09-17T04:13:24.859Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-28T04:13:55.604Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for 0xdegenmo/lighter-mcp
     next_retry_at: null
   categorize:
     status: done

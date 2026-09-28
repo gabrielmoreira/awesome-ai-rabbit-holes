@@ -51,20 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: IBM Technology's official YouTube channel featuring AI and technology content.
-  why_it_matters: It provides educational videos and updates on AI technologies that may be relevant to developers.
-  mental_damage: Another channel to add to your 'watch later' list that you'll never actually watch.
+  summary: YouTube channel providing tutorials and resources on LLMs, agents, and AI development.
+  why_it_matters: Offers educational content to help developers learn about AI tools and workflows.
+  mental_damage: Another AI learning resource that promises enlightenment while adding to the infinite scroll of must-watch content.
   tags:
-    - youtube
-    - ibm
     - ai-education
+    - tutorials
+    - llm
   confidence: high
 curation:
   status: excluded
-  reason: This is a media channel, not a developer tool, framework, or workflow product.
+  reason: It is an educational content channel, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - URL is a YouTube channel (youtube.com/@IBMTechnology)
-    - Source-list context places it under 'Tutorial' in a general LLM resources list
+    - Source is a YouTube channel (https://youtube.com/@IBMTechnology), not a GitHub repo or standalone product.
+    - Listed in awesome-LLM-resources under '教程 Tutorial' as a resource summary, not a tool.
+    - No evidence of being a coding agent, app builder, framework, or other developer tooling product.
 placement:
   primary_category: null
   section: null
@@ -74,23 +75,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:04.075Z"
+    updated_at: "2026-09-28T04:51:40.128Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:aec61c3055a3e822f6ab4a2cc78d20d97ddd1cc2c3580056dd78f1ff190982b1
+      category_rules_version: c367d6101132
+      input_hash: sha256:0e2a4e80a9712c47079265637733321f075ebbbb4c30e0d15c41d5b3f215caab
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a media channel, not a developer tool, framework, or workflow product.
+      decision_reason: It is an educational content channel, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - URL is a YouTube channel (youtube.com/@IBMTechnology)
-        - Source-list context places it under 'Tutorial' in a general LLM resources list
+        - Source is a YouTube channel (https://youtube.com/@IBMTechnology), not a GitHub repo or standalone product.
+        - Listed in awesome-LLM-resources under '教程 Tutorial' as a resource summary, not a tool.
+        - No evidence of being a coding agent, app builder, framework, or other developer tooling product.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

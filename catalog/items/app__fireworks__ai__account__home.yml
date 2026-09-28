@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__app__fireworks__ai__account__home__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-07-20T16:42:15.363Z'
+      discovered_at: "2026-07-20T16:42:15.363Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,9 +18,7 @@ provenance:
           - Inference UI
         anchor_text: FireworksAI
         extracted_url: https://app.fireworks.ai
-        surrounding_text: >-
-          - [FireworksAI](https://app.fireworks.ai/) - Experience the world's fastest LLM inference platform deploy your
-          own at no additional cost.
+        surrounding_text: "- [FireworksAI](https://app.fireworks.ai/) - Experience the world's fastest LLM inference platform deploy your own at no additional cost."
         confidence: high
 metadata:
   github:
@@ -38,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Fireworks AI is a high-speed inference platform for open-source LLMs and image models.
-  why_it_matters: >-
-    It provides developers with low-latency, scalable API access to state-of-the-art models, reducing the overhead of
-    managing model deployment and hardware.
-  mental_damage: The exhausting cycle of benchmarking inference providers to shave a few milliseconds off every token response.
+  summary: Fireworks AI provides fast hosted inference for open-source LLMs and image models, with training and deployment capabilities.
+  why_it_matters: Developers get low-latency access to state-of-the-art models without managing infrastructure, accelerating AI integration in apps.
+  mental_damage: Yet another API wrapper promising 'blazing fast' speed while developers quietly wonder if latency was ever their real bottleneck.
   tags:
     - inference
     - llm
-    - api-provider
-    - generative-ai
-  confidence: high
+    - hosted
+    - api
+  confidence: medium
 curation:
   status: included
-  reason: It serves as a core infrastructure provider that developers integrate into their code via APIs and SDKs.
+  reason: Fireworks AI is primarily a hosted inference API provider offering access to open-source models, fitting as a model abstraction layer rather than a coding agent, app builder, or MCP infrastructure.
   evidence:
-    - Scraped context describes it as a high-speed inference service for LLMs and image models
-    - Claims to support training and deploying custom models
+    - "Scraped site title: 'Fireworks - Fastest Inference for Generative AI'"
+    - "Scraped site description: 'Use state-of-the-art, open-source LLMs and image models at blazing fast speed, or train and deploy your own at no additional cost with Fireworks AI!'"
+    - "Source-list context: listed in awesome-local-ai under 'Inference UI' for using open-source LLMs and image models at blazing fast speed"
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
@@ -65,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-20T16:42:15.364Z'
+    updated_at: "2026-07-20T16:42:15.364Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,28 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-08-27T06:14:09.992Z'
+    updated_at: "2026-09-28T04:53:16.609Z"
     cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0df9da4347d83a260a1b6209f75bad8cc0fcc52964e26ca3bc9aa44b64aaf5ac
+      category_rules_version: c367d6101132
+      input_hash: sha256:031cee1a3db0a0f2da06d0fb26e40a3d5cc6f715bbe4195ced2a647ba46162c1
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: It serves as a core infrastructure provider that developers integrate into their code via APIs and SDKs.
+      decision_reason: Fireworks AI is primarily a hosted inference API provider offering access to open-source models, fitting as a model abstraction layer rather than a coding agent, app builder, or MCP infrastructure.
       decision_evidence:
-        - Scraped context describes it as a high-speed inference service for LLMs and image models
-        - Claims to support training and deploying custom models
+        - "Scraped site title: 'Fireworks - Fastest Inference for Generative AI'"
+        - "Scraped site description: 'Use state-of-the-art, open-source LLMs and image models at blazing fast speed, or train and deploy your own at no additional cost with Fireworks AI!'"
+        - "Source-list context: listed in awesome-local-ai under 'Inference UI' for using open-source LLMs and image models at blazing fast speed"
       category_candidates:
         - ai-frameworks
-        - local-ai
-      contrastive_reason: >-
-        Choose ai-frameworks over local-ai because it is primarily a hosted, high-speed inference SaaS rather than a
-        tool for local on-device execution.
+        - mcp
+      contrastive_reason: Choose ai-frameworks over mcp because Fireworks AI's primary identity is providing hosted model inference via API, not exposing tools or data through the Model Context Protocol as its core function.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132

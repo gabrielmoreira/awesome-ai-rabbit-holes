@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Johns Hopkins University Spring 2023 course on self-supervised models in NLP, covering theory and implementation with PyTorch.
-  why_it_matters: Teaches foundational concepts for developers working with modern NLP and self-supervised learning techniques.
-  mental_damage: Another course that will make you feel guilty for not knowing enough linear algebra.
+  summary: A Johns Hopkins University course on self-supervised learning techniques for NLP applications using PyTorch.
+  why_it_matters: Provides structured learning materials for developers seeking to understand and implement self-supervised models in NLP.
+  mental_damage: Another academic syllabus masquerading as a tool, promising enlightenment while delivering only slides and assignment deadlines.
   tags:
-    - course
+    - education
     - nlp
     - self-supervised-learning
-    - pytorch
-    - education
   confidence: high
 curation:
   status: excluded
-  reason: This is an academic course, not a developer tool, framework, or workflow product.
+  reason: This is an academic course website with syllabi, assignments, and lecture materials — not a developer-facing AI tool, agent, framework, or infrastructure product.
   evidence:
-    - Page describes a university course with lectures, assignments, and exams
-    - Primary focus is educational (teaching self-supervised models) rather than tooling
-    - Source-list context places it under '课程 Course' (course category)
+    - Scraped site context shows it is a Johns Hopkins University course (CS 601.471/671) from Spring 2023 with lectures, assignments, and a final project
+    - README excerpt and primary page content detail course logistics, grading, topics like Word2vec, Transformers, and prompt engineering — all educational in nature
+    - No claims of being a tool, agent, library, or platform for developers to use in workflows; it is purely instructional material
 placement:
   primary_category: null
   section: null
@@ -73,24 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:31.060Z"
+    updated_at: "2026-09-28T04:37:05.687Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:573e13bd4a67488ed4774da2885767da06de31f7734dbaaab199e16592699f7c
+      category_rules_version: c367d6101132
+      input_hash: sha256:748c32aaf638ca8db366695b22bc3d284f58b92f91483e57b2334d47362b724c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an academic course, not a developer tool, framework, or workflow product.
+      decision_reason: This is an academic course website with syllabi, assignments, and lecture materials — not a developer-facing AI tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - Page describes a university course with lectures, assignments, and exams
-        - Primary focus is educational (teaching self-supervised models) rather than tooling
-        - Source-list context places it under '课程 Course' (course category)
+        - Scraped site context shows it is a Johns Hopkins University course (CS 601.471/671) from Spring 2023 with lectures, assignments, and a final project
+        - README excerpt and primary page content detail course logistics, grading, topics like Word2vec, Transformers, and prompt engineering — all educational in nature
+        - No claims of being a tool, agent, library, or platform for developers to use in workflows; it is purely instructional material
       category_candidates: []
       contrastive_reason: null
       review_reason: null

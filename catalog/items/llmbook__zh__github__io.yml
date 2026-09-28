@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language book and educational resource on large language models, including code examples and teaching materials.
-  why_it_matters: Provides developers with a structured, in-depth reference for understanding LLM fundamentals, architectures, and practical implementation details.
-  mental_damage: Another book to add to the pile of things you’ll never finish reading but will feel guilty about not reading.
+  summary: A Chinese-language textbook on large language models covering architecture, training, alignment, and applications, hosted as a static GitHub Pages site.
+  why_it_matters: Provides a structured, developer-friendly resource for understanding LLM internals and prompt engineering techniques relevant to AI-assisted software development.
+  mental_damage: Another PDF-heavy 'comprehensive guide' that pretends to be a tool while you’re just trying to find the MCP server list you saw referenced in a footnote.
   tags:
-    - education
     - llm
-    - chinese
-    - book
+    - education
+    - reference
+    - prompt-engineering
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational book and resource, not a practical AI tool, agent, workflow, or infrastructure for software developers.
+  reason: This is an educational resource and reference book, not a developer-facing AI tool, agent, framework, or infrastructure product that actively aids in coding workflows.
   evidence:
-    - The project is a book titled '大语言模型' (Large Language Models) with associated teaching materials and code examples
-    - It is categorized as a '书籍 Book' in the source list context
-    - The primary value is educational content, not a developer-facing tool or workflow
+    - Described as a Chinese textbook on LLMs authored by researchers, published via 高等教育出版社, with course materials and citation format provided.
+    - Primary content includes textbook chapters, PPT slides, code snippets, and teaching videos — all educational artifacts, not operational tools.
+    - Listed in awesome-LLM-resources under the '书籍 Book' section, confirming its identity as a curated educational resource rather than a tool.
 placement:
   primary_category: null
   section: null
@@ -72,24 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:14.062Z"
+    updated_at: "2026-09-28T04:31:31.385Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:2225d494d472b92dfaba6f74c7e795467273b9c18048a971ba4a290bbe35902e
+      category_rules_version: c367d6101132
+      input_hash: sha256:f78dff0bd458c8604f37870997bf31048fa67e55bb94b50c7b07388bef90044d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational book and resource, not a practical AI tool, agent, workflow, or infrastructure for software developers.
+      decision_reason: This is an educational resource and reference book, not a developer-facing AI tool, agent, framework, or infrastructure product that actively aids in coding workflows.
       decision_evidence:
-        - The project is a book titled '大语言模型' (Large Language Models) with associated teaching materials and code examples
-        - It is categorized as a '书籍 Book' in the source list context
-        - The primary value is educational content, not a developer-facing tool or workflow
+        - Described as a Chinese textbook on LLMs authored by researchers, published via 高等教育出版社, with course materials and citation format provided.
+        - Primary content includes textbook chapters, PPT slides, code snippets, and teaching videos — all educational artifacts, not operational tools.
+        - Listed in awesome-LLM-resources under the '书籍 Book' section, confirming its identity as a curated educational resource rather than a tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

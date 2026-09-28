@@ -441,7 +441,7 @@ _These are new or low-traffic entries being watched._
   `ai-tells` `mcp` `linter` `prose` `cli`
   </details>
 
-- **[gupta-kush/spotify-mcp](https://github.com/gupta-kush/spotify-mcp)** `⭐ 8` `updated ≤180d` An MCP server that exposes 100+ Spotify tools (playback, playlists, discovery, curation) to Claude, Cursor, or any MCP client. <details><summary>More about</summary>
+- **[gupta-kush/spotify-mcp](https://github.com/gupta-kush/spotify-mcp)** `⭐ 8` `updated ≤1y` An MCP server that exposes 100+ Spotify tools (playback, playlists, discovery, curation) to Claude, Cursor, or any MCP client. <details><summary>More about</summary>
 
   Lets developers control Spotify directly from their AI coding environment, enabling music-related workflows without leaving the IDE or terminal.
 
@@ -603,13 +603,22 @@ _These are new or low-traffic entries being watched._
   `code-quality` `ai-detection` `github-actions` `static-analysis`
   </details>
 
-- **[bobaba99/motionlint](https://github.com/bobaba99/motionlint)** `⭐ 0` `updated ≤90d` A CLI and MCP server that performs deterministic motion audits and vision-LLM design reviews for web animations. <details><summary>More about</summary>
+- **[bobaba99/motionlint](https://github.com/bobaba99/motionlint)** `⭐ 0` `updated ≤90d` MotionLint is a CLI tool that performs deterministic motion audits and vision-LLM design reviews of web animations via Playwright and MCP integration. <details><summary>More about</summary>
 
-  It bridges the 'vision gap' for AI coding agents, allowing them to validate the actual visual motion and UX of a running app rather than just reading the CSS.
+  It closes the gap between AI coding agents and visual output by measuring actual animation behavior and feeding ranked findings back into the developer workflow.
 
-  _Because nothing says 'modern development' like having an LLM audit your easing curves to ensure your loading spinners aren't accidentally causing existential dread._
+  _Finally, a way to make your AI pair programmer feel guilty about that 600ms modal it swore was 'subtle'._
 
-  `motion-design` `mcp` `qa-automation` `ui-testing` `claude-code`
+  `animation` `linting` `mcp` `claude-code` `developer-tools`
+  </details>
+
+- **[agent-cost-guardrails](https://npmjs.com/package/agent-cost-guardrails)** agent-cost-guardrails is an npm package that provides cost monitoring and budget controls for AI agents. <details><summary>More about</summary>
+
+  Helps developers prevent runaway AI spending by setting usage limits and alerts for agent operations.
+
+  _Finally, a way to feel guilty about both your code quality and your cloud bill at the same time._
+
+  `cost-management` `ai-agents` `budgeting`
   </details>
 
 - **[ClevAgent](https://clevagent.io)** ClevAgent is a supervised terminal layer that adds guidance and safety checks for AI agents running in developer environments. <details><summary>More about</summary>
@@ -621,24 +630,6 @@ _These are new or low-traffic entries being watched._
   `ai-dev-extensions` `mcp`
   </details>
 
-- **[Codacy](https://codacy.com)** Codacy is a code quality and security platform that enforces coding standards, including AI-specific policies, across development workflows. <details><summary>More about</summary>
-
-  It helps engineering teams maintain code quality, security, and compliance while integrating AI coding agents into their SDLC.
-
-  _Now your AI coding agents have to follow the same rules as the humans, which is either progress or a new layer of bureaucracy._
-
-  `code-quality` `security` `ai-governance` `static-analysis` `compliance`
-  </details>
-
-- **[dbForge AI Assistant](https://devart.com/dbforge/ai-assistant)** dbForge AI Assistant is a commercial SQL-focused AI tool that generates, optimizes, explains, and troubleshoots SQL queries across major database systems. <details><summary>More about</summary>
-
-  It accelerates SQL workflows for developers, DBAs, and analysts by converting natural language to queries, optimizing performance, and providing real-time guidance.
-
-  _Finally, an AI that can explain why your JOIN is slow—just don’t ask it to debug your existential dread._
-
-  `sql` `database` `query-optimization` `ai-assistant` `commercial`
-  </details>
-
 - **[GistPad VS Code extension](https://marketplace.visualstudio.com/items)** A Visual Studio Code extension for managing GitHub Gists and repositories directly from the editor. <details><summary>More about</summary>
 
   Developers can edit, create, and organize code snippets, notes, and repositories without local cloning or manual Git operations.
@@ -648,13 +639,31 @@ _These are new or low-traffic entries being watched._
   `vscode-extension` `github-integration` `code-snippets` `knowledge-management`
   </details>
 
-- **[JetBrains AI](https://jetbrains.com/ai)** JetBrains AI is a suite of integrated AI tools and services for software development offered by JetBrains. <details><summary>More about</summary>
+- **[GitGuardian](https://gitguardian.com)** GitGuardian is a security platform that detects and remediates exposed secrets, API keys, and non-human identities across code repositories, developer endpoints, and cloud infrastructure. <details><summary>More about</summary>
 
-  It provides AI-powered coding assistance directly within JetBrains' IDE ecosystem, enhancing developer productivity.
+  It helps developers prevent credential leaks that lead to breaches by integrating secret scanning into their workflow via CLI, IDE, and CI/CD.
 
-  _Now you can argue with AI about Kotlin syntax in the same window where you already argue with the compiler._
+  _Finally, a tool that treats your .env file like a live grenade — and now you’re the one holding the pin._
 
-  `ide-integration` `ai-assistance` `jetbrains` `coding-tools`
+  `security` `devsecops` `secrets`
+  </details>
+
+- **[JSONFix](https://jsonfix-lake.vercel.app)** JSONFix is a free online tool that formats, validates, minifies, and uses Claude to automatically repair broken JSON. <details><summary>More about</summary>
+
+  Developers can instantly fix malformed JSON from APIs, configs, or LLM outputs without writing custom parsers or regexes.
+
+  _Another bandaid for the eternal JSON hell, where even AIs need therapy to handle commas and quotes._
+
+  `json` `formatter` `ai-fix` `developer-tool` `online-utility`
+  </details>
+
+- **[Nullify.ai](https://nullify.ai)** Nullify.ai is an autonomous AI system that detects, validates, fixes, and routes product-security vulnerabilities to merge-ready pull requests. <details><summary>More about</summary>
+
+  It reduces developer toil by automating the entire security remediation loop from detection to merge, freeing engineers from false positive noise.
+
+  _Watching an AI agent argue with your CI pipeline over a JWT handler is the new form of pair programming you didn’t ask for._
+
+  `security` `devsecops` `ai-agent` `automation`
   </details>
 
 - **[OpenClaw](https://docs.openclaw.ai/zh-CN)** A self-hosted AI agent gateway that connects messaging channels like Discord, Slack, and WhatsApp to AI coding agents. <details><summary>More about</summary>
@@ -666,13 +675,31 @@ _These are new or low-traffic entries being watched._
   `ai-agent` `gateway` `messaging-integration` `self-hosted` `automation`
   </details>
 
-- **[Pica](https://withone.ai)** One is an agent infrastructure platform that connects AI agents to 500+ apps with managed auth, memory, scheduling, and tool integrations via a CLI. <details><summary>More about</summary>
+- **[Parasoft](https://parasoft.com)** Parasoft is an enterprise automated testing platform that uses AI for static analysis, test generation, and test maintenance across the software development lifecycle. <details><summary>More about</summary>
 
-  It lets developers give agents production-safe access to external platforms without drowning the context window in tool schemas.
+  It helps developers improve code quality and reduce technical debt by integrating AI-driven testing into CI/CD pipelines and static analysis workflows.
 
-  _Finally, a way to stop your agent from hallucinating API fields while still pretending it can use every SaaS under the sun._
+  _Yet another tool promising to 'weave AI into your workflow' while adding another enterprise dashboard to monitor._
 
-  `agent-infrastructure` `tool-integration` `cli` `auth-management` `workflow-automation`
+  `testing` `static-analysis` `ai` `qa` `enterprise`
+  </details>
+
+- **[Postman API](https://postman.com/postman/postman-public-workspace)** Postman API is a widely used platform for designing, testing, and managing HTTP APIs, featuring collaborative workspaces and automated documentation generation. <details><summary>More about</summary>
+
+  It streamlines API development and integration workflows, reducing boilerplate and enabling faster iteration for backend and frontend developers.
+
+  _Another essential tool that makes you wonder how you ever shipped APIs without it — until you realize you still spend half your day debugging auth headers._
+
+  `api` `testing` `collaboration`
+  </details>
+
+- **[ScreenshotOne](https://screenshotone.com)** ScreenshotOne is a developer API for capturing website screenshots, PDFs, and scrolling videos with built-in ad and banner blocking. <details><summary>More about</summary>
+
+  It lets developers automate visual testing, documentation, or AI agent workflows without managing browser infrastructure or handling edge cases like lazy loading or consent popups.
+
+  _Another API to wrap in retry logic when the screenshot service randomly fails on Fridays because of a new cookie banner heuristic._
+
+  `screenshot` `api` `automation` `testing` `ai-agents`
   </details>
 
 - **[Semgrep](https://semgrep.dev)** An extensible application security platform that scans source code for vulnerabilities using AI-assisted SAST, SCA, and secrets detection. <details><summary>More about</summary>
@@ -684,20 +711,20 @@ _These are new or low-traffic entries being watched._
   `security` `static-analysis` `ai-assisted` `sast` `mcp`
   </details>
 
-- **[Supercode.sh](https://supercode.sh)** A Cursor extension that enhances the AI coding workflow. <details><summary>More about</summary>
+- **[Supercode.sh](https://supercode.sh)** Supercode.sh is an extension for Claude, Codex, and Cursor that optimizes token usage, provides curated agent skills, and enables spec-driven development. <details><summary>More about</summary>
 
-  It extends Cursor with additional capabilities to streamline full-cycle AI-assisted coding.
+  It reduces token waste and improves agent reliability for developers using AI coding assistants by adding structured skills and context management.
 
-  _Because your editor wasn’t already crowded enough with AI overlays._
+  _Another layer between you and the AI, promising to fix the very inefficiencies introduced by relying on AI to write code._
 
-  `cursor-extension` `ai-coding` `workflow`
+  `ai-extension` `token-optimization` `agent-skills`
   </details>
 
-- **[Tabnine](https://tabnine.com)** Tabnine is an AI code assistant that provides code completion, generation, and context-aware suggestions within IDEs. <details><summary>More about</summary>
+- **[Vulert](https://vulert.com)** Vulert is a web-based software composition analysis service that scans dependency manifests and SBOMs to detect vulnerabilities and provide version-specific remediation guidance without accessing source code. <details><summary>More about</summary>
 
-  It accelerates software development with private, secure, and compliant AI assistance that integrates directly into existing workflows.
+  It lets developers monitor open-source dependencies for vulnerabilities continuously and get actionable fixes, especially useful for auditing AI-generated code changes.
 
-  _Another AI pair programmer that promises to read your mind—and your codebase—while you wonder if it’s actually learning your style or just guessing really well._
+  _Another tool to add to the growing list of things you have to remember to run before shipping, because trusting AI-generated dependencies is now a compliance liability._
 
-  `code-completion` `ide-integration` `enterprise-ai` `self-hostable` `multi-model`
+  `security` `sca` `dependency-monitoring`
   </details>

@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Open-RAG-c41b2a4dcdea4527a7c1cd998e763595 is a Notion-based collaborative AI workspace for building and orchestrating agents alongside team projects, meetings, and connected apps.
-  why_it_matters: It enables developers to co-create and manage AI agents in the same environment as their documentation and workflows, reducing context switching.
-  mental_damage: Another Notion page promising seamless AI-team symbiosis while you still manually copy-paste agent outputs into Jira tickets.
+  summary: Open-RAG-c41b2a4dcdea4527a7c1cd998e763595 is a Notion page describing a collaborative AI workspace for building and orchestrating agents alongside company context, projects, meetings, and connected apps.
+  why_it_matters: It matters as a conceptual example of agent orchestration tools aiming to unify team workflows with AI agents in a shared workspace.
+  mental_damage: Another Notion page promising AI-powered team synergy while developers just want something that doesn’t require exporting PDFs to trigger a workflow.
   tags:
-    - ai-workspace
     - agent-orchestration
     - notion
+    - workspace
   confidence: high
 curation:
   status: excluded
-  reason: The product is a Notion documentation page describing a conceptual workspace, not a standalone developer tool or agent platform with executable functionality.
+  reason: The source is a Notion documentation page describing a product vision, not a standalone developer-facing tool, SDK, or agent with executable functionality.
   evidence:
-    - Source is a Notion page (openrag.notion.site) with no GitHub repo, stars, or code artifacts
-    - Scraped site context describes it as 'A collaborative AI workspace, built on your company context' — a marketing description, not a technical product
-    - Listed in awesome-LLM-resources under '课程 Course' (educational resources), indicating it is curated as learning material, not a tool
+    - URL points to a Notion site (openrag.notion.site), indicating documentation or marketing content
+    - Scraped site context describes it as 'A collaborative AI workspace...' with no evidence of code, CLI, API, or installable tooling
+    - No repo description, stars, or activity signals — treated as a static page, not a software project
 placement:
   primary_category: null
   section: null
@@ -69,25 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:27:56.805Z"
+    updated_at: "2026-09-28T04:54:58.353Z"
     cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:f019325739667eb0b16ccbccf2be4d792a487ae27206f73dff4f0c6bf05e045d
+      category_rules_version: c367d6101132
+      input_hash: sha256:b99f21fdeb5be881faa815bfef7384453f5be5bd2ed3963b8c1f996711de569d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a Notion documentation page describing a conceptual workspace, not a standalone developer tool or agent platform with executable functionality.
+      decision_reason: The source is a Notion documentation page describing a product vision, not a standalone developer-facing tool, SDK, or agent with executable functionality.
       decision_evidence:
-        - Source is a Notion page (openrag.notion.site) with no GitHub repo, stars, or code artifacts
-        - Scraped site context describes it as 'A collaborative AI workspace, built on your company context' — a marketing description, not a technical product
-        - Listed in awesome-LLM-resources under '课程 Course' (educational resources), indicating it is curated as learning material, not a tool
+        - URL points to a Notion site (openrag.notion.site), indicating documentation or marketing content
+        - Scraped site context describes it as 'A collaborative AI workspace...' with no evidence of code, CLI, API, or installable tooling
+        - No repo description, stars, or activity signals — treated as a static page, not a software project
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132

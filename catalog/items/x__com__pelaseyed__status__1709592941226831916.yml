@@ -37,22 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A tweet announcing code execution support for Superagent via integration with e2b.
-  why_it_matters: Enables Superagent users to execute code as part of their agent workflows with minimal setup.
-  mental_damage: Now your agents can run code, which means they can also break your code, but at least it only takes 10 lines to start.
+  summary: A Twitter/X post announcing code execution support for Superagent via E2B integration.
+  why_it_matters: Highlights a specific feature addition (code execution) to an AI agent platform, relevant for developers evaluating agent capabilities.
+  mental_damage: Another social media hype cycle for a feature that may already exist elsewhere, contributing to the noise in AI tool discovery.
   tags:
-    - agent-orchestration
+    - ai-agents
     - code-execution
-    - e2b
-    - superagent
+    - social-media
   confidence: high
 curation:
   status: excluded
-  reason: This is a social media announcement, not a standalone product or tool, and thus falls outside the catalog's scope of practical AI tools for developers.
+  reason: This is a social media announcement, not a standalone product, tool, or curation effort; it lacks the enduring, developer-facing tooling identity required for inclusion.
   evidence:
-    - The URL points to a tweet, not a repo or product page
-    - The content is an announcement, not a tool or framework
-    - No actionable developer-facing artifact is provided
+    - "Source is a Twitter/X post (URL: https://x.com/pelaseyed/status/1709592941226831916)"
+    - Content is a promotional announcement about code execution support for Superagent via E2B
+    - No repository, product, or sustained tooling artifact is described; it is a transient social post
 placement:
   primary_category: null
   section: null
@@ -71,24 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:57.012Z"
+    updated_at: "2026-09-28T04:51:27.836Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ffc42f7319fa3fc4a377c071e3b95ed14911e996a06da15a90fb3f5255bba2b0
+      category_rules_version: c367d6101132
+      input_hash: sha256:caa59868272210cb0fb99bf922b133ab18aac28bb4ad851fdab33ec36f7876b1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a social media announcement, not a standalone product or tool, and thus falls outside the catalog's scope of practical AI tools for developers.
+      decision_reason: This is a social media announcement, not a standalone product, tool, or curation effort; it lacks the enduring, developer-facing tooling identity required for inclusion.
       decision_evidence:
-        - The URL points to a tweet, not a repo or product page
-        - The content is an announcement, not a tool or framework
-        - No actionable developer-facing artifact is provided
+        - "Source is a Twitter/X post (URL: https://x.com/pelaseyed/status/1709592941226831916)"
+        - Content is a promotional announcement about code execution support for Superagent via E2B
+        - No repository, product, or sustained tooling artifact is described; it is a transient social post
       category_candidates: []
       contrastive_reason: null
       review_reason: null

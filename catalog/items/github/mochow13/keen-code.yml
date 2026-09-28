@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/mochow13/keen-code
         surrounding_text: "- **[Keen Code](https://github.com/mochow13/keen-code)** `⭐ 35` — Go-based CLI coding agent focused on efficient context management — uses lean TurnMemory summaries instead of raw tool traces to maximize context efficiency. 9+ providers, skill-driven MCP servers, and full transparency with every prompt, design doc, and implementation plan saved as markdown. MIT."
         confidence: high
+    - id: discovery__github__mochow13__keen-code__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-28T04:13:54.113Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Keen Code
+        extracted_url: https://github.com/mochow13/keen-code
+        surrounding_text: "- **[Keen Code](https://github.com/mochow13/keen-code)** – An open-source, context-aware terminal-based coding agent written in Go. Supports multiple providers, MCPs, subagents, Agent Skills, controllable tool output retention, hashline edits, and more."
+        confidence: high
 metadata:
   github:
     stars: 51
@@ -71,7 +86,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: "2026-09-28T04:13:54.115Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,7 +96,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-24T04:13:12.446Z"
+    updated_at: "2026-09-28T04:14:00.167Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

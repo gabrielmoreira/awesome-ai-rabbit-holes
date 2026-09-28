@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__meticulous__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Testing and QA
         anchor_text: Meticulous
         extracted_url: https://meticulous.ai
-        surrounding_text: '- **[Meticulous](https://www.meticulous.ai/)** – AI-driven visual and functional testing.'
+        surrounding_text: "- **[Meticulous](https://www.meticulous.ai/)** – AI-driven visual and functional testing."
         confidence: high
     - id: discovery__www__meticulous__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Testing and QA
         anchor_text: Meticulous
         extracted_url: https://www.meticulous.ai
-        surrounding_text: '- **[Meticulous](https://www.meticulous.ai/)** – AI-driven visual and functional testing.'
+        surrounding_text: "- **[Meticulous](https://www.meticulous.ai/)** – AI-driven visual and functional testing."
         confidence: high
 metadata:
   github:
@@ -51,27 +51,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An AI-powered platform that automatically generates and maintains visual frontend browser tests by recording user
-    interactions.
-  why_it_matters: >-
-    It eliminates the heavy lifting of writing and updating fragile E2E tests by automatically evolving the test suite
-    as the application changes.
-  mental_damage: >-
-    You can finally stop debugging your tests, only to realize you're now just debugging the deterministic engine that
-    was supposed to solve the problem.
+  summary: Meticulous is a visual frontend testing tool that auto-generates and maintains end-to-end browser tests by recording developer interactions.
+  why_it_matters: It reduces manual test maintenance by automatically updating test suites as the application evolves.
+  mental_damage: Hope you enjoy trusting an AI to decide what user behavior matters enough to test forever.
   tags:
     - testing
     - frontend
-    - e2e
-    - visual-testing
     - automation
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: >-
-    The product integrates with the development workflow to automatically generate and maintain tests, fitting as an
-    AI-powered extension to the QA process rather than a primary coding agent.
+  reason: The product integrates with the development workflow to automatically generate and maintain tests, fitting as an AI-powered extension to the QA process rather than a primary coding agent.
   evidence:
     - Listed in awesome-ai-coding-tools under the 'Testing and QA' section.
     - Primary excerpt states it 'auto-generates and auto-maintains visual frontend browser tests'.
@@ -79,44 +69,40 @@ curation:
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''coding-agents'''
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'evals'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-08-27T06:20:44.679Z'
+    updated_at: "2026-09-28T04:54:14.985Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4b030334d8fc5a6aeed98dd0e0d9b894bf263ced4bfa54fd72903626888788e4
-      proposed_primary_category: coding-agents
+      category_rules_version: c367d6101132
+      input_hash: sha256:485187c3fd5858c9fd83558a4fe1be3aac1b57524d56025db576585b7babb75a
+      proposed_primary_category: evals
       disagreement: true
-      decision_reason: >-
-        Meticulous functions as an agentic testing layer that autonomously plans, writes, and maintains visual frontend
-        test suites.
+      decision_reason: Meticulous belongs in evals because its core function is measuring and validating frontend application behavior through automated test generation and regression detection, aligning with the evals category's focus on assessing AI or system behavior.
       decision_evidence:
-        - Claims to auto-generate and auto-maintain visual frontend browser tests with zero developer effort
-        - Uses an AI engine to track code branches and user flows to curate an evolving test suite
-        - Integrates via a recorder script and CI to automate the testing lifecycle
+        - Meticulous auto-generates and auto-maintains visual frontend browser tests, providing coverage unattainable with manual tests.
+        - It records user interactions and uses AI to generate a continuously evolving test suite that covers every line of the codebase.
+        - It detects the impact of code changes before merge by comparing test outcomes against saved backend responses.
       category_candidates:
-        - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because Meticulous is a standalone testing platform that automates a
-        core part of the development workflow rather than being a plugin for an editor or assistant.
-      review_reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''coding-agents'''
+        - evals
+        - extensions-and-addons
+      contrastive_reason: Choose evals over extensions-and-addons because Meticulous primarily measures and validates application behavior rather than extending a coding agent or editor with new capabilities.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'evals'"
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.967Z'
+    updated_at: "2026-07-21T15:20:21.967Z"
     cause: null
     next_retry_at: null
   stars:

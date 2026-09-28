@@ -37,21 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An X (Twitter) social media profile with no associated repository or developer product description.
-  why_it_matters: It is not a shipping tool, SDK, or agent that developers can adopt or integrate.
-  mental_damage: When a social handle counts as infrastructure, we have officially automated the hype cycle.
+  summary: A personal X (Twitter) account belonging to Rahul, CEO of JuliusAI, sharing updates about JuliusAI and tech commentary.
+  why_it_matters: Provides occasional insights into JuliusAI's features and CEO perspectives, but is not a developer tool or product.
+  mental_damage: Following a CEO's personal feed for AI tool updates is like subscribing to a weather vane to predict hurricanes.
   tags:
     - social-media
-    - x-profile
-    - not-a-tool
+    - ceo-updates
   confidence: high
 curation:
   status: excluded
-  reason: This is a personal or brand social media profile, not a developer-facing AI tool, agent, or infrastructure product.
+  reason: This is a personal social media account, not a developer-facing AI tool, agent, or infrastructure product.
   evidence:
-    - URL is https://x.com/0interestrates, a social media profile page
-    - No repository, README, or product description available
-    - Scraped page excerpt shows only a generic X.com error/load message with no tool context
+    - URL is a personal X/Twitter profile (@0interestrates)
+    - Scraped content shows personal posts about JuliusAI launches, tech opinions, and non-tool content
+    - No evidence of a reusable tool, SDK, agent, or product being offered to developers
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-23T05:14:24.816Z"
+    updated_at: "2026-09-28T04:52:07.777Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:136ee6e35c0a720725e640a601610870453f6f527f75d7ba30cd5a175a87eaac
+      category_rules_version: c367d6101132
+      input_hash: sha256:52f2ba6a8153439cc0fefd35f9134fd7e0cfff1f838d9dd61e8b19486d137ea1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a personal or brand social media profile, not a developer-facing AI tool, agent, or infrastructure product.
+      decision_reason: This is a personal social media account, not a developer-facing AI tool, agent, or infrastructure product.
       decision_evidence:
-        - URL is https://x.com/0interestrates, a social media profile page
-        - No repository, README, or product description available
-        - Scraped page excerpt shows only a generic X.com error/load message with no tool context
+        - URL is a personal X/Twitter profile (@0interestrates)
+        - Scraped content shows personal posts about JuliusAI launches, tech opinions, and non-tool content
+        - No evidence of a reusable tool, SDK, agent, or product being offered to developers
       category_candidates: []
       contrastive_reason: null
       review_reason: null

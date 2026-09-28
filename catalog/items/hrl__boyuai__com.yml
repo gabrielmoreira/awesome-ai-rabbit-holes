@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A free online book and course platform for learning reinforcement learning with interactive Jupyter Notebooks.
-  why_it_matters: Provides developers with structured, hands-on educational material for understanding and implementing RL algorithms.
-  mental_damage: Another day, another AI-adjacent learning resource that will collect dust in your bookmarks.
+  summary: A pedagogical resource and textbook covering the fundamentals and advanced topics of Reinforcement Learning.
+  why_it_matters: It provides a structured learning path and practical Jupyter Notebooks for mastering RL algorithms.
+  mental_damage: A textbook that promises to explain exactly why your agent's reward function is broken.
   tags:
-    - education
     - reinforcement-learning
-    - jupyter-notebooks
+    - education
+    - textbook
+    - ml-research
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational resource (book/course) rather than a practical AI tool, workflow, or developer-facing infrastructure.
+  reason: This is a specialized educational resource/textbook on Reinforcement Learning, which falls under general ML research rather than the practical developer-facing AI tooling required for the catalog.
   evidence:
-    - Primary page excerpt describes it as a book and course platform for reinforcement learning
-    - Source-list context places it under '书籍 Book' (Books) section
-    - No indication of a developer tool, framework, or workflow product
+    - Scraped content describes it as a 'Hands-on Reinforcement Learning' book and course
+    - Categorized as 'Book' in existing source lists
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:35.006Z"
+    updated_at: "2026-09-28T04:22:26.459Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:c5838ef62668e6822cc4268699de1ebf09edcf43a6902e66b19dafa79e871515
+      category_rules_version: c367d6101132
+      input_hash: sha256:9da3e29c733121a9645dbbb6da1de4184d0f01d7994f8c7f7c7f609af05b74df
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational resource (book/course) rather than a practical AI tool, workflow, or developer-facing infrastructure.
+      decision_reason: This is a specialized educational resource/textbook on Reinforcement Learning, which falls under general ML research rather than the practical developer-facing AI tooling required for the catalog.
       decision_evidence:
-        - Primary page excerpt describes it as a book and course platform for reinforcement learning
-        - Source-list context places it under '书籍 Book' (Books) section
-        - No indication of a developer tool, framework, or workflow product
+        - Scraped content describes it as a 'Hands-on Reinforcement Learning' book and course
+        - Categorized as 'Book' in existing source lists
       category_candidates: []
       contrastive_reason: null
       review_reason: null

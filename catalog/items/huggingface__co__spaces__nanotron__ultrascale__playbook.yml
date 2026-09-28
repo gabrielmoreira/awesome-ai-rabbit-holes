@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A guide for training large language models on large GPU clusters.
-  why_it_matters: Provides practical insights for developers working on distributed LLM training workflows.
-  mental_damage: Because nothing says 'simple' like coordinating a thousand GPUs to teach a model the meaning of 'hello world'.
+  summary: A technical guide for training large language models on large GPU clusters.
+  why_it_matters: It provides specialized instructions for managing the infrastructure and complexities of massive-scale distributed training.
+  mental_damage: Because reading about trillion-parameter training will certainly make your local fine-tuning feel more significant.
   tags:
     - llm-training
     - gpu-clusters
-    - guide
+    - infrastructure
+    - playbook
   confidence: high
 curation:
   status: excluded
-  reason: This is a guide/documentation resource rather than a developer tool, framework, or product that fits the catalog's scope.
+  reason: The resource is an educational guide/playbook rather than a standalone developer-facing tool, agent, or framework.
   evidence:
-    - Described as 'The ultimate guide to training LLM on large GPU Clusters'
-    - Hosted as a Hugging Face Space with no indication of executable tooling
-    - Source-list context places it under '技巧 Tips' (tips/techniques) rather than a tool category
+    - Scraped site description identifies it as 'The ultimate guide to training LLM on large GPU Clusters'
+    - The product is a documentation resource/guide rather than a functional software product or library
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:14.688Z"
+    updated_at: "2026-09-28T04:27:58.069Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0170a53b42cf7912c9ae3a219da63148300e9007407cd758616ee57680728d88
+      category_rules_version: c367d6101132
+      input_hash: sha256:db5b3f0dc451df59eb1095a8089c54428f25903f90ec80d75be94eba9e9346c7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a guide/documentation resource rather than a developer tool, framework, or product that fits the catalog's scope.
+      decision_reason: The resource is an educational guide/playbook rather than a standalone developer-facing tool, agent, or framework.
       decision_evidence:
-        - Described as 'The ultimate guide to training LLM on large GPU Clusters'
-        - Hosted as a Hugging Face Space with no indication of executable tooling
-        - Source-list context places it under '技巧 Tips' (tips/techniques) rather than a tool category
+        - Scraped site description identifies it as 'The ultimate guide to training LLM on large GPU Clusters'
+        - The product is a documentation resource/guide rather than a functional software product or library
       category_candidates: []
       contrastive_reason: null
       review_reason: null

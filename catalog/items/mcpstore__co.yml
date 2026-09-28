@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcpstore__co__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,37 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory for discovering and connecting to 30,000+ MCP servers for AI clients like Claude and Cursor.
-  why_it_matters: Developers can quickly find and integrate MCP servers to extend their AI assistants with new tools and capabilities.
-  mental_damage: Because nothing says 'modern development' like spending an afternoon browsing a store for plugins to your plugin.
+  summary: MCP Store is a directory and discovery service for Model Context Protocol servers that allows users to add MCP-enabled AI capabilities to clients like Claude and Cursor.
+  why_it_matters: It simplifies finding and installing MCP servers, lowering the barrier for developers to extend AI agents with external tools and data sources.
+  mental_damage: Another registry in the growing MCP gold rush, promising one-click salvation while quietly adding yet another layer of abstraction to your AI toolchain.
   tags:
     - mcp
-    - directory
-    - discovery
     - registry
-  confidence: high
+    - discovery
+  confidence: medium
 curation:
   status: included
-  reason: >-
-    The site functions primarily as a discovery layer and directory for MCP servers rather than being a standalone
-    server, client, or framework itself.
+  reason: MCP Store's core identity is as a registry and discovery service for MCP servers, making MCP its primary protocol identity rather than a side feature, which aligns with the MCP category's focus on infrastructure and discovery tools.
   evidence:
-    - Scraped site title and description explicitly state 'MCP Store - Find and Connect to 30,000+ MCP Servers'.
-    - >-
-      The UI workflow focuses on browsing a 'Collection of MCP Servers' and generating install commands for third-party
-      clients.
-    - Listed in awesome-LLM-resources under the '模型上下文协议 MCP' section specifically as a registry/discovery tool.
+    - Scraped site context describes it as 'Find and connect to 30,000+ MCP servers' and 'Easily add AI servers to Claude, Cursor and other LLM clients'.
+    - Source-list context shows it is included in awesome-LLM-resources under the '模型上下文协议 MCP' section as a discovery resource.
+    - The product enables users to create, configure, and install MCP servers via a web interface, positioning it as a registry and tooling layer for the MCP ecosystem.
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Registries & Discovery
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,29 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:29:46.469Z'
+    updated_at: "2026-09-28T04:33:05.417Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:305d1b20c36d49bd2309cac9dc711b64a236aee7891ac1cf695dea75e565a2e0
+      category_rules_version: c367d6101132
+      input_hash: sha256:df779d9fbd32694851c811ca3091fd38a1a155c1e9812857813741c07f84b9b9
       proposed_primary_category: mcp
-      disagreement: true
-      decision_reason: The product is a dedicated MCP server registry and discovery platform, making MCP its primary identity.
+      disagreement: false
+      decision_reason: MCP Store's core identity is as a registry and discovery service for MCP servers, making MCP its primary protocol identity rather than a side feature, which aligns with the MCP category's focus on infrastructure and discovery tools.
       decision_evidence:
-        - Site title and description explicitly frame it as an MCP server directory
-        - Source-list context places it under MCP section
-        - Functionality centers on MCP server discovery and integration
+        - Scraped site context describes it as 'Find and connect to 30,000+ MCP servers' and 'Easily add AI servers to Claude, Cursor and other LLM clients'.
+        - Source-list context shows it is included in awesome-LLM-resources under the '模型上下文协议 MCP' section as a discovery resource.
+        - The product enables users to create, configure, and install MCP servers via a web interface, positioning it as a registry and tooling layer for the MCP ecosystem.
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: >-
-        Choose mcp over awesome-awesomes because the product's core identity is MCP infrastructure (registry/discovery)
-        rather than a general directory of AI tooling.
-      review_reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
+      contrastive_reason: Choose mcp over awesome-awesomes because MCP Store is an operational registry and tooling service for MCP infrastructure, not a passive curated list or directory for discovery alone.
+      review_reason: null
       review_resume_lifecycle: null

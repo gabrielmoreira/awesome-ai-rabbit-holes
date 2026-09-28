@@ -51,23 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A full-stack web scraping toolkit offering APIs, cloud browsers, proxies, and anti-bot solutions for data extraction and AI agent operations.
-  why_it_matters: Developers can offload complex scraping, anti-detection, and proxy management to a unified service, reducing infrastructure overhead for data pipelines or AI agent workflows.
-  mental_damage: Finally, a way to scrape the web without getting blocked—until the scraped sites realize you’re using Scrapeless.
+  summary: Scrapeless is a cloud-based web scraping and automation platform offering AI-powered data extraction, anti-bot browsers, and proxy infrastructure for developers and AI agents.
+  why_it_matters: It provides developers with reliable, scalable access to public web data through APIs and browser automation, reducing the effort to bypass anti-scraping measures.
+  mental_damage: Yet another 'AI-powered' wrapper around browser automation that promises effortless data extraction while quietly charging per successful request.
   tags:
     - web-scraping
-    - ai-agents
-    - proxies
-    - anti-detection
     - data-extraction
+    - api
+    - browser-automation
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general-purpose web scraping SaaS with AI agent use cases, not a developer-tooling product focused on coding workflows, agent orchestration, or MCP-first infrastructure.
+  reason: Scrapeless is a general-purpose web scraping and data extraction SaaS platform; while it offers MCP server compatibility and mentions AI agents, its core identity is not developer-facing AI tooling but infrastructure for data collection workflows.
   evidence:
-    - Primary identity is a web scraping toolkit (APIs, browsers, proxies) for data extraction
-    - MCP server is a secondary feature, not the core product identity
-    - Source-list context places it under MCP servers, but the product itself is broader SaaS scraping
+    - Scraped site context emphasizes 'AI-powered seamless data extraction', 'Scraping Browser', 'Universal Scraping API', and 'Proxy Solutions' as primary products.
+    - Source-list context appears in awesome-mcp-servers under 'Official Servers' for providing MCP server functionality, but MCP is presented as a feature, not the product identity.
+    - README and site excerpt focus on enterprise data scraping, anti-bot bypass, proxy networks, and data cleaning—general web scraping capabilities rather than AI developer tooling.
 placement:
   primary_category: null
   section: null
@@ -77,24 +76,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:17.001Z"
+    updated_at: "2026-09-28T04:46:22.276Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e8ce36e02cb1c774da1aada62f71625a1d14ebd054d434b14a40aef036190985
+      category_rules_version: c367d6101132
+      input_hash: sha256:a46541e58d1a044f9b12e48711560111d2f6e88586c0be9781e945600c257ce8
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a general-purpose web scraping SaaS with AI agent use cases, not a developer-tooling product focused on coding workflows, agent orchestration, or MCP-first infrastructure.
+      decision_reason: Scrapeless is a general-purpose web scraping and data extraction SaaS platform; while it offers MCP server compatibility and mentions AI agents, its core identity is not developer-facing AI tooling but infrastructure for data collection workflows.
       decision_evidence:
-        - Primary identity is a web scraping toolkit (APIs, browsers, proxies) for data extraction
-        - MCP server is a secondary feature, not the core product identity
-        - Source-list context places it under MCP servers, but the product itself is broader SaaS scraping
+        - Scraped site context emphasizes 'AI-powered seamless data extraction', 'Scraping Browser', 'Universal Scraping API', and 'Proxy Solutions' as primary products.
+        - Source-list context appears in awesome-mcp-servers under 'Official Servers' for providing MCP server functionality, but MCP is presented as a feature, not the product identity.
+        - README and site excerpt focus on enterprise data scraping, anti-bot bypass, proxy networks, and data cleaning—general web scraping capabilities rather than AI developer tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

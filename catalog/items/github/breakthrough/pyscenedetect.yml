@@ -49,23 +49,23 @@ metadata:
       fetched_at: "2026-09-24T04:13:02.942Z"
       bytes: 6810
 insights:
-  summary: Python and OpenCV-based library and CLI tool for detecting scene cuts/transitions in videos.
-  why_it_matters: Developers can programmatically analyze video structure for editing, indexing, or content-aware processing workflows.
-  mental_damage: Finally, a way to automate the tedious work of finding where your screen recordings cut to black between demo segments.
+  summary: PySceneDetect is a Python and OpenCV-based library and CLI tool for detecting scene cuts and transitions in videos.
+  why_it_matters: It gives developers a programmatic way to automatically segment videos into scenes for editing, analysis, or further processing pipelines.
+  mental_damage: Another reminder that video metadata extraction still feels like dark magic wrapped in FFmpeg incantations.
   tags:
-    - video-processing
+    - video
     - opencv
     - scene-detection
-    - python
     - cli
+    - library
   confidence: high
 curation:
   status: excluded
-  reason: This is a computer vision library for video analysis, not a developer-facing AI tool, agent, or workflow product.
+  reason: PySceneDetect is a computer vision tool for video analysis, not an AI-powered developer tool; it lacks any AI/ML model integration, agent behavior, or LLM-assisted workflow despite appearing in an LLM resources list.
   evidence:
-    - Repo description explicitly states it is a scene cut/transition detection program & library
-    - Topics include video-processing, opencv, scene-detection with no AI/agent/developer-tooling angle
-    - Source-list context places it under 'Video > Practical Tools' in a general LLM resource list, not developer tooling
+    - "Repo description: 'Python and OpenCV-based scene cut/transition detection program & library'"
+    - README focuses on traditional computer vision algorithms (ContentDetector, AdaptiveDetector, ThresholdDetector) with no mention of AI, LLMs, or model-assisted detection
+    - Source-list placement in 'awesome-LLM-resources' under 视频 Video > 实用工具 is incidental and does not confer AI developer tooling identity
 placement:
   primary_category: null
   section: null
@@ -84,27 +84,25 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:58:05.872Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e08e1e1b686474c4ee1f2c367976673d7fad64303911572b51134a72754737e0
+      category_rules_version: c367d6101132
+      input_hash: sha256:599c8504f107c51a6c4f102412efa0dbbb4d55edf30e7f79e8d6f757aa876a79
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a computer vision library for video analysis, not a developer-facing AI tool, agent, or workflow product.
+      decision_reason: PySceneDetect is a computer vision tool for video analysis, not an AI-powered developer tool; it lacks any AI/ML model integration, agent behavior, or LLM-assisted workflow despite appearing in an LLM resources list.
       decision_evidence:
-        - Repo description explicitly states it is a scene cut/transition detection program & library
-        - Topics include video-processing, opencv, scene-detection with no AI/agent/developer-tooling angle
-        - Source-list context places it under 'Video > Practical Tools' in a general LLM resource list, not developer tooling
+        - "Repo description: 'Python and OpenCV-based scene cut/transition detection program & library'"
+        - README focuses on traditional computer vision algorithms (ContentDetector, AdaptiveDetector, ThresholdDetector) with no mention of AI, LLMs, or model-assisted detection
+        - Source-list placement in 'awesome-LLM-resources' under 视频 Video > 实用工具 is incidental and does not confer AI developer tooling identity
       category_candidates: []
       contrastive_reason: null
       review_reason: null

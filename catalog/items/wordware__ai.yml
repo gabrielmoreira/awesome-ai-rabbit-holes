@@ -81,22 +81,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Wordware is an AI context lab whose main product is Sauna, an AI assistant focused on compounding context and proactive collaboration.
-  why_it_matters: It promises to augment deep work by learning user preferences, detecting patterns, and anticipating next steps in a workspace.
-  mental_damage: Finally, an assistant that claims to do your deep work so you can focus on the shallow work of explaining to it what deep work is.
+  summary: Wordware builds Sauna, an AI assistant that learns user taste, detects patterns, and proactively augments context for deep work.
+  why_it_matters: It promises to reduce cognitive load by automating context-aware task anticipation, targeting knowledge workers overwhelmed by shallow work.
+  mental_damage: Another AI that claims to read your mind while you still have to explain what you want it to do.
   tags:
     - ai-assistant
-    - workspace
-    - context-engineering
-    - productivity
+    - context-augmentation
+    - proactive-workflow
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general-purpose AI assistant/workspace (Sauna) with no clear developer-tooling focus, and its primary identity is not a coding agent, IDE, extension, or developer infrastructure.
+  reason: Wordware’s Sauna is a general-purpose AI workspace focused on context learning and proactive assistance for broad productivity, not developer-specific tasks like coding, debugging, or editing codebases.
   evidence:
-    - Primary product is Sauna, described as an 'intelligent workspace' for general productivity, not developer-specific workflows
-    - No mention of code editing, repo interaction, or developer tooling in the scraped context
-    - Source lists categorize it under broad AI agents/LLMOps, not developer tools
+    - Primary product is Sauna, described as an AI assistant for 'compounding context' that 'learns your taste, detects hidden patterns, augments your brain context and works proactively'.
+    - No mention of code editing, terminal interaction, IDE integration, or software development workflows in the README or site excerpt.
+    - Source-list inclusion in awesome-ai-agents and Awesome-LLMOps is based on general AI agent and LLMOps categorization, not developer tooling specificity.
 placement:
   primary_category: null
   section: null
@@ -106,24 +105,24 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:13.550Z"
+    updated_at: "2026-09-28T04:50:06.411Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d059455f49ed102a932bad8793b573338634c95ef316333304bdc0d2569a9217
+      category_rules_version: c367d6101132
+      input_hash: sha256:a925177cb5f32813125e87dac971f0cca610b5dfcef5ba19c31e90024a3cb85f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a general-purpose AI assistant/workspace (Sauna) with no clear developer-tooling focus, and its primary identity is not a coding agent, IDE, extension, or developer infrastructure.
+      decision_reason: Wordware’s Sauna is a general-purpose AI workspace focused on context learning and proactive assistance for broad productivity, not developer-specific tasks like coding, debugging, or editing codebases.
       decision_evidence:
-        - Primary product is Sauna, described as an 'intelligent workspace' for general productivity, not developer-specific workflows
-        - No mention of code editing, repo interaction, or developer tooling in the scraped context
-        - Source lists categorize it under broad AI agents/LLMOps, not developer tools
+        - Primary product is Sauna, described as an AI assistant for 'compounding context' that 'learns your taste, detects hidden patterns, augments your brain context and works proactively'.
+        - No mention of code editing, terminal interaction, IDE integration, or software development workflows in the README or site excerpt.
+        - Source-list inclusion in awesome-ai-agents and Awesome-LLMOps is based on general AI agent and LLMOps categorization, not developer tooling specificity.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

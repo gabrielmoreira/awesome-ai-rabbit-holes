@@ -36,20 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A personal profile page on Zhihu, a Chinese Q&A and content platform.
-  why_it_matters: It does not matter to developers as it is not a developer tool or resource.
-  mental_damage: Another link that turns out to be someone's social media profile instead of the promised AI tool.
+  summary: Zhihu is a Chinese knowledge-sharing Q&A platform and content community.
+  why_it_matters: It provides developers with a source of technical discussions, problem-solving, and community insights in Chinese.
+  mental_damage: Another endless scroll of answers that feels productive until you realize you’ve read 20 threads and written zero code.
   tags:
-    - non-developer-content
-    - social-media
+    - knowledge
+    - community
+    - qa
   confidence: high
 curation:
   status: excluded
-  reason: This is a personal profile on a general Q&A platform, not a developer-facing AI tool, framework, or resource.
+  reason: Zhihu is a general-purpose knowledge platform with no developer tooling, AI agent, or workflow-specific functionality; it does not fit any catalog category as it lacks a product identity relevant to AI-assisted software development.
   evidence:
-    - URL points to a Zhihu user profile page
-    - Scraped context confirms it is a Chinese Q&A/community platform, not a tool or product
-    - No repo, code, or developer-tooling identity present
+    - "Repo description: (none)"
+    - "Scraped site title: 知乎 - 有问题，就会有答案"
+    - "Scraped site description: emphasizes knowledge sharing and creator community, not AI or developer tooling"
 placement:
   primary_category: null
   section: null
@@ -68,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:29.822Z"
+    updated_at: "2026-09-28T04:50:43.143Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d3a7ab9692c2301d1000441ff3b158ae5e047d1a83793baefb085c81bd6cecfa
+      category_rules_version: c367d6101132
+      input_hash: sha256:f87802fc1d2adf8d567bf7a16e2c24ae80f7be97c15c5bf9e48faa69c531042a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a personal profile on a general Q&A platform, not a developer-facing AI tool, framework, or resource.
+      decision_reason: Zhihu is a general-purpose knowledge platform with no developer tooling, AI agent, or workflow-specific functionality; it does not fit any catalog category as it lacks a product identity relevant to AI-assisted software development.
       decision_evidence:
-        - URL points to a Zhihu user profile page
-        - Scraped context confirms it is a Chinese Q&A/community platform, not a tool or product
-        - No repo, code, or developer-tooling identity present
+        - "Repo description: (none)"
+        - "Scraped site title: 知乎 - 有问题，就会有答案"
+        - "Scraped site description: emphasizes knowledge sharing and creator community, not AI or developer tooling"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

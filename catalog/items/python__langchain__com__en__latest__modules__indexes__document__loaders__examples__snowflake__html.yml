@@ -37,25 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A LangChain documentation page demonstrating how to use Snowflake as a document loader for indexing.
-  why_it_matters: Shows developers how to integrate Snowflake data into LangChain-based retrieval workflows.
-  mental_damage: Because nothing says 'modern development' like turning your database into a prompt.
+  summary: LangChain provides a minimal, configurable agent harness for composing agents from model, tools, prompt, and middleware.
+  why_it_matters: It lets developers build custom agents by combining primitives rather than locking into a rigid agent framework.
+  mental_damage: Yet another abstraction layer where 'configurable' means spending an hour wiring together middleware just to get a weather tool to work.
   tags:
     - langchain
-    - document-loader
-    - snowflake
-    - retrieval
+    - agents
+    - framework
   confidence: high
 curation:
-  status: excluded
-  reason: This is documentation for a specific integration example, not a standalone developer tool or product.
+  status: included
+  reason: LangChain is a code-first SDK developers import to build agent applications, fitting the Frameworks & SDKs category as a library for composing agents rather than a standalone agent or orchestration platform.
   evidence:
-    - URL points to a LangChain documentation page, not a repo or product
-    - Source-list context shows it as part of LangChain's examples, not a separate project
-    - No repo description, stars, or other signals of a standalone product
+    - "LangChain provides create_agent: a minimal, highly configurable agent harness"
+    - Developers compose agents from model, tools, prompt, and middleware in code
+    - Built on top of LangGraph for durable execution and middleware support
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: LLM & Agent SDKs
 lifecycle:
   status: incubating
   reason: null
@@ -71,25 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:47.141Z"
+    updated_at: "2026-09-28T04:35:04.993Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5b73ddf8b46d64680bca4751db96b5f71f6fac1a9a42550392555fa5c76ba6ee
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:fbd0051e68de884a8c6c1fbffac761df7e6ba8488d15a06fe07090fda2264ae3
+      proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: This is documentation for a specific integration example, not a standalone developer tool or product.
+      decision_reason: LangChain is a code-first SDK developers import to build agent applications, fitting the Frameworks & SDKs category as a library for composing agents rather than a standalone agent or orchestration platform.
       decision_evidence:
-        - URL points to a LangChain documentation page, not a repo or product
-        - Source-list context shows it as part of LangChain's examples, not a separate project
-        - No repo description, stars, or other signals of a standalone product
-      category_candidates: []
-      contrastive_reason: null
+        - "LangChain provides create_agent: a minimal, highly configurable agent harness"
+        - Developers compose agents from model, tools, prompt, and middleware in code
+        - Built on top of LangGraph for durable execution and middleware support
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because LangChain is imported as a library to build agents in code, not operated as a platform for managing multiple agent teams.
       review_reason: null
       review_resume_lifecycle: null

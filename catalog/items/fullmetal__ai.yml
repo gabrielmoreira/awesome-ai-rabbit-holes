@@ -51,50 +51,51 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An unknown AI-related tool currently listed in the Inference UI section of the awesome-local-ai directory.
-  why_it_matters: It likely provides a user interface for managing or interacting with locally hosted AI models.
-  mental_damage: Just another way to stare at a progress bar while your GPU struggles to stay under 90 degrees.
+  summary: FuLLMetalAi is a local AI inference UI listed in the awesome-local-ai directory under Inference UI.
+  why_it_matters: It provides a desktop interface for running local AI models, helping developers experiment with offline LLMs without relying on cloud APIs.
+  mental_damage: Another local chat UI promising privacy while silently hoping you’ll actually quantize your 70B model on a laptop.
   tags:
     - local-ai
-    - inference-ui
-  confidence: low
+    - desktop-ui
+    - inference
+  confidence: medium
 curation:
-  status: excluded
-  reason: The project lacks sufficient documentation, description, or README substance to determine its actual function beyond a vague inclusion in a local AI list.
+  status: included
+  reason: FuLLMetalAi is a local inference UI tool, matching the Local & Self-hosted AI category’s focus on desktop apps for running models on user-controlled hardware, as evidenced by its listing in awesome-local-ai under Inference UI.
   evidence:
-    - No repo description provided
-    - No README excerpt provided
-    - Source-list context only indicates it is in an 'Inference UI' section of a local AI list
+    - Listed in awesome-local-ai under the 'Inference UI' section
+    - Presents itself as a local AI tool for running models on self-hosted infrastructure
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Desktop Chat & UIs
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: incubating
+  reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:18.451Z"
+    updated_at: "2026-09-28T04:41:08.796Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:9f0f7a4aa9e4100fb9a7266b81557b92958a3a64310b298ad1e41852f9314f23
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:8d490cfab466445d23d1cfa8857b1877b9a5cdc9990c13bc41aee2f654cf5cad
+      proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: The project lacks sufficient documentation, description, or README substance to determine its actual function beyond a vague inclusion in a local AI list.
+      decision_reason: FuLLMetalAi is a local inference UI tool, matching the Local & Self-hosted AI category’s focus on desktop apps for running models on user-controlled hardware, as evidenced by its listing in awesome-local-ai under Inference UI.
       decision_evidence:
-        - No repo description provided
-        - No README excerpt provided
-        - Source-list context only indicates it is in an 'Inference UI' section of a local AI list
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+        - Listed in awesome-local-ai under the 'Inference UI' section
+        - Presents itself as a local AI tool for running models on self-hosted infrastructure
+      category_candidates:
+        - local-ai
+        - app-builders
+      contrastive_reason: Choose local-ai over app-builders because FuLLMetalAi is a desktop interface for running existing models locally, not a tool that generates new apps from prompts.
+      review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done

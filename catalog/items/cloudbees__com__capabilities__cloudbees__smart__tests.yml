@@ -51,52 +51,52 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AI-powered test intelligence for CI/CD that prioritizes and runs only relevant tests to reduce execution time and flaky failures.
-  why_it_matters: Developers can cut CI waste by running fewer, more targeted tests without replacing existing frameworks or pipelines.
-  mental_damage: Finally, a way to stop your CI pipeline from running the entire test suite just because someone fixed a typo in a comment.
+  summary: Launchable is CloudBees Smart Tests, an AI-powered test selection and flaky test detection service that reduces CI test execution time by running only relevant tests per code change.
+  why_it_matters: It saves developers CI time and compute by intelligently prioritizing tests and reducing flaky failure noise in existing pipelines.
+  mental_damage: Finally, an AI that doesn't write code but instead decides which of your already-too-many tests you can safely ignore.
   tags:
-    - ci-cd
     - testing
-    - ai-optimization
-    - flaky-tests
-    - test-prioritization
+    - ci-cd
+    - ai
   confidence: high
 curation:
-  status: excluded
-  reason: This is a SaaS product for test intelligence in CI/CD, not a developer-facing AI tool, framework, or workflow component that fits the catalog's scope.
+  status: included
+  reason: Launchable fits Evals because its core function is measuring, tracing, and optimizing test behavior—identifying flaky tests and predicting test relevance—rather than generating or editing code.
   evidence:
-    - Product is positioned as AI test intelligence for CI/CD pipelines (not a developer tool)
-    - Primary value is operational efficiency in testing workflows, not developer-tooling
-    - Source-list context places it in Testing and QA, but the catalog excludes broad CI/CD SaaS products
+    - AI-powered test intelligence that cuts test execution time up to 80% by running only relevant tests
+    - Analyzes test behavior across pipelines to identify flaky tests, long-running tests, and reliable tests
+    - AI-powered classification groups failures, surfaces patterns, and brings relevant history into one place for faster triage
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability & Tracing
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:33:12.341Z"
+    updated_at: "2026-09-28T04:40:11.418Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ed3cf1340810469676231625e92776799f97fd34cd2cc5b19261a2a6a94c5205
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:47095efd04bf3ed6c752559078420b92e33bf38d98609c0d8b5883ed857eed7b
+      proposed_primary_category: evals
       disagreement: false
-      decision_reason: This is a SaaS product for test intelligence in CI/CD, not a developer-facing AI tool, framework, or workflow component that fits the catalog's scope.
+      decision_reason: Launchable fits Evals because its core function is measuring, tracing, and optimizing test behavior—identifying flaky tests and predicting test relevance—rather than generating or editing code.
       decision_evidence:
-        - Product is positioned as AI test intelligence for CI/CD pipelines (not a developer tool)
-        - Primary value is operational efficiency in testing workflows, not developer-tooling
-        - Source-list context places it in Testing and QA, but the catalog excludes broad CI/CD SaaS products
-      category_candidates: []
-      contrastive_reason: null
+        - AI-powered test intelligence that cuts test execution time up to 80% by running only relevant tests
+        - Analyzes test behavior across pipelines to identify flaky tests, long-running tests, and reliable tests
+        - AI-powered classification groups failures, surfaces patterns, and brings relevant history into one place for faster triage
+      category_candidates:
+        - evals
+        - extensions-and-addons
+      contrastive_reason: Choose evals over extensions-and-addons because Launchable's primary identity is AI-driven test analytics and optimization, not extending a coding agent or IDE with new capabilities.
       review_reason: null
       review_resume_lifecycle: null
   discover:

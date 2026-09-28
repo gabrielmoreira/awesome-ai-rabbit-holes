@@ -275,13 +275,13 @@ Runtimes, serving stacks, desktop apps, and tooling for running AI models on you
   `local-llm` `python` `inference` `llama-cpp` `quantization`
   </details>
 
-- **[petals](https://github.com/bigscience-workshop/petals)** `⭐ 10.6k` `updated >1y` A distributed system for running large language models locally via a BitTorrent-style network, enabling inference and fine-tuning on consumer hardware. <details><summary>More about</summary>
+- **[petals](https://github.com/bigscience-workshop/petals)** `⭐ 10.6k` `updated >1y` Petals is a distributed inference and fine-tuning system that runs large language models across a peer-to-peer network of volunteer GPUs. <details><summary>More about</summary>
 
-  Developers can run and fine-tune state-of-the-art models like Llama 3.1 (405B) or Mixtral (8x22B) on their own machines by sharing compute across a decentralized network.
+  It enables developers to run and fine-tune massive models like Llama 3.1 405B on consumer hardware by splitting model layers across a swarm of contributors.
 
-  _Finally, a way to run a 405B-parameter model on your laptop—just borrow 399B parameters from strangers on the internet._
+  _You trade privacy and latency for the thrill of running a model that could buy a small island, all while hoping strangers don’t crash the swarm mid-generation._
 
-  `local-ai` `distributed-inference` `fine-tuning` `pytorch` `llm-serving`
+  `local-ai` `inference` `distributed-systems`
   </details>
 
 - **[ART](https://github.com/openpipe/art)** `⭐ 10.5k` `updated ≤90d` Agent Reinforcement Trainer (ART) is an open-source framework and managed service for training multi-step LLM agents using GRPO reinforcement learning on models like Qwen, Llama, and GPT-OSS. <details><summary>More about</summary>
@@ -320,7 +320,7 @@ Runtimes, serving stacks, desktop apps, and tooling for running AI models on you
   `fine-tuning` `llm-eval` `model-deployment` `cli`
   </details>
 
-- **[FreeToken](https://github.com/flashml-org/freetoken)** `⭐ 8.6k` `updated ≤30d` FreeToken is an edge-native Mixture-of-Experts serving engine for running large frontier models locally on consumer hardware. <details><summary>More about</summary>
+- **[FreeToken](https://github.com/flashml-org/freetoken)** `⭐ 8.6k` `updated ≤90d` FreeToken is an edge-native Mixture-of-Experts serving engine for running large frontier models locally on consumer hardware. <details><summary>More about</summary>
 
   It lets developers run 290B+ MoE models on gaming PCs with bandwidth-adaptive execution and elastic memory management, enabling local experimentation with frontier-scale open-weight models.
 
@@ -390,6 +390,15 @@ Runtimes, serving stacks, desktop apps, and tooling for running AI models on you
   _Finally, a way to feel in control of your GPU farm while secretly hoping vLLM doesn't OOM during peak traffic._
 
   `llm-serving` `gpu-orchestration` `inference`
+  </details>
+
+- **[MLX-VLM](https://github.com/blaizzy/mlx-vlm)** `⭐ 5.5k` `updated ≤30d` MLX-VLM is a package for inference and fine-tuning of Vision Language Models on Mac using MLX. <details><summary>More about</summary>
+
+  It enables developers to run and customize multimodal models locally on Apple Silicon without cloud dependencies.
+
+  _Another local AI tool promising privacy while you wrestle with quantization scripts and batch size tuning._
+
+  `local-ai` `vision-language-model` `fine-tuning`
   </details>
 
 - **[H2O-LLMStudio](https://github.com/h2oai/h2o-llmstudio)** `⭐ 5.2k` `updated ≤30d` A framework and no-code GUI for fine-tuning large language models using techniques like LoRA, DPO, and 8-bit training. <details><summary>More about</summary>
@@ -819,31 +828,40 @@ _These are new or low-traffic entries being watched._
   `inference` `llm` `local-ai`
   </details>
 
-- **[GPT4All](https://nomic.ai/gpt4all)** A desktop application for running open-source AI models locally on Windows, macOS, and Linux with full customization and document chat capabilities. <details><summary>More about</summary>
+- **[FuLLMetalAi](https://fullmetal.ai)** FuLLMetalAi is a local AI inference UI listed in the awesome-local-ai directory under Inference UI. <details><summary>More about</summary>
 
-  Enables developers to run and experiment with LLMs privately on their own hardware without cloud dependency or data leakage.
+  It provides a desktop interface for running local AI models, helping developers experiment with offline LLMs without relying on cloud APIs.
 
-  _Finally, a way to run models locally without your laptop sounding like a jet engine—until you actually try it._
+  _Another local chat UI promising privacy while silently hoping you’ll actually quantize your 70B model on a laptop._
 
-  `local-ai` `desktop` `privacy` `llm-runtime`
+  `local-ai` `desktop-ui` `inference`
   </details>
 
-- **[HammerAI](https://hammerai.com/desktop)** A desktop app for offline AI character chat that runs LLMs locally using Ollama and Llama.cpp. <details><summary>More about</summary>
+- **[Gemma](https://kaggle.com/models/google/gemma)** Gemma is a family of lightweight, open language models released by Google via Kaggle Models. <details><summary>More about</summary>
 
-  Developers can test or interact with local models in a private, offline environment without cloud dependencies.
+  Provides developers with accessible, compact models for local fine-tuning and inference without relying on proprietary APIs.
 
-  _Finally, a way to argue with AI characters on a desert island with GPU acceleration._
+  _Another model drop that promises efficiency but still requires you to wrestle with quantization and VRAM limits to run locally._
 
-  `local-ai` `desktop` `ollama` `offline` `chat`
+  `open-model` `local-ai` `google`
   </details>
 
-- **[Jan](https://jan.ai)** An open-source desktop application for running local LLMs or connecting to cloud-based models. <details><summary>More about</summary>
+- **[GPT4All](https://nomic.ai/gpt4all)** GPT4All is a desktop application that runs open-source language models locally on Windows, macOS, and Linux for private, offline AI chat and document interaction. <details><summary>More about</summary>
 
-  It provides a private, local-first interface for interacting with models, reducing reliance on cloud APIs and improving data sovereignty.
+  It lets developers run and experiment with LLMs without internet or cloud dependencies, enabling private prototyping and offline workflows.
 
-  _The inevitable descent into comparing your local token-per-second throughput against the heat output of your laptop._
+  _Finally, an AI tool that won’t leak your code — until you accidentally paste it into the local chat and forget it’s writing to a log file somewhere._
 
-  `local-ai` `open-source` `desktop-app` `llm-interface`
+  `local-ai` `desktop-chat` `offline-llm`
+  </details>
+
+- **[H2OAI](https://h2o.ai)** An end-to-end generative and predictive AI platform designed for air-gapped, on-premises, and private cloud environments. <details><summary>More about</summary>
+
+  It enables developers in highly regulated industries to build and deploy autonomous agents and models while maintaining total data sovereignty.
+
+  _It's 'local AI' for people who have to clear their model weights with a compliance committee first._
+
+  `enterprise-ai` `local-ai` `mlops` `generative-ai`
   </details>
 
 - **[LibreChat](https://www.librechat.ai)** An open-source, self-hostable platform that provides a unified interface for multiple AI models, agents, and tools. <details><summary>More about</summary>
@@ -853,4 +871,22 @@ _These are new or low-traffic entries being watched._
   _One more unified dashboard to keep in sync with your increasingly fragmented collection of API keys and model versions._
 
   `self-hosted` `chat-ui` `multi-model` `open-source` `agents`
+  </details>
+
+- **[Naut](https://ruliad.co)** Ruliad Chat is a self-sovereign intelligence chat interface. <details><summary>More about</summary>
+
+  It offers developers a private, locally controlled AI chat experience focused on autonomy and data ownership.
+
+  _Another chat UI promising sovereignty while you still wonder if it just wraps a cloud model behind a local frontend._
+
+  `local-ai` `chat`
+  </details>
+
+- **[NVIDIA ChatRTX](https://nvidia.com/en-us/ai-on-rtx)** NVIDIA ChatRTX is a desktop AI assistant that runs locally on RTX PCs to answer questions using personal documents and data. <details><summary>More about</summary>
+
+  It lets developers run private, offline LLM-powered search and Q&A on their own files without relying on cloud APIs or internet access.
+
+  _Another 'AI PC' app that makes you wonder if your GPU is now a full-time therapist for your messy Downloads folder._
+
+  `local-ai` `desktop-assistant` `offline-ai`
   </details>

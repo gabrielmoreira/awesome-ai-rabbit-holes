@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__heliumtrades__com__mcp__page__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,12 +18,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: Documentation
         extracted_url: https://heliumtrades.com/mcp-page
-        surrounding_text: >-
-          - **[Helium MCP](https://github.com/connerlambden/helium-mcp)** – Remote MCP server for AI coding assistants
-          with real-time news and multi-dimensional bias scoring (3.2M+ articles, 5000+ sources), financial markets
-          (stocks, ETFs, crypto, AI bull/bear cases), ML options pricing (ITM probability, Greeks, fair value), balanced
-          news synthesis, trending topics, and semantic meme search.
-          [Documentation](https://heliumtrades.com/mcp-page/).
+        surrounding_text: "- **[Helium MCP](https://github.com/connerlambden/helium-mcp)** – Remote MCP server for AI coding assistants with real-time news and multi-dimensional bias scoring (3.2M+ articles, 5000+ sources), financial markets (stocks, ETFs, crypto, AI bull/bear cases), ML options pricing (ITM probability, Greeks, fair value), balanced news synthesis, trending topics, and semantic meme search. [Documentation](https://heliumtrades.com/mcp-page/)."
         confidence: high
 metadata:
   github:
@@ -41,28 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An MCP server providing evidence-linked news bias analysis, market data, and narrative signal tracking for AI
-    assistants like Cursor or Claude.
-  why_it_matters: >-
-    Developers can integrate structured, citable news and market data directly into their AI workflows without manual
-    copy-pasting.
-  mental_damage: Now your AI can argue with you about financial news using the same cherry-picked quotes you’d use yourself.
+  summary: An MCP server providing trained options pricing models, market forecasts, and news bias analysis to AI assistants.
+  why_it_matters: It enables developers to integrate real-time financial intelligence and predictive market modeling directly into AI-native IDEs and workflows.
+  mental_damage: Your AI assistant can now accurately price a complex derivative, which is a significant upgrade from its current ability to explain your own codebase.
   tags:
-    - mcp-server
-    - news-bias
+    - mcp
+    - finance
+    - options-trading
     - market-data
-    - ai-integration
+    - ai-tools
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server offering domain-specific tools (news, market data, bias analysis) as its
-    primary identity.
+  reason: The product's primary identity is an MCP server designed to expose domain-specific financial tools and data to host assistants.
   evidence:
-    - Page title and description explicitly market it as an MCP server for Cursor/Claude
-    - Provides MCP config snippets and REST endpoints for integration
-    - Core functionality is domain-specific data tools (news bias, market forecasts, meme tracking)
+    - Explicitly marketed as 'Helium MCP' for Cursor, Claude, and Windsurf
+    - Provides specific MCP tools including get_option_price and get_top_trading_strategies
+    - The primary consumption method is via mcp.json or claude_desktop_config.json
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -73,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,31 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:27:29.996Z'
+    updated_at: "2026-09-28T04:21:12.323Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:2741d12b66165ec1589fe5c479a825109b868bdf1adcaabfd45bce8cfa51e7b0
+      category_rules_version: c367d6101132
+      input_hash: sha256:ae1584c768996f8b61f9f01aee95f2d50f3d43c247994b540fc72ff143d98265
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product is explicitly an MCP server offering domain-specific tools (news, market data, bias analysis) as its
-        primary identity.
+      decision_reason: The product's primary identity is an MCP server designed to expose domain-specific financial tools and data to host assistants.
       decision_evidence:
-        - Page title and description explicitly market it as an MCP server for Cursor/Claude
-        - Provides MCP config snippets and REST endpoints for integration
-        - Core functionality is domain-specific data tools (news bias, market forecasts, meme tracking)
+        - Explicitly marketed as 'Helium MCP' for Cursor, Claude, and Windsurf
+        - Provides specific MCP tools including get_option_price and get_top_trading_strategies
+        - The primary consumption method is via mcp.json or claude_desktop_config.json
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an
-        extension for another assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's identity is defined by its role as an MCP server providing domain-specific tools rather than being a general-purpose coding workflow extension.
       review_reason: null
       review_resume_lifecycle: null

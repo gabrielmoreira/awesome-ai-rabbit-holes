@@ -39,23 +39,23 @@ metadata:
       fetched_at: "2026-09-24T04:13:00.358Z"
       bytes: 10880
 insights:
-  summary: A neuro-symbolic task scheduling prototype that uses LLM task decomposition and constraint solving to generate optimal project schedules, with MCP integration.
-  why_it_matters: It demonstrates how LLMs can decompose tasks and integrate with constraint solvers for practical project planning, offering developers a glimpse at hybrid AI-optimization workflows.
-  mental_damage: Finally, a way to turn your vague 'build a chatbot' request into a Gantt chart that still won’t stop stakeholders from asking for it yesterday.
+  summary: Yuga Planner is an archived Gradio-based project that uses an LLM agent to decompose tasks and a Timefold constraint solver to generate schedules from natural language prompts and calendar files.
+  why_it_matters: It demonstrates an experimental approach to combining LLMs with symbolic schedulers for developer task planning around existing commitments.
+  mental_damage: Another hackathon prototype that pretends natural language can replace Gantt charts while requiring users to upload .ics files like it's 2008.
   tags:
     - scheduling
-    - mcp
-    - neuro-symbolic
-    - hackathon
+    - llm-agent
+    - constraint-solver
+    - gradio
     - archived
   confidence: high
 curation:
   status: excluded
-  reason: The project is archived and was a hackathon prototype, not an actively maintained developer tool.
+  reason: The project is archived, low-traction, and its core function is personal task scheduling—not software development tooling—so it falls outside the catalog's scope despite appearing in an MCP list.
   evidence:
-    - "Repo is archived (archived: true)"
-    - Developed as a Gradio Agents & MCP 2025 Hackathon project
-    - Last push was 2025-08-05, but archived status overrides recency
+    - "Archived: yes"
+    - "Stars: 3"
+    - "Repo description: Gradio Agents & MCP 2025 Hackathon project: LLM + constraint solver to schedule tasks around your existing calendar"
 placement:
   primary_category: null
   section: null
@@ -74,27 +74,25 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    attempts: 2
+    status: done
+    updated_at: "2026-09-28T04:56:50.745Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:6aada31aba159585da49f64960af6ea7faa8ea9fb602a67c8d92f4bcb0a38d1b
+      category_rules_version: c367d6101132
+      input_hash: sha256:1b750210a1d391262c8fa90a4522db79a58d6fb2f922b47d6a685ed27290c7f4
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is archived and was a hackathon prototype, not an actively maintained developer tool.
+      decision_reason: The project is archived, low-traction, and its core function is personal task scheduling—not software development tooling—so it falls outside the catalog's scope despite appearing in an MCP list.
       decision_evidence:
-        - "Repo is archived (archived: true)"
-        - Developed as a Gradio Agents & MCP 2025 Hackathon project
-        - Last push was 2025-08-05, but archived status overrides recency
+        - "Archived: yes"
+        - "Stars: 3"
+        - "Repo description: Gradio Agents & MCP 2025 Hackathon project: LLM + constraint solver to schedule tasks around your existing calendar"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili personal space hosted by 'Wuli墩茶社' containing curated AI video, article, and resource content.
-  why_it_matters: It serves as a multi-modal educational repository covering topics like Agents, MCP, and model reasoning.
-  mental_damage: Just when you thought your browser tabs were full, here comes a video-based rabbit hole to ensure you never actually write any code.
+  summary: A Bilibili user profile sharing AI and Web3 knowledge through videos, audio, articles, and updates.
+  why_it_matters: Provides a stream of educational content on AI and Web3 topics, potentially useful for developers seeking informal learning resources.
+  mental_damage: Another content creator in the AI space hoping their casual uploads become your primary source for staying technically current.
   tags:
-    - tutorials
-    - video-resources
-    - educational-media
+    - content
+    - education
+    - web3
   confidence: high
 curation:
   status: excluded
-  reason: The project is an educational media profile/tutorial hub rather than a standalone developer tool or directory.
+  reason: This is a personal content creator's Bilibili profile, not a developer tool, agent, framework, or resource directory with a focused AI-tooling purpose.
   evidence:
-    - Scraped content describes it as a space for sharing videos, audio, and articles
-    - Source-list context identifies it under the 'Tutorial' section of an awesome list
-    - No actual developer tooling, SDK, or software product is provided
+    - Source-list context shows it is a Bilibili personal space (UP主) sharing videos, audio, articles, and updates.
+    - Scraped site context confirms it is an individual's homepage focused on AI and Web3 knowledge sharing, not a tool or product.
+    - No repository, SDK, agent, or tooling is described; it is purely a content distribution channel.
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:59.437Z"
+    updated_at: "2026-09-28T04:38:04.899Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:af3e4c7f8d3f8fb392dfcf0599ecfa9a69aef85e1414e01f71c671c089c921cc
+      category_rules_version: c367d6101132
+      input_hash: sha256:31a056434f03f154ce59e6430fd09ae1d69b320c49df2da2a8a5c08789dfbf9e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is an educational media profile/tutorial hub rather than a standalone developer tool or directory.
+      decision_reason: This is a personal content creator's Bilibili profile, not a developer tool, agent, framework, or resource directory with a focused AI-tooling purpose.
       decision_evidence:
-        - Scraped content describes it as a space for sharing videos, audio, and articles
-        - Source-list context identifies it under the 'Tutorial' section of an awesome list
-        - No actual developer tooling, SDK, or software product is provided
+        - Source-list context shows it is a Bilibili personal space (UP主) sharing videos, audio, articles, and updates.
+        - Scraped site context confirms it is an individual's homepage focused on AI and Web3 knowledge sharing, not a tool or product.
+        - No repository, SDK, agent, or tooling is described; it is purely a content distribution channel.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

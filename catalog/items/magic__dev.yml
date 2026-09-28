@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Magic is an AI research company focused on building frontier code models to automate software engineering and AI research.
-  why_it_matters: It aims to accelerate AI alignment and model improvement through automated code generation and domain-specific reinforcement learning.
-  mental_damage: Another AGI lab promising to solve alignment by writing more code about writing code.
+  summary: Magic is an AI research company focused on building safe AGI through frontier code models and automated software engineering.
+  why_it_matters: It signals high investment in AI-driven code generation research, which may influence future developer tools even if not yet a direct developer-facing product.
+  mental_damage: Another AGI moonshot that reminds developers their next IDE upgrade might come from a lab with more GPUs than product releases.
   tags:
     - agi-research
-    - code-generation
-    - frontier-models
+    - code-models
+    - ai-investment
   confidence: high
 curation:
   status: excluded
-  reason: The project is a research company/mission statement rather than a developer-facing tool, framework, or product.
+  reason: Magic is an AI research lab focused on foundational model development and AGI goals, not a developer-facing tool, agent, framework, or infrastructure that software developers can directly use in their workflow.
   evidence:
-    - Site describes Magic as an AI company building AGI, not a tool or product
-    - Primary page excerpt focuses on research goals, funding, and hiring, not a usable developer tool
-    - Source-list context misclassifies it as a coding tool despite the company's actual focus
+    - "Repo description: (none)"
+    - "Scraped site context: Magic is an AI company that is working toward building safe AGI to accelerate humanity’s progress on the world’s most important problems."
+    - "Primary page excerpt: ...building frontier code models to automate software engineering and research... We believe the most promising path to safe AGI is to automate AI research and code generation..."
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:20.688Z"
+    updated_at: "2026-09-28T04:31:53.641Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4e3c0cf494711c5ef5f0d2c17b00eb33537b9c98b7e06694d767a521d0d74032
+      category_rules_version: c367d6101132
+      input_hash: sha256:859ad2bf7d93089653edae0ce581358038c98912b13c0312794ae864a687b3ca
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a research company/mission statement rather than a developer-facing tool, framework, or product.
+      decision_reason: Magic is an AI research lab focused on foundational model development and AGI goals, not a developer-facing tool, agent, framework, or infrastructure that software developers can directly use in their workflow.
       decision_evidence:
-        - Site describes Magic as an AI company building AGI, not a tool or product
-        - Primary page excerpt focuses on research goals, funding, and hiring, not a usable developer tool
-        - Source-list context misclassifies it as a coding tool despite the company's actual focus
+        - "Repo description: (none)"
+        - "Scraped site context: Magic is an AI company that is working toward building safe AGI to accelerate humanity’s progress on the world’s most important problems."
+        - "Primary page excerpt: ...building frontier code models to automate software engineering and research... We believe the most promising path to safe AGI is to automate AI research and code generation..."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

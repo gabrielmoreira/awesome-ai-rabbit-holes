@@ -51,52 +51,53 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Kadoa is a web data platform for investment firms that uses AI agents to build, monitor, and repair web scraping pipelines at scale.
-  why_it_matters: It automates the creation and maintenance of deterministic web scraping pipelines, reducing the time and effort required for data extraction and validation in finance.
-  mental_damage: Finally, a way to stop manually copy-pasting data from PDFs and websites—until the scraper breaks next week.
+  summary: Kadoa is a web data platform that uses AI agents to build, monitor, and maintain verified web scraping pipelines for finance and investment data.
+  why_it_matters: It automates the creation and upkeep of reliable web data pipelines, reducing manual scraping work for developers and data teams.
+  mental_damage: Finally, an AI agent that doesn’t write code — it just scrapes the web so you don’t have to maintain another brittle BeautifulSoup script.
   tags:
     - web-scraping
+    - data-pipelines
     - finance
     - ai-agents
-    - etl
-    - data-pipelines
-  confidence: high
+  confidence: medium
 curation:
-  status: excluded
-  reason: Kadoa is a vertical SaaS platform for finance-focused web scraping, not a developer-tooling product for general software development workflows.
+  status: included
+  reason: Kadoa coordinates AI agents to build, monitor, and repair data pipelines as a managed service, fitting agent orchestration more than coding agents or app builders.
   evidence:
-    - Primary product identity is a web data platform for investment firms
-    - Core value is web scraping pipelines for finance, not developer tooling
-    - Source-list context places it in AI autonomous agents but for a niche vertical (finance)
+    - Kadoa is the web data layer for finance. Our AI agents build, monitor, and maintain mission-critical web data pipelines.
+    - "Appears in awesome-ai-agents under purpose: 'A list of AI autonomous agents'."
+    - Describes a platform where agents automate scraper creation and maintenance, keeping data flowing as websites change.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:08.055Z"
+    updated_at: "2026-09-28T04:42:14.025Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:81adcd4b9e80abd21b1defb30092070eaf5fb58299a04d68ff6964898757793e
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:fbe1b11fe60c9759a26edfe6d694d1ad8b9c460f4b0a20ef9c757a4be77970eb
+      proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Kadoa is a vertical SaaS platform for finance-focused web scraping, not a developer-tooling product for general software development workflows.
+      decision_reason: Kadoa coordinates AI agents to build, monitor, and repair data pipelines as a managed service, fitting agent orchestration more than coding agents or app builders.
       decision_evidence:
-        - Primary product identity is a web data platform for investment firms
-        - Core value is web scraping pipelines for finance, not developer tooling
-        - Source-list context places it in AI autonomous agents but for a niche vertical (finance)
-      category_candidates: []
-      contrastive_reason: null
+        - Kadoa is the web data layer for finance. Our AI agents build, monitor, and maintain mission-critical web data pipelines.
+        - "Appears in awesome-ai-agents under purpose: 'A list of AI autonomous agents'."
+        - Describes a platform where agents automate scraper creation and maintenance, keeping data flowing as websites change.
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because Kadoa’s primary value is managing AI agents that handle data pipelines, not writing or editing code directly.
       review_reason: null
       review_resume_lifecycle: null
   discover:

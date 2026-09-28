@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__pearl__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Pearl
         extracted_url: https://mcp.pearl.com
-        surrounding_text: >-
-          - **[Pearl](https://mcp.pearl.com)** - Official MCP Server to interact with Pearl API. Connect your AI Agents
-          with 12,000+ certified experts instantly.
+        surrounding_text: "- **[Pearl](https://mcp.pearl.com)** - Official MCP Server to interact with Pearl API. Connect your AI Agents with 12,000+ certified experts instantly."
         confidence: high
 metadata:
   github:
@@ -38,32 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server for the Pearl API.
-  why_it_matters: Enables Model Context Protocol integration with Pearl's API, expanding MCP-compatible tooling for developers.
-  mental_damage: Because nothing says 'standardization' like yet another protocol server for your growing collection.
+  summary: Pearl API MCP Server is a Model Context Protocol server exposing Pearl API capabilities via MCP.
+  why_it_matters: It lets AI agents securely access Pearl API functions through a standardized MCP interface, enabling tool use without custom integrations.
+  mental_damage: Another MCP server to add to the growing list of protocol adapters that promise seamless AI-tool connectivity while fragmenting the very standardization they aim to achieve.
   tags:
     - mcp
     - api
     - server
-    - protocol
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: This is an MCP server, and MCP is the primary product identity.
+  reason: The product's primary identity is an MCP server exposing Pearl API capabilities, fitting the MCP category's focus on protocol-first infrastructure rather than being merely an adapter within a broader product.
   evidence:
-    - Source-list context lists it under 'Official Servers' in awesome-mcp-servers
-    - Scraped site context explicitly labels it as 'Pearl API MCP Server'
+    - Primary page excerpt identifies it as 'Pearl API MCP Server'
+    - Listed in awesome-mcp-servers under 'Official Servers' section
+    - No evidence of broader product identity beyond MCP server functionality
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,28 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-21T15:29:42.183Z'
+    updated_at: "2026-09-28T04:32:45.139Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4a56326cccf85e9baacc3b60a21f0a967daa61cdc4b540bf7f4ae2dceced3af2
+      category_rules_version: c367d6101132
+      input_hash: sha256:45b126870622c94b38cce78754d61a8331efdea5ba5c538e9066b1e449491aad
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP server, and MCP is the primary product identity.
+      decision_reason: The product's primary identity is an MCP server exposing Pearl API capabilities, fitting the MCP category's focus on protocol-first infrastructure rather than being merely an adapter within a broader product.
       decision_evidence:
-        - Source-list context lists it under 'Official Servers' in awesome-mcp-servers
-        - Scraped site context explicitly labels it as 'Pearl API MCP Server'
+        - Primary page excerpt identifies it as 'Pearl API MCP Server'
+        - Listed in awesome-mcp-servers under 'Official Servers' section
+        - No evidence of broader product identity beyond MCP server functionality
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because MCP is the product identity, not an integration layer for another
-        assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server exposing domain capabilities, not an integration that extends a coding agent or editor with specific workflow features.
       review_reason: null
       review_resume_lifecycle: null

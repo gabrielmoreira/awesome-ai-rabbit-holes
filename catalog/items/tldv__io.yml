@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AI-powered meeting notetaker and collaboration platform for sales, customer success, and internal teams.
-  why_it_matters: Automates meeting transcription, summarization, and CRM follow-ups to reduce manual note-taking and surface actionable insights.
-  mental_damage: Now you can finally stop pretending to take notes in meetings while silently judging everyone else’s typing speed.
+  summary: tl;dv is an AI-powered meeting notetaker that records, transcribes, and summarizes Zoom, Google Meet, and Teams calls into actionable insights.
+  why_it_matters: It automates post-meeting busywork like note-taking, CRM updates, and follow-ups, letting developers and teams focus on shipping code instead of admin.
+  mental_damage: Finally, a tool that understands your real pain isn't writing code — it's pretending to listen in yet another sync about why the staging server is down.
   tags:
-    - meeting-notes
-    - sales-automation
-    - ai-transcription
-    - collaboration
+    - meeting-ai
+    - productivity
+    - transcription
   confidence: high
 curation:
   status: excluded
-  reason: This is a business-oriented SaaS product for meeting automation and sales workflows, not a developer-tooling product.
+  reason: tl;dv is an AI meeting assistant focused on transcription, summarization, and workflow automation for business communication — it does not perform coding tasks, edit code, or assist in software development workflows.
   evidence:
-    - Primary product is an AI notetaker for sales and team collaboration
-    - Focuses on CRM integrations, meeting summaries, and sales coaching rather than developer workflows
-    - Source-list context (awesome-mcp-servers) is misleading—MCP is not the product identity here
+    - "Scraped site context: 'AI meeting notes — record, transcribe, and summarize meetings automatically.'"
+    - "README excerpt: 'Never take meeting notes again - this AI note taker does it for you' and 'handles CRM and follow-ups too'"
+    - "Source-list context: Listed in awesome-mcp-servers under 'Official Servers' for AI meeting notes, not as a coding or devtool agent"
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:18.913Z"
+    updated_at: "2026-09-28T04:47:41.465Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7371f6c836691bb2d5b49782cd19a216ea7767a25293ad5a307b7606b4f096ea
+      category_rules_version: c367d6101132
+      input_hash: sha256:d8ab389679e6fca94229e9ad5ce72e5c89d90e797385336091eaea768892c7de
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a business-oriented SaaS product for meeting automation and sales workflows, not a developer-tooling product.
+      decision_reason: tl;dv is an AI meeting assistant focused on transcription, summarization, and workflow automation for business communication — it does not perform coding tasks, edit code, or assist in software development workflows.
       decision_evidence:
-        - Primary product is an AI notetaker for sales and team collaboration
-        - Focuses on CRM integrations, meeting summaries, and sales coaching rather than developer workflows
-        - Source-list context (awesome-mcp-servers) is misleading—MCP is not the product identity here
+        - "Scraped site context: 'AI meeting notes — record, transcribe, and summarize meetings automatically.'"
+        - "README excerpt: 'Never take meeting notes again - this AI note taker does it for you' and 'handles CRM and follow-ups too'"
+        - "Source-list context: Listed in awesome-mcp-servers under 'Official Servers' for AI meeting notes, not as a coding or devtool agent"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -36,20 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An educational platform offering professional courses on machine learning and artificial intelligence.
-  why_it_matters: Provides structured learning paths and industry-standard curriculum for developers entering the AI space.
-  mental_damage: The perpetual anxiety of starting a foundational course only to realize the state-of-the-art has moved three generations ahead mid-lesson.
+  summary: DeepLearning.AI's course index page listing available AI and machine learning courses.
+  why_it_matters: Provides a centralized resource for developers to discover structured learning paths in AI/ML topics relevant to software engineering workflows.
+  mental_damage: Another educational landing page masquerading as a developer tool, adding to the infinite scroll of 'learn AI' links we never finish.
   tags:
     - education
-    - machine-learning
-    - courses
+    - learning
+    - directory
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational platform for learning AI/ML rather than a developer-facing tool, agent, or infrastructure.
+  reason: This is a static course listing page with no developer-facing tool, agent, or workflow functionality—it serves as educational content rather than a practical AI tool for software development.
   evidence:
-    - The URL learn.deeplearning.ai indicates a learning/course-based domain
-    - The platform's primary purpose is instruction rather than providing a functional tool for a coding workflow
+    - URL is learn.deeplearning.ai/index, a course catalog landing page
+    - No GitHub repo, stars, or codebase indicates it is not a developer tool
+    - Repo description and README are absent; content is purely educational
 placement:
   primary_category: null
   section: null
@@ -68,24 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:19:41.664Z"
+    updated_at: "2026-09-28T04:53:58.883Z"
     cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b1c80a81a7f19040401f42c5609a6feb3efd94b57b0b613e9aa5ad9669e88f42
+      category_rules_version: c367d6101132
+      input_hash: sha256:ea0a49c58d7e588964c7b6e0bd3336680f2971d9be8b5463e3a9a93bb3d5b248
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational platform for learning AI/ML rather than a developer-facing tool, agent, or infrastructure.
+      decision_reason: This is a static course listing page with no developer-facing tool, agent, or workflow functionality—it serves as educational content rather than a practical AI tool for software development.
       decision_evidence:
-        - The URL learn.deeplearning.ai indicates a learning/course-based domain
-        - The platform's primary purpose is instruction rather than providing a functional tool for a coding workflow
+        - URL is learn.deeplearning.ai/index, a course catalog landing page
+        - No GitHub repo, stars, or codebase indicates it is not a developer tool
+        - Repo description and README are absent; content is purely educational
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
