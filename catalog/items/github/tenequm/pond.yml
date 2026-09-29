@@ -1,0 +1,80 @@
+id: github__tenequm__pond
+kind: github-repo
+name: tenequm/pond
+canonical_url: https://github.com/tenequm/pond
+identity:
+  github_repo: tenequm/pond
+provenance:
+  discoveries:
+    - id: discovery__github__tenequm__pond__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: pond
+        extracted_url: https://github.com/tenequm/pond
+        surrounding_text: >-
+          - **[pond](https://github.com/tenequm/pond)** `⭐ 73` — Lossless session archive for coding agents: ingests
+          what twelve harnesses already write (Claude Code, Codex, opencode, pi, OpenClaw, Hermes, letta-code,
+          grok-build and more) into Lance on a local directory or your own S3 bucket, then serves recall back over CLI,
+          MCP, HTTP, and read-only SQL. Sessions outlive harness retention windows and restore into any supported
+          client. Rust, Apache-2.0.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    pond ⭐ 73 — Lossless session archive for coding agents: ingests what twelve harnesses already write (Claude Code,
+    Codex, opencode, pi, OpenClaw, Hermes, letta-code, grok-build and more) into Lance on a local directory or your own
+    S3 bucket, then serves recall back over CLI, MCP, HTTP, and read-only SQL. Sessions outlive harness retention
+    windows and restore into any supported client. Rust, Apache-2.0.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Context & Session Management
+  evidence:
+    - jev-latest choice confidence 0.66
+placement:
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Context & Session Management
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.480Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

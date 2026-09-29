@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__librechat__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Clients
         anchor_text: LibreChat
         extracted_url: https://www.librechat.ai
-        surrounding_text: "- **[LibreChat](https://www.librechat.ai/)** Open-source AI Web UI, supporting multiple providers including OpenAI, Anthropic, Google, Ollama, and local models. Includes MCP support for Agents."
+        surrounding_text: >-
+          - **[LibreChat](https://www.librechat.ai/)** Open-source AI Web UI, supporting multiple providers including
+          OpenAI, Anthropic, Google, Ollama, and local models. Includes MCP support for Agents.
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: An open-source, self-hostable platform that provides a unified interface for multiple AI models, agents, and tools.
-  why_it_matters: It allows developers to centralize access to various LLM providers and agentic capabilities through a single, customizable, and private interface.
-  mental_damage: One more unified dashboard to keep in sync with your increasingly fragmented collection of API keys and model versions.
+  why_it_matters: >-
+    It allows developers to centralize access to various LLM providers and agentic capabilities through a single,
+    customizable, and private interface.
+  mental_damage: >-
+    One more unified dashboard to keep in sync with your increasingly fragmented collection of API keys and model
+    versions.
   tags:
     - self-hosted
     - chat-ui
@@ -48,7 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: LibreChat is a self-hostable, open-source platform acting as a unified interface for multiple models and agents, fitting the local-ai category's focus on private, controlled execution and UIs.
+  reason: >-
+    LibreChat is a self-hostable, open-source platform acting as a unified interface for multiple models and agents,
+    fitting the local-ai category's focus on private, controlled execution and UIs.
   evidence:
     - Self-hostable via Docker with 53.5M pulls
     - Provides a unified interface for multiple providers like Anthropic, OpenAI, and Azure
@@ -58,12 +66,12 @@ placement:
   secondary_categories: []
   section: Desktop Chat & UIs
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
+    updated_at: '2026-05-12T15:06:19.301Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:17:30.053Z"
+    updated_at: '2026-09-21T04:17:30.053Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +93,9 @@ processing:
       input_hash: sha256:8fa51098bcd1fc5dcd186eff040c0da03fef824e1bfbaedfffa204ecf478edd3
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: LibreChat is a self-hostable, open-source platform acting as a unified interface for multiple models and agents, fitting the local-ai category's focus on private, controlled execution and UIs.
+      decision_reason: >-
+        LibreChat is a self-hostable, open-source platform acting as a unified interface for multiple models and agents,
+        fitting the local-ai category's focus on private, controlled execution and UIs.
       decision_evidence:
         - Self-hostable via Docker with 53.5M pulls
         - Provides a unified interface for multiple providers like Anthropic, OpenAI, and Azure
@@ -93,6 +103,8 @@ processing:
       category_candidates:
         - local-ai
         - agent-orchestration
-      contrastive_reason: Choose local-ai over agent-orchestration because the core product identity is a self-hostable chat interface and model aggregator rather than a specialized runtime for managing multi-agent workforces.
+      contrastive_reason: >-
+        Choose local-ai over agent-orchestration because the core product identity is a self-hostable chat interface and
+        model aggregator rather than a specialized runtime for managing multi-agent workforces.
       review_reason: null
       review_resume_lifecycle: null

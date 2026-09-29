@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jyminet__squelette__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-09-24T04:12:55.276Z"
+      discovered_at: '2026-09-24T04:12:55.276Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,13 @@ provenance:
           - Agent infrastructure
         anchor_text: Squelette
         extracted_url: https://github.com/jyminet/squelette
-        surrounding_text: "- **[Squelette](https://github.com/JyMinet/squelette)** `⭐ 1` — Governance layer for CLI coding agents (Claude Code, Codex): human decisions and allowed scope recorded before work, a pre-commit gate that refuses out-of-scope changes, and closure only on checked proof. MIT."
+        surrounding_text: >-
+          - **[Squelette](https://github.com/JyMinet/squelette)** `⭐ 1` — Governance layer for CLI coding agents (Claude
+          Code, Codex): human decisions and allowed scope recorded before work, a pre-commit gate that refuses
+          out-of-scope changes, and closure only on checked proof. MIT.
         confidence: high
     - id: discovery__github__jyminet__squelette__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-09-24T04:12:55.276Z"
+      discovered_at: '2026-09-24T04:12:55.276Z'
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -35,7 +38,10 @@ provenance:
           - Specification Tools
         anchor_text: Squelette
         extracted_url: https://github.com/jyminet/squelette
-        surrounding_text: "- [Squelette](https://github.com/JyMinet/squelette) - Repository-level governance for coding agents: work items declare the file paths they may touch, a pre-commit gate refuses anything outside them, human decisions are recorded in the repo, and a task cannot close without evidence verified against its artifacts."
+        surrounding_text: >-
+          - [Squelette](https://github.com/JyMinet/squelette) - Repository-level governance for coding agents: work
+          items declare the file paths they may touch, a pre-commit gate refuses anything outside them, human decisions
+          are recorded in the repo, and a task cannot close without evidence verified against its artifacts.
         confidence: high
 metadata:
   github:
@@ -66,12 +72,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-24T04:12:55.277Z"
+    updated_at: '2026-09-24T04:12:55.277Z'
     cause: null
     next_retry_at: null
   stars:
@@ -80,7 +86,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

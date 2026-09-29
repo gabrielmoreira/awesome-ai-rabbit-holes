@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentcentral-to__agent-central-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: agentcentral-to/agent-central-mcp
         extracted_url: https://github.com/agentcentral-to/agent-central-mcp
-        surrounding_text: "- [agentcentral-to/agent-central-mcp](https://github.com/agentcentral-to/agent-central-mcp) [![agentcentral-to/agent-central-mcp MCP server](https://glama.ai/mcp/servers/agentcentral-to/agent-central-mcp/badges/score.svg)](https://glama.ai/mcp/servers/agentcentral-to/agent-central-mcp) 📇 ☁️ - Hosted Amazon Seller Central and Amazon Ads MCP server for Claude, ChatGPT, and other AI clients, exposing inventory, orders, catalog, finance, fulfillment, and advertising data through a remote MCP endpoint."
+        surrounding_text: >-
+          - [agentcentral-to/agent-central-mcp](https://github.com/agentcentral-to/agent-central-mcp)
+          [![agentcentral-to/agent-central-mcp MCP
+          server](https://glama.ai/mcp/servers/agentcentral-to/agent-central-mcp/badges/score.svg)](https://glama.ai/mcp/servers/agentcentral-to/agent-central-mcp)
+          📇 ☁️ - Hosted Amazon Seller Central and Amazon Ads MCP server for Claude, ChatGPT, and other AI clients,
+          exposing inventory, orders, catalog, finance, fulfillment, and advertising data through a remote MCP endpoint.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: agentcentral-to/agent-central-mcp
     html_url: https://github.com/agentcentral-to/agent-central-mcp
-    created_at: "2026-04-27T23:36:18Z"
-    pushed_at: "2026-06-01T02:41:02Z"
-    description: agentcentral hosted Amazon MCP server, Amazon Seller Central MCP server, and Amazon Ads MCP server metadata for Claude, ChatGPT, Cursor, and HTTP-capable MCP clients
+    created_at: '2026-04-27T23:36:18Z'
+    pushed_at: '2026-06-01T02:41:02Z'
+    description: >-
+      agentcentral hosted Amazon MCP server, Amazon Seller Central MCP server, and Amazon Ads MCP server metadata for
+      Claude, ChatGPT, Cursor, and HTTP-capable MCP clients
     homepage: https://agentcentral.to/amazon-seller-central-mcp
     topics:
       - ai-agents
@@ -54,14 +61,18 @@ metadata:
       - sp-api
       - sp-api-mcp
       - streamable-http
-    last_checked_at: "2026-09-17T04:13:32.082Z"
+    last_checked_at: '2026-09-17T04:13:32.082Z'
     readme:
-      fetched_at: "2026-09-17T04:13:32.082Z"
+      fetched_at: '2026-09-17T04:13:32.082Z'
       bytes: 4635
 insights:
   summary: A hosted MCP server that provides AI clients with tools to access Amazon Seller Central and Amazon Ads data.
-  why_it_matters: It enables developers and e-commerce operators to perform complex business queries—like checking inventory, ad spend, or order status—directly through LLM interfaces like Claude or Cursor.
-  mental_damage: Because apparently, the endgame for all SaaS companies is just becoming a collection of JSON-schema tools in a protocol-compliant wrapper.
+  why_it_matters: >-
+    It enables developers and e-commerce operators to perform complex business queries—like checking inventory, ad
+    spend, or order status—directly through LLM interfaces like Claude or Cursor.
+  mental_damage: >-
+    Because apparently, the endgame for all SaaS companies is just becoming a collection of JSON-schema tools in a
+    protocol-compliant wrapper.
   tags:
     - mcp
     - amazon-ads
@@ -70,7 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server that exposes a specific set of domain tools (Amazon business data) to AI clients.
+  reason: >-
+    The product's core identity is an MCP server that exposes a specific set of domain tools (Amazon business data) to
+    AI clients.
   evidence:
     - README describes it as a 'hosted Amazon MCP server'
     - Exposes 141 domain-scoped tools for Amazon Ads and Seller Central
@@ -80,22 +93,22 @@ placement:
   secondary_categories: []
   section: Cloud & API Integration
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.817Z"
+    updated_at: '2026-05-28T05:28:09.817Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:32.082Z"
+    updated_at: '2026-09-17T04:13:32.082Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:25:30.253Z"
+    updated_at: '2026-09-21T04:25:30.253Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -108,7 +121,9 @@ processing:
       input_hash: sha256:3c2c1fe05f4f544ed8c8a063b84ec9f9612edd31dfd7e62b9371e6c5e0da9160
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server that exposes a specific set of domain tools (Amazon business data) to AI clients.
+      decision_reason: >-
+        The product's core identity is an MCP server that exposes a specific set of domain tools (Amazon business data)
+        to AI clients.
       decision_evidence:
         - README describes it as a 'hosted Amazon MCP server'
         - Exposes 141 domain-scoped tools for Amazon Ads and Seller Central
@@ -116,6 +131,8 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product's primary identity is being an MCP server providing tools over the protocol, rather than a plugin for a specific editor.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product's primary identity is being an MCP server providing
+        tools over the protocol, rather than a plugin for a specific editor.
       review_reason: null
       review_resume_lifecycle: null

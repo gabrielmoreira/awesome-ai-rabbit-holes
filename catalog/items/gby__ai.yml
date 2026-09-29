@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gby__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 教程 Tutorial
-        anchor_text: "Blog: GbyAI"
+        anchor_text: 'Blog: GbyAI'
         extracted_url: https://gby.ai
-        surrounding_text: "29. [Blog: GbyAI](https://gby.ai/)"
+        surrounding_text: '29. [Blog: GbyAI](https://gby.ai/)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GbyAI is a Chinese-language AIGC content hub featuring articles, series, and guides about agent implementation, prompt engineering, and AI news.
-  why_it_matters: It provides developers with curated, practical knowledge on building and applying AI agents and prompts, filling a gap in accessible, real-world AIGC tutorials.
-  mental_damage: Another content site promising 'deep agent implementation' while the real work is buried under 10,000 half-finished GPTs.
+  summary: >-
+    GbyAI is a Chinese-language AIGC content hub featuring articles, series, and guides about agent implementation,
+    prompt engineering, and AI news.
+  why_it_matters: >-
+    It provides developers with curated, practical knowledge on building and applying AI agents and prompts, filling a
+    gap in accessible, real-world AIGC tutorials.
+  mental_damage: >-
+    Another content site promising 'deep agent implementation' while the real work is buried under 10,000 half-finished
+    GPTs.
   tags:
     - aigc-tutorials
     - agent-implementation
@@ -48,21 +54,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is primarily a content publication platform, not a developer-facing tool that changes how code is written or executed.
+  reason: >-
+    The project is primarily a content publication platform, not a developer-facing tool that changes how code is
+    written or executed.
   evidence:
-    - Homepage excerpt shows it is a content hub with sections for articles, series, and product-hunt listings, not a coding tool.
-    - Scraped context describes it as 'exploring AIGC' and 'understanding deep agent implementation' — educational content, not a product.
-    - Source-list context places it in 'awesome-LLM-resources' under 'Tutorial' section, confirming its role as a learning resource rather than a tool.
+    - >-
+      Homepage excerpt shows it is a content hub with sections for articles, series, and product-hunt listings, not a
+      coding tool.
+    - >-
+      Scraped context describes it as 'exploring AIGC' and 'understanding deep agent implementation' — educational
+      content, not a product.
+    - >-
+      Source-list context places it in 'awesome-LLM-resources' under 'Tutorial' section, confirming its role as a
+      learning resource rather than a tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +85,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:40:09.830Z"
+    updated_at: '2026-09-24T04:40:09.830Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,11 +98,19 @@ processing:
       input_hash: sha256:841e68a6ef77523bacd778a04e9fa17617f33547a0f698aea2f54e3bdfa345b0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is primarily a content publication platform, not a developer-facing tool that changes how code is written or executed.
+      decision_reason: >-
+        The project is primarily a content publication platform, not a developer-facing tool that changes how code is
+        written or executed.
       decision_evidence:
-        - Homepage excerpt shows it is a content hub with sections for articles, series, and product-hunt listings, not a coding tool.
-        - Scraped context describes it as 'exploring AIGC' and 'understanding deep agent implementation' — educational content, not a product.
-        - Source-list context places it in 'awesome-LLM-resources' under 'Tutorial' section, confirming its role as a learning resource rather than a tool.
+        - >-
+          Homepage excerpt shows it is a content hub with sections for articles, series, and product-hunt listings, not
+          a coding tool.
+        - >-
+          Scraped context describes it as 'exploring AIGC' and 'understanding deep agent implementation' — educational
+          content, not a product.
+        - >-
+          Source-list context places it in 'awesome-LLM-resources' under 'Tutorial' section, confirming its role as a
+          learning resource rather than a tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

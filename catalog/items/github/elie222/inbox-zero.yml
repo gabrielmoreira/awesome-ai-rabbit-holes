@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__elie222__inbox-zero__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: elie222/inbox-zero
         extracted_url: https://github.com/elie222/inbox-zero
-        surrounding_text: "- [elie222/inbox-zero](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server) 🐍 ☁️ - An MCP server for Inbox Zero. Adds functionality on top of Gmail like finding out which emails you need to reply to or need to follow up on."
+        surrounding_text: >-
+          - [elie222/inbox-zero](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server) 🐍 ☁️ - An MCP server
+          for Inbox Zero. Adds functionality on top of Gmail like finding out which emails you need to reply to or need
+          to follow up on.
         confidence: high
     - id: discovery__github__elie222__inbox-zero__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +38,12 @@ provenance:
           - Official Servers
         anchor_text: Inbox Zero
         extracted_url: https://github.com/elie222/inbox-zero
-        surrounding_text: "- **[Inbox Zero](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server)** - AI personal assistant for email [Inbox Zero](https://www.getinboxzero.com)"
+        surrounding_text: >-
+          - **[Inbox Zero](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server)** - AI personal assistant
+          for email [Inbox Zero](https://www.getinboxzero.com)
         confidence: high
     - id: discovery__github__elie222__inbox-zero__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,7 +55,10 @@ provenance:
           - 💬 Communication
         anchor_text: elie222/inbox-zero-mcp
         extracted_url: https://github.com/elie222/inbox-zero
-        surrounding_text: "-   **[elie222/inbox-zero-mcp](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/elie222/inbox-zero?style=social)](https://github.com/elie222/inbox-zero): Manages Gmail, identifying emails needing replies or follow-ups (part of the Inbox Zero project)."
+        surrounding_text: >-
+          -   **[elie222/inbox-zero-mcp](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/elie222/inbox-zero?style=social)](https://github.com/elie222/inbox-zero):
+          Manages Gmail, identifying emails needing replies or follow-ups (part of the Inbox Zero project).
         confidence: high
 metadata:
   github:
@@ -60,8 +68,8 @@ metadata:
     archived: false
     full_name: elie222/inbox-zero
     html_url: https://github.com/elie222/inbox-zero
-    created_at: "2023-07-12T15:34:57Z"
-    pushed_at: "2026-08-26T22:04:34Z"
+    created_at: '2023-07-12T15:34:57Z'
+    pushed_at: '2026-08-26T22:04:34Z'
     description: The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.
     homepage: https://getinboxzero.com
     topics:
@@ -82,13 +90,17 @@ metadata:
       - turborepo
       - typescript
       - upstash
-    last_checked_at: "2026-08-27T09:23:22.945Z"
+    last_checked_at: '2026-08-27T09:23:22.945Z'
     readme:
-      fetched_at: "2026-08-27T09:23:22.945Z"
+      fetched_at: '2026-08-27T09:23:22.945Z'
       bytes: 6217
 insights:
-  summary: An open-source AI personal assistant for email that organizes inboxes, pre-drafts replies, and integrates with Slack/Telegram.
-  why_it_matters: Developers managing high-volume email workflows can automate inbox triage, drafting, and calendar integration without vendor lock-in.
+  summary: >-
+    An open-source AI personal assistant for email that organizes inboxes, pre-drafts replies, and integrates with
+    Slack/Telegram.
+  why_it_matters: >-
+    Developers managing high-volume email workflows can automate inbox triage, drafting, and calendar integration
+    without vendor lock-in.
   mental_damage: Finally, an AI that can unsubscribe you from all those 'AI tooling' newsletters you signed up for in 2023.
   tags:
     - email-automation
@@ -99,7 +111,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is an end-user productivity tool for email management, not a developer-tooling product focused on coding workflows, infrastructure, or app-building.
+  reason: >-
+    This is an end-user productivity tool for email management, not a developer-tooling product focused on coding
+    workflows, infrastructure, or app-building.
   evidence:
     - Repo description explicitly positions it as an AI personal assistant for email
     - README emphasizes inbox organization, reply drafting, and calendar management as core features
@@ -108,24 +122,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (10635) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.577Z"
+    updated_at: '2026-05-06T22:12:15.577Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-14T04:13:48.126Z"
+    updated_at: '2026-09-14T04:13:48.126Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for elie222/inbox-zero
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -140,7 +154,9 @@ processing:
       input_hash: sha256:2f7b31c7507d75f62e9e3e476f00c217147153b05513862e6f1eae95d53bf983
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an end-user productivity tool for email management, not a developer-tooling product focused on coding workflows, infrastructure, or app-building.
+      decision_reason: >-
+        This is an end-user productivity tool for email management, not a developer-tooling product focused on coding
+        workflows, infrastructure, or app-building.
       decision_evidence:
         - Repo description explicitly positions it as an AI personal assistant for email
         - README emphasizes inbox organization, reply drafting, and calendar management as core features

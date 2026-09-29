@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pollinations__model-context-protocol__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Pollinations
         extracted_url: https://github.com/pollinations/model-context-protocol
-        surrounding_text: "- **[Pollinations](https://github.com/pollinations/model-context-protocol)** - Multimodal MCP server for generating images, audio, and text with no authentication required"
+        surrounding_text: >-
+          - **[Pollinations](https://github.com/pollinations/model-context-protocol)** - Multimodal MCP server for
+          generating images, audio, and text with no authentication required
         confidence: high
 metadata:
   github:
@@ -50,24 +52,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.643Z"
+    updated_at: '2026-05-06T22:12:15.643Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-07-23T05:09:45.903Z"
+    updated_at: '2026-07-23T05:09:45.903Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for pollinations/model-context-protocol
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

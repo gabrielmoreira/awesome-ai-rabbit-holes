@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__idp__nature__com__transit__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -17,9 +17,9 @@ provenance:
         section_path:
           - data-to-paper
           - Description
-        anchor_text: "see also: [living guidelines"
+        anchor_text: 'see also: [living guidelines'
         extracted_url: https://www.nature.com/articles/d41586-023-03266-1
-        surrounding_text: "[see also: [living guidelines](https://www.nature.com/articles/d41586-023-03266-1)]."
+        surrounding_text: '[see also: [living guidelines](https://www.nature.com/articles/d41586-023-03266-1)].'
         confidence: high
 metadata:
   github:
@@ -37,28 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ""
-  why_it_matters: ""
-  mental_damage: ""
+  summary: ''
+  why_it_matters: ''
+  mental_damage: ''
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The link points to a specific 'Client Challenge' landing page on a scientific publishing platform rather than a standalone developer tool, repository, or curated resource.
+  reason: >-
+    The link points to a specific 'Client Challenge' landing page on a scientific publishing platform rather than a
+    standalone developer tool, repository, or curated resource.
   evidence:
     - The URL is a non-repo landing page on nature.com
-    - Source context indicates it is a specific research-themed 'Client Challenge' rather than a general developer utility
+    - >-
+      Source context indicates it is a specific research-themed 'Client Challenge' rather than a general developer
+      utility
     - The scraped site content is inaccessible/empty, providing no evidence of a functional tool
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.456Z"
+    updated_at: '2026-06-22T05:53:30.456Z'
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +71,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:19:28.570Z"
+    updated_at: '2026-09-24T04:19:28.570Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -80,10 +84,14 @@ processing:
       input_hash: sha256:96a436713c3d6d6def109c75f1556def789ef1c8ea13ef973056f100def42c19
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The link points to a specific 'Client Challenge' landing page on a scientific publishing platform rather than a standalone developer tool, repository, or curated resource.
+      decision_reason: >-
+        The link points to a specific 'Client Challenge' landing page on a scientific publishing platform rather than a
+        standalone developer tool, repository, or curated resource.
       decision_evidence:
         - The URL is a non-repo landing page on nature.com
-        - Source context indicates it is a specific research-themed 'Client Challenge' rather than a general developer utility
+        - >-
+          Source context indicates it is a specific research-themed 'Client Challenge' rather than a general developer
+          utility
         - The scraped site content is inaccessible/empty, providing no evidence of a functional tool
       category_candidates: []
       contrastive_reason: null

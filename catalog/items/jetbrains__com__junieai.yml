@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jetbrains__com__junieai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Coding Agents
         anchor_text: JunieAI (JetBrains)
         extracted_url: https://jetbrains.com/junieai
-        surrounding_text: "- **[JunieAI (JetBrains)](https://www.jetbrains.com/junieai/)** – AI coding agent that plans, writes, tests, and refactors within JetBrains IDEs."
+        surrounding_text: >-
+          - **[JunieAI (JetBrains)](https://www.jetbrains.com/junieai/)** – AI coding agent that plans, writes, tests,
+          and refactors within JetBrains IDEs.
         confidence: high
     - id: discovery__www__jetbrains__com__junieai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +35,9 @@ provenance:
           - Coding Agents
         anchor_text: JunieAI (JetBrains)
         extracted_url: https://www.jetbrains.com/junieai
-        surrounding_text: "- **[JunieAI (JetBrains)](https://www.jetbrains.com/junieai/)** – AI coding agent that plans, writes, tests, and refactors within JetBrains IDEs."
+        surrounding_text: >-
+          - **[JunieAI (JetBrains)](https://www.jetbrains.com/junieai/)** – AI coding agent that plans, writes, tests,
+          and refactors within JetBrains IDEs.
         confidence: high
 metadata:
   github:
@@ -51,9 +55,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Junie by JetBrains is an AI coding agent that works with any model via Bring Your Own Key and operates in terminal, IDE, or CI/CD environments.
-  why_it_matters: It lets developers use their preferred AI model with JetBrains' IDE intelligence for coding tasks without vendor lock-in.
-  mental_damage: Another coding agent promising cost savings while you juggle model selection, plan approvals, and remote control from your phone.
+  summary: >-
+    Junie by JetBrains is an AI coding agent that works with any model via Bring Your Own Key and operates in terminal,
+    IDE, or CI/CD environments.
+  why_it_matters: >-
+    It lets developers use their preferred AI model with JetBrains' IDE intelligence for coding tasks without vendor
+    lock-in.
+  mental_damage: >-
+    Another coding agent promising cost savings while you juggle model selection, plan approvals, and remote control
+    from your phone.
   tags:
     - ai-agent
     - jetbrains
@@ -62,22 +72,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Junie is positioned as a standalone AI coding agent that performs planning, writing, and editing code across terminal, IDE, and CI/CD, fitting the core definition of a coding agent.
+  reason: >-
+    Junie is positioned as a standalone AI coding agent that performs planning, writing, and editing code across
+    terminal, IDE, and CI/CD, fitting the core definition of a coding agent.
   evidence:
-    - "Description: 'The most cost efficient coding agent' and 'AI Coding Agent'"
-    - "README: 'Junie CLI works with Terminal IDE GitHub GitLab' and 'Use IDE's full code intelligence'"
-    - "Features: 'Writes structured plan requirements', 'Live Prompting', 'Human in the Loop', 'Custom Guidelines & Skills'"
+    - 'Description: ''The most cost efficient coding agent'' and ''AI Coding Agent'''
+    - 'README: ''Junie CLI works with Terminal IDE GitHub GitLab'' and ''Use IDE''s full code intelligence'''
+    - >-
+      Features: 'Writes structured plan requirements', 'Live Prompting', 'Human in the Loop', 'Custom Guidelines &
+      Skills'
 placement:
   primary_category: coding-agents
   secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:42:05.059Z"
+    updated_at: '2026-09-28T04:42:05.059Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,20 +104,26 @@ processing:
       input_hash: sha256:6b86c15c988360a34196d426776cbdadd61fb5be52d59438d4d170fc0b4c7b3f
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Junie is positioned as a standalone AI coding agent that performs planning, writing, and editing code across terminal, IDE, and CI/CD, fitting the core definition of a coding agent.
+      decision_reason: >-
+        Junie is positioned as a standalone AI coding agent that performs planning, writing, and editing code across
+        terminal, IDE, and CI/CD, fitting the core definition of a coding agent.
       decision_evidence:
-        - "Description: 'The most cost efficient coding agent' and 'AI Coding Agent'"
-        - "README: 'Junie CLI works with Terminal IDE GitHub GitLab' and 'Use IDE's full code intelligence'"
-        - "Features: 'Writes structured plan requirements', 'Live Prompting', 'Human in the Loop', 'Custom Guidelines & Skills'"
+        - 'Description: ''The most cost efficient coding agent'' and ''AI Coding Agent'''
+        - 'README: ''Junie CLI works with Terminal IDE GitHub GitLab'' and ''Use IDE''s full code intelligence'''
+        - >-
+          Features: 'Writes structured plan requirements', 'Live Prompting', 'Human in the Loop', 'Custom Guidelines &
+          Skills'
       category_candidates:
         - coding-agents
         - extensions-and-addons
-      contrastive_reason: Choose coding-agents over extensions-and-addons because Junie is marketed as a primary coding agent with its own CLI and IDE integration, not as a tool that extends another agent like Claude Code or Cursor.
+      contrastive_reason: >-
+        Choose coding-agents over extensions-and-addons because Junie is marketed as a primary coding agent with its own
+        CLI and IDE integration, not as a tool that extends another agent like Claude Code or Cursor.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause: null
     next_retry_at: null
   stars:

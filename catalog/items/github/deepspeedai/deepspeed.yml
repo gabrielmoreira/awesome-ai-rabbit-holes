@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deepspeedai__deepspeed__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,12 @@ provenance:
           - Training
         anchor_text: DeepSpeed
         extracted_url: https://github.com/microsoft/deepspeed
-        surrounding_text: "- [DeepSpeed](https://github.com/microsoft/DeepSpeed) - DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
+        surrounding_text: >-
+          - [DeepSpeed](https://github.com/microsoft/DeepSpeed) - DeepSpeed is a deep learning optimization library that
+          makes distributed training and inference easy, efficient, and effective.
         confidence: high
     - id: discovery__github__deepspeedai__deepspeed__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,7 +37,11 @@ provenance:
           - Frameworks for Training
         anchor_text: DeepSpeed
         extracted_url: https://github.com/microsoft/deepspeed
-        surrounding_text: "| [DeepSpeed](https://github.com/microsoft/DeepSpeed)                  | DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/DeepSpeed.svg?style=flat-square)               |"
+        surrounding_text: >-
+          | [DeepSpeed](https://github.com/microsoft/DeepSpeed)                  | DeepSpeed is a deep learning
+          optimization library that makes distributed training and inference easy, efficient, and
+          effective.                                                                             | ![GitHub
+          Badge](https://img.shields.io/github/stars/microsoft/DeepSpeed.svg?style=flat-square)               |
         confidence: high
 metadata:
   github:
@@ -45,9 +51,11 @@ metadata:
     archived: false
     full_name: deepspeedai/DeepSpeed
     html_url: https://github.com/deepspeedai/DeepSpeed
-    created_at: "2020-01-23T18:35:18Z"
-    pushed_at: "2026-09-14T03:56:25Z"
-    description: DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
+    created_at: '2020-01-23T18:35:18Z'
+    pushed_at: '2026-09-14T03:56:25Z'
+    description: >-
+      DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient,
+      and effective.
     homepage: https://www.deepspeed.ai/
     topics:
       - billion-parameters
@@ -63,14 +71,18 @@ metadata:
       - pytorch
       - trillion-parameters
       - zero
-    last_checked_at: "2026-09-14T04:13:38.445Z"
+    last_checked_at: '2026-09-14T04:13:38.445Z'
     readme:
-      fetched_at: "2026-09-14T04:13:38.445Z"
+      fetched_at: '2026-09-14T04:13:38.445Z'
       bytes: 32934
 insights:
   summary: DeepSpeed is a deep learning optimization library for efficient distributed training and inference of large models.
-  why_it_matters: It enables developers to train and deploy large-scale models (e.g., MT-530B, BLOOM) with innovations like ZeRO, 3D-Parallelism, and MoE, reducing hardware barriers.
-  mental_damage: Finally, a way to train trillion-parameter models without selling a kidney for GPUs—just your soul to the distributed training gods.
+  why_it_matters: >-
+    It enables developers to train and deploy large-scale models (e.g., MT-530B, BLOOM) with innovations like ZeRO,
+    3D-Parallelism, and MoE, reducing hardware barriers.
+  mental_damage: >-
+    Finally, a way to train trillion-parameter models without selling a kidney for GPUs—just your soul to the
+    distributed training gods.
   tags:
     - deep-learning
     - distributed-training
@@ -80,7 +92,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: DeepSpeed is a code-first deep learning optimization library (framework/SDK) rather than a developer-tooling product in the catalog's scope (coding agents, IDEs, extensions, etc.).
+  reason: >-
+    DeepSpeed is a code-first deep learning optimization library (framework/SDK) rather than a developer-tooling product
+    in the catalog's scope (coding agents, IDEs, extensions, etc.).
   evidence:
     - Repo description explicitly calls it a 'deep learning optimization library'
     - README highlights innovations like ZeRO, 3D-Parallelism, and MoE for training/inference
@@ -89,22 +103,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (42266) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.585Z"
+    updated_at: '2026-05-06T22:12:15.585Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:38.446Z"
+    updated_at: '2026-09-14T04:13:38.446Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -119,7 +133,9 @@ processing:
       input_hash: sha256:cb5eba56fd6c56a8415a7eee3f27c2e8444fb72f9f9adfef4e52daecefdb2a41
       proposed_primary_category: null
       disagreement: false
-      decision_reason: DeepSpeed is a code-first deep learning optimization library (framework/SDK) rather than a developer-tooling product in the catalog's scope (coding agents, IDEs, extensions, etc.).
+      decision_reason: >-
+        DeepSpeed is a code-first deep learning optimization library (framework/SDK) rather than a developer-tooling
+        product in the catalog's scope (coding agents, IDEs, extensions, etc.).
       decision_evidence:
         - Repo description explicitly calls it a 'deep learning optimization library'
         - README highlights innovations like ZeRO, 3D-Parallelism, and MoE for training/inference

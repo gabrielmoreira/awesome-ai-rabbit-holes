@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__web__stanford__edu__class__cs224n__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: "斯坦福 CS224N: Natural Language Processing with Deep Learning"
+        anchor_text: '斯坦福 CS224N: Natural Language Processing with Deep Learning'
         extracted_url: https://web.stanford.edu/class/cs224n
-        surrounding_text: "1. [斯坦福 CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)"
+        surrounding_text: '1. [斯坦福 CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Stanford CS 224N is a university course on natural language processing with deep learning, covering neural networks, transformers, and large language models.
-  why_it_matters: It provides foundational and advanced NLP knowledge that underpins modern AI developer tooling like LLMs and coding agents.
+  summary: >-
+    Stanford CS 224N is a university course on natural language processing with deep learning, covering neural networks,
+    transformers, and large language models.
+  why_it_matters: >-
+    It provides foundational and advanced NLP knowledge that underpins modern AI developer tooling like LLMs and coding
+    agents.
   mental_damage: Another reminder that real understanding requires reading papers and doing homework, not just prompting.
   tags:
     - nlp
@@ -57,12 +61,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +75,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:49:46.166Z"
+    updated_at: '2026-09-28T04:49:46.166Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -87,7 +91,9 @@ processing:
       decision_reason: CS224N is an educational course, not a developer-facing AI tool, agent, framework, or infrastructure product.
       decision_evidence:
         - Source-list context shows it appears in awesome-LLM-resources under '课程 Course' as Stanford CS 224N
-        - Scraped site context confirms it is a Stanford University course with lectures, assignments, and final projects
+        - >-
+          Scraped site context confirms it is a Stanford University course with lectures, assignments, and final
+          projects
         - No evidence of being a tool, framework, agent, or platform for developers to use in workflows
       category_candidates: []
       contrastive_reason: null

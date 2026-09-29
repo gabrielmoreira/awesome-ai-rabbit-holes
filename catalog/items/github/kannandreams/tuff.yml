@@ -1,0 +1,76 @@
+id: github__kannandreams__tuff
+kind: github-repo
+name: kannandreams/tuff
+canonical_url: https://github.com/kannandreams/tuff
+identity:
+  github_repo: kannandreams/tuff
+provenance:
+  discoveries:
+    - id: discovery__github__kannandreams__tuff__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - CLI Tools
+        anchor_text: Tuff
+        extracted_url: https://tuffcli.dev
+        surrounding_text: >-
+          - **[Tuff](https://tuffcli.dev)** – Rust-based CLI for managing coding-agent capabilities (skills, tools,
+          hooks, workflows, MCP servers) from a canonical manifest — install, track provenance, catch config drift, and
+          emit harness-specific output for Claude Code, Codex, and others.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Tuff – Rust-based CLI for managing coding-agent capabilities (skills, tools, hooks, workflows, MCP servers) from a
+    canonical manifest — install, track provenance, catch config drift, and emit harness-specific output for Claude
+    Code, Codex, and others.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
+  evidence:
+    - jev-latest choice confidence 0.48
+placement:
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.463Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

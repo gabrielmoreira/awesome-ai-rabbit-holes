@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__infuseai__artivc__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Data Management
         anchor_text: ArtiVC
         extracted_url: https://github.com/infuseai/artivc
-        surrounding_text: "| [ArtiVC](https://github.com/InfuseAI/ArtiVC)        | A version control system to manage large files. Lake is a dataset format with a simple API for creating, storing, and collaborating on AI datasets of any size. | ![GitHub Badge](https://img.shields.io/github/stars/InfuseAI/ArtiVC.svg?style=flat-square)     |"
+        surrounding_text: >-
+          | [ArtiVC](https://github.com/InfuseAI/ArtiVC)        | A version control system to manage large files. Lake
+          is a dataset format with a simple API for creating, storing, and collaborating on AI datasets of any size. |
+          ![GitHub Badge](https://img.shields.io/github/stars/InfuseAI/ArtiVC.svg?style=flat-square)     |
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: InfuseAI/ArtiVC
     html_url: https://github.com/InfuseAI/ArtiVC
-    created_at: "2022-02-06T15:10:05Z"
-    pushed_at: "2026-07-20T11:18:51Z"
+    created_at: '2022-02-06T15:10:05Z'
+    pushed_at: '2026-07-20T11:18:51Z'
     description: A version control system to manage large files.
     homepage: https://artivc.io
     topics:
@@ -39,13 +42,15 @@ metadata:
       - machinelearning
       - storage
       - version-control
-    last_checked_at: "2026-07-30T05:05:43.321Z"
+    last_checked_at: '2026-07-30T05:05:43.321Z'
     readme:
-      fetched_at: "2026-07-30T05:05:43.321Z"
+      fetched_at: '2026-07-30T05:05:43.321Z'
       bytes: 2669
 insights:
   summary: A CLI tool for versioning large data files on cloud storage backends like S3, GCS, Azure Blob, and SSH.
-  why_it_matters: It lets developers snapshot, diff, and switch between versions of large datasets without moving files off their existing storage.
+  why_it_matters: >-
+    It lets developers snapshot, diff, and switch between versions of large datasets without moving files off their
+    existing storage.
   mental_damage: Finally, a way to git your terabytes of embeddings without pretending they’re code.
   tags:
     - data-versioning
@@ -55,31 +60,33 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a data versioning tool for ML workflows, not a developer-tooling product for coding agents, IDEs, or AI app-building.
+  reason: >-
+    This is a data versioning tool for ML workflows, not a developer-tooling product for coding agents, IDEs, or AI
+    app-building.
   evidence:
-    - "Repo description: 'A version control system to manage large files'"
-    - "README: 'Version your data like versioning code' with focus on cloud storage backends"
-    - "Source-list context: listed under 'Data > Data Management' in Awesome-LLMOps"
+    - 'Repo description: ''A version control system to manage large files'''
+    - 'README: ''Version your data like versioning code'' with focus on cloud storage backends'
+    - 'Source-list context: listed under ''Data > Data Management'' in Awesome-LLMOps'
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (311) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:43.321Z"
+    updated_at: '2026-07-30T05:05:43.321Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -94,11 +101,13 @@ processing:
       input_hash: sha256:e41ddda67204f040b1c00ef616906fb23567fcabdd9879d5c6e29a23b11b33e8
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a data versioning tool for ML workflows, not a developer-tooling product for coding agents, IDEs, or AI app-building.
+      decision_reason: >-
+        This is a data versioning tool for ML workflows, not a developer-tooling product for coding agents, IDEs, or AI
+        app-building.
       decision_evidence:
-        - "Repo description: 'A version control system to manage large files'"
-        - "README: 'Version your data like versioning code' with focus on cloud storage backends"
-        - "Source-list context: listed under 'Data > Data Management' in Awesome-LLMOps"
+        - 'Repo description: ''A version control system to manage large files'''
+        - 'README: ''Version your data like versioning code'' with focus on cloud storage backends'
+        - 'Source-list context: listed under ''Data > Data Management'' in Awesome-LLMOps'
       category_candidates: []
       contrastive_reason: null
       review_reason: null

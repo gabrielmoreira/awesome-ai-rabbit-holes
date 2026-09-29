@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__askpandi__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Ask Pandi
         anchor_text: Ask Pandi
         extracted_url: https://askpandi.com/ask
-        surrounding_text: "## [Ask Pandi](https://askpandi.com/ask)"
+        surrounding_text: '## [Ask Pandi](https://askpandi.com/ask)'
         confidence: high
 metadata:
   github:
@@ -46,7 +46,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a general-purpose search and discovery platform rather than a developer-centric engineering or coding tool.
+  reason: >-
+    The tool is a general-purpose search and discovery platform rather than a developer-centric engineering or coding
+    tool.
   evidence:
     - Scraped site context describes it as a tool for searching answers and discovering content
     - No developer-specific functionality or integration mentioned in provided context
@@ -55,12 +57,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,10 +71,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:34:23.988Z"
+    updated_at: '2026-09-24T04:34:23.988Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for askpandi__com: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for askpandi__com: Upstream error from Nvidia: ResourceExhausted: Worker local
+        total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -84,7 +88,9 @@ processing:
       input_hash: sha256:be33965be99232799d2533c08fa2fa063fdfe07ad628b259f97fe4146d46eba1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a general-purpose search and discovery platform rather than a developer-centric engineering or coding tool.
+      decision_reason: >-
+        The tool is a general-purpose search and discovery platform rather than a developer-centric engineering or
+        coding tool.
       decision_evidence:
         - Scraped site context describes it as a tool for searching answers and discovering content
         - No developer-specific functionality or integration mentioned in provided context

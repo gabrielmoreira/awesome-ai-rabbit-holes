@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__learn__deeplearning__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: "吴恩达: LLM series of courses"
+        anchor_text: '吴恩达: LLM series of courses'
         extracted_url: https://learn.deeplearning.ai
-        surrounding_text: "3. [吴恩达: LLM series of courses](https://learn.deeplearning.ai/)"
+        surrounding_text: '3. [吴恩达: LLM series of courses](https://learn.deeplearning.ai/)'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: learn.deeplearning.ai is the DeepLearning.AI educational platform offering courses and specializations in machine learning, deep learning, and AI.
-  why_it_matters: Provides structured learning paths for developers to build AI skills and stay current with foundational and applied AI concepts.
+  summary: >-
+    learn.deeplearning.ai is the DeepLearning.AI educational platform offering courses and specializations in machine
+    learning, deep learning, and AI.
+  why_it_matters: >-
+    Provides structured learning paths for developers to build AI skills and stay current with foundational and applied
+    AI concepts.
   mental_damage: Another reminder that your GitHub stars won’t fix the fact you still can’t explain backpropagation at a whiteboard.
   tags:
     - education
@@ -46,21 +50,25 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: learn.deeplearning.ai is an educational platform, not a developer-facing AI tool, agent, workflow, or infrastructure product.
+  reason: >-
+    learn.deeplearning.ai is an educational platform, not a developer-facing AI tool, agent, workflow, or infrastructure
+    product.
   evidence:
     - Source-list context shows it is categorized under '课程 Course' in awesome-LLM-resources as an educational resource
-    - No evidence of being a coding agent, app builder, framework, or any developer-tooling product in the README or description
+    - >-
+      No evidence of being a coding agent, app builder, framework, or any developer-tooling product in the README or
+      description
     - The platform's purpose is delivering courses and specializations, not enabling AI-assisted development workflows
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:31:04.823Z"
+    updated_at: '2026-09-28T04:31:04.823Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,11 +90,19 @@ processing:
       input_hash: sha256:0034f2e37f6eae05f8b767790bafcfb0e18f7c4c0cf31848b6062bfbb9fba749
       proposed_primary_category: null
       disagreement: false
-      decision_reason: learn.deeplearning.ai is an educational platform, not a developer-facing AI tool, agent, workflow, or infrastructure product.
+      decision_reason: >-
+        learn.deeplearning.ai is an educational platform, not a developer-facing AI tool, agent, workflow, or
+        infrastructure product.
       decision_evidence:
-        - Source-list context shows it is categorized under '课程 Course' in awesome-LLM-resources as an educational resource
-        - No evidence of being a coding agent, app builder, framework, or any developer-tooling product in the README or description
-        - The platform's purpose is delivering courses and specializations, not enabling AI-assisted development workflows
+        - >-
+          Source-list context shows it is categorized under '课程 Course' in awesome-LLM-resources as an educational
+          resource
+        - >-
+          No evidence of being a coding agent, app builder, framework, or any developer-tooling product in the README or
+          description
+        - >-
+          The platform's purpose is delivering courses and specializations, not enabling AI-assisted development
+          workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null

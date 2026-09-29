@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bintocher__mcp-superset__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: bintocher/mcp-superset
         extracted_url: https://github.com/bintocher/mcp-superset
-        surrounding_text: "- [bintocher/mcp-superset](https://github.com/bintocher/mcp-superset) [![mcp-superset MCP server](https://glama.ai/mcp/servers/bintocher/mcp-superset/badges/score.svg)](https://glama.ai/mcp/servers/bintocher/mcp-superset) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Full-featured Apache Superset MCP server with 135+ tools for dashboards, charts, datasets, SQL Lab, security (users, roles, RLS, groups), permissions audit, and 30+ built-in safety validations. Supports HTTP, SSE, and stdio transports."
+        surrounding_text: >-
+          - [bintocher/mcp-superset](https://github.com/bintocher/mcp-superset) [![mcp-superset MCP
+          server](https://glama.ai/mcp/servers/bintocher/mcp-superset/badges/score.svg)](https://glama.ai/mcp/servers/bintocher/mcp-superset)
+          🐍 ☁️ 🏠 🍎 🪟 🐧 - Full-featured Apache Superset MCP server with 135+ tools for dashboards, charts, datasets,
+          SQL Lab, security (users, roles, RLS, groups), permissions audit, and 30+ built-in safety validations.
+          Supports HTTP, SSE, and stdio transports.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: bintocher/mcp-superset
     html_url: https://github.com/bintocher/mcp-superset
-    created_at: "2026-03-10T20:27:46Z"
-    pushed_at: "2026-09-22T13:44:21Z"
+    created_at: '2026-03-10T20:27:46Z'
+    pushed_at: '2026-09-22T13:44:21Z'
     description: MCP server for managing Apache Superset — 128+ tools for dashboards, charts, datasets, SQL Lab, access control
     homepage: null
     topics:
@@ -44,13 +49,17 @@ metadata:
       - mcp-server
       - model-context-protocol
       - superset
-    last_checked_at: "2026-09-24T04:12:59.516Z"
+    last_checked_at: '2026-09-24T04:12:59.516Z'
     readme:
-      fetched_at: "2026-09-24T04:12:59.516Z"
+      fetched_at: '2026-09-24T04:12:59.516Z'
       bytes: 25576
 insights:
-  summary: mcp-superset is a Model Context Protocol server that exposes 137 tools for managing Apache Superset dashboards, charts, datasets, SQL Lab, users, roles, and Row Level Security.
-  why_it_matters: It lets AI assistants programmatically control Superset analytics workflows without custom glue code or manual UI clicks.
+  summary: >-
+    mcp-superset is a Model Context Protocol server that exposes 137 tools for managing Apache Superset dashboards,
+    charts, datasets, SQL Lab, users, roles, and Row Level Security.
+  why_it_matters: >-
+    It lets AI assistants programmatically control Superset analytics workflows without custom glue code or manual UI
+    clicks.
   mental_damage: Finally, your AI can break your BI dashboards as fast as you can.
   tags:
     - mcp
@@ -60,32 +69,39 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is exposing Superset capabilities via the Model Context Protocol, not a coding agent, extension, or framework.
+  reason: >-
+    The product is an MCP server whose core identity is exposing Superset capabilities via the Model Context Protocol,
+    not a coding agent, extension, or framework.
   evidence:
-    - "Repo description: 'MCP server for managing Apache Superset — 128+ tools for dashboards, charts, datasets, SQL Lab, access control'"
-    - "README: 'A comprehensive Model Context Protocol (MCP) server for Apache Superset. Gives AI assistants full control over your Superset instance — dashboards, charts, datasets, SQL Lab, users, roles, RLS, and more — through 137 tools.'"
+    - >-
+      Repo description: 'MCP server for managing Apache Superset — 128+ tools for dashboards, charts, datasets, SQL Lab,
+      access control'
+    - >-
+      README: 'A comprehensive Model Context Protocol (MCP) server for Apache Superset. Gives AI assistants full control
+      over your Superset instance — dashboards, charts, datasets, SQL Lab, users, roles, RLS, and more — through 137
+      tools.'
     - Listed in awesome-mcp-servers under Server Implementations > Data Platforms
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Data & Databases
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:12:59.516Z"
+    updated_at: '2026-09-24T04:12:59.516Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:56:27.789Z"
+    updated_at: '2026-09-28T04:56:27.789Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -98,14 +114,23 @@ processing:
       input_hash: sha256:342eb76a83436488a74d765b67080f62254668baf58e23999e6b93f4ee01fa74
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose core identity is exposing Superset capabilities via the Model Context Protocol, not a coding agent, extension, or framework.
+      decision_reason: >-
+        The product is an MCP server whose core identity is exposing Superset capabilities via the Model Context
+        Protocol, not a coding agent, extension, or framework.
       decision_evidence:
-        - "Repo description: 'MCP server for managing Apache Superset — 128+ tools for dashboards, charts, datasets, SQL Lab, access control'"
-        - "README: 'A comprehensive Model Context Protocol (MCP) server for Apache Superset. Gives AI assistants full control over your Superset instance — dashboards, charts, datasets, SQL Lab, users, roles, RLS, and more — through 137 tools.'"
+        - >-
+          Repo description: 'MCP server for managing Apache Superset — 128+ tools for dashboards, charts, datasets, SQL
+          Lab, access control'
+        - >-
+          README: 'A comprehensive Model Context Protocol (MCP) server for Apache Superset. Gives AI assistants full
+          control over your Superset instance — dashboards, charts, datasets, SQL Lab, users, roles, RLS, and more —
+          through 137 tools.'
         - Listed in awesome-mcp-servers under Server Implementations > Data Platforms
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product's primary identity is being an MCP server infrastructure, not a plugin that augments another coding agent or editor.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product's primary identity is being an MCP server
+        infrastructure, not a plugin that augments another coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null

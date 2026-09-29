@@ -30,11 +30,8 @@ export function selectStarRefreshTargets(
   );
 }
 
-function applyStarLifecycle(item: CatalogItem, threshold: number): CatalogItem {
-  return applyLifecycleRules(item, {
-    promotion: { incubating_until_stars: threshold },
-    github: { metadata_refresh_days: 0 },
-  });
+function applyStarLifecycle(item: CatalogItem): CatalogItem {
+  return applyLifecycleRules(item);
 }
 
 
@@ -89,7 +86,6 @@ export async function enrichWithGitHub(item: CatalogItem, token?: string): Promi
 export async function refreshItemStars(
   item: CatalogItem,
   token: string | undefined,
-  threshold: number,
   enrichItem: (item: CatalogItem, token?: string) => Promise<CatalogItem> = enrichWithGitHub,
   verifyRepo: (owner: string, repo: string, token?: string) => Promise<"exists" | "missing" | "unknown"> = verifyGitHubRepo,
 ): Promise<CatalogItem> {
@@ -124,7 +120,7 @@ export async function refreshItemStars(
     return item;
   }
 
-  const withLifecycle = applyStarLifecycle(enriched, threshold);
+  const withLifecycle = applyStarLifecycle(enriched);
   updateProcessing(withLifecycle, "stars", { status: "done", cause: null });
   return withLifecycle;
 }
@@ -133,7 +129,7 @@ export interface RunStarsDeps {
   loadSettings?: () => AppSettings;
   loadItems?: () => CatalogItem[];
   saveItem?: (item: CatalogItem) => void;
-  refreshItem?: (item: CatalogItem, token: string | undefined, threshold: number) => Promise<CatalogItem>;
+  refreshItem?: (item: CatalogItem, token: string | undefined) => Promise<CatalogItem>;
   log?: (line: string) => void;
 }
 
@@ -151,7 +147,7 @@ export async function runStars(
   const settings = deps.loadSettings?.() ?? loadSettings();
   const allItems = deps.loadItems?.() ?? loadGeneratedCatalogItems();
   const saveItem = deps.saveItem ?? saveCatalogItem;
-  const refreshItem = deps.refreshItem ?? ((item: CatalogItem, currentToken: string | undefined, threshold: number) => refreshItemStars(item, currentToken, threshold));
+  const refreshItem = deps.refreshItem ?? ((item: CatalogItem, currentToken: string | undefined) => refreshItemStars(item, currentToken));
   const log = deps.log ?? ((line: string) => console.log(line));
   const eligibleItems = options.itemIds ? allItems.filter((item) => options.itemIds?.has(item.id)) : allItems;
   const now = new Date();
@@ -184,7 +180,7 @@ export async function runStars(
       `GitHub metadata became unavailable for ${consecutiveGitHubUnavailable} claimed item(s) in a row`,
     worker: async (item) => {
       try {
-        const next = await refreshItem(item, token, settings.promotion.incubating_until_stars);
+        const next = await refreshItem(item, token);
         consecutiveGitHubUnavailable = isSystemicGitHubAvailabilityFailure(next) ? consecutiveGitHubUnavailable + 1 : 0;
         const status = next.processing?.stars?.status ?? "done";
         return {

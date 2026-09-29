@@ -1,0 +1,83 @@
+id: github__scienthoon__luce
+kind: github-repo
+name: scienthoon/luce
+canonical_url: https://github.com/scienthoon/luce
+identity:
+  github_repo: scienthoon/luce
+provenance:
+  discoveries:
+    - id: discovery__github__scienthoon__luce__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Calibration & Research
+        anchor_text: Luce
+        extracted_url: https://github.com/scienthoon/luce
+        surrounding_text: >-
+          - [Luce](https://github.com/scienthoon/luce)
+          ![stars](https://img.shields.io/github/stars/scienthoon/luce?style=flat-square&label=%E2%98%85) - Open recipe:
+          describe the decision task in a sentence, an LLM teacher writes the training data, a LoRA + decision head on
+          Qwen3-4B-Base answers choice/score/boolean questions with calibrated probabilities in one forward pass; trains
+          on a 12 GB card, and reports accuracy and ECE next to Jev on identical test items (rule-generated tickets 91.1
+          vs 75.1, phishing 97.4 vs 62.6, GitHub issue priority 41.1 vs 37.5) with a browser replay demo that needs no
+          GPU.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Luce - Open recipe: describe the decision task in a sentence, an LLM teacher writes the training data, a LoRA +
+    decision head on Qwen3-4B-Base answers choice/score/boolean questions with calibrated probabilities in one forward
+    pass; trains on a 12 GB card, and reports accuracy and ECE next to Jev on identical test items (rule-generated
+    tickets 91.1 vs 75.1, phishing 97.4 vs 62.6, GitHub issue priority 41.1 vs 37.5) with a browser replay demo that
+    needs no GPU.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.94
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.476Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

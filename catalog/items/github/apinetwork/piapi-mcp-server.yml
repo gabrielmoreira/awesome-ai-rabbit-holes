@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apinetwork__piapi-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: PiAPI
         extracted_url: https://github.com/apinetwork/piapi-mcp-server
-        surrounding_text: "- **[PiAPI](https://github.com/apinetwork/piapi-mcp-server)** - PiAPI MCP server makes user able to generate media content with Midjourney/Flux/Kling/Hunyuan/Udio/Trellis directly from Claude or any other MCP-compatible apps."
+        surrounding_text: >-
+          - **[PiAPI](https://github.com/apinetwork/piapi-mcp-server)** - PiAPI MCP server makes user able to generate
+          media content with Midjourney/Flux/Kling/Hunyuan/Udio/Trellis directly from Claude or any other MCP-compatible
+          apps.
         confidence: high
 metadata:
   github:
@@ -29,18 +32,25 @@ metadata:
     archived: false
     full_name: apinetwork/piapi-mcp-server
     html_url: https://github.com/apinetwork/piapi-mcp-server
-    created_at: "2024-12-26T10:46:39Z"
-    pushed_at: "2026-09-17T03:31:37Z"
-    description: A TypeScript implementation of a Model Context Protocol (MCP) server that integrates with PiAPI's API. PiAPI makes user able to generate media content with Midjourney/Flux/Kling/LumaLabs/Udio/Chrip/Trellis directly from Claude or any other MCP-compatible apps.
+    created_at: '2024-12-26T10:46:39Z'
+    pushed_at: '2026-09-17T03:31:37Z'
+    description: >-
+      A TypeScript implementation of a Model Context Protocol (MCP) server that integrates with PiAPI's API. PiAPI makes
+      user able to generate media content with Midjourney/Flux/Kling/LumaLabs/Udio/Chrip/Trellis directly from Claude or
+      any other MCP-compatible apps.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-21T04:13:44.761Z"
+    last_checked_at: '2026-09-21T04:13:44.761Z'
     readme:
-      fetched_at: "2026-09-21T04:13:44.761Z"
+      fetched_at: '2026-09-21T04:13:44.761Z'
       bytes: 10085
 insights:
-  summary: A TypeScript MCP server that integrates PiAPI's API to enable media content generation (images, videos, music, 3D models) from MCP-compatible apps like Claude.
-  why_it_matters: Lets developers trigger Midjourney, Flux, Kling, LumaLabs, Udio, and other generative media APIs directly from their coding workflow via MCP.
+  summary: >-
+    A TypeScript MCP server that integrates PiAPI's API to enable media content generation (images, videos, music, 3D
+    models) from MCP-compatible apps like Claude.
+  why_it_matters: >-
+    Lets developers trigger Midjourney, Flux, Kling, LumaLabs, Udio, and other generative media APIs directly from their
+    coding workflow via MCP.
   mental_damage: Now your coding agent can spin up a 3D model while you’re debugging a race condition, because why not.
   tags:
     - mcp-server
@@ -51,7 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing PiAPI's media generation capabilities to MCP-compatible clients."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server exposing PiAPI's media generation capabilities to
+    MCP-compatible clients.
   evidence:
     - Repo description explicitly states it is a TypeScript MCP server for PiAPI's API
     - README details MCP server setup, installation, and usage with Claude Desktop
@@ -61,22 +73,22 @@ placement:
   secondary_categories: []
   section: AI & Model Services
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:44.761Z"
+    updated_at: '2026-09-21T04:13:44.761Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -91,7 +103,9 @@ processing:
       input_hash: sha256:2ee3e4714273bf2ab6a31241b0c30098e2c821bf3fbc3495c3cec12253f3f4bc
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing PiAPI's media generation capabilities to MCP-compatible clients."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server exposing PiAPI's media generation capabilities to
+        MCP-compatible clients.
       decision_evidence:
         - Repo description explicitly states it is a TypeScript MCP server for PiAPI's API
         - README details MCP server setup, installation, and usage with Claude Desktop
@@ -99,6 +113,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

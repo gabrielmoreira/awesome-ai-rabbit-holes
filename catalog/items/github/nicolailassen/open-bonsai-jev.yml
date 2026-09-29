@@ -1,0 +1,93 @@
+id: github__nicolailassen__open-bonsai-jev
+kind: github-repo
+name: nicolailassen/open-bonsai-jev
+canonical_url: https://github.com/nicolailassen/open-bonsai-jev
+identity:
+  github_repo: nicolailassen/open-bonsai-jev
+provenance:
+  discoveries:
+    - id: discovery__github__nicolailassen__open-bonsai-jev__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - SDK & Decision Frameworks
+        anchor_text: '**open-bonsai-jev**'
+        extracted_url: https://github.com/nicolailassen/open-bonsai-jev
+        surrounding_text: >-
+          - [**open-bonsai-jev**](https://github.com/NicolaiLassen/open-bonsai-jev) — openjev's mechanism, Bonsai's
+          weights: typed decisions read straight from one forward pass of a 1.75-bit 27B model. Credit to TheoLeeCJ
+          (SemIf/OpenJev) and PrismML.
+        confidence: high
+    - id: discovery__github__nicolailassen__open-bonsai-jev__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Open reproductions and research
+        anchor_text: open-bonsai-jev
+        extracted_url: https://github.com/nicolailassen/open-bonsai-jev
+        surrounding_text: >-
+          - [open-bonsai-jev](https://github.com/NicolaiLassen/open-bonsai-jev) - Applies the SemIf/OpenJev
+          logit-reading method to PrismML's 1.75-bit Ternary Bonsai 27B GGUF under llama.cpp, returning typed choice
+          probabilities from one forward pass on CPU, Metal, CUDA, or Vulkan; reports 74.6% on a 256-item WANLI sample.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    open-bonsai-jev — openjev's mechanism, Bonsai's weights: typed decisions read straight from one forward pass of a
+    1.75-bit 27B model. Credit to TheoLeeCJ (SemIf/OpenJev) and PrismML.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.98
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.421Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

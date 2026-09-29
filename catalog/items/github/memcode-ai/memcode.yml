@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__memcode-ai__memcode__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-27T06:08:24.604Z"
+      discovered_at: '2026-08-27T06:08:24.604Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,12 @@ provenance:
           - Open Source
         anchor_text: memcode
         extracted_url: https://github.com/memcode-ai/memcode
-        surrounding_text: "- **[memcode](https://github.com/memcode-ai/memcode)** `⭐ 13` — Go terminal coding agent that keeps persistent per-project memory in a local `.memcode` store — subsystems, prior work, failed approaches, corrected preferences — so sessions don't start from zero. Single binary that doubles as a self-hosted gateway answering on twelve chat channels, and ships an MCP memory server so other agents can read the same store. Runs on your own API keys, a local endpoint like Ollama, or a hosted account. MIT."
+        surrounding_text: >-
+          - **[memcode](https://github.com/memcode-ai/memcode)** `⭐ 13` — Go terminal coding agent that keeps persistent
+          per-project memory in a local `.memcode` store — subsystems, prior work, failed approaches, corrected
+          preferences — so sessions don't start from zero. Single binary that doubles as a self-hosted gateway answering
+          on twelve chat channels, and ships an MCP memory server so other agents can read the same store. Runs on your
+          own API keys, a local endpoint like Ollama, or a hosted account. MIT.
         confidence: high
 metadata:
   github:
@@ -51,12 +56,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-27T06:08:24.607Z"
+    updated_at: '2026-08-27T06:08:24.607Z'
     cause: null
     next_retry_at: null
   stars:
@@ -65,7 +70,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

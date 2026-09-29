@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cognition__com__blog__introducing__devin__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Devin
         anchor_text: Devin
         extracted_url: https://www.cognition-labs.com/introducing-devin
-        surrounding_text: "## [Devin](https://www.cognition-labs.com/introducing-devin)"
+        surrounding_text: '## [Devin](https://www.cognition-labs.com/introducing-devin)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An autonomous AI software engineer that plans and executes complex engineering tasks using a terminal, code editor, and browser within a sandboxed environment.
-  why_it_matters: It attempts to move beyond simple autocomplete to a complete autonomous loop capable of resolving real-world GitHub issues and managing end-to-end engineering workflows.
-  mental_damage: The specific brand of existential dread that comes from watching an agent resolve a complex GitHub issue faster than you can finish reading the documentation.
+  summary: >-
+    An autonomous AI software engineer that plans and executes complex engineering tasks using a terminal, code editor,
+    and browser within a sandboxed environment.
+  why_it_matters: >-
+    It attempts to move beyond simple autocomplete to a complete autonomous loop capable of resolving real-world GitHub
+    issues and managing end-to-end engineering workflows.
+  mental_damage: >-
+    The specific brand of existential dread that comes from watching an agent resolve a complex GitHub issue faster than
+    you can finish reading the documentation.
   tags:
     - autonomous-agent
     - ai-engineer
@@ -47,7 +53,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Devin is a standalone agent that plans and executes tasks within a development environment, fitting the primary identity of a coding agent.
+  reason: >-
+    Devin is a standalone agent that plans and executes tasks within a development environment, fitting the primary
+    identity of a coding agent.
   evidence:
     - Claims to be a fully autonomous AI software engineer.
     - Operates within a sandboxed environment with access to a shell, editor, and browser.
@@ -57,12 +65,12 @@ placement:
   secondary_categories: []
   section: Autonomous & Multi-Agent Coding
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.456Z"
+    updated_at: '2026-06-22T05:53:30.456Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:18:25.535Z"
+    updated_at: '2026-09-24T04:18:25.535Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +92,9 @@ processing:
       input_hash: sha256:50b8ded49e2c9777c293224ea1cc9a7eafa0469e9d9991af86936f22fd8bf743
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Devin is a standalone agent that plans and executes tasks within a development environment, fitting the primary identity of a coding agent.
+      decision_reason: >-
+        Devin is a standalone agent that plans and executes tasks within a development environment, fitting the primary
+        identity of a coding agent.
       decision_evidence:
         - Claims to be a fully autonomous AI software engineer.
         - Operates within a sandboxed environment with access to a shell, editor, and browser.
@@ -92,6 +102,8 @@ processing:
       category_candidates:
         - coding-agents
         - app-builders
-      contrastive_reason: Choose coding-agents over app-builders because Devin's core purpose is autonomous engineering within existing codebases rather than just generating new applications from scratch.
+      contrastive_reason: >-
+        Choose coding-agents over app-builders because Devin's core purpose is autonomous engineering within existing
+        codebases rather than just generating new applications from scratch.
       review_reason: null
       review_resume_lifecycle: null

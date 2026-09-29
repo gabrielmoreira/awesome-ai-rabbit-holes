@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__mcp__blast__radius__0__2__0__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-13T05:12:52.223Z"
+      discovered_at: '2026-07-13T05:12:52.223Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,14 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: PyPI
         extracted_url: https://pypi.org/project/mcp-blast-radius/0.2.0
-        surrounding_text: "- [aos-standard/mcp-blast-radius](https://github.com/aos-standard/mcp-blast-radius) [![aos-standard/mcp-blast-radius MCP server](https://glama.ai/mcp/servers/aos-standard/mcp-blast-radius/badges/score.svg)](https://glama.ai/mcp/servers/aos-standard/mcp-blast-radius) 🐍 🏠 - MCP Blast-Radius Auditor — static blast radius extraction and AOS `manifest.json` divergence gate (Oracle / Permitted / Prohibited). Stdio MCP (`mcp-blast-radius`) plus CI blocking gate (`mcp-blast-radius-gate`). Install: `pip install mcp-blast-radius==0.2.0` · [PyPI](https://pypi.org/project/mcp-blast-radius/0.2.0/)"
+        surrounding_text: >-
+          - [aos-standard/mcp-blast-radius](https://github.com/aos-standard/mcp-blast-radius)
+          [![aos-standard/mcp-blast-radius MCP
+          server](https://glama.ai/mcp/servers/aos-standard/mcp-blast-radius/badges/score.svg)](https://glama.ai/mcp/servers/aos-standard/mcp-blast-radius)
+          🐍 🏠 - MCP Blast-Radius Auditor — static blast radius extraction and AOS `manifest.json` divergence gate
+          (Oracle / Permitted / Prohibited). Stdio MCP (`mcp-blast-radius`) plus CI blocking gate
+          (`mcp-blast-radius-gate`). Install: `pip install mcp-blast-radius==0.2.0` ·
+          [PyPI](https://pypi.org/project/mcp-blast-radius/0.2.0/)
         confidence: high
 metadata:
   github:
@@ -44,7 +51,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project lacks a repository description, README, or functional website content, preventing any meaningful assessment of its purpose or value.
+  reason: >-
+    The project lacks a repository description, README, or functional website content, preventing any meaningful
+    assessment of its purpose or value.
   evidence:
     - No repository description provided
     - No README excerpt available
@@ -53,12 +62,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-13T05:12:52.225Z"
+    updated_at: '2026-07-13T05:12:52.225Z'
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:25:03.729Z"
+    updated_at: '2026-09-24T04:25:03.729Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -80,7 +89,9 @@ processing:
       input_hash: sha256:106eec73d045aa46729eb577bdbbdd187a8dba8219f84af6cb7a2828572a0835
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project lacks a repository description, README, or functional website content, preventing any meaningful assessment of its purpose or value.
+      decision_reason: >-
+        The project lacks a repository description, README, or functional website content, preventing any meaningful
+        assessment of its purpose or value.
       decision_evidence:
         - No repository description provided
         - No README excerpt available

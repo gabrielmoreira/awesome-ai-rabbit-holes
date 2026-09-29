@@ -1,0 +1,93 @@
+id: github__agricidaniel__gatekeeper
+kind: github-repo
+name: agricidaniel/gatekeeper
+canonical_url: https://github.com/agricidaniel/gatekeeper
+identity:
+  github_repo: agricidaniel/gatekeeper
+provenance:
+  discoveries:
+    - id: discovery__github__agricidaniel__gatekeeper__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Gatekeeper
+        extracted_url: https://github.com/agricidaniel/gatekeeper
+        surrounding_text: >-
+          - [Gatekeeper](https://github.com/AgriciDaniel/gatekeeper) - YAML rules plus TypeSafe Jev Choice route Claude
+          Code prompts to the right skill/agent (allow/route/block bands). [Project
+          guide](community/projects/tools/gatekeeper.md).
+        confidence: high
+metadata:
+  github:
+    stars: 18
+    forks: 2
+    license: MIT
+    archived: false
+    full_name: AgriciDaniel/gatekeeper
+    html_url: https://github.com/AgriciDaniel/gatekeeper
+    created_at: '2026-09-23T18:32:44Z'
+    pushed_at: '2026-09-23T19:51:46Z'
+    description: >-
+      Routes each request to the right AI agent or skill before your AI picks one. Your rules decide what code can; Jev
+      (TypeSafe) makes the typed call. Installs as Claude Code hooks.
+    homepage: skool.com/ai-marketing-hub
+    topics:
+      - agent-orchestration
+      - agent-routing
+      - ai-agents
+      - ai-router
+      - claude-code
+      - claude-code-hooks
+      - developer-tools
+      - jev
+      - llm-routing
+      - multi-agent
+      - python
+      - typesafe
+    last_checked_at: '2026-09-29T13:08:37.337Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:37.337Z'
+      bytes: 11240
+insights:
+  summary: >-
+    Routes each request to the right AI agent or skill before your AI picks one. Your rules decide what code can; Jev
+    (TypeSafe) makes the typed call. Installs as Claude Code hooks.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.75
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.447Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:37.337Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

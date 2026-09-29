@@ -1,0 +1,75 @@
+id: codiv__ai
+kind: website
+name: codiv.ai
+canonical_url: https://codiv.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__codiv__ai__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: site
+        extracted_url: https://codiv.ai
+        surrounding_text: >-
+          - [openjev](https://github.com/razorback16/openjev) ([site](https://codiv.ai)) - Open, Jev-compatible System
+          One decision server on DiffusionGemma.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: openjev (site) - Open, Jev-compatible System One decision server on DiffusionGemma.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.41
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.487Z'
+    cause:
+      type: ambiguous_canonicalization
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bitatlas-group__bitatlas__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: bitatlas-group/bitatlas
         extracted_url: https://github.com/bitatlas-group/bitatlas
-        surrounding_text: "- [bitatlas-group/bitatlas](https://github.com/bitatlas-group/bitatlas) [![bitatlas MCP server](https://glama.ai/mcp/servers/bitatlas-group/bitatlas/badges/score.svg)](https://glama.ai/mcp/servers/bitatlas-group/bitatlas) 📇 ☁️ - Zero-Knowledge Cloud Drive for Humans and Agents. Client-side AES-256-GCM encryption with 7 MCP tools for encrypted file vault management — upload, download, search, and organize files that the server never sees in plaintext."
+        surrounding_text: >-
+          - [bitatlas-group/bitatlas](https://github.com/bitatlas-group/bitatlas) [![bitatlas MCP
+          server](https://glama.ai/mcp/servers/bitatlas-group/bitatlas/badges/score.svg)](https://glama.ai/mcp/servers/bitatlas-group/bitatlas)
+          📇 ☁️ - Zero-Knowledge Cloud Drive for Humans and Agents. Client-side AES-256-GCM encryption with 7 MCP tools
+          for encrypted file vault management — upload, download, search, and organize files that the server never sees
+          in plaintext.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: bitatlas-group/bitatlas
     html_url: https://github.com/bitatlas-group/bitatlas
-    created_at: "2026-03-17T13:22:21Z"
-    pushed_at: "2026-09-23T07:31:30Z"
+    created_at: '2026-03-17T13:22:21Z'
+    pushed_at: '2026-09-23T07:31:30Z'
     description: Zero Knowledge Cloud Drive for Humans and Agents
     homepage: null
     topics:
@@ -44,13 +49,17 @@ metadata:
       - vault
       - x402
       - zero-knowledge
-    last_checked_at: "2026-09-24T04:12:59.786Z"
+    last_checked_at: '2026-09-24T04:12:59.786Z'
     readme:
-      fetched_at: "2026-09-24T04:12:59.786Z"
+      fetched_at: '2026-09-24T04:12:59.786Z'
       bytes: 2571
 insights:
-  summary: BitAtlas is a zero-knowledge encrypted cloud storage platform with an MCP server for AI agent access to user-authorized files.
-  why_it_matters: It lets developers grant AI agents secure, privacy-preserving access to personal data without exposing keys or plaintext to servers.
+  summary: >-
+    BitAtlas is a zero-knowledge encrypted cloud storage platform with an MCP server for AI agent access to
+    user-authorized files.
+  why_it_matters: >-
+    It lets developers grant AI agents secure, privacy-preserving access to personal data without exposing keys or
+    plaintext to servers.
   mental_damage: Finally, a way to feel guilty about uploading your tax returns to an AI agent while pretending it’s secure.
   tags:
     - encryption
@@ -59,32 +68,36 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: BitAtlas is primarily a secure cloud storage platform with MCP as an access feature, not a developer-facing AI tool whose core function is coding, orchestration, or agent enablement.
+  reason: >-
+    BitAtlas is primarily a secure cloud storage platform with MCP as an access feature, not a developer-facing AI tool
+    whose core function is coding, orchestration, or agent enablement.
   evidence:
-    - "Repo description: 'Zero Knowledge Cloud Drive for Humans and Agents'"
+    - 'Repo description: ''Zero Knowledge Cloud Drive for Humans and Agents'''
     - README emphasizes encrypted file storage, agent access via MCP, and data sovereignty—not coding workflows
-    - MCP server is presented as an integration for agents to read files, not as a tool for building or operating AI systems
+    - >-
+      MCP server is presented as an integration for agents to read files, not as a tool for building or operating AI
+      systems
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:12:59.786Z"
+    updated_at: '2026-09-24T04:12:59.786Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:56:29.515Z"
+    updated_at: '2026-09-28T04:56:29.515Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -97,11 +110,15 @@ processing:
       input_hash: sha256:23e04d8d3520eb64b893bf766a238f9f9bb0259937dac895c159afd9d81350f9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: BitAtlas is primarily a secure cloud storage platform with MCP as an access feature, not a developer-facing AI tool whose core function is coding, orchestration, or agent enablement.
+      decision_reason: >-
+        BitAtlas is primarily a secure cloud storage platform with MCP as an access feature, not a developer-facing AI
+        tool whose core function is coding, orchestration, or agent enablement.
       decision_evidence:
-        - "Repo description: 'Zero Knowledge Cloud Drive for Humans and Agents'"
+        - 'Repo description: ''Zero Knowledge Cloud Drive for Humans and Agents'''
         - README emphasizes encrypted file storage, agent access via MCP, and data sovereignty—not coding workflows
-        - MCP server is presented as an integration for agents to read files, not as a tool for building or operating AI systems
+        - >-
+          MCP server is presented as an integration for agents to read files, not as a tool for building or operating AI
+          systems
       category_candidates: []
       contrastive_reason: null
       review_reason: null

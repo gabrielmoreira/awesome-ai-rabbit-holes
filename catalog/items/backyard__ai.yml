@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__backyard__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,7 @@ provenance:
           - Inference UI
         anchor_text: faradav
         extracted_url: https://faraday.dev
-        surrounding_text: "- [faradav](https://faraday.dev/) - Chat with AI Characters Offline, Runs locally, Zero-configuration."
+        surrounding_text: '- [faradav](https://faraday.dev/) - Chat with AI Characters Offline, Runs locally, Zero-configuration.'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Backyard AI is a desktop application for creating immersive AI-powered characters for roleplay and text-based storytelling.
-  why_it_matters: It provides a local interface for running specialized LLM configurations, including custom grammars and lorebooks, for creative storytelling.
-  mental_damage: Because why spend time debugging production code when you could be fine-tuning the emotional nuances of a fantasy elf guard?
+  summary: >-
+    Backyard AI is a desktop application for creating immersive AI-powered characters for roleplay and text-based
+    storytelling.
+  why_it_matters: >-
+    It provides a local interface for running specialized LLM configurations, including custom grammars and lorebooks,
+    for creative storytelling.
+  mental_damage: >-
+    Because why spend time debugging production code when you could be fine-tuning the emotional nuances of a fantasy
+    elf guard?
   tags:
     - local-ai
     - roleplay
@@ -48,7 +54,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is an end-user entertainment product for creative roleplay rather than a developer-facing tool for software engineering workflows.
+  reason: >-
+    The tool is an end-user entertainment product for creative roleplay rather than a developer-facing tool for software
+    engineering workflows.
   evidence:
     - Scraped site context focuses on fictional text and voice chats
     - README/Site content describes immersive character creation and lorebooks
@@ -57,12 +65,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,10 +79,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:34:44.951Z"
+    updated_at: '2026-09-24T04:34:44.951Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for backyard__ai: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for backyard__ai: Upstream error from Nvidia: ResourceExhausted: Worker local
+        total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -86,7 +96,9 @@ processing:
       input_hash: sha256:ea0c1f2cebf316ca5972e3acc319ac3ac07d000d9488c8242c667bd31a847ea4
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is an end-user entertainment product for creative roleplay rather than a developer-facing tool for software engineering workflows.
+      decision_reason: >-
+        The tool is an end-user entertainment product for creative roleplay rather than a developer-facing tool for
+        software engineering workflows.
       decision_evidence:
         - Scraped site context focuses on fictional text and voice chats
         - README/Site content describes immersive character creation and lorebooks

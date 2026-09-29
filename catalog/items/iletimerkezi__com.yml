@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__iletimerkezi__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,17 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: iletiMerkezi
         extracted_url: https://iletimerkezi.com
-        surrounding_text: "- [iletimerkezi/iletimerkezi-mcp-server](https://github.com/iletimerkezi/iletimerkezi-mcp-server) [![iletimerkezi/iletimerkezi-mcp-server MCP server](https://glama.ai/mcp/servers/iletimerkezi/iletimerkezi-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/iletimerkezi/iletimerkezi-mcp-server) 🎖️ ☁️ - Send SMS, query delivery reports, manage senders / blacklists, register and check İYS (Turkish messaging consent registry) records through the [iletiMerkezi](https://www.iletimerkezi.com) BTK-licensed SMS API. 11 tools, runtime-fetched manifest stays in lock-step with the live API. Install: `npx -y @iletimerkezi/mcp-server`."
+        surrounding_text: >-
+          - [iletimerkezi/iletimerkezi-mcp-server](https://github.com/iletimerkezi/iletimerkezi-mcp-server)
+          [![iletimerkezi/iletimerkezi-mcp-server MCP
+          server](https://glama.ai/mcp/servers/iletimerkezi/iletimerkezi-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/iletimerkezi/iletimerkezi-mcp-server)
+          🎖️ ☁️ - Send SMS, query delivery reports, manage senders / blacklists, register and check İYS (Turkish
+          messaging consent registry) records through the [iletiMerkezi](https://www.iletimerkezi.com) BTK-licensed SMS
+          API. 11 tools, runtime-fetched manifest stays in lock-step with the live API. Install: `npx -y
+          @iletimerkezi/mcp-server`.
         confidence: high
     - id: discovery__www__iletimerkezi__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,7 +42,14 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: iletiMerkezi
         extracted_url: https://www.iletimerkezi.com
-        surrounding_text: "- [iletimerkezi/iletimerkezi-mcp-server](https://github.com/iletimerkezi/iletimerkezi-mcp-server) [![iletimerkezi/iletimerkezi-mcp-server MCP server](https://glama.ai/mcp/servers/iletimerkezi/iletimerkezi-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/iletimerkezi/iletimerkezi-mcp-server) 🎖️ ☁️ - Send SMS, query delivery reports, manage senders / blacklists, register and check İYS (Turkish messaging consent registry) records through the [iletiMerkezi](https://www.iletimerkezi.com) BTK-licensed SMS API. 11 tools, runtime-fetched manifest stays in lock-step with the live API. Install: `npx -y @iletimerkezi/mcp-server`."
+        surrounding_text: >-
+          - [iletimerkezi/iletimerkezi-mcp-server](https://github.com/iletimerkezi/iletimerkezi-mcp-server)
+          [![iletimerkezi/iletimerkezi-mcp-server MCP
+          server](https://glama.ai/mcp/servers/iletimerkezi/iletimerkezi-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/iletimerkezi/iletimerkezi-mcp-server)
+          🎖️ ☁️ - Send SMS, query delivery reports, manage senders / blacklists, register and check İYS (Turkish
+          messaging consent registry) records through the [iletiMerkezi](https://www.iletimerkezi.com) BTK-licensed SMS
+          API. 11 tools, runtime-fetched manifest stays in lock-step with the live API. Install: `npx -y
+          @iletimerkezi/mcp-server`.
         confidence: high
 metadata:
   github:
@@ -54,8 +68,12 @@ metadata:
     readme: null
 insights:
   summary: A communication platform providing SMS, OTP, and messaging APIs for programmatic integration.
-  why_it_matters: Provides the necessary infrastructure for developers to add real-world messaging and two-factor authentication to their applications.
-  mental_damage: The realization that even in the age of autonomous agents, someone still has to manually manage SMS gateway credentials and regulatory compliance.
+  why_it_matters: >-
+    Provides the necessary infrastructure for developers to add real-world messaging and two-factor authentication to
+    their applications.
+  mental_damage: >-
+    The realization that even in the age of autonomous agents, someone still has to manually manage SMS gateway
+    credentials and regulatory compliance.
   tags:
     - sms-api
     - communication
@@ -63,7 +81,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: While it offers APIs that an agent might use, the product's primary identity is a traditional communication service, not an AI tool or agent.
+  reason: >-
+    While it offers APIs that an agent might use, the product's primary identity is a traditional communication service,
+    not an AI tool or agent.
   evidence:
     - Scraped content defines the product as a commercial SMS and OTP provider
     - AI-related content is limited to marketing blog posts about using LLMs to write campaign copy
@@ -71,12 +91,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-21T04:31:27.559Z"
+    updated_at: '2026-09-21T04:31:27.559Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +109,9 @@ processing:
       input_hash: sha256:91d342d9417df9b432c8a38449be76fbe5af6fe8fc27c9d93d898191c8399f01
       proposed_primary_category: null
       disagreement: false
-      decision_reason: While it offers APIs that an agent might use, the product's primary identity is a traditional communication service, not an AI tool or agent.
+      decision_reason: >-
+        While it offers APIs that an agent might use, the product's primary identity is a traditional communication
+        service, not an AI tool or agent.
       decision_evidence:
         - Scraped content defines the product as a commercial SMS and OTP provider
         - AI-related content is limited to marketing blog posts about using LLMs to write campaign copy
@@ -99,7 +121,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause: null
     next_retry_at: null
   stars:

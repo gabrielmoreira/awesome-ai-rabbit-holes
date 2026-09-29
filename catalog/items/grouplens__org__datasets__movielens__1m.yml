@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__grouplens__org__datasets__movielens__1m__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,9 @@ provenance:
           - Description
         anchor_text: MovieLens-1M
         extracted_url: https://grouplens.org/datasets/movielens/1m
-        surrounding_text: "- These agents are initialized from the [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) dataset, embodying varied social traits and preferences."
+        surrounding_text: >-
+          - These agents are initialized from the [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) dataset,
+          embodying varied social traits and preferences.
         confidence: high
 metadata:
   github:
@@ -54,12 +56,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +70,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:19:37.672Z"
+    updated_at: '2026-09-28T04:19:37.672Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -81,7 +83,9 @@ processing:
       input_hash: sha256:90e88510a8ce7cc74673a016c69449d89f370492033b7d9c67bbcfa908d57fb0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a static research dataset rather than a developer-facing tool, agent, framework, or infrastructure product.
+      decision_reason: >-
+        This is a static research dataset rather than a developer-facing tool, agent, framework, or infrastructure
+        product.
       decision_evidence:
         - The project is a collection of movie ratings, not executable software or an SDK
         - It is categorized as a benchmark dataset for ML research rather than developer tooling

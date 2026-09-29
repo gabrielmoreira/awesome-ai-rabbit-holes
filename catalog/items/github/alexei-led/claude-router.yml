@@ -1,0 +1,89 @@
+id: github__alexei-led__claude-router
+kind: github-repo
+name: alexei-led/claude-router
+canonical_url: https://github.com/alexei-led/claude-router
+identity:
+  github_repo: alexei-led/claude-router
+provenance:
+  discoveries:
+    - id: discovery__github__alexei-led__claude-router__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: claude-router (alexei-led)
+        extracted_url: https://github.com/alexei-led/claude-router
+        surrounding_text: >-
+          - [claude-router (alexei-led)](https://github.com/alexei-led/claude-router) - Experimental Claude Code local
+          gateway: TypeSafe Jev picks tier/effort for `jev-router` model rewrites. [Project
+          guide](community/projects/tools/alexei-led-claude-router.md).
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: alexei-led/claude-router
+    html_url: https://github.com/alexei-led/claude-router
+    created_at: '2026-09-22T13:02:07Z'
+    pushed_at: '2026-09-25T14:24:12Z'
+    description: >-
+      Claude Code plugin that auto-picks the right model for each turn — micro, low, medium, or high tier — using Jev
+      routing.
+    homepage: null
+    topics:
+      - anthropic
+      - claude
+      - claude-code
+      - jev
+      - llm
+      - model-routing
+      - plugin
+      - typesafe
+    last_checked_at: '2026-09-29T13:08:48.182Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:48.182Z'
+      bytes: 5824
+insights:
+  summary: >-
+    Claude Code plugin that auto-picks the right model for each turn — micro, low, medium, or high tier — using Jev
+    routing.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.68
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.447Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:48.182Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

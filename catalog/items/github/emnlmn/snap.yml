@@ -1,0 +1,105 @@
+id: github__emnlmn__snap
+kind: github-repo
+name: emnlmn/snap
+canonical_url: https://github.com/emnlmn/snap
+identity:
+  github_repo: emnlmn/snap
+provenance:
+  discoveries:
+    - id: discovery__github__emnlmn__snap__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Demos & playgrounds
+        anchor_text: snap
+        extracted_url: https://github.com/emnlmn/snap
+        surrounding_text: >-
+          - [snap](https://github.com/emnlmn/snap) - Typed decisions from unstructured state: one forward pass, zero
+          generated text. Local, deterministic, Jev-compatible. Not affiliated with typesafe.ai.
+        confidence: high
+    - id: discovery__github__emnlmn__snap__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Jev-like models (72)
+        anchor_text: snap
+        extracted_url: https://github.com/emnlmn/snap
+        surrounding_text: >-
+          | [snap](https://github.com/emnlmn/snap) | ★ 17 | Rust | 2026-09-24 | Local Jev-compatible typed decisions
+          from unstructured state in one forward pass. |
+        confidence: high
+metadata:
+  github:
+    stars: 21
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: emnlmn/snap
+    html_url: https://github.com/emnlmn/snap
+    created_at: '2026-09-23T14:17:33Z'
+    pushed_at: '2026-09-28T21:04:08Z'
+    description: >-
+      Typed decisions from unstructured state: one forward pass, zero generated text. Local, deterministic,
+      Jev-compatible. Not affiliated with typesafe.ai.
+    homepage: https://typesafe.ai
+    topics:
+      - decision-engine
+      - gguf
+      - llamacpp
+      - llm
+      - llm-inference
+      - local-llm
+      - rust
+      - structured-outputs
+    last_checked_at: '2026-09-29T13:11:00.552Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:00.552Z'
+      bytes: 33671
+insights:
+  summary: >-
+    Typed decisions from unstructured state: one forward pass, zero generated text. Local, deterministic,
+    Jev-compatible. Not affiliated with typesafe.ai.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.93
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.413Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:00.552Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

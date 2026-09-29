@@ -1,0 +1,74 @@
+id: github__kodustech__kodus-ai
+kind: github-repo
+name: kodustech/kodus-ai
+canonical_url: https://github.com/kodustech/kodus-ai
+identity:
+  github_repo: kodustech/kodus-ai
+provenance:
+  discoveries:
+    - id: discovery__github__kodustech__kodus-ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: Kodus
+        extracted_url: https://kodus.io
+        surrounding_text: >-
+          - **[Kodus](https://kodus.io)** – Open-source AI code review tool for pull requests, with repository context,
+          custom rules, Git workflow integration, and BYOK support.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Kodus – Open-source AI code review tool for pull requests, with repository context, custom rules, Git workflow
+    integration, and BYOK support.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
+  evidence:
+    - jev-latest choice confidence 0.95
+placement:
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Review, Testing & Repair
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.464Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

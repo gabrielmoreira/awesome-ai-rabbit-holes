@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__dash0__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,12 @@ provenance:
           - Official Servers
         anchor_text: Dash0
         extracted_url: https://dash0.com
-        surrounding_text: "- **[Dash0](https://github.com/dash0hq/mcp-dash0)** - Navigate your OpenTelemetry resources, investigate incidents and query metrics, logs and traces on [Dash0](https://www.dash0.com/)."
+        surrounding_text: >-
+          - **[Dash0](https://github.com/dash0hq/mcp-dash0)** - Navigate your OpenTelemetry resources, investigate
+          incidents and query metrics, logs and traces on [Dash0](https://www.dash0.com/).
         confidence: high
     - id: discovery__www__dash0__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +35,9 @@ provenance:
           - Official Servers
         anchor_text: Dash0
         extracted_url: https://www.dash0.com
-        surrounding_text: "- **[Dash0](https://github.com/dash0hq/mcp-dash0)** - Navigate your OpenTelemetry resources, investigate incidents and query metrics, logs and traces on [Dash0](https://www.dash0.com/)."
+        surrounding_text: >-
+          - **[Dash0](https://github.com/dash0hq/mcp-dash0)** - Navigate your OpenTelemetry resources, investigate
+          incidents and query metrics, logs and traces on [Dash0](https://www.dash0.com/).
         confidence: high
 metadata:
   github:
@@ -52,8 +56,12 @@ metadata:
     readme: null
 insights:
   summary: Dash0 is an OpenTelemetry-native observability platform for monitoring AI agents and applications in production.
-  why_it_matters: It gives developers visibility into AI-generated code and agent behavior, helping close the loop between coding velocity and production stability.
-  mental_damage: Another observability tool promising to fix the chaos AI coding tools created, while adding yet another dashboard to the burnout cycle.
+  why_it_matters: >-
+    It gives developers visibility into AI-generated code and agent behavior, helping close the loop between coding
+    velocity and production stability.
+  mental_damage: >-
+    Another observability tool promising to fix the chaos AI coding tools created, while adding yet another dashboard to
+    the burnout cycle.
   tags:
     - observability
     - opentelemetry
@@ -63,21 +71,28 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Dash0 focuses on observability and tracing of AI agent behavior in production, which aligns with the evals category's focus on measuring, tracing, and comparing agent behavior rather than acting as a coding agent or app builder.
+  reason: >-
+    Dash0 focuses on observability and tracing of AI agent behavior in production, which aligns with the evals
+    category's focus on measuring, tracing, and comparing agent behavior rather than acting as a coding agent or app
+    builder.
   evidence:
-    - Dash0 acquires Polar Signals and provides AI SDLC Insights, Chat Automations, and Auto-tune for monitoring agents writing code
+    - >-
+      Dash0 acquires Polar Signals and provides AI SDLC Insights, Chat Automations, and Auto-tune for monitoring agents
+      writing code
     - Product emphasizes 'See everything happening in production' and 'fix problems automatically' for AI-generated code
-    - Listed in awesome-mcp-servers under 'Official Servers' with description referencing OpenTelemetry Native Observability
+    - >-
+      Listed in awesome-mcp-servers under 'Official Servers' with description referencing OpenTelemetry Native
+      Observability
 placement:
   primary_category: evals
   section: Observability & Tracing
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:40:37.428Z"
+    updated_at: '2026-09-28T04:40:37.428Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,20 +105,31 @@ processing:
       input_hash: sha256:d564204e8e7a1e6ac580d3b252122da5d5638dfbb335c1c05a4803e24f72fc61
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: Dash0 focuses on observability and tracing of AI agent behavior in production, which aligns with the evals category's focus on measuring, tracing, and comparing agent behavior rather than acting as a coding agent or app builder.
+      decision_reason: >-
+        Dash0 focuses on observability and tracing of AI agent behavior in production, which aligns with the evals
+        category's focus on measuring, tracing, and comparing agent behavior rather than acting as a coding agent or app
+        builder.
       decision_evidence:
-        - Dash0 acquires Polar Signals and provides AI SDLC Insights, Chat Automations, and Auto-tune for monitoring agents writing code
-        - Product emphasizes 'See everything happening in production' and 'fix problems automatically' for AI-generated code
-        - Listed in awesome-mcp-servers under 'Official Servers' with description referencing OpenTelemetry Native Observability
+        - >-
+          Dash0 acquires Polar Signals and provides AI SDLC Insights, Chat Automations, and Auto-tune for monitoring
+          agents writing code
+        - >-
+          Product emphasizes 'See everything happening in production' and 'fix problems automatically' for AI-generated
+          code
+        - >-
+          Listed in awesome-mcp-servers under 'Official Servers' with description referencing OpenTelemetry Native
+          Observability
       category_candidates:
         - evals
         - memory-and-context
-      contrastive_reason: Choose evals over memory-and-context because Dash0's core job is measuring, tracing, and comparing AI agent behavior in production rather than focusing on persistent memory, retrieval, or context compression for agents.
+      contrastive_reason: >-
+        Choose evals over memory-and-context because Dash0's core job is measuring, tracing, and comparing AI agent
+        behavior in production rather than focusing on persistent memory, retrieval, or context compression for agents.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.964Z"
+    updated_at: '2026-07-21T15:20:21.964Z'
     cause: null
     next_retry_at: null
   stars:

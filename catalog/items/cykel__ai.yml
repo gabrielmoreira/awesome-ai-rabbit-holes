@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cykel__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Cykel
         anchor_text: Cykel
         extracted_url: https://cykel.ai
-        surrounding_text: "## [Cykel](https://www.cykel.ai/)"
+        surrounding_text: '## [Cykel](https://www.cykel.ai/)'
         confidence: high
     - id: discovery__www__cykel__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Cykel
         anchor_text: Cykel
         extracted_url: https://www.cykel.ai
-        surrounding_text: "## [Cykel](https://www.cykel.ai/)"
+        surrounding_text: '## [Cykel](https://www.cykel.ai/)'
         confidence: high
 metadata:
   github:
@@ -52,8 +52,12 @@ metadata:
     readme: null
 insights:
   summary: Cykel is a commercial platform offering autonomous AI digital workers for recruitment, sales, and research tasks.
-  why_it_matters: It positions itself as an end-to-end business automation tool using AI agents, but lacks clear developer tooling integration or open model access.
-  mental_damage: Another AI vendor promising superhuman productivity while locking users into opaque, paid workflows you can’t inspect or extend.
+  why_it_matters: >-
+    It positions itself as an end-to-end business automation tool using AI agents, but lacks clear developer tooling
+    integration or open model access.
+  mental_damage: >-
+    Another AI vendor promising superhuman productivity while locking users into opaque, paid workflows you can’t
+    inspect or extend.
   tags:
     - ai-agents
     - business-automation
@@ -61,21 +65,25 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Cykel is a hosted SaaS platform for business process automation using proprietary AI workers, not a developer-facing tool for coding, workflow orchestration, or infrastructure.
+  reason: >-
+    Cykel is a hosted SaaS platform for business process automation using proprietary AI workers, not a developer-facing
+    tool for coding, workflow orchestration, or infrastructure.
   evidence:
     - Markets Lucy, Eve, and Samson as AI workers for recruitment, sales, and research — not coding or developer tasks
-    - Describes itself as a 'digital worker platform' that integrates with ATS, CRM, and business tools — not IDEs, terminals, or codebases
+    - >-
+      Describes itself as a 'digital worker platform' that integrates with ATS, CRM, and business tools — not IDEs,
+      terminals, or codebases
     - Listed in awesome-ai-agents under a generic 'Cykel' section with no technical or developer-oriented description
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:40:28.469Z"
+    updated_at: '2026-09-28T04:40:28.469Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,18 +96,26 @@ processing:
       input_hash: sha256:c82ef9132ebc9a37a08f89984a7bf2efd4814615a56653f66fcf14e455da8551
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Cykel is a hosted SaaS platform for business process automation using proprietary AI workers, not a developer-facing tool for coding, workflow orchestration, or infrastructure.
+      decision_reason: >-
+        Cykel is a hosted SaaS platform for business process automation using proprietary AI workers, not a
+        developer-facing tool for coding, workflow orchestration, or infrastructure.
       decision_evidence:
-        - Markets Lucy, Eve, and Samson as AI workers for recruitment, sales, and research — not coding or developer tasks
-        - Describes itself as a 'digital worker platform' that integrates with ATS, CRM, and business tools — not IDEs, terminals, or codebases
-        - Listed in awesome-ai-agents under a generic 'Cykel' section with no technical or developer-oriented description
+        - >-
+          Markets Lucy, Eve, and Samson as AI workers for recruitment, sales, and research — not coding or developer
+          tasks
+        - >-
+          Describes itself as a 'digital worker platform' that integrates with ATS, CRM, and business tools — not IDEs,
+          terminals, or codebases
+        - >-
+          Listed in awesome-ai-agents under a generic 'Cykel' section with no technical or developer-oriented
+          description
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.964Z"
+    updated_at: '2026-07-21T15:20:21.964Z'
     cause: null
     next_retry_at: null
   stars:

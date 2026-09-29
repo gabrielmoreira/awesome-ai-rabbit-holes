@@ -1,0 +1,97 @@
+id: github__us__jev-local
+kind: github-repo
+name: us/jev-local
+canonical_url: https://github.com/us/jev-local
+identity:
+  github_repo: us/jev-local
+provenance:
+  discoveries:
+    - id: discovery__github__us__jev-local__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Jev-like models (72)
+        anchor_text: jev-local
+        extracted_url: https://github.com/us/jev-local
+        surrounding_text: >-
+          | [jev-local](https://github.com/us/jev-local) | ★ 3 | Python | 2026-09-22 | Local Jev-compatible evaluation
+          server: POST /v1/systemone with typed noul/choice/score, open weights, no waitlist No repository-level license
+          file was found during review. |
+        confidence: high
+    - id: discovery__github__us__jev-local__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Calibration & Research
+        anchor_text: jev-local
+        extracted_url: https://github.com/us/jev-local
+        surrounding_text: >-
+          - [jev-local](https://github.com/us/jev-local)
+          ![stars](https://img.shields.io/github/stars/us/jev-local?style=flat-square&label=%E2%98%85) - Local
+          reproduction: Jev-compatible `POST /v1/systemone` server answering typed `Choice`/`Score`/`Noul` questions
+          with confidence from open weights, verified as an official-SDK drop-in with temperature-fit calibration (set3
+          n=1316, 0.83 overall).
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Local Jev-compatible evaluation server: POST /v1/systemone with typed noul/choice/score, open weights, no waitlist
+    No repository-level license file was found during review.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
+  evidence:
+    - jev-latest choice confidence 0.74
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Local Serving & Gateways
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.427Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

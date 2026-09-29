@@ -1,0 +1,166 @@
+id: github__kylemclaren__jevql
+kind: github-repo
+name: kylemclaren/jevql
+canonical_url: https://github.com/kylemclaren/jevql
+identity:
+  github_repo: kylemclaren/jevql
+provenance:
+  discoveries:
+    - id: discovery__github__kylemclaren__jevql__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Integrations
+        anchor_text: jevql
+        extracted_url: https://github.com/kylemclaren/jevql
+        surrounding_text: >-
+          - [jevql](https://github.com/kylemclaren/jevql) ([site](https://jevql.fly.dev/)) - Semantic SQL for Postgres,
+          powered by Jev.
+        confidence: high
+    - id: discovery__github__kylemclaren__jevql__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jevql
+        extracted_url: https://github.com/kylemclaren/jevql
+        surrounding_text: >-
+          - [jevql](https://github.com/kylemclaren/jevql) - psql-style CLI, MCP server, and Go/TypeScript/Python SDKs
+          that add TypeSafe Jev predicates, probabilities, choices, and scores to queries against vanilla PostgreSQL
+          without an extension; distinct from pg-jev. [Project guide](community/projects/tools/jevql.md).
+        confidence: high
+    - id: discovery__github__kylemclaren__jevql__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Frameworks & integrations (82)
+        anchor_text: jevql
+        extracted_url: https://github.com/kylemclaren/jevql
+        surrounding_text: >-
+          | [jevql](https://github.com/kylemclaren/jevql) | ★ 7 | Go | 2026-09-20 | Adds `jev()`, `jev_prob`,
+          `jev_choice`, and `jev_score` to vanilla PostgreSQL queries through a psql-shaped CLI and Go, TypeScript, and
+          Python SDKs. |
+        confidence: high
+    - id: discovery__github__kylemclaren__jevql__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Data & Search
+        anchor_text: '**jevql**'
+        extracted_url: https://github.com/kylemclaren/jevql
+        surrounding_text: >-
+          - [**jevql**](https://github.com/kylemclaren/jevql) — Adds Jev semantic filtering, grouping, and ranking
+          around ordinary PostgreSQL without installing a database extension.
+        confidence: high
+    - id: discovery__github__kylemclaren__jevql__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: jevql
+        extracted_url: https://github.com/kylemclaren/jevql
+        surrounding_text: >-
+          - [jevql](https://github.com/kylemclaren/jevql)
+          ![stars](https://img.shields.io/github/stars/kylemclaren/jevql?style=flat-square&label=%E2%98%85) - Data
+          tooling: psql-shaped CLI and Go/TypeScript/Python SDKs that run plain SQL on a vanilla Postgres (no extension)
+          and then ask Jev Noul, Choice, or Score questions about each surviving row so the client can apply `jev()`
+          filters, `jev_prob` sorts, and `jev_choice` groups.
+        confidence: high
+    - id: discovery__github__kylemclaren__jevql__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Routing, data, and workflows
+        anchor_text: jevql
+        extracted_url: https://github.com/kylemclaren/jevql
+        surrounding_text: >-
+          - [jevql](https://github.com/kylemclaren/jevql) - Psql-shaped client and Go/TypeScript/Python SDKs for vanilla
+          PostgreSQL where Jev makes Noul, Choice, and Score judgements about individual table rows after the plain SQL
+          has run on the server, and the client applies the resulting filter, sort, or group.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: jevql (site) - Semantic SQL for Postgres, powered by Jev.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Search, Retrieval & Data
+  evidence:
+    - jev-latest choice confidence 0.46
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Search, Retrieval & Data
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.368Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

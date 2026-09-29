@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__addyosmani__agent-skills__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-06-25T05:24:49.456Z"
+      discovered_at: '2026-06-25T05:24:49.456Z'
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -19,7 +19,10 @@ provenance:
           - Development Frameworks
         anchor_text: agent-skills
         extracted_url: https://github.com/addyosmani/agent-skills
-        surrounding_text: "- [agent-skills](https://github.com/addyosmani/agent-skills) ![](https://img.shields.io/github/stars/addyosmani/agent-skills.svg?cacheSeconds=86400) - Production-grade skill pack for AI coding agents with explicit spec-to-plan-to-build workflows and quality gates."
+        surrounding_text: >-
+          - [agent-skills](https://github.com/addyosmani/agent-skills)
+          ![](https://img.shields.io/github/stars/addyosmani/agent-skills.svg?cacheSeconds=86400) - Production-grade
+          skill pack for AI coding agents with explicit spec-to-plan-to-build workflows and quality gates.
         confidence: high
 metadata:
   github:
@@ -29,8 +32,8 @@ metadata:
     archived: false
     full_name: addyosmani/agent-skills
     html_url: https://github.com/addyosmani/agent-skills
-    created_at: "2026-02-15T20:20:26Z"
-    pushed_at: "2026-09-12T03:14:59Z"
+    created_at: '2026-02-15T20:20:26Z'
+    pushed_at: '2026-09-12T03:14:59Z'
     description: Production-grade engineering skills for AI coding agents.
     homepage: https://skills.addy.ie
     topics:
@@ -40,14 +43,20 @@ metadata:
       - codex
       - cursor
       - skills
-    last_checked_at: "2026-09-17T04:13:29.992Z"
+    last_checked_at: '2026-09-17T04:13:29.992Z'
     readme:
-      fetched_at: "2026-09-17T04:13:29.992Z"
+      fetched_at: '2026-09-17T04:13:29.992Z'
       bytes: 25146
 insights:
-  summary: A collection of production-grade engineering workflows and slash commands designed to be installed into AI coding agents.
-  why_it_matters: It provides structured, senior-engineer-level development lifecycles—like spec-driven development and TDD—to ensure AI agents follow consistent quality gates.
-  mental_damage: "Just what every developer needs: a way to outsource the anxiety of code reviews to a set of pre-packaged slash commands."
+  summary: >-
+    A collection of production-grade engineering workflows and slash commands designed to be installed into AI coding
+    agents.
+  why_it_matters: >-
+    It provides structured, senior-engineer-level development lifecycles—like spec-driven development and TDD—to ensure
+    AI agents follow consistent quality gates.
+  mental_damage: >-
+    Just what every developer needs: a way to outsource the anxiety of code reviews to a set of pre-packaged slash
+    commands.
   tags:
     - agent-skills
     - claude-code
@@ -57,7 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is the distribution of installable rule packs and slash-command sets for existing agents, which fits the specific definition of the skills category.
+  reason: >-
+    The product's primary identity is the distribution of installable rule packs and slash-command sets for existing
+    agents, which fits the specific definition of the skills category.
   evidence:
     - README describes the product as 'Production-grade engineering skills for AI coding agents'
     - The tool is installed into agents like Claude Code and Cursor via 'npx skills add'
@@ -67,22 +78,22 @@ placement:
   secondary_categories: []
   section: Skill Packs & Libraries
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (66509) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-06-25T05:24:49.457Z"
+    updated_at: '2026-06-25T05:24:49.457Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:29.992Z"
+    updated_at: '2026-09-17T04:13:29.992Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:19:54.345Z"
+    updated_at: '2026-09-24T04:19:54.345Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -95,14 +106,20 @@ processing:
       input_hash: sha256:abeaba4fe83b1c5bb2259bf526557d329148052ac2348f8fe03956f8f08a2dee
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: The product's primary identity is the distribution of installable rule packs and slash-command sets for existing agents, which fits the specific definition of the skills category.
+      decision_reason: >-
+        The product's primary identity is the distribution of installable rule packs and slash-command sets for existing
+        agents, which fits the specific definition of the skills category.
       decision_evidence:
         - README describes the product as 'Production-grade engineering skills for AI coding agents'
         - The tool is installed into agents like Claude Code and Cursor via 'npx skills add'
-        - The core value is a set of 9 slash commands and reusable rule content rather than a standalone tool or executable
+        - >-
+          The core value is a set of 9 slash commands and reusable rule content rather than a standalone tool or
+          executable
       category_candidates:
         - skills
         - extensions-and-addons
-      contrastive_reason: Choose skills over extensions-and-addons because the primary artifact is portable, installable content (rules and command sets) rather than an integration layer or an executable tool.
+      contrastive_reason: >-
+        Choose skills over extensions-and-addons because the primary artifact is portable, installable content (rules
+        and command sets) rather than an integration layer or an executable tool.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__acl2023__retrieval__lm__github__io__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,11 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: "ACL 2023 Tutorial: Retrieval-based Language Models and Applications"
+        anchor_text: 'ACL 2023 Tutorial: Retrieval-based Language Models and Applications'
         extracted_url: https://acl2023-retrieval-lm.github.io
-        surrounding_text: "4. [ACL 2023 Tutorial: Retrieval-based Language Models and Applications](https://acl2023-retrieval-lm.github.io/)"
+        surrounding_text: >-
+          4. [ACL 2023 Tutorial: Retrieval-based Language Models and
+          Applications](https://acl2023-retrieval-lm.github.io/)
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ACL 2023 tutorial page providing a comprehensive overview of retrieval-based language models, covering architectures, training approaches, and applications.
-  why_it_matters: It compiles foundational research on retrieval-augmented generation that informs current RAG implementations, but it is educational material rather than a developer tool.
-  mental_damage: Discovering that every RAG startup pitch deck is secretly just these ACL 2023 slides with the university logos swapped for YC hexagons.
+  summary: >-
+    ACL 2023 tutorial page providing a comprehensive overview of retrieval-based language models, covering
+    architectures, training approaches, and applications.
+  why_it_matters: >-
+    It compiles foundational research on retrieval-augmented generation that informs current RAG implementations, but it
+    is educational material rather than a developer tool.
+  mental_damage: >-
+    Discovering that every RAG startup pitch deck is secretly just these ACL 2023 slides with the university logos
+    swapped for YC hexagons.
   tags:
     - retrieval-augmented-generation
     - academic-tutorial
@@ -47,21 +55,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is an academic conference tutorial page, not a practical developer tool, framework, or infrastructure product; it lacks a developer-tooling workflow or standalone product identity.
+  reason: >-
+    This is an academic conference tutorial page, not a practical developer tool, framework, or infrastructure product;
+    it lacks a developer-tooling workflow or standalone product identity.
   evidence:
-    - Content is an ACL 2023 tutorial schedule with slides and a reading list on retrieval-based language models, not a tool.
+    - >-
+      Content is an ACL 2023 tutorial schedule with slides and a reading list on retrieval-based language models, not a
+      tool.
     - No code repository, API, or developer workflow is provided; identity is purely academic/educational.
-    - Source-list categorizes it under 'Course', confirming its role as learning material rather than developer infrastructure.
+    - >-
+      Source-list categorizes it under 'Course', confirming its role as learning material rather than developer
+      infrastructure.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,10 +84,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:30:08.320Z"
+    updated_at: '2026-09-24T04:30:08.320Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for acl2023__retrieval__lm__github__io: Invalid AI response structure: Missing required field: why_it_matters"
+      message: >-
+        Catalog LLM categorization failed for acl2023__retrieval__lm__github__io: Invalid AI response structure: Missing
+        required field: why_it_matters
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -85,11 +101,17 @@ processing:
       input_hash: sha256:dfac00c3516a4fff7b47732644e70bea202443ba70a56318fb37c26c3dc30c3d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an academic conference tutorial page, not a practical developer tool, framework, or infrastructure product; it lacks a developer-tooling workflow or standalone product identity.
+      decision_reason: >-
+        This is an academic conference tutorial page, not a practical developer tool, framework, or infrastructure
+        product; it lacks a developer-tooling workflow or standalone product identity.
       decision_evidence:
-        - Content is an ACL 2023 tutorial schedule with slides and a reading list on retrieval-based language models, not a tool.
+        - >-
+          Content is an ACL 2023 tutorial schedule with slides and a reading list on retrieval-based language models,
+          not a tool.
         - No code repository, API, or developer workflow is provided; identity is purely academic/educational.
-        - Source-list categorizes it under 'Course', confirming its role as learning material rather than developer infrastructure.
+        - >-
+          Source-list categorizes it under 'Course', confirming its role as learning material rather than developer
+          infrastructure.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

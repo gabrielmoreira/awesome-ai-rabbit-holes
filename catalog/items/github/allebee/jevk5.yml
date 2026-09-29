@@ -1,0 +1,147 @@
+id: github__allebee__jevk5
+kind: github-repo
+name: allebee/jevk5
+canonical_url: https://github.com/allebee/jevk5
+identity:
+  github_repo: allebee/jevk5
+provenance:
+  discoveries:
+    - id: discovery__github__allebee__jevk5__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: jevk5
+        extracted_url: https://github.com/allebee/jevk5
+        surrounding_text: >-
+          - [jevk5](https://github.com/allebee/jevk5) ([site](https://huggingface.co/alibiserikbay/JevK5)) - JevK5:
+          open-weight alternative to TypeSafe Jev. Typed decisions with probabilities in one forward pass; Apache-2.0
+          weights and code.
+        confidence: high
+    - id: discovery__github__allebee__jevk5__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Jev-like models (72)
+        anchor_text: JevK5
+        extracted_url: https://github.com/allebee/jevk5
+        surrounding_text: >-
+          | [JevK5](https://github.com/allebee/jevk5) | ★ 51 | Python | 2026-09-24 | Open-weight Jev alternative that
+          returns typed decisions with probabilities in one forward pass. |
+        confidence: high
+    - id: discovery__github__allebee__jevk5__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - High-Frequency / Games
+        anchor_text: '**jevk5**'
+        extracted_url: https://github.com/allebee/jevk5
+        surrounding_text: >-
+          - [**jevk5**](https://github.com/allebee/jevk5) — An open model that answers the same typed questions Jev
+          answers — yes/no, choice, score — in one forward pass with zero generated tokens (~13 ms on an H100), plus a
+          head-to-head harness that puts Jev and the open model on the identical board and question so the two can be
+          compared directly. It serves TypeSafe's \`/v1/systemone\` wire format, so a Jev client can point at it
+          unchanged.
+        confidence: high
+    - id: discovery__github__allebee__jevk5__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Calibration & Research
+        anchor_text: JevK5
+        extracted_url: https://github.com/allebee/jevk5
+        surrounding_text: >-
+          - [JevK5](https://github.com/allebee/jevk5)
+          ![stars](https://img.shields.io/github/stars/allebee/jevk5?style=flat-square&label=%E2%98%85) - Open
+          alternative: an open-weight model answering yes/no, choice and score questions with a probability per option
+          in one forward pass, reporting about 13 ms on an H100 and 33.1% against Jev's 36.7% on 308 sealed decisions.
+        confidence: high
+metadata:
+  github:
+    stars: 123
+    forks: 11
+    license: Apache-2.0
+    archived: false
+    full_name: allebee/jevk5
+    html_url: https://github.com/allebee/jevk5
+    created_at: '2026-09-22T14:58:40Z'
+    pushed_at: '2026-09-28T06:51:18Z'
+    description: >-
+      JevK5: open-weight alternative to TypeSafe Jev. Typed decisions with probabilities in one forward pass; Apache-2.0
+      weights and code.
+    homepage: https://huggingface.co/alibiserikbay/JevK5
+    topics:
+      - calibration
+      - decision-model
+      - jev
+      - jev-alternative
+      - jevbench
+      - lora
+      - qwen
+      - system-one
+      - typed-decisions
+    last_checked_at: '2026-09-29T13:08:52.343Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:52.343Z'
+      bytes: 26332
+insights:
+  summary: >-
+    JevK5: open-weight alternative to TypeSafe Jev. Typed decisions with probabilities in one forward pass; Apache-2.0
+    weights and code.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 1.00
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.380Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:52.343Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

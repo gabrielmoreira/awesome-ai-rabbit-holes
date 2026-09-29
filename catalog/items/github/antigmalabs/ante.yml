@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__antigmalabs__ante-preview__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,14 @@ provenance:
           - Closed Source
         anchor_text: Ante
         extracted_url: https://github.com/antigmalabs/ante-preview
-        surrounding_text: "- **[Ante](https://github.com/AntigmaLabs/ante-preview)** `⭐ 562` `[Antigma Labs]` — Single ~15 MB Rust binary terminal coding agent (research preview) with client–daemon architecture, interactive TUI + headless CLI, offline GGUF inference via embedded llama.cpp, and 12+ providers; strong verified Terminal-Bench 2.1 results. Core agent ships as a prebuilt binary."
+        surrounding_text: >-
+          - **[Ante](https://github.com/AntigmaLabs/ante-preview)** `⭐ 562` `[Antigma Labs]` — Single ~15 MB Rust binary
+          terminal coding agent (research preview) with client–daemon architecture, interactive TUI + headless CLI,
+          offline GGUF inference via embedded llama.cpp, and 12+ providers; strong verified Terminal-Bench 2.1 results.
+          Core agent ships as a prebuilt binary.
         confidence: high
     - id: discovery__github__antigmalabs__ante__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-13T04:39:28.746Z"
+      discovered_at: '2026-08-13T04:39:28.746Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -36,7 +40,11 @@ provenance:
           - Closed Source
         anchor_text: Ante
         extracted_url: https://github.com/antigmalabs/ante-preview
-        surrounding_text: "- **[Ante](https://github.com/AntigmaLabs/ante-preview)** `⭐ 704` `[Antigma Labs]` — Single ~15 MB Rust binary terminal coding agent (research preview) with client–daemon architecture, interactive TUI + headless CLI, offline GGUF inference via embedded llama.cpp, and 12+ providers; strong verified Terminal-Bench 2.1 results. Core agent ships as a prebuilt binary."
+        surrounding_text: >-
+          - **[Ante](https://github.com/AntigmaLabs/ante-preview)** `⭐ 704` `[Antigma Labs]` — Single ~15 MB Rust binary
+          terminal coding agent (research preview) with client–daemon architecture, interactive TUI + headless CLI,
+          offline GGUF inference via embedded llama.cpp, and 12+ providers; strong verified Terminal-Bench 2.1 results.
+          Core agent ships as a prebuilt binary.
         confidence: high
 metadata:
   github:
@@ -46,9 +54,11 @@ metadata:
     archived: false
     full_name: AntigmaLabs/ante
     html_url: https://github.com/AntigmaLabs/ante
-    created_at: "2025-12-23T23:42:44Z"
-    pushed_at: "2026-09-16T17:21:02Z"
-    description: "Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude Code or Codex, with none of their dependencies or model constraints. "
+    created_at: '2025-12-23T23:42:44Z'
+    pushed_at: '2026-09-16T17:21:02Z'
+    description: >-
+      Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude
+      Code or Codex, with none of their dependencies or model constraints. 
     homepage: https://antigma.ai
     topics:
       - agent
@@ -57,14 +67,20 @@ metadata:
       - artifical-life
       - rust
       - terminal
-    last_checked_at: "2026-09-17T04:13:44.952Z"
+    last_checked_at: '2026-09-17T04:13:44.952Z'
     readme:
-      fetched_at: "2026-09-17T04:13:44.952Z"
+      fetched_at: '2026-09-17T04:13:44.952Z'
       bytes: 19915
 insights:
-  summary: A terminal-native, self-contained coding agent harness written in Rust that supports both cloud models and local offline inference.
-  why_it_matters: It provides a high-performance, low-footprint alternative to heavyweight agents, allowing developers to run autonomous coding loops entirely offline.
-  mental_damage: Another terminal-based agent to add to the growing pile of tools you'll use to automate the very tasks you're currently procrastinating on.
+  summary: >-
+    A terminal-native, self-contained coding agent harness written in Rust that supports both cloud models and local
+    offline inference.
+  why_it_matters: >-
+    It provides a high-performance, low-footprint alternative to heavyweight agents, allowing developers to run
+    autonomous coding loops entirely offline.
+  mental_damage: >-
+    Another terminal-based agent to add to the growing pile of tools you'll use to automate the very tasks you're
+    currently procrastinating on.
   tags:
     - rust
     - terminal
@@ -74,7 +90,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Ante is primarily a standalone coding agent that operates via a terminal interface, designed to perform autonomous coding tasks.
+  reason: >-
+    Ante is primarily a standalone coding agent that operates via a terminal interface, designed to perform autonomous
+    coding tasks.
   evidence:
     - README describes it as a 'self-contained coding agent that lives in your terminal'.
     - It operates similarly to Claude Code and Gemini CLI (canonical positives for coding-agents).
@@ -84,12 +102,12 @@ placement:
   secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (563) exceeded threshold (150)
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-24T04:27:01.656Z"
+    updated_at: '2026-09-24T04:27:01.656Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -102,7 +120,9 @@ processing:
       input_hash: sha256:c97321fa38d824c41ede198820b643d5de5c99ad99f715f41edc6d34e1b603dd
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Ante is primarily a standalone coding agent that operates via a terminal interface, designed to perform autonomous coding tasks.
+      decision_reason: >-
+        Ante is primarily a standalone coding agent that operates via a terminal interface, designed to perform
+        autonomous coding tasks.
       decision_evidence:
         - README describes it as a 'self-contained coding agent that lives in your terminal'.
         - It operates similarly to Claude Code and Gemini CLI (canonical positives for coding-agents).
@@ -110,16 +130,18 @@ processing:
       category_candidates:
         - coding-agents
         - local-ai
-      contrastive_reason: Choose coding-agents over local-ai because its primary identity is a functional coding assistant, even though local/offline execution is a key feature.
+      contrastive_reason: >-
+        Choose coding-agents over local-ai because its primary identity is a functional coding assistant, even though
+        local/offline execution is a key feature.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-08-13T04:39:28.748Z"
+    updated_at: '2026-08-13T04:39:28.748Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:44.952Z"
+    updated_at: '2026-09-17T04:13:44.952Z'
     cause: null
     next_retry_at: null

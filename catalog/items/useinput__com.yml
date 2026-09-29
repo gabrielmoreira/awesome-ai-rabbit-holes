@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__useinput__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Input
         anchor_text: Input
         extracted_url: https://useinput.com
-        surrounding_text: "## [Input](https://useinput.com/)"
+        surrounding_text: '## [Input](https://useinput.com/)'
         confidence: high
     - id: discovery__www__useinput__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Input
         anchor_text: Input
         extracted_url: https://useinput.com
-        surrounding_text: "## [Input](https://useinput.com/)"
+        surrounding_text: '## [Input](https://useinput.com/)'
         confidence: high
 metadata:
   github:
@@ -51,28 +51,38 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The SunCity Group website is a Chinese corporate site for a diversified business group offering entertainment, education, and research services, not a developer-facing AI tool.
+  summary: >-
+    The SunCity Group website is a Chinese corporate site for a diversified business group offering entertainment,
+    education, and research services, not a developer-facing AI tool.
   why_it_matters: It has no relevance to software developers or AI development workflows.
-  mental_damage: Another reminder that not every flashy URL with 'AI' in the scraped text is actually for developers—sometimes it's just a university's extracurricular page.
+  mental_damage: >-
+    Another reminder that not every flashy URL with 'AI' in the scraped text is actually for developers—sometimes it's
+    just a university's extracurricular page.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The project is a corporate website for SunCity Group with no claims or functionality related to AI tooling for developers; it appears in an awesome list under a misleading or spammy entry.
+  reason: >-
+    The project is a corporate website for SunCity Group with no claims or functionality related to AI tooling for
+    developers; it appears in an awesome list under a misleading or spammy entry.
   evidence:
-    - Scraped site context shows a Chinese corporate site for SunCity Group with pages about history, leadership, academic exchange, and employee activities
-    - Source-list context shows it was listed in awesome-ai-agents under a section labeled 'Input' with linked page text containing casino and gambling promotions in Chinese
+    - >-
+      Scraped site context shows a Chinese corporate site for SunCity Group with pages about history, leadership,
+      academic exchange, and employee activities
+    - >-
+      Source-list context shows it was listed in awesome-ai-agents under a section labeled 'Input' with linked page text
+      containing casino and gambling promotions in Chinese
     - No repo description, stars, or activity signals indicate it is a software project, AI tool, or developer resource
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:48:38.671Z"
+    updated_at: '2026-09-28T04:48:38.671Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -85,18 +95,26 @@ processing:
       input_hash: sha256:1bcdfcf06ce936eee8ab6794a506235d09e50db32ee93dd58488699cf1a87905
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a corporate website for SunCity Group with no claims or functionality related to AI tooling for developers; it appears in an awesome list under a misleading or spammy entry.
+      decision_reason: >-
+        The project is a corporate website for SunCity Group with no claims or functionality related to AI tooling for
+        developers; it appears in an awesome list under a misleading or spammy entry.
       decision_evidence:
-        - Scraped site context shows a Chinese corporate site for SunCity Group with pages about history, leadership, academic exchange, and employee activities
-        - Source-list context shows it was listed in awesome-ai-agents under a section labeled 'Input' with linked page text containing casino and gambling promotions in Chinese
-        - No repo description, stars, or activity signals indicate it is a software project, AI tool, or developer resource
+        - >-
+          Scraped site context shows a Chinese corporate site for SunCity Group with pages about history, leadership,
+          academic exchange, and employee activities
+        - >-
+          Source-list context shows it was listed in awesome-ai-agents under a section labeled 'Input' with linked page
+          text containing casino and gambling promotions in Chinese
+        - >-
+          No repo description, stars, or activity signals indicate it is a software project, AI tool, or developer
+          resource
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.971Z"
+    updated_at: '2026-07-21T15:20:21.971Z'
     cause: null
     next_retry_at: null
   stars:

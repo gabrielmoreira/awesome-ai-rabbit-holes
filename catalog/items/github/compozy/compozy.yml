@@ -1,0 +1,83 @@
+id: github__compozy__compozy
+kind: github-repo
+name: compozy/compozy
+canonical_url: https://github.com/compozy/compozy
+identity:
+  github_repo: compozy/compozy
+provenance:
+  discoveries:
+    - id: discovery__github__compozy__compozy__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: Compozy
+        extracted_url: https://github.com/compozy/compozy
+        surrounding_text: >-
+          | [yoshi](https://github.com/compozy/yoshi) | ★ 18 | TypeScript | 2026-09-19 | Context-pruning proxy for
+          Claude Code and Codex: Jev judges which history is still needed, measured not claimed. POC here now, heading
+          soon into [Compozy](https://github.com/compozy/compozy). |
+        confidence: high
+metadata:
+  github:
+    stars: 2785
+    forks: 182
+    license: MIT
+    archived: false
+    full_name: compozy/compozy
+    html_url: https://github.com/compozy/compozy
+    created_at: '2026-03-28T05:24:12Z'
+    pushed_at: '2026-09-29T07:10:58Z'
+    description: >-
+      An operating system for AI agents. Plug in the agent CLIs you already use (Claude Code, Codex, Gemini CLI, Cursor)
+      and they become a team: they split the work, hand tasks to each other, run automated on jobs and loops, and share
+      one project memory. You steer everything from the browser.
+    homepage: https://compozy.com
+    topics: []
+    last_checked_at: '2026-09-29T13:10:07.115Z'
+    readme:
+      fetched_at: '2026-09-29T13:10:07.115Z'
+      bytes: 12883
+insights:
+  summary: >-
+    An operating system for AI agents. Plug in the agent CLIs you already use (Claude Code, Codex, Gemini CLI, Cursor)
+    and they become a team: they split the work, hand tasks to each other, run automated on jobs and loops, and share
+    one project memory. You steer everything from the browser.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.59
+placement:
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: curated
+  reason: Stars (2785) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.453Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:10:07.115Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

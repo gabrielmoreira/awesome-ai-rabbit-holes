@@ -1,0 +1,111 @@
+id: github__lahfir__agent-desktop
+kind: github-repo
+name: lahfir/agent-desktop
+canonical_url: https://github.com/lahfir/agent-desktop
+identity:
+  github_repo: lahfir/agent-desktop
+provenance:
+  discoveries:
+    - id: discovery__github__lahfir__agent-desktop__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: agent-desktop
+        extracted_url: https://github.com/lahfir/agent-desktop
+        surrounding_text: >-
+          - [agent-desktop](https://github.com/lahfir/agent-desktop) - Rust macOS accessibility CLI for desktop computer
+          use; optional jev-desktop skill/scripts use TypeSafe Jev for target/command choice without putting the a11y
+          tree in agent context (BYOK). [Project guide](community/projects/tools/agent-desktop.md).
+        confidence: high
+    - id: discovery__github__lahfir__agent-desktop__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Browser & computer use (75)
+        anchor_text: agent-desktop
+        extracted_url: https://github.com/lahfir/agent-desktop
+        surrounding_text: >-
+          | [agent-desktop](https://github.com/lahfir/agent-desktop) | ★ 1,441 | Rust | 2026-09-22 | Desktop automation
+          runtime with a Jev skill that chooses UI operations and targets from accessibility-tree candidates. |
+        confidence: high
+    - id: discovery__github__lahfir__agent-desktop__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Browser & OS Action
+        anchor_text: '**jev-desktop**'
+        extracted_url: https://github.com/lahfir/agent-desktop
+        surrounding_text: >-
+          - [**jev-desktop**](https://github.com/lahfir/agent-desktop) — An optional Jev skill for agent-desktop that
+          chooses controls and actions from native accessibility data.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    agent-desktop - Rust macOS accessibility CLI for desktop computer use; optional jev-desktop skill/scripts use
+    TypeSafe Jev for target/command choice without putting the a11y tree in agent context (BYOK). Project guide.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Browser & Computer-Use Agents
+  evidence:
+    - jev-latest choice confidence 0.80
+placement:
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Browser & Computer-Use Agents
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.397Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

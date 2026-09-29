@@ -1,0 +1,89 @@
+id: github__adambkovacs__candidate-experience-benchmark
+kind: github-repo
+name: adambkovacs/candidate-experience-benchmark
+canonical_url: https://github.com/adambkovacs/candidate-experience-benchmark
+identity:
+  github_repo: adambkovacs/candidate-experience-benchmark
+provenance:
+  discoveries:
+    - id: discovery__github__adambkovacs__candidate-experience-benchmark__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Candidate Experience Feedback Benchmark
+        extracted_url: https://github.com/adambkovacs/candidate-experience-benchmark
+        surrounding_text: >-
+          - [Candidate Experience Feedback Benchmark](https://github.com/adambkovacs/candidate-experience-benchmark) -
+          Compare TypeSafe Jev vs LLMs on 60 synthetic candidate-experience reviews (four typed classifications).
+          [Project guide](community/projects/tools/candidate-experience-benchmark.md).
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: adambkovacs/candidate-experience-benchmark
+    html_url: https://github.com/adambkovacs/candidate-experience-benchmark
+    created_at: '2026-09-21T08:06:05Z'
+    pushed_at: '2026-09-29T12:22:50Z'
+    description: >-
+      Compare TypeSafe Jev and LLMs on 60 synthetic candidate-experience reviews: four classification tasks, prompt
+      variants, costs, tokens, and reproducible evidence.
+    homepage: https://adambkovacs.github.io/candidate-experience-benchmark/
+    topics:
+      - benchmark
+      - candidate-experience
+      - jev
+      - llm-evaluation
+      - prompt-engineering
+      - sentiment-analysis
+      - text-classification
+      - typesafe
+    last_checked_at: '2026-09-29T13:08:27.624Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:27.624Z'
+      bytes: 18000
+insights:
+  summary: >-
+    Compare TypeSafe Jev and LLMs on 60 synthetic candidate-experience reviews: four classification tasks, prompt
+    variants, costs, tokens, and reproducible evidence.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  evidence:
+    - jev-latest choice confidence 0.96
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Evals, Benchmarks & Calibration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.446Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:27.625Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

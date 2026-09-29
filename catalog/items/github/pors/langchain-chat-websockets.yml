@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pors__langchain-chat-websockets__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,10 @@ provenance:
           - Other / Chatbots
         anchor_text: Langchain Chat Websocket
         extracted_url: https://github.com/pors/langchain-chat-websockets
-        surrounding_text: "- [Langchain Chat Websocket](https://github.com/pors/langchain-chat-websockets): About LangChain LLM chat with streaming response over websockets ![GitHub Repo stars](https://img.shields.io/github/stars/pors/langchain-chat-websockets?style=social)"
+        surrounding_text: >-
+          - [Langchain Chat Websocket](https://github.com/pors/langchain-chat-websockets): About LangChain LLM chat with
+          streaming response over websockets ![GitHub Repo
+          stars](https://img.shields.io/github/stars/pors/langchain-chat-websockets?style=social)
         confidence: high
 metadata:
   github:
@@ -30,10 +33,10 @@ metadata:
     archived: false
     full_name: pors/langchain-chat-websockets
     html_url: https://github.com/pors/langchain-chat-websockets
-    created_at: "2023-05-02T12:32:18Z"
-    pushed_at: "2023-11-30T07:25:04Z"
+    created_at: '2023-05-02T12:32:18Z'
+    pushed_at: '2023-11-30T07:25:04Z'
     description: LangChain LLM chat with streaming response over websockets
-    homepage: ""
+    homepage: ''
     topics:
       - async
       - fastapi
@@ -44,14 +47,18 @@ metadata:
       - openai-api
       - openai-chatgpt
       - websockets
-    last_checked_at: "2026-07-20T16:42:36.206Z"
+    last_checked_at: '2026-07-20T16:42:36.206Z'
     readme:
-      fetched_at: "2026-07-20T16:42:36.206Z"
+      fetched_at: '2026-07-20T16:42:36.206Z'
       bytes: 1110
 insights:
   summary: A minimal FastAPI application that streams LangChain LLM chat responses over WebSockets.
-  why_it_matters: It provides a starter pattern for developers building real-time, streaming chat interfaces with LangChain and async Python.
-  mental_damage: Another architectural demonstration that proves you can wire up streaming tokens over WebSockets, provided you enjoy debugging async event loops in 2023-vintage boilerplate.
+  why_it_matters: >-
+    It provides a starter pattern for developers building real-time, streaming chat interfaces with LangChain and async
+    Python.
+  mental_damage: >-
+    Another architectural demonstration that proves you can wire up streaming tokens over WebSockets, provided you enjoy
+    debugging async event loops in 2023-vintage boilerplate.
   tags:
     - langchain
     - fastapi
@@ -61,35 +68,41 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a minimal reference implementation and starter project rather than a reusable developer tool, framework, or product.
+  reason: >-
+    Excluded because it is a minimal reference implementation and starter project rather than a reusable developer tool,
+    framework, or product.
   evidence:
-    - "Repo description and README frame it as a simple demo: 'LangChain LLM chat with streaming response over websockets' and 'Install and run like... uvicorn main:app'."
+    - >-
+      Repo description and README frame it as a simple demo: 'LangChain LLM chat with streaming response over
+      websockets' and 'Install and run like... uvicorn main:app'.
     - Last pushed in 2023-11-30, showing no meaningful recent maintenance or evolution beyond a starter sample.
-    - Listed in awesome-langchain under 'Chatbots > Other' as a sample project, not as a framework, SDK, or developer tool.
+    - >-
+      Listed in awesome-langchain under 'Chatbots > Other' as a sample project, not as a framework, SDK, or developer
+      tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.643Z"
+    updated_at: '2026-05-06T22:12:15.643Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:36.206Z"
+    updated_at: '2026-07-20T16:42:36.206Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

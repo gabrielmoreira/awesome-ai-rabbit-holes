@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__fine__tuner__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Fine Tuner
         anchor_text: Fine Tuner
         extracted_url: https://fine-tuner.ai
-        surrounding_text: "## [Fine Tuner](https://fine-tuner.ai/)"
+        surrounding_text: '## [Fine Tuner](https://fine-tuner.ai/)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: A no-code platform for creating custom AI-powered phone call agents using provided data.
-  why_it_matters: It allows developers or non-technical users to automate voice-based business workflows without writing integration logic.
-  mental_damage: Because the last thing your workflow needed was more automated voices calling you to ask if you're interested in their services.
+  why_it_matters: >-
+    It allows developers or non-technical users to automate voice-based business workflows without writing integration
+    logic.
+  mental_damage: >-
+    Because the last thing your workflow needed was more automated voices calling you to ask if you're interested in
+    their services.
   tags:
     - voice-ai
     - no-code
@@ -47,7 +51,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a consumer-facing SaaS for business automation rather than a developer-centric coding agent, framework, or infrastructure tool.
+  reason: >-
+    The tool is a consumer-facing SaaS for business automation rather than a developer-centric coding agent, framework,
+    or infrastructure tool.
   evidence:
     - Scraped site context describes it as a 'no coding or tech skills needed' system
     - Primary use case is phone call automation rather than software development workflows
@@ -55,12 +61,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,10 +75,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:39:36.032Z"
+    updated_at: '2026-09-24T04:39:36.032Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for fine__tuner__ai: Invalid AI response structure: Missing required field: mental_damage"
+      message: >-
+        Catalog LLM categorization failed for fine__tuner__ai: Invalid AI response structure: Missing required field:
+        mental_damage
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -84,7 +92,9 @@ processing:
       input_hash: sha256:649df871b0b8a8978dde2eaed96fe8bea963e6b0a7cffafebbe18f4c52315b9f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a consumer-facing SaaS for business automation rather than a developer-centric coding agent, framework, or infrastructure tool.
+      decision_reason: >-
+        The tool is a consumer-facing SaaS for business automation rather than a developer-centric coding agent,
+        framework, or infrastructure tool.
       decision_evidence:
         - Scraped site context describes it as a 'no coding or tech skills needed' system
         - Primary use case is phone call automation rather than software development workflows

@@ -1,0 +1,86 @@
+id: github__dirien__jev-router
+kind: github-repo
+name: dirien/jev-router
+canonical_url: https://github.com/dirien/jev-router
+identity:
+  github_repo: dirien/jev-router
+provenance:
+  discoveries:
+    - id: discovery__github__dirien__jev-router__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Model Routing
+        anchor_text: '**jev-router**'
+        extracted_url: https://github.com/dirien/jev-router
+        surrounding_text: >-
+          - [**jev-router**](https://github.com/dirien/jev-router) — Pass-through model router for Claude Code and Codex
+          CLI that picks a model tier per human turn with Jev, TypeSafe AI's decision model
+        confidence: high
+metadata:
+  github:
+    stars: 6
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    full_name: dirien/jev-router
+    html_url: https://github.com/dirien/jev-router
+    created_at: '2026-09-24T14:25:41Z'
+    pushed_at: '2026-09-25T18:39:37Z'
+    description: >-
+      Pass-through model router for Claude Code and Codex CLI that picks a model tier per human turn with Jev, TypeSafe
+      AI's decision model
+    homepage: null
+    topics:
+      - claude-code
+      - codex
+      - jev
+      - llm-gateway
+      - model-router
+      - ollama
+      - typesafe
+    last_checked_at: '2026-09-29T13:10:41.722Z'
+    readme:
+      fetched_at: '2026-09-29T13:10:41.722Z'
+      bytes: 47987
+insights:
+  summary: >-
+    Pass-through model router for Claude Code and Codex CLI that picks a model tier per human turn with Jev, TypeSafe
+    AI's decision model
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.78
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.454Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:10:41.722Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

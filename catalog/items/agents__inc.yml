@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agents__inc__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - AGENTS.inc
         anchor_text: AGENTS.inc
         extracted_url: https://agents.inc
-        surrounding_text: "## [AGENTS.inc](https://www.agents.inc/)"
+        surrounding_text: '## [AGENTS.inc](https://www.agents.inc/)'
         confidence: high
     - id: discovery__www__agents__inc__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - AGENTS.inc
         anchor_text: AGENTS.inc
         extracted_url: https://www.agents.inc
-        surrounding_text: "## [AGENTS.inc](https://www.agents.inc/)"
+        surrounding_text: '## [AGENTS.inc](https://www.agents.inc/)'
         confidence: high
 metadata:
   github:
@@ -52,7 +52,9 @@ metadata:
     readme: null
 insights:
   summary: AGENTS.inc is an enterprise AI agent platform marketed for marketing, sales, and market intelligence use cases.
-  why_it_matters: It positions itself as an autonomous workforce for business functions, but offers no visible developer tooling or integration points.
+  why_it_matters: >-
+    It positions itself as an autonomous workforce for business functions, but offers no visible developer tooling or
+    integration points.
   mental_damage: Another 'AI agent' rebrand selling buzzword bingo to enterprises while developers wonder where the code is.
   tags:
     - enterprise
@@ -61,21 +63,28 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: AGENTS.inc is marketed as an enterprise AI workforce for business users, not a developer-facing tool for coding, workflow automation, or infrastructure — it lacks any indication of being usable by developers to build, extend, or operate AI systems.
+  reason: >-
+    AGENTS.inc is marketed as an enterprise AI workforce for business users, not a developer-facing tool for coding,
+    workflow automation, or infrastructure — it lacks any indication of being usable by developers to build, extend, or
+    operate AI systems.
   evidence:
-    - "Repo description: (none)"
-    - "Scraped site context: Autonomous AI agents for enterprise enterprise marketing, sales and market intelligence. In production at Kaufland, AXA, E.ON, Petrobras, Henkel and Messe München."
-    - "Source-list context: Listed in awesome-ai-agents under 'Autonomous AI agents for enterprise enterprise marketing, sales and market intelligence'"
+    - 'Repo description: (none)'
+    - >-
+      Scraped site context: Autonomous AI agents for enterprise enterprise marketing, sales and market intelligence. In
+      production at Kaufland, AXA, E.ON, Petrobras, Henkel and Messe München.
+    - >-
+      Source-list context: Listed in awesome-ai-agents under 'Autonomous AI agents for enterprise enterprise marketing,
+      sales and market intelligence'
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:38:44.971Z"
+    updated_at: '2026-09-28T04:38:44.971Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,18 +97,25 @@ processing:
       input_hash: sha256:3e272bc11ec6be27e21081b3036d842f9e37b2480b93334cf2ea799200964463
       proposed_primary_category: null
       disagreement: false
-      decision_reason: AGENTS.inc is marketed as an enterprise AI workforce for business users, not a developer-facing tool for coding, workflow automation, or infrastructure — it lacks any indication of being usable by developers to build, extend, or operate AI systems.
+      decision_reason: >-
+        AGENTS.inc is marketed as an enterprise AI workforce for business users, not a developer-facing tool for coding,
+        workflow automation, or infrastructure — it lacks any indication of being usable by developers to build, extend,
+        or operate AI systems.
       decision_evidence:
-        - "Repo description: (none)"
-        - "Scraped site context: Autonomous AI agents for enterprise enterprise marketing, sales and market intelligence. In production at Kaufland, AXA, E.ON, Petrobras, Henkel and Messe München."
-        - "Source-list context: Listed in awesome-ai-agents under 'Autonomous AI agents for enterprise enterprise marketing, sales and market intelligence'"
+        - 'Repo description: (none)'
+        - >-
+          Scraped site context: Autonomous AI agents for enterprise enterprise marketing, sales and market intelligence.
+          In production at Kaufland, AXA, E.ON, Petrobras, Henkel and Messe München.
+        - >-
+          Source-list context: Listed in awesome-ai-agents under 'Autonomous AI agents for enterprise enterprise
+          marketing, sales and market intelligence'
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.364Z"
+    updated_at: '2026-07-20T16:42:15.364Z'
     cause: null
     next_retry_at: null
   stars:

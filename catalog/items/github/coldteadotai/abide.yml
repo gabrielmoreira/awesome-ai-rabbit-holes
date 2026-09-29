@@ -1,0 +1,107 @@
+id: github__coldteadotai__abide
+kind: github-repo
+name: coldteadotai/abide
+canonical_url: https://github.com/coldteadotai/abide
+identity:
+  github_repo: coldteadotai/abide
+provenance:
+  discoveries:
+    - id: discovery__github__coldteadotai__abide__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: abide
+        extracted_url: https://github.com/coldteadotai/abide
+        surrounding_text: >-
+          | [abide](https://github.com/coldteadotai/abide) | ★ 169 | TypeScript | 2026-09-19 | Supervises coding-agent
+          edits and uses Jev to flag violations of project rules. |
+        confidence: high
+    - id: discovery__github__coldteadotai__abide__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Verification & Guardrails
+        anchor_text: Abide
+        extracted_url: https://github.com/coldteadotai/abide
+        surrounding_text: >-
+          - [Abide](https://github.com/coldteadotai/abide)
+          ![stars](https://img.shields.io/github/stars/coldteadotai/abide?style=flat-square&label=%E2%98%85) - Agent
+          supervision: reads every edit a coding agent makes and has Jev flag rule violations, with the project
+          reporting that an independent reviewer confirmed 10 of the 39 flagged edits and 11 of the 15 flagged turns.
+        confidence: high
+metadata:
+  github:
+    stars: 416
+    forks: 36
+    license: MIT
+    archived: false
+    full_name: coldteadotai/abide
+    html_url: https://github.com/coldteadotai/abide
+    created_at: '2026-09-18T10:41:48Z'
+    pushed_at: '2026-09-27T22:06:36Z'
+    description: 'Make your coding agent abide by all your project rules '
+    homepage: ''
+    topics:
+      - claude-code
+      - claude-code-hooks
+      - claude-code-plugin
+      - claude-code-plugins
+      - claude-code-skill
+      - claude-code-skills
+      - codex-plugin
+      - codex-skill
+      - opencode
+      - opencode-plugin
+      - opencode-skills
+    last_checked_at: '2026-09-29T13:10:04.499Z'
+    readme:
+      fetched_at: '2026-09-29T13:10:04.499Z'
+      bytes: 10644
+insights:
+  summary: Make your coding agent abide by all your project rules
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.45
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
+lifecycle:
+  status: curated
+  reason: Stars (416) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.411Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:10:04.499Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

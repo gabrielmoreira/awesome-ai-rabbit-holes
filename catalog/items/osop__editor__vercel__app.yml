@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__osop__editor__vercel__app__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,7 +19,11 @@ provenance:
           - Agent infrastructure
         anchor_text: visual editor
         extracted_url: https://osop-editor.vercel.app
-        surrounding_text: "- **[OSOP](https://github.com/Archie0125/osop-agent-rules)** `⭐ 1` — Universal workflow logging protocol for CLI coding agents; produces `.osop` workflow definitions and `.osoplog.yaml` execution records. Supports Claude Code, Codex, Cursor, Windsurf, Aider, Cline, Roo Code, Devin, and OpenClaw. Includes a [visual editor](https://osop-editor.vercel.app) and [spec](https://github.com/Archie0125/osop-spec)."
+        surrounding_text: >-
+          - **[OSOP](https://github.com/Archie0125/osop-agent-rules)** `⭐ 1` — Universal workflow logging protocol for
+          CLI coding agents; produces `.osop` workflow definitions and `.osoplog.yaml` execution records. Supports
+          Claude Code, Codex, Cursor, Windsurf, Aider, Cline, Roo Code, Devin, and OpenClaw. Includes a [visual
+          editor](https://osop-editor.vercel.app) and [spec](https://github.com/Archie0125/osop-spec).
         confidence: high
 metadata:
   github:
@@ -38,27 +42,35 @@ metadata:
     readme: null
 insights:
   summary: osop-editor.vercel.app is a Vercel-hosted Google AI Studio app with no clear developer-tooling identity.
-  why_it_matters: It does not meaningfully change how developers write, test, or deploy code, nor does it serve as a coding agent, app builder, or infrastructure tool.
+  why_it_matters: >-
+    It does not meaningfully change how developers write, test, or deploy code, nor does it serve as a coding agent, app
+    builder, or infrastructure tool.
   mental_damage: Another vague AI demo that pretends to be useful while offering zero clarity on what it actually does for engineers.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The tool lacks any discernible developer-facing functionality; it appears to be a hosted Google AI Studio interface with no coding-agent, app-builder, or infrastructure traits.
+  reason: >-
+    The tool lacks any discernible developer-facing functionality; it appears to be a hosted Google AI Studio interface
+    with no coding-agent, app-builder, or infrastructure traits.
   evidence:
-    - Repo description is missing, and the scraped site title 'My Google AI Studio App' suggests a generic AI interface, not a developer tool.
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure' but linked to a Google AI Studio app, which is not a coding agent or orchestration tool.
+    - >-
+      Repo description is missing, and the scraped site title 'My Google AI Studio App' suggests a generic AI interface,
+      not a developer tool.
+    - >-
+      Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure' but linked to a
+      Google AI Studio app, which is not a coding agent or orchestration tool.
     - No README, stars, creation date, or push activity provided to assess functionality or maintenance.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:51:57.199Z"
+    updated_at: '2026-09-28T04:51:57.199Z'
     cause: null
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
@@ -80,10 +92,16 @@ processing:
       input_hash: sha256:ce6920df255bef3f0d87ce186faf8c5a68909b2115a585eb99ad1e90aca9e1ac
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool lacks any discernible developer-facing functionality; it appears to be a hosted Google AI Studio interface with no coding-agent, app-builder, or infrastructure traits.
+      decision_reason: >-
+        The tool lacks any discernible developer-facing functionality; it appears to be a hosted Google AI Studio
+        interface with no coding-agent, app-builder, or infrastructure traits.
       decision_evidence:
-        - Repo description is missing, and the scraped site title 'My Google AI Studio App' suggests a generic AI interface, not a developer tool.
-        - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure' but linked to a Google AI Studio app, which is not a coding agent or orchestration tool.
+        - >-
+          Repo description is missing, and the scraped site title 'My Google AI Studio App' suggests a generic AI
+          interface, not a developer tool.
+        - >-
+          Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure' but linked to a
+          Google AI Studio app, which is not a coding agent or orchestration tool.
         - No README, stars, creation date, or push activity provided to assess functionality or maintenance.
       category_candidates: []
       contrastive_reason: null

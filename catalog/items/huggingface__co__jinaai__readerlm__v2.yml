@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__jinaai__readerlm__v2__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,7 +18,9 @@ provenance:
           - 数据 Data
         anchor_text: ReaderLM-v2
         extracted_url: https://huggingface.co/jinaai/ReaderLM-v2
-        surrounding_text: "28. [ReaderLM-v2](https://huggingface.co/jinaai/ReaderLM-v2): a 1.5B parameter language model that converts raw HTML into beautifully formatted markdown or JSON."
+        surrounding_text: >-
+          28. [ReaderLM-v2](https://huggingface.co/jinaai/ReaderLM-v2): a 1.5B parameter language model that converts
+          raw HTML into beautifully formatted markdown or JSON.
         confidence: high
 metadata:
   github:
@@ -37,7 +39,9 @@ metadata:
     readme: null
 insights:
   summary: A 1.5B parameter language model specialized in converting raw HTML into structured Markdown or JSON.
-  why_it_matters: It provides a lightweight, specialized way to preprocess web content into clean, LLM-friendly formats for RAG and data extraction pipelines.
+  why_it_matters: >-
+    It provides a lightweight, specialized way to preprocess web content into clean, LLM-friendly formats for RAG and
+    data extraction pipelines.
   mental_damage: Just another specialized model weight to download and manage in your increasingly crowded local inference setup.
   tags:
     - html-to-markdown
@@ -47,7 +51,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a raw model weight repository on Hugging Face rather than a standalone developer tool, framework, or runtime.
+  reason: >-
+    This is a raw model weight repository on Hugging Face rather than a standalone developer tool, framework, or
+    runtime.
   evidence:
     - Hugging Face repository for a 1.5B parameter model
     - README describes model architecture and training rather than a software product/SDK
@@ -55,12 +61,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +75,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:27:03.383Z"
+    updated_at: '2026-09-28T04:27:03.383Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,7 +88,9 @@ processing:
       input_hash: sha256:9a083a6fd15b3a4b658e20a82597a96662218684448031cf2cfe48a7a6a7665a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a raw model weight repository on Hugging Face rather than a standalone developer tool, framework, or runtime.
+      decision_reason: >-
+        This is a raw model weight repository on Hugging Face rather than a standalone developer tool, framework, or
+        runtime.
       decision_evidence:
         - Hugging Face repository for a 1.5B parameter model
         - README describes model architecture and training rather than a software product/SDK

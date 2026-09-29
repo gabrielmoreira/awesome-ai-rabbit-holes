@@ -1,46 +1,50 @@
 {#
 Template: docs-category-page.njk
-Purpose: Render one rabbit-hole markdown page with active tools, incubating tools, and the empty fallback.
+Purpose: Render one rabbit-hole markdown page as a table of contents plus one section per
+         category section. A section lists its top `topN` entries by stars; everything else in
+         that section sits behind one loudly-labelled expandable panel, so no entry is dropped.
 Executed by: scripts/catalog/render.ts -> renderRabbitHolePage() during `catalog:render` and `catalog:sync`.
 Receives:
 - categoryName: string
 - categoryDescription: string
-- hasActiveItems: boolean
-- activeItems: Array<{ name, url, summary, hasStars, starsLabel, hasActivity, activityLabel, hasDetails, hasWhyItMatters, whyItMatters, hasMentalDamage, mentalDamage, hasTags, tags }>
-- hasIncubatingItems: boolean
-- incubatingItems: same shape as activeItems
+- totalCount: number
+- topN: number
+- sectionCount: number
+- hasSections: boolean
+- sections: Array<{ name, anchor, totalCount, visibleItems, hasOverflow, overflowCount, overflowItems }>
+- item shape: { name, url, summary, hasStars, starsLabel, hasActivity, activityLabel,
+  hasDetails, hasWhyItMatters, whyItMatters, hasMentalDamage, mentalDamage, hasTags, tags }
 - isEmpty: boolean
 #}
-<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
+{% macro entry(item) %}- **[{{ item.name }}]({{ item.url }})**{% if item.isHot %} 🔥{% endif %}{% if item.hasStars %} `⭐ {{ item.starsLabel }}`{% endif %}{% if item.hasActivity %} `{{ item.activityLabel }}`{% endif %} {{ item.summary }}{% if item.hasDetails %} <details><summary>More about</summary>
+
+{% if item.hasWhyItMatters %}  {{ item.whyItMatters }}
+
+{% endif %}{% if item.hasMentalDamage %}  _{{ item.mentalDamage }}_
+
+{% endif %}{% if item.hasTags %}  {% for tag in item.tags %}`{{ tag }}`{% if not loop.last %} {% endif %}{% endfor %}
+{% endif %}  </details>{% endif %}
+{% endmacro %}{# Compact variant for the folded remainder: no nested `More about` panel. #}
+{% macro entryCompact(item) %}- **[{{ item.name }}]({{ item.url }})**{% if item.isHot %} 🔥{% endif %}{% if item.hasStars %} `⭐ {{ item.starsLabel }}`{% endif %}{% if item.hasActivity %} `{{ item.activityLabel }}`{% endif %} {{ item.summary }}
+{% endmacro %}<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # {{ categoryName }}
 
 {{ categoryDescription }}
 
-{% if hasActiveItems %}## Tools & Resources
-
-{% for item in activeItems %}- **[{{ item.name }}]({{ item.url }})**{% if item.hasStars %} `⭐ {{ item.starsLabel }}`{% endif %}{% if item.hasActivity %} `{{ item.activityLabel }}`{% endif %} {{ item.summary }}{% if item.hasDetails %} <details><summary>More about</summary>
-
-{% if item.hasWhyItMatters %}  {{ item.whyItMatters }}
-
-{% endif %}{% if item.hasMentalDamage %}  _{{ item.mentalDamage }}_
-
-{% endif %}{% if item.hasTags %}  {% for tag in item.tags %}`{{ tag }}`{% if not loop.last %} {% endif %}{% endfor %}
-{% endif %}  </details>{% endif %}
-
-{% endfor %}{% endif %}{% if hasIncubatingItems %}## Incubating
-
-_These are new or low-traffic entries being watched._
-
-{% for item in incubatingItems %}- **[{{ item.name }}]({{ item.url }})**{% if item.hasStars %} `⭐ {{ item.starsLabel }}`{% endif %}{% if item.hasActivity %} `{{ item.activityLabel }}`{% endif %} {{ item.summary }}{% if item.hasDetails %} <details><summary>More about</summary>
-
-{% if item.hasWhyItMatters %}  {{ item.whyItMatters }}
-
-{% endif %}{% if item.hasMentalDamage %}  _{{ item.mentalDamage }}_
-
-{% endif %}{% if item.hasTags %}  {% for tag in item.tags %}`{{ tag }}`{% if not loop.last %} {% endif %}{% endfor %}
-{% endif %}  </details>{% endif %}
-
-{% endfor %}{% endif %}{% if isEmpty %}## Nothing Here Yet
+{% if isEmpty %}## Nothing Here Yet
 
 _Even the hype forgot to stop here._
-{% endif %}
+{% else %}_{{ totalCount }} entries in {{ sectionCount }} section{% if sectionCount != 1 %}s{% endif %}, ranked by stars. Each section opens with its top {{ topN }}; the rest of that section waits behind the **▸ more** panel at its end._
+
+## Contents
+
+{% for section in sections %}- [{{ section.name }}](#{{ section.anchor }}) — {{ section.totalCount }}
+{% endfor %}{% for section in sections %}
+## {{ section.name }}
+
+{% for item in section.visibleItems %}{{ entry(item) }}{% endfor %}{% if section.hasOverflow %}
+<details><summary><strong>▸ &nbsp;&nbsp;+{{ section.overflowCount }} more in {{ section.name }} &nbsp;—&nbsp; click to expand</strong></summary>
+
+{% for item in section.overflowItems %}{{ entryCompact(item) }}{% endfor %}
+</details>
+{% endif %}{% endfor %}{% endif %}

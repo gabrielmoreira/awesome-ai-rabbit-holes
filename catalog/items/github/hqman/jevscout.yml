@@ -1,0 +1,76 @@
+id: github__hqman__jevscout
+kind: github-repo
+name: hqman/jevscout
+canonical_url: https://github.com/hqman/jevscout
+identity:
+  github_repo: hqman/jevscout
+provenance:
+  discoveries:
+    - id: discovery__github__hqman__jevscout__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Domain Tools
+        anchor_text: '**JevScout**'
+        extracted_url: https://github.com/hqman/jevscout
+        surrounding_text: >-
+          - [**JevScout**](https://github.com/hqman/JevScout) — A demo job-search Skill for coding Agents that browses
+          company careers pages in Chrome, uses Jev to screen AI and software-engineering roles, and saves the results.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    JevScout — A demo job-search Skill for coding Agents that browses company careers pages in Chrome, uses Jev to
+    screen AI and software-engineering roles, and saves the results.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
+  evidence:
+    - jev-latest choice confidence 0.63
+placement:
+  primary_category: skills
+  secondary_categories: []
+  section: Skill Packs & Libraries
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.460Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: '2026-09-29T13:12:13.274Z'
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for hqman/jevscout
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__10web__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - App Builders
         anchor_text: 10Web
         extracted_url: https://10web.io
-        surrounding_text: "- **[10Web](https://10web.io/)** – AI-powered WordPress builder with automated design and optimization."
+        surrounding_text: '- **[10Web](https://10web.io/)** – AI-powered WordPress builder with automated design and optimization.'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered website and WordPress builder that generates, optimizes, and hosts sites from prompts or Figma designs.
-  why_it_matters: It enables rapid scaffolding and deployment of production-ready WordPress and ecommerce sites through natural language and design-to-code workflows.
-  mental_damage: The 'vibe coding' promise suggests we're just one prompt away from never having to write a single CSS rule ever again.
+  summary: >-
+    An AI-powered website and WordPress builder that generates, optimizes, and hosts sites from prompts or Figma
+    designs.
+  why_it_matters: >-
+    It enables rapid scaffolding and deployment of production-ready WordPress and ecommerce sites through natural
+    language and design-to-code workflows.
+  mental_damage: >-
+    The 'vibe coding' promise suggests we're just one prompt away from never having to write a single CSS rule ever
+    again.
   tags:
     - website-builder
     - wordpress
@@ -48,7 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a prompt-to-site product that generates deployable WordPress and ecommerce artifacts rather than acting as a coding assistant for existing repositories.
+  reason: >-
+    It is a prompt-to-site product that generates deployable WordPress and ecommerce artifacts rather than acting as a
+    coding assistant for existing repositories.
   evidence:
     - Generates production-ready WordPress sites and online stores from prompts.
     - Offers Figma-to-webpage conversion and 'vibe coding' frontend generation.
@@ -58,12 +66,12 @@ placement:
   secondary_categories: []
   section: Site & Landing Page Builders
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:30:21.162Z"
+    updated_at: '2026-09-24T04:30:21.162Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +93,9 @@ processing:
       input_hash: sha256:8e4efb50593dd73cd145b734fabaddd9257db37b4ee62b7c98dd4b9d516fdd0b
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: It is a prompt-to-site product that generates deployable WordPress and ecommerce artifacts rather than acting as a coding assistant for existing repositories.
+      decision_reason: >-
+        It is a prompt-to-site product that generates deployable WordPress and ecommerce artifacts rather than acting as
+        a coding assistant for existing repositories.
       decision_evidence:
         - Generates production-ready WordPress sites and online stores from prompts.
         - Offers Figma-to-webpage conversion and 'vibe coding' frontend generation.
@@ -93,6 +103,8 @@ processing:
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the primary output is a deployable, hosted website rather than edits to a developer's existing codebase.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because the primary output is a deployable, hosted website rather than
+        edits to a developer's existing codebase.
       review_reason: null
       review_resume_lifecycle: null

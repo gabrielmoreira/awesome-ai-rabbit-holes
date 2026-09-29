@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pieces__app__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Code Search and Navigation
         anchor_text: Pieces.app
         extracted_url: https://pieces.app
-        surrounding_text: "- **[Pieces.app](https://pieces.app/)** – AI-powered code snippet management, search, and sharing."
+        surrounding_text: '- **[Pieces.app](https://pieces.app/)** – AI-powered code snippet management, search, and sharing.'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Pieces is an AI-powered memory layer that continuously captures user activity across apps and surfaces contextual information to assist in work and decision-making.
-  why_it_matters: It reduces context-switching and information loss by turning past interactions into searchable, reusable memory for developers and knowledge workers.
-  mental_damage: Finally, a tool that remembers everything you’ve ever copied, pasted, or glanced at — so you can feel guilty about forgetting it in the first place.
+  summary: >-
+    Pieces is an AI-powered memory layer that continuously captures user activity across apps and surfaces contextual
+    information to assist in work and decision-making.
+  why_it_matters: >-
+    It reduces context-switching and information loss by turning past interactions into searchable, reusable memory for
+    developers and knowledge workers.
+  mental_damage: >-
+    Finally, a tool that remembers everything you’ve ever copied, pasted, or glanced at — so you can feel guilty about
+    forgetting it in the first place.
   tags:
     - memory
     - context
@@ -47,22 +53,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Pieces is a general-purpose AI memory and context tool focused on personal productivity across apps, not a developer-specific coding agent, framework, or workflow tool.
+  reason: >-
+    Pieces is a general-purpose AI memory and context tool focused on personal productivity across apps, not a
+    developer-specific coding agent, framework, or workflow tool.
   evidence:
-    - Scraped site context describes Pieces as 'the memory layer for everything you do' capturing research, chats, emails, meetings, and app usage
-    - Source-list context places it in 'Code Search and Navigation' but its functionality spans Gmail, Outlook, Chrome, Slack, Figma, and other non-coding tools
-    - Core functionality centers on passive activity capture and contextual recall, not code generation, editing, review, or agent orchestration
+    - >-
+      Scraped site context describes Pieces as 'the memory layer for everything you do' capturing research, chats,
+      emails, meetings, and app usage
+    - >-
+      Source-list context places it in 'Code Search and Navigation' but its functionality spans Gmail, Outlook, Chrome,
+      Slack, Figma, and other non-coding tools
+    - >-
+      Core functionality centers on passive activity capture and contextual recall, not code generation, editing,
+      review, or agent orchestration
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +85,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:34:33.095Z"
+    updated_at: '2026-09-28T04:34:33.095Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,11 +98,19 @@ processing:
       input_hash: sha256:9df5acb32ae90b4220c9492086cec7e6d897d6521da012de7587ae68259b4b54
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Pieces is a general-purpose AI memory and context tool focused on personal productivity across apps, not a developer-specific coding agent, framework, or workflow tool.
+      decision_reason: >-
+        Pieces is a general-purpose AI memory and context tool focused on personal productivity across apps, not a
+        developer-specific coding agent, framework, or workflow tool.
       decision_evidence:
-        - Scraped site context describes Pieces as 'the memory layer for everything you do' capturing research, chats, emails, meetings, and app usage
-        - Source-list context places it in 'Code Search and Navigation' but its functionality spans Gmail, Outlook, Chrome, Slack, Figma, and other non-coding tools
-        - Core functionality centers on passive activity capture and contextual recall, not code generation, editing, review, or agent orchestration
+        - >-
+          Scraped site context describes Pieces as 'the memory layer for everything you do' capturing research, chats,
+          emails, meetings, and app usage
+        - >-
+          Source-list context places it in 'Code Search and Navigation' but its functionality spans Gmail, Outlook,
+          Chrome, Slack, Figma, and other non-coding tools
+        - >-
+          Core functionality centers on passive activity capture and contextual recall, not code generation, editing,
+          review, or agent orchestration
       category_candidates: []
       contrastive_reason: null
       review_reason: null

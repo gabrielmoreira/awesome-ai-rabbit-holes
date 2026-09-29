@@ -1,0 +1,88 @@
+id: github__haymon-ai__dbmcp
+kind: github-repo
+name: haymon-ai/dbmcp
+canonical_url: https://github.com/haymon-ai/dbmcp
+identity:
+  github_repo: haymon-ai/dbmcp
+provenance:
+  discoveries:
+    - id: discovery__github__haymon-ai__dbmcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 🗄️ Databases
+        anchor_text: haymon-ai/dbmcp
+        extracted_url: https://github.com/haymon-ai/dbmcp
+        surrounding_text: >-
+          -   **[haymon-ai/dbmcp](https://github.com/haymon-ai/dbmcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/haymon-ai/dbmcp?style=social)](https://github.com/haymon-ai/dbmcp):
+          Single-binary MCP server for MySQL, MariaDB, PostgreSQL & SQLite. Built in Rust with zero runtime
+          dependencies.
+        confidence: high
+metadata:
+  github:
+    stars: 32
+    forks: 7
+    license: MIT
+    archived: false
+    full_name: haymon-ai/dbmcp
+    html_url: https://github.com/haymon-ai/dbmcp
+    created_at: '2026-03-14T10:15:58Z'
+    pushed_at: '2026-09-18T10:36:38Z'
+    description: Database MCP server for MySQL, MariaDB, PostgreSQL, and SQLite -  with builtin PII redaction and write-prevention
+    homepage: https://dbmcp.haymon.ai
+    topics:
+      - ai
+      - ai-agents
+      - database
+      - mariadb
+      - mcp
+      - mcp-server
+      - mysql
+      - postgres
+      - sql
+      - sqlite
+    last_checked_at: '2026-09-29T13:12:01.599Z'
+    readme:
+      fetched_at: '2026-09-29T13:12:01.599Z'
+      bytes: 21379
+insights:
+  summary: Database MCP server for MySQL, MariaDB, PostgreSQL, and SQLite -  with builtin PII redaction and write-prevention
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
+  evidence:
+    - jev-latest choice confidence 1.00
+placement:
+  primary_category: mcp
+  secondary_categories: []
+  section: Data & Databases
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.459Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:12:01.599Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -1,0 +1,92 @@
+id: github__kelaocai__tweet-radar
+kind: github-repo
+name: kelaocai/tweet-radar
+canonical_url: https://github.com/kelaocai/tweet-radar
+identity:
+  github_repo: kelaocai/tweet-radar
+provenance:
+  discoveries:
+    - id: discovery__github__kelaocai__tweet-radar__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Browser & computer use
+        anchor_text: tweet-radar
+        extracted_url: https://github.com/kelaocai/tweet-radar
+        surrounding_text: >-
+          - [tweet-radar](https://github.com/kelaocai/tweet-radar) ([site](https://kelaocai.github.io/tweet-radar/)) -
+          Jev / TypeSafe AI 驱动的 X 信息筛选：按你的规则发现值得读的帖子。开源判断规则库 + 免费 Chrome 扩展。Filter X with your own criteria.
+        confidence: high
+    - id: discovery__github__kelaocai__tweet-radar__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Scoring & Ranking
+        anchor_text: Tweet Radar
+        extracted_url: https://github.com/kelaocai/tweet-radar
+        surrounding_text: >-
+          - [Tweet Radar](https://github.com/kelaocai/tweet-radar)
+          ![stars](https://img.shields.io/github/stars/kelaocai/tweet-radar?style=flat-square&label=%E2%98%85) - Social
+          reading: uses Jev `Noul` to score already-loaded X posts against a reader's goal and profile, then pairwise
+          `Choice` judgments to rank eligible matches and surface up to three for review.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  evidence:
+    - Jev classification confidence below inclusion threshold
+placement:
+  primary_category: null
+  secondary_categories: []
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.417Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

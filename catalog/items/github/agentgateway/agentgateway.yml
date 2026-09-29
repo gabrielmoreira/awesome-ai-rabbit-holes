@@ -1,0 +1,122 @@
+id: github__agentgateway__agentgateway
+kind: github-repo
+name: agentgateway/agentgateway
+canonical_url: https://github.com/agentgateway/agentgateway
+identity:
+  github_repo: agentgateway/agentgateway
+provenance:
+  discoveries:
+    - id: discovery__github__agentgateway__agentgateway__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Integrations
+        anchor_text: agentgateway Jev guardrail example
+        extracted_url: https://github.com/agentgateway/agentgateway
+        surrounding_text: >-
+          - [agentgateway Jev guardrail
+          example](https://github.com/agentgateway/agentgateway/tree/main/examples/llm-guardrail-jev)
+          ([post](https://x.com/agentgateway/status/2100615437973074097)) - Jev as an LLM prompt guardrail inside the
+          agentgateway proxy, with tracing and cost tracking.
+        confidence: high
+    - id: discovery__github__agentgateway__agentgateway__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Repository-level code references
+        anchor_text: agentgateway Jev guardrail example
+        extracted_url: https://github.com/agentgateway/agentgateway
+        surrounding_text: >-
+          | [agentgateway Jev guardrail
+          example](https://github.com/agentgateway/agentgateway/tree/main/examples/llm-guardrail-jev) | N/A | — | Jev as
+          an LLM prompt guardrail inside the agentgateway proxy, with tracing and cost tracking. |
+        confidence: high
+    - id: discovery__github__agentgateway__agentgateway__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Security & Guardrails
+        anchor_text: '**agentgateway**'
+        extracted_url: https://github.com/agentgateway/agentgateway
+        surrounding_text: >-
+          - [**agentgateway**](https://github.com/agentgateway/agentgateway) — A Jev guardrail example in Agentgateway
+          using a webhook to inspect model requests and responses.
+        confidence: high
+metadata:
+  github:
+    stars: 5089
+    forks: 895
+    license: Apache-2.0
+    archived: false
+    full_name: agentgateway/agentgateway
+    html_url: https://github.com/agentgateway/agentgateway
+    created_at: '2025-03-18T20:55:22Z'
+    pushed_at: '2026-09-29T08:39:15Z'
+    description: Next Generation Agentic Proxy for AI Agents and MCP servers
+    homepage: https://agentgateway.dev
+    topics:
+      - agents
+      - ai
+      - ai-gateway
+      - api-gateway
+      - gateway-api
+      - kubernetes
+      - mcp
+      - mcp-gateway
+      - reverse-proxy
+      - rust
+      - service-mesh
+    last_checked_at: '2026-09-29T13:08:33.318Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:33.318Z'
+      bytes: 6443
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: Stars (5089) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.390Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:33.318Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

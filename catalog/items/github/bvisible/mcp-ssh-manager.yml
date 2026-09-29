@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bvisible__mcp-ssh-manager__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🖥️ <a name="command-line"></a>Command Line
         anchor_text: bvisible/mcp-ssh-manager
         extracted_url: https://github.com/bvisible/mcp-ssh-manager
-        surrounding_text: "- [bvisible/mcp-ssh-manager](https://github.com/bvisible/mcp-ssh-manager) [![bvisible/mcp-ssh-manager MCP server](https://glama.ai/mcp/servers/@bvisible/mcp-ssh-manager/badges/score.svg)](https://glama.ai/mcp/servers/@bvisible/mcp-ssh-manager) 📇 🏠 🍎 🪟 🐧 - Manage multiple SSH servers from one MCP: command execution, file transfer/rsync, database dump/import/query (MySQL/PostgreSQL/MongoDB), backups & restore, health monitoring, persistent sessions, tunnels, ProxyJump/bastion, and opt-in per-server security modes (readonly/restricted) with audit log. Linux, macOS & Windows OpenSSH."
+        surrounding_text: >-
+          - [bvisible/mcp-ssh-manager](https://github.com/bvisible/mcp-ssh-manager) [![bvisible/mcp-ssh-manager MCP
+          server](https://glama.ai/mcp/servers/@bvisible/mcp-ssh-manager/badges/score.svg)](https://glama.ai/mcp/servers/@bvisible/mcp-ssh-manager)
+          📇 🏠 🍎 🪟 🐧 - Manage multiple SSH servers from one MCP: command execution, file transfer/rsync, database
+          dump/import/query (MySQL/PostgreSQL/MongoDB), backups & restore, health monitoring, persistent sessions,
+          tunnels, ProxyJump/bastion, and opt-in per-server security modes (readonly/restricted) with audit log. Linux,
+          macOS & Windows OpenSSH.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: bvisible/mcp-ssh-manager
     html_url: https://github.com/bvisible/mcp-ssh-manager
-    created_at: "2025-08-12T08:25:41Z"
-    pushed_at: "2026-09-13T05:37:58Z"
-    description: "MCP SSH Server: 37 tools for remote SSH management | Claude Code & OpenAI Codex | DevOps automation, backups, database operations, health monitoring"
+    created_at: '2025-08-12T08:25:41Z'
+    pushed_at: '2026-09-13T05:37:58Z'
+    description: >-
+      MCP SSH Server: 37 tools for remote SSH management | Claude Code & OpenAI Codex | DevOps automation, backups,
+      database operations, health monitoring
     homepage: https://www.npmjs.com/package/mcp-ssh-manager
     topics:
       - anthropic
@@ -55,13 +63,15 @@ metadata:
       - ssh-manager
       - ssh-mcp
       - toml
-    last_checked_at: "2026-09-24T04:13:04.910Z"
+    last_checked_at: '2026-09-24T04:13:04.910Z'
     readme:
-      fetched_at: "2026-09-24T04:13:04.910Z"
+      fetched_at: '2026-09-24T04:13:04.910Z'
       bytes: 54993
 insights:
   summary: MCP SSH Manager is an MCP server that exposes SSH management tools for Claude Code and OpenAI Codex agents.
-  why_it_matters: It lets AI agents securely execute DevOps and server management tasks over SSH without exposing credentials or enabling unintended mutations.
+  why_it_matters: >-
+    It lets AI agents securely execute DevOps and server management tasks over SSH without exposing credentials or
+    enabling unintended mutations.
   mental_damage: Handing an AI agent root access via SSH feels less like empowerment and more like volunteering for a SOC audit.
   tags:
     - mcp
@@ -72,32 +82,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server exposing SSH tools over the Model Context Protocol, making MCP its core purpose rather than a secondary feature.
+  reason: >-
+    The product's primary identity is an MCP server exposing SSH tools over the Model Context Protocol, making MCP its
+    core purpose rather than a secondary feature.
   evidence:
-    - "Repo description: 'MCP SSH Server: 37 tools for remote SSH management | Claude Code & OpenAI Codex | DevOps automation'"
-    - "README: 'A Model Context Protocol (MCP) server that enables Claude Code and OpenAI Codex to manage multiple SSH connections'"
+    - >-
+      Repo description: 'MCP SSH Server: 37 tools for remote SSH management | Claude Code & OpenAI Codex | DevOps
+      automation'
+    - >-
+      README: 'A Model Context Protocol (MCP) server that enables Claude Code and OpenAI Codex to manage multiple SSH
+      connections'
     - Listed in awesome-mcp-servers under Server Implementations > Command Line as an MCP server
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Dev & Code Tools
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (252) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.988Z"
+    updated_at: '2026-06-15T05:51:04.988Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:04.910Z"
+    updated_at: '2026-09-24T04:13:04.910Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:59:25.211Z"
+    updated_at: '2026-09-28T04:59:25.211Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -110,14 +126,22 @@ processing:
       input_hash: sha256:1c0ceb6ca49b80bed92ff41bbd9ef662c43e13c07a77e22581bb887eb7f57428
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's primary identity is an MCP server exposing SSH tools over the Model Context Protocol, making MCP its core purpose rather than a secondary feature.
+      decision_reason: >-
+        The product's primary identity is an MCP server exposing SSH tools over the Model Context Protocol, making MCP
+        its core purpose rather than a secondary feature.
       decision_evidence:
-        - "Repo description: 'MCP SSH Server: 37 tools for remote SSH management | Claude Code & OpenAI Codex | DevOps automation'"
-        - "README: 'A Model Context Protocol (MCP) server that enables Claude Code and OpenAI Codex to manage multiple SSH connections'"
+        - >-
+          Repo description: 'MCP SSH Server: 37 tools for remote SSH management | Claude Code & OpenAI Codex | DevOps
+          automation'
+        - >-
+          README: 'A Model Context Protocol (MCP) server that enables Claude Code and OpenAI Codex to manage multiple
+          SSH connections'
         - Listed in awesome-mcp-servers under Server Implementations > Command Line as an MCP server
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server whose identity is providing MCP-accessible tools, not augmenting a host agent with new capabilities.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product is an MCP server whose identity is providing
+        MCP-accessible tools, not augmenting a host agent with new capabilities.
       review_reason: null
       review_resume_lifecycle: null

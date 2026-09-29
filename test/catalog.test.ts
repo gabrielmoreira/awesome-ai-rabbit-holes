@@ -48,7 +48,6 @@ import type { CatalogItem, Source, Category, CatalogConfig } from "../scripts/ca
 // ─── Fixtures ────────────────────────────────────────────────────────────────
 
 const DEFAULT_CONFIG: CatalogConfig = {
-  promotion: { incubating_until_stars: 150 },
   github: { metadata_refresh_days: 7 },
 };
 
@@ -193,7 +192,7 @@ function makeItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
       primary_category: null,
       section: null,
     },
-    lifecycle: { status: "incubating" },
+    lifecycle: { status: "curated" },
     ...overrides,
   };
 }
@@ -776,19 +775,8 @@ describe("discover", () => {
 describe("lifecycle rules", () => {
   it("item with 42 stars is incubating", () => {
     const item = makeItem({ metadata: { github: { stars: 42, forks: null, license: null, archived: null, pushed_at: null, description: null, homepage: null, topics: null, last_checked_at: null } } });
-    const result = applyLifecycleRules(item, DEFAULT_CONFIG);
-    expect(result.lifecycle.status).toBe("incubating");
-  });
-
-  it("item with 151 stars becomes promotion_candidate", () => {
-    const item = makeItem({
-      metadata: {
-        github: { stars: 151, forks: null, license: null, archived: false, pushed_at: null, description: null, homepage: null, topics: null, last_checked_at: null },
-      },
-      lifecycle: { status: "incubating" },
-    });
-    const result = applyLifecycleRules(item, DEFAULT_CONFIG);
-    expect(result.lifecycle.status).toBe("promotion_candidate");
+    const result = applyLifecycleRules(item);
+    expect(result.lifecycle.status).toBe("curated");
   });
 
   it("curated item does not move back automatically", () => {
@@ -798,7 +786,7 @@ describe("lifecycle rules", () => {
       },
       lifecycle: { status: "curated" },
     });
-    const result = applyLifecycleRules(item, DEFAULT_CONFIG);
+    const result = applyLifecycleRules(item);
     expect(result.lifecycle.status).toBe("curated");
   });
 
@@ -809,7 +797,7 @@ describe("lifecycle rules", () => {
       },
       lifecycle: { status: "landmark" },
     });
-    const result = applyLifecycleRules(item, DEFAULT_CONFIG);
+    const result = applyLifecycleRules(item);
     expect(result.lifecycle.status).toBe("landmark");
   });
 
@@ -818,9 +806,9 @@ describe("lifecycle rules", () => {
       metadata: {
         github: { stars: 100, forks: null, license: null, archived: true, pushed_at: null, description: null, homepage: null, topics: null, last_checked_at: null },
       },
-      lifecycle: { status: "incubating" },
+      lifecycle: { status: "curated" },
     });
-    const result = applyLifecycleRules(item, DEFAULT_CONFIG);
+    const result = applyLifecycleRules(item);
     expect(result.lifecycle.status).toBe("needs_review");
   });
 });
@@ -829,6 +817,47 @@ describe("lifecycle rules", () => {
 // ─── Phase 6: Render ─────────────────────────────────────────────────────────
 
 describe("render", () => {
+  it("folds a section's overflow behind one panel and still renders every entry once", () => {
+    const section = CATEGORIES[0].sections![0];
+    const sectionItems = Array.from({ length: 31 }, (_, index) =>
+      makeItem({
+        id: `section-${index}`,
+        name: `section-${index}`,
+        placement: { primary_category: CATEGORIES[0].id, section },
+        metadata: {
+          github: {
+            stars: 1000 - index,
+            forks: null,
+            license: null,
+            archived: null,
+            pushed_at: null,
+            description: null,
+            homepage: null,
+            topics: null,
+            last_checked_at: null,
+          },
+        },
+      }),
+    );
+    const unsectioned = makeItem({
+      id: "unsectioned",
+      name: "unsectioned",
+      placement: { primary_category: CATEGORIES[0].id, section: null },
+    });
+
+    const page = renderRabbitHolePage(CATEGORIES[0], [...sectionItems, unsectioned]);
+
+    expect(page).toContain(`## ${section}`);
+    expect(page).toContain("## Others");
+    expect(page).toContain(`+1 more in ${section}`);
+    // Every published entry must appear exactly once: in the section's visible
+    // list, inside its folded panel, or under Others. Losing one is silent.
+    for (const name of [...sectionItems.map((item) => item.name), "unsectioned"]) {
+      const occurrences = page.match(new RegExp(`\\*\\*\\[${name}\\]`, "g")) ?? [];
+      expect(occurrences, `${name} rendered ${occurrences.length} time(s)`).toHaveLength(1);
+    }
+  });
+
   it("README includes title and intro", () => {
     const readme = renderReadme([], CATEGORIES);
     expect(readme).toContain("# Awesome AI Rabbit Holes");
@@ -1105,37 +1134,6 @@ describe("render", () => {
   });
 
 
-
-  it("incubating items render separately as compact bullets", () => {
-    const item = makeItem({
-      name: "new-tool",
-      placement: { primary_category: "coding-agents", section: null },
-      lifecycle: { status: "incubating" },
-      metadata: {
-        github: {
-          stars: 1000,
-          forks: null,
-          license: null,
-          archived: null,
-          pushed_at: null,
-          description: null,
-          homepage: null,
-          topics: null,
-          last_checked_at: null,
-        },
-      },
-      insights: {
-        summary: "A great tool",
-        why_it_matters: "Useful for fast-moving teams.",
-        mental_damage: "Your queue now has opinions.",
-        tags: [],
-        confidence: "high",
-      },
-    });
-    const page = renderRabbitHolePage(CATEGORIES[0], [item]);
-    expect(page).toContain("## Incubating");
-    expect(page).toContain("- **[new-tool](https://github.com/testowner/test-repo)** `⭐ 1k` A great tool.");
-  });
 
   it("empty rabbit-hole pages render a short waiting message", () => {
     const page = renderRabbitHolePage(CATEGORIES[1], []);
@@ -2236,7 +2234,7 @@ describe("renderReadme: all category links stay visible", () => {
 describe("Memory & Context page wording", () => {
   it("category description stays concise and grounded in config/categories.yml", () => {
     const yamlPath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "config", "categories.yml");
-    const yaml = fs.readFileSync(yamlPath, "utf8");
+    const yaml = fs.readFileSync(yamlPath, "utf8").replace(/\r\n/g, "\n");
     const m = yaml.match(/- id: memory-and-context[\s\S]*?description: >\n((?:[ \t]+[^\n]*\n?)+)/);
     expect(m, "memory-and-context category not found").not.toBeNull();
     const description = (m![1] ?? "").toLowerCase();

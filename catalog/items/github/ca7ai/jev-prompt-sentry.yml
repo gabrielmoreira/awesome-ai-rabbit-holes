@@ -1,0 +1,86 @@
+id: github__ca7ai__jev-prompt-sentry
+kind: github-repo
+name: ca7ai/jev-prompt-sentry
+canonical_url: https://github.com/ca7ai/jev-prompt-sentry
+identity:
+  github_repo: ca7ai/jev-prompt-sentry
+provenance:
+  discoveries:
+    - id: discovery__github__ca7ai__jev-prompt-sentry__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jev-prompt-sentry
+        extracted_url: https://github.com/ca7ai/jev-prompt-sentry
+        surrounding_text: >-
+          - [jev-prompt-sentry](https://github.com/ca7ai/jev-prompt-sentry) - Anthropic Messages reverse proxy that
+          screens jailbreaks/injections with one batched TypeSafe Jev call (PolyForm Noncommercial). [Project
+          guide](community/projects/tools/jev-prompt-sentry.md).
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: NOASSERTION
+    archived: false
+    full_name: ca7ai/jev-prompt-sentry
+    html_url: https://github.com/ca7ai/jev-prompt-sentry
+    created_at: '2026-09-19T18:35:59Z'
+    pushed_at: '2026-09-19T19:45:00Z'
+    description: >-
+      Ingress LLM firewall: a reverse proxy that screens each request with one batched TypeSafe Jev System One call for
+      jailbreaks, indirect injections, and data exfiltration before an expensive model runs
+    homepage: ''
+    topics:
+      - ai-safety
+      - fastapi
+      - llm-security
+      - prompt-injection
+      - reverse-proxy
+    last_checked_at: '2026-09-29T13:09:39.975Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:39.975Z'
+      bytes: 17015
+insights:
+  summary: >-
+    Ingress LLM firewall: a reverse proxy that screens each request with one batched TypeSafe Jev System One call for
+    jailbreaks, indirect injections, and data exfiltration before an expensive model runs
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.95
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.451Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:39.975Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

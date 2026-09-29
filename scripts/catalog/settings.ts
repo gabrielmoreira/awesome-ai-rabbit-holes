@@ -5,7 +5,6 @@ import { readYamlIfExists } from "../support/yaml.ts"
 export type { AppSettings };
 
 export const DEFAULT_SETTINGS: AppSettings = {
-  promotion: { incubating_until_stars: 150 },
   github: { metadata_refresh_days: 7 },
   budgets: { discover_minutes: 10, stars_minutes: 10, categorize_minutes: 60 },
   concurrency: { github: 4, site: 3, llm: 6 },
@@ -69,19 +68,11 @@ export function loadSettingsFromRaw(
 ): AppSettings {
   const fileRoot = asMapping(fileSettings, "settings");
   const overrideObject = asObject(overrides);
-  const promotion = { ...DEFAULT_SETTINGS.promotion, ...asMapping(fileRoot.promotion, "settings.promotion"), ...asObject(overrides.promotion) };
   const github = { ...DEFAULT_SETTINGS.github, ...asMapping(fileRoot.github, "settings.github"), ...asObject(overrides.github) };
   const budgetsRaw = { ...DEFAULT_SETTINGS.budgets, ...asMapping(fileRoot.budgets, "settings.budgets"), ...asObject(overrides.budgets) };
   const concurrencyRaw = { ...DEFAULT_SETTINGS.concurrency, ...asMapping(fileRoot.concurrency, "settings.concurrency"), ...asObject(overrides.concurrency) };
   const envSource: Record<string, unknown> = { ...env, ...overrideObject };
   return {
-    promotion: {
-      incubating_until_stars: enforcePositiveBudget(
-        promotion.incubating_until_stars,
-        "promotion.incubating_until_stars",
-        DEFAULT_SETTINGS.promotion.incubating_until_stars,
-      ),
-    },
     github: {
       metadata_refresh_days: enforcePositiveBudget(
         github.metadata_refresh_days,

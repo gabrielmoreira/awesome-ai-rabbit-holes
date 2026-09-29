@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huyenchip__com__llama__police__html__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,9 @@ provenance:
           - Lists
         anchor_text: llama-police
         extracted_url: https://huyenchip.com/llama-police.html
-        surrounding_text: "- [llama-police](https://huyenchip.com/llama-police.html) - A list of Open Source LLM Tools from [Chip Huyen](https://huyenchip.com)"
+        surrounding_text: >-
+          - [llama-police](https://huyenchip.com/llama-police.html) - A list of Open Source LLM Tools from [Chip
+          Huyen](https://huyenchip.com)
         confidence: high
 metadata:
   github:
@@ -46,7 +48,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The page functions as a curated directory of open source LLM tools, matching the intent of awesome lists despite being hosted on a personal blog.
+  reason: >-
+    The page functions as a curated directory of open source LLM tools, matching the intent of awesome lists despite
+    being hosted on a personal blog.
   evidence:
     - Source-list context shows inclusion in awesome-local-ai under 'Lists' section
     - Scraped page describes itself as 'Open Source LLM Tools' updated every 12 hours with browsing and search features
@@ -56,12 +60,12 @@ placement:
   secondary_categories: []
   section: Awesome Lists & Directories
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:29:39.897Z"
+    updated_at: '2026-09-28T04:29:39.897Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,14 +87,20 @@ processing:
       input_hash: sha256:9f49c1a88dbd2c655e9e12148cd2aef193ecfa1308adfd11e7a1ae6df44e5840
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: The page functions as a curated directory of open source LLM tools, matching the intent of awesome lists despite being hosted on a personal blog.
+      decision_reason: >-
+        The page functions as a curated directory of open source LLM tools, matching the intent of awesome lists despite
+        being hosted on a personal blog.
       decision_evidence:
         - Source-list context shows inclusion in awesome-local-ai under 'Lists' section
-        - Scraped page describes itself as 'Open Source LLM Tools' updated every 12 hours with browsing and search features
+        - >-
+          Scraped page describes itself as 'Open Source LLM Tools' updated every 12 hours with browsing and search
+          features
         - No evidence of being a standalone tool, agent, or framework—purely a reference listing
       category_candidates:
         - awesome-awesomes
         - local-ai
-      contrastive_reason: Choose awesome-awesomes over local-ai because the page is a curated list of tools rather than a runtime or infrastructure for running models locally.
+      contrastive_reason: >-
+        Choose awesome-awesomes over local-ai because the page is a curated list of tools rather than a runtime or
+        infrastructure for running models locally.
       review_reason: null
       review_resume_lifecycle: null

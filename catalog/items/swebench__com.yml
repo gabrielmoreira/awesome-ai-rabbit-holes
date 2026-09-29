@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__swebench__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,10 +19,12 @@ provenance:
           - Description
         anchor_text: varies
         extracted_url: https://swebench.com
-        surrounding_text: "- It is important to say that the performance [varies](https://www.swebench.com/) based on the model used by the agent."
+        surrounding_text: >-
+          - It is important to say that the performance [varies](https://www.swebench.com/) based on the model used by
+          the agent.
         confidence: high
     - id: discovery__www__swebench__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,7 +37,9 @@ provenance:
           - Description
         anchor_text: varies
         extracted_url: https://www.swebench.com
-        surrounding_text: "- It is important to say that the performance [varies](https://www.swebench.com/) based on the model used by the agent."
+        surrounding_text: >-
+          - It is important to say that the performance [varies](https://www.swebench.com/) based on the model used by
+          the agent.
         confidence: high
 metadata:
   github:
@@ -53,8 +57,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: SWE-Bench.com is a public leaderboard for evaluating coding agents on software engineering tasks using the SWE-bench benchmark.
-  why_it_matters: It provides developers with a standardized way to measure and compare the real-world coding performance of AI agents.
+  summary: >-
+    SWE-Bench.com is a public leaderboard for evaluating coding agents on software engineering tasks using the SWE-bench
+    benchmark.
+  why_it_matters: >-
+    It provides developers with a standardized way to measure and compare the real-world coding performance of AI
+    agents.
   mental_damage: Yet another leaderboard that turns your coding agent’s existential dread into a sortable table.
   tags:
     - benchmark
@@ -63,22 +71,27 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: SWE-Bench.com is a benchmarking platform focused on evaluating coding agents, making it a clear fit for the evals category as its primary purpose is measuring and comparing model/prompt/agent behavior on software engineering tasks.
+  reason: >-
+    SWE-Bench.com is a benchmarking platform focused on evaluating coding agents, making it a clear fit for the evals
+    category as its primary purpose is measuring and comparing model/prompt/agent behavior on software engineering
+    tasks.
   evidence:
-    - "Listed in awesome-ai-agents under the 'SWE Agent' section with description: 'A list of AI autonomous agents'"
-    - The site swebench.com hosts the SWE-bench leaderboard, which evaluates coding agents on real-world software engineering tasks
+    - 'Listed in awesome-ai-agents under the ''SWE Agent'' section with description: ''A list of AI autonomous agents'''
+    - >-
+      The site swebench.com hosts the SWE-bench leaderboard, which evaluates coding agents on real-world software
+      engineering tasks
     - No evidence of being a coding agent, framework, or app builder; identity is centered on evaluation and comparison
 placement:
   primary_category: evals
   secondary_categories: []
   section: Agent & LLM Benchmarks
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:46:26.780Z"
+    updated_at: '2026-09-28T04:46:26.780Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -91,20 +104,29 @@ processing:
       input_hash: sha256:61ad6ffc901510ad85b720cc8015eb442924a8a4002a1ca5858444d140f12144
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: SWE-Bench.com is a benchmarking platform focused on evaluating coding agents, making it a clear fit for the evals category as its primary purpose is measuring and comparing model/prompt/agent behavior on software engineering tasks.
+      decision_reason: >-
+        SWE-Bench.com is a benchmarking platform focused on evaluating coding agents, making it a clear fit for the
+        evals category as its primary purpose is measuring and comparing model/prompt/agent behavior on software
+        engineering tasks.
       decision_evidence:
-        - "Listed in awesome-ai-agents under the 'SWE Agent' section with description: 'A list of AI autonomous agents'"
-        - The site swebench.com hosts the SWE-bench leaderboard, which evaluates coding agents on real-world software engineering tasks
-        - No evidence of being a coding agent, framework, or app builder; identity is centered on evaluation and comparison
+        - 'Listed in awesome-ai-agents under the ''SWE Agent'' section with description: ''A list of AI autonomous agents'''
+        - >-
+          The site swebench.com hosts the SWE-bench leaderboard, which evaluates coding agents on real-world software
+          engineering tasks
+        - >-
+          No evidence of being a coding agent, framework, or app builder; identity is centered on evaluation and
+          comparison
       category_candidates:
         - evals
         - coding-agents
-      contrastive_reason: Choose evals over coding-agents because SWE-Bench.com measures and compares agent performance rather than acting as a coding agent that writes or edits code itself.
+      contrastive_reason: >-
+        Choose evals over coding-agents because SWE-Bench.com measures and compares agent performance rather than acting
+        as a coding agent that writes or edits code itself.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.970Z"
+    updated_at: '2026-07-21T15:20:21.970Z'
     cause: null
     next_retry_at: null
   stars:

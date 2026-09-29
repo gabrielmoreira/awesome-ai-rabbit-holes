@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huggingface__chat-ui__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,10 @@ provenance:
           - Inference UI
         anchor_text: ChatUI
         extracted_url: https://github.com/huggingface/chat-ui
-        surrounding_text: "- [ChatUI](https://github.com/huggingface/chat-ui) - Open source codebase powering the HuggingChat app."
+        surrounding_text: '- [ChatUI](https://github.com/huggingface/chat-ui) - Open source codebase powering the HuggingChat app.'
         confidence: high
     - id: discovery__github__huggingface__chat-ui__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,7 +34,7 @@ provenance:
           - 推理 Inference
         anchor_text: chat-ui
         extracted_url: https://github.com/huggingface/chat-ui
-        surrounding_text: "17. [chat-ui](https://github.com/huggingface/chat-ui): Open source codebase powering the HuggingChat app."
+        surrounding_text: '17. [chat-ui](https://github.com/huggingface/chat-ui): Open source codebase powering the HuggingChat app.'
         confidence: high
 metadata:
   github:
@@ -44,8 +44,8 @@ metadata:
     archived: false
     full_name: huggingface/chat-ui
     html_url: https://github.com/huggingface/chat-ui
-    created_at: "2023-02-17T15:31:50Z"
-    pushed_at: "2026-07-29T21:16:52Z"
+    created_at: '2023-02-17T15:31:50Z'
+    pushed_at: '2026-07-29T21:16:52Z'
     description: The open source codebase powering HuggingChat
     homepage: https://huggingface.co/chat
     topics:
@@ -58,13 +58,15 @@ metadata:
       - sveltekit
       - tailwindcss
       - typescript
-    last_checked_at: "2026-07-30T05:05:39.297Z"
+    last_checked_at: '2026-07-30T05:05:39.297Z'
     readme:
-      fetched_at: "2026-07-30T05:05:39.297Z"
+      fetched_at: '2026-07-30T05:05:39.297Z'
       bytes: 9583
 insights:
   summary: An open-source SvelteKit chat interface for LLMs that powers HuggingChat, supporting OpenAI-compatible APIs.
-  why_it_matters: Developers can self-host a full-featured chat UI for local or cloud LLMs with minimal setup, using MongoDB for persistence and OpenAI-compatible endpoints.
+  why_it_matters: >-
+    Developers can self-host a full-featured chat UI for local or cloud LLMs with minimal setup, using MongoDB for
+    persistence and OpenAI-compatible endpoints.
   mental_damage: Finally, a way to chat with your local LLM without pretending it’s a sentient IDE.
   tags:
     - chat-ui
@@ -75,31 +77,33 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose chat UI for LLMs, not a developer-tooling product focused on coding workflows, IDEs, or agent orchestration.
+  reason: >-
+    This is a general-purpose chat UI for LLMs, not a developer-tooling product focused on coding workflows, IDEs, or
+    agent orchestration.
   evidence:
-    - "Repo description: 'The open source codebase powering HuggingChat'"
-    - "README: 'A chat interface for LLMs' with no coding-specific features or integrations"
-    - "Source-list context: listed under 'Inference UI' and '推理 Inference' (general inference, not dev tooling)"
+    - 'Repo description: ''The open source codebase powering HuggingChat'''
+    - 'README: ''A chat interface for LLMs'' with no coding-specific features or integrations'
+    - 'Source-list context: listed under ''Inference UI'' and ''推理 Inference'' (general inference, not dev tooling)'
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (10692) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.587Z"
+    updated_at: '2026-05-06T22:12:15.587Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:39.297Z"
+    updated_at: '2026-07-30T05:05:39.297Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -114,11 +118,13 @@ processing:
       input_hash: sha256:447df16e0738cd4616b58273b8cedac4b5002c6e6b6dac5b42f4fa23438a14b7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a general-purpose chat UI for LLMs, not a developer-tooling product focused on coding workflows, IDEs, or agent orchestration.
+      decision_reason: >-
+        This is a general-purpose chat UI for LLMs, not a developer-tooling product focused on coding workflows, IDEs,
+        or agent orchestration.
       decision_evidence:
-        - "Repo description: 'The open source codebase powering HuggingChat'"
-        - "README: 'A chat interface for LLMs' with no coding-specific features or integrations"
-        - "Source-list context: listed under 'Inference UI' and '推理 Inference' (general inference, not dev tooling)"
+        - 'Repo description: ''The open source codebase powering HuggingChat'''
+        - 'README: ''A chat interface for LLMs'' with no coding-specific features or integrations'
+        - 'Source-list context: listed under ''Inference UI'' and ''推理 Inference'' (general inference, not dev tooling)'
       category_candidates: []
       contrastive_reason: null
       review_reason: null

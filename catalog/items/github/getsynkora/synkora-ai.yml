@@ -1,0 +1,95 @@
+id: github__getsynkora__synkora-ai
+kind: github-repo
+name: getsynkora/synkora-ai
+canonical_url: https://github.com/getsynkora/synkora-ai
+identity:
+  github_repo: getsynkora/synkora-ai
+provenance:
+  discoveries:
+    - id: discovery__github__getsynkora__synkora-ai__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP & Integrations
+        anchor_text: '**synkora-ai**'
+        extracted_url: https://github.com/getsynkora/synkora-ai
+        surrounding_text: >-
+          - [**synkora-ai**](https://github.com/getsynkora/synkora-ai) — Synkora includes optional TypeSafe client tools
+          for classification, scoring and yes/no judgments.
+        confidence: high
+metadata:
+  github:
+    stars: 38
+    forks: 7
+    license: MIT
+    archived: false
+    full_name: getsynkora/synkora-ai
+    html_url: https://github.com/getsynkora/synkora-ai
+    created_at: '2026-03-22T01:24:44Z'
+    pushed_at: '2026-09-29T02:20:47Z'
+    description: >-
+      Open-source AI agent platform for building, deploying, and managing AI teammates. Role-based agents (PM, Engineer,
+      Support, Marketing) with custom tools, knowledge bases, and 50+ integrations. Self-hosted, multi-provider LLM
+      support, no vendor lock-in.
+    homepage: https://synkora.ai
+    topics:
+      - agent-framework
+      - agentic-ai
+      - agents
+      - ai
+      - anthropic
+      - claude-code
+      - fastapi
+      - gemini
+      - llm
+      - mcp
+      - multitenant
+      - nextjs
+      - openai
+      - rag
+    last_checked_at: '2026-09-29T13:11:39.870Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:39.870Z'
+      bytes: 43043
+insights:
+  summary: >-
+    Open-source AI agent platform for building, deploying, and managing AI teammates. Role-based agents (PM, Engineer,
+    Support, Marketing) with custom tools, knowledge bases, and 50+ integrations. Self-hosted, multi-provider LLM
+    support, no vendor lock-in.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.83
+placement:
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.458Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:39.870Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

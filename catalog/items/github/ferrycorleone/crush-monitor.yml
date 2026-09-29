@@ -1,0 +1,96 @@
+id: github__ferrycorleone__crush-monitor
+kind: github-repo
+name: ferrycorleone/crush-monitor
+canonical_url: https://github.com/ferrycorleone/crush-monitor
+identity:
+  github_repo: ferrycorleone/crush-monitor
+provenance:
+  discoveries:
+    - id: discovery__github__ferrycorleone__crush-monitor__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Apps powered by Jev
+        anchor_text: Crush Monitor
+        extracted_url: https://github.com/ferrycorleone/crush-monitor
+        surrounding_text: >-
+          - [Crush Monitor](https://github.com/FerryCorleone/crush-monitor) - `Open source` · `Free source build` ·
+          `BYOK`. Local WeChat-style chat analyzer: TypeSafe Jev labels emotion/intent, scores affinity, and rates
+          replies (BYOK). [Project guide](community/projects/apps/crush-monitor.md).
+        confidence: high
+    - id: discovery__github__ferrycorleone__crush-monitor__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Applications (129)
+        anchor_text: crush-monitor
+        extracted_url: https://github.com/ferrycorleone/crush-monitor
+        surrounding_text: >-
+          | [crush-monitor](https://github.com/FerryCorleone/crush-monitor) | ★ 183 | TypeScript | 2026-09-23 | Crush
+          Favorability Monitor: Use Jev to analyze the emotions, intentions and reply performance of WeChat chats.
+          Deploy locally, use your own API Key.. |
+        confidence: high
+metadata:
+  github:
+    stars: 255
+    forks: 26
+    license: MIT
+    archived: false
+    full_name: FerryCorleone/crush-monitor
+    html_url: https://github.com/FerryCorleone/crush-monitor
+    created_at: '2026-09-20T12:46:10Z'
+    pushed_at: '2026-09-25T05:15:30Z'
+    description: Crush 好感监控器：用 Jev 分析微信聊天的情绪、意图和回复表现。本机部署，使用自己的 API Key。
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:11:17.232Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:17.232Z'
+      bytes: 10087
+insights:
+  summary: Crush 好感监控器：用 Jev 分析微信聊天的情绪、意图和回复表现。本机部署，使用自己的 API Key。
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  evidence:
+    - jev-latest choice confidence 0.60
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Apps, Games & Simulation
+lifecycle:
+  status: curated
+  reason: Stars (255) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.413Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:17.232Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

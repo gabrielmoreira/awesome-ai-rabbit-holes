@@ -1,0 +1,93 @@
+id: github__arturobermejo__semcheck
+kind: github-repo
+name: arturobermejo/semcheck
+canonical_url: https://github.com/arturobermejo/semcheck
+identity:
+  github_repo: arturobermejo/semcheck
+provenance:
+  discoveries:
+    - id: discovery__github__arturobermejo__semcheck__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Verification & Guardrails
+        anchor_text: semcheck
+        extracted_url: https://github.com/arturobermejo/semcheck
+        surrounding_text: >-
+          - [semcheck](https://github.com/arturobermejo/semcheck) ![type:
+          cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square)
+          ![stars](https://img.shields.io/github/stars/arturobermejo/semcheck?style=flat-square&label=%E2%98%85) - Code
+          review: Go linter whose rules are plain-English questions such as "does this log call write personal data?",
+          asking Jev one `Noul` for each piece of code a rule applies to and reporting it above the rule's threshold;
+          its two shipped rules were right on 12 of 12 sampled findings in three open-source projects.
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: arturobermejo/semcheck
+    html_url: https://github.com/arturobermejo/semcheck
+    created_at: '2026-09-19T15:52:06Z'
+    pushed_at: '2026-09-28T03:27:55Z'
+    description: >-
+      Semantic linter for Go. Write rules as questions in plain English; the AST decides where to look, a model decides
+      if the code is right.
+    homepage: ''
+    topics:
+      - astro
+      - code-quality
+      - go
+      - go-analysis
+      - golang
+      - golangci-lint
+      - linter
+      - llm
+      - static-analysis
+    last_checked_at: '2026-09-29T13:09:13.807Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:13.807Z'
+      bytes: 11531
+insights:
+  summary: >-
+    Semantic linter for Go. Write rules as questions in plain English; the AST decides where to look, a model decides if
+    the code is right.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.68
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.449Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:13.807Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

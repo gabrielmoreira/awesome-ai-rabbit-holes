@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__rosebud__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - App Builders
         anchor_text: Rosebud AI
         extracted_url: https://rosebud.ai
-        surrounding_text: "- **[Rosebud AI](https://rosebud.ai)** – Vibe coding platform for 3D games and interactive web apps."
+        surrounding_text: '- **[Rosebud AI](https://rosebud.ai)** – Vibe coding platform for 3D games and interactive web apps.'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: Rosebud AI Game Maker lets users create and deploy playable games from AI prompts or templates without coding.
-  why_it_matters: Enables rapid prototyping of games through natural language, lowering the barrier to entry for game development and interactive experiences.
-  mental_damage: Another promise that describing your dream game in a textbox will magically ship something playable—until you hit the limits of what 'no coding required' actually means.
+  why_it_matters: >-
+    Enables rapid prototyping of games through natural language, lowering the barrier to entry for game development and
+    interactive experiences.
+  mental_damage: >-
+    Another promise that describing your dream game in a textbox will magically ship something playable—until you hit
+    the limits of what 'no coding required' actually means.
   tags:
     - app-builder
     - game-dev
@@ -47,22 +51,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Rosebud AI's core identity is generating complete, deployable games from prompts without requiring users to edit an existing codebase, fitting the app-builder pattern.
+  reason: >-
+    Rosebud AI's core identity is generating complete, deployable games from prompts without requiring users to edit an
+    existing codebase, fitting the app-builder pattern.
   evidence:
-    - "Scraped site context: 'Create playable games with AI prompts. Describe your idea or choose a template, then build and deploy your game. No coding required.'"
-    - "Source-list context: Listed in awesome-ai-coding-tools under App Builders section with the same prompt-to-game description."
-    - "Primary page excerpt shows workflow: describe game or pick template → create → deploy, with no mention of editing existing repositories."
+    - >-
+      Scraped site context: 'Create playable games with AI prompts. Describe your idea or choose a template, then build
+      and deploy your game. No coding required.'
+    - >-
+      Source-list context: Listed in awesome-ai-coding-tools under App Builders section with the same prompt-to-game
+      description.
+    - >-
+      Primary page excerpt shows workflow: describe game or pick template → create → deploy, with no mention of editing
+      existing repositories.
 placement:
   primary_category: app-builders
   secondary_categories: []
   section: Full App Builders
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:36:09.601Z"
+    updated_at: '2026-09-28T04:36:09.601Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +96,24 @@ processing:
       input_hash: sha256:e090578e7120b2ff0d4f5788679dbf14591a573633e54dbaae4b129a072164d5
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: Rosebud AI's core identity is generating complete, deployable games from prompts without requiring users to edit an existing codebase, fitting the app-builder pattern.
+      decision_reason: >-
+        Rosebud AI's core identity is generating complete, deployable games from prompts without requiring users to edit
+        an existing codebase, fitting the app-builder pattern.
       decision_evidence:
-        - "Scraped site context: 'Create playable games with AI prompts. Describe your idea or choose a template, then build and deploy your game. No coding required.'"
-        - "Source-list context: Listed in awesome-ai-coding-tools under App Builders section with the same prompt-to-game description."
-        - "Primary page excerpt shows workflow: describe game or pick template → create → deploy, with no mention of editing existing repositories."
+        - >-
+          Scraped site context: 'Create playable games with AI prompts. Describe your idea or choose a template, then
+          build and deploy your game. No coding required.'
+        - >-
+          Source-list context: Listed in awesome-ai-coding-tools under App Builders section with the same prompt-to-game
+          description.
+        - >-
+          Primary page excerpt shows workflow: describe game or pick template → create → deploy, with no mention of
+          editing existing repositories.
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because Rosebud generates new games from prompts rather than acting as an agent that edits or assists within an existing codebase.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because Rosebud generates new games from prompts rather than acting as an
+        agent that edits or assists within an existing codebase.
       review_reason: null
       review_resume_lifecycle: null

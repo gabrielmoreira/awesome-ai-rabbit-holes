@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jfrog__com__xray__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Security
         anchor_text: JFrog Xray
         extracted_url: https://jfrog.com/xray
-        surrounding_text: "- **[JFrog Xray](https://jfrog.com/xray/)** – Security and compliance scanning for DevOps pipelines."
+        surrounding_text: '- **[JFrog Xray](https://jfrog.com/xray/)** – Security and compliance scanning for DevOps pipelines.'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Xray is a DevSecOps tool that scans container images and binaries for security vulnerabilities, malware, and policy violations.
-  why_it_matters: It helps developers catch security issues early in the CI/CD pipeline by integrating automated scanning into build and deployment workflows.
+  summary: >-
+    Xray is a DevSecOps tool that scans container images and binaries for security vulnerabilities, malware, and policy
+    violations.
+  why_it_matters: >-
+    It helps developers catch security issues early in the CI/CD pipeline by integrating automated scanning into build
+    and deployment workflows.
   mental_damage: Because nothing says 'move fast and break things' like waiting for a security scan to finish before you can ship.
   tags:
     - security
@@ -46,21 +50,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Xray is a general-purpose DevSecOps scanning tool with no AI-specific functionality or developer-facing AI agent, assistant, or workflow features; its inclusion in an AI coding tools list appears to be a categorization error.
+  reason: >-
+    Xray is a general-purpose DevSecOps scanning tool with no AI-specific functionality or developer-facing AI agent,
+    assistant, or workflow features; its inclusion in an AI coding tools list appears to be a categorization error.
   evidence:
-    - "Repo description: (none)"
-    - "Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding tools | section: Security"
-    - No README excerpt, scraped site context, or other signals indicate AI, agent, or developer tooling behavior beyond standard security scanning.
+    - 'Repo description: (none)'
+    - >-
+      Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding tools |
+      section: Security
+    - >-
+      No README excerpt, scraped site context, or other signals indicate AI, agent, or developer tooling behavior beyond
+      standard security scanning.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:30:17.355Z"
+    updated_at: '2026-09-28T04:30:17.355Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,11 +92,18 @@ processing:
       input_hash: sha256:2f33320db5e9bcbd8c646200b16157184c1672b1d20365930ba2bc0682d1653b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Xray is a general-purpose DevSecOps scanning tool with no AI-specific functionality or developer-facing AI agent, assistant, or workflow features; its inclusion in an AI coding tools list appears to be a categorization error.
+      decision_reason: >-
+        Xray is a general-purpose DevSecOps scanning tool with no AI-specific functionality or developer-facing AI
+        agent, assistant, or workflow features; its inclusion in an AI coding tools list appears to be a categorization
+        error.
       decision_evidence:
-        - "Repo description: (none)"
-        - "Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding tools | section: Security"
-        - No README excerpt, scraped site context, or other signals indicate AI, agent, or developer tooling behavior beyond standard security scanning.
+        - 'Repo description: (none)'
+        - >-
+          Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding
+          tools | section: Security
+        - >-
+          No README excerpt, scraped site context, or other signals indicate AI, agent, or developer tooling behavior
+          beyond standard security scanning.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

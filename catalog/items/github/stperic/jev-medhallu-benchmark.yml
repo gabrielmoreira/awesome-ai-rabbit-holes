@@ -1,0 +1,81 @@
+id: github__stperic__jev-medhallu-benchmark
+kind: github-repo
+name: stperic/jev-medhallu-benchmark
+canonical_url: https://github.com/stperic/jev-medhallu-benchmark
+identity:
+  github_repo: stperic/jev-medhallu-benchmark
+provenance:
+  discoveries:
+    - id: discovery__github__stperic__jev-medhallu-benchmark__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Evaluation & Benchmarking
+        anchor_text: jev-medhallu-benchmark
+        extracted_url: https://github.com/stperic/jev-medhallu-benchmark
+        surrounding_text: >-
+          - [jev-medhallu-benchmark](https://github.com/stperic/jev-medhallu-benchmark)
+          ![stars](https://img.shields.io/github/stars/stperic/jev-medhallu-benchmark?style=flat-square&label=%E2%98%85)
+          - Medical AI: pre-registered test of Jev as a hallucination check on Stanford MedHELM's MedHallu (1,000 test
+          items), asking one `Noul` on whether an answer misrepresents its PubMed abstract; Jev scored 92.9% against
+          92.4–95.1% for four fast LLMs at a 204 ms median and USD 0.03 per 1,000 checks, and letting Jev settle the 37%
+          of items where it was at least 90% sure kept each LLM's accuracy with 37% fewer LLM calls.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    jev-medhallu-benchmark - Medical AI: pre-registered test of Jev as a hallucination check on Stanford MedHELM's
+    MedHallu (1,000 test items), asking one Noul on whether an answer misrepresents its PubMed abstract; Jev scored
+    92.9% against 92.4–95.1% for four fast LLMs at a 204 ms median and USD 0.03 per 1,000 checks, and letting Jev settle
+    the 37% of items where it was at least 90% sure kept each LLM's accuracy with 37% fewer LLM calls.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  evidence:
+    - jev-latest choice confidence 0.94
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Evals, Benchmarks & Calibration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.478Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

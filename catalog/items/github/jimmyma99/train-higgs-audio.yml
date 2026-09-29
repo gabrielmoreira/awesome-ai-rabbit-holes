@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jimmyma99__train-higgs-audio__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -20,7 +20,9 @@ provenance:
           - TTS
         anchor_text: Training
         extracted_url: https://github.com/jimmyma99/train-higgs-audio
-        surrounding_text: "16. Higgs Audio V2: https://github.com/boson-ai/higgs-audio 【[Training](https://github.com/JimmyMa99/train-higgs-audio)】"
+        surrounding_text: >-
+          16. Higgs Audio V2: https://github.com/boson-ai/higgs-audio
+          【[Training](https://github.com/JimmyMa99/train-higgs-audio)】
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: JimmyMa99/train-higgs-audio
     html_url: https://github.com/JimmyMa99/train-higgs-audio
-    created_at: "2025-07-23T14:59:06Z"
-    pushed_at: "2025-09-04T03:03:29Z"
+    created_at: '2025-07-23T14:59:06Z'
+    pushed_at: '2025-09-04T03:03:29Z'
     description: Text-audio foundation model from Boson AI
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:50.164Z"
+    last_checked_at: '2026-07-30T05:05:50.164Z'
     readme:
-      fetched_at: "2026-07-30T05:05:50.164Z"
+      fetched_at: '2026-07-30T05:05:50.164Z'
       bytes: 22532
 insights:
   summary: A text-audio foundation model from Boson AI.
-  why_it_matters: It provides a multimodal model for developers working with audio and text, potentially useful for speech-to-text or audio generation tasks.
+  why_it_matters: >-
+    It provides a multimodal model for developers working with audio and text, potentially useful for speech-to-text or
+    audio generation tasks.
   mental_damage: Another foundation model to keep track of in the ever-expanding zoo of AI checkpoints.
   tags:
     - text-to-audio
@@ -50,7 +54,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a raw model repo without a strong developer-tooling identity, runtime, or app surface; it falls outside the catalog's scope of practical AI tools, workflows, or infrastructure for developers.
+  reason: >-
+    This is a raw model repo without a strong developer-tooling identity, runtime, or app surface; it falls outside the
+    catalog's scope of practical AI tools, workflows, or infrastructure for developers.
   evidence:
     - Repo description identifies it as a text-audio foundation model
     - No evidence of a runtime, SDK, or developer-facing tool beyond the model itself
@@ -59,22 +65,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:50.164Z"
+    updated_at: '2026-07-30T05:05:50.164Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -89,7 +95,9 @@ processing:
       input_hash: sha256:48cb97739492bd7e8f62bf8f1d21cd6ce109d51f5b83056a994083b4a2cb6239
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a raw model repo without a strong developer-tooling identity, runtime, or app surface; it falls outside the catalog's scope of practical AI tools, workflows, or infrastructure for developers.
+      decision_reason: >-
+        This is a raw model repo without a strong developer-tooling identity, runtime, or app surface; it falls outside
+        the catalog's scope of practical AI tools, workflows, or infrastructure for developers.
       decision_evidence:
         - Repo description identifies it as a text-audio foundation model
         - No evidence of a runtime, SDK, or developer-facing tool beyond the model itself

@@ -1,0 +1,112 @@
+id: github__parkavenue9639__jevloop
+kind: github-repo
+name: parkavenue9639/jevloop
+canonical_url: https://github.com/parkavenue9639/jevloop
+identity:
+  github_repo: parkavenue9639/jevloop
+provenance:
+  discoveries:
+    - id: discovery__github__parkavenue9639__jevloop__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: jevloop
+        extracted_url: https://github.com/parkavenue9639/jevloop
+        surrounding_text: >-
+          - [jevloop](https://github.com/parkavenue9639/jevloop) - A Python agent runtime powered by TypeSafe Jev:
+          guarded tool execution, isolated Docker sandboxes, and side-by-side LLM comparisons.
+        confidence: high
+    - id: discovery__github__parkavenue9639__jevloop__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Agent Decisions
+        anchor_text: JevLoop (parkavenue9639)
+        extracted_url: https://github.com/parkavenue9639/jevloop
+        surrounding_text: >-
+          - [JevLoop (parkavenue9639)](https://github.com/parkavenue9639/jevloop)
+          ![stars](https://img.shields.io/github/stars/parkavenue9639/jevloop?style=flat-square&label=%E2%98%85) - Agent
+          runtimes: a Python runtime where Jev `Choice` decisions select tools and targets, uncertain decisions escalate
+          to an LLM, and a shared guarded kernel supports isolated Docker workspaces and paired LLM-only comparisons.
+        confidence: high
+    - id: discovery__github__parkavenue9639__jevloop__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents, coding, and guardrails
+        anchor_text: JevLoop
+        extracted_url: https://github.com/parkavenue9639/jevloop
+        surrounding_text: >-
+          - [JevLoop](https://github.com/parkavenue9639/jevloop) - Python agent runtime where Jev `Choice` decisions
+          select tools and targets, uncertain decisions escalate to an LLM, and a shared guarded kernel supports
+          isolated Docker workspaces and paired LLM-only comparisons.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    jevloop - A Python agent runtime powered by TypeSafe Jev: guarded tool execution, isolated Docker sandboxes, and
+    side-by-side LLM comparisons.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.41
+placement:
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.402Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

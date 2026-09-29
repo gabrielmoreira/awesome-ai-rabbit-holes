@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentskill__sh__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A marketplace and directory for discovering and installing reusable AI agent skills, rule sets, and instruction packs for tools like Claude Code and Cursor.
-  why_it_matters: It provides a centralized way for developers to instantly augment their coding assistants with specialized domain knowledge or complex workflow rules via a single command.
+  summary: >-
+    A marketplace and directory for discovering and installing reusable AI agent skills, rule sets, and instruction
+    packs for tools like Claude Code and Cursor.
+  why_it_matters: >-
+    It provides a centralized way for developers to instantly augment their coding assistants with specialized domain
+    knowledge or complex workflow rules via a single command.
   mental_damage: Because why write your own system prompts when you can subscribe to a marketplace of someone else's.
   tags:
     - marketplace
@@ -48,7 +52,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a registry specifically designed for discovering and distributing installable skill packs and prompt-based content for existing AI agents.
+  reason: >-
+    The product is a registry specifically designed for discovering and distributing installable skill packs and
+    prompt-based content for existing AI agents.
   evidence:
     - Scraped text identifies it as an 'AI Agent Skills Directory & Marketplace'
     - It provides a CLI tool to install skills directly into tools like Claude Code and Cursor
@@ -58,12 +64,12 @@ placement:
   secondary_categories: []
   section: Registries & Directories
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:32:38.613Z"
+    updated_at: '2026-09-24T04:32:38.613Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +91,9 @@ processing:
       input_hash: sha256:38c24b07068945182b970f2e789a151b8d625080b0c01bf82f10c8859b666464
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: The product is a registry specifically designed for discovering and distributing installable skill packs and prompt-based content for existing AI agents.
+      decision_reason: >-
+        The product is a registry specifically designed for discovering and distributing installable skill packs and
+        prompt-based content for existing AI agents.
       decision_evidence:
         - Scraped text identifies it as an 'AI Agent Skills Directory & Marketplace'
         - It provides a CLI tool to install skills directly into tools like Claude Code and Cursor
@@ -93,6 +101,8 @@ processing:
       category_candidates:
         - skills
         - awesome-awesomes
-      contrastive_reason: Choose skills over awesome-awesomes because its core identity is a functional marketplace/registry for installable content rather than a simple curated list of external links.
+      contrastive_reason: >-
+        Choose skills over awesome-awesomes because its core identity is a functional marketplace/registry for
+        installable content rather than a simple curated list of external links.
       review_reason: null
       review_resume_lifecycle: null

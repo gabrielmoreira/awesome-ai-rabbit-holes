@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__keras-team__keras-tuner__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,10 @@ provenance:
           - AutoML
         anchor_text: Keras Tuner
         extracted_url: https://github.com/keras-team/keras-tuner
-        surrounding_text: "| [Keras Tuner](https://github.com/keras-team/keras-tuner)                     | Hyperparameter tuning for humans.                                                                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/keras-team/keras-tuner.svg?style=flat-square)          |"
+        surrounding_text: >-
+          | [Keras Tuner](https://github.com/keras-team/keras-tuner)                     | Hyperparameter tuning for
+          humans.                                                                                                                                              
+          | ![GitHub Badge](https://img.shields.io/github/stars/keras-team/keras-tuner.svg?style=flat-square)          |
         confidence: high
 metadata:
   github:
@@ -29,8 +32,8 @@ metadata:
     archived: false
     full_name: keras-team/keras-tuner
     html_url: https://github.com/keras-team/keras-tuner
-    created_at: "2019-06-06T22:38:21Z"
-    pushed_at: "2025-12-01T22:23:25Z"
+    created_at: '2019-06-06T22:38:21Z'
+    pushed_at: '2025-12-01T22:23:25Z'
     description: A Hyperparameter Tuning Library for Keras
     homepage: https://keras.io/keras_tuner/
     topics:
@@ -40,14 +43,18 @@ metadata:
       - keras
       - machine-learning
       - tensorflow
-    last_checked_at: "2026-07-30T05:05:55.827Z"
+    last_checked_at: '2026-07-30T05:05:55.827Z'
     readme:
-      fetched_at: "2026-07-30T05:05:55.827Z"
+      fetched_at: '2026-07-30T05:05:55.827Z'
       bytes: 3500
 insights:
   summary: A hyperparameter tuning library for Keras that automates the search for optimal model configurations.
-  why_it_matters: It streamlines the tedious process of hyperparameter optimization for deep learning models, saving developers time and improving model performance.
-  mental_damage: Because nothing says 'modern development' like spending hours tuning hyperparameters only to realize you could have automated it.
+  why_it_matters: >-
+    It streamlines the tedious process of hyperparameter optimization for deep learning models, saving developers time
+    and improving model performance.
+  mental_damage: >-
+    Because nothing says 'modern development' like spending hours tuning hyperparameters only to realize you could have
+    automated it.
   tags:
     - hyperparameter-tuning
     - keras
@@ -57,7 +64,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: KerasTuner is a code-first AutoML library for hyperparameter optimization, which falls outside the catalog's scope of practical AI tools, agents, workflows, and infrastructure directly relevant to software developers' daily workflows.
+  reason: >-
+    KerasTuner is a code-first AutoML library for hyperparameter optimization, which falls outside the catalog's scope
+    of practical AI tools, agents, workflows, and infrastructure directly relevant to software developers' daily
+    workflows.
   evidence:
     - Repo description explicitly states it is a hyperparameter tuning library for Keras
     - README emphasizes its role as a framework for hyperparameter search in deep learning models
@@ -66,22 +76,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (2923) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:55.827Z"
+    updated_at: '2026-07-30T05:05:55.827Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -96,7 +106,10 @@ processing:
       input_hash: sha256:7a81046801cf6f7ff07cbbe127a0a6ce068215d987bbdfb64e6f40b44875504c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: KerasTuner is a code-first AutoML library for hyperparameter optimization, which falls outside the catalog's scope of practical AI tools, agents, workflows, and infrastructure directly relevant to software developers' daily workflows.
+      decision_reason: >-
+        KerasTuner is a code-first AutoML library for hyperparameter optimization, which falls outside the catalog's
+        scope of practical AI tools, agents, workflows, and infrastructure directly relevant to software developers'
+        daily workflows.
       decision_evidence:
         - Repo description explicitly states it is a hyperparameter tuning library for Keras
         - README emphasizes its role as a framework for hyperparameter search in deep learning models

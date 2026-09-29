@@ -1,0 +1,79 @@
+id: github__ztrura__jev-medqa
+kind: github-repo
+name: ztrura/jev-medqa
+canonical_url: https://github.com/ztrura/jev-medqa
+identity:
+  github_repo: ztrura/jev-medqa
+provenance:
+  discoveries:
+    - id: discovery__github__ztrura__jev-medqa__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Calibration & Research
+        anchor_text: Jev-MedQA
+        extracted_url: https://github.com/ztrura/jev-medqa
+        surrounding_text: >-
+          - [Jev-MedQA](https://github.com/Ztrura/Jev-MedQA)
+          ![stars](https://img.shields.io/github/stars/Ztrura/Jev-MedQA?style=flat-square&label=%E2%98%85) - Medical QA:
+          a Jev-style implementation on Qwen3.5-4B that selects answers to text and image questions in one forward pass,
+          reporting 69.42% accuracy versus 67.41% for standard generation with a 10.37x speedup across 153,889 questions
+          from nine medical QA benchmark sets.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Jev-MedQA - Medical QA: a Jev-style implementation on Qwen3.5-4B that selects answers to text and image questions in
+    one forward pass, reporting 69.42% accuracy versus 67.41% for standard generation with a 10.37x speedup across
+    153,889 questions from nine medical QA benchmark sets.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.91
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.486Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

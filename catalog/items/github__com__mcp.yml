@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: VS Code MCP Directory
         extracted_url: https://code.visualstudio.com/mcp
-        surrounding_text: "- **[VS Code MCP Directory](https://code.visualstudio.com/mcp)** – Official VS Code MCP directory."
+        surrounding_text: '- **[VS Code MCP Directory](https://code.visualstudio.com/mcp)** – Official VS Code MCP directory.'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A centralized registry for Model Context Protocol (MCP) servers hosted on GitHub to facilitate discovery and integration.
-  why_it_matters: It provides a single, searchable hub for developers to find pre-built connectors that give AI agents access to external tools, APIs, and data sources.
-  mental_damage: The inevitable race to see which developer can ship the most niche MCP server before the protocol becomes a standard.
+  summary: >-
+    A centralized registry for Model Context Protocol (MCP) servers hosted on GitHub to facilitate discovery and
+    integration.
+  why_it_matters: >-
+    It provides a single, searchable hub for developers to find pre-built connectors that give AI agents access to
+    external tools, APIs, and data sources.
+  mental_damage: >-
+    The inevitable race to see which developer can ship the most niche MCP server before the protocol becomes a
+    standard.
   tags:
     - mcp
     - registry
@@ -48,7 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is a registry and discovery service specifically for the Model Context Protocol ecosystem.
+  reason: >-
+    The product's primary identity is a registry and discovery service specifically for the Model Context Protocol
+    ecosystem.
   evidence:
     - Scraped site title and description explicitly identify it as the 'MCP Registry' for centralizing MCP servers.
     - The page functions as an operational directory of specific MCP servers like Playwright, GitHub, and Notion.
@@ -57,15 +65,17 @@ placement:
   secondary_categories: []
   section: Registries & Discovery
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
+    updated_at: '2026-05-12T15:06:19.301Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -73,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:15:54.758Z"
+    updated_at: '2026-09-21T04:15:54.758Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -86,13 +96,17 @@ processing:
       input_hash: sha256:4c2e0939dd80b4845d32eb5b20c4393f4b87c9f89dd09e1a555700b2fb99ebf8
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's primary identity is a registry and discovery service specifically for the Model Context Protocol ecosystem.
+      decision_reason: >-
+        The product's primary identity is a registry and discovery service specifically for the Model Context Protocol
+        ecosystem.
       decision_evidence:
         - Scraped site title and description explicitly identify it as the 'MCP Registry' for centralizing MCP servers.
         - The page functions as an operational directory of specific MCP servers like Playwright, GitHub, and Notion.
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because the product is an operational registry for a specific protocol rather than a general-purpose curated resource list.
+      contrastive_reason: >-
+        Choose mcp over awesome-awesomes because the product is an operational registry for a specific protocol rather
+        than a general-purpose curated resource list.
       review_reason: null
       review_resume_lifecycle: null

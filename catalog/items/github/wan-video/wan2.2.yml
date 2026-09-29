@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wan-video__wan2.2__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -30,21 +30,27 @@ metadata:
     archived: false
     full_name: Wan-Video/Wan2.2
     html_url: https://github.com/Wan-Video/Wan2.2
-    created_at: "2025-07-28T08:17:01Z"
-    pushed_at: "2026-03-17T10:48:41Z"
-    description: "Wan: Open and Advanced Large-Scale Video Generative Models"
+    created_at: '2025-07-28T08:17:01Z'
+    pushed_at: '2026-03-17T10:48:41Z'
+    description: 'Wan: Open and Advanced Large-Scale Video Generative Models'
     homepage: https://wan.video
     topics:
       - aigc
       - video-generation
-    last_checked_at: "2026-07-21T15:21:09.458Z"
+    last_checked_at: '2026-07-21T15:21:09.458Z'
     readme:
-      fetched_at: "2026-07-21T15:21:09.458Z"
+      fetched_at: '2026-07-21T15:21:09.458Z'
       bytes: 35345
 insights:
-  summary: Wan2.2 is an open-source Mixture-of-Experts video generation model for text-to-video and image-to-video synthesis at 720P resolution.
-  why_it_matters: It enables developers to generate high-quality, controllable video content locally or via integrated frameworks like Diffusers and ComfyUI without relying on closed-source APIs.
-  mental_damage: Another week, another state-of-the-art video model that makes your prompt engineering feel like spellcasting with unstable diffusion.
+  summary: >-
+    Wan2.2 is an open-source Mixture-of-Experts video generation model for text-to-video and image-to-video synthesis at
+    720P resolution.
+  why_it_matters: >-
+    It enables developers to generate high-quality, controllable video content locally or via integrated frameworks like
+    Diffusers and ComfyUI without relying on closed-source APIs.
+  mental_damage: >-
+    Another week, another state-of-the-art video model that makes your prompt engineering feel like spellcasting with
+    unstable diffusion.
   tags:
     - video-generation
     - diffusion
@@ -54,31 +60,37 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Wan2.2 is a foundational video generative model, not a developer-facing tool, agent, or workflow product; it lacks any coding assistant, app-building, or orchestration identity despite being useful in AI pipelines.
+  reason: >-
+    Wan2.2 is a foundational video generative model, not a developer-facing tool, agent, or workflow product; it lacks
+    any coding assistant, app-building, or orchestration identity despite being useful in AI pipelines.
   evidence:
-    - "Repo description: 'Wan: Open and Advanced Large-Scale Video Generative Models'"
-    - README focuses on model architecture (MoE), training data, video demos, and integrations into Diffusers/ComfyUI — not developer tooling or workflows
-    - No evidence of code editing, agent behavior, prompt-to-app generation, or local runtime tooling; it is a model checkpoint released under Apache-2.0
+    - 'Repo description: ''Wan: Open and Advanced Large-Scale Video Generative Models'''
+    - >-
+      README focuses on model architecture (MoE), training data, video demos, and integrations into Diffusers/ComfyUI —
+      not developer tooling or workflows
+    - >-
+      No evidence of code editing, agent behavior, prompt-to-app generation, or local runtime tooling; it is a model
+      checkpoint released under Apache-2.0
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (15696) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:09.458Z"
+    updated_at: '2026-07-21T15:21:09.458Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.169Z"
+    updated_at: '2026-09-28T04:14:00.169Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

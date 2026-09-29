@@ -1,0 +1,76 @@
+id: github__squirrelscan__squirrelscan
+kind: github-repo
+name: squirrelscan/squirrelscan
+canonical_url: https://github.com/squirrelscan/squirrelscan
+identity:
+  github_repo: squirrelscan/squirrelscan
+provenance:
+  discoveries:
+    - id: discovery__github__squirrelscan__squirrelscan__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Testing and QA
+        anchor_text: squirrelscan
+        extracted_url: https://squirrelscan.com
+        surrounding_text: >-
+          - **[squirrelscan](https://squirrelscan.com)** – CLI website audit tool built for coding agents (Claude Code,
+          Cursor). Runs 260+ rules across SEO, performance, security, accessibility and agent experience, and hands the
+          agent exact, source-mapped fixes. Free local audits, GitHub Action, MCP server.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    squirrelscan – CLI website audit tool built for coding agents (Claude Code, Cursor). Runs 260+ rules across SEO,
+    performance, security, accessibility and agent experience, and hands the agent exact, source-mapped fixes. Free
+    local audits, GitHub Action, MCP server.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
+  evidence:
+    - jev-latest choice confidence 0.49
+placement:
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Review, Testing & Repair
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.478Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

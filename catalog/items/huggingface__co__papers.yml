@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__papers__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,7 +18,9 @@ provenance:
           - 论文 Paper
         anchor_text: Huggingface Daily Papers
         extracted_url: https://huggingface.co/papers
-        surrounding_text: "> 🤝[Huggingface Daily Papers](https://huggingface.co/papers)、[Cool Papers](https://papers.cool/)、[ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained)"
+        surrounding_text: >-
+          > 🤝[Huggingface Daily Papers](https://huggingface.co/papers)、[Cool Papers](https://papers.cool/)、[ML Papers
+          Explained](https://github.com/dair-ai/ML-Papers-Explained)
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: A daily feed of trending AI research papers curated by the Hugging Face community.
-  why_it_matters: It allows developers to track the latest breakthroughs in model architectures, agentic workflows, and training methodologies in real-time.
-  mental_damage: It provides just enough cutting-edge content to ensure you feel academically inadequate before your first cup of coffee.
+  why_it_matters: >-
+    It allows developers to track the latest breakthroughs in model architectures, agentic workflows, and training
+    methodologies in real-time.
+  mental_damage: >-
+    It provides just enough cutting-edge content to ensure you feel academically inadequate before your first cup of
+    coffee.
   tags:
     - research
     - papers
@@ -47,7 +53,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product serves as a recurring publication and discovery feed for AI research, making it a curated resource for staying current.
+  reason: >-
+    The product serves as a recurring publication and discovery feed for AI research, making it a curated resource for
+    staying current.
   evidence:
     - Scraped site context describes the tool as 'Daily Papers' from Hugging Face
     - The page structure consists of a curated list of trending research submissions
@@ -55,12 +63,12 @@ placement:
   primary_category: awesome-awesomes
   section: Publications & Feeds
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:26:59.045Z"
+    updated_at: '2026-09-28T04:26:59.045Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,13 +90,17 @@ processing:
       input_hash: sha256:6a587548ee06816b3b5906fff163eb75e278790fdd0832b3a8aa875f2f58b704
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: The product serves as a recurring publication and discovery feed for AI research, making it a curated resource for staying current.
+      decision_reason: >-
+        The product serves as a recurring publication and discovery feed for AI research, making it a curated resource
+        for staying current.
       decision_evidence:
         - Scraped site context describes the tool as 'Daily Papers' from Hugging Face
         - The page structure consists of a curated list of trending research submissions
       category_candidates:
         - awesome-awesomes
         - evals
-      contrastive_reason: Choose awesome-awesomes over evals because the core identity is a discovery feed for research rather than a platform for conducting model measurements or benchmarking.
+      contrastive_reason: >-
+        Choose awesome-awesomes over evals because the core identity is a discovery feed for research rather than a
+        platform for conducting model measurements or benchmarking.
       review_reason: null
       review_resume_lifecycle: null

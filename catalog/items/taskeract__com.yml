@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__taskeract__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,10 @@ provenance:
           - Official Servers
         anchor_text: Taskeract
         extracted_url: https://taskeract.com
-        surrounding_text: "- **[Taskeract](https://github.com/Acqusys/taskeract-mcp)** - Official Taskeract MCP Server for integrating your [Taskeract](https://www.taskeract.com/) project tasks and load the context of your tasks into your MCP enabled app."
+        surrounding_text: >-
+          - **[Taskeract](https://github.com/Acqusys/taskeract-mcp)** - Official Taskeract MCP Server for integrating
+          your [Taskeract](https://www.taskeract.com/) project tasks and load the context of your tasks into your MCP
+          enabled app.
         confidence: high
 metadata:
   github:
@@ -36,9 +39,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Taskeract is a desktop application that runs AI coding agents in isolated terminal sessions with integrated git workflows, issue tracking, and PR review capabilities.
-  why_it_matters: It lets developers use multiple AI coding agents side-by-side in sandboxed environments while maintaining full git workflow visibility without context switching.
-  mental_damage: The anxiety of juggling Claude Code, OpenAI Codex, and OpenCode in separate windows just to avoid one agent overwriting another’s work.
+  summary: >-
+    Taskeract is a desktop application that runs AI coding agents in isolated terminal sessions with integrated git
+    workflows, issue tracking, and PR review capabilities.
+  why_it_matters: >-
+    It lets developers use multiple AI coding agents side-by-side in sandboxed environments while maintaining full git
+    workflow visibility without context switching.
+  mental_damage: >-
+    The anxiety of juggling Claude Code, OpenAI Codex, and OpenCode in separate windows just to avoid one agent
+    overwriting another’s work.
   tags:
     - ai-coding-agent
     - desktop-app
@@ -48,23 +57,31 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Taskeract functions as a primary coding agent interface that executes coding tasks via autonomous agents in real terminals, matching the coding-agents category’s focus on agents that directly act on code.
+  reason: >-
+    Taskeract functions as a primary coding agent interface that executes coding tasks via autonomous agents in real
+    terminals, matching the coding-agents category’s focus on agents that directly act on code.
   evidence:
-    - Desktop app where AI coding agents run in real terminals to generate code, review pull requests, and merge from one app
-    - Works with Claude Code, OpenAI Codex, and OpenCode in workflow-aware workspaces for implementation, review, and triage
+    - >-
+      Desktop app where AI coding agents run in real terminals to generate code, review pull requests, and merge from
+      one app
+    - >-
+      Works with Claude Code, OpenAI Codex, and OpenCode in workflow-aware workspaces for implementation, review, and
+      triage
     - Agents can pull, push, check pipeline status, and resolve merge requests on their own
-    - Each session gets its own isolated workspace and timeline, allowing multiple agents to work on the same project simultaneously
+    - >-
+      Each session gets its own isolated workspace and timeline, allowing multiple agents to work on the same project
+      simultaneously
 placement:
   primary_category: coding-agents
   secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.970Z"
+    updated_at: '2026-07-21T15:20:21.970Z'
     cause: null
     next_retry_at: null
   stars:
@@ -73,7 +90,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:54:07.627Z"
+    updated_at: '2026-09-28T04:54:07.627Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -84,16 +101,27 @@ processing:
       input_hash: sha256:b71a343db2dd9019710de239872679af2a7a670fc4d7769e679a77f7a4450013
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Taskeract functions as a primary coding agent interface that executes coding tasks via autonomous agents in real terminals, matching the coding-agents category’s focus on agents that directly act on code.
+      decision_reason: >-
+        Taskeract functions as a primary coding agent interface that executes coding tasks via autonomous agents in real
+        terminals, matching the coding-agents category’s focus on agents that directly act on code.
       decision_evidence:
-        - Desktop app where AI coding agents run in real terminals to generate code, review pull requests, and merge from one app
-        - Works with Claude Code, OpenAI Codex, and OpenCode in workflow-aware workspaces for implementation, review, and triage
+        - >-
+          Desktop app where AI coding agents run in real terminals to generate code, review pull requests, and merge
+          from one app
+        - >-
+          Works with Claude Code, OpenAI Codex, and OpenCode in workflow-aware workspaces for implementation, review,
+          and triage
         - Agents can pull, push, check pipeline status, and resolve merge requests on their own
-        - Each session gets its own isolated workspace and timeline, allowing multiple agents to work on the same project simultaneously
+        - >-
+          Each session gets its own isolated workspace and timeline, allowing multiple agents to work on the same
+          project simultaneously
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because Taskeract’s primary value is enabling individual agents to perform coding tasks in isolated terminals, not managing workflows or routing between multiple agents as a workforce platform.
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because Taskeract’s primary value is enabling individual agents to
+        perform coding tasks in isolated terminals, not managing workflows or routing between multiple agents as a
+        workforce platform.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

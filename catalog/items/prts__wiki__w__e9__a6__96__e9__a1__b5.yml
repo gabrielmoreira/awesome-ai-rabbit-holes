@@ -1,12 +1,12 @@
 id: prts__wiki__w__e9__a6__96__e9__a1__b5
 kind: website
-name: "%E9%A6%96%E9%A1%B5"
+name: '%E9%A6%96%E9%A1%B5'
 canonical_url: https://prts.wiki/w/%E9%A6%96%E9%A1%B5
 identity: {}
 provenance:
   discoveries:
     - id: discovery__prts__wiki__w__e9__a6__96__e9__a1__b5__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,13 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: PRTS Wiki
         extracted_url: https://prts.wiki
-        surrounding_text: "- [3aKHP/prts-mcp](https://github.com/3aKHP/prts-mcp) [![3aKHP/prts-mcp MCP server](https://glama.ai/mcp/servers/3aKHP/prts-mcp/badges/score.svg)](https://glama.ai/mcp/servers/3aKHP/prts-mcp) 🐍 📇 ☁️ 🏠 - MCP Server for [Arknights](https://www.arknights.global/), querying the [PRTS Wiki](https://prts.wiki) API and serving auto-synced operator archives and voice lines from game data. Designed for fan-creation (同人創作) AI agents. Python (stdio/Docker) and TypeScript (Streamable HTTP) implementations."
+        surrounding_text: >-
+          - [3aKHP/prts-mcp](https://github.com/3aKHP/prts-mcp) [![3aKHP/prts-mcp MCP
+          server](https://glama.ai/mcp/servers/3aKHP/prts-mcp/badges/score.svg)](https://glama.ai/mcp/servers/3aKHP/prts-mcp)
+          🐍 📇 ☁️ 🏠 - MCP Server for [Arknights](https://www.arknights.global/), querying the [PRTS
+          Wiki](https://prts.wiki) API and serving auto-synced operator archives and voice lines from game data.
+          Designed for fan-creation (同人創作) AI agents. Python (stdio/Docker) and TypeScript (Streamable HTTP)
+          implementations.
         confidence: high
 metadata:
   github:
@@ -37,9 +43,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language MediaWiki wiki for the mobile game Arknights, maintained by fans and hosting game data, guides, and community resources.
-  why_it_matters: It serves as a reference for developers building fan tools, mods, or analytics related to Arknights by providing structured, community-maintained game data.
-  mental_damage: Another reminder that even the most niche fandoms now run on the same wiki engine that powers half of AI documentation.
+  summary: >-
+    A Chinese-language MediaWiki wiki for the mobile game Arknights, maintained by fans and hosting game data, guides,
+    and community resources.
+  why_it_matters: >-
+    It serves as a reference for developers building fan tools, mods, or analytics related to Arknights by providing
+    structured, community-maintained game data.
+  mental_damage: >-
+    Another reminder that even the most niche fandoms now run on the same wiki engine that powers half of AI
+    documentation.
   tags:
     - wiki
     - gaming
@@ -47,7 +59,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: It is a fan-maintained game wiki with no AI tooling, agent behavior, or developer workflow integration; its purpose is game documentation, not AI-assisted development.
+  reason: >-
+    It is a fan-maintained game wiki with no AI tooling, agent behavior, or developer workflow integration; its purpose
+    is game documentation, not AI-assisted development.
   evidence:
     - The site is a MediaWiki-based wiki for the game Arknights, with no mention of AI, agents, or developer tooling
     - Content focuses on operator stats, maps, events, and game mechanics, not code, prompts, or AI workflows
@@ -56,12 +70,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:35:01.822Z"
+    updated_at: '2026-09-28T04:35:01.822Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,7 +97,9 @@ processing:
       input_hash: sha256:60009bf00f55b8ae80ff5685e0604d6df7ea08ba79da290df0488d57c7702f72
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a fan-maintained game wiki with no AI tooling, agent behavior, or developer workflow integration; its purpose is game documentation, not AI-assisted development.
+      decision_reason: >-
+        It is a fan-maintained game wiki with no AI tooling, agent behavior, or developer workflow integration; its
+        purpose is game documentation, not AI-assisted development.
       decision_evidence:
         - The site is a MediaWiki-based wiki for the game Arknights, with no mention of AI, agents, or developer tooling
         - Content focuses on operator stats, maps, events, and game mechanics, not code, prompts, or AI workflows

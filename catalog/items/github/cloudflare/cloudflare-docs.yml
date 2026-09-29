@@ -1,0 +1,78 @@
+id: github__cloudflare__cloudflare-docs
+kind: github-repo
+name: cloudflare/cloudflare-docs
+canonical_url: https://github.com/cloudflare/cloudflare-docs
+identity:
+  github_repo: cloudflare/cloudflare-docs
+provenance:
+  discoveries:
+    - id: discovery__github__cloudflare__cloudflare-docs__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: scraped
+        section_path:
+          - Provider integrations
+        anchor_text: Cloudflare AI
+        extracted_url: https://developers.cloudflare.com/ai/models/typesafe/jev
+        surrounding_text: >-
+          - [Cloudflare AI](https://developers.cloudflare.com/ai/models/typesafe/jev/) - Provider-maintained
+          `typesafe/jev` integration accepting state and typed questions.
+        confidence: high
+metadata:
+  github:
+    stars: 5261
+    forks: 16892
+    license: CC-BY-4.0
+    archived: false
+    full_name: cloudflare/cloudflare-docs
+    html_url: https://github.com/cloudflare/cloudflare-docs
+    created_at: '2020-09-03T20:29:26Z'
+    pushed_at: '2026-09-29T12:52:34Z'
+    description: Cloudflare’s documentation
+    homepage: https://developers.cloudflare.com
+    topics:
+      - cloudflare
+      - docs
+      - hacktoberfest
+      - markdown
+      - mdx
+    last_checked_at: '2026-09-29T13:09:57.092Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:57.092Z'
+      bytes: 1808
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: Stars (5261) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.452Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:57.092Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

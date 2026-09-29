@@ -1,0 +1,75 @@
+id: github__ishantanu__jevtraces
+kind: github-repo
+name: ishantanu/jevtraces
+canonical_url: https://github.com/ishantanu/jevtraces
+identity:
+  github_repo: ishantanu/jevtraces
+provenance:
+  discoveries:
+    - id: discovery__github__ishantanu__jevtraces__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Integrations
+        anchor_text: jevtraces
+        extracted_url: https://github.com/ishantanu/jevtraces
+        surrounding_text: >-
+          - [jevtraces](https://github.com/ishantanu/jevtraces) - OpenTelemetry Collector processor that uses Jev to
+          assess span operation metadata and annotate spans with diagnostic value, business criticality, and retention
+          probabilities without dropping traces.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    jevtraces - OpenTelemetry Collector processor that uses Jev to assess span operation metadata and annotate spans
+    with diagnostic value, business criticality, and retention probabilities without dropping traces.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
+  evidence:
+    - jev-latest choice confidence 0.41
+placement:
+  primary_category: evals
+  secondary_categories: []
+  section: Observability & Tracing
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.461Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

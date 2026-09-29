@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__parea__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,10 +18,14 @@ provenance:
           - LLMOps
         anchor_text: Parea AI
         extracted_url: https://parea.ai
-        surrounding_text: "| [Parea AI](https://www.parea.ai/)                                  | Platform and SDK for AI Engineers providing tools for LLM evaluation, observability, and a version-controlled enhanced prompt playground.                                                                                                                                                                                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/parea-ai/parea-sdk-py?style=flat-square)              |"
+        surrounding_text: >-
+          | [Parea AI](https://www.parea.ai/)                                  | Platform and SDK for AI Engineers
+          providing tools for LLM evaluation, observability, and a version-controlled enhanced prompt
+          playground.                                                                                                                                                                                                                                                              
+          | ![GitHub Badge](https://img.shields.io/github/stars/parea-ai/parea-sdk-py?style=flat-square)              |
         confidence: high
     - id: discovery__www__parea__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -33,7 +37,11 @@ provenance:
           - LLMOps
         anchor_text: Parea AI
         extracted_url: https://www.parea.ai
-        surrounding_text: "| [Parea AI](https://www.parea.ai/)                                  | Platform and SDK for AI Engineers providing tools for LLM evaluation, observability, and a version-controlled enhanced prompt playground.                                                                                                                                                                                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/parea-ai/parea-sdk-py?style=flat-square)              |"
+        surrounding_text: >-
+          | [Parea AI](https://www.parea.ai/)                                  | Platform and SDK for AI Engineers
+          providing tools for LLM evaluation, observability, and a version-controlled enhanced prompt
+          playground.                                                                                                                                                                                                                                                              
+          | ![GitHub Badge](https://img.shields.io/github/stars/parea-ai/parea-sdk-py?style=flat-square)              |
         confidence: high
 metadata:
   github:
@@ -51,9 +59,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Parea AI is an experimentation and human annotation platform for evaluating, testing, and observing LLM applications in development and production.
-  why_it_matters: It gives developer teams a unified way to track experiments, collect human feedback, and monitor LLM performance to ship more reliable AI features.
-  mental_damage: Another evals platform promising confidence while teams still argue over which prompt tweak actually broke the chatbot.
+  summary: >-
+    Parea AI is an experimentation and human annotation platform for evaluating, testing, and observing LLM applications
+    in development and production.
+  why_it_matters: >-
+    It gives developer teams a unified way to track experiments, collect human feedback, and monitor LLM performance to
+    ship more reliable AI features.
+  mental_damage: >-
+    Another evals platform promising confidence while teams still argue over which prompt tweak actually broke the
+    chatbot.
   tags:
     - evals
     - llmops
@@ -61,22 +75,31 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Parea AI fits the evals category because its core identity is experiment tracking, human annotation, and observability for LLM systems — measuring and improving model behavior rather than generating code or orchestrating agents.
+  reason: >-
+    Parea AI fits the evals category because its core identity is experiment tracking, human annotation, and
+    observability for LLM systems — measuring and improving model behavior rather than generating code or orchestrating
+    agents.
   evidence:
-    - Described as 'the experimentation and human annotation platform for AI teams' in source-list context and scraped site title/description
-    - README emphasizes evaluation, testing, observability, human review, prompt playground, and dataset incorporation for fine-tuning
-    - Features include auto-created domain-specific evals, logging production/staging data, tracking cost/latency/quality, and running online evals
+    - >-
+      Described as 'the experimentation and human annotation platform for AI teams' in source-list context and scraped
+      site title/description
+    - >-
+      README emphasizes evaluation, testing, observability, human review, prompt playground, and dataset incorporation
+      for fine-tuning
+    - >-
+      Features include auto-created domain-specific evals, logging production/staging data, tracking
+      cost/latency/quality, and running online evals
 placement:
   primary_category: evals
   secondary_categories: []
   section: Observability & Tracing
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:43:57.273Z"
+    updated_at: '2026-09-28T04:43:57.273Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,20 +112,31 @@ processing:
       input_hash: sha256:24a852913feec5ffd290ccd9773ce2c71063b8a39fa3ee33b413888878841553
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: Parea AI fits the evals category because its core identity is experiment tracking, human annotation, and observability for LLM systems — measuring and improving model behavior rather than generating code or orchestrating agents.
+      decision_reason: >-
+        Parea AI fits the evals category because its core identity is experiment tracking, human annotation, and
+        observability for LLM systems — measuring and improving model behavior rather than generating code or
+        orchestrating agents.
       decision_evidence:
-        - Described as 'the experimentation and human annotation platform for AI teams' in source-list context and scraped site title/description
-        - README emphasizes evaluation, testing, observability, human review, prompt playground, and dataset incorporation for fine-tuning
-        - Features include auto-created domain-specific evals, logging production/staging data, tracking cost/latency/quality, and running online evals
+        - >-
+          Described as 'the experimentation and human annotation platform for AI teams' in source-list context and
+          scraped site title/description
+        - >-
+          README emphasizes evaluation, testing, observability, human review, prompt playground, and dataset
+          incorporation for fine-tuning
+        - >-
+          Features include auto-created domain-specific evals, logging production/staging data, tracking
+          cost/latency/quality, and running online evals
       category_candidates:
         - evals
         - memory-and-context
-      contrastive_reason: Choose evals over memory-and-context because Parea’s primary value is measuring, tracing, and comparing LLM behavior via experiment tracking and human annotation, not persisting memory or retrieving context for agents.
+      contrastive_reason: >-
+        Choose evals over memory-and-context because Parea’s primary value is measuring, tracing, and comparing LLM
+        behavior via experiment tracking and human annotation, not persisting memory or retrieving context for agents.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.968Z"
+    updated_at: '2026-07-21T15:20:21.968Z'
     cause: null
     next_retry_at: null
   stars:

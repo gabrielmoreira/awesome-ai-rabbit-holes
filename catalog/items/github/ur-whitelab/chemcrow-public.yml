@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ur-whitelab__chemcrow-public__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - ChemCrow
         anchor_text: ChemCrow
         extracted_url: https://github.com/ur-whitelab/chemcrow-public
-        surrounding_text: "## [ChemCrow](https://github.com/ur-whitelab/chemcrow-public)"
+        surrounding_text: '## [ChemCrow](https://github.com/ur-whitelab/chemcrow-public)'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,25 @@ metadata:
     archived: false
     full_name: ur-whitelab/chemcrow-public
     html_url: https://github.com/ur-whitelab/chemcrow-public
-    created_at: "2023-06-04T15:59:05Z"
-    pushed_at: "2024-12-19T17:47:04Z"
+    created_at: '2023-06-04T15:59:05Z'
+    pushed_at: '2024-12-19T17:47:04Z'
     description: Chemcrow
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:21:00.163Z"
+    last_checked_at: '2026-07-21T15:21:00.163Z'
     readme:
-      fetched_at: "2026-07-21T15:21:00.163Z"
+      fetched_at: '2026-07-21T15:21:00.163Z'
       bytes: 3375
 insights:
-  summary: Chemcrow is an open-source Python package that uses LangChain and chemistry tools like RDKit and PubChem to solve reasoning-intensive chemical tasks via an LLM agent.
-  why_it_matters: It gives developers a ready-made agent framework for chemistry-specific reasoning, reducing the need to build custom tooling for molecular property prediction or reaction planning.
-  mental_damage: Another niche LLM wrapper that makes you wonder if your weekend project needs a PubChem API key just to feel relevant.
+  summary: >-
+    Chemcrow is an open-source Python package that uses LangChain and chemistry tools like RDKit and PubChem to solve
+    reasoning-intensive chemical tasks via an LLM agent.
+  why_it_matters: >-
+    It gives developers a ready-made agent framework for chemistry-specific reasoning, reducing the need to build custom
+    tooling for molecular property prediction or reaction planning.
+  mental_damage: >-
+    Another niche LLM wrapper that makes you wonder if your weekend project needs a PubChem API key just to feel
+    relevant.
   tags:
     - chemistry
     - llm-agent
@@ -50,31 +56,33 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Chemcrow is a domain-specific agent for chemistry tasks, not a general-purpose developer tool; it does not assist with coding, software workflows, or developer-facing AI infrastructure.
+  reason: >-
+    Chemcrow is a domain-specific agent for chemistry tasks, not a general-purpose developer tool; it does not assist
+    with coding, software workflows, or developer-facing AI infrastructure.
   evidence:
-    - "Repo description: 'Chemcrow'"
-    - "README: 'ChemCrow is an open source package for the accurate solution of reasoning-intensive chemical tasks'"
-    - "Usage example: focuses on molecular weight and reaction prediction via LLMs and chemistry tools"
+    - 'Repo description: ''Chemcrow'''
+    - 'README: ''ChemCrow is an open source package for the accurate solution of reasoning-intensive chemical tasks'''
+    - 'Usage example: focuses on molecular weight and reaction prediction via LLMs and chemistry tools'
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (908) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:00.163Z"
+    updated_at: '2026-07-21T15:21:00.163Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.169Z"
+    updated_at: '2026-09-28T04:14:00.169Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gulmezeren2-byte__erp-report-engine__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-07T04:13:26.010Z"
+      discovered_at: '2026-09-07T04:13:26.010Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: gulmezeren2-byte/erp-report-engine
         extracted_url: https://github.com/gulmezeren2-byte/erp-report-engine
-        surrounding_text: "- [gulmezeren2-byte/erp-report-engine](https://github.com/gulmezeren2-byte/erp-report-engine) [![gulmezeren2-byte/erp-report-engine MCP server](https://glama.ai/mcp/servers/gulmezeren2-byte/erp-report-engine/badges/score.svg)](https://glama.ai/mcp/servers/gulmezeren2-byte/erp-report-engine) 🐍 🏠 - Read-only MCP over the SQL database behind an ERP (Logo Tiger, Netsis, Mikro). The agent sees canonical entities like `orders`, never raw ERP tables, through a four-layer read-only guard that checks the statement, fails closed, and blocks side-effecting functions (`pg_read_file`, `xp_cmdshell`, …) — measured by a public 28-attack benchmark and an in-browser \"break it\" playground running the real guard via Pyodide."
+        surrounding_text: >-
+          - [gulmezeren2-byte/erp-report-engine](https://github.com/gulmezeren2-byte/erp-report-engine)
+          [![gulmezeren2-byte/erp-report-engine MCP
+          server](https://glama.ai/mcp/servers/gulmezeren2-byte/erp-report-engine/badges/score.svg)](https://glama.ai/mcp/servers/gulmezeren2-byte/erp-report-engine)
+          🐍 🏠 - Read-only MCP over the SQL database behind an ERP (Logo Tiger, Netsis, Mikro). The agent sees
+          canonical entities like `orders`, never raw ERP tables, through a four-layer read-only guard that checks the
+          statement, fails closed, and blocks side-effecting functions (`pg_read_file`, `xp_cmdshell`, …) — measured by
+          a public 28-attack benchmark and an in-browser "break it" playground running the real guard via Pyodide.
         confidence: high
 metadata:
   github:
@@ -51,12 +58,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-07T04:13:26.012Z"
+    updated_at: '2026-09-07T04:13:26.012Z'
     cause: null
     next_retry_at: null
   stars:
@@ -65,7 +72,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

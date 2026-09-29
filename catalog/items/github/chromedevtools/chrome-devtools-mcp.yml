@@ -1,0 +1,86 @@
+id: github__chromedevtools__chrome-devtools-mcp
+kind: github-repo
+name: chromedevtools/chrome-devtools-mcp
+canonical_url: https://github.com/chromedevtools/chrome-devtools-mcp
+identity:
+  github_repo: chromedevtools/chrome-devtools-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__chromedevtools__chrome-devtools-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 🌐 Browser Control
+        anchor_text: ChromeDevTools/chrome-devtools-mcp
+        extracted_url: https://github.com/chromedevtools/chrome-devtools-mcp
+        surrounding_text: >-
+          -   **[ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/ChromeDevTools/chrome-devtools-mcp?style=social)](https://github.com/ChromeDevTools/chrome-devtools-mcp):
+          Chrome DevTools for agents: lets coding agents control and inspect a live Chrome browser, with Puppeteer-based
+          automation, network and console debugging, screenshots, and performance traces.
+        confidence: high
+metadata:
+  github:
+    stars: 52724
+    forks: 5228
+    license: Apache-2.0
+    archived: false
+    full_name: ChromeDevTools/chrome-devtools-mcp
+    html_url: https://github.com/ChromeDevTools/chrome-devtools-mcp
+    created_at: '2025-09-11T10:39:55Z'
+    pushed_at: '2026-09-29T13:08:54Z'
+    description: Chrome DevTools for coding agents
+    homepage: https://developer.chrome.com/docs/devtools/agents
+    topics:
+      - browser
+      - chrome
+      - chrome-devtools
+      - debugging
+      - devtools
+      - mcp
+      - mcp-server
+      - puppeteer
+    last_checked_at: '2026-09-29T13:09:51.905Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:51.905Z'
+      bytes: 6445
+insights:
+  summary: Chrome DevTools for coding agents
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
+  evidence:
+    - jev-latest choice confidence 0.94
+placement:
+  primary_category: mcp
+  secondary_categories: []
+  section: Browser & Web Automation
+lifecycle:
+  status: curated
+  reason: Stars (52724) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.452Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:51.905Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

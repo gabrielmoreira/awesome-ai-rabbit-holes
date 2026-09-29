@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__privategpt__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Private GPT
         anchor_text: Private GPT
         extracted_url: https://privategpt.io
-        surrounding_text: "## [Private GPT](https://www.privategpt.io/)"
+        surrounding_text: '## [Private GPT](https://www.privategpt.io/)'
         confidence: high
     - id: discovery__www__privategpt__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Private GPT
         anchor_text: Private GPT
         extracted_url: https://www.privategpt.io
-        surrounding_text: "## [Private GPT](https://www.privategpt.io/)"
+        surrounding_text: '## [Private GPT](https://www.privategpt.io/)'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A private AI tool that connects to company data sources (Notion, JIRA, Slack, GitHub) to enable natural language queries over organizational knowledge.
-  why_it_matters: It solves the problem of fragmented internal knowledge by providing a secure, private way to query company data without training on external models.
-  mental_damage: Finally, a way to ask 'Where did we bury that decision from 2022?' without digging through Slack archives like a forensic archaeologist.
+  summary: >-
+    A private AI tool that connects to company data sources (Notion, JIRA, Slack, GitHub) to enable natural language
+    queries over organizational knowledge.
+  why_it_matters: >-
+    It solves the problem of fragmented internal knowledge by providing a secure, private way to query company data
+    without training on external models.
+  mental_damage: >-
+    Finally, a way to ask 'Where did we bury that decision from 2022?' without digging through Slack archives like a
+    forensic archaeologist.
   tags:
     - enterprise-search
     - private-ai
@@ -62,24 +68,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The product is a hosted SaaS for enterprise knowledge management, not a developer-tooling product (no code editing, repo work, or developer workflow integration).
+  reason: >-
+    The product is a hosted SaaS for enterprise knowledge management, not a developer-tooling product (no code editing,
+    repo work, or developer workflow integration).
   evidence:
-    - "Site description: 'Connect your own data sources to a private AI powered tool and start asking in natural language'"
+    - >-
+      Site description: 'Connect your own data sources to a private AI powered tool and start asking in natural
+      language'
     - Primary use case is organizational knowledge retrieval, not developer workflows
     - No evidence of code editing, repo integration, or developer tooling capabilities
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: deferred
-    updated_at: "2026-09-28T04:44:21.747Z"
+    updated_at: '2026-09-28T04:44:21.747Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for privategpt__io: Invalid AI response format: SyntaxError: Unexpected token 'P', ...\"summary\": Private GP\"... is not valid JSON"
+      message: >-
+        Catalog LLM categorization failed for privategpt__io: Invalid AI response format: SyntaxError: Unexpected token
+        'P', ..."summary": Private GP"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -91,9 +103,13 @@ processing:
       input_hash: sha256:7fb3255413365e263c98eb820a96f2f54bf74a173a9883b90596218fd3e492c7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a hosted SaaS for enterprise knowledge management, not a developer-tooling product (no code editing, repo work, or developer workflow integration).
+      decision_reason: >-
+        The product is a hosted SaaS for enterprise knowledge management, not a developer-tooling product (no code
+        editing, repo work, or developer workflow integration).
       decision_evidence:
-        - "Site description: 'Connect your own data sources to a private AI powered tool and start asking in natural language'"
+        - >-
+          Site description: 'Connect your own data sources to a private AI powered tool and start asking in natural
+          language'
         - Primary use case is organizational knowledge retrieval, not developer workflows
         - No evidence of code editing, repo integration, or developer tooling capabilities
       category_candidates: []
@@ -102,7 +118,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.969Z"
+    updated_at: '2026-07-21T15:20:21.969Z'
     cause: null
     next_retry_at: null
   stars:

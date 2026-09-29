@@ -1,0 +1,80 @@
+id: github__orbi-build__orbi
+kind: github-repo
+name: orbi-build/orbi
+canonical_url: https://github.com/orbi-build/orbi
+identity:
+  github_repo: orbi-build/orbi
+provenance:
+  discoveries:
+    - id: discovery__github__orbi-build__orbi__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: Orbi
+        extracted_url: https://github.com/orbi-build/orbi
+        surrounding_text: >-
+          - **[Orbi](https://github.com/orbi-build/orbi)** `⭐ 194` — Unattended loop from a labeled GitHub Issue to a
+          tagged release: claims the Issue, implements in an isolated worktree, then runs a second session with a fresh
+          context that reviews the frozen diff and can block the merge. The merge gate is bound to the reviewed commit,
+          so a later push cannot pass on an earlier verdict. Claude Code, Codex, and other CLI harnesses are
+          interchangeable engines. Docker or systemd. Fair-code.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Orbi ⭐ 194 — Unattended loop from a labeled GitHub Issue to a tagged release: claims the Issue, implements in an
+    isolated worktree, then runs a second session with a fresh context that reviews the frozen diff and can block the
+    merge. The merge gate is bound to the reviewed commit, so a later push cannot pass on an earlier verdict. Claude
+    Code, Codex, and other CLI harnesses are interchangeable engines. Docker or systemd. Fair-code.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.78
+placement:
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.471Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

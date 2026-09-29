@@ -1,0 +1,103 @@
+id: convex__evals__netlify__app
+kind: website
+name: convex-evals.netlify.app
+canonical_url: https://convex-evals.netlify.app
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__convex__evals__netlify__app__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Evaluation & Benchmarking
+        anchor_text: explorer
+        extracted_url: https://convex-evals.netlify.app
+        surrounding_text: >-
+          - [Convex Decision Evals](https://www.convex.dev/evals/decision) - Model evaluation: asks Jev a `Choice` on
+          108 verified four-option questions about the Convex backend platform (no docs or tools in the prompt, each
+          asked 3 times with shuffled options, random guessing 25%) alongside 14 LLMs, where jev-1.13 scores 84.6% at a
+          199 ms median and $0.0088 per full run against 98.0% at 2.12 s and $1.59 for the top model, with every answer,
+          probability and raw request/response in a public [explorer](https://convex-evals.netlify.app) and the runner
+          in [get-convex/convex-evals](https://github.com/get-convex/convex-evals).
+        confidence: high
+    - id: discovery__convex__evals__netlify__app__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Evaluation and calibration
+        anchor_text: per-answer explorer
+        extracted_url: https://convex-evals.netlify.app
+        surrounding_text: >-
+          - [Convex Decision Evals](https://github.com/get-convex/convex-evals/tree/main/runner/decisions) - Leaderboard
+          that asks Jev (native Choice questions through OpenRouter's decisions endpoint) and 14 other models
+          (structured output limited to A-D, no tools, low reasoning effort) 108 verified four-option questions about
+          the Convex backend platform, each asked 3 times per run with shuffled options (random guessing is 25%); in the
+          23 Sept 2026 benchmark jev-1.13 scored 84.6% ±0.7 (13th of 15) at a 199 ms median per question and $0.0088 per
+          full run, against 98.0% at 2.12 s and $1.59 per run for the top model, GPT-6 Astra.
+          [Leaderboard](https://www.convex.dev/evals/decision), [per-answer explorer](https://convex-evals.netlify.app).
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Convex Decision Evals - Model evaluation: asks Jev a Choice on 108 verified four-option questions about the Convex
+    backend platform (no docs or tools in the prompt, each asked 3 times with shuffled options, random guessing 25%)
+    alongside 14 LLMs, where jev-1.13 scores 84.6% at a 199 ms median and $0.0088 per full run against 98.0% at 2.12 s
+    and $1.59 for the top model, with every answer, probability and raw request/response in a public explorer and the
+    runner in get-convex/convex-evals.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  evidence:
+    - jev-latest choice confidence 0.96
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Evals, Benchmarks & Calibration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.430Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

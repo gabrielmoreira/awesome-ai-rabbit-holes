@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__saga__so__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Saga
         anchor_text: Saga
         extracted_url: https://saga.so/ai
-        surrounding_text: "## [Saga](https://saga.so/ai)"
+        surrounding_text: '## [Saga](https://saga.so/ai)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Saga AI is an AI assistant for drafting, brainstorming, grammar checking, and translating content within a notes and tasks workspace.
-  why_it_matters: It lets developers generate and refine text content without leaving their workspace, reducing context-switching during documentation or communication tasks.
-  mental_damage: Another AI wrapper promising to ‘just work inside your notes’ while quietly training on your most half-baked meeting summaries.
+  summary: >-
+    Saga AI is an AI assistant for drafting, brainstorming, grammar checking, and translating content within a notes and
+    tasks workspace.
+  why_it_matters: >-
+    It lets developers generate and refine text content without leaving their workspace, reducing context-switching
+    during documentation or communication tasks.
+  mental_damage: >-
+    Another AI wrapper promising to ‘just work inside your notes’ while quietly training on your most half-baked meeting
+    summaries.
   tags:
     - ai-assistant
     - content-creation
@@ -46,21 +52,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Saga AI is a general-purpose AI assistant for content creation and productivity, not a developer-facing tool focused on coding, agents, or infrastructure; its presence in awesome-ai-agents is incidental and does not establish a developer-tooling identity.
+  reason: >-
+    Saga AI is a general-purpose AI assistant for content creation and productivity, not a developer-facing tool focused
+    on coding, agents, or infrastructure; its presence in awesome-ai-agents is incidental and does not establish a
+    developer-tooling identity.
   evidence:
-    - Repo description is missing; scraped site context positions it as an AI assistant for drafting, brainstorming, grammar check, and translation.
-    - Primary use cases include content creation, meeting notes, studying, and job posts — not code generation, editing, or developer workflows.
-    - "Listed in awesome-ai-agents under 'Saga' with description: 'Saga AI is your AI assistant for drafting content, brainstorming ideas, fixing grammar, and translating to 20+ languages.'"
+    - >-
+      Repo description is missing; scraped site context positions it as an AI assistant for drafting, brainstorming,
+      grammar check, and translation.
+    - >-
+      Primary use cases include content creation, meeting notes, studying, and job posts — not code generation, editing,
+      or developer workflows.
+    - >-
+      Listed in awesome-ai-agents under 'Saga' with description: 'Saga AI is your AI assistant for drafting content,
+      brainstorming ideas, fixing grammar, and translating to 20+ languages.'
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:36:25.371Z"
+    updated_at: '2026-09-28T04:36:25.371Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,11 +97,20 @@ processing:
       input_hash: sha256:819a1531db291ec876f36724025b9e78218cd1ac53efa517840876c0353f6b8b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Saga AI is a general-purpose AI assistant for content creation and productivity, not a developer-facing tool focused on coding, agents, or infrastructure; its presence in awesome-ai-agents is incidental and does not establish a developer-tooling identity.
+      decision_reason: >-
+        Saga AI is a general-purpose AI assistant for content creation and productivity, not a developer-facing tool
+        focused on coding, agents, or infrastructure; its presence in awesome-ai-agents is incidental and does not
+        establish a developer-tooling identity.
       decision_evidence:
-        - Repo description is missing; scraped site context positions it as an AI assistant for drafting, brainstorming, grammar check, and translation.
-        - Primary use cases include content creation, meeting notes, studying, and job posts — not code generation, editing, or developer workflows.
-        - "Listed in awesome-ai-agents under 'Saga' with description: 'Saga AI is your AI assistant for drafting content, brainstorming ideas, fixing grammar, and translating to 20+ languages.'"
+        - >-
+          Repo description is missing; scraped site context positions it as an AI assistant for drafting, brainstorming,
+          grammar check, and translation.
+        - >-
+          Primary use cases include content creation, meeting notes, studying, and job posts — not code generation,
+          editing, or developer workflows.
+        - >-
+          Listed in awesome-ai-agents under 'Saga' with description: 'Saga AI is your AI assistant for drafting content,
+          brainstorming ideas, fixing grammar, and translating to 20+ languages.'
       category_candidates: []
       contrastive_reason: null
       review_reason: null

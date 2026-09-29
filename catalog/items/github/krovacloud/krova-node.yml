@@ -1,0 +1,77 @@
+id: github__krovacloud__krova-node
+kind: github-repo
+name: krovacloud/krova-node
+canonical_url: https://github.com/krovacloud/krova-node
+identity:
+  github_repo: krovacloud/krova-node
+provenance:
+  discoveries:
+    - id: discovery__github__krovacloud__krova-node__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: krovacloud/krova-node
+        extracted_url: https://github.com/krovacloud/krova-node
+        surrounding_text: >-
+          - [krovacloud/krova-node](https://github.com/krovacloud/krova-node) [![krovacloud/krova-node MCP
+          server](https://glama.ai/mcp/servers/krovacloud/krova-node/badges/score.svg)](https://glama.ai/mcp/servers/krovacloud/krova-node)
+          🎖️ 📇 ☁️ 🍎 🪟 🐧 - Provision and manage Krova Cloud Cubes (Firecracker microVMs with root access), plus
+          custom domains, TCP port mappings and snapshots.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    krovacloud/krova-node ️ ☁️ - Provision and manage Krova Cloud Cubes (Firecracker microVMs with root access), plus
+    custom domains, TCP port mappings and snapshots.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
+  evidence:
+    - jev-latest choice confidence 0.81
+placement:
+  primary_category: mcp
+  secondary_categories: []
+  section: Cloud & API Integration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.464Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

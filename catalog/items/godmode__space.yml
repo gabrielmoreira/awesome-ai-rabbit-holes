@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__godmode__space__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Godmode
         anchor_text: Godmode
         extracted_url: https://godmode.space
-        surrounding_text: "## [Godmode](https://godmode.space/)"
+        surrounding_text: '## [Godmode](https://godmode.space/)'
         confidence: high
 metadata:
   github:
@@ -37,27 +37,33 @@ metadata:
     readme: null
 insights:
   summary: Godmode.space is described as the world's first AI agent product with over 1 million users.
-  why_it_matters: While it claims mass adoption, the absence of specific developer-facing features or use cases makes its relevance to software engineering workflows unclear.
-  mental_damage: Another AI agent promising universal utility while leaving developers to guess whether it writes code, builds apps, or just adds to the notification overload.
+  why_it_matters: >-
+    While it claims mass adoption, the absence of specific developer-facing features or use cases makes its relevance to
+    software engineering workflows unclear.
+  mental_damage: >-
+    Another AI agent promising universal utility while leaving developers to guess whether it writes code, builds apps,
+    or just adds to the notification overload.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: Insufficient information to determine if it fits any developer-tooling category, as the agent's specific function (e.g., coding, app-building) is not described and no evidence shows a clear developer workflow integration.
+  reason: >-
+    Insufficient information to determine if it fits any developer-tooling category, as the agent's specific function
+    (e.g., coding, app-building) is not described and no evidence shows a clear developer workflow integration.
   evidence:
-    - "Product description only states: 'Godmode is the world's first AI agent product w >1M users'"
+    - 'Product description only states: ''Godmode is the world''s first AI agent product w >1M users'''
     - No README, repo description, or detailed features provided to assess developer utility
     - Listed in awesome-ai-agents but without section-specific details indicating a developer focus
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -66,7 +72,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:18:31.651Z"
+    updated_at: '2026-09-28T04:18:31.651Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -79,9 +85,12 @@ processing:
       input_hash: sha256:b476c14686ffb7a45e5a0da70e4a78f46b81111eb59547fcb3ec729219d69461
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Insufficient information to determine if it fits any developer-tooling category, as the agent's specific function (e.g., coding, app-building) is not described and no evidence shows a clear developer workflow integration.
+      decision_reason: >-
+        Insufficient information to determine if it fits any developer-tooling category, as the agent's specific
+        function (e.g., coding, app-building) is not described and no evidence shows a clear developer workflow
+        integration.
       decision_evidence:
-        - "Product description only states: 'Godmode is the world's first AI agent product w >1M users'"
+        - 'Product description only states: ''Godmode is the world''s first AI agent product w >1M users'''
         - No README, repo description, or detailed features provided to assess developer utility
         - Listed in awesome-ai-agents but without section-specific details indicating a developer focus
       category_candidates: []

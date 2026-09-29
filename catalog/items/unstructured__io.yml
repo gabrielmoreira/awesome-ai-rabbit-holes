@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__unstructured__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Unstructured Platform
         extracted_url: https://unstructured.io
-        surrounding_text: "- **[Unstructured](https://github.com/Unstructured-IO/UNS-MCP)** - Set up and interact with your unstructured data processing workflows in [Unstructured Platform](https://unstructured.io)"
+        surrounding_text: >-
+          - **[Unstructured](https://github.com/Unstructured-IO/UNS-MCP)** - Set up and interact with your unstructured
+          data processing workflows in [Unstructured Platform](https://unstructured.io)
         confidence: high
 metadata:
   github:
@@ -36,8 +38,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: unstructured.io provides tools to extract, clean, and structure unstructured data like documents, PDFs, and web pages for downstream AI processing.
-  why_it_matters: It reduces the friction of turning messy real-world data into model-ready inputs, a critical bottleneck in building reliable AI applications.
+  summary: >-
+    unstructured.io provides tools to extract, clean, and structure unstructured data like documents, PDFs, and web
+    pages for downstream AI processing.
+  why_it_matters: >-
+    It reduces the friction of turning messy real-world data into model-ready inputs, a critical bottleneck in building
+    reliable AI applications.
   mental_damage: Yet another preprocessing layer you didn’t know you needed until your LLM started hallucinating from bad OCR.
   tags:
     - data-prep
@@ -46,21 +52,30 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: unstructured.io is a developer-facing SDK and API for data extraction and transformation, functioning as reusable infrastructure that developers import and program against to prepare inputs for AI systems, aligning with the Frameworks & SDKs category.
+  reason: >-
+    unstructured.io is a developer-facing SDK and API for data extraction and transformation, functioning as reusable
+    infrastructure that developers import and program against to prepare inputs for AI systems, aligning with the
+    Frameworks & SDKs category.
   evidence:
-    - "Seen in source list: awesome-mcp-servers under 'Official Servers', indicating recognition in curated developer tooling ecosystems."
-    - Product focuses on extracting and structuring unstructured data (PDFs, HTML, etc.) for AI workflows, a foundational infrastructure task.
-    - No evidence of being a coding agent, app builder, or orchestrator — its core value is in programmable data processing, not autonomous coding or prompt-to-app generation.
+    - >-
+      Seen in source list: awesome-mcp-servers under 'Official Servers', indicating recognition in curated developer
+      tooling ecosystems.
+    - >-
+      Product focuses on extracting and structuring unstructured data (PDFs, HTML, etc.) for AI workflows, a
+      foundational infrastructure task.
+    - >-
+      No evidence of being a coding agent, app builder, or orchestrator — its core value is in programmable data
+      processing, not autonomous coding or prompt-to-app generation.
 placement:
   primary_category: ai-frameworks
   section: Memory & Retrieval Infrastructure
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:48:32.584Z"
+    updated_at: '2026-09-28T04:48:32.584Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,14 +97,25 @@ processing:
       input_hash: sha256:db96bc7002451636c851a3be66073849fbb087afe731c8048c704f8ce41960c0
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: unstructured.io is a developer-facing SDK and API for data extraction and transformation, functioning as reusable infrastructure that developers import and program against to prepare inputs for AI systems, aligning with the Frameworks & SDKs category.
+      decision_reason: >-
+        unstructured.io is a developer-facing SDK and API for data extraction and transformation, functioning as
+        reusable infrastructure that developers import and program against to prepare inputs for AI systems, aligning
+        with the Frameworks & SDKs category.
       decision_evidence:
-        - "Seen in source list: awesome-mcp-servers under 'Official Servers', indicating recognition in curated developer tooling ecosystems."
-        - Product focuses on extracting and structuring unstructured data (PDFs, HTML, etc.) for AI workflows, a foundational infrastructure task.
-        - No evidence of being a coding agent, app builder, or orchestrator — its core value is in programmable data processing, not autonomous coding or prompt-to-app generation.
+        - >-
+          Seen in source list: awesome-mcp-servers under 'Official Servers', indicating recognition in curated developer
+          tooling ecosystems.
+        - >-
+          Product focuses on extracting and structuring unstructured data (PDFs, HTML, etc.) for AI workflows, a
+          foundational infrastructure task.
+        - >-
+          No evidence of being a coding agent, app builder, or orchestrator — its core value is in programmable data
+          processing, not autonomous coding or prompt-to-app generation.
       category_candidates:
         - ai-frameworks
         - memory-and-context
-      contrastive_reason: Choose ai-frameworks over memory-and-context because unstructured.io is primarily an importable SDK for data extraction pipelines, not a persistent memory or context management system for agent sessions.
+      contrastive_reason: >-
+        Choose ai-frameworks over memory-and-context because unstructured.io is primarily an importable SDK for data
+        extraction pipelines, not a persistent memory or context management system for agent sessions.
       review_reason: null
       review_resume_lifecycle: null

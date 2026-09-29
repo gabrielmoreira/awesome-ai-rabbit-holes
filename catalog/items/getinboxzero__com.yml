@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__getinboxzero__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,12 @@ provenance:
           - Official Servers
         anchor_text: Inbox Zero
         extracted_url: https://getinboxzero.com
-        surrounding_text: "- **[Inbox Zero](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server)** - AI personal assistant for email [Inbox Zero](https://www.getinboxzero.com)"
+        surrounding_text: >-
+          - **[Inbox Zero](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server)** - AI personal assistant
+          for email [Inbox Zero](https://www.getinboxzero.com)
         confidence: high
     - id: discovery__www__getinboxzero__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +35,9 @@ provenance:
           - Official Servers
         anchor_text: Inbox Zero
         extracted_url: https://www.getinboxzero.com
-        surrounding_text: "- **[Inbox Zero](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server)** - AI personal assistant for email [Inbox Zero](https://www.getinboxzero.com)"
+        surrounding_text: >-
+          - **[Inbox Zero](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server)** - AI personal assistant
+          for email [Inbox Zero](https://www.getinboxzero.com)
         confidence: high
 metadata:
   github:
@@ -51,9 +55,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Inbox Zero is an open-source AI email assistant that organizes inboxes, drafts replies, blocks cold emails, and provides analytics across email providers.
-  why_it_matters: It helps developers reclaim time from email overload by automating triage, drafting, and unsubscribing using AI trained on their own communication patterns.
-  mental_damage: Another AI tool promising to give you back an hour a day — as if the real bottleneck in software wasn't meetings, context switching, or tech debt.
+  summary: >-
+    Inbox Zero is an open-source AI email assistant that organizes inboxes, drafts replies, blocks cold emails, and
+    provides analytics across email providers.
+  why_it_matters: >-
+    It helps developers reclaim time from email overload by automating triage, drafting, and unsubscribing using AI
+    trained on their own communication patterns.
+  mental_damage: >-
+    Another AI tool promising to give you back an hour a day — as if the real bottleneck in software wasn't meetings,
+    context switching, or tech debt.
   tags:
     - email
     - ai-assistant
@@ -62,21 +72,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Inbox Zero is a personal productivity tool for email management with no direct relevance to software development workflows, coding agents, or developer-facing infrastructure.
+  reason: >-
+    Inbox Zero is a personal productivity tool for email management with no direct relevance to software development
+    workflows, coding agents, or developer-facing infrastructure.
   evidence:
-    - "Source-list context: appears in awesome-mcp-servers as an 'Official Server' but is described as an 'AI executive assistant' for email, not MCP infrastructure"
-    - "README excerpt: focuses on organizing inboxes, drafting replies in your voice, bulk unsubscribing, and email analytics — none of which involve code, repos, terminals, or developer tooling"
-    - "Scraped site context: markets to founders, executives, realtors, and support teams — not developers or engineering workflows"
+    - >-
+      Source-list context: appears in awesome-mcp-servers as an 'Official Server' but is described as an 'AI executive
+      assistant' for email, not MCP infrastructure
+    - >-
+      README excerpt: focuses on organizing inboxes, drafting replies in your voice, bulk unsubscribing, and email
+      analytics — none of which involve code, repos, terminals, or developer tooling
+    - >-
+      Scraped site context: markets to founders, executives, realtors, and support teams — not developers or engineering
+      workflows
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:41:28.465Z"
+    updated_at: '2026-09-28T04:41:28.465Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,18 +107,26 @@ processing:
       input_hash: sha256:2e181649535c7434addf2e87720ee7a4bbafd66cc61a222a478aecdea04b8ccc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Inbox Zero is a personal productivity tool for email management with no direct relevance to software development workflows, coding agents, or developer-facing infrastructure.
+      decision_reason: >-
+        Inbox Zero is a personal productivity tool for email management with no direct relevance to software development
+        workflows, coding agents, or developer-facing infrastructure.
       decision_evidence:
-        - "Source-list context: appears in awesome-mcp-servers as an 'Official Server' but is described as an 'AI executive assistant' for email, not MCP infrastructure"
-        - "README excerpt: focuses on organizing inboxes, drafting replies in your voice, bulk unsubscribing, and email analytics — none of which involve code, repos, terminals, or developer tooling"
-        - "Scraped site context: markets to founders, executives, realtors, and support teams — not developers or engineering workflows"
+        - >-
+          Source-list context: appears in awesome-mcp-servers as an 'Official Server' but is described as an 'AI
+          executive assistant' for email, not MCP infrastructure
+        - >-
+          README excerpt: focuses on organizing inboxes, drafting replies in your voice, bulk unsubscribing, and email
+          analytics — none of which involve code, repos, terminals, or developer tooling
+        - >-
+          Scraped site context: markets to founders, executives, realtors, and support teams — not developers or
+          engineering workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.965Z"
+    updated_at: '2026-07-21T15:20:21.965Z'
     cause: null
     next_retry_at: null
   stars:

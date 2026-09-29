@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__snyk__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Snyk (DeepCode)
         extracted_url: https://snyk.io
-        surrounding_text: "- **[Snyk (DeepCode)](https://snyk.io/)** – Security-focused code analysis with vulnerability detection."
+        surrounding_text: '- **[Snyk (DeepCode)](https://snyk.io/)** – Security-focused code analysis with vulnerability detection.'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Snyk AI Security Platform is a SaaS solution that secures AI-generated code, development agents, and AI-native applications through integrations with IDEs, CI/CD, and coding assistants.
-  why_it_matters: It addresses the growing security risks in AI-assisted development by providing automated scanning and governance for code written by AI agents.
+  summary: >-
+    Snyk AI Security Platform is a SaaS solution that secures AI-generated code, development agents, and AI-native
+    applications through integrations with IDEs, CI/CD, and coding assistants.
+  why_it_matters: >-
+    It addresses the growing security risks in AI-assisted development by providing automated scanning and governance
+    for code written by AI agents.
   mental_damage: Now you need a security tool just to trust the code your AI intern wrote while you were in a meeting.
   tags:
     - security
@@ -48,21 +52,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Snyk is a general application security platform with AI-specific features, not a developer-facing AI tool for coding, building, or orchestrating agents.
+  reason: >-
+    Snyk is a general application security platform with AI-specific features, not a developer-facing AI tool for
+    coding, building, or orchestrating agents.
   evidence:
-    - Appears in awesome-ai-coding-tools under 'Code Review and Refactoring' with description focusing on securing AI-generated code and agents
-    - Primary product is a SaaS security platform integrating with IDEs, CI/CD, and AI assistants like Claude Code and Cursor
-    - Core functionality is vulnerability scanning, dependency checking, and runtime protection—not AI coding, app building, or agent orchestration
+    - >-
+      Appears in awesome-ai-coding-tools under 'Code Review and Refactoring' with description focusing on securing
+      AI-generated code and agents
+    - >-
+      Primary product is a SaaS security platform integrating with IDEs, CI/CD, and AI assistants like Claude Code and
+      Cursor
+    - >-
+      Core functionality is vulnerability scanning, dependency checking, and runtime protection—not AI coding, app
+      building, or agent orchestration
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:37:19.277Z"
+    updated_at: '2026-09-28T04:37:19.277Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,11 +96,19 @@ processing:
       input_hash: sha256:0010777f0107354de1154831a61ec324a3219c9c1aa36f1d70acdf87acb7e95e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Snyk is a general application security platform with AI-specific features, not a developer-facing AI tool for coding, building, or orchestrating agents.
+      decision_reason: >-
+        Snyk is a general application security platform with AI-specific features, not a developer-facing AI tool for
+        coding, building, or orchestrating agents.
       decision_evidence:
-        - Appears in awesome-ai-coding-tools under 'Code Review and Refactoring' with description focusing on securing AI-generated code and agents
-        - Primary product is a SaaS security platform integrating with IDEs, CI/CD, and AI assistants like Claude Code and Cursor
-        - Core functionality is vulnerability scanning, dependency checking, and runtime protection—not AI coding, app building, or agent orchestration
+        - >-
+          Appears in awesome-ai-coding-tools under 'Code Review and Refactoring' with description focusing on securing
+          AI-generated code and agents
+        - >-
+          Primary product is a SaaS security platform integrating with IDEs, CI/CD, and AI assistants like Claude Code
+          and Cursor
+        - >-
+          Core functionality is vulnerability scanning, dependency checking, and runtime protection—not AI coding, app
+          building, or agent orchestration
       category_candidates: []
       contrastive_reason: null
       review_reason: null

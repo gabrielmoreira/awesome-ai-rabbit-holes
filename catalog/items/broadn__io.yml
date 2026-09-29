@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__broadn__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - broadn
         anchor_text: broadn
         extracted_url: https://broadn.io
-        surrounding_text: "## [broadn](https://www.broadn.io/?utm_source=awesome-ai-agents)"
+        surrounding_text: '## [broadn](https://www.broadn.io/?utm_source=awesome-ai-agents)'
         confidence: high
     - id: discovery__www__broadn__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - broadn
         anchor_text: broadn
         extracted_url: https://www.broadn.io
-        surrounding_text: "## [broadn](https://www.broadn.io/?utm_source=awesome-ai-agents)"
+        surrounding_text: '## [broadn](https://www.broadn.io/?utm_source=awesome-ai-agents)'
         confidence: high
 metadata:
   github:
@@ -52,8 +52,12 @@ metadata:
     readme: null
 insights:
   summary: Broadn is an AI sales automation agent that turns email inquiries into quotes and orders for U.S. manufacturers.
-  why_it_matters: It demonstrates how specialized AI agents can eliminate manual workflow steps in niche B2B sales processes by integrating with inboxes, CRMs, and ERPs.
-  mental_damage: Another AI agent promising to replace human labor in a back-office function, adding to the growing list of vertical SaaS tools that claim to 'just work' out of the box.
+  why_it_matters: >-
+    It demonstrates how specialized AI agents can eliminate manual workflow steps in niche B2B sales processes by
+    integrating with inboxes, CRMs, and ERPs.
+  mental_damage: >-
+    Another AI agent promising to replace human labor in a back-office function, adding to the growing list of vertical
+    SaaS tools that claim to 'just work' out of the box.
   tags:
     - ai-agent
     - sales-automation
@@ -61,21 +65,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Broadn is a domain-specific AI agent for sales operations in manufacturing, not a developer-facing tool for coding, workflow automation, or AI infrastructure relevant to software development.
+  reason: >-
+    Broadn is a domain-specific AI agent for sales operations in manufacturing, not a developer-facing tool for coding,
+    workflow automation, or AI infrastructure relevant to software development.
   evidence:
-    - "Primary function: turns inbound product inquiries into accurate quotes for U.S. manufacturers via email-to-ERP automation."
-    - Marketed to sales teams, not developers; integrates with Shopify, SAP, Salesforce, etc., but offers no coding, debugging, or code generation capabilities.
-    - "Appears in awesome-ai-agents under 'purpose: A list of AI autonomous agents' with section 'broadn' and description 'Quoting and orders automated from inbox to ERP.'"
+    - >-
+      Primary function: turns inbound product inquiries into accurate quotes for U.S. manufacturers via email-to-ERP
+      automation.
+    - >-
+      Marketed to sales teams, not developers; integrates with Shopify, SAP, Salesforce, etc., but offers no coding,
+      debugging, or code generation capabilities.
+    - >-
+      Appears in awesome-ai-agents under 'purpose: A list of AI autonomous agents' with section 'broadn' and description
+      'Quoting and orders automated from inbox to ERP.'
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:39:27.616Z"
+    updated_at: '2026-09-28T04:39:27.616Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,18 +100,26 @@ processing:
       input_hash: sha256:c48378aad439a8823619184f925eb2af080008dfa49d3de8a20659ccff874d2a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Broadn is a domain-specific AI agent for sales operations in manufacturing, not a developer-facing tool for coding, workflow automation, or AI infrastructure relevant to software development.
+      decision_reason: >-
+        Broadn is a domain-specific AI agent for sales operations in manufacturing, not a developer-facing tool for
+        coding, workflow automation, or AI infrastructure relevant to software development.
       decision_evidence:
-        - "Primary function: turns inbound product inquiries into accurate quotes for U.S. manufacturers via email-to-ERP automation."
-        - Marketed to sales teams, not developers; integrates with Shopify, SAP, Salesforce, etc., but offers no coding, debugging, or code generation capabilities.
-        - "Appears in awesome-ai-agents under 'purpose: A list of AI autonomous agents' with section 'broadn' and description 'Quoting and orders automated from inbox to ERP.'"
+        - >-
+          Primary function: turns inbound product inquiries into accurate quotes for U.S. manufacturers via email-to-ERP
+          automation.
+        - >-
+          Marketed to sales teams, not developers; integrates with Shopify, SAP, Salesforce, etc., but offers no coding,
+          debugging, or code generation capabilities.
+        - >-
+          Appears in awesome-ai-agents under 'purpose: A list of AI autonomous agents' with section 'broadn' and
+          description 'Quoting and orders automated from inbox to ERP.'
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.963Z"
+    updated_at: '2026-07-21T15:20:21.963Z'
     cause: null
     next_retry_at: null
   stars:

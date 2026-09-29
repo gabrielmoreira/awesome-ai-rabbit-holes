@@ -1,0 +1,88 @@
+id: github__getsentry__mobilebuildmcp
+kind: github-repo
+name: getsentry/mobilebuildmcp
+canonical_url: https://github.com/getsentry/mobilebuildmcp
+identity:
+  github_repo: getsentry/mobilebuildmcp
+provenance:
+  discoveries:
+    - id: discovery__github__getsentry__mobilebuildmcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: XcodeBuildMCP
+        extracted_url: https://github.com/cameroncooke/xcodebuildmcp
+        surrounding_text: >-
+          - **[XcodeBuildMCP](https://github.com/cameroncooke/xcodebuildmcp)** -  Popular MCP server that enables AI
+          agents to scaffold, build, run and test iOS, macOS, visionOS and watchOS apps or simulators and wired and
+          wireless devices. It has powerful UI-automation capabilities like controlling the simulator, capturing
+          run-time logs, as well as taking screenshots and viewing the accessibility hierarchy.
+        confidence: high
+metadata:
+  github:
+    stars: 6445
+    forks: 322
+    license: MIT
+    archived: false
+    full_name: getsentry/MobileBuildMCP
+    html_url: https://github.com/getsentry/MobileBuildMCP
+    created_at: '2025-03-09T17:31:18Z'
+    pushed_at: '2026-09-28T23:10:11Z'
+    description: >-
+      A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS
+      projects.
+    homepage: ''
+    topics:
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - model-context-protocol-servers
+      - tag-non-production
+      - xcode
+      - xcodebuild
+    last_checked_at: '2026-09-29T13:11:40.238Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:40.238Z'
+      bytes: 7056
+insights:
+  summary: >-
+    A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS
+    projects.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
+  evidence:
+    - jev-latest choice confidence 0.98
+placement:
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
+lifecycle:
+  status: curated
+  reason: Stars (6445) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.458Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:40.238Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

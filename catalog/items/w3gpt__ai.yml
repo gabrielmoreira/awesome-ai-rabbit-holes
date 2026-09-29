@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__w3gpt__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Web3 GPT
         anchor_text: Web3 GPT
         extracted_url: https://w3gpt.ai
-        surrounding_text: "## [Web3 GPT](https://w3gpt.ai/)"
+        surrounding_text: '## [Web3 GPT](https://w3gpt.ai/)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Web3GPT is a web-based interface for deploying smart contracts and creating on-chain AI agents using natural language prompts.
-  why_it_matters: It lowers the barrier to blockchain development by letting developers generate and deploy Solidity contracts via chat, reducing boilerplate and context-switching.
-  mental_damage: Another tool promising to 'skip the boilerplate' while quietly adding a new layer of AI-mediated abstraction you now have to audit.
+  summary: >-
+    Web3GPT is a web-based interface for deploying smart contracts and creating on-chain AI agents using natural
+    language prompts.
+  why_it_matters: >-
+    It lowers the barrier to blockchain development by letting developers generate and deploy Solidity contracts via
+    chat, reducing boilerplate and context-switching.
+  mental_damage: >-
+    Another tool promising to 'skip the boilerplate' while quietly adding a new layer of AI-mediated abstraction you now
+    have to audit.
   tags:
     - web3
     - ai-agents
@@ -46,21 +52,28 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Web3GPT primarily functions as a blockchain development assistant focused on contract generation and deployment, not a general-purpose coding agent operating on arbitrary codebases, and its identity is too narrowly scoped to Web3 workflows to qualify as a developer-facing AI tool with broad applicability.
+  reason: >-
+    Web3GPT primarily functions as a blockchain development assistant focused on contract generation and deployment, not
+    a general-purpose coding agent operating on arbitrary codebases, and its identity is too narrowly scoped to Web3
+    workflows to qualify as a developer-facing AI tool with broad applicability.
   evidence:
-    - "Scraped site context states: 'Deploy smart contracts, create AI Agents, do more onchain with AI.'"
-    - "Primary page excerpt emphasizes: 'Generate Prompt smart contracts', 'Deploy Directly from chat', and 'Skip the boilerplate'."
-    - Source-list context shows it appears only in 'awesome-ai-agents' under a 'Web3 GPT' section, indicating niche specialization rather than general developer tooling.
+    - 'Scraped site context states: ''Deploy smart contracts, create AI Agents, do more onchain with AI.'''
+    - >-
+      Primary page excerpt emphasizes: 'Generate Prompt smart contracts', 'Deploy Directly from chat', and 'Skip the
+      boilerplate'.
+    - >-
+      Source-list context shows it appears only in 'awesome-ai-agents' under a 'Web3 GPT' section, indicating niche
+      specialization rather than general developer tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:49:19.841Z"
+    updated_at: '2026-09-28T04:49:19.841Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,11 +95,18 @@ processing:
       input_hash: sha256:e6c159dd72f526303ce068e0ca5cc44eb9770339da3f543553522d22b2e500ab
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Web3GPT primarily functions as a blockchain development assistant focused on contract generation and deployment, not a general-purpose coding agent operating on arbitrary codebases, and its identity is too narrowly scoped to Web3 workflows to qualify as a developer-facing AI tool with broad applicability.
+      decision_reason: >-
+        Web3GPT primarily functions as a blockchain development assistant focused on contract generation and deployment,
+        not a general-purpose coding agent operating on arbitrary codebases, and its identity is too narrowly scoped to
+        Web3 workflows to qualify as a developer-facing AI tool with broad applicability.
       decision_evidence:
-        - "Scraped site context states: 'Deploy smart contracts, create AI Agents, do more onchain with AI.'"
-        - "Primary page excerpt emphasizes: 'Generate Prompt smart contracts', 'Deploy Directly from chat', and 'Skip the boilerplate'."
-        - Source-list context shows it appears only in 'awesome-ai-agents' under a 'Web3 GPT' section, indicating niche specialization rather than general developer tooling.
+        - 'Scraped site context states: ''Deploy smart contracts, create AI Agents, do more onchain with AI.'''
+        - >-
+          Primary page excerpt emphasizes: 'Generate Prompt smart contracts', 'Deploy Directly from chat', and 'Skip the
+          boilerplate'.
+        - >-
+          Source-list context shows it appears only in 'awesome-ai-agents' under a 'Web3 GPT' section, indicating niche
+          specialization rather than general developer tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

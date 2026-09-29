@@ -1,0 +1,79 @@
+id: github__zihuaevan__gui_jev
+kind: github-repo
+name: zihuaevan/gui_jev
+canonical_url: https://github.com/zihuaevan/gui_jev
+identity:
+  github_repo: zihuaevan/gui_jev
+provenance:
+  discoveries:
+    - id: discovery__github__zihuaevan__gui_jev__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Agent Decisions
+        anchor_text: GUI JEV Harness
+        extracted_url: https://github.com/zihuaevan/gui_jev
+        surrounding_text: >-
+          - [GUI JEV Harness](https://github.com/ZihuaEvan/GUI_JEV)
+          ![stars](https://img.shields.io/github/stars/ZihuaEvan/GUI_JEV?style=flat-square&label=%E2%98%85) - Computer
+          use: recursive screenshot grounding where Jev returns a `Choice` over grid-tile candidates at each level, and
+          local probability and margin gates decide whether to descend or refuse, emitting only a raster point and
+          bounding box and never clicking.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    GUI JEV Harness - Computer use: recursive screenshot grounding where Jev returns a Choice over grid-tile candidates
+    at each level, and local probability and margin gates decide whether to descend or refuse, emitting only a raster
+    point and bounding box and never clicking.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Browser & Computer Use
+  evidence:
+    - jev-latest choice confidence 0.64
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Browser & Computer Use
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.486Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

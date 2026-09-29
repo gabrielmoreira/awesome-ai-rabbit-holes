@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__codeautopilot__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Code Autopilot
         anchor_text: Code Autopilot
         extracted_url: https://codeautopilot.com
-        surrounding_text: "## [Code Autopilot](https://www.codeautopilot.com/)"
+        surrounding_text: '## [Code Autopilot](https://www.codeautopilot.com/)'
         confidence: high
     - id: discovery__www__codeautopilot__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Code Autopilot
         anchor_text: Code Autopilot
         extracted_url: https://www.codeautopilot.com
-        surrounding_text: "## [Code Autopilot](https://www.codeautopilot.com/)"
+        surrounding_text: '## [Code Autopilot](https://www.codeautopilot.com/)'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Code Autopilot is a GitHub-integrated AI coding agent that solves bugs, implements features, and reviews pull requests using LLM-powered agents.
+  summary: >-
+    Code Autopilot is a GitHub-integrated AI coding agent that solves bugs, implements features, and reviews pull
+    requests using LLM-powered agents.
   why_it_matters: It reduces manual coding effort by automating issue resolution and PR workflows directly within GitHub.
-  mental_damage: Another promise of an 'AI dev team' that makes you wonder if your junior devs are just getting outsourced to a prompt.
+  mental_damage: >-
+    Another promise of an 'AI dev team' that makes you wonder if your junior devs are just getting outsourced to a
+    prompt.
   tags:
     - coding-agent
     - github-integration
@@ -61,9 +65,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Code Autopilot functions as a standalone AI agent that performs coding tasks like bug fixing and feature implementation in response to GitHub issues, making it a coding agent rather than an extension or orchestrator.
+  reason: >-
+    Code Autopilot functions as a standalone AI agent that performs coding tasks like bug fixing and feature
+    implementation in response to GitHub issues, making it a coding agent rather than an extension or orchestrator.
   evidence:
-    - "README states: 'Autopilot leverages the power of cutting-edge AI coding agents driven by state-of-the-art LLM models' and 'listens to the issues created on your repository and responds with proposed solutions'"
+    - >-
+      README states: 'Autopilot leverages the power of cutting-edge AI coding agents driven by state-of-the-art LLM
+      models' and 'listens to the issues created on your repository and responds with proposed solutions'
     - Primary surface is GitHub issue/PR threads where it proposes code changes, summaries, and implementation plans
     - It operates as a primary coding surface via GitHub integration, not as a plugin to another agent or IDE
 placement:
@@ -71,12 +79,12 @@ placement:
   secondary_categories: []
   section: Review, Testing & Repair
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:40:12.183Z"
+    updated_at: '2026-09-28T04:40:12.183Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,20 +97,26 @@ processing:
       input_hash: sha256:ac9ca637c7404f8f75ea59872ae48add6bf19148fde523cd0af56eb01724e9c1
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Code Autopilot functions as a standalone AI agent that performs coding tasks like bug fixing and feature implementation in response to GitHub issues, making it a coding agent rather than an extension or orchestrator.
+      decision_reason: >-
+        Code Autopilot functions as a standalone AI agent that performs coding tasks like bug fixing and feature
+        implementation in response to GitHub issues, making it a coding agent rather than an extension or orchestrator.
       decision_evidence:
-        - "README states: 'Autopilot leverages the power of cutting-edge AI coding agents driven by state-of-the-art LLM models' and 'listens to the issues created on your repository and responds with proposed solutions'"
+        - >-
+          README states: 'Autopilot leverages the power of cutting-edge AI coding agents driven by state-of-the-art LLM
+          models' and 'listens to the issues created on your repository and responds with proposed solutions'
         - Primary surface is GitHub issue/PR threads where it proposes code changes, summaries, and implementation plans
         - It operates as a primary coding surface via GitHub integration, not as a plugin to another agent or IDE
       category_candidates:
         - coding-agents
         - extensions-and-addons
-      contrastive_reason: Choose coding-agents over extensions-and-addons because Code Autopilot is the primary agent performing coding tasks, not a tool that augments another assistant like Claude Code or Cursor.
+      contrastive_reason: >-
+        Choose coding-agents over extensions-and-addons because Code Autopilot is the primary agent performing coding
+        tasks, not a tool that augments another assistant like Claude Code or Cursor.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.964Z"
+    updated_at: '2026-07-21T15:20:21.964Z'
     cause: null
     next_retry_at: null
   stars:

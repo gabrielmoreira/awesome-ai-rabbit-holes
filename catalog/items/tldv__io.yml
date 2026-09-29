@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__tldv__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: tl;dv
         extracted_url: https://tldv.io
-        surrounding_text: "- **[Tldv](https://gitlab.com/tldv/tldv-mcp-server)** - Connect your AI agents to Google-Meet, Zoom & Microsoft Teams through [tl;dv](https://tldv.io)"
+        surrounding_text: >-
+          - **[Tldv](https://gitlab.com/tldv/tldv-mcp-server)** - Connect your AI agents to Google-Meet, Zoom &
+          Microsoft Teams through [tl;dv](https://tldv.io)
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: tl;dv is an AI-powered meeting notetaker that records, transcribes, and summarizes Zoom, Google Meet, and Teams calls into actionable insights.
-  why_it_matters: It automates post-meeting busywork like note-taking, CRM updates, and follow-ups, letting developers and teams focus on shipping code instead of admin.
-  mental_damage: Finally, a tool that understands your real pain isn't writing code — it's pretending to listen in yet another sync about why the staging server is down.
+  summary: >-
+    tl;dv is an AI-powered meeting notetaker that records, transcribes, and summarizes Zoom, Google Meet, and Teams
+    calls into actionable insights.
+  why_it_matters: >-
+    It automates post-meeting busywork like note-taking, CRM updates, and follow-ups, letting developers and teams focus
+    on shipping code instead of admin.
+  mental_damage: >-
+    Finally, a tool that understands your real pain isn't writing code — it's pretending to listen in yet another sync
+    about why the staging server is down.
   tags:
     - meeting-ai
     - productivity
@@ -46,21 +54,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: tl;dv is an AI meeting assistant focused on transcription, summarization, and workflow automation for business communication — it does not perform coding tasks, edit code, or assist in software development workflows.
+  reason: >-
+    tl;dv is an AI meeting assistant focused on transcription, summarization, and workflow automation for business
+    communication — it does not perform coding tasks, edit code, or assist in software development workflows.
   evidence:
-    - "Scraped site context: 'AI meeting notes — record, transcribe, and summarize meetings automatically.'"
-    - "README excerpt: 'Never take meeting notes again - this AI note taker does it for you' and 'handles CRM and follow-ups too'"
-    - "Source-list context: Listed in awesome-mcp-servers under 'Official Servers' for AI meeting notes, not as a coding or devtool agent"
+    - 'Scraped site context: ''AI meeting notes — record, transcribe, and summarize meetings automatically.'''
+    - >-
+      README excerpt: 'Never take meeting notes again - this AI note taker does it for you' and 'handles CRM and
+      follow-ups too'
+    - >-
+      Source-list context: Listed in awesome-mcp-servers under 'Official Servers' for AI meeting notes, not as a coding
+      or devtool agent
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:47:41.465Z"
+    updated_at: '2026-09-28T04:47:41.465Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,11 +96,17 @@ processing:
       input_hash: sha256:d8ab389679e6fca94229e9ad5ce72e5c89d90e797385336091eaea768892c7de
       proposed_primary_category: null
       disagreement: false
-      decision_reason: tl;dv is an AI meeting assistant focused on transcription, summarization, and workflow automation for business communication — it does not perform coding tasks, edit code, or assist in software development workflows.
+      decision_reason: >-
+        tl;dv is an AI meeting assistant focused on transcription, summarization, and workflow automation for business
+        communication — it does not perform coding tasks, edit code, or assist in software development workflows.
       decision_evidence:
-        - "Scraped site context: 'AI meeting notes — record, transcribe, and summarize meetings automatically.'"
-        - "README excerpt: 'Never take meeting notes again - this AI note taker does it for you' and 'handles CRM and follow-ups too'"
-        - "Source-list context: Listed in awesome-mcp-servers under 'Official Servers' for AI meeting notes, not as a coding or devtool agent"
+        - 'Scraped site context: ''AI meeting notes — record, transcribe, and summarize meetings automatically.'''
+        - >-
+          README excerpt: 'Never take meeting notes again - this AI note taker does it for you' and 'handles CRM and
+          follow-ups too'
+        - >-
+          Source-list context: Listed in awesome-mcp-servers under 'Official Servers' for AI meeting notes, not as a
+          coding or devtool agent
       category_candidates: []
       contrastive_reason: null
       review_reason: null

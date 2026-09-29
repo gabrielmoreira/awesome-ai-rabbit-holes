@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__easyfl-ai__easyfl__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,10 @@ provenance:
           - Federated ML
         anchor_text: EasyFL
         extracted_url: https://github.com/easyfl-ai/easyfl
-        surrounding_text: "| [EasyFL](https://github.com/EasyFL-AI/EasyFL)                   | An Easy-to-use Federated Learning Platform                                                                                                                                                                                                                                       | ![GitHub Badge](https://img.shields.io/github/stars/EasyFL-AI/EasyFL.svg?style=flat-square)     |"
+        surrounding_text: >-
+          | [EasyFL](https://github.com/EasyFL-AI/EasyFL)                   | An Easy-to-use Federated Learning
+          Platform                                                                                                                                                                                                                                      
+          | ![GitHub Badge](https://img.shields.io/github/stars/EasyFL-AI/EasyFL.svg?style=flat-square)     |
         confidence: high
 metadata:
   github:
@@ -29,19 +32,25 @@ metadata:
     archived: false
     full_name: EasyFL-AI/EasyFL
     html_url: https://github.com/EasyFL-AI/EasyFL
-    created_at: "2024-08-14T17:02:58Z"
-    pushed_at: "2023-08-23T06:50:58Z"
+    created_at: '2024-08-14T17:02:58Z'
+    pushed_at: '2023-08-23T06:50:58Z'
     description: An easy-to-use federated learning platform
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:46.104Z"
+    last_checked_at: '2026-09-14T04:13:46.104Z'
     readme:
-      fetched_at: "2026-09-14T04:13:46.104Z"
+      fetched_at: '2026-09-14T04:13:46.104Z'
       bytes: 6087
 insights:
-  summary: An easy-to-use, low-code federated learning platform based on PyTorch for prototyping and researching FL applications.
-  why_it_matters: It lowers the barrier to experimenting with federated learning by providing out-of-the-box datasets, models, and algorithms with minimal coding.
-  mental_damage: Finally, a way to do federated learning without needing a PhD in distributed systems—just three lines of code and a prayer.
+  summary: >-
+    An easy-to-use, low-code federated learning platform based on PyTorch for prototyping and researching FL
+    applications.
+  why_it_matters: >-
+    It lowers the barrier to experimenting with federated learning by providing out-of-the-box datasets, models, and
+    algorithms with minimal coding.
+  mental_damage: >-
+    Finally, a way to do federated learning without needing a PhD in distributed systems—just three lines of code and a
+    prayer.
   tags:
     - federated-learning
     - pytorch
@@ -50,7 +59,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Federated learning platforms are outside the catalog's scope, which focuses on AI tools, agents, and workflows directly relevant to software development rather than ML research infrastructure.
+  reason: >-
+    Federated learning platforms are outside the catalog's scope, which focuses on AI tools, agents, and workflows
+    directly relevant to software development rather than ML research infrastructure.
   evidence:
     - Repo description explicitly identifies it as a federated learning platform
     - README emphasizes FL research, POCs, and industrial prototypes as primary use cases
@@ -59,22 +70,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:46.104Z"
+    updated_at: '2026-09-14T04:13:46.104Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -89,7 +100,9 @@ processing:
       input_hash: sha256:6d9ef900a02fa54bf443dd19eaafe0ea1f8877f99d8d9d3e27b7bf5a46a8e574
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Federated learning platforms are outside the catalog's scope, which focuses on AI tools, agents, and workflows directly relevant to software development rather than ML research infrastructure.
+      decision_reason: >-
+        Federated learning platforms are outside the catalog's scope, which focuses on AI tools, agents, and workflows
+        directly relevant to software development rather than ML research infrastructure.
       decision_evidence:
         - Repo description explicitly identifies it as a federated learning platform
         - README emphasizes FL research, POCs, and industrial prototypes as primary use cases

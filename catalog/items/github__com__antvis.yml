@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__antvis__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,12 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: AntV
         extracted_url: https://github.com/antvis
-        surrounding_text: "- [antv/mcp-server-chart](https://github.com/antvis/mcp-server-chart) 🎖️ 📇 ☁️ - A Model Context Protocol server for generating visual charts using [AntV](https://github.com/antvis)."
+        surrounding_text: >-
+          - [antv/mcp-server-chart](https://github.com/antvis/mcp-server-chart) 🎖️ 📇 ☁️ - A Model Context Protocol
+          server for generating visual charts using [AntV](https://github.com/antvis).
         confidence: high
     - id: discovery__github__com__antvis__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,7 +36,9 @@ provenance:
           - Official Servers
         anchor_text: AntV
         extracted_url: https://github.com/antvis
-        surrounding_text: "- **[Chart](https://github.com/antvis/mcp-server-chart)** - 🤖 A Model Context Protocol server for generating visual charts using [AntV](https://github.com/antvis)."
+        surrounding_text: >-
+          - **[Chart](https://github.com/antvis/mcp-server-chart)** - 🤖 A Model Context Protocol server for generating
+          visual charts using [AntV](https://github.com/antvis).
         confidence: high
 metadata:
   github:
@@ -52,9 +56,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AntV is a data visualization team and open-source project offering chart libraries (G2, G6, L7, etc.) and AI-powered visualization tools like AVA and MCP servers for chart generation.
-  why_it_matters: Provides developers with mature, grammar-based visualization frameworks and experimental AI integrations for turning data into interactive visuals.
-  mental_damage: Yet another visualization library promising AI-powered insights while you still have to manually pick which of its eight chart series to use.
+  summary: >-
+    AntV is a data visualization team and open-source project offering chart libraries (G2, G6, L7, etc.) and AI-powered
+    visualization tools like AVA and MCP servers for chart generation.
+  why_it_matters: >-
+    Provides developers with mature, grammar-based visualization frameworks and experimental AI integrations for turning
+    data into interactive visuals.
+  mental_damage: >-
+    Yet another visualization library promising AI-powered insights while you still have to manually pick which of its
+    eight chart series to use.
   tags:
     - visualization
     - charts
@@ -62,24 +72,34 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: AntV is primarily a data visualization library ecosystem with AI as an experimental add-on, not a developer-facing AI tool whose core function is coding, agent behavior, or workflow automation.
+  reason: >-
+    AntV is primarily a data visualization library ecosystem with AI as an experimental add-on, not a developer-facing
+    AI tool whose core function is coding, agent behavior, or workflow automation.
   evidence:
-    - Repo description missing; README emphasizes chart libraries (G2, G6, L7, T8) and AI-powered intelligent visualization as a secondary capability.
-    - Core offerings are visualization frameworks and chart libraries, not agents, app builders, or orchestration tools for developers.
-    - AI features like AVA and mcp-server-chart are presented as sub-projects under the broader AntV visualization mission.
+    - >-
+      Repo description missing; README emphasizes chart libraries (G2, G6, L7, T8) and AI-powered intelligent
+      visualization as a secondary capability.
+    - >-
+      Core offerings are visualization frameworks and chart libraries, not agents, app builders, or orchestration tools
+      for developers.
+    - >-
+      AI features like AVA and mcp-server-chart are presented as sub-projects under the broader AntV visualization
+      mission.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: '2026-05-06T22:12:15.596Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -87,7 +107,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:16:11.023Z"
+    updated_at: '2026-09-28T04:16:11.023Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -100,11 +120,19 @@ processing:
       input_hash: sha256:e567fcac6111e919ec0c5b58dfb832bb68254d1dabbf6a5e7763263059bb64d9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: AntV is primarily a data visualization library ecosystem with AI as an experimental add-on, not a developer-facing AI tool whose core function is coding, agent behavior, or workflow automation.
+      decision_reason: >-
+        AntV is primarily a data visualization library ecosystem with AI as an experimental add-on, not a
+        developer-facing AI tool whose core function is coding, agent behavior, or workflow automation.
       decision_evidence:
-        - Repo description missing; README emphasizes chart libraries (G2, G6, L7, T8) and AI-powered intelligent visualization as a secondary capability.
-        - Core offerings are visualization frameworks and chart libraries, not agents, app builders, or orchestration tools for developers.
-        - AI features like AVA and mcp-server-chart are presented as sub-projects under the broader AntV visualization mission.
+        - >-
+          Repo description missing; README emphasizes chart libraries (G2, G6, L7, T8) and AI-powered intelligent
+          visualization as a secondary capability.
+        - >-
+          Core offerings are visualization frameworks and chart libraries, not agents, app builders, or orchestration
+          tools for developers.
+        - >-
+          AI features like AVA and mcp-server-chart are presented as sub-projects under the broader AntV visualization
+          mission.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

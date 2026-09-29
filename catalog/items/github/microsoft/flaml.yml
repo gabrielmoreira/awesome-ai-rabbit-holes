@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__microsoft__flaml__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,10 @@ provenance:
           - AutoML
         anchor_text: FLAML
         extracted_url: https://github.com/microsoft/flaml
-        surrounding_text: "| [FLAML](https://github.com/microsoft/FLAML)                                  | Fast and lightweight AutoML ([paper](https://www.microsoft.com/en-us/research/publication/flaml-a-fast-and-lightweight-automl-library/)).                                       | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/FLAML.svg?style=flat-square)                 |"
+        surrounding_text: >-
+          | [FLAML](https://github.com/microsoft/FLAML)                                  | Fast and lightweight AutoML
+          ([paper](https://www.microsoft.com/en-us/research/publication/flaml-a-fast-and-lightweight-automl-library/)).                                      
+          | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/FLAML.svg?style=flat-square)                 |
         confidence: high
 metadata:
   github:
@@ -29,9 +32,9 @@ metadata:
     archived: false
     full_name: microsoft/FLAML
     html_url: https://github.com/microsoft/FLAML
-    created_at: "2020-08-20T20:46:11Z"
-    pushed_at: "2026-08-03T04:53:15Z"
-    description: "A fast library for AutoML and tuning. Join our Discord: https://discord.gg/Cppx2vSPVP."
+    created_at: '2020-08-20T20:46:11Z'
+    pushed_at: '2026-08-03T04:53:15Z'
+    description: 'A fast library for AutoML and tuning. Join our Discord: https://discord.gg/Cppx2vSPVP.'
     homepage: https://microsoft.github.io/FLAML/
     topics:
       - automated-machine-learning
@@ -53,14 +56,18 @@ metadata:
       - tabular-data
       - timeseries-forecasting
       - tuning
-    last_checked_at: "2026-08-03T05:17:01.757Z"
+    last_checked_at: '2026-08-03T05:17:01.757Z'
     readme:
-      fetched_at: "2026-08-03T05:17:01.757Z"
+      fetched_at: '2026-08-03T05:17:01.757Z'
       bytes: 7409
 insights:
   summary: FLAML is a Python library for fast AutoML and hyperparameter tuning under resource constraints.
-  why_it_matters: It helps developers quickly find effective ML models with minimal compute, automating model selection and tuning for common tasks like classification and regression.
-  mental_damage: Yet another tool promising to automate the part of ML work that already felt like automation—now you can hyperparameter-tune your existential dread.
+  why_it_matters: >-
+    It helps developers quickly find effective ML models with minimal compute, automating model selection and tuning for
+    common tasks like classification and regression.
+  mental_damage: >-
+    Yet another tool promising to automate the part of ML work that already felt like automation—now you can
+    hyperparameter-tune your existential dread.
   tags:
     - automl
     - hyperparameter-tuning
@@ -69,31 +76,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: FLAML is a general-purpose AutoML library focused on data science workflows, not developer-facing AI tooling like coding agents, agents orchestration, or app building.
+  reason: >-
+    FLAML is a general-purpose AutoML library focused on data science workflows, not developer-facing AI tooling like
+    coding agents, agents orchestration, or app building.
   evidence:
-    - "Repo description: 'A fast library for AutoML and tuning'"
-    - "README: Focuses on ML/AI workflow automation, model selection, and hyperparameter optimization for tasks like classification and regression"
-    - "Source-list context: Included in Awesome-LLMOps under AutoML section"
+    - 'Repo description: ''A fast library for AutoML and tuning'''
+    - >-
+      README: Focuses on ML/AI workflow automation, model selection, and hyperparameter optimization for tasks like
+      classification and regression
+    - 'Source-list context: Included in Awesome-LLMOps under AutoML section'
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (4342) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:01.757Z"
+    updated_at: '2026-08-03T05:17:01.757Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -108,11 +119,15 @@ processing:
       input_hash: sha256:dd9f10c4e19d87703fc265a41dfdefc1ed0d998752b27a92202429a939b57b8a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: FLAML is a general-purpose AutoML library focused on data science workflows, not developer-facing AI tooling like coding agents, agents orchestration, or app building.
+      decision_reason: >-
+        FLAML is a general-purpose AutoML library focused on data science workflows, not developer-facing AI tooling
+        like coding agents, agents orchestration, or app building.
       decision_evidence:
-        - "Repo description: 'A fast library for AutoML and tuning'"
-        - "README: Focuses on ML/AI workflow automation, model selection, and hyperparameter optimization for tasks like classification and regression"
-        - "Source-list context: Included in Awesome-LLMOps under AutoML section"
+        - 'Repo description: ''A fast library for AutoML and tuning'''
+        - >-
+          README: Focuses on ML/AI workflow automation, model selection, and hyperparameter optimization for tasks like
+          classification and regression
+        - 'Source-list context: Included in Awesome-LLMOps under AutoML section'
       category_candidates: []
       contrastive_reason: null
       review_reason: null

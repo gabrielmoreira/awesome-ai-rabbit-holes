@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dragonfly__dragonfly__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,11 @@ provenance:
           - AutoML
         anchor_text: Dragonfly
         extracted_url: https://github.com/dragonfly/dragonfly
-        surrounding_text: "| [Dragonfly](https://github.com/dragonfly/dragonfly)                          | An open source python library for scalable Bayesian optimisation.                                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/dragonfly/dragonfly.svg?style=flat-square)             |"
+        surrounding_text: >-
+          | [Dragonfly](https://github.com/dragonfly/dragonfly)                          | An open source python library
+          for scalable Bayesian
+          optimisation.                                                                                                              
+          | ![GitHub Badge](https://img.shields.io/github/stars/dragonfly/dragonfly.svg?style=flat-square)             |
         confidence: high
 metadata:
   github:
@@ -29,19 +33,23 @@ metadata:
     archived: false
     full_name: dragonfly/dragonfly
     html_url: https://github.com/dragonfly/dragonfly
-    created_at: "2018-04-20T22:19:50Z"
-    pushed_at: "2023-06-19T20:23:17Z"
+    created_at: '2018-04-20T22:19:50Z'
+    pushed_at: '2023-06-19T20:23:17Z'
     description: An open source python library for scalable Bayesian optimisation.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:44.151Z"
+    last_checked_at: '2026-09-14T04:13:44.151Z'
     readme:
-      fetched_at: "2026-09-14T04:13:44.151Z"
+      fetched_at: '2026-09-14T04:13:44.151Z'
       bytes: 7519
 insights:
   summary: An open source Python library for scalable Bayesian optimisation.
-  why_it_matters: It helps developers optimize expensive black-box functions with features for high-dimensional, parallel, multi-fidelity, and multi-objective scenarios.
-  mental_damage: Because nothing says 'modern developer workflow' like spending your afternoon tuning hyperparameters with Bayesian methods from 2018.
+  why_it_matters: >-
+    It helps developers optimize expensive black-box functions with features for high-dimensional, parallel,
+    multi-fidelity, and multi-objective scenarios.
+  mental_damage: >-
+    Because nothing says 'modern developer workflow' like spending your afternoon tuning hyperparameters with Bayesian
+    methods from 2018.
   tags:
     - bayesian-optimization
     - python-library
@@ -49,31 +57,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose ML optimization library, not a developer-tooling product focused on coding agents, workflows, or AI-assisted development.
+  reason: >-
+    This is a general-purpose ML optimization library, not a developer-tooling product focused on coding agents,
+    workflows, or AI-assisted development.
   evidence:
     - Repo description explicitly states it is a Python library for Bayesian optimisation
-    - README focuses on mathematical optimization use cases (e.g., neural architecture search) rather than developer workflows
+    - >-
+      README focuses on mathematical optimization use cases (e.g., neural architecture search) rather than developer
+      workflows
     - Source-list context places it in AutoML, not developer tooling
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (894) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:44.151Z"
+    updated_at: '2026-09-14T04:13:44.151Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -88,10 +100,14 @@ processing:
       input_hash: sha256:4641e0c81bef117e8074d8cd1e5bbe50ed6d8d911b83ecbccf7663b87edc412c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a general-purpose ML optimization library, not a developer-tooling product focused on coding agents, workflows, or AI-assisted development.
+      decision_reason: >-
+        This is a general-purpose ML optimization library, not a developer-tooling product focused on coding agents,
+        workflows, or AI-assisted development.
       decision_evidence:
         - Repo description explicitly states it is a Python library for Bayesian optimisation
-        - README focuses on mathematical optimization use cases (e.g., neural architecture search) rather than developer workflows
+        - >-
+          README focuses on mathematical optimization use cases (e.g., neural architecture search) rather than developer
+          workflows
         - Source-list context places it in AutoML, not developer tooling
       category_candidates: []
       contrastive_reason: null

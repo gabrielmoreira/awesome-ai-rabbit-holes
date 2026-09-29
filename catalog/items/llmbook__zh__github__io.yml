@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__llmbook__zh__github__io__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language textbook on large language models covering architecture, training, alignment, and applications, hosted as a static GitHub Pages site.
-  why_it_matters: Provides a structured, developer-friendly resource for understanding LLM internals and prompt engineering techniques relevant to AI-assisted software development.
-  mental_damage: Another PDF-heavy 'comprehensive guide' that pretends to be a tool while you’re just trying to find the MCP server list you saw referenced in a footnote.
+  summary: >-
+    A Chinese-language textbook on large language models covering architecture, training, alignment, and applications,
+    hosted as a static GitHub Pages site.
+  why_it_matters: >-
+    Provides a structured, developer-friendly resource for understanding LLM internals and prompt engineering techniques
+    relevant to AI-assisted software development.
+  mental_damage: >-
+    Another PDF-heavy 'comprehensive guide' that pretends to be a tool while you’re just trying to find the MCP server
+    list you saw referenced in a footnote.
   tags:
     - llm
     - education
@@ -47,24 +53,34 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational resource and reference book, not a developer-facing AI tool, agent, framework, or infrastructure product that actively aids in coding workflows.
+  reason: >-
+    This is an educational resource and reference book, not a developer-facing AI tool, agent, framework, or
+    infrastructure product that actively aids in coding workflows.
   evidence:
-    - Described as a Chinese textbook on LLMs authored by researchers, published via 高等教育出版社, with course materials and citation format provided.
-    - Primary content includes textbook chapters, PPT slides, code snippets, and teaching videos — all educational artifacts, not operational tools.
-    - Listed in awesome-LLM-resources under the '书籍 Book' section, confirming its identity as a curated educational resource rather than a tool.
+    - >-
+      Described as a Chinese textbook on LLMs authored by researchers, published via 高等教育出版社, with course materials and
+      citation format provided.
+    - >-
+      Primary content includes textbook chapters, PPT slides, code snippets, and teaching videos — all educational
+      artifacts, not operational tools.
+    - >-
+      Listed in awesome-LLM-resources under the '书籍 Book' section, confirming its identity as a curated educational
+      resource rather than a tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -72,7 +88,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:31:31.385Z"
+    updated_at: '2026-09-28T04:31:31.385Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -85,11 +101,19 @@ processing:
       input_hash: sha256:f78dff0bd458c8604f37870997bf31048fa67e55bb94b50c7b07388bef90044d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational resource and reference book, not a developer-facing AI tool, agent, framework, or infrastructure product that actively aids in coding workflows.
+      decision_reason: >-
+        This is an educational resource and reference book, not a developer-facing AI tool, agent, framework, or
+        infrastructure product that actively aids in coding workflows.
       decision_evidence:
-        - Described as a Chinese textbook on LLMs authored by researchers, published via 高等教育出版社, with course materials and citation format provided.
-        - Primary content includes textbook chapters, PPT slides, code snippets, and teaching videos — all educational artifacts, not operational tools.
-        - Listed in awesome-LLM-resources under the '书籍 Book' section, confirming its identity as a curated educational resource rather than a tool.
+        - >-
+          Described as a Chinese textbook on LLMs authored by researchers, published via 高等教育出版社, with course materials
+          and citation format provided.
+        - >-
+          Primary content includes textbook chapters, PPT slides, code snippets, and teaching videos — all educational
+          artifacts, not operational tools.
+        - >-
+          Listed in awesome-LLM-resources under the '书籍 Book' section, confirming its identity as a curated educational
+          resource rather than a tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

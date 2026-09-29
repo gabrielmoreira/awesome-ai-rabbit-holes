@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mistralai__mistral-finetune__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: mistral-finetune
         extracted_url: https://github.com/mistralai/mistral-finetune
-        surrounding_text: "13. [mistral-finetune](https://github.com/mistralai/mistral-finetune): A light-weight codebase that enables memory-efficient and performant finetuning of Mistral's models."
+        surrounding_text: >-
+          13. [mistral-finetune](https://github.com/mistralai/mistral-finetune): A light-weight codebase that enables
+          memory-efficient and performant finetuning of Mistral's models.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,23 @@ metadata:
     archived: true
     full_name: mistralai/mistral-finetune
     html_url: https://github.com/mistralai/mistral-finetune
-    created_at: "2024-05-24T18:19:28Z"
-    pushed_at: "2026-06-16T15:22:10Z"
+    created_at: '2024-05-24T18:19:28Z'
+    pushed_at: '2026-06-16T15:22:10Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:17:04.768Z"
+    last_checked_at: '2026-08-03T05:17:04.768Z'
     readme:
-      fetched_at: "2026-08-03T05:17:04.768Z"
+      fetched_at: '2026-08-03T05:17:04.768Z'
       bytes: 26009
 insights:
   summary: Archived repository for fine-tuning Mistral large language models using parameter-efficient methods.
-  why_it_matters: Provided a reference implementation for adapting Mistral models to specific tasks via LoRA and QLoRA, useful for developers building custom AI capabilities.
-  mental_damage: Another fine-tuning script that worked once, got starred during the LLM gold rush, and now sits quietly archived like a fossil in the shale of forgotten Hugging Face spaces.
+  why_it_matters: >-
+    Provided a reference implementation for adapting Mistral models to specific tasks via LoRA and QLoRA, useful for
+    developers building custom AI capabilities.
+  mental_damage: >-
+    Another fine-tuning script that worked once, got starred during the LLM gold rush, and now sits quietly archived
+    like a fossil in the shale of forgotten Hugging Face spaces.
   tags:
     - fine-tuning
     - mistral
@@ -50,31 +56,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is an archived model training repository with no ongoing developer tooling utility or active maintenance, and does not represent a usable product, workflow, or infrastructure for software developers.
+  reason: >-
+    Excluded because it is an archived model training repository with no ongoing developer tooling utility or active
+    maintenance, and does not represent a usable product, workflow, or infrastructure for software developers.
   evidence:
-    - "Archived: yes"
-    - "Pushed at: 2026-06-16T15:22:10Z (despite being archived, push date is in the future, indicating possible metadata inconsistency or error)"
-    - "Source-list context: appears in awesome-LLM-resources under '微调 Fine-Tuning' section as a resource, not a tool"
+    - 'Archived: yes'
+    - >-
+      Pushed at: 2026-06-16T15:22:10Z (despite being archived, push date is in the future, indicating possible metadata
+      inconsistency or error)
+    - 'Source-list context: appears in awesome-LLM-resources under ''微调 Fine-Tuning'' section as a resource, not a tool'
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (3090) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:04.768Z"
+    updated_at: '2026-08-03T05:17:04.768Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -89,11 +99,15 @@ processing:
       input_hash: sha256:7dd8916d37d13e2d8df9f9def7c15738cca17468487b79294bb13afcb95c1af1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Excluded because it is an archived model training repository with no ongoing developer tooling utility or active maintenance, and does not represent a usable product, workflow, or infrastructure for software developers.
+      decision_reason: >-
+        Excluded because it is an archived model training repository with no ongoing developer tooling utility or active
+        maintenance, and does not represent a usable product, workflow, or infrastructure for software developers.
       decision_evidence:
-        - "Archived: yes"
-        - "Pushed at: 2026-06-16T15:22:10Z (despite being archived, push date is in the future, indicating possible metadata inconsistency or error)"
-        - "Source-list context: appears in awesome-LLM-resources under '微调 Fine-Tuning' section as a resource, not a tool"
+        - 'Archived: yes'
+        - >-
+          Pushed at: 2026-06-16T15:22:10Z (despite being archived, push date is in the future, indicating possible
+          metadata inconsistency or error)
+        - 'Source-list context: appears in awesome-LLM-resources under ''微调 Fine-Tuning'' section as a resource, not a tool'
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cspr__trade__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: CSPR.trade
         extracted_url: https://cspr.trade
-        surrounding_text: "- [make-software/cspr-trade-mcp](https://github.com/make-software/cspr-trade-mcp) [![make-software/cspr-trade-mcp MCP server](https://glama.ai/mcp/servers/make-software/cspr-trade-mcp/badges/score.svg)](https://glama.ai/mcp/servers/make-software/cspr-trade-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Non-custodial DEX trading on the Casper Network via [CSPR.trade](https://cspr.trade). 14 tools for market data, swaps, liquidity, and account queries. Transactions built remotely, signed locally — private keys never leave the machine. Public endpoint: `https://mcp.cspr.trade/mcp`"
+        surrounding_text: >-
+          - [make-software/cspr-trade-mcp](https://github.com/make-software/cspr-trade-mcp)
+          [![make-software/cspr-trade-mcp MCP
+          server](https://glama.ai/mcp/servers/make-software/cspr-trade-mcp/badges/score.svg)](https://glama.ai/mcp/servers/make-software/cspr-trade-mcp)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Non-custodial DEX trading on the Casper Network via [CSPR.trade](https://cspr.trade). 14
+          tools for market data, swaps, liquidity, and account queries. Transactions built remotely, signed locally —
+          private keys never leave the machine. Public endpoint: `https://mcp.cspr.trade/mcp`
         confidence: high
 metadata:
   github:
@@ -56,12 +62,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,10 +76,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:36:47.344Z"
+    updated_at: '2026-09-24T04:36:47.344Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for cspr__trade: Invalid AI response structure: Invalid confidence value: undefined"
+      message: >-
+        Catalog LLM categorization failed for cspr__trade: Invalid AI response structure: Invalid confidence value:
+        undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

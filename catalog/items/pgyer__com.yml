@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pgyer__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,12 @@ provenance:
           - Official Servers
         anchor_text: PGYER
         extracted_url: https://pgyer.com
-        surrounding_text: "- **[PGYER](https://github.com/PGYER/pgyer-mcp-server)** - MCP Server for [PGYER](https://www.pgyer.com/) platform, supports uploading, querying apps, etc."
+        surrounding_text: >-
+          - **[PGYER](https://github.com/PGYER/pgyer-mcp-server)** - MCP Server for [PGYER](https://www.pgyer.com/)
+          platform, supports uploading, querying apps, etc.
         confidence: high
     - id: discovery__www__pgyer__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +35,9 @@ provenance:
           - Official Servers
         anchor_text: PGYER
         extracted_url: https://www.pgyer.com
-        surrounding_text: "- **[PGYER](https://github.com/PGYER/pgyer-mcp-server)** - MCP Server for [PGYER](https://www.pgyer.com/) platform, supports uploading, querying apps, etc."
+        surrounding_text: >-
+          - **[PGYER](https://github.com/PGYER/pgyer-mcp-server)** - MCP Server for [PGYER](https://www.pgyer.com/)
+          platform, supports uploading, querying apps, etc.
         confidence: high
 metadata:
   github:
@@ -51,8 +55,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Pgyer is a beta app distribution platform for mobile developers to upload, test, and distribute iOS and Android apps via QR codes and download links.
-  why_it_matters: It streamlines internal testing and deployment workflows for mobile developers by eliminating manual build distribution.
+  summary: >-
+    Pgyer is a beta app distribution platform for mobile developers to upload, test, and distribute iOS and Android apps
+    via QR codes and download links.
+  why_it_matters: >-
+    It streamlines internal testing and deployment workflows for mobile developers by eliminating manual build
+    distribution.
   mental_damage: Another step in the endless chase to avoid TestFlight and Play Store internal testing queues.
   tags:
     - mobile
@@ -63,21 +71,23 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Pgyer is a mobile app distribution service, not an AI tool, agent, or developer-facing infrastructure with AI integration as its core function.
+  reason: >-
+    Pgyer is a mobile app distribution service, not an AI tool, agent, or developer-facing infrastructure with AI
+    integration as its core function.
   evidence:
-    - "Primary function: beta app distribution via QR codes and download links for iOS/Android"
+    - 'Primary function: beta app distribution via QR codes and download links for iOS/Android'
     - No AI agent, coding assistant, model integration, or workflow automation claims in description or site context
     - Listed in awesome-mcp-servers only as a generic service, not as an MCP server or AI tool
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:44:03.758Z"
+    updated_at: '2026-09-28T04:44:03.758Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,9 +100,11 @@ processing:
       input_hash: sha256:2815487aadefe19ea57c40ee4b559ba893e0b69b6cf853fc402e85e0d21389a5
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Pgyer is a mobile app distribution service, not an AI tool, agent, or developer-facing infrastructure with AI integration as its core function.
+      decision_reason: >-
+        Pgyer is a mobile app distribution service, not an AI tool, agent, or developer-facing infrastructure with AI
+        integration as its core function.
       decision_evidence:
-        - "Primary function: beta app distribution via QR codes and download links for iOS/Android"
+        - 'Primary function: beta app distribution via QR codes and download links for iOS/Android'
         - No AI agent, coding assistant, model integration, or workflow automation claims in description or site context
         - Listed in awesome-mcp-servers only as a generic service, not as an MCP server or AI tool
       category_candidates: []
@@ -101,7 +113,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.968Z"
+    updated_at: '2026-07-21T15:20:21.968Z'
     cause: null
     next_retry_at: null
   stars:

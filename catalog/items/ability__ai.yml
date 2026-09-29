@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ability__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Ability AI
         anchor_text: Ability AI
         extracted_url: https://ability.ai
-        surrounding_text: "## [Ability AI](https://ability.ai/)"
+        surrounding_text: '## [Ability AI](https://ability.ai/)'
         confidence: high
     - id: discovery__www__ability__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Ability AI
         anchor_text: Ability AI
         extracted_url: https://ability.ai
-        surrounding_text: "## [Ability AI](https://ability.ai/)"
+        surrounding_text: '## [Ability AI](https://ability.ai/)'
         confidence: high
 metadata:
   github:
@@ -51,7 +51,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Ability AI provides an open-source production runtime (Trinity) and self-improving cognitive core (Cornelius) for sovereign agentic systems.
+  summary: >-
+    Ability AI provides an open-source production runtime (Trinity) and self-improving cognitive core (Cornelius) for
+    sovereign agentic systems.
   why_it_matters: It lets developers build, own, and improve AI agents on their own infrastructure without vendor lock-in.
   mental_damage: Another open-source agent platform promising sovereignty while quietly hoping you’ll pay for the managed tier.
   tags:
@@ -61,7 +63,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Ability AI is an enterprise-grade agent orchestration platform offering a managed runtime and cognitive core for coordinating agent fleets in production.
+  reason: >-
+    Ability AI is an enterprise-grade agent orchestration platform offering a managed runtime and cognitive core for
+    coordinating agent fleets in production.
   evidence:
     - Describes Trinity as an open-source production runtime for agents and Cornelius as a self-improving cognitive core
     - Markets managed services, partner programs, and enterprise features like SSO, RBAC, and compliance suite
@@ -71,12 +75,12 @@ placement:
   secondary_categories: []
   section: Domain & Enterprise Platforms
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:38:23.937Z"
+    updated_at: '2026-09-28T04:38:23.937Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,20 +93,26 @@ processing:
       input_hash: sha256:7956efd486e8995cc1c7a7782888558bad0ed557d6bbb112a356f57a34fa4d98
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Ability AI is an enterprise-grade agent orchestration platform offering a managed runtime and cognitive core for coordinating agent fleets in production.
+      decision_reason: >-
+        Ability AI is an enterprise-grade agent orchestration platform offering a managed runtime and cognitive core for
+        coordinating agent fleets in production.
       decision_evidence:
-        - Describes Trinity as an open-source production runtime for agents and Cornelius as a self-improving cognitive core
+        - >-
+          Describes Trinity as an open-source production runtime for agents and Cornelius as a self-improving cognitive
+          core
         - Markets managed services, partner programs, and enterprise features like SSO, RBAC, and compliance suite
         - Positioned as a sovereign deployment platform for running agent teams in business processes
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because Ability AI is an operated platform for managing agent teams, not a code-first SDK developers import to build agents.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because Ability AI is an operated platform for managing agent
+        teams, not a code-first SDK developers import to build agents.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.688Z"
+    updated_at: '2026-07-20T15:10:47.688Z'
     cause: null
     next_retry_at: null
   stars:

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__magic__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Magic
         extracted_url: https://magic.dev
-        surrounding_text: "- **[Magic](https://magic.dev/)** – AI software engineer platform that handles complex development tasks autonomously."
+        surrounding_text: >-
+          - **[Magic](https://magic.dev/)** – AI software engineer platform that handles complex development tasks
+          autonomously.
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Magic is an AI research company focused on building safe AGI through frontier code models and automated software engineering.
-  why_it_matters: It signals high investment in AI-driven code generation research, which may influence future developer tools even if not yet a direct developer-facing product.
-  mental_damage: Another AGI moonshot that reminds developers their next IDE upgrade might come from a lab with more GPUs than product releases.
+  summary: >-
+    Magic is an AI research company focused on building safe AGI through frontier code models and automated software
+    engineering.
+  why_it_matters: >-
+    It signals high investment in AI-driven code generation research, which may influence future developer tools even if
+    not yet a direct developer-facing product.
+  mental_damage: >-
+    Another AGI moonshot that reminds developers their next IDE upgrade might come from a lab with more GPUs than
+    product releases.
   tags:
     - agi-research
     - code-models
@@ -46,21 +54,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Magic is an AI research lab focused on foundational model development and AGI goals, not a developer-facing tool, agent, framework, or infrastructure that software developers can directly use in their workflow.
+  reason: >-
+    Magic is an AI research lab focused on foundational model development and AGI goals, not a developer-facing tool,
+    agent, framework, or infrastructure that software developers can directly use in their workflow.
   evidence:
-    - "Repo description: (none)"
-    - "Scraped site context: Magic is an AI company that is working toward building safe AGI to accelerate humanity’s progress on the world’s most important problems."
-    - "Primary page excerpt: ...building frontier code models to automate software engineering and research... We believe the most promising path to safe AGI is to automate AI research and code generation..."
+    - 'Repo description: (none)'
+    - >-
+      Scraped site context: Magic is an AI company that is working toward building safe AGI to accelerate humanity’s
+      progress on the world’s most important problems.
+    - >-
+      Primary page excerpt: ...building frontier code models to automate software engineering and research... We believe
+      the most promising path to safe AGI is to automate AI research and code generation...
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:31:53.641Z"
+    updated_at: '2026-09-28T04:31:53.641Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,11 +96,17 @@ processing:
       input_hash: sha256:859ad2bf7d93089653edae0ce581358038c98912b13c0312794ae864a687b3ca
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Magic is an AI research lab focused on foundational model development and AGI goals, not a developer-facing tool, agent, framework, or infrastructure that software developers can directly use in their workflow.
+      decision_reason: >-
+        Magic is an AI research lab focused on foundational model development and AGI goals, not a developer-facing
+        tool, agent, framework, or infrastructure that software developers can directly use in their workflow.
       decision_evidence:
-        - "Repo description: (none)"
-        - "Scraped site context: Magic is an AI company that is working toward building safe AGI to accelerate humanity’s progress on the world’s most important problems."
-        - "Primary page excerpt: ...building frontier code models to automate software engineering and research... We believe the most promising path to safe AGI is to automate AI research and code generation..."
+        - 'Repo description: (none)'
+        - >-
+          Scraped site context: Magic is an AI company that is working toward building safe AGI to accelerate humanity’s
+          progress on the world’s most important problems.
+        - >-
+          Primary page excerpt: ...building frontier code models to automate software engineering and research... We
+          believe the most promising path to safe AGI is to automate AI research and code generation...
       category_candidates: []
       contrastive_reason: null
       review_reason: null

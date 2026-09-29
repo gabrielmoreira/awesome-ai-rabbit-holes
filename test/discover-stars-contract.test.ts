@@ -60,7 +60,7 @@ function makeGitHubItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
     insights: { summary: null, why_it_matters: null, mental_damage: null, tags: [], confidence: null },
     curation: { status: "pending", reason: null, evidence: [] },
     placement: { primary_category: null, section: null },
-    lifecycle: { status: "incubating" },
+    lifecycle: { status: "curated" },
     processing: {
       discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
       stars: { status: "pending", updated_at: null },
@@ -295,7 +295,6 @@ describe("runStars", () => {
       loadItems: () => [staleGithub, anotherStaleGithub],
       saveItem: (item) => { savedIds.push(item.id); },
       loadSettings: () => ({
-        promotion: { incubating_until_stars: 150 },
         github: { metadata_refresh_days: 7 },
         budgets: { discover_minutes: 10, stars_minutes: 0, categorize_minutes: 60 },
         concurrency: { github: 1, site: 2, llm: 2 },
@@ -323,7 +322,6 @@ describe("runStars", () => {
       loadItems: () => items,
       saveItem: (item) => { savedIds.push(item.id); },
       loadSettings: () => ({
-        promotion: { incubating_until_stars: 150 },
         github: { metadata_refresh_days: 7 },
         budgets: { discover_minutes: 10, stars_minutes: 10, categorize_minutes: 60 },
         concurrency: { github: 1, site: 2, llm: 2 },
@@ -360,7 +358,6 @@ describe("runStars", () => {
       loadItems: () => [failing, succeeding],
       saveItem: (item) => { saved.set(item.id, item); },
       loadSettings: () => ({
-        promotion: { incubating_until_stars: 150 },
         github: { metadata_refresh_days: 7 },
         budgets: { discover_minutes: 10, stars_minutes: 10, categorize_minutes: 60 },
         concurrency: { github: 1, site: 2, llm: 2 },
@@ -398,7 +395,6 @@ describe("runStars", () => {
     await runStars(undefined, {}, {
       loadItems: () => [item],
       loadSettings: () => ({
-        promotion: { incubating_until_stars: 500 },
         github: { metadata_refresh_days: 30 },
         budgets: { discover_minutes: 10, stars_minutes: 10, categorize_minutes: 60 },
         concurrency: { github: 1, site: 2, llm: 2 },
@@ -422,7 +418,6 @@ describe("runStars", () => {
       loadItems: () => [item],
       saveItem: (candidate) => { saved.set(candidate.id, candidate); },
       loadSettings: () => ({
-        promotion: { incubating_until_stars: 500 },
         github: { metadata_refresh_days: 7 },
         budgets: { discover_minutes: 10, stars_minutes: 10, categorize_minutes: 60 },
         concurrency: { github: 1, site: 2, llm: 2 },
@@ -444,7 +439,7 @@ describe("runStars", () => {
       }),
     });
 
-    expect(saved.get(item.id)?.lifecycle.status).toBe("incubating");
+    expect(saved.get(item.id)?.lifecycle.status).toBe("curated");
   });
 });
 
@@ -455,7 +450,6 @@ describe("refreshItemStars", () => {
     const refreshed = await refreshItemStars(
       item,
       undefined,
-      150,
       async () => item,
       async () => "unknown",
     );
@@ -470,7 +464,6 @@ describe("refreshItemStars", () => {
     const refreshed = await refreshItemStars(
       item,
       undefined,
-      150,
       async () => item,
       async () => "missing",
     );

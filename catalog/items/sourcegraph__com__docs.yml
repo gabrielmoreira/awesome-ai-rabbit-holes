@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__sourcegraph__com__docs__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Cody by Sourcegraph
         anchor_text: Cody by Sourcegraph
         extracted_url: https://docs.sourcegraph.com/cody
-        surrounding_text: "## [Cody by Sourcegraph](https://docs.sourcegraph.com/cody)"
+        surrounding_text: '## [Cody by Sourcegraph](https://docs.sourcegraph.com/cody)'
         confidence: high
     - id: discovery__sourcegraph__com__docs__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,9 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Cody (Sourcegraph)
         extracted_url: https://about.sourcegraph.com/cody
-        surrounding_text: "- **[Cody (Sourcegraph)](https://about.sourcegraph.com/cody)** – AI assistant for code understanding, navigation, and generation across entire codebases."
+        surrounding_text: >-
+          - **[Cody (Sourcegraph)](https://about.sourcegraph.com/cody)** – AI assistant for code understanding,
+          navigation, and generation across entire codebases.
         confidence: high
 metadata:
   github:
@@ -69,12 +71,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.597Z"
+    updated_at: '2026-05-06T22:12:15.597Z'
     cause: null
     next_retry_at: null
   stars:
@@ -83,7 +85,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:37:44.531Z"
+    updated_at: '2026-09-28T04:37:44.531Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template

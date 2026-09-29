@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__designarena__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: A crowdsourced benchmarking platform for evaluating AI-generated design outputs side-by-side.
-  why_it_matters: It provides human-centric preference data to help determine which models possess 'taste' in creative tasks like UI, web, and 3D design.
-  mental_damage: Nothing says 'the future of creative engineering' quite like having to crowdsource aesthetic consensus via manual voting.
+  why_it_matters: >-
+    It provides human-centric preference data to help determine which models possess 'taste' in creative tasks like UI,
+    web, and 3D design.
+  mental_damage: >-
+    Nothing says 'the future of creative engineering' quite like having to crowdsource aesthetic consensus via manual
+    voting.
   tags:
     - benchmarking
     - design-ai
@@ -47,7 +51,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a general-purpose creative benchmark rather than a developer-facing tool for coding, infrastructure, or software engineering workflows.
+  reason: >-
+    The tool is a general-purpose creative benchmark rather than a developer-facing tool for coding, infrastructure, or
+    software engineering workflows.
   evidence:
     - Focuses on creative prompts (Website, Slides, Mobile Apps, Game Dev) rather than code/repo work
     - Primary function is crowdsourced user voting for design 'taste'
@@ -56,12 +62,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,10 +76,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:37:26.097Z"
+    updated_at: '2026-09-24T04:37:26.097Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for designarena__ai: Invalid AI response structure: Invalid confidence value: undefined"
+      message: >-
+        Catalog LLM categorization failed for designarena__ai: Invalid AI response structure: Invalid confidence value:
+        undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -85,7 +93,9 @@ processing:
       input_hash: sha256:45a6952e0d656fa8c20d8bc082c4c5914354fac26f4598fdccd282220a7d907a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a general-purpose creative benchmark rather than a developer-facing tool for coding, infrastructure, or software engineering workflows.
+      decision_reason: >-
+        The tool is a general-purpose creative benchmark rather than a developer-facing tool for coding, infrastructure,
+        or software engineering workflows.
       decision_evidence:
         - Focuses on creative prompts (Website, Slides, Mobile Apps, Game Dev) rather than code/repo work
         - Primary function is crowdsourced user voting for design 'taste'

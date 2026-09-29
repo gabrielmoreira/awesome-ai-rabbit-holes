@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hikmahtech__drwhome__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: hikmahtech/drwhome
         extracted_url: https://github.com/hikmahtech/drwhome
-        surrounding_text: "- [hikmahtech/drwhome](https://github.com/hikmahtech/drwhome) [![hikmahtech/drwhome MCP server](https://glama.ai/mcp/servers/hikmahtech/drwhome/badges/score.svg)](https://glama.ai/mcp/servers/hikmahtech/drwhome) 📇 ☁️ – Remote MCP server at `https://drwho.me/mcp/mcp` with 10 developer utilities: base64 encode/decode, JWT decode (no verify), DNS lookup via Cloudflare DoH, UUID v4/v7, URL encode/decode, JSON format, User-Agent parse, IP lookup via ipinfo. Open access over streamable HTTP — point Claude Desktop at the URL."
+        surrounding_text: >-
+          - [hikmahtech/drwhome](https://github.com/hikmahtech/drwhome) [![hikmahtech/drwhome MCP
+          server](https://glama.ai/mcp/servers/hikmahtech/drwhome/badges/score.svg)](https://glama.ai/mcp/servers/hikmahtech/drwhome)
+          📇 ☁️ – Remote MCP server at `https://drwho.me/mcp/mcp` with 10 developer utilities: base64 encode/decode, JWT
+          decode (no verify), DNS lookup via Cloudflare DoH, UUID v4/v7, URL encode/decode, JSON format, User-Agent
+          parse, IP lookup via ipinfo. Open access over streamable HTTP — point Claude Desktop at the URL.
         confidence: high
 metadata:
   github:
@@ -51,24 +56,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-08-03T05:16:51.223Z"
+    updated_at: '2026-08-03T05:16:51.223Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: hikmahtech/drwhome"
+      message: 'GitHub repository not found: hikmahtech/drwhome'
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

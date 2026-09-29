@@ -1,0 +1,100 @@
+id: github__ably-labs__jev-pong
+kind: github-repo
+name: ably-labs/jev-pong
+canonical_url: https://github.com/ably-labs/jev-pong
+identity:
+  github_repo: ably-labs/jev-pong
+provenance:
+  discoveries:
+    - id: discovery__github__ably-labs__jev-pong__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Games & simulations (73)
+        anchor_text: jev-pong
+        extracted_url: https://github.com/ably-labs/jev-pong
+        surrounding_text: >-
+          | [jev-pong](https://github.com/ably-labs/jev-pong) | ★ 0 | TypeScript | 2026-09-19 | Pong benchmark where
+          every ball step is a model decision, comparing Jev with LLMs through Vercel AI Gateway. |
+        confidence: high
+    - id: discovery__github__ably-labs__jev-pong__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Evaluation & Benchmarking
+        anchor_text: Jev Pong
+        extracted_url: https://github.com/ably-labs/jev-pong
+        surrounding_text: >-
+          - [Jev Pong](https://github.com/ably-labs/jev-pong)
+          ![stars](https://img.shields.io/github/stars/ably-labs/jev-pong?style=flat-square&label=%E2%98%85) - Model
+          comparison: Pong where the ball advances one step per model decision, putting Jev head-to-head with LLMs
+          through Vercel AI Gateway.
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 3
+    license: Apache-2.0
+    archived: false
+    full_name: ably-labs/jev-pong
+    html_url: https://github.com/ably-labs/jev-pong
+    created_at: '2026-09-17T19:12:41Z'
+    pushed_at: '2026-09-19T16:40:44Z'
+    description: >-
+      Pong where the ball moves one step per model decision. Jev vs LLMs via Vercel AI Gateway, every player and agent
+      on an Ably channel.
+    homepage: https://jev-pong.ably.dev
+    topics: []
+    last_checked_at: '2026-09-29T13:08:25.409Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:25.409Z'
+      bytes: 13008
+insights:
+  summary: >-
+    Pong where the ball moves one step per model decision. Jev vs LLMs via Vercel AI Gateway, every player and agent on
+    an Ably channel.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  evidence:
+    - jev-latest choice confidence 0.42
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Evals, Benchmarks & Calibration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.408Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:25.409Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

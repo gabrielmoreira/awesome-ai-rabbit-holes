@@ -1,0 +1,82 @@
+id: github__frodi-karlsson__onesie
+kind: github-repo
+name: frodi-karlsson/onesie
+canonical_url: https://github.com/frodi-karlsson/onesie
+identity:
+  github_repo: frodi-karlsson/onesie
+provenance:
+  discoveries:
+    - id: discovery__github__frodi-karlsson__onesie__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: onesie
+        extracted_url: https://github.com/frodi-karlsson/onesie
+        surrounding_text: >-
+          - [onesie](https://github.com/frodi-karlsson/onesie) - Unix-pipeable System One CLI for TypeSafe Jev (also
+          OpenRouter/Berget): pipe text, ask a typed question, script the answer. [Project
+          guide](community/projects/tools/frodi-karlsson-onesie.md).
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: frodi-karlsson/onesie
+    html_url: https://github.com/frodi-karlsson/onesie
+    created_at: '2026-09-20T22:31:02Z'
+    pushed_at: '2026-09-29T07:17:43Z'
+    description: An expressive Unix-pipeable CLI for System One models like Jev
+    homepage: ''
+    topics:
+      - cli
+      - go
+      - golang
+      - jev
+      - systemone
+    last_checked_at: '2026-09-29T13:11:26.581Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:26.581Z'
+      bytes: 7443
+insights:
+  summary: An expressive Unix-pipeable CLI for System One models like Jev
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  evidence:
+    - jev-latest choice confidence 0.98
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Client SDKs & CLIs
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.457Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:26.581Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

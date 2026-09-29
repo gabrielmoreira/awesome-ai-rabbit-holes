@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lightricks__ltx-2__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -20,7 +20,7 @@ provenance:
           - 模型
         anchor_text: Training
         extracted_url: https://github.com/lightricks/ltx-2
-        surrounding_text: "- [Training](https://github.com/Lightricks/LTX-2/blob/main/packages/ltx-trainer/README.md)"
+        surrounding_text: '- [Training](https://github.com/Lightricks/LTX-2/blob/main/packages/ltx-trainer/README.md)'
         confidence: high
 metadata:
   github:
@@ -30,22 +30,26 @@ metadata:
     archived: false
     full_name: Lightricks/LTX-2
     html_url: https://github.com/Lightricks/LTX-2
-    created_at: "2026-01-03T13:16:29Z"
-    pushed_at: "2026-07-08T05:50:18Z"
+    created_at: '2026-01-03T13:16:29Z'
+    pushed_at: '2026-07-08T05:50:18Z'
     description: Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.
     homepage: https://ltx.io/model/ltx-2
     topics:
       - generative-ai
       - ltx
       - ltx-2
-    last_checked_at: "2026-07-30T05:06:05.588Z"
+    last_checked_at: '2026-07-30T05:06:05.588Z'
     readme:
-      fetched_at: "2026-07-30T05:06:05.588Z"
+      fetched_at: '2026-07-30T05:06:05.588Z'
       bytes: 15456
 insights:
   summary: Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.
-  why_it_matters: Provides developers with a ready-to-use toolkit for generating and fine-tuning audio-video content locally, bridging generative AI research and practical media synthesis workflows.
-  mental_damage: Another powerful multimodal model drops, promising cinematic AI while quietly requiring a GPU farm and a PhD in temporal consistency to actually use.
+  why_it_matters: >-
+    Provides developers with a ready-to-use toolkit for generating and fine-tuning audio-video content locally, bridging
+    generative AI research and practical media synthesis workflows.
+  mental_damage: >-
+    Another powerful multimodal model drops, promising cinematic AI while quietly requiring a GPU farm and a PhD in
+    temporal consistency to actually use.
   tags:
     - generative-ai
     - video
@@ -55,31 +59,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is a model-specific inference and training package for a generative audio-video model, not a developer-facing AI tool for coding, agent orchestration, or workflow augmentation.
+  reason: >-
+    The project is a model-specific inference and training package for a generative audio-video model, not a
+    developer-facing AI tool for coding, agent orchestration, or workflow augmentation.
   evidence:
-    - "Repo description: 'Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.'"
-    - "Homepage: https://ltx.io/model/ltx-2 positions it as a model asset, not a developer tool."
-    - Appears in awesome-LLM-resources under '视频 Video > 模型', indicating it is curated as a model resource, not developer tooling.
+    - 'Repo description: ''Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.'''
+    - 'Homepage: https://ltx.io/model/ltx-2 positions it as a model asset, not a developer tool.'
+    - >-
+      Appears in awesome-LLM-resources under '视频 Video > 模型', indicating it is curated as a model resource, not
+      developer tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (6450) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:05.588Z"
+    updated_at: '2026-07-30T05:06:05.588Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -94,11 +102,17 @@ processing:
       input_hash: sha256:7c28e8ecdbc980b5b523ab3537c2e215fc66362b456d30df4f1a39c2d0c59872
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a model-specific inference and training package for a generative audio-video model, not a developer-facing AI tool for coding, agent orchestration, or workflow augmentation.
+      decision_reason: >-
+        The project is a model-specific inference and training package for a generative audio-video model, not a
+        developer-facing AI tool for coding, agent orchestration, or workflow augmentation.
       decision_evidence:
-        - "Repo description: 'Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.'"
-        - "Homepage: https://ltx.io/model/ltx-2 positions it as a model asset, not a developer tool."
-        - Appears in awesome-LLM-resources under '视频 Video > 模型', indicating it is curated as a model resource, not developer tooling.
+        - >-
+          Repo description: 'Official Python inference and LoRA trainer package for the LTX-2 audio–video generative
+          model.'
+        - 'Homepage: https://ltx.io/model/ltx-2 positions it as a model asset, not a developer tool.'
+        - >-
+          Appears in awesome-LLM-resources under '视频 Video > 模型', indicating it is curated as a model resource, not
+          developer tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aomni__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Aomni
         anchor_text: Aomni
         extracted_url: https://aomni.com
-        surrounding_text: "## [Aomni](https://www.aomni.com/?utm_source=awesome-ai-agents)"
+        surrounding_text: '## [Aomni](https://www.aomni.com/?utm_source=awesome-ai-agents)'
         confidence: high
     - id: discovery__www__aomni__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Aomni
         anchor_text: Aomni
         extracted_url: https://www.aomni.com
-        surrounding_text: "## [Aomni](https://www.aomni.com/?utm_source=awesome-ai-agents)"
+        surrounding_text: '## [Aomni](https://www.aomni.com/?utm_source=awesome-ai-agents)'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Duet is a hosted workspace platform that allows consultants and agencies to build, deploy, and manage AI agents with persistent memory, skill files, and real computer access for client-specific workflows.
-  why_it_matters: It lets developers package their agent-building expertise into reusable, client-isolated workspaces that persist state and run continuously without infrastructure overhead.
-  mental_damage: Finally, a way to sell the same agent to ten clients while pretending each one is a bespoke miracle — and not have to explain why it keeps logging into their Slack as 'Acme Corp'.
+  summary: >-
+    Duet is a hosted workspace platform that allows consultants and agencies to build, deploy, and manage AI agents with
+    persistent memory, skill files, and real computer access for client-specific workflows.
+  why_it_matters: >-
+    It lets developers package their agent-building expertise into reusable, client-isolated workspaces that persist
+    state and run continuously without infrastructure overhead.
+  mental_damage: >-
+    Finally, a way to sell the same agent to ten clients while pretending each one is a bespoke miracle — and not have
+    to explain why it keeps logging into their Slack as 'Acme Corp'.
   tags:
     - agent-hosting
     - client-workspaces
@@ -61,21 +67,28 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Duet is a hosted control plane for managing multiple agent instances across client workspaces, with built-in scheduling, file sharing, and multi-agent collaboration — making it a platform for operating agent teams rather than a single coding agent.
+  reason: >-
+    Duet is a hosted control plane for managing multiple agent instances across client workspaces, with built-in
+    scheduling, file sharing, and multi-agent collaboration — making it a platform for operating agent teams rather than
+    a single coding agent.
   evidence:
-    - Duet gives each client a workspace that holds your agents, their memory and skill files, the apps they build, and an always-on machine to run them.
+    - >-
+      Duet gives each client a workspace that holds your agents, their memory and skill files, the apps they build, and
+      an always-on machine to run them.
     - You look after the agent. Duet looks after everything under it.
-    - "One workspace, everyone in it: Files and shared memory every agent reads and writes, with teammates in the same sessions."
+    - >-
+      One workspace, everyone in it: Files and shared memory every agent reads and writes, with teammates in the same
+      sessions.
 placement:
   primary_category: agent-orchestration
   section: Hosted Agent Platforms
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:38:45.515Z"
+    updated_at: '2026-09-28T04:38:45.515Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,20 +101,29 @@ processing:
       input_hash: sha256:b9668d5960737b2873c8508ce8e1bf39d3ab8b047649a741cf4965485a02dec2
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Duet is a hosted control plane for managing multiple agent instances across client workspaces, with built-in scheduling, file sharing, and multi-agent collaboration — making it a platform for operating agent teams rather than a single coding agent.
+      decision_reason: >-
+        Duet is a hosted control plane for managing multiple agent instances across client workspaces, with built-in
+        scheduling, file sharing, and multi-agent collaboration — making it a platform for operating agent teams rather
+        than a single coding agent.
       decision_evidence:
-        - Duet gives each client a workspace that holds your agents, their memory and skill files, the apps they build, and an always-on machine to run them.
+        - >-
+          Duet gives each client a workspace that holds your agents, their memory and skill files, the apps they build,
+          and an always-on machine to run them.
         - You look after the agent. Duet looks after everything under it.
-        - "One workspace, everyone in it: Files and shared memory every agent reads and writes, with teammates in the same sessions."
+        - >-
+          One workspace, everyone in it: Files and shared memory every agent reads and writes, with teammates in the
+          same sessions.
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because Duet’s primary value is managing multiple agent workspaces, scheduling, shared memory, and client isolation — not autonomous coding tasks on a codebase.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because Duet’s primary value is managing multiple agent
+        workspaces, scheduling, shared memory, and client isolation — not autonomous coding tasks on a codebase.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.364Z"
+    updated_at: '2026-07-20T16:42:15.364Z'
     cause: null
     next_retry_at: null
   stars:

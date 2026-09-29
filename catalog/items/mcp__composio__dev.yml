@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__composio__dev__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: mcp.composio.dev is a website promoting Composio's MCP server offerings that enable AI agents to access tools and data via the Model Context Protocol.
-  why_it_matters: It provides developers with pre-built MCP servers to connect AI agents to external services without custom integration work.
-  mental_damage: Another MCP server directory promising seamless agent-tool connectivity while developers still wrestle with authentication, rate limits, and inconsistent tool schemas.
+  summary: >-
+    mcp.composio.dev is a website promoting Composio's MCP server offerings that enable AI agents to access tools and
+    data via the Model Context Protocol.
+  why_it_matters: >-
+    It provides developers with pre-built MCP servers to connect AI agents to external services without custom
+    integration work.
+  mental_damage: >-
+    Another MCP server directory promising seamless agent-tool connectivity while developers still wrestle with
+    authentication, rate limits, and inconsistent tool schemas.
   tags:
     - mcp
     - ai-agents
@@ -46,22 +52,28 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The site is a promotional landing page for Composio's MCP servers rather than a standalone MCP infrastructure product, and MCP compatibility alone does not constitute primary identity.
+  reason: >-
+    The site is a promotional landing page for Composio's MCP servers rather than a standalone MCP infrastructure
+    product, and MCP compatibility alone does not constitute primary identity.
   evidence:
     - Source-list context shows it appears in awesome-LLM-resources under the MCP section as a resource, not a tool
-    - The URL mcp.composio.dev is a subdomain of Composio's main site, indicating it is a product page rather than an independent MCP server or registry
-    - No evidence of the site being an MCP server, client, registry, inspector, or developer tooling specifically for building MCP infrastructure
+    - >-
+      The URL mcp.composio.dev is a subdomain of Composio's main site, indicating it is a product page rather than an
+      independent MCP server or registry
+    - >-
+      No evidence of the site being an MCP server, client, registry, inspector, or developer tooling specifically for
+      building MCP infrastructure
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:32:16.407Z"
+    updated_at: '2026-09-28T04:32:16.407Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,11 +95,17 @@ processing:
       input_hash: sha256:2110cc11e851c4a1a549a5174a5a9bb5dbd730acb5d6f1da44b00b9373ff7f99
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site is a promotional landing page for Composio's MCP servers rather than a standalone MCP infrastructure product, and MCP compatibility alone does not constitute primary identity.
+      decision_reason: >-
+        The site is a promotional landing page for Composio's MCP servers rather than a standalone MCP infrastructure
+        product, and MCP compatibility alone does not constitute primary identity.
       decision_evidence:
         - Source-list context shows it appears in awesome-LLM-resources under the MCP section as a resource, not a tool
-        - The URL mcp.composio.dev is a subdomain of Composio's main site, indicating it is a product page rather than an independent MCP server or registry
-        - No evidence of the site being an MCP server, client, registry, inspector, or developer tooling specifically for building MCP infrastructure
+        - >-
+          The URL mcp.composio.dev is a subdomain of Composio's main site, indicating it is a product page rather than
+          an independent MCP server or registry
+        - >-
+          No evidence of the site being an MCP server, client, registry, inspector, or developer tooling specifically
+          for building MCP infrastructure
       category_candidates: []
       contrastive_reason: null
       review_reason: null

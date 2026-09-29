@@ -1,0 +1,118 @@
+id: github__anisselbd__jev-phishing-bench
+kind: github-repo
+name: anisselbd/jev-phishing-bench
+canonical_url: https://github.com/anisselbd/jev-phishing-bench
+identity:
+  github_repo: anisselbd/jev-phishing-bench
+provenance:
+  discoveries:
+    - id: discovery__github__anisselbd__jev-phishing-bench__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: jev-phishing-bench
+        extracted_url: https://github.com/anisselbd/jev-phishing-bench
+        surrounding_text: >-
+          - [jev-phishing-bench](https://github.com/anisselbd/jev-phishing-bench) - Jev (TypeSafe) vs Claude Haiku 4.5
+          on 2 000 phishing emails: accuracy, calibration, latency, cost. Reproducible benchmark.
+        confidence: high
+    - id: discovery__github__anisselbd__jev-phishing-bench__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Benchmarks & research (116)
+        anchor_text: jev-phishing-bench
+        extracted_url: https://github.com/anisselbd/jev-phishing-bench
+        surrounding_text: >-
+          | [jev-phishing-bench](https://github.com/anisselbd/jev-phishing-bench) | ★ 1 | Python | 2026-09-19 | Jev
+          (TypeSafe) vs Claude Haiku 4.5 on 2 000 phishing emails: accuracy, calibration, latency, cost. Reproducible
+          benchmark. |
+        confidence: high
+    - id: discovery__github__anisselbd__jev-phishing-bench__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Security & Guardrails
+        anchor_text: '**jev-phishing-bench**'
+        extracted_url: https://github.com/anisselbd/jev-phishing-bench
+        surrounding_text: >-
+          - [**jev-phishing-bench**](https://github.com/anisselbd/jev-phishing-bench) — The signal result above was
+          challenged on three points: no non-AI baseline, selection and evaluation on the same emails, and no equivalent
+          decomposition for the LLM. Three controls were added (\`bench/heuristics.py\`, \`bench/protocol.py\`,
+          \`run\_llm\_signals.py\`); nothing above was changed. Full tables in \`results/report.md\`, chart in
+          \`results/controls.png\`.
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 0
+    license: null
+    archived: false
+    full_name: anisselbd/jev-phishing-bench
+    html_url: https://github.com/anisselbd/jev-phishing-bench
+    created_at: '2026-09-16T22:42:44Z'
+    pushed_at: '2026-09-19T17:34:05Z'
+    description: >-
+      Jev (TypeSafe) vs Claude Haiku 4.5 on 2 000 phishing emails: accuracy, calibration, latency, cost. Reproducible
+      benchmark.
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:09:00.278Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:00.278Z'
+      bytes: 11447
+insights:
+  summary: >-
+    Jev (TypeSafe) vs Claude Haiku 4.5 on 2 000 phishing emails: accuracy, calibration, latency, cost. Reproducible
+    benchmark.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  evidence:
+    - jev-latest choice confidence 0.95
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Evals, Benchmarks & Calibration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.391Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:00.278Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

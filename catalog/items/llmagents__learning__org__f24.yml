@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__llmagents__learning__org__f24__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: f24 is a Fall 2024 MOOC on Large Language Model Agents covering topics like reasoning, tool use, code generation, and multi-agent systems.
-  why_it_matters: It provides structured educational content for developers seeking to understand and build LLM agents through expert-led lectures and hands-on labs.
-  mental_damage: Another syllabus to bookmark while pretending you’ll eventually watch all 12 lectures between sprint planning and incident response.
+  summary: >-
+    f24 is a Fall 2024 MOOC on Large Language Model Agents covering topics like reasoning, tool use, code generation,
+    and multi-agent systems.
+  why_it_matters: >-
+    It provides structured educational content for developers seeking to understand and build LLM agents through
+    expert-led lectures and hands-on labs.
+  mental_damage: >-
+    Another syllabus to bookmark while pretending you’ll eventually watch all 12 lectures between sprint planning and
+    incident response.
   tags:
     - education
     - llm-agents
@@ -46,20 +52,24 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: f24 is an educational resource (MOOC) that curates and presents expert knowledge on LLM agents, fitting the curated lists and resources scope as a publication/feed rather than a developer tool.
+  reason: >-
+    f24 is an educational resource (MOOC) that curates and presents expert knowledge on LLM agents, fitting the curated
+    lists and resources scope as a publication/feed rather than a developer tool.
   evidence:
     - Listed in awesome-LLM-resources under '课程 Course' as a MOOC, Fall 2024
-    - Scraped site identifies it as 'Large Language Model Agents MOOC, Fall 2024' with syllabus, lectures, labs, and hackathon
+    - >-
+      Scraped site identifies it as 'Large Language Model Agents MOOC, Fall 2024' with syllabus, lectures, labs, and
+      hackathon
 placement:
   primary_category: awesome-awesomes
   section: Publications & Feeds
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:31:53.438Z"
+    updated_at: '2026-09-28T04:31:53.438Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +91,19 @@ processing:
       input_hash: sha256:0bc22e5da31e40cd585cc5eb14ba02b4be34a9fa2d14d7c56b649c1698ed6ee7
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: f24 is an educational resource (MOOC) that curates and presents expert knowledge on LLM agents, fitting the curated lists and resources scope as a publication/feed rather than a developer tool.
+      decision_reason: >-
+        f24 is an educational resource (MOOC) that curates and presents expert knowledge on LLM agents, fitting the
+        curated lists and resources scope as a publication/feed rather than a developer tool.
       decision_evidence:
         - Listed in awesome-LLM-resources under '课程 Course' as a MOOC, Fall 2024
-        - Scraped site identifies it as 'Large Language Model Agents MOOC, Fall 2024' with syllabus, lectures, labs, and hackathon
+        - >-
+          Scraped site identifies it as 'Large Language Model Agents MOOC, Fall 2024' with syllabus, lectures, labs, and
+          hackathon
       category_candidates:
         - awesome-awesomes
         - evals
-      contrastive_reason: Choose awesome-awesomes over evals because f24 is an educational course and resource curation, not a framework for measuring or benchmarking model/agent behavior.
+      contrastive_reason: >-
+        Choose awesome-awesomes over evals because f24 is an educational course and resource curation, not a framework
+        for measuring or benchmarking model/agent behavior.
       review_reason: null
       review_resume_lifecycle: null

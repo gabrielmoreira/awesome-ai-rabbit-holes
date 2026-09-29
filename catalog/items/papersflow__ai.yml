@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__papersflow__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: PapersFlow
         extracted_url: https://papersflow.ai
-        surrounding_text: "- [papersflow-ai/papersflow-mcp](https://github.com/papersflow-ai/papersflow-mcp) [![papers-flow MCP server](https://glama.ai/mcp/servers/papersflow-ai/papers-flow/badges/score.svg)](https://glama.ai/mcp/servers/papersflow-ai/papers-flow) 📇 ☁️ - Hosted MCP server by [PapersFlow](https://papersflow.ai) for academic research with 7 specialized AI agents and 474M+ papers from Semantic Scholar and OpenAlex. Literature search, citation verification, citation graph exploration, and autonomous deep research workflows."
+        surrounding_text: >-
+          - [papersflow-ai/papersflow-mcp](https://github.com/papersflow-ai/papersflow-mcp) [![papers-flow MCP
+          server](https://glama.ai/mcp/servers/papersflow-ai/papers-flow/badges/score.svg)](https://glama.ai/mcp/servers/papersflow-ai/papers-flow)
+          📇 ☁️ - Hosted MCP server by [PapersFlow](https://papersflow.ai) for academic research with 7 specialized AI
+          agents and 474M+ papers from Semantic Scholar and OpenAlex. Literature search, citation verification, citation
+          graph exploration, and autonomous deep research workflows.
         confidence: high
 metadata:
   github:
@@ -37,9 +42,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: PapersFlow is an all-in-one AI research workspace for searching academic papers, managing literature, writing in LaTeX, and generating research insights using multiple AI agents.
-  why_it_matters: It consolidates research workflows into a single platform, reducing context-switching for developers who also engage in academic or technical research.
-  mental_damage: Finally, a tool that understands your pain of juggling Zotero, Overleaf, and six AI tabs just to write one literature review.
+  summary: >-
+    PapersFlow is an all-in-one AI research workspace for searching academic papers, managing literature, writing in
+    LaTeX, and generating research insights using multiple AI agents.
+  why_it_matters: >-
+    It consolidates research workflows into a single platform, reducing context-switching for developers who also engage
+    in academic or technical research.
+  mental_damage: >-
+    Finally, a tool that understands your pain of juggling Zotero, Overleaf, and six AI tabs just to write one
+    literature review.
   tags:
     - research
     - ai-assistant
@@ -47,21 +58,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: PapersFlow is an AI-powered research workspace focused on academic workflows like paper search, citation management, and LaTeX writing — not software development, coding agents, or developer tooling.
+  reason: >-
+    PapersFlow is an AI-powered research workspace focused on academic workflows like paper search, citation management,
+    and LaTeX writing — not software development, coding agents, or developer tooling.
   evidence:
-    - Describes itself as 'The all-in-one AI research workspace' with tools for academic paraphrasing, citation generation, and literature reviews across fields like medicine, physics, and CS
-    - Core features include AI Deep Research across 474M papers, LaTeX editor, citation managers, and research workflow automation — all oriented toward academic research, not code development
-    - No mention of coding, software development, IDE integration, or agent behavior related to programming; positioned as an alternative to Zotero, Mendeley, Overleaf, and Notion for researchers
+    - >-
+      Describes itself as 'The all-in-one AI research workspace' with tools for academic paraphrasing, citation
+      generation, and literature reviews across fields like medicine, physics, and CS
+    - >-
+      Core features include AI Deep Research across 474M papers, LaTeX editor, citation managers, and research workflow
+      automation — all oriented toward academic research, not code development
+    - >-
+      No mention of coding, software development, IDE integration, or agent behavior related to programming; positioned
+      as an alternative to Zotero, Mendeley, Overleaf, and Notion for researchers
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +89,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:34:11.596Z"
+    updated_at: '2026-09-28T04:34:11.596Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,11 +102,19 @@ processing:
       input_hash: sha256:a0ba82cb7db0c740d353966a64373edb1bbeac2f1fb0a19ea72d66673a24642b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: PapersFlow is an AI-powered research workspace focused on academic workflows like paper search, citation management, and LaTeX writing — not software development, coding agents, or developer tooling.
+      decision_reason: >-
+        PapersFlow is an AI-powered research workspace focused on academic workflows like paper search, citation
+        management, and LaTeX writing — not software development, coding agents, or developer tooling.
       decision_evidence:
-        - Describes itself as 'The all-in-one AI research workspace' with tools for academic paraphrasing, citation generation, and literature reviews across fields like medicine, physics, and CS
-        - Core features include AI Deep Research across 474M papers, LaTeX editor, citation managers, and research workflow automation — all oriented toward academic research, not code development
-        - No mention of coding, software development, IDE integration, or agent behavior related to programming; positioned as an alternative to Zotero, Mendeley, Overleaf, and Notion for researchers
+        - >-
+          Describes itself as 'The all-in-one AI research workspace' with tools for academic paraphrasing, citation
+          generation, and literature reviews across fields like medicine, physics, and CS
+        - >-
+          Core features include AI Deep Research across 474M papers, LaTeX editor, citation managers, and research
+          workflow automation — all oriented toward academic research, not code development
+        - >-
+          No mention of coding, software development, IDE integration, or agent behavior related to programming;
+          positioned as an alternative to Zotero, Mendeley, Overleaf, and Notion for researchers
       category_candidates: []
       contrastive_reason: null
       review_reason: null

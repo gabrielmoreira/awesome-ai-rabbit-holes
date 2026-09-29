@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kedro-org__kedro-viz__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,12 @@ provenance:
           - Experiment Tracking
         anchor_text: Kedro-Viz
         extracted_url: https://github.com/kedro-org/kedro-viz
-        surrounding_text: "| [Kedro-Viz](https://github.com/kedro-org/kedro-viz)    | Kedro-Viz is an interactive development tool for building data science pipelines with Kedro. Kedro-Viz also allows users to view and compare different runs in the Kedro project.                                                                                                                                                                                                                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/kedro-org/kedro-viz.svg?style=flat-square)     |"
+        surrounding_text: >-
+          | [Kedro-Viz](https://github.com/kedro-org/kedro-viz)    | Kedro-Viz is an interactive development tool for
+          building data science pipelines with Kedro. Kedro-Viz also allows users to view and compare different runs in
+          the Kedro
+          project.                                                                                                                                                                                                                                                                                        
+          | ![GitHub Badge](https://img.shields.io/github/stars/kedro-org/kedro-viz.svg?style=flat-square)     |
         confidence: high
 metadata:
   github:
@@ -30,9 +35,9 @@ metadata:
     archived: false
     full_name: kedro-org/kedro-viz
     html_url: https://github.com/kedro-org/kedro-viz
-    created_at: "2019-05-09T10:35:23Z"
-    pushed_at: "2026-07-29T18:09:08Z"
-    description: "Visualise your Kedro data and machine-learning pipelines and track your experiments. "
+    created_at: '2019-05-09T10:35:23Z'
+    pushed_at: '2026-07-29T18:09:08Z'
+    description: 'Visualise your Kedro data and machine-learning pipelines and track your experiments. '
     homepage: https://demo.kedro.org
     topics:
       - data-visualization
@@ -42,14 +47,18 @@ metadata:
       - kedro-plugin
       - python
       - react
-    last_checked_at: "2026-07-30T05:05:55.274Z"
+    last_checked_at: '2026-07-30T05:05:55.274Z'
     readme:
-      fetched_at: "2026-07-30T05:05:55.274Z"
+      fetched_at: '2026-07-30T05:05:55.274Z'
       bytes: 10733
 insights:
   summary: A visualization tool for Kedro data and machine-learning pipelines with experiment tracking.
-  why_it_matters: Developers using Kedro can visually inspect, debug, and track their data pipelines and experiments without manually parsing code or logs.
-  mental_damage: Because nothing says 'data science' like staring at a beautiful graph of your pipeline while wondering why it’s still failing silently.
+  why_it_matters: >-
+    Developers using Kedro can visually inspect, debug, and track their data pipelines and experiments without manually
+    parsing code or logs.
+  mental_damage: >-
+    Because nothing says 'data science' like staring at a beautiful graph of your pipeline while wondering why it’s
+    still failing silently.
   tags:
     - data-pipelines
     - visualization
@@ -59,7 +68,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Kedro-Viz is a pipeline visualization and experiment tracking tool for the Kedro framework, which is outside the catalog's scope of AI tools, agents, or workflows for software developers.
+  reason: >-
+    Kedro-Viz is a pipeline visualization and experiment tracking tool for the Kedro framework, which is outside the
+    catalog's scope of AI tools, agents, or workflows for software developers.
   evidence:
     - Repo description explicitly states it is for visualizing Kedro pipelines and tracking experiments
     - README emphasizes it is an interactive tool for Kedro data science pipelines
@@ -68,22 +79,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (748) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:55.274Z"
+    updated_at: '2026-07-30T05:05:55.274Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -98,7 +109,9 @@ processing:
       input_hash: sha256:7ed5b689f2140b17e303ff255e0023fa742d6d7253281b27031dada22f953145
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Kedro-Viz is a pipeline visualization and experiment tracking tool for the Kedro framework, which is outside the catalog's scope of AI tools, agents, or workflows for software developers.
+      decision_reason: >-
+        Kedro-Viz is a pipeline visualization and experiment tracking tool for the Kedro framework, which is outside the
+        catalog's scope of AI tools, agents, or workflows for software developers.
       decision_evidence:
         - Repo description explicitly states it is for visualizing Kedro pipelines and tracking experiments
         - README emphasizes it is an interactive tool for Kedro data science pipelines

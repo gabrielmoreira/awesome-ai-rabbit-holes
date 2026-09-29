@@ -52,6 +52,86 @@
     - Spec-First & Plan-Execute
     - Autonomous & Multi-Agent Coding
 
+- id: decision-models
+  name: Decision Models
+  slug: decision-models
+  description: >
+    Models that answer typed questions with probabilities instead of
+    generating text — Jev (TypeSafe System One), open Jev-like decision
+    models, the servers and gateways that expose them, and the tooling
+    built on their judgments.
+  prompt:
+    instructions: >
+      The product's reason to exist is a decision model: a model that takes
+      state plus typed questions and returns constrained answers with
+      probabilities — Choice, Score, or Noul/Boolean — instead of generated
+      text. This covers the hosted model and its official ecosystem, open and
+      local Jev-like decision models, the servers and gateways that serve
+      them, the SDKs and framework integrations that call them, and the tools,
+      gates, routers, and apps whose core function is the judgment itself.
+      Precedence rule: when the decision model or the judgment it makes is the
+      product identity, it belongs here even if the project also ships an MCP
+      server, installs as a host add-on, or computes an evaluation — the
+      protocol, the host, or the eval harness is the transport, not the
+      identity. The coding agent itself still belongs in coding-agents; a
+      decision layer inside or beside it belongs here.
+    use_when:
+      - The product is a decision model, or a port, reproduction, or derivative of one (Jev, Laya, Kev, and similar System One style models).
+      - "The core job is answering typed questions with probabilities: classification, routing, triage, scoring, ranking, verification, or guardrails."
+      - It serves, proxies, or exposes decision models locally or through a hosted gateway, including decision and OpenAI-compatible endpoints.
+      - It is an SDK, framework integration, or CLI whose purpose is calling a decision model with typed questions.
+      - It is agent tooling whose identity is the judgment — a tool-call gate, model router, skill router, compaction filter, or done-claim checker.
+      - An MCP server, host add-on, or evaluation harness built specifically around decision-model judgments.
+      - It is a benchmark, calibration study, or robustness suite that measures decision models.
+    do_not_use_when:
+      - It is a chat, reasoning, or coding model, or a provider of one, with no typed-decision surface.
+      - It is an MCP server whose identity is the protocol or the underlying domain, with no decision model involved.
+      - It is a coding agent, IDE, or app where the decision layer is an internal implementation detail rather than the product.
+      - It is a generic evaluation or observability platform that measures arbitrary models.
+      - It is an orchestration platform, framework, or provider SDK where the decision model is not the reason the product exists.
+    canonical_positives:
+      - Jev (TypeSafe System One)
+      - laya (open non-autoregressive decision model)
+      - kev (trainable Qwen-based decision models)
+      - Ollaya (local runner serving open decision models behind a Jev-compatible API)
+      - jev-guard (tool-call risk gate driven by decision-model judgments)
+    common_false_positives:
+      - OpenAI API (chat model provider with no typed-decision surface)
+      - Claude (chat and reasoning model family, not a decision model)
+      - Ollama (local runtime for generative models, not a decision model)
+      - LangChain (framework identity — the decision layer is one integration)
+      - promptfoo (generic evaluation platform, not built on decision-model judgments)
+      - Claude Code (the coding agent itself, not the decision layer beside it)
+      - Postgres MCP server (MCP protocol identity, no decision model involved)
+    section_hints:
+      Official Jev & System One: "First-party resources from TypeSafe AI: the hosted Jev model, its documentation, official SDKs and agent skills, and first-party tooling."
+      Open & Local Decision Models: "Downloadable open decision models and Jev-like variants — independent reproductions, ports, and derivatives that run locally, including domain-specific ones. The model weights or training recipe are the artifact."
+      Local Serving & Gateways: "Server, daemon, or proxy exposing decision models behind a decision or OpenAI-compatible API for local use, including ACP/MCP bridges to a decision model."
+      Cloud Gateways & Providers: "Hosted gateway or provider that serves decision models as a first-class modality alongside chat models. The provider surface is the product."
+      Framework & SDK Integrations: "Decision models wired into an existing framework, agent stack, or platform. The integration is the product, not the surrounding framework."
+      Client SDKs & CLIs: "Language clients and command-line tools for calling a decision model with typed questions and reading the answers back."
+      Agent Gates, Routers & Skills: "Agent tooling whose judgment is the product: pre-tool-call gates and approvals, per-turn model and effort routers, skill routers and rankers, auto-approve plugins, sentinels, and session supervisors."
+      Context Compaction & Memory: "Deciding what reaches a model or is remembered: context compaction and pruning of tool history, result filters and context sieves, memory relevance filters, and invalidation of superseded facts."
+      Browser & Computer Use: "Choosing browser, desktop, or device actions and targets from observed state — Playwright and CDP drivers, accessibility-tree choosers, mobile and macOS computer-use loops."
+      Search, Retrieval & Data: "Judgments applied to finding, filtering, ranking, or storing data: semantic grep and line filters, retrievers and rerankers, SQL and DataFrame extensions, dataset curation, spreadsheet functions."
+      Verification, Guardrails & Safety: "Judgments used to check rather than to act: diff and pull-request review, malicious-code and prompt-injection screening, credential and destructive-command blocking, commit checks, done-claim checks, semantic firewalls."
+      Evals, Benchmarks & Calibration: "Measuring decision models rather than using them: benchmarks against LLMs, calibration studies, judgment regression harnesses, independent reproductions of published numbers, and robustness suites."
+      Apps, Games & Simulation: "End-user applications and interactive use: inbox and email triage, trading loops, smart-home and consumer tools, and games, robotics, or simulated environments where the model chooses the move."
+  sections:
+    - Official Jev & System One
+    - Open & Local Decision Models
+    - Local Serving & Gateways
+    - Cloud Gateways & Providers
+    - Framework & SDK Integrations
+    - Client SDKs & CLIs
+    - Agent Gates, Routers & Skills
+    - Context Compaction & Memory
+    - Browser & Computer Use
+    - Search, Retrieval & Data
+    - Verification, Guardrails & Safety
+    - Evals, Benchmarks & Calibration
+    - Apps, Games & Simulation
+
 - id: app-builders
   name: App Builders
   slug: ai-app-builders
@@ -128,6 +208,7 @@
       - It is a broad SaaS platform that happens to offer an integration as a minor feature.
       - It is an MCP server whose product identity is being MCP infrastructure, not a coding add-on.
       - The product manages multiple concurrent coding agent sessions, worktrees, or agent processes — that is agent-orchestration.
+      - The product's identity is a decision model or the judgment it makes — a tool-call gate, model router, skill router, compaction filter, or completion checker built on Jev or a similar decision model belongs in decision-models, not here.
     canonical_positives:
       - claude-debugs-for-you
       - figma-use
@@ -137,6 +218,7 @@
       - IndieStack (dependency guardrail for coding agents)
       - InfraBroker (ephemeral credential broker for agents)
     common_false_positives:
+      - A Jev or decision-model gate, router, or compaction plugin (the judgment is the identity, so it belongs in decision-models, not here)
       - Claude Code (the primary agent, not an extension)
       - FastMCP (MCP SDK — its identity is MCP infrastructure)
       - Cline (standalone IDE-hosted coding agent)
@@ -183,6 +265,7 @@
       - The underlying identity is a framework, orchestration platform, or SaaS product with an MCP adapter.
       - It is a generic API gateway or proxy that added MCP support as a feature.
       - "Priority rule: an MCP server that provides memory, retrieval, or context capabilities belongs here — the MCP protocol identity wins over the capability domain."
+      - "Priority rule: an MCP server whose identity is a decision model or typed-decision judgments (Jev, TypeSafe System One, Laya, Kev, and similar) belongs in decision-models — the decision layer is the product, not the MCP transport."
     canonical_positives:
       - modelcontextprotocol/servers
       - playwright-mcp
@@ -192,6 +275,7 @@
       - mcp-bridge (middleware exposing MCP tools through an OpenAI-compatible API)
       - Lunar.dev (API gateway and MCP aggregator middleware)
     common_false_positives:
+      - A Jev or decision-model MCP server (it serves typed decision judgments — the decision layer is the identity, so it belongs in decision-models, not here)
       - LangChain (framework with MCP support, identity is the framework)
       - Claude Code (coding agent that uses MCP as a client)
       - n8n (workflow automation platform with an MCP node)
@@ -357,6 +441,7 @@
       - The product is a coding agent that internally measures its own outputs as a built-in feature.
       - It is mainly ML training, data infrastructure, or model fine-tuning.
       - It is primarily a prompt management or retrieval tool.
+      - It measures decision models rather than arbitrary models — benchmarks, calibration studies, and judgment regression harnesses for decision models belong in decision-models.
     canonical_positives:
       - DeepEval
       - RAGAS
@@ -364,6 +449,7 @@
       - Opik
       - promptfoo
     common_false_positives:
+      - A benchmark, calibration study, or judgment harness for decision models (that belongs in decision-models)
       - Dify (orchestration platform — evals is one feature inside it)
       - LangSmith (LangChain observability — valid evals entry but leans LLMOps)
       - PromptLayer (prompt management — belongs in memory-and-context)
@@ -456,6 +542,7 @@
       - The core identity is an extension or plugin for a specific host tool.
       - It is a prompt engineering guide or educational resource rather than a working system.
       - It is an MCP server providing memory capabilities — MCP protocol identity wins; use the mcp category instead.
+      - The memory filter, context sieve, or compaction decision is a decision-model judgment and the decision layer is the identity — use decision-models.
     canonical_positives:
       - mem0
       - claude-engram
@@ -464,6 +551,7 @@
       - ai-distiller
       - Neotoma (deterministic state layer for agents — cross-session memory)
     common_false_positives:
+      - A decision-model context sieve or memory filter (the judgment is the identity, so it belongs in decision-models)
       - LlamaIndex (framework — identity is the SDK, retrieval is one module)
       - Pinecone (vector database infrastructure, not a developer-facing context tool)
       - claude-task-master (task management extension for agents)

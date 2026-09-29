@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__getdot__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Dot
         anchor_text: Dot
         extracted_url: https://getdot.ai
-        surrounding_text: "## [Dot](https://www.getdot.ai/)"
+        surrounding_text: '## [Dot](https://www.getdot.ai/)'
         confidence: high
     - id: discovery__www__getdot__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Dot
         anchor_text: Dot
         extracted_url: https://www.getdot.ai
-        surrounding_text: "## [Dot](https://www.getdot.ai/)"
+        surrounding_text: '## [Dot](https://www.getdot.ai/)'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Dot is an AI data analyst that answers data questions via chat, generates automated reports, and provides context from connected data systems.
-  why_it_matters: It lets developers and data teams get instant insights from databases without writing SQL or building dashboards, accelerating data-driven decisions.
-  mental_damage: Another tool promising to make data 'accessible' while quietly adding another Slack bot to ignore until the quarterly report is due.
+  summary: >-
+    Dot is an AI data analyst that answers data questions via chat, generates automated reports, and provides context
+    from connected data systems.
+  why_it_matters: >-
+    It lets developers and data teams get instant insights from databases without writing SQL or building dashboards,
+    accelerating data-driven decisions.
+  mental_damage: >-
+    Another tool promising to make data 'accessible' while quietly adding another Slack bot to ignore until the
+    quarterly report is due.
   tags:
     - ai-analyst
     - data-tools
@@ -61,21 +67,29 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Dot fits as an app builder because its core function is turning natural language prompts into deployable internal tools like charts, reports, and presentations, not editing existing codebases.
+  reason: >-
+    Dot fits as an app builder because its core function is turning natural language prompts into deployable internal
+    tools like charts, reports, and presentations, not editing existing codebases.
   evidence:
-    - Dot answers data questions in seconds by asking in plain English, finding tables, writing SQL, and generating charts
-    - It delivers automated, presentation-ready PowerPoint reports on schedule and enables deep analysis with drill-downs
-    - It is positioned as an AI data analyst for teams, trusted by Duolingo, Choco, and Emerge, with impact studies showing time savings
+    - >-
+      Dot answers data questions in seconds by asking in plain English, finding tables, writing SQL, and generating
+      charts
+    - >-
+      It delivers automated, presentation-ready PowerPoint reports on schedule and enables deep analysis with
+      drill-downs
+    - >-
+      It is positioned as an AI data analyst for teams, trusted by Duolingo, Choco, and Emerge, with impact studies
+      showing time savings
 placement:
   primary_category: app-builders
   section: Internal Tools & Dashboards
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:41:18.349Z"
+    updated_at: '2026-09-28T04:41:18.349Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,20 +102,30 @@ processing:
       input_hash: sha256:6378e5cad2ee0c323052c680fe7d70e41d19236e6f69c1db97d79c910af2974c
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: Dot fits as an app builder because its core function is turning natural language prompts into deployable internal tools like charts, reports, and presentations, not editing existing codebases.
+      decision_reason: >-
+        Dot fits as an app builder because its core function is turning natural language prompts into deployable
+        internal tools like charts, reports, and presentations, not editing existing codebases.
       decision_evidence:
-        - Dot answers data questions in seconds by asking in plain English, finding tables, writing SQL, and generating charts
-        - It delivers automated, presentation-ready PowerPoint reports on schedule and enables deep analysis with drill-downs
-        - It is positioned as an AI data analyst for teams, trusted by Duolingo, Choco, and Emerge, with impact studies showing time savings
+        - >-
+          Dot answers data questions in seconds by asking in plain English, finding tables, writing SQL, and generating
+          charts
+        - >-
+          It delivers automated, presentation-ready PowerPoint reports on schedule and enables deep analysis with
+          drill-downs
+        - >-
+          It is positioned as an AI data analyst for teams, trusted by Duolingo, Choco, and Emerge, with impact studies
+          showing time savings
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because Dot generates new deployable artifacts like reports and dashboards from prompts rather than editing or maintaining an existing codebase.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because Dot generates new deployable artifacts like reports and
+        dashboards from prompts rather than editing or maintaining an existing codebase.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.965Z"
+    updated_at: '2026-07-21T15:20:21.965Z'
     cause: null
     next_retry_at: null
   stars:

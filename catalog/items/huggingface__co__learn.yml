@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__learn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,27 +36,39 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An educational hub featuring structured courses and notebooks on topics like LLMs, agents, robotics, and computer vision.
-  why_it_matters: It provides developers with guided, technical learning paths to master the models and libraries used in modern AI workflows.
-  mental_damage: Each course completed only provides the technical vocabulary necessary to precisely describe why your agent is hallucinating.
+  summary: >-
+    An educational hub featuring structured courses and notebooks on topics like LLMs, agents, robotics, and computer
+    vision.
+  why_it_matters: >-
+    It provides developers with guided, technical learning paths to master the models and libraries used in modern AI
+    workflows.
+  mental_damage: >-
+    Each course completed only provides the technical vocabulary necessary to precisely describe why your agent is
+    hallucinating.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: It is an educational resource hub and documentation landing page rather than a functional developer tool, agent, or framework.
+  reason: >-
+    It is an educational resource hub and documentation landing page rather than a functional developer tool, agent, or
+    framework.
   evidence:
-    - The site consists of instructional courses (e.g., LLM Course, Agents Course) rather than a deployable product or SDK
-    - The content is pedagogical material intended for learning rather than an operational part of a developer's tech stack
+    - >-
+      The site consists of instructional courses (e.g., LLM Course, Agents Course) rather than a deployable product or
+      SDK
+    - >-
+      The content is pedagogical material intended for learning rather than an operational part of a developer's tech
+      stack
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -65,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:25:47.961Z"
+    updated_at: '2026-09-28T04:25:47.961Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -78,10 +90,16 @@ processing:
       input_hash: sha256:9241afbeb6545e51a5da5b832dd9620ea295f8c3ae33dcb9d6406f4fdf8df22c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is an educational resource hub and documentation landing page rather than a functional developer tool, agent, or framework.
+      decision_reason: >-
+        It is an educational resource hub and documentation landing page rather than a functional developer tool, agent,
+        or framework.
       decision_evidence:
-        - The site consists of instructional courses (e.g., LLM Course, Agents Course) rather than a deployable product or SDK
-        - The content is pedagogical material intended for learning rather than an operational part of a developer's tech stack
+        - >-
+          The site consists of instructional courses (e.g., LLM Course, Agents Course) rather than a deployable product
+          or SDK
+        - >-
+          The content is pedagogical material intended for learning rather than an operational part of a developer's
+          tech stack
       category_candidates: []
       contrastive_reason: null
       review_reason: null

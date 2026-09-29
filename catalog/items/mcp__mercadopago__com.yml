@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__mercadopago__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Mercado Pago
         extracted_url: https://mcp.mercadopago.com
-        surrounding_text: "- **[Mercado Pago](https://mcp.mercadopago.com/)** - Mercado Pago's official MCP server, offering tools to interact with our API, simplifying tasks and product integration."
+        surrounding_text: >-
+          - **[Mercado Pago](https://mcp.mercadopago.com/)** - Mercado Pago's official MCP server, offering tools to
+          interact with our API, simplifying tasks and product integration.
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Mercado Pago MCP Server is an MCP server that provides AI-powered payment integration assistance within developer IDEs.
-  why_it_matters: It helps developers integrate Mercado Pago payment solutions faster by offering AI-generated code suggestions, documentation lookup, and integration evaluation directly in their IDE.
-  mental_damage: Another payment processor trying to lock you into their ecosystem with an AI-powered IDE plugin that promises to make compliance feel effortless.
+  summary: >-
+    Mercado Pago MCP Server is an MCP server that provides AI-powered payment integration assistance within developer
+    IDEs.
+  why_it_matters: >-
+    It helps developers integrate Mercado Pago payment solutions faster by offering AI-generated code suggestions,
+    documentation lookup, and integration evaluation directly in their IDE.
+  mental_damage: >-
+    Another payment processor trying to lock you into their ecosystem with an AI-powered IDE plugin that promises to
+    make compliance feel effortless.
   tags:
     - mcp
     - payment-integration
@@ -46,22 +54,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server exposing Mercado Pago's payment integration tools and AI assistance over the Model Context Protocol, making MCP its primary identity rather than a mere extension or SDK.
+  reason: >-
+    The product's core identity is an MCP server exposing Mercado Pago's payment integration tools and AI assistance
+    over the Model Context Protocol, making MCP its primary identity rather than a mere extension or SDK.
   evidence:
-    - The site prominently features 'MERCADO PAGO MCP SERVER' and describes it as 'La herramienta de IA que acelera tu integración'
-    - It provides MCP server configuration for IDEs like Cursor, Windsurf, VSCode, and Claude Code via a standardized MCP endpoint
-    - The MCP server offers AI-powered capabilities including code suggestions, documentation access, and integration evaluation within developer environments
+    - >-
+      The site prominently features 'MERCADO PAGO MCP SERVER' and describes it as 'La herramienta de IA que acelera tu
+      integración'
+    - >-
+      It provides MCP server configuration for IDEs like Cursor, Windsurf, VSCode, and Claude Code via a standardized
+      MCP endpoint
+    - >-
+      The MCP server offers AI-powered capabilities including code suggestions, documentation access, and integration
+      evaluation within developer environments
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Dev & Code Tools
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +86,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:32:50.291Z"
+    updated_at: '2026-09-28T04:32:50.291Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,14 +99,24 @@ processing:
       input_hash: sha256:e8843b38ff00302e38816aa2f299b5d9d5d45cf7cff9a8da9b73d2a911cb4277
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server exposing Mercado Pago's payment integration tools and AI assistance over the Model Context Protocol, making MCP its primary identity rather than a mere extension or SDK.
+      decision_reason: >-
+        The product's core identity is an MCP server exposing Mercado Pago's payment integration tools and AI assistance
+        over the Model Context Protocol, making MCP its primary identity rather than a mere extension or SDK.
       decision_evidence:
-        - The site prominently features 'MERCADO PAGO MCP SERVER' and describes it as 'La herramienta de IA que acelera tu integración'
-        - It provides MCP server configuration for IDEs like Cursor, Windsurf, VSCode, and Claude Code via a standardized MCP endpoint
-        - The MCP server offers AI-powered capabilities including code suggestions, documentation access, and integration evaluation within developer environments
+        - >-
+          The site prominently features 'MERCADO PAGO MCP SERVER' and describes it as 'La herramienta de IA que acelera
+          tu integración'
+        - >-
+          It provides MCP server configuration for IDEs like Cursor, Windsurf, VSCode, and Claude Code via a
+          standardized MCP endpoint
+        - >-
+          The MCP server offers AI-powered capabilities including code suggestions, documentation access, and
+          integration evaluation within developer environments
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product's primary identity is as an MCP server exposing domain-specific tools over MCP, not as an extension that merely adds capabilities to a host agent.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product's primary identity is as an MCP server exposing
+        domain-specific tools over MCP, not as an extension that merely adds capabilities to a host agent.
       review_reason: null
       review_resume_lifecycle: null

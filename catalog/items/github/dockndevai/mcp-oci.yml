@@ -1,0 +1,89 @@
+id: github__dockndevai__mcp-oci
+kind: github-repo
+name: dockndevai/mcp-oci
+canonical_url: https://github.com/dockndevai/mcp-oci
+identity:
+  github_repo: dockndevai/mcp-oci
+provenance:
+  discoveries:
+    - id: discovery__github__dockndevai__mcp-oci__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: dockndevai/mcp-oci
+        extracted_url: https://github.com/dockndevai/mcp-oci
+        surrounding_text: >-
+          - [dockndevai/mcp-oci](https://github.com/dockndevai/mcp-oci) [![dockndevai/mcp-oci MCP
+          server](https://glama.ai/mcp/servers/dockndevai/mcp-oci/badges/score.svg)](https://glama.ai/mcp/servers/dockndevai/mcp-oci)
+          📇 🏠 🍎 🪟 🐧 - Read-only Oracle Cloud (OCI) resource discovery, dependency mapping and reproducible
+          Terraform generation, with secret redaction.
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: dockndevai/mcp-oci
+    html_url: https://github.com/dockndevai/mcp-oci
+    created_at: '2026-08-23T06:34:40Z'
+    pushed_at: '2026-09-25T16:55:12Z'
+    description: >-
+      MCP server for Oracle Cloud (OCI) — live resource discovery, dependency mapping, and Terraform generation, with
+      security modes and access-control flags.
+    homepage: https://dockndevai.github.io/
+    topics:
+      - iac
+      - llm
+      - mcp
+      - model-context-protocol
+      - oci
+      - oracle-cloud
+      - terraform
+    last_checked_at: '2026-09-29T13:10:44.189Z'
+    readme:
+      fetched_at: '2026-09-29T13:10:44.189Z'
+      bytes: 5635
+insights:
+  summary: >-
+    MCP server for Oracle Cloud (OCI) — live resource discovery, dependency mapping, and Terraform generation, with
+    security modes and access-control flags.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
+  evidence:
+    - jev-latest choice confidence 0.99
+placement:
+  primary_category: mcp
+  secondary_categories: []
+  section: Cloud & API Integration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.454Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:10:44.189Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

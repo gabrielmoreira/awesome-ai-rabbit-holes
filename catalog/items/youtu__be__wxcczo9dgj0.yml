@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__youtu__be__wxcczo9dgj0__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -18,7 +18,7 @@ provenance:
           - Tutorials
         anchor_text: Setup Claude Desktop App to Use a SQLite Database
         extracted_url: https://youtu.be/wxCCzo9dGj0
-        surrounding_text: "* [Setup Claude Desktop App to Use a SQLite Database](https://youtu.be/wxCCzo9dGj0)"
+        surrounding_text: '* [Setup Claude Desktop App to Use a SQLite Database](https://youtu.be/wxCCzo9dGj0)'
         confidence: high
 metadata:
   github:
@@ -43,7 +43,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The input is a bare YouTube URL with no description, code, or tooling claims; it lacks any developer-facing product identity.
+  reason: >-
+    The input is a bare YouTube URL with no description, code, or tooling claims; it lacks any developer-facing product
+    identity.
   evidence:
     - URL points to a YouTube video (https://youtu.be/wxCCzo9dGj0)
     - Scraped site context shows generic YouTube homepage text, no project or tool description
@@ -52,12 +54,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.671Z"
+    updated_at: '2026-05-06T22:12:15.671Z'
     cause: null
     next_retry_at: null
   stars:
@@ -66,7 +68,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:51:30.027Z"
+    updated_at: '2026-09-28T04:51:30.027Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -79,7 +81,9 @@ processing:
       input_hash: sha256:dc01f26363e8eb6aeeb050a55b61362cab95e838098665342649de14f713f5dd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a bare YouTube URL with no description, code, or tooling claims; it lacks any developer-facing product identity.
+      decision_reason: >-
+        The input is a bare YouTube URL with no description, code, or tooling claims; it lacks any developer-facing
+        product identity.
       decision_evidence:
         - URL points to a YouTube video (https://youtu.be/wxCCzo9dGj0)
         - Scraped site context shows generic YouTube homepage text, no project or tool description

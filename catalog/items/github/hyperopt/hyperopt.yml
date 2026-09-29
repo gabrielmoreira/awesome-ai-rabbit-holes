@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hyperopt__hyperopt__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,11 @@ provenance:
           - AutoML
         anchor_text: Hyperopt
         extracted_url: https://github.com/hyperopt/hyperopt
-        surrounding_text: "| [Hyperopt](https://github.com/hyperopt/hyperopt)                             | Distributed Asynchronous Hyperparameter Optimization in Python.                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/hyperopt/hyperopt.svg?style=flat-square)               |"
+        surrounding_text: >-
+          | [Hyperopt](https://github.com/hyperopt/hyperopt)                             | Distributed Asynchronous
+          Hyperparameter Optimization in
+          Python.                                                                                                                
+          | ![GitHub Badge](https://img.shields.io/github/stars/hyperopt/hyperopt.svg?style=flat-square)               |
         confidence: high
 metadata:
   github:
@@ -29,20 +33,24 @@ metadata:
     archived: false
     full_name: hyperopt/hyperopt
     html_url: https://github.com/hyperopt/hyperopt
-    created_at: "2011-09-06T22:24:59Z"
-    pushed_at: "2026-07-27T21:11:53Z"
+    created_at: '2011-09-06T22:24:59Z'
+    pushed_at: '2026-07-27T21:11:53Z'
     description: Distributed Asynchronous Hyperparameter Optimization in Python
     homepage: http://hyperopt.github.io/hyperopt
     topics:
       - hacktoberfest
-    last_checked_at: "2026-07-30T05:05:41.067Z"
+    last_checked_at: '2026-07-30T05:05:41.067Z'
     readme:
-      fetched_at: "2026-07-30T05:05:41.067Z"
+      fetched_at: '2026-07-30T05:05:41.067Z'
       bytes: 7670
 insights:
   summary: A Python library for distributed asynchronous hyperparameter optimization over complex search spaces.
-  why_it_matters: It automates the tuning of machine learning model hyperparameters, saving developers time and improving model performance.
-  mental_damage: Because nothing says 'modern software development' like spending hours tuning a model to find the perfect learning rate.
+  why_it_matters: >-
+    It automates the tuning of machine learning model hyperparameters, saving developers time and improving model
+    performance.
+  mental_damage: >-
+    Because nothing says 'modern software development' like spending hours tuning a model to find the perfect learning
+    rate.
   tags:
     - hyperparameter-optimization
     - machine-learning
@@ -51,7 +59,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Hyperopt is a general ML hyperparameter optimization library, not a developer-tooling product focused on AI-assisted coding workflows.
+  reason: >-
+    Hyperopt is a general ML hyperparameter optimization library, not a developer-tooling product focused on AI-assisted
+    coding workflows.
   evidence:
     - Repo description explicitly states it is for hyperparameter optimization in Python
     - README focuses on ML optimization algorithms (TPE, Random Search, Adaptive TPE)
@@ -60,22 +70,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (7576) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:41.067Z"
+    updated_at: '2026-07-30T05:05:41.067Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -90,7 +100,9 @@ processing:
       input_hash: sha256:4e875e6c471c271ea6c9f34dce513d9ed30a815ead6414942f75fe35ae976567
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Hyperopt is a general ML hyperparameter optimization library, not a developer-tooling product focused on AI-assisted coding workflows.
+      decision_reason: >-
+        Hyperopt is a general ML hyperparameter optimization library, not a developer-tooling product focused on
+        AI-assisted coding workflows.
       decision_evidence:
         - Repo description explicitly states it is for hyperparameter optimization in Python
         - README focuses on ML optimization algorithms (TPE, Random Search, Adaptive TPE)

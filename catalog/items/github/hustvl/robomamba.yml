@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hustvl__robomamba__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Robotics Foundation Model
         anchor_text: RoboMamba
         extracted_url: https://github.com/hustvl/robomamba
-        surrounding_text: "| [RoboMamba](https://github.com/hustvl/RoboMamba)          | An efficient VLA model leveraging State Space Models (Mamba) instead of standard self-attention, offering linear inference complexity for efficient, recurrent robotic reasoning.                          | ![GitHub Badge](https://img.shields.io/github/stars/hustvl/RoboMamba.svg?style=flat-square)            |"
+        surrounding_text: >-
+          | [RoboMamba](https://github.com/hustvl/RoboMamba)          | An efficient VLA model leveraging State Space
+          Models (Mamba) instead of standard self-attention, offering linear inference complexity for efficient,
+          recurrent robotic reasoning.                          | ![GitHub
+          Badge](https://img.shields.io/github/stars/hustvl/RoboMamba.svg?style=flat-square)            |
         confidence: high
 metadata:
   github:
@@ -51,24 +55,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.683Z"
+    updated_at: '2026-05-21T05:27:57.683Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-08-03T05:16:51.507Z"
+    updated_at: '2026-08-03T05:16:51.507Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: hustvl/robomamba"
+      message: 'GitHub repository not found: hustvl/robomamba'
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

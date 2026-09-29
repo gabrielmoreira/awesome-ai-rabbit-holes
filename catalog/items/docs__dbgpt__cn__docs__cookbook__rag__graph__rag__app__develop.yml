@@ -5,8 +5,9 @@ canonical_url: https://docs.dbgpt.cn/docs/cookbook/rag/graph_rag_app_develop
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__docs__dbgpt__cn__docs__cookbook__rag__graph__rag__app__develop__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-21T15:20:21.961Z"
+    - id: >-
+        discovery__docs__dbgpt__cn__docs__cookbook__rag__graph__rag__app__develop__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,7 +19,12 @@ provenance:
           - 知识库 RAG
         anchor_text: Graph RAG User Manual
         extracted_url: https://docs.dbgpt.cn/docs/cookbook/rag/graph_rag_app_develop
-        surrounding_text: "27. [DB-GPT GraphRAG](https://github.com/eosphoros-ai/DB-GPT/tree/main/dbgpt/storage/knowledge_graph): DB-GPT GraphRAG integrates both triplet-based knowledge graphs and document structure graphs while leveraging community and document retrieval mechanisms to enhance RAG capabilities, achieving comparable performance while consuming only 50% of the tokens required by Microsoft's GraphRAG. Refer to the DB-GPT [Graph RAG User Manual](http://docs.dbgpt.cn/docs/cookbook/rag/graph_rag_app_develop/) for details."
+        surrounding_text: >-
+          27. [DB-GPT GraphRAG](https://github.com/eosphoros-ai/DB-GPT/tree/main/dbgpt/storage/knowledge_graph): DB-GPT
+          GraphRAG integrates both triplet-based knowledge graphs and document structure graphs while leveraging
+          community and document retrieval mechanisms to enhance RAG capabilities, achieving comparable performance
+          while consuming only 50% of the tokens required by Microsoft's GraphRAG. Refer to the DB-GPT [Graph RAG User
+          Manual](http://docs.dbgpt.cn/docs/cookbook/rag/graph_rag_app_develop/) for details.
         confidence: high
 metadata:
   github:
@@ -36,9 +42,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Graph RAG app development cookbook documentation for DB-GPT, focusing on building applications with graph-enhanced retrieval-augmented generation.
-  why_it_matters: Provides developers with a structured guide to implement graph-based RAG techniques for improved context retrieval in AI applications.
-  mental_damage: Another specialized RAG variant promising better answers while adding complexity to an already fragmented retrieval landscape.
+  summary: >-
+    Graph RAG app development cookbook documentation for DB-GPT, focusing on building applications with graph-enhanced
+    retrieval-augmented generation.
+  why_it_matters: >-
+    Provides developers with a structured guide to implement graph-based RAG techniques for improved context retrieval
+    in AI applications.
+  mental_damage: >-
+    Another specialized RAG variant promising better answers while adding complexity to an already fragmented retrieval
+    landscape.
   tags:
     - graph-rag
     - rag
@@ -46,21 +58,23 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Excluded as it is documentation/tutorial content rather than a standalone developer tool or product, lacking actionable workflow integration or executable artifact.
+  reason: >-
+    Excluded as it is documentation/tutorial content rather than a standalone developer tool or product, lacking
+    actionable workflow integration or executable artifact.
   evidence:
-    - "URL points to documentation page: https://docs.dbgpt.cn/docs/cookbook/rag/graph_rag_app_develop"
+    - 'URL points to documentation page: https://docs.dbgpt.cn/docs/cookbook/rag/graph_rag_app_develop'
     - Appears in awesome-LLM-resources under '知识库 RAG' section as a resource summary
     - No evidence of being a runnable tool, framework, agent, or app builder — purely educational/cookbook content
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.965Z"
+    updated_at: '2026-07-21T15:20:21.965Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:53:42.014Z"
+    updated_at: '2026-09-28T04:53:42.014Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -80,9 +94,11 @@ processing:
       input_hash: sha256:e056589fef292f6b035eaf35752fff180a8feaa2ac7d1b4fb2a5694700aa3518
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Excluded as it is documentation/tutorial content rather than a standalone developer tool or product, lacking actionable workflow integration or executable artifact.
+      decision_reason: >-
+        Excluded as it is documentation/tutorial content rather than a standalone developer tool or product, lacking
+        actionable workflow integration or executable artifact.
       decision_evidence:
-        - "URL points to documentation page: https://docs.dbgpt.cn/docs/cookbook/rag/graph_rag_app_develop"
+        - 'URL points to documentation page: https://docs.dbgpt.cn/docs/cookbook/rag/graph_rag_app_develop'
         - Appears in awesome-LLM-resources under '知识库 RAG' section as a resource summary
         - No evidence of being a runnable tool, framework, agent, or app builder — purely educational/cookbook content
       category_candidates: []

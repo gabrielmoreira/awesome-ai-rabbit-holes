@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__opennmt__ctranslate2__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Large Model Serving
         anchor_text: CTranslate2
         extracted_url: https://github.com/opennmt/ctranslate2
-        surrounding_text: "| [CTranslate2](https://github.com/OpenNMT/CTranslate2)                                 | fast inference engine for Transformer models in C++                                                             | ![GitHub Badge](https://img.shields.io/github/stars/OpenNMT/CTranslate2.svg?style=flat-square)                   |"
+        surrounding_text: >-
+          | [CTranslate2](https://github.com/OpenNMT/CTranslate2)                                 | fast inference
+          engine for Transformer models in C++                                                             | ![GitHub
+          Badge](https://img.shields.io/github/stars/OpenNMT/CTranslate2.svg?style=flat-square)                   |
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: OpenNMT/CTranslate2
     html_url: https://github.com/OpenNMT/CTranslate2
-    created_at: "2019-09-23T08:10:42Z"
-    pushed_at: "2026-07-03T12:39:06Z"
+    created_at: '2019-09-23T08:10:42Z'
+    pushed_at: '2026-07-03T12:39:06Z'
     description: Fast inference engine for Transformer models
     homepage: https://opennmt.net/CTranslate2
     topics:
@@ -55,14 +58,20 @@ metadata:
       - quantization
       - thrust
       - transformer-models
-    last_checked_at: "2026-07-20T16:42:27.346Z"
+    last_checked_at: '2026-07-20T16:42:27.346Z'
     readme:
-      fetched_at: "2026-07-20T16:42:27.346Z"
+      fetched_at: '2026-07-20T16:42:27.346Z'
       bytes: 9568
 insights:
-  summary: A C++ and Python library for fast, efficient inference of Transformer models with quantization and CPU/GPU optimizations.
-  why_it_matters: It lets developers run quantized LLMs and translation models with significantly lower latency and memory usage across x86, ARM, and GPU backends.
-  mental_damage: Yet another reminder that your carefully prompt-tuned AI stack still depends on someone else’s hand-tuned AVX2 intrinsics to avoid melting a laptop.
+  summary: >-
+    A C++ and Python library for fast, efficient inference of Transformer models with quantization and CPU/GPU
+    optimizations.
+  why_it_matters: >-
+    It lets developers run quantized LLMs and translation models with significantly lower latency and memory usage
+    across x86, ARM, and GPU backends.
+  mental_damage: >-
+    Yet another reminder that your carefully prompt-tuned AI stack still depends on someone else’s hand-tuned AVX2
+    intrinsics to avoid melting a laptop.
   tags:
     - inference
     - transformers
@@ -72,35 +81,39 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a general-purpose ML inference engine rather than a developer-facing AI tool, agent, or workflow product within the catalog’s scope.
+  reason: >-
+    Excluded because it is a general-purpose ML inference engine rather than a developer-facing AI tool, agent, or
+    workflow product within the catalog’s scope.
   evidence:
-    - "Repo description: 'Fast inference engine for Transformer models' — a model runtime, not a developer tool."
-    - README describes a C++ and Python library for model quantization, batching, and decoding, with no coding-agent or IDE workflow.
+    - 'Repo description: ''Fast inference engine for Transformer models'' — a model runtime, not a developer tool.'
+    - >-
+      README describes a C++ and Python library for model quantization, batching, and decoding, with no coding-agent or
+      IDE workflow.
     - Appears in Awesome-LLMOps under 'Large Model Serving', which is infrastructure, not developer-facing AI tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (4471) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.640Z"
+    updated_at: '2026-05-06T22:12:15.640Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:27.346Z"
+    updated_at: '2026-07-20T16:42:27.346Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

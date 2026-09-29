@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentscale__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - AgentScale
         anchor_text: AgentScale
         extracted_url: https://agentscale.ai
-        surrounding_text: "## [AgentScale](https://agentscale.ai/)"
+        surrounding_text: '## [AgentScale](https://agentscale.ai/)'
         confidence: high
 metadata:
   github:
@@ -43,20 +43,24 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a business-centric automation service focused on RPA rather than a developer-facing tool for software engineering or agent orchestration.
+  reason: >-
+    The tool is a business-centric automation service focused on RPA rather than a developer-facing tool for software
+    engineering or agent orchestration.
   evidence:
     - Scraped site context explicitly identifies the target audience as 'businesses' for 'automation solutions'.
-    - The core value proposition is RPA (Robotic Process Automation) and business automation, which falls outside the scope of developer-tooling.
+    - >-
+      The core value proposition is RPA (Robotic Process Automation) and business automation, which falls outside the
+      scope of developer-tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -65,7 +69,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:32:20.674Z"
+    updated_at: '2026-09-24T04:32:20.674Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -78,10 +82,14 @@ processing:
       input_hash: sha256:4c46cf445564d4c4209fd58abf9446458f60a07f0fd5376ee6e081394cc6f8de
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a business-centric automation service focused on RPA rather than a developer-facing tool for software engineering or agent orchestration.
+      decision_reason: >-
+        The tool is a business-centric automation service focused on RPA rather than a developer-facing tool for
+        software engineering or agent orchestration.
       decision_evidence:
         - Scraped site context explicitly identifies the target audience as 'businesses' for 'automation solutions'.
-        - The core value proposition is RPA (Robotic Process Automation) and business automation, which falls outside the scope of developer-tooling.
+        - >-
+          The core value proposition is RPA (Robotic Process Automation) and business automation, which falls outside
+          the scope of developer-tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

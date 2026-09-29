@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__autario__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,15 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: npm package
         extracted_url: https://npmjs.com/package/autario-mcp
-        surrounding_text: "- [Autario/autario-mcp](https://github.com/Autario/autario-mcp) [![Autario/autario-mcp MCP server](https://glama.ai/mcp/servers/Autario/autario-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Autario/autario-mcp) ☁️ - Search, query, and publish charts across 2,300+ verified public datasets (World Bank, IMF, Eurostat, OECD, WHO). 28 MCP tools for data discovery, analysis, and visualization. Remote MCP + [npm package](https://www.npmjs.com/package/autario-mcp)."
+        surrounding_text: >-
+          - [Autario/autario-mcp](https://github.com/Autario/autario-mcp) [![Autario/autario-mcp MCP
+          server](https://glama.ai/mcp/servers/Autario/autario-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Autario/autario-mcp)
+          ☁️ - Search, query, and publish charts across 2,300+ verified public datasets (World Bank, IMF, Eurostat,
+          OECD, WHO). 28 MCP tools for data discovery, analysis, and visualization. Remote MCP + [npm
+          package](https://www.npmjs.com/package/autario-mcp).
         confidence: high
     - id: discovery__www__npmjs__com__package__autario__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,7 +40,12 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: npm package
         extracted_url: https://www.npmjs.com/package/autario-mcp
-        surrounding_text: "- [Autario/autario-mcp](https://github.com/Autario/autario-mcp) [![Autario/autario-mcp MCP server](https://glama.ai/mcp/servers/Autario/autario-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Autario/autario-mcp) ☁️ - Search, query, and publish charts across 2,300+ verified public datasets (World Bank, IMF, Eurostat, OECD, WHO). 28 MCP tools for data discovery, analysis, and visualization. Remote MCP + [npm package](https://www.npmjs.com/package/autario-mcp)."
+        surrounding_text: >-
+          - [Autario/autario-mcp](https://github.com/Autario/autario-mcp) [![Autario/autario-mcp MCP
+          server](https://glama.ai/mcp/servers/Autario/autario-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Autario/autario-mcp)
+          ☁️ - Search, query, and publish charts across 2,300+ verified public datasets (World Bank, IMF, Eurostat,
+          OECD, WHO). 28 MCP tools for data discovery, analysis, and visualization. Remote MCP + [npm
+          package](https://www.npmjs.com/package/autario-mcp).
         confidence: high
 metadata:
   github:
@@ -63,7 +73,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The package's primary identity is an MCP server, as evidenced by its name and its inclusion in the awesome-mcp-servers directory.
+  reason: >-
+    The package's primary identity is an MCP server, as evidenced by its name and its inclusion in the
+    awesome-mcp-servers directory.
   evidence:
     - Listed in awesome-mcp-servers under the Data Platforms section
     - Distributed as an npm package, typical for MCP server implementations
@@ -72,12 +84,12 @@ placement:
   secondary_categories: []
   section: Data & Databases
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-24T04:14:39.757Z"
+    updated_at: '2026-09-24T04:14:39.757Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,19 +102,23 @@ processing:
       input_hash: sha256:58b69ff192eb586fcf578b608da1d7e8fa3d733a7712d2fb75e67901dcc8e069
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The package's primary identity is an MCP server, as evidenced by its name and its inclusion in the awesome-mcp-servers directory.
+      decision_reason: >-
+        The package's primary identity is an MCP server, as evidenced by its name and its inclusion in the
+        awesome-mcp-servers directory.
       decision_evidence:
         - Listed in awesome-mcp-servers under the Data Platforms section
         - Distributed as an npm package, typical for MCP server implementations
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is a protocol-specific server rather than a general-purpose developer SDK.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's primary identity is a protocol-specific server rather than a
+        general-purpose developer SDK.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.968Z"
+    updated_at: '2026-07-21T15:20:21.968Z'
     cause: null
     next_retry_at: null
   stars:

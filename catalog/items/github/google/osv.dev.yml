@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__google__osv.dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: OSV (Open Source Vulnerabilities) database
         extracted_url: https://osv.dev
-        surrounding_text: "- **[OSV](https://github.com/StacklokLabs/osv-mcp)** - Access the [OSV (Open Source Vulnerabilities) database](https://osv.dev/) for vulnerability information. Query vulnerabilities by package version or commit, batch query multiple packages, and get detailed vulnerability information by ID."
+        surrounding_text: >-
+          - **[OSV](https://github.com/StacklokLabs/osv-mcp)** - Access the [OSV (Open Source Vulnerabilities)
+          database](https://osv.dev/) for vulnerability information. Query vulnerabilities by package version or commit,
+          batch query multiple packages, and get detailed vulnerability information by ID.
         confidence: high
 metadata:
   github:
@@ -29,8 +32,8 @@ metadata:
     archived: false
     full_name: google/osv.dev
     html_url: https://github.com/google/osv.dev
-    created_at: "2021-01-08T02:14:10Z"
-    pushed_at: "2026-09-03T04:26:52Z"
+    created_at: '2021-01-08T02:14:10Z'
+    pushed_at: '2026-09-03T04:26:52Z'
     description: Open source vulnerability DB and triage service.
     homepage: https://osv.dev
     topics:
@@ -40,14 +43,18 @@ metadata:
       - vulnerability-databases
       - vulnerability-management
       - vulnerability-scanners
-    last_checked_at: "2026-09-03T05:16:52.028Z"
+    last_checked_at: '2026-09-03T05:16:52.028Z'
     readme:
-      fetched_at: "2026-09-03T05:16:52.028Z"
+      fetched_at: '2026-09-03T05:16:52.028Z'
       bytes: 4426
 insights:
   summary: Open source vulnerability database and triage service for open source projects and dependencies.
-  why_it_matters: Developers can scan dependencies, lockfiles, SBOMs, or git repos against a comprehensive vulnerability database to identify known security issues.
-  mental_damage: Finally, a way to turn your dependency graph into a vulnerability graph—because nothing says 'modern development' like a new CVE every time you run `npm install`.
+  why_it_matters: >-
+    Developers can scan dependencies, lockfiles, SBOMs, or git repos against a comprehensive vulnerability database to
+    identify known security issues.
+  mental_damage: >-
+    Finally, a way to turn your dependency graph into a vulnerability graph—because nothing says 'modern development'
+    like a new CVE every time you run `npm install`.
   tags:
     - security
     - vulnerability-scanning
@@ -65,22 +72,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (2656) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:52.028Z"
+    updated_at: '2026-09-03T05:16:52.028Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

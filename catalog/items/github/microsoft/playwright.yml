@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__microsoft__playwright__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,9 @@ provenance:
           - Testing and QA
         anchor_text: Playwright
         extracted_url: https://playwright.dev
-        surrounding_text: "- **[Playwright](https://playwright.dev/)** – Microsoft's end-to-end testing framework (often used with AI-powered test generation)."
+        surrounding_text: >-
+          - **[Playwright](https://playwright.dev/)** – Microsoft's end-to-end testing framework (often used with
+          AI-powered test generation).
         confidence: high
 metadata:
   github:
@@ -29,9 +31,11 @@ metadata:
     archived: false
     full_name: microsoft/playwright
     html_url: https://github.com/microsoft/playwright
-    created_at: "2019-11-15T18:32:42Z"
-    pushed_at: "2026-07-31T21:39:29Z"
-    description: "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. "
+    created_at: '2019-11-15T18:32:42Z'
+    pushed_at: '2026-07-31T21:39:29Z'
+    description: >-
+      Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a
+      single API. 
     homepage: https://playwright.dev
     topics:
       - automation
@@ -49,14 +53,20 @@ metadata:
       - testing-tools
       - web
       - webkit
-    last_checked_at: "2026-08-03T05:17:02.317Z"
+    last_checked_at: '2026-08-03T05:17:02.317Z'
     readme:
-      fetched_at: "2026-08-03T05:17:02.317Z"
+      fetched_at: '2026-08-03T05:17:02.317Z'
       bytes: 11280
 insights:
-  summary: Playwright is a framework for web automation and testing that drives Chromium, Firefox, and WebKit with a single API.
-  why_it_matters: It enables reliable end-to-end testing and browser automation for web applications, including use by AI agents via CLI and MCP interfaces.
-  mental_damage: Hope you enjoy maintaining three browser baselines just to confirm your 'Get started' button still works after a CSS tweak.
+  summary: >-
+    Playwright is a framework for web automation and testing that drives Chromium, Firefox, and WebKit with a single
+    API.
+  why_it_matters: >-
+    It enables reliable end-to-end testing and browser automation for web applications, including use by AI agents via
+    CLI and MCP interfaces.
+  mental_damage: >-
+    Hope you enjoy maintaining three browser baselines just to confirm your 'Get started' button still works after a CSS
+    tweak.
   tags:
     - testing
     - automation
@@ -64,31 +74,40 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Playwright is a general-purpose web testing and automation framework, not an AI developer tool; its inclusion in AI tool lists is peripheral and does not establish a primary identity as an AI coding assistant, extension, or related developer-facing AI product.
+  reason: >-
+    Playwright is a general-purpose web testing and automation framework, not an AI developer tool; its inclusion in AI
+    tool lists is peripheral and does not establish a primary identity as an AI coding assistant, extension, or related
+    developer-facing AI product.
   evidence:
-    - "Repo description: 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.'"
-    - "README: 'Playwright is a framework for web automation and testing. It drives Chromium, Firefox, and WebKit with a single API — in your tests, in your scripts, and as a tool for AI agents.'"
-    - "Source-list context: Listed in 'awesome-ai-coding-tools' under 'Testing and QA' for 'Web automation and testing for apps, scripts, and AI agents' — indicating secondary, supportive use rather than primary AI tooling."
+    - >-
+      Repo description: 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox
+      and WebKit with a single API.'
+    - >-
+      README: 'Playwright is a framework for web automation and testing. It drives Chromium, Firefox, and WebKit with a
+      single API — in your tests, in your scripts, and as a tool for AI agents.'
+    - >-
+      Source-list context: Listed in 'awesome-ai-coding-tools' under 'Testing and QA' for 'Web automation and testing
+      for apps, scripts, and AI agents' — indicating secondary, supportive use rather than primary AI tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (88120) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:02.317Z"
+    updated_at: '2026-08-03T05:17:02.317Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -103,11 +122,21 @@ processing:
       input_hash: sha256:c7dc8ce591d27946150523d7856216fa657be7eec8ed2c6bca6f520afaa6f56f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Playwright is a general-purpose web testing and automation framework, not an AI developer tool; its inclusion in AI tool lists is peripheral and does not establish a primary identity as an AI coding assistant, extension, or related developer-facing AI product.
+      decision_reason: >-
+        Playwright is a general-purpose web testing and automation framework, not an AI developer tool; its inclusion in
+        AI tool lists is peripheral and does not establish a primary identity as an AI coding assistant, extension, or
+        related developer-facing AI product.
       decision_evidence:
-        - "Repo description: 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.'"
-        - "README: 'Playwright is a framework for web automation and testing. It drives Chromium, Firefox, and WebKit with a single API — in your tests, in your scripts, and as a tool for AI agents.'"
-        - "Source-list context: Listed in 'awesome-ai-coding-tools' under 'Testing and QA' for 'Web automation and testing for apps, scripts, and AI agents' — indicating secondary, supportive use rather than primary AI tooling."
+        - >-
+          Repo description: 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium,
+          Firefox and WebKit with a single API.'
+        - >-
+          README: 'Playwright is a framework for web automation and testing. It drives Chromium, Firefox, and WebKit
+          with a single API — in your tests, in your scripts, and as a tool for AI agents.'
+        - >-
+          Source-list context: Listed in 'awesome-ai-coding-tools' under 'Testing and QA' for 'Web automation and
+          testing for apps, scripts, and AI agents' — indicating secondary, supportive use rather than primary AI
+          tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

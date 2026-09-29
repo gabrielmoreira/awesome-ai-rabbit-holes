@@ -1,0 +1,99 @@
+id: github__harshwasan__pi-jev-sentinel
+kind: github-repo
+name: harshwasan/pi-jev-sentinel
+canonical_url: https://github.com/harshwasan/pi-jev-sentinel
+identity:
+  github_repo: harshwasan/pi-jev-sentinel
+provenance:
+  discoveries:
+    - id: discovery__github__harshwasan__pi-jev-sentinel__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: pi-jev-sentinel
+        extracted_url: https://github.com/harshwasan/pi-jev-sentinel
+        surrounding_text: >-
+          - [pi-jev-sentinel](https://github.com/harshwasan/pi-jev-sentinel) - Adds TypeSafe Jev checks for Pi, Claude
+          Code, and Codex tool calls, tool outputs, and replies, with secret scrubbing and fail-closed asks when
+          unconfigured. [Project guide](community/projects/tools/pi-jev-sentinel.md).
+        confidence: high
+    - id: discovery__github__harshwasan__pi-jev-sentinel__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Security & Guardrails
+        anchor_text: '**pi-jev-sentinel**'
+        extracted_url: https://github.com/harshwasan/pi-jev-sentinel
+        surrounding_text: >-
+          - [**pi-jev-sentinel**](https://github.com/harshwasan/pi-jev-sentinel) — Open-source Pi coding-agent extension
+          that uses Jev to check tool calls before they run, scan files for prompt injection, flag risky replies, and
+          keep secrets out of what it sends.
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: harshwasan/jev-sentinel
+    html_url: https://github.com/harshwasan/jev-sentinel
+    created_at: '2026-09-19T16:40:22Z'
+    pushed_at: '2026-09-20T21:42:49Z'
+    description: >-
+      Pi coding-agent extension: TypeSafe Jev checks for tool calls, tool outputs and replies (prompt injection,
+      approvals, secret scrubbing, task pinning)
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:12:00.056Z'
+    readme:
+      fetched_at: '2026-09-29T13:12:00.056Z'
+      bytes: 10777
+insights:
+  summary: >-
+    Pi coding-agent extension: TypeSafe Jev checks for tool calls, tool outputs and replies (prompt injection,
+    approvals, secret scrubbing, task pinning)
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.42
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.414Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:12:00.056Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

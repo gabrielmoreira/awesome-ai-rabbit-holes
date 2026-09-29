@@ -1,0 +1,77 @@
+id: github__cc-claws__cc-code
+kind: github-repo
+name: cc-claws/cc-code
+canonical_url: https://github.com/cc-claws/cc-code
+identity:
+  github_repo: cc-claws/cc-code
+provenance:
+  discoveries:
+    - id: discovery__github__cc-claws__cc-code__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: cc-code
+        extracted_url: https://github.com/cc-claws/cc-code
+        surrounding_text: >-
+          - **[cc-code](https://github.com/cc-claws/cc-code)** – Open-source Rust terminal coding agent, Claude Code
+          compatible. Runs DeepSeek, MiMo, GLM with ~50MB memory and 95-99% prompt cache hit rate.
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 2
+    license: Apache-2.0
+    archived: false
+    full_name: cc-claws/cc-code
+    html_url: https://github.com/cc-claws/cc-code
+    created_at: '2026-06-25T11:20:18Z'
+    pushed_at: '2026-09-29T13:09:18Z'
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:09:43.961Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:43.961Z'
+      bytes: 11945
+insights:
+  summary: >-
+    cc-code – Open-source Rust terminal coding agent, Claude Code compatible. Runs DeepSeek, MiMo, GLM with ~50MB memory
+    and 95-99% prompt cache hit rate.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
+  evidence:
+    - jev-latest choice confidence 0.99
+placement:
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Terminal & CLI Agents
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.451Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:43.961Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__buildkite__com__home__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Buildkite
         extracted_url: https://buildkite.com
-        surrounding_text: "- **[Buildkite](https://github.com/buildkite/buildkite-mcp-server)** - Manage [Buildkite](https://buildkite.com) pipelines and builds."
+        surrounding_text: >-
+          - **[Buildkite](https://github.com/buildkite/buildkite-mcp-server)** - Manage
+          [Buildkite](https://buildkite.com) pipelines and builds.
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: A high-scale CI/CD platform designed for automated build pipelines, testing, and orchestration.
-  why_it_matters: It provides the specialized infrastructure and agentic workflow components needed to scale complex CI pipelines for AI-driven development cycles.
-  mental_damage: Because nothing says 'peace of mind' like watching 40 million minutes of CI builds and hoping the agent doesn't loop your cloud bill into the stratosphere.
+  why_it_matters: >-
+    It provides the specialized infrastructure and agentic workflow components needed to scale complex CI pipelines for
+    AI-driven development cycles.
+  mental_damage: >-
+    Because nothing says 'peace of mind' like watching 40 million minutes of CI builds and hoping the agent doesn't loop
+    your cloud bill into the stratosphere.
   tags:
     - ci-cd
     - orchestration
@@ -48,7 +54,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Buildkite is a general-purpose CI/CD platform and infrastructure service, not a specialized AI developer tool, agent, or engineering framework.
+  reason: >-
+    Buildkite is a general-purpose CI/CD platform and infrastructure service, not a specialized AI developer tool,
+    agent, or engineering framework.
   evidence:
     - Primary product is a CI/CD platform for pipelines and testing
     - AI features are described as 'building blocks' or 'agentic components' within a much larger DevOps suite
@@ -57,12 +65,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,10 +79,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:34:59.602Z"
+    updated_at: '2026-09-24T04:34:59.602Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for buildkite__com__home: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for buildkite__com__home: Upstream error from Nvidia: ResourceExhausted:
+        Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -86,7 +96,9 @@ processing:
       input_hash: sha256:1f98c805b36559975f31e54412f5f8074451adb36b23d47afdfd36c3fba1505a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Buildkite is a general-purpose CI/CD platform and infrastructure service, not a specialized AI developer tool, agent, or engineering framework.
+      decision_reason: >-
+        Buildkite is a general-purpose CI/CD platform and infrastructure service, not a specialized AI developer tool,
+        agent, or engineering framework.
       decision_evidence:
         - Primary product is a CI/CD platform for pipelines and testing
         - AI features are described as 'building blocks' or 'agentic components' within a much larger DevOps suite

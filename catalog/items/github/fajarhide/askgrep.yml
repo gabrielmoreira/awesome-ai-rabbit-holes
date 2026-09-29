@@ -1,0 +1,91 @@
+id: github__fajarhide__askgrep
+kind: github-repo
+name: fajarhide/askgrep
+canonical_url: https://github.com/fajarhide/askgrep
+identity:
+  github_repo: fajarhide/askgrep
+provenance:
+  discoveries:
+    - id: discovery__github__fajarhide__askgrep__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Applications
+        anchor_text: askgrep
+        extracted_url: https://github.com/fajarhide/askgrep
+        surrounding_text: >-
+          - [askgrep](https://github.com/fajarhide/askgrep) - Grep for the questions you cannot write as a pattern.
+          Reads every function instead of sampling a few. Powered by Jev, TypeSafe AI's System One model.
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    full_name: fajarhide/askgrep
+    html_url: https://github.com/fajarhide/askgrep
+    created_at: '2026-09-21T03:54:57Z'
+    pushed_at: '2026-09-22T05:59:30Z'
+    description: >-
+      grep for the questions you cannot write as a pattern. Reads every function instead of sampling a few. Powered by
+      Jev, TypeSafe AI's System One model.
+    homepage: null
+    topics:
+      - ai
+      - classifier
+      - cli
+      - code-search
+      - developer-tools
+      - grep
+      - jev
+      - rust
+      - security-scanning
+      - static-analysis
+      - system-one
+      - typesafe
+    last_checked_at: '2026-09-29T13:11:11.423Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:11.423Z'
+      bytes: 14411
+insights:
+  summary: >-
+    grep for the questions you cannot write as a pattern. Reads every function instead of sampling a few. Powered by
+    Jev, TypeSafe AI's System One model.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Search, Retrieval & Data
+  evidence:
+    - jev-latest choice confidence 0.67
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Search, Retrieval & Data
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.456Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:11.423Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

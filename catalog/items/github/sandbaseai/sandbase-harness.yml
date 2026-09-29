@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sandbaseai__sandbase-harness__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-09-17T04:13:23.413Z"
+      discovered_at: '2026-09-17T04:13:23.413Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,14 @@ provenance:
           - Agent infrastructure
         anchor_text: SandBase Harness
         extracted_url: https://github.com/sandbaseai/sandbase-harness
-        surrounding_text: "- **[SandBase Harness](https://github.com/sandbaseai/sandbase-harness)** `⭐ 645` — Local-first TypeScript agent runtime with persistent sessions, sandboxed tools, MCP integration, memory, credentials, audit logs, replay, and CLI/API/Console surfaces. Runs locally or self-hosted with Docker and Kubernetes; isolation depends on the configured provider, and the default local provider runs as your own OS user. Apache-2.0."
+        surrounding_text: >-
+          - **[SandBase Harness](https://github.com/sandbaseai/sandbase-harness)** `⭐ 645` — Local-first TypeScript
+          agent runtime with persistent sessions, sandboxed tools, MCP integration, memory, credentials, audit logs,
+          replay, and CLI/API/Console surfaces. Runs locally or self-hosted with Docker and Kubernetes; isolation
+          depends on the configured provider, and the default local provider runs as your own OS user. Apache-2.0.
         confidence: high
     - id: discovery__github__sandbaseai__sandbase-harness__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-17T04:13:23.413Z"
+      discovered_at: '2026-09-17T04:13:23.413Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -36,7 +40,11 @@ provenance:
           - 🤖 AI Agents & Frameworks
         anchor_text: sandbaseai/sandbase-harness
         extracted_url: https://github.com/sandbaseai/sandbase-harness
-        surrounding_text: "-   **[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** [![GitHub stars](https://img.shields.io/github/stars/sandbaseai/sandbase-harness?style=social)](https://github.com/sandbaseai/sandbase-harness): Local-first, self-hosted AI-agent runtime and MCP bridge with persistent sessions, approvals, credentials, audit/replay, and selectable execution backends."
+        surrounding_text: >-
+          -   **[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** [![GitHub
+          stars](https://img.shields.io/github/stars/sandbaseai/sandbase-harness?style=social)](https://github.com/sandbaseai/sandbase-harness):
+          Local-first, self-hosted AI-agent runtime and MCP bridge with persistent sessions, approvals, credentials,
+          audit/replay, and selectable execution backends.
         confidence: high
 metadata:
   github:
@@ -67,12 +75,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-17T04:13:23.415Z"
+    updated_at: '2026-09-17T04:13:23.415Z'
     cause: null
     next_retry_at: null
   stars:
@@ -81,7 +89,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.168Z"
+    updated_at: '2026-09-28T04:14:00.168Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

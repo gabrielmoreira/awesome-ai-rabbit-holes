@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__usetusk__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Tusk
         anchor_text: Tusk
         extracted_url: https://usetusk.ai
-        surrounding_text: "## [Tusk](https://usetusk.ai/)"
+        surrounding_text: '## [Tusk](https://usetusk.ai/)'
         confidence: high
     - id: discovery__www__usetusk__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Tusk
         anchor_text: Tusk
         extracted_url: https://usetusk.ai
-        surrounding_text: "## [Tusk](https://usetusk.ai/)"
+        surrounding_text: '## [Tusk](https://usetusk.ai/)'
         confidence: high
 metadata:
   github:
@@ -51,8 +51,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Tusk is an AI testing platform that generates and maintains unit, API, and integration tests from live traffic to prevent regressions and boost code coverage.
-  why_it_matters: It automates test creation and maintenance using production traffic, reducing manual effort in achieving high test coverage and catching regressions early.
+  summary: >-
+    Tusk is an AI testing platform that generates and maintains unit, API, and integration tests from live traffic to
+    prevent regressions and boost code coverage.
+  why_it_matters: >-
+    It automates test creation and maintenance using production traffic, reducing manual effort in achieving high test
+    coverage and catching regressions early.
   mental_damage: Hope you enjoy watching AI write tests for your legacy code while you pretend technical debt is just a feature.
   tags:
     - testing
@@ -61,7 +65,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Tusk functions as an autonomous agent that generates, runs, and self-heals tests in response to code changes, fitting the coding agent profile for testing and repair tasks.
+  reason: >-
+    Tusk functions as an autonomous agent that generates, runs, and self-heals tests in response to code changes,
+    fitting the coding agent profile for testing and repair tasks.
   evidence:
     - Generates test cases from live traffic and business context to catch regressions in PRs
     - Self-iterates on tests when errors occur and maintains existing suites autonomously
@@ -71,12 +77,12 @@ placement:
   secondary_categories: []
   section: Review, Testing & Repair
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:48:45.363Z"
+    updated_at: '2026-09-28T04:48:45.363Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +95,9 @@ processing:
       input_hash: sha256:c26dafcc846209bd80518da9e8611481421ac1f3fa36bdcb168b990470ad34ca
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Tusk functions as an autonomous agent that generates, runs, and self-heals tests in response to code changes, fitting the coding agent profile for testing and repair tasks.
+      decision_reason: >-
+        Tusk functions as an autonomous agent that generates, runs, and self-heals tests in response to code changes,
+        fitting the coding agent profile for testing and repair tasks.
       decision_evidence:
         - Generates test cases from live traffic and business context to catch regressions in PRs
         - Self-iterates on tests when errors occur and maintains existing suites autonomously
@@ -97,12 +105,14 @@ processing:
       category_candidates:
         - coding-agents
         - extensions-and-addons
-      contrastive_reason: Choose coding-agents over extensions-and-addons because Tusk operates as a standalone testing agent via CLI and CI, not as a plugin extending another coding assistant’s capabilities.
+      contrastive_reason: >-
+        Choose coding-agents over extensions-and-addons because Tusk operates as a standalone testing agent via CLI and
+        CI, not as a plugin extending another coding assistant’s capabilities.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.971Z"
+    updated_at: '2026-07-21T15:20:21.971Z'
     cause: null
     next_retry_at: null
   stars:

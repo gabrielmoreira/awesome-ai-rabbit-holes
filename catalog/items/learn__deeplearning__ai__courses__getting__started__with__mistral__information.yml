@@ -5,8 +5,9 @@ canonical_url: https://learn.deeplearning.ai/courses/getting-started-with-mistra
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__learn__deeplearning__ai__courses__getting__started__with__mistral__information__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__learn__deeplearning__ai__courses__getting__started__with__mistral__information__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +17,11 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: "Mistral: Getting Started with Mistral"
+        anchor_text: 'Mistral: Getting Started with Mistral'
         extracted_url: https://www.deeplearning.ai/short-courses/getting-started-with-mistral
-        surrounding_text: "18. [Mistral: Getting Started with Mistral](https://www.deeplearning.ai/short-courses/getting-started-with-mistral/)"
+        surrounding_text: >-
+          18. [Mistral: Getting Started with
+          Mistral](https://www.deeplearning.ai/short-courses/getting-started-with-mistral/)
         confidence: high
 metadata:
   github:
@@ -36,9 +39,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Getting Started with Mistral is a beginner-friendly DeepLearning.AI short course teaching how to use Mistral AI's open and commercial LLMs via API, covering prompting, function calling, JSON mode, RAG, and chatbot development.
-  why_it_matters: It gives developers a structured, hands-on introduction to Mistral's models and key LLM features needed to integrate them into software applications.
-  mental_damage: Another free course to add to the backlog of 'I'll get around to learning this someday' while jumping between seven other LLM providers.
+  summary: >-
+    Getting Started with Mistral is a beginner-friendly DeepLearning.AI short course teaching how to use Mistral AI's
+    open and commercial LLMs via API, covering prompting, function calling, JSON mode, RAG, and chatbot development.
+  why_it_matters: >-
+    It gives developers a structured, hands-on introduction to Mistral's models and key LLM features needed to integrate
+    them into software applications.
+  mental_damage: >-
+    Another free course to add to the backlog of 'I'll get around to learning this someday' while jumping between seven
+    other LLM providers.
   tags:
     - llm-course
     - mistral
@@ -48,21 +57,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational course, not a developer-facing AI tool, agent, framework, or infrastructure product; it teaches usage but does not provide a runtime, SDK, agent, or workflow that developers can operate or integrate.
+  reason: >-
+    This is an educational course, not a developer-facing AI tool, agent, framework, or infrastructure product; it
+    teaches usage but does not provide a runtime, SDK, agent, or workflow that developers can operate or integrate.
   evidence:
-    - Repo description is missing; the scraped site identifies it as a DeepLearning.AI short course titled 'Getting Started with Mistral'.
-    - The primary page excerpt describes video lessons, code examples, and instructor-led content focused on learning Mistral's features like JSON mode, function calling, and RAG — all educational material.
-    - No evidence of a standalone tool, agent, framework, library, or platform that developers can import, run, or integrate into workflows; it is purely instructional content.
+    - >-
+      Repo description is missing; the scraped site identifies it as a DeepLearning.AI short course titled 'Getting
+      Started with Mistral'.
+    - >-
+      The primary page excerpt describes video lessons, code examples, and instructor-led content focused on learning
+      Mistral's features like JSON mode, function calling, and RAG — all educational material.
+    - >-
+      No evidence of a standalone tool, agent, framework, library, or platform that developers can import, run, or
+      integrate into workflows; it is purely instructional content.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +88,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:30:56.694Z"
+    updated_at: '2026-09-28T04:30:56.694Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,11 +101,19 @@ processing:
       input_hash: sha256:a551f104760cc5b250c2846edc0420f5db327c105f250aa9dde48344d2f4ab08
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational course, not a developer-facing AI tool, agent, framework, or infrastructure product; it teaches usage but does not provide a runtime, SDK, agent, or workflow that developers can operate or integrate.
+      decision_reason: >-
+        This is an educational course, not a developer-facing AI tool, agent, framework, or infrastructure product; it
+        teaches usage but does not provide a runtime, SDK, agent, or workflow that developers can operate or integrate.
       decision_evidence:
-        - Repo description is missing; the scraped site identifies it as a DeepLearning.AI short course titled 'Getting Started with Mistral'.
-        - The primary page excerpt describes video lessons, code examples, and instructor-led content focused on learning Mistral's features like JSON mode, function calling, and RAG — all educational material.
-        - No evidence of a standalone tool, agent, framework, library, or platform that developers can import, run, or integrate into workflows; it is purely instructional content.
+        - >-
+          Repo description is missing; the scraped site identifies it as a DeepLearning.AI short course titled 'Getting
+          Started with Mistral'.
+        - >-
+          The primary page excerpt describes video lessons, code examples, and instructor-led content focused on
+          learning Mistral's features like JSON mode, function calling, and RAG — all educational material.
+        - >-
+          No evidence of a standalone tool, agent, framework, library, or platform that developers can import, run, or
+          integrate into workflows; it is purely instructional content.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

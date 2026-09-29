@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__nurgo__software__com__products__brainsoup__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - BrainSoup
         anchor_text: BrainSoup
         extracted_url: https://nurgo-software.com/products/brainsoup
-        surrounding_text: "## [BrainSoup](https://www.nurgo-software.com/products/brainsoup)"
+        surrounding_text: '## [BrainSoup](https://www.nurgo-software.com/products/brainsoup)'
         confidence: high
     - id: discovery__www__nurgo__software__com__products__brainsoup__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - BrainSoup
         anchor_text: BrainSoup
         extracted_url: https://www.nurgo-software.com/products/brainsoup
-        surrounding_text: "## [BrainSoup](https://www.nurgo-software.com/products/brainsoup)"
+        surrounding_text: '## [BrainSoup](https://www.nurgo-software.com/products/brainsoup)'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: BrainSoup is a desktop application for creating and orchestrating custom AI agents that automate tasks through natural language and tool use.
-  why_it_matters: It enables developers to build private, multimodal AI agent teams that can act on real-world tools and data without relying on cloud services.
-  mental_damage: Finally, a way to feel like a tech CEO while actually just delegating your to-do list to a bunch of LLMs arguing in chat rooms.
+  summary: >-
+    BrainSoup is a desktop application for creating and orchestrating custom AI agents that automate tasks through
+    natural language and tool use.
+  why_it_matters: >-
+    It enables developers to build private, multimodal AI agent teams that can act on real-world tools and data without
+    relying on cloud services.
+  mental_damage: >-
+    Finally, a way to feel like a tech CEO while actually just delegating your to-do list to a bunch of LLMs arguing in
+    chat rooms.
   tags:
     - ai-agents
     - desktop-app
@@ -63,22 +69,31 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: BrainSoup's core identity is coordinating multiple specialized AI agents in goal-oriented workflows, making it an agent orchestration platform rather than a single coding agent or extension.
+  reason: >-
+    BrainSoup's core identity is coordinating multiple specialized AI agents in goal-oriented workflows, making it an
+    agent orchestration platform rather than a single coding agent or extension.
   evidence:
-    - Primary page excerpt describes 'Multi-Agent Workflows' where 'specialized AI agents, when working together, can outperform a single generalist AI' and 'craft your specialized AI team and let them coordinate in goal-oriented chat rooms'
-    - Scraped site context emphasizes 'Build an AI Team that Works for You' and 'agents seamlessly work together, enabling multi-agent collaborations to conquer complex projects'
-    - Source-list context from awesome-ai-agents lists it under 'BrainSoup' with the description 'Create custom AI agents to handle tasks and automate processes through natural language'
+    - >-
+      Primary page excerpt describes 'Multi-Agent Workflows' where 'specialized AI agents, when working together, can
+      outperform a single generalist AI' and 'craft your specialized AI team and let them coordinate in goal-oriented
+      chat rooms'
+    - >-
+      Scraped site context emphasizes 'Build an AI Team that Works for You' and 'agents seamlessly work together,
+      enabling multi-agent collaborations to conquer complex projects'
+    - >-
+      Source-list context from awesome-ai-agents lists it under 'BrainSoup' with the description 'Create custom AI
+      agents to handle tasks and automate processes through natural language'
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
   section: Hosted Agent Platforms
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:43:21.881Z"
+    updated_at: '2026-09-28T04:43:21.881Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -91,20 +106,31 @@ processing:
       input_hash: sha256:7f9ad66e561a51800fe1a236e12c2add7a97c3004b70191593205ec616d7fcdf
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: BrainSoup's core identity is coordinating multiple specialized AI agents in goal-oriented workflows, making it an agent orchestration platform rather than a single coding agent or extension.
+      decision_reason: >-
+        BrainSoup's core identity is coordinating multiple specialized AI agents in goal-oriented workflows, making it
+        an agent orchestration platform rather than a single coding agent or extension.
       decision_evidence:
-        - Primary page excerpt describes 'Multi-Agent Workflows' where 'specialized AI agents, when working together, can outperform a single generalist AI' and 'craft your specialized AI team and let them coordinate in goal-oriented chat rooms'
-        - Scraped site context emphasizes 'Build an AI Team that Works for You' and 'agents seamlessly work together, enabling multi-agent collaborations to conquer complex projects'
-        - Source-list context from awesome-ai-agents lists it under 'BrainSoup' with the description 'Create custom AI agents to handle tasks and automate processes through natural language'
+        - >-
+          Primary page excerpt describes 'Multi-Agent Workflows' where 'specialized AI agents, when working together,
+          can outperform a single generalist AI' and 'craft your specialized AI team and let them coordinate in
+          goal-oriented chat rooms'
+        - >-
+          Scraped site context emphasizes 'Build an AI Team that Works for You' and 'agents seamlessly work together,
+          enabling multi-agent collaborations to conquer complex projects'
+        - >-
+          Source-list context from awesome-ai-agents lists it under 'BrainSoup' with the description 'Create custom AI
+          agents to handle tasks and automate processes through natural language'
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because BrainSoup's primary value is managing multi-agent collaboration and workflow coordination, not directly performing coding tasks on a codebase.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because BrainSoup's primary value is managing multi-agent
+        collaboration and workflow coordination, not directly performing coding tasks on a codebase.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.968Z"
+    updated_at: '2026-07-21T15:20:21.968Z'
     cause: null
     next_retry_at: null
   stars:

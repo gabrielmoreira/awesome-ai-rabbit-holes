@@ -1,12 +1,12 @@
 id: arxiv__org__pdf__2510__18692
 kind: website
-name: "2510.18692"
+name: '2510.18692'
 canonical_url: https://arxiv.org/pdf/2510.18692
 identity: {}
 provenance:
   discoveries:
     - id: discovery__arxiv__org__pdf__2510__18692__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -39,7 +39,9 @@ metadata:
 insights:
   summary: An academic paper hosted on arXiv regarding Large Language Models.
   why_it_matters: Research papers can signal upcoming shifts in agentic reasoning or model architecture before they hit production.
-  mental_damage: It is just one more PDF to add to the pile of things you will definitely read once you've finished your current sprint.
+  mental_damage: >-
+    It is just one more PDF to add to the pile of things you will definitely read once you've finished your current
+    sprint.
   tags:
     - research
     - paper
@@ -55,12 +57,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,10 +71,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:34:24.968Z"
+    updated_at: '2026-09-24T04:34:24.968Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for arxiv__org__pdf__2510__18692: Invalid AI response structure: Included responses must rank primary_category first in category_candidates"
+      message: >-
+        Catalog LLM categorization failed for arxiv__org__pdf__2510__18692: Invalid AI response structure: Included
+        responses must rank primary_category first in category_candidates
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

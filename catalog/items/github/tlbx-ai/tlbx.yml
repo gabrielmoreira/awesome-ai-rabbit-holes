@@ -1,0 +1,80 @@
+id: github__tlbx-ai__tlbx
+kind: github-repo
+name: tlbx-ai/tlbx
+canonical_url: https://github.com/tlbx-ai/tlbx
+identity:
+  github_repo: tlbx-ai/tlbx
+provenance:
+  discoveries:
+    - id: discovery__github__tlbx-ai__tlbx__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: tlbx
+        extracted_url: https://github.com/tlbx-ai/tlbx
+        surrounding_text: >-
+          - **[tlbx](https://github.com/tlbx-ai/tlbx)** `⭐ 112` — Self-hosted browser control station for remote coding
+          agents (formerly MidTerm): runs Codex, Claude Code, Gemini CLI, Grok Build, OpenCode, Copilot CLI, and any PTY
+          app on the machines that hold your repos and credentials, supervised from any desktop, tablet, or phone
+          browser. Sessions survive disconnects; `mt` CLI helpers expose history, multi-session dispatch, and the
+          control plane as JSON so agents can drive it. AGPL-3.0.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    tlbx ⭐ 112 — Self-hosted browser control station for remote coding agents (formerly MidTerm): runs Codex, Claude
+    Code, Gemini CLI, Grok Build, OpenCode, Copilot CLI, and any PTY app on the machines that hold your repos and
+    credentials, supervised from any desktop, tablet, or phone browser. Sessions survive disconnects; mt CLI helpers
+    expose history, multi-session dispatch, and the control plane as JSON so agents can drive it. AGPL-3.0.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.97
+placement:
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.481Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

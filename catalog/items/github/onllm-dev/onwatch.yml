@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__onllm-dev__onwatch__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Observability
         anchor_text: onWatch
         extracted_url: https://github.com/onllm-dev/onwatch
-        surrounding_text: "| [onWatch](https://github.com/onllm-dev/onwatch) | Lightweight Go CLI that tracks AI API quota usage across 7 providers (Anthropic, OpenAI, GitHub Copilot, MiniMax, and more). Background daemon, <50MB RAM, zero telemetry, SQLite storage. | ![GitHub Badge](https://img.shields.io/github/stars/onllm-dev/onwatch.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [onWatch](https://github.com/onllm-dev/onwatch) | Lightweight Go CLI that tracks AI API quota usage across 7
+          providers (Anthropic, OpenAI, GitHub Copilot, MiniMax, and more). Background daemon, <50MB RAM, zero
+          telemetry, SQLite storage. | ![GitHub
+          Badge](https://img.shields.io/github/stars/onllm-dev/onwatch.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: onllm-dev/onWatch
     html_url: https://github.com/onllm-dev/onWatch
-    created_at: "2026-02-06T13:24:09Z"
-    pushed_at: "2026-06-19T07:22:33Z"
-    description: Track AI API quotas across Synthetic, Z.ai, Anthropic (Claude Code), Codex, GitHub Copilot & Antigravity in real time. Lightweight background daemon (<50MB RAM), SQLite storage, Material Design 3 dashboard. Zero telemetry.
+    created_at: '2026-02-06T13:24:09Z'
+    pushed_at: '2026-06-19T07:22:33Z'
+    description: >-
+      Track AI API quotas across Synthetic, Z.ai, Anthropic (Claude Code), Codex, GitHub Copilot & Antigravity in real
+      time. Lightweight background daemon (<50MB RAM), SQLite storage, Material Design 3 dashboard. Zero telemetry.
     homepage: https://onwatch.onllm.dev
     topics:
       - ai-api-monitoring
@@ -45,9 +51,9 @@ metadata:
       - openai
       - quota-tracker
       - zai
-    last_checked_at: "2026-07-20T16:42:24.498Z"
+    last_checked_at: '2026-07-20T16:42:24.498Z'
     readme:
-      fetched_at: "2026-07-20T16:42:24.498Z"
+      fetched_at: '2026-07-20T16:42:24.498Z'
       bytes: 42409
 insights:
   summary: null
@@ -63,22 +69,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (680) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.684Z"
+    updated_at: '2026-05-21T05:27:57.684Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:24.498Z"
+    updated_at: '2026-07-20T16:42:24.498Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__weaviate__weaviate__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,12 @@ provenance:
           - Vector search
         anchor_text: Weaviate
         extracted_url: https://github.com/semi-technologies/weaviate
-        surrounding_text: "| [Weaviate](https://github.com/semi-technologies/weaviate) | Weaviate is an open source vector search engine that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients. | ![GitHub Badge](https://img.shields.io/github/stars/semi-technologies/weaviate.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [Weaviate](https://github.com/semi-technologies/weaviate) | Weaviate is an open source vector search engine
+          that stores both objects and vectors, allowing for combining vector search with structured filtering with the
+          fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various
+          language clients. | ![GitHub
+          Badge](https://img.shields.io/github/stars/semi-technologies/weaviate.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: weaviate/weaviate
     html_url: https://github.com/weaviate/weaviate
-    created_at: "2016-03-30T15:03:17Z"
-    pushed_at: "2026-07-21T15:05:19Z"
-    description: Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.
+    created_at: '2016-03-30T15:03:17Z'
+    pushed_at: '2026-07-21T15:05:19Z'
+    description: >-
+      Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of
+      vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.
     homepage: https://weaviate.io/developers/weaviate/
     topics:
       - approximate-nearest-neighbor-search
@@ -55,14 +62,20 @@ metadata:
       - vector-search-engine
       - vectors
       - weaviate
-    last_checked_at: "2026-07-21T15:21:10.766Z"
+    last_checked_at: '2026-07-21T15:21:10.766Z'
     readme:
-      fetched_at: "2026-07-21T15:21:10.766Z"
+      fetched_at: '2026-07-21T15:21:10.766Z'
       bytes: 18524
 insights:
-  summary: Weaviate is an open-source, cloud-native vector database that stores objects and vectors together to enable semantic search, hybrid filtering, and RAG at scale.
-  why_it_matters: It provides the retrieval backbone for production RAG systems, letting developers combine vector similarity with structured filters without managing separate search and database layers.
-  mental_damage: You started with a simple 'chat with your PDF' demo and somehow ended up self-hosting a distributed vector cluster, debating HNSW vs IVF indexes, and calculating recall@10 in your sleep.
+  summary: >-
+    Weaviate is an open-source, cloud-native vector database that stores objects and vectors together to enable semantic
+    search, hybrid filtering, and RAG at scale.
+  why_it_matters: >-
+    It provides the retrieval backbone for production RAG systems, letting developers combine vector similarity with
+    structured filters without managing separate search and database layers.
+  mental_damage: >-
+    You started with a simple 'chat with your PDF' demo and somehow ended up self-hosting a distributed vector cluster,
+    debating HNSW vs IVF indexes, and calculating recall@10 in your sleep.
   tags:
     - vector-database
     - rag
@@ -72,31 +85,39 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: It is a general-purpose vector database and storage infrastructure, not a developer-facing AI coding tool, agent, framework, or workflow product within the catalog's defined categories.
+  reason: >-
+    It is a general-purpose vector database and storage infrastructure, not a developer-facing AI coding tool, agent,
+    framework, or workflow product within the catalog's defined categories.
   evidence:
-    - Repo description identifies it as a vector database for search and storage, not a coding assistant or dev workflow tool
-    - README focuses on database features like multi-tenancy, replication, and vector search engine capabilities rather than code generation or agent orchestration
-    - Product is foundational data infrastructure for AI apps rather than an interactive tool for software development workflows
+    - >-
+      Repo description identifies it as a vector database for search and storage, not a coding assistant or dev workflow
+      tool
+    - >-
+      README focuses on database features like multi-tenancy, replication, and vector search engine capabilities rather
+      than code generation or agent orchestration
+    - >-
+      Product is foundational data infrastructure for AI apps rather than an interactive tool for software development
+      workflows
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (16172) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:10.766Z"
+    updated_at: '2026-07-21T15:21:10.766Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.169Z"
+    updated_at: '2026-09-28T04:14:00.169Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -88,7 +88,7 @@ function makeItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
     },
     curation: { status: "included", reason: "Existing coding fit.", evidence: ["Existing evidence."] },
     placement: { primary_category: "coding-agents", section: null },
-    lifecycle: { status: "incubating" },
+    lifecycle: { status: "curated" },
     processing: {
       discover: { status: "done", updated_at: "2026-07-15T00:00:00.000Z" },
       stars: { status: "done", updated_at: "2026-07-15T00:00:00.000Z" },

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huyenchip__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,9 @@ provenance:
           - Lists
         anchor_text: Chip Huyen
         extracted_url: https://huyenchip.com
-        surrounding_text: "- [llama-police](https://huyenchip.com/llama-police.html) - A list of Open Source LLM Tools from [Chip Huyen](https://huyenchip.com)"
+        surrounding_text: >-
+          - [llama-police](https://huyenchip.com/llama-police.html) - A list of Open Source LLM Tools from [Chip
+          Huyen](https://huyenchip.com)
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Chip Huyen is a writer, computer scientist, and AI systems expert who shares insights on AI productionization through blog posts, books, talks, and curated resource lists.
-  why_it_matters: Her curated lists and writing help developers navigate AI infrastructure, MLOps, and open-source tooling by distilling real-world production experience into accessible guidance.
-  mental_damage: Following her advice feels like getting career counseling from someone who’s already shipped the future — while you’re still debugging your .env file.
+  summary: >-
+    Chip Huyen is a writer, computer scientist, and AI systems expert who shares insights on AI productionization
+    through blog posts, books, talks, and curated resource lists.
+  why_it_matters: >-
+    Her curated lists and writing help developers navigate AI infrastructure, MLOps, and open-source tooling by
+    distilling real-world production experience into accessible guidance.
+  mental_damage: >-
+    Following her advice feels like getting career counseling from someone who’s already shipped the future — while
+    you’re still debugging your .env file.
   tags:
     - blog
     - curated-list
@@ -48,25 +56,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Huyenchip.com functions as a curated developer resource hub focused on AI engineering, MLOps, and open-source tools, aligning with the awesome-awesomes category for independent curation and publications.
+  reason: >-
+    Huyenchip.com functions as a curated developer resource hub focused on AI engineering, MLOps, and open-source tools,
+    aligning with the awesome-awesomes category for independent curation and publications.
   evidence:
-    - Site describes curating 'GoodAIList' (discovering open source AI), 'Open Source LLM Developers', 'Open Source LLM Tools', and 'MLOps - tools, best practices, and case studies'
-    - "Author states: 'I work to bring AI into production. I write about AI system design.' and maintains newsletters, books, and event listings"
+    - >-
+      Site describes curating 'GoodAIList' (discovering open source AI), 'Open Source LLM Developers', 'Open Source LLM
+      Tools', and 'MLOps - tools, best practices, and case studies'
+    - >-
+      Author states: 'I work to bring AI into production. I write about AI system design.' and maintains newsletters,
+      books, and event listings
     - Listed in awesome-local-ai under 'Lists' section as a curated directory of local AI tools
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
   section: Publications & Feeds
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -74,7 +90,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:29:59.298Z"
+    updated_at: '2026-09-28T04:29:59.298Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -87,14 +103,22 @@ processing:
       input_hash: sha256:3812d09e74c2050bc3eb91fd304d15b2745fe8fb17d0fea4f5d18a2cc186f4de
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: Huyenchip.com functions as a curated developer resource hub focused on AI engineering, MLOps, and open-source tools, aligning with the awesome-awesomes category for independent curation and publications.
+      decision_reason: >-
+        Huyenchip.com functions as a curated developer resource hub focused on AI engineering, MLOps, and open-source
+        tools, aligning with the awesome-awesomes category for independent curation and publications.
       decision_evidence:
-        - Site describes curating 'GoodAIList' (discovering open source AI), 'Open Source LLM Developers', 'Open Source LLM Tools', and 'MLOps - tools, best practices, and case studies'
-        - "Author states: 'I work to bring AI into production. I write about AI system design.' and maintains newsletters, books, and event listings"
+        - >-
+          Site describes curating 'GoodAIList' (discovering open source AI), 'Open Source LLM Developers', 'Open Source
+          LLM Tools', and 'MLOps - tools, best practices, and case studies'
+        - >-
+          Author states: 'I work to bring AI into production. I write about AI system design.' and maintains
+          newsletters, books, and event listings
         - Listed in awesome-local-ai under 'Lists' section as a curated directory of local AI tools
       category_candidates:
         - awesome-awesomes
         - local-ai
-      contrastive_reason: Choose awesome-awesomes over local-ai because the site's primary value is curating and publishing AI development resources rather than providing local inference runtimes or self-hosted tooling.
+      contrastive_reason: >-
+        Choose awesome-awesomes over local-ai because the site's primary value is curating and publishing AI development
+        resources rather than providing local inference runtimes or self-hosted tooling.
       review_reason: null
       review_resume_lifecycle: null

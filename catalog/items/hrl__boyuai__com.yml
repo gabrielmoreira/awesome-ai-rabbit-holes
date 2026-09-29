@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hrl__boyuai__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -47,7 +47,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a specialized educational resource/textbook on Reinforcement Learning, which falls under general ML research rather than the practical developer-facing AI tooling required for the catalog.
+  reason: >-
+    This is a specialized educational resource/textbook on Reinforcement Learning, which falls under general ML research
+    rather than the practical developer-facing AI tooling required for the catalog.
   evidence:
     - Scraped content describes it as a 'Hands-on Reinforcement Learning' book and course
     - Categorized as 'Book' in existing source lists
@@ -55,12 +57,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +71,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:22:26.459Z"
+    updated_at: '2026-09-28T04:22:26.459Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,7 +84,9 @@ processing:
       input_hash: sha256:9da3e29c733121a9645dbbb6da1de4184d0f01d7994f8c7f7c7f609af05b74df
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a specialized educational resource/textbook on Reinforcement Learning, which falls under general ML research rather than the practical developer-facing AI tooling required for the catalog.
+      decision_reason: >-
+        This is a specialized educational resource/textbook on Reinforcement Learning, which falls under general ML
+        research rather than the practical developer-facing AI tooling required for the catalog.
       decision_evidence:
         - Scraped content describes it as a 'Hands-on Reinforcement Learning' book and course
         - Categorized as 'Book' in existing source lists

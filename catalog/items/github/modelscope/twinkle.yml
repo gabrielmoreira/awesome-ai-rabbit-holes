@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__modelscope__twinkle__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: Twinkle
         extracted_url: https://github.com/modelscope/twinkle
-        surrounding_text: "50. [Twinkle](https://github.com/modelscope/twinkle): a lightweight, client-server training framework engineered with modular, high-cohesion interfaces."
+        surrounding_text: >-
+          50. [Twinkle](https://github.com/modelscope/twinkle): a lightweight, client-server training framework
+          engineered with modular, high-cohesion interfaces.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,23 @@ metadata:
     archived: false
     full_name: modelscope/twinkle
     html_url: https://github.com/modelscope/twinkle
-    created_at: "2025-12-16T06:20:55Z"
-    pushed_at: "2026-08-02T10:42:52Z"
-    description: "Twinkle✨: Training workbench to make your model glow."
-    homepage: ""
+    created_at: '2025-12-16T06:20:55Z'
+    pushed_at: '2026-08-02T10:42:52Z'
+    description: 'Twinkle✨: Training workbench to make your model glow.'
+    homepage: ''
     topics: []
-    last_checked_at: "2026-08-03T05:17:06.507Z"
+    last_checked_at: '2026-08-03T05:17:06.507Z'
     readme:
-      fetched_at: "2026-08-03T05:17:06.507Z"
+      fetched_at: '2026-08-03T05:17:06.507Z'
       bytes: 30195
 insights:
   summary: Twinkle is a training workbench for fine-tuning models to improve their performance.
-  why_it_matters: Provides developers with a streamlined interface to train and refine models without managing low-level infrastructure.
-  mental_damage: Another fine-tuning tool promising to make your model glow, as if the last twelve weren’t already trying to polish the same turd.
+  why_it_matters: >-
+    Provides developers with a streamlined interface to train and refine models without managing low-level
+    infrastructure.
+  mental_damage: >-
+    Another fine-tuning tool promising to make your model glow, as if the last twelve weren’t already trying to polish
+    the same turd.
   tags:
     - fine-tuning
     - training
@@ -49,31 +55,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Twinkle is a model training workbench focused on fine-tuning, which does not directly assist developers in writing, editing, or debugging code, placing it outside the catalog’s developer-tooling scope.
+  reason: >-
+    Twinkle is a model training workbench focused on fine-tuning, which does not directly assist developers in writing,
+    editing, or debugging code, placing it outside the catalog’s developer-tooling scope.
   evidence:
-    - "Repo description: 'Twinkle✨: Training workbench to make your model glow.'"
-    - "Source-list context: Listed under '微调 Fine-Tuning' in awesome-LLM-resources, which focuses on LLM resources including model training and inference."
+    - 'Repo description: ''Twinkle✨: Training workbench to make your model glow.'''
+    - >-
+      Source-list context: Listed under '微调 Fine-Tuning' in awesome-LLM-resources, which focuses on LLM resources
+      including model training and inference.
     - No evidence of coding assistance, IDE integration, or developer workflow enhancement in the provided inputs.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (219) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: '2026-05-06T22:12:15.631Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:06.507Z"
+    updated_at: '2026-08-03T05:17:06.507Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

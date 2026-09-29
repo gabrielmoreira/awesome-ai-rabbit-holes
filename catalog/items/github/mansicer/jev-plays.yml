@@ -1,0 +1,97 @@
+id: github__mansicer__jev-plays
+kind: github-repo
+name: mansicer/jev-plays
+canonical_url: https://github.com/mansicer/jev-plays
+identity:
+  github_repo: mansicer/jev-plays
+provenance:
+  discoveries:
+    - id: discovery__github__mansicer__jev-plays__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jev-plays
+        extracted_url: https://github.com/mansicer/jev-plays
+        surrounding_text: >-
+          - [jev-plays](https://github.com/mansicer/jev-plays) - TypeSafe Jev plays Craftax: macro/raw action Choice
+          with optional LLM planner-as-facts and a local web UI. [Project guide](community/projects/tools/jev-plays.md).
+        confidence: high
+    - id: discovery__github__mansicer__jev-plays__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Game & Simulation
+        anchor_text: jev-plays
+        extracted_url: https://github.com/mansicer/jev-plays
+        surrounding_text: >-
+          - [jev-plays](https://github.com/mansicer/jev-plays)
+          ![stars](https://img.shields.io/github/stars/mansicer/jev-plays?style=flat-square&label=%E2%98%85) - Gaming:
+          Craftax (Crafter) survival agent where deterministic code lists every feasible action with its facts and Jev
+          picks one `Choice` per step, optionally guided by an LLM-written objective and standing rules; 3-seed
+          ablations compare Jev over macro and raw actions against random, an LLM choosing every step, and Jev plus the
+          planner.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    jev-plays - TypeSafe Jev plays Craftax: macro/raw action Choice with optional LLM planner-as-facts and a local web
+    UI. Project guide.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  evidence:
+    - jev-latest choice confidence 0.88
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Apps, Games & Simulation
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.419Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

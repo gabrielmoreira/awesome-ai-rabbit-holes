@@ -3,9 +3,25 @@ import { parseGitHubUrl } from "../support/github.ts";
 
 const GENERIC_DISPLAY_NAME_PATTERN = /^(?:intro|introduction|overview|docs|documentation|readme|getting-started|welcome|viewform|image|website|servers?|mcp|cli)$/;
 
+// Index lists decorate hot entries with emoji ("CodeX (🔥)", "Langfuse 🪢").
+// Those markers are the list's opinion, not the product's name, and the page
+// computes its own activity signal.
+const NAME_DECORATION_RE = /[\p{Extended_Pictographic}\uFE0F\u200D]/gu;
+const EMPTIED_PARENTHETICAL_RE = /\(\s*\)/g;
+
 function trimDisplayNameCandidate(value: string | null | undefined): string | null {
   if (typeof value !== "string") return null;
-  const trimmed = value.trim();
+  // Repositories with underscores in the name are common, so only emphasis
+  // markers, images, and pictographs are removed.
+  const trimmed = value
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
+    .replace(NAME_DECORATION_RE, "")
+    .replace(EMPTIED_PARENTHETICAL_RE, "")
+    .replace(/\*\*|`/g, "")
+    .replace(/^\*+|\*+$/g, "")
+    .replace(/\s+/g, " ")
+    .replace(/\s+([,.;:!?])/g, "$1")
+    .trim();
   return trimmed.length > 0 ? trimmed : null;
 }
 

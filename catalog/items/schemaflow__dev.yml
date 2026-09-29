@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__schemaflow__dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,14 @@ provenance:
           - Community Servers
         anchor_text: SchemaFlow
         extracted_url: https://schemaflow.dev
-        surrounding_text: "- **[SchemaFlow](https://github.com/CryptoRadi/schemaflow-mcp-server)** - Real-time PostgreSQL & Supabase database schema access for AI-IDEs via Model Context Protocol. Provides live database context through secure SSE connections with three powerful tools: get_schema, analyze_database, and check_schema_alignment. [SchemaFlow](https://schemaflow.dev)"
+        surrounding_text: >-
+          - **[SchemaFlow](https://github.com/CryptoRadi/schemaflow-mcp-server)** - Real-time PostgreSQL & Supabase
+          database schema access for AI-IDEs via Model Context Protocol. Provides live database context through secure
+          SSE connections with three powerful tools: get_schema, analyze_database, and check_schema_alignment.
+          [SchemaFlow](https://schemaflow.dev)
         confidence: high
     - id: discovery__www__schemaflow__dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +37,11 @@ provenance:
           - Community Servers
         anchor_text: SchemaFlow
         extracted_url: https://schemaflow.dev
-        surrounding_text: "- **[SchemaFlow](https://github.com/CryptoRadi/schemaflow-mcp-server)** - Real-time PostgreSQL & Supabase database schema access for AI-IDEs via Model Context Protocol. Provides live database context through secure SSE connections with three powerful tools: get_schema, analyze_database, and check_schema_alignment. [SchemaFlow](https://schemaflow.dev)"
+        surrounding_text: >-
+          - **[SchemaFlow](https://github.com/CryptoRadi/schemaflow-mcp-server)** - Real-time PostgreSQL & Supabase
+          database schema access for AI-IDEs via Model Context Protocol. Provides live database context through secure
+          SSE connections with three powerful tools: get_schema, analyze_database, and check_schema_alignment.
+          [SchemaFlow](https://schemaflow.dev)
         confidence: high
 metadata:
   github:
@@ -51,9 +59,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: SchemaFlow is an infinite canvas system design tool that lets developers create and edit architecture diagrams with AI assistance, real-time collaboration, and end-to-end encryption.
-  why_it_matters: It turns opaque codebases into visual, self-documenting system diagrams, reducing onboarding friction and tribal knowledge gaps in distributed teams.
-  mental_damage: Finally, a tool that promises your architecture diagrams will explain themselves — just in time for the next reorg to make them obsolete again.
+  summary: >-
+    SchemaFlow is an infinite canvas system design tool that lets developers create and edit architecture diagrams with
+    AI assistance, real-time collaboration, and end-to-end encryption.
+  why_it_matters: >-
+    It turns opaque codebases into visual, self-documenting system diagrams, reducing onboarding friction and tribal
+    knowledge gaps in distributed teams.
+  mental_damage: >-
+    Finally, a tool that promises your architecture diagrams will explain themselves — just in time for the next reorg
+    to make them obsolete again.
   tags:
     - diagramming
     - architecture
@@ -63,22 +77,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: SchemaFlow is a diagramming and collaboration tool focused on system design visualization, not a developer-facing AI tool for coding, agents, or workflow automation as defined by the catalog scope.
+  reason: >-
+    SchemaFlow is a diagramming and collaboration tool focused on system design visualization, not a developer-facing AI
+    tool for coding, agents, or workflow automation as defined by the catalog scope.
   evidence:
-    - Primary page excerpt emphasizes 'system design diagrams that explain themselves', infinite canvas for AWS/GCP services, real-time collaboration, and end-to-end encryption
-    - Source-list context shows it appears in awesome-mcp-servers as a 'Community Server' but describes it as 'An infinite canvas for system design' with AI that draws diagrams from codebase
-    - README mentions MCP integration only as a way to 'turn your codebase into a diagram' — positioning it as an output generator for diagrams, not a coding agent or developer tool
+    - >-
+      Primary page excerpt emphasizes 'system design diagrams that explain themselves', infinite canvas for AWS/GCP
+      services, real-time collaboration, and end-to-end encryption
+    - >-
+      Source-list context shows it appears in awesome-mcp-servers as a 'Community Server' but describes it as 'An
+      infinite canvas for system design' with AI that draws diagrams from codebase
+    - >-
+      README mentions MCP integration only as a way to 'turn your codebase into a diagram' — positioning it as an output
+      generator for diagrams, not a coding agent or developer tool
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:52:48.555Z"
+    updated_at: '2026-09-28T04:52:48.555Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -89,11 +111,19 @@ processing:
       input_hash: sha256:78eb9bf5b2a0d1aaef4d04e7d1e4875c13c35e6a76006c76db3e7747857aee6d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: SchemaFlow is a diagramming and collaboration tool focused on system design visualization, not a developer-facing AI tool for coding, agents, or workflow automation as defined by the catalog scope.
+      decision_reason: >-
+        SchemaFlow is a diagramming and collaboration tool focused on system design visualization, not a
+        developer-facing AI tool for coding, agents, or workflow automation as defined by the catalog scope.
       decision_evidence:
-        - Primary page excerpt emphasizes 'system design diagrams that explain themselves', infinite canvas for AWS/GCP services, real-time collaboration, and end-to-end encryption
-        - Source-list context shows it appears in awesome-mcp-servers as a 'Community Server' but describes it as 'An infinite canvas for system design' with AI that draws diagrams from codebase
-        - README mentions MCP integration only as a way to 'turn your codebase into a diagram' — positioning it as an output generator for diagrams, not a coding agent or developer tool
+        - >-
+          Primary page excerpt emphasizes 'system design diagrams that explain themselves', infinite canvas for AWS/GCP
+          services, real-time collaboration, and end-to-end encryption
+        - >-
+          Source-list context shows it appears in awesome-mcp-servers as a 'Community Server' but describes it as 'An
+          infinite canvas for system design' with AI that draws diagrams from codebase
+        - >-
+          README mentions MCP integration only as a way to 'turn your codebase into a diagram' — positioning it as an
+          output generator for diagrams, not a coding agent or developer tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null
@@ -102,7 +132,7 @@ processing:
     category_rules_version: c367d6101132
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.456Z"
+    updated_at: '2026-06-22T05:53:30.456Z'
     cause: null
     next_retry_at: null
   stars:

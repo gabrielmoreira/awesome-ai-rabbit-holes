@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__qihoo360__360-llama-factory__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: 360-LLaMA-Factory
         extracted_url: https://github.com/qihoo360/360-llama-factory
-        surrounding_text: "2. [360-LLaMA-Factory](https://github.com/Qihoo360/360-LLaMA-Factory): Unify Efficient Fine-Tuning of 100+ LLMs. (add Sequence Parallelism for supporting long context training)"
+        surrounding_text: >-
+          2. [360-LLaMA-Factory](https://github.com/Qihoo360/360-LLaMA-Factory): Unify Efficient Fine-Tuning of 100+
+          LLMs. (add Sequence Parallelism for supporting long context training)
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: Qihoo360/360-LLaMA-Factory
     html_url: https://github.com/Qihoo360/360-LLaMA-Factory
-    created_at: "2025-01-02T02:14:00Z"
-    pushed_at: "2026-02-05T07:41:13Z"
+    created_at: '2025-01-02T02:14:00Z'
+    pushed_at: '2026-02-05T07:41:13Z'
     description: adds Sequence Parallelism into LLaMA-Factory
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-20T16:42:40.353Z"
+    last_checked_at: '2026-07-20T16:42:40.353Z'
     readme:
-      fetched_at: "2026-07-20T16:42:40.353Z"
+      fetched_at: '2026-07-20T16:42:40.353Z'
       bytes: 18766
 insights:
-  summary: A fork of LLaMA-Factory that adds Sequence Parallelism (zigzag-ring and DeepSpeed Ulysses) to extend the effective context length for full-parameter SFT and DPO training.
-  why_it_matters: It allows ML engineers to train 72B models on 128k contexts using only 8 A800s without relying on heavy external optimizations.
-  mental_damage: We have finally solved the problem of training models to read 128,000 tokens, which means your commit history is now fair game for the next fine-tune.
+  summary: >-
+    A fork of LLaMA-Factory that adds Sequence Parallelism (zigzag-ring and DeepSpeed Ulysses) to extend the effective
+    context length for full-parameter SFT and DPO training.
+  why_it_matters: >-
+    It allows ML engineers to train 72B models on 128k contexts using only 8 A800s without relying on heavy external
+    optimizations.
+  mental_damage: >-
+    We have finally solved the problem of training models to read 128,000 tokens, which means your commit history is now
+    fair game for the next fine-tune.
   tags:
     - llm-training
     - fine-tuning
@@ -51,7 +59,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a model training and fine-tuning framework for ML engineers, not a developer-facing AI tool, agent, or infrastructure component for writing software.
+  reason: >-
+    This is a model training and fine-tuning framework for ML engineers, not a developer-facing AI tool, agent, or
+    infrastructure component for writing software.
   evidence:
     - Repo description explicitly states it 'adds Sequence Parallelism into LLaMA-Factory', a fine-tuning framework.
     - README details SFT, DPO, and context length extension for 7B/72B models, targeting ML training workflows.
@@ -60,26 +70,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (606) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.644Z"
+    updated_at: '2026-05-06T22:12:15.644Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:40.353Z"
+    updated_at: '2026-07-20T16:42:40.353Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.168Z"
+    updated_at: '2026-09-28T04:14:00.168Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__suno-ai__bark__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Audio Foundation Model
         anchor_text: bark
         extracted_url: https://github.com/suno-ai/bark
-        surrounding_text: "| [bark](https://github.com/suno-ai/bark)      | Bark is a transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects. | ![GitHub Badge](https://img.shields.io/github/stars/suno-ai/bark.svg?style=flat-square)   |"
+        surrounding_text: >-
+          | [bark](https://github.com/suno-ai/bark)      | Bark is a transformer-based text-to-audio model created by
+          Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music,
+          background noise and simple sound effects. | ![GitHub
+          Badge](https://img.shields.io/github/stars/suno-ai/bark.svg?style=flat-square)   |
         confidence: high
 metadata:
   github:
@@ -30,18 +34,22 @@ metadata:
     archived: false
     full_name: suno-ai/bark
     html_url: https://github.com/suno-ai/bark
-    created_at: "2023-04-07T19:34:48Z"
-    pushed_at: "2024-08-19T07:45:36Z"
+    created_at: '2023-04-07T19:34:48Z'
+    pushed_at: '2024-08-19T07:45:36Z'
     description: 🔊 Text-Prompted Generative Audio Model
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-20T16:43:04.822Z"
+    last_checked_at: '2026-07-20T16:43:04.822Z'
     readme:
-      fetched_at: "2026-07-20T16:43:04.822Z"
+      fetched_at: '2026-07-20T16:43:04.822Z'
       bytes: 15207
 insights:
-  summary: Bark is an open-source, transformer-based text-to-audio model that generates multilingual speech, music, sound effects, and nonverbal cues from text prompts.
-  why_it_matters: It provides developers with a ready-to-use, commercial-friendly checkpoint for building generative audio features directly into applications without relying on closed APIs.
+  summary: >-
+    Bark is an open-source, transformer-based text-to-audio model that generates multilingual speech, music, sound
+    effects, and nonverbal cues from text prompts.
+  why_it_matters: >-
+    It provides developers with a ready-to-use, commercial-friendly checkpoint for building generative audio features
+    directly into applications without relying on closed APIs.
   mental_damage: Because what your CI pipeline really needed was the ability to sigh audibly when the tests fail.
   tags:
     - text-to-audio
@@ -52,35 +60,41 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a general ML research model for audio generation with no specific developer-tooling, coding-agent, or infrastructure angle required by the catalog scope.
+  reason: >-
+    Excluded because it is a general ML research model for audio generation with no specific developer-tooling,
+    coding-agent, or infrastructure angle required by the catalog scope.
   evidence:
     - Repo description defines it as a 'Text-Prompted Generative Audio Model', not a developer tool.
-    - README focuses on speech, music, and sound effects generation, with no mention of code editing, IDE integration, or dev workflows.
-    - Listed in Awesome-LLMOps under 'Model > Audio Foundation Model', which confirms it is an ML model, not dev tooling.
+    - >-
+      README focuses on speech, music, and sound effects generation, with no mention of code editing, IDE integration,
+      or dev workflows.
+    - >-
+      Listed in Awesome-LLMOps under 'Model > Audio Foundation Model', which confirms it is an ML model, not dev
+      tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (39105) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.650Z"
+    updated_at: '2026-05-06T22:12:15.650Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:43:04.822Z"
+    updated_at: '2026-07-20T16:43:04.822Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.168Z"
+    updated_at: '2026-09-28T04:14:00.168Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

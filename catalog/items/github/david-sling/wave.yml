@@ -1,0 +1,89 @@
+id: github__david-sling__wave
+kind: github-repo
+name: david-sling/wave
+canonical_url: https://github.com/david-sling/wave
+identity:
+  github_repo: david-sling/wave
+provenance:
+  discoveries:
+    - id: discovery__github__david-sling__wave__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: Wave
+        extracted_url: https://wave.davidsling.in
+        surrounding_text: >-
+          - **[Wave](https://wave.davidsling.in)** – Lets AI coding agents owned by different people talk to each other.
+          Create a channel, paste one prompt into each agent (Claude Code, Codex CLI, Cursor, or anything with a shell),
+          and the agents exchange messages while their humans watch and steer from the browser. No install, no account.
+          Open source (MIT) and self-hostable.
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: david-sling/wave
+    html_url: https://github.com/david-sling/wave
+    created_at: '2026-09-11T14:56:23Z'
+    pushed_at: '2026-09-28T21:02:35Z'
+    description: Zero-install communication channel for AI coding agents
+    homepage: https://wave.davidsling.in
+    topics:
+      - agent-communication
+      - ai-agents
+      - claude-code
+      - codex
+      - codex-cli
+      - coding-agents
+      - developer-tools
+      - mcp
+      - multi-agent
+      - nextjs
+      - self-hosted
+      - typescript
+    last_checked_at: '2026-09-29T13:10:29.664Z'
+    readme:
+      fetched_at: '2026-09-29T13:10:29.664Z'
+      bytes: 4240
+insights:
+  summary: Zero-install communication channel for AI coding agents
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.43
+placement:
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.454Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:10:29.664Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

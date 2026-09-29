@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__txn2__kubefwd__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: txn2/kubefwd
         extracted_url: https://github.com/txn2/kubefwd
-        surrounding_text: "- [txn2/kubefwd](https://github.com/txn2/kubefwd) 🏎️ 🏠 - Kubernetes bulk port forwarding with service discovery, /etc/hosts management, traffic monitoring, and pod log streaming"
+        surrounding_text: >-
+          - [txn2/kubefwd](https://github.com/txn2/kubefwd) 🏎️ 🏠 - Kubernetes bulk port forwarding with service
+          discovery, /etc/hosts management, traffic monitoring, and pod log streaming
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: txn2/kubefwd
     html_url: https://github.com/txn2/kubefwd
-    created_at: "2018-08-05T22:05:58Z"
-    pushed_at: "2026-07-20T03:10:30Z"
+    created_at: '2018-08-05T22:05:58Z'
+    pushed_at: '2026-07-20T03:10:30Z'
     description: Bulk port forwarding Kubernetes services for local development.
     homepage: http://kubefwd.com/
     topics:
@@ -50,14 +52,18 @@ metadata:
       - port-forward
       - port-forwarding
       - proxy
-    last_checked_at: "2026-07-21T15:20:57.988Z"
+    last_checked_at: '2026-07-21T15:20:57.988Z'
     readme:
-      fetched_at: "2026-07-21T15:20:57.988Z"
+      fetched_at: '2026-07-21T15:20:57.988Z'
       bytes: 6716
 insights:
   summary: Command-line utility that bulk-forwards kubernetes services to unique local loopback ips for development.
-  why_it_matters: Lets developers run code locally while seamlessly connecting to databases, caches, and apis inside a remote kubernetes cluster without environment-specific reconfiguration.
-  mental_damage: Every venerable devops tool must now grow an mcp adapter so your coding assistant can suffer through kubernetes networking alongside you.
+  why_it_matters: >-
+    Lets developers run code locally while seamlessly connecting to databases, caches, and apis inside a remote
+    kubernetes cluster without environment-specific reconfiguration.
+  mental_damage: >-
+    Every venerable devops tool must now grow an mcp adapter so your coding assistant can suffer through kubernetes
+    networking alongside you.
   tags:
     - kubernetes
     - port-forwarding
@@ -67,31 +73,37 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is fundamentally a kubernetes networking utility for local development whose mcp support is an accessory interface, making it a forced fit for an ai-specific tooling catalog.
+  reason: >-
+    This is fundamentally a kubernetes networking utility for local development whose mcp support is an accessory
+    interface, making it a forced fit for an ai-specific tooling catalog.
   evidence:
-    - README title and repo description define it as bulk kubernetes port forwarding for local development, not ai infrastructure.
-    - MCP support is listed as one bullet among features like TUI, REST API, and log streaming, not the product identity.
+    - >-
+      README title and repo description define it as bulk kubernetes port forwarding for local development, not ai
+      infrastructure.
+    - >-
+      MCP support is listed as one bullet among features like TUI, REST API, and log streaming, not the product
+      identity.
     - Created in 2018 and maintained as a general devops tool years before adding mcp compatibility.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (4105) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:57.988Z"
+    updated_at: '2026-07-21T15:20:57.988Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.169Z"
+    updated_at: '2026-09-28T04:14:00.169Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

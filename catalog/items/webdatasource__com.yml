@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__webdatasource__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,13 @@ provenance:
           - Official Servers
         anchor_text: WebDataSource
         extracted_url: https://webdatasource.com/releases/latest/mcp/index.html
-        surrounding_text: "- **[WebDataSource](https://webdatasource.com/releases/latest/mcp/index.html)** - Web Crawler for AI Agents. Supercharge your AI agents with an MCP-ready web crawler that delivers real-time insights from the web and your private knowledge bases."
+        surrounding_text: >-
+          - **[WebDataSource](https://webdatasource.com/releases/latest/mcp/index.html)** - Web Crawler for AI Agents.
+          Supercharge your AI agents with an MCP-ready web crawler that delivers real-time insights from the web and
+          your private knowledge bases.
         confidence: high
     - id: discovery__www__webdatasource__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +36,10 @@ provenance:
           - Official Servers
         anchor_text: WebDataSource
         extracted_url: https://webdatasource.com/releases/latest/mcp/index.html
-        surrounding_text: "- **[WebDataSource](https://webdatasource.com/releases/latest/mcp/index.html)** - Web Crawler for AI Agents. Supercharge your AI agents with an MCP-ready web crawler that delivers real-time insights from the web and your private knowledge bases."
+        surrounding_text: >-
+          - **[WebDataSource](https://webdatasource.com/releases/latest/mcp/index.html)** - Web Crawler for AI Agents.
+          Supercharge your AI agents with an MCP-ready web crawler that delivers real-time insights from the web and
+          your private knowledge bases.
         confidence: high
 metadata:
   github:
@@ -51,9 +57,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Web Data Source provides a pluggable web crawler with MCP server capabilities for integrating intranet and internet data into agentic AI workflows.
-  why_it_matters: It gives AI agents direct access to live web data through standardized MCP tools for fetching, indexing, and querying content during task execution.
-  mental_damage: Yet another MCP server promising to fix agent hallucinations by shoving more raw web pages into their context windows.
+  summary: >-
+    Web Data Source provides a pluggable web crawler with MCP server capabilities for integrating intranet and internet
+    data into agentic AI workflows.
+  why_it_matters: >-
+    It gives AI agents direct access to live web data through standardized MCP tools for fetching, indexing, and
+    querying content during task execution.
+  mental_damage: >-
+    Yet another MCP server promising to fix agent hallucinations by shoving more raw web pages into their context
+    windows.
   tags:
     - mcp
     - web-crawler
@@ -61,22 +73,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Web Data Source's primary identity is an MCP server exposing web crawling and data retrieval tools, making MCP its core protocol identity rather than a secondary feature.
+  reason: >-
+    Web Data Source's primary identity is an MCP server exposing web crawling and data retrieval tools, making MCP its
+    core protocol identity rather than a secondary feature.
   evidence:
-    - The product exposes a Model Context Protocol endpoint with 21 registered tools for job, download, traversal, scheduling, tenant, and retrieval workflows
-    - Source-list context identifies it as an 'Official Server' in awesome-mcp-servers with the purpose of being a 'pluggable web crawler' for agentic AI systems
-    - Documentation focuses on MCP server deployment, client connection, and tool/prompt specifications rather than positioning it as a coding agent, app builder, or framework
+    - >-
+      The product exposes a Model Context Protocol endpoint with 21 registered tools for job, download, traversal,
+      scheduling, tenant, and retrieval workflows
+    - >-
+      Source-list context identifies it as an 'Official Server' in awesome-mcp-servers with the purpose of being a
+      'pluggable web crawler' for agentic AI systems
+    - >-
+      Documentation focuses on MCP server deployment, client connection, and tool/prompt specifications rather than
+      positioning it as a coding agent, app builder, or framework
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Data & Databases
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:49:31.863Z"
+    updated_at: '2026-09-28T04:49:31.863Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,20 +109,31 @@ processing:
       input_hash: sha256:8e17e61ba0c9abb4f7a3a7af506aff60ea56c9a6310ff3b9b9502165269bc943
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: Web Data Source's primary identity is an MCP server exposing web crawling and data retrieval tools, making MCP its core protocol identity rather than a secondary feature.
+      decision_reason: >-
+        Web Data Source's primary identity is an MCP server exposing web crawling and data retrieval tools, making MCP
+        its core protocol identity rather than a secondary feature.
       decision_evidence:
-        - The product exposes a Model Context Protocol endpoint with 21 registered tools for job, download, traversal, scheduling, tenant, and retrieval workflows
-        - Source-list context identifies it as an 'Official Server' in awesome-mcp-servers with the purpose of being a 'pluggable web crawler' for agentic AI systems
-        - Documentation focuses on MCP server deployment, client connection, and tool/prompt specifications rather than positioning it as a coding agent, app builder, or framework
+        - >-
+          The product exposes a Model Context Protocol endpoint with 21 registered tools for job, download, traversal,
+          scheduling, tenant, and retrieval workflows
+        - >-
+          Source-list context identifies it as an 'Official Server' in awesome-mcp-servers with the purpose of being a
+          'pluggable web crawler' for agentic AI systems
+        - >-
+          Documentation focuses on MCP server deployment, client connection, and tool/prompt specifications rather than
+          positioning it as a coding agent, app builder, or framework
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because Web Data Source's core product identity is being MCP infrastructure (a server exposing tools/data over MCP), not an extension that augments another coding agent or editor.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because Web Data Source's core product identity is being MCP
+        infrastructure (a server exposing tools/data over MCP), not an extension that augments another coding agent or
+        editor.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.971Z"
+    updated_at: '2026-07-21T15:20:21.971Z'
     cause: null
     next_retry_at: null
   stars:

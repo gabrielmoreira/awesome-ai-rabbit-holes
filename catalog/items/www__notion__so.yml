@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__notion__so__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -46,21 +46,23 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Notion is a general productivity platform with no primary identity as an AI developer tool, agent, framework, or infrastructure relevant to software development workflows.
+  reason: >-
+    Notion is a general productivity platform with no primary identity as an AI developer tool, agent, framework, or
+    infrastructure relevant to software development workflows.
   evidence:
-    - "Repo description: (none)"
-    - "URL: https://www.notion.so (a note-taking and workspace app)"
+    - 'Repo description: (none)'
+    - 'URL: https://www.notion.so (a note-taking and workspace app)'
     - No README excerpt or scraped site context provided indicating AI developer tooling
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.669Z"
+    updated_at: '2026-05-06T22:12:15.669Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +71,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:50:30.277Z"
+    updated_at: '2026-09-28T04:50:30.277Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,10 +84,12 @@ processing:
       input_hash: sha256:44c98eb56c1535af5909eef78c04a54a9db514d98101999c04f1259b10caf1f9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Notion is a general productivity platform with no primary identity as an AI developer tool, agent, framework, or infrastructure relevant to software development workflows.
+      decision_reason: >-
+        Notion is a general productivity platform with no primary identity as an AI developer tool, agent, framework, or
+        infrastructure relevant to software development workflows.
       decision_evidence:
-        - "Repo description: (none)"
-        - "URL: https://www.notion.so (a note-taking and workspace app)"
+        - 'Repo description: (none)'
+        - 'URL: https://www.notion.so (a note-taking and workspace app)'
         - No README excerpt or scraped site context provided indicating AI developer tooling
       category_candidates: []
       contrastive_reason: null

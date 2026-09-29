@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bradagi__awesome-cli-coding-agents__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -29,18 +29,23 @@ metadata:
     archived: false
     full_name: bradAGI/awesome-cli-coding-agents
     html_url: https://github.com/bradAGI/awesome-cli-coding-agents
-    created_at: "2026-02-07T00:53:24Z"
-    pushed_at: "2026-09-22T19:51:05Z"
-    description: "Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them. Covers open-source tools (Pi, OpenCode, Aider, Goose), platform agents (Claude Code, Codex, Gemini CLI), parallel runners, autonomous loops, and agent infrastructure. "
-    homepage: ""
+    created_at: '2026-02-07T00:53:24Z'
+    pushed_at: '2026-09-22T19:51:05Z'
+    description: >-
+      Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them. Covers open-source
+      tools (Pi, OpenCode, Aider, Goose), platform agents (Claude Code, Codex, Gemini CLI), parallel runners, autonomous
+      loops, and agent infrastructure. 
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-24T04:13:02.672Z"
+    last_checked_at: '2026-09-24T04:13:02.672Z'
     readme:
-      fetched_at: "2026-09-24T04:13:02.672Z"
+      fetched_at: '2026-09-24T04:13:02.672Z'
       bytes: 123230
 insights:
   summary: A curated directory listing terminal-native AI coding agents and their orchestration harnesses.
-  why_it_matters: Helps developers discover and compare CLI-based AI coding agents that can autonomously edit, test, and manage code in local repositories.
+  why_it_matters: >-
+    Helps developers discover and compare CLI-based AI coding agents that can autonomously edit, test, and manage code
+    in local repositories.
   mental_damage: Yet another awesome list to star, fork, and never actually use when cursor-tab is faster.
   tags:
     - awesome-list
@@ -49,32 +54,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a curated awesome list focused on CLI coding agents and orchestration tools, making it a discovery resource rather than a standalone agent or tool.
+  reason: >-
+    This is a curated awesome list focused on CLI coding agents and orchestration tools, making it a discovery resource
+    rather than a standalone agent or tool.
   evidence:
-    - "Repo description: 'Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them.'"
-    - "README: 'A curated list of 130+ CLI coding agents [...] plus the harnesses that orchestrate, sandbox, or extend them.'"
-    - "Direct awesome list source: yes"
+    - 'Repo description: ''Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them.'''
+    - >-
+      README: 'A curated list of 130+ CLI coding agents [...] plus the harnesses that orchestrate, sandbox, or extend
+      them.'
+    - 'Direct awesome list source: yes'
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
   section: Awesome Lists & Directories
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (321) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.572Z"
+    updated_at: '2026-05-06T22:12:15.572Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:02.672Z"
+    updated_at: '2026-09-24T04:13:02.672Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:57:57.384Z"
+    updated_at: '2026-09-28T04:57:57.384Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -87,14 +96,22 @@ processing:
       input_hash: sha256:c642a7743c0df5a2778fd9a814749fb63af28aa30feba8752782cb6be3bb4c7e
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated awesome list focused on CLI coding agents and orchestration tools, making it a discovery resource rather than a standalone agent or tool.
+      decision_reason: >-
+        This is a curated awesome list focused on CLI coding agents and orchestration tools, making it a discovery
+        resource rather than a standalone agent or tool.
       decision_evidence:
-        - "Repo description: 'Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them.'"
-        - "README: 'A curated list of 130+ CLI coding agents [...] plus the harnesses that orchestrate, sandbox, or extend them.'"
-        - "Direct awesome list source: yes"
+        - >-
+          Repo description: 'Curated directory of terminal-native AI coding agents and the harnesses that orchestrate
+          them.'
+        - >-
+          README: 'A curated list of 130+ CLI coding agents [...] plus the harnesses that orchestrate, sandbox, or
+          extend them.'
+        - 'Direct awesome list source: yes'
       category_candidates:
         - awesome-awesomes
         - coding-agents
-      contrastive_reason: Choose awesome-awesomes over coding-agents because the project is a curated directory of tools, not a coding agent itself.
+      contrastive_reason: >-
+        Choose awesome-awesomes over coding-agents because the project is a curated directory of tools, not a coding
+        agent itself.
       review_reason: null
       review_resume_lifecycle: null

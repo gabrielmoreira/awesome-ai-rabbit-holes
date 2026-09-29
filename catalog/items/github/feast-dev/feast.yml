@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__feast-dev__feast__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Data/Feature enrichment
         anchor_text: Feast
         extracted_url: https://github.com/feast-dev/feast
-        surrounding_text: "| [Feast](https://github.com/feast-dev/feast)            | An open source feature store for machine learning.                                                                                                                                                                                                                  | ![GitHub Badge](https://img.shields.io/github/stars/feast-dev/feast.svg?style=flat-square)       |"
+        surrounding_text: >-
+          | [Feast](https://github.com/feast-dev/feast)            | An open source feature store for machine
+          learning.                                                                                                                                                                                                                 
+          | ![GitHub Badge](https://img.shields.io/github/stars/feast-dev/feast.svg?style=flat-square)       |
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: feast-dev/feast
     html_url: https://github.com/feast-dev/feast
-    created_at: "2018-12-10T07:20:15Z"
-    pushed_at: "2026-08-26T17:50:14Z"
+    created_at: '2018-12-10T07:20:15Z'
+    pushed_at: '2026-08-26T17:50:14Z'
     description: The Open Source Feature Store for AI/ML
     homepage: https://feast.dev
     topics:
@@ -45,9 +48,9 @@ metadata:
       - ml
       - mlops
       - python
-    last_checked_at: "2026-08-27T09:23:28.792Z"
+    last_checked_at: '2026-08-27T09:23:28.792Z'
     readme:
-      fetched_at: "2026-08-27T09:23:28.791Z"
+      fetched_at: '2026-08-27T09:23:28.791Z'
       bytes: 16749
 insights:
   summary: An open-source feature store for managing and serving machine learning features for training and online inference.
@@ -61,7 +64,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is a specialized ML infrastructure/data engineering tool, not a developer-facing AI coding, orchestration, or context tool.
+  reason: >-
+    The project is a specialized ML infrastructure/data engineering tool, not a developer-facing AI coding,
+    orchestration, or context tool.
   evidence:
     - Repo description identifies it as an 'Open Source Feature Store for AI/ML'
     - README focuses on offline/online stores and data leakage prevention
@@ -70,22 +75,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (7008) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:28.792Z"
+    updated_at: '2026-08-27T09:23:28.792Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -100,7 +105,9 @@ processing:
       input_hash: sha256:8a498fb09f127758a57b1bf496ebcce400f0a48179df0ad7e41e80e20c51c0b8
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a specialized ML infrastructure/data engineering tool, not a developer-facing AI coding, orchestration, or context tool.
+      decision_reason: >-
+        The project is a specialized ML infrastructure/data engineering tool, not a developer-facing AI coding,
+        orchestration, or context tool.
       decision_evidence:
         - Repo description identifies it as an 'Open Source Feature Store for AI/ML'
         - README focuses on offline/online stores and data leakage prevention

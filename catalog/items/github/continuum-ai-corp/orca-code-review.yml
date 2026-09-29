@@ -1,0 +1,88 @@
+id: github__continuum-ai-corp__orca-code-review
+kind: github-repo
+name: continuum-ai-corp/orca-code-review
+canonical_url: https://github.com/continuum-ai-corp/orca-code-review
+identity:
+  github_repo: continuum-ai-corp/orca-code-review
+provenance:
+  discoveries:
+    - id: discovery__github__continuum-ai-corp__orca-code-review__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: OrcaCode Review
+        extracted_url: https://github.com/continuum-ai-corp/orca-code-review
+        surrounding_text: >-
+          - **[OrcaCode Review](https://github.com/Continuum-AI-Corp/orca-code-review)** – GitHub Action for AI pull
+          request review that posts findings inline on the affected lines and blocks merges on critical severity.
+        confidence: high
+metadata:
+  github:
+    stars: 167
+    forks: 61
+    license: MIT
+    archived: false
+    full_name: Continuum-AI-Corp/Orca-Code-Review
+    html_url: https://github.com/Continuum-AI-Corp/Orca-Code-Review
+    created_at: '2026-06-25T02:39:47Z'
+    pushed_at: '2026-09-21T02:09:40Z'
+    description: >-
+      OrcaCode Review — the open code review harness. Multi-model reviews, merge gates, and no markup. Pay only for
+      inference.
+    homepage: https://www.orcarouter.ai/code-review
+    topics:
+      - code-analysis
+      - code-auditor
+      - code-quality
+      - code-review
+      - code-review-agent
+      - code-review-assistant
+      - code-review-automation
+      - code-review-tool
+      - orcarouter
+    last_checked_at: '2026-09-29T13:10:09.573Z'
+    readme:
+      fetched_at: '2026-09-29T13:10:09.573Z'
+      bytes: 11135
+insights:
+  summary: >-
+    OrcaCode Review — the open code review harness. Multi-model reviews, merge gates, and no markup. Pay only for
+    inference.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
+  evidence:
+    - jev-latest choice confidence 0.89
+placement:
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Review, Testing & Repair
+lifecycle:
+  status: curated
+  reason: Stars (167) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.453Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:10:09.573Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

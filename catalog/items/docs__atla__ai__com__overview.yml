@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__atla__ai__com__overview__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Atla API
         extracted_url: https://docs.atla-ai.com
-        surrounding_text: "- **[Atla](https://github.com/atla-ai/atla-mcp-server)** - Enable AI agents to interact with the [Atla API](https://docs.atla-ai.com/) for state-of-the-art LLMJ evaluation."
+        surrounding_text: >-
+          - **[Atla](https://github.com/atla-ai/atla-mcp-server)** - Enable AI agents to interact with the [Atla
+          API](https://docs.atla-ai.com/) for state-of-the-art LLMJ evaluation.
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: Atla is an observability platform designed to monitor, trace, and debug the behavior of AI agents.
-  why_it_matters: It provides the necessary telemetry and error detection to help developers debug non-deterministic agent failures and iterate on performance.
-  mental_damage: Because debugging a non-deterministic agent is a special kind of hell that now requires its own dedicated monitoring stack.
+  why_it_matters: >-
+    It provides the necessary telemetry and error detection to help developers debug non-deterministic agent failures
+    and iterate on performance.
+  mental_damage: >-
+    Because debugging a non-deterministic agent is a special kind of hell that now requires its own dedicated monitoring
+    stack.
   tags:
     - observability
     - tracing
@@ -56,15 +62,17 @@ placement:
   primary_category: evals
   section: Observability & Tracing
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
+    updated_at: '2026-05-12T15:06:19.301Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -72,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:15:33.998Z"
+    updated_at: '2026-09-21T04:15:33.998Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -93,6 +101,8 @@ processing:
       category_candidates:
         - evals
         - extensions-and-addons
-      contrastive_reason: Choose evals over extensions-and-addons because the core novelty is the observability and tracing infrastructure rather than an integration that adds a specific tool capability to a host editor.
+      contrastive_reason: >-
+        Choose evals over extensions-and-addons because the core novelty is the observability and tracing infrastructure
+        rather than an integration that adds a specific tool capability to a host editor.
       review_reason: null
       review_resume_lifecycle: null

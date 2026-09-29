@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__primeintellect-ai__prime-agent__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-27T09:23:03.260Z"
+      discovered_at: '2026-08-27T09:23:03.260Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,13 @@ provenance:
           - Open Source
         anchor_text: Prime Agent
         extracted_url: https://github.com/primeintellect-ai/prime-agent
-        surrounding_text: "- **[Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent)** `⭐ 18.4k` `[Prime Intellect]` — Self-improving RLM coding agent where a persistent IPython kernel is the model's only tool, so file edits, shell commands, skills, and subagents (`rlm(...)`) all happen as Python. A \"Continual Harness\" keeps memories, skills, and subagent specs as durable state that `/refine` updates from session evidence; daemon-backed sessions survive terminal disconnect, with goals, heartbeats, schedules, and bounded autonomous mode. Built on [Pi](https://github.com/earendil-works/pi). MIT."
+        surrounding_text: >-
+          - **[Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent)** `⭐ 18.4k` `[Prime Intellect]` —
+          Self-improving RLM coding agent where a persistent IPython kernel is the model's only tool, so file edits,
+          shell commands, skills, and subagents (`rlm(...)`) all happen as Python. A "Continual Harness" keeps memories,
+          skills, and subagent specs as durable state that `/refine` updates from session evidence; daemon-backed
+          sessions survive terminal disconnect, with goals, heartbeats, schedules, and bounded autonomous mode. Built on
+          [Pi](https://github.com/earendil-works/pi). MIT.
         confidence: high
 metadata:
   github:
@@ -51,12 +57,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-27T09:23:03.262Z"
+    updated_at: '2026-08-27T09:23:03.262Z'
     cause: null
     next_retry_at: null
   stars:
@@ -65,7 +71,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.168Z"
+    updated_at: '2026-09-28T04:14:00.168Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

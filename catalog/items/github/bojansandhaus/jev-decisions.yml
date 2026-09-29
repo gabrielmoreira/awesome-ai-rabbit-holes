@@ -1,0 +1,113 @@
+id: github__bojansandhaus__jev-decisions
+kind: github-repo
+name: bojansandhaus/jev-decisions
+canonical_url: https://github.com/bojansandhaus/jev-decisions
+identity:
+  github_repo: bojansandhaus/jev-decisions
+provenance:
+  discoveries:
+    - id: discovery__github__bojansandhaus__jev-decisions__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: jev-decisions
+        extracted_url: https://github.com/bojansandhaus/jev-decisions
+        surrounding_text: >-
+          - [jev-decisions](https://github.com/bojansandhaus/jev-decisions)
+          ([site](https://openrouter.ai/typesafe/jev-1.13)) - Safety checks for Hermes and other AI agents before they
+          act, ask for approval, or verify a change.
+        confidence: high
+    - id: discovery__github__bojansandhaus__jev-decisions__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Security & Guardrails
+        anchor_text: '**jev-decisions**'
+        extracted_url: https://github.com/bojansandhaus/jev-decisions
+        surrounding_text: >-
+          - [**jev-decisions**](https://github.com/bojansandhaus/jev-decisions) — Jev Decisions Plugin for Hermes (and
+          other AI Agents): tool risk reviews, human approval recommendations, evidence checks, and a local decision
+          journal.
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: bojansandhaus/jev-decisions-hermes
+    html_url: https://github.com/bojansandhaus/jev-decisions-hermes
+    created_at: '2026-09-19T08:54:17Z'
+    pushed_at: '2026-09-28T05:51:22Z'
+    description: >-
+      Jev Decisions Plugin for Hermes (and other AI Agents): tool risk reviews, human approval recommendations, evidence
+      checks, a local decision journal, local decision supervision, and learned corrections.
+    homepage: https://github.com/bojansandhaus/jev-decisions
+    topics:
+      - action-verification
+      - agent-architecture
+      - agent-tools
+      - ai-agent-safety
+      - ai-agents
+      - approval-workflows
+      - automation
+      - decision-making
+      - hermes
+      - human-in-the-loop
+      - llm
+      - mcp
+      - openrouter
+      - python
+      - tool-use
+    last_checked_at: '2026-09-29T13:09:34.295Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:34.295Z'
+      bytes: 32755
+insights:
+  summary: >-
+    Jev Decisions Plugin for Hermes (and other AI Agents): tool risk reviews, human approval recommendations, evidence
+    checks, a local decision journal, local decision supervision, and learned corrections.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.83
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.410Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:34.295Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

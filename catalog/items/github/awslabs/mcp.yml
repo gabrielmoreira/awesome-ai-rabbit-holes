@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__awslabs__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: awslabs/mcp
         extracted_url: https://github.com/awslabs/mcp
-        surrounding_text: "- [awslabs/mcp](https://github.com/awslabs/mcp) 🎖️ ☁️ - AWS MCP servers for seamless integration with AWS services and resources."
+        surrounding_text: >-
+          - [awslabs/mcp](https://github.com/awslabs/mcp) 🎖️ ☁️ - AWS MCP servers for seamless integration with AWS
+          services and resources.
         confidence: high
     - id: discovery__github__awslabs__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,13 @@ provenance:
           - Official Servers
         anchor_text: AWS Bedrock KB Retrieval
         extracted_url: https://github.com/awslabs/mcp
-        surrounding_text: "- **[AWS Bedrock KB Retrieval](https://github.com/awslabs/mcp/tree/main/src/bedrock-kb-retrieval-mcp-server)** - Query Amazon Bedrock Knowledge Bases using natural language to retrieve relevant information from your data sources."
+        surrounding_text: >-
+          - **[AWS Bedrock KB Retrieval](https://github.com/awslabs/mcp/tree/main/src/bedrock-kb-retrieval-mcp-server)**
+          - Query Amazon Bedrock Knowledge Bases using natural language to retrieve relevant information from your data
+          sources.
         confidence: high
     - id: discovery__github__awslabs__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-09-21T04:13:39.852Z"
+      discovered_at: '2026-09-21T04:13:39.852Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -50,7 +55,10 @@ provenance:
           - MCP Servers and Directories
         anchor_text: StackPicks MCP
         extracted_url: https://stackpicks.dev/mcp
-        surrounding_text: "- **[StackPicks MCP](https://stackpicks.dev/mcp)** – Curated directory of MCP servers and Claude/Cursor connectors with editorial takes. 50+ servers reviewed with install commands for Claude Desktop + Cursor, plus honest \"skip if\" guidance per entry."
+        surrounding_text: >-
+          - **[StackPicks MCP](https://stackpicks.dev/mcp)** – Curated directory of MCP servers and Claude/Cursor
+          connectors with editorial takes. 50+ servers reviewed with install commands for Claude Desktop + Cursor, plus
+          honest "skip if" guidance per entry.
         confidence: high
 metadata:
   github:
@@ -60,8 +68,8 @@ metadata:
     archived: false
     full_name: awslabs/mcp
     html_url: https://github.com/awslabs/mcp
-    created_at: "2025-03-21T00:39:00Z"
-    pushed_at: "2026-09-19T07:48:16Z"
+    created_at: '2025-03-21T00:39:00Z'
+    pushed_at: '2026-09-19T07:48:16Z'
     description: Open source MCP Servers for AWS
     homepage: https://awslabs.github.io/mcp/
     topics:
@@ -74,13 +82,17 @@ metadata:
       - mcp-servers
       - mcp-tools
       - modelcontextprotocol
-    last_checked_at: "2026-09-21T04:13:52.777Z"
+    last_checked_at: '2026-09-21T04:13:52.777Z'
     readme:
-      fetched_at: "2026-09-21T04:13:52.777Z"
+      fetched_at: '2026-09-21T04:13:52.777Z'
       bytes: 204785
 insights:
-  summary: Open source MCP servers for AWS that provide specialized integrations with AWS services via the Model Context Protocol.
-  why_it_matters: Developers can use these servers to grant AI assistants direct, structured access to AWS resources, documentation, and workflows without manual API wrangling.
+  summary: >-
+    Open source MCP servers for AWS that provide specialized integrations with AWS services via the Model Context
+    Protocol.
+  why_it_matters: >-
+    Developers can use these servers to grant AI assistants direct, structured access to AWS resources, documentation,
+    and workflows without manual API wrangling.
   mental_damage: Now your AI assistant can spin up an EKS cluster while you’re still trying to remember how to spell 'IAM'.
   tags:
     - mcp
@@ -91,7 +103,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a suite of MCP servers whose primary identity is providing AWS-specific MCP infrastructure, fitting squarely in the MCP Servers & Tooling category.
+  reason: >-
+    This is a suite of MCP servers whose primary identity is providing AWS-specific MCP infrastructure, fitting squarely
+    in the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states 'Open source MCP Servers for AWS'
     - README details multiple MCP servers for AWS services and transport mechanisms
@@ -101,22 +115,22 @@ placement:
   secondary_categories: []
   section: Cloud & API Integration
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (8977) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-09-21T04:13:39.854Z"
+    updated_at: '2026-09-21T04:13:39.854Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:52.777Z"
+    updated_at: '2026-09-21T04:13:52.777Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -131,7 +145,9 @@ processing:
       input_hash: sha256:23205051fc6a78ce38364219925a2a9b36c3cc46e0ccb545cc44811a93c9920d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a suite of MCP servers whose primary identity is providing AWS-specific MCP infrastructure, fitting squarely in the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is a suite of MCP servers whose primary identity is providing AWS-specific MCP infrastructure, fitting
+        squarely in the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states 'Open source MCP Servers for AWS'
         - README details multiple MCP servers for AWS services and transport mechanisms
@@ -139,6 +155,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is MCP-first infrastructure (servers for AWS) rather than a host integration layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is MCP-first infrastructure (servers for AWS)
+        rather than a host integration layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

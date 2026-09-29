@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__adfin__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Adfin
         extracted_url: https://www.adfin.com
-        surrounding_text: "- **[Adfin](https://github.com/Adfin-Engineering/mcp-server-adfin)** - The only platform you need to get paid - all payments in one place, invoicing and accounting reconciliations with [Adfin](https://www.adfin.com/)."
+        surrounding_text: >-
+          - **[Adfin](https://github.com/Adfin-Engineering/mcp-server-adfin)** - The only platform you need to get paid
+          - all payments in one place, invoicing and accounting reconciliations with [Adfin](https://www.adfin.com/).
         confidence: high
 metadata:
   github:
@@ -38,7 +40,9 @@ metadata:
 insights:
   summary: An agentic finance platform designed to automate payment collection and credit control for businesses.
   why_it_matters: It uses AI agents to automate the manual tasks of chasing invoices and managing cash flow.
-  mental_damage: Because even your accounts receivable process deserves a swarm of autonomous agents to handle the administrative dread.
+  mental_damage: >-
+    Because even your accounts receivable process deserves a swarm of autonomous agents to handle the administrative
+    dread.
   tags:
     - finance
     - payments
@@ -47,7 +51,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a business finance SaaS rather than a tool for the software development lifecycle, despite its MCP server integration.
+  reason: >-
+    The tool is a business finance SaaS rather than a tool for the software development lifecycle, despite its MCP
+    server integration.
   evidence:
     - Primary identity is an agentic finance platform for payments and credit control
     - MCP support is an integration feature for building internal tools, not the core product identity
@@ -55,12 +61,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +75,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:30:52.281Z"
+    updated_at: '2026-09-24T04:30:52.281Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,7 +88,9 @@ processing:
       input_hash: sha256:ce0e43f40b2993e434d1e9616e2ff7550e42d70da1e82582b4ba0a919742e1e9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a business finance SaaS rather than a tool for the software development lifecycle, despite its MCP server integration.
+      decision_reason: >-
+        The tool is a business finance SaaS rather than a tool for the software development lifecycle, despite its MCP
+        server integration.
       decision_evidence:
         - Primary identity is an agentic finance platform for payments and credit control
         - MCP support is an integration feature for building internal tools, not the core product identity

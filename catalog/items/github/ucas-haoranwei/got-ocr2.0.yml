@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ucas-haoranwei__got-ocr2.0__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 数据 Data
         anchor_text: GOT-OCR2.0
         extracted_url: https://github.com/ucas-haoranwei/got-ocr2.0
-        surrounding_text: "10. [GOT-OCR2.0](https://github.com/Ucas-HaoranWei/GOT-OCR2.0): OCR Model."
+        surrounding_text: '10. [GOT-OCR2.0](https://github.com/Ucas-HaoranWei/GOT-OCR2.0): OCR Model.'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,25 @@ metadata:
     archived: false
     full_name: Ucas-HaoranWei/GOT-OCR2.0
     html_url: https://github.com/Ucas-HaoranWei/GOT-OCR2.0
-    created_at: "2024-09-02T04:54:20Z"
-    pushed_at: "2025-02-10T12:13:00Z"
-    description: "Official code implementation of General OCR Theory:  Towards OCR-2.0 via a Unified End-to-end Model"
+    created_at: '2024-09-02T04:54:20Z'
+    pushed_at: '2025-02-10T12:13:00Z'
+    description: 'Official code implementation of General OCR Theory:  Towards OCR-2.0 via a Unified End-to-end Model'
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:58.314Z"
+    last_checked_at: '2026-07-21T15:20:58.314Z'
     readme:
-      fetched_at: "2026-07-21T15:20:58.314Z"
+      fetched_at: '2026-07-21T15:20:58.314Z'
       bytes: 12606
 insights:
-  summary: got-ocr2.0 is an open-source unified end-to-end OCR model implementation for general optical character recognition tasks.
-  why_it_matters: It provides developers with a high-accuracy, production-ready OCR model that can be fine-tuned and deployed across frameworks like Hugging Face, PaddlePaddle, and llama.cpp for document processing workflows.
-  mental_damage: Another model release that promises to solve OCR forever, while developers still spend hours cleaning up misrecognized receipts and PDFs in their internal tools.
+  summary: >-
+    got-ocr2.0 is an open-source unified end-to-end OCR model implementation for general optical character recognition
+    tasks.
+  why_it_matters: >-
+    It provides developers with a high-accuracy, production-ready OCR model that can be fine-tuned and deployed across
+    frameworks like Hugging Face, PaddlePaddle, and llama.cpp for document processing workflows.
+  mental_damage: >-
+    Another model release that promises to solve OCR forever, while developers still spend hours cleaning up
+    misrecognized receipts and PDFs in their internal tools.
   tags:
     - ocr
     - computer-vision
@@ -50,31 +56,39 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: got-ocr2.0 is a general-purpose OCR model focused on document text extraction, not developer-facing tooling for coding, AI agents, or software development workflows.
+  reason: >-
+    got-ocr2.0 is a general-purpose OCR model focused on document text extraction, not developer-facing tooling for
+    coding, AI agents, or software development workflows.
   evidence:
-    - "Repo description: 'Official code implementation of General OCR Theory: Towards OCR-2.0 via a Unified End-to-end Model'"
-    - README emphasizes OCR accuracy, model deployment, fine-tuning, and benchmarks on document datasets like ICDAR and SROIE
-    - Appears in awesome-LLM-resources under '数据 Data' section for multimodal generation and model inference, not developer tooling
+    - >-
+      Repo description: 'Official code implementation of General OCR Theory: Towards OCR-2.0 via a Unified End-to-end
+      Model'
+    - >-
+      README emphasizes OCR accuracy, model deployment, fine-tuning, and benchmarks on document datasets like ICDAR and
+      SROIE
+    - >-
+      Appears in awesome-LLM-resources under '数据 Data' section for multimodal generation and model inference, not
+      developer tooling
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (8118) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:58.314Z"
+    updated_at: '2026-07-21T15:20:58.314Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.169Z"
+    updated_at: '2026-09-28T04:14:00.169Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

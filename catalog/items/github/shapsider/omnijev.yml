@@ -1,0 +1,85 @@
+id: github__shapsider__omnijev
+kind: github-repo
+name: shapsider/omnijev
+canonical_url: https://github.com/shapsider/omnijev
+identity:
+  github_repo: shapsider/omnijev
+provenance:
+  discoveries:
+    - id: discovery__github__shapsider__omnijev__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Robotics & Physical
+        anchor_text: OmniJev
+        extracted_url: https://github.com/shapsider/omnijev
+        surrounding_text: >-
+          - [OmniJev](https://github.com/shapsider/OmniJev)
+          ![stars](https://img.shields.io/github/stars/shapsider/OmniJev?style=flat-square&label=%E2%98%85) - Embodied
+          robotics: a Jev-style finite-choice interface that feeds dual-camera images and text to a self-hosted
+          multimodal model and takes the next preset skill for a MuJoCo arm as one typed choice, where released episodes
+          finish transfer, stack and barrier tasks in 13 decisions and 39 output tokens each, 208/208 non-audio probe
+          requests answer correctly, unobservable inputs come back "insufficient evidence" instead of a guess, and four
+          public benchmark pilots hold accuracy equal to a direct short answer while cutting decision latency 6.8–13.6×
+          and total tokens 51–86% (audio input is wired in the client but rejected by the current backend).
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    OmniJev - Embodied robotics: a Jev-style finite-choice interface that feeds dual-camera images and text to a
+    self-hosted multimodal model and takes the next preset skill for a MuJoCo arm as one typed choice, where released
+    episodes finish transfer, stack and barrier tasks in 13 decisions and 39 output tokens each, 208/208 non-audio probe
+    requests answer correctly, unobservable inputs come back "insufficient evidence" instead of a guess, and four public
+    benchmark pilots hold accuracy equal to a direct short answer while cutting decision latency 6.8–13.6× and total
+    tokens 51–86% (audio input is wired in the client but rejected by the current backend).
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  evidence:
+    - jev-latest choice confidence 0.83
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Apps, Games & Simulation
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.476Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__poloclub__wordflow__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,7 +19,7 @@ provenance:
           - Inference UI
         anchor_text: Wordflow
         extracted_url: https://github.com/poloclub/wordflow
-        surrounding_text: "- [Wordflow](https://github.com/poloclub/wordflow) - Run, share, and discover AI prompts in your browsers"
+        surrounding_text: '- [Wordflow](https://github.com/poloclub/wordflow) - Run, share, and discover AI prompts in your browsers'
         confidence: high
 metadata:
   github:
@@ -29,8 +29,8 @@ metadata:
     archived: false
     full_name: poloclub/wordflow
     html_url: https://github.com/poloclub/wordflow
-    created_at: "2023-10-24T20:21:27Z"
-    pushed_at: "2026-04-07T18:56:36Z"
+    created_at: '2023-10-24T20:21:27Z'
+    pushed_at: '2026-04-07T18:56:36Z'
     description: Social and customizable AI writing assistant! ✍️
     homepage: https://poloclub.github.io/wordflow/
     topics:
@@ -45,14 +45,20 @@ metadata:
       - mlc
       - prompt-engineering
       - writing-assistant
-    last_checked_at: "2026-07-20T16:42:36.010Z"
+    last_checked_at: '2026-07-20T16:42:36.010Z'
     readme:
-      fetched_at: "2026-07-20T16:42:36.010Z"
+      fetched_at: '2026-07-20T16:42:36.010Z'
       bytes: 5077
 insights:
-  summary: Wordflow is a browser-based social AI writing assistant that lets users store, run, and share prompts across external LLMs and local models like Llama 2 and Phi 2.
-  why_it_matters: It offers developers a lightweight, local-first interface for experimenting with prompt engineering, model selection, and community prompt discovery without vendor lock-in.
-  mental_damage: Yet another playground to distract yourself with prompt templating when you should probably just be fixing the failing CI pipeline.
+  summary: >-
+    Wordflow is a browser-based social AI writing assistant that lets users store, run, and share prompts across
+    external LLMs and local models like Llama 2 and Phi 2.
+  why_it_matters: >-
+    It offers developers a lightweight, local-first interface for experimenting with prompt engineering, model
+    selection, and community prompt discovery without vendor lock-in.
+  mental_damage: >-
+    Yet another playground to distract yourself with prompt templating when you should probably just be fixing the
+    failing CI pipeline.
   tags:
     - prompt-engineering
     - local-ai
@@ -61,35 +67,41 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The product is positioned as a general-purpose AI writing and prompt engineering tool for end users, not a developer-facing coding assistant or infrastructure.
+  reason: >-
+    The product is positioned as a general-purpose AI writing and prompt engineering tool for end users, not a
+    developer-facing coding assistant or infrastructure.
   evidence:
     - Repo description and README describe it as a 'social and customizable AI writing assistant', not a coding tool.
-    - Features focus on writing prompts, temperature tuning, and sharing prompts with a community, with no code editing, repo work, or developer workflow integration.
-    - Appears in awesome-local-ai under 'Inference UI', which aligns with a consumer chat/ui tool rather than developer tooling.
+    - >-
+      Features focus on writing prompts, temperature tuning, and sharing prompts with a community, with no code editing,
+      repo work, or developer workflow integration.
+    - >-
+      Appears in awesome-local-ai under 'Inference UI', which aligns with a consumer chat/ui tool rather than developer
+      tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (266) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.643Z"
+    updated_at: '2026-05-06T22:12:15.643Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:36.010Z"
+    updated_at: '2026-07-20T16:42:36.010Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

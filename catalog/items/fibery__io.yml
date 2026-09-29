@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__fibery__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Fibery
         extracted_url: https://fibery.io
-        surrounding_text: "- **[Fibery](https://github.com/Fibery-inc/fibery-mcp-server)** - Perform queries and entity operations in your [Fibery](https://fibery.io) workspace."
+        surrounding_text: >-
+          - **[Fibery](https://github.com/Fibery-inc/fibery-mcp-server)** - Perform queries and entity operations in
+          your [Fibery](https://fibery.io) workspace.
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Fibery is a low-code work management platform that combines project management, CRM, and knowledge management into a single integrated workspace.
-  why_it_matters: It allows teams to build custom relational data structures and automated workflows to manage complex development processes without writing custom internal tools.
-  mental_damage: The sheer flexibility of mapping every single dependency in your life will eventually lead to a crisis of architectural over-engineering.
+  summary: >-
+    Fibery is a low-code work management platform that combines project management, CRM, and knowledge management into a
+    single integrated workspace.
+  why_it_matters: >-
+    It allows teams to build custom relational data structures and automated workflows to manage complex development
+    processes without writing custom internal tools.
+  mental_damage: >-
+    The sheer flexibility of mapping every single dependency in your life will eventually lead to a crisis of
+    architectural over-engineering.
   tags:
     - work-management
     - low-code
@@ -48,7 +56,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a general-purpose low-code work management platform rather than a developer-focused AI tool, agent, or coding infrastructure.
+  reason: >-
+    The tool is a general-purpose low-code work management platform rather than a developer-focused AI tool, agent, or
+    coding infrastructure.
   evidence:
     - Product is a general SaaS work management/low-code platform
     - No clear AI-native developer tooling or agentic workflow identity in the context
@@ -56,12 +66,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,10 +80,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:39:27.677Z"
+    updated_at: '2026-09-24T04:39:27.677Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for fibery__io: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for fibery__io: Upstream error from Nvidia: ResourceExhausted: Worker local
+        total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -85,7 +97,9 @@ processing:
       input_hash: sha256:35030aa4c09ea604181af96455951e0e90c1319017ecc7dd8df88b2ebfd2e6f9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a general-purpose low-code work management platform rather than a developer-focused AI tool, agent, or coding infrastructure.
+      decision_reason: >-
+        The tool is a general-purpose low-code work management platform rather than a developer-focused AI tool, agent,
+        or coding infrastructure.
       decision_evidence:
         - Product is a general SaaS work management/low-code platform
         - No clear AI-native developer tooling or agentic workflow identity in the context

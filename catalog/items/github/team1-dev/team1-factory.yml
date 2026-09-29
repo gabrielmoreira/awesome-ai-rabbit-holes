@@ -1,0 +1,77 @@
+id: github__team1-dev__team1-factory
+kind: github-repo
+name: team1-dev/team1-factory
+canonical_url: https://github.com/team1-dev/team1-factory
+identity:
+  github_repo: team1-dev/team1-factory
+provenance:
+  discoveries:
+    - id: discovery__github__team1-dev__team1-factory__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: Team1-Factory
+        extracted_url: https://github.com/team1-dev/team1-factory
+        surrounding_text: >-
+          - **[Team1-Factory](https://github.com/Team1-dev/Team1-Factory)** `⭐ 2` — Unattended GitHub issue-to-merged-PR
+          loop: triage, implement, review, and merge stages run against real issues and pull requests, driving Claude
+          Code sessions with test-gated merges. Runs once or as a long-lived polling service under Docker. Apache-2.0.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Team1-Factory ⭐ 2 — Unattended GitHub issue-to-merged-PR loop: triage, implement, review, and merge stages run
+    against real issues and pull requests, driving Claude Code sessions with test-gated merges. Runs once or as a
+    long-lived polling service under Docker. Apache-2.0.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.78
+placement:
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.479Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

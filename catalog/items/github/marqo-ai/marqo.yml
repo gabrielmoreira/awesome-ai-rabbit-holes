@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__marqo-ai__marqo__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Vector search
         anchor_text: Marqo
         extracted_url: https://github.com/marqo-ai/marqo
-        surrounding_text: "| [Marqo](https://github.com/marqo-ai/marqo)                | Tensor search for humans.                                                                                                                                                                                                                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/marqo-ai/marqo.svg?style=flat-square)             |"
+        surrounding_text: >-
+          | [Marqo](https://github.com/marqo-ai/marqo)                | Tensor search for
+          humans.                                                                                                                                                                                                                                                                    
+          | ![GitHub Badge](https://img.shields.io/github/stars/marqo-ai/marqo.svg?style=flat-square)             |
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: marqo-ai/marqo
     html_url: https://github.com/marqo-ai/marqo
-    created_at: "2022-08-01T12:12:51Z"
-    pushed_at: "2026-07-31T21:33:44Z"
+    created_at: '2022-08-01T12:12:51Z'
+    pushed_at: '2026-07-31T21:33:44Z'
     description: Ecommerce Search and Discovery - marqo.ai
     homepage: https://www.marqo.ai/
     topics:
@@ -39,13 +42,15 @@ metadata:
       - machine-learning
       - multi-modal
       - search-engine
-    last_checked_at: "2026-08-03T05:16:56.902Z"
+    last_checked_at: '2026-08-03T05:16:56.902Z'
     readme:
-      fetched_at: "2026-08-03T05:16:56.902Z"
+      fetched_at: '2026-08-03T05:16:56.902Z'
       bytes: 1427
 insights:
   summary: Marqo is an AI-native ecommerce search platform for fashion, beauty, electronics, and home goods brands.
-  why_it_matters: It enables developers to build semantic, personalized product search that leverages behavioral data to improve relevance and conversion without manual tuning.
+  why_it_matters: >-
+    It enables developers to build semantic, personalized product search that leverages behavioral data to improve
+    relevance and conversion without manual tuning.
   mental_damage: Another vertical AI SaaS pitching search as a magic bullet while quietly deprecating its open source core.
   tags:
     - search
@@ -54,31 +59,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Marqo is an end-user ecommerce search platform, not a developer-facing AI tool for coding, agents, or workflow augmentation.
+  reason: >-
+    Marqo is an end-user ecommerce search platform, not a developer-facing AI tool for coding, agents, or workflow
+    augmentation.
   evidence:
-    - "Repo description: 'Ecommerce Search and Discovery - marqo.ai'"
-    - "README: 'Marqo is the an AI-native ecommerce search platform built for online brands in fashion, beauty, electronics, and home goods'"
-    - "Notice: 'Marqo's Open Source project is deprecated and will no longer recieve updates'"
+    - 'Repo description: ''Ecommerce Search and Discovery - marqo.ai'''
+    - >-
+      README: 'Marqo is the an AI-native ecommerce search platform built for online brands in fashion, beauty,
+      electronics, and home goods'
+    - 'Notice: ''Marqo''s Open Source project is deprecated and will no longer recieve updates'''
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (5027) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:56.902Z"
+    updated_at: '2026-08-03T05:16:56.902Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -93,11 +102,15 @@ processing:
       input_hash: sha256:08016e7d6ceb3ad7547d525dfb3e525d534010ebf0013cd7fffe54956740b8c0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Marqo is an end-user ecommerce search platform, not a developer-facing AI tool for coding, agents, or workflow augmentation.
+      decision_reason: >-
+        Marqo is an end-user ecommerce search platform, not a developer-facing AI tool for coding, agents, or workflow
+        augmentation.
       decision_evidence:
-        - "Repo description: 'Ecommerce Search and Discovery - marqo.ai'"
-        - "README: 'Marqo is the an AI-native ecommerce search platform built for online brands in fashion, beauty, electronics, and home goods'"
-        - "Notice: 'Marqo's Open Source project is deprecated and will no longer recieve updates'"
+        - 'Repo description: ''Ecommerce Search and Discovery - marqo.ai'''
+        - >-
+          README: 'Marqo is the an AI-native ecommerce search platform built for online brands in fashion, beauty,
+          electronics, and home goods'
+        - 'Notice: ''Marqo''s Open Source project is deprecated and will no longer recieve updates'''
       category_candidates: []
       contrastive_reason: null
       review_reason: null

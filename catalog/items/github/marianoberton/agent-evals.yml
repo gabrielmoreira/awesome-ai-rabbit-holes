@@ -1,0 +1,76 @@
+id: github__marianoberton__agent-evals
+kind: github-repo
+name: marianoberton/agent-evals
+canonical_url: https://github.com/marianoberton/agent-evals
+identity:
+  github_repo: marianoberton/agent-evals
+provenance:
+  discoveries:
+    - id: discovery__github__marianoberton__agent-evals__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: agent-evals
+        extracted_url: https://github.com/marianoberton/agent-evals
+        surrounding_text: >-
+          - [agent-evals](https://github.com/marianoberton/agent-evals) - Deterministic LLM-agent eval harness with
+          optional calibrated TypeSafe Jev judge for CI deploy gates. [Project
+          guide](community/projects/tools/agent-evals.md).
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    agent-evals - Deterministic LLM-agent eval harness with optional calibrated TypeSafe Jev judge for CI deploy gates.
+    Project guide.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
+  evidence:
+    - jev-latest choice confidence 0.66
+placement:
+  primary_category: evals
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.467Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

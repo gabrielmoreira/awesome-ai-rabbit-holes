@@ -3,8 +3,7 @@ import { loadSettings, loadSettingsFromRaw, DEFAULT_SETTINGS, type AppSettings }
 import { readYaml } from "../scripts/support/yaml.js";
 
 const EMPTY_ENV = {} as NodeJS.ProcessEnv;
-const okMinimal: AppSettings = {
-  promotion: { ...DEFAULT_SETTINGS.promotion },
+const okMinimal: AppSettings = {
   github: { ...DEFAULT_SETTINGS.github },
   budgets: { ...DEFAULT_SETTINGS.budgets },
   concurrency: { ...DEFAULT_SETTINGS.concurrency },
@@ -56,13 +55,12 @@ describe("settings schema and safe defaults", () => {
 
   it("reads budgets and concurrency from config/settings.yml", () => {
     const s = loadSettingsFromRaw({
-      promotion: { incubating_until_stars: 333 },
       github: { metadata_refresh_days: 11 },
       budgets: { discover_minutes: 3, stars_minutes: 4, categorize_minutes: 5 },
       concurrency: { github: 6, site: 3, llm: 2 },
     }, {}, EMPTY_ENV);
 
-    expect(s.promotion.incubating_until_stars).toBe(333);
+    
     expect(s.github.metadata_refresh_days).toBe(11);
     expect(s.budgets.discover_minutes).toBe(3);
     expect(s.budgets.stars_minutes).toBe(4);

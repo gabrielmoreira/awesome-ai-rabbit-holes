@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hcf-studios__openhermit__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-08-24T04:20:54.275Z"
+      discovered_at: '2026-08-24T04:20:54.275Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,7 +19,9 @@ provenance:
           - CLI Agent Harnesses
         anchor_text: OpenHermit
         extracted_url: https://github.com/hcf-studios/openhermit
-        surrounding_text: "| [OpenHermit](https://github.com/HCF-STUDIOS/openhermit) | 52 | TypeScript | MIT | 2026-08 | Deploys agent fleets as long-running services |"
+        surrounding_text: >-
+          | [OpenHermit](https://github.com/HCF-STUDIOS/openhermit) | 52 | TypeScript | MIT | 2026-08 | Deploys agent
+          fleets as long-running services |
         confidence: high
 metadata:
   github:
@@ -50,23 +52,23 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-24T04:20:54.276Z"
+    updated_at: '2026-08-24T04:20:54.276Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-03T05:16:59.518Z"
+    updated_at: '2026-09-03T05:16:59.518Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for hcf-studios/openhermit
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

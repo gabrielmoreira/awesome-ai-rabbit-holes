@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__graphlit__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Graphlit
         anchor_text: Graphlit
         extracted_url: https://graphlit.com
-        surrounding_text: "## [Graphlit](https://www.graphlit.com/)"
+        surrounding_text: '## [Graphlit](https://www.graphlit.com/)'
         confidence: high
     - id: discovery__graphlit__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,10 +33,12 @@ provenance:
           - Official Servers
         anchor_text: Graphlit
         extracted_url: https://graphlit.com
-        surrounding_text: "- **[Graphlit](https://github.com/graphlit/graphlit-mcp-server)** - Ingest anything from Slack to Gmail to podcast feeds, in addition to web crawling, into a searchable [Graphlit](https://www.graphlit.com) project."
+        surrounding_text: >-
+          - **[Graphlit](https://github.com/graphlit/graphlit-mcp-server)** - Ingest anything from Slack to Gmail to
+          podcast feeds, in addition to web crawling, into a searchable [Graphlit](https://www.graphlit.com) project.
         confidence: high
     - id: discovery__www__graphlit__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -48,10 +50,10 @@ provenance:
           - Graphlit
         anchor_text: Graphlit
         extracted_url: https://www.graphlit.com
-        surrounding_text: "## [Graphlit](https://www.graphlit.com/)"
+        surrounding_text: '## [Graphlit](https://www.graphlit.com/)'
         confidence: high
     - id: discovery__www__graphlit__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -63,7 +65,9 @@ provenance:
           - Official Servers
         anchor_text: Graphlit
         extracted_url: https://www.graphlit.com
-        surrounding_text: "- **[Graphlit](https://github.com/graphlit/graphlit-mcp-server)** - Ingest anything from Slack to Gmail to podcast feeds, in addition to web crawling, into a searchable [Graphlit](https://www.graphlit.com) project."
+        surrounding_text: >-
+          - **[Graphlit](https://github.com/graphlit/graphlit-mcp-server)** - Ingest anything from Slack to Gmail to
+          podcast feeds, in addition to web crawling, into a searchable [Graphlit](https://www.graphlit.com) project.
         confidence: high
 metadata:
   github:
@@ -81,7 +85,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Graphlit provides a managed context layer for AI agents with real-time sync across Slack, GitHub, and Jira, plus built-in semantic search.
+  summary: >-
+    Graphlit provides a managed context layer for AI agents with real-time sync across Slack, GitHub, and Jira, plus
+    built-in semantic search.
   why_it_matters: It reduces the operational overhead of keeping agent context fresh and synchronized across developer tools.
   mental_damage: Finally, a way to outsource the context window anxiety your agents were already giving you.
   tags:
@@ -91,21 +97,25 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Graphlit's core is a managed context and memory layer for agents, aligning with memory-and-context rather than being primarily an MCP server or coding agent.
+  reason: >-
+    Graphlit's core is a managed context and memory layer for agents, aligning with memory-and-context rather than being
+    primarily an MCP server or coding agent.
   evidence:
-    - Described as 'context layer for AI agents' with real-time sync across Slack, GitHub, Jira and semantic search built-in
+    - >-
+      Described as 'context layer for AI agents' with real-time sync across Slack, GitHub, Jira and semantic search
+      built-in
     - Listed in awesome-ai-agents under Graphlit section for giving agents context that works
     - Listed in awesome-mcp-servers under Official Servers with same context-sync description
 placement:
   primary_category: memory-and-context
   section: Persistent Memory & Knowledge
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:41:41.586Z"
+    updated_at: '2026-09-28T04:41:41.586Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -118,20 +128,26 @@ processing:
       input_hash: sha256:c73658691229fa357b065f2c3fd52f28ede7162cc9393d28087a8ff96ba417ca
       proposed_primary_category: memory-and-context
       disagreement: false
-      decision_reason: Graphlit's core is a managed context and memory layer for agents, aligning with memory-and-context rather than being primarily an MCP server or coding agent.
+      decision_reason: >-
+        Graphlit's core is a managed context and memory layer for agents, aligning with memory-and-context rather than
+        being primarily an MCP server or coding agent.
       decision_evidence:
-        - Described as 'context layer for AI agents' with real-time sync across Slack, GitHub, Jira and semantic search built-in
+        - >-
+          Described as 'context layer for AI agents' with real-time sync across Slack, GitHub, Jira and semantic search
+          built-in
         - Listed in awesome-ai-agents under Graphlit section for giving agents context that works
         - Listed in awesome-mcp-servers under Official Servers with same context-sync description
       category_candidates:
         - memory-and-context
         - mcp
-      contrastive_reason: Choose memory-and-context over mcp because Graphlit's primary identity is providing managed context and memory for agents, not being an MCP server as its core product.
+      contrastive_reason: >-
+        Choose memory-and-context over mcp because Graphlit's primary identity is providing managed context and memory
+        for agents, not being an MCP server as its core product.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.687Z"
+    updated_at: '2026-07-20T15:10:47.687Z'
     cause: null
     next_retry_at: null
   stars:

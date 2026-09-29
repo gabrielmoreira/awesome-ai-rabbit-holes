@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kexue__fm__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 教程 Tutorial
-        anchor_text: "Blog: 科学空间（苏剑林）"
+        anchor_text: 'Blog: 科学空间（苏剑林）'
         extracted_url: https://kexue.fm
-        surrounding_text: "22. [Blog: 科学空间（苏剑林）](https://kexue.fm/)"
+        surrounding_text: '22. [Blog: 科学空间（苏剑林）](https://kexue.fm/)'
         confidence: high
 metadata:
   github:
@@ -46,20 +46,26 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: kexue.fm is a personal science blog with no developer-facing tooling, agent, infrastructure, or workflow product; it is an educational resource lacking any direct application to AI-assisted software development.
+  reason: >-
+    kexue.fm is a personal science blog with no developer-facing tooling, agent, infrastructure, or workflow product; it
+    is an educational resource lacking any direct application to AI-assisted software development.
   evidence:
-    - The source-list context shows it appears in awesome-LLM-resources under '教程 Tutorial', indicating it is curated as educational material, not a tool.
-    - No repository, description, README, or product identity is provided; the homepage is a personal blog with no indication of being a developer tool.
+    - >-
+      The source-list context shows it appears in awesome-LLM-resources under '教程 Tutorial', indicating it is curated as
+      educational material, not a tool.
+    - >-
+      No repository, description, README, or product identity is provided; the homepage is a personal blog with no
+      indication of being a developer tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:30:26.905Z"
+    updated_at: '2026-09-28T04:30:26.905Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -81,10 +87,16 @@ processing:
       input_hash: sha256:82bcd4a71c0ab146d2ecdc138846d8b2e3bf9bdc3231b47726a54280ac30ae92
       proposed_primary_category: null
       disagreement: false
-      decision_reason: kexue.fm is a personal science blog with no developer-facing tooling, agent, infrastructure, or workflow product; it is an educational resource lacking any direct application to AI-assisted software development.
+      decision_reason: >-
+        kexue.fm is a personal science blog with no developer-facing tooling, agent, infrastructure, or workflow
+        product; it is an educational resource lacking any direct application to AI-assisted software development.
       decision_evidence:
-        - The source-list context shows it appears in awesome-LLM-resources under '教程 Tutorial', indicating it is curated as educational material, not a tool.
-        - No repository, description, README, or product identity is provided; the homepage is a personal blog with no indication of being a developer tool.
+        - >-
+          The source-list context shows it appears in awesome-LLM-resources under '教程 Tutorial', indicating it is
+          curated as educational material, not a tool.
+        - >-
+          No repository, description, README, or product identity is provided; the homepage is a personal blog with no
+          indication of being a developer tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

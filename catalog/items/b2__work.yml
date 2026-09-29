@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__b2__work__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - B2 AI
         anchor_text: B2 AI
         extracted_url: https://b2.work
-        surrounding_text: "## [B2 AI](https://www.b2.work/)"
+        surrounding_text: '## [B2 AI](https://www.b2.work/)'
         confidence: high
     - id: discovery__www__b2__work__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - B2 AI
         anchor_text: B2 AI
         extracted_url: https://www.b2.work
-        surrounding_text: "## [B2 AI](https://www.b2.work/)"
+        surrounding_text: '## [B2 AI](https://www.b2.work/)'
         confidence: high
 metadata:
   github:
@@ -51,30 +51,38 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: B2 AI is an autonomous AI agent listed in the awesome-ai-agents directory under the purpose 'A list of AI autonomous agents'.
-  why_it_matters: It represents an attempt to surface AI agents for developers, though its actual capabilities and scope are undefined in the provided inputs.
-  mental_damage: Another mysterious AI agent name dropped into an awesome list with zero description, forcing developers to guess whether it writes code or just dreams in prompts.
+  summary: >-
+    B2 AI is an autonomous AI agent listed in the awesome-ai-agents directory under the purpose 'A list of AI autonomous
+    agents'.
+  why_it_matters: >-
+    It represents an attempt to surface AI agents for developers, though its actual capabilities and scope are undefined
+    in the provided inputs.
+  mental_damage: >-
+    Another mysterious AI agent name dropped into an awesome list with zero description, forcing developers to guess
+    whether it writes code or just dreams in prompts.
   tags:
     - ai-agent
     - uncategorized
   confidence: high
 curation:
   status: excluded
-  reason: The project lacks any concrete description of what it does, who it is for, or how it assists developers—no repo description, README, or usable homepage is provided, making it impossible to verify a developer-tooling fit.
+  reason: >-
+    The project lacks any concrete description of what it does, who it is for, or how it assists developers—no repo
+    description, README, or usable homepage is provided, making it impossible to verify a developer-tooling fit.
   evidence:
-    - "Repo description: (none)"
-    - "README excerpt: (not provided)"
-    - "Seen in source lists / directories: awesome-ai-agents | purpose: A list of AI autonomous agents | section: B2 AI"
+    - 'Repo description: (none)'
+    - 'README excerpt: (not provided)'
+    - 'Seen in source lists / directories: awesome-ai-agents | purpose: A list of AI autonomous agents | section: B2 AI'
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:39:04.132Z"
+    updated_at: '2026-09-28T04:39:04.132Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -87,18 +95,22 @@ processing:
       input_hash: sha256:ffd8100805888d14cec9a8252c8ead996fcd5a62b0eab35f58eac3841c84cf10
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project lacks any concrete description of what it does, who it is for, or how it assists developers—no repo description, README, or usable homepage is provided, making it impossible to verify a developer-tooling fit.
+      decision_reason: >-
+        The project lacks any concrete description of what it does, who it is for, or how it assists developers—no repo
+        description, README, or usable homepage is provided, making it impossible to verify a developer-tooling fit.
       decision_evidence:
-        - "Repo description: (none)"
-        - "README excerpt: (not provided)"
-        - "Seen in source lists / directories: awesome-ai-agents | purpose: A list of AI autonomous agents | section: B2 AI"
+        - 'Repo description: (none)'
+        - 'README excerpt: (not provided)'
+        - >-
+          Seen in source lists / directories: awesome-ai-agents | purpose: A list of AI autonomous agents | section: B2
+          AI
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.364Z"
+    updated_at: '2026-07-20T16:42:15.364Z'
     cause: null
     next_retry_at: null
   stars:

@@ -1,0 +1,103 @@
+id: github__a-fig__jev-score
+kind: github-repo
+name: a-fig/jev-score
+canonical_url: https://github.com/a-fig/jev-score
+identity:
+  github_repo: a-fig/jev-score
+provenance:
+  discoveries:
+    - id: discovery__github__a-fig__jev-score__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Jev Score
+        extracted_url: https://github.com/a-fig/jev-score
+        surrounding_text: >-
+          - [Jev Score](https://github.com/a-Fig/jev-score) - Local CLI/web scoreboard that grades document revisions
+          against your criteria with TypeSafe Jev via OpenRouter Decisions. [Project
+          guide](community/projects/tools/jev-score.md).
+        confidence: high
+    - id: discovery__github__a-fig__jev-score__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Applications (129)
+        anchor_text: jev-score
+        extracted_url: https://github.com/a-fig/jev-score
+        surrounding_text: >-
+          | [jev-score](https://github.com/a-Fig/jev-score) | ★ 1 | JavaScript | 2026-09-22 | Local-first document
+          evaluation workspaces powered by Jev |
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: a-Fig/jev-score
+    html_url: https://github.com/a-Fig/jev-score
+    created_at: '2026-09-20T19:57:34Z'
+    pushed_at: '2026-09-24T08:16:02Z'
+    description: Local-first document evaluation workspaces powered by Jev
+    homepage: null
+    topics:
+      - claude-code
+      - codex
+      - evaluation
+      - jev
+      - local-first
+      - openrouter
+      - sqlite
+      - writing
+    last_checked_at: '2026-09-29T13:08:20.206Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:20.206Z'
+      bytes: 14726
+insights:
+  summary: Local-first document evaluation workspaces powered by Jev
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  evidence:
+    - jev-latest choice confidence 0.71
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Evals, Benchmarks & Calibration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.408Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:20.206Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

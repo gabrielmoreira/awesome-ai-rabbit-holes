@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cqtrinv__trinvmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: cqtrinv/trinvmcp
         extracted_url: https://github.com/cqtrinv/trinvmcp
-        surrounding_text: "- [cqtrinv/trinvmcp](https://github.com/cqtrinv/trinvmcp) 📇 ☁️ - Explore French communes and cadastral parcels based on name and surface"
+        surrounding_text: >-
+          - [cqtrinv/trinvmcp](https://github.com/cqtrinv/trinvmcp) 📇 ☁️ - Explore French communes and cadastral
+          parcels based on name and surface
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: cqtrinv/trinvmcp
     html_url: https://github.com/cqtrinv/trinvmcp
-    created_at: "2025-06-02T12:47:29Z"
-    pushed_at: "2025-09-17T08:27:46Z"
+    created_at: '2025-06-02T12:47:29Z'
+    pushed_at: '2025-09-17T08:27:46Z'
     description: a MCP server for TRINV
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:30.555Z"
+    last_checked_at: '2026-09-14T04:13:30.555Z'
     readme:
-      fetched_at: "2026-09-14T04:13:30.555Z"
+      fetched_at: '2026-09-14T04:13:30.555Z'
       bytes: 1583
 insights:
-  summary: An MCP server that exposes French land-registry search tools—commune lookup and cadastral parcel search—through the TRINV API for Claude, Gemini, and other AI assistants.
-  why_it_matters: It matters only to developers building French property or notary workflows; it is not a broadly reusable developer-tooling primitive.
-  mental_damage: Proof that every obscure government API now gets its own MCP server, so your Claude Desktop can help you buy a vineyard in Provence instead of fixing your broken build.
+  summary: >-
+    An MCP server that exposes French land-registry search tools—commune lookup and cadastral parcel search—through the
+    TRINV API for Claude, Gemini, and other AI assistants.
+  why_it_matters: >-
+    It matters only to developers building French property or notary workflows; it is not a broadly reusable
+    developer-tooling primitive.
+  mental_damage: >-
+    Proof that every obscure government API now gets its own MCP server, so your Claude Desktop can help you buy a
+    vineyard in Provence instead of fixing your broken build.
   tags:
     - mcp
     - french-cadastre
@@ -51,31 +59,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Stays out because it is an extremely niche, single-domain MCP adapter for French real-estate cadastral lookups with no broad relevance to general software developer tooling or workflows.
+  reason: >-
+    Stays out because it is an extremely niche, single-domain MCP adapter for French real-estate cadastral lookups with
+    no broad relevance to general software developer tooling or workflows.
   evidence:
     - README describes exactly two tools for searching French communes and cadastral parcels via TRINV
     - Only 2 stars and no source-list curation, indicating no ecosystem traction among developers
-    - Product identity is a land-registry data bridge, not developer infrastructure, orchestration, or a common dev capability
+    - >-
+      Product identity is a land-registry data bridge, not developer infrastructure, orchestration, or a common dev
+      capability
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:30.556Z"
+    updated_at: '2026-09-14T04:13:30.556Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -90,11 +102,15 @@ processing:
       input_hash: sha256:81a0017e5f3fde890ee02a8ed5c5a0696ea9dc1a146c4113014c3fd483c4d05e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Stays out because it is an extremely niche, single-domain MCP adapter for French real-estate cadastral lookups with no broad relevance to general software developer tooling or workflows.
+      decision_reason: >-
+        Stays out because it is an extremely niche, single-domain MCP adapter for French real-estate cadastral lookups
+        with no broad relevance to general software developer tooling or workflows.
       decision_evidence:
         - README describes exactly two tools for searching French communes and cadastral parcels via TRINV
         - Only 2 stars and no source-list curation, indicating no ecosystem traction among developers
-        - Product identity is a land-registry data bridge, not developer infrastructure, orchestration, or a common dev capability
+        - >-
+          Product identity is a land-registry data bridge, not developer infrastructure, orchestration, or a common dev
+          capability
       category_candidates: []
       contrastive_reason: null
       review_reason: null

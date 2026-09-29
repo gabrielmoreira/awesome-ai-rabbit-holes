@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zap-coding-agent__zap-coding-agent__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Open Source
         anchor_text: Zap
         extracted_url: https://github.com/zap-coding-agent/zap-coding-agent
-        surrounding_text: "- **[Zap](https://github.com/zap-coding-agent/zap-coding-agent)** `⭐ 18` — Skill-first Rust TUI coding agent that injects only the context your task needs — no system prompt bloat. Single binary, no runtime. Supports Claude, Gemini, OpenAI, and local models via LM Studio; code-indexed via SQLite for fast symbol lookup; MCP support. MIT."
+        surrounding_text: >-
+          - **[Zap](https://github.com/zap-coding-agent/zap-coding-agent)** `⭐ 18` — Skill-first Rust TUI coding agent
+          that injects only the context your task needs — no system prompt bloat. Single binary, no runtime. Supports
+          Claude, Gemini, OpenAI, and local models via LM Studio; code-indexed via SQLite for fast symbol lookup; MCP
+          support. MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: zap-coding-agent/zap-coding-agent
     html_url: https://github.com/zap-coding-agent/zap-coding-agent
-    created_at: "2026-05-16T09:23:50Z"
-    pushed_at: "2026-07-20T12:22:58Z"
-    description: ZAP is a terminal-first, local AI coding agent built in Rust. It uses AST-powered codebase indexing and lazy-loaded skills to completely eliminate prompt bloat and minimize context token costs.
+    created_at: '2026-05-16T09:23:50Z'
+    pushed_at: '2026-07-20T12:22:58Z'
+    description: >-
+      ZAP is a terminal-first, local AI coding agent built in Rust. It uses AST-powered codebase indexing and
+      lazy-loaded skills to completely eliminate prompt bloat and minimize context token costs.
     homepage: https://zap.justpush.cloud
     topics:
       - ai-coding-agent
@@ -42,9 +48,9 @@ metadata:
       - prompt-bloat
       - rust-cli
       - tree-sitter
-    last_checked_at: "2026-07-21T15:21:25.202Z"
+    last_checked_at: '2026-07-21T15:21:25.202Z'
     readme:
-      fetched_at: "2026-07-21T15:21:25.202Z"
+      fetched_at: '2026-07-21T15:21:25.202Z'
       bytes: 68847
 insights:
   summary: null
@@ -60,22 +66,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:25.202Z"
+    updated_at: '2026-07-21T15:21:25.202Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.169Z"
+    updated_at: '2026-09-28T04:14:00.169Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

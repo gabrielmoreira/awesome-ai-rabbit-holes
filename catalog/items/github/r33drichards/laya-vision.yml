@@ -1,0 +1,79 @@
+id: github__r33drichards__laya-vision
+kind: github-repo
+name: r33drichards/laya-vision
+canonical_url: https://github.com/r33drichards/laya-vision
+identity:
+  github_repo: r33drichards/laya-vision
+provenance:
+  discoveries:
+    - id: discovery__github__r33drichards__laya-vision__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Open reproductions and research
+        anchor_text: Laya Vision
+        extracted_url: https://github.com/r33drichards/laya-vision
+        surrounding_text: >-
+          - [Laya Vision](https://github.com/r33drichards/laya-vision) - Research fork of Laya that replaces its text
+          encoder with SmolVLM-256M so typed `choice` and `noul` decisions are read from an image plus optional text in
+          one forward pass with no generated text; reports 75.2% accuracy and post-calibration ECE 0.034 across A-OKVQA,
+          ScienceQA image questions, and a VQAv2 yes/no re-split, and states that `score` questions are untrained and
+          meaningless.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Laya Vision - Research fork of Laya that replaces its text encoder with SmolVLM-256M so typed choice and noul
+    decisions are read from an image plus optional text in one forward pass with no generated text; reports 75.2%
+    accuracy and post-calibration ECE 0.034 across A-OKVQA, ScienceQA image questions, and a VQAv2 yes/no re-split, and
+    states that score questions are untrained and meaningless.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.93
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.473Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

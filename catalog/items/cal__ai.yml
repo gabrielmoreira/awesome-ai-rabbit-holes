@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cal__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Cal.ai
         anchor_text: Cal.ai
         extracted_url: https://cal.ai
-        surrounding_text: "## [Cal.ai](https://cal.ai)"
+        surrounding_text: '## [Cal.ai](https://cal.ai)'
         confidence: high
 metadata:
   github:
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: An AI agent integrated into the Cal.com scheduling platform to automate meeting coordination.
-  why_it_matters: It attempts to reduce the friction of scheduling by allowing an agent to handle the coordination and booking logic via natural language.
+  why_it_matters: >-
+    It attempts to reduce the friction of scheduling by allowing an agent to handle the coordination and booking logic
+    via natural language.
   mental_damage: Because one more autonomous agent has been added to the mental load of managing your calendar.
   tags:
     - scheduling
@@ -47,20 +49,22 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a consumer-facing productivity feature (scheduling) rather than a developer-facing tool for building, managing, or coding software.
+  reason: >-
+    The tool is a consumer-facing productivity feature (scheduling) rather than a developer-facing tool for building,
+    managing, or coding software.
   evidence:
-    - "Found in 'awesome-ai-agents' under purpose: A list of AI autonomous agents"
+    - 'Found in ''awesome-ai-agents'' under purpose: A list of AI autonomous agents'
     - Product identity is a scheduling automation feature for Cal.com
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,10 +73,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:34:59.105Z"
+    updated_at: '2026-09-24T04:34:59.105Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for cal__ai: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for cal__ai: Upstream error from Nvidia: ResourceExhausted: Worker local total
+        request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -84,9 +90,11 @@ processing:
       input_hash: sha256:065f9ad6d103c70175fa4d6e9d9b521b976e383780b172a0a787b92b533ffab2
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a consumer-facing productivity feature (scheduling) rather than a developer-facing tool for building, managing, or coding software.
+      decision_reason: >-
+        The tool is a consumer-facing productivity feature (scheduling) rather than a developer-facing tool for
+        building, managing, or coding software.
       decision_evidence:
-        - "Found in 'awesome-ai-agents' under purpose: A list of AI autonomous agents"
+        - 'Found in ''awesome-ai-agents'' under purpose: A list of AI autonomous agents'
         - Product identity is a scheduling automation feature for Cal.com
       category_candidates: []
       contrastive_reason: null

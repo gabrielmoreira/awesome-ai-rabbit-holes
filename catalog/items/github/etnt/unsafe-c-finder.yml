@@ -1,0 +1,77 @@
+id: github__etnt__unsafe-c-finder
+kind: github-repo
+name: etnt/unsafe-c-finder
+canonical_url: https://github.com/etnt/unsafe-c-finder
+identity:
+  github_repo: etnt/unsafe-c-finder
+provenance:
+  discoveries:
+    - id: discovery__github__etnt__unsafe-c-finder__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: unsafe-c-finder
+        extracted_url: https://github.com/etnt/unsafe-c-finder
+        surrounding_text: >-
+          - [unsafe-c-finder](https://github.com/etnt/unsafe-c-finder) - Classify C/C++ snippets and staged hunks with
+          TypeSafe Jev through OpenRouter (unsafe probability then CWE bucket). [Project
+          guide](community/projects/tools/unsafe-c-finder.md).
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MPL-2.0
+    archived: false
+    full_name: etnt/unsafe-c-finder
+    html_url: https://github.com/etnt/unsafe-c-finder
+    created_at: '2026-09-18T18:58:11Z'
+    pushed_at: '2026-09-19T06:15:37Z'
+    description: Classify C/C++ snippets via TypeSafe Jev through OpenRouter.
+    homepage: ''
+    topics: []
+    last_checked_at: '2026-09-29T13:11:06.670Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:06.670Z'
+      bytes: 3419
+insights:
+  summary: Classify C/C++ snippets via TypeSafe Jev through OpenRouter.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.72
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.456Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:06.670Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

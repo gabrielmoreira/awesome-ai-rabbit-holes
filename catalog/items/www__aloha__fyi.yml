@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__aloha__fyi__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,13 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: aloha.fyi
         extracted_url: https://aloha.fyi
-        surrounding_text: "- [baphometnxg/aloha-fyi-mcp](https://github.com/baphometnxg/aloha-fyi-mcp) [![baphometnxg/aloha-fyi-mcp MCP server](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp/badges/score.svg)](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp) 📇 ☁️ - First dedicated Hawaii tourism MCP server. 2,583 bookable tours from Viator, GetYourGuide, Klook, and Groupon, plus 579 events across 70+ venues on Oahu, Maui, Big Island, and Kauai. Results ship with affiliate booking links. Hosted Streamable HTTP endpoint — no install required. Powered by [aloha.fyi](https://aloha.fyi)."
+        surrounding_text: >-
+          - [baphometnxg/aloha-fyi-mcp](https://github.com/baphometnxg/aloha-fyi-mcp) [![baphometnxg/aloha-fyi-mcp MCP
+          server](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp/badges/score.svg)](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp)
+          📇 ☁️ - First dedicated Hawaii tourism MCP server. 2,583 bookable tours from Viator, GetYourGuide, Klook, and
+          Groupon, plus 579 events across 70+ venues on Oahu, Maui, Big Island, and Kauai. Results ship with affiliate
+          booking links. Hosted Streamable HTTP endpoint — no install required. Powered by
+          [aloha.fyi](https://aloha.fyi).
         confidence: high
 metadata:
   github:
@@ -37,8 +43,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Aloha.fyi is an AI-powered travel concierge that plans and books full-day Hawaii itineraries with real bookable experiences.
-  why_it_matters: It demonstrates applied AI for trip planning, but offers no direct utility to software developers' workflows or toolchains.
+  summary: >-
+    Aloha.fyi is an AI-powered travel concierge that plans and books full-day Hawaii itineraries with real bookable
+    experiences.
+  why_it_matters: >-
+    It demonstrates applied AI for trip planning, but offers no direct utility to software developers' workflows or
+    toolchains.
   mental_damage: Another reminder that 'AI concierge' is now a label slapped on anything with a chatbot and a commission link.
   tags:
     - travel
@@ -47,21 +57,25 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The product is a consumer-facing travel planning service with no developer-facing tooling, API, SDK, or workflow integration relevant to software engineering.
+  reason: >-
+    The product is a consumer-facing travel planning service with no developer-facing tooling, API, SDK, or workflow
+    integration relevant to software engineering.
   evidence:
     - Scraped site context shows it is a Hawaii tour and activity booking platform with an AI concierge named Nani
-    - README excerpt describes planning snorkeling, luaus, helicopter tours, and restaurant bookings — all consumer leisure activities
+    - >-
+      README excerpt describes planning snorkeling, luaus, helicopter tours, and restaurant bookings — all consumer
+      leisure activities
     - No mention of code, APIs, developer tools, CLI, IDE integration, or any software development workflow
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:50:16.473Z"
+    updated_at: '2026-09-28T04:50:16.473Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,10 +97,14 @@ processing:
       input_hash: sha256:3e03549f1f2b9624ab9cb8192b0a1c062c844acc40e54b3a424bc23ba3d6af38
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a consumer-facing travel planning service with no developer-facing tooling, API, SDK, or workflow integration relevant to software engineering.
+      decision_reason: >-
+        The product is a consumer-facing travel planning service with no developer-facing tooling, API, SDK, or workflow
+        integration relevant to software engineering.
       decision_evidence:
         - Scraped site context shows it is a Hawaii tour and activity booking platform with an AI concierge named Nani
-        - README excerpt describes planning snorkeling, luaus, helicopter tours, and restaurant bookings — all consumer leisure activities
+        - >-
+          README excerpt describes planning snorkeling, luaus, helicopter tours, and restaurant bookings — all consumer
+          leisure activities
         - No mention of code, APIs, developer tools, CLI, IDE integration, or any software development workflow
       category_candidates: []
       contrastive_reason: null

@@ -315,7 +315,7 @@ function computeCriteriaHash(): string {
 
 // ─── State builder ────────────────────────────────────────────────────────────
 
-function buildItemState(item: CatalogItem): Record<string, unknown> {
+function buildItemState(item: CatalogItem, summaryOverride?: string): Record<string, unknown> {
   const discoveries = item.provenance?.discoveries ?? [];
   const sourceContext = discoveries
     .slice(0, 3)
@@ -334,7 +334,7 @@ function buildItemState(item: CatalogItem): Record<string, unknown> {
     kind: item.kind,
     github_repo: item.identity?.github_repo ?? null,
     github_description: sanitizeText(item.metadata?.github?.description),
-    summary: sanitizeText(item.insights?.summary),
+    summary: sanitizeText(summaryOverride ?? item.insights?.summary),
     why_it_matters: sanitizeText(item.insights?.why_it_matters),
     tags: (item.insights?.tags ?? []).map(sanitizeText).filter(Boolean),
     source_context: sanitizeText(sourceContext) || null,
@@ -343,11 +343,60 @@ function buildItemState(item: CatalogItem): Record<string, unknown> {
 
 // ─── Result applier ───────────────────────────────────────────────────────────
 
+/** Strip markdown table/badge/link noise from an index line so it reads as prose. */
+function cleanIndexLine(raw: string | null | undefined): string {
+  const text = sanitizeText(raw);
+  if (!text) return "";
+  // Table-style indexes put the useful description in the longest cell; the
+  // other cells hold the name, a star count, a language, and a date.
+  const cells = text.split("|").map((cell) => cell.trim()).filter(Boolean);
+  const source = cells.length > 1 ? cells.reduce((longest, cell) => (cell.length > longest.length ? cell : longest)) : text;
+  return source
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/\*\*|`/g, "")
+    .replace(/^\s*[-*]\s*/, "")
+    .replace(/[|]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/**
+ * The catalog prompt tells the categorizer to seed the summary from the
+ * repository description. Discovery and the star refresh already store that
+ * description, and every discovery records the index line the project was
+ * found on, so a freshly imported item can be placed and rendered before the
+ * (slow, free) categorizer writes its own prose. The categorizer overwrites
+ * this later because its stored rules version is still missing.
+ */
+function deriveSeedSummary(item: CatalogItem): string {
+  const description = sanitizeText(item.metadata?.github?.description);
+  if (description.length >= 15) return description;
+
+  for (const discovery of item.provenance?.discoveries ?? []) {
+    const line = cleanIndexLine(discovery.extraction?.surrounding_text);
+    if (line.length >= 15) return line;
+  }
+  return "";
+}
+
+function resolveSummaryText(item: CatalogItem): string {
+  const existing = sanitizeText(item.insights?.summary);
+  if (existing.length >= 15 && existing !== "N/A") return existing;
+  return deriveSeedSummary(item);
+}
+
+/** True once the categorizer, not this script, wrote the item's prose. */
+function hasCategorizerInsights(item: CatalogItem): boolean {
+  return item.insights?.why_it_matters != null;
+}
+
 function applyResultToItem(
   item: CatalogItem,
   newCategory: string | null,
   newSection: string | null,
   shouldInclude: boolean,
+  confidence: number,
 ): CatalogItem {
   const updated = structuredClone(item);
   if (!shouldInclude) {
@@ -359,6 +408,15 @@ function applyResultToItem(
     updated.placement = { primary_category: null, secondary_categories: [], section: null };
   } else {
     updated.placement = { primary_category: newCategory, secondary_categories: [], section: newSection };
+    updated.curation = {
+      status: "included",
+      reason: `Jev decision-model reclassifier placed this item in ${newCategory} / ${newSection}`,
+      evidence: [`jev-latest choice confidence ${confidence.toFixed(2)}`],
+    };
+    const seededSummary = resolveSummaryText(item);
+    if (seededSummary && sanitizeText(item.insights?.summary) !== seededSummary) {
+      updated.insights = { ...updated.insights, summary: seededSummary };
+    }
   }
   return updated;
 }
@@ -372,8 +430,8 @@ async function reclassifyItem(
   minConfidence: number,
 ): Promise<ReclassifyResult> {
   const { filePath, item } = loaded;
-  const summary = item.insights?.summary ?? "";
-  if (!summary || summary === "N/A" || summary.length < 15) {
+  const summary = resolveSummaryText(item);
+  if (summary.length < 15) {
     return {
       itemId: item.id, filePath,
       oldCategory: item.placement?.primary_category ?? null, oldSection: item.placement?.section ?? null,
@@ -383,7 +441,7 @@ async function reclassifyItem(
     };
   }
 
-  const state = buildItemState(item);
+  const state = buildItemState(item, summary);
   const questions = {
     placement: {
       type: "choice",
@@ -392,6 +450,11 @@ async function reclassifyItem(
         "The key format is 'category-id||Section Name'. " +
         "Base your decision on the product's primary identity and main reason to exist, " +
         "not on side features or integrations it also supports. " +
+        "Precedence: when the product is a decision model (Jev, TypeSafe System One, Laya, Kev, " +
+        "or a similar typed-decision model) or a tool whose judgment IS the product, choose a " +
+        "decision-models option even though it also ships an MCP server, installs as a host " +
+        "add-on, or measures model behaviour. The protocol, host, or harness is the transport, " +
+        "not the identity. " +
         "Select '__excluded__' only if this is clearly not a developer-facing AI tool.",
       criteria: placementCriteria,
     },
@@ -454,19 +517,24 @@ interface CliArgs {
   concurrency: number;
   minConfidence: number;
   resetCache: boolean;
+  seedOnly: boolean;
 }
-
 function parseArgs(): CliArgs {
   const argv = process.argv.slice(2);
-  const args: CliArgs = { sample: null, category: null, ids: null, dryRun: false, concurrency: 20, minConfidence: 0.55, resetCache: false };
+  const args: CliArgs = { sample: null, category: null, ids: null, dryRun: false, concurrency: 20, minConfidence: 0.55, resetCache: false, seedOnly: false };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === "--sample" && argv[i + 1]) args.sample = Number(argv[++i]);
     else if (argv[i] === "--category" && argv[i + 1]) args.category = argv[++i] ?? null;
     else if (argv[i] === "--ids" && argv[i + 1]) args.ids = new Set((argv[++i] ?? "").split(",").filter(Boolean));
+    else if (argv[i] === "--ids-file" && argv[i + 1]) {
+      const lines = fs.readFileSync(argv[++i]!, "utf8").split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
+      args.ids = new Set([...(args.ids ?? []), ...lines]);
+    }
     else if (argv[i] === "--dry-run") args.dryRun = true;
     else if (argv[i] === "--concurrency" && argv[i + 1]) args.concurrency = Number(argv[++i]);
     else if (argv[i] === "--min-confidence" && argv[i + 1]) args.minConfidence = Number(argv[++i]);
     else if (argv[i] === "--reset-cache") args.resetCache = true;
+    else if (argv[i] === "--seed-only") args.seedOnly = true;
   }
   return args;
 }
@@ -474,10 +542,37 @@ function parseArgs(): CliArgs {
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
+  const args = parseArgs();
+
+  if (args.seedOnly) {
+    // Provisional summaries are a pure function of the item's stored data, so
+    // re-running this needs no API key and no spend. The categorizer replaces
+    // them with real prose later.
+    let items = loadIncludedItems();
+    if (args.ids) items = items.filter((l) => args.ids!.has(l.item.id));
+    if (args.sample && args.sample > 0) items = items.slice(0, args.sample);
+
+    let updated = 0;
+    for (const { filePath, item } of items) {
+      if (item.curation?.status !== "included") continue;
+      if (hasCategorizerInsights(item)) continue;
+      const seeded = deriveSeedSummary(item);
+      if (!seeded || seeded === sanitizeText(item.insights?.summary)) continue;
+      // Replacing an existing summary is only safe for items the caller named
+      // explicitly — without an id set, this only fills a missing summary so a
+      // real one can never be overwritten by a repository description.
+      const existing = sanitizeText(item.insights?.summary);
+      if (existing && !args.ids) continue;
+      if (!args.dryRun) saveItem(filePath, { ...item, insights: { ...item.insights, summary: seeded } });
+      updated += 1;
+    }
+    console.log(`Seed-only: ${updated} summar${updated === 1 ? "y" : "ies"} written from ${items.length} candidate item(s)${args.dryRun ? " (dry-run)" : ""}.`);
+    return;
+  }
+
   const apiKey = process.env.TYPESAFE_AI_API_KEY ?? process.env.TYPESAFE_API_KEY;
   if (!apiKey) throw new Error("TYPESAFE_AI_API_KEY not set");
 
-  const args = parseArgs();
   const categories = loadCategories() as CategoryWithHints[];
   const placementCriteria = buildPlacementCriteria(categories);
   const criteriaHash = computeCriteriaHash();
@@ -553,7 +648,7 @@ async function main() {
 
         // Apply to disk
         if (!args.dryRun && !result.skipped && !result.ambiguous && result.newCategory) {
-          const updated = applyResultToItem(loaded.item, result.newCategory, result.newSection, result.shouldInclude);
+          const updated = applyResultToItem(loaded.item, result.newCategory, result.newSection, result.shouldInclude, result.confidence);
           saveItem(loaded.filePath, updated);
         }
       } catch (err) {

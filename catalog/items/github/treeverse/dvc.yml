@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__treeverse__dvc__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Data Management
         anchor_text: DVC
         extracted_url: https://github.com/iterative/dvc
-        surrounding_text: "| [DVC](https://github.com/iterative/dvc)             | Data Version Control - Git for Data & Models - ML Experiments Management.                                                                                       | ![GitHub Badge](https://img.shields.io/github/stars/iterative/dvc.svg?style=flat-square)       |"
+        surrounding_text: >-
+          | [DVC](https://github.com/iterative/dvc)             | Data Version Control - Git for Data & Models - ML
+          Experiments Management.                                                                                      
+          | ![GitHub Badge](https://img.shields.io/github/stars/iterative/dvc.svg?style=flat-square)       |
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: treeverse/dvc
     html_url: https://github.com/treeverse/dvc
-    created_at: "2017-03-04T08:16:33Z"
-    pushed_at: "2026-07-21T02:02:32Z"
+    created_at: '2017-03-04T08:16:33Z'
+    pushed_at: '2026-07-21T02:02:32Z'
     description: 🦉 Data Versioning and ML Experiments
     homepage: https://dvc.org
     topics:
@@ -42,14 +45,20 @@ metadata:
       - machine-learning
       - reproducibility
       - unstructured-data
-    last_checked_at: "2026-07-21T15:20:54.993Z"
+    last_checked_at: '2026-07-21T15:20:54.993Z'
     readme:
-      fetched_at: "2026-07-21T15:20:54.993Z"
+      fetched_at: '2026-07-21T15:20:54.993Z'
       bytes: 12874
 insights:
-  summary: DVC is an open-source command-line tool and VS Code extension for versioning datasets and machine-learning models, building reproducible data pipelines, and tracking ML experiments via Git.
-  why_it_matters: It lets ML teams treat large data artifacts and model files as versioned assets without bloating Git repos, collapsing cloud storage, pipelines, and experiment history into a single Git-native workflow.
-  mental_damage: It sells the dream of 'Git for data' so you can pretend your 50 GB model checkpoints are properly versioned while your CI runner weeps through a 45-minute dvc pull just to reproduce an experiment no one asked for.
+  summary: >-
+    DVC is an open-source command-line tool and VS Code extension for versioning datasets and machine-learning models,
+    building reproducible data pipelines, and tracking ML experiments via Git.
+  why_it_matters: >-
+    It lets ML teams treat large data artifacts and model files as versioned assets without bloating Git repos,
+    collapsing cloud storage, pipelines, and experiment history into a single Git-native workflow.
+  mental_damage: >-
+    It sells the dream of 'Git for data' so you can pretend your 50 GB model checkpoints are properly versioned while
+    your CI runner weeps through a 45-minute dvc pull just to reproduce an experiment no one asked for.
   tags:
     - data-versioning
     - ml-pipelines
@@ -59,31 +68,40 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: DVC is classical MLOps infrastructure for data versioning and machine-learning pipelines, which sits outside this catalog's focus on generative-AI coding assistants, agent tooling, LLM context engineering, and app-building products.
+  reason: >-
+    DVC is classical MLOps infrastructure for data versioning and machine-learning pipelines, which sits outside this
+    catalog's focus on generative-AI coding assistants, agent tooling, LLM context engineering, and app-building
+    products.
   evidence:
-    - README frames DVC as 'Data Version Control' and 'Git for data', targeting ML model-training workflows with no connection to coding agents, LLM context, or app generation.
-    - Its core features—versioning data blobs, building data pipelines, and comparing traditional ML experiments—do not map cleanly to any available category such as coding-agents, ai-frameworks, evals, or context-engineering.
-    - Listed in Awesome-LLMOps under Data > Data Management and created in 2017, it belongs to the pre-LLM MLOps ecosystem rather than the current wave of AI developer tooling this catalog tracks.
+    - >-
+      README frames DVC as 'Data Version Control' and 'Git for data', targeting ML model-training workflows with no
+      connection to coding agents, LLM context, or app generation.
+    - >-
+      Its core features—versioning data blobs, building data pipelines, and comparing traditional ML experiments—do not
+      map cleanly to any available category such as coding-agents, ai-frameworks, evals, or context-engineering.
+    - >-
+      Listed in Awesome-LLMOps under Data > Data Management and created in 2017, it belongs to the pre-LLM MLOps
+      ecosystem rather than the current wave of AI developer tooling this catalog tracks.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (15593) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:54.993Z"
+    updated_at: '2026-07-21T15:20:54.993Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.168Z"
+    updated_at: '2026-09-28T04:14:00.168Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

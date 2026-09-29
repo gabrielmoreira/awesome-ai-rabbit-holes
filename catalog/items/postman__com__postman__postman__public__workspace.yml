@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__postman__com__postman__postman__public__workspace__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Postman API
         extracted_url: https://postman.com/postman/postman-public-workspace
-        surrounding_text: "- [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server) 📇 ☁️ - Interact with [Postman API](https://www.postman.com/postman/postman-public-workspace/)"
+        surrounding_text: >-
+          - [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server) 📇 ☁️ - Interact with [Postman
+          API](https://www.postman.com/postman/postman-public-workspace/)
         confidence: high
     - id: discovery__www__postman__com__postman__postman__public__workspace__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Postman API
         extracted_url: https://www.postman.com/postman/postman-public-workspace
-        surrounding_text: "- [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server) 📇 ☁️ - Interact with [Postman API](https://www.postman.com/postman/postman-public-workspace/)"
+        surrounding_text: >-
+          - [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server) 📇 ☁️ - Interact with [Postman
+          API](https://www.postman.com/postman/postman-public-workspace/)
         confidence: high
 metadata:
   github:
@@ -53,9 +57,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Postman API is a widely used platform for designing, testing, and managing HTTP APIs, featuring collaborative workspaces and automated documentation generation.
-  why_it_matters: It streamlines API development and integration workflows, reducing boilerplate and enabling faster iteration for backend and frontend developers.
-  mental_damage: Another essential tool that makes you wonder how you ever shipped APIs without it — until you realize you still spend half your day debugging auth headers.
+  summary: >-
+    Postman API is a widely used platform for designing, testing, and managing HTTP APIs, featuring collaborative
+    workspaces and automated documentation generation.
+  why_it_matters: >-
+    It streamlines API development and integration workflows, reducing boilerplate and enabling faster iteration for
+    backend and frontend developers.
+  mental_damage: >-
+    Another essential tool that makes you wonder how you ever shipped APIs without it — until you realize you still
+    spend half your day debugging auth headers.
   tags:
     - api
     - testing
@@ -63,7 +73,10 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Postman API functions primarily as an integration layer for API design, testing, and management, extending developer workflows rather than acting as a standalone coding agent or framework; its core value lies in plugging into existing development processes to improve API lifecycle handling.
+  reason: >-
+    Postman API functions primarily as an integration layer for API design, testing, and management, extending developer
+    workflows rather than acting as a standalone coding agent or framework; its core value lies in plugging into
+    existing development processes to improve API lifecycle handling.
   evidence:
     - Scraped site context identifies Postman as a platform for API workspaces and collaboration
     - No evidence of autonomous code editing, agent behavior, or framework/SDK identity in provided inputs
@@ -72,12 +85,12 @@ placement:
   primary_category: extensions-and-addons
   section: API & Service Integrations
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:44:32.773Z"
+    updated_at: '2026-09-28T04:44:32.773Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,20 +103,27 @@ processing:
       input_hash: sha256:bfd4dbf8e0db9d7aeea1b718aade5a0113172987ec78fd65037dc9ab810b951d
       proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: Postman API functions primarily as an integration layer for API design, testing, and management, extending developer workflows rather than acting as a standalone coding agent or framework; its core value lies in plugging into existing development processes to improve API lifecycle handling.
+      decision_reason: >-
+        Postman API functions primarily as an integration layer for API design, testing, and management, extending
+        developer workflows rather than acting as a standalone coding agent or framework; its core value lies in
+        plugging into existing development processes to improve API lifecycle handling.
       decision_evidence:
         - Scraped site context identifies Postman as a platform for API workspaces and collaboration
         - No evidence of autonomous code editing, agent behavior, or framework/SDK identity in provided inputs
-        - Source-list context shows no inclusion in agentic or framework-focused lists, suggesting peripheral tooling role
+        - >-
+          Source-list context shows no inclusion in agentic or framework-focused lists, suggesting peripheral tooling
+          role
       category_candidates:
         - extensions-and-addons
         - awesome-awesomes
-      contrastive_reason: Choose extensions-and-addons over awesome-awesomes because Postman API is an operational tool for API integration, not a curated list or directory for discovery.
+      contrastive_reason: >-
+        Choose extensions-and-addons over awesome-awesomes because Postman API is an operational tool for API
+        integration, not a curated list or directory for discovery.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.969Z"
+    updated_at: '2026-07-21T15:20:21.969Z'
     cause: null
     next_retry_at: null
   stars:

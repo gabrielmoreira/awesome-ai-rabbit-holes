@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__learnables__learn2learn__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,11 @@ provenance:
           - AutoML
         anchor_text: learn2learn
         extracted_url: https://github.com/learnables/learn2learn
-        surrounding_text: "| [learn2learn](https://github.com/learnables/learn2learn)                     | PyTorch Meta-learning Framework for Researchers.                                                                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/learnables/learn2learn.svg?style=flat-square)          |"
+        surrounding_text: >-
+          | [learn2learn](https://github.com/learnables/learn2learn)                     | PyTorch Meta-learning
+          Framework for
+          Researchers.                                                                                                                               
+          | ![GitHub Badge](https://img.shields.io/github/stars/learnables/learn2learn.svg?style=flat-square)          |
         confidence: high
 metadata:
   github:
@@ -29,8 +33,8 @@ metadata:
     archived: false
     full_name: learnables/learn2learn
     html_url: https://github.com/learnables/learn2learn
-    created_at: "2019-08-08T18:22:41Z"
-    pushed_at: "2025-12-16T20:53:41Z"
+    created_at: '2019-08-08T18:22:41Z'
+    pushed_at: '2025-12-16T20:53:41Z'
     description: A PyTorch Library for Meta-learning Research
     homepage: http://learn2learn.net
     topics:
@@ -45,14 +49,20 @@ metadata:
       - meta-rl
       - metalearning
       - pytorch
-    last_checked_at: "2026-07-30T05:06:04.415Z"
+    last_checked_at: '2026-07-30T05:06:04.415Z'
     readme:
-      fetched_at: "2026-07-30T05:06:04.415Z"
+      fetched_at: '2026-07-30T05:06:04.415Z'
       bytes: 8578
 insights:
-  summary: A PyTorch library for meta-learning research providing utilities and benchmarks for few-shot learning, meta-reinforcement learning, and differentiable optimization.
-  why_it_matters: It gives researchers and developers a unified framework to prototype and reproduce meta-learning algorithms efficiently within the PyTorch ecosystem.
-  mental_damage: Finally, a way to make your few-shot experiments feel both cutting-edge and slightly less cursed by inconsistent baselines.
+  summary: >-
+    A PyTorch library for meta-learning research providing utilities and benchmarks for few-shot learning,
+    meta-reinforcement learning, and differentiable optimization.
+  why_it_matters: >-
+    It gives researchers and developers a unified framework to prototype and reproduce meta-learning algorithms
+    efficiently within the PyTorch ecosystem.
+  mental_damage: >-
+    Finally, a way to make your few-shot experiments feel both cutting-edge and slightly less cursed by inconsistent
+    baselines.
   tags:
     - pytorch
     - meta-learning
@@ -60,31 +70,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: learn2learn is a research-focused meta-learning library with no direct application to developer workflows like coding, debugging, or agent orchestration.
+  reason: >-
+    learn2learn is a research-focused meta-learning library with no direct application to developer workflows like
+    coding, debugging, or agent orchestration.
   evidence:
-    - "Repo description: 'A PyTorch Library for Meta-learning Research'"
-    - "README: 'learn2learn is a software library for meta-learning research' and references to arXiv, benchmarks, and academic use cases"
+    - 'Repo description: ''A PyTorch Library for Meta-learning Research'''
+    - >-
+      README: 'learn2learn is a software library for meta-learning research' and references to arXiv, benchmarks, and
+      academic use cases
     - No mention of code editing, AI agents, developer tooling, or integration with development workflows
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (2884) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:04.415Z"
+    updated_at: '2026-07-30T05:06:04.415Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -99,10 +113,14 @@ processing:
       input_hash: sha256:8626e14afc014546a28bf5253c3c8216b6a812da9071bf35606a8ead98851764
       proposed_primary_category: null
       disagreement: false
-      decision_reason: learn2learn is a research-focused meta-learning library with no direct application to developer workflows like coding, debugging, or agent orchestration.
+      decision_reason: >-
+        learn2learn is a research-focused meta-learning library with no direct application to developer workflows like
+        coding, debugging, or agent orchestration.
       decision_evidence:
-        - "Repo description: 'A PyTorch Library for Meta-learning Research'"
-        - "README: 'learn2learn is a software library for meta-learning research' and references to arXiv, benchmarks, and academic use cases"
+        - 'Repo description: ''A PyTorch Library for Meta-learning Research'''
+        - >-
+          README: 'learn2learn is a software library for meta-learning research' and references to arXiv, benchmarks,
+          and academic use cases
         - No mention of code editing, AI agents, developer tooling, or integration with development workflows
       category_candidates: []
       contrastive_reason: null

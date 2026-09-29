@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__poplarml__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,10 +18,12 @@ provenance:
           - Developer tools
         anchor_text: PoplarML
         extracted_url: https://poplarml.com
-        surrounding_text: "- [PoplarML](https://www.poplarml.com) - PoplarML enables the deployment of production-ready, scalable ML systems with minimal engineering effort."
+        surrounding_text: >-
+          - [PoplarML](https://www.poplarml.com) - PoplarML enables the deployment of production-ready, scalable ML
+          systems with minimal engineering effort.
         confidence: high
     - id: discovery__www__poplarml__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -33,7 +35,9 @@ provenance:
           - Developer tools
         anchor_text: PoplarML
         extracted_url: https://www.poplarml.com
-        surrounding_text: "- [PoplarML](https://www.poplarml.com) - PoplarML enables the deployment of production-ready, scalable ML systems with minimal engineering effort."
+        surrounding_text: >-
+          - [PoplarML](https://www.poplarml.com) - PoplarML enables the deployment of production-ready, scalable ML
+          systems with minimal engineering effort.
         confidence: high
 metadata:
   github:
@@ -52,8 +56,12 @@ metadata:
     readme: null
 insights:
   summary: PoplarML is a platform for deploying and serving machine learning models with GPU auto-scaling and API endpoints.
-  why_it_matters: It simplifies model deployment for developers by handling infrastructure so they can focus on integrating ML into applications.
-  mental_damage: Yet another ‘just deploy your model’ service that makes you wonder if you’ll ever need to touch a Kubernetes YAML again.
+  why_it_matters: >-
+    It simplifies model deployment for developers by handling infrastructure so they can focus on integrating ML into
+    applications.
+  mental_damage: >-
+    Yet another ‘just deploy your model’ service that makes you wonder if you’ll ever need to touch a Kubernetes YAML
+    again.
   tags:
     - ml-deployment
     - model-serving
@@ -61,21 +69,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: PoplarML is an ML model deployment platform focused on serving infrastructure, not a developer-facing AI tool for coding, agents, workflows, or app building as defined in the catalog scope.
+  reason: >-
+    PoplarML is an ML model deployment platform focused on serving infrastructure, not a developer-facing AI tool for
+    coding, agents, workflows, or app building as defined in the catalog scope.
   evidence:
-    - Source-list context shows it appears only in awesome-local-ai under 'Developer tools' with no indication of AI-assisted development functionality
-    - No repo description, README excerpt, or scraped site context provided to substantiate any developer-tooling angle such as code generation, agent orchestration, or prompt engineering
-    - The product’s identity is model serving and deployment infrastructure, which falls outside the catalog’s focus on practical AI tools for software development workflows
+    - >-
+      Source-list context shows it appears only in awesome-local-ai under 'Developer tools' with no indication of
+      AI-assisted development functionality
+    - >-
+      No repo description, README excerpt, or scraped site context provided to substantiate any developer-tooling angle
+      such as code generation, agent orchestration, or prompt engineering
+    - >-
+      The product’s identity is model serving and deployment infrastructure, which falls outside the catalog’s focus on
+      practical AI tools for software development workflows
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:44:12.300Z"
+    updated_at: '2026-09-28T04:44:12.300Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,18 +104,26 @@ processing:
       input_hash: sha256:5467bc04a8708d564855d0aa0435252aa6dc41f0b94e8965cff663da9819e1e5
       proposed_primary_category: null
       disagreement: false
-      decision_reason: PoplarML is an ML model deployment platform focused on serving infrastructure, not a developer-facing AI tool for coding, agents, workflows, or app building as defined in the catalog scope.
+      decision_reason: >-
+        PoplarML is an ML model deployment platform focused on serving infrastructure, not a developer-facing AI tool
+        for coding, agents, workflows, or app building as defined in the catalog scope.
       decision_evidence:
-        - Source-list context shows it appears only in awesome-local-ai under 'Developer tools' with no indication of AI-assisted development functionality
-        - No repo description, README excerpt, or scraped site context provided to substantiate any developer-tooling angle such as code generation, agent orchestration, or prompt engineering
-        - The product’s identity is model serving and deployment infrastructure, which falls outside the catalog’s focus on practical AI tools for software development workflows
+        - >-
+          Source-list context shows it appears only in awesome-local-ai under 'Developer tools' with no indication of
+          AI-assisted development functionality
+        - >-
+          No repo description, README excerpt, or scraped site context provided to substantiate any developer-tooling
+          angle such as code generation, agent orchestration, or prompt engineering
+        - >-
+          The product’s identity is model serving and deployment infrastructure, which falls outside the catalog’s focus
+          on practical AI tools for software development workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.968Z"
+    updated_at: '2026-07-21T15:20:21.968Z'
     cause: null
     next_retry_at: null
   stars:

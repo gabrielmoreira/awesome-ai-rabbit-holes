@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__langchain__com__blog__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -18,10 +18,10 @@ provenance:
           - LangChain Framework
         anchor_text: Langchain Blog
         extracted_url: https://blog.langchain.dev
-        surrounding_text: "- [Langchain Blog](https://blog.langchain.dev/): The Official Langchain blog"
+        surrounding_text: '- [Langchain Blog](https://blog.langchain.dev/): The Official Langchain blog'
         confidence: high
     - id: discovery__www__langchain__com__blog__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -33,7 +33,7 @@ provenance:
           - LangChain Framework
         anchor_text: Langchain Blog
         extracted_url: https://blog.langchain.dev
-        surrounding_text: "- [Langchain Blog](https://blog.langchain.dev/): The Official Langchain blog"
+        surrounding_text: '- [Langchain Blog](https://blog.langchain.dev/): The Official Langchain blog'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LangChain Blog is the official blog of LangChain, publishing tutorials, case studies, and technical insights on building AI agents with LangChain and related technologies.
-  why_it_matters: It provides developers with practical guidance and real-world examples for using LangChain to build and deploy agent systems.
-  mental_damage: Reading yet another 'how we built our paid media agent' post while your own LangChain agent still can't remember yesterday's conversation.
+  summary: >-
+    LangChain Blog is the official blog of LangChain, publishing tutorials, case studies, and technical insights on
+    building AI agents with LangChain and related technologies.
+  why_it_matters: >-
+    It provides developers with practical guidance and real-world examples for using LangChain to build and deploy agent
+    systems.
+  mental_damage: >-
+    Reading yet another 'how we built our paid media agent' post while your own LangChain agent still can't remember
+    yesterday's conversation.
   tags:
     - blog
     - langchain
@@ -61,22 +67,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The LangChain Blog is a publication, not a developer tool, and its primary value is content curation rather than providing a usable AI development product.
+  reason: >-
+    The LangChain Blog is a publication, not a developer tool, and its primary value is content curation rather than
+    providing a usable AI development product.
   evidence:
-    - Source-list context shows it appears in awesome-langchain as a linked page under 'LangChain Framework' section, described as 'Explore tutorials, case studies, and technical insights'
-    - Scraped site context confirms it is a blog with posts like 'Harrison's In the Loop', 'LangSmith Engine v2', and 'Building Prod with Jev and LangGraph'
-    - It lacks any standalone product identity—it is a supporting resource page for the LangChain framework, not a tool developers install or use directly
+    - >-
+      Source-list context shows it appears in awesome-langchain as a linked page under 'LangChain Framework' section,
+      described as 'Explore tutorials, case studies, and technical insights'
+    - >-
+      Scraped site context confirms it is a blog with posts like 'Harrison's In the Loop', 'LangSmith Engine v2', and
+      'Building Prod with Jev and LangGraph'
+    - >-
+      It lacks any standalone product identity—it is a supporting resource page for the LangChain framework, not a tool
+      developers install or use directly
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:42:16.552Z"
+    updated_at: '2026-09-28T04:42:16.552Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,18 +103,26 @@ processing:
       input_hash: sha256:67f9126265f95da998f84d322f06f63109100404b570c700523c23a9df4d8702
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The LangChain Blog is a publication, not a developer tool, and its primary value is content curation rather than providing a usable AI development product.
+      decision_reason: >-
+        The LangChain Blog is a publication, not a developer tool, and its primary value is content curation rather than
+        providing a usable AI development product.
       decision_evidence:
-        - Source-list context shows it appears in awesome-langchain as a linked page under 'LangChain Framework' section, described as 'Explore tutorials, case studies, and technical insights'
-        - Scraped site context confirms it is a blog with posts like 'Harrison's In the Loop', 'LangSmith Engine v2', and 'Building Prod with Jev and LangGraph'
-        - It lacks any standalone product identity—it is a supporting resource page for the LangChain framework, not a tool developers install or use directly
+        - >-
+          Source-list context shows it appears in awesome-langchain as a linked page under 'LangChain Framework'
+          section, described as 'Explore tutorials, case studies, and technical insights'
+        - >-
+          Scraped site context confirms it is a blog with posts like 'Harrison's In the Loop', 'LangSmith Engine v2',
+          and 'Building Prod with Jev and LangGraph'
+        - >-
+          It lacks any standalone product identity—it is a supporting resource page for the LangChain framework, not a
+          tool developers install or use directly
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.967Z"
+    updated_at: '2026-07-21T15:20:21.967Z'
     cause: null
     next_retry_at: null
   stars:

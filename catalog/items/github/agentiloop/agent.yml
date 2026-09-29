@@ -1,0 +1,99 @@
+id: github__agentiloop__agent
+kind: github-repo
+name: agentiloop/agent
+canonical_url: https://github.com/agentiloop/agent
+identity:
+  github_repo: agentiloop/agent
+provenance:
+  discoveries:
+    - id: discovery__github__agentiloop__agent__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Security & Guardrails
+        anchor_text: '**Agent**'
+        extracted_url: https://github.com/agentiloop/agent
+        surrounding_text: >-
+          - [**Agent**](https://github.com/AgentiLoop/Agent) — An optional Jev command-risk advisor inside a native
+          macOS Agent, with a TypeSafeKit client.
+        confidence: high
+metadata:
+  github:
+    stars: 638
+    forks: 69
+    license: NOASSERTION
+    archived: false
+    full_name: AgentiLoop/Agent
+    html_url: https://github.com/AgentiLoop/Agent
+    created_at: '2026-03-11T20:15:09Z'
+    pushed_at: '2026-09-29T02:23:13Z'
+    description: >-
+      Agent! now supports macOS 14.6 or later, Apple Silicon and Intel (see latest pre-release). The Best AI agent for
+      Mac: drives any app via Accessibility, codes/builds in Xcode, automates AppleScript, JXA, Swift and SMAppService
+      shell (user/root). 23 LLM providers, local/cloud, plus on-device Apple Intelligence and Jev guard. MCP support.
+    homepage: https://agentiloop.ai
+    topics:
+      - 21-llm-providers
+      - accessibility
+      - agent-scripts
+      - agentic-coding
+      - agentic-workflow
+      - agentiloop-agent
+      - apple-intelligence
+      - applescript
+      - automated-computer-use
+      - automation
+      - autonomous-agents
+      - control-xcode
+      - imessage
+      - javascript
+      - macos
+      - mcp
+      - safari-web-ui-automation
+      - top-mac-agentic-coding-tool
+    last_checked_at: '2026-09-29T13:08:34.363Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:34.363Z'
+      bytes: 34818
+insights:
+  summary: >-
+    Agent! now supports macOS 14.6 or later, Apple Silicon and Intel (see latest pre-release). The Best AI agent for
+    Mac: drives any app via Accessibility, codes/builds in Xcode, automates AppleScript, JXA, Swift and SMAppService
+    shell (user/root). 23 LLM providers, local/cloud, plus on-device Apple Intelligence and Jev guard. MCP support.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Browser & Computer-Use Agents
+  evidence:
+    - jev-latest choice confidence 0.88
+placement:
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Browser & Computer-Use Agents
+lifecycle:
+  status: curated
+  reason: Stars (638) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.447Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:34.363Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

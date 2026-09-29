@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alibaba__chatlearn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: ChatLearn
         extracted_url: https://github.com/alibaba/chatlearn
-        surrounding_text: "27. [ChatLearn](https://github.com/alibaba/ChatLearn): A flexible and efficient training framework for large-scale alignment."
+        surrounding_text: >-
+          27. [ChatLearn](https://github.com/alibaba/ChatLearn): A flexible and efficient training framework for
+          large-scale alignment.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: alibaba/ChatLearn
     html_url: https://github.com/alibaba/ChatLearn
-    created_at: "2023-08-16T03:51:28Z"
-    pushed_at: "2025-10-23T06:33:12Z"
+    created_at: '2023-08-16T03:51:28Z'
+    pushed_at: '2025-10-23T06:33:12Z'
     description: A flexible and efficient training framework for large-scale alignment tasks
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-17T04:13:40.696Z"
+    last_checked_at: '2026-09-17T04:13:40.696Z'
     readme:
-      fetched_at: "2026-09-17T04:13:40.696Z"
+      fetched_at: '2026-09-17T04:13:40.696Z'
       bytes: 6620
 insights:
   summary: A flexible and efficient reinforcement learning training framework for large-scale alignment tasks of LLMs.
-  why_it_matters: It provides developers with a high-performance, scalable system for RLHF and other alignment workflows, supporting distributed training strategies and modern engines like FSDP2 and vLLM.
+  why_it_matters: >-
+    It provides developers with a high-performance, scalable system for RLHF and other alignment workflows, supporting
+    distributed training strategies and modern engines like FSDP2 and vLLM.
   mental_damage: Because nothing says 'weekend project' like tuning a 600B parameter model on your laptop.
   tags:
     - rlhf
@@ -51,7 +55,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a framework for training and aligning LLMs, not a developer-facing tool for building, integrating, or operating AI workflows in software development.
+  reason: >-
+    This is a framework for training and aligning LLMs, not a developer-facing tool for building, integrating, or
+    operating AI workflows in software development.
   evidence:
     - Repo description explicitly states it is a 'training framework for large-scale alignment tasks'
     - README emphasizes RLHF pipelines, distributed training, and model-specific optimizations
@@ -60,22 +66,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (452) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:40.696Z"
+    updated_at: '2026-09-17T04:13:40.696Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -90,7 +96,9 @@ processing:
       input_hash: sha256:fb031f74be65a0c64e3e52fa0e1297aa17c9c5579bea4115ceac095d99ef79d1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a framework for training and aligning LLMs, not a developer-facing tool for building, integrating, or operating AI workflows in software development.
+      decision_reason: >-
+        This is a framework for training and aligning LLMs, not a developer-facing tool for building, integrating, or
+        operating AI workflows in software development.
       decision_evidence:
         - Repo description explicitly states it is a 'training framework for large-scale alignment tasks'
         - README emphasizes RLHF pipelines, distributed training, and model-specific optimizations

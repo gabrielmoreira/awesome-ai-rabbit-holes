@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__clickhouse__clickhouse__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: ClickHouse
         extracted_url: https://clickhouse.com
-        surrounding_text: "- **[ClickHouse](https://github.com/ClickHouse/mcp-clickhouse)** - Query your [ClickHouse](https://clickhouse.com/) database server."
+        surrounding_text: >-
+          - **[ClickHouse](https://github.com/ClickHouse/mcp-clickhouse)** - Query your
+          [ClickHouse](https://clickhouse.com/) database server.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: ClickHouse/ClickHouse
     html_url: https://github.com/ClickHouse/ClickHouse
-    created_at: "2016-06-02T08:28:18Z"
-    pushed_at: "2026-09-07T04:06:44Z"
+    created_at: '2016-06-02T08:28:18Z'
+    pushed_at: '2026-09-07T04:06:44Z'
     description: ClickHouse® is a real-time analytics database management system
     homepage: https://clickhouse.com
     topics:
@@ -51,14 +53,18 @@ metadata:
       - rust
       - self-hosted
       - sql
-    last_checked_at: "2026-09-07T04:13:46.904Z"
+    last_checked_at: '2026-09-07T04:13:46.904Z'
     readme:
-      fetched_at: "2026-09-07T04:13:46.904Z"
+      fetched_at: '2026-09-07T04:13:46.904Z'
       bytes: 5607
 insights:
   summary: ClickHouse is an open-source column-oriented database management system for real-time analytics.
-  why_it_matters: It enables developers to generate analytical data reports in real-time using SQL queries, which is critical for high-performance data processing workflows.
-  mental_damage: Because nothing says 'modern developer workflow' like needing a database that can handle the firehose of logs your AI agents are about to produce.
+  why_it_matters: >-
+    It enables developers to generate analytical data reports in real-time using SQL queries, which is critical for
+    high-performance data processing workflows.
+  mental_damage: >-
+    Because nothing says 'modern developer workflow' like needing a database that can handle the firehose of logs your
+    AI agents are about to produce.
   tags:
     - database
     - analytics
@@ -68,7 +74,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: ClickHouse is a general-purpose analytics database, not a developer-tooling product focused on AI workflows, coding assistance, or agent infrastructure.
+  reason: >-
+    ClickHouse is a general-purpose analytics database, not a developer-tooling product focused on AI workflows, coding
+    assistance, or agent infrastructure.
   evidence:
     - Repo description identifies it as a 'real-time analytics database management system'
     - README emphasizes SQL-based analytical reporting, not AI/agent workflows
@@ -77,22 +85,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (47250) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:46.904Z"
+    updated_at: '2026-09-07T04:13:46.904Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -107,7 +115,9 @@ processing:
       input_hash: sha256:a96c8c06bdf6f516046de40844db1b3cddddde37b24cd28062a0a553044be129
       proposed_primary_category: null
       disagreement: false
-      decision_reason: ClickHouse is a general-purpose analytics database, not a developer-tooling product focused on AI workflows, coding assistance, or agent infrastructure.
+      decision_reason: >-
+        ClickHouse is a general-purpose analytics database, not a developer-tooling product focused on AI workflows,
+        coding assistance, or agent infrastructure.
       decision_evidence:
         - Repo description identifies it as a 'real-time analytics database management system'
         - README emphasizes SQL-based analytical reporting, not AI/agent workflows

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rabdulsal__appstore-release-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-08-06T05:06:55.627Z"
+      discovered_at: '2026-08-06T05:06:55.627Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: rabdulsal/appstore-release-mcp
         extracted_url: https://github.com/rabdulsal/appstore-release-mcp
-        surrounding_text: "- [rabdulsal/appstore-release-mcp](https://github.com/rabdulsal/appstore-release-mcp) [![rabdulsal/appstore-release-mcp MCP server](https://glama.ai/mcp/servers/rabdulsal/appstore-release-mcp/badges/score.svg)](https://glama.ai/mcp/servers/rabdulsal/appstore-release-mcp) 📇 🏠 🍎 - Drives the full App Store release cycle for iOS/macOS apps: version bump, archive + sign + TestFlight upload via your fastlane lane (as async jobs with log polling — the step REST-only ASC servers can't do), metadata updates, and review submission via the ASC API. Zero-dependency ES256 JWT auth. `npx appstore-release-mcp`"
+        surrounding_text: >-
+          - [rabdulsal/appstore-release-mcp](https://github.com/rabdulsal/appstore-release-mcp)
+          [![rabdulsal/appstore-release-mcp MCP
+          server](https://glama.ai/mcp/servers/rabdulsal/appstore-release-mcp/badges/score.svg)](https://glama.ai/mcp/servers/rabdulsal/appstore-release-mcp)
+          📇 🏠 🍎 - Drives the full App Store release cycle for iOS/macOS apps: version bump, archive + sign +
+          TestFlight upload via your fastlane lane (as async jobs with log polling — the step REST-only ASC servers
+          can't do), metadata updates, and review submission via the ASC API. Zero-dependency ES256 JWT auth. `npx
+          appstore-release-mcp`
         confidence: high
 metadata:
   github:
@@ -51,12 +58,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-06T05:06:55.630Z"
+    updated_at: '2026-08-06T05:06:55.630Z'
     cause: null
     next_retry_at: null
   stars:
@@ -65,7 +72,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.168Z"
+    updated_at: '2026-09-28T04:14:00.168Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

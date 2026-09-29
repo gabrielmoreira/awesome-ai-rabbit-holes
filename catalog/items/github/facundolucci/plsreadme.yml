@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__facundolucci__plsreadme__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: FacundoLucci/plsreadme
         extracted_url: https://github.com/facundolucci/plsreadme
-        surrounding_text: "- [FacundoLucci/plsreadme](https://github.com/FacundoLucci/plsreadme) [![plsreadme MCP server](https://glama.ai/mcp/servers/@FacundoLucci/plsreadme/badges/score.svg)](https://glama.ai/mcp/servers/@FacundoLucci/plsreadme) 📇 ☁️ 🏠 - Share markdown files and text as clean, readable web links via `plsreadme_share_file` and `plsreadme_share_text`; zero setup (`npx -y plsreadme-mcp` or `https://plsreadme.com/mcp`)."
+        surrounding_text: >-
+          - [FacundoLucci/plsreadme](https://github.com/FacundoLucci/plsreadme) [![plsreadme MCP
+          server](https://glama.ai/mcp/servers/@FacundoLucci/plsreadme/badges/score.svg)](https://glama.ai/mcp/servers/@FacundoLucci/plsreadme)
+          📇 ☁️ 🏠 - Share markdown files and text as clean, readable web links via `plsreadme_share_file` and
+          `plsreadme_share_text`; zero setup (`npx -y plsreadme-mcp` or `https://plsreadme.com/mcp`).
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: FacundoLucci/plsreadme
     html_url: https://github.com/FacundoLucci/plsreadme
-    created_at: "2025-12-21T18:32:41Z"
-    pushed_at: "2026-08-25T18:34:04Z"
+    created_at: '2025-12-21T18:32:41Z'
+    pushed_at: '2026-08-25T18:34:04Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:27.775Z"
+    last_checked_at: '2026-08-27T09:23:27.775Z'
     readme:
-      fetched_at: "2026-08-27T09:23:27.775Z"
+      fetched_at: '2026-08-27T09:23:27.775Z'
       bytes: 23604
 insights:
-  summary: plsreadme is a web service that turns pasted markdown into shareable, rendered links with inline commenting, versioning, and MCP server support.
-  why_it_matters: It lets developers instantly share and collect feedback on markdown docs without requiring recipients to use GitHub or install a renderer.
-  mental_damage: Another tool that solves the 'I wish I could just send this Markdown as a URL' problem we all pretend we don't have weekly.
+  summary: >-
+    plsreadme is a web service that turns pasted markdown into shareable, rendered links with inline commenting,
+    versioning, and MCP server support.
+  why_it_matters: >-
+    It lets developers instantly share and collect feedback on markdown docs without requiring recipients to use GitHub
+    or install a renderer.
+  mental_damage: >-
+    Another tool that solves the 'I wish I could just send this Markdown as a URL' problem we all pretend we don't have
+    weekly.
   tags:
     - markdown
     - sharing
@@ -51,31 +61,39 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is primarily a document sharing and rendering service with MCP compatibility, not a developer-facing coding assistant, framework, or agent tool that directly aids in coding workflows.
+  reason: >-
+    The tool is primarily a document sharing and rendering service with MCP compatibility, not a developer-facing coding
+    assistant, framework, or agent tool that directly aids in coding workflows.
   evidence:
-    - README emphasizes turning markdown into shareable links, rendering, commenting, and versioning—not code generation, editing, or debugging.
-    - MCP server feature is presented as one of many capabilities, not the core identity; the product markets itself as a general doc-sharing tool.
-    - No mention of code understanding, file editing, repo awareness, or developer workflow integration beyond sharing documentation.
+    - >-
+      README emphasizes turning markdown into shareable links, rendering, commenting, and versioning—not code
+      generation, editing, or debugging.
+    - >-
+      MCP server feature is presented as one of many capabilities, not the core identity; the product markets itself as
+      a general doc-sharing tool.
+    - >-
+      No mention of code understanding, file editing, repo awareness, or developer workflow integration beyond sharing
+      documentation.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:27.775Z"
+    updated_at: '2026-08-27T09:23:27.775Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -90,11 +108,19 @@ processing:
       input_hash: sha256:1200f34e9d8c1e31229fbcd1b255ff9d5e31c6609d7ea99621e54b2e315eaa40
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is primarily a document sharing and rendering service with MCP compatibility, not a developer-facing coding assistant, framework, or agent tool that directly aids in coding workflows.
+      decision_reason: >-
+        The tool is primarily a document sharing and rendering service with MCP compatibility, not a developer-facing
+        coding assistant, framework, or agent tool that directly aids in coding workflows.
       decision_evidence:
-        - README emphasizes turning markdown into shareable links, rendering, commenting, and versioning—not code generation, editing, or debugging.
-        - MCP server feature is presented as one of many capabilities, not the core identity; the product markets itself as a general doc-sharing tool.
-        - No mention of code understanding, file editing, repo awareness, or developer workflow integration beyond sharing documentation.
+        - >-
+          README emphasizes turning markdown into shareable links, rendering, commenting, and versioning—not code
+          generation, editing, or debugging.
+        - >-
+          MCP server feature is presented as one of many capabilities, not the core identity; the product markets itself
+          as a general doc-sharing tool.
+        - >-
+          No mention of code understanding, file editing, repo awareness, or developer workflow integration beyond
+          sharing documentation.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

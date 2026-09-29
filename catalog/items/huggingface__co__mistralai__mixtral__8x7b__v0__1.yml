@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__mistralai__mixtral__8x7b__v0__1__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,11 @@ provenance:
           - Large Language Model
         anchor_text: Mixtral-8x7B-v0.1
         extracted_url: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1
-        surrounding_text: "| [Mixtral-8x7B-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1) | The Mixtral-8x7B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts.                                                                                          |                                                                                                           |"
+        surrounding_text: >-
+          | [Mixtral-8x7B-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1) | The Mixtral-8x7B Large Language
+          Model (LLM) is a pretrained generative Sparse Mixture of
+          Experts.                                                                                         
+          |                                                                                                           |
         confidence: high
 metadata:
   github:
@@ -38,7 +42,9 @@ metadata:
     readme: null
 insights:
   summary: Mixtral-8x7B-v0.1 is a pretrained sparse Mixture of Experts large language model from Mistral AI.
-  why_it_matters: It provides a high-performance open-weight LLM that developers can fine-tune, serve locally, or use as a foundation for AI-powered applications.
+  why_it_matters: >-
+    It provides a high-performance open-weight LLM that developers can fine-tune, serve locally, or use as a foundation
+    for AI-powered applications.
   mental_damage: Another week, another 'state-of-the-art' model that makes your fine-tuning pipeline feel perpetually outdated.
   tags:
     - llm
@@ -49,24 +55,32 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: It is a raw model weight repository without a meaningful SDK, API surface, or developer-facing tooling identity; it serves as infrastructure for others to build upon, not a developer tool itself.
+  reason: >-
+    It is a raw model weight repository without a meaningful SDK, API surface, or developer-facing tooling identity; it
+    serves as infrastructure for others to build upon, not a developer tool itself.
   evidence:
     - Repo description is absent; the Hugging Face page shows only model card, weights, and basic inference examples.
-    - It is listed in Awesome-LLMOps under 'Model > Large Language Model', indicating it is treated as a model asset, not a developer tool.
-    - The product provides no autonomous coding behavior, app generation, orchestration, or workflow enhancement — only model weights for consumption.
+    - >-
+      It is listed in Awesome-LLMOps under 'Model > Large Language Model', indicating it is treated as a model asset,
+      not a developer tool.
+    - >-
+      The product provides no autonomous coding behavior, app generation, orchestration, or workflow enhancement — only
+      model weights for consumption.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -74,7 +88,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:29:32.186Z"
+    updated_at: '2026-09-28T04:29:32.186Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -87,11 +101,19 @@ processing:
       input_hash: sha256:90e627c87ffbdc291332248f96792c18818b86a684ab7bb6207f52a0d3e6d0cc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a raw model weight repository without a meaningful SDK, API surface, or developer-facing tooling identity; it serves as infrastructure for others to build upon, not a developer tool itself.
+      decision_reason: >-
+        It is a raw model weight repository without a meaningful SDK, API surface, or developer-facing tooling identity;
+        it serves as infrastructure for others to build upon, not a developer tool itself.
       decision_evidence:
-        - Repo description is absent; the Hugging Face page shows only model card, weights, and basic inference examples.
-        - It is listed in Awesome-LLMOps under 'Model > Large Language Model', indicating it is treated as a model asset, not a developer tool.
-        - The product provides no autonomous coding behavior, app generation, orchestration, or workflow enhancement — only model weights for consumption.
+        - >-
+          Repo description is absent; the Hugging Face page shows only model card, weights, and basic inference
+          examples.
+        - >-
+          It is listed in Awesome-LLMOps under 'Model > Large Language Model', indicating it is treated as a model
+          asset, not a developer tool.
+        - >-
+          The product provides no autonomous coding behavior, app generation, orchestration, or workflow enhancement —
+          only model weights for consumption.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__h2o__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,9 @@ provenance:
           - Platforms / full solutions
         anchor_text: H2OAI
         extracted_url: https://h2o.ai
-        surrounding_text: "- [H2OAI](https://h2o.ai/#tabs-320f3fc63d-item-aa19ad7787-tab) - H2OGPT The fastest, most accurate AI Cloud Platform."
+        surrounding_text: >-
+          - [H2OAI](https://h2o.ai/#tabs-320f3fc63d-item-aa19ad7787-tab) - H2OGPT The fastest, most accurate AI Cloud
+          Platform.
         confidence: high
 metadata:
   github:
@@ -36,8 +38,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An end-to-end generative and predictive AI platform designed for air-gapped, on-premises, and private cloud environments.
-  why_it_matters: It enables developers in highly regulated industries to build and deploy autonomous agents and models while maintaining total data sovereignty.
+  summary: >-
+    An end-to-end generative and predictive AI platform designed for air-gapped, on-premises, and private cloud
+    environments.
+  why_it_matters: >-
+    It enables developers in highly regulated industries to build and deploy autonomous agents and models while
+    maintaining total data sovereignty.
   mental_damage: It's 'local AI' for people who have to clear their model weights with a compliance committee first.
   tags:
     - enterprise-ai
@@ -47,7 +53,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The platform's primary identity is centered on providing a secure, self-hosted stack for generative and predictive AI in private environments.
+  reason: >-
+    The platform's primary identity is centered on providing a secure, self-hosted stack for generative and predictive
+    AI in private environments.
   evidence:
     - Maintains a core focus on air-gapped, on-premises, and VPC deployments for sovereign AI
     - Offers developer-facing tools like H2O LLM Studio for private model fine-tuning
@@ -55,12 +63,12 @@ placement:
   primary_category: local-ai
   section: Fine-tuning & Training
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:20:43.348Z"
+    updated_at: '2026-09-28T04:20:43.348Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,13 +90,17 @@ processing:
       input_hash: sha256:686a8a081eb70d77b48269ac90c81ef52164dc8c6e5ca8ad228b208b6e4604c8
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: The platform's primary identity is centered on providing a secure, self-hosted stack for generative and predictive AI in private environments.
+      decision_reason: >-
+        The platform's primary identity is centered on providing a secure, self-hosted stack for generative and
+        predictive AI in private environments.
       decision_evidence:
         - Maintains a core focus on air-gapped, on-premises, and VPC deployments for sovereign AI
         - Offers developer-facing tools like H2O LLM Studio for private model fine-tuning
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because the product's defining value proposition is its capability for secure, self-hosted, and air-gapped execution rather than just being a programmable library.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because the product's defining value proposition is its capability for
+        secure, self-hosted, and air-gapped execution rather than just being a programmable library.
       review_reason: null
       review_resume_lifecycle: null

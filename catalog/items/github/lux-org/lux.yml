@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lux-org__lux__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Data Tracking
         anchor_text: LUX
         extracted_url: https://github.com/lux-org/lux
-        surrounding_text: "| [LUX](https://github.com/lux-org/lux)              | A Python library that facilitates fast and easy data exploration by automating the visualization and data analysis process.                       | ![GitHub Badge](https://img.shields.io/github/stars/lux-org/lux.svg?style=flat-square)        |"
+        surrounding_text: >-
+          | [LUX](https://github.com/lux-org/lux)              | A Python library that facilitates fast and easy data
+          exploration by automating the visualization and data analysis process.                       | ![GitHub
+          Badge](https://img.shields.io/github/stars/lux-org/lux.svg?style=flat-square)        |
         confidence: high
 metadata:
   github:
@@ -30,10 +33,10 @@ metadata:
     archived: false
     full_name: lux-org/lux
     html_url: https://github.com/lux-org/lux
-    created_at: "2020-01-08T04:53:29Z"
-    pushed_at: "2024-03-20T15:48:47Z"
+    created_at: '2020-01-08T04:53:29Z'
+    pushed_at: '2024-03-20T15:48:47Z'
     description: Automatically visualize your pandas dataframe via a single print! 📊 💡
-    homepage: ""
+    homepage: ''
     topics:
       - data-science
       - exploratory-data-analysis
@@ -42,14 +45,20 @@ metadata:
       - python
       - visualization
       - visualization-tools
-    last_checked_at: "2026-08-03T05:16:53.518Z"
+    last_checked_at: '2026-08-03T05:16:53.518Z'
     readme:
-      fetched_at: "2026-08-03T05:16:53.518Z"
+      fetched_at: '2026-08-03T05:16:53.518Z'
       bytes: 16071
 insights:
-  summary: Lux is a Python library that automatically generates and recommends visualizations for pandas dataframes with a single print statement inside Jupyter notebooks.
-  why_it_matters: It replaces manual exploratory data analysis with immediate, intelligent visual discovery, helping developers and data scientists spot trends without writing custom plotting code.
-  mental_damage: You now have one more magical automation layer that makes the pandas print() output look so good you'll feel guilty for ever manually calling matplotlib again.
+  summary: >-
+    Lux is a Python library that automatically generates and recommends visualizations for pandas dataframes with a
+    single print statement inside Jupyter notebooks.
+  why_it_matters: >-
+    It replaces manual exploratory data analysis with immediate, intelligent visual discovery, helping developers and
+    data scientists spot trends without writing custom plotting code.
+  mental_damage: >-
+    You now have one more magical automation layer that makes the pandas print() output look so good you'll feel guilty
+    for ever manually calling matplotlib again.
   tags:
     - pandas
     - visualization
@@ -59,35 +68,43 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Lux is a data visualization and EDA tool for pandas, which falls outside the catalog's scope of AI development tooling, coding agents, and developer infrastructure.
+  reason: >-
+    Lux is a data visualization and EDA tool for pandas, which falls outside the catalog's scope of AI development
+    tooling, coding agents, and developer infrastructure.
   evidence:
-    - Repo description explicitly states 'Automatically visualize your pandas dataframe via a single print!' with topics like data-science and visualization.
-    - README describes it as 'A Python API for Intelligent Visual Discovery' for Jupyter notebooks, not a coding assistant or developer tool.
-    - Source list context places it under 'Data > Data Tracking' in an LLMOps list, which is a related but distinct operational category.
+    - >-
+      Repo description explicitly states 'Automatically visualize your pandas dataframe via a single print!' with topics
+      like data-science and visualization.
+    - >-
+      README describes it as 'A Python API for Intelligent Visual Discovery' for Jupyter notebooks, not a coding
+      assistant or developer tool.
+    - >-
+      Source list context places it under 'Data > Data Tracking' in an LLMOps list, which is a related but distinct
+      operational category.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (5383) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:53.518Z"
+    updated_at: '2026-08-03T05:16:53.518Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

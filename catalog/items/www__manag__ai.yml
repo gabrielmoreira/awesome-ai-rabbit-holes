@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__manag__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,7 +18,11 @@ provenance:
           - LLMOps
         anchor_text: Manag.ai
         extracted_url: https://www.manag.ai
-        surrounding_text: "| [Manag.ai](https://www.manag.ai)                                   | Your all-in-one prompt management and observability platform. Craft, track, and perfect your LLM prompts with ease.                                                                                                                                                                                                                                                                                     |                                                                                                           |"
+        surrounding_text: >-
+          | [Manag.ai](https://www.manag.ai)                                   | Your all-in-one prompt management and
+          observability platform. Craft, track, and perfect your LLM prompts with
+          ease.                                                                                                                                                                                                                                                                                    
+          |                                                                                                           |
         confidence: high
 metadata:
   github:
@@ -43,21 +47,23 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The site provides no evidence of AI capabilities, developer tooling, or integration with coding workflows; it appears to be a generic admin dashboard.
+  reason: >-
+    The site provides no evidence of AI capabilities, developer tooling, or integration with coding workflows; it
+    appears to be a generic admin dashboard.
   evidence:
-    - "Title: ABYZ Admin Panel"
-    - "Description: (none)"
+    - 'Title: ABYZ Admin Panel'
+    - 'Description: (none)'
     - No README, repo description, or AI-related claims provided
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.668Z"
+    updated_at: '2026-05-06T22:12:15.668Z'
     cause: null
     next_retry_at: null
   stars:
@@ -66,7 +72,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:52:06.617Z"
+    updated_at: '2026-09-28T04:52:06.617Z'
     cause: null
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
@@ -79,10 +85,12 @@ processing:
       input_hash: sha256:9b849776d4c2884d9017b23c103ff9d59d32c5b56f0b41c86382c992f257d45b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site provides no evidence of AI capabilities, developer tooling, or integration with coding workflows; it appears to be a generic admin dashboard.
+      decision_reason: >-
+        The site provides no evidence of AI capabilities, developer tooling, or integration with coding workflows; it
+        appears to be a generic admin dashboard.
       decision_evidence:
-        - "Title: ABYZ Admin Panel"
-        - "Description: (none)"
+        - 'Title: ABYZ Admin Panel'
+        - 'Description: (none)'
         - No README, repo description, or AI-related claims provided
       category_candidates: []
       contrastive_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__taskade__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Taskade
         anchor_text: Taskade
         extracted_url: https://taskade.com
-        surrounding_text: "## [Taskade](https://www.taskade.com/)"
+        surrounding_text: '## [Taskade](https://www.taskade.com/)'
         confidence: high
     - id: discovery__taskade__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,10 +33,12 @@ provenance:
           - Official Servers
         anchor_text: Taskade platform
         extracted_url: https://taskade.com
-        surrounding_text: "- **[Taskade](https://github.com/taskade/mcp)** – Connect to the [Taskade platform](https://www.taskade.com/) via MCP. Access tasks, projects, workflows, and AI agents in real-time through a unified workspace and API."
+        surrounding_text: >-
+          - **[Taskade](https://github.com/taskade/mcp)** – Connect to the [Taskade platform](https://www.taskade.com/)
+          via MCP. Access tasks, projects, workflows, and AI agents in real-time through a unified workspace and API.
         confidence: high
     - id: discovery__www__taskade__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -48,10 +50,10 @@ provenance:
           - Taskade
         anchor_text: Taskade
         extracted_url: https://www.taskade.com
-        surrounding_text: "## [Taskade](https://www.taskade.com/)"
+        surrounding_text: '## [Taskade](https://www.taskade.com/)'
         confidence: high
     - id: discovery__www__taskade__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -63,7 +65,9 @@ provenance:
           - Official Servers
         anchor_text: Taskade platform
         extracted_url: https://www.taskade.com
-        surrounding_text: "- **[Taskade](https://github.com/taskade/mcp)** – Connect to the [Taskade platform](https://www.taskade.com/) via MCP. Access tasks, projects, workflows, and AI agents in real-time through a unified workspace and API."
+        surrounding_text: >-
+          - **[Taskade](https://github.com/taskade/mcp)** – Connect to the [Taskade platform](https://www.taskade.com/)
+          via MCP. Access tasks, projects, workflows, and AI agents in real-time through a unified workspace and API.
         confidence: high
 metadata:
   github:
@@ -81,9 +85,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Taskade is a collaborative workspace platform offering AI-powered agents for task management and workflow automation.
-  why_it_matters: It integrates AI agents into project planning and execution, helping developers streamline task delegation and team coordination.
-  mental_damage: Yet another workspace trying to be your AI coworker while you're just trying to remember what ticket you were working on.
+  summary: >-
+    Taskade is a collaborative workspace platform offering AI-powered agents for task management and workflow
+    automation.
+  why_it_matters: >-
+    It integrates AI agents into project planning and execution, helping developers streamline task delegation and team
+    coordination.
+  mental_damage: >-
+    Yet another workspace trying to be your AI coworker while you're just trying to remember what ticket you were
+    working on.
   tags:
     - ai-agents
     - workflow
@@ -91,7 +101,9 @@ insights:
   confidence: medium
 curation:
   status: excluded
-  reason: Taskade is primarily a general-purpose project management and team collaboration platform with AI agent features as an add-on, not a developer-focused coding agent, app builder, or infrastructure tool.
+  reason: >-
+    Taskade is primarily a general-purpose project management and team collaboration platform with AI agent features as
+    an add-on, not a developer-focused coding agent, app builder, or infrastructure tool.
   evidence:
     - Listed in awesome-ai-agents under 'Taskade' as an AI autonomous agent
     - Listed in awesome-mcp-servers under 'Official Servers' suggesting MCP server exposure
@@ -99,12 +111,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:46:38.436Z"
+    updated_at: '2026-09-28T04:46:38.436Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -117,7 +129,9 @@ processing:
       input_hash: sha256:be6a9ef34136eda1fb6926265a500aa07fca6c061b443ac9ae81f53a453b5a62
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Taskade is primarily a general-purpose project management and team collaboration platform with AI agent features as an add-on, not a developer-focused coding agent, app builder, or infrastructure tool.
+      decision_reason: >-
+        Taskade is primarily a general-purpose project management and team collaboration platform with AI agent features
+        as an add-on, not a developer-focused coding agent, app builder, or infrastructure tool.
       decision_evidence:
         - Listed in awesome-ai-agents under 'Taskade' as an AI autonomous agent
         - Listed in awesome-mcp-servers under 'Official Servers' suggesting MCP server exposure
@@ -127,7 +141,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.687Z"
+    updated_at: '2026-07-20T15:10:47.687Z'
     cause: null
     next_retry_at: null
   stars:

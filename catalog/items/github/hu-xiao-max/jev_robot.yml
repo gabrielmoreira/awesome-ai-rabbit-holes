@@ -1,0 +1,81 @@
+id: github__hu-xiao-max__jev_robot
+kind: github-repo
+name: hu-xiao-max/jev_robot
+canonical_url: https://github.com/hu-xiao-max/jev_robot
+identity:
+  github_repo: hu-xiao-max/jev_robot
+provenance:
+  discoveries:
+    - id: discovery__github__hu-xiao-max__jev_robot__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Robotics & Physical
+        anchor_text: Jev Robot
+        extracted_url: https://github.com/hu-xiao-max/jev_robot
+        surrounding_text: >-
+          - [Jev Robot](https://github.com/Hu-xiao-max/jev_robot)
+          ![stars](https://img.shields.io/github/stars/Hu-xiao-max/jev_robot?style=flat-square&label=%E2%98%85) -
+          Robotics control: a local decider-2b model picks the next skill for an AgileX PiPER arm through a Jev-style
+          typed-choice interface while the target moves, with deterministic checks allowed to reject a choice but never
+          to substitute another.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Jev Robot - Robotics control: a local decider-2b model picks the next skill for an AgileX PiPER arm through a
+    Jev-style typed-choice interface while the target moves, with deterministic checks allowed to reject a choice but
+    never to substitute another.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  evidence:
+    - jev-latest choice confidence 0.89
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Apps, Games & Simulation
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.460Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: '2026-09-29T13:12:13.874Z'
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for hu-xiao-max/jev_robot
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

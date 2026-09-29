@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hub__cocoloop__cn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-09T05:28:44.887Z"
+      discovered_at: '2026-07-09T05:28:44.887Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: A marketplace and registry for discovering and downloading reusable skills and capabilities for AI agents.
-  why_it_matters: It provides a centralized hub to find and extend agent functionality with specialized tools like image generation, web search, and automation across multiple platforms.
-  mental_damage: It turns your AI agent into a character in an RPG, where utility is measured by how many skill packs you've successfully micro-managed into its prompt.
+  why_it_matters: >-
+    It provides a centralized hub to find and extend agent functionality with specialized tools like image generation,
+    web search, and automation across multiple platforms.
+  mental_damage: >-
+    It turns your AI agent into a character in an RPG, where utility is measured by how many skill packs you've
+    successfully micro-managed into its prompt.
   tags:
     - agent-skills
     - marketplace
@@ -58,12 +62,12 @@ placement:
   secondary_categories: []
   section: Registries & Directories
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-09T05:28:44.888Z"
+    updated_at: '2026-07-09T05:28:44.888Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:23:19.802Z"
+    updated_at: '2026-09-24T04:23:19.802Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +89,9 @@ processing:
       input_hash: sha256:c6ebee44a3d6a37bd913bd2b430728c0b191288c336564c96a5476c5d2b58eed
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: The site is a specialized marketplace and registry for the distribution of reusable agent skills and capabilities.
+      decision_reason: >-
+        The site is a specialized marketplace and registry for the distribution of reusable agent skills and
+        capabilities.
       decision_evidence:
         - Explicitly describes itself as an 'AI Agent Skills Store'
         - Claims over 174,000 available skills across 50+ platforms
@@ -93,6 +99,8 @@ processing:
       category_candidates:
         - skills
         - mcp
-      contrastive_reason: Choose skills over mcp because the platform's primary identity is a broad marketplace for agent capabilities rather than being an MCP-specific infrastructure tool or registry.
+      contrastive_reason: >-
+        Choose skills over mcp because the platform's primary identity is a broad marketplace for agent capabilities
+        rather than being an MCP-specific infrastructure tool or registry.
       review_reason: null
       review_resume_lifecycle: null

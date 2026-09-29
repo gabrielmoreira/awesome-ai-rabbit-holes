@@ -1,0 +1,73 @@
+id: github__zoidsh__tenet
+kind: github-repo
+name: zoidsh/tenet
+canonical_url: https://github.com/zoidsh/tenet
+identity:
+  github_repo: zoidsh/tenet
+provenance:
+  discoveries:
+    - id: discovery__github__zoidsh__tenet__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: tenet
+        extracted_url: https://github.com/zoidsh/tenet
+        surrounding_text: >-
+          | [tenet](https://github.com/zoidsh/tenet) | ★ 4 | Go | 2026-09-20 | Commit-time review gate where Jev judges
+          plain-language rules against agent-written code. |
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Commit-time review gate where Jev judges plain-language rules against agent-written code.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.88
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.486Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

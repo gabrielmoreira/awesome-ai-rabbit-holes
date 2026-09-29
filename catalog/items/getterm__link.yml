@@ -1,0 +1,87 @@
+id: getterm__link
+kind: website
+name: getterm.link
+canonical_url: https://getterm.link
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__getterm__link__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: TermLink
+        extracted_url: https://getterm.link
+        surrounding_text: >-
+          - **[TermLink](https://www.getterm.link)** — Remote access to agent sessions from any browser or phone:
+          register each machine once with `termlink host` and they all appear in one list, each card showing that
+          agent's latest message so you can tell which one is working and which is blocked. The host dials out, so there
+          is no inbound port, SSH key, or VPN. Auto-Yes answers the permission prompts of Claude Code, Codex CLI, and
+          Cursor Agent per session, and pasting a screenshot onto the terminal uploads it to the host and types its path
+          in. macOS, Linux, and Windows hosts. [Relay protocol is open
+          source](https://github.com/bertshim/termlink-relay) (Apache-2.0); hosted service with a free plan.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    TermLink — Remote access to agent sessions from any browser or phone: register each machine once with termlink host
+    and they all appear in one list, each card showing that agent's latest message so you can tell which one is working
+    and which is blocked. The host dials out, so there is no inbound port, SSH key, or VPN. Auto-Yes answers the
+    permission prompts of Claude Code, Codex CLI, and Cursor Agent per session, and pasting a screenshot onto the
+    terminal uploads it to the host and types its path in. macOS, Linux, and Windows hosts. Relay protocol is open
+    source (Apache-2.0); hosted service with a free plan.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.75
+placement:
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.488Z'
+    cause:
+      type: ambiguous_canonicalization
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

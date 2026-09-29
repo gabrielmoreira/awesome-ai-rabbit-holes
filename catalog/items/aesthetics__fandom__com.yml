@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aesthetics__fandom__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,13 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: Aesthetics Wiki
         extracted_url: https://aesthetics.fandom.com
-        surrounding_text: "- [leonardoca1/aesthetics-wiki-mcp](https://github.com/leonardoca1/aesthetics-wiki-mcp) [![leonardoca1/aesthetics-wiki-mcp MCP server](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp/badges/score.svg)](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp) 🐍 🏠 🍎 🪟 🐧 - Search, read, and discover thousands of visual aesthetics (cottagecore, dark academia, y2k, goblincore, and many more) from the [Aesthetics Wiki](https://aesthetics.fandom.com). Great for moodboards, brand direction, and creative inspiration. `uvx aesthetics-wiki-mcp`"
+        surrounding_text: >-
+          - [leonardoca1/aesthetics-wiki-mcp](https://github.com/leonardoca1/aesthetics-wiki-mcp)
+          [![leonardoca1/aesthetics-wiki-mcp MCP
+          server](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp/badges/score.svg)](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp)
+          🐍 🏠 🍎 🪟 🐧 - Search, read, and discover thousands of visual aesthetics (cottagecore, dark academia, y2k,
+          goblincore, and many more) from the [Aesthetics Wiki](https://aesthetics.fandom.com). Great for moodboards,
+          brand direction, and creative inspiration. `uvx aesthetics-wiki-mcp`
         confidence: high
 metadata:
   github:
@@ -55,12 +61,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +75,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:30:31.206Z"
+    updated_at: '2026-09-24T04:30:31.206Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,10 +88,14 @@ processing:
       input_hash: sha256:84dd587c2a11af9e5d96dbad254bde83ddebfc957bd5a20072afb5c9be88d091
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site is a content-driven wiki rather than a functional AI developer tool, framework, or piece of infrastructure.
+      decision_reason: >-
+        The site is a content-driven wiki rather than a functional AI developer tool, framework, or piece of
+        infrastructure.
       decision_evidence:
         - The URL points to a Fandom-hosted wiki for aesthetic topics.
-        - Its inclusion in an MCP list suggests it is a target for data retrieval, not the protocol implementation itself.
+        - >-
+          Its inclusion in an MCP list suggests it is a target for data retrieval, not the protocol implementation
+          itself.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

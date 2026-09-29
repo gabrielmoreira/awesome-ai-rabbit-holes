@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ilert__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,12 @@ provenance:
           - Official Servers
         anchor_text: ilert
         extracted_url: https://ilert.com
-        surrounding_text: "- **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural language."
+        surrounding_text: >-
+          - **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural
+          language.
         confidence: high
     - id: discovery__www__ilert__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +35,9 @@ provenance:
           - Official Servers
         anchor_text: ilert
         extracted_url: https://ilert.com
-        surrounding_text: "- **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural language."
+        surrounding_text: >-
+          - **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural
+          language.
         confidence: high
 metadata:
   github:
@@ -51,9 +55,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ilert is an AI-first incident management platform for alerting, on-call scheduling, and status pages with AI agents that investigate alerts and propose fixes.
-  why_it_matters: It reduces mean time to resolution by automating root cause analysis from alerts, logs, and metrics, letting engineers focus on building rather than firefighting.
-  mental_damage: Another AI tool promising to eliminate 3am pages while quietly adding yet another dashboard to monitor during those same 3am pages.
+  summary: >-
+    ilert is an AI-first incident management platform for alerting, on-call scheduling, and status pages with AI agents
+    that investigate alerts and propose fixes.
+  why_it_matters: >-
+    It reduces mean time to resolution by automating root cause analysis from alerts, logs, and metrics, letting
+    engineers focus on building rather than firefighting.
+  mental_damage: >-
+    Another AI tool promising to eliminate 3am pages while quietly adding yet another dashboard to monitor during those
+    same 3am pages.
   tags:
     - incident-management
     - ai-sre
@@ -63,7 +73,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: ilert is an incident management and observability platform with AI features, not a developer-facing AI tool for coding, agents, or workflows; its core identity serves IT and DevOps teams, not software developers building or editing code.
+  reason: >-
+    ilert is an incident management and observability platform with AI features, not a developer-facing AI tool for
+    coding, agents, or workflows; its core identity serves IT and DevOps teams, not software developers building or
+    editing code.
   evidence:
     - ilert provides alerting, on-call management, incident response, and status pages for IT and DevOps teams
     - Its AI SRE investigates alerts by analyzing logs, metrics, and traces to propose root causes and fixes
@@ -72,12 +85,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:41:52.046Z"
+    updated_at: '2026-09-28T04:41:52.046Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +103,10 @@ processing:
       input_hash: sha256:fbe97577bfccce383b0cdb272078d864332c513bbaf6d113d23d0ed95a307ddc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: ilert is an incident management and observability platform with AI features, not a developer-facing AI tool for coding, agents, or workflows; its core identity serves IT and DevOps teams, not software developers building or editing code.
+      decision_reason: >-
+        ilert is an incident management and observability platform with AI features, not a developer-facing AI tool for
+        coding, agents, or workflows; its core identity serves IT and DevOps teams, not software developers building or
+        editing code.
       decision_evidence:
         - ilert provides alerting, on-call management, incident response, and status pages for IT and DevOps teams
         - Its AI SRE investigates alerts by analyzing logs, metrics, and traces to propose root causes and fixes
@@ -101,7 +117,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause: null
     next_retry_at: null
   stars:

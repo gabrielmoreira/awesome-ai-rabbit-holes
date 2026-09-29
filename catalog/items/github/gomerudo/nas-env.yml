@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gomerudo__nas-env__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,11 @@ provenance:
           - AutoML
         anchor_text: NASGym
         extracted_url: https://github.com/gomerudo/nas-env
-        surrounding_text: "| [NASGym](https://github.com/gomerudo/nas-env)                                | a proof-of-concept OpenAI Gym environment for Neural Architecture Search (NAS).                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/gomerudo/nas-env.svg?style=flat-square)                |"
+        surrounding_text: >-
+          | [NASGym](https://github.com/gomerudo/nas-env)                                | a proof-of-concept OpenAI Gym
+          environment for Neural Architecture Search
+          (NAS).                                                                                                 |
+          ![GitHub Badge](https://img.shields.io/github/stars/gomerudo/nas-env.svg?style=flat-square)                |
         confidence: high
 metadata:
   github:
@@ -29,21 +33,23 @@ metadata:
     archived: false
     full_name: gomerudo/nas-env
     html_url: https://github.com/gomerudo/nas-env
-    created_at: "2019-03-25T12:56:01Z"
-    pushed_at: "2020-05-04T22:38:59Z"
+    created_at: '2019-03-25T12:56:01Z'
+    pushed_at: '2020-05-04T22:38:59Z'
     description: A simple OpenAI Gym environment for Neural Architecture Search (NAS)
     homepage: null
     topics:
       - neural-architecture-search
       - openai-gym
       - reinforcement-learning
-    last_checked_at: "2026-09-03T05:16:51.530Z"
+    last_checked_at: '2026-09-03T05:16:51.530Z'
     readme:
-      fetched_at: "2026-09-03T05:16:51.530Z"
+      fetched_at: '2026-09-03T05:16:51.530Z'
       bytes: 2410
 insights:
   summary: A proof-of-concept OpenAI Gym environment for Neural Architecture Search (NAS) using reinforcement learning.
-  why_it_matters: It provides a research-oriented RL framework for experimenting with neural network architecture optimization, which may interest developers working on AutoML or NAS systems.
+  why_it_matters: >-
+    It provides a research-oriented RL framework for experimenting with neural network architecture optimization, which
+    may interest developers working on AutoML or NAS systems.
   mental_damage: Finally, a way to let your AI design AIs while you question your own life choices.
   tags:
     - neural-architecture-search
@@ -53,7 +59,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a research-focused RL environment for NAS, not a practical developer tool, workflow, or infrastructure for software development.
+  reason: >-
+    This is a research-focused RL environment for NAS, not a practical developer tool, workflow, or infrastructure for
+    software development.
   evidence:
     - Repo description explicitly states it is an OpenAI Gym environment for Neural Architecture Search (NAS)
     - README confirms it is a research project for RL-based NAS with no developer-tooling workflow
@@ -62,22 +70,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:51.530Z"
+    updated_at: '2026-09-03T05:16:51.530Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -92,7 +100,9 @@ processing:
       input_hash: sha256:55d9b4bc971a509404988a78c8c969cdbf43ce4a094e6232d339bfc61d145774
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a research-focused RL environment for NAS, not a practical developer tool, workflow, or infrastructure for software development.
+      decision_reason: >-
+        This is a research-focused RL environment for NAS, not a practical developer tool, workflow, or infrastructure
+        for software development.
       decision_evidence:
         - Repo description explicitly states it is an OpenAI Gym environment for Neural Architecture Search (NAS)
         - README confirms it is a research project for RL-based NAS with no developer-tooling workflow

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__dexpaprika__com__introduction__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: DexPaprika API
         extracted_url: https://docs.dexpaprika.com
-        surrounding_text: "- [coinpaprika/dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Coinpaprika's DexPaprika MCP server exposes high-performance [DexPaprika API](https://docs.dexpaprika.com) covering 20+ chains and 5M+ tokens with real time pricing, liquidity pool data & historical OHLCV data, providing AI agents standardized access to comprehensive market data through Model Context Protocol."
+        surrounding_text: >-
+          - [coinpaprika/dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 -
+          Coinpaprika's DexPaprika MCP server exposes high-performance [DexPaprika API](https://docs.dexpaprika.com)
+          covering 20+ chains and 5M+ tokens with real time pricing, liquidity pool data & historical OHLCV data,
+          providing AI agents standardized access to comprehensive market data through Model Context Protocol.
         confidence: high
     - id: discovery__docs__dexpaprika__com__introduction__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,7 +38,10 @@ provenance:
           - Official Servers
         anchor_text: DexPaprika API
         extracted_url: https://docs.dexpaprika.com
-        surrounding_text: "- **[DexPaprika](https://github.com/coinpaprika/dexpaprika-mcp)** - Access real-time DEX analytics across 20+ blockchains with [DexPaprika API](https://docs.dexpaprika.com), tracking 5M+ tokens, pools, volumes, and historical market data. Built by CoinPaprika."
+        surrounding_text: >-
+          - **[DexPaprika](https://github.com/coinpaprika/dexpaprika-mcp)** - Access real-time DEX analytics across 20+
+          blockchains with [DexPaprika API](https://docs.dexpaprika.com), tracking 5M+ tokens, pools, volumes, and
+          historical market data. Built by CoinPaprika.
         confidence: high
 metadata:
   github:
@@ -52,9 +59,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: DexPaprika API provides on-chain liquidity pool, swap, OHLCV, and token price data across 36 blockchains via REST and SSE streams.
-  why_it_matters: Developers building DeFi, analytics, or trading tools can access real-time and historical crypto market data without API keys or signup.
-  mental_damage: Another free crypto API that promises no-key access while quietly nudging you toward a paid plan for real-time streams.
+  summary: >-
+    DexPaprika API provides on-chain liquidity pool, swap, OHLCV, and token price data across 36 blockchains via REST
+    and SSE streams.
+  why_it_matters: >-
+    Developers building DeFi, analytics, or trading tools can access real-time and historical crypto market data without
+    API keys or signup.
+  mental_damage: >-
+    Another free crypto API that promises no-key access while quietly nudging you toward a paid plan for real-time
+    streams.
   tags:
     - crypto
     - defi
@@ -64,21 +77,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: DexPaprika is a general-purpose market data API for blockchain analytics, not a developer-facing AI tool, agent, framework, or infrastructure with a clear AI-tooling purpose.
+  reason: >-
+    DexPaprika is a general-purpose market data API for blockchain analytics, not a developer-facing AI tool, agent,
+    framework, or infrastructure with a clear AI-tooling purpose.
   evidence:
-    - "Scraped site context: API for liquidity pools, swap transactions, OHLCV and token prices across 36 chains over REST and SSE."
-    - "Source-list context: Listed in awesome-mcp-servers as an official MCP server, but MCP is only an adapter feature, not the product identity."
-    - "README/excerpt: Focuses on market data access, tutorials, SDKs, and use cases like price tracking and DEX aggregation—no mention of AI agents, coding assistance, or developer workflows beyond generic API consumption."
+    - >-
+      Scraped site context: API for liquidity pools, swap transactions, OHLCV and token prices across 36 chains over
+      REST and SSE.
+    - >-
+      Source-list context: Listed in awesome-mcp-servers as an official MCP server, but MCP is only an adapter feature,
+      not the product identity.
+    - >-
+      README/excerpt: Focuses on market data access, tutorials, SDKs, and use cases like price tracking and DEX
+      aggregation—no mention of AI agents, coding assistance, or developer workflows beyond generic API consumption.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: '2026-05-06T22:12:15.596Z'
     cause: null
     next_retry_at: null
   stars:
@@ -87,7 +108,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:38:27.970Z"
+    updated_at: '2026-09-24T04:38:27.970Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -100,11 +121,19 @@ processing:
       input_hash: sha256:2a01f37465758348a3e00e360500ab2280bb24abde61192a2e5cad417c3de832
       proposed_primary_category: null
       disagreement: false
-      decision_reason: DexPaprika is a general-purpose market data API for blockchain analytics, not a developer-facing AI tool, agent, framework, or infrastructure with a clear AI-tooling purpose.
+      decision_reason: >-
+        DexPaprika is a general-purpose market data API for blockchain analytics, not a developer-facing AI tool, agent,
+        framework, or infrastructure with a clear AI-tooling purpose.
       decision_evidence:
-        - "Scraped site context: API for liquidity pools, swap transactions, OHLCV and token prices across 36 chains over REST and SSE."
-        - "Source-list context: Listed in awesome-mcp-servers as an official MCP server, but MCP is only an adapter feature, not the product identity."
-        - "README/excerpt: Focuses on market data access, tutorials, SDKs, and use cases like price tracking and DEX aggregation—no mention of AI agents, coding assistance, or developer workflows beyond generic API consumption."
+        - >-
+          Scraped site context: API for liquidity pools, swap transactions, OHLCV and token prices across 36 chains over
+          REST and SSE.
+        - >-
+          Source-list context: Listed in awesome-mcp-servers as an official MCP server, but MCP is only an adapter
+          feature, not the product identity.
+        - >-
+          README/excerpt: Focuses on market data access, tutorials, SDKs, and use cases like price tracking and DEX
+          aggregation—no mention of AI agents, coding assistance, or developer workflows beyond generic API consumption.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

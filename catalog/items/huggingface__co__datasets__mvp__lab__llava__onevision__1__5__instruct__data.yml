@@ -5,8 +5,9 @@ canonical_url: https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instr
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__huggingface__co__datasets__mvp__lab__llava__onevision__1__5__instruct__data__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__huggingface__co__datasets__mvp__lab__llava__onevision__1__5__instruct__data__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,7 +19,11 @@ provenance:
           - 论文 Paper
         anchor_text: 22M Instruct Data
         extracted_url: https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data
-        surrounding_text: "57. [LLaVA-OneVision-1.5: Fully Open Framework for Democratized Multimodal Training](https://arxiv.org/abs/2509.23661) [85M-Midtraining Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M) [22M Instruct Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data)"
+        surrounding_text: >-
+          57. [LLaVA-OneVision-1.5: Fully Open Framework for Democratized Multimodal
+          Training](https://arxiv.org/abs/2509.23661) [85M-Midtraining
+          Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M) [22M Instruct
+          Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data)
         confidence: high
 metadata:
   github:
@@ -37,7 +42,9 @@ metadata:
     readme: null
 insights:
   summary: An instruction-tuning dataset for multimodal vision-language models.
-  why_it_matters: High-quality instruction data is essential for training models to perform complex reasoning across both visual and textual inputs.
+  why_it_matters: >-
+    High-quality instruction data is essential for training models to perform complex reasoning across both visual and
+    textual inputs.
   mental_damage: Just one more massive dataset to download while you pretend your local workstation is a training cluster.
   tags:
     - multimodal
@@ -55,12 +62,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:24:30.991Z"
+    updated_at: '2026-09-28T04:24:30.991Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,7 +89,9 @@ processing:
       input_hash: sha256:cb0e75c97c2f71d8b85b3721a14f4b387c5e1a58c8dff351ba2436d8d68a5bb2
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a raw research dataset rather than a practical developer-facing tool, framework, or workflow integration.
+      decision_reason: >-
+        This is a raw research dataset rather than a practical developer-facing tool, framework, or workflow
+        integration.
       decision_evidence:
         - The project is a dataset hosted on Hugging Face
         - Source-list context categorizes it under 'Papers' (论文)

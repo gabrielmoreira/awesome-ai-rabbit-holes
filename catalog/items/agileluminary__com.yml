@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agileluminary__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Agile Luminary
         extracted_url: https://agileluminary.com
-        surrounding_text: "- **[Agile Luminary](https://github.com/AgileLuminary/mcp-agile-luminary)** - Simpler Project Management - send [Agile Luminary](https://agileluminary.com) stories straight to your IDE"
+        surrounding_text: >-
+          - **[Agile Luminary](https://github.com/AgileLuminary/mcp-agile-luminary)** - Simpler Project Management -
+          send [Agile Luminary](https://agileluminary.com) stories straight to your IDE
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: An AI-native project management platform designed to automate user story creation and agile documentation.
-  why_it_matters: It attempts to bridge the gap between high-level product requirements and technical execution by using LLMs to transform raw data into INVEST-compliant user stories and release notes.
-  mental_damage: Because if we don't automate the creation of user stories, we might accidentally have to talk to our product managers instead of just prompting them.
+  why_it_matters: >-
+    It attempts to bridge the gap between high-level product requirements and technical execution by using LLMs to
+    transform raw data into INVEST-compliant user stories and release notes.
+  mental_damage: >-
+    Because if we don't automate the creation of user stories, we might accidentally have to talk to our product
+    managers instead of just prompting them.
   tags:
     - project-management
     - agile
@@ -47,7 +53,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The product is a specialized SaaS for project management and agile workflows rather than a developer-facing coding tool or agent.
+  reason: >-
+    The product is a specialized SaaS for project management and agile workflows rather than a developer-facing coding
+    tool or agent.
   evidence:
     - Focuses on generating epics, features, and user stories from documents/images
     - Provides Kanban boards and sprint planning tools
@@ -56,12 +64,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,10 +78,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:33:05.954Z"
+    updated_at: '2026-09-24T04:33:05.954Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for agileluminary__com: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for agileluminary__com: Upstream error from Nvidia: ResourceExhausted: Worker
+        local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -85,7 +95,9 @@ processing:
       input_hash: sha256:b3d6f659eb699a434204d628e3e1e4aca0706cb76015eed9d457a37bcf840262
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a specialized SaaS for project management and agile workflows rather than a developer-facing coding tool or agent.
+      decision_reason: >-
+        The product is a specialized SaaS for project management and agile workflows rather than a developer-facing
+        coding tool or agent.
       decision_evidence:
         - Focuses on generating epics, features, and user stories from documents/images
         - Provides Kanban boards and sprint planning tools

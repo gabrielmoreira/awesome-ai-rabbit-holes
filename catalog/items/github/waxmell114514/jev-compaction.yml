@@ -1,0 +1,133 @@
+id: github__waxmell114514__jev-compaction
+kind: github-repo
+name: waxmell114514/jev-compaction
+canonical_url: https://github.com/waxmell114514/jev-compaction
+identity:
+  github_repo: waxmell114514/jev-compaction
+provenance:
+  discoveries:
+    - id: discovery__github__waxmell114514__jev-compaction__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Demos & playgrounds
+        anchor_text: jev-compaction
+        extracted_url: https://github.com/waxmell114514/jev-compaction
+        surrounding_text: >-
+          - [jev-compaction](https://github.com/Waxmell114514/jev-compaction)
+          ([site](https://waxmell114514.github.io/jev-compaction/)) - A context compactor that can only score, never
+          write — so an agent's memory can't hold a fact the transcript never contained. Working demo, runs offline.
+        confidence: high
+    - id: discovery__github__waxmell114514__jev-compaction__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jev-compaction (Waxmell114514)
+        extracted_url: https://github.com/waxmell114514/jev-compaction
+        surrounding_text: >-
+          - [jev-compaction (Waxmell114514)](https://github.com/Waxmell114514/jev-compaction) - Context compactor that
+          can only score, never write—so agent memory cannot invent transcript facts (offline demo; distinct from
+          fast-jev-compaction). [Project guide](community/projects/tools/waxmell114514-jev-compaction.md).
+        confidence: high
+    - id: discovery__github__waxmell114514__jev-compaction__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Context GC
+        anchor_text: '**jev-compaction**'
+        extracted_url: https://github.com/waxmell114514/jev-compaction
+        surrounding_text: >-
+          - [**jev-compaction**](https://github.com/Waxmell114514/jev-compaction) — A context compactor that can only
+          score, never write — so an agent's memory can't hold a fact the transcript never contained. Working demo, runs
+          offline.
+        confidence: high
+    - id: discovery__github__waxmell114514__jev-compaction__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Agent Decisions
+        anchor_text: jev-compaction
+        extracted_url: https://github.com/waxmell114514/jev-compaction
+        surrounding_text: >-
+          - [jev-compaction](https://github.com/Waxmell114514/jev-compaction)
+          ![stars](https://img.shields.io/github/stars/Waxmell114514/jev-compaction?style=flat-square&label=%E2%98%85) -
+          Context management: standalone agent context compactor where Jev only scores transcript segments — kept lines
+          stay verbatim, low scorers move to a store behind an expand() pointer instead of being deleted, and the
+          append-only frozen prefix keeps the prompt cache valid; runnable offline demo, no API key needed.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    jev-compaction (site) - A context compactor that can only score, never write — so an agent's memory can't hold a
+    fact the transcript never contained. Working demo, runs offline.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Context Compaction & Memory
+  evidence:
+    - jev-latest choice confidence 0.82
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Context Compaction & Memory
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.388Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

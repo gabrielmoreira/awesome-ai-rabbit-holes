@@ -1,0 +1,94 @@
+id: agentjournal__dev__blog__llm__judge__vs__feature__extraction
+kind: website
+name: llm-judge-vs-feature-extraction
+canonical_url: https://agentjournal.dev/blog/llm-judge-vs-feature-extraction
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__agentjournal__dev__blog__llm__judge__vs__feature__extraction__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Articles & threads
+        anchor_text: One judge call vs twelve dimension scores
+        extracted_url: https://agentjournal.dev/blog/llm-judge-vs-feature-extraction
+        surrounding_text: >-
+          - [One judge call vs twelve dimension scores](https://agentjournal.dev/blog/llm-judge-vs-feature-extraction/)
+          ([post](https://x.com/agent_journal/status/2100611808545632758)) - One direct Jev question per row against
+          12–14 Jev-scored dimensions with locally fitted weights on three classification tasks: 5,477 test rows, 25,174
+          Jev calls, $1.43. Decomposition wins on Japanese NLI (0.9076 vs 0.8373) but flags about 25× more hard benign
+          rows as attacks (37.2% vs 1.5%).
+        confidence: high
+    - id: discovery__agentjournal__dev__blog__llm__judge__vs__feature__extraction__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Evaluation & Benchmarking
+        anchor_text: Jev judge call vs dimension scores
+        extracted_url: https://agentjournal.dev/blog/llm-judge-vs-feature-extraction
+        surrounding_text: >-
+          - [Jev judge call vs dimension scores](https://agentjournal.dev/blog/llm-judge-vs-feature-extraction/) - Model
+          evaluation: tests one direct Jev question per row against 12–14 Jev-scored dimensions with locally fitted
+          weights on three classification tasks, reaching 0.9076 against 0.8373 on Japanese NLI but flagging about 25×
+          more hard benign rows as attacks.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  evidence:
+    - Jev classification confidence below inclusion threshold
+placement:
+  primary_category: null
+  secondary_categories: []
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.430Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

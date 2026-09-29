@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__poloclub__github__io__transformer__explainer__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Transformer Explainer is an interactive visualization tool that demonstrates how transformer models work in LLMs like GPT using a live GPT-2 small model in the browser.
-  why_it_matters: It helps developers intuitively understand transformer internals — attention, embeddings, and token generation — through hands-on exploration of a real model.
-  mental_damage: Finally, a way to visualize attention weights without pretending you understand the math while nodding along in paper reading groups.
+  summary: >-
+    Transformer Explainer is an interactive visualization tool that demonstrates how transformer models work in LLMs
+    like GPT using a live GPT-2 small model in the browser.
+  why_it_matters: >-
+    It helps developers intuitively understand transformer internals — attention, embeddings, and token generation —
+    through hands-on exploration of a real model.
+  mental_damage: >-
+    Finally, a way to visualize attention weights without pretending you understand the math while nodding along in
+    paper reading groups.
   tags:
     - education
     - visualization
@@ -48,24 +54,32 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Transformer Explainer is an educational resource for understanding model architecture, not a developer-facing AI tool for coding, agents, workflows, or infrastructure.
+  reason: >-
+    Transformer Explainer is an educational resource for understanding model architecture, not a developer-facing AI
+    tool for coding, agents, workflows, or infrastructure.
   evidence:
-    - Scraped site context describes it as 'an interactive visualization tool showing you how transformer models work in large language models (LLM) like GPT'
-    - Source-list context places it in 'awesome-LLM-resources' under '课程 Course' (Course section), indicating educational intent
+    - >-
+      Scraped site context describes it as 'an interactive visualization tool showing you how transformer models work in
+      large language models (LLM) like GPT'
+    - >-
+      Source-list context places it in 'awesome-LLM-resources' under '课程 Course' (Course section), indicating
+      educational intent
     - No evidence of coding assistance, agent behavior, workflow integration, or tooling for software development tasks
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -73,7 +87,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:34:44.198Z"
+    updated_at: '2026-09-28T04:34:44.198Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -86,11 +100,19 @@ processing:
       input_hash: sha256:d193e5f16e5e59596beb7691a8ff0c2ba4a1217bf86916302f9e071c089df171
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Transformer Explainer is an educational resource for understanding model architecture, not a developer-facing AI tool for coding, agents, workflows, or infrastructure.
+      decision_reason: >-
+        Transformer Explainer is an educational resource for understanding model architecture, not a developer-facing AI
+        tool for coding, agents, workflows, or infrastructure.
       decision_evidence:
-        - Scraped site context describes it as 'an interactive visualization tool showing you how transformer models work in large language models (LLM) like GPT'
-        - Source-list context places it in 'awesome-LLM-resources' under '课程 Course' (Course section), indicating educational intent
-        - No evidence of coding assistance, agent behavior, workflow integration, or tooling for software development tasks
+        - >-
+          Scraped site context describes it as 'an interactive visualization tool showing you how transformer models
+          work in large language models (LLM) like GPT'
+        - >-
+          Source-list context places it in 'awesome-LLM-resources' under '课程 Course' (Course section), indicating
+          educational intent
+        - >-
+          No evidence of coding assistance, agent behavior, workflow integration, or tooling for software development
+          tasks
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__nothumansearch__ai__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - MCP Servers and Directories
         anchor_text: Not Human Search
         extracted_url: https://nothumansearch.ai/mcp
-        surrounding_text: "- **[Not Human Search](https://nothumansearch.ai/mcp)** – Agent-first search engine for discovering AI tools, MCP servers, and APIs."
+        surrounding_text: >-
+          - **[Not Human Search](https://nothumansearch.ai/mcp)** – Agent-first search engine for discovering AI tools,
+          MCP servers, and APIs.
         confidence: high
 metadata:
   github:
@@ -47,7 +49,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: mcp is a curated directory of MCP servers and resources, which matches the catalog's 'awesome-awesomes' section for developer navigation tools.
+  reason: >-
+    mcp is a curated directory of MCP servers and resources, which matches the catalog's 'awesome-awesomes' section for
+    developer navigation tools.
   evidence:
     - Appears in awesome-ai-coding-tools section as 'MCP Servers and Directories'
     - URL is not a GitHub repo but a curated directory site
@@ -57,12 +61,12 @@ placement:
   secondary_categories: []
   section: Registries & Discovery
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +75,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:33:50.567Z"
+    updated_at: '2026-09-28T04:33:50.567Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +88,9 @@ processing:
       input_hash: sha256:e7f62468431e37cad835844826fc0a7316a7a32cb7bdd4b659973cb428b6499a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: mcp is a curated directory of MCP servers and resources, which matches the catalog's 'awesome-awesomes' section for developer navigation tools.
+      decision_reason: >-
+        mcp is a curated directory of MCP servers and resources, which matches the catalog's 'awesome-awesomes' section
+        for developer navigation tools.
       decision_evidence:
         - Appears in awesome-ai-coding-tools section as 'MCP Servers and Directories'
         - URL is not a GitHub repo but a curated directory site
@@ -92,6 +98,8 @@ processing:
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because it is a specialized directory of protocol infrastructure rather than a general AI tool list.
+      contrastive_reason: >-
+        Choose mcp over awesome-awesomes because it is a specialized directory of protocol infrastructure rather than a
+        general AI tool list.
       review_reason: null
       review_resume_lifecycle: null

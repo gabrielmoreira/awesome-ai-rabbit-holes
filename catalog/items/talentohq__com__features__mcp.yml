@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__talentohq__com__features__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,10 @@ provenance:
           - Official Servers
         anchor_text: TalentoHQ HR software
         extracted_url: https://talentohq.com/features/mcp
-        surrounding_text: "- **[TalentoHQ](https://hr.talentohq.com/mcp)** – Connect to the [TalentoHQ HR software](https://talentohq.com/features/mcp) via MCP. Transform your organization with the AI first HR software."
+        surrounding_text: >-
+          - **[TalentoHQ](https://hr.talentohq.com/mcp)** – Connect to the [TalentoHQ HR
+          software](https://talentohq.com/features/mcp) via MCP. Transform your organization with the AI first HR
+          software.
         confidence: high
 metadata:
   github:
@@ -36,7 +39,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A documentation page for Model Context Protocol (MCP) features on talentohq.com, describing MCP capabilities but not providing a standalone MCP server, client, or tool.
+  summary: >-
+    A documentation page for Model Context Protocol (MCP) features on talentohq.com, describing MCP capabilities but not
+    providing a standalone MCP server, client, or tool.
   why_it_matters: It explains MCP concepts but does not offer deployable infrastructure or tooling for developers to use.
   mental_damage: Another marketing page pretending to be a tool while developers search for actual MCP implementations to integrate.
   tags:
@@ -46,21 +51,25 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The URL is a feature overview page, not a deployable MCP server, client, or tool; it lacks MCP product identity and is excluded as documentation rather than infrastructure.
+  reason: >-
+    The URL is a feature overview page, not a deployable MCP server, client, or tool; it lacks MCP product identity and
+    is excluded as documentation rather than infrastructure.
   evidence:
-    - "URL: https://talentohq.com/features/mcp is a features page, not a GitHub repo or standalone tool"
-    - "Repo description: (none), indicating no associated codebase or product"
-    - "Seen in source lists: awesome-mcp-servers lists it under 'Official Servers' but this is a documentation page, not an operational MCP server"
+    - 'URL: https://talentohq.com/features/mcp is a features page, not a GitHub repo or standalone tool'
+    - 'Repo description: (none), indicating no associated codebase or product'
+    - >-
+      Seen in source lists: awesome-mcp-servers lists it under 'Official Servers' but this is a documentation page, not
+      an operational MCP server
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:46:32.255Z"
+    updated_at: '2026-09-28T04:46:32.255Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,11 +91,15 @@ processing:
       input_hash: sha256:eb6f7cafcad8177716059bf24d7f13dc020179edf2a6f147887f2ae1768978a3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The URL is a feature overview page, not a deployable MCP server, client, or tool; it lacks MCP product identity and is excluded as documentation rather than infrastructure.
+      decision_reason: >-
+        The URL is a feature overview page, not a deployable MCP server, client, or tool; it lacks MCP product identity
+        and is excluded as documentation rather than infrastructure.
       decision_evidence:
-        - "URL: https://talentohq.com/features/mcp is a features page, not a GitHub repo or standalone tool"
-        - "Repo description: (none), indicating no associated codebase or product"
-        - "Seen in source lists: awesome-mcp-servers lists it under 'Official Servers' but this is a documentation page, not an operational MCP server"
+        - 'URL: https://talentohq.com/features/mcp is a features page, not a GitHub repo or standalone tool'
+        - 'Repo description: (none), indicating no associated codebase or product'
+        - >-
+          Seen in source lists: awesome-mcp-servers lists it under 'Official Servers' but this is a documentation page,
+          not an operational MCP server
       category_candidates: []
       contrastive_reason: null
       review_reason: null

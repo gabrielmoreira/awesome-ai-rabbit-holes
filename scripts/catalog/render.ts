@@ -131,6 +131,19 @@ function formatStars(stars: number): string {
   return String(stars);
 }
 
+/**
+ * True when the repository is gaining traction now: it shipped within 30 days
+ * and adds at least HOT_STARS_PER_DAY stars a day over its lifetime.
+ */
+function resolveHotSignal(item: CatalogItem, snapshotMs: number | null): boolean {
+  if (!isGitHubBacked(item) || !isKnownStarCount(item)) return false;
+  if (resolveItemActivityBucket(item, snapshotMs) !== "updated_30d") return false;
+  const createdMs = parseIsoMs(item.metadata.github.created_at ?? null);
+  if (createdMs === null || snapshotMs === null) return false;
+  const ageDays = Math.max(HOT_MIN_AGE_DAYS, (snapshotMs - createdMs) / DAY_MS);
+  return item.metadata.github.stars! / ageDays >= HOT_STARS_PER_DAY;
+}
+
 function buildToolBulletViewModel(
   item: CatalogItem,
   snapshotMs: number | null,
@@ -147,6 +160,7 @@ function buildToolBulletViewModel(
     starsLabel: isKnownStarCount(item) ? formatStars(item.metadata.github.stars!) : null,
     hasActivity: activityBucket !== null,
     activityLabel: activityBucket ? formatRepoActivityLabel(activityBucket) : null,
+    isHot: resolveHotSignal(item, snapshotMs),
     hasDetails: Boolean(whyItMatters || mentalDamage || item.insights.tags.length > 0),
     hasWhyItMatters: whyItMatters !== null,
     whyItMatters,
@@ -173,6 +187,28 @@ export function renderReadme(_items: CatalogItem[], categories: Category[]): str
   return renderCatalogReadmeTemplate(viewModel);
 }
 
+/** Entries a section shows before folding the rest into its expandable panel. */
+const SECTION_TOP_N = 30;
+/** Section name used for entries the classifier never gave a section. */
+const UNSECTIONED_SECTION_NAME = "Others";
+/**
+ * The 🔥 badge means "gaining traction right now", computed from stored signals
+ * instead of inherited from the source list: the repository must have shipped
+ * within 30 days and be adding at least HOT_STARS_PER_DAY stars a day since it
+ * was created. A floor on the age keeps a one-day-old repo from dividing by
+ * almost zero.
+ */
+const HOT_STARS_PER_DAY = 20;
+const HOT_MIN_AGE_DAYS = 14;
+
+/**
+ * GitHub's heading anchor: lowercase, drop punctuation, every space becomes a
+ * hyphen (so "a, b & c" keeps the double hyphen the '&' leaves behind).
+ */
+function markdownHeadingAnchor(text: string): string {
+  return text.toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu, "").replace(/\s/g, "-");
+}
+
 export function renderRabbitHolePage(
   category: Category,
   items: CatalogItem[]
@@ -181,22 +217,49 @@ export function renderRabbitHolePage(
   const categoryItems = items.filter(
     (item) => shouldRenderCatalogItem(item) && item.placement.primary_category === category.id
   );
+  // `needs_review` work stays off the published page until a human clears it.
+  const published = categoryItems.filter((item) => item.lifecycle.status !== "needs_review");
+  const ranked = [...published].sort(compareCatalogItemsByStars);
 
-  const activeItems = [...categoryItems.filter(
-    (item) => item.lifecycle.status !== "incubating" && item.lifecycle.status !== "needs_review"
-  )].sort(compareCatalogItemsByStars);
-  const incubatingItems = [...categoryItems.filter(
-    (item) => item.lifecycle.status === "incubating"
-  )].sort(compareCatalogItemsByStars);
+  const grouped = new Map<string, CatalogItem[]>();
+  for (const item of ranked) {
+    const name = item.placement.section?.trim() || UNSECTIONED_SECTION_NAME;
+    grouped.set(name, [...(grouped.get(name) ?? []), item]);
+  }
+
+  // Declared order first, then any section name the classifier invented (sorted,
+  // so output stays deterministic), then the unsectioned remainder last.
+  const declared = category.sections ?? [];
+  const orderedNames = [
+    ...declared.filter((name) => grouped.has(name)),
+    ...[...grouped.keys()]
+      .filter((name) => !declared.includes(name) && name !== UNSECTIONED_SECTION_NAME)
+      .sort(),
+    ...(grouped.has(UNSECTIONED_SECTION_NAME) ? [UNSECTIONED_SECTION_NAME] : []),
+  ];
+
+  const sections = orderedNames.map((name) => {
+    const sectionItems = grouped.get(name) ?? [];
+    return {
+      name,
+      anchor: markdownHeadingAnchor(name),
+      totalCount: sectionItems.length,
+      visibleItems: sectionItems.slice(0, SECTION_TOP_N).map((item) => buildToolBulletViewModel(item, snapshotMs)),
+      hasOverflow: sectionItems.length > SECTION_TOP_N,
+      overflowCount: Math.max(0, sectionItems.length - SECTION_TOP_N),
+      overflowItems: sectionItems.slice(SECTION_TOP_N).map((item) => buildToolBulletViewModel(item, snapshotMs)),
+    };
+  });
 
   const viewModel: CatalogCategoryPageTemplateViewModel = {
     categoryName: category.name,
     categoryDescription: category.description,
-    hasActiveItems: activeItems.length > 0,
-    activeItems: buildToolListViewModel(activeItems, snapshotMs),
-    hasIncubatingItems: incubatingItems.length > 0,
-    incubatingItems: buildToolListViewModel(incubatingItems, snapshotMs),
-    isEmpty: activeItems.length === 0 && incubatingItems.length === 0,
+    totalCount: published.length,
+    topN: SECTION_TOP_N,
+    sectionCount: sections.length,
+    hasSections: sections.length > 0,
+    sections,
+    isEmpty: sections.length === 0,
   };
 
   return renderCatalogCategoryPageTemplate(viewModel);

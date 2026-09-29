@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__lutra__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Lutra AI
         anchor_text: Lutra AI
         extracted_url: https://lutra.ai
-        surrounding_text: "## [Lutra AI](https://lutra.ai/)"
+        surrounding_text: '## [Lutra AI](https://lutra.ai/)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Lutra AI is an intelligent assistant that automates work tasks across platforms by writing code to perform actions like data enrichment, email management, and workflow automation.
-  why_it_matters: It helps developers and non-developers automate repetitive cross-app tasks by generating reliable, code-driven workflows instead of relying on brittle manual processes or hallucination-prone AI.
-  mental_damage: Another AI assistant promising to replace your intern, except this one actually writes code — now you have to audit its playbooks instead of your intern’s spreadsheets.
+  summary: >-
+    Lutra AI is an intelligent assistant that automates work tasks across platforms by writing code to perform actions
+    like data enrichment, email management, and workflow automation.
+  why_it_matters: >-
+    It helps developers and non-developers automate repetitive cross-app tasks by generating reliable, code-driven
+    workflows instead of relying on brittle manual processes or hallucination-prone AI.
+  mental_damage: >-
+    Another AI assistant promising to replace your intern, except this one actually writes code — now you have to audit
+    its playbooks instead of your intern’s spreadsheets.
   tags:
     - ai-assistant
     - workflow-automation
@@ -47,21 +53,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Lutra AI is a horizontal AI assistant focused on business task automation (email, CRM, data enrichment) rather than developer-facing tooling; its core value is not coding, agent orchestration, or infrastructure relevant to software development workflows.
+  reason: >-
+    Lutra AI is a horizontal AI assistant focused on business task automation (email, CRM, data enrichment) rather than
+    developer-facing tooling; its core value is not coding, agent orchestration, or infrastructure relevant to software
+    development workflows.
   evidence:
-    - Primary use cases include contact enrichment, email automation, PDF extraction, and CRM updates for sales, finance, and marketing teams
-    - Marketing language emphasizes 'productivity agent for work apps' and non-technical user testimonials (e.g., 'simple for a non-technical person')
-    - Integrates with Outlook, Gmail, Spreadsheets, HubSpot, Airtable — tools not primarily used by developers in their core workflow
+    - >-
+      Primary use cases include contact enrichment, email automation, PDF extraction, and CRM updates for sales,
+      finance, and marketing teams
+    - >-
+      Marketing language emphasizes 'productivity agent for work apps' and non-technical user testimonials (e.g.,
+      'simple for a non-technical person')
+    - >-
+      Integrates with Outlook, Gmail, Spreadsheets, HubSpot, Airtable — tools not primarily used by developers in their
+      core workflow
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +85,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:32:03.598Z"
+    updated_at: '2026-09-28T04:32:03.598Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,11 +98,20 @@ processing:
       input_hash: sha256:df44a576143ed40fbc94509d39eeab7d5cf3960283e6a9d0b9ea02b5c8e8b6f4
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Lutra AI is a horizontal AI assistant focused on business task automation (email, CRM, data enrichment) rather than developer-facing tooling; its core value is not coding, agent orchestration, or infrastructure relevant to software development workflows.
+      decision_reason: >-
+        Lutra AI is a horizontal AI assistant focused on business task automation (email, CRM, data enrichment) rather
+        than developer-facing tooling; its core value is not coding, agent orchestration, or infrastructure relevant to
+        software development workflows.
       decision_evidence:
-        - Primary use cases include contact enrichment, email automation, PDF extraction, and CRM updates for sales, finance, and marketing teams
-        - Marketing language emphasizes 'productivity agent for work apps' and non-technical user testimonials (e.g., 'simple for a non-technical person')
-        - Integrates with Outlook, Gmail, Spreadsheets, HubSpot, Airtable — tools not primarily used by developers in their core workflow
+        - >-
+          Primary use cases include contact enrichment, email automation, PDF extraction, and CRM updates for sales,
+          finance, and marketing teams
+        - >-
+          Marketing language emphasizes 'productivity agent for work apps' and non-technical user testimonials (e.g.,
+          'simple for a non-technical person')
+        - >-
+          Integrates with Outlook, Gmail, Spreadsheets, HubSpot, Airtable — tools not primarily used by developers in
+          their core workflow
       category_candidates: []
       contrastive_reason: null
       review_reason: null

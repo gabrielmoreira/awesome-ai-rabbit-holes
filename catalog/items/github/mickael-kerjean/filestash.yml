@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mickael-kerjean__filestash__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: mickaelkerjean/filestash
         extracted_url: https://github.com/mickael-kerjean/filestash
-        surrounding_text: "- [mickaelkerjean/filestash](https://github.com/mickael-kerjean/filestash/tree/master/server/plugin/plg_handler_mcp) 🏎️ ☁️ - Remote Storage Access: SFTP, S3, FTP, SMB, NFS, WebDAV, GIT, FTPS, gcloud, azure blob, sharepoint, etc."
+        surrounding_text: >-
+          -
+          [mickaelkerjean/filestash](https://github.com/mickael-kerjean/filestash/tree/master/server/plugin/plg_handler_mcp)
+          🏎️ ☁️ - Remote Storage Access: SFTP, S3, FTP, SMB, NFS, WebDAV, GIT, FTPS, gcloud, azure blob, sharepoint,
+          etc.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,9 @@ metadata:
     archived: false
     full_name: mickael-kerjean/filestash
     html_url: https://github.com/mickael-kerjean/filestash
-    created_at: "2017-06-13T05:34:14Z"
-    pushed_at: "2026-07-27T03:58:22Z"
-    description: ":file_folder: Universal File Storage Client"
+    created_at: '2017-06-13T05:34:14Z'
+    pushed_at: '2026-07-27T03:58:22Z'
+    description: ':file_folder: Universal File Storage Client'
     homepage: https://www.filestash.app/
     topics:
       - archiving
@@ -54,14 +58,20 @@ metadata:
       - smb
       - vfs
       - webdav
-    last_checked_at: "2026-08-03T05:17:01.352Z"
+    last_checked_at: '2026-08-03T05:17:01.352Z'
     readme:
-      fetched_at: "2026-08-03T05:17:01.352Z"
+      fetched_at: '2026-08-03T05:17:01.352Z'
       bytes: 12633
 insights:
-  summary: Filestash is a universal file storage client that provides a Dropbox-like web interface for accessing files across numerous protocols including FTP, SFTP, S3, WebDAV, IPFS, and over 20 others through a plugin-driven architecture.
-  why_it_matters: It eliminates the need for multiple specialized file management tools by offering a single interface to work with diverse storage systems, streamlining file operations across hybrid environments.
-  mental_damage: Yet another file browser promising universal compatibility, making developers nostalgic for the simpler days when 'just use scp' was a valid workflow.
+  summary: >-
+    Filestash is a universal file storage client that provides a Dropbox-like web interface for accessing files across
+    numerous protocols including FTP, SFTP, S3, WebDAV, IPFS, and over 20 others through a plugin-driven architecture.
+  why_it_matters: >-
+    It eliminates the need for multiple specialized file management tools by offering a single interface to work with
+    diverse storage systems, streamlining file operations across hybrid environments.
+  mental_damage: >-
+    Yet another file browser promising universal compatibility, making developers nostalgic for the simpler days when
+    'just use scp' was a valid workflow.
   tags:
     - file-management
     - storage
@@ -70,31 +80,36 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Filestash is a general-purpose file management tool with no specific developer-tooling focus; while it includes a 'dev' plugin for viewing binaries, its core value proposition centers on end-user file access rather than software development workflows.
+  reason: >-
+    Filestash is a general-purpose file management tool with no specific developer-tooling focus; while it includes a
+    'dev' plugin for viewing binaries, its core value proposition centers on end-user file access rather than software
+    development workflows.
   evidence:
-    - "Repo description: 'Universal File Storage Client'"
+    - 'Repo description: ''Universal File Storage Client'''
     - README emphasizes storage agnostic file management across FTP, SFTP, S3, WebDAV, IPFS, and 20+ protocols
-    - Source-list context shows it's listed in awesome-mcp-servers under File Systems, indicating infrastructure/file system relevance rather than developer tooling
+    - >-
+      Source-list context shows it's listed in awesome-mcp-servers under File Systems, indicating infrastructure/file
+      system relevance rather than developer tooling
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (14137) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:01.352Z"
+    updated_at: '2026-08-03T05:17:01.352Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -109,11 +124,16 @@ processing:
       input_hash: sha256:ddf8a01fe33c1ca4af376b8bd8d964ba339e05e8df3ece4d123ae190646f74ea
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Filestash is a general-purpose file management tool with no specific developer-tooling focus; while it includes a 'dev' plugin for viewing binaries, its core value proposition centers on end-user file access rather than software development workflows.
+      decision_reason: >-
+        Filestash is a general-purpose file management tool with no specific developer-tooling focus; while it includes
+        a 'dev' plugin for viewing binaries, its core value proposition centers on end-user file access rather than
+        software development workflows.
       decision_evidence:
-        - "Repo description: 'Universal File Storage Client'"
+        - 'Repo description: ''Universal File Storage Client'''
         - README emphasizes storage agnostic file management across FTP, SFTP, S3, WebDAV, IPFS, and 20+ protocols
-        - Source-list context shows it's listed in awesome-mcp-servers under File Systems, indicating infrastructure/file system relevance rather than developer tooling
+        - >-
+          Source-list context shows it's listed in awesome-mcp-servers under File Systems, indicating
+          infrastructure/file system relevance rather than developer tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null

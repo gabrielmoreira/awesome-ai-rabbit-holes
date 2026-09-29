@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ernestryu__com__courses__rl__llm__html__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A public course website for Ernest K. Ryu's Spring 2025 UCLA course on Reinforcement Learning of Large Language Models, featuring lecture slides, videos, homework, and prerequisites.
-  why_it_matters: Provides structured educational material for developers seeking to understand RLHF, RLVR, and related techniques for aligning and improving LLMs through reinforcement learning.
-  mental_damage: Another reminder that keeping up with AI means treating every new course syllabus like a critical patch note for your career survival.
+  summary: >-
+    A public course website for Ernest K. Ryu's Spring 2025 UCLA course on Reinforcement Learning of Large Language
+    Models, featuring lecture slides, videos, homework, and prerequisites.
+  why_it_matters: >-
+    Provides structured educational material for developers seeking to understand RLHF, RLVR, and related techniques for
+    aligning and improving LLMs through reinforcement learning.
+  mental_damage: >-
+    Another reminder that keeping up with AI means treating every new course syllabus like a critical patch note for
+    your career survival.
   tags:
     - education
     - rlhf
@@ -47,21 +53,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The resource is an academic course website, not a developer-facing AI tool, agent, workflow, or infrastructure product; it lacks any practical tooling, SDK, agent behavior, or app-building capability relevant to the catalog's scope.
+  reason: >-
+    The resource is an academic course website, not a developer-facing AI tool, agent, workflow, or infrastructure
+    product; it lacks any practical tooling, SDK, agent behavior, or app-building capability relevant to the catalog's
+    scope.
   evidence:
-    - Scraped site context identifies it as a public course website for 'Reinforcement Learning of Large Language Models, Spring 2025' with lecture slides, videos, and homework exercises.
-    - README-equivalent content describes prerequisites, instructor bio, and course structure—no claims of tooling, automation, or developer productivity features.
-    - Source-list context shows it appears only in an awesome-LLM-resources list under a 'Course' section, indicating its role as educational material rather than a tool.
+    - >-
+      Scraped site context identifies it as a public course website for 'Reinforcement Learning of Large Language
+      Models, Spring 2025' with lecture slides, videos, and homework exercises.
+    - >-
+      README-equivalent content describes prerequisites, instructor bio, and course structure—no claims of tooling,
+      automation, or developer productivity features.
+    - >-
+      Source-list context shows it appears only in an awesome-LLM-resources list under a 'Course' section, indicating
+      its role as educational material rather than a tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +85,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:53:35.641Z"
+    updated_at: '2026-09-28T04:53:35.641Z'
     cause: null
     attempts: 5
     prompt_version: catalog-categorize-v5-single-template
@@ -83,11 +98,20 @@ processing:
       input_hash: sha256:e9aabb6fe18c392337c2037ed76bfe7df846bc39a08922551da4a916189c8655
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The resource is an academic course website, not a developer-facing AI tool, agent, workflow, or infrastructure product; it lacks any practical tooling, SDK, agent behavior, or app-building capability relevant to the catalog's scope.
+      decision_reason: >-
+        The resource is an academic course website, not a developer-facing AI tool, agent, workflow, or infrastructure
+        product; it lacks any practical tooling, SDK, agent behavior, or app-building capability relevant to the
+        catalog's scope.
       decision_evidence:
-        - Scraped site context identifies it as a public course website for 'Reinforcement Learning of Large Language Models, Spring 2025' with lecture slides, videos, and homework exercises.
-        - README-equivalent content describes prerequisites, instructor bio, and course structure—no claims of tooling, automation, or developer productivity features.
-        - Source-list context shows it appears only in an awesome-LLM-resources list under a 'Course' section, indicating its role as educational material rather than a tool.
+        - >-
+          Scraped site context identifies it as a public course website for 'Reinforcement Learning of Large Language
+          Models, Spring 2025' with lecture slides, videos, and homework exercises.
+        - >-
+          README-equivalent content describes prerequisites, instructor bio, and course structure—no claims of tooling,
+          automation, or developer productivity features.
+        - >-
+          Source-list context shows it appears only in an awesome-LLM-resources list under a 'Course' section,
+          indicating its role as educational material rather than a tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

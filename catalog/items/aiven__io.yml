@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aiven__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,13 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: Aiven projects
         extracted_url: https://go.aiven.io/mcp-server
-        surrounding_text: "- [Aiven-Open/mcp-aiven](https://github.com/Aiven-Open/mcp-aiven) - 🐍 ☁️ 🎖️ -  Navigate your [Aiven projects](https://go.aiven.io/mcp-server) and interact with the PostgreSQL®, Apache Kafka®, ClickHouse® and OpenSearch® services"
+        surrounding_text: >-
+          - [Aiven-Open/mcp-aiven](https://github.com/Aiven-Open/mcp-aiven) - 🐍 ☁️ 🎖️ -  Navigate your [Aiven
+          projects](https://go.aiven.io/mcp-server) and interact with the PostgreSQL®, Apache Kafka®, ClickHouse® and
+          OpenSearch® services
         confidence: high
     - id: discovery__aiven__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,7 +37,10 @@ provenance:
           - Official Servers
         anchor_text: Aiven projects
         extracted_url: https://go.aiven.io/mcp-server
-        surrounding_text: "- **[Aiven](https://github.com/Aiven-Open/mcp-aiven)** - Navigate your [Aiven projects](https://go.aiven.io/mcp-server) and interact with the PostgreSQL®, Apache Kafka®, ClickHouse® and OpenSearch® services"
+        surrounding_text: >-
+          - **[Aiven](https://github.com/Aiven-Open/mcp-aiven)** - Navigate your [Aiven
+          projects](https://go.aiven.io/mcp-server) and interact with the PostgreSQL®, Apache Kafka®, ClickHouse® and
+          OpenSearch® services
         confidence: high
 metadata:
   github:
@@ -52,8 +58,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Managed open-source data platform providing services like Kafka, PostgreSQL, and OpenSearch for AI and data workloads.
-  why_it_matters: It provides the reliable, managed streaming and storage infrastructure required to power RAG and real-time AI data pipelines.
+  summary: >-
+    Managed open-source data platform providing services like Kafka, PostgreSQL, and OpenSearch for AI and data
+    workloads.
+  why_it_matters: >-
+    It provides the reliable, managed streaming and storage infrastructure required to power RAG and real-time AI data
+    pipelines.
   mental_damage: It's essentially a managed database provider wearing a very trendy 'AI-ready' hat.
   tags:
     - managed-data
@@ -64,20 +74,24 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: It is a general managed data infrastructure provider whose 'AI-ready' features are integrations of its core database services rather than a specialized AI developer tool.
+  reason: >-
+    It is a general managed data infrastructure provider whose 'AI-ready' features are integrations of its core database
+    services rather than a specialized AI developer tool.
   evidence:
-    - The product's primary identity is an 'open source data platform' offering managed Kafka, PostgreSQL, and ClickHouse.
+    - >-
+      The product's primary identity is an 'open source data platform' offering managed Kafka, PostgreSQL, and
+      ClickHouse.
     - The MCP support is a feature of the broader platform rather than an MCP-first product identity.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: '2026-05-06T22:12:15.596Z'
     cause: null
     next_retry_at: null
   stars:
@@ -86,7 +100,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:14:39.388Z"
+    updated_at: '2026-09-21T04:14:39.388Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -99,9 +113,13 @@ processing:
       input_hash: sha256:7a7c868430d593b15416823f4a8c6fa614f73678aa788c0234ae8d2fbff5cef1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a general managed data infrastructure provider whose 'AI-ready' features are integrations of its core database services rather than a specialized AI developer tool.
+      decision_reason: >-
+        It is a general managed data infrastructure provider whose 'AI-ready' features are integrations of its core
+        database services rather than a specialized AI developer tool.
       decision_evidence:
-        - The product's primary identity is an 'open source data platform' offering managed Kafka, PostgreSQL, and ClickHouse.
+        - >-
+          The product's primary identity is an 'open source data platform' offering managed Kafka, PostgreSQL, and
+          ClickHouse.
         - The MCP support is a feature of the broader platform rather than an MCP-first product identity.
       category_candidates: []
       contrastive_reason: null

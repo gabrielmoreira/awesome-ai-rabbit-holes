@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__grovs__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,12 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: Grovs
         extracted_url: https://grovs.io
-        surrounding_text: "- [grovs-io/mcp](https://github.com/grovs-io/mcp) [![grovs-io/mcp MCP server](https://glama.ai/mcp/servers/grovs-io/mcp/badges/score.svg)](https://glama.ai/mcp/servers/grovs-io/mcp) 📇 ☁️ - Deep linking, attribution, analytics, and campaign management for mobile apps with [Grovs](https://grovs.io) — an open-source, privacy-first alternative to Branch and AppsFlyer. 16 tools for creating links, tracking installs and revenue, and configuring app settings."
+        surrounding_text: >-
+          - [grovs-io/mcp](https://github.com/grovs-io/mcp) [![grovs-io/mcp MCP
+          server](https://glama.ai/mcp/servers/grovs-io/mcp/badges/score.svg)](https://glama.ai/mcp/servers/grovs-io/mcp)
+          📇 ☁️ - Deep linking, attribution, analytics, and campaign management for mobile apps with
+          [Grovs](https://grovs.io) — an open-source, privacy-first alternative to Branch and AppsFlyer. 16 tools for
+          creating links, tracking installs and revenue, and configuring app settings.
         confidence: high
 metadata:
   github:
@@ -38,7 +43,9 @@ metadata:
     readme: null
 insights:
   summary: Grovs is an open-source, EU-hosted first-party attribution and deep linking platform for apps.
-  why_it_matters: It gives developers privacy-compliant, deterministic attribution without third-party data sharing or black-box tracking.
+  why_it_matters: >-
+    It gives developers privacy-compliant, deterministic attribution without third-party data sharing or black-box
+    tracking.
   mental_damage: Finally, an attribution tool that doesn’t make you feel like you’re selling your users’ souls to ad networks.
   tags:
     - attribution
@@ -49,21 +56,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Grovs is a marketing and analytics infrastructure tool focused on attribution, deep linking, and revenue tracking—not a developer-facing AI coding agent, app builder, framework, or related AI tooling product.
+  reason: >-
+    Grovs is a marketing and analytics infrastructure tool focused on attribution, deep linking, and revenue
+    tracking—not a developer-facing AI coding agent, app builder, framework, or related AI tooling product.
   evidence:
-    - The platform provides first-party attribution, deep linking, and revenue analytics for apps, with no mention of AI-assisted coding, app generation, or developer workflow enhancement.
-    - Its core value proposition centers on marketing, compliance, and cost savings for growth teams—not on assisting software developers with coding, agents, or AI tooling.
-    - While open source and offering an SDK, the product’s identity is as a growth/attribution engine, not an AI-powered developer tool.
+    - >-
+      The platform provides first-party attribution, deep linking, and revenue analytics for apps, with no mention of
+      AI-assisted coding, app generation, or developer workflow enhancement.
+    - >-
+      Its core value proposition centers on marketing, compliance, and cost savings for growth teams—not on assisting
+      software developers with coding, agents, or AI tooling.
+    - >-
+      While open source and offering an SDK, the product’s identity is as a growth/attribution engine, not an AI-powered
+      developer tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.668Z"
+    updated_at: '2026-05-06T22:12:15.668Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +87,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:50:40.328Z"
+    updated_at: '2026-09-28T04:50:40.328Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -85,11 +100,19 @@ processing:
       input_hash: sha256:c5e3458c53e1ad552bc336406fc57c737e2774727a0624f995d66b273e12cea0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Grovs is a marketing and analytics infrastructure tool focused on attribution, deep linking, and revenue tracking—not a developer-facing AI coding agent, app builder, framework, or related AI tooling product.
+      decision_reason: >-
+        Grovs is a marketing and analytics infrastructure tool focused on attribution, deep linking, and revenue
+        tracking—not a developer-facing AI coding agent, app builder, framework, or related AI tooling product.
       decision_evidence:
-        - The platform provides first-party attribution, deep linking, and revenue analytics for apps, with no mention of AI-assisted coding, app generation, or developer workflow enhancement.
-        - Its core value proposition centers on marketing, compliance, and cost savings for growth teams—not on assisting software developers with coding, agents, or AI tooling.
-        - While open source and offering an SDK, the product’s identity is as a growth/attribution engine, not an AI-powered developer tool.
+        - >-
+          The platform provides first-party attribution, deep linking, and revenue analytics for apps, with no mention
+          of AI-assisted coding, app generation, or developer workflow enhancement.
+        - >-
+          Its core value proposition centers on marketing, compliance, and cost savings for growth teams—not on
+          assisting software developers with coding, agents, or AI tooling.
+        - >-
+          While open source and offering an SDK, the product’s identity is as a growth/attribution engine, not an
+          AI-powered developer tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__iaptic__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,13 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: iaptic
         extracted_url: https://iaptic.com
-        surrounding_text: "- [iaptic/mcp-server-iaptic](https://github.com/iaptic/mcp-server-iaptic) 🎖️ 📇 ☁️ - Connect with [iaptic](https://www.iaptic.com) to ask about your Customer Purchases, Transaction data and App Revenue statistics."
+        surrounding_text: >-
+          - [iaptic/mcp-server-iaptic](https://github.com/iaptic/mcp-server-iaptic) 🎖️ 📇 ☁️ - Connect with
+          [iaptic](https://www.iaptic.com) to ask about your Customer Purchases, Transaction data and App Revenue
+          statistics.
         confidence: high
     - id: discovery__www__iaptic__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: iaptic
         extracted_url: https://www.iaptic.com
-        surrounding_text: "- [iaptic/mcp-server-iaptic](https://github.com/iaptic/mcp-server-iaptic) 🎖️ 📇 ☁️ - Connect with [iaptic](https://www.iaptic.com) to ask about your Customer Purchases, Transaction data and App Revenue statistics."
+        surrounding_text: >-
+          - [iaptic/mcp-server-iaptic](https://github.com/iaptic/mcp-server-iaptic) 🎖️ 📇 ☁️ - Connect with
+          [iaptic](https://www.iaptic.com) to ask about your Customer Purchases, Transaction data and App Revenue
+          statistics.
         confidence: high
 metadata:
   github:
@@ -53,9 +59,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Iaptic is a SaaS platform for in-app subscription validation, fraud detection, and revenue analytics with AI-powered insights.
-  why_it_matters: It saves developers time by offloading complex subscription infrastructure, allowing them to focus on app growth instead of building validation systems.
-  mental_damage: Another reminder that even 'AI-powered' dashboards often just mean a slightly smarter chart in a sea of SaaS tools selling peace of mind.
+  summary: >-
+    Iaptic is a SaaS platform for in-app subscription validation, fraud detection, and revenue analytics with AI-powered
+    insights.
+  why_it_matters: >-
+    It saves developers time by offloading complex subscription infrastructure, allowing them to focus on app growth
+    instead of building validation systems.
+  mental_damage: >-
+    Another reminder that even 'AI-powered' dashboards often just mean a slightly smarter chart in a sea of SaaS tools
+    selling peace of mind.
   tags:
     - saas
     - subscription-management
@@ -63,21 +75,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Iaptic is a subscription management and analytics SaaS platform with AI-powered insights as a feature, not a developer-facing AI tool, agent, or infrastructure product.
+  reason: >-
+    Iaptic is a subscription management and analytics SaaS platform with AI-powered insights as a feature, not a
+    developer-facing AI tool, agent, or infrastructure product.
   evidence:
-    - The platform focuses on secure receipt validation, fraud detection, subscription management, and revenue insights across mobile and web platforms.
-    - AI-powered insights are described as transforming data into actionable analytics for customer behavior and revenue trends, but the core product is subscription infrastructure.
-    - No evidence of code generation, agent behavior, IDE integration, prompt-to-app workflows, or AI developer tooling beyond analytics features.
+    - >-
+      The platform focuses on secure receipt validation, fraud detection, subscription management, and revenue insights
+      across mobile and web platforms.
+    - >-
+      AI-powered insights are described as transforming data into actionable analytics for customer behavior and revenue
+      trends, but the core product is subscription infrastructure.
+    - >-
+      No evidence of code generation, agent behavior, IDE integration, prompt-to-app workflows, or AI developer tooling
+      beyond analytics features.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:41:50.420Z"
+    updated_at: '2026-09-28T04:41:50.420Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,18 +110,26 @@ processing:
       input_hash: sha256:62fe9edb186da8c7b9ec4433c7afd8e694ec8a56aced5eeb7b51a91a8a2d3a85
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Iaptic is a subscription management and analytics SaaS platform with AI-powered insights as a feature, not a developer-facing AI tool, agent, or infrastructure product.
+      decision_reason: >-
+        Iaptic is a subscription management and analytics SaaS platform with AI-powered insights as a feature, not a
+        developer-facing AI tool, agent, or infrastructure product.
       decision_evidence:
-        - The platform focuses on secure receipt validation, fraud detection, subscription management, and revenue insights across mobile and web platforms.
-        - AI-powered insights are described as transforming data into actionable analytics for customer behavior and revenue trends, but the core product is subscription infrastructure.
-        - No evidence of code generation, agent behavior, IDE integration, prompt-to-app workflows, or AI developer tooling beyond analytics features.
+        - >-
+          The platform focuses on secure receipt validation, fraud detection, subscription management, and revenue
+          insights across mobile and web platforms.
+        - >-
+          AI-powered insights are described as transforming data into actionable analytics for customer behavior and
+          revenue trends, but the core product is subscription infrastructure.
+        - >-
+          No evidence of code generation, agent behavior, IDE integration, prompt-to-app workflows, or AI developer
+          tooling beyond analytics features.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause: null
     next_retry_at: null
   stars:

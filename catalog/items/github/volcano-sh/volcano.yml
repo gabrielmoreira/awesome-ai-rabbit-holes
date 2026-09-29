@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__volcano-sh__volcano__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Scheduling
         anchor_text: Volcano
         extracted_url: https://github.com/volcano-sh/volcano
-        surrounding_text: "| [Volcano](https://github.com/volcano-sh/volcano)    | A Cloud Native Batch System (Project under CNCF).                              | ![GitHub Badge](https://img.shields.io/github/stars/volcano-sh/volcano.svg?style=flat-square)    |"
+        surrounding_text: >-
+          | [Volcano](https://github.com/volcano-sh/volcano)    | A Cloud Native Batch System (Project under
+          CNCF).                              | ![GitHub
+          Badge](https://img.shields.io/github/stars/volcano-sh/volcano.svg?style=flat-square)    |
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: volcano-sh/volcano
     html_url: https://github.com/volcano-sh/volcano
-    created_at: "2019-03-14T09:47:29Z"
-    pushed_at: "2026-07-21T12:07:50Z"
+    created_at: '2019-03-14T09:47:29Z'
+    pushed_at: '2026-07-21T12:07:50Z'
     description: A Cloud Native Batch System (Project under CNCF)
     homepage: https://volcano.sh
     topics:
@@ -45,14 +48,18 @@ metadata:
       - machine-learning
       - serving
       - training
-    last_checked_at: "2026-07-21T15:21:07.694Z"
+    last_checked_at: '2026-07-21T15:21:07.694Z'
     readme:
-      fetched_at: "2026-07-21T15:21:07.694Z"
+      fetched_at: '2026-07-21T15:21:07.694Z'
       bytes: 17236
 insights:
   summary: A Kubernetes-native batch scheduling system for high-performance computing, AI/ML training, and big data workloads.
-  why_it_matters: Provides gang scheduling and resource optimization for distributed AI training jobs on Kubernetes clusters, handling frameworks like TensorFlow, PyTorch, and Ray.
-  mental_damage: Nothing says 'AI rabbit hole' like realizing you need a CNCF-certified Kubernetes batch scheduler before you can fine-tune your first LoRA.
+  why_it_matters: >-
+    Provides gang scheduling and resource optimization for distributed AI training jobs on Kubernetes clusters, handling
+    frameworks like TensorFlow, PyTorch, and Ray.
+  mental_damage: >-
+    Nothing says 'AI rabbit hole' like realizing you need a CNCF-certified Kubernetes batch scheduler before you can
+    fine-tune your first LoRA.
   tags:
     - kubernetes
     - batch-scheduler
@@ -62,31 +69,37 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is infrastructure for cluster resource scheduling rather than a developer-facing coding assistant, agent, or app-building tool; it belongs in MLOps/platform engineering catalogs, not a curated list of AI coding rabbit holes.
+  reason: >-
+    This is infrastructure for cluster resource scheduling rather than a developer-facing coding assistant, agent, or
+    app-building tool; it belongs in MLOps/platform engineering catalogs, not a curated list of AI coding rabbit holes.
   evidence:
     - Repo description identifies it as a 'Cloud Native Batch System' under CNCF, not a coding assistant or IDE.
-    - README emphasizes Kubernetes scheduling for Spark, Flink, TensorFlow, and PyTorch batch workloads, not developer coding workflows or agent orchestration.
-    - Categorized in Awesome-LLMOps under 'Large Scale Deployment > Scheduling', confirming its role as infrastructure rather than a developer tool.
+    - >-
+      README emphasizes Kubernetes scheduling for Spark, Flink, TensorFlow, and PyTorch batch workloads, not developer
+      coding workflows or agent orchestration.
+    - >-
+      Categorized in Awesome-LLMOps under 'Large Scale Deployment > Scheduling', confirming its role as infrastructure
+      rather than a developer tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (5553) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:07.694Z"
+    updated_at: '2026-07-21T15:21:07.694Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.169Z"
+    updated_at: '2026-09-28T04:14:00.169Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

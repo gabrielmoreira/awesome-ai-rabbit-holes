@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__google__perfetto__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Perfetto
         extracted_url: https://perfetto.dev
-        surrounding_text: "- [tooluse-labs/perfetto-mcp-rs](https://github.com/tooluse-labs/perfetto-mcp-rs) [![tooluse-labs/perfetto-mcp-rs MCP server](https://glama.ai/mcp/servers/tooluse-labs/perfetto-mcp-rs/badges/score.svg)](https://glama.ai/mcp/servers/tooluse-labs/perfetto-mcp-rs) 🦀 🏠 🍎 🪟 🐧 - MCP server for [Perfetto](https://perfetto.dev) trace analysis. Runs PerfettoSQL queries on `.perfetto-trace` / `.pftrace` files via auto-downloaded `trace_processor_shell`, with dedicated Chrome tools for page loads, scroll jank, main-thread hotspots, and stdlib module discovery. Cross-client tested on Claude Code and Codex. Available via `cargo install`, Homebrew tap, and curl install script."
+        surrounding_text: >-
+          - [tooluse-labs/perfetto-mcp-rs](https://github.com/tooluse-labs/perfetto-mcp-rs)
+          [![tooluse-labs/perfetto-mcp-rs MCP
+          server](https://glama.ai/mcp/servers/tooluse-labs/perfetto-mcp-rs/badges/score.svg)](https://glama.ai/mcp/servers/tooluse-labs/perfetto-mcp-rs)
+          🦀 🏠 🍎 🪟 🐧 - MCP server for [Perfetto](https://perfetto.dev) trace analysis. Runs PerfettoSQL queries on
+          `.perfetto-trace` / `.pftrace` files via auto-downloaded `trace_processor_shell`, with dedicated Chrome tools
+          for page loads, scroll jank, main-thread hotspots, and stdlib module discovery. Cross-client tested on Claude
+          Code and Codex. Available via `cargo install`, Homebrew tap, and curl install script.
         confidence: high
 metadata:
   github:
@@ -30,18 +37,20 @@ metadata:
     archived: false
     full_name: google/perfetto
     html_url: https://github.com/google/perfetto
-    created_at: "2019-12-10T10:32:44Z"
-    pushed_at: "2026-09-03T00:09:27Z"
+    created_at: '2019-12-10T10:32:44Z'
+    pushed_at: '2026-09-03T00:09:27Z'
     description: Production-grade client-side tracing, profiling, and analysis for complex software systems.
     homepage: https://www.perfetto.dev
     topics: []
-    last_checked_at: "2026-09-03T05:16:52.069Z"
+    last_checked_at: '2026-09-03T05:16:52.069Z'
     readme:
-      fetched_at: "2026-09-03T05:16:52.069Z"
+      fetched_at: '2026-09-03T05:16:52.069Z'
       bytes: 4599
 insights:
   summary: Production-grade client-side tracing, profiling, and analysis suite for complex software systems.
-  why_it_matters: Helps developers root-cause performance issues in Android, Chromium, Linux, and C/C++ applications via unified tracing and SQL-based analysis.
+  why_it_matters: >-
+    Helps developers root-cause performance issues in Android, Chromium, Linux, and C/C++ applications via unified
+    tracing and SQL-based analysis.
   mental_damage: Finally, a way to prove that the jank was the kernel's fault all along.
   tags:
     - tracing
@@ -52,31 +61,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Perfetto is a performance tracing/profiling toolkit, not an AI developer tool, and does not fit the catalog's scope of AI workflows, agents, or adjacent infrastructure.
+  reason: >-
+    Perfetto is a performance tracing/profiling toolkit, not an AI developer tool, and does not fit the catalog's scope
+    of AI workflows, agents, or adjacent infrastructure.
   evidence:
     - Repo description explicitly frames it as tracing/profiling for complex systems
     - README emphasizes OS-level probes, SDKs, and trace analysis, with no AI/agent workflows
-    - Source-list context shows it listed under MCP servers, but MCP is only a compatibility footnote, not the product identity
+    - >-
+      Source-list context shows it listed under MCP servers, but MCP is only a compatibility footnote, not the product
+      identity
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (5897) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:52.069Z"
+    updated_at: '2026-09-03T05:16:52.069Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -91,11 +104,15 @@ processing:
       input_hash: sha256:495b14bc1ce596077ee645abfdbf5a196bcc06c7b2e94718b163dc92b0e8f9a2
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Perfetto is a performance tracing/profiling toolkit, not an AI developer tool, and does not fit the catalog's scope of AI workflows, agents, or adjacent infrastructure.
+      decision_reason: >-
+        Perfetto is a performance tracing/profiling toolkit, not an AI developer tool, and does not fit the catalog's
+        scope of AI workflows, agents, or adjacent infrastructure.
       decision_evidence:
         - Repo description explicitly frames it as tracing/profiling for complex systems
         - README emphasizes OS-level probes, SDKs, and trace analysis, with no AI/agent workflows
-        - Source-list context shows it listed under MCP servers, but MCP is only a compatibility footnote, not the product identity
+        - >-
+          Source-list context shows it listed under MCP servers, but MCP is only a compatibility footnote, not the
+          product identity
       category_candidates: []
       contrastive_reason: null
       review_reason: null

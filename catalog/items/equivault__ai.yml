@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__equivault__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: EquiVault
         extracted_url: https://equivault.ai
-        surrounding_text: "- [equivault/equivault-mcp](https://github.com/equivault/equivault-mcp) [![equivault/equivault-mcp MCP server](https://glama.ai/mcp/servers/equivault/equivault-mcp/badges/score.svg)](https://glama.ai/mcp/servers/equivault/equivault-mcp) 🎖️ 📇 ☁️ - Official [EquiVault](https://equivault.ai) MCP — AI-powered equity research for Claude. 38 tools covering company fundamentals, financial statements, ratios & metrics, stock quotes, screening, peer comparison, investment narrative, guidance tracking, segments, capital allocation, insider transactions, earnings quality, signals intelligence, alerts, briefs, portfolio analytics, and more. Tier-aware with graceful upgrade prompts. Install via `npx equivault-mcp`."
+        surrounding_text: >-
+          - [equivault/equivault-mcp](https://github.com/equivault/equivault-mcp) [![equivault/equivault-mcp MCP
+          server](https://glama.ai/mcp/servers/equivault/equivault-mcp/badges/score.svg)](https://glama.ai/mcp/servers/equivault/equivault-mcp)
+          🎖️ 📇 ☁️ - Official [EquiVault](https://equivault.ai) MCP — AI-powered equity research for Claude. 38 tools
+          covering company fundamentals, financial statements, ratios & metrics, stock quotes, screening, peer
+          comparison, investment narrative, guidance tracking, segments, capital allocation, insider transactions,
+          earnings quality, signals intelligence, alerts, briefs, portfolio analytics, and more. Tier-aware with
+          graceful upgrade prompts. Install via `npx equivault-mcp`.
         confidence: high
 metadata:
   github:
@@ -37,8 +44,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered equity research platform that parses financial filings and earnings transcripts to extract and explain financial metrics.
-  why_it_matters: It automates the extraction of structured financial data and causal reasoning from dense SEC filings and transcripts.
+  summary: >-
+    An AI-powered equity research platform that parses financial filings and earnings transcripts to extract and explain
+    financial metrics.
+  why_it_matters: >-
+    It automates the extraction of structured financial data and causal reasoning from dense SEC filings and
+    transcripts.
   mental_damage: Now you can spend 20 minutes instead of 8 hours feeling guilty about not being a quantitative analyst.
   tags:
     - equity-research
@@ -56,12 +67,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,10 +81,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:39:19.010Z"
+    updated_at: '2026-09-24T04:39:19.010Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for equivault__ai: Invalid AI response structure: Invalid confidence value: undefined"
+      message: >-
+        Catalog LLM categorization failed for equivault__ai: Invalid AI response structure: Invalid confidence value:
+        undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -85,7 +98,9 @@ processing:
       input_hash: sha256:ae2758607d45c6819ba3b1595c14ea1229e56ae9c2f2ad5878c13ac4f3df3481
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a domain-specific SaaS for financial analysis rather than a developer-facing tool or infrastructure.
+      decision_reason: >-
+        The product is a domain-specific SaaS for financial analysis rather than a developer-facing tool or
+        infrastructure.
       decision_evidence:
         - Targeted at equity research and financial analysis (10-Ks, earnings transcripts)
         - Main value is generating financial investment theses, not writing/testing code

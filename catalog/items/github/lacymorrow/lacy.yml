@@ -1,0 +1,76 @@
+id: github__lacymorrow__lacy
+kind: github-repo
+name: lacymorrow/lacy
+canonical_url: https://github.com/lacymorrow/lacy
+identity:
+  github_repo: lacymorrow/lacy
+provenance:
+  discoveries:
+    - id: discovery__github__lacymorrow__lacy__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - CLI Tools
+        anchor_text: Lacy Shell
+        extracted_url: https://lacy.sh
+        surrounding_text: >-
+          - **[Lacy Shell](https://lacy.sh)** – ZSH/Bash plugin that auto-detects commands vs natural language and
+          routes to the right place. Shell commands run normally; questions go to your AI agent (Claude Code, Gemini
+          CLI, OpenCode, etc). Sub-millisecond lexical detection, no API calls.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Lacy Shell – ZSH/Bash plugin that auto-detects commands vs natural language and routes to the right place. Shell
+    commands run normally; questions go to your AI agent (Claude Code, Gemini CLI, OpenCode, etc). Sub-millisecond
+    lexical detection, no API calls.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
+  evidence:
+    - jev-latest choice confidence 0.48
+placement:
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.465Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

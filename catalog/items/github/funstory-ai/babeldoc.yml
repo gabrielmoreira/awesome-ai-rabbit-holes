@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__funstory-ai__babeldoc__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 数据 Data
         anchor_text: BabelDOC
         extracted_url: https://github.com/funstory-ai/babeldoc
-        surrounding_text: "34. [BabelDOC](https://github.com/funstory-ai/BabelDOC): PDF scientific paper translation and bilingual comparison library."
+        surrounding_text: >-
+          34. [BabelDOC](https://github.com/funstory-ai/BabelDOC): PDF scientific paper translation and bilingual
+          comparison library.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: funstory-ai/BabelDOC
     html_url: https://github.com/funstory-ai/BabelDOC
-    created_at: "2024-11-13T13:57:29Z"
-    pushed_at: "2026-08-05T20:40:20Z"
+    created_at: '2024-11-13T13:57:29Z'
+    pushed_at: '2026-08-05T20:40:20Z'
     description: Yet Another Document Translator
     homepage: https://funstory-ai.github.io/BabelDOC/
     topics: []
-    last_checked_at: "2026-09-03T05:16:44.545Z"
+    last_checked_at: '2026-09-03T05:16:44.545Z'
     readme:
-      fetched_at: "2026-09-03T05:16:44.545Z"
+      fetched_at: '2026-09-03T05:16:44.545Z'
       bytes: 27158
 insights:
   summary: An automated document translation tool designed to handle various file formats.
-  why_it_matters: It simplifies the process of converting and translating complex documents, potentially streamlining multilingual documentation workflows.
+  why_it_matters: >-
+    It simplifies the process of converting and translating complex documents, potentially streamlining multilingual
+    documentation workflows.
   mental_damage: Another specialized tool to add to the growing pile of 'yet another' specialized tools.
   tags:
     - translation
@@ -49,7 +53,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a general-purpose document translator and does not fit the catalog's focus on developer-specific AI tooling, agents, or infrastructure.
+  reason: >-
+    The tool is a general-purpose document translator and does not fit the catalog's focus on developer-specific AI
+    tooling, agents, or infrastructure.
   evidence:
     - Repo description identifies it as 'Yet Another Document Translator'
     - Functionality is centered on document translation rather than coding workflows, IDEs, or agent orchestration
@@ -58,22 +64,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (8395) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:44.545Z"
+    updated_at: '2026-09-03T05:16:44.545Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -88,7 +94,9 @@ processing:
       input_hash: sha256:2a01555f82944d25a8a020c878ccae53a7d230f21919ab0e85b2cfc78967cbfe
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a general-purpose document translator and does not fit the catalog's focus on developer-specific AI tooling, agents, or infrastructure.
+      decision_reason: >-
+        The tool is a general-purpose document translator and does not fit the catalog's focus on developer-specific AI
+        tooling, agents, or infrastructure.
       decision_evidence:
         - Repo description identifies it as 'Yet Another Document Translator'
         - Functionality is centered on document translation rather than coding workflows, IDEs, or agent orchestration

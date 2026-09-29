@@ -30,8 +30,6 @@ export type Source = {
 export type CatalogItemKind = "github-repo" | "website" | "article" | "paper" | "tool";
 
 export type LifecycleStatus =
-  | "incubating"
-  | "promotion_candidate"
   | "curated"
   | "landmark"
   | "watchlist"
@@ -192,9 +190,6 @@ export type Category = {
 };
 
 export type CatalogConfig = {
-  promotion: {
-    incubating_until_stars: number;
-  };
   github: {
     metadata_refresh_days: number;
   };
@@ -203,13 +198,11 @@ export type CatalogConfig = {
 export type ReviewReport = {
   new_items: string[];
   updated_metadata: string[];
-  promotion_candidates: string[];
   needs_review: string[];
   new_discovery_sources: string[];
 };
 
 export type AppSettings = {
-  promotion: { incubating_until_stars: number };
   github: { metadata_refresh_days: number };
   budgets: { discover_minutes: number; stars_minutes: number; categorize_minutes: number };
   concurrency: { github: number; site: number; llm: number };

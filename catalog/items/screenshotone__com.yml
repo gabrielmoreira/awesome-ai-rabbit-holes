@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__screenshotone__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: ScreenshotOne
         extracted_url: https://screenshotone.com
-        surrounding_text: "- **[ScreenshotOne](https://github.com/screenshotone/mcp/)** - Render website screenshots with [ScreenshotOne](https://screenshotone.com/)"
+        surrounding_text: >-
+          - **[ScreenshotOne](https://github.com/screenshotone/mcp/)** - Render website screenshots with
+          [ScreenshotOne](https://screenshotone.com/)
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ScreenshotOne is a developer API for capturing website screenshots, PDFs, and scrolling videos with built-in ad and banner blocking.
-  why_it_matters: It lets developers automate visual testing, documentation, or AI agent workflows without managing browser infrastructure or handling edge cases like lazy loading or consent popups.
-  mental_damage: Another API to wrap in retry logic when the screenshot service randomly fails on Fridays because of a new cookie banner heuristic.
+  summary: >-
+    ScreenshotOne is a developer API for capturing website screenshots, PDFs, and scrolling videos with built-in ad and
+    banner blocking.
+  why_it_matters: >-
+    It lets developers automate visual testing, documentation, or AI agent workflows without managing browser
+    infrastructure or handling edge cases like lazy loading or consent popups.
+  mental_damage: >-
+    Another API to wrap in retry logic when the screenshot service randomly fails on Fridays because of a new cookie
+    banner heuristic.
   tags:
     - screenshot
     - api
@@ -48,21 +56,29 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: ScreenshotOne is a standalone API service that provides screenshot capabilities as an integration for developers and AI agents, not a coding agent, framework, or orchestration platform itself.
+  reason: >-
+    ScreenshotOne is a standalone API service that provides screenshot capabilities as an integration for developers and
+    AI agents, not a coding agent, framework, or orchestration platform itself.
   evidence:
-    - "Listed in awesome-mcp-servers as an MCP server under 'Official Servers' with description: 'Capture reliable website screenshots, PDFs, and scrolling videos with one developer-friendly API.'"
-    - Provides SDKs for multiple languages (Java, Go, Node.js, Python, Ruby, C#, PHP) to generate screenshots via HTTP API calls.
-    - Marketed as 'The screenshot API for developers' with features like ad/banner blocking, dark mode, custom JS/CSS, and full-page rendering for AI agents to 'give your AI agents eyes for the web'.
+    - >-
+      Listed in awesome-mcp-servers as an MCP server under 'Official Servers' with description: 'Capture reliable
+      website screenshots, PDFs, and scrolling videos with one developer-friendly API.'
+    - >-
+      Provides SDKs for multiple languages (Java, Go, Node.js, Python, Ruby, C#, PHP) to generate screenshots via HTTP
+      API calls.
+    - >-
+      Marketed as 'The screenshot API for developers' with features like ad/banner blocking, dark mode, custom JS/CSS,
+      and full-page rendering for AI agents to 'give your AI agents eyes for the web'.
 placement:
   primary_category: extensions-and-addons
   section: API & Service Integrations
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +87,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:36:51.035Z"
+    updated_at: '2026-09-28T04:36:51.035Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +100,24 @@ processing:
       input_hash: sha256:e767eb2a45358613dbf06337113cd47e551796219263a7273e2be0fa17b971d1
       proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: ScreenshotOne is a standalone API service that provides screenshot capabilities as an integration for developers and AI agents, not a coding agent, framework, or orchestration platform itself.
+      decision_reason: >-
+        ScreenshotOne is a standalone API service that provides screenshot capabilities as an integration for developers
+        and AI agents, not a coding agent, framework, or orchestration platform itself.
       decision_evidence:
-        - "Listed in awesome-mcp-servers as an MCP server under 'Official Servers' with description: 'Capture reliable website screenshots, PDFs, and scrolling videos with one developer-friendly API.'"
-        - Provides SDKs for multiple languages (Java, Go, Node.js, Python, Ruby, C#, PHP) to generate screenshots via HTTP API calls.
-        - Marketed as 'The screenshot API for developers' with features like ad/banner blocking, dark mode, custom JS/CSS, and full-page rendering for AI agents to 'give your AI agents eyes for the web'.
+        - >-
+          Listed in awesome-mcp-servers as an MCP server under 'Official Servers' with description: 'Capture reliable
+          website screenshots, PDFs, and scrolling videos with one developer-friendly API.'
+        - >-
+          Provides SDKs for multiple languages (Java, Go, Node.js, Python, Ruby, C#, PHP) to generate screenshots via
+          HTTP API calls.
+        - >-
+          Marketed as 'The screenshot API for developers' with features like ad/banner blocking, dark mode, custom
+          JS/CSS, and full-page rendering for AI agents to 'give your AI agents eyes for the web'.
       category_candidates:
         - extensions-and-addons
         - mcp
-      contrastive_reason: Choose extensions-and-addons over mcp because while ScreenshotOne appears in MCP server lists, its primary identity is a screenshot API service — MCP compatibility is a feature, not its core product purpose.
+      contrastive_reason: >-
+        Choose extensions-and-addons over mcp because while ScreenshotOne appears in MCP server lists, its primary
+        identity is a screenshot API service — MCP compatibility is a feature, not its core product purpose.
       review_reason: null
       review_resume_lifecycle: null

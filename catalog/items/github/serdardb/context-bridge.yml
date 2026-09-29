@@ -1,0 +1,80 @@
+id: github__serdardb__context-bridge
+kind: github-repo
+name: serdardb/context-bridge
+canonical_url: https://github.com/serdardb/context-bridge
+identity:
+  github_repo: serdardb/context-bridge
+provenance:
+  discoveries:
+    - id: discovery__github__serdardb__context-bridge__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: context-bridge
+        extracted_url: https://github.com/serdardb/context-bridge
+        surrounding_text: >-
+          - **[context-bridge](https://github.com/serdardb/context-bridge)** `⭐ 4` — Hands a live coding session from
+          one CLI agent to another without losing the thread: each agent keeps its own native session and the bridge
+          transfers only the delta the next one is missing, via `/bridge codex` inside Claude Code or `$bridge claude`
+          elsewhere. Covers Claude Code, Codex, Grok, Antigravity, and OpenCode; no API keys — it drives the
+          subscription-authenticated CLIs already installed. Node, npm `@serdardb/context-bridge`, MIT.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    context-bridge ⭐ 4 — Hands a live coding session from one CLI agent to another without losing the thread: each agent
+    keeps its own native session and the bridge transfers only the delta the next one is missing, via /bridge codex
+    inside Claude Code or $bridge claude elsewhere. Covers Claude Code, Codex, Grok, Antigravity, and OpenCode; no API
+    keys — it drives the subscription-authenticated CLIs already installed. Node, npm @serdardb/context-bridge, MIT.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Context & Session Management
+  evidence:
+    - jev-latest choice confidence 0.87
+placement:
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Context & Session Management
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.476Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

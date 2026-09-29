@@ -1,0 +1,74 @@
+id: github__tanstack__ai
+kind: github-repo
+name: tanstack/ai
+canonical_url: https://github.com/tanstack/ai
+identity:
+  github_repo: tanstack/ai
+provenance:
+  discoveries:
+    - id: discovery__github__tanstack__ai__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Framework integrations
+        anchor_text: TanStack AI
+        extracted_url: https://github.com/tanstack/ai
+        surrounding_text: >-
+          - [TanStack AI](https://github.com/TanStack/ai) - `@tanstack/ai-typesafe` adapter exposing typed Boolean,
+          Choice, and Score decisions through TanStack AI's `decide()` API.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    TanStack AI - @tanstack/ai-typesafe adapter exposing typed Boolean, Choice, and Score decisions through TanStack
+    AI's decide() API.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Framework & SDK Integrations
+  evidence:
+    - jev-latest choice confidence 0.60
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Framework & SDK Integrations
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.479Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

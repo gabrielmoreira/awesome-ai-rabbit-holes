@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__astandrik__local-ydb-toolkit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: astandrik/local-ydb-toolkit
         extracted_url: https://github.com/astandrik/local-ydb-toolkit
-        surrounding_text: "- [astandrik/local-ydb-toolkit](https://github.com/astandrik/local-ydb-toolkit) [![local-ydb-toolkit MCP server](https://glama.ai/mcp/servers/astandrik/local-ydb-toolkit/badges/score.svg)](https://glama.ai/mcp/servers/astandrik/local-ydb-toolkit) 📇 🏠 - Local YDB MCP is a TypeScript stdio MCP server for operating Docker-based local-ydb deployments via local or SSH-backed profiles. Supports bootstrap, diagnostics, auth hardening, storage workflows, dump/restore, upgrades, and plan-first mutating operations."
+        surrounding_text: >-
+          - [astandrik/local-ydb-toolkit](https://github.com/astandrik/local-ydb-toolkit) [![local-ydb-toolkit MCP
+          server](https://glama.ai/mcp/servers/astandrik/local-ydb-toolkit/badges/score.svg)](https://glama.ai/mcp/servers/astandrik/local-ydb-toolkit)
+          📇 🏠 - Local YDB MCP is a TypeScript stdio MCP server for operating Docker-based local-ydb deployments via
+          local or SSH-backed profiles. Supports bootstrap, diagnostics, auth hardening, storage workflows,
+          dump/restore, upgrades, and plan-first mutating operations.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: astandrik/local-ydb-toolkit
     html_url: https://github.com/astandrik/local-ydb-toolkit
-    created_at: "2026-04-25T11:16:36Z"
-    pushed_at: "2026-09-10T07:18:46Z"
+    created_at: '2026-04-25T11:16:36Z'
+    pushed_at: '2026-09-10T07:18:46Z'
     description: Codex skill and MCP server for operating Docker-based local YDB deployments, locally or over SSH.
     homepage: https://local-ydb-toolkit.ydb-qdrant.tech/
     topics:
@@ -44,14 +49,20 @@ metadata:
       - operations
       - skill
       - ydb
-    last_checked_at: "2026-09-21T04:13:49.182Z"
+    last_checked_at: '2026-09-21T04:13:49.182Z'
     readme:
-      fetched_at: "2026-09-21T04:13:49.182Z"
+      fetched_at: '2026-09-21T04:13:49.182Z'
       bytes: 61467
 insights:
-  summary: A toolkit providing a Codex skill and an MCP server for managing Docker-based local YDB deployments via local or SSH connections.
-  why_it_matters: It enables AI agents to autonomously handle the entire lifecycle of local YDB environments, including bootstrapping, DDL application, and storage management.
-  mental_damage: Because we've officially reached the stage where we need to delegate the management of ephemeral database containers to an LLM.
+  summary: >-
+    A toolkit providing a Codex skill and an MCP server for managing Docker-based local YDB deployments via local or SSH
+    connections.
+  why_it_matters: >-
+    It enables AI agents to autonomously handle the entire lifecycle of local YDB environments, including bootstrapping,
+    DDL application, and storage management.
+  mental_damage: >-
+    Because we've officially reached the stage where we need to delegate the management of ephemeral database containers
+    to an LLM.
   tags:
     - mcp
     - ydb
@@ -61,7 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project functions as a specialized MCP server and Codex skill set designed to provide agents with direct, domain-specific control over YDB database operations.
+  reason: >-
+    The project functions as a specialized MCP server and Codex skill set designed to provide agents with direct,
+    domain-specific control over YDB database operations.
   evidence:
     - Repo description explicitly identifies it as a Codex skill and MCP server.
     - README details specific capabilities for agents, such as bootstrap, DDL generation, and lifecycle management.
@@ -71,22 +84,22 @@ placement:
   secondary_categories: []
   section: Data & Databases
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.818Z"
+    updated_at: '2026-05-28T05:28:09.818Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:49.182Z"
+    updated_at: '2026-09-21T04:13:49.182Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:27:55.260Z"
+    updated_at: '2026-09-21T04:27:55.260Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -99,7 +112,9 @@ processing:
       input_hash: sha256:4c6380e9cf07c63d4fe5112b0d596f2baef998431837c4fd99fffe170c7e3e8f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project functions as a specialized MCP server and Codex skill set designed to provide agents with direct, domain-specific control over YDB database operations.
+      decision_reason: >-
+        The project functions as a specialized MCP server and Codex skill set designed to provide agents with direct,
+        domain-specific control over YDB database operations.
       decision_evidence:
         - Repo description explicitly identifies it as a Codex skill and MCP server.
         - README details specific capabilities for agents, such as bootstrap, DDL generation, and lifecycle management.
@@ -107,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product's identity is centered on providing a protocol-based interface for YDB capabilities rather than just a generic workflow integration for a coding editor.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product's identity is centered on providing a protocol-based
+        interface for YDB capabilities rather than just a generic workflow integration for a coding editor.
       review_reason: null
       review_resume_lifecycle: null

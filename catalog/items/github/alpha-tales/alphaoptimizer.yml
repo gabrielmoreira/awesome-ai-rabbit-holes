@@ -1,0 +1,97 @@
+id: github__alpha-tales__alphaoptimizer
+kind: github-repo
+name: alpha-tales/alphaoptimizer
+canonical_url: https://github.com/alpha-tales/alphaoptimizer
+identity:
+  github_repo: alpha-tales/alphaoptimizer
+provenance:
+  discoveries:
+    - id: discovery__github__alpha-tales__alphaoptimizer__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: AlphaOptimizer
+        extracted_url: https://github.com/alpha-tales/alphaoptimizer
+        surrounding_text: >-
+          - [AlphaOptimizer](https://github.com/alpha-tales/alphaoptimizer) - Compact large Codex/tool outputs locally;
+          optional TypeSafe Jev ranks relevant chunks (BYOK). [Project
+          guide](community/projects/tools/alphaoptimizer.md).
+        confidence: high
+    - id: discovery__github__alpha-tales__alphaoptimizer__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Context GC
+        anchor_text: '**alphaoptimizer**'
+        extracted_url: https://github.com/alpha-tales/alphaoptimizer
+        surrounding_text: >-
+          - [**alphaoptimizer**](https://github.com/alpha-tales/alphaoptimizer) — AlphaOptimizer is an open-source tool
+          from AlphaTales that helps Codex work with large command and tool outputs. Instead of sending a huge log or
+          search result straight into the context window, AlphaOptimizer keeps the useful parts visible, keeps the
+          original output available for a limited time, and uses Jev to help rank what matters when an API key is
+          configured.
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: alpha-tales/alphaoptimizer
+    html_url: https://github.com/alpha-tales/alphaoptimizer
+    created_at: '2026-09-22T08:42:25Z'
+    pushed_at: '2026-09-24T06:19:56Z'
+    description: Jev-powered output optimization for Codex, built to keep large tool results concise and usable.
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:08:53.501Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:53.501Z'
+      bytes: 9177
+insights:
+  summary: Jev-powered output optimization for Codex, built to keep large tool results concise and usable.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
+  evidence:
+    - jev-latest choice confidence 0.58
+placement:
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Compression & Token Optimization
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.409Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:53.501Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

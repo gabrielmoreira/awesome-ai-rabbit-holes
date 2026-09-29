@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cli__cli__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,9 @@ provenance:
           - CLI Tools
         anchor_text: GitHub Copilot CLI
         extracted_url: https://github.com/cli/cli
-        surrounding_text: "- **[GitHub Copilot CLI](https://github.com/cli/cli/tree/trunk/pkg/cmd/copilot)** – GitHub's AI assistant for command-line with context-aware suggestions."
+        surrounding_text: >-
+          - **[GitHub Copilot CLI](https://github.com/cli/cli/tree/trunk/pkg/cmd/copilot)** – GitHub's AI assistant for
+          command-line with context-aware suggestions.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: cli/cli
     html_url: https://github.com/cli/cli
-    created_at: "2019-10-03T15:24:53Z"
-    pushed_at: "2026-09-05T13:53:30Z"
+    created_at: '2019-10-03T15:24:53Z'
+    pushed_at: '2026-09-05T13:53:30Z'
     description: GitHub’s official command line tool
     homepage: https://cli.github.com
     topics:
@@ -38,13 +40,17 @@ metadata:
       - git
       - github-api-v4
       - golang
-    last_checked_at: "2026-09-07T04:13:46.845Z"
+    last_checked_at: '2026-09-07T04:13:46.845Z'
     readme:
-      fetched_at: "2026-09-07T04:13:46.845Z"
+      fetched_at: '2026-09-07T04:13:46.845Z'
       bytes: 6262
 insights:
-  summary: GitHub’s official command line tool for interacting with GitHub repositories, issues, and pull requests from the terminal.
-  why_it_matters: It brings GitHub workflows directly to the terminal, reducing context switching for developers already working in CLI environments.
+  summary: >-
+    GitHub’s official command line tool for interacting with GitHub repositories, issues, and pull requests from the
+    terminal.
+  why_it_matters: >-
+    It brings GitHub workflows directly to the terminal, reducing context switching for developers already working in
+    CLI environments.
   mental_damage: Finally, a way to argue with PR reviewers without leaving the comfort of your terminal.
   tags:
     - github
@@ -54,7 +60,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose GitHub CLI tool with no AI-specific functionality, falling outside the catalog's scope of AI-powered developer tools.
+  reason: >-
+    This is a general-purpose GitHub CLI tool with no AI-specific functionality, falling outside the catalog's scope of
+    AI-powered developer tools.
   evidence:
     - Repo description explicitly states it is GitHub’s official command line tool
     - README focuses on GitHub API interactions, not AI assistance
@@ -63,22 +71,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (44250) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:46.845Z"
+    updated_at: '2026-09-07T04:13:46.845Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -93,7 +101,9 @@ processing:
       input_hash: sha256:1f15fc8cd01b2fcf6e69ffe317d71ac993a02fd2141f89ab4a579d33061bb126
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a general-purpose GitHub CLI tool with no AI-specific functionality, falling outside the catalog's scope of AI-powered developer tools.
+      decision_reason: >-
+        This is a general-purpose GitHub CLI tool with no AI-specific functionality, falling outside the catalog's scope
+        of AI-powered developer tools.
       decision_evidence:
         - Repo description explicitly states it is GitHub’s official command line tool
         - README focuses on GitHub API interactions, not AI assistance

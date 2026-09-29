@@ -1,0 +1,79 @@
+id: github__mishanefedov__agentwatch
+kind: github-repo
+name: mishanefedov/agentwatch
+canonical_url: https://github.com/mishanefedov/agentwatch
+identity:
+  github_repo: mishanefedov/agentwatch
+provenance:
+  discoveries:
+    - id: discovery__github__mishanefedov__agentwatch__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: agentwatch
+        extracted_url: https://github.com/mishanefedov/agentwatch
+        surrounding_text: >-
+          - **[agentwatch](https://github.com/mishanefedov/agentwatch)** – Local-only TUI + web dashboard observing
+          every AI coding agent on your machine (Claude Code, Codex, Gemini CLI, Cursor, Hermes, OpenClaw) on one
+          unified timeline. Per-turn token + cost accounting with cache-hit weighting, MAD z-score anomaly detection,
+          context compaction visualizer, hybrid semantic search, MCP server mode, and OpenTelemetry exporter. No cloud,
+          no telemetry. Free and MIT.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    agentwatch – Local-only TUI + web dashboard observing every AI coding agent on your machine (Claude Code, Codex,
+    Gemini CLI, Cursor, Hermes, OpenClaw) on one unified timeline. Per-turn token + cost accounting with cache-hit
+    weighting, MAD z-score anomaly detection, context compaction visualizer, hybrid semantic search, MCP server mode,
+    and OpenTelemetry exporter. No cloud, no telemetry. Free and MIT.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
+  evidence:
+    - jev-latest choice confidence 0.91
+placement:
+  primary_category: evals
+  secondary_categories: []
+  section: Observability & Tracing
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.468Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

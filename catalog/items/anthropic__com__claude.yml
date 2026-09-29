@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__anthropic__com__claude__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Code Models
         anchor_text: Claude (Anthropic)
         extracted_url: https://anthropic.com/claude
-        surrounding_text: "- **[Claude (Anthropic)](https://www.anthropic.com/claude)** – Opus and Sonnet models dominate coding benchmarks in 2026; Claude Code is built on them."
+        surrounding_text: >-
+          - **[Claude (Anthropic)](https://www.anthropic.com/claude)** – Opus and Sonnet models dominate coding
+          benchmarks in 2026; Claude Code is built on them.
         confidence: high
     - id: discovery__www__anthropic__com__claude__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +35,9 @@ provenance:
           - Code Models
         anchor_text: Claude (Anthropic)
         extracted_url: https://www.anthropic.com/claude
-        surrounding_text: "- **[Claude (Anthropic)](https://www.anthropic.com/claude)** – Opus and Sonnet models dominate coding benchmarks in 2026; Claude Code is built on them."
+        surrounding_text: >-
+          - **[Claude (Anthropic)](https://www.anthropic.com/claude)** – Opus and Sonnet models dominate coding
+          benchmarks in 2026; Claude Code is built on them.
         confidence: high
 metadata:
   github:
@@ -51,9 +55,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Claude is Anthropic's AI assistant for work, offering capabilities like task automation, document creation, and data analysis across apps and files.
-  why_it_matters: It provides a general-purpose AI assistant that developers can use to automate non-coding workflows like report generation, data consolidation, and meeting summarization.
-  mental_damage: Yet another 'AI for everything' pitch that makes you wonder if your job is just feeding prompts to increasingly omnipotent chatbots.
+  summary: >-
+    Claude is Anthropic's AI assistant for work, offering capabilities like task automation, document creation, and data
+    analysis across apps and files.
+  why_it_matters: >-
+    It provides a general-purpose AI assistant that developers can use to automate non-coding workflows like report
+    generation, data consolidation, and meeting summarization.
+  mental_damage: >-
+    Yet another 'AI for everything' pitch that makes you wonder if your job is just feeding prompts to increasingly
+    omnipotent chatbots.
   tags:
     - ai-assistant
     - productivity
@@ -61,22 +71,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Claude (Anthropic) is a general AI assistant and provider platform, not a developer-facing tool whose primary identity is coding, agent orchestration, app building, or any other developer-tooling category in the catalog.
+  reason: >-
+    Claude (Anthropic) is a general AI assistant and provider platform, not a developer-facing tool whose primary
+    identity is coding, agent orchestration, app building, or any other developer-tooling category in the catalog.
   evidence:
-    - The scraped site positions Claude as an AI assistant for work tasks like drafting memos, building decks, analyzing data, and automating routines across apps — not as a coding agent or developer tool.
-    - Claude Code is explicitly listed as a separate product under 'Build with' and 'For developers', indicating the main Claude product is not the coding agent.
-    - No evidence suggests the core product is a developer-facing agent, framework, orchestrator, or builder; instead, it emphasizes broad workplace use cases in marketing, sales, finance, legal, and HR.
+    - >-
+      The scraped site positions Claude as an AI assistant for work tasks like drafting memos, building decks, analyzing
+      data, and automating routines across apps — not as a coding agent or developer tool.
+    - >-
+      Claude Code is explicitly listed as a separate product under 'Build with' and 'For developers', indicating the
+      main Claude product is not the coding agent.
+    - >-
+      No evidence suggests the core product is a developer-facing agent, framework, orchestrator, or builder; instead,
+      it emphasizes broad workplace use cases in marketing, sales, finance, legal, and HR.
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:38:55.946Z"
+    updated_at: '2026-09-28T04:38:55.946Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,18 +107,26 @@ processing:
       input_hash: sha256:bb381adb93409fe854fe128a660ff9cdea73b20a77735d627bdd2a261bd690ec
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Claude (Anthropic) is a general AI assistant and provider platform, not a developer-facing tool whose primary identity is coding, agent orchestration, app building, or any other developer-tooling category in the catalog.
+      decision_reason: >-
+        Claude (Anthropic) is a general AI assistant and provider platform, not a developer-facing tool whose primary
+        identity is coding, agent orchestration, app building, or any other developer-tooling category in the catalog.
       decision_evidence:
-        - The scraped site positions Claude as an AI assistant for work tasks like drafting memos, building decks, analyzing data, and automating routines across apps — not as a coding agent or developer tool.
-        - Claude Code is explicitly listed as a separate product under 'Build with' and 'For developers', indicating the main Claude product is not the coding agent.
-        - No evidence suggests the core product is a developer-facing agent, framework, orchestrator, or builder; instead, it emphasizes broad workplace use cases in marketing, sales, finance, legal, and HR.
+        - >-
+          The scraped site positions Claude as an AI assistant for work tasks like drafting memos, building decks,
+          analyzing data, and automating routines across apps — not as a coding agent or developer tool.
+        - >-
+          Claude Code is explicitly listed as a separate product under 'Build with' and 'For developers', indicating the
+          main Claude product is not the coding agent.
+        - >-
+          No evidence suggests the core product is a developer-facing agent, framework, orchestrator, or builder;
+          instead, it emphasizes broad workplace use cases in marketing, sales, finance, legal, and HR.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.364Z"
+    updated_at: '2026-07-20T16:42:15.364Z'
     cause: null
     next_retry_at: null
   stars:

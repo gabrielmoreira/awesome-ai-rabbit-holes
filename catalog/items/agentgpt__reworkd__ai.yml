@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentgpt__reworkd__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - AgentGPT
         anchor_text: AgentGPT
         extracted_url: https://agentgpt.reworkd.ai
-        surrounding_text: "## [AgentGPT](https://agentgpt.reworkd.ai/)"
+        surrounding_text: '## [AgentGPT](https://agentgpt.reworkd.ai/)'
         confidence: high
     - id: discovery__agentgpt__reworkd__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -33,7 +33,9 @@ provenance:
           - Agents
         anchor_text: AgentGPT
         extracted_url: https://agentgpt.reworkd.ai
-        surrounding_text: "- [AgentGPT](https://agentgpt.reworkd.ai/) -Assemble, configure, and deploy autonomous AI Agents in your browser."
+        surrounding_text: >-
+          - [AgentGPT](https://agentgpt.reworkd.ai/) -Assemble, configure, and deploy autonomous AI Agents in your
+          browser.
         confidence: high
 metadata:
   github:
@@ -52,13 +54,17 @@ metadata:
     readme: null
 insights:
   summary: A web-based platform for creating and deploying autonomous AI agents for general-purpose tasks.
-  why_it_matters: It serves as a consumer-facing agent deployment platform rather than a developer tool for building or managing AI workflows.
+  why_it_matters: >-
+    It serves as a consumer-facing agent deployment platform rather than a developer tool for building or managing AI
+    workflows.
   mental_damage: Watching an agent spend your API budget planning a trip to Hawaii while your production server is on fire.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general-purpose agent platform aimed at end-user tasks like research and travel planning, lacking a primary identity as a developer-facing tool for coding, infrastructure, or agent orchestration.
+  reason: >-
+    The product is a general-purpose agent platform aimed at end-user tasks like research and travel planning, lacking a
+    primary identity as a developer-facing tool for coding, infrastructure, or agent orchestration.
   evidence:
     - Scraped site context shows consumer-focused examples like TravelGPT and StudyGPT
     - The tool lacks a developer-centric interface such as an SDK, IDE extension, or CLI for building software
@@ -66,12 +72,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: '2026-05-06T22:12:15.596Z'
     cause: null
     next_retry_at: null
   stars:
@@ -80,7 +86,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:32:49.233Z"
+    updated_at: '2026-09-24T04:32:49.233Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -93,7 +99,9 @@ processing:
       input_hash: sha256:990c62ff1bcfbcb25d6bca2b54a109f49252899ddc02fdf5637f6206a75b81cc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a general-purpose agent platform aimed at end-user tasks like research and travel planning, lacking a primary identity as a developer-facing tool for coding, infrastructure, or agent orchestration.
+      decision_reason: >-
+        The product is a general-purpose agent platform aimed at end-user tasks like research and travel planning,
+        lacking a primary identity as a developer-facing tool for coding, infrastructure, or agent orchestration.
       decision_evidence:
         - Scraped site context shows consumer-focused examples like TravelGPT and StudyGPT
         - The tool lacks a developer-centric interface such as an SDK, IDE extension, or CLI for building software

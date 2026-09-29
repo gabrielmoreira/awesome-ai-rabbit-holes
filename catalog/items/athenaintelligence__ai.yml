@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__athenaintelligence__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Athena Intelligence
         anchor_text: Athena Intelligence
         extracted_url: https://athenaintelligence.ai
-        surrounding_text: "## [Athena Intelligence](https://www.athenaintelligence.ai/)"
+        surrounding_text: '## [Athena Intelligence](https://www.athenaintelligence.ai/)'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Athena Intelligence is a platform for building and orchestrating AI agents for complex, regulated knowledge work, deployed on user-controlled infrastructure.
-  why_it_matters: It enables enterprises to deploy AI agents as auditable, reversible, and compliant coworkers in sensitive domains like finance and legal.
+  summary: >-
+    Athena Intelligence is a platform for building and orchestrating AI agents for complex, regulated knowledge work,
+    deployed on user-controlled infrastructure.
+  why_it_matters: >-
+    It enables enterprises to deploy AI agents as auditable, reversible, and compliant coworkers in sensitive domains
+    like finance and legal.
   mental_damage: Finally, a way to make your interns work 24/7 without violating labor laws — now they’re just AI.
   tags:
     - ai-agents
@@ -47,22 +51,28 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is orchestrating AI agent workforces with identity, governance, permissions, and review layers for regulated environments, not acting as a coding agent or framework.
+  reason: >-
+    The product's core identity is orchestrating AI agent workforces with identity, governance, permissions, and review
+    layers for regulated environments, not acting as a coding agent or framework.
   evidence:
-    - Platform Olympus provides identity, governance, permissions, review, and collaboration for human and agent workforces
-    - Athena is described as a general-purpose agent that works alongside teams to build repeatable workflows, bespoke applications, and additional agents
+    - >-
+      Platform Olympus provides identity, governance, permissions, review, and collaboration for human and agent
+      workforces
+    - >-
+      Athena is described as a general-purpose agent that works alongside teams to build repeatable workflows, bespoke
+      applications, and additional agents
     - Deployment options include cloud, VPC, on-prem, or air-gapped — emphasizing enterprise control and compliance
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
   section: Domain & Enterprise Platforms
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.962Z"
+    updated_at: '2026-07-21T15:20:21.962Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +81,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:53:33.237Z"
+    updated_at: '2026-09-28T04:53:33.237Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -82,15 +92,23 @@ processing:
       input_hash: sha256:98b3b94c31562a955cf6e4b949241a04c8c685176a423a086d246a33e25444e2
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product's core identity is orchestrating AI agent workforces with identity, governance, permissions, and review layers for regulated environments, not acting as a coding agent or framework.
+      decision_reason: >-
+        The product's core identity is orchestrating AI agent workforces with identity, governance, permissions, and
+        review layers for regulated environments, not acting as a coding agent or framework.
       decision_evidence:
-        - Platform Olympus provides identity, governance, permissions, review, and collaboration for human and agent workforces
-        - Athena is described as a general-purpose agent that works alongside teams to build repeatable workflows, bespoke applications, and additional agents
+        - >-
+          Platform Olympus provides identity, governance, permissions, review, and collaboration for human and agent
+          workforces
+        - >-
+          Athena is described as a general-purpose agent that works alongside teams to build repeatable workflows,
+          bespoke applications, and additional agents
         - Deployment options include cloud, VPC, on-prem, or air-gapped — emphasizing enterprise control and compliance
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because Athena is an operated platform for managing agent teams and workflows, not a code-first library developers import and program against.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because Athena is an operated platform for managing agent teams
+        and workflows, not a code-first library developers import and program against.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

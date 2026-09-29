@@ -1,0 +1,78 @@
+id: github__tracefold__tracefold
+kind: github-repo
+name: tracefold/tracefold
+canonical_url: https://github.com/tracefold/tracefold
+identity:
+  github_repo: tracefold/tracefold
+provenance:
+  discoveries:
+    - id: discovery__github__tracefold__tracefold__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: TraceFold
+        extracted_url: https://github.com/tracefold/tracefold
+        surrounding_text: >-
+          - **[TraceFold](https://github.com/TraceFold/tracefold)** `⭐ 19` — Constructs and checks an inverse for
+          filesystem and git changes an AI coding agent makes before the change lands, signs each verdict as a
+          DSSE-attested receipt appended to a tamper-evident log, and gates writes through a Cedar policy engine with
+          four verdict states (admit, deny, escalate, policy-error). Rust, Apache-2.0.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    TraceFold ⭐ 19 — Constructs and checks an inverse for filesystem and git changes an AI coding agent makes before the
+    change lands, signs each verdict as a DSSE-attested receipt appended to a tamper-evident log, and gates writes
+    through a Cedar policy engine with four verdict states (admit, deny, escalate, policy-error). Rust, Apache-2.0.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.66
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.481Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

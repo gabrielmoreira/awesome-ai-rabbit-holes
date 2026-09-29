@@ -1,0 +1,84 @@
+id: github__hanno-labs__decision-bench
+kind: github-repo
+name: hanno-labs/decision-bench
+canonical_url: https://github.com/hanno-labs/decision-bench
+identity:
+  github_repo: hanno-labs/decision-bench
+provenance:
+  discoveries:
+    - id: discovery__github__hanno-labs__decision-bench__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Evaluation & Benchmarking
+        anchor_text: DecisionBench
+        extracted_url: https://github.com/hanno-labs/decision-bench
+        surrounding_text: >-
+          - [DecisionBench](https://github.com/Hanno-Labs/decision-bench)
+          ![stars](https://img.shields.io/github/stars/Hanno-Labs/decision-bench?style=flat-square&label=%E2%98%85) -
+          Model evaluation: scores Jev Noul, Choice, and Score answers on pinned document-grounded tasks, counting
+          malformed probability distributions as misses so model comparisons remain reproducible.
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    full_name: Hanno-Labs/decision-bench
+    html_url: https://github.com/Hanno-Labs/decision-bench
+    created_at: '2026-09-20T23:17:33Z'
+    pushed_at: '2026-09-27T22:26:15Z'
+    description: Open benchmark runtime for document-grounded decision models
+    homepage: null
+    topics:
+      - benchmark
+      - decision-model
+      - jev
+      - llm-evaluation
+      - model-evaluation
+      - typesafe-ai
+    last_checked_at: '2026-09-29T13:11:57.555Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:57.555Z'
+      bytes: 4666
+insights:
+  summary: Open benchmark runtime for document-grounded decision models
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  evidence:
+    - jev-latest choice confidence 0.93
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Evals, Benchmarks & Calibration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.458Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:57.555Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__railcall__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-06T05:29:57.556Z"
+      discovered_at: '2026-07-06T05:29:57.556Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,10 @@ provenance:
           - App Builders
         anchor_text: MeterCall
         extracted_url: https://metercall.ai
-        surrounding_text: "- **[MeterCall](https://metercall.ai)** – Universal API gateway over 10M+ APIs with AI router across 25+ models. Type a sentence in plain English, get a working app. 727+ ready-made modules to fork. Free tier, usage-based pricing."
+        surrounding_text: >-
+          - **[MeterCall](https://metercall.ai)** – Universal API gateway over 10M+ APIs with AI router across 25+
+          models. Type a sentence in plain English, get a working app. 727+ ready-made modules to fork. Free tier,
+          usage-based pricing.
         confidence: high
 metadata:
   github:
@@ -36,9 +39,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A local-first governance and execution platform for running AI workflows and agents with verifiable human-in-the-loop approval.
-  why_it_matters: It allows developers to deploy autonomous agents on sensitive data by providing a secure, auditable airlock for all agentic writes and actions.
-  mental_damage: Finally, a way to provide a mathematically verifiable receipt to your manager explaining exactly why the AI decided to refund every customer.
+  summary: >-
+    A local-first governance and execution platform for running AI workflows and agents with verifiable
+    human-in-the-loop approval.
+  why_it_matters: >-
+    It allows developers to deploy autonomous agents on sensitive data by providing a secure, auditable airlock for all
+    agentic writes and actions.
+  mental_damage: >-
+    Finally, a way to provide a mathematically verifiable receipt to your manager explaining exactly why the AI decided
+    to refund every customer.
   tags:
     - governance
     - local-first
@@ -58,12 +67,12 @@ placement:
   secondary_categories: []
   section: Agent Runtimes & Harnesses
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-06T05:29:57.558Z"
+    updated_at: '2026-07-06T05:29:57.558Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +81,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:22:09.891Z"
+    updated_at: '2026-09-24T04:22:09.891Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -93,6 +102,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - extensions-and-addons
-      contrastive_reason: Choose agent-orchestration over extensions-and-addons because its primary identity is a standalone control plane and execution runtime, with MCP serving as one of several integration paths.
+      contrastive_reason: >-
+        Choose agent-orchestration over extensions-and-addons because its primary identity is a standalone control plane
+        and execution runtime, with MCP serving as one of several integration paths.
       review_reason: null
       review_resume_lifecycle: null

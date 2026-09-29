@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__platform__openai__com__docs__guides__gpt__function__calling__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,11 @@ provenance:
           - Description
         anchor_text: function-calling
         extracted_url: https://platform.openai.com/docs/guides/gpt/function-calling
-        surrounding_text: "-   **Tool Usage**: Language agents in the library can use any external tools via  [function-calling](https://platform.openai.com/docs/guides/gpt/function-calling)  and developers can add customized tools/APIs  [here](https://github.com/aiwaves-cn/agents/blob/master/src/agents/Component/ToolComponent.py)."
+        surrounding_text: >-
+          -   **Tool Usage**: Language agents in the library can use any external tools via 
+          [function-calling](https://platform.openai.com/docs/guides/gpt/function-calling)  and developers can add
+          customized tools/APIs 
+          [here](https://github.com/aiwaves-cn/agents/blob/master/src/agents/Component/ToolComponent.py).
         confidence: high
 metadata:
   github:
@@ -48,7 +52,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is documentation, not a standalone developer tool or product; it describes a feature but does not provide runnable software, SDKs, or agent behavior.
+  reason: >-
+    This is documentation, not a standalone developer tool or product; it describes a feature but does not provide
+    runnable software, SDKs, or agent behavior.
   evidence:
     - URL is OpenAI's documentation site (platform.openai.com/docs/guides/gpt/function-calling)
     - No repo, stars, or installation instructions; purely explanatory content
@@ -56,12 +62,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:34:29.705Z"
+    updated_at: '2026-09-28T04:34:29.705Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,7 +89,9 @@ processing:
       input_hash: sha256:c9719933d54dc9bc5b29c149d374a036903d110dd8d98cc38a67f8d0c9e8fbdd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is documentation, not a standalone developer tool or product; it describes a feature but does not provide runnable software, SDKs, or agent behavior.
+      decision_reason: >-
+        This is documentation, not a standalone developer tool or product; it describes a feature but does not provide
+        runnable software, SDKs, or agent behavior.
       decision_evidence:
         - URL is OpenAI's documentation site (platform.openai.com/docs/guides/gpt/function-calling)
         - No repo, stars, or installation instructions; purely explanatory content

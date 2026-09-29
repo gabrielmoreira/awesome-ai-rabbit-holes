@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__supadata__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Supadata
         extracted_url: https://supadata.ai
-        surrounding_text: "- **[Supadata](https://github.com/supadata-ai/mcp)** - Official MCP server for [Supadata](https://supadata.ai) - YouTube, TikTok, X and Web data for makers."
+        surrounding_text: >-
+          - **[Supadata](https://github.com/supadata-ai/mcp)** - Official MCP server for [Supadata](https://supadata.ai)
+          - YouTube, TikTok, X and Web data for makers.
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Supadata is an API service that extracts transcripts, metadata, and structured data from web and social media videos (YouTube, TikTok, Instagram, etc.) for AI training and retrieval.
-  why_it_matters: Developers can programmatically access video content and metadata as clean JSON, enabling AI workflows that depend on video-derived data without manual scraping.
-  mental_damage: Now you can finally feed an LLM every TikTok trend, because nothing says 'production-ready' like a model trained on the entire 'Never Gonna Give You Up' corpus.
+  summary: >-
+    Supadata is an API service that extracts transcripts, metadata, and structured data from web and social media videos
+    (YouTube, TikTok, Instagram, etc.) for AI training and retrieval.
+  why_it_matters: >-
+    Developers can programmatically access video content and metadata as clean JSON, enabling AI workflows that depend
+    on video-derived data without manual scraping.
+  mental_damage: >-
+    Now you can finally feed an LLM every TikTok trend, because nothing says 'production-ready' like a model trained on
+    the entire 'Never Gonna Give You Up' corpus.
   tags:
     - video-transcription
     - api
@@ -48,7 +56,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general-purpose API for video data extraction, not a developer-tooling product focused on coding workflows, agent orchestration, or AI-assisted development.
+  reason: >-
+    The product is a general-purpose API for video data extraction, not a developer-tooling product focused on coding
+    workflows, agent orchestration, or AI-assisted development.
   evidence:
     - Primary product is a video-to-text API for social media content
     - Positioned as a data pipeline for AI training/retrieval, not developer tooling
@@ -57,12 +67,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,10 +81,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-28T04:46:05.571Z"
+    updated_at: '2026-09-28T04:46:05.571Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for supadata__ai: Invalid AI response format: SyntaxError: Unexpected token 'S', ...\"_reason\": Supadata.a\"... is not valid JSON"
+      message: >-
+        Catalog LLM categorization failed for supadata__ai: Invalid AI response format: SyntaxError: Unexpected token
+        'S', ..."_reason": Supadata.a"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -86,7 +98,9 @@ processing:
       input_hash: sha256:ed46dc0eb70b089e65364c1fa1a576dca10f23e6921f7a87d79c43817c0db0d0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a general-purpose API for video data extraction, not a developer-tooling product focused on coding workflows, agent orchestration, or AI-assisted development.
+      decision_reason: >-
+        The product is a general-purpose API for video data extraction, not a developer-tooling product focused on
+        coding workflows, agent orchestration, or AI-assisted development.
       decision_evidence:
         - Primary product is a video-to-text API for social media content
         - Positioned as a data pipeline for AI training/retrieval, not developer tooling

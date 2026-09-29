@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__v0__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - v0 by Vercel
         anchor_text: v0 by Vercel
         extracted_url: https://v0.dev
-        surrounding_text: "## [v0 by Vercel](https://v0.dev/)"
+        surrounding_text: '## [v0 by Vercel](https://v0.dev/)'
         confidence: high
     - id: discovery__v0__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,10 +33,12 @@ provenance:
           - App Builders
         anchor_text: v0.dev
         extracted_url: https://v0.dev
-        surrounding_text: "- **[v0.dev](https://v0.dev/)** – Vercel's AI tool for generating UI components and full pages from text prompts."
+        surrounding_text: >-
+          - **[v0.dev](https://v0.dev/)** – Vercel's AI tool for generating UI components and full pages from text
+          prompts.
         confidence: high
     - id: discovery__v0__dev__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -66,9 +68,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: v0 by Vercel is an AI assistant that generates full-stack web applications from natural language prompts and deploys them to Vercel.
+  summary: >-
+    v0 by Vercel is an AI assistant that generates full-stack web applications from natural language prompts and deploys
+    them to Vercel.
   why_it_matters: It lets developers go from idea to live web app in seconds using AI-generated code and one-click deployment.
-  mental_damage: The promise of skipping all the boilerplate and configuration work feels like magic until you realize you still have to understand and maintain the code it generates.
+  mental_damage: >-
+    The promise of skipping all the boilerplate and configuration work feels like magic until you realize you still have
+    to understand and maintain the code it generates.
   tags:
     - app-builder
     - ai-assisted
@@ -77,7 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: v0 matches the app-builder category by generating deployable full-stack web apps from prompts, with no requirement to start from an existing codebase, and its core loop is prompt-to-published-site.
+  reason: >-
+    v0 matches the app-builder category by generating deployable full-stack web apps from prompts, with no requirement
+    to start from an existing codebase, and its core loop is prompt-to-published-site.
   evidence:
     - Generate working applications in minutes with AI. Publish as live websites in seconds.
     - Start from a blank slate with templates or natural language prompts.
@@ -87,12 +95,12 @@ placement:
   secondary_categories: []
   section: Full App Builders
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.580Z"
+    updated_at: '2026-05-06T22:12:15.580Z'
     cause: null
     next_retry_at: null
   stars:
@@ -101,7 +109,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:48:42.423Z"
+    updated_at: '2026-09-28T04:48:42.423Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -114,7 +122,9 @@ processing:
       input_hash: sha256:51427495f843b732f2881c8ce3181df8291ac5d8764ae44647296bb5efa943ce
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: v0 matches the app-builder category by generating deployable full-stack web apps from prompts, with no requirement to start from an existing codebase, and its core loop is prompt-to-published-site.
+      decision_reason: >-
+        v0 matches the app-builder category by generating deployable full-stack web apps from prompts, with no
+        requirement to start from an existing codebase, and its core loop is prompt-to-published-site.
       decision_evidence:
         - Generate working applications in minutes with AI. Publish as live websites in seconds.
         - Start from a blank slate with templates or natural language prompts.
@@ -122,6 +132,8 @@ processing:
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because v0’s primary function is generating new apps from prompts rather than editing or assisting within an existing codebase.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because v0’s primary function is generating new apps from prompts rather
+        than editing or assisting within an existing codebase.
       review_reason: null
       review_resume_lifecycle: null

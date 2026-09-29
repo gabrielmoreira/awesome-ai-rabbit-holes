@@ -1,0 +1,81 @@
+id: github__goodrahstar__pdf-race
+kind: github-repo
+name: goodrahstar/pdf-race
+canonical_url: https://github.com/goodrahstar/pdf-race
+identity:
+  github_repo: goodrahstar/pdf-race
+provenance:
+  discoveries:
+    - id: discovery__github__goodrahstar__pdf-race__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: PDF Race
+        extracted_url: https://github.com/goodrahstar/pdf-race
+        surrounding_text: >-
+          - [PDF Race](https://github.com/goodrahstar/pdf-race) - Timed Docling→TypeSafe Jev vs Gemini document race
+          with committed keyless replays (optional local Laya on Apple silicon). [Project
+          guide](community/projects/tools/pdf-race.md).
+        confidence: high
+metadata:
+  github:
+    stars: 13
+    forks: 5
+    license: MIT
+    archived: false
+    full_name: goodrahstar/pdf-race
+    html_url: https://github.com/goodrahstar/pdf-race
+    created_at: '2026-09-20T09:38:05Z'
+    pushed_at: '2026-09-22T08:16:32Z'
+    description: >-
+      Docling → Jev vs Docling → Gemini 3.8 Flash vs Gemini reading the PDF: same documents, one clock, scored against
+      arXiv's own metadata
+    homepage: https://pdf-race.vercel.app
+    topics: []
+    last_checked_at: '2026-09-29T13:11:45.972Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:45.972Z'
+      bytes: 9102
+insights:
+  summary: >-
+    Docling → Jev vs Docling → Gemini 3.8 Flash vs Gemini reading the PDF: same documents, one clock, scored against
+    arXiv's own metadata
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
+  evidence:
+    - jev-latest choice confidence 0.55
+placement:
+  primary_category: evals
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.458Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:45.972Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

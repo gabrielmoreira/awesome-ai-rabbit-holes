@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__leoleojames1__ollama_agent_roll_cage__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,10 @@ provenance:
           - 推理 Inference
         anchor_text: OARC
         extracted_url: https://github.com/leoleojames1/ollama_agent_roll_cage
-        surrounding_text: "35. [OARC](https://github.com/Leoleojames1/ollama_agent_roll_cage): ollama_agent_roll_cage (OARC) is a local python agent fusing ollama llm's with Coqui-TTS speech models, Keras classifiers, Llava vision, Whisper recognition, and more to create a unified chatbot agent for local, custom automation."
+        surrounding_text: >-
+          35. [OARC](https://github.com/Leoleojames1/ollama_agent_roll_cage): ollama_agent_roll_cage (OARC) is a local
+          python agent fusing ollama llm's with Coqui-TTS speech models, Keras classifiers, Llava vision, Whisper
+          recognition, and more to create a unified chatbot agent for local, custom automation.
         confidence: high
 metadata:
   github:
@@ -50,24 +53,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-08-03T05:16:52.790Z"
+    updated_at: '2026-08-03T05:16:52.790Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: leoleojames1/ollama_agent_roll_cage"
+      message: 'GitHub repository not found: leoleojames1/ollama_agent_roll_cage'
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hmbown__codewhale__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-24T04:20:54.275Z"
+      discovered_at: '2026-08-24T04:20:54.275Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,12 @@ provenance:
           - Open Source
         anchor_text: Codewhale
         extracted_url: https://github.com/hmbown/codewhale
-        surrounding_text: "- **[Codewhale](https://github.com/Hmbown/CodeWhale)** `⭐ 40.8k` — Rust terminal coding agent (formerly `deepseek-tui`), bring-your-own-model across 30+ providers plus local vLLM/SGLang/Ollama. TUI or headless `codewhale exec` for scripts and CI; fleets pin a different provider, model, and reasoning tier per role, so a cheap model can direct an expensive one. Workspace snapshots, `/undo`, and a three-level permission posture. MIT."
+        surrounding_text: >-
+          - **[Codewhale](https://github.com/Hmbown/CodeWhale)** `⭐ 40.8k` — Rust terminal coding agent (formerly
+          `deepseek-tui`), bring-your-own-model across 30+ providers plus local vLLM/SGLang/Ollama. TUI or headless
+          `codewhale exec` for scripts and CI; fleets pin a different provider, model, and reasoning tier per role, so a
+          cheap model can direct an expensive one. Workspace snapshots, `/undo`, and a three-level permission posture.
+          MIT.
         confidence: high
 metadata:
   github:
@@ -51,12 +56,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-24T04:20:54.276Z"
+    updated_at: '2026-08-24T04:20:54.276Z'
     cause: null
     next_retry_at: null
   stars:
@@ -65,7 +70,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

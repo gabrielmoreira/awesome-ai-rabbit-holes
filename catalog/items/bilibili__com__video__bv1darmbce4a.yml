@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bilibili__com__video__bv1darmbce4a__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,10 +19,12 @@ provenance:
           - Podcast
         anchor_text: 翁家翌：OpenAI，GPT，强化学习，Infra，后训练，天授，tuixue，开源，CMU，清华｜WhynotTV Podcast
         extracted_url: https://bilibili.com/video/BV1darmBcE4A
-        surrounding_text: "- [翁家翌：OpenAI，GPT，强化学习，Infra，后训练，天授，tuixue，开源，CMU，清华｜WhynotTV Podcast](https://www.bilibili.com/video/BV1darmBcE4A?vd_source=c739db1ebdd361d47af5a0b8497417db)"
+        surrounding_text: >-
+          - [翁家翌：OpenAI，GPT，强化学习，Infra，后训练，天授，tuixue，开源，CMU，清华｜WhynotTV
+          Podcast](https://www.bilibili.com/video/BV1darmBcE4A?vd_source=c739db1ebdd361d47af5a0b8497417db)
         confidence: high
     - id: discovery__www__bilibili__com__video__bv1darmbce4a__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -35,7 +37,9 @@ provenance:
           - Podcast
         anchor_text: 翁家翌：OpenAI，GPT，强化学习，Infra，后训练，天授，tuixue，开源，CMU，清华｜WhynotTV Podcast
         extracted_url: https://www.bilibili.com/video/BV1darmBcE4A
-        surrounding_text: "- [翁家翌：OpenAI，GPT，强化学习，Infra，后训练，天授，tuixue，开源，CMU，清华｜WhynotTV Podcast](https://www.bilibili.com/video/BV1darmBcE4A?vd_source=c739db1ebdd361d47af5a0b8497417db)"
+        surrounding_text: >-
+          - [翁家翌：OpenAI，GPT，强化学习，Infra，后训练，天授，tuixue，开源，CMU，清华｜WhynotTV
+          Podcast](https://www.bilibili.com/video/BV1darmBcE4A?vd_source=c739db1ebdd361d47af5a0b8497417db)
         confidence: high
 metadata:
   github:
@@ -53,9 +57,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili podcast episode featuring WhynotTV interviewing OpenAI researcher 翁家翌 about his work on GPT, reinforcement learning, post-training, and infrastructure.
-  why_it_matters: Provides developer-relevant insights into the engineering and research behind large language models from a key OpenAI contributor.
-  mental_damage: Another hour-long interview where developers pretend listening to research gossip will improve their prompt engineering.
+  summary: >-
+    A Bilibili podcast episode featuring WhynotTV interviewing OpenAI researcher 翁家翌 about his work on GPT,
+    reinforcement learning, post-training, and infrastructure.
+  why_it_matters: >-
+    Provides developer-relevant insights into the engineering and research behind large language models from a key
+    OpenAI contributor.
+  mental_damage: >-
+    Another hour-long interview where developers pretend listening to research gossip will improve their prompt
+    engineering.
   tags:
     - ai-research
     - llm
@@ -65,7 +75,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a podcast episode about AI research and engineering careers, not a developer-facing AI tool, agent, framework, or workflow product.
+  reason: >-
+    This is a podcast episode about AI research and engineering careers, not a developer-facing AI tool, agent,
+    framework, or workflow product.
   evidence:
     - Source-list context shows it is curated under 'Podcast' in awesome-LLM-resources as a media/resource entry
     - Scraped site context confirms it is a Bilibili video/podcast with no tool, SDK, agent, or product identity
@@ -74,12 +86,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:39:14.596Z"
+    updated_at: '2026-09-28T04:39:14.596Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -92,7 +104,9 @@ processing:
       input_hash: sha256:5e2e02de1310adf6fa05358969993df104f7a5b518563ed23b8b6371b1acd3e8
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a podcast episode about AI research and engineering careers, not a developer-facing AI tool, agent, framework, or workflow product.
+      decision_reason: >-
+        This is a podcast episode about AI research and engineering careers, not a developer-facing AI tool, agent,
+        framework, or workflow product.
       decision_evidence:
         - Source-list context shows it is curated under 'Podcast' in awesome-LLM-resources as a media/resource entry
         - Scraped site context confirms it is a Bilibili video/podcast with no tool, SDK, agent, or product identity
@@ -103,7 +117,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.365Z"
+    updated_at: '2026-07-20T16:42:15.365Z'
     cause: null
     next_retry_at: null
   stars:

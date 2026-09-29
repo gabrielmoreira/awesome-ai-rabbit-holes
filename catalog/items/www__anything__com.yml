@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__anything__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - App Builders
         anchor_text: Create.xyz
         extracted_url: https://create.xyz
-        surrounding_text: "- **[Create.xyz](https://create.xyz/)** – AI-powered app creation from natural language."
+        surrounding_text: '- **[Create.xyz](https://create.xyz/)** – AI-powered app creation from natural language.'
         confidence: high
 metadata:
   github:
@@ -54,12 +54,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +68,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:52:05.491Z"
+    updated_at: '2026-09-28T04:52:05.491Z'
     cause: null
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
@@ -81,7 +81,9 @@ processing:
       input_hash: sha256:d637d809e87510ebb68f7f577fe7adafa4fad31a9972359b8e03f77386fc02bd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The domain resolves to no identifiable product, tool, or resource, and offers no developer-facing AI functionality.
+      decision_reason: >-
+        The domain resolves to no identifiable product, tool, or resource, and offers no developer-facing AI
+        functionality.
       decision_evidence:
         - Repo description is missing
         - README excerpt is not provided

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__revenuecat__com__docs__tools__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,12 @@ provenance:
           - Official Servers
         anchor_text: RevenueCat
         extracted_url: https://revenuecat.com/docs/tools/mcp/overview
-        surrounding_text: "- **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment."
+        surrounding_text: >-
+          - **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in
+          [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment.
         confidence: high
     - id: discovery__www__revenuecat__com__docs__tools__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +35,9 @@ provenance:
           - Official Servers
         anchor_text: RevenueCat
         extracted_url: https://www.revenuecat.com/docs/tools/mcp/overview
-        surrounding_text: "- **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment."
+        surrounding_text: >-
+          - **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in
+          [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment.
         confidence: high
 metadata:
   github:
@@ -52,7 +56,9 @@ metadata:
     readme: null
 insights:
   summary: RevenueCat's Model Context Protocol server exposing subscription and in-app purchase tools for AI agents.
-  why_it_matters: Lets AI agents securely access subscription data and billing workflows via a standardized interface, enabling finance-aware automations.
+  why_it_matters: >-
+    Lets AI agents securely access subscription data and billing workflows via a standardized interface, enabling
+    finance-aware automations.
   mental_damage: Yet another MCP server promising to let your AI handle money—just pray it doesn’t refund your user by accident.
   tags:
     - mcp
@@ -61,21 +67,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: RevenueCat’s MCP server is primarily an MCP infrastructure product exposing financial tools, making MCP Ecosystem the correct fit over extensions or agents.
+  reason: >-
+    RevenueCat’s MCP server is primarily an MCP infrastructure product exposing financial tools, making MCP Ecosystem
+    the correct fit over extensions or agents.
   evidence:
     - Source-list context shows inclusion in awesome-mcp-servers under 'Official Servers'
-    - "URL path indicates it is an MCP server: /docs/tools/mcp"
+    - 'URL path indicates it is an MCP server: /docs/tools/mcp'
     - Product identity is MCP server exposing RevenueCat’s subscription and purchase capabilities
 placement:
   primary_category: mcp
   section: Finance, Crypto & DeFi
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:45:27.179Z"
+    updated_at: '2026-09-28T04:45:27.179Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,20 +96,24 @@ processing:
       input_hash: sha256:e87f8e3296e879b38531cc99b9c19710756a8c3577eeb30bf9ea3cf5e1baab63
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: RevenueCat’s MCP server is primarily an MCP infrastructure product exposing financial tools, making MCP Ecosystem the correct fit over extensions or agents.
+      decision_reason: >-
+        RevenueCat’s MCP server is primarily an MCP infrastructure product exposing financial tools, making MCP
+        Ecosystem the correct fit over extensions or agents.
       decision_evidence:
         - Source-list context shows inclusion in awesome-mcp-servers under 'Official Servers'
-        - "URL path indicates it is an MCP server: /docs/tools/mcp"
+        - 'URL path indicates it is an MCP server: /docs/tools/mcp'
         - Product identity is MCP server exposing RevenueCat’s subscription and purchase capabilities
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product’s primary identity is being an MCP server, not a tool that extends a coding agent or editor.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product’s primary identity is being an MCP server, not a tool
+        that extends a coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.969Z"
+    updated_at: '2026-07-21T15:20:21.969Z'
     cause: null
     next_retry_at: null
   stars:

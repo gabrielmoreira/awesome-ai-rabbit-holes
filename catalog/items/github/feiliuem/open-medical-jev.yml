@@ -1,0 +1,131 @@
+id: github__feiliuem__open-medical-jev
+kind: github-repo
+name: feiliuem/open-medical-jev
+canonical_url: https://github.com/feiliuem/open-medical-jev
+identity:
+  github_repo: feiliuem/open-medical-jev
+provenance:
+  discoveries:
+    - id: discovery__github__feiliuem__open-medical-jev__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Open Medical Jev
+        extracted_url: https://github.com/feiliuem/open-medical-jev
+        surrounding_text: >-
+          - [Open Medical Jev](https://github.com/FeiLiuEM/open-medical-jev) - Jev-class medical judgments from frozen
+          open models (no fine-tuning): dual-reader fusion, conformal routing, and published comparisons vs hosted Jev
+          on licensing exams. [Project guide](community/projects/tools/open-medical-jev.md).
+        confidence: high
+    - id: discovery__github__feiliuem__open-medical-jev__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+        anchor_text: Open Medical Jev
+        extracted_url: https://github.com/feiliuem/open-medical-jev
+        surrounding_text: >-
+          - **Jev-like models (7):** [jevos](https://github.com/feder-cr/jev), [Open Medical
+          Jev](https://github.com/FeiLiuEM/open-medical-jev), [Mica v0.1 4B](https://github.com/akivet/Mica-v0.1-4B),
+          [jev-style](https://github.com/lawrence3699/jev-style), [JEMM](https://github.com/ypcypc/JEMM),
+          [Malkuth](https://github.com/newfull5/malkuth), [OneJev](https://github.com/OmniJev/OneJev)
+        confidence: high
+    - id: discovery__github__feiliuem__open-medical-jev__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Calibration & Research
+        anchor_text: Open Medical Jev
+        extracted_url: https://github.com/feiliuem/open-medical-jev
+        surrounding_text: >-
+          - [Open Medical Jev](https://github.com/FeiLiuEM/open-medical-jev)
+          ![stars](https://img.shields.io/github/stars/FeiLiuEM/open-medical-jev?style=flat-square&label=%E2%98%85) -
+          Medical evaluation: two frozen local readers answer one Noul-style yes/no probability per exam option, a
+          fit-free router auto-releases items above the combined-confidence gate and escalates the rest, and a
+          split-conformal candidate set bounds the error - landing within 2 points of hosted Jev on three 600-item
+          national licensing exams with no fine-tuning, no distillation and no corpus.
+        confidence: high
+metadata:
+  github:
+    stars: 38
+    forks: 3
+    license: MIT
+    archived: false
+    full_name: FeiLiuEM/open-medical-jev
+    html_url: https://github.com/FeiLiuEM/open-medical-jev
+    created_at: '2026-09-25T13:35:30Z'
+    pushed_at: '2026-09-28T07:45:07Z'
+    description: >-
+      High-performance, high-precision, locally-fast-deployed Jev-class medical decision service on national medical
+      exams — four readings, one routed decision, zero training.
+    homepage: ''
+    topics:
+      - calibration
+      - conformal-prediction
+      - gguf
+      - jev
+      - llama-cpp
+      - llm
+      - medical
+      - qwen
+      - routing
+    last_checked_at: '2026-09-29T13:11:14.598Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:14.598Z'
+      bytes: 11212
+insights:
+  summary: >-
+    High-performance, high-precision, locally-fast-deployed Jev-class medical decision service on national medical exams
+    — four readings, one routed decision, zero training.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.93
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.395Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:14.598Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

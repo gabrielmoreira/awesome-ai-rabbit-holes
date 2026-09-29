@@ -1,0 +1,157 @@
+id: github__xinyao27__jevonian
+kind: github-repo
+name: xinyao27/jevonian
+canonical_url: https://github.com/xinyao27/jevonian
+identity:
+  github_repo: xinyao27/jevonian
+provenance:
+  discoveries:
+    - id: discovery__github__xinyao27__jevonian__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: Jevonian
+        extracted_url: https://github.com/xinyao27/jevonian
+        surrounding_text: >-
+          - [Jevonian](https://github.com/xinyao27/jevonian) ([site](https://www.npmjs.com/package/jevonian)) - Local
+          OpenAI-compatible proxy that sits between a coding agent and its providers and asks Jev, per turn, which
+          routed model and thinking level should serve it.
+        confidence: high
+    - id: discovery__github__xinyao27__jevonian__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jevonian
+        extracted_url: https://github.com/xinyao27/jevonian
+        surrounding_text: >-
+          - [jevonian](https://github.com/xinyao27/jevonian) - Local OpenAI/Anthropic/Responses proxy for coding agents
+          where one Jev call answers both the model route and the thinking level for `jevonian/auto`, after code has
+          filtered candidates by protocol, context window, effort floor, and spent quota windows; a pinned model or
+          explicit `jevonian/<route>` skips Jev entirely, and costs in the ledger are estimates. [Project
+          guide](community/projects/tools/jevonian.md).
+        confidence: high
+    - id: discovery__github__xinyao27__jevonian__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: jevonian
+        extracted_url: https://github.com/xinyao27/jevonian
+        surrounding_text: >-
+          | [jevonian](https://github.com/xinyao27/jevonian) | ★ 1 | TypeScript | 2026-09-22 | Local model-routing proxy
+          where Jev selects the model route and reasoning depth, and also judges which tool history can be compacted. |
+        confidence: high
+    - id: discovery__github__xinyao27__jevonian__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Classification & Routing
+        anchor_text: Jevonian
+        extracted_url: https://github.com/xinyao27/jevonian
+        surrounding_text: >-
+          - [Jevonian](https://github.com/xinyao27/jevonian)
+          ![stars](https://img.shields.io/github/stars/xinyao27/jevonian?style=flat-square&label=%E2%98%85) - Coding
+          agents: local OpenAI/Anthropic-compatible proxy where one Jev call picks both the model route and the thinking
+          level for `jevonian/auto` from session state, quota health, candidate capabilities, and cache-switch
+          penalties, after deterministic code has filtered candidates and while pinned models, explicit
+          `jevonian/<route>` requests, and `routing.mode: "off"` skip Jev entirely; `minConfidence` marks a
+          low-confidence route in the ledger rather than accepting it, and the ledger records the serving model and why.
+        confidence: high
+    - id: discovery__github__xinyao27__jevonian__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents, coding, and guardrails
+        anchor_text: Jevonian
+        extracted_url: https://github.com/xinyao27/jevonian
+        surrounding_text: >-
+          - [Jevonian](https://github.com/xinyao27/jevonian) - Local OpenAI/Anthropic-compatible proxy where one Jev
+          call answers model route and thinking level for `jevonian/auto`, after deterministic code has already filtered
+          candidates by wire protocol, context window, thinking-level floor, and spent quota windows; `minConfidence`
+          marks a low-confidence route in the ledger instead of silently accepting it, and Jev is skipped entirely for
+          pinned models, explicit `jevonian/<route>` requests, and `routing.mode: "off"`.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Jevonian (site) - Local OpenAI-compatible proxy that sits between a coding agent and its providers and asks Jev, per
+    turn, which routed model and thinking level should serve it.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.79
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.379Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

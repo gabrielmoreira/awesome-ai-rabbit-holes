@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__wordware__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Wordware
         anchor_text: Wordware
         extracted_url: https://wordware.ai
-        surrounding_text: "## [Wordware](https://www.wordware.ai/)"
+        surrounding_text: '## [Wordware](https://www.wordware.ai/)'
         confidence: high
     - id: discovery__wordware__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -33,10 +33,15 @@ provenance:
           - LLMOps
         anchor_text: Wordware
         extracted_url: https://wordware.ai
-        surrounding_text: "| [Wordware](https://www.wordware.ai)                                | A web-hosted IDE where non-technical domain experts work with AI Engineers to build task-specific AI agents. It approaches prompting as a new programming language rather than low/no-code blocks.                                                                                                                                                                                                      |                                                                                                           |"
+        surrounding_text: >-
+          | [Wordware](https://www.wordware.ai)                                | A web-hosted IDE where non-technical
+          domain experts work with AI Engineers to build task-specific AI agents. It approaches prompting as a new
+          programming language rather than low/no-code
+          blocks.                                                                                                                                                                                                     
+          |                                                                                                           |
         confidence: high
     - id: discovery__www__wordware__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -48,10 +53,10 @@ provenance:
           - Wordware
         anchor_text: Wordware
         extracted_url: https://www.wordware.ai
-        surrounding_text: "## [Wordware](https://www.wordware.ai/)"
+        surrounding_text: '## [Wordware](https://www.wordware.ai/)'
         confidence: high
     - id: discovery__www__wordware__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -63,7 +68,12 @@ provenance:
           - LLMOps
         anchor_text: Wordware
         extracted_url: https://www.wordware.ai
-        surrounding_text: "| [Wordware](https://www.wordware.ai)                                | A web-hosted IDE where non-technical domain experts work with AI Engineers to build task-specific AI agents. It approaches prompting as a new programming language rather than low/no-code blocks.                                                                                                                                                                                                      |                                                                                                           |"
+        surrounding_text: >-
+          | [Wordware](https://www.wordware.ai)                                | A web-hosted IDE where non-technical
+          domain experts work with AI Engineers to build task-specific AI agents. It approaches prompting as a new
+          programming language rather than low/no-code
+          blocks.                                                                                                                                                                                                     
+          |                                                                                                           |
         confidence: high
 metadata:
   github:
@@ -81,8 +91,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Wordware builds Sauna, an AI assistant that learns user taste, detects patterns, and proactively augments context for deep work.
-  why_it_matters: It promises to reduce cognitive load by automating context-aware task anticipation, targeting knowledge workers overwhelmed by shallow work.
+  summary: >-
+    Wordware builds Sauna, an AI assistant that learns user taste, detects patterns, and proactively augments context
+    for deep work.
+  why_it_matters: >-
+    It promises to reduce cognitive load by automating context-aware task anticipation, targeting knowledge workers
+    overwhelmed by shallow work.
   mental_damage: Another AI that claims to read your mind while you still have to explain what you want it to do.
   tags:
     - ai-assistant
@@ -91,21 +105,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Wordware’s Sauna is a general-purpose AI workspace focused on context learning and proactive assistance for broad productivity, not developer-specific tasks like coding, debugging, or editing codebases.
+  reason: >-
+    Wordware’s Sauna is a general-purpose AI workspace focused on context learning and proactive assistance for broad
+    productivity, not developer-specific tasks like coding, debugging, or editing codebases.
   evidence:
-    - Primary product is Sauna, described as an AI assistant for 'compounding context' that 'learns your taste, detects hidden patterns, augments your brain context and works proactively'.
-    - No mention of code editing, terminal interaction, IDE integration, or software development workflows in the README or site excerpt.
-    - Source-list inclusion in awesome-ai-agents and Awesome-LLMOps is based on general AI agent and LLMOps categorization, not developer tooling specificity.
+    - >-
+      Primary product is Sauna, described as an AI assistant for 'compounding context' that 'learns your taste, detects
+      hidden patterns, augments your brain context and works proactively'.
+    - >-
+      No mention of code editing, terminal interaction, IDE integration, or software development workflows in the README
+      or site excerpt.
+    - >-
+      Source-list inclusion in awesome-ai-agents and Awesome-LLMOps is based on general AI agent and LLMOps
+      categorization, not developer tooling specificity.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:50:06.411Z"
+    updated_at: '2026-09-28T04:50:06.411Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -118,18 +140,26 @@ processing:
       input_hash: sha256:a925177cb5f32813125e87dac971f0cca610b5dfcef5ba19c31e90024a3cb85f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Wordware’s Sauna is a general-purpose AI workspace focused on context learning and proactive assistance for broad productivity, not developer-specific tasks like coding, debugging, or editing codebases.
+      decision_reason: >-
+        Wordware’s Sauna is a general-purpose AI workspace focused on context learning and proactive assistance for
+        broad productivity, not developer-specific tasks like coding, debugging, or editing codebases.
       decision_evidence:
-        - Primary product is Sauna, described as an AI assistant for 'compounding context' that 'learns your taste, detects hidden patterns, augments your brain context and works proactively'.
-        - No mention of code editing, terminal interaction, IDE integration, or software development workflows in the README or site excerpt.
-        - Source-list inclusion in awesome-ai-agents and Awesome-LLMOps is based on general AI agent and LLMOps categorization, not developer tooling specificity.
+        - >-
+          Primary product is Sauna, described as an AI assistant for 'compounding context' that 'learns your taste,
+          detects hidden patterns, augments your brain context and works proactively'.
+        - >-
+          No mention of code editing, terminal interaction, IDE integration, or software development workflows in the
+          README or site excerpt.
+        - >-
+          Source-list inclusion in awesome-ai-agents and Awesome-LLMOps is based on general AI agent and LLMOps
+          categorization, not developer tooling specificity.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.688Z"
+    updated_at: '2026-07-20T15:10:47.688Z'
     cause: null
     next_retry_at: null
   stars:

@@ -370,7 +370,7 @@ export function applyAIInsights(
           reason: `Categorization review required: ${reviewReasons.join("; ")}`,
         }
       : existingCategorizationReview
-        ? priorResumeLifecycle ?? { status: "incubating" as const, reason: null }
+        ? priorResumeLifecycle ?? { status: "curated" as const, reason: null }
         : item.lifecycle;
   const provenance = options.provenance ?? {
     answeringModel: null,
@@ -682,7 +682,7 @@ export async function materializeCatalogState(
   }
 
   let finalItems = itemsWithInsights.map((item) => applyPlacement(item, categories));
-  finalItems = finalItems.map((item) => applyLifecycleRules(item, catalogConfig));
+  finalItems = finalItems.map((item) => applyLifecycleRules(item));
 
   const changedItems = finalItems.filter((item) => originalSerializedById.get(item.id) !== JSON.stringify(item));
   for (const item of changedItems) saveItem(item);

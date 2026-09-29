@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vsaez__mcp-spotify-player__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Spotify Player
         extracted_url: https://github.com/vsaez/mcp-spotify-player
-        surrounding_text: "- \\*\\*[Spotify Player](https://github.com/vsaez/mcp-spotify-player) – Control Spotify playback, queue, volume and playlists from Claude/Cursor via MCP. (Python)"
+        surrounding_text: >-
+          - \*\*[Spotify Player](https://github.com/vsaez/mcp-spotify-player) – Control Spotify playback, queue, volume
+          and playlists from Claude/Cursor via MCP. (Python)
         confidence: high
 metadata:
   github:
@@ -29,10 +31,10 @@ metadata:
     archived: false
     full_name: vsaez/mcp-spotify-player
     html_url: https://github.com/vsaez/mcp-spotify-player
-    created_at: "2025-08-09T06:02:04Z"
-    pushed_at: "2025-09-18T05:59:37Z"
+    created_at: '2025-08-09T06:02:04Z'
+    pushed_at: '2025-09-18T05:59:37Z'
     description: MCP server to manage Spotify from MCP clients
-    homepage: ""
+    homepage: ''
     topics:
       - claude
       - claude-desktop
@@ -45,14 +47,18 @@ metadata:
       - spotify
       - spotify-api
       - void
-    last_checked_at: "2026-07-21T15:21:08.974Z"
+    last_checked_at: '2026-07-21T15:21:08.974Z'
     readme:
-      fetched_at: "2026-07-21T15:21:08.974Z"
+      fetched_at: '2026-07-21T15:21:08.974Z'
       bytes: 26532
 insights:
   summary: An MCP server that exposes Spotify playback controls to AI assistants like Claude and Cursor.
-  why_it_matters: Allows hands-free music control during coding sessions, though it offers no direct software development or workflow capabilities.
-  mental_damage: Now your AI assistant can DJ your debugging session, because apparently reaching for the media keys was the last remaining friction in software engineering.
+  why_it_matters: >-
+    Allows hands-free music control during coding sessions, though it offers no direct software development or workflow
+    capabilities.
+  mental_damage: >-
+    Now your AI assistant can DJ your debugging session, because apparently reaching for the media keys was the last
+    remaining friction in software engineering.
   tags:
     - mcp
     - mcp-server
@@ -62,31 +68,37 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: MCP server for consumer music control lacks developer-tooling relevance; it's a lifestyle convenience rather than a coding workflow enhancement.
+  reason: >-
+    MCP server for consumer music control lacks developer-tooling relevance; it's a lifestyle convenience rather than a
+    coding workflow enhancement.
   evidence:
-    - Repo description and README focus solely on music playback (play, pause, volume) via natural language, not code or dev infrastructure
+    - >-
+      Repo description and README focus solely on music playback (play, pause, volume) via natural language, not code or
+      dev infrastructure
     - Very low ecosystem traction (19 stars) and created August 2025 (extremely recent)
-    - While listed in awesome-mcp-servers, it represents a novelty domain integration rather than practical developer tooling
+    - >-
+      While listed in awesome-mcp-servers, it represents a novelty domain integration rather than practical developer
+      tooling
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:08.974Z"
+    updated_at: '2026-07-21T15:21:08.974Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.169Z"
+    updated_at: '2026-09-28T04:14:00.169Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

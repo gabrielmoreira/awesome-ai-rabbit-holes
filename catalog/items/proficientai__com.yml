@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__proficientai__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Proficient AI
         anchor_text: Proficient AI
         extracted_url: https://proficientai.com
-        surrounding_text: "## [Proficient AI](https://proficientai.com)"
+        surrounding_text: '## [Proficient AI](https://proficientai.com)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: Proficient AI is an autonomous AI agent platform for building and deploying AI agents.
-  why_it_matters: It enables developers to create and orchestrate AI agents without deep ML expertise, accelerating agent-based application development.
-  mental_damage: Another 'no-code agent builder' promising to replace developers while quietly requiring prompt engineering PhDs to get anything useful.
+  why_it_matters: >-
+    It enables developers to create and orchestrate AI agents without deep ML expertise, accelerating agent-based
+    application development.
+  mental_damage: >-
+    Another 'no-code agent builder' promising to replace developers while quietly requiring prompt engineering PhDs to
+    get anything useful.
   tags:
     - ai-agents
     - agent-orchestration
@@ -46,9 +50,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Proficient AI is a broad agent orchestration platform focused on business use cases like customer service and sales, not developer-facing coding workflows or tooling.
+  reason: >-
+    Proficient AI is a broad agent orchestration platform focused on business use cases like customer service and sales,
+    not developer-facing coding workflows or tooling.
   evidence:
-    - "Listed in awesome-ai-agents under 'purpose: A list of AI autonomous agents'"
+    - 'Listed in awesome-ai-agents under ''purpose: A list of AI autonomous agents'''
     - Homepage describes building AI agents for tasks like lead qualification and customer support
     - No evidence of code editing, IDE integration, or developer workflow enhancement
 placement:
@@ -56,12 +62,12 @@ placement:
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:34:52.756Z"
+    updated_at: '2026-09-28T04:34:52.756Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,9 +89,11 @@ processing:
       input_hash: sha256:0e13af8d8f6da7a0eb1d92ccddc76f6f868a01ec104fb3018b9c7bba507faaaa
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Proficient AI is a broad agent orchestration platform focused on business use cases like customer service and sales, not developer-facing coding workflows or tooling.
+      decision_reason: >-
+        Proficient AI is a broad agent orchestration platform focused on business use cases like customer service and
+        sales, not developer-facing coding workflows or tooling.
       decision_evidence:
-        - "Listed in awesome-ai-agents under 'purpose: A list of AI autonomous agents'"
+        - 'Listed in awesome-ai-agents under ''purpose: A list of AI autonomous agents'''
         - Homepage describes building AI agents for tasks like lead qualification and customer support
         - No evidence of code editing, IDE integration, or developer workflow enhancement
       category_candidates: []

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__beardfaceguy__daimonos__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: beardfaceguy/daimonos
         extracted_url: https://github.com/beardfaceguy/daimonos
-        surrounding_text: "- [beardfaceguy/daimonos](https://github.com/beardfaceguy/daimonos) [![beardfaceguy/daimonos MCP server](https://glama.ai/mcp/servers/beardfaceguy/daimonos/badges/score.svg)](https://glama.ai/mcp/servers/beardfaceguy/daimonos) 🦀 🏠 🍎 🐧 - Agent-optimized MCP server replacing built-in file, search, exec, and git tools with compact structured JSON. Native plugins for git, cargo, gh, and docker. Semantic output filtering, read deduplication, batch operations, and token analytics. Benchmarked 20-45% token savings."
+        surrounding_text: >-
+          - [beardfaceguy/daimonos](https://github.com/beardfaceguy/daimonos) [![beardfaceguy/daimonos MCP
+          server](https://glama.ai/mcp/servers/beardfaceguy/daimonos/badges/score.svg)](https://glama.ai/mcp/servers/beardfaceguy/daimonos)
+          🦀 🏠 🍎 🐧 - Agent-optimized MCP server replacing built-in file, search, exec, and git tools with compact
+          structured JSON. Native plugins for git, cargo, gh, and docker. Semantic output filtering, read deduplication,
+          batch operations, and token analytics. Benchmarked 20-45% token savings.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,23 @@ metadata:
     archived: false
     full_name: beardfaceguy/daimonos
     html_url: https://github.com/beardfaceguy/daimonos
-    created_at: "2026-04-25T19:18:39Z"
-    pushed_at: "2026-09-17T21:09:38Z"
+    created_at: '2026-04-25T19:18:39Z'
+    pushed_at: '2026-09-17T21:09:38Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-21T04:13:55.856Z"
+    last_checked_at: '2026-09-21T04:13:55.856Z'
     readme:
-      fetched_at: "2026-09-21T04:13:55.856Z"
+      fetched_at: '2026-09-21T04:13:55.856Z'
       bytes: 23167
 insights:
   summary: An agent-optimized OS layer that provides structured JSON tool outputs via MCP to reduce token waste.
-  why_it_matters: It prevents AI agents from burning through token budgets and context windows by parsing verbose, unstructured terminal noise.
-  mental_damage: Because even your coding agent needs a middleware layer to avoid the existential dread of reading a 200-line cargo test output.
+  why_it_matters: >-
+    It prevents AI agents from burning through token budgets and context windows by parsing verbose, unstructured
+    terminal noise.
+  mental_damage: >-
+    Because even your coding agent needs a middleware layer to avoid the existential dread of reading a 200-line cargo
+    test output.
   tags:
     - mcp
     - agent-optimization
@@ -51,7 +60,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is primarily an MCP server that optimizes agent context by providing structured tool outputs instead of raw text.
+  reason: >-
+    The project is primarily an MCP server that optimizes agent context by providing structured tool outputs instead of
+    raw text.
   evidence:
     - Runs as an MCP server to provide tools like git, cargo, and docker
     - Replaces raw terminal output with compact JSON to reduce token consumption
@@ -61,22 +72,22 @@ placement:
   secondary_categories: []
   section: Dev & Code Tools
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.988Z"
+    updated_at: '2026-06-15T05:51:04.988Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:55.856Z"
+    updated_at: '2026-09-21T04:13:55.856Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:13:49.320Z"
+    updated_at: '2026-09-24T04:13:49.320Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +100,9 @@ processing:
       input_hash: sha256:f1004303a159e8184272891bd5c69f60cb8b1e1afb8ec37d9eff5a357a474957
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is primarily an MCP server that optimizes agent context by providing structured tool outputs instead of raw text.
+      decision_reason: >-
+        The project is primarily an MCP server that optimizes agent context by providing structured tool outputs instead
+        of raw text.
       decision_evidence:
         - Runs as an MCP server to provide tools like git, cargo, and docker
         - Replaces raw terminal output with compact JSON to reduce token consumption
@@ -97,6 +110,8 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product's primary identity is an MCP server that optimizes context-shaping through protocol-level tool responses.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product's primary identity is an MCP server that optimizes
+        context-shaping through protocol-level tool responses.
       review_reason: null
       review_resume_lifecycle: null

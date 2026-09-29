@@ -42,7 +42,7 @@ function makeItem(overrides: Partial<CatalogItem> & { canonical_url: string; nam
     },
     curation: overrides.curation ?? { status: "pending", reason: null, evidence: [] },
     placement: overrides.placement ?? { primary_category: null, section: null },
-    lifecycle: overrides.lifecycle ?? { status: "incubating", reason: null },
+    lifecycle: overrides.lifecycle ?? { status: "curated", reason: null },
     processing: overrides.processing ?? {
       discover: { status: "done", updated_at: "2026-05-05T00:00:00Z", cause: null },
       stars: { status: github ? "pending" : "skipped", updated_at: null, cause: null },

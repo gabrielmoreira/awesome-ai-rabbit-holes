@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hyperwriteai__com__self__operating__computer__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Self-operating computer
         anchor_text: Self-operating computer
         extracted_url: https://hyperwriteai.com/self-operating-computer
-        surrounding_text: "## [Self-operating computer](https://www.hyperwriteai.com/self-operating-computer)"
+        surrounding_text: '## [Self-operating computer](https://www.hyperwriteai.com/self-operating-computer)'
         confidence: high
     - id: discovery__www__hyperwriteai__com__self__operating__computer__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Self-operating computer
         anchor_text: Self-operating computer
         extracted_url: https://www.hyperwriteai.com/self-operating-computer
-        surrounding_text: "## [Self-operating computer](https://www.hyperwriteai.com/self-operating-computer)"
+        surrounding_text: '## [Self-operating computer](https://www.hyperwriteai.com/self-operating-computer)'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Self-operating computer is an AI agent that automates desktop tasks by controlling the mouse and keyboard to operate software applications.
-  why_it_matters: It demonstrates how AI can replace manual GUI interactions, potentially reducing repetitive work for developers who use desktop applications in their workflows.
-  mental_damage: Watching an AI click through dialogs you used to dread is equal parts relief and existential dread about what 'work' even means anymore.
+  summary: >-
+    Self-operating computer is an AI agent that automates desktop tasks by controlling the mouse and keyboard to operate
+    software applications.
+  why_it_matters: >-
+    It demonstrates how AI can replace manual GUI interactions, potentially reducing repetitive work for developers who
+    use desktop applications in their workflows.
+  mental_damage: >-
+    Watching an AI click through dialogs you used to dread is equal parts relief and existential dread about what 'work'
+    even means anymore.
   tags:
     - ai-agent
     - desktop-automation
@@ -61,22 +67,28 @@ insights:
   confidence: medium
 curation:
   status: excluded
-  reason: While it automates computer use, Self-operating computer does not perform coding tasks as its primary function and lacks a clear developer-tooling angle beyond general desktop automation.
+  reason: >-
+    While it automates computer use, Self-operating computer does not perform coding tasks as its primary function and
+    lacks a clear developer-tooling angle beyond general desktop automation.
   evidence:
-    - Source-list context shows it appears in awesome-ai-agents under 'Self-operating computer' as an autonomous agent example
+    - >-
+      Source-list context shows it appears in awesome-ai-agents under 'Self-operating computer' as an autonomous agent
+      example
     - No repo description, README excerpt, or detailed functionality provided to confirm coding-related capabilities
-    - The tool's described purpose is general computer operation via mouse/keyboard control, not code writing, editing, or debugging
+    - >-
+      The tool's described purpose is general computer operation via mouse/keyboard control, not code writing, editing,
+      or debugging
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:41:59.065Z"
+    updated_at: '2026-09-28T04:41:59.065Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,18 +101,24 @@ processing:
       input_hash: sha256:b71de7e7590fc97f7549dc63504cafe36505d48f9776622d8e779c3b0faf16f8
       proposed_primary_category: null
       disagreement: false
-      decision_reason: While it automates computer use, Self-operating computer does not perform coding tasks as its primary function and lacks a clear developer-tooling angle beyond general desktop automation.
+      decision_reason: >-
+        While it automates computer use, Self-operating computer does not perform coding tasks as its primary function
+        and lacks a clear developer-tooling angle beyond general desktop automation.
       decision_evidence:
-        - Source-list context shows it appears in awesome-ai-agents under 'Self-operating computer' as an autonomous agent example
+        - >-
+          Source-list context shows it appears in awesome-ai-agents under 'Self-operating computer' as an autonomous
+          agent example
         - No repo description, README excerpt, or detailed functionality provided to confirm coding-related capabilities
-        - The tool's described purpose is general computer operation via mouse/keyboard control, not code writing, editing, or debugging
+        - >-
+          The tool's described purpose is general computer operation via mouse/keyboard control, not code writing,
+          editing, or debugging
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause: null
     next_retry_at: null
   stars:

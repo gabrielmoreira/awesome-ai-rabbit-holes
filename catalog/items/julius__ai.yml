@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__julius__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Julius
         anchor_text: Julius
         extracted_url: https://julius.ai
-        surrounding_text: "## [Julius](https://julius.ai/)"
+        surrounding_text: '## [Julius](https://julius.ai/)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: Julius.ai is an autonomous AI agent platform focused on data analysis and code execution.
-  why_it_matters: It lets developers delegate data wrangling, visualization, and statistical modeling tasks to an AI that writes and runs Python or R code in a sandboxed environment.
-  mental_damage: Finally, an AI that pretends to be your data scientist while you nervously watch it pip install packages into your ephemeral container.
+  why_it_matters: >-
+    It lets developers delegate data wrangling, visualization, and statistical modeling tasks to an AI that writes and
+    runs Python or R code in a sandboxed environment.
+  mental_damage: >-
+    Finally, an AI that pretends to be your data scientist while you nervously watch it pip install packages into your
+    ephemeral container.
   tags:
     - ai-agent
     - data-science
@@ -46,20 +50,24 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Julius.ai acts as a coding agent that autonomously writes, executes, and debugs code to perform data analysis tasks, fitting the core identity of a developer-facing agent that operates on code.
+  reason: >-
+    Julius.ai acts as a coding agent that autonomously writes, executes, and debugs code to perform data analysis tasks,
+    fitting the core identity of a developer-facing agent that operates on code.
   evidence:
     - Listed in awesome-ai-agents under the 'Julius' entry as an AI autonomous agent
-    - Platform description emphasizes autonomous code execution for data analysis, file manipulation, and statistical modeling
+    - >-
+      Platform description emphasizes autonomous code execution for data analysis, file manipulation, and statistical
+      modeling
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:30:30.676Z"
+    updated_at: '2026-09-28T04:30:30.676Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +89,19 @@ processing:
       input_hash: sha256:7d1b3738feda86d5c263cf77378eae6291d87d78ea9468df6d4c163211bae585
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Julius.ai acts as a coding agent that autonomously writes, executes, and debugs code to perform data analysis tasks, fitting the core identity of a developer-facing agent that operates on code.
+      decision_reason: >-
+        Julius.ai acts as a coding agent that autonomously writes, executes, and debugs code to perform data analysis
+        tasks, fitting the core identity of a developer-facing agent that operates on code.
       decision_evidence:
         - Listed in awesome-ai-agents under the 'Julius' entry as an AI autonomous agent
-        - Platform description emphasizes autonomous code execution for data analysis, file manipulation, and statistical modeling
+        - >-
+          Platform description emphasizes autonomous code execution for data analysis, file manipulation, and
+          statistical modeling
       category_candidates:
         - coding-agents
         - app-builders
-      contrastive_reason: Choose coding-agents over app-builders because Julius.ai primarily edits and executes code within an existing workflow to analyze data, rather than generating deployable apps from scratch via prompts.
+      contrastive_reason: >-
+        Choose coding-agents over app-builders because Julius.ai primarily edits and executes code within an existing
+        workflow to analyze data, rather than generating deployable apps from scratch via prompts.
       review_reason: null
       review_resume_lifecycle: null

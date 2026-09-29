@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__thetradeagent__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Trade Agent
         extracted_url: https://thetradeagent.ai
-        surrounding_text: "- **[Trade Agent](https://github.com/Trade-Agent/trade-agent-mcp)** - Execute stock and crypto trades via [Trade Agent](https://thetradeagent.ai/)"
+        surrounding_text: >-
+          - **[Trade Agent](https://github.com/Trade-Agent/trade-agent-mcp)** - Execute stock and crypto trades via
+          [Trade Agent](https://thetradeagent.ai/)
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Trade It is a trading platform that connects brokerage accounts to AI assistants like Claude, ChatGPT, and Discord via MCP and SDKs for trading stocks, options, and crypto.
-  why_it_matters: It enables developers to embed trading capabilities into AI-powered apps using its SDK and MCP server, bridging financial workflows with agent interfaces.
-  mental_damage: Lets you feel the existential dread of letting an AI chatbot execute your margin trades while questioning if 'Buy the dip' was a prompt or a cry for help.
+  summary: >-
+    Trade It is a trading platform that connects brokerage accounts to AI assistants like Claude, ChatGPT, and Discord
+    via MCP and SDKs for trading stocks, options, and crypto.
+  why_it_matters: >-
+    It enables developers to embed trading capabilities into AI-powered apps using its SDK and MCP server, bridging
+    financial workflows with agent interfaces.
+  mental_damage: >-
+    Lets you feel the existential dread of letting an AI chatbot execute your margin trades while questioning if 'Buy
+    the dip' was a prompt or a cry for help.
   tags:
     - trading
     - mcp
@@ -48,21 +56,27 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Trade It's core product identity is an MCP server that enables AI assistants to access trading tools and brokerage data, making MCP its primary purpose rather than a coding agent or app builder.
+  reason: >-
+    Trade It's core product identity is an MCP server that enables AI assistants to access trading tools and brokerage
+    data, making MCP its primary purpose rather than a coding agent or app builder.
   evidence:
     - The scraped site context identifies 'MCP server' as a core product under Trading API and Developer hub.
-    - The source-list context shows it is listed in 'awesome-mcp-servers' under 'Official Servers' with the purpose of connecting brokerages to Claude, ChatGPT, Discord, and embedded trading surfaces.
-    - The primary page emphasizes connecting brokerages to AI assistants via MCP, with trading features exposed as tools through the protocol.
+    - >-
+      The source-list context shows it is listed in 'awesome-mcp-servers' under 'Official Servers' with the purpose of
+      connecting brokerages to Claude, ChatGPT, Discord, and embedded trading surfaces.
+    - >-
+      The primary page emphasizes connecting brokerages to AI assistants via MCP, with trading features exposed as tools
+      through the protocol.
 placement:
   primary_category: mcp
   section: Finance, Crypto & DeFi
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.971Z"
+    updated_at: '2026-07-21T15:20:21.971Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +85,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:54:11.645Z"
+    updated_at: '2026-09-28T04:54:11.645Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -82,15 +96,23 @@ processing:
       input_hash: sha256:7da046e2950b0beefce58fbf1b494f23977e8a6fb2537299067093b54848439b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: Trade It's core product identity is an MCP server that enables AI assistants to access trading tools and brokerage data, making MCP its primary purpose rather than a coding agent or app builder.
+      decision_reason: >-
+        Trade It's core product identity is an MCP server that enables AI assistants to access trading tools and
+        brokerage data, making MCP its primary purpose rather than a coding agent or app builder.
       decision_evidence:
         - The scraped site context identifies 'MCP server' as a core product under Trading API and Developer hub.
-        - The source-list context shows it is listed in 'awesome-mcp-servers' under 'Official Servers' with the purpose of connecting brokerages to Claude, ChatGPT, Discord, and embedded trading surfaces.
-        - The primary page emphasizes connecting brokerages to AI assistants via MCP, with trading features exposed as tools through the protocol.
+        - >-
+          The source-list context shows it is listed in 'awesome-mcp-servers' under 'Official Servers' with the purpose
+          of connecting brokerages to Claude, ChatGPT, Discord, and embedded trading surfaces.
+        - >-
+          The primary page emphasizes connecting brokerages to AI assistants via MCP, with trading features exposed as
+          tools through the protocol.
       category_candidates:
         - mcp
         - app-builders
-      contrastive_reason: Choose mcp over app-builders because Trade It’s main value is exposing trading functionality through the Model Context Protocol for AI assistants, not generating deployable apps from prompts.
+      contrastive_reason: >-
+        Choose mcp over app-builders because Trade It’s main value is exposing trading functionality through the Model
+        Context Protocol for AI assistants, not generating deployable apps from prompts.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

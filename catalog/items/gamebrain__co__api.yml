@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gamebrain__co__api__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: GameBrain API
         extracted_url: https://gamebrain.co/api
-        surrounding_text: "- [ddsky/gamebrain-api-clients](https://github.com/ddsky/gamebrain-api-clients) ☁️ - Search and discover hundreds of thousands of video games on any platform through the [GameBrain API](https://gamebrain.co/api)."
+        surrounding_text: >-
+          - [ddsky/gamebrain-api-clients](https://github.com/ddsky/gamebrain-api-clients) ☁️ - Search and discover
+          hundreds of thousands of video games on any platform through the [GameBrain API](https://gamebrain.co/api).
         confidence: high
 metadata:
   github:
@@ -38,8 +40,10 @@ metadata:
     readme: null
 insights:
   summary: A video game database API providing metadata, reviews, and semantic search for 775,000+ titles across 70+ platforms.
-  why_it_matters: Provides developers with structured gaming data, sentiment analysis via unique scoring, and MCP support for LLM integration.
-  mental_damage: "Because your custom AI agent definitely needs to know if Kingdom Come: Deliverance II is worth your weekend."
+  why_it_matters: >-
+    Provides developers with structured gaming data, sentiment analysis via unique scoring, and MCP support for LLM
+    integration.
+  mental_damage: 'Because your custom AI agent definitely needs to know if Kingdom Come: Deliverance II is worth your weekend.'
   tags:
     - game-data
     - api
@@ -49,7 +53,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general-purpose content/data API rather than a developer-focused AI infrastructure or orchestration tool.
+  reason: >-
+    The product is a general-purpose content/data API rather than a developer-focused AI infrastructure or orchestration
+    tool.
   evidence:
     - Primary product is a video game database
     - Offers semantic search and game recommendations
@@ -58,12 +64,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,10 +78,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:40:01.908Z"
+    updated_at: '2026-09-24T04:40:01.908Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for gamebrain__co__api: Invalid AI response structure: Invalid confidence value: undefined"
+      message: >-
+        Catalog LLM categorization failed for gamebrain__co__api: Invalid AI response structure: Invalid confidence
+        value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -87,7 +95,9 @@ processing:
       input_hash: sha256:0263bf4645c92127db1f6304e2f5a665d31306f44b84a801ba3e76998915d13a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a general-purpose content/data API rather than a developer-focused AI infrastructure or orchestration tool.
+      decision_reason: >-
+        The product is a general-purpose content/data API rather than a developer-focused AI infrastructure or
+        orchestration tool.
       decision_evidence:
         - Primary product is a video game database
         - Offers semantic search and game recommendations

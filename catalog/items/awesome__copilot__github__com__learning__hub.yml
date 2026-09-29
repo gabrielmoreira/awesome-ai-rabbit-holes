@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__awesome__copilot__github__com__learning__hub__awesome-list__github__awesome-copilot
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -18,7 +18,10 @@ provenance:
           - README
         anchor_text: Learning Hub
         extracted_url: https://awesome-copilot.github.com/learning-hub
-        surrounding_text: "> The website offers full-text search and filtering across hundreds of resources, plus the [Tools](https://awesome-copilot.github.com/tools) section for MCP servers and developer tooling, and the [Learning Hub](https://awesome-copilot.github.com/learning-hub) for guides and tutorials."
+        surrounding_text: >-
+          > The website offers full-text search and filtering across hundreds of resources, plus the
+          [Tools](https://awesome-copilot.github.com/tools) section for MCP servers and developer tooling, and the
+          [Learning Hub](https://awesome-copilot.github.com/learning-hub) for guides and tutorials.
         confidence: high
 metadata:
   github:
@@ -36,9 +39,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GitHub Copilot Learning Hub is a community-curated collection of guides, tutorials, and reference material for using GitHub Copilot.
-  why_it_matters: It helps developers learn to use GitHub Copilot effectively through structured educational content, reducing onboarding friction for AI-assisted development.
-  mental_damage: Another 'learning resource' that makes you wonder if the real productivity gain is just reading more docs while your IDE waits for the next tutorial to load.
+  summary: >-
+    GitHub Copilot Learning Hub is a community-curated collection of guides, tutorials, and reference material for using
+    GitHub Copilot.
+  why_it_matters: >-
+    It helps developers learn to use GitHub Copilot effectively through structured educational content, reducing
+    onboarding friction for AI-assisted development.
+  mental_damage: >-
+    Another 'learning resource' that makes you wonder if the real productivity gain is just reading more docs while your
+    IDE waits for the next tutorial to load.
   tags:
     - learning-hub
     - github-copilot
@@ -46,22 +55,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation and resource collection, not a standalone developer-tooling product that performs coding tasks, builds apps, or provides infrastructure.
+  reason: >-
+    This is a documentation and resource collection, not a standalone developer-tooling product that performs coding
+    tasks, builds apps, or provides infrastructure.
   evidence:
-    - The repo description is empty, and the source-list context identifies it as a 'Community-contributed instructions, agents, skills, and configurations' resource page, not a product.
-    - The scraped site context describes it as 'Guides, tutorials, and reference material' and a 'Learning Hub' with no claim of being an autonomous agent or tool.
-    - It appears in 'awesome-copilot' as a curated list item, which the catalog defines as 'Awesome Lists & Resources' under 'awesome-awesomes' — a navigation aid, not a developer-facing tool.
+    - >-
+      The repo description is empty, and the source-list context identifies it as a 'Community-contributed instructions,
+      agents, skills, and configurations' resource page, not a product.
+    - >-
+      The scraped site context describes it as 'Guides, tutorials, and reference material' and a 'Learning Hub' with no
+      claim of being an autonomous agent or tool.
+    - >-
+      It appears in 'awesome-copilot' as a curated list item, which the catalog defines as 'Awesome Lists & Resources'
+      under 'awesome-awesomes' — a navigation aid, not a developer-facing tool.
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +87,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:34:40.506Z"
+    updated_at: '2026-09-24T04:34:40.506Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,11 +100,19 @@ processing:
       input_hash: sha256:c9786f728b7485199fa850a3730ff8701013a77d45c065686a1af987ebfd6848
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a documentation and resource collection, not a standalone developer-tooling product that performs coding tasks, builds apps, or provides infrastructure.
+      decision_reason: >-
+        This is a documentation and resource collection, not a standalone developer-tooling product that performs coding
+        tasks, builds apps, or provides infrastructure.
       decision_evidence:
-        - The repo description is empty, and the source-list context identifies it as a 'Community-contributed instructions, agents, skills, and configurations' resource page, not a product.
-        - The scraped site context describes it as 'Guides, tutorials, and reference material' and a 'Learning Hub' with no claim of being an autonomous agent or tool.
-        - It appears in 'awesome-copilot' as a curated list item, which the catalog defines as 'Awesome Lists & Resources' under 'awesome-awesomes' — a navigation aid, not a developer-facing tool.
+        - >-
+          The repo description is empty, and the source-list context identifies it as a 'Community-contributed
+          instructions, agents, skills, and configurations' resource page, not a product.
+        - >-
+          The scraped site context describes it as 'Guides, tutorials, and reference material' and a 'Learning Hub' with
+          no claim of being an autonomous agent or tool.
+        - >-
+          It appears in 'awesome-copilot' as a curated list item, which the catalog defines as 'Awesome Lists &
+          Resources' under 'awesome-awesomes' — a navigation aid, not a developer-facing tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__julep__ai__open__responses__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,10 @@ provenance:
           - Frameworks/Servers for Serving
         anchor_text: Open Responses
         extracted_url: https://docs.julep.ai/open-responses
-        surrounding_text: "| [Open Responses](https://docs.julep.ai/open-responses) | Serverless open-source platform for building long-running LLM agents with tool use. | ![GitHub Badge](https://img.shields.io/github/stars/julep-ai/julep.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [Open Responses](https://docs.julep.ai/open-responses) | Serverless open-source platform for building
+          long-running LLM agents with tool use. | ![GitHub
+          Badge](https://img.shields.io/github/stars/julep-ai/julep.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -37,8 +40,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: open-responses is a Julep.ai documentation page describing a feature for handling streaming or asynchronous responses in AI agent workflows.
-  why_it_matters: It helps developers manage real-time or deferred AI responses in agent systems, improving UX in interactive applications.
+  summary: >-
+    open-responses is a Julep.ai documentation page describing a feature for handling streaming or asynchronous
+    responses in AI agent workflows.
+  why_it_matters: >-
+    It helps developers manage real-time or deferred AI responses in agent systems, improving UX in interactive
+    applications.
   mental_damage: Another doc page promising seamless async UX while you debug why your agent keeps hanging on the third turn.
   tags:
     - ai-agents
@@ -47,22 +54,26 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The input is a documentation page, not a standalone product, tool, or developer-facing runtime; it lacks the identity of a functional tool to be cataloged.
+  reason: >-
+    The input is a documentation page, not a standalone product, tool, or developer-facing runtime; it lacks the
+    identity of a functional tool to be cataloged.
   evidence:
     - URL points to docs.julep.ai/open-responses, a documentation subsection
     - No repo, stars, or product signals provided; only a doc page is referenced
-    - Source-list context shows inclusion in Awesome-LLMOps under Serving > Frameworks/Servers, but this refers to the parent project, not this doc page
+    - >-
+      Source-list context shows inclusion in Awesome-LLMOps under Serving > Frameworks/Servers, but this refers to the
+      parent project, not this doc page
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:38:31.259Z"
+    updated_at: '2026-09-24T04:38:31.259Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,11 +95,15 @@ processing:
       input_hash: sha256:a9123d6d3ac983e474db8a5e402d8c4b5e7a5062bb638b97e941e9356a3934ca
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a documentation page, not a standalone product, tool, or developer-facing runtime; it lacks the identity of a functional tool to be cataloged.
+      decision_reason: >-
+        The input is a documentation page, not a standalone product, tool, or developer-facing runtime; it lacks the
+        identity of a functional tool to be cataloged.
       decision_evidence:
         - URL points to docs.julep.ai/open-responses, a documentation subsection
         - No repo, stars, or product signals provided; only a doc page is referenced
-        - Source-list context shows inclusion in Awesome-LLMOps under Serving > Frameworks/Servers, but this refers to the parent project, not this doc page
+        - >-
+          Source-list context shows inclusion in Awesome-LLMOps under Serving > Frameworks/Servers, but this refers to
+          the parent project, not this doc page
       category_candidates: []
       contrastive_reason: null
       review_reason: null

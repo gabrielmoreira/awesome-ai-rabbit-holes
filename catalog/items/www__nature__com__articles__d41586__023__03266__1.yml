@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__nature__com__articles__d41586__023__03266__1__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -17,9 +17,9 @@ provenance:
         section_path:
           - data-to-paper
           - Description
-        anchor_text: "see also: [living guidelines"
+        anchor_text: 'see also: [living guidelines'
         extracted_url: https://www.nature.com/articles/d41586-023-03266-1
-        surrounding_text: "[see also: [living guidelines](https://www.nature.com/articles/d41586-023-03266-1)]."
+        surrounding_text: '[see also: [living guidelines](https://www.nature.com/articles/d41586-023-03266-1)].'
         confidence: high
 metadata:
   github:
@@ -39,7 +39,9 @@ metadata:
 insights:
   summary: This is a Nature article about a client-side challenge that failed to load due to browser or network issues.
   why_it_matters: It does not matter to developers as it is not a tool, agent, or any developer-facing product.
-  mental_damage: Another broken link in the endless AI hype chain, reminding us that even nature.com can't serve a simple page without ad-blocker drama.
+  mental_damage: >-
+    Another broken link in the endless AI hype chain, reminding us that even nature.com can't serve a simple page
+    without ad-blocker drama.
   tags: []
   confidence: high
 curation:
@@ -47,18 +49,20 @@ curation:
   reason: The URL points to a non-functional news article page, not a software tool, agent, or developer product of any kind.
   evidence:
     - URL is https://www.nature.com/articles/d41586-023-03266-1, a Nature.com article
-    - "Scraped excerpt shows: 'A required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings.'"
+    - >-
+      Scraped excerpt shows: 'A required part of this site couldn’t load. This may be due to a browser extension,
+      network issues, or browser settings.'
     - No repo description, README, or tool-specific content was provided
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.669Z"
+    updated_at: '2026-05-06T22:12:15.669Z'
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +71,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:54:58.619Z"
+    updated_at: '2026-09-28T04:54:58.619Z'
     cause: null
     attempts: 6
     prompt_version: catalog-categorize-v5-single-template
@@ -80,10 +84,14 @@ processing:
       input_hash: sha256:21d220013771ae66d486f033d23d7e7661bfd70c9031868d235bc28c633cf90f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The URL points to a non-functional news article page, not a software tool, agent, or developer product of any kind.
+      decision_reason: >-
+        The URL points to a non-functional news article page, not a software tool, agent, or developer product of any
+        kind.
       decision_evidence:
         - URL is https://www.nature.com/articles/d41586-023-03266-1, a Nature.com article
-        - "Scraped excerpt shows: 'A required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings.'"
+        - >-
+          Scraped excerpt shows: 'A required part of this site couldn’t load. This may be due to a browser extension,
+          network issues, or browser settings.'
         - No repo description, README, or tool-specific content was provided
       category_candidates: []
       contrastive_reason: null

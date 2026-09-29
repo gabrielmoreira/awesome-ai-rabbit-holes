@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deepseek-ai__deepseek-r1__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -17,9 +17,11 @@ provenance:
         mode: parsed
         section_path:
           - 论文 Paper
-        anchor_text: "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"
+        anchor_text: 'DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning'
         extracted_url: https://github.com/deepseek-ai/deepseek-r1
-        surrounding_text: "34. [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://github.com/deepseek-ai/DeepSeek-R1)"
+        surrounding_text: >-
+          34. [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement
+          Learning](https://github.com/deepseek-ai/DeepSeek-R1)
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: deepseek-ai/DeepSeek-R1
     html_url: https://github.com/deepseek-ai/DeepSeek-R1
-    created_at: "2025-01-20T11:57:28Z"
-    pushed_at: "2025-06-27T08:35:54Z"
+    created_at: '2025-01-20T11:57:28Z'
+    pushed_at: '2025-06-27T08:35:54Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:38.240Z"
+    last_checked_at: '2026-09-14T04:13:38.240Z'
     readme:
-      fetched_at: "2026-09-14T04:13:38.240Z"
+      fetched_at: '2026-09-14T04:13:38.240Z'
       bytes: 20736
 insights:
   summary: DeepSeek-R1 is an open-source reasoning model released by DeepSeek.
-  why_it_matters: It offers developers a high-performance reasoning model that can be integrated into coding workflows for tasks requiring advanced reasoning capabilities.
+  why_it_matters: >-
+    It offers developers a high-performance reasoning model that can be integrated into coding workflows for tasks
+    requiring advanced reasoning capabilities.
   mental_damage: Another model to benchmark against, because your existing stack wasn’t confusing enough.
   tags:
     - reasoning-model
@@ -49,30 +53,34 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is a raw model release without a developer-tooling identity (no SDK, CLI, IDE integration, or workflow product).
+  reason: >-
+    The project is a raw model release without a developer-tooling identity (no SDK, CLI, IDE integration, or workflow
+    product).
   evidence:
-    - Repo description is missing, and the README context is not provided, but the source-list context labels it as a 'Paper' under LLM resources.
+    - >-
+      Repo description is missing, and the README context is not provided, but the source-list context labels it as a
+      'Paper' under LLM resources.
     - No evidence of a code-first toolkit, runtime, or developer-facing product beyond the model itself.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (92019) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:38.240Z"
+    updated_at: '2026-09-14T04:13:38.240Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -87,9 +95,13 @@ processing:
       input_hash: sha256:605f7e471ee5e1e648be3ecf0e35765bcd0ff41e9cbaabe2c774684b064974c5
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a raw model release without a developer-tooling identity (no SDK, CLI, IDE integration, or workflow product).
+      decision_reason: >-
+        The project is a raw model release without a developer-tooling identity (no SDK, CLI, IDE integration, or
+        workflow product).
       decision_evidence:
-        - Repo description is missing, and the README context is not provided, but the source-list context labels it as a 'Paper' under LLM resources.
+        - >-
+          Repo description is missing, and the README context is not provided, but the source-list context labels it as
+          a 'Paper' under LLM resources.
         - No evidence of a code-first toolkit, runtime, or developer-facing product beyond the model itself.
       category_candidates: []
       contrastive_reason: null

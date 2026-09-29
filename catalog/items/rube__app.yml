@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__rube__app__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,10 @@ provenance:
           - Official Servers
         anchor_text: Rube
         extracted_url: https://rube.composio.dev
-        surrounding_text: "- **[Rube](https://rube.composio.dev)** - Rube is a Model Context Protocol (MCP) server that connects your AI tools to 500+ apps like Gmail, Slack, GitHub, and Notion. Simply install it in your AI client, authenticate once with your apps, and start asking your AI to perform real actions like \"Send an email\" or \"Create a task.\""
+        surrounding_text: >-
+          - **[Rube](https://rube.composio.dev)** - Rube is a Model Context Protocol (MCP) server that connects your AI
+          tools to 500+ apps like Gmail, Slack, GitHub, and Notion. Simply install it in your AI client, authenticate
+          once with your apps, and start asking your AI to perform real actions like "Send an email" or "Create a task."
         confidence: high
 metadata:
   github:
@@ -36,9 +39,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Rube was an AI agent platform that has been discontinued as of May 16, 2026, with all services shut down and refunds processed.
+  summary: >-
+    Rube was an AI agent platform that has been discontinued as of May 16, 2026, with all services shut down and refunds
+    processed.
   why_it_matters: It does not matter anymore — the product is fully discontinued and no longer usable for any developer workflow.
-  mental_damage: The existential dread of investing time in an AI agent that gets sunsetted before you finish reading its goodbye note.
+  mental_damage: >-
+    The existential dread of investing time in an AI agent that gets sunsetted before you finish reading its goodbye
+    note.
   tags:
     - discontinued
     - ai-agent
@@ -46,22 +53,24 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The product is explicitly discontinued with no remaining functionality, making it irrelevant to the catalog's scope of practical, usable developer tooling.
+  reason: >-
+    The product is explicitly discontinued with no remaining functionality, making it irrelevant to the catalog's scope
+    of practical, usable developer tooling.
   evidence:
     - Rube has been discontinued as of May 16, 2026, with all payments refunded and services shut down.
-    - "The site states: 'Rube was discontinued on May 16, 2026. All payments have been refunded.'"
+    - 'The site states: ''Rube was discontinued on May 16, 2026. All payments have been refunded.'''
     - No active repository, stars, or recent activity is provided, confirming abandonment.
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:36:42.487Z"
+    updated_at: '2026-09-28T04:36:42.487Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,10 +92,12 @@ processing:
       input_hash: sha256:e153dce5d2b4d1bbb2c316a4dcf12402a4afeeaa8dc588da19415dae2035307a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is explicitly discontinued with no remaining functionality, making it irrelevant to the catalog's scope of practical, usable developer tooling.
+      decision_reason: >-
+        The product is explicitly discontinued with no remaining functionality, making it irrelevant to the catalog's
+        scope of practical, usable developer tooling.
       decision_evidence:
         - Rube has been discontinued as of May 16, 2026, with all payments refunded and services shut down.
-        - "The site states: 'Rube was discontinued on May 16, 2026. All payments have been refunded.'"
+        - 'The site states: ''Rube was discontinued on May 16, 2026. All payments have been refunded.'''
         - No active repository, stars, or recent activity is provided, confirming abandonment.
       category_candidates: []
       contrastive_reason: null

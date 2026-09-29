@@ -1,0 +1,81 @@
+id: github__algovaultlabs__algovault-integrations
+kind: github-repo
+name: algovaultlabs/algovault-integrations
+canonical_url: https://github.com/algovaultlabs/algovault-integrations
+identity:
+  github_repo: algovaultlabs/algovault-integrations
+provenance:
+  discoveries:
+    - id: discovery__github__algovaultlabs__algovault-integrations__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Routing, data, and workflows
+        anchor_text: 'algovault-integrations: typesafe-jev'
+        extracted_url: https://github.com/algovaultlabs/algovault-integrations
+        surrounding_text: >-
+          - [algovault-integrations:
+          typesafe-jev](https://github.com/AlgoVaultLabs/algovault-integrations/tree/main/examples/typesafe-jev) - Jev
+          decides whether to act on a composite AlgoVault verdict (direction, confidence, regime) for a crypto perp
+          market now, and how well the regime fits a directional entry; code computes position conflict, applies every
+          threshold, and logs act, hold, or escalate. Read-only: it never places orders, and runs as a dry run with no
+          key required.
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: AlgoVaultLabs/algovault-integrations
+    html_url: https://github.com/AlgoVaultLabs/algovault-integrations
+    created_at: '2026-05-23T04:48:47Z'
+    pushed_at: '2026-09-21T10:14:19Z'
+    description: >-
+      Production-ready examples for consuming the AlgoVault Verifiable-Signal v1.0 spec across downstream execution
+      platforms.
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:08:49.897Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:49.897Z'
+      bytes: 6711
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  evidence:
+    - Jev classification confidence below inclusion threshold
+placement:
+  primary_category: null
+  secondary_categories: []
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.447Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:49.897Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

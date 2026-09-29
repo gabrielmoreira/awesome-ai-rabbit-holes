@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__thirdweb__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,10 @@ provenance:
           - Official Servers
         anchor_text: Thirdweb
         extracted_url: https://thirdweb.com
-        surrounding_text: "- **[Thirdweb](https://github.com/thirdweb-dev/ai/tree/main/python/thirdweb-mcp)** - Read/write to over 2k blockchains, enabling data querying, contract analysis/deployment, and transaction execution, powered by [Thirdweb](https://thirdweb.com/)"
+        surrounding_text: >-
+          - **[Thirdweb](https://github.com/thirdweb-dev/ai/tree/main/python/thirdweb-mcp)** - Read/write to over 2k
+          blockchains, enabling data querying, contract analysis/deployment, and transaction execution, powered by
+          [Thirdweb](https://thirdweb.com/)
         confidence: high
 metadata:
   github:
@@ -36,9 +39,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: thirdweb.com provides blockchain infrastructure including SDKs, APIs, wallets, and developer tools for building web3 applications across EVM and Solana chains.
-  why_it_matters: It simplifies blockchain integration for developers by offering pre-built components for token creation, payments, and chain interoperability, reducing the complexity of building crypto-powered applications.
-  mental_damage: Another 'one-stop platform' that promises seamless web3 development while quietly locking you into proprietary SDKs and managed infrastructure you can’t easily audit or escape.
+  summary: >-
+    thirdweb.com provides blockchain infrastructure including SDKs, APIs, wallets, and developer tools for building web3
+    applications across EVM and Solana chains.
+  why_it_matters: >-
+    It simplifies blockchain integration for developers by offering pre-built components for token creation, payments,
+    and chain interoperability, reducing the complexity of building crypto-powered applications.
+  mental_damage: >-
+    Another 'one-stop platform' that promises seamless web3 development while quietly locking you into proprietary SDKs
+    and managed infrastructure you can’t easily audit or escape.
   tags:
     - blockchain
     - web3
@@ -47,22 +56,31 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The product is a blockchain infrastructure platform focused on enabling web3 applications, not an AI developer tool; its AI-related claims are peripheral marketing layers atop a non-AI core.
+  reason: >-
+    The product is a blockchain infrastructure platform focused on enabling web3 applications, not an AI developer tool;
+    its AI-related claims are peripheral marketing layers atop a non-AI core.
   evidence:
-    - Scraped site context emphasizes 'Build on internet capital markets with infrastructure for agents to discover, pay for, and interact with services and APIs' but core products are token creation, bridging, swapping, and wallet infrastructure.
-    - Source-list context appears in awesome-mcp-servers under 'Official Servers' for enabling agents to interact with blockchain services, indicating MCP is a compatibility feature, not the product identity.
-    - No evidence of AI agents, coding assistance, prompt-to-code workflows, or developer-facing AI tooling as the primary function; the platform centers on blockchain asset management and transactions.
+    - >-
+      Scraped site context emphasizes 'Build on internet capital markets with infrastructure for agents to discover, pay
+      for, and interact with services and APIs' but core products are token creation, bridging, swapping, and wallet
+      infrastructure.
+    - >-
+      Source-list context appears in awesome-mcp-servers under 'Official Servers' for enabling agents to interact with
+      blockchain services, indicating MCP is a compatibility feature, not the product identity.
+    - >-
+      No evidence of AI agents, coding assistance, prompt-to-code workflows, or developer-facing AI tooling as the
+      primary function; the platform centers on blockchain asset management and transactions.
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +89,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:47:27.019Z"
+    updated_at: '2026-09-28T04:47:27.019Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,11 +102,20 @@ processing:
       input_hash: sha256:ddc4e4a4c5ebfa5d774c61a4e5981337a9db4c15ef2389d6bdbade8135c45a34
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a blockchain infrastructure platform focused on enabling web3 applications, not an AI developer tool; its AI-related claims are peripheral marketing layers atop a non-AI core.
+      decision_reason: >-
+        The product is a blockchain infrastructure platform focused on enabling web3 applications, not an AI developer
+        tool; its AI-related claims are peripheral marketing layers atop a non-AI core.
       decision_evidence:
-        - Scraped site context emphasizes 'Build on internet capital markets with infrastructure for agents to discover, pay for, and interact with services and APIs' but core products are token creation, bridging, swapping, and wallet infrastructure.
-        - Source-list context appears in awesome-mcp-servers under 'Official Servers' for enabling agents to interact with blockchain services, indicating MCP is a compatibility feature, not the product identity.
-        - No evidence of AI agents, coding assistance, prompt-to-code workflows, or developer-facing AI tooling as the primary function; the platform centers on blockchain asset management and transactions.
+        - >-
+          Scraped site context emphasizes 'Build on internet capital markets with infrastructure for agents to discover,
+          pay for, and interact with services and APIs' but core products are token creation, bridging, swapping, and
+          wallet infrastructure.
+        - >-
+          Source-list context appears in awesome-mcp-servers under 'Official Servers' for enabling agents to interact
+          with blockchain services, indicating MCP is a compatibility feature, not the product identity.
+        - >-
+          No evidence of AI agents, coding assistance, prompt-to-code workflows, or developer-facing AI tooling as the
+          primary function; the platform centers on blockchain asset management and transactions.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

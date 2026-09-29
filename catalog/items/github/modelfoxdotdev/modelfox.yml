@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__modelfoxdotdev__modelfox__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - ML Platforms
         anchor_text: ModelFox
         extracted_url: https://github.com/modelfoxdotdev/modelfox
-        surrounding_text: "| [ModelFox](https://github.com/modelfoxdotdev/modelfox)  | ModelFox is a platform for managing and deploying machine learning models.                                                                                                                                                                                                                                                                                                                                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/modelfoxdotdev/modelfox.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [ModelFox](https://github.com/modelfoxdotdev/modelfox)  | ModelFox is a platform for managing and deploying
+          machine learning
+          models.                                                                                                                                                                                                                                                                                                                                                                                               
+          | ![GitHub Badge](https://img.shields.io/github/stars/modelfoxdotdev/modelfox.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -30,10 +34,10 @@ metadata:
     archived: false
     full_name: modelfoxdotdev/modelfox
     html_url: https://github.com/modelfoxdotdev/modelfox
-    created_at: "2021-04-23T19:25:24Z"
-    pushed_at: "2024-08-02T17:23:15Z"
+    created_at: '2021-04-23T19:25:24Z'
+    pushed_at: '2024-08-02T17:23:15Z'
     description: ModelFox makes it easy to train, deploy, and monitor machine learning models.
-    homepage: ""
+    homepage: ''
     topics:
       - automl
       - developer-tools
@@ -54,14 +58,20 @@ metadata:
       - rust-lang
       - rust-library
       - rustlang
-    last_checked_at: "2026-08-03T05:17:06.307Z"
+    last_checked_at: '2026-08-03T05:17:06.307Z'
     readme:
-      fetched_at: "2026-08-03T05:17:06.307Z"
+      fetched_at: '2026-08-03T05:17:06.307Z'
       bytes: 5254
 insights:
-  summary: ModelFox is a CLI and cross-language library toolkit for training, deploying, and monitoring traditional machine learning models from CSV files.
-  why_it_matters: It offers a batteries-included, low-friction path for developers to ship and monitor tabular ML models without building custom Python MLOps pipelines.
-  mental_damage: Just when you thought the 2025 stack couldn't get wider, here is another CLI reminding you that you still need to properly monitor that heart-disease predictor you shipped in 2022.
+  summary: >-
+    ModelFox is a CLI and cross-language library toolkit for training, deploying, and monitoring traditional machine
+    learning models from CSV files.
+  why_it_matters: >-
+    It offers a batteries-included, low-friction path for developers to ship and monitor tabular ML models without
+    building custom Python MLOps pipelines.
+  mental_damage: >-
+    Just when you thought the 2025 stack couldn't get wider, here is another CLI reminding you that you still need to
+    properly monitor that heart-disease predictor you shipped in 2022.
   tags:
     - mlops
     - cli
@@ -71,35 +81,41 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional ML training and monitoring toolkit, not a developer-facing AI tool, agent, or coding workflow product.
+  reason: >-
+    This is a traditional ML training and monitoring toolkit, not a developer-facing AI tool, agent, or coding workflow
+    product.
   evidence:
-    - "Repo description states: 'ModelFox makes it easy to train, deploy, and monitor machine learning models.'"
-    - README demonstrates a workflow based on `modelfox train` from CSV files and traditional prediction logging, with no coding-agent or LLM-centric workflow.
-    - Source list places it under 'Large Scale Deployment > ML Platforms' in an LLMOps list, but the product itself is generic ML, not LLM/AI developer tooling.
+    - 'Repo description states: ''ModelFox makes it easy to train, deploy, and monitor machine learning models.'''
+    - >-
+      README demonstrates a workflow based on `modelfox train` from CSV files and traditional prediction logging, with
+      no coding-agent or LLM-centric workflow.
+    - >-
+      Source list places it under 'Large Scale Deployment > ML Platforms' in an LLMOps list, but the product itself is
+      generic ML, not LLM/AI developer tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (1468) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: '2026-05-06T22:12:15.631Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:06.307Z"
+    updated_at: '2026-08-03T05:17:06.307Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

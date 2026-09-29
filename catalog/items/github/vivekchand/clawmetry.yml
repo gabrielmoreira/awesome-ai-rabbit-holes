@@ -1,0 +1,78 @@
+id: github__vivekchand__clawmetry
+kind: github-repo
+name: vivekchand/clawmetry
+canonical_url: https://github.com/vivekchand/clawmetry
+identity:
+  github_repo: vivekchand/clawmetry
+provenance:
+  discoveries:
+    - id: discovery__github__vivekchand__clawmetry__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: ClawMetry
+        extracted_url: https://github.com/vivekchand/clawmetry
+        surrounding_text: >-
+          - **[ClawMetry](https://github.com/vivekchand/clawmetry)** – Self-hosted dashboard that reads the session logs
+          coding agents already write on disk (Claude Code, Codex, Cursor, Aider, Goose, OpenClaw and others), so there
+          is no SDK and nothing sits in the request path. Shows sessions, tool calls, tokens and cache-aware cost per
+          session and per model. MIT core, `pip install clawmetry`. [Website](https://clawmetry.com)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    ClawMetry – Self-hosted dashboard that reads the session logs coding agents already write on disk (Claude Code,
+    Codex, Cursor, Aider, Goose, OpenClaw and others), so there is no SDK and nothing sits in the request path. Shows
+    sessions, tool calls, tokens and cache-aware cost per session and per model. MIT core, pip install clawmetry.
+    Website
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
+  evidence:
+    - jev-latest choice confidence 0.96
+placement:
+  primary_category: evals
+  secondary_categories: []
+  section: Observability & Tracing
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.483Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sandai-org__magi-1__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -30,22 +30,26 @@ metadata:
     archived: false
     full_name: SandAI-org/MAGI-1
     html_url: https://github.com/SandAI-org/MAGI-1
-    created_at: "2025-04-21T10:34:09Z"
-    pushed_at: "2026-06-17T07:06:35Z"
-    description: "MAGI-1: Autoregressive Video Generation at Scale"
+    created_at: '2025-04-21T10:34:09Z'
+    pushed_at: '2026-06-17T07:06:35Z'
+    description: 'MAGI-1: Autoregressive Video Generation at Scale'
     homepage: https://sand.ai
     topics:
       - autoregressive
       - diffusion-models
       - video-generation
-    last_checked_at: "2026-07-20T16:42:50.858Z"
+    last_checked_at: '2026-07-20T16:42:50.858Z'
     readme:
-      fetched_at: "2026-07-20T16:42:50.858Z"
+      fetched_at: '2026-07-20T16:42:50.858Z'
       bytes: 20195
 insights:
   summary: MAGI-1 is an autoregressive video generation model and research codebase for generating video at scale.
-  why_it_matters: It provides developers and researchers with an open-source implementation of a large-scale autoregressive approach to video synthesis.
-  mental_damage: Another day, another massive model repo that we clone, struggle to run locally, and then use exclusively to generate 10-second clips of a rotating Rubik's cube.
+  why_it_matters: >-
+    It provides developers and researchers with an open-source implementation of a large-scale autoregressive approach
+    to video synthesis.
+  mental_damage: >-
+    Another day, another massive model repo that we clone, struggle to run locally, and then use exclusively to generate
+    10-second clips of a rotating Rubik's cube.
   tags:
     - video-generation
     - autoregressive
@@ -54,7 +58,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a general ML research model for video generation, lacking a developer-tooling, coding-assistant, or infrastructure angle required for this catalog.
+  reason: >-
+    Excluded because it is a general ML research model for video generation, lacking a developer-tooling,
+    coding-assistant, or infrastructure angle required for this catalog.
   evidence:
     - Repo description explicitly states 'Autoregressive Video Generation at Scale', not a developer tool.
     - README and topics focus on diffusion-models and video-generation, aligning with ML research, not coding workflows.
@@ -63,26 +69,26 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (3683) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.646Z"
+    updated_at: '2026-05-06T22:12:15.646Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:50.858Z"
+    updated_at: '2026-07-20T16:42:50.858Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.168Z"
+    updated_at: '2026-09-28T04:14:00.168Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__windsurf__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Windsurf
         extracted_url: https://windsurf.com
-        surrounding_text: "- **[Windsurf](https://windsurf.com/)** – AI code editor with Cascade, a deep contextual coding agent that goes beyond autocompletion."
+        surrounding_text: >-
+          - **[Windsurf](https://windsurf.com/)** – AI code editor with Cascade, a deep contextual coding agent that
+          goes beyond autocompletion.
         confidence: high
 metadata:
   github:
@@ -36,8 +38,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Devin Desktop is a desktop application that provides a unified command center for managing local and cloud coding agents alongside a full IDE experience.
-  why_it_matters: It lets developers coordinate multiple AI agents from one interface while retaining access to a full-featured IDE for code review and debugging.
+  summary: >-
+    Devin Desktop is a desktop application that provides a unified command center for managing local and cloud coding
+    agents alongside a full IDE experience.
+  why_it_matters: >-
+    It lets developers coordinate multiple AI agents from one interface while retaining access to a full-featured IDE
+    for code review and debugging.
   mental_damage: Finally, a way to feel overwhelmed by your fleet of agents without constantly context-switching between tools.
   tags:
     - ai-agents
@@ -46,9 +52,13 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The product is primarily a desktop IDE and agent management platform whose core value lies in orchestrating multiple agents and providing an IDE environment, not in performing autonomous coding tasks itself.
+  reason: >-
+    The product is primarily a desktop IDE and agent management platform whose core value lies in orchestrating multiple
+    agents and providing an IDE environment, not in performing autonomous coding tasks itself.
   evidence:
-    - Devin Desktop is described as 'the home for every agent you run' and a 'command center for managing all your agents in one place'
+    - >-
+      Devin Desktop is described as 'the home for every agent you run' and a 'command center for managing all your
+      agents in one place'
     - It includes a full IDE with syntax highlighting, autocomplete, and debugging tools
     - It enables multi-agent workflows with shared context via Spaces and Kanban views
 placement:
@@ -56,12 +66,12 @@ placement:
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:49:41.235Z"
+    updated_at: '2026-09-28T04:49:41.235Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,9 +93,13 @@ processing:
       input_hash: sha256:a114339d92fb5e88d402750fc9fc56a693d3c8b3b551d0516d45a9f7cdc26a85
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is primarily a desktop IDE and agent management platform whose core value lies in orchestrating multiple agents and providing an IDE environment, not in performing autonomous coding tasks itself.
+      decision_reason: >-
+        The product is primarily a desktop IDE and agent management platform whose core value lies in orchestrating
+        multiple agents and providing an IDE environment, not in performing autonomous coding tasks itself.
       decision_evidence:
-        - Devin Desktop is described as 'the home for every agent you run' and a 'command center for managing all your agents in one place'
+        - >-
+          Devin Desktop is described as 'the home for every agent you run' and a 'command center for managing all your
+          agents in one place'
         - It includes a full IDE with syntax highlighting, autocomplete, and debugging tools
         - It enables multi-agent workflows with shared context via Spaces and Kanban views
       category_candidates: []

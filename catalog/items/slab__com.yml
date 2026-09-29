@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__slab__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Documentation
         anchor_text: Slab
         extracted_url: https://slab.com
-        surrounding_text: "- **[Slab](https://slab.com/)** – Team knowledge base with AI search and automated documentation."
+        surrounding_text: '- **[Slab](https://slab.com/)** – Team knowledge base with AI search and automated documentation.'
         confidence: high
 metadata:
   github:
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: Slab is a knowledge base and wiki software for teams to create, organize, and search internal documentation.
-  why_it_matters: It centralizes company knowledge so developers can find documentation, onboarding material, and tribal info without digging through scattered tools.
+  why_it_matters: >-
+    It centralizes company knowledge so developers can find documentation, onboarding material, and tribal info without
+    digging through scattered tools.
   mental_damage: Another place to check when you can't remember where the team decided to document the API auth flow.
   tags:
     - documentation
@@ -46,21 +48,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Slab is a general-purpose knowledge management tool with no developer-specific AI features, coding assistance, or workflow automation relevant to the catalog's scope.
+  reason: >-
+    Slab is a general-purpose knowledge management tool with no developer-specific AI features, coding assistance, or
+    workflow automation relevant to the catalog's scope.
   evidence:
-    - "Repo description: (none)"
-    - "Scraped site context: Title: Slab - Knowledge Base & Wiki Software; Description: Discover why our easy creation, organization, and numerous integrations, make us so popular with non-technical and tech-savvy teams alike."
-    - "Source-list context: Listed in awesome-ai-coding-tools under 'Documentation' section with no indication of AI-powered functionality."
+    - 'Repo description: (none)'
+    - >-
+      Scraped site context: Title: Slab - Knowledge Base & Wiki Software; Description: Discover why our easy creation,
+      organization, and numerous integrations, make us so popular with non-technical and tech-savvy teams alike.
+    - >-
+      Source-list context: Listed in awesome-ai-coding-tools under 'Documentation' section with no indication of
+      AI-powered functionality.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:37:22.064Z"
+    updated_at: '2026-09-28T04:37:22.064Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,11 +90,18 @@ processing:
       input_hash: sha256:e66d1db5acd0c12359ab9083d7be60f964c44623274ef392e1daea82ed1c9ff9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Slab is a general-purpose knowledge management tool with no developer-specific AI features, coding assistance, or workflow automation relevant to the catalog's scope.
+      decision_reason: >-
+        Slab is a general-purpose knowledge management tool with no developer-specific AI features, coding assistance,
+        or workflow automation relevant to the catalog's scope.
       decision_evidence:
-        - "Repo description: (none)"
-        - "Scraped site context: Title: Slab - Knowledge Base & Wiki Software; Description: Discover why our easy creation, organization, and numerous integrations, make us so popular with non-technical and tech-savvy teams alike."
-        - "Source-list context: Listed in awesome-ai-coding-tools under 'Documentation' section with no indication of AI-powered functionality."
+        - 'Repo description: (none)'
+        - >-
+          Scraped site context: Title: Slab - Knowledge Base & Wiki Software; Description: Discover why our easy
+          creation, organization, and numerous integrations, make us so popular with non-technical and tech-savvy teams
+          alike.
+        - >-
+          Source-list context: Listed in awesome-ai-coding-tools under 'Documentation' section with no indication of
+          AI-powered functionality.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

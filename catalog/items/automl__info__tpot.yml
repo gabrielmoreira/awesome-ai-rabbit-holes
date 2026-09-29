@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__automl__info__tpot__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-06-04T05:40:27.160Z"
+      discovered_at: '2026-06-04T05:40:27.160Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,7 +18,11 @@ provenance:
           - AutoML
         anchor_text: TPOT
         extracted_url: http://automl.info/tpot
-        surrounding_text: "| [TPOT](http://automl.info/tpot/)                                             | one of the very first AutoML methods and open-source software packages.                                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/EpistasisLab/tpot.svg?style=flat-square)               |"
+        surrounding_text: >-
+          | [TPOT](http://automl.info/tpot/)                                             | one of the very first AutoML
+          methods and open-source software
+          packages.                                                                                                        
+          | ![GitHub Badge](https://img.shields.io/github/stars/EpistasisLab/tpot.svg?style=flat-square)               |
         confidence: high
 metadata:
   github:
@@ -36,9 +40,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: TPOT is an open-source AutoML tool that automates the construction of machine learning pipelines using genetic programming and scikit-learn.
-  why_it_matters: It helps data scientists and ML practitioners automate repetitive model selection and pipeline tuning tasks, reducing manual experimentation time.
-  mental_damage: Another tool promising to replace your ML intuition with a black-box genetic algorithm you can’t debug or explain to stakeholders.
+  summary: >-
+    TPOT is an open-source AutoML tool that automates the construction of machine learning pipelines using genetic
+    programming and scikit-learn.
+  why_it_matters: >-
+    It helps data scientists and ML practitioners automate repetitive model selection and pipeline tuning tasks,
+    reducing manual experimentation time.
+  mental_damage: >-
+    Another tool promising to replace your ML intuition with a black-box genetic algorithm you can’t debug or explain to
+    stakeholders.
   tags:
     - automl
     - machine-learning
@@ -46,21 +56,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: TPOT is a general-purpose AutoML library for data science, not a developer-facing AI tool focused on coding, agent workflows, or software development tasks.
+  reason: >-
+    TPOT is a general-purpose AutoML library for data science, not a developer-facing AI tool focused on coding, agent
+    workflows, or software development tasks.
   evidence:
-    - TPOT automates ML pipeline optimization using genetic programming and scikit-learn, targeting data science workflows
-    - The tool is positioned as an open-source software package for the data science community, not for coding agents or developer tooling
-    - No evidence suggests it assists with code writing, editing, agent orchestration, or app building — core to the catalog’s scope
+    - >-
+      TPOT automates ML pipeline optimization using genetic programming and scikit-learn, targeting data science
+      workflows
+    - >-
+      The tool is positioned as an open-source software package for the data science community, not for coding agents or
+      developer tooling
+    - >-
+      No evidence suggests it assists with code writing, editing, agent orchestration, or app building — core to the
+      catalog’s scope
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-04T05:40:27.161Z"
+    updated_at: '2026-06-04T05:40:27.161Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +87,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:33:28.156Z"
+    updated_at: '2026-09-21T04:33:28.156Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,11 +100,19 @@ processing:
       input_hash: sha256:a73872a1f212e9b5162fa0d3128896e8e23cd5521790c5365c81f70bf6cadfc3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: TPOT is a general-purpose AutoML library for data science, not a developer-facing AI tool focused on coding, agent workflows, or software development tasks.
+      decision_reason: >-
+        TPOT is a general-purpose AutoML library for data science, not a developer-facing AI tool focused on coding,
+        agent workflows, or software development tasks.
       decision_evidence:
-        - TPOT automates ML pipeline optimization using genetic programming and scikit-learn, targeting data science workflows
-        - The tool is positioned as an open-source software package for the data science community, not for coding agents or developer tooling
-        - No evidence suggests it assists with code writing, editing, agent orchestration, or app building — core to the catalog’s scope
+        - >-
+          TPOT automates ML pipeline optimization using genetic programming and scikit-learn, targeting data science
+          workflows
+        - >-
+          The tool is positioned as an open-source software package for the data science community, not for coding
+          agents or developer tooling
+        - >-
+          No evidence suggests it assists with code writing, editing, agent orchestration, or app building — core to the
+          catalog’s scope
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -5,8 +5,9 @@ canonical_url: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__docs__aws__amazon__com__amazonq__latest__qdeveloper__ug__command__line__html__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__docs__aws__amazon__com__amazonq__latest__qdeveloper__ug__command__line__html__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +19,9 @@ provenance:
           - CLI Tools
         anchor_text: Amazon Q Developer CLI
         extracted_url: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html
-        surrounding_text: "- **[Amazon Q Developer CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html)** – AI CLI for AWS-related coding and scripting."
+        surrounding_text: >-
+          - **[Amazon Q Developer CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html)** –
+          AI CLI for AWS-related coding and scripting.
         confidence: high
 metadata:
   github:
@@ -36,9 +39,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Amazon Q Developer for command line is an AI-powered terminal enhancement providing command autocompletion, natural language chat, and code generation for various CLIs.
-  why_it_matters: It integrates generative AI directly into the shell workflow to reduce the mental overhead of remembering complex CLI flags and syntax.
-  mental_damage: Another layer of magic between your fingers and the shell, ensuring you'll never have to actually read a man page again.
+  summary: >-
+    Amazon Q Developer for command line is an AI-powered terminal enhancement providing command autocompletion, natural
+    language chat, and code generation for various CLIs.
+  why_it_matters: >-
+    It integrates generative AI directly into the shell workflow to reduce the mental overhead of remembering complex
+    CLI flags and syntax.
+  mental_damage: >-
+    Another layer of magic between your fingers and the shell, ensuring you'll never have to actually read a man page
+    again.
   tags:
     - cli
     - terminal
@@ -48,7 +57,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The input is a documentation page for a specific feature of a broader cloud service, rather than a standalone developer tool or product.
+  reason: >-
+    The input is a documentation page for a specific feature of a broader cloud service, rather than a standalone
+    developer tool or product.
   evidence:
     - Input is a documentation URL (docs.aws.amazon.com) rather than a code repository or product page
     - Content describes a single feature of the existing Amazon Q Developer ecosystem
@@ -57,12 +68,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,10 +82,13 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:37:57.545Z"
+    updated_at: '2026-09-24T04:37:57.545Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for docs__aws__amazon__com__amazonq__latest__qdeveloper__ug__command__line__html: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for
+        docs__aws__amazon__com__amazonq__latest__qdeveloper__ug__command__line__html: Upstream error from Nvidia:
+        ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -86,7 +100,9 @@ processing:
       input_hash: sha256:97ecca9b420d873e911aed097edc1c0066fac11ebe95fae9738e0a959d5dcc3f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a documentation page for a specific feature of a broader cloud service, rather than a standalone developer tool or product.
+      decision_reason: >-
+        The input is a documentation page for a specific feature of a broader cloud service, rather than a standalone
+        developer tool or product.
       decision_evidence:
         - Input is a documentation URL (docs.aws.amazon.com) rather than a code repository or product page
         - Content describes a single feature of the existing Amazon Q Developer ecosystem

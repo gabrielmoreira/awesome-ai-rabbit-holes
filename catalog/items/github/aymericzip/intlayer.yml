@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aymericzip__intlayer__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: aymericzip/intlayer
         extracted_url: https://github.com/aymericzip/intlayer
-        surrounding_text: "- [aymericzip/intlayer](https://github.com/aymericzip/intlayer) 📇 ☁️ 🏠 - A MCP Server that enhance your IDE with AI-powered assistance for Intlayer i18n / CMS tool: smart CLI access, access to the docs."
+        surrounding_text: >-
+          - [aymericzip/intlayer](https://github.com/aymericzip/intlayer) 📇 ☁️ 🏠 - A MCP Server that enhance your IDE
+          with AI-powered assistance for Intlayer i18n / CMS tool: smart CLI access, access to the docs.
         confidence: high
     - id: discovery__github__aymericzip__intlayer__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Community Servers
         anchor_text: aymericzip/intlayer
         extracted_url: https://github.com/aymericzip/intlayer
-        surrounding_text: "- **[aymericzip/intlayer](https://github.com/aymericzip/intlayer)** - A MCP Server that enhance your IDE with AI-powered assistance for Intlayer i18n / CMS tool: smart CLI access, versioned docs."
+        surrounding_text: >-
+          - **[aymericzip/intlayer](https://github.com/aymericzip/intlayer)** - A MCP Server that enhance your IDE with
+          AI-powered assistance for Intlayer i18n / CMS tool: smart CLI access, versioned docs.
         confidence: high
 metadata:
   github:
@@ -45,8 +49,8 @@ metadata:
     archived: false
     full_name: aymericzip/intlayer
     html_url: https://github.com/aymericzip/intlayer
-    created_at: "2024-03-24T20:14:24Z"
-    pushed_at: "2026-09-21T01:44:58Z"
+    created_at: '2024-03-24T20:14:24Z'
+    pushed_at: '2026-09-21T01:44:58Z'
     description: Per-component Internationalisation solution for JS application. Type-Safe. Translate with AI. Edit Visually.
     homepage: https://intlayer.org
     topics:
@@ -65,14 +69,20 @@ metadata:
       - reactjs
       - typescript
       - vitejs
-    last_checked_at: "2026-09-21T04:13:53.396Z"
+    last_checked_at: '2026-09-21T04:13:53.396Z'
     readme:
-      fetched_at: "2026-09-21T04:13:53.396Z"
+      fetched_at: '2026-09-21T04:13:53.396Z'
       bytes: 31339
 insights:
-  summary: A per-component internationalization (i18n) solution for JavaScript applications with AI-powered translation, visual editing, and a multilingual CMS.
-  why_it_matters: It streamlines localization workflows for developers by combining type-safe i18n, AI translation, and a visual editor to reduce the friction of managing multilingual content.
-  mental_damage: Finally, an i18n library that remembers you’re not just translating strings—you’re also fighting with JSON keys at 3 AM.
+  summary: >-
+    A per-component internationalization (i18n) solution for JavaScript applications with AI-powered translation, visual
+    editing, and a multilingual CMS.
+  why_it_matters: >-
+    It streamlines localization workflows for developers by combining type-safe i18n, AI translation, and a visual
+    editor to reduce the friction of managing multilingual content.
+  mental_damage: >-
+    Finally, an i18n library that remembers you’re not just translating strings—you’re also fighting with JSON keys at 3
+    AM.
   tags:
     - i18n
     - localization
@@ -82,7 +92,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is a developer tool for i18n/localization, not a coding agent, framework, or AI workflow tool—its AI translation is a feature, not its primary identity in the catalog's scope.
+  reason: >-
+    The project is a developer tool for i18n/localization, not a coding agent, framework, or AI workflow tool—its AI
+    translation is a feature, not its primary identity in the catalog's scope.
   evidence:
     - Repo description and README emphasize i18n/localization as the core product, not AI assistance
     - Primary value is per-component i18n with CMS/visual editor, not coding assistance or agent workflows
@@ -91,22 +103,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (713) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.582Z"
+    updated_at: '2026-05-06T22:12:15.582Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:53.396Z"
+    updated_at: '2026-09-21T04:13:53.396Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -121,7 +133,9 @@ processing:
       input_hash: sha256:4618e19633670ecaf9b6dfa4be79b6c6b1ac4427366add75a31df1d530435f66
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a developer tool for i18n/localization, not a coding agent, framework, or AI workflow tool—its AI translation is a feature, not its primary identity in the catalog's scope.
+      decision_reason: >-
+        The project is a developer tool for i18n/localization, not a coding agent, framework, or AI workflow tool—its AI
+        translation is a feature, not its primary identity in the catalog's scope.
       decision_evidence:
         - Repo description and README emphasize i18n/localization as the core product, not AI assistance
         - Primary value is per-component i18n with CMS/visual editor, not coding assistance or agent workflows

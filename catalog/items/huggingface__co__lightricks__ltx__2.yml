@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__lightricks__ltx__2__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,8 +37,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A DiT-based foundation model designed to generate synchronized video and audio from text, images, or other video inputs.
-  why_it_matters: While a significant advancement in multimodal generation, it serves media creators rather than providing tools for coding, agent orchestration, or software development workflows.
+  summary: >-
+    A DiT-based foundation model designed to generate synchronized video and audio from text, images, or other video
+    inputs.
+  why_it_matters: >-
+    While a significant advancement in multimodal generation, it serves media creators rather than providing tools for
+    coding, agent orchestration, or software development workflows.
   mental_damage: Adding this would be like putting a high-end cinema camera in a catalog of compiler optimizations.
   tags:
     - video-generation
@@ -47,7 +51,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is a generative foundation model for audio-visual media, which falls outside the catalog's scope of developer-centric tooling such as coding agents, IDE extensions, or agent orchestration.
+  reason: >-
+    The project is a generative foundation model for audio-visual media, which falls outside the catalog's scope of
+    developer-centric tooling such as coding agents, IDE extensions, or agent orchestration.
   evidence:
     - The README identifies it as a 'DiT-based audio-video foundation model'.
     - Its primary capabilities are text-to-video, image-to-video, and audio-visual generation.
@@ -55,12 +61,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +75,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:27:52.302Z"
+    updated_at: '2026-09-28T04:27:52.302Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,7 +88,9 @@ processing:
       input_hash: sha256:61d25491915323a27aff1bf8d0706e4136b8b8f329f32a9ed8ef5985cd770f6d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a generative foundation model for audio-visual media, which falls outside the catalog's scope of developer-centric tooling such as coding agents, IDE extensions, or agent orchestration.
+      decision_reason: >-
+        The project is a generative foundation model for audio-visual media, which falls outside the catalog's scope of
+        developer-centric tooling such as coding agents, IDE extensions, or agent orchestration.
       decision_evidence:
         - The README identifies it as a 'DiT-based audio-video foundation model'.
         - Its primary capabilities are text-to-video, image-to-video, and audio-visual generation.

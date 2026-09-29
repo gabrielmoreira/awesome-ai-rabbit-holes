@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__modelmarket__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,13 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: modelmarket.dev
         extracted_url: https://modelmarket.dev
-        surrounding_text: "- [alexar76/aimarket-plugins](https://github.com/alexar76/aimarket-plugins) [![alexar76/aimarket-plugins MCP server](https://glama.ai/mcp/servers/alexar76/aimarket-plugins/badges/score.svg)](https://glama.ai/mcp/servers/alexar76/aimarket-plugins) 📇 ☁️ 🏠 🍎 🪟 🐧 - **aimarket-mcp-packager** hub plugin: turn AIMarket capabilities into self-hosted MCP servers (Docker image + `mcp_manifest` + Claude Desktop `mcpServers` config). Part of 15-plugin AIMarket Hub ([modelmarket.dev](https://modelmarket.dev)); protocol discovery at `/.well-known/ai-market.json`. Install: `pip install aimarket-mcp-packager`."
+        surrounding_text: >-
+          - [alexar76/aimarket-plugins](https://github.com/alexar76/aimarket-plugins) [![alexar76/aimarket-plugins MCP
+          server](https://glama.ai/mcp/servers/alexar76/aimarket-plugins/badges/score.svg)](https://glama.ai/mcp/servers/alexar76/aimarket-plugins)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - **aimarket-mcp-packager** hub plugin: turn AIMarket capabilities into self-hosted MCP
+          servers (Docker image + `mcp_manifest` + Claude Desktop `mcpServers` config). Part of 15-plugin AIMarket Hub
+          ([modelmarket.dev](https://modelmarket.dev)); protocol discovery at `/.well-known/ai-market.json`. Install:
+          `pip install aimarket-mcp-packager`.
         confidence: high
 metadata:
   github:
@@ -37,8 +43,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A discovery and marketplace platform for AI agents to find and invoke capabilities via the Model Context Protocol (MCP).
-  why_it_matters: It provides a standardized way for autonomous agents to discover, trade, and pay for specialized tools in real time using a protocol-based economy.
+  summary: >-
+    A discovery and marketplace platform for AI agents to find and invoke capabilities via the Model Context Protocol
+    (MCP).
+  why_it_matters: >-
+    It provides a standardized way for autonomous agents to discover, trade, and pay for specialized tools in real time
+    using a protocol-based economy.
   mental_damage: We are one step away from agents hyper-inflating the price of weather-reading capabilities on a live terminal.
   tags:
     - mcp
@@ -48,7 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an aggregator and discovery service that exposes agentic capabilities via an MCP endpoint.
+  reason: >-
+    The product's primary identity is an aggregator and discovery service that exposes agentic capabilities via an MCP
+    endpoint.
   evidence:
     - Explicitly identifies as an 'MCP endpoint'
     - Functions as a registry for discovering federated capabilities like 'gaia.weather.read'
@@ -57,12 +69,12 @@ placement:
   primary_category: mcp
   section: Registries & Discovery
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.990Z"
+    updated_at: '2026-06-15T05:51:04.990Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:14:03.632Z"
+    updated_at: '2026-09-24T04:14:03.632Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +96,9 @@ processing:
       input_hash: sha256:bdbc0a1c9814c788c4a807759db3404287c882755d7edd191f44dda8405c4a3a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's primary identity is an aggregator and discovery service that exposes agentic capabilities via an MCP endpoint.
+      decision_reason: >-
+        The product's primary identity is an aggregator and discovery service that exposes agentic capabilities via an
+        MCP endpoint.
       decision_evidence:
         - Explicitly identifies as an 'MCP endpoint'
         - Functions as a registry for discovering federated capabilities like 'gaia.weather.read'
@@ -92,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the product acts as a protocol-driven registry and service layer for tools rather than a runtime or control plane for managing multi-agent task workflows.
+      contrastive_reason: >-
+        Choose mcp over agent-orchestration because the product acts as a protocol-driven registry and service layer for
+        tools rather than a runtime or control plane for managing multi-agent task workflows.
       review_reason: null
       review_resume_lifecycle: null

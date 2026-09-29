@@ -83,6 +83,13 @@ export function isLowSignalCatalogUrl(url: string): boolean {
     if (host === "arxiv.org" && pathname.startsWith("/abs/")) return true;
     if (host === "docs.google.com" && pathname.includes("/forms/")) return true;
     if (host === "img.shields.io" || host === "assets-global.website-files.com") return true;
+    if (host === "reporoster.com" || host === "camo.githubusercontent.com") return true;
+    // Citations, not products: a post, thread, invite, or platform profile is
+    // the source list pointing at evidence, and it never has a product identity.
+    if (host === "x.com" || host === "twitter.com" || host === "www.x.com") return true;
+    if (host === "reddit.com" || host === "www.reddit.com" || host === "old.reddit.com") return true;
+    if (host === "discord.com" || host === "discord.gg") return true;
+    if (host === "space.bilibili.com" || host === "zhuanlan.zhihu.com") return true;
     if (/\.(?:png|jpe?g|gif|webp|svg|avif|ico|pdf)(?:$|[?#])/i.test(parsed.pathname)) return true;
     if (pathname.includes("/_next/image")) return true;
   } catch {
@@ -227,7 +234,7 @@ export function normalizeLoadedItem(item: any): CatalogItem & { processing: Norm
       section: item?.placement?.section ?? null,
     },
     lifecycle: {
-      status: item?.lifecycle?.status ?? "incubating",
+      status: item?.lifecycle?.status ?? "curated",
       reason: item?.lifecycle?.reason ?? null,
     },
     processing: {
@@ -244,26 +251,18 @@ export function hasInsightText(value: string | null | undefined): value is strin
   return typeof value === "string" && value.trim().length > 0;
 }
 
-export function applyLifecycleRules(item: CatalogItem, config: CatalogConfig): CatalogItem {
-  const { stars, archived } = item.metadata.github;
+export function applyLifecycleRules(item: CatalogItem): CatalogItem {
+  const { archived } = item.metadata.github;
   const currentStatus = item.lifecycle.status;
 
   if (item.curation.status === "excluded") return item;
-  if (currentStatus === "curated" || currentStatus === "landmark") return item;
+  if (currentStatus === "archived") return item;
 
   if (archived === true) {
     return { ...item, lifecycle: { status: "needs_review", reason: "Repository is archived" } };
   }
 
-  if (stars !== null && stars > config.promotion.incubating_until_stars && currentStatus === "incubating") {
-    return {
-      ...item,
-      lifecycle: {
-        status: "promotion_candidate",
-        reason: `Stars (${stars}) exceeded threshold (${config.promotion.incubating_until_stars})`,
-      },
-    };
-  }
+  if (currentStatus === "curated" || currentStatus === "landmark") return item;
 
   return item;
 }

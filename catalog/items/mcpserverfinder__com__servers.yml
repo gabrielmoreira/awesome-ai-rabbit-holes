@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcpserverfinder__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - MCP Servers and Directories
         anchor_text: MCP Server Finder
         extracted_url: https://mcpserverfinder.com/servers
-        surrounding_text: "- **[MCP Server Finder](https://www.mcpserverfinder.com/servers)** – Discover and browse MCP servers."
+        surrounding_text: '- **[MCP Server Finder](https://www.mcpserverfinder.com/servers)** – Discover and browse MCP servers.'
         confidence: high
     - id: discovery__www__mcpserverfinder__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: MCP Server Finder
         extracted_url: https://www.mcpserverfinder.com/servers
-        surrounding_text: "- **[MCP Server Finder](https://www.mcpserverfinder.com/servers)** – Discover and browse MCP servers."
+        surrounding_text: '- **[MCP Server Finder](https://www.mcpserverfinder.com/servers)** – Discover and browse MCP servers.'
         confidence: high
 metadata:
   github:
@@ -61,7 +61,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: MCP Server Finder belongs in the MCP Ecosystem category as a discovery service for MCP servers, which aligns with the MCP identity requirement.
+  reason: >-
+    MCP Server Finder belongs in the MCP Ecosystem category as a discovery service for MCP servers, which aligns with
+    the MCP identity requirement.
   evidence:
     - Source-list context shows it appears in awesome-ai-coding-tools under 'MCP Servers and Directories'
     - The tool's purpose is to list and find MCP servers at mcpserverfinder.com/servers
@@ -71,12 +73,12 @@ placement:
   secondary_categories: []
   section: Registries & Discovery
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:43:03.543Z"
+    updated_at: '2026-09-28T04:43:03.543Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +91,9 @@ processing:
       input_hash: sha256:ad4bd72c10bfb1787552185b942aa2839edb3dc7bacf99e13301491791a78ad2
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP Server Finder belongs in the MCP Ecosystem category as a discovery service for MCP servers, which aligns with the MCP identity requirement.
+      decision_reason: >-
+        MCP Server Finder belongs in the MCP Ecosystem category as a discovery service for MCP servers, which aligns
+        with the MCP identity requirement.
       decision_evidence:
         - Source-list context shows it appears in awesome-ai-coding-tools under 'MCP Servers and Directories'
         - The tool's purpose is to list and find MCP servers at mcpserverfinder.com/servers
@@ -97,12 +101,14 @@ processing:
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because the product's primary identity is MCP server discovery, not general curation of AI tools.
+      contrastive_reason: >-
+        Choose mcp over awesome-awesomes because the product's primary identity is MCP server discovery, not general
+        curation of AI tools.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.967Z"
+    updated_at: '2026-07-21T15:20:21.967Z'
     cause: null
     next_retry_at: null
   stars:

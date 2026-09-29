@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cnblogs__com__nickchen121__p__15499576__html__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: 36. [Beam Search快速理解及代码解析](https://www.cnblogs.com/nickchen121/p/15499576.html)
         confidence: high
     - id: discovery__www__cnblogs__com__nickchen121__p__15499576__html__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -52,8 +52,12 @@ metadata:
     readme: null
 insights:
   summary: A blog post explaining Beam Search decoding strategy with code examples from the Hugging Face Transformers library.
-  why_it_matters: Helps developers understand a core text generation algorithm used in LLMs for improving output quality beyond greedy decoding.
-  mental_damage: Another reminder that decoding strategies are the secret sauce no one talks about until your model starts repeating 'the the the'.
+  why_it_matters: >-
+    Helps developers understand a core text generation algorithm used in LLMs for improving output quality beyond greedy
+    decoding.
+  mental_damage: >-
+    Another reminder that decoding strategies are the secret sauce no one talks about until your model starts repeating
+    'the the the'.
   tags:
     - nlp
     - decoding
@@ -63,7 +67,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The resource is an educational blog post about an algorithm, not a developer-facing AI tool, agent, workflow, or product.
+  reason: >-
+    The resource is an educational blog post about an algorithm, not a developer-facing AI tool, agent, workflow, or
+    product.
   evidence:
     - Source is a CNBlogs article titled 'Beam Search快速理解及代码解析'
     - Content is a tutorial explaining Beam Search with code snippets, not a standalone tool or service
@@ -72,12 +78,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:39:53.007Z"
+    updated_at: '2026-09-28T04:39:53.007Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +96,9 @@ processing:
       input_hash: sha256:8da29a3db444b273d7629b7671748b37be7f4bfd01b335ea4290b216741c2439
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The resource is an educational blog post about an algorithm, not a developer-facing AI tool, agent, workflow, or product.
+      decision_reason: >-
+        The resource is an educational blog post about an algorithm, not a developer-facing AI tool, agent, workflow, or
+        product.
       decision_evidence:
         - Source is a CNBlogs article titled 'Beam Search快速理解及代码解析'
         - Content is a tutorial explaining Beam Search with code snippets, not a standalone tool or service
@@ -101,7 +109,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.963Z"
+    updated_at: '2026-07-21T15:20:21.963Z'
     cause: null
     next_retry_at: null
   stars:

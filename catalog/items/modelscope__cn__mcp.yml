@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__modelscope__cn__mcp__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: 15. [modelscope/mcp](https://modelscope.cn/mcp)
         confidence: high
     - id: discovery__www__modelscope__cn__mcp__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -61,21 +61,25 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: It is a curated list or directory of MCP services, not a standalone tool, SDK, or agent, and thus fits better as a resource than a developer-facing product.
+  reason: >-
+    It is a curated list or directory of MCP services, not a standalone tool, SDK, or agent, and thus fits better as a
+    resource than a developer-facing product.
   evidence:
     - Appears in awesome-LLM-resources under the section '模型上下文协议 MCP' as a listing of ModelScope MCP services
-    - "Scraped site title: 'MCP 广场 - ModelScope 魔搭社区' and description: '发现 ModelScope 魔搭社区的 MCP 服务，查看用法与托管接入方式。' indicates it is a discovery page for MCP services"
+    - >-
+      Scraped site title: 'MCP 广场 - ModelScope 魔搭社区' and description: '发现 ModelScope 魔搭社区的 MCP 服务，查看用法与托管接入方式。'
+      indicates it is a discovery page for MCP services
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:43:14.299Z"
+    updated_at: '2026-09-28T04:43:14.299Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,17 +92,21 @@ processing:
       input_hash: sha256:a710589c498903696fbaa3708ed583b1c349621aa7f6458b4fe2885fb7780d59
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a curated list or directory of MCP services, not a standalone tool, SDK, or agent, and thus fits better as a resource than a developer-facing product.
+      decision_reason: >-
+        It is a curated list or directory of MCP services, not a standalone tool, SDK, or agent, and thus fits better as
+        a resource than a developer-facing product.
       decision_evidence:
         - Appears in awesome-LLM-resources under the section '模型上下文协议 MCP' as a listing of ModelScope MCP services
-        - "Scraped site title: 'MCP 广场 - ModelScope 魔搭社区' and description: '发现 ModelScope 魔搭社区的 MCP 服务，查看用法与托管接入方式。' indicates it is a discovery page for MCP services"
+        - >-
+          Scraped site title: 'MCP 广场 - ModelScope 魔搭社区' and description: '发现 ModelScope 魔搭社区的 MCP 服务，查看用法与托管接入方式。'
+          indicates it is a discovery page for MCP services
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.967Z"
+    updated_at: '2026-07-21T15:20:21.967Z'
     cause: null
     next_retry_at: null
   stars:

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mintlify__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Documentation
         anchor_text: Mintlify
         extracted_url: https://mintlify.com
-        surrounding_text: "- **[Mintlify](https://mintlify.com/)** – AI-powered documentation platform that auto-generates and maintains docs from code."
+        surrounding_text: >-
+          - **[Mintlify](https://mintlify.com/)** – AI-powered documentation platform that auto-generates and maintains
+          docs from code.
         confidence: high
     - id: discovery__www__mintlify__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +35,9 @@ provenance:
           - Documentation
         anchor_text: Mintlify
         extracted_url: https://mintlify.com
-        surrounding_text: "- **[Mintlify](https://mintlify.com/)** – AI-powered documentation platform that auto-generates and maintains docs from code."
+        surrounding_text: >-
+          - **[Mintlify](https://mintlify.com/)** – AI-powered documentation platform that auto-generates and maintains
+          docs from code.
         confidence: high
 metadata:
   github:
@@ -52,7 +56,9 @@ metadata:
     readme: null
 insights:
   summary: Mintlify is a self-updating documentation platform designed for AI agents and developer teams.
-  why_it_matters: It reduces documentation maintenance overhead by automatically syncing content with code changes and agent interactions.
+  why_it_matters: >-
+    It reduces documentation maintenance overhead by automatically syncing content with code changes and agent
+    interactions.
   mental_damage: Another tool promising to solve docs rot, adding to the pile of knowledge infrastructure we’ll inevitably neglect.
   tags:
     - documentation
@@ -61,21 +67,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Mintlify is primarily a documentation platform for human and agent consumption, not a developer-facing AI tool that writes code, orchestrates agents, or enhances coding workflows.
+  reason: >-
+    Mintlify is primarily a documentation platform for human and agent consumption, not a developer-facing AI tool that
+    writes code, orchestrates agents, or enhances coding workflows.
   evidence:
     - Self-updating documentation for startups, enterprises, and agents.
-    - Listed in awesome-ai-coding-tools under the Documentation section, indicating its role as a resource rather than a coding tool.
-    - Core value proposition centers on content updates, API requests, and page reads — metrics of documentation usage, not code generation or agent coordination.
+    - >-
+      Listed in awesome-ai-coding-tools under the Documentation section, indicating its role as a resource rather than a
+      coding tool.
+    - >-
+      Core value proposition centers on content updates, API requests, and page reads — metrics of documentation usage,
+      not code generation or agent coordination.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:42:56.979Z"
+    updated_at: '2026-09-28T04:42:56.979Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,18 +100,24 @@ processing:
       input_hash: sha256:345b35418529473fe7b6716ab55b12a77d63553283bd08812b37d79493fe61bd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Mintlify is primarily a documentation platform for human and agent consumption, not a developer-facing AI tool that writes code, orchestrates agents, or enhances coding workflows.
+      decision_reason: >-
+        Mintlify is primarily a documentation platform for human and agent consumption, not a developer-facing AI tool
+        that writes code, orchestrates agents, or enhances coding workflows.
       decision_evidence:
         - Self-updating documentation for startups, enterprises, and agents.
-        - Listed in awesome-ai-coding-tools under the Documentation section, indicating its role as a resource rather than a coding tool.
-        - Core value proposition centers on content updates, API requests, and page reads — metrics of documentation usage, not code generation or agent coordination.
+        - >-
+          Listed in awesome-ai-coding-tools under the Documentation section, indicating its role as a resource rather
+          than a coding tool.
+        - >-
+          Core value proposition centers on content updates, API requests, and page reads — metrics of documentation
+          usage, not code generation or agent coordination.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.967Z"
+    updated_at: '2026-07-21T15:20:21.967Z'
     cause: null
     next_retry_at: null
   stars:

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jupyter__notebook__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - IDEs and Workspaces
         anchor_text: Jupyter Notebooks
         extracted_url: https://github.com/jupyter/notebook
-        surrounding_text: "| [Jupyter Notebooks](https://github.com/jupyter/notebook) | The Jupyter notebook is a web-based notebook environment for interactive computing.                                                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/jupyter/notebook.svg?style=flat-square)       |"
+        surrounding_text: >-
+          | [Jupyter Notebooks](https://github.com/jupyter/notebook) | The Jupyter notebook is a web-based notebook
+          environment for interactive
+          computing.                                                                                                               
+          | ![GitHub Badge](https://img.shields.io/github/stars/jupyter/notebook.svg?style=flat-square)       |
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: jupyter/notebook
     html_url: https://github.com/jupyter/notebook
-    created_at: "2015-04-09T06:58:03Z"
-    pushed_at: "2026-07-29T08:30:15Z"
+    created_at: '2015-04-09T06:58:03Z'
+    pushed_at: '2026-07-29T08:30:15Z'
     description: Jupyter Interactive Notebook
     homepage: https://jupyter-notebook.readthedocs.io/
     topics:
@@ -39,13 +43,17 @@ metadata:
       - jupyter
       - jupyter-notebook
       - notebook
-    last_checked_at: "2026-07-30T05:05:53.363Z"
+    last_checked_at: '2026-07-30T05:05:53.363Z'
     readme:
-      fetched_at: "2026-07-30T05:05:53.363Z"
+      fetched_at: '2026-07-30T05:05:53.363Z'
       bytes: 5931
 insights:
-  summary: Jupyter Notebook is a web-based interactive computing environment for creating and sharing documents containing live code, equations, visualizations, and narrative text.
-  why_it_matters: It enables developers and data scientists to prototype, experiment, and document workflows in a literate programming format across multiple languages.
+  summary: >-
+    Jupyter Notebook is a web-based interactive computing environment for creating and sharing documents containing live
+    code, equations, visualizations, and narrative text.
+  why_it_matters: >-
+    It enables developers and data scientists to prototype, experiment, and document workflows in a literate programming
+    format across multiple languages.
   mental_damage: The eternal struggle of whether to restart the kernel or just accept that your notebook is now a 3GB JSON file.
   tags:
     - interactive-computing
@@ -56,31 +64,37 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Jupyter Notebook is a general-purpose interactive computing environment, not a developer-tooling product focused on AI agents, workflows, or app-building.
+  reason: >-
+    Jupyter Notebook is a general-purpose interactive computing environment, not a developer-tooling product focused on
+    AI agents, workflows, or app-building.
   evidence:
-    - Repo description and README explicitly describe it as a web-based notebook environment for interactive computing, not AI-specific tooling
+    - >-
+      Repo description and README explicitly describe it as a web-based notebook environment for interactive computing,
+      not AI-specific tooling
     - Primary use case is data science and literate programming, not AI agent workflows or developer tooling
-    - Source-list context places it under 'Training > IDEs and Workspaces' in an LLMOps list, but this is a stretch for the catalog's scope
+    - >-
+      Source-list context places it under 'Training > IDEs and Workspaces' in an LLMOps list, but this is a stretch for
+      the catalog's scope
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (13134) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:53.364Z"
+    updated_at: '2026-07-30T05:05:53.364Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -95,11 +109,17 @@ processing:
       input_hash: sha256:7d8cc3390f18d5836ae84b7970f4705215dda077c11aa8c5156562176288a8ee
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Jupyter Notebook is a general-purpose interactive computing environment, not a developer-tooling product focused on AI agents, workflows, or app-building.
+      decision_reason: >-
+        Jupyter Notebook is a general-purpose interactive computing environment, not a developer-tooling product focused
+        on AI agents, workflows, or app-building.
       decision_evidence:
-        - Repo description and README explicitly describe it as a web-based notebook environment for interactive computing, not AI-specific tooling
+        - >-
+          Repo description and README explicitly describe it as a web-based notebook environment for interactive
+          computing, not AI-specific tooling
         - Primary use case is data science and literate programming, not AI agent workflows or developer tooling
-        - Source-list context places it under 'Training > IDEs and Workspaces' in an LLMOps list, but this is a stretch for the catalog's scope
+        - >-
+          Source-list context places it under 'Training > IDEs and Workspaces' in an LLMOps list, but this is a stretch
+          for the catalog's scope
       category_candidates: []
       contrastive_reason: null
       review_reason: null

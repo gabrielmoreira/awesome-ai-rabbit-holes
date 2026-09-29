@@ -1,0 +1,79 @@
+id: github__mizorewww__laya-mlx
+kind: github-repo
+name: mizorewww/laya-mlx
+canonical_url: https://github.com/mizorewww/laya-mlx
+identity:
+  github_repo: mizorewww/laya-mlx
+provenance:
+  discoveries:
+    - id: discovery__github__mizorewww__laya-mlx__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: laya-mlx
+        extracted_url: https://github.com/mizorewww/laya-mlx
+        surrounding_text: >-
+          - [laya-mlx](https://github.com/mizorewww/laya-mlx)
+          ![stars](https://img.shields.io/github/stars/mizorewww/laya-mlx?style=flat-square&label=%E2%98%85) - Local
+          runtime: independent MLX port of the Laya checkpoints that runs typed decisions natively on Apple Silicon —
+          13.4 ms median end-to-end per short English decision, 7.4 ms with the multilingual checkpoint, and zero output
+          tokens, with no PyTorch, Transformers runtime, or cloud API.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    laya-mlx - Local runtime: independent MLX port of the Laya checkpoints that runs typed decisions natively on Apple
+    Silicon — 13.4 ms median end-to-end per short English decision, 7.4 ms with the multilingual checkpoint, and zero
+    output tokens, with no PyTorch, Transformers runtime, or cloud API.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.75
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.468Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

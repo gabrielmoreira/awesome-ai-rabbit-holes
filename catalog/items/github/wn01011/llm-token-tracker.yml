@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wn01011__llm-token-tracker__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: wn01011/llm-token-tracker
         extracted_url: https://github.com/wn01011/llm-token-tracker
-        surrounding_text: "- [wn01011/llm-token-tracker](https://github.com/wn01011/llm-token-tracker) 📇 🏠 🍎 🪟 🐧 - Token usage tracker for OpenAI and Claude APIs with MCP support, real-time session tracking, and accurate pricing for 2025 models"
+        surrounding_text: >-
+          - [wn01011/llm-token-tracker](https://github.com/wn01011/llm-token-tracker) 📇 🏠 🍎 🪟 🐧 - Token usage
+          tracker for OpenAI and Claude APIs with MCP support, real-time session tracking, and accurate pricing for 2025
+          models
         confidence: high
 metadata:
   github:
@@ -30,18 +33,22 @@ metadata:
     archived: false
     full_name: wn01011/llm-token-tracker
     html_url: https://github.com/wn01011/llm-token-tracker
-    created_at: "2025-10-05T11:44:14Z"
-    pushed_at: "2025-11-17T09:26:41Z"
+    created_at: '2025-10-05T11:44:14Z'
+    pushed_at: '2025-11-17T09:26:41Z'
     description: Token usage tracker for OpenAI and Claude APIs with MCP support. Pass accurate API costs to your users.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:14.206Z"
+    last_checked_at: '2026-07-21T15:21:14.206Z'
     readme:
-      fetched_at: "2026-07-21T15:21:14.206Z"
+      fetched_at: '2026-07-21T15:21:14.206Z'
       bytes: 9226
 insights:
-  summary: LLM Token Tracker is an npm package and MCP server that tracks API token usage and cost for OpenAI, Claude, and Gemini models.
-  why_it_matters: It helps developers pass accurate API costs to users by automating token counting and cost calculation across major LLM providers.
+  summary: >-
+    LLM Token Tracker is an npm package and MCP server that tracks API token usage and cost for OpenAI, Claude, and
+    Gemini models.
+  why_it_matters: >-
+    It helps developers pass accurate API costs to users by automating token counting and cost calculation across major
+    LLM providers.
   mental_damage: Finally, a way to feel guilty in real-time about how much your Claude Sonnet habit is burning through your budget.
   tags:
     - token-tracking
@@ -50,31 +57,33 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: While it has MCP support, the core product is a utility library for tracking token usage, not an MCP server as its primary identity, and it lacks strong integration or workflow innovation beyond basic usage logging.
+  reason: >-
+    While it has MCP support, the core product is a utility library for tracking token usage, not an MCP server as its
+    primary identity, and it lacks strong integration or workflow innovation beyond basic usage logging.
   evidence:
-    - "Repo description: 'Token usage tracker for OpenAI and Claude APIs with MCP support'"
+    - 'Repo description: ''Token usage tracker for OpenAI and Claude APIs with MCP support'''
     - README shows primary usage as a library wrapper around OpenAI/Anthropic clients
-    - "MCP server is presented as an optional feature ('Option 2: Use as MCP Server')"
+    - 'MCP server is presented as an optional feature (''Option 2: Use as MCP Server'')'
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:14.206Z"
+    updated_at: '2026-07-21T15:21:14.206Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.169Z"
+    updated_at: '2026-09-28T04:14:00.169Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

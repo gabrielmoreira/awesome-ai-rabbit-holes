@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__genlayerlabs__yeagerai-agent__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - yAgents
         anchor_text: yAgents
         extracted_url: https://github.com/yeagerai/yeagerai-agent
-        surrounding_text: "## [yAgents](https://github.com/yeagerai/yeagerai-agent)"
+        surrounding_text: '## [yAgents](https://github.com/yeagerai/yeagerai-agent)'
         confidence: high
 metadata:
   github:
@@ -29,20 +29,24 @@ metadata:
     archived: false
     full_name: genlayerlabs/yeagerai-agent
     html_url: https://github.com/genlayerlabs/yeagerai-agent
-    created_at: "2023-04-05T23:28:21Z"
-    pushed_at: "2026-06-05T20:25:58Z"
+    created_at: '2023-04-05T23:28:21Z'
+    pushed_at: '2026-06-05T20:25:58Z'
     description: null
-    homepage: ""
+    homepage: ''
     topics:
       - yeager-squad-dev
-    last_checked_at: "2026-09-03T05:16:47.722Z"
+    last_checked_at: '2026-09-03T05:16:47.722Z'
     readme:
-      fetched_at: "2026-09-03T05:16:47.722Z"
+      fetched_at: '2026-09-03T05:16:47.722Z'
       bytes: 2934
 insights:
   summary: An interactive CLI tool for building, prototyping, and deploying AI-powered agents using the LangChain ecosystem.
-  why_it_matters: It simplifies the agent prototyping lifecycle by providing session persistence and a quick-start CLI for testing tools and agents on-the-fly.
-  mental_damage: It promises a seamless journey from 'hello world' agent to deployed production, provided you don't mind the looming 'DISCONTINUED' warning.
+  why_it_matters: >-
+    It simplifies the agent prototyping lifecycle by providing session persistence and a quick-start CLI for testing
+    tools and agents on-the-fly.
+  mental_damage: >-
+    It promises a seamless journey from 'hello world' agent to deployed production, provided you don't mind the looming
+    'DISCONTINUED' warning.
   tags:
     - langchain
     - agent-builder
@@ -51,30 +55,32 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is explicitly marked as DISCONTINUED in the README, making it unsuitable for a curated catalog of active tools.
+  reason: >-
+    The project is explicitly marked as DISCONTINUED in the README, making it unsuitable for a curated catalog of active
+    tools.
   evidence:
-    - "README contains a prominent '[ WARNING: DISCONTINUED ]' banner"
+    - 'README contains a prominent ''[ WARNING: DISCONTINUED ]'' banner'
     - The tool's lifecycle has reached its end, making it unreliable for a developer's workflow
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (594) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:47.722Z"
+    updated_at: '2026-09-03T05:16:47.722Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -89,9 +95,11 @@ processing:
       input_hash: sha256:397b08da491c5a3f100094f2dac03e3140560e395ae87c8cd8b22dfead5d607f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is explicitly marked as DISCONTINUED in the README, making it unsuitable for a curated catalog of active tools.
+      decision_reason: >-
+        The project is explicitly marked as DISCONTINUED in the README, making it unsuitable for a curated catalog of
+        active tools.
       decision_evidence:
-        - "README contains a prominent '[ WARNING: DISCONTINUED ]' banner"
+        - 'README contains a prominent ''[ WARNING: DISCONTINUED ]'' banner'
         - The tool's lifecycle has reached its end, making it unreliable for a developer's workflow
       category_candidates: []
       contrastive_reason: null

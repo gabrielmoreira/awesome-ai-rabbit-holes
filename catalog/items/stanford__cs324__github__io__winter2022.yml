@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__stanford__cs324__github__io__winter2022__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: "斯坦福 CS324: Large Language Models"
+        anchor_text: '斯坦福 CS324: Large Language Models'
         extracted_url: https://stanford-cs324.github.io/winter2022
-        surrounding_text: "11. [斯坦福 CS324: Large Language Models](https://stanford-cs324.github.io/winter2022/)"
+        surrounding_text: '11. [斯坦福 CS324: Large Language Models](https://stanford-cs324.github.io/winter2022/)'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Stanford CS324 is a graduate-level course on large language models covering modeling, training, scaling, ethics, and hands-on projects.
-  why_it_matters: It provides structured, in-depth education on LLMs with practical projects, helping developers build foundational knowledge beyond surface-level tool usage.
+  summary: >-
+    Stanford CS324 is a graduate-level course on large language models covering modeling, training, scaling, ethics, and
+    hands-on projects.
+  why_it_matters: >-
+    It provides structured, in-depth education on LLMs with practical projects, helping developers build foundational
+    knowledge beyond surface-level tool usage.
   mental_damage: Another reminder that understanding AI requires more than copying prompt engineering tutorials from Twitter.
   tags:
     - education
@@ -48,19 +52,19 @@ curation:
   status: excluded
   reason: It is an educational course resource, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - "Repo description: Understanding and developing large language models."
-    - "Scraped site context: Title 'Home', description 'Understanding and developing large language models.'"
-    - "Source-list context: Included in awesome-LLM-resources under section '课程 Course' (Course)"
+    - 'Repo description: Understanding and developing large language models.'
+    - 'Scraped site context: Title ''Home'', description ''Understanding and developing large language models.'''
+    - 'Source-list context: Included in awesome-LLM-resources under section ''课程 Course'' (Course)'
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:38:12.218Z"
+    updated_at: '2026-09-28T04:38:12.218Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,11 +86,13 @@ processing:
       input_hash: sha256:35663219f8e3f192ae5a099ca066361052a4d6c5d374cb085374c9f07f084145
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is an educational course resource, not a developer-facing AI tool, agent, workflow, or infrastructure product.
+      decision_reason: >-
+        It is an educational course resource, not a developer-facing AI tool, agent, workflow, or infrastructure
+        product.
       decision_evidence:
-        - "Repo description: Understanding and developing large language models."
-        - "Scraped site context: Title 'Home', description 'Understanding and developing large language models.'"
-        - "Source-list context: Included in awesome-LLM-resources under section '课程 Course' (Course)"
+        - 'Repo description: Understanding and developing large language models.'
+        - 'Scraped site context: Title ''Home'', description ''Understanding and developing large language models.'''
+        - 'Source-list context: Included in awesome-LLM-resources under section ''课程 Course'' (Course)'
       category_candidates: []
       contrastive_reason: null
       review_reason: null

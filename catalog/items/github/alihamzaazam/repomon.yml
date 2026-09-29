@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alihamzaazam__repomon__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-02T05:22:20.470Z"
+      discovered_at: '2026-07-02T05:22:20.470Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Session managers & parallel runners
         anchor_text: repomon
         extracted_url: https://github.com/alihamzaazam/repomon
-        surrounding_text: "- **[repomon](https://github.com/AliHamzaAzam/repomon)** `⭐ 6` — Run a fleet of AI coding agents (Claude Code, Codex, Aider) across many repos, branches, and git worktrees from one tmux-backed terminal. Four-zoom TUI (fleet, split, babysit grid, focus), needs-you triage, durable sessions that survive restarts."
+        surrounding_text: >-
+          - **[repomon](https://github.com/AliHamzaAzam/repomon)** `⭐ 6` — Run a fleet of AI coding agents (Claude Code,
+          Codex, Aider) across many repos, branches, and git worktrees from one tmux-backed terminal. Four-zoom TUI
+          (fleet, split, babysit grid, focus), needs-you triage, durable sessions that survive restarts.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: AliHamzaAzam/repomon
     html_url: https://github.com/AliHamzaAzam/repomon
-    created_at: "2026-05-29T19:43:20Z"
-    pushed_at: "2026-09-14T21:20:47Z"
-    description: Mission control for a fleet of AI coding agents (Claude Code, Codex, Antigravity, OpenCode, Cursor, Aider) across many repos — desktop app + Rust TUI, tmux-backed, with durable fleet mail and policy-based agent supervision.
+    created_at: '2026-05-29T19:43:20Z'
+    pushed_at: '2026-09-14T21:20:47Z'
+    description: >-
+      Mission control for a fleet of AI coding agents (Claude Code, Codex, Antigravity, OpenCode, Cursor, Aider) across
+      many repos — desktop app + Rust TUI, tmux-backed, with durable fleet mail and policy-based agent supervision.
     homepage: https://repomon.alihamzaazam.com
     topics:
       - agent-orchestration
@@ -55,14 +60,20 @@ metadata:
       - terminal
       - tmux
       - tui
-    last_checked_at: "2026-09-17T04:13:40.916Z"
+    last_checked_at: '2026-09-17T04:13:40.916Z'
     readme:
-      fetched_at: "2026-09-17T04:13:40.916Z"
+      fetched_at: '2026-09-17T04:13:40.916Z'
       bytes: 11013
 insights:
-  summary: A desktop application and Rust TUI designed to manage and supervise multiple AI coding agent sessions across various repositories.
-  why_it_matters: It provides a unified mission control for developers running multiple autonomous agents simultaneously, enabling session persistence and easier context switching between projects.
-  mental_damage: It attempts to solve the chaos of running five different AI agents by giving you a single, organized dashboard to watch them all fail or succeed in parallel.
+  summary: >-
+    A desktop application and Rust TUI designed to manage and supervise multiple AI coding agent sessions across various
+    repositories.
+  why_it_matters: >-
+    It provides a unified mission control for developers running multiple autonomous agents simultaneously, enabling
+    session persistence and easier context switching between projects.
+  mental_damage: >-
+    It attempts to solve the chaos of running five different AI agents by giving you a single, organized dashboard to
+    watch them all fail or succeed in parallel.
   tags:
     - agent-orchestration
     - tui
@@ -72,7 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It acts as a standalone control plane and runtime harness for managing and supervising multiple concurrent AI agent sessions.
+  reason: >-
+    It acts as a standalone control plane and runtime harness for managing and supervising multiple concurrent AI agent
+    sessions.
   evidence:
     - Repo description identifies it as 'mission control for a fleet of AI coding agents'
     - README describes a workflow for managing multiple agents like Claude Code and Codex across different repositories
@@ -82,22 +95,22 @@ placement:
   secondary_categories: []
   section: Agent Runtimes & Harnesses
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-02T05:22:20.471Z"
+    updated_at: '2026-07-02T05:22:20.471Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:40.916Z"
+    updated_at: '2026-09-17T04:13:40.916Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:20:11.401Z"
+    updated_at: '2026-09-24T04:20:11.401Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -110,14 +123,20 @@ processing:
       input_hash: sha256:0ba7bfd8c0a7403cc8c701e89efaa070ca230711c32c4a9223338bbe63a2916f
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: It acts as a standalone control plane and runtime harness for managing and supervising multiple concurrent AI agent sessions.
+      decision_reason: >-
+        It acts as a standalone control plane and runtime harness for managing and supervising multiple concurrent AI
+        agent sessions.
       decision_evidence:
         - Repo description identifies it as 'mission control for a fleet of AI coding agents'
-        - README describes a workflow for managing multiple agents like Claude Code and Codex across different repositories
+        - >-
+          README describes a workflow for managing multiple agents like Claude Code and Codex across different
+          repositories
         - Provides a desktop app and TUI to reattach to sessions and supervise agent activity
       category_candidates:
         - agent-orchestration
         - extensions-and-addons
-      contrastive_reason: Choose agent-orchestration over extensions-and-addons because the tool functions as a standalone control plane/runtime for managing multiple agent processes rather than an add-on for a single host editor or agent.
+      contrastive_reason: >-
+        Choose agent-orchestration over extensions-and-addons because the tool functions as a standalone control
+        plane/runtime for managing multiple agent processes rather than an add-on for a single host editor or agent.
       review_reason: null
       review_resume_lifecycle: null

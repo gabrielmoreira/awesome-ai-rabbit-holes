@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__claros__so__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Claros AI Shopper
         anchor_text: Claros AI Shopper
         extracted_url: https://claros.so
-        surrounding_text: "## [Claros AI Shopper](https://www.claros.so/)"
+        surrounding_text: '## [Claros AI Shopper](https://www.claros.so/)'
         confidence: high
     - id: discovery__www__claros__so__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Claros AI Shopper
         anchor_text: Claros AI Shopper
         extracted_url: https://www.claros.so
-        surrounding_text: "## [Claros AI Shopper](https://www.claros.so/)"
+        surrounding_text: '## [Claros AI Shopper](https://www.claros.so/)'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Claros AI Shopper is an AI-powered shopping assistant that helps users find products through natural language queries.
-  why_it_matters: It demonstrates how AI agents can be applied to consumer-facing tasks like product discovery, though it does not directly assist software development workflows.
-  mental_damage: Another reminder that 'AI agent' now means anything with a chatbot, even when your IDE still can't fix your merge conflicts.
+  summary: >-
+    Claros AI Shopper is an AI-powered shopping assistant that helps users find products through natural language
+    queries.
+  why_it_matters: >-
+    It demonstrates how AI agents can be applied to consumer-facing tasks like product discovery, though it does not
+    directly assist software development workflows.
+  mental_damage: >-
+    Another reminder that 'AI agent' now means anything with a chatbot, even when your IDE still can't fix your merge
+    conflicts.
   tags:
     - ai-agent
     - shopping
@@ -61,21 +67,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Claros AI Shopper is a consumer-facing shopping assistant with no connection to coding, software development, or developer tooling; it does not write, edit, test, or assist with code in any way.
+  reason: >-
+    Claros AI Shopper is a consumer-facing shopping assistant with no connection to coding, software development, or
+    developer tooling; it does not write, edit, test, or assist with code in any way.
   evidence:
-    - Repo description is missing, but the homepage URL claros.so and source-list context describe it as an AI shopping agent.
-    - Seen in source list 'awesome-ai-agents' under the purpose 'A list of AI autonomous agents', indicating it is positioned as a general autonomous agent, not a developer tool.
-    - No evidence of code-related functionality such as editing files, running commands, reviewing code, or integrating with development workflows.
+    - >-
+      Repo description is missing, but the homepage URL claros.so and source-list context describe it as an AI shopping
+      agent.
+    - >-
+      Seen in source list 'awesome-ai-agents' under the purpose 'A list of AI autonomous agents', indicating it is
+      positioned as a general autonomous agent, not a developer tool.
+    - >-
+      No evidence of code-related functionality such as editing files, running commands, reviewing code, or integrating
+      with development workflows.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:52:04.322Z"
+    updated_at: '2026-09-28T04:52:04.322Z'
     cause: null
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
@@ -88,18 +102,26 @@ processing:
       input_hash: sha256:09807db336c895b77f35e3e67baadd682827216608bf5f5297854063132837e1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Claros AI Shopper is a consumer-facing shopping assistant with no connection to coding, software development, or developer tooling; it does not write, edit, test, or assist with code in any way.
+      decision_reason: >-
+        Claros AI Shopper is a consumer-facing shopping assistant with no connection to coding, software development, or
+        developer tooling; it does not write, edit, test, or assist with code in any way.
       decision_evidence:
-        - Repo description is missing, but the homepage URL claros.so and source-list context describe it as an AI shopping agent.
-        - Seen in source list 'awesome-ai-agents' under the purpose 'A list of AI autonomous agents', indicating it is positioned as a general autonomous agent, not a developer tool.
-        - No evidence of code-related functionality such as editing files, running commands, reviewing code, or integrating with development workflows.
+        - >-
+          Repo description is missing, but the homepage URL claros.so and source-list context describe it as an AI
+          shopping agent.
+        - >-
+          Seen in source list 'awesome-ai-agents' under the purpose 'A list of AI autonomous agents', indicating it is
+          positioned as a general autonomous agent, not a developer tool.
+        - >-
+          No evidence of code-related functionality such as editing files, running commands, reviewing code, or
+          integrating with development workflows.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.963Z"
+    updated_at: '2026-07-21T15:20:21.963Z'
     cause: null
     next_retry_at: null
   stars:

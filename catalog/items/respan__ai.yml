@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__respan__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,10 +18,14 @@ provenance:
           - LLMOps
         anchor_text: Keywords AI
         extracted_url: https://keywordsai.co
-        surrounding_text: "| [Keywords AI](https://keywordsai.co/)                              | A unified DevOps platform for AI software. Keywords AI makes it easy for developers to build LLM applications.                                                                                                                                                                                                                                                                                          |                                                                                                           |"
+        surrounding_text: >-
+          | [Keywords AI](https://keywordsai.co/)                              | A unified DevOps platform for AI
+          software. Keywords AI makes it easy for developers to build LLM
+          applications.                                                                                                                                                                                                                                                                                         
+          |                                                                                                           |
         confidence: high
     - id: discovery__www__respan__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -33,7 +37,11 @@ provenance:
           - LLMOps
         anchor_text: Keywords AI
         extracted_url: https://keywordsai.co
-        surrounding_text: "| [Keywords AI](https://keywordsai.co/)                              | A unified DevOps platform for AI software. Keywords AI makes it easy for developers to build LLM applications.                                                                                                                                                                                                                                                                                          |                                                                                                           |"
+        surrounding_text: >-
+          | [Keywords AI](https://keywordsai.co/)                              | A unified DevOps platform for AI
+          software. Keywords AI makes it easy for developers to build LLM
+          applications.                                                                                                                                                                                                                                                                                         
+          |                                                                                                           |
         confidence: high
 metadata:
   github:
@@ -53,7 +61,9 @@ metadata:
 insights:
   summary: An LLM engineering platform that unifies observability, evaluations, and model gateway routing.
   why_it_matters: It centralizes model routing, cost tracking, and quality assessments into a single integration point for developers.
-  mental_damage: The perfect dashboard for watching your token spend climb in real-time while you debug why your agent just hallucinated a refund.
+  mental_damage: >-
+    The perfect dashboard for watching your token spend climb in real-time while you debug why your agent just
+    hallucinated a refund.
   tags:
     - llmops
     - gateway
@@ -63,22 +73,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It functions as a comprehensive LLMOps platform, focusing on the observability, monitoring, and evaluation of LLM workloads.
+  reason: >-
+    It functions as a comprehensive LLMOps platform, focusing on the observability, monitoring, and evaluation of LLM
+    workloads.
   evidence:
     - Claims to 'unify observability, evals, prompt optimization, and your LLM gateway in one platform'
     - Provides specific modules for Gateway routing, Evals, Monitoring, and Tracing
-    - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
+    - >-
+      Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code
+      collaboration.
 placement:
   primary_category: evals
   secondary_categories: []
   section: Observability & Tracing
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-21T04:18:17.703Z"
+    updated_at: '2026-09-21T04:18:17.703Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -91,20 +105,26 @@ processing:
       input_hash: sha256:6fe7a056b9870b36062a4338924695b4c8e3287986bb35c2b31ae638ea07be15
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: It functions as a comprehensive LLMOps platform, focusing on the observability, monitoring, and evaluation of LLM workloads.
+      decision_reason: >-
+        It functions as a comprehensive LLMOps platform, focusing on the observability, monitoring, and evaluation of
+        LLM workloads.
       decision_evidence:
         - Claims to 'unify observability, evals, prompt optimization, and your LLM gateway in one platform'
         - Provides specific modules for Gateway routing, Evals, Monitoring, and Tracing
-        - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
+        - >-
+          Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct
+          code collaboration.
       category_candidates:
         - evals
         - agent-orchestration
-      contrastive_reason: Choose evals over agent-orchestration because Respan focuses on the observability and reliability of model traffic (LLMOps) rather than the high-level coordination of task-oriented autonomous agents.
+      contrastive_reason: >-
+        Choose evals over agent-orchestration because Respan focuses on the observability and reliability of model
+        traffic (LLMOps) rather than the high-level coordination of task-oriented autonomous agents.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
+    updated_at: '2026-05-12T15:06:19.301Z'
     cause: null
     next_retry_at: null
   stars:

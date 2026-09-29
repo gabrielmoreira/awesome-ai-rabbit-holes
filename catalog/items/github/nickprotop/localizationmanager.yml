@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nickprotop__localizationmanager__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,12 @@ provenance:
           - LLMOps
         anchor_text: LRM
         extracted_url: https://github.com/nickprotop/localizationmanager
-        surrounding_text: "| [LRM](https://github.com/nickprotop/LocalizationManager)           | CLI/TUI tool for managing localization files (.resx, JSON, Android, iOS) with LLM-powered translation via Ollama, validation, and code scanning for unused/missing keys.                                                                                                                                                                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/nickprotop/LocalizationManager.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [LRM](https://github.com/nickprotop/LocalizationManager)           | CLI/TUI tool for managing localization
+          files (.resx, JSON, Android, iOS) with LLM-powered translation via Ollama, validation, and code scanning for
+          unused/missing
+          keys.                                                                                                                                                                                                                               
+          | ![GitHub Badge](https://img.shields.io/github/stars/nickprotop/LocalizationManager.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -29,10 +34,12 @@ metadata:
     archived: false
     full_name: nickprotop/LocalizationManager
     html_url: https://github.com/nickprotop/LocalizationManager
-    created_at: "2025-11-09T06:16:45Z"
-    pushed_at: "2026-07-10T08:20:43Z"
-    description: CLI tool and TUI editor for managing .NET .resx localization files. Validate translations, import/export CSV, add/remove languages, and edit interactively.
-    homepage: ""
+    created_at: '2025-11-09T06:16:45Z'
+    pushed_at: '2026-07-10T08:20:43Z'
+    description: >-
+      CLI tool and TUI editor for managing .NET .resx localization files. Validate translations, import/export CSV,
+      add/remove languages, and edit interactively.
+    homepage: ''
     topics:
       - cli
       - csharp
@@ -48,14 +55,20 @@ metadata:
       - translation
       - translation-management
       - tui
-    last_checked_at: "2026-07-20T15:12:03.872Z"
+    last_checked_at: '2026-07-20T15:12:03.872Z'
     readme:
-      fetched_at: "2026-07-20T15:12:03.872Z"
+      fetched_at: '2026-07-20T15:12:03.872Z'
       bytes: 28773
 insights:
-  summary: A CLI and TUI tool for managing .NET and multi-format localization files with validation, import/export, and optional AI-powered translation via Ollama and other providers.
-  why_it_matters: It replaces manual XML/JSON editing and Windows-only tooling with a cross-platform workflow that can automate translation using local LLMs.
-  mental_damage: We have successfully reached the point where even managing string tables requires an AI strategy, a cloud dashboard, and a VS Code extension.
+  summary: >-
+    A CLI and TUI tool for managing .NET and multi-format localization files with validation, import/export, and
+    optional AI-powered translation via Ollama and other providers.
+  why_it_matters: >-
+    It replaces manual XML/JSON editing and Windows-only tooling with a cross-platform workflow that can automate
+    translation using local LLMs.
+  mental_damage: >-
+    We have successfully reached the point where even managing string tables requires an AI strategy, a cloud dashboard,
+    and a VS Code extension.
   tags:
     - localization
     - cli
@@ -65,35 +78,39 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is general developer infrastructure for localization resource management, not an AI-native tool, agent, or workflow primarily aimed at AI-assisted coding.
+  reason: >-
+    This is general developer infrastructure for localization resource management, not an AI-native tool, agent, or
+    workflow primarily aimed at AI-assisted coding.
   evidence:
     - Repo description and README define it as a CLI/TUI editor for .resx, JSON, XLIFF, and other localization formats.
     - AI translation is one of many providers (Lingva, MyMemory, Ollama, paid APIs) and not the core product identity.
-    - Listed in Awesome-LLMOps under LLMOps, but its primary job is resource file management, not LLM ops or coding assistance.
+    - >-
+      Listed in Awesome-LLMOps under LLMOps, but its primary job is resource file management, not LLM ops or coding
+      assistance.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:03.872Z"
+    updated_at: '2026-07-20T15:12:03.872Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

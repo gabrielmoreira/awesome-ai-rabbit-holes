@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentmindshare__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Agent Mindshare
         extracted_url: https://agentmindshare.com
-        surrounding_text: "- **[Agent Mindshare](https://agentmindshare.com)** - Track and monitor AI agent mindshare across platforms - measure brand visibility in AI conversations with [Agent Mindshare](https://agentmindshare.com)."
+        surrounding_text: >-
+          - **[Agent Mindshare](https://agentmindshare.com)** - Track and monitor AI agent mindshare across platforms -
+          measure brand visibility in AI conversations with [Agent Mindshare](https://agentmindshare.com).
         confidence: high
 metadata:
   github:
@@ -47,7 +49,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is primarily a marketing platform for brand visibility and sentiment analysis, rather than a developer-facing tool for building or managing AI software.
+  reason: >-
+    The tool is primarily a marketing platform for brand visibility and sentiment analysis, rather than a
+    developer-facing tool for building or managing AI software.
   evidence:
     - Primary product identity is an AI visibility platform for brands and agencies
     - MCP support is an auxiliary feature to enable research via agents rather than the product's core identity
@@ -55,12 +59,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:31:53.873Z"
+    updated_at: '2026-09-24T04:31:53.873Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,7 +86,9 @@ processing:
       input_hash: sha256:f308fcadd2d66de9fd45179a031a122b63baeffd93190dcf49f060f55dfdfa98
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is primarily a marketing platform for brand visibility and sentiment analysis, rather than a developer-facing tool for building or managing AI software.
+      decision_reason: >-
+        The tool is primarily a marketing platform for brand visibility and sentiment analysis, rather than a
+        developer-facing tool for building or managing AI software.
       decision_evidence:
         - Primary product identity is an AI visibility platform for brands and agencies
         - MCP support is an auxiliary feature to enable research via agents rather than the product's core identity

@@ -15,7 +15,7 @@ describe("normalizeLoadedItem (processing state)", () => {
       insights: {},
       curation: { status: "included" },
       placement: { primary_category: null },
-      lifecycle: { status: "incubating" },
+      lifecycle: { status: "curated" },
     } as any;
 
     const normalized = normalizeLoadedItem(raw);
@@ -36,7 +36,7 @@ describe("normalizeLoadedItem (processing state)", () => {
       insights: {},
       curation: { status: "included" },
       placement: { primary_category: null },
-      lifecycle: { status: "incubating" },
+      lifecycle: { status: "curated" },
       processing: { discover: { status: "done", updated_at: "2026-05" } },
     } as any;
 

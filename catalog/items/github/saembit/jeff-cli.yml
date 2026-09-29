@@ -1,0 +1,98 @@
+id: github__saembit__jeff-cli
+kind: github-repo
+name: saembit/jeff-cli
+canonical_url: https://github.com/saembit/jeff-cli
+identity:
+  github_repo: saembit/jeff-cli
+provenance:
+  discoveries:
+    - id: discovery__github__saembit__jeff-cli__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Scoring & Ranking
+        anchor_text: jeff
+        extracted_url: https://github.com/saembit/jeff-cli
+        surrounding_text: >-
+          - [jeff](https://github.com/saembit/jeff-cli) ![type:
+          cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square)
+          ![stars](https://img.shields.io/github/stars/saembit/jeff-cli?style=flat-square&label=%E2%98%85) - Developer
+          tooling: Go CLI whose rank command asks one Jev `Score` per item per weighted dimension of a YAML spec in a
+          single request and sums weight times score in code to order the items, with noul, choice and score commands
+          that turn a threshold into exit code 10 for shell scripts and CI.
+        confidence: high
+    - id: discovery__github__saembit__jeff-cli__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - SDKs and developer tools
+        anchor_text: jeff
+        extracted_url: https://github.com/saembit/jeff-cli
+        surrounding_text: >-
+          - [jeff](https://github.com/saembit/jeff-cli) - Go CLI where Jev scores each item on each weighted dimension
+          of a YAML spec in one request and code sums the weights into a ranking, with noul, choice and score commands
+          whose thresholds become exit codes for shell and CI.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    jeff - Developer tooling: Go CLI whose rank command asks one Jev Score per item per weighted dimension of a YAML
+    spec in a single request and sums weight times score in code to order the items, with noul, choice and score
+    commands that turn a threshold into exit code 10 for shell scripts and CI.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  evidence:
+    - jev-latest choice confidence 0.70
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Client SDKs & CLIs
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.424Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

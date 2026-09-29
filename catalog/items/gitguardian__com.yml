@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gitguardian__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Security
         anchor_text: GitGuardian
         extracted_url: https://gitguardian.com
-        surrounding_text: "- **[GitGuardian](https://www.gitguardian.com/)** – Monitors codebases for leaked secrets, API keys, and credentials."
+        surrounding_text: >-
+          - **[GitGuardian](https://www.gitguardian.com/)** – Monitors codebases for leaked secrets, API keys, and
+          credentials.
         confidence: high
     - id: discovery__www__gitguardian__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +35,9 @@ provenance:
           - Security
         anchor_text: GitGuardian
         extracted_url: https://www.gitguardian.com
-        surrounding_text: "- **[GitGuardian](https://www.gitguardian.com/)** – Monitors codebases for leaked secrets, API keys, and credentials."
+        surrounding_text: >-
+          - **[GitGuardian](https://www.gitguardian.com/)** – Monitors codebases for leaked secrets, API keys, and
+          credentials.
         confidence: high
 metadata:
   github:
@@ -51,8 +55,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GitGuardian is a security platform that detects and remediates exposed secrets, API keys, and non-human identities across code repositories, developer endpoints, and cloud infrastructure.
-  why_it_matters: It helps developers prevent credential leaks that lead to breaches by integrating secret scanning into their workflow via CLI, IDE, and CI/CD.
+  summary: >-
+    GitGuardian is a security platform that detects and remediates exposed secrets, API keys, and non-human identities
+    across code repositories, developer endpoints, and cloud infrastructure.
+  why_it_matters: >-
+    It helps developers prevent credential leaks that lead to breaches by integrating secret scanning into their
+    workflow via CLI, IDE, and CI/CD.
   mental_damage: Finally, a tool that treats your .env file like a live grenade — and now you’re the one holding the pin.
   tags:
     - security
@@ -61,21 +69,25 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: GitGuardian is not a coding agent itself but a security tool that integrates into developer workflows (CLI, IDE, AI coding sessions) to detect and remediate secrets, making it an extension/addon rather than a primary coding agent.
+  reason: >-
+    GitGuardian is not a coding agent itself but a security tool that integrates into developer workflows (CLI, IDE, AI
+    coding sessions) to detect and remediate secrets, making it an extension/addon rather than a primary coding agent.
   evidence:
     - Appears in awesome-ai-coding-tools under the Security section as a secret detection platform
-    - "GitGuardian CLI (ggshield) provides visibility wherever code is written: pre-commit, pre-push, IDE, AI coding tools, and agent skills/plugins"
+    - >-
+      GitGuardian CLI (ggshield) provides visibility wherever code is written: pre-commit, pre-push, IDE, AI coding
+      tools, and agent skills/plugins
     - Core value is detecting secrets in code, repos, and tools with agentic prioritization and remediation playbooks
 placement:
   primary_category: extensions-and-addons
   section: Security & DevSecOps
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:52:29.273Z"
+    updated_at: '2026-09-28T04:52:29.273Z'
     cause: null
     next_retry_at: null
     attempts: 5
@@ -88,20 +100,29 @@ processing:
       input_hash: sha256:c20995e12a71f9af2b06e64f0b4598810be7d3c5b547ae75a9c9e52b98aa06b4
       proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: GitGuardian is not a coding agent itself but a security tool that integrates into developer workflows (CLI, IDE, AI coding sessions) to detect and remediate secrets, making it an extension/addon rather than a primary coding agent.
+      decision_reason: >-
+        GitGuardian is not a coding agent itself but a security tool that integrates into developer workflows (CLI, IDE,
+        AI coding sessions) to detect and remediate secrets, making it an extension/addon rather than a primary coding
+        agent.
       decision_evidence:
         - Appears in awesome-ai-coding-tools under the Security section as a secret detection platform
-        - "GitGuardian CLI (ggshield) provides visibility wherever code is written: pre-commit, pre-push, IDE, AI coding tools, and agent skills/plugins"
-        - Core value is detecting secrets in code, repos, and tools with agentic prioritization and remediation playbooks
+        - >-
+          GitGuardian CLI (ggshield) provides visibility wherever code is written: pre-commit, pre-push, IDE, AI coding
+          tools, and agent skills/plugins
+        - >-
+          Core value is detecting secrets in code, repos, and tools with agentic prioritization and remediation
+          playbooks
       category_candidates:
         - extensions-and-addons
         - coding-agents
-      contrastive_reason: Choose extensions-and-addons over coding-agents because GitGuardian primarily augments coding agents and developer tools with security scanning rather than acting as a primary autonomous coding assistant.
+      contrastive_reason: >-
+        Choose extensions-and-addons over coding-agents because GitGuardian primarily augments coding agents and
+        developer tools with security scanning rather than acting as a primary autonomous coding assistant.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.965Z"
+    updated_at: '2026-07-21T15:20:21.965Z'
     cause: null
     next_retry_at: null
   stars:

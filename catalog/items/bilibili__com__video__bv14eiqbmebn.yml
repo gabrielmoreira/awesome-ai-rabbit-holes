@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bilibili__com__video__bv14eiqbmebn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,10 +19,12 @@ provenance:
           - Podcast
         anchor_text: Lovart 创始人陈冕×罗永浩！且让我大闹一场，然后悄然离去
         extracted_url: https://bilibili.com/video/BV14eiQBmEbN
-        surrounding_text: "- [Lovart 创始人陈冕×罗永浩！且让我大闹一场，然后悄然离去](https://www.bilibili.com/video/BV14eiQBmEbN/?spm_id_from=333.1387.upload.video_card.click)"
+        surrounding_text: >-
+          - [Lovart
+          创始人陈冕×罗永浩！且让我大闹一场，然后悄然离去](https://www.bilibili.com/video/BV14eiQBmEbN/?spm_id_from=333.1387.upload.video_card.click)
         confidence: high
     - id: discovery__www__bilibili__com__video__bv14eiqbmebn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -35,7 +37,9 @@ provenance:
           - Podcast
         anchor_text: Lovart 创始人陈冕×罗永浩！且让我大闹一场，然后悄然离去
         extracted_url: https://www.bilibili.com/video/BV14eiQBmEbN
-        surrounding_text: "- [Lovart 创始人陈冕×罗永浩！且让我大闹一场，然后悄然离去](https://www.bilibili.com/video/BV14eiQBmEbN/?spm_id_from=333.1387.upload.video_card.click)"
+        surrounding_text: >-
+          - [Lovart
+          创始人陈冕×罗永浩！且让我大闹一场，然后悄然离去](https://www.bilibili.com/video/BV14eiQBmEbN/?spm_id_from=333.1387.upload.video_card.click)
         confidence: high
 metadata:
   github:
@@ -53,8 +57,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili video interview with Lovart founder Chen Mian discussing his entrepreneurial journey and the AI design agent Lovart.
-  why_it_matters: Provides insight into the origins and vision of Lovart, an AI design agent, which may interest developers exploring AI-powered creative tools.
+  summary: >-
+    A Bilibili video interview with Lovart founder Chen Mian discussing his entrepreneurial journey and the AI design
+    agent Lovart.
+  why_it_matters: >-
+    Provides insight into the origins and vision of Lovart, an AI design agent, which may interest developers exploring
+    AI-powered creative tools.
   mental_damage: Watching yet another founder interview to understand if their AI tool is actually useful or just well-marketed.
   tags:
     - ai-design
@@ -63,21 +71,28 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The resource is a video interview about a founder's backstory and company narrative, not a developer-facing AI tool, agent, or infrastructure that aids software development workflows.
+  reason: >-
+    The resource is a video interview about a founder's backstory and company narrative, not a developer-facing AI tool,
+    agent, or infrastructure that aids software development workflows.
   evidence:
     - The URL is a Bilibili video (BV14eiQBmEbN) featuring an interview with Lovart founder Chen Mian and Luo Yonghao.
-    - The scraped site context and transcript focus on the founder's entrepreneurial history, company achievements, and promotional content about Lovart as a design agent, with no mention of developer tooling, APIs, SDKs, or integration capabilities for software engineers.
-    - Source-list inclusion is in 'awesome-LLM-resources' under a podcast/suggestion section, indicating it is treated as a general LLM resource or media content, not a developer tool.
+    - >-
+      The scraped site context and transcript focus on the founder's entrepreneurial history, company achievements, and
+      promotional content about Lovart as a design agent, with no mention of developer tooling, APIs, SDKs, or
+      integration capabilities for software engineers.
+    - >-
+      Source-list inclusion is in 'awesome-LLM-resources' under a podcast/suggestion section, indicating it is treated
+      as a general LLM resource or media content, not a developer tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:39:08.952Z"
+    updated_at: '2026-09-28T04:39:08.952Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,18 +105,27 @@ processing:
       input_hash: sha256:503cee2be572633ba1ec5fc3da9ac126648ba9d427dc45522c59f91c46d9c428
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The resource is a video interview about a founder's backstory and company narrative, not a developer-facing AI tool, agent, or infrastructure that aids software development workflows.
+      decision_reason: >-
+        The resource is a video interview about a founder's backstory and company narrative, not a developer-facing AI
+        tool, agent, or infrastructure that aids software development workflows.
       decision_evidence:
-        - The URL is a Bilibili video (BV14eiQBmEbN) featuring an interview with Lovart founder Chen Mian and Luo Yonghao.
-        - The scraped site context and transcript focus on the founder's entrepreneurial history, company achievements, and promotional content about Lovart as a design agent, with no mention of developer tooling, APIs, SDKs, or integration capabilities for software engineers.
-        - Source-list inclusion is in 'awesome-LLM-resources' under a podcast/suggestion section, indicating it is treated as a general LLM resource or media content, not a developer tool.
+        - >-
+          The URL is a Bilibili video (BV14eiQBmEbN) featuring an interview with Lovart founder Chen Mian and Luo
+          Yonghao.
+        - >-
+          The scraped site context and transcript focus on the founder's entrepreneurial history, company achievements,
+          and promotional content about Lovart as a design agent, with no mention of developer tooling, APIs, SDKs, or
+          integration capabilities for software engineers.
+        - >-
+          Source-list inclusion is in 'awesome-LLM-resources' under a podcast/suggestion section, indicating it is
+          treated as a general LLM resource or media content, not a developer tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.365Z"
+    updated_at: '2026-07-20T16:42:15.365Z'
     cause: null
     next_retry_at: null
   stars:

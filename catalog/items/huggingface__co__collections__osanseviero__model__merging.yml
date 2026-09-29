@@ -5,8 +5,9 @@ canonical_url: https://huggingface.co/collections/osanseviero/model-merging
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__huggingface__co__collections__osanseviero__model__merging__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__huggingface__co__collections__osanseviero__model__merging__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,7 +19,9 @@ provenance:
           - 论文 Paper
         anchor_text: Model Merging Paper
         extracted_url: https://huggingface.co/collections/osanseviero/model-merging-65097893623330a3a51ead66
-        surrounding_text: 19. [Model Merging Paper](https://huggingface.co/collections/osanseviero/model-merging-65097893623330a3a51ead66)
+        surrounding_text: >-
+          19. [Model Merging
+          Paper](https://huggingface.co/collections/osanseviero/model-merging-65097893623330a3a51ead66)
         confidence: high
 metadata:
   github:
@@ -36,9 +39,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated collection of research papers focused on the techniques and evolution of model merging for large language models.
-  why_it_matters: It provides a chronological roadmap of the mathematical and algorithmic foundations required to combine model weights without full retraining.
-  mental_damage: It is a convenient way to track exactly how many new merging algorithms will make your current implementation obsolete by next Tuesday.
+  summary: >-
+    A curated collection of research papers focused on the techniques and evolution of model merging for large language
+    models.
+  why_it_matters: >-
+    It provides a chronological roadmap of the mathematical and algorithmic foundations required to combine model
+    weights without full retraining.
+  mental_damage: >-
+    It is a convenient way to track exactly how many new merging algorithms will make your current implementation
+    obsolete by next Tuesday.
   tags:
     - model-merging
     - llm-research
@@ -46,7 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a curated collection of research papers that serves as a foundational discovery resource for developers exploring model merging.
+  reason: >-
+    This is a curated collection of research papers that serves as a foundational discovery resource for developers
+    exploring model merging.
   evidence:
     - Hugging Face collection of papers
     - Chronological list of model merging research
@@ -54,12 +65,12 @@ placement:
   primary_category: awesome-awesomes
   section: Awesome Lists & Directories
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:25:27.696Z"
+    updated_at: '2026-09-28T04:25:27.696Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +92,17 @@ processing:
       input_hash: sha256:237011b0a550f648e0b2ba000476f3311712ca28114ebae8c3dab5afc198bb61
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated collection of research papers that serves as a foundational discovery resource for developers exploring model merging.
+      decision_reason: >-
+        This is a curated collection of research papers that serves as a foundational discovery resource for developers
+        exploring model merging.
       decision_evidence:
         - Hugging Face collection of papers
         - Chronological list of model merging research
       category_candidates:
         - awesome-awesomes
         - ai-frameworks
-      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the resource is a curated list of academic research rather than a functional SDK or library.
+      contrastive_reason: >-
+        Choose awesome-awesomes over ai-frameworks because the resource is a curated list of academic research rather
+        than a functional SDK or library.
       review_reason: null
       review_resume_lifecycle: null

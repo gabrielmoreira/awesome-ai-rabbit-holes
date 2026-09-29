@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__datature__io__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,7 @@ provenance:
           - Developer tools
         anchor_text: Datature
         extracted_url: https://datature.io
-        surrounding_text: "- [Datature](https://datature.io) - The All-in-One Platform to Build and Deploy Vision AI."
+        surrounding_text: '- [Datature](https://datature.io) - The All-in-One Platform to Build and Deploy Vision AI.'
         confidence: high
 metadata:
   github:
@@ -46,21 +46,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Datature is a specialized computer vision platform focused on data labeling, training, and deployment—not a general AI developer tool like coding agents, app builders, or frameworks.
+  reason: >-
+    Datature is a specialized computer vision platform focused on data labeling, training, and deployment—not a general
+    AI developer tool like coding agents, app builders, or frameworks.
   evidence:
-    - Repo description is missing; scraped site context describes it as an 'end-to-end platform for data labeling, model training, and deployment' for Vision AI.
-    - Source-list context shows it appears in 'awesome-local-ai' under 'Developer tools' but the platform itself is SaaS-hosted and not local/self-hosted AI.
-    - Core functionality centers on annotation, model training, and deployment APIs—not code generation, agent behavior, or developer-facing AI tooling.
+    - >-
+      Repo description is missing; scraped site context describes it as an 'end-to-end platform for data labeling, model
+      training, and deployment' for Vision AI.
+    - >-
+      Source-list context shows it appears in 'awesome-local-ai' under 'Developer tools' but the platform itself is
+      SaaS-hosted and not local/self-hosted AI.
+    - >-
+      Core functionality centers on annotation, model training, and deployment APIs—not code generation, agent behavior,
+      or developer-facing AI tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.964Z"
+    updated_at: '2026-07-21T15:20:21.964Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:53:44.475Z"
+    updated_at: '2026-09-28T04:53:44.475Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -80,11 +88,19 @@ processing:
       input_hash: sha256:4423f2f1d8e8294afc2f2d8fe34e534b89f2c698d3a78785c039914bdd319e73
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Datature is a specialized computer vision platform focused on data labeling, training, and deployment—not a general AI developer tool like coding agents, app builders, or frameworks.
+      decision_reason: >-
+        Datature is a specialized computer vision platform focused on data labeling, training, and deployment—not a
+        general AI developer tool like coding agents, app builders, or frameworks.
       decision_evidence:
-        - Repo description is missing; scraped site context describes it as an 'end-to-end platform for data labeling, model training, and deployment' for Vision AI.
-        - Source-list context shows it appears in 'awesome-local-ai' under 'Developer tools' but the platform itself is SaaS-hosted and not local/self-hosted AI.
-        - Core functionality centers on annotation, model training, and deployment APIs—not code generation, agent behavior, or developer-facing AI tooling.
+        - >-
+          Repo description is missing; scraped site context describes it as an 'end-to-end platform for data labeling,
+          model training, and deployment' for Vision AI.
+        - >-
+          Source-list context shows it appears in 'awesome-local-ai' under 'Developer tools' but the platform itself is
+          SaaS-hosted and not local/self-hosted AI.
+        - >-
+          Core functionality centers on annotation, model training, and deployment APIs—not code generation, agent
+          behavior, or developer-facing AI tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

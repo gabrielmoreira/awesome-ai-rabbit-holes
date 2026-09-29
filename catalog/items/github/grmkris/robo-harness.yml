@@ -1,0 +1,113 @@
+id: github__grmkris__robo-harness
+kind: github-repo
+name: grmkris/robo-harness
+canonical_url: https://github.com/grmkris/robo-harness
+identity:
+  github_repo: grmkris/robo-harness
+provenance:
+  discoveries:
+    - id: discovery__github__grmkris__robo-harness__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Games & simulations (73)
+        anchor_text: robo-harness
+        extracted_url: https://github.com/grmkris/robo-harness
+        surrounding_text: >-
+          | [robo-harness](https://github.com/grmkris/robo-harness) | ★ 1 | TypeScript | 2026-09-19 | SO-101 robot-arm
+          workbench where Jev selects bounded joint actions under a spend budget. |
+        confidence: high
+    - id: discovery__github__grmkris__robo-harness__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Domain Tools
+        anchor_text: '**robo-harness**'
+        extracted_url: https://github.com/grmkris/robo-harness
+        surrounding_text: >-
+          - [**robo-harness**](https://github.com/grmkris/robo-harness) — SO-101 robot-arm workbench combining
+          Bun/Effect and Python drivers, using Jev for joint action constraints.
+        confidence: high
+    - id: discovery__github__grmkris__robo-harness__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Robotics & Physical
+        anchor_text: robo-harness
+        extracted_url: https://github.com/grmkris/robo-harness
+        surrounding_text: >-
+          - [robo-harness](https://github.com/grmkris/robo-harness)
+          ![stars](https://img.shields.io/github/stars/grmkris/robo-harness?style=flat-square&label=%E2%98%85) -
+          Robotics: SO-101 arm workbench where a Jev decision runner picks bounded joint steps from typed candidate
+          actions under a spend budget.
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 0
+    license: null
+    archived: false
+    full_name: grmkris/robo-harness
+    html_url: https://github.com/grmkris/robo-harness
+    created_at: '2026-09-07T07:53:41Z'
+    pushed_at: '2026-09-23T03:45:06Z'
+    description: 'SO-101 robot-arm agent workbench: Bun/Effect coordinator, React workbench, Python LeRobot motor owner'
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:11:51.929Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:51.929Z'
+      bytes: 12602
+insights:
+  summary: 'SO-101 robot-arm agent workbench: Bun/Effect coordinator, React workbench, Python LeRobot motor owner'
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.64
+placement:
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.395Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:51.929Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

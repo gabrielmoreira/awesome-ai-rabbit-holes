@@ -1,0 +1,97 @@
+id: github__0xwhrari__grok-jev-guard
+kind: github-repo
+name: 0xwhrari/grok-jev-guard
+canonical_url: https://github.com/0xwhrari/grok-jev-guard
+identity:
+  github_repo: 0xwhrari/grok-jev-guard
+provenance:
+  discoveries:
+    - id: discovery__github__0xwhrari__grok-jev-guard__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: grok-jev-guard
+        extracted_url: https://github.com/0xwhrari/grok-jev-guard
+        surrounding_text: >-
+          - [grok-jev-guard](https://github.com/0xwhrari/grok-jev-guard) - Typed preflight/approval layer for Grok Bot:
+          local policy plus TypeSafe Jev for ambiguity (shadow-first; distinct from Grok Bot Jev). [Project
+          guide](community/projects/tools/grok-jev-guard.md).
+        confidence: high
+    - id: discovery__github__0xwhrari__grok-jev-guard__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Security & Guardrails
+        anchor_text: '**grok-jev-guard**'
+        extracted_url: https://github.com/0xwhrari/grok-jev-guard
+        surrounding_text: >-
+          - [**grok-jev-guard**](https://github.com/0xwhrari/grok-jev-guard) — \`grok-jev-guard\` sits immediately
+          before a meaningful Grok Bot tool sequence. It receives a compact description of the pending operation and
+          returns one explicit action:
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: 0xwhrari/grok-jev-guard
+    html_url: https://github.com/0xwhrari/grok-jev-guard
+    created_at: '2026-09-23T16:06:47Z'
+    pushed_at: '2026-09-23T16:16:48Z'
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:08:14.701Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:14.701Z'
+      bytes: 6867
+insights:
+  summary: >-
+    grok-jev-guard - Typed preflight/approval layer for Grok Bot: local policy plus TypeSafe Jev for ambiguity
+    (shadow-first; distinct from Grok Bot Jev). Project guide.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.65
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.408Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:14.701Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

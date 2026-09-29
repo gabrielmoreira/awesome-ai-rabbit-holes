@@ -5,8 +5,9 @@ canonical_url: https://weave-docs.wandb.ai/guides/core-types/evaluations
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__weave__docs__wandb__ai__guides__core__types__evaluations__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__weave__docs__wandb__ai__guides__core__types__evaluations__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,7 +19,9 @@ provenance:
           - 评估 Evaluation
         anchor_text: Weave
         extracted_url: https://weave-docs.wandb.ai/guides/core-types/evaluations
-        surrounding_text: "5. [Weave](https://weave-docs.wandb.ai/guides/core-types/evaluations): A lightweight toolkit for tracking and evaluating LLM applications."
+        surrounding_text: >-
+          5. [Weave](https://weave-docs.wandb.ai/guides/core-types/evaluations): A lightweight toolkit for tracking and
+          evaluating LLM applications.
         confidence: high
 metadata:
   github:
@@ -36,9 +39,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Weave's evaluation framework for measuring LLM application performance against curated test cases and scoring functions.
-  why_it_matters: Enables developers to systematically improve LLM applications by moving beyond ad hoc testing into structured, measurable workflows with repeatable evaluations.
-  mental_damage: Finally, a way to quantify the existential dread of wondering if your latest prompt tweak actually made things worse.
+  summary: >-
+    Weave's evaluation framework for measuring LLM application performance against curated test cases and scoring
+    functions.
+  why_it_matters: >-
+    Enables developers to systematically improve LLM applications by moving beyond ad hoc testing into structured,
+    measurable workflows with repeatable evaluations.
+  mental_damage: >-
+    Finally, a way to quantify the existential dread of wondering if your latest prompt tweak actually made things
+    worse.
   tags:
     - evals
     - llm-observability
@@ -46,21 +55,25 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core identity is measuring and scoring agent/model behavior through evaluation runs, datasets, and scoring functions—not building agents or orchestrating them.
+  reason: >-
+    The core identity is measuring and scoring agent/model behavior through evaluation runs, datasets, and scoring
+    functions—not building agents or orchestrating them.
   evidence:
-    - Describes Evaluation-driven LLM application development to systematically improve applications by measuring behavior using consistent, curated examples
+    - >-
+      Describes Evaluation-driven LLM application development to systematically improve applications by measuring
+      behavior using consistent, curated examples
     - Core workflow centers on Evaluation objects defining datasets, scoring functions, and models/functions to evaluate
     - Outputs are measurement results and comparative analysis, not code edits, apps, or agent coordination
 placement:
   primary_category: evals
   section: Agent & LLM Benchmarks
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:49:25.298Z"
+    updated_at: '2026-09-28T04:49:25.298Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,14 +95,22 @@ processing:
       input_hash: sha256:66b6351f0ee0a391b457bc84df5b8237e8eef20f8b9e8715a42d694b49a832b6
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The core identity is measuring and scoring agent/model behavior through evaluation runs, datasets, and scoring functions—not building agents or orchestrating them.
+      decision_reason: >-
+        The core identity is measuring and scoring agent/model behavior through evaluation runs, datasets, and scoring
+        functions—not building agents or orchestrating them.
       decision_evidence:
-        - Describes Evaluation-driven LLM application development to systematically improve applications by measuring behavior using consistent, curated examples
-        - Core workflow centers on Evaluation objects defining datasets, scoring functions, and models/functions to evaluate
+        - >-
+          Describes Evaluation-driven LLM application development to systematically improve applications by measuring
+          behavior using consistent, curated examples
+        - >-
+          Core workflow centers on Evaluation objects defining datasets, scoring functions, and models/functions to
+          evaluate
         - Outputs are measurement results and comparative analysis, not code edits, apps, or agent coordination
       category_candidates:
         - evals
         - memory-and-context
-      contrastive_reason: Choose evals over memory-and-context because the primary function is measurement and scoring of model outputs, not persistence, retrieval, or context shaping for agents.
+      contrastive_reason: >-
+        Choose evals over memory-and-context because the primary function is measurement and scoring of model outputs,
+        not persistence, retrieval, or context shaping for agents.
       review_reason: null
       review_resume_lifecycle: null

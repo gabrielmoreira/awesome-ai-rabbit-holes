@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openrlhf__openrlhf__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: OpenRLHF
         extracted_url: https://github.com/openllmai/openrlhf
-        surrounding_text: "11. [OpenRLHF](https://github.com/OpenLLMAI/OpenRLHF): An Easy-to-use, Scalable and High-performance RLHF Framework (Support 70B+ full tuning & LoRA & Mixtral & KTO)."
+        surrounding_text: >-
+          11. [OpenRLHF](https://github.com/OpenLLMAI/OpenRLHF): An Easy-to-use, Scalable and High-performance RLHF
+          Framework (Support 70B+ full tuning & LoRA & Mixtral & KTO).
         confidence: high
 metadata:
   github:
@@ -29,9 +31,11 @@ metadata:
     archived: false
     full_name: OpenRLHF/OpenRLHF
     html_url: https://github.com/OpenRLHF/OpenRLHF
-    created_at: "2023-07-30T02:20:13Z"
-    pushed_at: "2026-07-14T01:57:21Z"
-    description: An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL)
+    created_at: '2023-07-30T02:20:13Z'
+    pushed_at: '2026-07-14T01:57:21Z'
+    description: >-
+      An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM &
+      TIS & vLLM & Ray & Async  RL)
     homepage: https://openrlhf.readthedocs.io/
     topics:
       - large-language-models
@@ -42,14 +46,20 @@ metadata:
       - transformers
       - visual-language-models
       - vllm
-    last_checked_at: "2026-07-20T16:42:27.513Z"
+    last_checked_at: '2026-07-20T16:42:27.513Z'
     readme:
-      fetched_at: "2026-07-20T16:42:27.513Z"
+      fetched_at: '2026-07-20T16:42:27.513Z'
       bytes: 42138
 insights:
-  summary: OpenRLHF is a high-performance, Ray and vLLM-based open-source framework for training and scaling reinforcement learning from human feedback (RLHF) algorithms on large language and vision-language models.
-  why_it_matters: It provides ML engineers with a production-ready, distributed infrastructure to fine-tune and align custom models using advanced RL algorithms like PPO and REINFORCE++.
-  mental_damage: You now have 9,000 stars of confirmation that the hardest part of building AGI is not the model architecture, but the distributed training loop you will inevitably debug at 2 AM.
+  summary: >-
+    OpenRLHF is a high-performance, Ray and vLLM-based open-source framework for training and scaling reinforcement
+    learning from human feedback (RLHF) algorithms on large language and vision-language models.
+  why_it_matters: >-
+    It provides ML engineers with a production-ready, distributed infrastructure to fine-tune and align custom models
+    using advanced RL algorithms like PPO and REINFORCE++.
+  mental_damage: >-
+    You now have 9,000 stars of confirmation that the hardest part of building AGI is not the model architecture, but
+    the distributed training loop you will inevitably debug at 2 AM.
   tags:
     - rlhf
     - reinforcement-learning
@@ -59,35 +69,39 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a model training and alignment framework for ML engineers, not a practical AI tool, agent, or infrastructure product for software developers building applications.
+  reason: >-
+    Excluded because it is a model training and alignment framework for ML engineers, not a practical AI tool, agent, or
+    infrastructure product for software developers building applications.
   evidence:
     - Repo description and README define it as 'Agentic RL Framework' focused on PPO, DAPO, and RLHF training.
-    - Topics include 'reinforcement-learning', 'model-training', and 'transformers', indicating ML research infrastructure.
+    - >-
+      Topics include 'reinforcement-learning', 'model-training', and 'transformers', indicating ML research
+      infrastructure.
     - Source list context places it in a 'Fine-Tuning' section of an LLM resources list, not a developer tooling list.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (9453) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.640Z"
+    updated_at: '2026-05-06T22:12:15.640Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:27.513Z"
+    updated_at: '2026-07-20T16:42:27.513Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

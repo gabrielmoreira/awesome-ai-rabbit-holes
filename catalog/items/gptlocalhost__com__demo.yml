@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gptlocalhost__com__demo__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,9 @@ provenance:
           - Inference UI
         anchor_text: GPTLocalhost
         extracted_url: https://gptlocalhost.com/demo
-        surrounding_text: "- [GPTLocalhost](https://gptlocalhost.com/demo/) - A local Word Add-in for you to use local LLM servers in Microsoft Word. Alternative to \"Copilot in Word\" and much more affordable."
+        surrounding_text: >-
+          - [GPTLocalhost](https://gptlocalhost.com/demo/) - A local Word Add-in for you to use local LLM servers in
+          Microsoft Word. Alternative to "Copilot in Word" and much more affordable.
         confidence: high
 metadata:
   github:
@@ -37,7 +39,9 @@ metadata:
     readme: null
 insights:
   summary: A demo site showcasing video tutorials for running various local LLMs inside Microsoft Word.
-  why_it_matters: Illustrates how developers can experiment with local AI models in a familiar desktop app, though it targets end‑users rather than developer tooling.
+  why_it_matters: >-
+    Illustrates how developers can experiment with local AI models in a familiar desktop app, though it targets
+    end‑users rather than developer tooling.
   mental_damage: Another reminder that watching someone else paste a model into Word feels like productivity theater.
   tags:
     - demo
@@ -46,24 +50,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: It is a demonstration/tutorial page, not a developer‑facing AI tool, agent, framework, or infrastructure that fits the catalog's scope.
+  reason: >-
+    It is a demonstration/tutorial page, not a developer‑facing AI tool, agent, framework, or infrastructure that fits
+    the catalog's scope.
   evidence:
-    - "Site title: 'Demos - GPTLocalhost' with description pointing to YouTube demos of local LLMs in Microsoft Word."
-    - Content consists solely of embedded videos showing usage of LLMs (e.g., Ollama, LM Studio, llama.cpp) inside Word, no code, SDK, or agent.
+    - 'Site title: ''Demos - GPTLocalhost'' with description pointing to YouTube demos of local LLMs in Microsoft Word.'
+    - >-
+      Content consists solely of embedded videos showing usage of LLMs (e.g., Ollama, LM Studio, llama.cpp) inside Word,
+      no code, SDK, or agent.
     - Listed in awesome-local-ai under Inference UI, but the page itself offers no developer tooling or API.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -71,7 +81,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:18:51.557Z"
+    updated_at: '2026-09-28T04:18:51.557Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,10 +94,14 @@ processing:
       input_hash: sha256:6de0df9663e270f8e1799df1bd0b17446412e1dd5ec281bb84db619b75ce3430
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a demonstration/tutorial page, not a developer‑facing AI tool, agent, framework, or infrastructure that fits the catalog's scope.
+      decision_reason: >-
+        It is a demonstration/tutorial page, not a developer‑facing AI tool, agent, framework, or infrastructure that
+        fits the catalog's scope.
       decision_evidence:
-        - "Site title: 'Demos - GPTLocalhost' with description pointing to YouTube demos of local LLMs in Microsoft Word."
-        - Content consists solely of embedded videos showing usage of LLMs (e.g., Ollama, LM Studio, llama.cpp) inside Word, no code, SDK, or agent.
+        - 'Site title: ''Demos - GPTLocalhost'' with description pointing to YouTube demos of local LLMs in Microsoft Word.'
+        - >-
+          Content consists solely of embedded videos showing usage of LLMs (e.g., Ollama, LM Studio, llama.cpp) inside
+          Word, no code, SDK, or agent.
         - Listed in awesome-local-ai under Inference UI, but the page itself offers no developer tooling or API.
       category_candidates: []
       contrastive_reason: null

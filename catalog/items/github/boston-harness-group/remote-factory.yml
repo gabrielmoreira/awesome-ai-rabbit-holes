@@ -1,0 +1,83 @@
+id: github__boston-harness-group__remote-factory
+kind: github-repo
+name: boston-harness-group/remote-factory
+canonical_url: https://github.com/boston-harness-group/remote-factory
+identity:
+  github_repo: boston-harness-group/remote-factory
+provenance:
+  discoveries:
+    - id: discovery__github__boston-harness-group__remote-factory__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: The Factory
+        extracted_url: https://github.com/akashgit/remote-factory
+        surrounding_text: >-
+          - **[The Factory](https://github.com/akashgit/remote-factory)** `⭐ 71` — Self-evolving meta-harness for
+          autonomous software dev and research; turns any codebase into an auto-research project, auto-discovers eval
+          dimensions, generates scoring harness, and runs keep/revert experiment loops with monotonic-improvement
+          guards. Multi-contributor. MIT.
+        confidence: high
+metadata:
+  github:
+    stars: 72
+    forks: 30
+    license: MIT
+    archived: false
+    full_name: boston-harness-group/remote-factory
+    html_url: https://github.com/boston-harness-group/remote-factory
+    created_at: '2026-04-11T21:17:39Z'
+    pushed_at: '2026-09-29T11:01:59Z'
+    description: Domain-agnostic multi-agent software design and evolution harness
+    homepage: https://akashgit.github.io/remote-factory/
+    topics:
+      - ai-agents
+      - autonomous-agents
+      - claude-code
+      - code-generation
+      - openai-codex
+    last_checked_at: '2026-09-29T13:09:34.598Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:34.598Z'
+      bytes: 21495
+insights:
+  summary: Domain-agnostic multi-agent software design and evolution harness
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.91
+placement:
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.450Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:34.598Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

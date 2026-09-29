@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__theunwindai__com__awesome-list__shubhamsaboo__awesome-llm-apps
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: Shubhamsaboo/awesome-llm-apps
@@ -18,10 +18,12 @@ provenance:
           - README
         anchor_text: Step-by-step tutorials on Unwind AI
         extracted_url: https://theunwindai.com
-        surrounding_text: "**[Step-by-step tutorials on Unwind AI](https://www.theunwindai.com)** · **[Quick start](#-run-one-now)** · **[Browse all templates](#-browse-all-templates)**"
+        surrounding_text: >-
+          **[Step-by-step tutorials on Unwind AI](https://www.theunwindai.com)** · **[Quick start](#-run-one-now)** ·
+          **[Browse all templates](#-browse-all-templates)**
         confidence: high
     - id: discovery__www__theunwindai__com__awesome-list__shubhamsaboo__awesome-llm-apps
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: Shubhamsaboo/awesome-llm-apps
@@ -33,7 +35,9 @@ provenance:
           - 💡 Why this exists
         anchor_text: Unwind AI
         extracted_url: https://www.theunwindai.com
-        surrounding_text: "- 📚 **Step-by-step tutorials** - every featured template has a free walkthrough on [Unwind AI](https://www.theunwindai.com)."
+        surrounding_text: >-
+          - 📚 **Step-by-step tutorials** - every featured template has a free walkthrough on [Unwind
+          AI](https://www.theunwindai.com).
         confidence: high
 metadata:
   github:
@@ -51,7 +55,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Unwind AI is an open-source ecosystem offering tutorials, blogs, and newsletters on AI agents, RAG, and LLMs for developers.
+  summary: >-
+    Unwind AI is an open-source ecosystem offering tutorials, blogs, and newsletters on AI agents, RAG, and LLMs for
+    developers.
   why_it_matters: It helps developers stay current with AI agent trends and learn practical implementations through curated content.
   mental_damage: Another AI newsletter promising 'high-leverage' insights while you still haven't shipped your MCP server.
   tags:
@@ -63,22 +69,28 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a content platform (blog/newsletter/tutorials) without developer tooling, agent orchestration, or app-building functionality.
+  reason: >-
+    Excluded because it is a content platform (blog/newsletter/tutorials) without developer tooling, agent
+    orchestration, or app-building functionality.
   evidence:
-    - Source-list context shows it is listed in awesome-llm-apps as an 'Open-source Ecosystem for High-Leverage AI Builders'
-    - "Scraped site context reveals primary content: blogs, tutorials ('Daily Unwind', 'AI Tutorial'), newsletters, and agent discussions"
+    - >-
+      Source-list context shows it is listed in awesome-llm-apps as an 'Open-source Ecosystem for High-Leverage AI
+      Builders'
+    - >-
+      Scraped site context reveals primary content: blogs, tutorials ('Daily Unwind', 'AI Tutorial'), newsletters, and
+      agent discussions
     - No evidence of tooling, SDKs, agents, or infrastructure — only educational and curation content
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:47:09.525Z"
+    updated_at: '2026-09-28T04:47:09.525Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -91,10 +103,16 @@ processing:
       input_hash: sha256:f444497404e3d718d02b339ad2070c864f990179cf433c1b70cf8eb6a8b48ac0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Excluded because it is a content platform (blog/newsletter/tutorials) without developer tooling, agent orchestration, or app-building functionality.
+      decision_reason: >-
+        Excluded because it is a content platform (blog/newsletter/tutorials) without developer tooling, agent
+        orchestration, or app-building functionality.
       decision_evidence:
-        - Source-list context shows it is listed in awesome-llm-apps as an 'Open-source Ecosystem for High-Leverage AI Builders'
-        - "Scraped site context reveals primary content: blogs, tutorials ('Daily Unwind', 'AI Tutorial'), newsletters, and agent discussions"
+        - >-
+          Source-list context shows it is listed in awesome-llm-apps as an 'Open-source Ecosystem for High-Leverage AI
+          Builders'
+        - >-
+          Scraped site context reveals primary content: blogs, tutorials ('Daily Unwind', 'AI Tutorial'), newsletters,
+          and agent discussions
         - No evidence of tooling, SDKs, agents, or infrastructure — only educational and curation content
       category_candidates: []
       contrastive_reason: null
@@ -102,7 +120,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.971Z"
+    updated_at: '2026-07-21T15:20:21.971Z'
     cause: null
     next_retry_at: null
   stars:

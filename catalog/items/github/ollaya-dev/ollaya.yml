@@ -1,0 +1,134 @@
+id: github__ollaya-dev__ollaya
+kind: github-repo
+name: ollaya-dev/ollaya
+canonical_url: https://github.com/ollaya-dev/ollaya
+identity:
+  github_repo: ollaya-dev/ollaya
+provenance:
+  discoveries:
+    - id: discovery__github__ollaya-dev__ollaya__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: ollaya
+        extracted_url: https://github.com/ollaya-dev/ollaya
+        surrounding_text: >-
+          - [ollaya](https://github.com/ollaya-dev/ollaya) ([site](https://ollaya.cobanov.dev)) - Run open decision
+          models locally — pull, run and serve Laya and other open Jev alternatives behind a TypeSafe-compatible API.
+        confidence: high
+    - id: discovery__github__ollaya-dev__ollaya__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Jev-like models (72)
+        anchor_text: ollaya
+        extracted_url: https://github.com/ollaya-dev/ollaya
+        surrounding_text: >-
+          | [ollaya](https://github.com/ollaya-dev/ollaya) | ★ 17 | Rust | 2026-09-25 | Local decision-model runner with
+          a Jev-compatible System One API. |
+        confidence: high
+    - id: discovery__github__ollaya-dev__ollaya__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: ollaya
+        extracted_url: https://github.com/ollaya-dev/ollaya
+        surrounding_text: >-
+          - [ollaya](https://github.com/ollaya-dev/ollaya) ![type:
+          self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square)
+          ![stars](https://img.shields.io/github/stars/ollaya-dev/ollaya?style=flat-square&label=%E2%98%85) - Local
+          runtime: serves open decision models behind a wire-identical `/v1/systemone` endpoint, so an existing Jev
+          client only has to point `TYPESAFE_BASE_URL` at the daemon, and reports its recommended model at 0.722
+          accuracy against Jev's 0.738 on typed decisions.
+        confidence: high
+    - id: discovery__github__ollaya-dev__ollaya__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - SDKs and developer tools
+        anchor_text: Ollaya
+        extracted_url: https://github.com/ollaya-dev/ollaya
+        surrounding_text: >-
+          - [Ollaya](https://github.com/ollaya-dev/ollaya) - Rust daemon and CLI that pulls open decision models (Laya,
+          decider, NLI, GLiClass) by name and serves them locally behind TypeSafe-compatible `/v1/systemone`,
+          `/v1/decisions`, and `/v1/models` endpoints, so existing Jev clients switch with `TYPESAFE_BASE_URL`; the
+          `laya` router picks an English or multilingual checkpoint per request, and answers come from these open
+          models, not from Jev.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    ollaya (site) - Run open decision models locally — pull, run and serve Laya and other open Jev alternatives behind a
+    TypeSafe-compatible API.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
+  evidence:
+    - jev-latest choice confidence 0.74
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Local Serving & Gateways
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.386Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

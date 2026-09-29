@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__harmony__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-07-02T05:22:20.470Z"
+      discovered_at: '2026-07-02T05:22:20.470Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,7 @@ provenance:
           - Developer tools
         anchor_text: One AI
         extracted_url: https://www.oneai.com
-        surrounding_text: "- [One AI](https://www.oneai.com/) - MAKING GENERATIVE AI BUSINESS-READY."
+        surrounding_text: '- [One AI](https://www.oneai.com/) - MAKING GENERATIVE AI BUSINESS-READY.'
         confidence: high
 metadata:
   github:
@@ -36,28 +36,38 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A voice AI platform designed for sales and revenue teams to automate lead qualification, outbound calls, and customer engagement.
-  why_it_matters: While it represents a sophisticated use of agentic workflows, it is a business-facing application rather than a tool for the developer's technical workflow.
-  mental_damage: The agentic revolution is finally moving from the terminal to the telephone, and the sales floor is officially first in line.
+  summary: >-
+    A voice AI platform designed for sales and revenue teams to automate lead qualification, outbound calls, and
+    customer engagement.
+  why_it_matters: >-
+    While it represents a sophisticated use of agentic workflows, it is a business-facing application rather than a tool
+    for the developer's technical workflow.
+  mental_damage: >-
+    The agentic revolution is finally moving from the terminal to the telephone, and the sales floor is officially first
+    in line.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: It is a vertical SaaS product for business revenue teams rather than a developer-facing tool, framework, or infrastructure.
+  reason: >-
+    It is a vertical SaaS product for business revenue teams rather than a developer-facing tool, framework, or
+    infrastructure.
   evidence:
-    - The product is marketed as a 'system for running revenue calls' for business use cases like lead qualification and appointment setting.
+    - >-
+      The product is marketed as a 'system for running revenue calls' for business use cases like lead qualification and
+      appointment setting.
     - The site explicitly distinguishes itself from developer toolkits like Vapi or Retell.
     - It does not provide coding assistance, IDE integration, or developer-centric agent orchestration.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-02T05:22:20.472Z"
+    updated_at: '2026-07-02T05:22:20.472Z'
     cause: null
     next_retry_at: null
   stars:
@@ -66,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:20:49.442Z"
+    updated_at: '2026-09-24T04:20:49.442Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -79,9 +89,13 @@ processing:
       input_hash: sha256:1be03ec824d1c93860242aad3fc3fd6381de098edfe11984ce463d60027628af
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a vertical SaaS product for business revenue teams rather than a developer-facing tool, framework, or infrastructure.
+      decision_reason: >-
+        It is a vertical SaaS product for business revenue teams rather than a developer-facing tool, framework, or
+        infrastructure.
       decision_evidence:
-        - The product is marketed as a 'system for running revenue calls' for business use cases like lead qualification and appointment setting.
+        - >-
+          The product is marketed as a 'system for running revenue calls' for business use cases like lead qualification
+          and appointment setting.
         - The site explicitly distinguishes itself from developer toolkits like Vapi or Retell.
         - It does not provide coding assistance, IDE integration, or developer-centric agent orchestration.
       category_candidates: []

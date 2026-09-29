@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__chargebee__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Chargebee platform
         extracted_url: https://chargebee.com
-        surrounding_text: "- [chargebee/mcp](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol) 🎖️ 📇 ☁️ - MCP Server that connects AI agents to [Chargebee platform](https://www.chargebee.com/)."
+        surrounding_text: >-
+          - [chargebee/mcp](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol) 🎖️ 📇 ☁️ - MCP Server
+          that connects AI agents to [Chargebee platform](https://www.chargebee.com/).
         confidence: high
     - id: discovery__chargebee__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,10 +36,12 @@ provenance:
           - Official Servers
         anchor_text: Chargebee platform
         extracted_url: https://chargebee.com
-        surrounding_text: "- **[Chargebee](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol)** - MCP Server that connects AI agents to [Chargebee platform](https://www.chargebee.com)."
+        surrounding_text: >-
+          - **[Chargebee](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol)** - MCP Server that
+          connects AI agents to [Chargebee platform](https://www.chargebee.com).
         confidence: high
     - id: discovery__www__chargebee__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -50,10 +54,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Chargebee platform
         extracted_url: https://www.chargebee.com
-        surrounding_text: "- [chargebee/mcp](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol) 🎖️ 📇 ☁️ - MCP Server that connects AI agents to [Chargebee platform](https://www.chargebee.com/)."
+        surrounding_text: >-
+          - [chargebee/mcp](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol) 🎖️ 📇 ☁️ - MCP Server
+          that connects AI agents to [Chargebee platform](https://www.chargebee.com/).
         confidence: high
     - id: discovery__www__chargebee__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -65,7 +71,9 @@ provenance:
           - Official Servers
         anchor_text: Chargebee platform
         extracted_url: https://www.chargebee.com
-        surrounding_text: "- **[Chargebee](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol)** - MCP Server that connects AI agents to [Chargebee platform](https://www.chargebee.com)."
+        surrounding_text: >-
+          - **[Chargebee](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol)** - MCP Server that
+          connects AI agents to [Chargebee platform](https://www.chargebee.com).
         confidence: high
 metadata:
   github:
@@ -83,9 +91,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Chargebee is a billing and monetization platform for SaaS and AI companies that supports usage-based pricing, subscription management, and revenue operations.
-  why_it_matters: Developers integrate Chargebee via APIs and SDKs to automate billing, usage tracking, and pricing experiments without building custom monetization infrastructure.
-  mental_damage: Yet another reminder that your side project’s ‘just add a Stripe checkout’ plan collapses when your AI agent starts charging per-token and you need ASC 606 compliance at 2 a.m.
+  summary: >-
+    Chargebee is a billing and monetization platform for SaaS and AI companies that supports usage-based pricing,
+    subscription management, and revenue operations.
+  why_it_matters: >-
+    Developers integrate Chargebee via APIs and SDKs to automate billing, usage tracking, and pricing experiments
+    without building custom monetization infrastructure.
+  mental_damage: >-
+    Yet another reminder that your side project’s ‘just add a Stripe checkout’ plan collapses when your AI agent starts
+    charging per-token and you need ASC 606 compliance at 2 a.m.
   tags:
     - billing
     - monetization
@@ -95,21 +109,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Chargebee is a SaaS billing platform, not a developer-facing AI tool, agent, framework, or infrastructure; its MCP server listing is incidental to its core identity as revenue operations software.
+  reason: >-
+    Chargebee is a SaaS billing platform, not a developer-facing AI tool, agent, framework, or infrastructure; its MCP
+    server listing is incidental to its core identity as revenue operations software.
   evidence:
-    - Scraped site context identifies Chargebee as a billing and monetization platform for 6,500+ businesses, with no claim to be an AI developer tool
-    - Source-list placement in awesome-mcp-servers is under 'Official Servers' but describes Chargebee’s billing features, not MCP-specific tooling
-    - README and site excerpt emphasize revenue stacks, payment gateways, invoicing, and financial operations — not coding agents, app generation, or agent orchestration
+    - >-
+      Scraped site context identifies Chargebee as a billing and monetization platform for 6,500+ businesses, with no
+      claim to be an AI developer tool
+    - >-
+      Source-list placement in awesome-mcp-servers is under 'Official Servers' but describes Chargebee’s billing
+      features, not MCP-specific tooling
+    - >-
+      README and site excerpt emphasize revenue stacks, payment gateways, invoicing, and financial operations — not
+      coding agents, app generation, or agent orchestration
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:39:42.535Z"
+    updated_at: '2026-09-28T04:39:42.535Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -122,18 +144,26 @@ processing:
       input_hash: sha256:06a8b8bdaa7be35980d9e31c66abb9bac6ed6734735db00f7b349b2e7998b040
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Chargebee is a SaaS billing platform, not a developer-facing AI tool, agent, framework, or infrastructure; its MCP server listing is incidental to its core identity as revenue operations software.
+      decision_reason: >-
+        Chargebee is a SaaS billing platform, not a developer-facing AI tool, agent, framework, or infrastructure; its
+        MCP server listing is incidental to its core identity as revenue operations software.
       decision_evidence:
-        - Scraped site context identifies Chargebee as a billing and monetization platform for 6,500+ businesses, with no claim to be an AI developer tool
-        - Source-list placement in awesome-mcp-servers is under 'Official Servers' but describes Chargebee’s billing features, not MCP-specific tooling
-        - README and site excerpt emphasize revenue stacks, payment gateways, invoicing, and financial operations — not coding agents, app generation, or agent orchestration
+        - >-
+          Scraped site context identifies Chargebee as a billing and monetization platform for 6,500+ businesses, with
+          no claim to be an AI developer tool
+        - >-
+          Source-list placement in awesome-mcp-servers is under 'Official Servers' but describes Chargebee’s billing
+          features, not MCP-specific tooling
+        - >-
+          README and site excerpt emphasize revenue stacks, payment gateways, invoicing, and financial operations — not
+          coding agents, app generation, or agent orchestration
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.686Z"
+    updated_at: '2026-07-20T15:10:47.686Z'
     cause: null
     next_retry_at: null
   stars:

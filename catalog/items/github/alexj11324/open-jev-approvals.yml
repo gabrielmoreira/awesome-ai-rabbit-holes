@@ -1,0 +1,111 @@
+id: github__alexj11324__open-jev-approvals
+kind: github-repo
+name: alexj11324/open-jev-approvals
+canonical_url: https://github.com/alexj11324/open-jev-approvals
+identity:
+  github_repo: alexj11324/open-jev-approvals
+provenance:
+  discoveries:
+    - id: discovery__github__alexj11324__open-jev-approvals__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: open-jev-approvals
+        extracted_url: https://github.com/alexj11324/open-jev-approvals
+        surrounding_text: >-
+          | [open-jev-approvals](https://github.com/alexj11324/open-jev-approvals) | ★ 3 | Go | 2026-09-21 | Approval
+          gate for Claude Code and Codex: intercepts tool calls, gets a Jev risk judgment, then applies a versioned
+          local allow/deny policy. |
+        confidence: high
+    - id: discovery__github__alexj11324__open-jev-approvals__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Security & Guardrails
+        anchor_text: '**open-jev-approvals**'
+        extracted_url: https://github.com/alexj11324/open-jev-approvals
+        surrounding_text: >-
+          - [**open-jev-approvals**](https://github.com/alexj11324/open-jev-approvals) — Binary approval gate for Codex
+          and Claude Code — every intercepted tool call is reviewed by TypeSafe JEV and composed through a versioned
+          local policy, with scoped authorization.
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: alexj11324/open-jev-approvals
+    html_url: https://github.com/alexj11324/open-jev-approvals
+    created_at: '2026-09-20T05:17:00Z'
+    pushed_at: '2026-09-20T09:52:39Z'
+    description: >-
+      Binary approval gate for Codex and Claude Code — every intercepted tool call is reviewed by TypeSafe JEV and
+      composed through a versioned local policy, with scoped authorization.
+    homepage: ''
+    topics:
+      - agent
+      - approval
+      - claude-code
+      - codex
+      - golang
+      - guardrails
+      - hooks
+      - jev
+      - llm-security
+      - permissions
+      - policy-engine
+      - typesafe
+    last_checked_at: '2026-09-29T13:08:48.699Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:48.699Z'
+      bytes: 4233
+insights:
+  summary: >-
+    Binary approval gate for Codex and Claude Code — every intercepted tool call is reviewed by TypeSafe JEV and
+    composed through a versioned local policy, with scoped authorization.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.91
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.409Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:48.699Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

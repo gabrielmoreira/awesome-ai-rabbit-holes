@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__scrapegraphai__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Community Servers
         anchor_text: ScrapeGraphAI
         extracted_url: https://scrapegraphai.com
-        surrounding_text: "- **[ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai)** - AI-powered web scraping library that creates scraping pipelines using natural language.- [ScrapeGraphAI](https://scrapegraphai.com)"
+        surrounding_text: >-
+          - **[ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai)** - AI-powered web scraping library that
+          creates scraping pipelines using natural language.- [ScrapeGraphAI](https://scrapegraphai.com)
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ScrapeGraphAI is a web scraping API that extracts structured data from websites using AI without requiring proxies, selectors, or maintenance.
-  why_it_matters: It simplifies data extraction for developers building AI applications by eliminating brittle scraping logic and proxy management overhead.
-  mental_damage: Another tool promising to make web scraping 'just work' — until the site changes its JavaScript obfuscation and you're back to debugging selectors at 2 a.m.
+  summary: >-
+    ScrapeGraphAI is a web scraping API that extracts structured data from websites using AI without requiring proxies,
+    selectors, or maintenance.
+  why_it_matters: >-
+    It simplifies data extraction for developers building AI applications by eliminating brittle scraping logic and
+    proxy management overhead.
+  mental_damage: >-
+    Another tool promising to make web scraping 'just work' — until the site changes its JavaScript obfuscation and
+    you're back to debugging selectors at 2 a.m.
   tags:
     - web-scraping
     - ai
@@ -47,23 +55,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: ScrapeGraphAI is included because it is explicitly listed in the awesome-mcp-servers list as an MCP server, and its core identity is providing web scraping capabilities via the Model Context Protocol, making MCP its primary product identity rather than a feature of a broader tool.
+  reason: >-
+    ScrapeGraphAI is included because it is explicitly listed in the awesome-mcp-servers list as an MCP server, and its
+    core identity is providing web scraping capabilities via the Model Context Protocol, making MCP its primary product
+    identity rather than a feature of a broader tool.
   evidence:
-    - "Listed in awesome-mcp-servers under Community Servers with the description: 'The web scraping API built for the AI era. Extract structured data from any website. No proxies, no selectors, no maintenance needed.'"
-    - Scraped site context confirms the product is 'ScrapeGraphAI' and describes it as 'The web scraping API built for the AI era. Extract structured data from any website. No proxies, no selectors, no maintenance needed.'
+    - >-
+      Listed in awesome-mcp-servers under Community Servers with the description: 'The web scraping API built for the AI
+      era. Extract structured data from any website. No proxies, no selectors, no maintenance needed.'
+    - >-
+      Scraped site context confirms the product is 'ScrapeGraphAI' and describes it as 'The web scraping API built for
+      the AI era. Extract structured data from any website. No proxies, no selectors, no maintenance needed.'
 placement:
   primary_category: mcp
   section: Dev & Code Tools
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -71,7 +88,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:36:51.932Z"
+    updated_at: '2026-09-28T04:36:51.932Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,13 +101,22 @@ processing:
       input_hash: sha256:49daf99dc13d56dbb5e53d4bde4e4892f0a29411b272ad5d839d2b3370916a36
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: ScrapeGraphAI is included because it is explicitly listed in the awesome-mcp-servers list as an MCP server, and its core identity is providing web scraping capabilities via the Model Context Protocol, making MCP its primary product identity rather than a feature of a broader tool.
+      decision_reason: >-
+        ScrapeGraphAI is included because it is explicitly listed in the awesome-mcp-servers list as an MCP server, and
+        its core identity is providing web scraping capabilities via the Model Context Protocol, making MCP its primary
+        product identity rather than a feature of a broader tool.
       decision_evidence:
-        - "Listed in awesome-mcp-servers under Community Servers with the description: 'The web scraping API built for the AI era. Extract structured data from any website. No proxies, no selectors, no maintenance needed.'"
-        - Scraped site context confirms the product is 'ScrapeGraphAI' and describes it as 'The web scraping API built for the AI era. Extract structured data from any website. No proxies, no selectors, no maintenance needed.'
+        - >-
+          Listed in awesome-mcp-servers under Community Servers with the description: 'The web scraping API built for
+          the AI era. Extract structured data from any website. No proxies, no selectors, no maintenance needed.'
+        - >-
+          Scraped site context confirms the product is 'ScrapeGraphAI' and describes it as 'The web scraping API built
+          for the AI era. Extract structured data from any website. No proxies, no selectors, no maintenance needed.'
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because ScrapeGraphAI's primary identity is as an MCP server exposing web scraping capabilities, not as an extension that augments another coding agent or editor.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because ScrapeGraphAI's primary identity is as an MCP server exposing web
+        scraping capabilities, not as an extension that augments another coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__determined-ai__determined__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,11 @@ provenance:
           - AutoML
         anchor_text: Determined
         extracted_url: https://github.com/determined-ai/determined
-        surrounding_text: "| [Determined](https://github.com/determined-ai/determined)                    | scalable deep learning training platform with integrated hyperparameter tuning support; includes Hyperband, PBT, and other search methods.                                      | ![GitHub Badge](https://img.shields.io/github/stars/determined-ai/determined.svg?style=flat-square)        |"
+        surrounding_text: >-
+          | [Determined](https://github.com/determined-ai/determined)                    | scalable deep learning
+          training platform with integrated hyperparameter tuning support; includes Hyperband, PBT, and other search
+          methods.                                      | ![GitHub
+          Badge](https://img.shields.io/github/stars/determined-ai/determined.svg?style=flat-square)        |
         confidence: high
 metadata:
   github:
@@ -29,9 +33,11 @@ metadata:
     archived: false
     full_name: determined-ai/determined
     html_url: https://github.com/determined-ai/determined
-    created_at: "2020-04-07T16:12:29Z"
-    pushed_at: "2025-03-20T19:09:46Z"
-    description: Determined is an open-source machine learning platform that simplifies distributed training, hyperparameter tuning, experiment tracking, and resource management. Works with PyTorch and TensorFlow.
+    created_at: '2020-04-07T16:12:29Z'
+    pushed_at: '2025-03-20T19:09:46Z'
+    description: >-
+      Determined is an open-source machine learning platform that simplifies distributed training, hyperparameter
+      tuning, experiment tracking, and resource management. Works with PyTorch and TensorFlow.
     homepage: https://determined.ai
     topics:
       - data-science
@@ -48,14 +54,20 @@ metadata:
       - mlops
       - pytorch
       - tensorflow
-    last_checked_at: "2026-09-14T04:13:39.589Z"
+    last_checked_at: '2026-09-14T04:13:39.589Z'
     readme:
-      fetched_at: "2026-09-14T04:13:39.589Z"
+      fetched_at: '2026-09-14T04:13:39.589Z'
       bytes: 4749
 insights:
-  summary: Determined is an open-source machine learning platform for distributed training, hyperparameter tuning, experiment tracking, and resource management with PyTorch and TensorFlow support.
-  why_it_matters: It streamlines ML workflows by automating distributed training, hyperparameter optimization, and experiment tracking, reducing cloud costs and improving reproducibility for developers working with deep learning models.
-  mental_damage: Finally, a way to spend less time babysitting GPU clusters and more time pretending your hyperparameter search was intentional all along.
+  summary: >-
+    Determined is an open-source machine learning platform for distributed training, hyperparameter tuning, experiment
+    tracking, and resource management with PyTorch and TensorFlow support.
+  why_it_matters: >-
+    It streamlines ML workflows by automating distributed training, hyperparameter optimization, and experiment
+    tracking, reducing cloud costs and improving reproducibility for developers working with deep learning models.
+  mental_damage: >-
+    Finally, a way to spend less time babysitting GPU clusters and more time pretending your hyperparameter search was
+    intentional all along.
   tags:
     - ml-platform
     - distributed-training
@@ -65,31 +77,37 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a general ML platform for distributed training and hyperparameter tuning, not a developer-tooling product focused on coding agents, IDEs, or AI workflows for software development.
+  reason: >-
+    This is a general ML platform for distributed training and hyperparameter tuning, not a developer-tooling product
+    focused on coding agents, IDEs, or AI workflows for software development.
   evidence:
-    - Repo description explicitly positions it as a machine learning platform for distributed training and hyperparameter tuning
-    - README emphasizes PyTorch/TensorFlow compatibility and ML-specific features like experiment tracking and resource management
+    - >-
+      Repo description explicitly positions it as a machine learning platform for distributed training and
+      hyperparameter tuning
+    - >-
+      README emphasizes PyTorch/TensorFlow compatibility and ML-specific features like experiment tracking and resource
+      management
     - Source-list context places it in AutoML, not developer-tooling categories
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (3225) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:39.589Z"
+    updated_at: '2026-09-14T04:13:39.589Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -104,10 +122,16 @@ processing:
       input_hash: sha256:a3239fd9b8486be709f5c73db117153d19dbdb55bcc516190b6036fb00f7f378
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a general ML platform for distributed training and hyperparameter tuning, not a developer-tooling product focused on coding agents, IDEs, or AI workflows for software development.
+      decision_reason: >-
+        This is a general ML platform for distributed training and hyperparameter tuning, not a developer-tooling
+        product focused on coding agents, IDEs, or AI workflows for software development.
       decision_evidence:
-        - Repo description explicitly positions it as a machine learning platform for distributed training and hyperparameter tuning
-        - README emphasizes PyTorch/TensorFlow compatibility and ML-specific features like experiment tracking and resource management
+        - >-
+          Repo description explicitly positions it as a machine learning platform for distributed training and
+          hyperparameter tuning
+        - >-
+          README emphasizes PyTorch/TensorFlow compatibility and ML-specific features like experiment tracking and
+          resource management
         - Source-list context places it in AutoML, not developer-tooling categories
       category_candidates: []
       contrastive_reason: null

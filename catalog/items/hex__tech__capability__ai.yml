@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hex__tech__capability__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Hex Magic
         anchor_text: Hex Magic
         extracted_url: https://hex.tech/product/magic-ai
-        surrounding_text: "## [Hex Magic](https://hex.tech/product/magic-ai/)"
+        surrounding_text: '## [Hex Magic](https://hex.tech/product/magic-ai/)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered analytics platform that uses agents to perform data exploration and build generative data applications and dashboards.
-  why_it_matters: It allows developers and data teams to rapidly transform natural language queries into interactive, deployable data apps and automated analyses.
-  mental_damage: Building a production-ready dashboard in one prompt, only to spend the afternoon debugging the agent's hallucinated SQL joins.
+  summary: >-
+    An AI-powered analytics platform that uses agents to perform data exploration and build generative data applications
+    and dashboards.
+  why_it_matters: >-
+    It allows developers and data teams to rapidly transform natural language queries into interactive, deployable data
+    apps and automated analyses.
+  mental_damage: >-
+    Building a production-ready dashboard in one prompt, only to spend the afternoon debugging the agent's hallucinated
+    SQL joins.
   tags:
     - analytics
     - data-apps
@@ -48,7 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Hex is primarily an analytics platform that uses a prompt-to-app loop to generate interactive dashboards and data applications.
+  reason: >-
+    Hex is primarily an analytics platform that uses a prompt-to-app loop to generate interactive dashboards and data
+    applications.
   evidence:
     - Explicitly features 'Generative data apps' that can be built with just a prompt
     - Focuses on turning conversational analytics into deployable, shareable data apps
@@ -57,12 +65,12 @@ placement:
   primary_category: app-builders
   section: Internal Tools & Dashboards
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:21:49.431Z"
+    updated_at: '2026-09-28T04:21:49.431Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +92,9 @@ processing:
       input_hash: sha256:6ca43cd5f03cbd3a59d7060b9cef6ab3fd3fd8a4d24aec24e354d9dfc994c103
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: Hex is primarily an analytics platform that uses a prompt-to-app loop to generate interactive dashboards and data applications.
+      decision_reason: >-
+        Hex is primarily an analytics platform that uses a prompt-to-app loop to generate interactive dashboards and
+        data applications.
       decision_evidence:
         - Explicitly features 'Generative data apps' that can be built with just a prompt
         - Focuses on turning conversational analytics into deployable, shareable data apps
@@ -92,6 +102,8 @@ processing:
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the primary value proposition is the generation of deployable data apps and dashboards rather than the autonomous editing of an existing software codebase.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because the primary value proposition is the generation of deployable
+        data apps and dashboards rather than the autonomous editing of an existing software codebase.
       review_reason: null
       review_resume_lifecycle: null

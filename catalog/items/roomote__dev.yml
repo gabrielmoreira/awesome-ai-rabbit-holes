@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__roomote__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-18T05:26:15.344Z"
+      discovered_at: '2026-05-18T05:26:15.344Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Roo Code
         extracted_url: https://roocode.com
-        surrounding_text: "- **[Roo Code](https://roocode.com/)** – Popular open-source VS Code extension (fork of Cline) with multi-model support and autonomous coding modes."
+        surrounding_text: >-
+          - **[Roo Code](https://roocode.com/)** – Popular open-source VS Code extension (fork of Cline) with
+          multi-model support and autonomous coding modes.
         confidence: high
 metadata:
   github:
@@ -36,8 +38,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An operational engineering agent that automates interrupt-driven work like bug reports, support escalations, and repo questions.
-  why_it_matters: It offloads the 'interrupt queue' from senior engineers, allowing them to stay focused on roadmap development instead of firefighting.
+  summary: >-
+    An operational engineering agent that automates interrupt-driven work like bug reports, support escalations, and
+    repo questions.
+  why_it_matters: >-
+    It offloads the 'interrupt queue' from senior engineers, allowing them to stay focused on roadmap development
+    instead of firefighting.
   mental_damage: You'll finally stop being interrupted by Slack, only to spend your entire day reviewing PRs from a Slack bot.
   tags:
     - coding-agent
@@ -47,21 +53,25 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a standalone agent that autonomously handles specific engineering tasks like bug fixing and QA regressions by providing verified PRs.
+  reason: >-
+    It is a standalone agent that autonomously handles specific engineering tasks like bug fixing and QA regressions by
+    providing verified PRs.
   evidence:
     - Claims to handle bugs, escalations, chores, and repo questions autonomously.
-    - Explicitly differentiates itself from IDE-based tools like Cursor by owning the interrupt queue rather than being an editor extension.
+    - >-
+      Explicitly differentiates itself from IDE-based tools like Cursor by owning the interrupt queue rather than being
+      an editor extension.
     - Provides a complete loop of investigation, code execution, and verified PR delivery.
 placement:
   primary_category: coding-agents
   section: Review, Testing & Repair
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-18T05:26:15.345Z"
+    updated_at: '2026-05-18T05:26:15.345Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:20:37.834Z"
+    updated_at: '2026-09-21T04:20:37.834Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,14 +93,20 @@ processing:
       input_hash: sha256:43272a8aef202315a96ad768e761c1d1d76a27b9b4d1687ca7fa936abd291ddf
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a standalone agent that autonomously handles specific engineering tasks like bug fixing and QA regressions by providing verified PRs.
+      decision_reason: >-
+        It is a standalone agent that autonomously handles specific engineering tasks like bug fixing and QA regressions
+        by providing verified PRs.
       decision_evidence:
         - Claims to handle bugs, escalations, chores, and repo questions autonomously.
-        - Explicitly differentiates itself from IDE-based tools like Cursor by owning the interrupt queue rather than being an editor extension.
+        - >-
+          Explicitly differentiates itself from IDE-based tools like Cursor by owning the interrupt queue rather than
+          being an editor extension.
         - Provides a complete loop of investigation, code execution, and verified PR delivery.
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because its primary identity is performing the engineering work itself rather than just acting as a control plane for a fleet of other agents.
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because its primary identity is performing the engineering work
+        itself rather than just acting as a control plane for a fleet of other agents.
       review_reason: null
       review_resume_lifecycle: null

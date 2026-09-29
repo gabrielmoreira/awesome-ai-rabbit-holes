@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__fireworks__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,9 @@ provenance:
           - Inference UI
         anchor_text: FireworksAI
         extracted_url: https://app.fireworks.ai
-        surrounding_text: "- [FireworksAI](https://app.fireworks.ai/) - Experience the world's fastest LLM inference platform deploy your own at no additional cost."
+        surrounding_text: >-
+          - [FireworksAI](https://app.fireworks.ai/) - Experience the world's fastest LLM inference platform deploy your
+          own at no additional cost.
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Fireworks.ai provides fast inference for generative AI models, including open-source LLMs and image models, with optional fine-tuning and deployment capabilities.
-  why_it_matters: It enables developers to run high-speed, cost-effective AI inference locally or via API, reducing latency and operational overhead for AI-powered applications.
-  mental_damage: The promise of 'blazing fast' inference feels like shouting into a void when your actual bottleneck is just waiting for the API to respond.
+  summary: >-
+    Fireworks.ai provides fast inference for generative AI models, including open-source LLMs and image models, with
+    optional fine-tuning and deployment capabilities.
+  why_it_matters: >-
+    It enables developers to run high-speed, cost-effective AI inference locally or via API, reducing latency and
+    operational overhead for AI-powered applications.
+  mental_damage: >-
+    The promise of 'blazing fast' inference feels like shouting into a void when your actual bottleneck is just waiting
+    for the API to respond.
   tags:
     - inference
     - llm
@@ -46,20 +54,26 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Fireworks.ai is a self-hosted inference service that delivers low-latency AI model execution, fitting squarely within the local-ai category's focus on private, on-premise model execution.
+  reason: >-
+    Fireworks.ai is a self-hosted inference service that delivers low-latency AI model execution, fitting squarely
+    within the local-ai category's focus on private, on-premise model execution.
   evidence:
-    - The scraped site context explicitly states Fireworks.ai offers 'blazing fast speed' for running and deploying generative AI models.
-    - The description emphasizes open-source model support and self-deployment without additional cost, aligning with local-ai's core identity of self-hosted execution.
+    - >-
+      The scraped site context explicitly states Fireworks.ai offers 'blazing fast speed' for running and deploying
+      generative AI models.
+    - >-
+      The description emphasizes open-source model support and self-deployment without additional cost, aligning with
+      local-ai's core identity of self-hosted execution.
 placement:
   primary_category: local-ai
   section: Inference Engines
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:39:44.108Z"
+    updated_at: '2026-09-24T04:39:44.108Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +95,21 @@ processing:
       input_hash: sha256:7ea598612ad76120bbedb6955dca8bf6e6b85c16ea30929c4f134957d5a0ddc4
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: Fireworks.ai is a self-hosted inference service that delivers low-latency AI model execution, fitting squarely within the local-ai category's focus on private, on-premise model execution.
+      decision_reason: >-
+        Fireworks.ai is a self-hosted inference service that delivers low-latency AI model execution, fitting squarely
+        within the local-ai category's focus on private, on-premise model execution.
       decision_evidence:
-        - The scraped site context explicitly states Fireworks.ai offers 'blazing fast speed' for running and deploying generative AI models.
-        - The description emphasizes open-source model support and self-deployment without additional cost, aligning with local-ai's core identity of self-hosted execution.
+        - >-
+          The scraped site context explicitly states Fireworks.ai offers 'blazing fast speed' for running and deploying
+          generative AI models.
+        - >-
+          The description emphasizes open-source model support and self-deployment without additional cost, aligning
+          with local-ai's core identity of self-hosted execution.
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because Fireworks.ai is a runtime service for executing models rather than a developer-programmed library or SDK.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because Fireworks.ai is a runtime service for executing models rather than a
+        developer-programmed library or SDK.
       review_reason: null
       review_resume_lifecycle: null

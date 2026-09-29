@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__apimatic__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,13 @@ provenance:
           - Official Servers
         anchor_text: APIMatic
         extracted_url: https://apimatic.io
-        surrounding_text: "- **[APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)** - APIMatic MCP Server is used to validate OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files and returns validation summaries by leveraging APIMatic’s API."
+        surrounding_text: >-
+          - **[APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)** - APIMatic MCP Server is used to
+          validate OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files
+          and returns validation summaries by leveraging APIMatic’s API.
         confidence: high
     - id: discovery__www__apimatic__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +36,10 @@ provenance:
           - Official Servers
         anchor_text: APIMatic
         extracted_url: https://www.apimatic.io
-        surrounding_text: "- **[APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)** - APIMatic MCP Server is used to validate OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files and returns validation summaries by leveraging APIMatic’s API."
+        surrounding_text: >-
+          - **[APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)** - APIMatic MCP Server is used to
+          validate OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files
+          and returns validation summaries by leveraging APIMatic’s API.
         confidence: high
 metadata:
   github:
@@ -61,7 +67,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: APIMatic is an API development and management platform, not a practical AI tool, agent, workflow, or infrastructure relevant to AI-assisted software development.
+  reason: >-
+    APIMatic is an API development and management platform, not a practical AI tool, agent, workflow, or infrastructure
+    relevant to AI-assisted software development.
   evidence:
     - The product is an API development and management platform, not AI-focused
     - No evidence of AI-specific functionality or developer-tooling angle in the provided context
@@ -69,15 +77,17 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: deferred
-    updated_at: "2026-09-28T04:38:48.510Z"
+    updated_at: '2026-09-28T04:38:48.510Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for apimatic__io: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": APIMatic's\"... is not valid JSON"
+      message: >-
+        Catalog LLM categorization failed for apimatic__io: Invalid AI response format: SyntaxError: Unexpected token
+        'A', ..."_reason": APIMatic's"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -89,7 +99,9 @@ processing:
       input_hash: sha256:6c9361ab041948f5e826da2e54e4bdc77ac56cc235fef4e6ceaf5f7231e9d941
       proposed_primary_category: null
       disagreement: false
-      decision_reason: APIMatic is an API development and management platform, not a practical AI tool, agent, workflow, or infrastructure relevant to AI-assisted software development.
+      decision_reason: >-
+        APIMatic is an API development and management platform, not a practical AI tool, agent, workflow, or
+        infrastructure relevant to AI-assisted software development.
       decision_evidence:
         - The product is an API development and management platform, not AI-focused
         - No evidence of AI-specific functionality or developer-tooling angle in the provided context
@@ -99,7 +111,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.364Z"
+    updated_at: '2026-07-20T16:42:15.364Z'
     cause: null
     next_retry_at: null
   stars:

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aitv__gg__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - evo.ninja
         anchor_text: evo.ninja
         extracted_url: https://evo.ninja
-        surrounding_text: "## [evo.ninja](https://evo.ninja/)"
+        surrounding_text: '## [evo.ninja](https://evo.ninja/)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: A platform for creating and monetizing autonomous AI streamers for live streaming platforms.
-  why_it_matters: It explores the intersection of AI agency and the creator economy through autonomous, interactive digital personalities.
-  mental_damage: Because why stop at coding agents when you can deploy an infinite army of unblinking digital influencers to farm engagement tokens?
+  why_it_matters: >-
+    It explores the intersection of AI agency and the creator economy through autonomous, interactive digital
+    personalities.
+  mental_damage: >-
+    Because why stop at coding agents when you can deploy an infinite army of unblinking digital influencers to farm
+    engagement tokens?
   tags:
     - ai-agents
     - creator-economy
@@ -47,7 +51,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is an end-user consumer/creator platform for AI personalities rather than a developer-facing tool, framework, or infrastructure.
+  reason: >-
+    The project is an end-user consumer/creator platform for AI personalities rather than a developer-facing tool,
+    framework, or infrastructure.
   evidence:
     - Focuses on 'launching AI streamers' and 'onetizing every moment'
     - Targeted at creators, brands, and communities for entertainment
@@ -56,12 +62,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,10 +76,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:33:49.978Z"
+    updated_at: '2026-09-24T04:33:49.978Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for aitv__gg: Invalid AI response structure: Invalid confidence value: undefined"
+      message: >-
+        Catalog LLM categorization failed for aitv__gg: Invalid AI response structure: Invalid confidence value:
+        undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -85,7 +93,9 @@ processing:
       input_hash: sha256:3e562c4069461e04c97390990e571bde428eea94e6a145ef67a82100d34bd581
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is an end-user consumer/creator platform for AI personalities rather than a developer-facing tool, framework, or infrastructure.
+      decision_reason: >-
+        The project is an end-user consumer/creator platform for AI personalities rather than a developer-facing tool,
+        framework, or infrastructure.
       decision_evidence:
         - Focuses on 'launching AI streamers' and 'onetizing every moment'
         - Targeted at creators, brands, and communities for entertainment

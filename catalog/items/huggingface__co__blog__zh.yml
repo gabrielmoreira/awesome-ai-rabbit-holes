@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__blog__zh__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -38,7 +38,9 @@ metadata:
 insights:
   summary: The Chinese-language blog for the Hugging Face AI platform.
   why_it_matters: It provides localized technical deep-dives, tutorials, and news regarding the open-source AI ecosystem.
-  mental_damage: It provides a convenient, localized stream of news to ensure you are always aware of exactly which model just made your current stack obsolete.
+  mental_damage: >-
+    It provides a convenient, localized stream of news to ensure you are always aware of exactly which model just made
+    your current stack obsolete.
   tags:
     - huggingface
     - blog
@@ -47,7 +49,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The blog is a resource section of the larger Hugging Face platform rather than an independent tool or standalone publication.
+  reason: >-
+    The blog is a resource section of the larger Hugging Face platform rather than an independent tool or standalone
+    publication.
   evidence:
     - The URL is a sub-directory of the Hugging Face platform
     - The content serves as documentation and news for the existing Hugging Face ecosystem
@@ -55,12 +59,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:23:07.638Z"
+    updated_at: '2026-09-28T04:23:07.638Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,7 +86,9 @@ processing:
       input_hash: sha256:9a9d2ef4bfcc2a3e05c75724fa00ec1201a50f5da4af5362a91318f75c976e60
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The blog is a resource section of the larger Hugging Face platform rather than an independent tool or standalone publication.
+      decision_reason: >-
+        The blog is a resource section of the larger Hugging Face platform rather than an independent tool or standalone
+        publication.
       decision_evidence:
         - The URL is a sub-directory of the Hugging Face platform
         - The content serves as documentation and news for the existing Hugging Face ecosystem

@@ -1,0 +1,80 @@
+id: github__tencent__browserskill
+kind: github-repo
+name: tencent/browserskill
+canonical_url: https://github.com/tencent/browserskill
+identity:
+  github_repo: tencent/browserskill
+provenance:
+  discoveries:
+    - id: discovery__github__tencent__browserskill__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: BrowserSkill
+        extracted_url: https://github.com/tencent/browserskill
+        surrounding_text: >-
+          - **[BrowserSkill](https://github.com/Tencent/BrowserSkill)** `⭐ 7.7k` `[Tencent]` — Rust `bsk` CLI and local
+          daemon plus a Chrome/Edge extension that lets any shell-capable agent (Claude Code, Codex, Cursor, OpenClaw,
+          Pi, Hermes) drive your already-logged-in browser. Tasks run in a separate Agent Window so your own tabs are
+          untouched; the agent must borrow a tab explicitly and hand back for captcha, login, and confirmation steps.
+          MIT.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    BrowserSkill ⭐ 7.7k [Tencent] — Rust bsk CLI and local daemon plus a Chrome/Edge extension that lets any
+    shell-capable agent (Claude Code, Codex, Cursor, OpenClaw, Pi, Hermes) drive your already-logged-in browser. Tasks
+    run in a separate Agent Window so your own tabs are untouched; the agent must borrow a tab explicitly and hand back
+    for captcha, login, and confirmation steps. MIT.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Browser & Computer-Use Agents
+  evidence:
+    - jev-latest choice confidence 0.60
+placement:
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Browser & Computer-Use Agents
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.480Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

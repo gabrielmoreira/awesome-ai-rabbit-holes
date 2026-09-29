@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__retool__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Database and API Tools
         anchor_text: Retool AI
         extracted_url: https://retool.com/ai
-        surrounding_text: "- **[Retool AI](https://retool.com/ai)** – AI-powered internal tool builder with natural language interface."
+        surrounding_text: '- **[Retool AI](https://retool.com/ai)** – AI-powered internal tool builder with natural language interface.'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Retool AI is a low-code platform for building and deploying production-ready AI apps, workflows, and agents using existing business data and enterprise security.
-  why_it_matters: It lets developers and technical teams create AI-powered internal tools without writing full-stack code, accelerating delivery of data-driven applications.
-  mental_damage: Another 'AI app builder' promising to eliminate DevOps — until you realize you're just trading YAML for drag-and-drop and still need to understand your data schema.
+  summary: >-
+    Retool AI is a low-code platform for building and deploying production-ready AI apps, workflows, and agents using
+    existing business data and enterprise security.
+  why_it_matters: >-
+    It lets developers and technical teams create AI-powered internal tools without writing full-stack code,
+    accelerating delivery of data-driven applications.
+  mental_damage: >-
+    Another 'AI app builder' promising to eliminate DevOps — until you realize you're just trading YAML for
+    drag-and-drop and still need to understand your data schema.
   tags:
     - low-code
     - ai-app-builder
@@ -47,22 +53,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Retool AI primarily turns prompts into deployable internal tools, dashboards, and agents using live business data, fitting the app-builder pattern rather than acting as a coding agent or extension.
+  reason: >-
+    Retool AI primarily turns prompts into deployable internal tools, dashboards, and agents using live business data,
+    fitting the app-builder pattern rather than acting as a coding agent or extension.
   evidence:
-    - "From source-list context: 'With Retool AI, build bespoke AI-powered tools for your business' listed under Database and API Tools in awesome-ai-coding-tools"
-    - "From README: 'Build AI apps. Ship them to production. Secure by default.' and 'Production-ready agents for every process'"
-    - "From README: 'One-click RAG' and 'Deploy production-ready AI agents' that automate reasoning over live data sources"
+    - >-
+      From source-list context: 'With Retool AI, build bespoke AI-powered tools for your business' listed under Database
+      and API Tools in awesome-ai-coding-tools
+    - >-
+      From README: 'Build AI apps. Ship them to production. Secure by default.' and 'Production-ready agents for every
+      process'
+    - >-
+      From README: 'One-click RAG' and 'Deploy production-ready AI agents' that automate reasoning over live data
+      sources
 placement:
   primary_category: app-builders
   secondary_categories: []
   section: Internal Tools & Dashboards
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +85,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:36:17.571Z"
+    updated_at: '2026-09-28T04:36:17.571Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +98,24 @@ processing:
       input_hash: sha256:1458bf0212f54e3615c8d68e07f0c0e6b5e3f00829c0816efd3c64fa6ba0fcfb
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: Retool AI primarily turns prompts into deployable internal tools, dashboards, and agents using live business data, fitting the app-builder pattern rather than acting as a coding agent or extension.
+      decision_reason: >-
+        Retool AI primarily turns prompts into deployable internal tools, dashboards, and agents using live business
+        data, fitting the app-builder pattern rather than acting as a coding agent or extension.
       decision_evidence:
-        - "From source-list context: 'With Retool AI, build bespoke AI-powered tools for your business' listed under Database and API Tools in awesome-ai-coding-tools"
-        - "From README: 'Build AI apps. Ship them to production. Secure by default.' and 'Production-ready agents for every process'"
-        - "From README: 'One-click RAG' and 'Deploy production-ready AI agents' that automate reasoning over live data sources"
+        - >-
+          From source-list context: 'With Retool AI, build bespoke AI-powered tools for your business' listed under
+          Database and API Tools in awesome-ai-coding-tools
+        - >-
+          From README: 'Build AI apps. Ship them to production. Secure by default.' and 'Production-ready agents for
+          every process'
+        - >-
+          From README: 'One-click RAG' and 'Deploy production-ready AI agents' that automate reasoning over live data
+          sources
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because Retool AI’s core function is generating new apps and workflows from prompts, not editing or acting on an existing codebase as a developer’s primary coding surface.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because Retool AI’s core function is generating new apps and workflows
+        from prompts, not editing or acting on an existing codebase as a developer’s primary coding surface.
       review_reason: null
       review_resume_lifecycle: null

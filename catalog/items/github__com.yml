@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: GitHub
         extracted_url: https://www.github.com
-        surrounding_text: "- [idosal/git-mcp](https://github.com/idosal/git-mcp) 📇 ☁️ - [gitmcp.io](https://gitmcp.io/) is a generic remote MCP server to connect to ANY [GitHub](https://www.github.com) repository or project for documentation"
+        surrounding_text: >-
+          - [idosal/git-mcp](https://github.com/idosal/git-mcp) 📇 ☁️ - [gitmcp.io](https://gitmcp.io/) is a generic
+          remote MCP server to connect to ANY [GitHub](https://www.github.com) repository or project for documentation
         confidence: high
 metadata:
   github:
@@ -47,23 +49,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: GitHub is a massive, foundational developer platform that hosts various AI tools rather than being a specific AI tool or agent itself.
+  reason: >-
+    GitHub is a massive, foundational developer platform that hosts various AI tools rather than being a specific AI
+    tool or agent itself.
   evidence:
-    - Scraped context identifies GitHub as a 'developer platform' containing diverse features like Actions, Codespaces, and Copilot.
+    - >-
+      Scraped context identifies GitHub as a 'developer platform' containing diverse features like Actions, Codespaces,
+      and Copilot.
     - The product identity is a broad host environment rather than a specialized AI-driven utility or agent.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -71,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:16:02.058Z"
+    updated_at: '2026-09-28T04:16:02.058Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,9 +92,13 @@ processing:
       input_hash: sha256:3e5b796bea4e998317609b11d6847d0dd8b62ee6987b292f516740bdadf4fceb
       proposed_primary_category: null
       disagreement: false
-      decision_reason: GitHub is a massive, foundational developer platform that hosts various AI tools rather than being a specific AI tool or agent itself.
+      decision_reason: >-
+        GitHub is a massive, foundational developer platform that hosts various AI tools rather than being a specific AI
+        tool or agent itself.
       decision_evidence:
-        - Scraped context identifies GitHub as a 'developer platform' containing diverse features like Actions, Codespaces, and Copilot.
+        - >-
+          Scraped context identifies GitHub as a 'developer platform' containing diverse features like Actions,
+          Codespaces, and Copilot.
         - The product identity is a broad host environment rather than a specialized AI-driven utility or agent.
       category_candidates: []
       contrastive_reason: null

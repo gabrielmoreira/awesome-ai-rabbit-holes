@@ -1,0 +1,111 @@
+id: github__agencyenterprise__jev-recipes
+kind: github-repo
+name: agencyenterprise/jev-recipes
+canonical_url: https://github.com/agencyenterprise/jev-recipes
+identity:
+  github_repo: agencyenterprise/jev-recipes
+provenance:
+  discoveries:
+    - id: discovery__github__agencyenterprise__jev-recipes__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: jev-recipes
+        extracted_url: https://github.com/agencyenterprise/jev-recipes
+        surrounding_text: >-
+          - [jev-recipes](https://github.com/agencyenterprise/jev-recipes) - 80+ composable TypeScript recipes powered
+          by Jev for AI agents, retrieval, answer verification, and conversation workflows.
+        confidence: high
+    - id: discovery__github__agencyenterprise__jev-recipes__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jev-recipes
+        extracted_url: https://github.com/agencyenterprise/jev-recipes
+        surrounding_text: >-
+          - [jev-recipes](https://github.com/agencyenterprise/jev-recipes) - 66 composable TypeScript recipes for
+          TypeSafe Jev decisions (rerank, verify, clarify, route, and more) via the official SDK. [Project
+          guide](community/projects/tools/jev-recipes.md).
+        confidence: high
+metadata:
+  github:
+    stars: 12
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: agencyenterprise/jev-recipes
+    html_url: https://github.com/agencyenterprise/jev-recipes
+    created_at: '2026-09-22T05:36:49Z'
+    pushed_at: '2026-09-29T04:36:43Z'
+    description: >-
+      200+ plug-and-play Jev recipes: small, calibrated AI decisions that route, grade, gate, compare, and label text
+      for agents, RAG, support, code review, and music. Import from JavaScript or TypeScript, or call the CLI with JSON
+      from any language.
+    homepage: https://jev-recipes.com
+    topics:
+      - jev
+      - jev-ai
+      - jev-api
+      - jev-model
+      - system-one-model
+      - system-one-models
+      - typesafe
+      - typesafe-ai
+      - typesafe-api
+      - typesafe-jev
+      - typesafe-sdk
+    last_checked_at: '2026-09-29T13:08:31.435Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:31.435Z'
+      bytes: 20972
+insights:
+  summary: >-
+    200+ plug-and-play Jev recipes: small, calibrated AI decisions that route, grade, gate, compare, and label text for
+    agents, RAG, support, code review, and music. Import from JavaScript or TypeScript, or call the CLI with JSON from
+    any language.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.62
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.408Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:31.435Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

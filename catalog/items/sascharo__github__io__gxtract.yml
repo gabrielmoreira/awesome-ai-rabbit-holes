@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__sascharo__github__io__gxtract__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,12 @@ provenance:
           - Community Servers
         anchor_text: sascharo.github.io/gxtract
         extracted_url: https://sascharo.github.io/gxtract
-        surrounding_text: "- **[GXtract](https://github.com/sascharo/gxtract)** - GXtract is a MCP server designed to integrate with VS Code and other compatible editors (documentation: [sascharo.github.io/gxtract](https://sascharo.github.io/gxtract)). It provides a suite of tools for interacting with the GroundX platform, enabling you to leverage its powerful document understanding capabilities directly within your development environment."
+        surrounding_text: >-
+          - **[GXtract](https://github.com/sascharo/gxtract)** - GXtract is a MCP server designed to integrate with VS
+          Code and other compatible editors (documentation:
+          [sascharo.github.io/gxtract](https://sascharo.github.io/gxtract)). It provides a suite of tools for
+          interacting with the GroundX platform, enabling you to leverage its powerful document understanding
+          capabilities directly within your development environment.
         confidence: high
 metadata:
   github:
@@ -36,9 +41,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GXtract is an MCP server that extracts architectural and implementation details from documents using GroundX integration.
-  why_it_matters: It lets developers pull structured knowledge from research papers into AI workflows via a standardized MCP interface.
-  mental_damage: Yet another MCP server promising to be the missing context layer—because we clearly needed more ways to pipe PDFs into our agents.
+  summary: >-
+    GXtract is an MCP server that extracts architectural and implementation details from documents using GroundX
+    integration.
+  why_it_matters: >-
+    It lets developers pull structured knowledge from research papers into AI workflows via a standardized MCP
+    interface.
+  mental_damage: >-
+    Yet another MCP server promising to be the missing context layer—because we clearly needed more ways to pipe PDFs
+    into our agents.
   tags:
     - mcp
     - document-processing
@@ -46,21 +57,25 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: GXtract's primary identity is an MCP server with GroundX tool integration, making MCP its core purpose rather than a side feature.
+  reason: >-
+    GXtract's primary identity is an MCP server with GroundX tool integration, making MCP its core purpose rather than a
+    side feature.
   evidence:
-    - Self-described as 'a powerful and flexible Model Context Protocol (MCP) server with seamless GroundX tool integration'
+    - >-
+      Self-described as 'a powerful and flexible Model Context Protocol (MCP) server with seamless GroundX tool
+      integration'
     - Listed in awesome-mcp-servers under Community Servers as an MCP server
     - Built with FastMCP v2 and asyncio, emphasizing MCP infrastructure
 placement:
   primary_category: mcp
   section: Dev & Code Tools
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:36:28.135Z"
+    updated_at: '2026-09-28T04:36:28.135Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,14 +97,20 @@ processing:
       input_hash: sha256:57fdef0e2c0b82b63bd544da08bfbc30fff1fbf4b3214bd260fe0f84eb92e0aa
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: GXtract's primary identity is an MCP server with GroundX tool integration, making MCP its core purpose rather than a side feature.
+      decision_reason: >-
+        GXtract's primary identity is an MCP server with GroundX tool integration, making MCP its core purpose rather
+        than a side feature.
       decision_evidence:
-        - Self-described as 'a powerful and flexible Model Context Protocol (MCP) server with seamless GroundX tool integration'
+        - >-
+          Self-described as 'a powerful and flexible Model Context Protocol (MCP) server with seamless GroundX tool
+          integration'
         - Listed in awesome-mcp-servers under Community Servers as an MCP server
         - Built with FastMCP v2 and asyncio, emphasizing MCP infrastructure
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because GXtract is an MCP server exposing tools over the protocol, not an add-on that extends a host agent.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because GXtract is an MCP server exposing tools over the protocol, not an
+        add-on that extends a host agent.
       review_reason: null
       review_resume_lifecycle: null

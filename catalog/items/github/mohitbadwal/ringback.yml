@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mohitbadwal__ringback__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: mohitbadwal/ringback
         extracted_url: https://github.com/mohitbadwal/ringback
-        surrounding_text: "- [mohitbadwal/ringback](https://github.com/mohitbadwal/ringback) [![mohitbadwal/ringback MCP server](https://glama.ai/mcp/servers/mohitbadwal/ringback/badges/score.svg)](https://glama.ai/mcp/servers/mohitbadwal/ringback) 🐍 🏠 🍎 - Lets the LLM reach you on your phone: live, interruptible voice calls and tiered alerts, using free self-hosted pieces (SIP via pjsua2/Linphone + whisper.cpp STT + macOS say TTS). No paid telephony, no extra API key for the conversation."
+        surrounding_text: >-
+          - [mohitbadwal/ringback](https://github.com/mohitbadwal/ringback) [![mohitbadwal/ringback MCP
+          server](https://glama.ai/mcp/servers/mohitbadwal/ringback/badges/score.svg)](https://glama.ai/mcp/servers/mohitbadwal/ringback)
+          🐍 🏠 🍎 - Lets the LLM reach you on your phone: live, interruptible voice calls and tiered alerts, using free
+          self-hosted pieces (SIP via pjsua2/Linphone + whisper.cpp STT + macOS say TTS). No paid telephony, no extra
+          API key for the conversation.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: mohitbadwal/ringback
     html_url: https://github.com/mohitbadwal/ringback
-    created_at: "2026-05-29T08:30:22Z"
-    pushed_at: "2026-06-23T11:31:38Z"
-    description: Let your AI agent call your phone and talk to you — MCP servers for live, interruptible voice calls + tiered alerts, using free self-hosted pieces (pjsua2 + whisper.cpp + Linphone). No paid telephony, no extra API key.
+    created_at: '2026-05-29T08:30:22Z'
+    pushed_at: '2026-06-23T11:31:38Z'
+    description: >-
+      Let your AI agent call your phone and talk to you — MCP servers for live, interruptible voice calls + tiered
+      alerts, using free self-hosted pieces (pjsua2 + whisper.cpp + Linphone). No paid telephony, no extra API key.
     homepage: null
     topics:
       - ai-agents
@@ -55,13 +62,17 @@ metadata:
       - voice-assistant
       - voip
       - whisper
-    last_checked_at: "2026-08-03T05:17:06.846Z"
+    last_checked_at: '2026-08-03T05:17:06.846Z'
     readme:
-      fetched_at: "2026-08-03T05:17:06.846Z"
+      fetched_at: '2026-08-03T05:17:06.846Z'
       bytes: 17014
 insights:
-  summary: ringback is a pair of MCP servers that enable AI agents to place phone calls to interruptible from the called a free Linphone SIP account. No Twilio, no per-minute fees.
-  why_it_matters: Developers can let their agents interrupt their flow to talk about urgent issues—like failed deployments—by actually ringing their phone and holding a real two-way voice conversation.
+  summary: >-
+    ringback is a pair of MCP servers that enable AI agents to place phone calls to interruptible from the called a free
+    Linphone SIP account. No Twilio, no per-minute fees.
+  why_it_matters: >-
+    Developers can let their agents interrupt their flow to talk about urgent issues—like failed deployments—by actually
+    ringing their phone and holding a real two-way voice conversation.
   mental_damage: Finally, an excuse for your AI to wake you up at 3 a.m. to argue about a merge conflict you can’t mute.
   tags:
     - mcp
@@ -71,31 +82,34 @@ insights:
   confidence: medium
 curation:
   status: excluded
-  reason: While interesting as a voice-MCP integration, ringback does not primarily assist with coding tasks, repo editing, or developer workflows—it is a general-purpose telephony tool for agents, not a developer-facing coding agent or extension.
+  reason: >-
+    While interesting as a voice-MCP integration, ringback does not primarily assist with coding tasks, repo editing, or
+    developer workflows—it is a general-purpose telephony tool for agents, not a developer-facing coding agent or
+    extension.
   evidence:
-    - "Repo description: 'Let your AI agent call your phone and talk to you'"
-    - "README: Enables 'live, interruptible voice conversation' and 'tiered alerts' via SIP"
+    - 'Repo description: ''Let your AI agent call your phone and talk to you'''
+    - 'README: Enables ''live, interruptible voice conversation'' and ''tiered alerts'' via SIP'
     - No mention of code editing, debugging, testing, or repo-level assistance in core functionality
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:06.846Z"
+    updated_at: '2026-08-03T05:17:06.846Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

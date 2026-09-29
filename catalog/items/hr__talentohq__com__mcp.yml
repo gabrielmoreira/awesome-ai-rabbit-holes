@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hr__talentohq__com__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,10 @@ provenance:
           - Official Servers
         anchor_text: TalentoHQ
         extracted_url: https://hr.talentohq.com/mcp
-        surrounding_text: "- **[TalentoHQ](https://hr.talentohq.com/mcp)** – Connect to the [TalentoHQ HR software](https://talentohq.com/features/mcp) via MCP. Transform your organization with the AI first HR software."
+        surrounding_text: >-
+          - **[TalentoHQ](https://hr.talentohq.com/mcp)** – Connect to the [TalentoHQ HR
+          software](https://talentohq.com/features/mcp) via MCP. Transform your organization with the AI first HR
+          software.
         confidence: high
 metadata:
   github:
@@ -43,7 +46,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The entry lacks a distinct product identity and appears to be a resource link or documentation pointer rather than a standalone tool, agent, or framework.
+  reason: >-
+    The entry lacks a distinct product identity and appears to be a resource link or documentation pointer rather than a
+    standalone tool, agent, or framework.
   evidence:
     - No repo description or README provided to define a product
     - Source-list context indicates it is an entry in the 'Official Servers' section of an existing awesome list
@@ -52,12 +57,12 @@ placement:
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -66,7 +71,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:21:41.053Z"
+    updated_at: '2026-09-28T04:21:41.053Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -79,7 +84,9 @@ processing:
       input_hash: sha256:435b7914ad1ec2a4a71486071a1f46838dcb83ae35008f32a836fa1e2b83967d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The entry lacks a distinct product identity and appears to be a resource link or documentation pointer rather than a standalone tool, agent, or framework.
+      decision_reason: >-
+        The entry lacks a distinct product identity and appears to be a resource link or documentation pointer rather
+        than a standalone tool, agent, or framework.
       decision_evidence:
         - No repo description or README provided to define a product
         - Source-list context indicates it is an entry in the 'Official Servers' section of an existing awesome list

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__codeassist__google__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Code Completion
         anchor_text: Google Code Assist (Gemini)
         extracted_url: https://codeassist.google
-        surrounding_text: "- **[Google Code Assist (Gemini)](https://codeassist.google)** – AI coding assistant for Google Cloud developers."
+        surrounding_text: >-
+          - **[Google Code Assist (Gemini)](https://codeassist.google)** – AI coding assistant for Google Cloud
+          developers.
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: Google's enterprise-grade AI coding assistance service integrated within Google Cloud and IDEs.
-  why_it_matters: It brings Gemini's large context window and deep integration with Google Cloud infrastructure directly into the development workflow.
-  mental_damage: Because deciding between three different cloud provider AI assistants is the peak of modern developer existential dread.
+  why_it_matters: >-
+    It brings Gemini's large context window and deep integration with Google Cloud infrastructure directly into the
+    development workflow.
+  mental_damage: >-
+    Because deciding between three different cloud provider AI assistants is the peak of modern developer existential
+    dread.
   tags:
     - google-cloud
     - gemini
@@ -47,7 +53,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is a primary coding assistant that integrates with the developer's environment to assist with code completion and cloud-integrated tasks.
+  reason: >-
+    It is a primary coding assistant that integrates with the developer's environment to assist with code completion and
+    cloud-integrated tasks.
   evidence:
     - Source list placement in 'Code Completion' section of awesome-ai-coding-tools
     - Product is an AI-powered coding assistant service
@@ -56,12 +64,12 @@ placement:
   secondary_categories: []
   section: IDE-Native & Editor Agents
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,10 +78,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:35:31.288Z"
+    updated_at: '2026-09-24T04:35:31.288Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for codeassist__google: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for codeassist__google: Upstream error from Nvidia: ResourceExhausted: Worker
+        local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -85,13 +95,17 @@ processing:
       input_hash: sha256:4c57d9f19dd5eca7a8b02ea4499f1b2d2fa0ffc813a5f32c86c1c6b094a27e3c
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a primary coding assistant that integrates with the developer's environment to assist with code completion and cloud-integrated tasks.
+      decision_reason: >-
+        It is a primary coding assistant that integrates with the developer's environment to assist with code completion
+        and cloud-integrated tasks.
       decision_evidence:
         - Source list placement in 'Code Completion' section of awesome-ai-coding-tools
         - Product is an AI-powered coding assistant service
       category_candidates:
         - coding-agents
         - ai-ides-editors
-      contrastive_reason: Choose coding-agents over ai-ides-editors because the product acts as an intelligent assistant serving code completion rather than being a full standalone IDE surface.
+      contrastive_reason: >-
+        Choose coding-agents over ai-ides-editors because the product acts as an intelligent assistant serving code
+        completion rather than being a full standalone IDE surface.
       review_reason: null
       review_resume_lifecycle: null

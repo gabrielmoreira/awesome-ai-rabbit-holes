@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__docs__transformers__v5__13__0__agents__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-07-06T05:29:57.556Z"
+      discovered_at: '2026-07-06T05:29:57.556Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -18,7 +18,9 @@ provenance:
           - Other LLM Frameworks
         anchor_text: Transformers Agents
         extracted_url: https://huggingface.co/docs/transformers/transformers_agents
-        surrounding_text: "- [Transformers Agents](https://huggingface.co/docs/transformers/transformers_agents): Provides a natural language API on top of transformers"
+        surrounding_text: >-
+          - [Transformers Agents](https://huggingface.co/docs/transformers/transformers_agents): Provides a natural
+          language API on top of transformers
         confidence: high
 metadata:
   github:
@@ -38,7 +40,9 @@ metadata:
 insights:
   summary: Documentation for the agents feature within the Hugging Face Transformers library.
   why_it_matters: It provides technical guidance for implementing agentic workflows using the Transformers library.
-  mental_damage: Chasing the right version of documentation is the most authentic way to experience the current state of AI development.
+  mental_damage: >-
+    Chasing the right version of documentation is the most authentic way to experience the current state of AI
+    development.
   tags:
     - documentation
     - huggingface
@@ -46,7 +50,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The input is a documentation page for a specific library feature rather than a standalone product, tool, or curated resource.
+  reason: >-
+    The input is a documentation page for a specific library feature rather than a standalone product, tool, or curated
+    resource.
   evidence:
     - The URL is a documentation link
     - The scraped content is a version-specific redirect notice
@@ -54,12 +60,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-06T05:29:57.558Z"
+    updated_at: '2026-07-06T05:29:57.558Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:21:29.280Z"
+    updated_at: '2026-09-24T04:21:29.280Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,7 +87,9 @@ processing:
       input_hash: sha256:76d8547676d806a85df9199b4235d7f76b4273c822c1d36feacba2253b7392fa
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a documentation page for a specific library feature rather than a standalone product, tool, or curated resource.
+      decision_reason: >-
+        The input is a documentation page for a specific library feature rather than a standalone product, tool, or
+        curated resource.
       decision_evidence:
         - The URL is a documentation link
         - The scraped content is a version-specific redirect notice

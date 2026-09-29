@@ -44,7 +44,7 @@ function makeItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
     insights: { summary: null, why_it_matters: null, mental_damage: null, tags: [], confidence: null },
     curation: { status: "pending", reason: null, evidence: [] },
     placement: { primary_category: null, section: null },
-    lifecycle: { status: "incubating" },
+    lifecycle: { status: "curated" },
     processing: {
       discover: { status: "done", updated_at: "2026-05-01T00:00:00Z" },
       stars: { status: "done", updated_at: "2026-05-01T00:00:00Z" },

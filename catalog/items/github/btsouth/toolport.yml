@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__btsouth__toolport__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-07T04:13:26.010Z"
+      discovered_at: '2026-09-07T04:13:26.010Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: tsouth89/toolport
         extracted_url: https://github.com/tsouth89/toolport
-        surrounding_text: "- [tsouth89/toolport](https://github.com/tsouth89/toolport) [![tsouth89/toolport MCP server](https://glama.ai/mcp/servers/tsouth89/toolport/badges/score.svg)](https://glama.ai/mcp/servers/tsouth89/toolport) 🦀 🏠 🍎 🪟 🐧 - One local gateway and manager for all your MCP servers, shared across every AI coding tool (Claude, Cursor, VS Code, Codex, and more). Set up and authenticate each server once; lazy discovery keeps each agent's context small, and keys stay in your OS keychain. No Docker, no cloud."
+        surrounding_text: >-
+          - [tsouth89/toolport](https://github.com/tsouth89/toolport) [![tsouth89/toolport MCP
+          server](https://glama.ai/mcp/servers/tsouth89/toolport/badges/score.svg)](https://glama.ai/mcp/servers/tsouth89/toolport)
+          🦀 🏠 🍎 🪟 🐧 - One local gateway and manager for all your MCP servers, shared across every AI coding tool
+          (Claude, Cursor, VS Code, Codex, and more). Set up and authenticate each server once; lazy discovery keeps
+          each agent's context small, and keys stay in your OS keychain. No Docker, no cloud.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: btsouth/toolport
     html_url: https://github.com/btsouth/toolport
-    created_at: "2026-06-19T19:42:40Z"
-    pushed_at: "2026-09-24T03:24:11Z"
-    description: "Local-first MCP gateway. One port for every tool and every AI client: lazy discovery (~90% token savings), tool integrity + quarantine, secrets in the OS keychain."
+    created_at: '2026-06-19T19:42:40Z'
+    pushed_at: '2026-09-24T03:24:11Z'
+    description: >-
+      Local-first MCP gateway. One port for every tool and every AI client: lazy discovery (~90% token savings), tool
+      integrity + quarantine, secrets in the OS keychain.
     homepage: https://toolport.app
     topics:
       - ai
@@ -51,14 +58,18 @@ metadata:
       - rust
       - tauri
       - vscode
-    last_checked_at: "2026-09-24T04:13:04.127Z"
+    last_checked_at: '2026-09-24T04:13:04.127Z'
     readme:
-      fetched_at: "2026-09-24T04:13:04.127Z"
+      fetched_at: '2026-09-24T04:13:04.127Z'
       bytes: 3351
 insights:
   summary: A local-first gateway for managing and sharing Model Context Protocol (MCP) servers across multiple AI clients.
-  why_it_matters: It provides a centralized hub to configure MCP tools once and use them across different environments like Claude, Cursor, and VS Code, while reducing token overhead.
-  mental_damage: Because manually syncing JSON config files across four different AI desktop apps is a descent into madness no developer should endure.
+  why_it_matters: >-
+    It provides a centralized hub to configure MCP tools once and use them across different environments like Claude,
+    Cursor, and VS Code, while reducing token overhead.
+  mental_damage: >-
+    Because manually syncing JSON config files across four different AI desktop apps is a descent into madness no
+    developer should endure.
   tags:
     - mcp
     - gateway
@@ -77,25 +88,27 @@ placement:
   secondary_categories: []
   section: Middleware & Generic
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (205) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-09-07T04:13:26.012Z"
+    updated_at: '2026-09-07T04:13:26.012Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:04.127Z"
+    updated_at: '2026-09-24T04:13:04.127Z'
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-09-28T04:58:52.260Z"
+    updated_at: '2026-09-28T04:58:52.260Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__btsouth__toolport: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": Toolport's\"... is not valid JSON"
+      message: >-
+        Catalog LLM categorization failed for github__btsouth__toolport: Invalid AI response format: SyntaxError:
+        Unexpected token 'T', ..."_reason": Toolport's"... is not valid JSON
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
@@ -111,7 +124,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is a dedicated protocol gateway and middleware layer rather than a simple integration designed to augment a single specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is a dedicated protocol gateway and middleware layer rather
+        than a simple integration designed to augment a single specific editor.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 2

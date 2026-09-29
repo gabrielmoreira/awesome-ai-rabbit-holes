@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__parasoft__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Testing and QA
         anchor_text: Parasoft
         extracted_url: https://parasoft.com
-        surrounding_text: "- **[Parasoft](https://www.parasoft.com/)** – AI-enhanced testing suite covering static analysis, unit testing, and API testing."
+        surrounding_text: >-
+          - **[Parasoft](https://www.parasoft.com/)** – AI-enhanced testing suite covering static analysis, unit
+          testing, and API testing.
         confidence: high
     - id: discovery__www__parasoft__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +35,9 @@ provenance:
           - Testing and QA
         anchor_text: Parasoft
         extracted_url: https://www.parasoft.com
-        surrounding_text: "- **[Parasoft](https://www.parasoft.com/)** – AI-enhanced testing suite covering static analysis, unit testing, and API testing."
+        surrounding_text: >-
+          - **[Parasoft](https://www.parasoft.com/)** – AI-enhanced testing suite covering static analysis, unit
+          testing, and API testing.
         confidence: high
 metadata:
   github:
@@ -51,8 +55,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Parasoft is an enterprise automated testing platform that uses AI for static analysis, test generation, and test maintenance across the software development lifecycle.
-  why_it_matters: It helps developers improve code quality and reduce technical debt by integrating AI-driven testing into CI/CD pipelines and static analysis workflows.
+  summary: >-
+    Parasoft is an enterprise automated testing platform that uses AI for static analysis, test generation, and test
+    maintenance across the software development lifecycle.
+  why_it_matters: >-
+    It helps developers improve code quality and reduce technical debt by integrating AI-driven testing into CI/CD
+    pipelines and static analysis workflows.
   mental_damage: Yet another tool promising to 'weave AI into your workflow' while adding another enterprise dashboard to monitor.
   tags:
     - testing
@@ -63,21 +71,29 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Parasoft is included as an AI-powered testing extension that integrates into developer workflows for static analysis, test generation, and maintenance, not as a standalone coding agent or framework.
+  reason: >-
+    Parasoft is included as an AI-powered testing extension that integrates into developer workflows for static
+    analysis, test generation, and maintenance, not as a standalone coding agent or framework.
   evidence:
-    - "Source-list context: listed in awesome-ai-coding-tools under Testing and QA as an intelligent automated testing platform covering every SDLC stage."
-    - "Scraped site context: describes AI use in static analysis, unit testing, API test automation, and test impact analysis to improve quality at speed and scale."
-    - "README excerpt: highlights AI-driven test generation, self-healing UI tests, and AI-powered verification engines that integrate into DevOps and CI/CD pipelines."
+    - >-
+      Source-list context: listed in awesome-ai-coding-tools under Testing and QA as an intelligent automated testing
+      platform covering every SDLC stage.
+    - >-
+      Scraped site context: describes AI use in static analysis, unit testing, API test automation, and test impact
+      analysis to improve quality at speed and scale.
+    - >-
+      README excerpt: highlights AI-driven test generation, self-healing UI tests, and AI-powered verification engines
+      that integrate into DevOps and CI/CD pipelines.
 placement:
   primary_category: extensions-and-addons
   section: Testing & Code Quality
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:43:47.017Z"
+    updated_at: '2026-09-28T04:43:47.017Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,20 +106,30 @@ processing:
       input_hash: sha256:dee6c274746c5325cf81bb599dcdd651ffc0e8c581871430651a847b175ca736
       proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: Parasoft is included as an AI-powered testing extension that integrates into developer workflows for static analysis, test generation, and maintenance, not as a standalone coding agent or framework.
+      decision_reason: >-
+        Parasoft is included as an AI-powered testing extension that integrates into developer workflows for static
+        analysis, test generation, and maintenance, not as a standalone coding agent or framework.
       decision_evidence:
-        - "Source-list context: listed in awesome-ai-coding-tools under Testing and QA as an intelligent automated testing platform covering every SDLC stage."
-        - "Scraped site context: describes AI use in static analysis, unit testing, API test automation, and test impact analysis to improve quality at speed and scale."
-        - "README excerpt: highlights AI-driven test generation, self-healing UI tests, and AI-powered verification engines that integrate into DevOps and CI/CD pipelines."
+        - >-
+          Source-list context: listed in awesome-ai-coding-tools under Testing and QA as an intelligent automated
+          testing platform covering every SDLC stage.
+        - >-
+          Scraped site context: describes AI use in static analysis, unit testing, API test automation, and test impact
+          analysis to improve quality at speed and scale.
+        - >-
+          README excerpt: highlights AI-driven test generation, self-healing UI tests, and AI-powered verification
+          engines that integrate into DevOps and CI/CD pipelines.
       category_candidates:
         - extensions-and-addons
         - evals
-      contrastive_reason: Choose extensions-and-addons over evals because Parasoft's primary value is augmenting testing workflows with AI-driven test generation and maintenance, not measuring or benchmarking model or agent behavior.
+      contrastive_reason: >-
+        Choose extensions-and-addons over evals because Parasoft's primary value is augmenting testing workflows with
+        AI-driven test generation and maintenance, not measuring or benchmarking model or agent behavior.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.968Z"
+    updated_at: '2026-07-21T15:20:21.968Z'
     cause: null
     next_retry_at: null
   stars:

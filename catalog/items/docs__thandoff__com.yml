@@ -1,0 +1,75 @@
+id: docs__thandoff__com
+kind: website
+name: docs.thandoff.com
+canonical_url: https://docs.thandoff.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__thandoff__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: TaskHandoff
+        extracted_url: https://docs.thandoff.com
+        surrounding_text: >-
+          - **[TaskHandoff](https://docs.thandoff.com/)** – Self-hosted control plane for running Docker-based Codex
+          workspaces on local and remote machines, with per-task workspace isolation, a diff review gate before changes
+          land in your repository, and multi-agent handoff to a human reviewer.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    TaskHandoff – Self-hosted control plane for running Docker-based Codex workspaces on local and remote machines, with
+    per-task workspace isolation, a diff review gate before changes land in your repository, and multi-agent handoff to
+    a human reviewer.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.87
+placement:
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.488Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

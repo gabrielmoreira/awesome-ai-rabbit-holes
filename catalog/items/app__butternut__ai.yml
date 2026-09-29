@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__app__butternut__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-06-01T05:40:05.293Z"
+      discovered_at: '2026-06-01T05:40:05.293Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Butternut AI
         anchor_text: Butternut AI
         extracted_url: https://butternut.ai
-        surrounding_text: "## [Butternut AI](https://butternut.ai/)"
+        surrounding_text: '## [Butternut AI](https://butternut.ai/)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered website builder designed to generate professional sites for small businesses and freelancers using natural language.
-  why_it_matters: It allows non-technical users to bypass the traditional web development lifecycle by generating hosted sites, SEO, and chatbots in seconds.
-  mental_damage: The existential dread of watching a plumber's landing page become more SEO-optimized than your hand-crafted custom React app.
+  summary: >-
+    An AI-powered website builder designed to generate professional sites for small businesses and freelancers using
+    natural language.
+  why_it_matters: >-
+    It allows non-technical users to bypass the traditional web development lifecycle by generating hosted sites, SEO,
+    and chatbots in seconds.
+  mental_damage: >-
+    The existential dread of watching a plumber's landing page become more SEO-optimized than your hand-crafted custom
+    React app.
   tags:
     - website-builder
     - no-code
@@ -46,7 +52,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a consumer-facing SaaS designed for non-technical small business owners rather than a product with a developer-centric workflow or tooling angle.
+  reason: >-
+    The tool is a consumer-facing SaaS designed for non-technical small business owners rather than a product with a
+    developer-centric workflow or tooling angle.
   evidence:
     - Target audience explicitly includes non-developers like plumbers, coaches, and restaurants
     - Marketing positioning focuses on 'skipping freelancers' and 'firing agencies'
@@ -55,12 +63,12 @@ placement:
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-01T05:40:05.294Z"
+    updated_at: '2026-06-01T05:40:05.294Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:33:23.271Z"
+    updated_at: '2026-09-21T04:33:23.271Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,7 +90,9 @@ processing:
       input_hash: sha256:5b3459907f2663b73b2609a7fe3775ae5973514a501c16bcd2c52076db54f1a9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a consumer-facing SaaS designed for non-technical small business owners rather than a product with a developer-centric workflow or tooling angle.
+      decision_reason: >-
+        The tool is a consumer-facing SaaS designed for non-technical small business owners rather than a product with a
+        developer-centric workflow or tooling angle.
       decision_evidence:
         - Target audience explicitly includes non-developers like plumbers, coaches, and restaurants
         - Marketing positioning focuses on 'skipping freelancers' and 'firing agencies'

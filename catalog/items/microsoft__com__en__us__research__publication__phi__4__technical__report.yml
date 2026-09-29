@@ -5,8 +5,9 @@ canonical_url: https://microsoft.com/en-us/research/publication/phi-4-technical-
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__microsoft__com__en__us__research__publication__phi__4__technical__report__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+    - id: >-
+        discovery__microsoft__com__en__us__research__publication__phi__4__technical__report__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +19,13 @@ provenance:
           - Code Models
         anchor_text: Phi-4 (Microsoft)
         extracted_url: https://microsoft.com/en-us/research/blog/phi-4-technical-report
-        surrounding_text: "- **[Phi-4 (Microsoft)](https://www.microsoft.com/en-us/research/blog/phi-4-technical-report/)** – Microsoft's lightweight, efficient model family with strong coding performance."
+        surrounding_text: >-
+          - **[Phi-4 (Microsoft)](https://www.microsoft.com/en-us/research/blog/phi-4-technical-report/)** – Microsoft's
+          lightweight, efficient model family with strong coding performance.
         confidence: high
-    - id: discovery__www__microsoft__com__en__us__research__publication__phi__4__technical__report__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__www__microsoft__com__en__us__research__publication__phi__4__technical__report__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +37,9 @@ provenance:
           - Code Models
         anchor_text: Phi-4 (Microsoft)
         extracted_url: https://www.microsoft.com/en-us/research/blog/phi-4-technical-report
-        surrounding_text: "- **[Phi-4 (Microsoft)](https://www.microsoft.com/en-us/research/blog/phi-4-technical-report/)** – Microsoft's lightweight, efficient model family with strong coding performance."
+        surrounding_text: >-
+          - **[Phi-4 (Microsoft)](https://www.microsoft.com/en-us/research/blog/phi-4-technical-report/)** – Microsoft's
+          lightweight, efficient model family with strong coding performance.
         confidence: high
 metadata:
   github:
@@ -51,9 +57,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Phi-4 is a 14-billion parameter language model developed by Microsoft Research focused on complex reasoning and STEM performance through synthetic data and post-training innovations.
-  why_it_matters: It provides a high-reasoning-capacity open model that developers can use as a foundation for building AI-powered applications requiring strong logical and technical reasoning.
-  mental_damage: Another parameter-count arms race where 'reasoning' is the new benchmark theater and every lab pretends their synthetic data recipe is the secret sauce.
+  summary: >-
+    Phi-4 is a 14-billion parameter language model developed by Microsoft Research focused on complex reasoning and STEM
+    performance through synthetic data and post-training innovations.
+  why_it_matters: >-
+    It provides a high-reasoning-capacity open model that developers can use as a foundation for building AI-powered
+    applications requiring strong logical and technical reasoning.
+  mental_damage: >-
+    Another parameter-count arms race where 'reasoning' is the new benchmark theater and every lab pretends their
+    synthetic data recipe is the secret sauce.
   tags:
     - language-model
     - reasoning
@@ -61,21 +73,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Phi-4 is a raw language model without any developer-facing tooling, SDK, agent interface, or application layer; it is a research artifact, not a product for direct developer use in workflows.
+  reason: >-
+    Phi-4 is a raw language model without any developer-facing tooling, SDK, agent interface, or application layer; it
+    is a research artifact, not a product for direct developer use in workflows.
   evidence:
     - Repo description is missing; the project is a technical report, not a software tool
-    - Scraped context shows it is a research publication from Microsoft Research with no SDK, CLI, or hosted service described
-    - Source-list context places it only in 'Code Models' section of awesome-ai-coding-tools, which lists models, not developer-facing tools
+    - >-
+      Scraped context shows it is a research publication from Microsoft Research with no SDK, CLI, or hosted service
+      described
+    - >-
+      Source-list context places it only in 'Code Models' section of awesome-ai-coding-tools, which lists models, not
+      developer-facing tools
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:42:54.005Z"
+    updated_at: '2026-09-28T04:42:54.005Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,18 +106,24 @@ processing:
       input_hash: sha256:a7f32abed35534f4f815e77d4b9dbe99fd915f7dcaf768f32c42a1cfb80fa570
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Phi-4 is a raw language model without any developer-facing tooling, SDK, agent interface, or application layer; it is a research artifact, not a product for direct developer use in workflows.
+      decision_reason: >-
+        Phi-4 is a raw language model without any developer-facing tooling, SDK, agent interface, or application layer;
+        it is a research artifact, not a product for direct developer use in workflows.
       decision_evidence:
         - Repo description is missing; the project is a technical report, not a software tool
-        - Scraped context shows it is a research publication from Microsoft Research with no SDK, CLI, or hosted service described
-        - Source-list context places it only in 'Code Models' section of awesome-ai-coding-tools, which lists models, not developer-facing tools
+        - >-
+          Scraped context shows it is a research publication from Microsoft Research with no SDK, CLI, or hosted service
+          described
+        - >-
+          Source-list context places it only in 'Code Models' section of awesome-ai-coding-tools, which lists models,
+          not developer-facing tools
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.967Z"
+    updated_at: '2026-07-21T15:20:21.967Z'
     cause: null
     next_retry_at: null
   stars:

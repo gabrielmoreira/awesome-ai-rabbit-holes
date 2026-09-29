@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__rubrik__com__products__rubrik__agent__cloud__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,7 @@ provenance:
           - Platforms / full solutions
         anchor_text: Predibase
         extracted_url: https://predibase.com
-        surrounding_text: "- [Predibase](https://predibase.com/) - Serverless LoRA Fine-Tuning and Serving for LLMs."
+        surrounding_text: '- [Predibase](https://predibase.com/) - Serverless LoRA Fine-Tuning and Serving for LLMs.'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: Rubrik Agent Cloud is a hosted service for automating data protection and cyber recovery workflows using AI agents.
-  why_it_matters: It matters to developers by enabling AI-driven automation of backup, recovery, and security operations in enterprise environments.
-  mental_damage: Another AI agent promising to take over your workflows while you question if 'cyber resilience' is just fear-based selling with extra steps.
+  why_it_matters: >-
+    It matters to developers by enabling AI-driven automation of backup, recovery, and security operations in enterprise
+    environments.
+  mental_damage: >-
+    Another AI agent promising to take over your workflows while you question if 'cyber resilience' is just fear-based
+    selling with extra steps.
   tags:
     - ai-agents
     - data-protection
@@ -46,21 +50,25 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Rubrik Agent Cloud is an enterprise data protection and cyber recovery platform; it does not focus on code generation, editing, reviewing, or any developer-facing AI tooling workflow.
+  reason: >-
+    Rubrik Agent Cloud is an enterprise data protection and cyber recovery platform; it does not focus on code
+    generation, editing, reviewing, or any developer-facing AI tooling workflow.
   evidence:
-    - "Repo description: (none)"
-    - "URL: https://rubrik.com/products/rubrik-agent-cloud"
-    - "README excerpt: (not provided, but source is a product page for Rubrik Agent Cloud, an AI-powered data security and recovery service)"
+    - 'Repo description: (none)'
+    - 'URL: https://rubrik.com/products/rubrik-agent-cloud'
+    - >-
+      README excerpt: (not provided, but source is a product page for Rubrik Agent Cloud, an AI-powered data security
+      and recovery service)
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.970Z"
+    updated_at: '2026-07-21T15:20:21.970Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:54:06.340Z"
+    updated_at: '2026-09-28T04:54:06.340Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -80,11 +88,15 @@ processing:
       input_hash: sha256:9a6ca66b5fbe818e60864e0edc1511725a00fa114525bebecb07920c51a52ec2
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Rubrik Agent Cloud is an enterprise data protection and cyber recovery platform; it does not focus on code generation, editing, reviewing, or any developer-facing AI tooling workflow.
+      decision_reason: >-
+        Rubrik Agent Cloud is an enterprise data protection and cyber recovery platform; it does not focus on code
+        generation, editing, reviewing, or any developer-facing AI tooling workflow.
       decision_evidence:
-        - "Repo description: (none)"
-        - "URL: https://rubrik.com/products/rubrik-agent-cloud"
-        - "README excerpt: (not provided, but source is a product page for Rubrik Agent Cloud, an AI-powered data security and recovery service)"
+        - 'Repo description: (none)'
+        - 'URL: https://rubrik.com/products/rubrik-agent-cloud'
+        - >-
+          README excerpt: (not provided, but source is a product page for Rubrik Agent Cloud, an AI-powered data
+          security and recovery service)
       category_candidates: []
       contrastive_reason: null
       review_reason: null

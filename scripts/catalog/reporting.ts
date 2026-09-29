@@ -302,10 +302,6 @@ export function buildReviewReport(
   updatedMetadataIds: string[],
   allItems: CatalogItem[],
 ): ReviewReport {
-  const promotionCandidates = allItems
-    .filter((item) => item.curation.status === "included" && item.lifecycle.status === "promotion_candidate")
-    .map((item) => item.id);
-
   const needsReview = allItems
     .filter((item) => item.curation.status === "included" && item.lifecycle.status === "needs_review")
     .map((item) => item.id);
@@ -323,7 +319,7 @@ export function buildReviewReport(
   return {
     new_items: newItems.map((item) => item.id),
     updated_metadata: updatedMetadataIds,
-    promotion_candidates: promotionCandidates,
+
     needs_review: needsReview,
     new_discovery_sources: [...new Set(newDiscoverySources)],
   };

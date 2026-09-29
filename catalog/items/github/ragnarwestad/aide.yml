@@ -1,0 +1,78 @@
+id: github__ragnarwestad__aide
+kind: github-repo
+name: ragnarwestad/aide
+canonical_url: https://github.com/ragnarwestad/aide
+identity:
+  github_repo: ragnarwestad/aide
+provenance:
+  discoveries:
+    - id: discovery__github__ragnarwestad__aide__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Workflow Management
+        anchor_text: Aide
+        extracted_url: https://github.com/ragnarwestad/aide
+        surrounding_text: >-
+          - [Aide](https://github.com/ragnarwestad/aide)
+          ![](https://img.shields.io/github/stars/ragnarwestad/aide.svg?cacheSeconds=86400) - Skills for Claude Code,
+          Codex, OpenCode and GitHub Copilot that write each change as a four-file Markdown spec before implementing it
+          test-first, and a local dashboard that queues specs across projects and runs create, analyze, implement and
+          archive headless, merging only once the project's tests pass on the merged result.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Aide - Skills for Claude Code, Codex, OpenCode and GitHub Copilot that write each change as a four-file Markdown
+    spec before implementing it test-first, and a local dashboard that queues specs across projects and runs create,
+    analyze, implement and archive headless, merging only once the project's tests pass on the merged result.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Spec-First & Plan-Execute
+  evidence:
+    - jev-latest choice confidence 0.51
+placement:
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Spec-First & Plan-Execute
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.473Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

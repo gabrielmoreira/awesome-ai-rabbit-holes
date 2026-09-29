@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deepseek-ai__deepseek-ocr-2__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 数据 Data
         anchor_text: DeepSeek-OCR-2
         extracted_url: https://huggingface.co/deepseek-ai/DeepSeek-OCR-2
-        surrounding_text: "46. [DeepSeek-OCR-2](https://huggingface.co/deepseek-ai/DeepSeek-OCR-2): Visual Causal Flow."
+        surrounding_text: '46. [DeepSeek-OCR-2](https://huggingface.co/deepseek-ai/DeepSeek-OCR-2): Visual Causal Flow.'
         confidence: high
 metadata:
   github:
@@ -29,18 +29,20 @@ metadata:
     archived: false
     full_name: deepseek-ai/DeepSeek-OCR-2
     html_url: https://github.com/deepseek-ai/DeepSeek-OCR-2
-    created_at: "2026-01-27T03:05:42Z"
-    pushed_at: "2026-02-03T00:34:18Z"
+    created_at: '2026-01-27T03:05:42Z'
+    pushed_at: '2026-02-03T00:34:18Z'
     description: Visual Causal Flow
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:38.155Z"
+    last_checked_at: '2026-09-14T04:13:38.155Z'
     readme:
-      fetched_at: "2026-09-14T04:13:38.155Z"
+      fetched_at: '2026-09-14T04:13:38.155Z'
       bytes: 5060
 insights:
   summary: An open-source OCR model for visual causal flow tasks.
-  why_it_matters: It provides developers with a specialized OCR capability for extracting and processing text from visual data in workflows requiring structured document understanding.
+  why_it_matters: >-
+    It provides developers with a specialized OCR capability for extracting and processing text from visual data in
+    workflows requiring structured document understanding.
   mental_damage: Now you can finally OCR your Jira tickets into your codebase, because why not automate the chaos.
   tags:
     - ocr
@@ -49,7 +51,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is a specialized OCR model, not a developer tool, framework, or workflow product for software development.
+  reason: >-
+    The project is a specialized OCR model, not a developer tool, framework, or workflow product for software
+    development.
   evidence:
     - Repo description identifies it as 'Visual Causal Flow' (OCR model)
     - No evidence of developer-tooling integration or workflow support
@@ -58,22 +62,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (2806) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:38.155Z"
+    updated_at: '2026-09-14T04:13:38.155Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -88,7 +92,9 @@ processing:
       input_hash: sha256:d372101f66a29ec771ded91f130332e38b4b804f86e87a1e083d5c71da26a705
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a specialized OCR model, not a developer tool, framework, or workflow product for software development.
+      decision_reason: >-
+        The project is a specialized OCR model, not a developer tool, framework, or workflow product for software
+        development.
       decision_evidence:
         - Repo description identifies it as 'Visual Causal Flow' (OCR model)
         - No evidence of developer-tooling integration or workflow support

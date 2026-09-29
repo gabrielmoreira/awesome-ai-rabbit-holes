@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__twilio__com__en__us__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,12 @@ provenance:
           - Official Servers
         anchor_text: Twilio
         extracted_url: https://twilio.com/en-us
-        surrounding_text: "- **[Twilio](https://github.com/twilio-labs/mcp)** - Interact with [Twilio](https://www.twilio.com/en-us) APIs to send messages, manage phone numbers, configure your account, and more."
+        surrounding_text: >-
+          - **[Twilio](https://github.com/twilio-labs/mcp)** - Interact with [Twilio](https://www.twilio.com/en-us) APIs
+          to send messages, manage phone numbers, configure your account, and more.
         confidence: high
     - id: discovery__www__twilio__com__en__us__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +35,9 @@ provenance:
           - Official Servers
         anchor_text: Twilio
         extracted_url: https://www.twilio.com/en-us
-        surrounding_text: "- **[Twilio](https://github.com/twilio-labs/mcp)** - Interact with [Twilio](https://www.twilio.com/en-us) APIs to send messages, manage phone numbers, configure your account, and more."
+        surrounding_text: >-
+          - **[Twilio](https://github.com/twilio-labs/mcp)** - Interact with [Twilio](https://www.twilio.com/en-us) APIs
+          to send messages, manage phone numbers, configure your account, and more.
         confidence: high
 metadata:
   github:
@@ -51,9 +55,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Twilio is a communications platform offering APIs for SMS, voice, email, and conversational AI to build customer engagement experiences.
-  why_it_matters: Developers use Twilio to embed real-time communication and AI-driven conversations into applications without managing telecom infrastructure.
-  mental_damage: Yet another reminder that 'agentic era' is just the latest buzzword for wrapping Twilio’s decade-old SMS API in fresh AI marketing.
+  summary: >-
+    Twilio is a communications platform offering APIs for SMS, voice, email, and conversational AI to build customer
+    engagement experiences.
+  why_it_matters: >-
+    Developers use Twilio to embed real-time communication and AI-driven conversations into applications without
+    managing telecom infrastructure.
+  mental_damage: >-
+    Yet another reminder that 'agentic era' is just the latest buzzword for wrapping Twilio’s decade-old SMS API in
+    fresh AI marketing.
   tags:
     - communications
     - ai
@@ -63,21 +73,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Twilio is a broad SaaS communications platform with AI features, not a developer-facing AI tool whose primary identity is coding agents, app building, or agent orchestration.
+  reason: >-
+    Twilio is a broad SaaS communications platform with AI features, not a developer-facing AI tool whose primary
+    identity is coding agents, app building, or agent orchestration.
   evidence:
-    - "Source-list context: appears in awesome-mcp-servers as an 'Official Server' but only due to MCP compatibility, not MCP identity"
-    - "Scraped site context: positions itself as a CPaaS platform for SMS, voice, email, and conversational AI, not a coding agent or dev tool"
+    - >-
+      Source-list context: appears in awesome-mcp-servers as an 'Official Server' but only due to MCP compatibility, not
+      MCP identity
+    - >-
+      Scraped site context: positions itself as a CPaaS platform for SMS, voice, email, and conversational AI, not a
+      coding agent or dev tool
     - No evidence of being a standalone AI developer tool; markets to enterprise, startups, and industries broadly
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:48:21.010Z"
+    updated_at: '2026-09-28T04:48:21.010Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,10 +106,16 @@ processing:
       input_hash: sha256:e77bb0fca247676e29364a2ea4e519e09929265467b652616bae3582dc7a5095
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Twilio is a broad SaaS communications platform with AI features, not a developer-facing AI tool whose primary identity is coding agents, app building, or agent orchestration.
+      decision_reason: >-
+        Twilio is a broad SaaS communications platform with AI features, not a developer-facing AI tool whose primary
+        identity is coding agents, app building, or agent orchestration.
       decision_evidence:
-        - "Source-list context: appears in awesome-mcp-servers as an 'Official Server' but only due to MCP compatibility, not MCP identity"
-        - "Scraped site context: positions itself as a CPaaS platform for SMS, voice, email, and conversational AI, not a coding agent or dev tool"
+        - >-
+          Source-list context: appears in awesome-mcp-servers as an 'Official Server' but only due to MCP compatibility,
+          not MCP identity
+        - >-
+          Scraped site context: positions itself as a CPaaS platform for SMS, voice, email, and conversational AI, not a
+          coding agent or dev tool
         - No evidence of being a standalone AI developer tool; markets to enterprise, startups, and industries broadly
       category_candidates: []
       contrastive_reason: null
@@ -101,7 +123,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.971Z"
+    updated_at: '2026-07-21T15:20:21.971Z'
     cause: null
     next_retry_at: null
   stars:

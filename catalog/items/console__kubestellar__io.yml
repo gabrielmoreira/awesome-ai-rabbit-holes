@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__console__kubestellar__io__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,12 @@ provenance:
           - ML Platforms
         anchor_text: KubeStellar Console
         extracted_url: https://console.kubestellar.io
-        surrounding_text: "| [KubeStellar Console](https://console.kubestellar.io)   | Open source AI-powered multi-cluster Kubernetes dashboard for managing LLM workloads across hybrid edge and cloud environments. GPU monitoring, benchmark streaming, real-time observability with 20+ CNCF integrations, and AI-guided cluster operations. CNCF Sandbox project.                                                                                                                                                                                          | ![GitHub Badge](https://img.shields.io/github/stars/kubestellar/console.svg?style=flat-square)     |"
+        surrounding_text: >-
+          | [KubeStellar Console](https://console.kubestellar.io)   | Open source AI-powered multi-cluster Kubernetes
+          dashboard for managing LLM workloads across hybrid edge and cloud environments. GPU monitoring, benchmark
+          streaming, real-time observability with 20+ CNCF integrations, and AI-guided cluster operations. CNCF Sandbox
+          project.                                                                                                                                                                                         
+          | ![GitHub Badge](https://img.shields.io/github/stars/kubestellar/console.svg?style=flat-square)     |
         confidence: high
 metadata:
   github:
@@ -37,8 +42,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An open-source dashboard for managing multi-cluster Kubernetes environments featuring AI-powered troubleshooting missions.
-  why_it_matters: It attempts to lower the cognitive load of multi-cluster management by integrating AI-driven tasks into the DevOps workflow.
+  summary: >-
+    An open-source dashboard for managing multi-cluster Kubernetes environments featuring AI-powered troubleshooting
+    missions.
+  why_it_matters: >-
+    It attempts to lower the cognitive load of multi-cluster management by integrating AI-driven tasks into the DevOps
+    workflow.
   mental_damage: Because troubleshooting Kubernetes with an AI mission is just a more expensive way to realize your YAML is broken.
   tags:
     - kubernetes
@@ -49,20 +58,26 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The product's primary identity is a Kubernetes management dashboard, with AI capabilities serving as a feature rather than the core product identity defined in our categories.
+  reason: >-
+    The product's primary identity is a Kubernetes management dashboard, with AI capabilities serving as a feature
+    rather than the core product identity defined in our categories.
   evidence:
-    - The scraped title and description explicitly define it as a 'Multi-Cluster Kubernetes Dashboard & Management' tool.
-    - The AI functionality is described as a capability for 'troubleshooting with AI-powered missions' within a broader management context.
+    - >-
+      The scraped title and description explicitly define it as a 'Multi-Cluster Kubernetes Dashboard & Management'
+      tool.
+    - >-
+      The AI functionality is described as a capability for 'troubleshooting with AI-powered missions' within a broader
+      management context.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.684Z"
+    updated_at: '2026-05-21T05:27:57.684Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +86,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:22:00.750Z"
+    updated_at: '2026-09-21T04:22:00.750Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,10 +99,16 @@ processing:
       input_hash: sha256:eb36c964328a25f53b8b2059001d7f23c213c4f1c19c7364f1d8ae4de0b96d15
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product's primary identity is a Kubernetes management dashboard, with AI capabilities serving as a feature rather than the core product identity defined in our categories.
+      decision_reason: >-
+        The product's primary identity is a Kubernetes management dashboard, with AI capabilities serving as a feature
+        rather than the core product identity defined in our categories.
       decision_evidence:
-        - The scraped title and description explicitly define it as a 'Multi-Cluster Kubernetes Dashboard & Management' tool.
-        - The AI functionality is described as a capability for 'troubleshooting with AI-powered missions' within a broader management context.
+        - >-
+          The scraped title and description explicitly define it as a 'Multi-Cluster Kubernetes Dashboard & Management'
+          tool.
+        - >-
+          The AI functionality is described as a capability for 'troubleshooting with AI-powered missions' within a
+          broader management context.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

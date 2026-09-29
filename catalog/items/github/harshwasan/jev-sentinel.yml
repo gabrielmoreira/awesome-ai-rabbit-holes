@@ -1,0 +1,79 @@
+id: github__harshwasan__jev-sentinel
+kind: github-repo
+name: harshwasan/jev-sentinel
+canonical_url: https://github.com/harshwasan/jev-sentinel
+identity:
+  github_repo: harshwasan/jev-sentinel
+provenance:
+  discoveries:
+    - id: discovery__github__harshwasan__jev-sentinel__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: pi-jev-sentinel
+        extracted_url: https://github.com/harshwasan/jev-sentinel
+        surrounding_text: >-
+          - [pi-jev-sentinel](https://github.com/harshwasan/jev-sentinel) - Pi coding-agent extension: TypeSafe Jev
+          checks for tool calls, tool outputs and replies (prompt injection, approvals, secret scrubbing, task pinning).
+        confidence: high
+metadata:
+  github:
+    stars: 9
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: harshwasan/jev-sentinel
+    html_url: https://github.com/harshwasan/jev-sentinel
+    created_at: '2026-09-19T16:40:22Z'
+    pushed_at: '2026-09-20T21:42:49Z'
+    description: >-
+      Pi coding-agent extension: TypeSafe Jev checks for tool calls, tool outputs and replies (prompt injection,
+      approvals, secret scrubbing, task pinning)
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:11:59.668Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:59.668Z'
+      bytes: 10777
+insights:
+  summary: >-
+    Pi coding-agent extension: TypeSafe Jev checks for tool calls, tool outputs and replies (prompt injection,
+    approvals, secret scrubbing, task pinning)
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.46
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.459Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:59.668Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -1,0 +1,81 @@
+id: github__zzhdbw__laya-ascend
+kind: github-repo
+name: zzhdbw/laya-ascend
+canonical_url: https://github.com/zzhdbw/laya-ascend
+identity:
+  github_repo: zzhdbw/laya-ascend
+provenance:
+  discoveries:
+    - id: discovery__github__zzhdbw__laya-ascend__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: laya-Ascend
+        extracted_url: https://github.com/zzhdbw/laya-ascend
+        surrounding_text: >-
+          - [laya-Ascend](https://github.com/zzhdbw/laya-Ascend)
+          ![stars](https://img.shields.io/github/stars/zzhdbw/laya-Ascend?style=flat-square&label=%E2%98%85) - Local
+          runtime: Ascend NPU fork of the Laya checkpoints that answers the same `Choice`, `Score` and `Noul` questions
+          on Huawei 910B hardware — 37–47 ms median for a four-question request, 33.8x–70.9x faster than the same
+          request on a single container CPU thread, with an output-equivalent SDPA decision head that avoids
+          `torch_npu`'s CPU fallback on `aten::_transformer_encoder_layer_fwd`.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    laya-Ascend - Local runtime: Ascend NPU fork of the Laya checkpoints that answers the same Choice, Score and Noul
+    questions on Huawei 910B hardware — 37–47 ms median for a four-question request, 33.8x–70.9x faster than the same
+    request on a single container CPU thread, with an output-equivalent SDPA decision head that avoids torch_npu's CPU
+    fallback on aten::_transformer_encoder_layer_fwd.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.43
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.486Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

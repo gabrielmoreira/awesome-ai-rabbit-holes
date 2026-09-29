@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__c5huracan__meyhem__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,7 +19,11 @@ provenance:
           - 🔎 Search
         anchor_text: c5huracan/meyhem
         extracted_url: https://github.com/c5huracan/meyhem
-        surrounding_text: "-   **[c5huracan/meyhem](https://github.com/c5huracan/meyhem)** [![GitHub stars](https://img.shields.io/github/stars/c5huracan/meyhem?style=social)](https://github.com/c5huracan/meyhem): Agent-native search that blends multiple engines, dedupes results, and ranks by task-completion outcomes. No API key required."
+        surrounding_text: >-
+          -   **[c5huracan/meyhem](https://github.com/c5huracan/meyhem)** [![GitHub
+          stars](https://img.shields.io/github/stars/c5huracan/meyhem?style=social)](https://github.com/c5huracan/meyhem):
+          Agent-native search that blends multiple engines, dedupes results, and ranks by task-completion outcomes. No
+          API key required.
         confidence: high
 metadata:
   github:
@@ -29,19 +33,23 @@ metadata:
     archived: false
     full_name: c5huracan/meyhem
     html_url: https://github.com/c5huracan/meyhem
-    created_at: "2026-02-27T01:52:00Z"
-    pushed_at: "2026-03-14T17:36:05Z"
+    created_at: '2026-02-27T01:52:00Z'
+    pushed_at: '2026-03-14T17:36:05Z'
     description: Agent-native search with feedback-driven ranking
     homepage: https://api.rhdxm.com
     topics: []
-    last_checked_at: "2026-09-24T04:13:05.827Z"
+    last_checked_at: '2026-09-24T04:13:05.827Z'
     readme:
-      fetched_at: "2026-09-24T04:13:05.827Z"
+      fetched_at: '2026-09-24T04:13:05.827Z'
       bytes: 1735
 insights:
   summary: Agent-native search service with feedback-driven ranking for MCP server discovery and web search.
-  why_it_matters: Developers can discover and rank MCP servers by community trust and perform outcome-ranked web searches directly from their agents.
-  mental_damage: Now your agent can spend less time arguing with itself about which MCP server to use and more time arguing with you about tabs vs spaces.
+  why_it_matters: >-
+    Developers can discover and rank MCP servers by community trust and perform outcome-ranked web searches directly
+    from their agents.
+  mental_damage: >-
+    Now your agent can spend less time arguing with itself about which MCP server to use and more time arguing with you
+    about tabs vs spaces.
   tags:
     - mcp
     - search
@@ -51,35 +59,39 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "Primary identity is MCP infrastructure: a discovery/registry service for MCP servers with dedicated MCP endpoints and tools."
+  reason: >-
+    Primary identity is MCP infrastructure: a discovery/registry service for MCP servers with dedicated MCP endpoints
+    and tools.
   evidence:
-    - "Repo description: 'Agent-native search with feedback-driven ranking'"
-    - "README: 'Find the right MCP server for your task. 1,400+ servers indexed and ranked by community trust'"
-    - "Source-list context: listed in awesome-mcp-list under Search"
+    - 'Repo description: ''Agent-native search with feedback-driven ranking'''
+    - 'README: ''Find the right MCP server for your task. 1,400+ servers indexed and ranked by community trust'''
+    - 'Source-list context: listed in awesome-mcp-list under Search'
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Registries & Discovery
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:05.827Z"
+    updated_at: '2026-09-24T04:13:05.827Z'
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-09-28T04:59:51.011Z"
+    updated_at: '2026-09-28T04:59:51.011Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__c5huracan__meyhem: Invalid AI response structure: Missing required field: mental_damage"
+      message: >-
+        Catalog LLM categorization failed for github__c5huracan__meyhem: Invalid AI response structure: Missing required
+        field: mental_damage
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -91,14 +103,18 @@ processing:
       input_hash: sha256:5c5cc6a8eadef9e8749e66537821d9a0f3bc2fe2b0002a1c365855987b4411e2
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "Primary identity is MCP infrastructure: a discovery/registry service for MCP servers with dedicated MCP endpoints and tools."
+      decision_reason: >-
+        Primary identity is MCP infrastructure: a discovery/registry service for MCP servers with dedicated MCP
+        endpoints and tools.
       decision_evidence:
-        - "Repo description: 'Agent-native search with feedback-driven ranking'"
-        - "README: 'Find the right MCP server for your task. 1,400+ servers indexed and ranked by community trust'"
-        - "Source-list context: listed in awesome-mcp-list under Search"
+        - 'Repo description: ''Agent-native search with feedback-driven ranking'''
+        - 'README: ''Find the right MCP server for your task. 1,400+ servers indexed and ranked by community trust'''
+        - 'Source-list context: listed in awesome-mcp-list under Search'
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because the product is an operational MCP registry/discovery service, not merely a curated list.
+      contrastive_reason: >-
+        Choose mcp over awesome-awesomes because the product is an operational MCP registry/discovery service, not
+        merely a curated list.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__schedmd__slurm__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Scheduling
         anchor_text: Slurm
         extracted_url: https://github.com/schedmd/slurm
-        surrounding_text: "| [Slurm](https://github.com/SchedMD/slurm)           | A Highly Scalable Workload Manager.                                            | ![GitHub Badge](https://img.shields.io/github/stars/SchedMD/slurm.svg?style=flat-square)         |"
+        surrounding_text: >-
+          | [Slurm](https://github.com/SchedMD/slurm)           | A Highly Scalable Workload
+          Manager.                                            | ![GitHub
+          Badge](https://img.shields.io/github/stars/SchedMD/slurm.svg?style=flat-square)         |
         confidence: high
 metadata:
   github:
@@ -30,22 +33,28 @@ metadata:
     archived: false
     full_name: SchedMD/slurm
     html_url: https://github.com/SchedMD/slurm
-    created_at: "2011-06-20T16:15:51Z"
-    pushed_at: "2026-07-20T09:24:44Z"
-    description: "Slurm: A Highly Scalable Workload Manager"
+    created_at: '2011-06-20T16:15:51Z'
+    pushed_at: '2026-07-20T09:24:44Z'
+    description: 'Slurm: A Highly Scalable Workload Manager'
     homepage: https://slurm.schedmd.com/
     topics:
       - slurm
       - slurm-job-scheduler
       - slurm-workload-manager
-    last_checked_at: "2026-07-20T16:42:51.769Z"
+    last_checked_at: '2026-07-20T16:42:51.769Z'
     readme:
-      fetched_at: "2026-07-20T16:42:51.769Z"
+      fetched_at: '2026-07-20T16:42:51.769Z'
       bytes: 3033
 insights:
-  summary: Slurm is an open-source cluster resource manager and job scheduling system for allocating compute nodes and managing parallel workloads on Linux clusters.
-  why_it_matters: It is foundational infrastructure for orchestrating large-scale compute resources often used to train and serve AI models in research and production environments.
-  mental_damage: We've built a hyper-optimized ecosystem for scheduling matrix multiplications, yet we still can't schedule a deployment without three rounds of prompt engineering.
+  summary: >-
+    Slurm is an open-source cluster resource manager and job scheduling system for allocating compute nodes and managing
+    parallel workloads on Linux clusters.
+  why_it_matters: >-
+    It is foundational infrastructure for orchestrating large-scale compute resources often used to train and serve AI
+    models in research and production environments.
+  mental_damage: >-
+    We've built a hyper-optimized ecosystem for scheduling matrix multiplications, yet we still can't schedule a
+    deployment without three rounds of prompt engineering.
   tags:
     - cluster
     - scheduler
@@ -55,35 +64,39 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Slurm is general-purpose cluster infrastructure (HPC workload manager) with no AI-native developer tooling angle; its inclusion in Awesome-LLMOps is as a generic scheduling backend, not as a developer-facing AI product.
+  reason: >-
+    Slurm is general-purpose cluster infrastructure (HPC workload manager) with no AI-native developer tooling angle;
+    its inclusion in Awesome-LLMOps is as a generic scheduling backend, not as a developer-facing AI product.
   evidence:
     - Repo description and README define it as a cluster resource manager and job scheduler, not an AI developer tool.
     - Topics and README focus on compute node allocation, queue arbitration, and parallel job execution under Linux.
-    - Included in Awesome-LLMOps only under 'Large Scale Deployment > Scheduling' as infrastructure, not as a coding assistant, framework, or AI workflow tool.
+    - >-
+      Included in Awesome-LLMOps only under 'Large Scale Deployment > Scheduling' as infrastructure, not as a coding
+      assistant, framework, or AI workflow tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (3954) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.646Z"
+    updated_at: '2026-05-06T22:12:15.646Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:51.769Z"
+    updated_at: '2026-07-20T16:42:51.769Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.168Z"
+    updated_at: '2026-09-28T04:14:00.168Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

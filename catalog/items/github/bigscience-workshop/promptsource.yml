@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bigscience-workshop__promptsource__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,7 +19,10 @@ provenance:
           - Other LLM Frameworks
         anchor_text: PromptSource
         extracted_url: https://github.com/bigscience-workshop/promptsource
-        surrounding_text: "- [PromptSource](https://github.com/bigscience-workshop/promptsource): About Toolkit for creating, sharing and using natural language prompts. ![GitHub Repo stars](https://img.shields.io/github/stars/bigscience-workshop/promptsource?style=social)"
+        surrounding_text: >-
+          - [PromptSource](https://github.com/bigscience-workshop/promptsource): About Toolkit for creating, sharing and
+          using natural language prompts. ![GitHub Repo
+          stars](https://img.shields.io/github/stars/bigscience-workshop/promptsource?style=social)
         confidence: high
 metadata:
   github:
@@ -29,22 +32,26 @@ metadata:
     archived: false
     full_name: bigscience-workshop/promptsource
     html_url: https://github.com/bigscience-workshop/promptsource
-    created_at: "2021-05-19T15:26:25Z"
-    pushed_at: "2023-10-23T17:59:41Z"
+    created_at: '2021-05-19T15:26:25Z'
+    pushed_at: '2023-10-23T17:59:41Z'
     description: Toolkit for creating, sharing and using natural language prompts.
-    homepage: ""
+    homepage: ''
     topics:
       - machine-learning
       - natural-language-processing
       - nlp
-    last_checked_at: "2026-09-24T04:12:59.292Z"
+    last_checked_at: '2026-09-24T04:12:59.292Z'
     readme:
-      fetched_at: "2026-09-24T04:12:59.292Z"
+      fetched_at: '2026-09-24T04:12:59.292Z'
       bytes: 9587
 insights:
   summary: Toolkit for creating, sharing, and using natural language prompts via templated files and an API for NLP datasets.
-  why_it_matters: Provides a standardized way to manage and apply prompts across datasets, enabling reproducible zero-shot evaluation and experimentation for NLP developers.
-  mental_damage: Yet another prompt registry that makes you feel like you're taming chaos with Jinja templates while LLMs still ignore your carefully crafted few-shots.
+  why_it_matters: >-
+    Provides a standardized way to manage and apply prompts across datasets, enabling reproducible zero-shot evaluation
+    and experimentation for NLP developers.
+  mental_damage: >-
+    Yet another prompt registry that makes you feel like you're taming chaos with Jinja templates while LLMs still
+    ignore your carefully crafted few-shots.
   tags:
     - prompt-engineering
     - nlp
@@ -52,32 +59,38 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: PromptSource is a dataset-focused prompt templating toolkit for NLP research, not a developer-facing AI engineering tool for coding agents, app building, or workflow automation.
+  reason: >-
+    PromptSource is a dataset-focused prompt templating toolkit for NLP research, not a developer-facing AI engineering
+    tool for coding agents, app building, or workflow automation.
   evidence:
-    - "Repo description: 'Toolkit for creating, sharing and using natural language prompts.'"
-    - README focuses on applying prompts to Hugging Face datasets for tasks like SNLI and AG News using Jinja templating.
-    - Designed for NLP researchers to create and share prompts for evaluation, not for software developers building AI-powered apps or agents.
+    - 'Repo description: ''Toolkit for creating, sharing and using natural language prompts.'''
+    - >-
+      README focuses on applying prompts to Hugging Face datasets for tasks like SNLI and AG News using Jinja
+      templating.
+    - >-
+      Designed for NLP researchers to create and share prompts for evaluation, not for software developers building
+      AI-powered apps or agents.
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (3010) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:12:59.292Z"
+    updated_at: '2026-09-24T04:12:59.292Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:56:16.489Z"
+    updated_at: '2026-09-28T04:56:16.489Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,11 +103,17 @@ processing:
       input_hash: sha256:3bee6db5283a23da57d8011df63d47ea5b8ed5f551be67610483258637e04fb3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: PromptSource is a dataset-focused prompt templating toolkit for NLP research, not a developer-facing AI engineering tool for coding agents, app building, or workflow automation.
+      decision_reason: >-
+        PromptSource is a dataset-focused prompt templating toolkit for NLP research, not a developer-facing AI
+        engineering tool for coding agents, app building, or workflow automation.
       decision_evidence:
-        - "Repo description: 'Toolkit for creating, sharing and using natural language prompts.'"
-        - README focuses on applying prompts to Hugging Face datasets for tasks like SNLI and AG News using Jinja templating.
-        - Designed for NLP researchers to create and share prompts for evaluation, not for software developers building AI-powered apps or agents.
+        - 'Repo description: ''Toolkit for creating, sharing and using natural language prompts.'''
+        - >-
+          README focuses on applying prompts to Hugging Face datasets for tasks like SNLI and AG News using Jinja
+          templating.
+        - >-
+          Designed for NLP researchers to create and share prompts for evaluation, not for software developers building
+          AI-powered apps or agents.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

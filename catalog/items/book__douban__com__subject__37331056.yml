@@ -1,12 +1,12 @@
 id: book__douban__com__subject__37331056
 kind: website
-name: "37331056"
+name: '37331056'
 canonical_url: https://book.douban.com/subject/37331056
 identity: {}
 provenance:
   discoveries:
     - id: discovery__book__douban__com__subject__37331056__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: "A technical book titled \"Large Model Algorithms: Reinforcement Learning, Fine-tuning, and Alignment\" covering LLM training, SFT, DPO, and RLHF."
-  why_it_matters: Provides deep theoretical and practical grounding on the mathematical and algorithmic mechanics behind modern transformer-based models and alignment techniques.
-  mental_damage: Because apparently, reading the original research papers wasn't enough to help you understand why your model is hallucinating.
+  summary: >-
+    A technical book titled "Large Model Algorithms: Reinforcement Learning, Fine-tuning, and Alignment" covering LLM
+    training, SFT, DPO, and RLHF.
+  why_it_matters: >-
+    Provides deep theoretical and practical grounding on the mathematical and algorithmic mechanics behind modern
+    transformer-based models and alignment techniques.
+  mental_damage: >-
+    Because apparently, reading the original research papers wasn't enough to help you understand why your model is
+    hallucinating.
   tags:
     - llm
     - reinforcement-learning
@@ -50,19 +56,19 @@ curation:
   status: excluded
   reason: This is an educational book/publication, not a software tool, framework, or developer-facing product.
   evidence:
-    - "Product identity is a printed/digital book (ISBN: 9787121500725)"
+    - 'Product identity is a printed/digital book (ISBN: 9787121500725)'
     - Content covers theoretical algorithms and mathematical principles rather than providing a usable tool or SDK
     - Categorized in source-list as a 'Book' for learning
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,10 +77,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:35:05.382Z"
+    updated_at: '2026-09-24T04:35:05.382Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for book__douban__com__subject__37331056: Invalid AI response structure: Invalid confidence value: undefined"
+      message: >-
+        Catalog LLM categorization failed for book__douban__com__subject__37331056: Invalid AI response structure:
+        Invalid confidence value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -88,7 +96,7 @@ processing:
       disagreement: false
       decision_reason: This is an educational book/publication, not a software tool, framework, or developer-facing product.
       decision_evidence:
-        - "Product identity is a printed/digital book (ISBN: 9787121500725)"
+        - 'Product identity is a printed/digital book (ISBN: 9787121500725)'
         - Content covers theoretical algorithms and mathematical principles rather than providing a usable tool or SDK
         - Categorized in source-list as a 'Book' for learning
       category_candidates: []

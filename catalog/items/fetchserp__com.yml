@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__fetchserp__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,12 @@ provenance:
           - Official Servers
         anchor_text: FetchSERP
         extracted_url: https://fetchserp.com
-        surrounding_text: "- **[FetchSERP](https://github.com/fetchSERP/fetchserp-mcp-server-node)** - All-in-One SEO & Web Intelligence Toolkit API [FetchSERP](https://www.fetchserp.com)"
+        surrounding_text: >-
+          - **[FetchSERP](https://github.com/fetchSERP/fetchserp-mcp-server-node)** - All-in-One SEO & Web Intelligence
+          Toolkit API [FetchSERP](https://www.fetchserp.com)
         confidence: high
     - id: discovery__www__fetchserp__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +35,9 @@ provenance:
           - Official Servers
         anchor_text: FetchSERP
         extracted_url: https://www.fetchserp.com
-        surrounding_text: "- **[FetchSERP](https://github.com/fetchSERP/fetchserp-mcp-server-node)** - All-in-One SEO & Web Intelligence Toolkit API [FetchSERP](https://www.fetchserp.com)"
+        surrounding_text: >-
+          - **[FetchSERP](https://github.com/fetchSERP/fetchserp-mcp-server-node)** - All-in-One SEO & Web Intelligence
+          Toolkit API [FetchSERP](https://www.fetchserp.com)
         confidence: high
 metadata:
   github:
@@ -51,9 +55,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: FetchSERP is an SEO and web intelligence API that provides search engine results, domain rankings, backlinks analysis, and keyword research data from Bing, Yahoo, and DuckDuckGo.
-  why_it_matters: Developers can integrate real-time SEO data into AI agents and applications via MCP servers or official SDKs to build competitive analysis tools, content optimizers, and SEO-powered chatbots.
-  mental_damage: Another API that promises to turn keyword rankings into AGI-level insights, as if SERP data alone could fix your content strategy.
+  summary: >-
+    FetchSERP is an SEO and web intelligence API that provides search engine results, domain rankings, backlinks
+    analysis, and keyword research data from Bing, Yahoo, and DuckDuckGo.
+  why_it_matters: >-
+    Developers can integrate real-time SEO data into AI agents and applications via MCP servers or official SDKs to
+    build competitive analysis tools, content optimizers, and SEO-powered chatbots.
+  mental_damage: >-
+    Another API that promises to turn keyword rankings into AGI-level insights, as if SERP data alone could fix your
+    content strategy.
   tags:
     - api
     - seo
@@ -62,22 +72,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: FetchSERP is a data API service focused on SEO and web intelligence, not a developer-facing AI tool, agent, framework, or workflow product; its core value lies in providing search data, not in AI-assisted development, coding, or orchestration.
+  reason: >-
+    FetchSERP is a data API service focused on SEO and web intelligence, not a developer-facing AI tool, agent,
+    framework, or workflow product; its core value lies in providing search data, not in AI-assisted development,
+    coding, or orchestration.
   evidence:
     - Described as an 'SEO & Web Intelligence Toolkit API' with SERP, keyword, backlink, and domain ranking endpoints
-    - Primary use cases involve SEO chatbots, competitive analysis dashboards, and automated reporting — not coding agent workflows
+    - >-
+      Primary use cases involve SEO chatbots, competitive analysis dashboards, and automated reporting — not coding
+      agent workflows
     - Listed in awesome-mcp-servers as an MCP server, but MCP is an adapter feature, not the product identity
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:41:01.055Z"
+    updated_at: '2026-09-28T04:41:01.055Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,10 +105,17 @@ processing:
       input_hash: sha256:122009b02b0d12d404ed0f076f59a79e132f9ea01391b199ab49c308f14b321b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: FetchSERP is a data API service focused on SEO and web intelligence, not a developer-facing AI tool, agent, framework, or workflow product; its core value lies in providing search data, not in AI-assisted development, coding, or orchestration.
+      decision_reason: >-
+        FetchSERP is a data API service focused on SEO and web intelligence, not a developer-facing AI tool, agent,
+        framework, or workflow product; its core value lies in providing search data, not in AI-assisted development,
+        coding, or orchestration.
       decision_evidence:
-        - Described as an 'SEO & Web Intelligence Toolkit API' with SERP, keyword, backlink, and domain ranking endpoints
-        - Primary use cases involve SEO chatbots, competitive analysis dashboards, and automated reporting — not coding agent workflows
+        - >-
+          Described as an 'SEO & Web Intelligence Toolkit API' with SERP, keyword, backlink, and domain ranking
+          endpoints
+        - >-
+          Primary use cases involve SEO chatbots, competitive analysis dashboards, and automated reporting — not coding
+          agent workflows
         - Listed in awesome-mcp-servers as an MCP server, but MCP is an adapter feature, not the product identity
       category_candidates: []
       contrastive_reason: null
@@ -101,10 +123,12 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.965Z"
+    updated_at: '2026-07-21T15:20:21.965Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending

@@ -1,0 +1,121 @@
+id: github__yodablocks__jev-orderby-bench
+kind: github-repo
+name: yodablocks/jev-orderby-bench
+canonical_url: https://github.com/yodablocks/jev-orderby-bench
+identity:
+  github_repo: yodablocks/jev-orderby-bench
+provenance:
+  discoveries:
+    - id: discovery__github__yodablocks__jev-orderby-bench__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Benchmarks & research (116)
+        anchor_text: jev-orderby-bench
+        extracted_url: https://github.com/yodablocks/jev-orderby-bench
+        surrounding_text: >-
+          | [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) | ★ 0 | Python | 2026-09-22 | Does
+          ORDER BY over a Jev probability put rows in a defensible order? Independent ranking, calibration and invariant
+          measurements of TypeSafe AI's Jev: passes six pre-registered gates on 360 labeled rows, fails four of six on
+          graded product relevance. |
+        confidence: high
+    - id: discovery__github__yodablocks__jev-orderby-bench__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Evaluation & Benchmarking
+        anchor_text: jev-orderby-bench
+        extracted_url: https://github.com/yodablocks/jev-orderby-bench
+        surrounding_text: >-
+          - [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench)
+          ![stars](https://img.shields.io/github/stars/yodablocks/jev-orderby-bench?style=flat-square&label=%E2%98%85) -
+          Model evaluation: measures whether a SQL ORDER BY over a Jev probability is defensible (pairwise inversion,
+          Score ordinality against a human grade, calibration, wording invariants, sort-key ties) under a pre-registered
+          gate that jev-1.13.0 passes on 20 Newsgroups topics and fails four of six conditions on Amazon ESCI product
+          relevance, and shows a DuckDB extension's default 40-row batching fails the ranking gate that one row per
+          request passes.
+        confidence: high
+    - id: discovery__github__yodablocks__jev-orderby-bench__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Evaluation and calibration
+        anchor_text: jev-orderby-bench
+        extracted_url: https://github.com/yodablocks/jev-orderby-bench
+        surrounding_text: >-
+          - [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) - Measures whether ORDER BY over a Jev
+          probability is defensible (inversion rate, Score ordinality against a human grade, calibration, wording
+          invariants, sort-key ties) under a pre-registered gate; passes on 20 Newsgroups topics, fails four of six
+          conditions on Amazon ESCI product relevance, and shows a DuckDB extension's default 40-row batching fails the
+          ranking gate that one row per request passes.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Does ORDER BY over a Jev probability put rows in a defensible order? Independent ranking, calibration and invariant
+    measurements of TypeSafe AI's Jev: passes six pre-registered gates on 360 labeled rows, fails four of six on graded
+    product relevance.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  evidence:
+    - jev-latest choice confidence 0.99
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Evals, Benchmarks & Calibration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.406Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

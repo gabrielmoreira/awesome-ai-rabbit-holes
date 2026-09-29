@@ -1,0 +1,77 @@
+id: github__souvikr__jev-test
+kind: github-repo
+name: souvikr/jev-test
+canonical_url: https://github.com/souvikr/jev-test
+identity:
+  github_repo: souvikr/jev-test
+provenance:
+  discoveries:
+    - id: discovery__github__souvikr__jev-test__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Evaluation & Benchmarking
+        anchor_text: jev-test
+        extracted_url: https://github.com/souvikr/jev-test
+        surrounding_text: >-
+          - [jev-test](https://github.com/souvikr/jev-test)
+          ![stars](https://img.shields.io/github/stars/souvikr/jev-test?style=flat-square&label=%E2%98%85) - Model
+          benchmarking: reproducible test harness evaluating TypeSafe Jev Noul, Choice, and Score decisions via
+          OpenRouter's Decisions API, comparing latency and accuracy against LLM prompt-and-parse baselines.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    jev-test - Model benchmarking: reproducible test harness evaluating TypeSafe Jev Noul, Choice, and Score decisions
+    via OpenRouter's Decisions API, comparing latency and accuracy against LLM prompt-and-parse baselines.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  evidence:
+    - jev-latest choice confidence 0.97
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Evals, Benchmarks & Calibration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.478Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

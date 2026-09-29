@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__qasphere__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: QA Sphere
         extracted_url: https://qasphere.com
-        surrounding_text: "- [Hypersequent/qasphere-mcp](https://github.com/Hypersequent/qasphere-mcp) 🎖️ 📇 ☁️ - Integration with [QA Sphere](https://qasphere.com/) test management system, enabling LLMs to discover, summarize, and interact with test cases directly from AI-powered IDEs"
+        surrounding_text: >-
+          - [Hypersequent/qasphere-mcp](https://github.com/Hypersequent/qasphere-mcp) 🎖️ 📇 ☁️ - Integration with [QA
+          Sphere](https://qasphere.com/) test management system, enabling LLMs to discover, summarize, and interact with
+          test cases directly from AI-powered IDEs
         confidence: high
     - id: discovery__qasphere__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,7 +37,10 @@ provenance:
           - Official Servers
         anchor_text: QA Sphere
         extracted_url: https://qasphere.com
-        surrounding_text: "- **[QA Sphere](https://github.com/Hypersequent/qasphere-mcp)** - Integration with [QA Sphere](https://qasphere.com/) test management system, enabling LLMs to discover, summarize, and interact with test cases directly from AI-powered IDEs"
+        surrounding_text: >-
+          - **[QA Sphere](https://github.com/Hypersequent/qasphere-mcp)** - Integration with [QA
+          Sphere](https://qasphere.com/) test management system, enabling LLMs to discover, summarize, and interact with
+          test cases directly from AI-powered IDEs
         confidence: high
 metadata:
   github:
@@ -53,8 +59,12 @@ metadata:
     readme: null
 insights:
   summary: QA Sphere is an AI-powered test management platform for creating, organizing, and tracking software tests.
-  why_it_matters: Helps QA teams accelerate test creation and traceability through AI automation and integrations with dev tools like Jira and GitHub.
-  mental_damage: Another AI-powered dashboard that promises to 'streamline workflows' while adding yet another tab to your already overflowing QA toolchain.
+  why_it_matters: >-
+    Helps QA teams accelerate test creation and traceability through AI automation and integrations with dev tools like
+    Jira and GitHub.
+  mental_damage: >-
+    Another AI-powered dashboard that promises to 'streamline workflows' while adding yet another tab to your already
+    overflowing QA toolchain.
   tags:
     - test-management
     - qa
@@ -62,21 +72,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: QA Sphere is a test management tool focused on QA workflows, not software development workflows, and lacks a primary identity as a developer-facing AI tool.
+  reason: >-
+    QA Sphere is a test management tool focused on QA workflows, not software development workflows, and lacks a primary
+    identity as a developer-facing AI tool.
   evidence:
     - Positioned as an AI-powered test management platform for QA teams to create, organize, and track tests
-    - Integrates with Jira, GitHub PRs, Asana, Trello, etc., but does not act as a coding agent, app builder, or developer workflow tool
-    - Listed in awesome-mcp-servers as an 'Official Server' but MCP is not its primary identity — it's a SaaS platform with MCP as a compatibility feature
+    - >-
+      Integrates with Jira, GitHub PRs, Asana, Trello, etc., but does not act as a coding agent, app builder, or
+      developer workflow tool
+    - >-
+      Listed in awesome-mcp-servers as an 'Official Server' but MCP is not its primary identity — it's a SaaS platform
+      with MCP as a compatibility feature
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.597Z"
+    updated_at: '2026-05-06T22:12:15.597Z'
     cause: null
     next_retry_at: null
   stars:
@@ -85,7 +101,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:36:07.312Z"
+    updated_at: '2026-09-28T04:36:07.312Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -98,11 +114,17 @@ processing:
       input_hash: sha256:afefcda2a1051059586da9859dca00860d0b6e9a4eb9c84b058e9b4e98d66fc7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: QA Sphere is a test management tool focused on QA workflows, not software development workflows, and lacks a primary identity as a developer-facing AI tool.
+      decision_reason: >-
+        QA Sphere is a test management tool focused on QA workflows, not software development workflows, and lacks a
+        primary identity as a developer-facing AI tool.
       decision_evidence:
         - Positioned as an AI-powered test management platform for QA teams to create, organize, and track tests
-        - Integrates with Jira, GitHub PRs, Asana, Trello, etc., but does not act as a coding agent, app builder, or developer workflow tool
-        - Listed in awesome-mcp-servers as an 'Official Server' but MCP is not its primary identity — it's a SaaS platform with MCP as a compatibility feature
+        - >-
+          Integrates with Jira, GitHub PRs, Asana, Trello, etc., but does not act as a coding agent, app builder, or
+          developer workflow tool
+        - >-
+          Listed in awesome-mcp-servers as an 'Official Server' but MCP is not its primary identity — it's a SaaS
+          platform with MCP as a compatibility feature
       category_candidates: []
       contrastive_reason: null
       review_reason: null

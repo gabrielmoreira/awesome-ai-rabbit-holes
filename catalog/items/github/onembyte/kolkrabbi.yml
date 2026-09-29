@@ -1,0 +1,80 @@
+id: github__onembyte__kolkrabbi
+kind: github-repo
+name: onembyte/kolkrabbi
+canonical_url: https://github.com/onembyte/kolkrabbi
+identity:
+  github_repo: onembyte/kolkrabbi
+provenance:
+  discoveries:
+    - id: discovery__github__onembyte__kolkrabbi__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Kolkrabbi
+        extracted_url: https://github.com/onembyte/kolkrabbi
+        surrounding_text: >-
+          - **[Kolkrabbi](https://github.com/onembyte/kolkrabbi)** `⭐ 1` — Go terminal coding agent (`kolk`) whose
+          effort dial — low to max — picks which model runs each turn, not one model's thinking budget. Local models on
+          this machine, the LAN, or one address you name; any OpenAI-compatible endpoint; or your Claude and ChatGPT
+          subscriptions through each vendor's own CLI, no credential held. Checkpoints every write and logs each call's
+          cost. Single static binary, Apache-2.0.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Kolkrabbi ⭐ 1 — Go terminal coding agent (kolk) whose effort dial — low to max — picks which model runs each turn,
+    not one model's thinking budget. Local models on this machine, the LAN, or one address you name; any
+    OpenAI-compatible endpoint; or your Claude and ChatGPT subscriptions through each vendor's own CLI, no credential
+    held. Checkpoints every write and logs each call's cost. Single static binary, Apache-2.0.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
+  evidence:
+    - jev-latest choice confidence 0.99
+placement:
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Terminal & CLI Agents
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.471Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

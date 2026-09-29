@@ -1,0 +1,99 @@
+id: github__mingleiw__jev-oncall
+kind: github-repo
+name: mingleiw/jev-oncall
+canonical_url: https://github.com/mingleiw/jev-oncall
+identity:
+  github_repo: mingleiw/jev-oncall
+provenance:
+  discoveries:
+    - id: discovery__github__mingleiw__jev-oncall__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Domain Tools
+        anchor_text: '**jev-oncall**'
+        extracted_url: https://github.com/mingleiw/jev-oncall
+        surrounding_text: >-
+          - [**jev-oncall**](https://github.com/mingleiw/jev-oncall) — Incident triage on TypeSafe Jev — the model
+          judges, plain code decides. Routing on probability distributions with a human-review middle band and fail-open
+          defaults.
+        confidence: high
+    - id: discovery__github__mingleiw__jev-oncall__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Classification & Routing
+        anchor_text: jev-oncall
+        extracted_url: https://github.com/mingleiw/jev-oncall
+        surrounding_text: >-
+          - [jev-oncall](https://github.com/mingleiw/jev-oncall)
+          ![stars](https://img.shields.io/github/stars/mingleiw/jev-oncall?style=flat-square&label=%E2%98%85) - On-call
+          operations: asks Jev one call of four typed questions per alert (`Noul` actionable, `Score` severity, `Choice`
+          owning team, `Choice` duplicate-of), pages on P(SEV1)+P(SEV2) ≥ 0.80 and drops only below 0.20 when
+          actionability agrees, sends the band between to a human who has 15 minutes to ack before it pages anyway,
+          links duplicates into a cycle-broken incident graph so two alerts can never silence each other, and falls back
+          to configured severity on any error or timeout; a published 300-alert run measured p50 418 ms, p95 1477 ms and
+          $0.04 per 1,000 alerts, with the slowest call landing 151 ms short of the 2 s timeout.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    jev-oncall — Incident triage on TypeSafe Jev — the model judges, plain code decides. Routing on probability
+    distributions with a human-review middle band and fail-open defaults.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.77
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.420Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

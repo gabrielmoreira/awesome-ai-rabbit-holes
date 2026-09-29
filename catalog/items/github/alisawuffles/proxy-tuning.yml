@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alisawuffles__proxy-tuning__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: Proxy Tuning
         extracted_url: https://github.com/alisawuffles/proxy-tuning
-        surrounding_text: "29. [Proxy Tuning](https://github.com/alisawuffles/proxy-tuning): Tuning Language Models by Proxy."
+        surrounding_text: '29. [Proxy Tuning](https://github.com/alisawuffles/proxy-tuning): Tuning Language Models by Proxy.'
         confidence: high
 metadata:
   github:
@@ -29,18 +29,20 @@ metadata:
     archived: false
     full_name: alisawuffles/proxy-tuning
     html_url: https://github.com/alisawuffles/proxy-tuning
-    created_at: "2024-01-25T07:52:35Z"
-    pushed_at: "2024-03-30T02:28:07Z"
+    created_at: '2024-01-25T07:52:35Z'
+    pushed_at: '2024-03-30T02:28:07Z'
     description: Code associated with Tuning Language Models by Proxy (Liu et al., 2024)
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:41.390Z"
+    last_checked_at: '2026-09-17T04:13:41.390Z'
     readme:
-      fetched_at: "2026-09-17T04:13:41.390Z"
+      fetched_at: '2026-09-17T04:13:41.390Z'
       bytes: 998
 insights:
   summary: Code implementation for the research paper 'Tuning Language Models by Proxy' (Liu et al., 2024).
-  why_it_matters: It provides reference implementations for a novel fine-tuning methodology that may influence how developers train or adapt models.
+  why_it_matters: >-
+    It provides reference implementations for a novel fine-tuning methodology that may influence how developers train or
+    adapt models.
   mental_damage: Another research repo that will haunt your GitHub stars but never your production stack.
   tags:
     - fine-tuning
@@ -58,22 +60,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:41.390Z"
+    updated_at: '2026-09-17T04:13:41.390Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -88,9 +90,13 @@ processing:
       input_hash: sha256:3e53a63f3b2de68b40de259889146888250f73ff812c28a93517ebe8937e966c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a research codebase tied to a specific paper, not a practical developer tool, workflow, or infrastructure.
+      decision_reason: >-
+        This is a research codebase tied to a specific paper, not a practical developer tool, workflow, or
+        infrastructure.
       decision_evidence:
-        - Repo description explicitly states it is 'Code associated with Tuning Language Models by Proxy (Liu et al., 2024)'
+        - >-
+          Repo description explicitly states it is 'Code associated with Tuning Language Models by Proxy (Liu et al.,
+          2024)'
         - No evidence of a developer-facing product, workflow, or integration
         - Listed in source lists under 'Fine-Tuning' (research-oriented)
       category_candidates: []

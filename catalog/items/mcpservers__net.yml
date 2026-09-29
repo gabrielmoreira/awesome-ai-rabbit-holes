@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcpservers__net__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: MCPServers.Net
         extracted_url: https://mcpservers.net
-        surrounding_text: "- **[MCPServers.Net](https://mcpservers.net/)** – Comprehensive MCP navigation with tutorials and resources."
+        surrounding_text: '- **[MCPServers.Net](https://mcpservers.net/)** – Comprehensive MCP navigation with tutorials and resources.'
         confidence: high
 metadata:
   github:
@@ -37,27 +37,37 @@ metadata:
     readme: null
 insights:
   summary: mcpservers.net is a domain marketplace listing for the sale of the mcpservers.net domain via Spaceship.com.
-  why_it_matters: It does not matter to developers as a tool, agent, or infrastructure; it is a domain sale listing with no developer-facing functionality.
+  why_it_matters: >-
+    It does not matter to developers as a tool, agent, or infrastructure; it is a domain sale listing with no
+    developer-facing functionality.
   mental_damage: The anxiety of mistaking a domain parking page for an MCP server registry is the quiet horror of AI tooling fatigue.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The site is a domain sales page with no MCP server, client, tool, or developer product; it offers no functionality relevant to AI-assisted development workflows.
+  reason: >-
+    The site is a domain sales page with no MCP server, client, tool, or developer product; it offers no functionality
+    relevant to AI-assisted development workflows.
   evidence:
-    - The scraped page shows a domain listing for sale with pricing, payment methods, and transfer support via Spaceship.com.
-    - No README, repo description, or tool functionality is provided; the source-list context only references the domain name in a list title.
-    - There is no evidence of MCP server implementation, tool exposure, registry operation, or any developer-facing service.
+    - >-
+      The scraped page shows a domain listing for sale with pricing, payment methods, and transfer support via
+      Spaceship.com.
+    - >-
+      No README, repo description, or tool functionality is provided; the source-list context only references the domain
+      name in a list title.
+    - >-
+      There is no evidence of MCP server implementation, tool exposure, registry operation, or any developer-facing
+      service.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -66,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:33:13.562Z"
+    updated_at: '2026-09-28T04:33:13.562Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -79,11 +89,19 @@ processing:
       input_hash: sha256:6e46c6183467154fd55bf52b5393eb3811dbd64e98a2461e6d4ff9b1151d4747
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site is a domain sales page with no MCP server, client, tool, or developer product; it offers no functionality relevant to AI-assisted development workflows.
+      decision_reason: >-
+        The site is a domain sales page with no MCP server, client, tool, or developer product; it offers no
+        functionality relevant to AI-assisted development workflows.
       decision_evidence:
-        - The scraped page shows a domain listing for sale with pricing, payment methods, and transfer support via Spaceship.com.
-        - No README, repo description, or tool functionality is provided; the source-list context only references the domain name in a list title.
-        - There is no evidence of MCP server implementation, tool exposure, registry operation, or any developer-facing service.
+        - >-
+          The scraped page shows a domain listing for sale with pricing, payment methods, and transfer support via
+          Spaceship.com.
+        - >-
+          No README, repo description, or tool functionality is provided; the source-list context only references the
+          domain name in a list title.
+        - >-
+          There is no evidence of MCP server implementation, tool exposure, registry operation, or any developer-facing
+          service.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

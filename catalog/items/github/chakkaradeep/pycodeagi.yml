@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chakkaradeep__pycodeagi__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,10 @@ provenance:
           - Agents
         anchor_text: PyCodeAGI
         extracted_url: https://github.com/chakkaradeep/pycodeagi
-        surrounding_text: "- [PyCodeAGI](https://github.com/chakkaradeep/pyCodeAGI): A small AGI experiment to generate a Python app given what app the user wants to build ![GitHub Repo stars](https://img.shields.io/github/stars/chakkaradeep/pyCodeAGI?style=social)"
+        surrounding_text: >-
+          - [PyCodeAGI](https://github.com/chakkaradeep/pyCodeAGI): A small AGI experiment to generate a Python app
+          given what app the user wants to build ![GitHub Repo
+          stars](https://img.shields.io/github/stars/chakkaradeep/pyCodeAGI?style=social)
         confidence: high
 metadata:
   github:
@@ -30,18 +33,22 @@ metadata:
     archived: false
     full_name: chakkaradeep/pyCodeAGI
     html_url: https://github.com/chakkaradeep/pyCodeAGI
-    created_at: "2023-04-16T06:47:06Z"
-    pushed_at: "2023-05-04T06:48:22Z"
+    created_at: '2023-04-16T06:47:06Z'
+    pushed_at: '2023-05-04T06:48:22Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:43.304Z"
+    last_checked_at: '2026-09-07T04:13:43.304Z'
     readme:
-      fetched_at: "2026-09-07T04:13:43.304Z"
+      fetched_at: '2026-09-07T04:13:43.304Z'
       bytes: 428
 insights:
-  summary: An experimental agent based on the BabyAGI concept that uses LangChain to generate Python applications from user requirements.
-  why_it_matters: It explores autonomous, goal-oriented code generation workflows by attempting to bridge the gap between high-level intent and functional Python code.
+  summary: >-
+    An experimental agent based on the BabyAGI concept that uses LangChain to generate Python applications from user
+    requirements.
+  why_it_matters: >-
+    It explores autonomous, goal-oriented code generation workflows by attempting to bridge the gap between high-level
+    intent and functional Python code.
   mental_damage: Another experimental 'AGI' script to add to your graveyard of half-finished Python scripts.
   tags:
     - python
@@ -51,7 +58,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is an early-stage, low-activity experiment that lacks the maturity and specific developer-tooling utility required for the catalog.
+  reason: >-
+    The project is an early-stage, low-activity experiment that lacks the maturity and specific developer-tooling
+    utility required for the catalog.
   evidence:
     - README describes it as a 'mall AGI experiment' that is 'ery early'
     - No activity since May 2023
@@ -60,24 +69,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (183) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-24T04:13:09.913Z"
+    updated_at: '2026-09-24T04:13:09.913Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for chakkaradeep/pycodeagi
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -92,7 +101,9 @@ processing:
       input_hash: sha256:9ae571de0e7b5f5278897d395e86b524f85b22813c276f2f0e665e7477c7d567
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is an early-stage, low-activity experiment that lacks the maturity and specific developer-tooling utility required for the catalog.
+      decision_reason: >-
+        The project is an early-stage, low-activity experiment that lacks the maturity and specific developer-tooling
+        utility required for the catalog.
       decision_evidence:
         - README describes it as a 'mall AGI experiment' that is 'ery early'
         - No activity since May 2023

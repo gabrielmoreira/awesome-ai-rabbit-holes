@@ -1,0 +1,101 @@
+id: github__cloakhq__cloakbrowser-agent
+kind: github-repo
+name: cloakhq/cloakbrowser-agent
+canonical_url: https://github.com/cloakhq/cloakbrowser-agent
+identity:
+  github_repo: cloakhq/cloakbrowser-agent
+provenance:
+  discoveries:
+    - id: discovery__github__cloakhq__cloakbrowser-agent__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: CloakBrowser-Agent
+        extracted_url: https://github.com/cloakhq/cloakbrowser-agent
+        surrounding_text: >-
+          - [CloakBrowser-Agent](https://github.com/CloakHQ/CloakBrowser-Agent) - Stealth browser agent where TypeSafe
+          Jev decides each step and CloakBrowser executes (MCP/CLI/Python). [Project
+          guide](community/projects/tools/cloakbrowser-agent.md).
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: CloakHQ/CloakBrowser-Agent
+    html_url: https://github.com/CloakHQ/CloakBrowser-Agent
+    created_at: '2026-09-29T00:17:41Z'
+    pushed_at: '2026-09-29T06:07:28Z'
+    description: >-
+      Jev-powered stealth browser agent. TypeSafe Jev decides each step in ~0.3 s, CloakBrowser carries it out like a
+      human. MCP server, CLI and Python API.
+    homepage: null
+    topics:
+      - ai-agent
+      - ai-agents
+      - browser-agent
+      - browser-automation
+      - chromium
+      - claude-code
+      - cloakbrowser
+      - jev
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - playwright
+      - python
+      - stealth-browser
+      - system-one
+      - typesafe
+      - typesafe-jev
+      - web-agent
+      - web-automation
+    last_checked_at: '2026-09-29T13:09:56.409Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:56.409Z'
+      bytes: 14315
+insights:
+  summary: >-
+    Jev-powered stealth browser agent. TypeSafe Jev decides each step in ~0.3 s, CloakBrowser carries it out like a
+    human. MCP server, CLI and Python API.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Browser & Computer Use
+  evidence:
+    - jev-latest choice confidence 0.72
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Browser & Computer Use
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.452Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:56.409Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

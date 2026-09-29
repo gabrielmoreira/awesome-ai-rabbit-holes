@@ -5,8 +5,9 @@ canonical_url: https://code.visualstudio.com/docs/copilot/customization/overview
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__code__visualstudio__com__docs__copilot__customization__overview__awesome-list__github__awesome-copilot
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__code__visualstudio__com__docs__copilot__customization__overview__awesome-list__github__awesome-copilot
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -18,7 +19,10 @@ provenance:
           - 📚 Additional Resources
         anchor_text: VS Code Copilot Customization Documentation
         extracted_url: https://code.visualstudio.com/docs/copilot/copilot-customization
-        surrounding_text: "- [VS Code Copilot Customization Documentation](https://code.visualstudio.com/docs/copilot/copilot-customization) - Official Microsoft documentation"
+        surrounding_text: >-
+          - [VS Code Copilot Customization
+          Documentation](https://code.visualstudio.com/docs/copilot/copilot-customization) - Official Microsoft
+          documentation
         confidence: high
 metadata:
   github:
@@ -36,9 +40,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Microsoft documentation for customizing GitHub Copilot within Visual Studio Code using custom instructions, agents, and MCP servers.
-  why_it_matters: It enables developers to tailor the Copilot experience to specific coding standards, workflows, and external toolsets like MCP.
-  mental_damage: "Just what every developer needs: another layer of configuration to ensure the AI actually follows the team's specific brand of insanity."
+  summary: >-
+    Microsoft documentation for customizing GitHub Copilot within Visual Studio Code using custom instructions, agents,
+    and MCP servers.
+  why_it_matters: >-
+    It enables developers to tailor the Copilot experience to specific coding standards, workflows, and external
+    toolsets like MCP.
+  mental_damage: >-
+    Just what every developer needs: another layer of configuration to ensure the AI actually follows the team's
+    specific brand of insanity.
   tags:
     - visual-studio-code
     - github-copilot
@@ -47,7 +57,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The input is a documentation page for an existing product feature rather than a standalone tool, framework, or resource.
+  reason: >-
+    The input is a documentation page for an existing product feature rather than a standalone tool, framework, or
+    resource.
   evidence:
     - URL points to vscode.com documentation
     - Content is a feature overview/guide for existing Copilot customization
@@ -56,12 +68,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,10 +82,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:35:26.057Z"
+    updated_at: '2026-09-24T04:35:26.057Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for code__visualstudio__com__docs__copilot__customization__overview: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for code__visualstudio__com__docs__copilot__customization__overview: Upstream
+        error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -85,7 +99,9 @@ processing:
       input_hash: sha256:ed87839c9fe779c6ce1f1d7b21a5f16ad1e5b3d41e38076e38be0c67b428b40b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a documentation page for an existing product feature rather than a standalone tool, framework, or resource.
+      decision_reason: >-
+        The input is a documentation page for an existing product feature rather than a standalone tool, framework, or
+        resource.
       decision_evidence:
         - URL points to vscode.com documentation
         - Content is a feature overview/guide for existing Copilot customization

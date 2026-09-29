@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blakerouse__ssh-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: blakerouse/ssh-mcp
         extracted_url: https://github.com/blakerouse/ssh-mcp
-        surrounding_text: "- [blakerouse/ssh-mcp](https://github.com/blakerouse/ssh-mcp) 🏎️ 🏠 🍎 🪟 🐧 - MCP server exposing SSH control for Linux and Windows servers. Allows long running commands and the ability to perform commands on multiple hosts at the same time."
+        surrounding_text: >-
+          - [blakerouse/ssh-mcp](https://github.com/blakerouse/ssh-mcp) 🏎️ 🏠 🍎 🪟 🐧 - MCP server exposing SSH
+          control for Linux and Windows servers. Allows long running commands and the ability to perform commands on
+          multiple hosts at the same time.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,22 @@ metadata:
     archived: false
     full_name: blakerouse/ssh-mcp
     html_url: https://github.com/blakerouse/ssh-mcp
-    created_at: "2025-11-01T18:55:58Z"
-    pushed_at: "2026-05-11T08:17:34Z"
+    created_at: '2025-11-01T18:55:58Z'
+    pushed_at: '2026-05-11T08:17:34Z'
     description: SSH MCP server that runs locally making it easy to manage hosts and perform commands across a group of hosts
     homepage: null
     topics: []
-    last_checked_at: "2026-09-24T04:13:00.753Z"
+    last_checked_at: '2026-09-24T04:13:00.753Z'
     readme:
-      fetched_at: "2026-09-24T04:13:00.753Z"
+      fetched_at: '2026-09-24T04:13:00.753Z'
       bytes: 5030
 insights:
-  summary: SSH MCP is a Model Context Protocol server that provides tools for managing SSH hosts and executing commands across groups of remote machines.
-  why_it_matters: It lets developers control remote infrastructure through natural language in MCP-enabled agents like Claude Desktop, turning SSH workflows into prompt-driven operations.
+  summary: >-
+    SSH MCP is a Model Context Protocol server that provides tools for managing SSH hosts and executing commands across
+    groups of remote machines.
+  why_it_matters: >-
+    It lets developers control remote infrastructure through natural language in MCP-enabled agents like Claude Desktop,
+    turning SSH workflows into prompt-driven operations.
   mental_damage: Finally, your AI can ‘rm -rf /’ on ten servers at once with a single poorly phrased request — progress?
   tags:
     - mcp
@@ -50,32 +57,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is exposing SSH host management and command execution over the Model Context Protocol, making MCP the primary product identity rather than a side feature.
+  reason: >-
+    The product is an MCP server whose core identity is exposing SSH host management and command execution over the
+    Model Context Protocol, making MCP the primary product identity rather than a side feature.
   evidence:
-    - "Repo description: 'SSH MCP server that runs locally making it easy to manage hosts and perform commands across a group of hosts'"
+    - >-
+      Repo description: 'SSH MCP server that runs locally making it easy to manage hosts and perform commands across a
+      group of hosts'
     - README defines MCP tools like add_host, perform_command, get_command_status as the primary interface
-    - "Source-list context: listed in awesome-mcp-servers under Server Implementations"
+    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Cloud & API Integration
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:00.753Z"
+    updated_at: '2026-09-24T04:13:00.753Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:57:03.193Z"
+    updated_at: '2026-09-28T04:57:03.193Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,14 +99,20 @@ processing:
       input_hash: sha256:c94419d59b7183020264b46ea0d7fd06c112a08b0efd54619001a696c678e03a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose core identity is exposing SSH host management and command execution over the Model Context Protocol, making MCP the primary product identity rather than a side feature.
+      decision_reason: >-
+        The product is an MCP server whose core identity is exposing SSH host management and command execution over the
+        Model Context Protocol, making MCP the primary product identity rather than a side feature.
       decision_evidence:
-        - "Repo description: 'SSH MCP server that runs locally making it easy to manage hosts and perform commands across a group of hosts'"
+        - >-
+          Repo description: 'SSH MCP server that runs locally making it easy to manage hosts and perform commands across
+          a group of hosts'
         - README defines MCP tools like add_host, perform_command, get_command_status as the primary interface
-        - "Source-list context: listed in awesome-mcp-servers under Server Implementations"
+        - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server providing core functionality over the protocol, not an extension that augments another coding agent or editor.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product is an MCP server providing core functionality over the
+        protocol, not an extension that augments another coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null

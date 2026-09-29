@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__x__ai__overview__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: Grok API
         extracted_url: https://docs.x.ai/docs/overview
-        surrounding_text: "- [merterbak/Grok-MCP](https://github.com/merterbak/Grok-MCP) 🐍 ☁️ 🍎 🪟 🐧 - MCP server for xAI's [Grok API](https://docs.x.ai/docs/overview) with agentic tool calling, image generation, vision, and file support."
+        surrounding_text: >-
+          - [merterbak/Grok-MCP](https://github.com/merterbak/Grok-MCP) 🐍 ☁️ 🍎 🪟 🐧 - MCP server for xAI's [Grok
+          API](https://docs.x.ai/docs/overview) with agentic tool calling, image generation, vision, and file support.
         confidence: high
 metadata:
   github:
@@ -38,7 +40,9 @@ metadata:
     readme: null
 insights:
   summary: The official documentation for xAI's Grok models and API services.
-  why_it_matters: Provides access to Grok models for text, image, video, and voice generation, including agentic tool calling and reasoning capabilities.
+  why_it_matters: >-
+    Provides access to Grok models for text, image, video, and voice generation, including agentic tool calling and
+    reasoning capabilities.
   mental_damage: Another API endpoint to keep track of amidst the infinite sprawl of competing model benchmarks.
   tags:
     - grok
@@ -49,7 +53,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation site for a model provider, not a standalone developer tool, framework, or orchestration platform.
+  reason: >-
+    This is a documentation site for a model provider, not a standalone developer tool, framework, or orchestration
+    platform.
   evidence:
     - The content is primarily documentation for API usage, model capabilities, and pricing
     - The URL leads to a docs site, not a software product or library
@@ -57,12 +63,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,10 +77,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:38:56.617Z"
+    updated_at: '2026-09-24T04:38:56.617Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for docs__x__ai__overview: Invalid AI response structure: Invalid confidence value: undefined"
+      message: >-
+        Catalog LLM categorization failed for docs__x__ai__overview: Invalid AI response structure: Invalid confidence
+        value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -86,7 +94,9 @@ processing:
       input_hash: sha256:b7b4ff2e344c92c8f653a741bcfdf3ca4fbe8749530af2c66e34fd1db788433d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a documentation site for a model provider, not a standalone developer tool, framework, or orchestration platform.
+      decision_reason: >-
+        This is a documentation site for a model provider, not a standalone developer tool, framework, or orchestration
+        platform.
       decision_evidence:
         - The content is primarily documentation for API usage, model capabilities, and pricing
         - The URL leads to a docs site, not a software product or library

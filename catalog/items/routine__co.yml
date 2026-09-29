@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__routine__co__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Routine
         extracted_url: https://routine.co
-        surrounding_text: "- **[Routine](https://github.com/routineco/mcp-server)** - MCP server to interact with [Routine](https://routine.co/): calendars, tasks, notes, etc."
+        surrounding_text: >-
+          - **[Routine](https://github.com/routineco/mcp-server)** - MCP server to interact with
+          [Routine](https://routine.co/): calendars, tasks, notes, etc.
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: Routine is an AI-powered productivity app that unifies tasks, calendars, notes, and automation across platforms.
-  why_it_matters: It consolidates personal and team workflows into a single AI-driven workspace, reducing context switching for developers managing multiple tools.
-  mental_damage: Another all-in-one workspace promising to replace your stack, now with AI agents that delegate your to-do list back to you.
+  why_it_matters: >-
+    It consolidates personal and team workflows into a single AI-driven workspace, reducing context switching for
+    developers managing multiple tools.
+  mental_damage: >-
+    Another all-in-one workspace promising to replace your stack, now with AI agents that delegate your to-do list back
+    to you.
   tags:
     - productivity
     - ai-assistant
@@ -46,21 +52,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Routine is a general productivity platform with AI features, not a developer-facing tool for coding, agents, or AI infrastructure; its primary identity is task and calendar management, not software development workflows.
+  reason: >-
+    Routine is a general productivity platform with AI features, not a developer-facing tool for coding, agents, or AI
+    infrastructure; its primary identity is task and calendar management, not software development workflows.
   evidence:
-    - "Scraped site context: Routine combines tasks, calendars, and notes into an AI-powered workspace for professionals and teams."
-    - README excerpt emphasizes AI agents for automating mundane work, meeting notes, and voice delegation — not coding or development tasks.
-    - "Source-list context: Listed in awesome-mcp-servers as an 'Official Server' but described as a workspace tool, not MCP infrastructure."
+    - >-
+      Scraped site context: Routine combines tasks, calendars, and notes into an AI-powered workspace for professionals
+      and teams.
+    - >-
+      README excerpt emphasizes AI agents for automating mundane work, meeting notes, and voice delegation — not coding
+      or development tasks.
+    - >-
+      Source-list context: Listed in awesome-mcp-servers as an 'Official Server' but described as a workspace tool, not
+      MCP infrastructure.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:36:34.016Z"
+    updated_at: '2026-09-28T04:36:34.016Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,11 +96,19 @@ processing:
       input_hash: sha256:ece4c88b1b13ff7650e74394c90d5cfc229ad3b5f742e080a7fc9ef213034c35
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Routine is a general productivity platform with AI features, not a developer-facing tool for coding, agents, or AI infrastructure; its primary identity is task and calendar management, not software development workflows.
+      decision_reason: >-
+        Routine is a general productivity platform with AI features, not a developer-facing tool for coding, agents, or
+        AI infrastructure; its primary identity is task and calendar management, not software development workflows.
       decision_evidence:
-        - "Scraped site context: Routine combines tasks, calendars, and notes into an AI-powered workspace for professionals and teams."
-        - README excerpt emphasizes AI agents for automating mundane work, meeting notes, and voice delegation — not coding or development tasks.
-        - "Source-list context: Listed in awesome-mcp-servers as an 'Official Server' but described as a workspace tool, not MCP infrastructure."
+        - >-
+          Scraped site context: Routine combines tasks, calendars, and notes into an AI-powered workspace for
+          professionals and teams.
+        - >-
+          README excerpt emphasizes AI agents for automating mundane work, meeting notes, and voice delegation — not
+          coding or development tasks.
+        - >-
+          Source-list context: Listed in awesome-mcp-servers as an 'Official Server' but described as a workspace tool,
+          not MCP infrastructure.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

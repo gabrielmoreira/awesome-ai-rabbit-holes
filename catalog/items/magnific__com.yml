@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__magnific__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - UI Generators
         anchor_text: Freepik
         extracted_url: https://freepik.com
-        surrounding_text: "- **[Freepik](https://www.freepik.com/)** – AI design platform with image generation and mockup tools for UI designers."
+        surrounding_text: >-
+          - **[Freepik](https://www.freepik.com/)** – AI design platform with image generation and mockup tools for UI
+          designers.
         confidence: high
     - id: discovery__www__magnific__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +35,9 @@ provenance:
           - UI Generators
         anchor_text: Freepik
         extracted_url: https://www.freepik.com
-        surrounding_text: "- **[Freepik](https://www.freepik.com/)** – AI design platform with image generation and mockup tools for UI designers."
+        surrounding_text: >-
+          - **[Freepik](https://www.freepik.com/)** – AI design platform with image generation and mockup tools for UI
+          designers.
         confidence: high
 metadata:
   github:
@@ -51,8 +55,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Freepik (now Magnific) is a creative AI platform for generating, editing, and managing images, video, audio, and 3D content with MCP integration.
-  why_it_matters: It gives developers access to generative media tools via API and MCP for building AI-powered creative workflows inside agent-based applications.
+  summary: >-
+    Freepik (now Magnific) is a creative AI platform for generating, editing, and managing images, video, audio, and 3D
+    content with MCP integration.
+  why_it_matters: >-
+    It gives developers access to generative media tools via API and MCP for building AI-powered creative workflows
+    inside agent-based applications.
   mental_damage: Another 'everything AI' dashboard that makes you wonder if your IDE needs a background remover to feel complete.
   tags:
     - creative-tools
@@ -61,20 +69,24 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Freepik/Magnific is a generative media platform for creatives, not a developer-facing AI tool for coding, agents, or software workflows.
+  reason: >-
+    Freepik/Magnific is a generative media platform for creatives, not a developer-facing AI tool for coding, agents, or
+    software workflows.
   evidence:
-    - "Source-list placement: listed under 'UI Generators' in awesome-ai-coding-tools with no developer-tooling focus"
-    - "README/scraped context: emphasizes image/video/audio/3D generation, stock assets, and creative workflows — not code or agent interaction"
+    - 'Source-list placement: listed under ''UI Generators'' in awesome-ai-coding-tools with no developer-tooling focus'
+    - >-
+      README/scraped context: emphasizes image/video/audio/3D generation, stock assets, and creative workflows — not
+      code or agent interaction
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:42:46.690Z"
+    updated_at: '2026-09-28T04:42:46.690Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -87,17 +99,21 @@ processing:
       input_hash: sha256:907d4a41a15143389aade272608cc1d879bec33267c0da93ab3ceff1240130b1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Freepik/Magnific is a generative media platform for creatives, not a developer-facing AI tool for coding, agents, or software workflows.
+      decision_reason: >-
+        Freepik/Magnific is a generative media platform for creatives, not a developer-facing AI tool for coding,
+        agents, or software workflows.
       decision_evidence:
-        - "Source-list placement: listed under 'UI Generators' in awesome-ai-coding-tools with no developer-tooling focus"
-        - "README/scraped context: emphasizes image/video/audio/3D generation, stock assets, and creative workflows — not code or agent interaction"
+        - 'Source-list placement: listed under ''UI Generators'' in awesome-ai-coding-tools with no developer-tooling focus'
+        - >-
+          README/scraped context: emphasizes image/video/audio/3D generation, stock assets, and creative workflows — not
+          code or agent interaction
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.967Z"
+    updated_at: '2026-07-21T15:20:21.967Z'
     cause: null
     next_retry_at: null
   stars:

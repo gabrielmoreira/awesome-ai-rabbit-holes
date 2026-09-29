@@ -1,0 +1,79 @@
+id: github__brickfrog__moongate
+kind: github-repo
+name: brickfrog/moongate
+canonical_url: https://github.com/brickfrog/moongate
+identity:
+  github_repo: brickfrog/moongate
+provenance:
+  discoveries:
+    - id: discovery__github__brickfrog__moongate__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Moongate
+        extracted_url: https://github.com/brickfrog/moongate
+        surrounding_text: >-
+          - [Moongate](https://github.com/brickfrog/moongate) - GitHub Action that evaluates committed diffs against
+          JSON semantic rules with TypeSafe Jev and reports annotations from your thresholds. [Project
+          guide](community/projects/tools/moongate.md).
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    full_name: brickfrog/moongate
+    html_url: https://github.com/brickfrog/moongate
+    created_at: '2026-09-19T22:45:06Z'
+    pushed_at: '2026-09-20T15:40:29Z'
+    description: moonbit CI gate with jev
+    homepage: ''
+    topics:
+      - jev
+      - moonbit
+    last_checked_at: '2026-09-29T13:09:36.247Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:36.247Z'
+      bytes: 10035
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  evidence:
+    - Jev classification confidence below inclusion threshold
+placement:
+  primary_category: null
+  secondary_categories: []
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.450Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:36.247Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

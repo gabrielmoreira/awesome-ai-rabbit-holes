@@ -1,0 +1,83 @@
+id: github__ac-kurniawan__jev-controller
+kind: github-repo
+name: ac-kurniawan/jev-controller
+canonical_url: https://github.com/ac-kurniawan/jev-controller
+identity:
+  github_repo: ac-kurniawan/jev-controller
+provenance:
+  discoveries:
+    - id: discovery__github__ac-kurniawan__jev-controller__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jev-controller
+        extracted_url: https://github.com/ac-kurniawan/jev-controller
+        surrounding_text: >-
+          - [jev-controller](https://github.com/ac-kurniawan/jev-controller) - Fail-open advisory post-tool controller
+          for OMP (oh-my-pi): asks TypeSafe Jev whether to inspect, edit, test, or ask the user—leaves the tool result
+          unchanged if Jev is unavailable. [Project guide](community/projects/tools/ac-kurniawan-jev-controller.md).
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: ac-kurniawan/jev-controller
+    html_url: https://github.com/ac-kurniawan/jev-controller
+    created_at: '2026-09-26T07:35:29Z'
+    pushed_at: '2026-09-26T07:48:11Z'
+    description: >-
+      Jev Controller is a fail-open advisory workflow controller for the OMP (oh-my-pi) coding agent. After each tool
+      result it asks TypeSafe Jev whether to inspect, edit, tests, or ask the user, and leaves the original result
+      unchanged if Jev is unavailable.
+    homepage: ''
+    topics: []
+    last_checked_at: '2026-09-29T13:08:26.193Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:26.193Z'
+      bytes: 5820
+insights:
+  summary: >-
+    Jev Controller is a fail-open advisory workflow controller for the OMP (oh-my-pi) coding agent. After each tool
+    result it asks TypeSafe Jev whether to inspect, edit, tests, or ask the user, and leaves the original result
+    unchanged if Jev is unavailable.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.65
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.446Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:26.193Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

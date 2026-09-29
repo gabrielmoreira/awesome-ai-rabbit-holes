@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__devdocs__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: DevDocs.io
         extracted_url: https://devdocs.io
-        surrounding_text: "- [madhan-g-p/DevDocs-MCP](https://github.com/madhan-g-p/DevDocs-MCP) 📇 🏠 🍎 🐧 - DevDocs-MCP is a MCP server that provides version-pinned, deterministic documentation sourced from [DevDocs.io](https://devdocs.io) in offline mode"
+        surrounding_text: >-
+          - [madhan-g-p/DevDocs-MCP](https://github.com/madhan-g-p/DevDocs-MCP) 📇 🏠 🍎 🐧 - DevDocs-MCP is a MCP
+          server that provides version-pinned, deterministic documentation sourced from [DevDocs.io](https://devdocs.io)
+          in offline mode
         confidence: high
 metadata:
   github:
@@ -37,9 +40,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A fast, offline documentation browser that allows developers to search through over 100 different programming language and web technology documentations in a single web application.
-  why_it_matters: It provides a centralized, high-speed way to access critical API references without the friction of multiple open tabs or slow-loading official sites.
-  mental_damage: Nothing prepares you for the sudden realization of how many browser tabs you've been hoarding just to keep track of syntax.
+  summary: >-
+    A fast, offline documentation browser that allows developers to search through over 100 different programming
+    language and web technology documentations in a single web application.
+  why_it_matters: >-
+    It provides a centralized, high-speed way to access critical API references without the friction of multiple open
+    tabs or slow-loading official sites.
+  mental_damage: >-
+    Nothing prepares you for the sudden realization of how many browser tabs you've been hoarding just to keep track of
+    syntax.
   tags:
     - documentation
     - developer-tools
@@ -48,7 +57,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is a standalone utility for documentation browsing rather than a developer-facing AI tool, framework, or workflow integration.
+  reason: >-
+    The project is a standalone utility for documentation browsing rather than a developer-facing AI tool, framework, or
+    workflow integration.
   evidence:
     - Scraped site context defines it as a documentation browser.
     - README/Site claims focus on offline search for 100+ docs.
@@ -57,12 +68,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,10 +82,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:37:30.851Z"
+    updated_at: '2026-09-24T04:37:30.851Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for devdocs__io: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (51/16)"
+      message: >-
+        Catalog LLM categorization failed for devdocs__io: Upstream error from Nvidia: ResourceExhausted: Worker local
+        total request limit reached (51/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -86,7 +99,9 @@ processing:
       input_hash: sha256:798d59e7a286322ee49108edbcc78f218d2778649b5d474d6cbf5d90d7639166
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a standalone utility for documentation browsing rather than a developer-facing AI tool, framework, or workflow integration.
+      decision_reason: >-
+        The project is a standalone utility for documentation browsing rather than a developer-facing AI tool,
+        framework, or workflow integration.
       decision_evidence:
         - Scraped site context defines it as a documentation browser.
         - README/Site claims focus on offline search for 100+ docs.

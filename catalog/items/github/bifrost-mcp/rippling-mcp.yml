@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bifrost-mcp__rippling-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-01T14:31:13.862Z"
+      discovered_at: '2026-09-01T14:31:13.862Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -17,9 +17,12 @@ provenance:
         mode: parsed
         section_path:
           - 💬 Communication
-        anchor_text: "@bifrost-mcp/rippling-mcp"
+        anchor_text: '@bifrost-mcp/rippling-mcp'
         extracted_url: https://github.com/bifrost-mcp/rippling-mcp
-        surrounding_text: "-   **[@bifrost-mcp/rippling-mcp](https://github.com/bifrost-mcp/rippling-mcp)** [![GitHub stars](https://img.shields.io/github/stars/bifrost-mcp/rippling-mcp?style=social)](https://github.com/bifrost-mcp/rippling-mcp): Integrates with Rippling HR, IT, and Finance platform for employee and company management."
+        surrounding_text: >-
+          -   **[@bifrost-mcp/rippling-mcp](https://github.com/bifrost-mcp/rippling-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/bifrost-mcp/rippling-mcp?style=social)](https://github.com/bifrost-mcp/rippling-mcp):
+          Integrates with Rippling HR, IT, and Finance platform for employee and company management.
         confidence: high
 metadata:
   github:
@@ -29,19 +32,25 @@ metadata:
     archived: false
     full_name: bifrost-mcp/rippling-mcp
     html_url: https://github.com/bifrost-mcp/rippling-mcp
-    created_at: "2026-02-07T00:10:05Z"
-    pushed_at: "2026-02-07T23:37:19Z"
-    description: MCP server for Rippling HR/IT/Finance platform — 18 tools for employees, departments, leave, groups, and company data
+    created_at: '2026-02-07T00:10:05Z'
+    pushed_at: '2026-02-07T23:37:19Z'
+    description: >-
+      MCP server for Rippling HR/IT/Finance platform — 18 tools for employees, departments, leave, groups, and company
+      data
     homepage: null
     topics: []
-    last_checked_at: "2026-09-24T04:12:58.777Z"
+    last_checked_at: '2026-09-24T04:12:58.777Z'
     readme:
-      fetched_at: "2026-09-24T04:12:58.777Z"
+      fetched_at: '2026-09-24T04:12:58.777Z'
       bytes: 4671
 insights:
-  summary: An MCP server that exposes Rippling HR/IT/Finance platform data and actions via the Model Context Protocol for AI agent consumption.
+  summary: >-
+    An MCP server that exposes Rippling HR/IT/Finance platform data and actions via the Model Context Protocol for AI
+    agent consumption.
   why_it_matters: Lets developers connect AI agents to Rippling data using a standardized interface, avoiding custom API glue code.
-  mental_damage: Another niche MCP server adding to the growing list of 'AI can now talk to your SaaS' wrappers that agents will rarely use.
+  mental_damage: >-
+    Another niche MCP server adding to the growing list of 'AI can now talk to your SaaS' wrappers that agents will
+    rarely use.
   tags:
     - mcp
     - hr
@@ -49,32 +58,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product's primary identity is an MCP server exposing Rippling platform capabilities, fitting the MCP ecosystem category where the protocol is the core offering.
+  reason: >-
+    The product's primary identity is an MCP server exposing Rippling platform capabilities, fitting the MCP ecosystem
+    category where the protocol is the core offering.
   evidence:
-    - "Repo description: 'MCP server for Rippling HR/IT/Finance platform'"
-    - "README: 'An open-source Model Context Protocol (MCP) server for the Rippling platform'"
+    - 'Repo description: ''MCP server for Rippling HR/IT/Finance platform'''
+    - 'README: ''An open-source Model Context Protocol (MCP) server for the Rippling platform'''
     - Lists 18 tools exposed via MCP for employee, leave, groups, and company data
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Cloud & API Integration
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-01T14:31:13.864Z"
+    updated_at: '2026-09-01T14:31:13.864Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:12:58.777Z"
+    updated_at: '2026-09-24T04:12:58.777Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:56:03.065Z"
+    updated_at: '2026-09-28T04:56:03.065Z'
     cause: null
     next_retry_at: null
     classification:
@@ -84,15 +95,19 @@ processing:
       input_hash: sha256:01139cec9e1cfd7e0e64dae1b17699e1693d13899d36b5360d5cf08fa61a29fe
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's primary identity is an MCP server exposing Rippling platform capabilities, fitting the MCP ecosystem category where the protocol is the core offering.
+      decision_reason: >-
+        The product's primary identity is an MCP server exposing Rippling platform capabilities, fitting the MCP
+        ecosystem category where the protocol is the core offering.
       decision_evidence:
-        - "Repo description: 'MCP server for Rippling HR/IT/Finance platform'"
-        - "README: 'An open-source Model Context Protocol (MCP) server for the Rippling platform'"
+        - 'Repo description: ''MCP server for Rippling HR/IT/Finance platform'''
+        - 'README: ''An open-source Model Context Protocol (MCP) server for the Rippling platform'''
         - Lists 18 tools exposed via MCP for employee, leave, groups, and company data
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server whose identity is the protocol itself, not an add-on that extends a coding agent or editor.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product is an MCP server whose identity is the protocol
+        itself, not an add-on that extends a coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 2

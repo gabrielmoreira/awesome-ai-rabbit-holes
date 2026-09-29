@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__facebookresearch__segment-anything__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - CV Foundation Model
         anchor_text: segment-anything (SAM)
         extracted_url: https://github.com/facebookresearch/segment-anything
-        surrounding_text: "| [segment-anything (SAM)](https://github.com/facebookresearch/segment-anything) | produces high quality object masks from input prompts such as points or boxes, and it can be used to generate masks for all objects in an image. | ![GitHub Badge](https://img.shields.io/github/stars/facebookresearch/segment-anything.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [segment-anything (SAM)](https://github.com/facebookresearch/segment-anything) | produces high quality
+          object masks from input prompts such as points or boxes, and it can be used to generate masks for all objects
+          in an image. | ![GitHub
+          Badge](https://img.shields.io/github/stars/facebookresearch/segment-anything.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -30,17 +34,21 @@ metadata:
     archived: false
     full_name: facebookresearch/segment-anything
     html_url: https://github.com/facebookresearch/segment-anything
-    created_at: "2023-03-23T17:03:03Z"
-    pushed_at: "2024-09-18T17:46:55Z"
-    description: The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.
-    homepage: ""
+    created_at: '2023-03-23T17:03:03Z'
+    pushed_at: '2024-09-18T17:46:55Z'
+    description: >-
+      The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the
+      trained model checkpoints, and example notebooks that show how to use the model.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-08-27T09:23:27.557Z"
+    last_checked_at: '2026-08-27T09:23:27.557Z'
     readme:
-      fetched_at: "2026-08-27T09:23:27.557Z"
+      fetched_at: '2026-08-27T09:23:27.557Z'
       bytes: 9621
 insights:
-  summary: Segment Anything Model (SAM) is a foundation model for promptable image segmentation that generates object masks from points, boxes, or text prompts.
+  summary: >-
+    Segment Anything Model (SAM) is a foundation model for promptable image segmentation that generates object masks
+    from points, boxes, or text prompts.
   why_it_matters: Enables zero-shot image segmentation for developers building CV pipelines without training data or fine-tuning.
   mental_damage: Another powerful vision model that makes you wonder why you ever bothered labeling pixels by hand.
   tags:
@@ -50,31 +58,40 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Segment Anything is a pure ML model repo without developer-facing tooling, SDK, or integration layer; it provides model checkpoints and inference code but no workflow, agent, or app-building functionality relevant to software developers.
+  reason: >-
+    Segment Anything is a pure ML model repo without developer-facing tooling, SDK, or integration layer; it provides
+    model checkpoints and inference code but no workflow, agent, or app-building functionality relevant to software
+    developers.
   evidence:
-    - "Repo description: provides code for running inference with SAM, links for downloading trained model checkpoints, and example notebooks"
-    - README focuses on model usage via Python scripts and CLI for mask generation from prompts, not developer tooling or integration
-    - No evidence of agent behavior, coding assistance, workflow orchestration, or app building, or developer tooling beyond running the model
+    - >-
+      Repo description: provides code for running inference with SAM, links for downloading trained model checkpoints,
+      and example notebooks
+    - >-
+      README focuses on model usage via Python scripts and CLI for mask generation from prompts, not developer tooling
+      or integration
+    - >-
+      No evidence of agent behavior, coding assistance, workflow orchestration, or app building, or developer tooling
+      beyond running the model
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (54092) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:27.557Z"
+    updated_at: '2026-08-27T09:23:27.557Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -89,11 +106,20 @@ processing:
       input_hash: sha256:d39cf2046dfbc593a382c0c182015cef577a1119d5e116796b7e504f9bf5fa16
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Segment Anything is a pure ML model repo without developer-facing tooling, SDK, or integration layer; it provides model checkpoints and inference code but no workflow, agent, or app-building functionality relevant to software developers.
+      decision_reason: >-
+        Segment Anything is a pure ML model repo without developer-facing tooling, SDK, or integration layer; it
+        provides model checkpoints and inference code but no workflow, agent, or app-building functionality relevant to
+        software developers.
       decision_evidence:
-        - "Repo description: provides code for running inference with SAM, links for downloading trained model checkpoints, and example notebooks"
-        - README focuses on model usage via Python scripts and CLI for mask generation from prompts, not developer tooling or integration
-        - No evidence of agent behavior, coding assistance, workflow orchestration, or app building, or developer tooling beyond running the model
+        - >-
+          Repo description: provides code for running inference with SAM, links for downloading trained model
+          checkpoints, and example notebooks
+        - >-
+          README focuses on model usage via Python scripts and CLI for mask generation from prompts, not developer
+          tooling or integration
+        - >-
+          No evidence of agent behavior, coding assistance, workflow orchestration, or app building, or developer
+          tooling beyond running the model
       category_candidates: []
       contrastive_reason: null
       review_reason: null

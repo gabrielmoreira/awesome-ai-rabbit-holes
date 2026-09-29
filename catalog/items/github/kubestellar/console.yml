@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kubestellar__console__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,10 +20,14 @@ provenance:
           - Frameworks/Servers for Serving
         anchor_text: KubeStellar Console
         extracted_url: https://github.com/kubestellar/console
-        surrounding_text: "| [KubeStellar Console](https://github.com/kubestellar/console) | AI-powered multi-cluster Kubernetes dashboard for hybrid edge and cloud. GPU monitoring, LLM inference cluster management, benchmark streaming, and 20+ CNCF integrations. CNCF Sandbox (Apache 2.0). | ![GitHub Badge](https://img.shields.io/github/stars/kubestellar/console.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [KubeStellar Console](https://github.com/kubestellar/console) | AI-powered multi-cluster Kubernetes
+          dashboard for hybrid edge and cloud. GPU monitoring, LLM inference cluster management, benchmark streaming,
+          and 20+ CNCF integrations. CNCF Sandbox (Apache 2.0). | ![GitHub
+          Badge](https://img.shields.io/github/stars/kubestellar/console.svg?style=flat-square) |
         confidence: high
     - id: discovery__github__kubestellar__console__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-27T06:08:24.604Z"
+      discovered_at: '2026-08-27T06:08:24.604Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -36,10 +40,14 @@ provenance:
           - Agent infrastructure
         anchor_text: KubeStellar kc-agent
         extracted_url: https://github.com/kubestellar/console
-        surrounding_text: "- **[KubeStellar kc-agent](https://github.com/kubestellar/console/tree/main/cmd/kc-agent)** `⭐ 127` — Local Go daemon from the KubeStellar Console that auto-detects installed coding agents (Claude CLI, Codex, Copilot CLI, Gemini CLI, goose) and gives them cluster-aware execution against your kubeconfig contexts — kubectl, Helm, and multi-cluster fan-out. Star count is the parent console repo. Apache-2.0."
+        surrounding_text: >-
+          - **[KubeStellar kc-agent](https://github.com/kubestellar/console/tree/main/cmd/kc-agent)** `⭐ 127` — Local Go
+          daemon from the KubeStellar Console that auto-detects installed coding agents (Claude CLI, Codex, Copilot CLI,
+          Gemini CLI, goose) and gives them cluster-aware execution against your kubeconfig contexts — kubectl, Helm,
+          and multi-cluster fan-out. Star count is the parent console repo. Apache-2.0.
         confidence: high
     - id: discovery__github__kubestellar__console__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-17T04:13:23.413Z"
+      discovered_at: '2026-09-17T04:13:23.413Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -52,10 +60,14 @@ provenance:
           - ☁️ Cloud Platforms
         anchor_text: kubestellar/console
         extracted_url: https://github.com/kubestellar/console
-        surrounding_text: "-   **[kubestellar/console](https://github.com/kubestellar/console)** [![GitHub stars](https://img.shields.io/github/stars/kubestellar/console?style=social)](https://github.com/kubestellar/console): Multi-cluster Kubernetes MCP server (kc-agent) for AI-assisted operations across edge and cloud clusters. 50+ tools for workload placement, policy enforcement, and observability."
+        surrounding_text: >-
+          -   **[kubestellar/console](https://github.com/kubestellar/console)** [![GitHub
+          stars](https://img.shields.io/github/stars/kubestellar/console?style=social)](https://github.com/kubestellar/console):
+          Multi-cluster Kubernetes MCP server (kc-agent) for AI-assisted operations across edge and cloud clusters. 50+
+          tools for workload placement, policy enforcement, and observability.
         confidence: high
     - id: discovery__github__kubestellar__console__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-09-21T04:13:39.852Z"
+      discovered_at: '2026-09-21T04:13:39.852Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -67,7 +79,10 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: KubeStellar Console
         extracted_url: https://github.com/kubestellar/console
-        surrounding_text: "- **[KubeStellar Console](https://github.com/kubestellar/console)** – Open-source multi-cluster Kubernetes dashboard with an MCP server (kc-agent) enabling AI coding agents to query and manage clusters via natural language."
+        surrounding_text: >-
+          - **[KubeStellar Console](https://github.com/kubestellar/console)** – Open-source multi-cluster Kubernetes
+          dashboard with an MCP server (kc-agent) enabling AI coding agents to query and manage clusters via natural
+          language.
         confidence: high
 metadata:
   github:
@@ -77,19 +92,25 @@ metadata:
     archived: false
     full_name: kubestellar/console
     html_url: https://github.com/kubestellar/console
-    created_at: "2026-01-16T06:32:19Z"
-    pushed_at: "2026-07-30T04:49:44Z"
+    created_at: '2026-01-16T06:32:19Z'
+    pushed_at: '2026-07-30T04:49:44Z'
     description: World's first fully integrated and fully Automated Kubernetes management and orchestration solution
     homepage: https://console.kubestellar.io
     topics: []
-    last_checked_at: "2026-07-30T05:05:58.863Z"
+    last_checked_at: '2026-07-30T05:05:58.863Z'
     readme:
-      fetched_at: "2026-07-30T05:05:58.863Z"
+      fetched_at: '2026-07-30T05:05:58.863Z'
       bytes: 36229
 insights:
-  summary: KubeStellar Console is a Kubernetes dashboard with AI-powered guided missions for multi-cluster management and CNCF project integration.
-  why_it_matters: It simplifies Kubernetes operations by combining a unified dashboard with AI-guided setup for complex workloads across clusters.
-  mental_damage: Another dashboard promising to fix Kubernetes complexity, as if YAML wasn't already abstracted enough by the last seven tools.
+  summary: >-
+    KubeStellar Console is a Kubernetes dashboard with AI-powered guided missions for multi-cluster management and CNCF
+    project integration.
+  why_it_matters: >-
+    It simplifies Kubernetes operations by combining a unified dashboard with AI-guided setup for complex workloads
+    across clusters.
+  mental_damage: >-
+    Another dashboard promising to fix Kubernetes complexity, as if YAML wasn't already abstracted enough by the last
+    seven tools.
   tags:
     - kubernetes
     - dashboard
@@ -99,31 +120,37 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is primarily a Kubernetes operations dashboard with AI-assisted setup, not a developer-facing coding assistant, agent, or AI tooling product.
+  reason: >-
+    The tool is primarily a Kubernetes operations dashboard with AI-assisted setup, not a developer-facing coding
+    assistant, agent, or AI tooling product.
   evidence:
-    - "Repo description: 'World's first fully integrated and fully Automated Kubernetes management and orchestration solution'"
-    - "README: 'AI-powered multi-cluster Kubernetes dashboard with guided install missions for 250+ CNCF projects'"
-    - "Source-list context: Included in Awesome-LLMOps under Serving > Frameworks/Servers for Serving, indicating infrastructure/tooling use, not developer-facing AI coding assistance"
+    - >-
+      Repo description: 'World's first fully integrated and fully Automated Kubernetes management and orchestration
+      solution'
+    - 'README: ''AI-powered multi-cluster Kubernetes dashboard with guided install missions for 250+ CNCF projects'''
+    - >-
+      Source-list context: Included in Awesome-LLMOps under Serving > Frameworks/Servers for Serving, indicating
+      infrastructure/tooling use, not developer-facing AI coding assistance
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-21T04:13:39.854Z"
+    updated_at: '2026-09-21T04:13:39.854Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:58.863Z"
+    updated_at: '2026-07-30T05:05:58.863Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

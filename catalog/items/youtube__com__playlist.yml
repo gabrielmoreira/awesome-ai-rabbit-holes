@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__youtube__com__playlist__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,10 +19,10 @@ provenance:
           - Videos Playlists
         anchor_text: LangChain Tutorials Playlist
         extracted_url: https://www.youtube.com/playlist
-        surrounding_text: "- [LangChain Tutorials Playlist](https://www.youtube.com/playlist?list=PL611FKPtL866MnlDPHvI3KwVGqCB-QJAx)"
+        surrounding_text: '- [LangChain Tutorials Playlist](https://www.youtube.com/playlist?list=PL611FKPtL866MnlDPHvI3KwVGqCB-QJAx)'
         confidence: high
     - id: discovery__www__youtube__com__playlist__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -32,12 +32,14 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: "Andrej Karpathy - Neural Networks: Zero to Hero"
+        anchor_text: 'Andrej Karpathy - Neural Networks: Zero to Hero'
         extracted_url: https://www.youtube.com/playlist
-        surrounding_text: "30. [Andrej Karpathy - Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)"
+        surrounding_text: >-
+          30. [Andrej Karpathy - Neural Networks: Zero to
+          Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
         confidence: high
     - id: discovery__youtube__com__playlist__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -50,10 +52,10 @@ provenance:
           - Videos Playlists
         anchor_text: LangChain Tutorials Playlist
         extracted_url: https://youtube.com/playlist
-        surrounding_text: "- [LangChain Tutorials Playlist](https://www.youtube.com/playlist?list=PL611FKPtL866MnlDPHvI3KwVGqCB-QJAx)"
+        surrounding_text: '- [LangChain Tutorials Playlist](https://www.youtube.com/playlist?list=PL611FKPtL866MnlDPHvI3KwVGqCB-QJAx)'
         confidence: high
     - id: discovery__youtube__com__playlist__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -63,9 +65,11 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: "Andrej Karpathy - Neural Networks: Zero to Hero"
+        anchor_text: 'Andrej Karpathy - Neural Networks: Zero to Hero'
         extracted_url: https://youtube.com/playlist
-        surrounding_text: "30. [Andrej Karpathy - Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)"
+        surrounding_text: >-
+          30. [Andrej Karpathy - Neural Networks: Zero to
+          Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
         confidence: high
 metadata:
   github:
@@ -85,7 +89,9 @@ metadata:
 insights:
   summary: A YouTube playlist of tutorials for the LangChain framework.
   why_it_matters: Helps developers learn how to use LangChain for building LLM-powered applications through video instruction.
-  mental_damage: Another reminder that keeping up with AI means treating YouTube algorithmically curated playlists like canonical documentation.
+  mental_damage: >-
+    Another reminder that keeping up with AI means treating YouTube algorithmically curated playlists like canonical
+    documentation.
   tags:
     - langchain
     - tutorial
@@ -103,12 +109,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:51:42.760Z"
+    updated_at: '2026-09-28T04:51:42.760Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -132,7 +138,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.688Z"
+    updated_at: '2026-07-20T15:10:47.688Z'
     cause: null
     next_retry_at: null
   stars:

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__boltmcp__boltmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: wegotdocs/open-mcp
         extracted_url: https://github.com/wegotdocs/open-mcp
-        surrounding_text: "- [wegotdocs/open-mcp](https://github.com/wegotdocs/open-mcp) 📇 🏠 🍎 🪟 🐧 - Turn a web API into an MCP server in 10 seconds and add it to the open source registry: https://open-mcp.org"
+        surrounding_text: >-
+          - [wegotdocs/open-mcp](https://github.com/wegotdocs/open-mcp) 📇 🏠 🍎 🪟 🐧 - Turn a web API into an MCP
+          server in 10 seconds and add it to the open source registry: https://open-mcp.org
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: boltmcp/boltmcp
     html_url: https://github.com/boltmcp/boltmcp
-    created_at: "2025-03-27T14:40:31Z"
-    pushed_at: "2026-09-21T11:23:30Z"
+    created_at: '2025-03-27T14:40:31Z'
+    pushed_at: '2026-09-21T11:23:30Z'
     description: null
     homepage: https://install.boltmcp.io
     topics:
@@ -40,13 +42,15 @@ metadata:
       - mcp
       - mcp-server
       - skills
-    last_checked_at: "2026-09-24T04:13:02.119Z"
+    last_checked_at: '2026-09-24T04:13:02.119Z'
     readme:
-      fetched_at: "2026-09-24T04:13:02.119Z"
+      fetched_at: '2026-09-24T04:13:02.119Z'
       bytes: 994
 insights:
   summary: BoltMCP is an MCP server that installs via Helm chart to expose cluster management capabilities to AI agents.
-  why_it_matters: It lets developers provision and manage Kubernetes infrastructure through natural language in coding agents like Claude Code.
+  why_it_matters: >-
+    It lets developers provision and manage Kubernetes infrastructure through natural language in coding agents like
+    Claude Code.
   mental_damage: Yet another way to feel powerful while secretly hoping your AI won't delete production.
   tags:
     - mcp
@@ -55,7 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: BoltMCP's core identity is providing MCP server functionality for Kubernetes cluster management, making MCP its primary purpose rather than a secondary feature.
+  reason: >-
+    BoltMCP's core identity is providing MCP server functionality for Kubernetes cluster management, making MCP its
+    primary purpose rather than a secondary feature.
   evidence:
     - Repository topics include mcp, mcp-server, and skills indicating MCP focus
     - README describes installation via Helm chart to expose infrastructure to Claude Code agent
@@ -65,22 +71,22 @@ placement:
   secondary_categories: []
   section: Cloud & API Integration
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (371) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:02.119Z"
+    updated_at: '2026-09-24T04:13:02.119Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:57:41.753Z"
+    updated_at: '2026-09-28T04:57:41.753Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -93,7 +99,9 @@ processing:
       input_hash: sha256:4dd6f84ec393b93951bae7e389a114d225d550649bf54a99eaf01f1e7bf3436c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: BoltMCP's core identity is providing MCP server functionality for Kubernetes cluster management, making MCP its primary purpose rather than a secondary feature.
+      decision_reason: >-
+        BoltMCP's core identity is providing MCP server functionality for Kubernetes cluster management, making MCP its
+        primary purpose rather than a secondary feature.
       decision_evidence:
         - Repository topics include mcp, mcp-server, and skills indicating MCP focus
         - README describes installation via Helm chart to expose infrastructure to Claude Code agent
@@ -101,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because BoltMCP is an MCP server exposing infrastructure capabilities, not primarily an extension that augments another agent's functionality.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because BoltMCP is an MCP server exposing infrastructure capabilities, not
+        primarily an extension that augments another agent's functionality.
       review_reason: null
       review_resume_lifecycle: null

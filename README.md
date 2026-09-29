@@ -14,6 +14,7 @@ Pick one rabbit hole, follow it until it becomes useful or emotionally dangerous
 ## Rabbit Holes
 
 - [Coding Agents](docs/rabbit-holes/coding-agents.md) — Agents that directly act on code: planning, writing, editing, reviewing, testing, and repairing across a terminal, IDE, browser, or operating system.
+- [Decision Models](docs/rabbit-holes/decision-models.md) — Models that answer typed questions with probabilities instead of generating text — Jev (TypeSafe System One), open Jev-like decision models, the servers and gateways that expose them, and the tooling built on their judgments.
 - [App Builders](docs/rabbit-holes/ai-app-builders.md) — Products that generate complete apps, websites, dashboards, or scaffolds from prompts — the user starts from zero and receives a deployable artifact.
 - [Extensions & Add-ons](docs/rabbit-holes/extensions-and-addons.md) — Plugins, integrations, and tools that extend a coding agent, editor, or development workflow rather than standing alone as a primary product.
 - [MCP Ecosystem](docs/rabbit-holes/mcp.md) — Servers, clients, registries, and infrastructure for the Model Context Protocol — the standard that lets AI agents talk to tools and data sources through a shared interface.

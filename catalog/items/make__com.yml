@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__make__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,12 @@ provenance:
           - Official Servers
         anchor_text: Make
         extracted_url: https://make.com
-        surrounding_text: "- **[Make](https://github.com/integromat/make-mcp-server)** - Turn your [Make](https://www.make.com/) scenarios into callable tools for AI assistants."
+        surrounding_text: >-
+          - **[Make](https://github.com/integromat/make-mcp-server)** - Turn your [Make](https://www.make.com/)
+          scenarios into callable tools for AI assistants.
         confidence: high
     - id: discovery__www__make__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +35,9 @@ provenance:
           - Official Servers
         anchor_text: Make
         extracted_url: https://www.make.com
-        surrounding_text: "- **[Make](https://github.com/integromat/make-mcp-server)** - Turn your [Make](https://www.make.com/) scenarios into callable tools for AI assistants."
+        surrounding_text: >-
+          - **[Make](https://github.com/integromat/make-mcp-server)** - Turn your [Make](https://www.make.com/)
+          scenarios into callable tools for AI assistants.
         confidence: high
 metadata:
   github:
@@ -52,8 +56,12 @@ metadata:
     readme: null
 insights:
   summary: Make is a no-code workflow automation platform that connects apps and services through visual scenarios.
-  why_it_matters: It lets developers automate multi-step processes across tools without writing code, reducing manual integration effort.
-  mental_damage: Another visual workflow builder promising to eliminate boilerplate, while quietly becoming the new boilerplate itself.
+  why_it_matters: >-
+    It lets developers automate multi-step processes across tools without writing code, reducing manual integration
+    effort.
+  mental_damage: >-
+    Another visual workflow builder promising to eliminate boilerplate, while quietly becoming the new boilerplate
+    itself.
   tags:
     - workflow
     - automation
@@ -61,21 +69,24 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Make is a general-purpose workflow automation platform whose primary identity is not AI-specific, developer-facing tooling, nor does it function as a coding agent, app builder, or infrastructure tool relevant to software developers in this catalog.
+  reason: >-
+    Make is a general-purpose workflow automation platform whose primary identity is not AI-specific, developer-facing
+    tooling, nor does it function as a coding agent, app builder, or infrastructure tool relevant to software developers
+    in this catalog.
   evidence:
-    - "Repo description: (none)"
-    - "Source-list context: listed in awesome-mcp-servers as an MCP server, but MCP is not its primary identity"
+    - 'Repo description: (none)'
+    - 'Source-list context: listed in awesome-mcp-servers as an MCP server, but MCP is not its primary identity'
     - No evidence of AI-native functionality, developer tooling, or code-centric workflows in provided inputs
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:42:38.501Z"
+    updated_at: '2026-09-28T04:42:38.501Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,10 +99,13 @@ processing:
       input_hash: sha256:d7c8782fbe15a07ffaf55892059b44f362afcc738e9d8ebaaff2adc535f33865
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Make is a general-purpose workflow automation platform whose primary identity is not AI-specific, developer-facing tooling, nor does it function as a coding agent, app builder, or infrastructure tool relevant to software developers in this catalog.
+      decision_reason: >-
+        Make is a general-purpose workflow automation platform whose primary identity is not AI-specific,
+        developer-facing tooling, nor does it function as a coding agent, app builder, or infrastructure tool relevant
+        to software developers in this catalog.
       decision_evidence:
-        - "Repo description: (none)"
-        - "Source-list context: listed in awesome-mcp-servers as an MCP server, but MCP is not its primary identity"
+        - 'Repo description: (none)'
+        - 'Source-list context: listed in awesome-mcp-servers as an MCP server, but MCP is not its primary identity'
         - No evidence of AI-native functionality, developer tooling, or code-centric workflows in provided inputs
       category_candidates: []
       contrastive_reason: null
@@ -99,7 +113,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.967Z"
+    updated_at: '2026-07-21T15:20:21.967Z'
     cause: null
     next_retry_at: null
   stars:

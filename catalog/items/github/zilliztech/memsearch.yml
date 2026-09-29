@@ -1,0 +1,111 @@
+id: github__zilliztech__memsearch
+kind: github-repo
+name: zilliztech/memsearch
+canonical_url: https://github.com/zilliztech/memsearch
+identity:
+  github_repo: zilliztech/memsearch
+provenance:
+  discoveries:
+    - id: discovery__github__zilliztech__memsearch__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: memsearch
+        extracted_url: https://github.com/zilliztech/memsearch
+        surrounding_text: >-
+          | [memsearch](https://github.com/zilliztech/memsearch) | ★ 2,654 | Python | 2026-09-25 | Agent memory search
+          with optional Jev relevance judgments to rerank retrieved passages. |
+        confidence: high
+    - id: discovery__github__zilliztech__memsearch__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Data & Search
+        anchor_text: '**memsearch**'
+        extracted_url: https://github.com/zilliztech/memsearch
+        surrounding_text: >-
+          - [**memsearch**](https://github.com/zilliztech/memsearch) — A persistent, unified memory layer for all your
+          AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.
+        confidence: high
+    - id: discovery__github__zilliztech__memsearch__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Scoring & Ranking
+        anchor_text: MemSearch Jev reranking
+        extracted_url: https://github.com/zilliztech/memsearch
+        surrounding_text: >-
+          - [MemSearch Jev
+          reranking](https://github.com/zilliztech/memsearch/blob/main/evaluation/reranking-evaluation.md)
+          ![stars](https://img.shields.io/github/stars/zilliztech/memsearch?style=flat-square&label=%E2%98%85) -
+          Coding-agent memory: an optional Jev reranker asks Noul questions about retrieved Markdown chunks and sorts
+          them by relevance to the query, with bilingual evaluation results.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Agent memory search with optional Jev relevance judgments to rerank retrieved passages.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
+  evidence:
+    - jev-latest choice confidence 0.83
+placement:
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.407Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

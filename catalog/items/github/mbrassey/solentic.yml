@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mbrassey__solentic__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: mbrassey/solentic
         extracted_url: https://github.com/mbrassey/solentic
-        surrounding_text: "- [mbrassey/solentic](https://github.com/mbrassey/solentic) [![solentic MCP server](https://glama.ai/mcp/servers/@blueprint-infrastructure/solentic/badges/score.svg)](https://glama.ai/mcp/servers/@blueprint-infrastructure/solentic) 📇 ☁️ - Native Solana staking infrastructure for AI agents — 18 MCP tools for stake, unstake, withdraw, simulate, and verify. Zero custody, unsigned transactions only, ~6% APY via Blueprint validator."
+        surrounding_text: >-
+          - [mbrassey/solentic](https://github.com/mbrassey/solentic) [![solentic MCP
+          server](https://glama.ai/mcp/servers/@blueprint-infrastructure/solentic/badges/score.svg)](https://glama.ai/mcp/servers/@blueprint-infrastructure/solentic)
+          📇 ☁️ - Native Solana staking infrastructure for AI agents — 18 MCP tools for stake, unstake, withdraw,
+          simulate, and verify. Zero custody, unsigned transactions only, ~6% APY via Blueprint validator.
         confidence: high
 metadata:
   github:
@@ -51,24 +55,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-08-03T05:16:58.357Z"
+    updated_at: '2026-08-03T05:16:58.357Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: mbrassey/solentic"
+      message: 'GitHub repository not found: mbrassey/solentic'
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

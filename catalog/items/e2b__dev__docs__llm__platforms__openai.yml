@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__e2b__dev__docs__llm__platforms__openai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -15,11 +15,11 @@ provenance:
       extraction:
         mode: parsed
         section_path:
-          - ":eight_pointed_black_star: AI apps & agents with sandbox integration or native support"
+          - ':eight_pointed_black_star: AI apps & agents with sandbox integration or native support'
           - OpenAI's Assistants
         anchor_text: OpenAI's Assistants
         extracted_url: https://e2b.dev/docs/llm-platforms/openai
-        surrounding_text: "### :eight_pointed_black_star: [OpenAI's Assistants](https://e2b.dev/docs/llm-platforms/openai/)"
+        surrounding_text: '### :eight_pointed_black_star: [OpenAI''s Assistants](https://e2b.dev/docs/llm-platforms/openai/)'
         confidence: high
 metadata:
   github:
@@ -38,7 +38,9 @@ metadata:
     readme: null
 insights:
   summary: Documentation for OpenAI's Assistants API within the E2B sandbox environment.
-  why_it_matters: Provides the technical implementation details for running OpenAI Assistants within secure, sandboxed code execution environments.
+  why_it_matters: >-
+    Provides the technical implementation details for running OpenAI Assistants within secure, sandboxed code execution
+    environments.
   mental_damage: Another layer of abstraction to debug when your agent's code execution fails in a sandbox.
   tags:
     - openai
@@ -56,12 +58,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,10 +72,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:39:14.067Z"
+    updated_at: '2026-09-24T04:39:14.067Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for e2b__dev__docs__llm__platforms__openai: Invalid AI response structure: Invalid confidence value: undefined"
+      message: >-
+        Catalog LLM categorization failed for e2b__dev__docs__llm__platforms__openai: Invalid AI response structure:
+        Invalid confidence value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

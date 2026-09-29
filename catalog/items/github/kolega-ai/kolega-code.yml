@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kolega-ai__kolega-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-27T06:08:24.604Z"
+      discovered_at: '2026-08-27T06:08:24.604Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,15 @@ provenance:
           - Open Source
         anchor_text: Kolega Code
         extracted_url: https://github.com/kolega-ai/kolega-code
-        surrounding_text: "- **[Kolega Code](https://github.com/kolega-ai/kolega-code)** `⭐ 15` — Python terminal coding agent where the model writes its own multi-agent workflows (Gigacode): the runtime enforces concurrency caps and token budgets, journals every completed agent call to disk, and replays unchanged calls for free on resume. 15+ providers, MCP over stdio/SSE/streamable HTTP, ACP, sandboxed shell and filesystem tools, git worktrees, and a browser agent. Source-available (BUSL-1.1)."
+        surrounding_text: >-
+          - **[Kolega Code](https://github.com/kolega-ai/kolega-code)** `⭐ 15` — Python terminal coding agent where the
+          model writes its own multi-agent workflows (Gigacode): the runtime enforces concurrency caps and token
+          budgets, journals every completed agent call to disk, and replays unchanged calls for free on resume. 15+
+          providers, MCP over stdio/SSE/streamable HTTP, ACP, sandboxed shell and filesystem tools, git worktrees, and a
+          browser agent. Source-available (BUSL-1.1).
         confidence: high
     - id: discovery__github__kolega-ai__kolega-code__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-09-24T04:12:55.276Z"
+      discovered_at: '2026-09-24T04:12:55.276Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -35,7 +40,9 @@ provenance:
           - Coding Agents
         anchor_text: Kolega Code
         extracted_url: https://github.com/kolega-ai/kolega-code
-        surrounding_text: "- **[Kolega Code](https://github.com/kolega-ai/kolega-code)** – Open-source terminal coding agent where the model writes its own multi-agent workflows (Gigacode), with 15+ providers and MCP support."
+        surrounding_text: >-
+          - **[Kolega Code](https://github.com/kolega-ai/kolega-code)** – Open-source terminal coding agent where the
+          model writes its own multi-agent workflows (Gigacode), with 15+ providers and MCP support.
         confidence: high
 metadata:
   github:
@@ -66,12 +73,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-24T04:12:55.278Z"
+    updated_at: '2026-09-24T04:12:55.278Z'
     cause: null
     next_retry_at: null
   stars:
@@ -80,7 +87,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__element__fm__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: ELEMENT.FM
         extracted_url: https://element.fm
-        surrounding_text: "- **[ELEMENT.FM](https://gitlab.com/elementfm/mcp)** - Create and publish unlimited podcast shows and episodes with [ELEMENT.FM](https://element.fm)"
+        surrounding_text: >-
+          - **[ELEMENT.FM](https://gitlab.com/elementfm/mcp)** - Create and publish unlimited podcast shows and episodes
+          with [ELEMENT.FM](https://element.fm)
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: An all-inclusive podcast hosting platform featuring AI-powered show notes and transcription.
-  why_it_matters: It provides automated content generation and distribution for creators looking to leverage AI for podcast production.
-  mental_damage: Because your podcast was already a full-time job, now it just has automated transcription to document the exhaustion.
+  why_it_matters: >-
+    It provides automated content generation and distribution for creators looking to leverage AI for podcast
+    production.
+  mental_damage: >-
+    Because your podcast was already a full-time job, now it just has automated transcription to document the
+    exhaustion.
   tags:
     - podcast-hosting
     - content-creation
@@ -55,12 +61,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,10 +75,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:39:10.267Z"
+    updated_at: '2026-09-24T04:39:10.267Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for element__fm: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for element__fm: Upstream error from Nvidia: ResourceExhausted: Worker local
+        total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

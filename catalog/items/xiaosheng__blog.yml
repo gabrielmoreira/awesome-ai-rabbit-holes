@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__xiaosheng__blog__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 教程 Tutorial
-        anchor_text: "Blog: 小昇的博客"
+        anchor_text: 'Blog: 小昇的博客'
         extracted_url: https://xiaosheng.blog
-        surrounding_text: "25. [Blog: 小昇的博客](https://xiaosheng.blog/)"
+        surrounding_text: '25. [Blog: 小昇的博客](https://xiaosheng.blog/)'
         confidence: high
 metadata:
   github:
@@ -45,7 +45,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The site returns a 404 error and offers no discernible content, tool, or developer-facing resource, making it impossible to assess as a tool or resource.
+  reason: >-
+    The site returns a 404 error and offers no discernible content, tool, or developer-facing resource, making it
+    impossible to assess as a tool or resource.
   evidence:
     - The primary page excerpt shows '404 Not Found'
     - No repo description, README, or meaningful site context was provided
@@ -54,12 +56,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.671Z"
+    updated_at: '2026-05-06T22:12:15.671Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +70,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:51:33.906Z"
+    updated_at: '2026-09-28T04:51:33.906Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -81,7 +83,9 @@ processing:
       input_hash: sha256:0cc6eeb2233ce7cc85df18e95830d632eeff98cb3fb87c897cb58a2f2866c4aa
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site returns a 404 error and offers no discernible content, tool, or developer-facing resource, making it impossible to assess as a tool or resource.
+      decision_reason: >-
+        The site returns a 404 error and offers no discernible content, tool, or developer-facing resource, making it
+        impossible to assess as a tool or resource.
       decision_evidence:
         - The primary page excerpt shows '404 Not Found'
         - No repo description, README, or meaningful site context was provided

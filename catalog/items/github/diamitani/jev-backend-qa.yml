@@ -1,0 +1,80 @@
+id: github__diamitani__jev-backend-qa
+kind: github-repo
+name: diamitani/jev-backend-qa
+canonical_url: https://github.com/diamitani/jev-backend-qa
+identity:
+  github_repo: diamitani/jev-backend-qa
+provenance:
+  discoveries:
+    - id: discovery__github__diamitani__jev-backend-qa__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jev-backend-qa
+        extracted_url: https://github.com/diamitani/jev-backend-qa
+        surrounding_text: >-
+          - [jev-backend-qa](https://github.com/diamitani/jev-backend-qa) - Backend QA agent with PAL/Jev adjudication
+          to BLOCK/WARN/PASS (CLI + GitHub Action). [Project guide](community/projects/tools/jev-backend-qa.md).
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: diamitani/jev-backend-qa
+    html_url: https://github.com/diamitani/jev-backend-qa
+    created_at: '2026-09-23T21:45:08Z'
+    pushed_at: '2026-09-23T21:45:48Z'
+    description: >-
+      Backend QA agent for Jev-powered builds — PAL/Jev-adjudicated BLOCK/WARN/PASS verdicts, one-command jev-qa CLI,
+      Rostr-native, GitHub Action gate.
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:10:40.311Z'
+    readme:
+      fetched_at: '2026-09-29T13:10:40.311Z'
+      bytes: 6672
+insights:
+  summary: >-
+    Backend QA agent for Jev-powered builds — PAL/Jev-adjudicated BLOCK/WARN/PASS verdicts, one-command jev-qa CLI,
+    Rostr-native, GitHub Action gate.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.74
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.454Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:10:40.311Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__sentius__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Sentius
         anchor_text: Sentius
         extracted_url: https://sentius.ai
-        surrounding_text: "## [Sentius](https://www.sentius.ai/)"
+        surrounding_text: '## [Sentius](https://www.sentius.ai/)'
         confidence: high
     - id: discovery__www__sentius__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Sentius
         anchor_text: Sentius
         extracted_url: https://www.sentius.ai
-        surrounding_text: "## [Sentius](https://www.sentius.ai/)"
+        surrounding_text: '## [Sentius](https://www.sentius.ai/)'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Sentius is an autonomous AI agent platform designed to execute business workflows and research tasks using map-based automation.
-  why_it_matters: It targets enterprise workflow automation by replacing manual, error-prone steps with auditable AI agents that operate across systems like Salesforce and QuickBooks.
-  mental_damage: Another 'AI agent' promising to free you from busywork while quietly adding another layer of tool sprawl to your already fragmented stack.
+  summary: >-
+    Sentius is an autonomous AI agent platform designed to execute business workflows and research tasks using map-based
+    automation.
+  why_it_matters: >-
+    It targets enterprise workflow automation by replacing manual, error-prone steps with auditable AI agents that
+    operate across systems like Salesforce and QuickBooks.
+  mental_damage: >-
+    Another 'AI agent' promising to free you from busywork while quietly adding another layer of tool sprawl to your
+    already fragmented stack.
   tags:
     - ai-agent
     - workflow-automation
@@ -61,22 +67,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Sentius is positioned as a general-purpose enterprise AI agent for back-office automation, not a developer-facing tool for coding, app-building, or workflow engineering relevant to software developers.
+  reason: >-
+    Sentius is positioned as a general-purpose enterprise AI agent for back-office automation, not a developer-facing
+    tool for coding, app-building, or workflow engineering relevant to software developers.
   evidence:
-    - Scraped site context describes use cases in finance, customer experience, and treasury management — automating compliance checks, client proposals, and payment forecasting.
-    - "Source-list placement in awesome-ai-agents under 'Sentius' with description: 'Level up your productivity. Experience Sentius, your AI companion that understands and executes your tasks based on your instructions.'"
-    - No evidence of developer-centric features like code editing, API/SDK exposure, IDE integration, or app generation from prompts.
+    - >-
+      Scraped site context describes use cases in finance, customer experience, and treasury management — automating
+      compliance checks, client proposals, and payment forecasting.
+    - >-
+      Source-list placement in awesome-ai-agents under 'Sentius' with description: 'Level up your productivity.
+      Experience Sentius, your AI companion that understands and executes your tasks based on your instructions.'
+    - >-
+      No evidence of developer-centric features like code editing, API/SDK exposure, IDE integration, or app generation
+      from prompts.
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:45:32.214Z"
+    updated_at: '2026-09-28T04:45:32.214Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,18 +103,26 @@ processing:
       input_hash: sha256:be069a03312bfc8a00632c5873fd71286bb93089066aa8973b47c9f84d76820a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Sentius is positioned as a general-purpose enterprise AI agent for back-office automation, not a developer-facing tool for coding, app-building, or workflow engineering relevant to software developers.
+      decision_reason: >-
+        Sentius is positioned as a general-purpose enterprise AI agent for back-office automation, not a
+        developer-facing tool for coding, app-building, or workflow engineering relevant to software developers.
       decision_evidence:
-        - Scraped site context describes use cases in finance, customer experience, and treasury management — automating compliance checks, client proposals, and payment forecasting.
-        - "Source-list placement in awesome-ai-agents under 'Sentius' with description: 'Level up your productivity. Experience Sentius, your AI companion that understands and executes your tasks based on your instructions.'"
-        - No evidence of developer-centric features like code editing, API/SDK exposure, IDE integration, or app generation from prompts.
+        - >-
+          Scraped site context describes use cases in finance, customer experience, and treasury management — automating
+          compliance checks, client proposals, and payment forecasting.
+        - >-
+          Source-list placement in awesome-ai-agents under 'Sentius' with description: 'Level up your productivity.
+          Experience Sentius, your AI companion that understands and executes your tasks based on your instructions.'
+        - >-
+          No evidence of developer-centric features like code editing, API/SDK exposure, IDE integration, or app
+          generation from prompts.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.970Z"
+    updated_at: '2026-07-21T15:20:21.970Z'
     cause: null
     next_retry_at: null
   stars:

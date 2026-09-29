@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__code__visualstudio__com__docs__chat__chat__overview__awesome-list__github__awesome-copilot
-      discovered_at: "2026-06-11T05:37:56.129Z"
+      discovered_at: '2026-06-11T05:37:56.129Z'
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -18,7 +18,9 @@ provenance:
           - 📚 Additional Resources
         anchor_text: GitHub Copilot Chat Documentation
         extracted_url: https://code.visualstudio.com/docs/copilot/chat/copilot-chat
-        surrounding_text: "- [GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/copilot/chat/copilot-chat) - Complete chat feature guide"
+        surrounding_text: >-
+          - [GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/copilot/chat/copilot-chat) - Complete
+          chat feature guide
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Official Visual Studio Code documentation page covering how to use the built-in chat interface with GitHub Copilot Chat, including sending requests, adding context, and reviewing AI-generated changes.
-  why_it_matters: Developers navigating VS Code's native AI features need reference material on chat mechanics, context handling, and checkpoint workflows to use the IDE's Copilot integration effectively.
-  mental_damage: We've reached the point where our impulse is to catalog the user manual alongside the tool, as if reading documentation were itself a developer workflow.
+  summary: >-
+    Official Visual Studio Code documentation page covering how to use the built-in chat interface with GitHub Copilot
+    Chat, including sending requests, adding context, and reviewing AI-generated changes.
+  why_it_matters: >-
+    Developers navigating VS Code's native AI features need reference material on chat mechanics, context handling, and
+    checkpoint workflows to use the IDE's Copilot integration effectively.
+  mental_damage: >-
+    We've reached the point where our impulse is to catalog the user manual alongside the tool, as if reading
+    documentation were itself a developer workflow.
   tags:
     - documentation
     - vscode
@@ -47,21 +55,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is an official documentation page for an existing IDE feature, not a standalone AI tool, extension, or product that developers adopt independently.
+  reason: >-
+    This is an official documentation page for an existing IDE feature, not a standalone AI tool, extension, or product
+    that developers adopt independently.
   evidence:
-    - The source URL is code.visualstudio.com/docs/chat/chat-overview, a documentation path rather than a repo or product homepage.
-    - Scraped content describes how to interact with existing chat surfaces in VS Code rather than shipping a new tool, framework, or integration.
+    - >-
+      The source URL is code.visualstudio.com/docs/chat/chat-overview, a documentation path rather than a repo or
+      product homepage.
+    - >-
+      Scraped content describes how to interact with existing chat surfaces in VS Code rather than shipping a new tool,
+      framework, or integration.
     - It appears in an awesome list's 'Additional Resources' section as a learning link, not as a curated tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-11T05:37:56.130Z"
+    updated_at: '2026-06-11T05:37:56.130Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,10 +84,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-21T04:34:03.594Z"
+    updated_at: '2026-09-21T04:34:03.594Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for code__visualstudio__com__docs__chat__chat__overview: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for code__visualstudio__com__docs__chat__chat__overview: Upstream error from
+        Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

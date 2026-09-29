@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__sentry__io__welcome__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Sentry
         extracted_url: https://sentry.io
-        surrounding_text: "- **[Sentry](https://github.com/getsentry/sentry-mcp)** - Official MCP server for [Sentry](https://sentry.io)."
+        surrounding_text: '- **[Sentry](https://github.com/getsentry/sentry-mcp)** - Official MCP server for [Sentry](https://sentry.io).'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: Sentry is an application performance monitoring and error tracking platform for developers.
-  why_it_matters: It helps developers detect, diagnose, and fix errors and performance issues in production with full context from logs, traces, and commits.
-  mental_damage: Another monitoring tool that promises to reduce firefighting, but just adds another dashboard to check during incidents.
+  why_it_matters: >-
+    It helps developers detect, diagnose, and fix errors and performance issues in production with full context from
+    logs, traces, and commits.
+  mental_damage: >-
+    Another monitoring tool that promises to reduce firefighting, but just adds another dashboard to check during
+    incidents.
   tags:
     - monitoring
     - error-tracking
@@ -47,24 +51,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Sentry is an observability and monitoring platform, not a developer-facing AI tool for coding, agents, or workflows; its AI features (Seer, Autofix) are ancillary to its core monitoring identity.
+  reason: >-
+    Sentry is an observability and monitoring platform, not a developer-facing AI tool for coding, agents, or workflows;
+    its AI features (Seer, Autofix) are ancillary to its core monitoring identity.
   evidence:
-    - "Repo description: (none)"
-    - "Scraped site title: 'Application Performance Monitoring & Error Tracking Software'"
-    - "Source-list context: listed in awesome-mcp-servers as an MCP server, but MCP is only an integration feature, not the product identity"
+    - 'Repo description: (none)'
+    - 'Scraped site title: ''Application Performance Monitoring & Error Tracking Software'''
+    - >-
+      Source-list context: listed in awesome-mcp-servers as an MCP server, but MCP is only an integration feature, not
+      the product identity
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -72,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:36:54.786Z"
+    updated_at: '2026-09-28T04:36:54.786Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -85,11 +95,15 @@ processing:
       input_hash: sha256:7ff609437637baed20bedb34bc684c7b3af7fef9fe3c9d2467547318b69b3f4c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Sentry is an observability and monitoring platform, not a developer-facing AI tool for coding, agents, or workflows; its AI features (Seer, Autofix) are ancillary to its core monitoring identity.
+      decision_reason: >-
+        Sentry is an observability and monitoring platform, not a developer-facing AI tool for coding, agents, or
+        workflows; its AI features (Seer, Autofix) are ancillary to its core monitoring identity.
       decision_evidence:
-        - "Repo description: (none)"
-        - "Scraped site title: 'Application Performance Monitoring & Error Tracking Software'"
-        - "Source-list context: listed in awesome-mcp-servers as an MCP server, but MCP is only an integration feature, not the product identity"
+        - 'Repo description: (none)'
+        - 'Scraped site title: ''Application Performance Monitoring & Error Tracking Software'''
+        - >-
+          Source-list context: listed in awesome-mcp-servers as an MCP server, but MCP is only an integration feature,
+          not the product identity
       category_candidates: []
       contrastive_reason: null
       review_reason: null

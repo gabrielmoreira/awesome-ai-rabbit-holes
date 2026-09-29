@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__buywhere__buywhere-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: BuyWhere/buywhere-mcp
         extracted_url: https://github.com/buywhere/buywhere-mcp
-        surrounding_text: "- [BuyWhere/buywhere-mcp](https://github.com/BuyWhere/buywhere-mcp) [![BuyWhere/buywhere-mcp MCP server](https://glama.ai/mcp/servers/BuyWhere/buywhere-mcp/badges/score.svg)](https://glama.ai/mcp/servers/BuyWhere/buywhere-mcp) 📇 ☁️ 🍎 🪟 🐧 - Cross-border e-commerce product catalog for AI agents. Search 3M+ products across Singapore, SEA, and US markets with price comparison and deal discovery. Install via `npx @buywhere/mcp-server`."
+        surrounding_text: >-
+          - [BuyWhere/buywhere-mcp](https://github.com/BuyWhere/buywhere-mcp) [![BuyWhere/buywhere-mcp MCP
+          server](https://glama.ai/mcp/servers/BuyWhere/buywhere-mcp/badges/score.svg)](https://glama.ai/mcp/servers/BuyWhere/buywhere-mcp)
+          📇 ☁️ 🍎 🪟 🐧 - Cross-border e-commerce product catalog for AI agents. Search 3M+ products across Singapore,
+          SEA, and US markets with price comparison and deal discovery. Install via `npx @buywhere/mcp-server`.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: BuyWhere/buywhere-mcp
     html_url: https://github.com/BuyWhere/buywhere-mcp
-    created_at: "2026-04-16T09:26:09Z"
-    pushed_at: "2026-09-22T21:47:46Z"
-    description: "BuyWhere MCP server — search 300M+ products across US, Singapore & SEA via Model Context Protocol. Agents self-register a free key in one POST (no email): api.buywhere.ai/v1/auth/register?verify=false"
+    created_at: '2026-04-16T09:26:09Z'
+    pushed_at: '2026-09-22T21:47:46Z'
+    description: >-
+      BuyWhere MCP server — search 300M+ products across US, Singapore & SEA via Model Context Protocol. Agents
+      self-register a free key in one POST (no email): api.buywhere.ai/v1/auth/register?verify=false
     homepage: https://buywhere.ai
     topics:
       - a2a
@@ -51,14 +57,20 @@ metadata:
       - shopping
       - singapore
       - us
-    last_checked_at: "2026-09-24T04:13:04.834Z"
+    last_checked_at: '2026-09-24T04:13:04.834Z'
     readme:
-      fetched_at: "2026-09-24T04:13:04.834Z"
+      fetched_at: '2026-09-24T04:13:04.834Z'
       bytes: 17175
 insights:
-  summary: BuyWhere MCP server is a Model Context Protocol server that enables AI agents to search and compare 300M+ products across US and Southeast Asian e-commerce platforms.
-  why_it_matters: It gives AI agents real-time access to product catalogs and price comparison, enabling shopping agents that can discover deals and make purchasing decisions autonomously.
-  mental_damage: Another MCP server promising to be the 'missing infrastructure' for agent commerce, adding yet another tool to the growing pile of protocol-specific adapters developers must evaluate.
+  summary: >-
+    BuyWhere MCP server is a Model Context Protocol server that enables AI agents to search and compare 300M+ products
+    across US and Southeast Asian e-commerce platforms.
+  why_it_matters: >-
+    It gives AI agents real-time access to product catalogs and price comparison, enabling shopping agents that can
+    discover deals and make purchasing decisions autonomously.
+  mental_damage: >-
+    Another MCP server promising to be the 'missing infrastructure' for agent commerce, adding yet another tool to the
+    growing pile of protocol-specific adapters developers must evaluate.
   tags:
     - mcp
     - e-commerce
@@ -66,32 +78,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server exposing product search and comparison tools over the Model Context Protocol, making MCP its primary identity rather than a side feature.
+  reason: >-
+    The product's core identity is an MCP server exposing product search and comparison tools over the Model Context
+    Protocol, making MCP its primary identity rather than a side feature.
   evidence:
-    - "Repo description: 'BuyWhere MCP server — search 300M+ products across US, Singapore & SEA via Model Context Protocol'"
-    - "README: 'Product search API for AI agents via [Model Context Protocol](https://modelcontextprotocol.io)' and lists compatibility with Claude Desktop, Cursor, VS Code Copilot, and other MCP-compatible clients"
-    - "Source-list context: Included in awesome-mcp-list under Contributing > 🛒 E-Commerce section"
+    - >-
+      Repo description: 'BuyWhere MCP server — search 300M+ products across US, Singapore & SEA via Model Context
+      Protocol'
+    - >-
+      README: 'Product search API for AI agents via [Model Context Protocol](https://modelcontextprotocol.io)' and lists
+      compatibility with Claude Desktop, Cursor, VS Code Copilot, and other MCP-compatible clients
+    - 'Source-list context: Included in awesome-mcp-list under Contributing > 🛒 E-Commerce section'
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Middleware & Generic
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.818Z"
+    updated_at: '2026-05-28T05:28:09.818Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:04.834Z"
+    updated_at: '2026-09-24T04:13:04.834Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:59:17.473Z"
+    updated_at: '2026-09-28T04:59:17.473Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -104,14 +122,22 @@ processing:
       input_hash: sha256:ae86776620a6e36bf4a065480ff3551036cd6303cf9c9fcd50fe0f15418c2186
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server exposing product search and comparison tools over the Model Context Protocol, making MCP its primary identity rather than a side feature.
+      decision_reason: >-
+        The product's core identity is an MCP server exposing product search and comparison tools over the Model Context
+        Protocol, making MCP its primary identity rather than a side feature.
       decision_evidence:
-        - "Repo description: 'BuyWhere MCP server — search 300M+ products across US, Singapore & SEA via Model Context Protocol'"
-        - "README: 'Product search API for AI agents via [Model Context Protocol](https://modelcontextprotocol.io)' and lists compatibility with Claude Desktop, Cursor, VS Code Copilot, and other MCP-compatible clients"
-        - "Source-list context: Included in awesome-mcp-list under Contributing > 🛒 E-Commerce section"
+        - >-
+          Repo description: 'BuyWhere MCP server — search 300M+ products across US, Singapore & SEA via Model Context
+          Protocol'
+        - >-
+          README: 'Product search API for AI agents via [Model Context Protocol](https://modelcontextprotocol.io)' and
+          lists compatibility with Claude Desktop, Cursor, VS Code Copilot, and other MCP-compatible clients
+        - 'Source-list context: Included in awesome-mcp-list under Contributing > 🛒 E-Commerce section'
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server exposing domain capabilities over the protocol, not an extension that augments another coding agent or editor.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product is an MCP server exposing domain capabilities over the
+        protocol, not an extension that augments another coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null

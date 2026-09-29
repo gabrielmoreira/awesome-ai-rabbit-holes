@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ydb-platform__ydb__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: YDB
         extracted_url: https://ydb.tech
-        surrounding_text: "- [ydb/ydb-mcp](https://github.com/ydb-platform/ydb-mcp) 🎖️ 🐍 ☁️ - MCP server for interacting with [YDB](https://ydb.tech) databases"
+        surrounding_text: >-
+          - [ydb/ydb-mcp](https://github.com/ydb-platform/ydb-mcp) 🎖️ 🐍 ☁️ - MCP server for interacting with
+          [YDB](https://ydb.tech) databases
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: ydb-platform/ydb
     html_url: https://github.com/ydb-platform/ydb
-    created_at: "2022-02-07T14:52:36Z"
-    pushed_at: "2026-07-21T15:15:05Z"
-    description: YDB is an open source Distributed SQL Database that combines high availability and scalability with strong consistency and ACID transactions
+    created_at: '2022-02-07T14:52:36Z'
+    pushed_at: '2026-07-21T15:15:05Z'
+    description: >-
+      YDB is an open source Distributed SQL Database that combines high availability and scalability with strong
+      consistency and ACID transactions
     homepage: https://ydb.tech
     topics:
       - cloud-native
@@ -44,14 +48,20 @@ metadata:
       - distributed-sql
       - distributed-sql-database
       - sql
-    last_checked_at: "2026-07-21T15:21:20.243Z"
+    last_checked_at: '2026-07-21T15:21:20.243Z'
     readme:
-      fetched_at: "2026-07-21T15:21:20.243Z"
+      fetched_at: '2026-07-21T15:21:20.243Z'
       bytes: 5898
 insights:
-  summary: YDB is an open-source distributed SQL database offering high availability, strong consistency, ACID transactions, and scalability for transactional and analytical workloads.
-  why_it_matters: Provides developers with a scalable, fault-tolerant database that supports both transactional and analytical workloads while maintaining strict consistency and ACID guarantees.
-  mental_damage: Using a distributed SQL database that claims to handle petabytes and millions of transactions per second makes you wonder if your side project really needs all that infrastructure.
+  summary: >-
+    YDB is an open-source distributed SQL database offering high availability, strong consistency, ACID transactions,
+    and scalability for transactional and analytical workloads.
+  why_it_matters: >-
+    Provides developers with a scalable, fault-tolerant database that supports both transactional and analytical
+    workloads while maintaining strict consistency and ACID guarantees.
+  mental_damage: >-
+    Using a distributed SQL database that claims to handle petabytes and millions of transactions per second makes you
+    wonder if your side project really needs all that infrastructure.
   tags:
     - database
     - distributed
@@ -60,31 +70,39 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: YDB is a distributed SQL database system focused on data storage and retrieval, not AI-assisted development workflows, coding agents, or developer tooling for AI integration.
+  reason: >-
+    YDB is a distributed SQL database system focused on data storage and retrieval, not AI-assisted development
+    workflows, coding agents, or developer tooling for AI integration.
   evidence:
-    - "Repo description: 'YDB is an open source Distributed SQL Database that combines high availability and scalability with strong consistency and ACID transactions'"
-    - "README emphasizes database features: scalability, fault tolerance, ACID transactions, SQL dialect (YQL), PostgreSQL/Kafka compatibility, and DevOps deployment via Ansible/Kubernetes"
-    - No mention of AI capabilities, coding assistance, agent behavior, prompt engineering, or developer tooling in the provided inputs
+    - >-
+      Repo description: 'YDB is an open source Distributed SQL Database that combines high availability and scalability
+      with strong consistency and ACID transactions'
+    - >-
+      README emphasizes database features: scalability, fault tolerance, ACID transactions, SQL dialect (YQL),
+      PostgreSQL/Kafka compatibility, and DevOps deployment via Ansible/Kubernetes
+    - >-
+      No mention of AI capabilities, coding assistance, agent behavior, prompt engineering, or developer tooling in the
+      provided inputs
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (4721) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:20.243Z"
+    updated_at: '2026-07-21T15:21:20.243Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.169Z"
+    updated_at: '2026-09-28T04:14:00.169Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

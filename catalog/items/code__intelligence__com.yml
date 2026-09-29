@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__code__intelligence__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Security
         anchor_text: Code Intelligence CI Fuzz
         extracted_url: https://code-intelligence.com
-        surrounding_text: "- **[Code Intelligence CI Fuzz](https://www.code-intelligence.com/)** – AI-automated fuzz testing for C/C++."
+        surrounding_text: '- **[Code Intelligence CI Fuzz](https://www.code-intelligence.com/)** – AI-automated fuzz testing for C/C++.'
         confidence: high
     - id: discovery__www__code__intelligence__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Security
         anchor_text: Code Intelligence CI Fuzz
         extracted_url: https://www.code-intelligence.com
-        surrounding_text: "- **[Code Intelligence CI Fuzz](https://www.code-intelligence.com/)** – AI-automated fuzz testing for C/C++."
+        surrounding_text: '- **[Code Intelligence CI Fuzz](https://www.code-intelligence.com/)** – AI-automated fuzz testing for C/C++.'
         confidence: high
 metadata:
   github:
@@ -52,7 +52,9 @@ metadata:
     readme: null
 insights:
   summary: AI-automated coverage-guided fuzz testing solution for finding bugs and vulnerabilities in code.
-  why_it_matters: Automates security testing with minimal developer effort, uncovering hidden bugs and vulnerabilities early in the development process.
+  why_it_matters: >-
+    Automates security testing with minimal developer effort, uncovering hidden bugs and vulnerabilities early in the
+    development process.
   mental_damage: Finally, a way to find bugs you didn’t even know you had—because the bugs didn’t know they existed either.
   tags:
     - fuzz-testing
@@ -62,7 +64,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a security testing tool (fuzzing) rather than a developer-tooling product focused on AI-assisted coding, workflows, or infrastructure.
+  reason: >-
+    This is a security testing tool (fuzzing) rather than a developer-tooling product focused on AI-assisted coding,
+    workflows, or infrastructure.
   evidence:
     - Product is an AI-automated fuzz testing solution for security vulnerabilities
     - Primary value is bug/vulnerability detection, not coding assistance or workflow augmentation
@@ -71,15 +75,17 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: deferred
-    updated_at: "2026-09-28T04:40:07.698Z"
+    updated_at: '2026-09-28T04:40:07.698Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for code__intelligence__com: Invalid AI response format: SyntaxError: Unexpected token 'C', ...\"_reason\": CI Fuzz fu\"... is not valid JSON"
+      message: >-
+        Catalog LLM categorization failed for code__intelligence__com: Invalid AI response format: SyntaxError:
+        Unexpected token 'C', ..."_reason": CI Fuzz fu"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -91,7 +97,9 @@ processing:
       input_hash: sha256:db98c855c80a28e21e657d89a16e15d0d1ef2115a0233c103d1548d52273c47b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a security testing tool (fuzzing) rather than a developer-tooling product focused on AI-assisted coding, workflows, or infrastructure.
+      decision_reason: >-
+        This is a security testing tool (fuzzing) rather than a developer-tooling product focused on AI-assisted coding,
+        workflows, or infrastructure.
       decision_evidence:
         - Product is an AI-automated fuzz testing solution for security vulnerabilities
         - Primary value is bug/vulnerability detection, not coding assistance or workflow augmentation
@@ -102,10 +110,12 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.964Z"
+    updated_at: '2026-07-21T15:20:21.964Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending

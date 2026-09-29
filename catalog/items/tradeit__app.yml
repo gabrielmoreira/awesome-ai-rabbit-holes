@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__tradeit__app__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Trade Agent
         extracted_url: https://thetradeagent.ai
-        surrounding_text: "- **[Trade Agent](https://github.com/Trade-Agent/trade-agent-mcp)** - Execute stock and crypto trades via [Trade Agent](https://thetradeagent.ai/)"
+        surrounding_text: >-
+          - **[Trade Agent](https://github.com/Trade-Agent/trade-agent-mcp)** - Execute stock and crypto trades via
+          [Trade Agent](https://thetradeagent.ai/)
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Trade It is a brokerage integration layer that enables drafting and confirming stock, options, and crypto trades from Claude, ChatGPT, Discord, or embedded surfaces using existing brokerage accounts.
-  why_it_matters: It lets developers and traders execute trades through conversational AI without leaving their chat or switching apps, reducing context switching in trading workflows.
-  mental_damage: Finally, a way to feel the existential dread of options trading while chatting with an AI that can’t talk you out of it.
+  summary: >-
+    Trade It is a brokerage integration layer that enables drafting and confirming stock, options, and crypto trades
+    from Claude, ChatGPT, Discord, or embedded surfaces using existing brokerage accounts.
+  why_it_matters: >-
+    It lets developers and traders execute trades through conversational AI without leaving their chat or switching
+    apps, reducing context switching in trading workflows.
+  mental_damage: >-
+    Finally, a way to feel the existential dread of options trading while chatting with an AI that can’t talk you out of
+    it.
   tags:
     - trading
     - brokerage-integration
@@ -46,22 +54,28 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Trade It is a brokerage trading interface, not a developer-facing AI tool for coding, app building, agents, or infrastructure; its primary use case is financial trading, not software development workflows.
+  reason: >-
+    Trade It is a brokerage trading interface, not a developer-facing AI tool for coding, app building, agents, or
+    infrastructure; its primary use case is financial trading, not software development workflows.
   evidence:
-    - Primary function is connecting brokerages (Robinhood, Schwab, Coinbase) to trade stocks, options, and crypto via Claude, ChatGPT, or Discord
-    - Marketed as a trading tool for investors, with no mention of coding, code generation, or developer tooling in README or site
+    - >-
+      Primary function is connecting brokerages (Robinhood, Schwab, Coinbase) to trade stocks, options, and crypto via
+      Claude, ChatGPT, or Discord
+    - >-
+      Marketed as a trading tool for investors, with no mention of coding, code generation, or developer tooling in
+      README or site
     - Output is trade confirmation cards, not code, apps, agents, or development artifacts
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:47:31.134Z"
+    updated_at: '2026-09-28T04:47:31.134Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,10 +97,16 @@ processing:
       input_hash: sha256:f9e5b753f7fe79f57963638c61d5ff486b4da8edd221c81b76cc700e5676c160
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Trade It is a brokerage trading interface, not a developer-facing AI tool for coding, app building, agents, or infrastructure; its primary use case is financial trading, not software development workflows.
+      decision_reason: >-
+        Trade It is a brokerage trading interface, not a developer-facing AI tool for coding, app building, agents, or
+        infrastructure; its primary use case is financial trading, not software development workflows.
       decision_evidence:
-        - Primary function is connecting brokerages (Robinhood, Schwab, Coinbase) to trade stocks, options, and crypto via Claude, ChatGPT, or Discord
-        - Marketed as a trading tool for investors, with no mention of coding, code generation, or developer tooling in README or site
+        - >-
+          Primary function is connecting brokerages (Robinhood, Schwab, Coinbase) to trade stocks, options, and crypto
+          via Claude, ChatGPT, or Discord
+        - >-
+          Marketed as a trading tool for investors, with no mention of coding, code generation, or developer tooling in
+          README or site
         - Output is trade confirmation cards, not code, apps, agents, or development artifacts
       category_candidates: []
       contrastive_reason: null

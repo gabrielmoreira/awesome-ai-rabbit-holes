@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__rainforestqa__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Testing and QA
         anchor_text: Rainforest QA
         extracted_url: https://rainforestqa.com
-        surrounding_text: "- **[Rainforest QA](https://www.rainforestqa.com/)** – AI-assisted testing with crowd-sourced manual testing."
+        surrounding_text: '- **[Rainforest QA](https://www.rainforestqa.com/)** – AI-assisted testing with crowd-sourced manual testing.'
         confidence: high
     - id: discovery__www__rainforestqa__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Testing and QA
         anchor_text: Rainforest QA
         extracted_url: https://www.rainforestqa.com
-        surrounding_text: "- **[Rainforest QA](https://www.rainforestqa.com/)** – AI-assisted testing with crowd-sourced manual testing."
+        surrounding_text: '- **[Rainforest QA](https://www.rainforestqa.com/)** – AI-assisted testing with crowd-sourced manual testing.'
         confidence: high
 metadata:
   github:
@@ -51,8 +51,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Rainforest QA is a no-code, AI-powered QA platform that creates, maintains, and manages end-to-end tests for web applications using self-healing test automation.
-  why_it_matters: It reduces the maintenance burden of UI tests for developers by using AI to auto-heal tests when UIs change, letting teams focus on feature work instead of test flakiness.
+  summary: >-
+    Rainforest QA is a no-code, AI-powered QA platform that creates, maintains, and manages end-to-end tests for web
+    applications using self-healing test automation.
+  why_it_matters: >-
+    It reduces the maintenance burden of UI tests for developers by using AI to auto-heal tests when UIs change, letting
+    teams focus on feature work instead of test flakiness.
   mental_damage: Finally, an AI that doesn't write code but still breaks your CI pipeline — just less often.
   tags:
     - testing
@@ -63,21 +67,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Rainforest QA is a test automation platform focused on end-to-end QA workflows, not a developer-facing AI tool for coding, app building, or agent workflows; its primary users are QA and product teams, not developers writing or editing code.
+  reason: >-
+    Rainforest QA is a test automation platform focused on end-to-end QA workflows, not a developer-facing AI tool for
+    coding, app building, or agent workflows; its primary users are QA and product teams, not developers writing or
+    editing code.
   evidence:
-    - "Source-list context: listed in awesome-ai-coding-tools under 'Testing and QA' section, positioned as a QA platform for automating e2e tests."
-    - "README excerpt: emphasizes 'no-code tests', 'visual-first', 'org-wide transparency', and fitting into workflows via CLI/CI — not coding assistance or code generation."
-    - "Product features: AI creates test plans, drafts tests, edits via visual editor, hooks into SDLC, and debugs via replay — all QA/test automation tasks, not coding agent behaviors."
+    - >-
+      Source-list context: listed in awesome-ai-coding-tools under 'Testing and QA' section, positioned as a QA platform
+      for automating e2e tests.
+    - >-
+      README excerpt: emphasizes 'no-code tests', 'visual-first', 'org-wide transparency', and fitting into workflows
+      via CLI/CI — not coding assistance or code generation.
+    - >-
+      Product features: AI creates test plans, drafts tests, edits via visual editor, hooks into SDLC, and debugs via
+      replay — all QA/test automation tasks, not coding agent behaviors.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:44:58.928Z"
+    updated_at: '2026-09-28T04:44:58.928Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,18 +103,27 @@ processing:
       input_hash: sha256:450b40998577d4e0c712ac5b53660a5f1f6ca6a2da3cbdcd18d569e3cf50f09a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Rainforest QA is a test automation platform focused on end-to-end QA workflows, not a developer-facing AI tool for coding, app building, or agent workflows; its primary users are QA and product teams, not developers writing or editing code.
+      decision_reason: >-
+        Rainforest QA is a test automation platform focused on end-to-end QA workflows, not a developer-facing AI tool
+        for coding, app building, or agent workflows; its primary users are QA and product teams, not developers writing
+        or editing code.
       decision_evidence:
-        - "Source-list context: listed in awesome-ai-coding-tools under 'Testing and QA' section, positioned as a QA platform for automating e2e tests."
-        - "README excerpt: emphasizes 'no-code tests', 'visual-first', 'org-wide transparency', and fitting into workflows via CLI/CI — not coding assistance or code generation."
-        - "Product features: AI creates test plans, drafts tests, edits via visual editor, hooks into SDLC, and debugs via replay — all QA/test automation tasks, not coding agent behaviors."
+        - >-
+          Source-list context: listed in awesome-ai-coding-tools under 'Testing and QA' section, positioned as a QA
+          platform for automating e2e tests.
+        - >-
+          README excerpt: emphasizes 'no-code tests', 'visual-first', 'org-wide transparency', and fitting into
+          workflows via CLI/CI — not coding assistance or code generation.
+        - >-
+          Product features: AI creates test plans, drafts tests, edits via visual editor, hooks into SDLC, and debugs
+          via replay — all QA/test automation tasks, not coding agent behaviors.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.969Z"
+    updated_at: '2026-07-21T15:20:21.969Z'
     cause: null
     next_retry_at: null
   stars:

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alibaba__logics-parsing__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -29,19 +29,23 @@ metadata:
     archived: false
     full_name: alibaba/Logics-Parsing
     html_url: https://github.com/alibaba/Logics-Parsing
-    created_at: "2025-09-11T02:57:24Z"
-    pushed_at: "2026-05-13T03:12:13Z"
+    created_at: '2025-09-11T02:57:24Z'
+    pushed_at: '2026-05-13T03:12:13Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:40.701Z"
+    last_checked_at: '2026-09-17T04:13:40.701Z'
     readme:
-      fetched_at: "2026-09-17T04:13:40.701Z"
+      fetched_at: '2026-09-17T04:13:40.701Z'
       bytes: 20771
 insights:
   summary: A parsing library or toolkit for logic-related AI workflows, maintained by Alibaba.
-  why_it_matters: Developers can use this to integrate structured logic parsing into AI pipelines, potentially improving reasoning or code generation tasks.
-  mental_damage: Because nothing says 'production-ready' like a 1,393-star repo created last month that might rewrite your logic for you.
+  why_it_matters: >-
+    Developers can use this to integrate structured logic parsing into AI pipelines, potentially improving reasoning or
+    code generation tasks.
+  mental_damage: >-
+    Because nothing says 'production-ready' like a 1,393-star repo created last month that might rewrite your logic for
+    you.
   tags:
     - parsing
     - logic
@@ -50,7 +54,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project lacks a clear developer-tooling identity (no README excerpt, no homepage, no explicit purpose) and does not fit any category's core use cases.
+  reason: >-
+    The project lacks a clear developer-tooling identity (no README excerpt, no homepage, no explicit purpose) and does
+    not fit any category's core use cases.
   evidence:
     - No repo description or README excerpt provided to clarify its purpose
     - Source-list context places it under 'Data' in a generic LLM resources list, not developer tooling
@@ -59,22 +65,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (1341) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:40.701Z"
+    updated_at: '2026-09-17T04:13:40.701Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -89,7 +95,9 @@ processing:
       input_hash: sha256:18b8a5d81017710881f4b15e4c604a416e0d5821d04939f3e174c6f80e5507c7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project lacks a clear developer-tooling identity (no README excerpt, no homepage, no explicit purpose) and does not fit any category's core use cases.
+      decision_reason: >-
+        The project lacks a clear developer-tooling identity (no README excerpt, no homepage, no explicit purpose) and
+        does not fit any category's core use cases.
       decision_evidence:
         - No repo description or README excerpt provided to clarify its purpose
         - Source-list context places it under 'Data' in a generic LLM resources list, not developer tooling

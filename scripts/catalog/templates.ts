@@ -24,6 +24,7 @@ export type CatalogCategoryItemTemplateViewModel = {
   starsLabel: string | null;
   hasActivity: boolean;
   activityLabel: string | null;
+  isHot: boolean;
   hasDetails: boolean;
   hasWhyItMatters: boolean;
   whyItMatters: string | null;
@@ -33,13 +34,24 @@ export type CatalogCategoryItemTemplateViewModel = {
   tags: string[];
 };
 
+export type CatalogCategorySectionTemplateViewModel = {
+  name: string;
+  anchor: string;
+  totalCount: number;
+  visibleItems: CatalogCategoryItemTemplateViewModel[];
+  hasOverflow: boolean;
+  overflowCount: number;
+  overflowItems: CatalogCategoryItemTemplateViewModel[];
+};
+
 export type CatalogCategoryPageTemplateViewModel = {
   categoryName: string;
   categoryDescription: string;
-  hasActiveItems: boolean;
-  activeItems: CatalogCategoryItemTemplateViewModel[];
-  hasIncubatingItems: boolean;
-  incubatingItems: CatalogCategoryItemTemplateViewModel[];
+  totalCount: number;
+  topN: number;
+  sectionCount: number;
+  hasSections: boolean;
+  sections: CatalogCategorySectionTemplateViewModel[];
   isEmpty: boolean;
 };
 

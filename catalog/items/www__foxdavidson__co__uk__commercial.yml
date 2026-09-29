@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__foxdavidson__co__uk__commercial__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: FD Commercial
         extracted_url: https://www.fdcommercial.co.uk
-        surrounding_text: "- [fdcommercial/property-finance-mcp](https://github.com/fdcommercial/property-finance-mcp) [![fdcommercial/property-finance-mcp MCP server](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp/badges/score.svg)](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp) 📇 ☁️ 🏠 - UK property finance calculators: bridging cost (rolled-up / retained / serviced), development appraisal (LTC, LTGDV, viability), BTL stress test (125%, 145%, 170% ICR), and UK stamp duty (SDLT, LBTT, LTT). Built by [FD Commercial](https://www.fdcommercial.co.uk), a specialist UK property finance broker. Install via `npx -y @fdcommercial/property-finance-mcp` or call the hosted endpoint."
+        surrounding_text: >-
+          - [fdcommercial/property-finance-mcp](https://github.com/fdcommercial/property-finance-mcp)
+          [![fdcommercial/property-finance-mcp MCP
+          server](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp/badges/score.svg)](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp)
+          📇 ☁️ 🏠 - UK property finance calculators: bridging cost (rolled-up / retained / serviced), development
+          appraisal (LTC, LTGDV, viability), BTL stress test (125%, 145%, 170% ICR), and UK stamp duty (SDLT, LBTT,
+          LTT). Built by [FD Commercial](https://www.fdcommercial.co.uk), a specialist UK property finance broker.
+          Install via `npx -y @fdcommercial/property-finance-mcp` or call the hosted endpoint.
         confidence: high
 metadata:
   github:
@@ -52,12 +59,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.990Z"
+    updated_at: '2026-06-15T05:51:04.990Z'
     cause: null
     next_retry_at: null
   stars:
@@ -66,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:14:25.342Z"
+    updated_at: '2026-09-24T04:14:25.342Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -79,7 +86,9 @@ processing:
       input_hash: sha256:ea133bab17c1d5f34bfef73f6dd68fe2e029b4e3157d5626047409691e0fc347
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input refers to a commercial service website rather than an AI development tool, framework, or curated resource.
+      decision_reason: >-
+        The input refers to a commercial service website rather than an AI development tool, framework, or curated
+        resource.
       decision_evidence:
         - No repository description or README provided
         - URL points to a business service page, not a software product or AI tool

@@ -1,0 +1,110 @@
+id: github__getexcited__stepwarden
+kind: github-repo
+name: getexcited/stepwarden
+canonical_url: https://github.com/getexcited/stepwarden
+identity:
+  github_repo: getexcited/stepwarden
+provenance:
+  discoveries:
+    - id: discovery__github__getexcited__stepwarden__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: stepwarden
+        extracted_url: https://github.com/getexcited/stepwarden
+        surrounding_text: >-
+          - [stepwarden](https://github.com/getexcited/stepwarden) - Every tool call your agent makes, checked before it
+          runs. A Claude Code plugin that uses TypeSafe AI's Jev to verify each pending tool call against the session
+          plan, then allows it, asks you, or blocks it. Proof of concept.
+        confidence: high
+    - id: discovery__github__getexcited__stepwarden__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: stepwarden
+        extracted_url: https://github.com/getexcited/stepwarden
+        surrounding_text: >-
+          | [stepwarden](https://github.com/getexcited/stepwarden) | ★ 1 | TypeScript | 2026-09-20 | Claude Code plugin
+          that has Jev compare each pending tool call with the session plan before allowing, escalating, or blocking it.
+          |
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    full_name: getexcited/stepwarden
+    html_url: https://github.com/getexcited/stepwarden
+    created_at: '2026-09-18T10:21:30Z'
+    pushed_at: '2026-09-18T10:22:00Z'
+    description: >-
+      Every tool call your agent makes, checked before it runs. A Claude Code plugin that uses TypeSafe AI's Jev to
+      verify each pending tool call against the session plan, then allows it, asks you, or blocks it. Proof of concept
+    homepage: https://github.com/getexcited/claude-plugins
+    topics:
+      - agent-security
+      - ai-agents
+      - ai-safety
+      - claude-code
+      - claude-code-plugin
+      - claude-plugins
+      - function-hooks
+      - guardrails
+      - jev
+      - llm-tools
+      - typesafe-ai
+    last_checked_at: '2026-09-29T13:11:37.516Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:37.516Z'
+      bytes: 20085
+insights:
+  summary: >-
+    Every tool call your agent makes, checked before it runs. A Claude Code plugin that uses TypeSafe AI's Jev to verify
+    each pending tool call against the session plan, then allows it, asks you, or blocks it. Proof of concept
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.77
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.414Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:37.516Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

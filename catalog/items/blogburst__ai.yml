@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__blogburst__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,11 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: BlogBurst
         extracted_url: https://blogburst.ai
-        surrounding_text: "- [shensi8312/blogburst-mcp-server](https://github.com/shensi8312/blogburst-mcp-server) 📇 ☁️ - AI content generation, repurposing, and multi-platform publishing with [BlogBurst](https://blogburst.ai). Generate blogs, repurpose content for 9+ platforms (Twitter, LinkedIn, Reddit, Bluesky, Threads, Telegram, Discord, TikTok, YouTube), get trending topics, and publish directly."
+        surrounding_text: >-
+          - [shensi8312/blogburst-mcp-server](https://github.com/shensi8312/blogburst-mcp-server) 📇 ☁️ - AI content
+          generation, repurposing, and multi-platform publishing with [BlogBurst](https://blogburst.ai). Generate blogs,
+          repurpose content for 9+ platforms (Twitter, LinkedIn, Reddit, Bluesky, Threads, Telegram, Discord, TikTok,
+          YouTube), get trending topics, and publish directly.
         confidence: high
 metadata:
   github:
@@ -37,9 +41,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered marketing automation engine designed to find buyer intent and generate evidence-backed content for social and blog channels.
-  why_it_matters: It automates the loop of identifying customer questions on platforms like Reddit and X and converting them into attributable marketing content.
-  mental_damage: Now you can outsource the guilt of having an unread blog to an autonomous engine that tracks exactly how much revenue it's missing.
+  summary: >-
+    An AI-powered marketing automation engine designed to find buyer intent and generate evidence-backed content for
+    social and blog channels.
+  why_it_matters: >-
+    It automates the loop of identifying customer questions on platforms like Reddit and X and converting them into
+    attributable marketing content.
+  mental_damage: >-
+    Now you can outsource the guilt of having an unread blog to an autonomous engine that tracks exactly how much
+    revenue it's missing.
   tags:
     - marketing-automation
     - content-generation
@@ -48,7 +58,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a general-purpose SaaS marketing automation platform rather than a developer-facing coding, infra, or workflow tool.
+  reason: >-
+    The tool is a general-purpose SaaS marketing automation platform rather than a developer-facing coding, infra, or
+    workflow tool.
   evidence:
     - Product identity is a 'ales growth engine' for founders
     - Focuses on content distribution (WordPress, X, Reddit) and revenue targets
@@ -57,12 +69,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,10 +83,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:34:56.382Z"
+    updated_at: '2026-09-24T04:34:56.382Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for blogburst__ai: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for blogburst__ai: Upstream error from Nvidia: ResourceExhausted: Worker local
+        total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -86,7 +100,9 @@ processing:
       input_hash: sha256:fe61c0739b0e16e89d76162cbf0d22656ad558d4cdc984bcf288f741364e458b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a general-purpose SaaS marketing automation platform rather than a developer-facing coding, infra, or workflow tool.
+      decision_reason: >-
+        The tool is a general-purpose SaaS marketing automation platform rather than a developer-facing coding, infra,
+        or workflow tool.
       decision_evidence:
         - Product identity is a 'ales growth engine' for founders
         - Focuses on content distribution (WordPress, X, Reddit) and revenue targets

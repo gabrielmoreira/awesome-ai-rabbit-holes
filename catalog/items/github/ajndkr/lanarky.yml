@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ajndkr__lanarky__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Frameworks/Servers for Serving
         anchor_text: lanarky
         extracted_url: https://github.com/ajndkr/lanarky
-        surrounding_text: "| [lanarky](https://github.com/ajndkr/lanarky)                               | FastAPI framework to build production-grade LLM applications                                                                                                                                                                                                                                                                                       | ![GitHub Badge](https://img.shields.io/github/stars/ajndkr/lanarky.svg?style=flat-square)                 |"
+        surrounding_text: >-
+          | [lanarky](https://github.com/ajndkr/lanarky)                               | FastAPI framework to build
+          production-grade LLM
+          applications                                                                                                                                                                                                                                                                                      
+          | ![GitHub Badge](https://img.shields.io/github/stars/ajndkr/lanarky.svg?style=flat-square)                 |
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: true
     full_name: ajndkr/lanarky
     html_url: https://github.com/ajndkr/lanarky
-    created_at: "2023-04-07T05:36:32Z"
-    pushed_at: "2024-07-06T06:21:57Z"
+    created_at: '2023-04-07T05:36:32Z'
+    pushed_at: '2024-07-06T06:21:57Z'
     description: The web framework for building LLM microservices [deprecated]
     homepage: https://lanarky.ajndkr.com/
     topics:
@@ -41,13 +45,15 @@ metadata:
       - microservices
       - python3
       - web
-    last_checked_at: "2026-09-17T04:13:37.331Z"
+    last_checked_at: '2026-09-17T04:13:37.331Z'
     readme:
-      fetched_at: "2026-09-17T04:13:37.331Z"
+      fetched_at: '2026-09-17T04:13:37.331Z'
       bytes: 4419
 insights:
   summary: A Python web framework for building LLM-powered microservices based on FastAPI.
-  why_it_matters: It provides specialized abstractions for streaming and LLM resource management to simplify the deployment of model-driven APIs.
+  why_it_matters: >-
+    It provides specialized abstractions for streaming and LLM resource management to simplify the deployment of
+    model-driven APIs.
   mental_damage: Because building a basic chat endpoint shouldn't feel like re-engineering the entire networking stack.
   tags:
     - python
@@ -66,22 +72,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (992) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:37.331Z"
+    updated_at: '2026-09-17T04:13:37.331Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

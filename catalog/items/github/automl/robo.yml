@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__automl__robo__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,11 @@ provenance:
           - AutoML
         anchor_text: RoBO
         extracted_url: https://github.com/automl/robo
-        surrounding_text: "| [RoBO](https://github.com/automl/RoBO)                                       | a Robust Bayesian Optimization framework.                                                                                                                                       | ![GitHub Badge](https://img.shields.io/github/stars/automl/RoBO.svg?style=flat-square)                     |"
+        surrounding_text: >-
+          | [RoBO](https://github.com/automl/RoBO)                                       | a Robust Bayesian
+          Optimization
+          framework.                                                                                                                                      
+          | ![GitHub Badge](https://img.shields.io/github/stars/automl/RoBO.svg?style=flat-square)                     |
         confidence: high
 metadata:
   github:
@@ -29,19 +33,21 @@ metadata:
     archived: false
     full_name: automl/RoBO
     html_url: https://github.com/automl/RoBO
-    created_at: "2015-03-27T09:02:20Z"
-    pushed_at: "2019-04-30T08:47:29Z"
-    description: "RoBO: a Robust Bayesian Optimization framework"
-    homepage: ""
+    created_at: '2015-03-27T09:02:20Z'
+    pushed_at: '2019-04-30T08:47:29Z'
+    description: 'RoBO: a Robust Bayesian Optimization framework'
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-21T04:13:51.423Z"
+    last_checked_at: '2026-09-21T04:13:51.423Z'
     readme:
-      fetched_at: "2026-09-21T04:13:51.423Z"
+      fetched_at: '2026-09-21T04:13:51.423Z'
       bytes: 1605
 insights:
   summary: RoBO is a Python framework for robust Bayesian optimization.
   why_it_matters: It provides a flexible toolkit for hyperparameter tuning and optimization tasks in machine learning workflows.
-  mental_damage: Because nothing says 'modern developer workflow' like a 2015 Bayesian optimization library that hasn't been updated since 2019.
+  mental_damage: >-
+    Because nothing says 'modern developer workflow' like a 2015 Bayesian optimization library that hasn't been updated
+    since 2019.
   tags:
     - bayesian-optimization
     - automl
@@ -59,22 +65,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (489) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:51.423Z"
+    updated_at: '2026-09-21T04:13:51.423Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -1,0 +1,112 @@
+id: github__notque__vexjoy-agent
+kind: github-repo
+name: notque/vexjoy-agent
+canonical_url: https://github.com/notque/vexjoy-agent
+identity:
+  github_repo: notque/vexjoy-agent
+provenance:
+  discoveries:
+    - id: discovery__github__notque__vexjoy-agent__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: VexJoy Agent
+        extracted_url: https://github.com/notque/vexjoy-agent
+        surrounding_text: >-
+          - [VexJoy Agent](https://github.com/notque/vexjoy-agent) - Agent toolkit for Claude Code/Codex: `/do` routes
+          work to specialist agents/skills; optional `/d` uses TypeSafe Jev to classify and gate intent before dispatch.
+          [Project guide](community/projects/tools/vexjoy-agent.md).
+        confidence: high
+    - id: discovery__github__notque__vexjoy-agent__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: vexjoy-agent
+        extracted_url: https://github.com/notque/vexjoy-agent
+        surrounding_text: >-
+          | [vexjoy-agent](https://github.com/notque/vexjoy-agent) | ★ 423 | Python | 2026-09-23 | VexJoy AI Agent with
+          Jev Intelligent Routing - /do routes plain-English requests to the right specialist agent and gates the work
+          with reviews, tests, and a learning loop. |
+        confidence: high
+    - id: discovery__github__notque__vexjoy-agent__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Model Routing
+        anchor_text: '**vexjoy-agent**'
+        extracted_url: https://github.com/notque/vexjoy-agent
+        surrounding_text: >-
+          - [**vexjoy-agent**](https://github.com/notque/vexjoy-agent) — An optional Jev routing path that matches
+          VexJoy requests to specialist Agents, skills and workflows.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    VexJoy Agent - Agent toolkit for Claude Code/Codex: /do routes work to specialist agents/skills; optional /d uses
+    TypeSafe Jev to classify and gate intent before dispatch. Project guide.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.51
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.402Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

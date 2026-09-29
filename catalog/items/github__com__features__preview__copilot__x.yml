@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__features__preview__copilot__x__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - GitHub Copilot X
         anchor_text: GitHub Copilot X
         extracted_url: https://github.com/features/preview/copilot-x
-        surrounding_text: "## [GitHub Copilot X](https://github.com/features/preview/copilot-x)"
+        surrounding_text: '## [GitHub Copilot X](https://github.com/features/preview/copilot-x)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GitHub Copilot X is a preview of next-generation AI coding features integrating chat, voice, and pull request support into GitHub's Copilot service.
-  why_it_matters: It aims to deepen AI assistance across the GitHub workflow, potentially reducing context switching for developers already using Copilot.
-  mental_damage: Another AI-powered 'X' promising to revolutionize coding while quietly increasing dependency on a single vendor's ecosystem.
+  summary: >-
+    GitHub Copilot X is a preview of next-generation AI coding features integrating chat, voice, and pull request
+    support into GitHub's Copilot service.
+  why_it_matters: >-
+    It aims to deepen AI assistance across the GitHub workflow, potentially reducing context switching for developers
+    already using Copilot.
+  mental_damage: >-
+    Another AI-powered 'X' promising to revolutionize coding while quietly increasing dependency on a single vendor's
+    ecosystem.
   tags:
     - copilot
     - ai-coding-assistant
@@ -46,21 +52,27 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Copilot X positions itself as an advanced AI coding agent that writes, explains, and refines code within GitHub and editor environments, fitting the core identity of a developer-facing coding agent.
+  reason: >-
+    Copilot X positions itself as an advanced AI coding agent that writes, explains, and refines code within GitHub and
+    editor environments, fitting the core identity of a developer-facing coding agent.
   evidence:
     - Listed in awesome-ai-agents under 'GitHub Copilot X' as an AI autonomous agent
-    - GitHub's official preview describes Copilot X as integrating AI chat, voice, and pull request support into the Copilot coding assistant
-    - Copilot X extends the existing Copilot agent with more autonomous capabilities like PR description generation and code explanation
+    - >-
+      GitHub's official preview describes Copilot X as integrating AI chat, voice, and pull request support into the
+      Copilot coding assistant
+    - >-
+      Copilot X extends the existing Copilot agent with more autonomous capabilities like PR description generation and
+      code explanation
 placement:
   primary_category: coding-agents
   section: IDE-Native & Editor Agents
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +81,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:54:03.610Z"
+    updated_at: '2026-09-28T04:54:03.610Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -80,15 +92,23 @@ processing:
       input_hash: sha256:4f0b79f3040bed0a627e846d0f53baeb8ef6aeb0662dcb0fd8300ffe35e02017
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Copilot X positions itself as an advanced AI coding agent that writes, explains, and refines code within GitHub and editor environments, fitting the core identity of a developer-facing coding agent.
+      decision_reason: >-
+        Copilot X positions itself as an advanced AI coding agent that writes, explains, and refines code within GitHub
+        and editor environments, fitting the core identity of a developer-facing coding agent.
       decision_evidence:
         - Listed in awesome-ai-agents under 'GitHub Copilot X' as an AI autonomous agent
-        - GitHub's official preview describes Copilot X as integrating AI chat, voice, and pull request support into the Copilot coding assistant
-        - Copilot X extends the existing Copilot agent with more autonomous capabilities like PR description generation and code explanation
+        - >-
+          GitHub's official preview describes Copilot X as integrating AI chat, voice, and pull request support into the
+          Copilot coding assistant
+        - >-
+          Copilot X extends the existing Copilot agent with more autonomous capabilities like PR description generation
+          and code explanation
       category_candidates:
         - coding-agents
         - extensions-and-addons
-      contrastive_reason: Choose coding-agents over extensions-and-addons because Copilot X's primary identity is as a standalone AI coding agent that performs coding tasks, not merely an add-on that extends another agent's capabilities.
+      contrastive_reason: >-
+        Choose coding-agents over extensions-and-addons because Copilot X's primary identity is as a standalone AI
+        coding agent that performs coding tasks, not merely an add-on that extends another agent's capabilities.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

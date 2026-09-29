@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__auth__ampcode__com__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-06-04T05:40:27.160Z"
+      discovered_at: '2026-06-04T05:40:27.160Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,10 +19,12 @@ provenance:
           - Closed Source
         anchor_text: Amp
         extracted_url: https://sourcegraph.com/amp
-        surrounding_text: "- **[Amp](https://sourcegraph.com/amp)** `[Sourcegraph]` — Sourcegraph's AI coding agent with a CLI for implementing tasks across real codebases."
+        surrounding_text: >-
+          - **[Amp](https://sourcegraph.com/amp)** `[Sourcegraph]` — Sourcegraph's AI coding agent with a CLI for
+          implementing tasks across real codebases.
         confidence: high
     - id: discovery__auth__ampcode__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-06-04T05:40:27.160Z"
+      discovered_at: '2026-06-04T05:40:27.160Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,7 +36,9 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Amp (Sourcegraph)
         extracted_url: https://ampcode.com
-        surrounding_text: "- **[Amp (Sourcegraph)](https://ampcode.com/)** – Agentic coding tool built on Sourcegraph's code search infrastructure with deep codebase graph and unconstrained token usage."
+        surrounding_text: >-
+          - **[Amp (Sourcegraph)](https://ampcode.com/)** – Agentic coding tool built on Sourcegraph's code search
+          infrastructure with deep codebase graph and unconstrained token usage.
         confidence: high
 metadata:
   github:
@@ -52,9 +56,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An authentication login page for Amp, presenting email and Google sign-in options with no product functionality exposed.
+  summary: >-
+    An authentication login page for Amp, presenting email and Google sign-in options with no product functionality
+    exposed.
   why_it_matters: It offers no direct developer workflow, tooling, or AI capability; it is purely an account access gateway.
-  mental_damage: An authentication page so unapologetically focused on capturing your email that it forgot to bring a product description along.
+  mental_damage: >-
+    An authentication page so unapologetically focused on capturing your email that it forgot to bring a product
+    description along.
   tags:
     - auth
     - login-page
@@ -62,21 +70,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is an auxiliary authentication portal, not a standalone developer-facing AI tool, extension, framework, or resource.
+  reason: >-
+    This is an auxiliary authentication portal, not a standalone developer-facing AI tool, extension, framework, or
+    resource.
   evidence:
     - Scraped page content is exclusively an Afrikaans-language login form with email and Google sign-in for Amp.
-    - No repository description, README, or site context describes any coding assistant, IDE, agent, or developer infrastructure.
-    - The URL auth.ampcode.com is an identity/access subdomain, indicating a supporting link rather than a primary product surface.
+    - >-
+      No repository description, README, or site context describes any coding assistant, IDE, agent, or developer
+      infrastructure.
+    - >-
+      The URL auth.ampcode.com is an identity/access subdomain, indicating a supporting link rather than a primary
+      product surface.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-04T05:40:27.161Z"
+    updated_at: '2026-06-04T05:40:27.161Z'
     cause: null
     next_retry_at: null
   stars:
@@ -85,10 +99,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-21T04:34:03.499Z"
+    updated_at: '2026-09-21T04:34:03.499Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for auth__ampcode__com: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for auth__ampcode__com: Upstream error from Nvidia: ResourceExhausted: Worker
+        local total request limit reached (16/16)
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__juyterman1000__entroly__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,10 +19,14 @@ provenance:
           - Optimizations
         anchor_text: Entroly
         extracted_url: https://github.com/juyterman1000/entroly
-        surrounding_text: "| [Entroly](https://github.com/juyterman1000/entroly)                               | Information-theoretic context optimization proxy. Cuts LLM token costs by 70–95% with zero accuracy loss using greedy submodular knapsack maximization. | ![GitHub Badge](https://img.shields.io/github/stars/juyterman1000/entroly.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [Entroly](https://github.com/juyterman1000/entroly)                               | Information-theoretic
+          context optimization proxy. Cuts LLM token costs by 70–95% with zero accuracy loss using greedy submodular
+          knapsack maximization. | ![GitHub
+          Badge](https://img.shields.io/github/stars/juyterman1000/entroly.svg?style=flat-square) |
         confidence: high
     - id: discovery__github__juyterman1000__entroly__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-09-24T04:12:55.276Z"
+      discovered_at: '2026-09-24T04:12:55.276Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,7 +38,9 @@ provenance:
           - MCP Servers and Directories
         anchor_text: Entroly
         extracted_url: https://github.com/juyterman1000/entroly
-        surrounding_text: "- **[Entroly](https://github.com/juyterman1000/entroly)** – Local-first MCP server for explicit-budget context selection, content-addressed exact recovery, and auditable Context Receipts. Apache-2.0."
+        surrounding_text: >-
+          - **[Entroly](https://github.com/juyterman1000/entroly)** – Local-first MCP server for explicit-budget context
+          selection, content-addressed exact recovery, and auditable Context Receipts. Apache-2.0.
         confidence: high
 metadata:
   github:
@@ -44,9 +50,13 @@ metadata:
     archived: false
     full_name: juyterman1000/entroly
     html_url: https://github.com/juyterman1000/entroly
-    created_at: "2026-03-07T23:03:02Z"
-    pushed_at: "2026-07-30T04:54:21Z"
-    description: Compress tool outputs, logs, files, conversations, and RAG context before they reach the model.  On measured workloads, Entroly reduces unnecessary tokens by up to 90% while preserving answer-critical evidence through budget-aware selection, content-addressed recovery, and auditable Context Receipt. Works with Claude, Chatgpt/Codex,Openclaw.
+    created_at: '2026-03-07T23:03:02Z'
+    pushed_at: '2026-07-30T04:54:21Z'
+    description: >-
+      Compress tool outputs, logs, files, conversations, and RAG context before they reach the model.  On measured
+      workloads, Entroly reduces unnecessary tokens by up to 90% while preserving answer-critical evidence through
+      budget-aware selection, content-addressed recovery, and auditable Context Receipt. Works with Claude,
+      Chatgpt/Codex,Openclaw.
     homepage: https://juyterman1000.github.io/entroly/docs/index.html
     topics:
       - agent
@@ -69,14 +79,20 @@ metadata:
       - mcp
       - openclaw
       - token-optimization
-    last_checked_at: "2026-07-30T05:05:53.696Z"
+    last_checked_at: '2026-07-30T05:05:53.696Z'
     readme:
-      fetched_at: "2026-07-30T05:05:53.696Z"
+      fetched_at: '2026-07-30T05:05:53.696Z'
       bytes: 61943
 insights:
-  summary: A local proxy and context control plane that compresses context, optimizes provider cache hits, and verifies LLM outputs to reduce AI coding costs.
-  why_it_matters: It allows developers to slash API bills by 70-95% while improving context relevance and adding a layer of hallucination detection to existing coding assistants.
-  mental_damage: Nothing says modern development like spending an hour fine-tuning a context compression algorithm just to save enough money for a single latte.
+  summary: >-
+    A local proxy and context control plane that compresses context, optimizes provider cache hits, and verifies LLM
+    outputs to reduce AI coding costs.
+  why_it_matters: >-
+    It allows developers to slash API bills by 70-95% while improving context relevance and adding a layer of
+    hallucination detection to existing coding assistants.
+  mental_damage: >-
+    Nothing says modern development like spending an hour fine-tuning a context compression algorithm just to save
+    enough money for a single latte.
   tags:
     - context-compression
     - llm-proxy
@@ -86,7 +102,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core value is context optimization (compression, selection, and memory) rather than just providing extra tools to a host assistant.
+  reason: >-
+    The product's core value is context optimization (compression, selection, and memory) rather than just providing
+    extra tools to a host assistant.
   evidence:
     - Claims to cut Claude/OpenAI/Gemini bills by 70–95% via context compression
     - Provides an auditable context control plane with features like 'Select', 'Verify', and 'Memory OS'
@@ -96,22 +114,22 @@ placement:
   secondary_categories: []
   section: Compression & Token Optimization
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (417) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-09-24T04:12:55.277Z"
+    updated_at: '2026-09-24T04:12:55.277Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:53.696Z"
+    updated_at: '2026-07-30T05:05:53.696Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

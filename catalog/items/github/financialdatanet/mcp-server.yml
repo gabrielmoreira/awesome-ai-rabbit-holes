@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__financialdatanet__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: financialdatanet/mcp-server
         extracted_url: https://github.com/financialdatanet/mcp-server
-        surrounding_text: "- [financialdatanet/mcp-server](https://github.com/financialdatanet/mcp-server) 🐍 🏠 🪟 🐧 - [FinancialData.Net](https://financialdata.net/) MCP server allows you to retrieve end-of-day and intraday stock market data, company financial statements, insider and institutional trading data, sustainability data, earnings releases, and much more."
+        surrounding_text: >-
+          - [financialdatanet/mcp-server](https://github.com/financialdatanet/mcp-server) 🐍 🏠 🪟 🐧 -
+          [FinancialData.Net](https://financialdata.net/) MCP server allows you to retrieve end-of-day and intraday
+          stock market data, company financial statements, insider and institutional trading data, sustainability data,
+          earnings releases, and much more.
         confidence: high
 metadata:
   github:
@@ -51,24 +55,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-09-03T05:16:41.467Z"
+    updated_at: '2026-09-03T05:16:41.467Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: financialdatanet/mcp-server"
+      message: 'GitHub repository not found: financialdatanet/mcp-server'
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -1,0 +1,132 @@
+id: github__caiovicentino__jev-risk-check-provider
+kind: github-repo
+name: caiovicentino/jev-risk-check-provider
+canonical_url: https://github.com/caiovicentino/jev-risk-check-provider
+identity:
+  github_repo: caiovicentino/jev-risk-check-provider
+provenance:
+  discoveries:
+    - id: discovery__github__caiovicentino__jev-risk-check-provider__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jev-risk-check-provider
+        extracted_url: https://github.com/caiovicentino/jev-risk-check-provider
+        surrounding_text: >-
+          - [jev-risk-check-provider](https://github.com/caiovicentino/jev-risk-check-provider) - x402 risk-check
+          provider: TypeSafe Jev typed decisions plus ES256-signed attestations facilitators can verify for agent
+          payments. [Project guide](community/projects/tools/caiovicentino-jev-risk-check-provider.md).
+        confidence: high
+    - id: discovery__github__caiovicentino__jev-risk-check-provider__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Security & Guardrails
+        anchor_text: '**jev-risk-check-provider**'
+        extracted_url: https://github.com/caiovicentino/jev-risk-check-provider
+        surrounding_text: >-
+          - [**jev-risk-check-provider**](https://github.com/caiovicentino/jev-risk-check-provider) — x402check — LIVE
+          payer-intent risk checks for x402 agent commerce: typed decisions (TypeSafe Jev), ES256-signed attestations,
+          mainnet USDC settlement. did:web:x402check.xyz
+        confidence: high
+    - id: discovery__github__caiovicentino__jev-risk-check-provider__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Verification & Guardrails
+        anchor_text: jev-risk-check-provider
+        extracted_url: https://github.com/caiovicentino/jev-risk-check-provider
+        surrounding_text: >-
+          - [jev-risk-check-provider](https://github.com/caiovicentino/jev-risk-check-provider)
+          ![stars](https://img.shields.io/github/stars/caiovicentino/jev-risk-check-provider?style=flat-square&label=%E2%98%85)
+          - Agent payments: an x402 `risk-check` provider where Jev scores agent counterparties as typed
+          Noul/Choice/Score questions into a code-controlled 0-100 score, issuing an ES256-signed attestation per
+          verdict; 540-call scale run (99.76% at threshold 65-75, 0 false positives) and a 5-iteration 1,500-case
+          adversarial red-team loop (100% adversarial accuracy) with ~$0.00005/decision at p50 ~400ms.
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: caiovicentino/jev-risk-check-provider
+    html_url: https://github.com/caiovicentino/jev-risk-check-provider
+    created_at: '2026-09-27T21:40:12Z'
+    pushed_at: '2026-09-29T12:50:56Z'
+    description: >-
+      x402check — LIVE payer-intent risk checks for x402 agent commerce: typed decisions (TypeSafe Jev), ES256-signed
+      attestations, mainnet USDC settlement. did:web:x402check.xyz
+    homepage: https://x402check.xyz
+    topics:
+      - ai-agents
+      - cloudflare-workers
+      - guardrails
+      - jev
+      - llm-safety
+      - payments
+      - risk-check
+      - solana
+      - typesafe-ai
+      - x402
+      - x402check
+    last_checked_at: '2026-09-29T13:09:40.704Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:40.704Z'
+      bytes: 13729
+insights:
+  summary: >-
+    x402check — LIVE payer-intent risk checks for x402 agent commerce: typed decisions (TypeSafe Jev), ES256-signed
+    attestations, mainnet USDC settlement. did:web:x402check.xyz
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.76
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.392Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:40.704Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

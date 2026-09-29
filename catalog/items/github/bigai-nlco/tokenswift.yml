@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bigai-nlco__tokenswift__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 推理 Inference
         anchor_text: TokenSwift
         extracted_url: https://github.com/bigai-nlco/tokenswift
-        surrounding_text: "48. [TokenSwift](https://github.com/bigai-nlco/TokenSwift): From Hours to Minutes: Lossless Acceleration of Ultra Long Sequence Generation."
+        surrounding_text: >-
+          48. [TokenSwift](https://github.com/bigai-nlco/TokenSwift): From Hours to Minutes: Lossless Acceleration of
+          Ultra Long Sequence Generation.
         confidence: high
 metadata:
   github:
@@ -29,10 +31,10 @@ metadata:
     archived: false
     full_name: bigai-nlco/TokenSwift
     html_url: https://github.com/bigai-nlco/TokenSwift
-    created_at: "2025-02-06T06:23:24Z"
-    pushed_at: "2025-05-19T13:51:35Z"
-    description: "[ICML 2025] |TokenSwift: Lossless Acceleration of Ultra Long Sequence Generation"
-    homepage: ""
+    created_at: '2025-02-06T06:23:24Z'
+    pushed_at: '2025-05-19T13:51:35Z'
+    description: '[ICML 2025] |TokenSwift: Lossless Acceleration of Ultra Long Sequence Generation'
+    homepage: ''
     topics:
       - deepseek
       - inference
@@ -42,13 +44,15 @@ metadata:
       - qwen
       - speculative-decoding
       - transformer
-    last_checked_at: "2026-09-24T04:12:58.961Z"
+    last_checked_at: '2026-09-24T04:12:58.961Z'
     readme:
-      fetched_at: "2026-09-24T04:12:58.961Z"
+      fetched_at: '2026-09-24T04:12:58.961Z'
       bytes: 7928
 insights:
   summary: TokenSwift is a research method for lossless acceleration of ultra long sequence generation in LLMs.
-  why_it_matters: It offers a way to speed up inference for very long sequences without sacrificing accuracy, which is relevant for developers working with large context windows.
+  why_it_matters: >-
+    It offers a way to speed up inference for very long sequences without sacrificing accuracy, which is relevant for
+    developers working with large context windows.
   mental_damage: Another paper with a name that sounds like a fintech startup but is actually about making LLMs go brrr.
   tags:
     - inference
@@ -58,34 +62,40 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a research paper/method (ICML 2025) focused on inference optimization, not a developer tool, framework, or workflow product.
+  reason: >-
+    This is a research paper/method (ICML 2025) focused on inference optimization, not a developer tool, framework, or
+    workflow product.
   evidence:
-    - Repo description explicitly identifies it as an ICML 2025 paper on lossless acceleration of ultra long sequence generation
+    - >-
+      Repo description explicitly identifies it as an ICML 2025 paper on lossless acceleration of ultra long sequence
+      generation
     - Topics include speculative-decoding and llm-inference, indicating a research focus rather than a developer tool
     - No evidence of a usable product, SDK, or workflow tool for developers
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:12:58.961Z"
+    updated_at: '2026-09-24T04:12:58.961Z'
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-09-28T04:56:06.833Z"
+    updated_at: '2026-09-28T04:56:06.833Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__bigai-nlco__tokenswift: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": TokenSwift\"... is not valid JSON"
+      message: >-
+        Catalog LLM categorization failed for github__bigai-nlco__tokenswift: Invalid AI response format: SyntaxError:
+        Unexpected token 'T', ..."_reason": TokenSwift"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -97,10 +107,16 @@ processing:
       input_hash: sha256:2ac7b3069798b2b0bc2eed03199c8c1db8e170daf58dba59420c5e398c60ff18
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a research paper/method (ICML 2025) focused on inference optimization, not a developer tool, framework, or workflow product.
+      decision_reason: >-
+        This is a research paper/method (ICML 2025) focused on inference optimization, not a developer tool, framework,
+        or workflow product.
       decision_evidence:
-        - Repo description explicitly identifies it as an ICML 2025 paper on lossless acceleration of ultra long sequence generation
-        - Topics include speculative-decoding and llm-inference, indicating a research focus rather than a developer tool
+        - >-
+          Repo description explicitly identifies it as an ICML 2025 paper on lossless acceleration of ultra long
+          sequence generation
+        - >-
+          Topics include speculative-decoding and llm-inference, indicating a research focus rather than a developer
+          tool
         - No evidence of a usable product, SDK, or workflow tool for developers
       category_candidates: []
       contrastive_reason: null

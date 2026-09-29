@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cockroachlabs__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: CockroachDB
         extracted_url: https://cockroachlabs.com
-        surrounding_text: "- [amineelkouhen/mcp-cockroachdb](https://github.com/amineelkouhen/mcp-cockroachdb) 🐍 ☁️ - A Model Context Protocol server for managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com)."
+        surrounding_text: >-
+          - [amineelkouhen/mcp-cockroachdb](https://github.com/amineelkouhen/mcp-cockroachdb) 🐍 ☁️ - A Model Context
+          Protocol server for managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com).
         confidence: high
     - id: discovery__cockroachlabs__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,10 +36,12 @@ provenance:
           - Community Servers
         anchor_text: CockroachDB
         extracted_url: https://cockroachlabs.com
-        surrounding_text: "- **[CockroachDB](https://github.com/amineelkouhen/mcp-cockroachdb)** - A Model Context Protocol server for managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com)."
+        surrounding_text: >-
+          - **[CockroachDB](https://github.com/amineelkouhen/mcp-cockroachdb)** - A Model Context Protocol server for
+          managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com).
         confidence: high
     - id: discovery__www__cockroachlabs__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -50,10 +54,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: CockroachDB
         extracted_url: https://cockroachlabs.com
-        surrounding_text: "- [amineelkouhen/mcp-cockroachdb](https://github.com/amineelkouhen/mcp-cockroachdb) 🐍 ☁️ - A Model Context Protocol server for managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com)."
+        surrounding_text: >-
+          - [amineelkouhen/mcp-cockroachdb](https://github.com/amineelkouhen/mcp-cockroachdb) 🐍 ☁️ - A Model Context
+          Protocol server for managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com).
         confidence: high
     - id: discovery__www__cockroachlabs__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -65,7 +71,9 @@ provenance:
           - Community Servers
         anchor_text: CockroachDB
         extracted_url: https://cockroachlabs.com
-        surrounding_text: "- **[CockroachDB](https://github.com/amineelkouhen/mcp-cockroachdb)** - A Model Context Protocol server for managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com)."
+        surrounding_text: >-
+          - **[CockroachDB](https://github.com/amineelkouhen/mcp-cockroachdb)** - A Model Context Protocol server for
+          managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com).
         confidence: high
 metadata:
   github:
@@ -83,9 +91,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: CockroachDB is a distributed SQL database designed for resilience, horizontal scaling, and global deployment, with Cockroach Continuum adding an agentic management layer.
-  why_it_matters: It matters to developers building scalable, mission-critical applications who need a database that survives failures and scales globally without manual sharding or downtime.
-  mental_damage: Yet another database promising to be the last one you’ll ever need, while quietly adding yet another layer of 'agentic' ops to your already-too-complex stack.
+  summary: >-
+    CockroachDB is a distributed SQL database designed for resilience, horizontal scaling, and global deployment, with
+    Cockroach Continuum adding an agentic management layer.
+  why_it_matters: >-
+    It matters to developers building scalable, mission-critical applications who need a database that survives failures
+    and scales globally without manual sharding or downtime.
+  mental_damage: >-
+    Yet another database promising to be the last one you’ll ever need, while quietly adding yet another layer of
+    'agentic' ops to your already-too-complex stack.
   tags:
     - database
     - distributed-sql
@@ -93,21 +107,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: CockroachDB is a distributed SQL database, not an AI developer tool; while marketed with 'agentic' features, its core identity is infrastructure, not a coding agent, app builder, or developer-facing AI workflow product.
+  reason: >-
+    CockroachDB is a distributed SQL database, not an AI developer tool; while marketed with 'agentic' features, its
+    core identity is infrastructure, not a coding agent, app builder, or developer-facing AI workflow product.
   evidence:
-    - "Repo description: none; scraped site context describes CockroachDB as a 'cloud-native, distributed SQL database' and Cockroach Continuum as an 'agentic database cloud' focused on resilience, scaling, and global deployment."
-    - "Source-list context: appears in awesome-mcp-servers under 'Community Servers' due to MCP compatibility, but MCP is not its primary identity."
-    - No evidence of AI-driven code generation, editing, testing, app scaffolding, or developer workflow automation as its main function.
+    - >-
+      Repo description: none; scraped site context describes CockroachDB as a 'cloud-native, distributed SQL database'
+      and Cockroach Continuum as an 'agentic database cloud' focused on resilience, scaling, and global deployment.
+    - >-
+      Source-list context: appears in awesome-mcp-servers under 'Community Servers' due to MCP compatibility, but MCP is
+      not its primary identity.
+    - >-
+      No evidence of AI-driven code generation, editing, testing, app scaffolding, or developer workflow automation as
+      its main function.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:52:01.105Z"
+    updated_at: '2026-09-28T04:52:01.105Z'
     cause: null
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
@@ -120,18 +142,27 @@ processing:
       input_hash: sha256:286a19c3bf19cac4b331e73584d99ac53bcb2dcddae738a2fda5043db5885181
       proposed_primary_category: null
       disagreement: false
-      decision_reason: CockroachDB is a distributed SQL database, not an AI developer tool; while marketed with 'agentic' features, its core identity is infrastructure, not a coding agent, app builder, or developer-facing AI workflow product.
+      decision_reason: >-
+        CockroachDB is a distributed SQL database, not an AI developer tool; while marketed with 'agentic' features, its
+        core identity is infrastructure, not a coding agent, app builder, or developer-facing AI workflow product.
       decision_evidence:
-        - "Repo description: none; scraped site context describes CockroachDB as a 'cloud-native, distributed SQL database' and Cockroach Continuum as an 'agentic database cloud' focused on resilience, scaling, and global deployment."
-        - "Source-list context: appears in awesome-mcp-servers under 'Community Servers' due to MCP compatibility, but MCP is not its primary identity."
-        - No evidence of AI-driven code generation, editing, testing, app scaffolding, or developer workflow automation as its main function.
+        - >-
+          Repo description: none; scraped site context describes CockroachDB as a 'cloud-native, distributed SQL
+          database' and Cockroach Continuum as an 'agentic database cloud' focused on resilience, scaling, and global
+          deployment.
+        - >-
+          Source-list context: appears in awesome-mcp-servers under 'Community Servers' due to MCP compatibility, but
+          MCP is not its primary identity.
+        - >-
+          No evidence of AI-driven code generation, editing, testing, app scaffolding, or developer workflow automation
+          as its main function.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.686Z"
+    updated_at: '2026-07-20T15:10:47.686Z'
     cause: null
     next_retry_at: null
   stars:

@@ -1,0 +1,98 @@
+id: github__ghost-in-the-droid__android-agent
+kind: github-repo
+name: ghost-in-the-droid/android-agent
+canonical_url: https://github.com/ghost-in-the-droid/android-agent
+identity:
+  github_repo: ghost-in-the-droid/android-agent
+provenance:
+  discoveries:
+    - id: discovery__github__ghost-in-the-droid__android-agent__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 📱 Mobile Device Control
+        anchor_text: ghost-in-the-droid/android-agent
+        extracted_url: https://github.com/ghost-in-the-droid/android-agent
+        surrounding_text: >-
+          -   **[ghost-in-the-droid/android-agent](https://github.com/ghost-in-the-droid/android-agent)** [![GitHub
+          stars](https://img.shields.io/github/stars/ghost-in-the-droid/android-agent?style=social)](https://github.com/ghost-in-the-droid/android-agent):
+          Give any LLM agent a real Android or iPhone as its body. 62 MCP tools: tap, swipe, screenshot, screen-tree
+          reading, app launch, on-device inference (llama.cpp, MediaPipe, MLX), Docker+KVM emulator pools. Works with
+          Claude Code, Cursor, LangChain, and any MCP client. `pip install ghost-in-the-droid`
+        confidence: high
+metadata:
+  github:
+    stars: 369
+    forks: 37
+    license: MIT
+    archived: false
+    full_name: ghost-in-the-droid/android-agent
+    html_url: https://github.com/ghost-in-the-droid/android-agent
+    created_at: '2026-04-08T01:31:13Z'
+    pushed_at: '2026-08-13T22:43:42Z'
+    description: >-
+      Open-source framework to drive a real phone with AI agents: Android over ADB, iPhone over WebDriverAgent, 62 MCP
+      tools, Python skills, a Vue dashboard, and swappable local or cloud LLMs
+    homepage: https://ghostinthedroid.com
+    topics:
+      - adb
+      - android
+      - android-automation
+      - automation
+      - bot-framework
+      - fastapi
+      - ios
+      - iphone
+      - mcp
+      - open-source
+      - phone-farm
+      - python
+      - skill-system
+      - vue
+      - webdriveragent
+    last_checked_at: '2026-09-29T13:11:40.790Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:40.790Z'
+      bytes: 25639
+insights:
+  summary: >-
+    Open-source framework to drive a real phone with AI agents: Android over ADB, iPhone over WebDriverAgent, 62 MCP
+    tools, Python skills, a Vue dashboard, and swappable local or cloud LLMs
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Browser & Computer-Use Agents
+  evidence:
+    - jev-latest choice confidence 0.51
+placement:
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Browser & Computer-Use Agents
+lifecycle:
+  status: curated
+  reason: Stars (369) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.458Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:40.790Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

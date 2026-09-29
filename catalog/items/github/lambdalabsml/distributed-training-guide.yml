@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lambdalabsml__distributed-training-guide__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 技巧 Tips
         anchor_text: Distributed Training Guide
         extracted_url: https://github.com/lambdalabsml/distributed-training-guide
-        surrounding_text: "31. [Distributed Training Guide](https://github.com/LambdaLabsML/distributed-training-guide): Best practices & guides on how to write distributed pytorch training code."
+        surrounding_text: >-
+          31. [Distributed Training Guide](https://github.com/LambdaLabsML/distributed-training-guide): Best practices &
+          guides on how to write distributed pytorch training code.
         confidence: high
 metadata:
   github:
@@ -29,10 +31,10 @@ metadata:
     archived: false
     full_name: LambdaLabsML/distributed-training-guide
     html_url: https://github.com/LambdaLabsML/distributed-training-guide
-    created_at: "2024-07-31T16:11:23Z"
-    pushed_at: "2025-10-22T21:27:41Z"
+    created_at: '2024-07-31T16:11:23Z'
+    pushed_at: '2025-10-22T21:27:41Z'
     description: Best practices & guides on how to write distributed pytorch training code
-    homepage: ""
+    homepage: ''
     topics:
       - cluster
       - cuda
@@ -48,13 +50,15 @@ metadata:
       - pytorch
       - sharding
       - slurm
-    last_checked_at: "2026-07-30T05:06:02.520Z"
+    last_checked_at: '2026-07-30T05:06:02.520Z'
     readme:
-      fetched_at: "2026-07-30T05:06:02.520Z"
+      fetched_at: '2026-07-30T05:06:02.520Z'
       bytes: 3652
 insights:
   summary: A guide and best practices for writing distributed PyTorch training code.
-  why_it_matters: Helps developers optimize and scale PyTorch training across GPU clusters with practical patterns for sharding, FSDP, and NCCL.
+  why_it_matters: >-
+    Helps developers optimize and scale PyTorch training across GPU clusters with practical patterns for sharding, FSDP,
+    and NCCL.
   mental_damage: Because nothing says 'fun' like debugging MPI hangs in a 64-GPU job at 3 AM.
   tags:
     - pytorch
@@ -74,22 +78,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (610) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:02.520Z"
+    updated_at: '2026-07-30T05:06:02.520Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

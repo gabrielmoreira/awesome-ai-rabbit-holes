@@ -1,0 +1,79 @@
+id: woodor__ai__agent__fleet
+kind: website
+name: agent-fleet
+canonical_url: https://woodor.ai/agent-fleet
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__woodor__ai__agent__fleet__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: Agent Fleet
+        extracted_url: https://woodor.ai/agent-fleet
+        surrounding_text: >-
+          - **[Agent Fleet](https://woodor.ai/agent-fleet/)** — Messaging layer for coding-agent sessions: every live
+          Claude Code or Codex session takes a `name@project` address, and sessions exchange messages and files on one
+          machine, across a LAN, or across networks. Also does remote session lifecycle control — compact, clear,
+          handoff, restart. Native on macOS, Windows (x64 and arm64), and Linux x64, with no WSL or tmux. Closed source;
+          free on a local network, paid cloud relay.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Agent Fleet — Messaging layer for coding-agent sessions: every live Claude Code or Codex session takes a
+    name@project address, and sessions exchange messages and files on one machine, across a LAN, or across networks.
+    Also does remote session lifecycle control — compact, clear, handoff, restart. Native on macOS, Windows (x64 and
+    arm64), and Linux x64, with no WSL or tmux. Closed source; free on a local network, paid cloud relay.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.91
+placement:
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.494Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

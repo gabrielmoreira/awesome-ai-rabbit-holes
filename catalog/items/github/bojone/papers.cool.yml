@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bojone__papers.cool__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 论文 Paper
         anchor_text: Cool Papers
         extracted_url: https://papers.cool
-        surrounding_text: "> 🤝[Huggingface Daily Papers](https://huggingface.co/papers)、[Cool Papers](https://papers.cool/)、[ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained)"
+        surrounding_text: >-
+          > 🤝[Huggingface Daily Papers](https://huggingface.co/papers)、[Cool Papers](https://papers.cool/)、[ML Papers
+          Explained](https://github.com/dair-ai/ML-Papers-Explained)
         confidence: high
 metadata:
   github:
@@ -29,19 +31,26 @@ metadata:
     archived: false
     full_name: bojone/papers.cool
     html_url: https://github.com/bojone/papers.cool
-    created_at: "2024-01-02T08:05:32Z"
-    pushed_at: "2026-07-06T13:31:24Z"
+    created_at: '2024-01-02T08:05:32Z'
+    pushed_at: '2026-07-06T13:31:24Z'
     description: Cool Papers - Immersive Paper Discovery
     homepage: null
     topics: []
-    last_checked_at: "2026-09-24T04:13:01.916Z"
+    last_checked_at: '2026-09-24T04:13:01.916Z'
     readme:
-      fetched_at: "2026-09-24T04:13:01.916Z"
+      fetched_at: '2026-09-24T04:13:01.916Z'
       bytes: 17002
 insights:
-  summary: Cool Papers is an immersive paper discovery platform that uses Kimi Chat AI to streamline arXiv and top conference paper exploration with features like subject filtering, summaries, exportable reading history, and browser extensions.
-  why_it_matters: It helps developers and researchers efficiently discover, filter, and retain insights from academic papers without leaving the platform, reducing context-switching during literature review.
-  mental_damage: Another tool promising to solve information overload by adding yet another tab to your already fractured research workflow.
+  summary: >-
+    Cool Papers is an immersive paper discovery platform that uses Kimi Chat AI to streamline arXiv and top conference
+    paper exploration with features like subject filtering, summaries, exportable reading history, and browser
+    extensions.
+  why_it_matters: >-
+    It helps developers and researchers efficiently discover, filter, and retain insights from academic papers without
+    leaving the platform, reducing context-switching during literature review.
+  mental_damage: >-
+    Another tool promising to solve information overload by adding yet another tab to your already fractured research
+    workflow.
   tags:
     - research
     - paper-discovery
@@ -49,31 +58,36 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Cool Papers is a paper discovery and reading platform focused on consuming academic content via AI summaries and filtering, not a developer-facing AI tool for coding, agents, workflows, or infrastructure as defined in the catalog scope.
+  reason: >-
+    Cool Papers is a paper discovery and reading platform focused on consuming academic content via AI summaries and
+    filtering, not a developer-facing AI tool for coding, agents, workflows, or infrastructure as defined in the catalog
+    scope.
   evidence:
-    - "Repo description: 'Cool Papers - Immersive Paper Discovery'"
-    - README emphasizes paper browsing, Kimi-powered summaries, exportable reading history, and venue-based filtering for arXiv and conference papers
+    - 'Repo description: ''Cool Papers - Immersive Paper Discovery'''
+    - >-
+      README emphasizes paper browsing, Kimi-powered summaries, exportable reading history, and venue-based filtering
+      for arXiv and conference papers
     - Appears in awesome-LLM-resources under '论文 Paper' section as a resource for LLM research, not a developer tool
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (755) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:01.916Z"
+    updated_at: '2026-09-24T04:13:01.916Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:57:38.660Z"
+    updated_at: '2026-09-28T04:57:38.660Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -86,10 +100,15 @@ processing:
       input_hash: sha256:746bba7de99e87ef9ceeaadc405915b38abaa419dcbdd9928bce5b5fde8b6f6b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Cool Papers is a paper discovery and reading platform focused on consuming academic content via AI summaries and filtering, not a developer-facing AI tool for coding, agents, workflows, or infrastructure as defined in the catalog scope.
+      decision_reason: >-
+        Cool Papers is a paper discovery and reading platform focused on consuming academic content via AI summaries and
+        filtering, not a developer-facing AI tool for coding, agents, workflows, or infrastructure as defined in the
+        catalog scope.
       decision_evidence:
-        - "Repo description: 'Cool Papers - Immersive Paper Discovery'"
-        - README emphasizes paper browsing, Kimi-powered summaries, exportable reading history, and venue-based filtering for arXiv and conference papers
+        - 'Repo description: ''Cool Papers - Immersive Paper Discovery'''
+        - >-
+          README emphasizes paper browsing, Kimi-powered summaries, exportable reading history, and venue-based
+          filtering for arXiv and conference papers
         - Appears in awesome-LLM-resources under '论文 Paper' section as a resource for LLM research, not a developer tool
       category_candidates: []
       contrastive_reason: null

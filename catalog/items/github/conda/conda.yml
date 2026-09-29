@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__conda__conda__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - IDEs and Workspaces
         anchor_text: conda
         extracted_url: https://github.com/conda/conda
-        surrounding_text: "| [conda](https://github.com/conda/conda)                  | OS-agnostic, system-level binary package manager and ecosystem.                                                                                                                                    | ![GitHub Badge](https://img.shields.io/github/stars/conda/conda.svg?style=flat-square)            |"
+        surrounding_text: >-
+          | [conda](https://github.com/conda/conda)                  | OS-agnostic, system-level binary package manager
+          and
+          ecosystem.                                                                                                                                   
+          | ![GitHub Badge](https://img.shields.io/github/stars/conda/conda.svg?style=flat-square)            |
         confidence: high
 metadata:
   github:
@@ -30,22 +34,28 @@ metadata:
     archived: false
     full_name: conda/conda
     html_url: https://github.com/conda/conda
-    created_at: "2012-10-15T22:08:03Z"
-    pushed_at: "2026-09-12T10:13:54Z"
+    created_at: '2012-10-15T22:08:03Z'
+    pushed_at: '2026-09-12T10:13:54Z'
     description: A system-level, binary package and environment manager running on all major operating systems and platforms.
     homepage: https://docs.conda.io/projects/conda/
     topics:
       - conda
       - package-management
       - python
-    last_checked_at: "2026-09-14T04:13:28.436Z"
+    last_checked_at: '2026-09-14T04:13:28.436Z'
     readme:
-      fetched_at: "2026-09-14T04:13:28.436Z"
+      fetched_at: '2026-09-14T04:13:28.436Z'
       bytes: 6175
 insights:
-  summary: A cross-platform, language-agnostic binary package and environment manager that creates isolated environments and installs Python, C, and other compiled dependencies.
-  why_it_matters: It is foundational infrastructure for Python data science and machine learning workflows, even though it has nothing to do with AI assistants or agents.
-  mental_damage: You will spend more time resolving conda dependency conflicts than debugging your model, and somehow this is still considered the easy part of MLOps.
+  summary: >-
+    A cross-platform, language-agnostic binary package and environment manager that creates isolated environments and
+    installs Python, C, and other compiled dependencies.
+  why_it_matters: >-
+    It is foundational infrastructure for Python data science and machine learning workflows, even though it has nothing
+    to do with AI assistants or agents.
+  mental_damage: >-
+    You will spend more time resolving conda dependency conflicts than debugging your model, and somehow this is still
+    considered the easy part of MLOps.
   tags:
     - package-manager
     - environment-manager
@@ -55,31 +65,39 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Conda is a general-purpose binary package and environment manager, not an AI-specific developer tool, coding assistant, agent, or AI workflow product.
+  reason: >-
+    Conda is a general-purpose binary package and environment manager, not an AI-specific developer tool, coding
+    assistant, agent, or AI workflow product.
   evidence:
-    - Repo description identifies it as a 'system-level, binary package and environment manager' with no AI-specific functionality.
-    - README focuses on cross-platform package installation, environment creation, and building conda packages, with no claims about LLMs, agents, or AI-assisted workflows.
-    - Created in 2012, the project predates the modern AI tooling wave; its presence in Awesome-LLMOps reflects supporting ML infrastructure rather than a curated AI rabbit hole.
+    - >-
+      Repo description identifies it as a 'system-level, binary package and environment manager' with no AI-specific
+      functionality.
+    - >-
+      README focuses on cross-platform package installation, environment creation, and building conda packages, with no
+      claims about LLMs, agents, or AI-assisted workflows.
+    - >-
+      Created in 2012, the project predates the modern AI tooling wave; its presence in Awesome-LLMOps reflects
+      supporting ML infrastructure rather than a curated AI rabbit hole.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (7395) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:28.436Z"
+    updated_at: '2026-09-14T04:13:28.436Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -94,11 +112,19 @@ processing:
       input_hash: sha256:3d02bbcfad0b24e52df511b7b76ff9411cf9cac305c23c9e5e0c27751e5ed8c9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Conda is a general-purpose binary package and environment manager, not an AI-specific developer tool, coding assistant, agent, or AI workflow product.
+      decision_reason: >-
+        Conda is a general-purpose binary package and environment manager, not an AI-specific developer tool, coding
+        assistant, agent, or AI workflow product.
       decision_evidence:
-        - Repo description identifies it as a 'system-level, binary package and environment manager' with no AI-specific functionality.
-        - README focuses on cross-platform package installation, environment creation, and building conda packages, with no claims about LLMs, agents, or AI-assisted workflows.
-        - Created in 2012, the project predates the modern AI tooling wave; its presence in Awesome-LLMOps reflects supporting ML infrastructure rather than a curated AI rabbit hole.
+        - >-
+          Repo description identifies it as a 'system-level, binary package and environment manager' with no AI-specific
+          functionality.
+        - >-
+          README focuses on cross-platform package installation, environment creation, and building conda packages, with
+          no claims about LLMs, agents, or AI-assisted workflows.
+        - >-
+          Created in 2012, the project predates the modern AI tooling wave; its presence in Awesome-LLMOps reflects
+          supporting ML infrastructure rather than a curated AI rabbit hole.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

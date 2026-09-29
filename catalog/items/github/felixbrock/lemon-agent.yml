@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__felixbrock__lemon-agent__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - Lemon Agent
         anchor_text: Lemon Agent
         extracted_url: https://github.com/felixbrock/lemon-agent
-        surrounding_text: "## [Lemon Agent](https://github.com/felixbrock/lemon-agent)"
+        surrounding_text: '## [Lemon Agent](https://github.com/felixbrock/lemon-agent)'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,25 @@ metadata:
     archived: false
     full_name: felixbrock/lemon-agent
     html_url: https://github.com/felixbrock/lemon-agent
-    created_at: "2023-06-26T20:06:40Z"
-    pushed_at: "2023-09-25T15:54:19Z"
+    created_at: '2023-06-26T20:06:40Z'
+    pushed_at: '2023-09-25T15:54:19Z'
     description: Plan-Validate-Solve (PVS) Agent for accurate, reliable and reproducable workflow automation
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-08-27T09:23:29.319Z"
+    last_checked_at: '2026-08-27T09:23:29.319Z'
     readme:
-      fetched_at: "2026-08-27T09:23:29.319Z"
+      fetched_at: '2026-08-27T09:23:29.319Z'
       bytes: 7083
 insights:
-  summary: A standalone Plan-Validate-Solve agent that automates read/write workflows across business tools like Airtable, Hubspot, Notion, Discord, and GitHub via a planner-solver architecture.
-  why_it_matters: It pitches a multi-agent approach to reduce hallucinations in tool-use workflows by separating planning from execution and inserting human approval gates.
-  mental_damage: Nothing says 'reliable automation' quite like a two-agent system that pauses for human sign-off at every step and hasn't received a patch since 2023.
+  summary: >-
+    A standalone Plan-Validate-Solve agent that automates read/write workflows across business tools like Airtable,
+    Hubspot, Notion, Discord, and GitHub via a planner-solver architecture.
+  why_it_matters: >-
+    It pitches a multi-agent approach to reduce hallucinations in tool-use workflows by separating planning from
+    execution and inserting human approval gates.
+  mental_damage: >-
+    Nothing says 'reliable automation' quite like a two-agent system that pauses for human sign-off at every step and
+    hasn't received a patch since 2023.
   tags:
     - workflow-automation
     - multi-agent
@@ -50,31 +56,39 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: It is a general SaaS-workflow automation agent for business tools, not a developer-specific coding assistant, IDE, framework, or app builder, and the authors explicitly warn that it is unmaintained.
+  reason: >-
+    It is a general SaaS-workflow automation agent for business tools, not a developer-specific coding assistant, IDE,
+    framework, or app builder, and the authors explicitly warn that it is unmaintained.
   evidence:
-    - "README disclaimer: 'This repo is currently not under active maintenance. Things might break unexpectedly!' with last pushed_at of 2023-09-25."
-    - Core value proposition centers on business tools (Airtable, Hubspot, Discord, Notion) rather than repo editing, code generation, or app scaffolding.
-    - Repo description frames it as 'workflow automation', not a coding agent, orchestration platform, or developer tool.
+    - >-
+      README disclaimer: 'This repo is currently not under active maintenance. Things might break unexpectedly!' with
+      last pushed_at of 2023-09-25.
+    - >-
+      Core value proposition centers on business tools (Airtable, Hubspot, Discord, Notion) rather than repo editing,
+      code generation, or app scaffolding.
+    - >-
+      Repo description frames it as 'workflow automation', not a coding agent, orchestration platform, or developer
+      tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (344) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:29.319Z"
+    updated_at: '2026-08-27T09:23:29.319Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

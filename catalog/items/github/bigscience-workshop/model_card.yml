@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bigscience-workshop__model_card__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Large Language Model
         anchor_text: Bloom
         extracted_url: https://github.com/bigscience-workshop/model_card
-        surrounding_text: "| [Bloom](https://github.com/bigscience-workshop/model_card)              | BigScience Large Open-science Open-access Multilingual Language Model                                                                                                                      | ![GitHub Badge](https://img.shields.io/github/stars/bigscience-workshop/model_card.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [Bloom](https://github.com/bigscience-workshop/model_card)              | BigScience Large Open-science
+          Open-access Multilingual Language
+          Model                                                                                                                     
+          | ![GitHub Badge](https://img.shields.io/github/stars/bigscience-workshop/model_card.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -30,19 +34,23 @@ metadata:
     archived: false
     full_name: bigscience-workshop/model_card
     html_url: https://github.com/bigscience-workshop/model_card
-    created_at: "2022-05-05T18:19:05Z"
-    pushed_at: "2022-07-11T18:57:23Z"
+    created_at: '2022-05-05T18:19:05Z'
+    pushed_at: '2022-07-11T18:57:23Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-24T04:12:59.282Z"
+    last_checked_at: '2026-09-24T04:12:59.282Z'
     readme:
-      fetched_at: "2026-09-24T04:12:59.282Z"
+      fetched_at: '2026-09-24T04:12:59.282Z'
       bytes: 20550
 insights:
   summary: A deprecated model card for the BLOOM multilingual language model, now redirected to Hugging Face.
-  why_it_matters: Serves as a historical reference for documentation practices in large open-source ML projects, though no longer maintained.
-  mental_damage: Another artifact reminding us that even well-funded open science projects eventually get archived when the hype moves on.
+  why_it_matters: >-
+    Serves as a historical reference for documentation practices in large open-source ML projects, though no longer
+    maintained.
+  mental_damage: >-
+    Another artifact reminding us that even well-funded open science projects eventually get archived when the hype
+    moves on.
   tags:
     - documentation
     - ml-model
@@ -50,31 +58,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a static documentation page for a released ML model, not a developer-facing AI tool, agent, or infrastructure relevant to coding workflows.
+  reason: >-
+    This is a static documentation page for a released ML model, not a developer-facing AI tool, agent, or
+    infrastructure relevant to coding workflows.
   evidence:
     - Repo description is missing; README states it is DEPRECATED and redirects to Hugging Face
-    - Content is a model card detailing BLOOM's architecture, training data, and licensing — not a tool for developers to use in coding tasks
+    - >-
+      Content is a model card detailing BLOOM's architecture, training data, and licensing — not a tool for developers
+      to use in coding tasks
     - No evidence of being a runtime, SDK, agent, or workflow tool; purely informational and archival
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:12:59.282Z"
+    updated_at: '2026-09-24T04:12:59.282Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:56:12.845Z"
+    updated_at: '2026-09-28T04:56:12.845Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -87,10 +99,14 @@ processing:
       input_hash: sha256:7040c64d06b661c2ada5b4ddb2d824a89b9a4ce32ecabd66e5a7495c0db6cbac
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a static documentation page for a released ML model, not a developer-facing AI tool, agent, or infrastructure relevant to coding workflows.
+      decision_reason: >-
+        This is a static documentation page for a released ML model, not a developer-facing AI tool, agent, or
+        infrastructure relevant to coding workflows.
       decision_evidence:
         - Repo description is missing; README states it is DEPRECATED and redirects to Hugging Face
-        - Content is a model card detailing BLOOM's architecture, training data, and licensing — not a tool for developers to use in coding tasks
+        - >-
+          Content is a model card detailing BLOOM's architecture, training data, and licensing — not a tool for
+          developers to use in coding tasks
         - No evidence of being a runtime, SDK, agent, or workflow tool; purely informational and archival
       category_candidates: []
       contrastive_reason: null

@@ -1,0 +1,78 @@
+id: github__oppih__approval-judge-bridge
+kind: github-repo
+name: oppih/approval-judge-bridge
+canonical_url: https://github.com/oppih/approval-judge-bridge
+identity:
+  github_repo: oppih/approval-judge-bridge
+provenance:
+  discoveries:
+    - id: discovery__github__oppih__approval-judge-bridge__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Verification & Guardrails
+        anchor_text: approval-judge-bridge
+        extracted_url: https://github.com/oppih/approval-judge-bridge
+        surrounding_text: >-
+          - [approval-judge-bridge](https://github.com/oppih/approval-judge-bridge) ![type:
+          proxy](https://img.shields.io/badge/type-proxy-4B5563?style=flat-square)
+          ![stars](https://img.shields.io/github/stars/oppih/approval-judge-bridge?style=flat-square&label=%E2%98%85) -
+          Agent safety: OpenAI-compatible /v1/chat/completions proxy that gates an agent's shell commands through a
+          calibrated Jev Choice decision with fail-closed semantics.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    approval-judge-bridge - Agent safety: OpenAI-compatible /v1/chat/completions proxy that gates an agent's shell
+    commands through a calibrated Jev Choice decision with fail-closed semantics.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.51
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.471Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

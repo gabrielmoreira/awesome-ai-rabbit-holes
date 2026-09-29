@@ -1,0 +1,115 @@
+id: github__byk__jev-mcp
+kind: github-repo
+name: byk/jev-mcp
+canonical_url: https://github.com/byk/jev-mcp
+identity:
+  github_repo: byk/jev-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__byk__jev-mcp__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: jev-mcp (BYK)
+        extracted_url: https://github.com/byk/jev-mcp
+        surrounding_text: >-
+          | [jev-mcp (BYK)](https://github.com/BYK/jev-mcp) | ★ 1 | TypeScript | 2026-09-22 | An eval-first MCP server
+          for TypeSafe's Jev, a System One model that returns typed judgments (noul, choice, score) with probabilities
+          instead of generated text. |
+        confidence: high
+    - id: discovery__github__byk__jev-mcp__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP & Integrations
+        anchor_text: '**jev-mcp**'
+        extracted_url: https://github.com/byk/jev-mcp
+        surrounding_text: >-
+          - [**jev-mcp**](https://github.com/BYK/jev-mcp) — An evaluation-focused Jev MCP server for individual
+          questions, batch processing and question or threshold comparisons.
+        confidence: high
+    - id: discovery__github__byk__jev-mcp__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - SDKs and developer tools
+        anchor_text: jev-mcp
+        extracted_url: https://github.com/byk/jev-mcp
+        surrounding_text: >-
+          - [jev-mcp](https://github.com/BYK/jev-mcp) - An eval-first MCP server for Jev, that returns typed judgments
+          (noul, choice, score) with probabilities instead of generated text.
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: BYK/jev-mcp
+    html_url: https://github.com/BYK/jev-mcp
+    created_at: '2026-09-17T21:59:18Z'
+    pushed_at: '2026-09-18T09:14:05Z'
+    description: >-
+      An eval-first MCP server for TypeSafe's Jev, a System One model that returns typed judgments (noul, choice, score)
+      with probabilities instead of generated text.
+    homepage: ''
+    topics: []
+    last_checked_at: '2026-09-29T13:09:39.728Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:39.728Z'
+      bytes: 4717
+insights:
+  summary: >-
+    An eval-first MCP server for TypeSafe's Jev, a System One model that returns typed judgments (noul, choice, score)
+    with probabilities instead of generated text.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  evidence:
+    - jev-latest choice confidence 0.44
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Evals, Benchmarks & Calibration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.392Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:39.728Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

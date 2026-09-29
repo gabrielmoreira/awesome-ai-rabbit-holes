@@ -1,0 +1,93 @@
+id: github__chunxiaoxx__nautilus-compass
+kind: github-repo
+name: chunxiaoxx/nautilus-compass
+canonical_url: https://github.com/chunxiaoxx/nautilus-compass
+identity:
+  github_repo: chunxiaoxx/nautilus-compass
+provenance:
+  discoveries:
+    - id: discovery__github__chunxiaoxx__nautilus-compass__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Evaluation and calibration
+        anchor_text: Jev Calibration Study (Nautilus Assay)
+        extracted_url: https://github.com/chunxiaoxx/nautilus-compass
+        surrounding_text: >-
+          - [Jev Calibration Study (Nautilus
+          Assay)](https://github.com/chunxiaoxx/nautilus-compass/blob/main/docs/wall/GENESIS_HOSTED_JEV_CALIBRATION.md)
+          - Independent, reproducible calibration evaluation of hosted Jev (240 seeded questions, all raw artifacts
+          published): accuracy 92.2%, Brier 0.048, ECE 0.041 overall.
+        confidence: high
+metadata:
+  github:
+    stars: 733
+    forks: 18
+    license: NOASSERTION
+    archived: false
+    full_name: chunxiaoxx/nautilus-compass
+    html_url: https://github.com/chunxiaoxx/nautilus-compass
+    created_at: '2026-04-27T18:20:31Z'
+    pushed_at: '2026-09-28T11:43:28Z'
+    description: >-
+      Reliability layer for multi-agent setups — keep agents coordinating without an orchestrator. Cross-dialog
+      contracts + drift detection + black-box memory (no LLM extraction).
+    homepage: https://compass.nautilus.social
+    topics:
+      - a2a
+      - agent-memory
+      - agentic-ai
+      - claude-code
+      - cross-agent
+      - llm
+      - local-first
+      - long-term-memory
+      - mcp
+      - memory-layer
+      - nautilus
+      - rag
+    last_checked_at: '2026-09-29T13:09:52.171Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:52.170Z'
+      bytes: 28556
+insights:
+  summary: >-
+    Reliability layer for multi-agent setups — keep agents coordinating without an orchestrator. Cross-dialog contracts
+    + drift detection + black-box memory (no LLM extraction).
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
+  evidence:
+    - jev-latest choice confidence 0.67
+placement:
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: Multi-Agent Systems
+lifecycle:
+  status: curated
+  reason: Stars (733) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.452Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:52.171Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

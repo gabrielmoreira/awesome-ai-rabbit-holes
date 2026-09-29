@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__codacy__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Codacy
         extracted_url: https://codacy.com
-        surrounding_text: "- **[Codacy](https://www.codacy.com/)** – Code quality platform with 30+ language support."
+        surrounding_text: '- **[Codacy](https://www.codacy.com/)** – Code quality platform with 30+ language support.'
         confidence: high
     - id: discovery__www__codacy__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Codacy
         extracted_url: https://www.codacy.com
-        surrounding_text: "- **[Codacy](https://www.codacy.com/)** – Code quality platform with 30+ language support."
+        surrounding_text: '- **[Codacy](https://www.codacy.com/)** – Code quality platform with 30+ language support.'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Codacy is a cloud-based platform for automated code quality, security scanning, and AI policy enforcement across development workflows.
-  why_it_matters: It helps developers maintain consistent code standards and catch AI-generated code risks early by integrating quality and security checks into PRs and IDEs.
-  mental_damage: Another layer of compliance theater that turns every PR into a negotiation with a bot that’s just as confused by your AI code as you are.
+  summary: >-
+    Codacy is a cloud-based platform for automated code quality, security scanning, and AI policy enforcement across
+    development workflows.
+  why_it_matters: >-
+    It helps developers maintain consistent code standards and catch AI-generated code risks early by integrating
+    quality and security checks into PRs and IDEs.
+  mental_damage: >-
+    Another layer of compliance theater that turns every PR into a negotiation with a bot that’s just as confused by
+    your AI code as you are.
   tags:
     - code-quality
     - security
@@ -62,22 +68,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Codacy is a general-purpose DevSecOps platform with AI policy features, not a developer-facing AI tool whose primary function is coding assistance, agent behavior, or workflow augmentation.
+  reason: >-
+    Codacy is a general-purpose DevSecOps platform with AI policy features, not a developer-facing AI tool whose primary
+    function is coding assistance, agent behavior, or workflow augmentation.
   evidence:
-    - Appears in awesome-ai-coding-tools under 'Code Review and Refactoring' as a tool for governing code quality, security, and AI coding policies
-    - Core offering includes AI Reviewer, AI Guardrails, AI Risk Hub, SCA, SAST, DAST, and compliance reporting — standard DevSecOps tooling with AI add-ons
-    - Marketed as a platform for engineering teams to 'govern code quality, security and AI coding policies from a single place', not to write, edit, or review code as an agent
+    - >-
+      Appears in awesome-ai-coding-tools under 'Code Review and Refactoring' as a tool for governing code quality,
+      security, and AI coding policies
+    - >-
+      Core offering includes AI Reviewer, AI Guardrails, AI Risk Hub, SCA, SAST, DAST, and compliance reporting —
+      standard DevSecOps tooling with AI add-ons
+    - >-
+      Marketed as a platform for engineering teams to 'govern code quality, security and AI coding policies from a
+      single place', not to write, edit, or review code as an agent
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:39:59.674Z"
+    updated_at: '2026-09-28T04:39:59.674Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,18 +104,26 @@ processing:
       input_hash: sha256:828620fc15fd873c98a89683c1ecd8087048d886ac8477ede6e7254150c56176
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Codacy is a general-purpose DevSecOps platform with AI policy features, not a developer-facing AI tool whose primary function is coding assistance, agent behavior, or workflow augmentation.
+      decision_reason: >-
+        Codacy is a general-purpose DevSecOps platform with AI policy features, not a developer-facing AI tool whose
+        primary function is coding assistance, agent behavior, or workflow augmentation.
       decision_evidence:
-        - Appears in awesome-ai-coding-tools under 'Code Review and Refactoring' as a tool for governing code quality, security, and AI coding policies
-        - Core offering includes AI Reviewer, AI Guardrails, AI Risk Hub, SCA, SAST, DAST, and compliance reporting — standard DevSecOps tooling with AI add-ons
-        - Marketed as a platform for engineering teams to 'govern code quality, security and AI coding policies from a single place', not to write, edit, or review code as an agent
+        - >-
+          Appears in awesome-ai-coding-tools under 'Code Review and Refactoring' as a tool for governing code quality,
+          security, and AI coding policies
+        - >-
+          Core offering includes AI Reviewer, AI Guardrails, AI Risk Hub, SCA, SAST, DAST, and compliance reporting —
+          standard DevSecOps tooling with AI add-ons
+        - >-
+          Marketed as a platform for engineering teams to 'govern code quality, security and AI coding policies from a
+          single place', not to write, edit, or review code as an agent
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.963Z"
+    updated_at: '2026-07-21T15:20:21.963Z'
     cause: null
     next_retry_at: null
   stars:

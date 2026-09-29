@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentrpc__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,12 @@ provenance:
           - Official Servers
         anchor_text: AgentRPC
         extracted_url: https://agentrpc.com
-        surrounding_text: "- **[AgentRPC](https://github.com/agentrpc/agentrpc)** - Connect to any function, any language, across network boundaries using [AgentRPC](https://www.agentrpc.com/)."
+        surrounding_text: >-
+          - **[AgentRPC](https://github.com/agentrpc/agentrpc)** - Connect to any function, any language, across network
+          boundaries using [AgentRPC](https://www.agentrpc.com/).
         confidence: high
     - id: discovery__www__agentrpc__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +35,9 @@ provenance:
           - Official Servers
         anchor_text: AgentRPC
         extracted_url: https://www.agentrpc.com
-        surrounding_text: "- **[AgentRPC](https://github.com/agentrpc/agentrpc)** - Connect to any function, any language, across network boundaries using [AgentRPC](https://www.agentrpc.com/)."
+        surrounding_text: >-
+          - **[AgentRPC](https://github.com/agentrpc/agentrpc)** - Connect to any function, any language, across network
+          boundaries using [AgentRPC](https://www.agentrpc.com/).
         confidence: high
 metadata:
   github:
@@ -61,7 +65,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: AgentRPC's core function is enabling inter-agent communication via RPC, placing it squarely in agent orchestration as infrastructure for coordinating multiple agents rather than being a coding agent or MCP-first tool.
+  reason: >-
+    AgentRPC's core function is enabling inter-agent communication via RPC, placing it squarely in agent orchestration
+    as infrastructure for coordinating multiple agents rather than being a coding agent or MCP-first tool.
   evidence:
     - Listed in awesome-mcp-servers under 'Official Servers' section, indicating recognition in MCP ecosystem
     - Described as a 'universal RPC layer for agents' in agent-orchestration canonical positives
@@ -71,12 +77,12 @@ placement:
   secondary_categories: []
   section: Agent Runtimes & Harnesses
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:38:24.903Z"
+    updated_at: '2026-09-28T04:38:24.903Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +95,10 @@ processing:
       input_hash: sha256:996fc2e68eaea39dbf9f254e934ab11dc1dade5ae7626d969aecc01fb0164485
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: AgentRPC's core function is enabling inter-agent communication via RPC, placing it squarely in agent orchestration as infrastructure for coordinating multiple agents rather than being a coding agent or MCP-first tool.
+      decision_reason: >-
+        AgentRPC's core function is enabling inter-agent communication via RPC, placing it squarely in agent
+        orchestration as infrastructure for coordinating multiple agents rather than being a coding agent or MCP-first
+        tool.
       decision_evidence:
         - Listed in awesome-mcp-servers under 'Official Servers' section, indicating recognition in MCP ecosystem
         - Described as a 'universal RPC layer for agents' in agent-orchestration canonical positives
@@ -97,12 +106,14 @@ processing:
       category_candidates:
         - agent-orchestration
         - mcp
-      contrastive_reason: Choose agent-orchestration over mcp because AgentRPC's primary identity is enabling agent communication via RPC, not serving as MCP infrastructure, despite appearing in MCP-related listings.
+      contrastive_reason: >-
+        Choose agent-orchestration over mcp because AgentRPC's primary identity is enabling agent communication via RPC,
+        not serving as MCP infrastructure, despite appearing in MCP-related listings.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.688Z"
+    updated_at: '2026-07-20T15:10:47.688Z'
     cause: null
     next_retry_at: null
   stars:

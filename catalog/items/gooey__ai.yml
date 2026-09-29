@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gooey__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,7 @@ provenance:
           - Developer tools
         anchor_text: Gooey.AI
         extracted_url: https://gooey.ai
-        surrounding_text: "- [Gooey.AI](https://gooey.ai/) - Create Your Own No Code AI Workflows."
+        surrounding_text: '- [Gooey.AI](https://gooey.ai/) - Create Your Own No Code AI Workflows.'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: A low-code orchestration platform for designing, deploying, and scaling multi-modal AI workflows and agents.
-  why_it_matters: It enables developers to move from prompt engineering to production-ready, multi-channel agents (like WhatsApp or web widgets) without managing complex infrastructure.
-  mental_damage: It offers the comforting illusion that you can solve all your production agent problems by simply becoming a highly specialized 'workflow orchestrator'.
+  why_it_matters: >-
+    It enables developers to move from prompt engineering to production-ready, multi-channel agents (like WhatsApp or
+    web widgets) without managing complex infrastructure.
+  mental_damage: >-
+    It offers the comforting illusion that you can solve all your production agent problems by simply becoming a highly
+    specialized 'workflow orchestrator'.
   tags:
     - low-code
     - orchestration
@@ -48,7 +52,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Gooey.AI is a hosted, low-code platform specifically designed for the orchestration of AI workflows, combining prompts, documents, and functions into deployable agents.
+  reason: >-
+    Gooey.AI is a hosted, low-code platform specifically designed for the orchestration of AI workflows, combining
+    prompts, documents, and functions into deployable agents.
   evidence:
     - Describes itself as a 'low-code, AI orchestration platform'.
     - Facilitates deployment of AI agents to channels like WhatsApp, voice, and web.
@@ -58,12 +64,12 @@ placement:
   secondary_categories: []
   section: Hosted Agent Platforms
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:18:51.794Z"
+    updated_at: '2026-09-28T04:18:51.794Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +91,9 @@ processing:
       input_hash: sha256:d80426ca619e571491d71c8e2b2055b5f5570f190e05181d33fb4bea49ee65d4
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Gooey.AI is a hosted, low-code platform specifically designed for the orchestration of AI workflows, combining prompts, documents, and functions into deployable agents.
+      decision_reason: >-
+        Gooey.AI is a hosted, low-code platform specifically designed for the orchestration of AI workflows, combining
+        prompts, documents, and functions into deployable agents.
       decision_evidence:
         - Describes itself as a 'low-code, AI orchestration platform'.
         - Facilitates deployment of AI agents to channels like WhatsApp, voice, and web.
@@ -93,6 +101,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - app-builders
-      contrastive_reason: Choose agent-orchestration over app-builders because the product's primary identity is the design and coordination of agentic workflows rather than the prompt-to-UI generation of complete, standalone applications.
+      contrastive_reason: >-
+        Choose agent-orchestration over app-builders because the product's primary identity is the design and
+        coordination of agentic workflows rather than the prompt-to-UI generation of complete, standalone applications.
       review_reason: null
       review_resume_lifecycle: null

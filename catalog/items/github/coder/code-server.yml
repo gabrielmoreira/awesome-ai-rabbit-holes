@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__coder__code-server__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - IDEs and Workspaces
         anchor_text: code server
         extracted_url: https://github.com/coder/code-server
-        surrounding_text: "| [code server](https://github.com/coder/code-server)      | Run VS Code on any machine anywhere and access it in the browser.                                                                                                                                  | ![GitHub Badge](https://img.shields.io/github/stars/coder/code-server.svg?style=flat-square)      |"
+        surrounding_text: >-
+          | [code server](https://github.com/coder/code-server)      | Run VS Code on any machine anywhere and access it
+          in the
+          browser.                                                                                                                                 
+          | ![GitHub Badge](https://img.shields.io/github/stars/coder/code-server.svg?style=flat-square)      |
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: coder/code-server
     html_url: https://github.com/coder/code-server
-    created_at: "2019-02-27T16:50:41Z"
-    pushed_at: "2026-09-06T02:25:17Z"
+    created_at: '2019-02-27T16:50:41Z'
+    pushed_at: '2026-09-06T02:25:17Z'
     description: VS Code in the browser
     homepage: https://coder.com
     topics:
@@ -42,14 +46,18 @@ metadata:
       - remote-work
       - vscode
       - vscode-remote
-    last_checked_at: "2026-09-07T04:13:48.844Z"
+    last_checked_at: '2026-09-07T04:13:48.844Z'
     readme:
-      fetched_at: "2026-09-07T04:13:48.844Z"
+      fetched_at: '2026-09-07T04:13:48.844Z'
       bytes: 3353
 insights:
   summary: Self-hosted VS Code that runs on a remote server and is accessed via a browser for cloud-based development.
-  why_it_matters: Provides a consistent IDE on any device while offloading heavy compute to more powerful remote machines, preserving local battery and resources.
-  mental_damage: The future of development is apparently running an Electron app inside a browser tab on a rented CPU so your laptop can stay cool—no AI required, just more cloud.
+  why_it_matters: >-
+    Provides a consistent IDE on any device while offloading heavy compute to more powerful remote machines, preserving
+    local battery and resources.
+  mental_damage: >-
+    The future of development is apparently running an Electron app inside a browser tab on a rented CPU so your laptop
+    can stay cool—no AI required, just more cloud.
   tags:
     - remote-development
     - browser-ide
@@ -59,7 +67,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: code-server is a generic remote development environment with no AI-specific identity or coding assistance features; it is explicitly listed as a common false positive for AI IDEs & Editors.
+  reason: >-
+    code-server is a generic remote development environment with no AI-specific identity or coding assistance features;
+    it is explicitly listed as a common false positive for AI IDEs & Editors.
   evidence:
     - Repo description and README pitch remote VS Code access with zero mention of AI, agents, or code assistance.
     - Explicitly listed as a common_false_positive under the ai-ides-editors category.
@@ -68,22 +78,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (77423) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:48.844Z"
+    updated_at: '2026-09-07T04:13:48.844Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -98,7 +108,9 @@ processing:
       input_hash: sha256:44d258647529355f0d52edc5c105e80b3934125fcdba02492e033d34a537e480
       proposed_primary_category: null
       disagreement: false
-      decision_reason: code-server is a generic remote development environment with no AI-specific identity or coding assistance features; it is explicitly listed as a common false positive for AI IDEs & Editors.
+      decision_reason: >-
+        code-server is a generic remote development environment with no AI-specific identity or coding assistance
+        features; it is explicitly listed as a common false positive for AI IDEs & Editors.
       decision_evidence:
         - Repo description and README pitch remote VS Code access with zero mention of AI, agents, or code assistance.
         - Explicitly listed as a common_false_positive under the ai-ides-editors category.

@@ -1,0 +1,123 @@
+id: github__carldaws__hunch
+kind: github-repo
+name: carldaws/hunch
+canonical_url: https://github.com/carldaws/hunch
+identity:
+  github_repo: carldaws/hunch
+provenance:
+  discoveries:
+    - id: discovery__github__carldaws__hunch__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Frameworks & integrations (82)
+        anchor_text: hunch
+        extracted_url: https://github.com/carldaws/hunch
+        surrounding_text: >-
+          | [hunch](https://github.com/carldaws/hunch) | ★ 14 | Ruby | 2026-09-23 | Probabilistic control flow for Ruby
+          and Rails - powered by TypeSafe's Jev. |
+        confidence: high
+    - id: discovery__github__carldaws__hunch__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: hunch (carldaws)
+        extracted_url: https://github.com/carldaws/hunch
+        surrounding_text: >-
+          - [hunch (carldaws)](https://github.com/carldaws/hunch)
+          ![stars](https://img.shields.io/github/stars/carldaws/hunch?style=flat-square&label=%E2%98%85) - Ruby
+          ecosystem: turns judgment calls into control flow — `if Hunch.likely?("fraudulent", given: order)` reads like
+          plain Ruby but branches on a typed Jev answer, with `pick` for Choice, `rate` for Score, and graded predicates
+          from `possibly?` to `almost_certainly?`; a [TypeScript port](https://github.com/carldaws/hunch-ts) offers the
+          same interface.
+        confidence: high
+    - id: discovery__github__carldaws__hunch__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - SDKs and developer tools
+        anchor_text: hunch (carldaws)
+        extracted_url: https://github.com/carldaws/hunch
+        surrounding_text: >-
+          - [hunch (carldaws)](https://github.com/carldaws/hunch) - Probabilistic control flow for Ruby: `if
+          Hunch.likely?("fraudulent", given: order)` branches on a typed Jev answer, with graded predicates from
+          `possibly?` to `almost_certainly?`; a [TypeScript port](https://github.com/carldaws/hunch-ts) offers the same
+          interface.
+        confidence: high
+metadata:
+  github:
+    stars: 17
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: carldaws/hunch
+    html_url: https://github.com/carldaws/hunch
+    created_at: '2026-09-18T23:08:32Z'
+    pushed_at: '2026-09-25T15:36:07Z'
+    description: Probabilistic control flow for Ruby and Rails - powered by TypeSafe's Jev
+    homepage: ''
+    topics:
+      - ai
+      - jev
+      - ruby
+      - ruby-gem
+      - s1-models
+      - typesafe
+    last_checked_at: '2026-09-29T13:09:42.753Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:42.753Z'
+      bytes: 9082
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  evidence:
+    - Jev classification confidence below inclusion threshold
+placement:
+  primary_category: null
+  secondary_categories: []
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.392Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:42.753Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -880,3 +880,104 @@
     - mcp
     - awesome-awesomes
   notes: Generic GitHub documentation domain. Not a product — any item extracted from docs.github.com should be rejected as an auxiliary link.
+
+# ─────────────────────────────────────────────────────────────────────────────
+# decision-models  (Jev and Jev-like decision models)
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: decision-models__laya
+  item_id: github__nandhakishorm__laya
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: decision-models
+    section: Open & Local Decision Models
+  hard_negatives:
+    - local-ai
+    - ai-frameworks
+  notes: >
+    Open non-autoregressive decision model. It runs locally, but local execution is not the
+    identity — being a typed-decision model is, so local-ai would be the wrong home.
+
+- id: decision-models__ollaya
+  item_id: github__ollaya-dev__ollaya
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: decision-models
+    section: Local Serving & Gateways
+  hard_negatives:
+    - local-ai
+    - mcp
+  notes: >
+    Local daemon that serves open decision models behind a Jev-compatible API. The server and
+    the models it serves are the product, not a general local inference stack.
+
+- id: decision-models__pi-jev
+  item_id: github__y0usaf__pi-jev
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: decision-models
+    section: Agent Gates, Routers & Skills
+  hard_negatives:
+    - extensions-and-addons
+    - coding-agents
+  notes: >
+    Pi extension whose job is judging tool calls with Jev. It installs into a host agent, so
+    extensions-and-addons looks right, but the judgment is the product — the host is only
+    the surface it runs on.
+
+- id: decision-models__jev-mcp
+  item_id: github__jkudish__jev-mcp
+  suite: prompt-holdout
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: decision-models
+    section: Agent Gates, Routers & Skills
+  hard_negatives:
+    - mcp
+    - ai-frameworks
+  notes: >
+    MCP server whose tools are decision judgments. The MCP protocol identity rule would take
+    it, but the server exists only because of the decision model, so the decision layer wins.
+
+- id: decision-models__jevals
+  item_id: github__openlayer-ai__jevals
+  suite: prompt-holdout
+  fix_scope: prompt
+  case_type: adversarial
+  expected:
+    include: true
+    primary_category: decision-models
+    section: Evals, Benchmarks & Calibration
+  hard_negatives:
+    - evals
+    - mcp
+  notes: >
+    Agent evals built as decision-model judgments rather than as a generic measurement
+    platform. Measuring decision models is part of this category, not of evals.
+
+- id: decision-models__playwright-mcp-stays-mcp
+  item_id: github__microsoft__playwright-mcp
+  suite: prompt-core
+  fix_scope: prompt
+  case_type: positive
+  expected:
+    include: true
+    primary_category: mcp
+    section: Browser & Web Automation
+  hard_negatives:
+    - decision-models
+    - coding-agents
+  notes: >
+    Control case for the new precedence: an MCP server with no decision-model involvement must
+    stay in mcp. The deferral rule only applies when the identity is a decision layer.

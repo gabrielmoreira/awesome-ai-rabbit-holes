@@ -1,0 +1,94 @@
+id: github__vercel-labs__fx
+kind: github-repo
+name: vercel-labs/fx
+canonical_url: https://github.com/vercel-labs/fx
+identity:
+  github_repo: vercel-labs/fx
+provenance:
+  discoveries:
+    - id: discovery__github__vercel-labs__fx__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - CLI Tools
+        anchor_text: fx
+        extracted_url: https://github.com/vercel-labs/fx
+        surrounding_text: >-
+          - **[fx](https://github.com/vercel-labs/fx)** – Tiny, open-source coding agent harness by Vercel Labs, written
+          in Zig; model-agnostic, Unix-shell-like output, and embeddable in agent sandboxes.
+        confidence: high
+    - id: discovery__github__vercel-labs__fx__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Verification & Guardrails
+        anchor_text: fx
+        extracted_url: https://github.com/vercel-labs/fx
+        surrounding_text: >-
+          - [fx](https://github.com/vercel-labs/fx)
+          ![stars](https://img.shields.io/github/stars/vercel-labs/fx?style=flat-square&label=%E2%98%85) - Coding agent:
+          ships a `typesafe_permission_reviewer` builtin so the agent's permission decisions run through Jev rather than
+          an LLM call.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    fx – Tiny, open-source coding agent harness by Vercel Labs, written in Zig; model-agnostic, Unix-shell-like output,
+    and embeddable in agent sandboxes.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.64
+placement:
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.428Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

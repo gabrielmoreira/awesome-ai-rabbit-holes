@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__developers__hostinger__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Hostinger API
         extracted_url: https://developers.hostinger.com
-        surrounding_text: "- **[Hostinger](https://github.com/hostinger/api-mcp-server)** - Official [Hostinger API](https://developers.hostinger.com/) MCP server for services managment."
+        surrounding_text: >-
+          - **[Hostinger](https://github.com/hostinger/api-mcp-server)** - Official [Hostinger
+          API](https://developers.hostinger.com/) MCP server for services managment.
         confidence: high
 metadata:
   github:
@@ -37,7 +39,9 @@ metadata:
     readme: null
 insights:
   summary: The API documentation for Hostinger's developer services.
-  why_it_matters: It provides the technical interface definitions required to programmatically interact with Hostinger's hosting environment.
+  why_it_matters: >-
+    It provides the technical interface definitions required to programmatically interact with Hostinger's hosting
+    environment.
   mental_damage: Another layer of abstraction to parse before you can even begin wondering why your deployment failed.
   tags:
     - api
@@ -54,12 +58,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,10 +72,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:37:31.044Z"
+    updated_at: '2026-09-24T04:37:31.044Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for developers__hostinger__com: Invalid AI response structure: Invalid confidence value: undefined"
+      message: >-
+        Catalog LLM categorization failed for developers__hostinger__com: Invalid AI response structure: Invalid
+        confidence value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

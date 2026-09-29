@@ -1,0 +1,77 @@
+id: github__koushik890__jev-firewall
+kind: github-repo
+name: koushik890/jev-firewall
+canonical_url: https://github.com/koushik890/jev-firewall
+identity:
+  github_repo: koushik890/jev-firewall
+provenance:
+  discoveries:
+    - id: discovery__github__koushik890__jev-firewall__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: jev-firewall
+        extracted_url: https://github.com/koushik890/jev-firewall
+        surrounding_text: >-
+          - [jev-firewall](https://github.com/Koushik890/jev-firewall)
+          ([site](https://www.npmjs.com/package/jev-firewall)) - Real-time firewall for AI coding agents: a PreToolUse
+          hook checks every Claude Code / Codex tool call with deterministic shell-aware rules, and unmatched actions go
+          to Jev for a calibrated allow/ask/block that fails closed.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    jev-firewall (site) - Real-time firewall for AI coding agents: a PreToolUse hook checks every Claude Code / Codex
+    tool call with deterministic shell-aware rules, and unmatched actions go to Jev for a calibrated allow/ask/block
+    that fails closed.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.46
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.464Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

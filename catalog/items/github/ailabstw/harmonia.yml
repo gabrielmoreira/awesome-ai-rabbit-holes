@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ailabstw__harmonia__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,12 @@ provenance:
           - Federated ML
         anchor_text: Harmonia
         extracted_url: https://github.com/ailabstw/harmonia
-        surrounding_text: "| [Harmonia](https://github.com/ailabstw/harmonia)                | Harmonia is an open-source project aiming at developing systems/infrastructures and libraries to ease the adoption of federated learning (abbreviated to FL) for researches and production usage.                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/ailabstw/harmonia.svg?style=flat-square)    |"
+        surrounding_text: >-
+          | [Harmonia](https://github.com/ailabstw/harmonia)                | Harmonia is an open-source project aiming
+          at developing systems/infrastructures and libraries to ease the adoption of federated learning (abbreviated to
+          FL) for researches and production
+          usage.                                                                                | ![GitHub
+          Badge](https://img.shields.io/github/stars/ailabstw/harmonia.svg?style=flat-square)    |
         confidence: high
 metadata:
   github:
@@ -29,18 +34,22 @@ metadata:
     archived: false
     full_name: ailabstw/harmonia
     html_url: https://github.com/ailabstw/harmonia
-    created_at: "2020-06-04T03:20:25Z"
-    pushed_at: "2020-09-21T08:16:29Z"
+    created_at: '2020-06-04T03:20:25Z'
+    pushed_at: '2020-09-21T08:16:29Z'
     description: Federated Learning Made Easy
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:36.223Z"
+    last_checked_at: '2026-09-17T04:13:36.223Z'
     readme:
-      fetched_at: "2026-09-17T04:13:36.223Z"
+      fetched_at: '2026-09-17T04:13:36.223Z'
       bytes: 2166
 insights:
-  summary: An open-source infrastructure and SDK designed to simplify the implementation of federated learning for research and production.
-  why_it_matters: It provides a GitOps-inspired architecture to coordinate distributed model training and privacy mechanisms across multiple participants.
+  summary: >-
+    An open-source infrastructure and SDK designed to simplify the implementation of federated learning for research and
+    production.
+  why_it_matters: >-
+    It provides a GitOps-inspired architecture to coordinate distributed model training and privacy mechanisms across
+    multiple participants.
   mental_damage: Because nothing says 'peace of mind' like managing distributed model states via GitOps in a federated environment.
   tags:
     - federated-learning
@@ -51,7 +60,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is a specialized ML infrastructure/research tool for federated learning rather than a developer-facing AI coding tool.
+  reason: >-
+    The project is a specialized ML infrastructure/research tool for federated learning rather than a developer-facing
+    AI coding tool.
   evidence:
     - Focuses on federated learning (FL) and differential privacy
     - Provides an SDK and operator for distributed training workflows
@@ -60,22 +71,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:36.223Z"
+    updated_at: '2026-09-17T04:13:36.223Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.163Z"
+    updated_at: '2026-09-28T04:14:00.163Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -90,7 +101,9 @@ processing:
       input_hash: sha256:0deed193ce1680df16069b979246d348a6094b03809893f580c1888bdab32d8f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a specialized ML infrastructure/research tool for federated learning rather than a developer-facing AI coding tool.
+      decision_reason: >-
+        The project is a specialized ML infrastructure/research tool for federated learning rather than a
+        developer-facing AI coding tool.
       decision_evidence:
         - Focuses on federated learning (FL) and differential privacy
         - Provides an SDK and operator for distributed training workflows

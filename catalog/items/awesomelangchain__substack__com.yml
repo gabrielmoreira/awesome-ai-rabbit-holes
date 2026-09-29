@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__awesomelangchain__substack__com__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -18,7 +18,10 @@ provenance:
           - README
         anchor_text: Subscribe to the newsletter
         extracted_url: https://awesomelangchain.substack.com
-        surrounding_text: "**[Subscribe to the newsletter](https://awesomelangchain.substack.com/)** to stay informed about the Awesome LangChain. We send a couple of emails per month about the articles, videos, projects, and tools that grabbed our attention"
+        surrounding_text: >-
+          **[Subscribe to the newsletter](https://awesomelangchain.substack.com/)** to stay informed about the Awesome
+          LangChain. We send a couple of emails per month about the articles, videos, projects, and tools that grabbed
+          our attention
         confidence: high
 metadata:
   github:
@@ -38,7 +41,9 @@ metadata:
 insights:
   summary: A Substack newsletter providing curated updates and insights regarding the LangChain ecosystem.
   why_it_matters: It helps developers filter the noise of the rapidly evolving LangChain framework through periodic curation.
-  mental_damage: Another specialized feed to help you achieve the illusion of being 'up to date' in an ecosystem that changes every Tuesday.
+  mental_damage: >-
+    Another specialized feed to help you achieve the illusion of being 'up to date' in an ecosystem that changes every
+    Tuesday.
   tags:
     - langchain
     - newsletter
@@ -47,7 +52,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: As a Substack publication, it serves as a curated resource and news feed for a specific niche of the AI development landscape.
+  reason: >-
+    As a Substack publication, it serves as a curated resource and news feed for a specific niche of the AI development
+    landscape.
   evidence:
     - URL is a Substack domain indicating a publication identity
     - Source context links it to the LangChain ecosystem
@@ -56,12 +63,12 @@ placement:
   secondary_categories: []
   section: Publications & Feeds
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
+    updated_at: '2026-05-12T15:06:19.301Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:15:29.999Z"
+    updated_at: '2026-09-21T04:15:29.999Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,13 +90,17 @@ processing:
       input_hash: sha256:a367fd7086bcff54b85981a610e1efa55907a59305017690b01185b86604179e
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: As a Substack publication, it serves as a curated resource and news feed for a specific niche of the AI development landscape.
+      decision_reason: >-
+        As a Substack publication, it serves as a curated resource and news feed for a specific niche of the AI
+        development landscape.
       decision_evidence:
         - URL is a Substack domain indicating a publication identity
         - Source context links it to the LangChain ecosystem
       category_candidates:
         - awesome-awesomes
         - ai-frameworks
-      contrastive_reason: Choose awesome-awesomes over ai-frameworks because it is a publication about the framework rather than the code-first SDK itself.
+      contrastive_reason: >-
+        Choose awesome-awesomes over ai-frameworks because it is a publication about the framework rather than the
+        code-first SDK itself.
       review_reason: null
       review_resume_lifecycle: null

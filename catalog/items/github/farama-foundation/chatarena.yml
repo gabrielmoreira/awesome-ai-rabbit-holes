@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__farama-foundation__chatarena__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-08-06T05:06:55.627Z"
+      discovered_at: '2026-08-06T05:06:55.627Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - ChatArena
         anchor_text: ChatArena
         extracted_url: https://chatarena.org
-        surrounding_text: "## [ChatArena](https://www.chatarena.org/)"
+        surrounding_text: '## [ChatArena](https://www.chatarena.org/)'
         confidence: high
 metadata:
   github:
@@ -29,10 +29,12 @@ metadata:
     archived: false
     full_name: Farama-Foundation/ChatArena
     html_url: https://github.com/Farama-Foundation/ChatArena
-    created_at: "2023-03-06T21:47:05Z"
-    pushed_at: "2025-08-11T20:19:17Z"
-    description: ChatArena (or Chat Arena) is a Multi-Agent Language Game Environments for LLMs. The goal is to develop communication and collaboration capabilities of AIs.
-    homepage: ""
+    created_at: '2023-03-06T21:47:05Z'
+    pushed_at: '2025-08-11T20:19:17Z'
+    description: >-
+      ChatArena (or Chat Arena) is a Multi-Agent Language Game Environments for LLMs. The goal is to develop
+      communication and collaboration capabilities of AIs.
+    homepage: ''
     topics:
       - ai
       - artificial-intelligence
@@ -44,12 +46,14 @@ metadata:
       - multi-agent-simulation
       - natural-language-processing
       - python
-    last_checked_at: "2026-08-27T09:23:28.045Z"
+    last_checked_at: '2026-08-27T09:23:28.045Z'
     readme:
-      fetched_at: "2026-08-27T09:23:28.045Z"
+      fetched_at: '2026-08-27T09:23:28.045Z'
       bytes: 12293
 insights:
-  summary: ChatArena is a Python library providing multi-agent language game environments for researching LLM communication and collaboration.
+  summary: >-
+    ChatArena is a Python library providing multi-agent language game environments for researching LLM communication and
+    collaboration.
   why_it_matters: It gives researchers a framework to benchmark and train multi-agent LLM interactions in controlled settings.
   mental_damage: Another academic sandbox where agents play pretend negotiations while real developers wrestle with merge conflicts.
   tags:
@@ -60,31 +64,39 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: ChatArena is primarily a research tool for studying multi-agent LLM behavior, not a developer-facing productivity tool for coding, workflow automation, or app building.
+  reason: >-
+    ChatArena is primarily a research tool for studying multi-agent LLM behavior, not a developer-facing productivity
+    tool for coding, workflow automation, or app building.
   evidence:
-    - "Repo description: 'ChatArena is a Multi-Agent Language Game Environments for LLMs. The goal is to develop communication and collaboration capabilities of AIs.'"
-    - "README: 'ChatArena is a library that provides multi-agent language game environments and facilitates research about autonomous LLM agents and their social interactions.'"
-    - "Deprecation notice: 'This project has been deprecated due to a lack of wide spread community use, and is no longer planned to receive any additional updates or support.'"
+    - >-
+      Repo description: 'ChatArena is a Multi-Agent Language Game Environments for LLMs. The goal is to develop
+      communication and collaboration capabilities of AIs.'
+    - >-
+      README: 'ChatArena is a library that provides multi-agent language game environments and facilitates research
+      about autonomous LLM agents and their social interactions.'
+    - >-
+      Deprecation notice: 'This project has been deprecated due to a lack of wide spread community use, and is no longer
+      planned to receive any additional updates or support.'
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (1553) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-08-06T05:06:55.629Z"
+    updated_at: '2026-08-06T05:06:55.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:28.045Z"
+    updated_at: '2026-08-27T09:23:28.045Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -96,11 +108,19 @@ processing:
       input_hash: sha256:3aeea8f064d64d91096e8dbc275bf5fd4f6444d5588d329b4eee5f2d1c18ab92
       proposed_primary_category: null
       disagreement: false
-      decision_reason: ChatArena is primarily a research tool for studying multi-agent LLM behavior, not a developer-facing productivity tool for coding, workflow automation, or app building.
+      decision_reason: >-
+        ChatArena is primarily a research tool for studying multi-agent LLM behavior, not a developer-facing
+        productivity tool for coding, workflow automation, or app building.
       decision_evidence:
-        - "Repo description: 'ChatArena is a Multi-Agent Language Game Environments for LLMs. The goal is to develop communication and collaboration capabilities of AIs.'"
-        - "README: 'ChatArena is a library that provides multi-agent language game environments and facilitates research about autonomous LLM agents and their social interactions.'"
-        - "Deprecation notice: 'This project has been deprecated due to a lack of wide spread community use, and is no longer planned to receive any additional updates or support.'"
+        - >-
+          Repo description: 'ChatArena is a Multi-Agent Language Game Environments for LLMs. The goal is to develop
+          communication and collaboration capabilities of AIs.'
+        - >-
+          README: 'ChatArena is a library that provides multi-agent language game environments and facilitates research
+          about autonomous LLM agents and their social interactions.'
+        - >-
+          Deprecation notice: 'This project has been deprecated due to a lack of wide spread community use, and is no
+          longer planned to receive any additional updates or support.'
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -1,0 +1,159 @@
+id: github__devmortimer__pi-warden
+kind: github-repo
+name: devmortimer/pi-warden
+canonical_url: https://github.com/devmortimer/pi-warden
+identity:
+  github_repo: devmortimer/pi-warden
+provenance:
+  discoveries:
+    - id: discovery__github__devmortimer__pi-warden__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: pi-warden
+        extracted_url: https://github.com/devmortimer/pi-warden
+        surrounding_text: >-
+          - [pi-warden](https://github.com/DevMortimer/pi-warden) - Guardrails for Pi built on pi-typesafe that steer
+          the agent instead of interrupting you: Jev judges irreversible and off-task tool calls, detects stuck loops,
+          checks unverified done claims, flags slop.
+        confidence: high
+    - id: discovery__github__devmortimer__pi-warden__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: pi-warden
+        extracted_url: https://github.com/devmortimer/pi-warden
+        surrounding_text: >-
+          - [pi-warden](https://github.com/DevMortimer/pi-warden) - Combines local Pi guard checks with Jev action and
+          rule judgments, configurable holds, corrective feedback and context retention. [Project
+          guide](community/projects/tools/pi-warden.md).
+        confidence: high
+    - id: discovery__github__devmortimer__pi-warden__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: pi-warden
+        extracted_url: https://github.com/devmortimer/pi-warden
+        surrounding_text: >-
+          | [pi-warden](https://github.com/DevMortimer/pi-warden) | ★ 96 | TypeScript | 2026-09-19 | Guardrails for Pi
+          built on pi-typesafe that steer the agent instead of interrupting you: Jev judges irreversible and off-task
+          tool calls, detects stuck loops, checks unverified done claims, flags slop. |
+        confidence: high
+    - id: discovery__github__devmortimer__pi-warden__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Security & Guardrails
+        anchor_text: '**pi-warden**'
+        extracted_url: https://github.com/devmortimer/pi-warden
+        surrounding_text: >-
+          - [**pi-warden**](https://github.com/DevMortimer/pi-warden) — Adds checks for project rules, out-of-scope
+          actions, repeated failures, and completion claims to Pi Agents.
+        confidence: high
+    - id: discovery__github__devmortimer__pi-warden__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents, coding, and guardrails
+        anchor_text: pi-warden
+        extracted_url: https://github.com/devmortimer/pi-warden
+        surrounding_text: >-
+          - [pi-warden](https://github.com/DevMortimer/pi-warden) - Pi extension that judges rule compliance, risky
+          actions, stuck loops, and completion claims; enforcement depends on the hook and policy.
+        confidence: high
+metadata:
+  github:
+    stars: 153
+    forks: 21
+    license: MIT
+    archived: false
+    full_name: DevMortimer/pi-warden
+    html_url: https://github.com/DevMortimer/pi-warden
+    created_at: '2026-09-16T03:58:46Z'
+    pushed_at: '2026-09-29T10:47:45Z'
+    description: >-
+      Guardrails for Pi that steer instead of interrupt: enforces your project rules on every write, holds only
+      hard-to-undo actions (3 per 1,000 calls, measured on real sessions), catches unverified "done" claims and stuck
+      loops, and trims tool output. Built on pi-typesafe.
+    homepage: ''
+    topics:
+      - agent-guardrails
+      - guardrails
+      - pi-extension
+      - pi-package
+      - typesafe
+    last_checked_at: '2026-09-29T13:10:38.486Z'
+    readme:
+      fetched_at: '2026-09-29T13:10:38.486Z'
+      bytes: 11896
+insights:
+  summary: >-
+    Guardrails for Pi that steer instead of interrupt: enforces your project rules on every write, holds only
+    hard-to-undo actions (3 per 1,000 calls, measured on real sessions), catches unverified "done" claims and stuck
+    loops, and trims tool output. Built on pi-typesafe.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.77
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
+lifecycle:
+  status: curated
+  reason: Stars (153) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.373Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:10:38.486Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

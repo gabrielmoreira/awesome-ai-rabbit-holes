@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__drand__drand__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: drand network
         extracted_url: https://drand.love
-        surrounding_text: "- **[Drand](https://github.com/randa-mu/drand-mcp-server)** - An MCP server for fetching verifiable random numbers from the [drand network](https://drand.love)."
+        surrounding_text: >-
+          - **[Drand](https://github.com/randa-mu/drand-mcp-server)** - An MCP server for fetching verifiable random
+          numbers from the [drand network](https://drand.love).
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: drand/drand
     html_url: https://github.com/drand/drand
-    created_at: "2017-08-18T00:49:16Z"
-    pushed_at: "2026-07-24T09:56:24Z"
+    created_at: '2017-08-18T00:49:16Z'
+    pushed_at: '2026-07-24T09:56:24Z'
     description: 🎲 A Distributed Randomness Beacon Daemon - Go implementation
     homepage: https://drand.love
     topics:
@@ -39,13 +41,17 @@ metadata:
       - hacktoberfest
       - randomness
       - randomness-beacon
-    last_checked_at: "2026-09-14T04:13:44.251Z"
+    last_checked_at: '2026-09-14T04:13:44.251Z'
     readme:
-      fetched_at: "2026-09-14T04:13:44.251Z"
+      fetched_at: '2026-09-14T04:13:44.251Z'
       bytes: 15545
 insights:
-  summary: A distributed randomness beacon daemon written in Go that generates publicly verifiable, unbiased, and unpredictable random values at fixed intervals.
-  why_it_matters: Provides a decentralized, tamper-proof source of randomness for applications like lotteries, cryptographic protocols, and statistical sampling.
+  summary: >-
+    A distributed randomness beacon daemon written in Go that generates publicly verifiable, unbiased, and unpredictable
+    random values at fixed intervals.
+  why_it_matters: >-
+    Provides a decentralized, tamper-proof source of randomness for applications like lotteries, cryptographic
+    protocols, and statistical sampling.
   mental_damage: Finally, a way to blame the universe for your randomness failures instead of your own code.
   tags:
     - cryptography
@@ -56,7 +62,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a cryptographic infrastructure project for distributed randomness, not a developer-facing AI tool, agent, or workflow product.
+  reason: >-
+    This is a cryptographic infrastructure project for distributed randomness, not a developer-facing AI tool, agent, or
+    workflow product.
   evidence:
     - Repo description identifies it as a distributed randomness beacon daemon
     - README emphasizes cryptographic randomness generation, not AI/ML or developer tooling
@@ -65,22 +73,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (817) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:44.252Z"
+    updated_at: '2026-09-14T04:13:44.252Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -95,7 +103,9 @@ processing:
       input_hash: sha256:3bc77763a0d6e2205ef7deca07616832fcf5358896add8a19ef495f3b4cc7fb6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a cryptographic infrastructure project for distributed randomness, not a developer-facing AI tool, agent, or workflow product.
+      decision_reason: >-
+        This is a cryptographic infrastructure project for distributed randomness, not a developer-facing AI tool,
+        agent, or workflow product.
       decision_evidence:
         - Repo description identifies it as a distributed randomness beacon daemon
         - README emphasizes cryptographic randomness generation, not AI/ML or developer tooling

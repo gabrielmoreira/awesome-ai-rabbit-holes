@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arjia-labs__clu__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-02T05:22:20.470Z"
+      discovered_at: '2026-07-02T05:22:20.470Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Agent infrastructure
         anchor_text: clu
         extracted_url: https://github.com/arjia-labs/clu
-        surrounding_text: "- **[clu](https://github.com/arjia-labs/clu)** `⭐ 5` — Codified Likeness Utility: a SQLite-backed issue tracker for coordinating fleets of AI coding agents. Atomic task claim, dependency graphs, workflows & checkpoints, and an audit log. CLI-native with clean `--json` output, built to be driven by agents. Go."
+        surrounding_text: >-
+          - **[clu](https://github.com/arjia-labs/clu)** `⭐ 5` — Codified Likeness Utility: a SQLite-backed issue
+          tracker for coordinating fleets of AI coding agents. Atomic task claim, dependency graphs, workflows &
+          checkpoints, and an audit log. CLI-native with clean `--json` output, built to be driven by agents. Go.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: Arjia-Labs/clu
     html_url: https://github.com/Arjia-Labs/clu
-    created_at: "2026-05-26T04:36:43Z"
-    pushed_at: "2026-07-17T07:20:45Z"
-    description: Local-first SQLite issue tracker for coordinating AI coding agents — atomic claim, dependency graphs, workflows & checkpoints, audit log. No daemon, no network.
+    created_at: '2026-05-26T04:36:43Z'
+    pushed_at: '2026-07-17T07:20:45Z'
+    description: >-
+      Local-first SQLite issue tracker for coordinating AI coding agents — atomic claim, dependency graphs, workflows &
+      checkpoints, audit log. No daemon, no network.
     homepage: https://arjia-labs.github.io/clu/
     topics:
       - agent-orchestration
@@ -47,14 +52,20 @@ metadata:
       - sqlite
       - task-management
       - workflow-engine
-    last_checked_at: "2026-09-21T04:13:47.242Z"
+    last_checked_at: '2026-09-21T04:13:47.242Z'
     readme:
-      fetched_at: "2026-09-21T04:13:47.242Z"
+      fetched_at: '2026-09-21T04:13:47.242Z'
       bytes: 19837
 insights:
-  summary: A local-first, SQLite-backed issue tracker and coordination layer designed to manage multiple AI coding agents on a single machine.
-  why_it_matters: It provides a durable, shared state and dependency management system that allows multiple autonomous agents to collaborate on a codebase without conflicting or duplicating work.
-  mental_damage: Nothing says 'modern developer experience' like needing an issue tracker and dependency graph just to manage your autonomous agent fleet.
+  summary: >-
+    A local-first, SQLite-backed issue tracker and coordination layer designed to manage multiple AI coding agents on a
+    single machine.
+  why_it_matters: >-
+    It provides a durable, shared state and dependency management system that allows multiple autonomous agents to
+    collaborate on a codebase without conflicting or duplicating work.
+  mental_damage: >-
+    Nothing says 'modern developer experience' like needing an issue tracker and dependency graph just to manage your
+    autonomous agent fleet.
   tags:
     - sqlite
     - multi-agent
@@ -64,7 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It acts as a coordination layer that manages shared state, task dependencies, and agent concurrency rather than being a single coding agent itself.
+  reason: >-
+    It acts as a coordination layer that manages shared state, task dependencies, and agent concurrency rather than
+    being a single coding agent itself.
   evidence:
     - README defines it as an 'agent-coordination issue tracker'
     - Features include atomic claims, dependency graphs, and capability routing for multiple agents
@@ -74,22 +87,22 @@ placement:
   secondary_categories: []
   section: Agent Runtimes & Harnesses
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-02T05:22:20.471Z"
+    updated_at: '2026-07-02T05:22:20.471Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:47.242Z"
+    updated_at: '2026-09-21T04:13:47.242Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:20:27.529Z"
+    updated_at: '2026-09-24T04:20:27.529Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -102,7 +115,9 @@ processing:
       input_hash: sha256:252b20e004aee2ba660149f9dab4a6e7bb82f953dd8cf66f874ad3c8cf7a5ca5
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: It acts as a coordination layer that manages shared state, task dependencies, and agent concurrency rather than being a single coding agent itself.
+      decision_reason: >-
+        It acts as a coordination layer that manages shared state, task dependencies, and agent concurrency rather than
+        being a single coding agent itself.
       decision_evidence:
         - README defines it as an 'agent-coordination issue tracker'
         - Features include atomic claims, dependency graphs, and capability routing for multiple agents
@@ -110,6 +125,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because clu's primary purpose is managing the relationships, tasks, and state between multiple agents rather than performing the actual code editing.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because clu's primary purpose is managing the relationships,
+        tasks, and state between multiple agents rather than performing the actual code editing.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lunary-ai__lunary__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,12 @@ provenance:
           - LLMOps
         anchor_text: Lunary
         extracted_url: https://github.com/lunary-ai/lunary
-        surrounding_text: "| [Lunary](https://github.com/lunary-ai/lunary)                      | Observability and prompt management for LLM chabots and agents. Debug agents with powerful tracing and logging. Usage analytics and dive deep into the history of your requests. Developer friendly modules with plug-and-play integration into LangChain.                                                                                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/lunary-ai/lunary.svg?style=flat-square)            |"
+        surrounding_text: >-
+          | [Lunary](https://github.com/lunary-ai/lunary)                      | Observability and prompt management for
+          LLM chabots and agents. Debug agents with powerful tracing and logging. Usage analytics and dive deep into the
+          history of your requests. Developer friendly modules with plug-and-play integration into
+          LangChain.                                                                                                                                            
+          | ![GitHub Badge](https://img.shields.io/github/stars/lunary-ai/lunary.svg?style=flat-square)            |
         confidence: high
 metadata:
   github:
@@ -50,24 +55,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-08-03T05:16:53.408Z"
+    updated_at: '2026-08-03T05:16:53.408Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: lunary-ai/lunary"
+      message: 'GitHub repository not found: lunary-ai/lunary'
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

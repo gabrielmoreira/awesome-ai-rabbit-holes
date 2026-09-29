@@ -1,0 +1,94 @@
+id: github__vinilana__jev-gateway
+kind: github-repo
+name: vinilana/jev-gateway
+canonical_url: https://github.com/vinilana/jev-gateway
+identity:
+  github_repo: vinilana/jev-gateway
+provenance:
+  discoveries:
+    - id: discovery__github__vinilana__jev-gateway__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jev-gateway
+        extracted_url: https://github.com/vinilana/jev-gateway
+        surrounding_text: >-
+          - [jev-gateway](https://github.com/vinilana/jev-gateway) - Local LLM gateway that asks TypeSafe Jev which tool
+          to call for Codex, Claude Code, OpenCode, or Gemini while other traffic uses your usual LLM. [Project
+          guide](community/projects/tools/jev-gateway.md).
+        confidence: high
+    - id: discovery__github__vinilana__jev-gateway__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: jev-gateway
+        extracted_url: https://github.com/vinilana/jev-gateway
+        surrounding_text: >-
+          | [jev-gateway](https://github.com/vinilana/jev-gateway) | ★ 181 | TypeScript | 2026-09-23 | An easy way to
+          use jev with your coding agent for tool calling reasoning. |
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    jev-gateway - Local LLM gateway that asks TypeSafe Jev which tool to call for Codex, Claude Code, OpenCode, or
+    Gemini while other traffic uses your usual LLM. Project guide.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.68
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.428Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

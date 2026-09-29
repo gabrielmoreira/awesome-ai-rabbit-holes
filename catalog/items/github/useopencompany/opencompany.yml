@@ -1,0 +1,92 @@
+id: github__useopencompany__opencompany
+kind: github-repo
+name: useopencompany/opencompany
+canonical_url: https://github.com/useopencompany/opencompany
+identity:
+  github_repo: useopencompany/opencompany
+provenance:
+  discoveries:
+    - id: discovery__github__useopencompany__opencompany__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: opencompany
+        extracted_url: https://github.com/useopencompany/opencompany
+        surrounding_text: >-
+          | [opencompany](https://github.com/useopencompany/opencompany) | ★ 6 | TypeScript | 2026-09-19 | AI workspace
+          whose approval review uses Jev to gate workspace actions with typed decisions. |
+        confidence: high
+    - id: discovery__github__useopencompany__opencompany__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Verification & Guardrails
+        anchor_text: opencompany
+        extracted_url: https://github.com/useopencompany/opencompany
+        surrounding_text: >-
+          - [opencompany](https://github.com/useopencompany/opencompany)
+          ![stars](https://img.shields.io/github/stars/useopencompany/opencompany?style=flat-square&label=%E2%98%85) -
+          Agent workspace: runs its approval review through Jev so workspace actions are gated by a typed decision.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AI workspace whose approval review uses Jev to gate workspace actions with typed decisions.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.72
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.427Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

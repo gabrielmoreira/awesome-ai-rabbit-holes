@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bilibili__com__video__bv11nmtbze36__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,10 +19,12 @@ provenance:
           - Podcast
         anchor_text: MiniMax 创始人闫俊杰×罗永浩！大山并非无法翻越
         extracted_url: https://bilibili.com/video/BV11NmtBzE36
-        surrounding_text: "- [MiniMax 创始人闫俊杰×罗永浩！大山并非无法翻越](https://www.bilibili.com/video/BV11NmtBzE36/?spm_id_from=333.1387.upload.video_card.click&vd_source=c739db1ebdd361d47af5a0b8497417db)"
+        surrounding_text: >-
+          - [MiniMax
+          创始人闫俊杰×罗永浩！大山并非无法翻越](https://www.bilibili.com/video/BV11NmtBzE36/?spm_id_from=333.1387.upload.video_card.click&vd_source=c739db1ebdd361d47af5a0b8497417db)
         confidence: high
     - id: discovery__www__bilibili__com__video__bv11nmtbze36__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -35,7 +37,9 @@ provenance:
           - Podcast
         anchor_text: MiniMax 创始人闫俊杰×罗永浩！大山并非无法翻越
         extracted_url: https://www.bilibili.com/video/BV11NmtBzE36
-        surrounding_text: "- [MiniMax 创始人闫俊杰×罗永浩！大山并非无法翻越](https://www.bilibili.com/video/BV11NmtBzE36/?spm_id_from=333.1387.upload.video_card.click&vd_source=c739db1ebdd361d47af5a0b8497417db)"
+        surrounding_text: >-
+          - [MiniMax
+          创始人闫俊杰×罗永浩！大山并非无法翻越](https://www.bilibili.com/video/BV11NmtBzE36/?spm_id_from=333.1387.upload.video_card.click&vd_source=c739db1ebdd361d47af5a0b8497417db)
         confidence: high
 metadata:
   github:
@@ -53,9 +57,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili video interview discussing MiniMax, the AI large model company founded by former SenseTime executive Yanjun Jian and Luo Yonghao.
-  why_it_matters: It provides developer-relevant insight into the leadership and vision behind a prominent Chinese AI startup shaping the future of large models.
-  mental_damage: The absurdity of treating a corporate founder interview as essential AI tooling highlights the current ecosystem's tendency to conflate industry hype with actionable developer resources.
+  summary: >-
+    A Bilibili video interview discussing MiniMax, the AI large model company founded by former SenseTime executive
+    Yanjun Jian and Luo Yonghao.
+  why_it_matters: >-
+    It provides developer-relevant insight into the leadership and vision behind a prominent Chinese AI startup shaping
+    the future of large models.
+  mental_damage: >-
+    The absurdity of treating a corporate founder interview as essential AI tooling highlights the current ecosystem's
+    tendency to conflate industry hype with actionable developer resources.
   tags:
     - interview
     - ai-entrepreneur
@@ -66,18 +76,22 @@ curation:
   reason: This is a media interview about a company founder, not a developer-facing tool, agent, or infrastructure product.
   evidence:
     - Repo description is empty, providing no technical or functional details about a developer tool.
-    - Source-list context shows it appears in an 'awesome-LLM-resources' list under 'Suggestion > Podcast', indicating it's a media reference, not a tool.
-    - Scraped site context is exclusively video platform metadata and interview descriptions with no technical claims about coding, agents, or workflows.
+    - >-
+      Source-list context shows it appears in an 'awesome-LLM-resources' list under 'Suggestion > Podcast', indicating
+      it's a media reference, not a tool.
+    - >-
+      Scraped site context is exclusively video platform metadata and interview descriptions with no technical claims
+      about coding, agents, or workflows.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:39:18.008Z"
+    updated_at: '2026-09-28T04:39:18.008Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,18 +104,24 @@ processing:
       input_hash: sha256:878e20a7d82786936ecdcd07da790dc10cb8cf96271bf65fb7c0ad22092d1a4c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a media interview about a company founder, not a developer-facing tool, agent, or infrastructure product.
+      decision_reason: >-
+        This is a media interview about a company founder, not a developer-facing tool, agent, or infrastructure
+        product.
       decision_evidence:
         - Repo description is empty, providing no technical or functional details about a developer tool.
-        - Source-list context shows it appears in an 'awesome-LLM-resources' list under 'Suggestion > Podcast', indicating it's a media reference, not a tool.
-        - Scraped site context is exclusively video platform metadata and interview descriptions with no technical claims about coding, agents, or workflows.
+        - >-
+          Source-list context shows it appears in an 'awesome-LLM-resources' list under 'Suggestion > Podcast',
+          indicating it's a media reference, not a tool.
+        - >-
+          Scraped site context is exclusively video platform metadata and interview descriptions with no technical
+          claims about coding, agents, or workflows.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.365Z"
+    updated_at: '2026-07-20T16:42:15.365Z'
     cause: null
     next_retry_at: null
   stars:

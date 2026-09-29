@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huggingface__trl__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,10 @@ provenance:
           - Training
         anchor_text: TRL
         extracted_url: https://github.com/huggingface/trl
-        surrounding_text: "- [TRL](https://github.com/huggingface/trl) - Language model alignment with reinforcement learning."
+        surrounding_text: '- [TRL](https://github.com/huggingface/trl) - Language model alignment with reinforcement learning.'
         confidence: high
     - id: discovery__github__huggingface__trl__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,10 +35,14 @@ provenance:
           - Foundation Model Fine Tuning
         anchor_text: TRL
         extracted_url: https://github.com/huggingface/trl
-        surrounding_text: "| [TRL](https://github.com/huggingface/trl)                                  | Train transformer language models with reinforcement learning.                                                                                                                                   | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/trl.svg?style=flat-square)                 |"
+        surrounding_text: >-
+          | [TRL](https://github.com/huggingface/trl)                                  | Train transformer language
+          models with reinforcement
+          learning.                                                                                                                                  
+          | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/trl.svg?style=flat-square)                 |
         confidence: high
     - id: discovery__github__huggingface__trl__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -50,7 +54,7 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: TRL
         extracted_url: https://huggingface.co/docs/trl/index
-        surrounding_text: "5. [TRL](https://huggingface.co/docs/trl/index): Transformer Reinforcement Learning."
+        surrounding_text: '5. [TRL](https://huggingface.co/docs/trl/index): Transformer Reinforcement Learning.'
         confidence: high
 metadata:
   github:
@@ -60,18 +64,22 @@ metadata:
     archived: false
     full_name: huggingface/trl
     html_url: https://github.com/huggingface/trl
-    created_at: "2020-03-27T10:54:55Z"
-    pushed_at: "2026-07-30T04:57:17Z"
+    created_at: '2020-03-27T10:54:55Z'
+    pushed_at: '2026-07-30T04:57:17Z'
     description: Train transformer language models with reinforcement learning.
     homepage: http://hf.co/docs/trl
     topics: []
-    last_checked_at: "2026-07-30T05:05:39.987Z"
+    last_checked_at: '2026-07-30T05:05:39.987Z'
     readme:
-      fetched_at: "2026-07-30T05:05:39.987Z"
+      fetched_at: '2026-07-30T05:05:39.987Z'
       bytes: 8833
 insights:
-  summary: A library for post-training transformer language models with reinforcement learning techniques like SFT, DPO, and GRPO.
-  why_it_matters: Enables developers to fine-tune and align models efficiently using scalable, hardware-agnostic methods integrated with the Hugging Face ecosystem.
+  summary: >-
+    A library for post-training transformer language models with reinforcement learning techniques like SFT, DPO, and
+    GRPO.
+  why_it_matters: >-
+    Enables developers to fine-tune and align models efficiently using scalable, hardware-agnostic methods integrated
+    with the Hugging Face ecosystem.
   mental_damage: Because nothing says 'weekend project' like fine-tuning a 70B parameter model on your laptop.
   tags:
     - fine-tuning
@@ -82,7 +90,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a code-first framework/SDK for model training, not a developer-tooling product like a coding agent, IDE, or workflow tool.
+  reason: >-
+    This is a code-first framework/SDK for model training, not a developer-tooling product like a coding agent, IDE, or
+    workflow tool.
   evidence:
     - Repo description explicitly states it is a library for training transformer models with RL
     - README highlights trainers (SFTTrainer, DPOTrainer) and CLI for fine-tuning, not developer workflow augmentation
@@ -91,22 +101,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (18305) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.577Z"
+    updated_at: '2026-05-06T22:12:15.577Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:39.987Z"
+    updated_at: '2026-07-30T05:05:39.987Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -121,10 +131,14 @@ processing:
       input_hash: sha256:18ae24562c743f9fadc963ae0498d4281008cad69e3e0b5d0d6963e627c702ed
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a code-first framework/SDK for model training, not a developer-tooling product like a coding agent, IDE, or workflow tool.
+      decision_reason: >-
+        This is a code-first framework/SDK for model training, not a developer-tooling product like a coding agent, IDE,
+        or workflow tool.
       decision_evidence:
         - Repo description explicitly states it is a library for training transformer models with RL
-        - README highlights trainers (SFTTrainer, DPOTrainer) and CLI for fine-tuning, not developer workflow augmentation
+        - >-
+          README highlights trainers (SFTTrainer, DPOTrainer) and CLI for fine-tuning, not developer workflow
+          augmentation
         - Source-list context places it under Training/Fine-Tuning, not developer tooling
       category_candidates: []
       contrastive_reason: null

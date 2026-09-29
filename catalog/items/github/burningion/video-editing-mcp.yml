@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__burningion__video-editing-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: burningion/video-editing-mcp
         extracted_url: https://github.com/burningion/video-editing-mcp
-        surrounding_text: "- [burningion/video-editing-mcp](https://github.com/burningion/video-editing-mcp) 🐍 - Add, Analyze, Search, and Generate Video Edits from your Video Jungle Collection"
+        surrounding_text: >-
+          - [burningion/video-editing-mcp](https://github.com/burningion/video-editing-mcp) 🐍 - Add, Analyze, Search,
+          and Generate Video Edits from your Video Jungle Collection
         confidence: high
     - id: discovery__github__burningion__video-editing-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 🎨 Art & Culture
         anchor_text: burningion/video-editing-mcp
         extracted_url: https://github.com/burningion/video-editing-mcp
-        surrounding_text: "-   **[burningion/video-editing-mcp](https://github.com/burningion/video-editing-mcp)** [![GitHub stars](https://img.shields.io/github/stars/burningion/video-editing-mcp?style=social)](https://github.com/burningion/video-editing-mcp): Enables AI-driven video editing, analysis, and search within a video collection."
+        surrounding_text: >-
+          -   **[burningion/video-editing-mcp](https://github.com/burningion/video-editing-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/burningion/video-editing-mcp?style=social)](https://github.com/burningion/video-editing-mcp):
+          Enables AI-driven video editing, analysis, and search within a video collection.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,20 @@ metadata:
     archived: false
     full_name: burningion/video-editing-mcp
     html_url: https://github.com/burningion/video-editing-mcp
-    created_at: "2024-12-03T17:02:20Z"
-    pushed_at: "2025-10-09T03:27:58Z"
+    created_at: '2024-12-03T17:02:20Z'
+    pushed_at: '2025-10-09T03:27:58Z'
     description: MCP Interface for Video Jungle
     homepage: null
     topics: []
-    last_checked_at: "2026-09-24T04:13:04.694Z"
+    last_checked_at: '2026-09-24T04:13:04.694Z'
     readme:
-      fetched_at: "2026-09-24T04:13:04.694Z"
+      fetched_at: '2026-09-24T04:13:04.694Z'
       bytes: 7194
 insights:
   summary: An MCP server that exposes Video Jungle's video editing and search capabilities via the Model Context Protocol.
-  why_it_matters: Lets developers orchestrate video editing workflows from LLMs using natural language to add, search, and generate edits from video files.
+  why_it_matters: >-
+    Lets developers orchestrate video editing workflows from LLMs using natural language to add, search, and generate
+    edits from video files.
   mental_damage: Finally, an excuse to have your AI assistant trim your vacation footage while pretending it's productivity.
   tags:
     - mcp
@@ -65,32 +72,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is an MCP server providing video editing tools; it is not a coding agent, app builder, or framework, and its inclusion in MCP-specific awesome lists reinforces this focus.
+  reason: >-
+    The project's core identity is an MCP server providing video editing tools; it is not a coding agent, app builder,
+    or framework, and its inclusion in MCP-specific awesome lists reinforces this focus.
   evidence:
-    - "Repo description: 'MCP Interface for Video Jungle'"
-    - README emphasizes MCP server implementation with tools like add-video, search-videos, and generate-edit-from-videos
+    - 'Repo description: ''MCP Interface for Video Jungle'''
+    - >-
+      README emphasizes MCP server implementation with tools like add-video, search-videos, and
+      generate-edit-from-videos
     - Listed in awesome-mcp-list and awesome-mcp-servers under Art & Culture sections
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Dev & Code Tools
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (264) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.583Z"
+    updated_at: '2026-05-06T22:12:15.583Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:04.695Z"
+    updated_at: '2026-09-24T04:13:04.695Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:59:11.677Z"
+    updated_at: '2026-09-28T04:59:11.677Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -103,14 +114,20 @@ processing:
       input_hash: sha256:2bd9365d3e55810df6d2783e2e5126fb61baea659f6d1436bcc301dd6bfb8f4a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's core identity is an MCP server providing video editing tools; it is not a coding agent, app builder, or framework, and its inclusion in MCP-specific awesome lists reinforces this focus.
+      decision_reason: >-
+        The project's core identity is an MCP server providing video editing tools; it is not a coding agent, app
+        builder, or framework, and its inclusion in MCP-specific awesome lists reinforces this focus.
       decision_evidence:
-        - "Repo description: 'MCP Interface for Video Jungle'"
-        - README emphasizes MCP server implementation with tools like add-video, search-videos, and generate-edit-from-videos
+        - 'Repo description: ''MCP Interface for Video Jungle'''
+        - >-
+          README emphasizes MCP server implementation with tools like add-video, search-videos, and
+          generate-edit-from-videos
         - Listed in awesome-mcp-list and awesome-mcp-servers under Art & Culture sections
       category_candidates:
         - mcp
         - app-builders
-      contrastive_reason: Choose mcp over app-builders because the product exposes video editing capabilities via MCP protocol rather than generating deployable apps from prompts.
+      contrastive_reason: >-
+        Choose mcp over app-builders because the product exposes video editing capabilities via MCP protocol rather than
+        generating deployable apps from prompts.
       review_reason: null
       review_resume_lifecycle: null

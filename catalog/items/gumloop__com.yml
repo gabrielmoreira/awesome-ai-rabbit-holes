@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gumloop__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Gumloop
         anchor_text: Gumloop
         extracted_url: https://gumloop.com
-        surrounding_text: "## [Gumloop](https://www.gumloop.com/)"
+        surrounding_text: '## [Gumloop](https://www.gumloop.com/)'
         confidence: high
     - id: discovery__www__gumloop__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Gumloop
         anchor_text: Gumloop
         extracted_url: https://www.gumloop.com
-        surrounding_text: "## [Gumloop](https://www.gumloop.com/)"
+        surrounding_text: '## [Gumloop](https://www.gumloop.com/)'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Gumloop is a multiplayer AI agent builder that lets anyone at a company build agents with any AI model and integration while IT controls access.
-  why_it_matters: It enables non-technical team members to create and deploy AI agents for business workflows using natural language, reducing reliance on engineering for internal tooling.
-  mental_damage: Finally, a way for sales and ops teams to automate their spreadsheets without waiting for engineering — welcome to the democratization of technical debt.
+  summary: >-
+    Gumloop is a multiplayer AI agent builder that lets anyone at a company build agents with any AI model and
+    integration while IT controls access.
+  why_it_matters: >-
+    It enables non-technical team members to create and deploy AI agents for business workflows using natural language,
+    reducing reliance on engineering for internal tooling.
+  mental_damage: >-
+    Finally, a way for sales and ops teams to automate their spreadsheets without waiting for engineering — welcome to
+    the democratization of technical debt.
   tags:
     - ai-agents
     - internal-tools
@@ -62,22 +68,31 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Gumloop is a business-focused AI agent builder for internal workflow automation (CRM, sales, data tasks), not a developer tool for coding, app building from prompts, or AI infrastructure; its primary users are business teams, not software developers.
+  reason: >-
+    Gumloop is a business-focused AI agent builder for internal workflow automation (CRM, sales, data tasks), not a
+    developer tool for coding, app building from prompts, or AI infrastructure; its primary users are business teams,
+    not software developers.
   evidence:
-    - "Scraped site context: 'Gumloop is the multiplayer AI agent builder. Let anyone at your company build agents with any AI model, any integration while IT controls access.'"
-    - Primary page excerpt shows agents for CRM pipeline analysis, sales follow-ups, and data analysis — all business workflows, not coding or development tasks.
-    - "Source-list context: listed in awesome-ai-agents under 'Gumloop' as an AI agent builder for business use, not developer tooling."
+    - >-
+      Scraped site context: 'Gumloop is the multiplayer AI agent builder. Let anyone at your company build agents with
+      any AI model, any integration while IT controls access.'
+    - >-
+      Primary page excerpt shows agents for CRM pipeline analysis, sales follow-ups, and data analysis — all business
+      workflows, not coding or development tasks.
+    - >-
+      Source-list context: listed in awesome-ai-agents under 'Gumloop' as an AI agent builder for business use, not
+      developer tooling.
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:41:31.752Z"
+    updated_at: '2026-09-28T04:41:31.752Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,18 +105,27 @@ processing:
       input_hash: sha256:a3b947fd1bad547f7d8cd9b7a36eabf2daf5b1abfb1bc808a4b6a69e142a1356
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Gumloop is a business-focused AI agent builder for internal workflow automation (CRM, sales, data tasks), not a developer tool for coding, app building from prompts, or AI infrastructure; its primary users are business teams, not software developers.
+      decision_reason: >-
+        Gumloop is a business-focused AI agent builder for internal workflow automation (CRM, sales, data tasks), not a
+        developer tool for coding, app building from prompts, or AI infrastructure; its primary users are business
+        teams, not software developers.
       decision_evidence:
-        - "Scraped site context: 'Gumloop is the multiplayer AI agent builder. Let anyone at your company build agents with any AI model, any integration while IT controls access.'"
-        - Primary page excerpt shows agents for CRM pipeline analysis, sales follow-ups, and data analysis — all business workflows, not coding or development tasks.
-        - "Source-list context: listed in awesome-ai-agents under 'Gumloop' as an AI agent builder for business use, not developer tooling."
+        - >-
+          Scraped site context: 'Gumloop is the multiplayer AI agent builder. Let anyone at your company build agents
+          with any AI model, any integration while IT controls access.'
+        - >-
+          Primary page excerpt shows agents for CRM pipeline analysis, sales follow-ups, and data analysis — all
+          business workflows, not coding or development tasks.
+        - >-
+          Source-list context: listed in awesome-ai-agents under 'Gumloop' as an AI agent builder for business use, not
+          developer tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause: null
     next_retry_at: null
   stars:

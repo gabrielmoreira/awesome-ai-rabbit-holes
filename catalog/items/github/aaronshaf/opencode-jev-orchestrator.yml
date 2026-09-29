@@ -1,0 +1,93 @@
+id: github__aaronshaf__opencode-jev-orchestrator
+kind: github-repo
+name: aaronshaf/opencode-jev-orchestrator
+canonical_url: https://github.com/aaronshaf/opencode-jev-orchestrator
+identity:
+  github_repo: aaronshaf/opencode-jev-orchestrator
+provenance:
+  discoveries:
+    - id: discovery__github__aaronshaf__opencode-jev-orchestrator__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Model Routing
+        anchor_text: '**opencode-jev-orchestrator**'
+        extracted_url: https://github.com/aaronshaf/opencode-jev-orchestrator
+        surrounding_text: >-
+          - [**opencode-jev-orchestrator**](https://github.com/aaronshaf/opencode-jev-orchestrator) — An OpenCode
+          orchestrator that keeps a cheap sticky parent model and, when Jev flags a hard turn, escalates through a child
+          subagent.
+        confidence: high
+    - id: discovery__github__aaronshaf__opencode-jev-orchestrator__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents, coding, and guardrails
+        anchor_text: opencode-jev-orchestrator
+        extracted_url: https://github.com/aaronshaf/opencode-jev-orchestrator
+        surrounding_text: >-
+          - [opencode-jev-orchestrator](https://github.com/aaronshaf/opencode-jev-orchestrator) - Keeps an OpenCode
+          parent model fixed and uses Jev difficulty judgments to delegate harder turns to temporary subagents.
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 2
+    license: MIT
+    archived: false
+    full_name: aaronshaf/opencode-jev-orchestrator
+    html_url: https://github.com/aaronshaf/opencode-jev-orchestrator
+    created_at: '2026-09-18T13:56:30Z'
+    pushed_at: '2026-09-25T08:24:29Z'
+    description: Keeps OpenCode on a cheap sticky model for warm cache; Jev escalates hard turns to stronger subagents.
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:08:21.462Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:21.462Z'
+      bytes: 2766
+insights:
+  summary: Keeps OpenCode on a cheap sticky model for warm cache; Jev escalates hard turns to stronger subagents.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.79
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.408Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:21.462Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__api__star__history__com__svg__awesome-list__shubhamsaboo__awesome-llm-apps
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: Shubhamsaboo/awesome-llm-apps
@@ -16,9 +16,11 @@ provenance:
         mode: parsed
         section_path:
           - ⭐ Star History
-        anchor_text: "![Star History Chart"
+        anchor_text: '![Star History Chart'
         extracted_url: https://api.star-history.com/svg
-        surrounding_text: "[![Star History Chart](https://api.star-history.com/svg?repos=Shubhamsaboo/awesome-llm-apps&type=Date)](https://star-history.com/#Shubhamsaboo/awesome-llm-apps&Date)"
+        surrounding_text: >-
+          [![Star History
+          Chart](https://api.star-history.com/svg?repos=Shubhamsaboo/awesome-llm-apps&type=Date)](https://star-history.com/#Shubhamsaboo/awesome-llm-apps&Date)
         confidence: high
 metadata:
   github:
@@ -38,7 +40,9 @@ metadata:
 insights:
   summary: A service that generates SVG visualizations of GitHub star history.
   why_it_matters: It allows developers to visually track the adoption and growth trends of a repository over time.
-  mental_damage: Nothing says 'I've lost the plot' like needing a specialized chart to track how many people actually liked your README.
+  mental_damage: >-
+    Nothing says 'I've lost the plot' like needing a specialized chart to track how many people actually liked your
+    README.
   tags:
     - visualization
     - github
@@ -46,7 +50,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a generic visualization utility for GitHub metrics and lacks any connection to AI, LLMs, or developer-facing AI tooling.
+  reason: >-
+    The tool is a generic visualization utility for GitHub metrics and lacks any connection to AI, LLMs, or
+    developer-facing AI tooling.
   evidence:
     - URL indicates it is an API for star-history SVGs
     - No mention of AI, LLMs, or coding assistance in the provided context
@@ -54,12 +60,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,10 +74,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:33:58.169Z"
+    updated_at: '2026-09-24T04:33:58.169Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for api__star__history__com__svg: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for api__star__history__com__svg: Upstream error from Nvidia:
+        ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -83,7 +91,9 @@ processing:
       input_hash: sha256:295ddfef695081ea78ad5415ed114033e5a99a1cdffa2f335d123347216233a1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a generic visualization utility for GitHub metrics and lacks any connection to AI, LLMs, or developer-facing AI tooling.
+      decision_reason: >-
+        The tool is a generic visualization utility for GitHub metrics and lacks any connection to AI, LLMs, or
+        developer-facing AI tooling.
       decision_evidence:
         - URL indicates it is an API for star-history SVGs
         - No mention of AI, LLMs, or coding assistance in the provided context

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__juicedata__juicefs__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,9 @@ provenance:
           - Data Storage
         anchor_text: JuiceFS
         extracted_url: https://github.com/juicedata/juicefs
-        surrounding_text: "| [JuiceFS](https://github.com/juicedata/juicefs) | A distributed POSIX file system built on top of Redis and S3. | ![GitHub Badge](https://img.shields.io/github/stars/juicedata/juicefs.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [JuiceFS](https://github.com/juicedata/juicefs) | A distributed POSIX file system built on top of Redis and
+          S3. | ![GitHub Badge](https://img.shields.io/github/stars/juicedata/juicefs.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: juicedata/juicefs
     html_url: https://github.com/juicedata/juicefs
-    created_at: "2021-01-08T09:39:46Z"
-    pushed_at: "2026-07-30T03:41:29Z"
+    created_at: '2021-01-08T09:39:46Z'
+    pushed_at: '2026-07-30T03:41:29Z'
     description: JuiceFS is a distributed POSIX file system built on top of Redis and S3.
     homepage: https://juicefs.com
     topics:
@@ -47,14 +49,18 @@ metadata:
       - redis
       - s3
       - storage
-    last_checked_at: "2026-07-30T05:05:53.090Z"
+    last_checked_at: '2026-07-30T05:05:53.090Z'
     readme:
-      fetched_at: "2026-07-30T05:05:53.090Z"
+      fetched_at: '2026-07-30T05:05:53.090Z'
       bytes: 14614
 insights:
   summary: JuiceFS is a distributed POSIX file system built on top of Redis and S3 for cloud-native environments.
-  why_it_matters: It allows developers to connect massive cloud storage directly to big data, ML, and AI workflows without modifying code, treating remote storage like local storage.
-  mental_damage: Finally, a way to make S3 feel like a filesystem—because nothing says 'cloud-native' like pretending object storage is POSIX.
+  why_it_matters: >-
+    It allows developers to connect massive cloud storage directly to big data, ML, and AI workflows without modifying
+    code, treating remote storage like local storage.
+  mental_damage: >-
+    Finally, a way to make S3 feel like a filesystem—because nothing says 'cloud-native' like pretending object storage
+    is POSIX.
   tags:
     - distributed-filesystem
     - cloud-storage
@@ -73,22 +79,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (13549) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:53.090Z"
+    updated_at: '2026-07-30T05:05:53.090Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -103,10 +109,14 @@ processing:
       input_hash: sha256:f127fefb018ec6fa79b9554b657b611446d0e4e1528cac7fec437ad617f0a531
       proposed_primary_category: null
       disagreement: false
-      decision_reason: JuiceFS is a distributed file system for cloud storage, not a developer-facing AI tool, agent, or workflow product.
+      decision_reason: >-
+        JuiceFS is a distributed file system for cloud storage, not a developer-facing AI tool, agent, or workflow
+        product.
       decision_evidence:
         - Repo description explicitly states it is a distributed POSIX file system built on Redis and S3
-        - README highlights cloud-native storage integration for big data, ML, and AI, but not AI-specific developer tooling
+        - >-
+          README highlights cloud-native storage integration for big data, ML, and AI, but not AI-specific developer
+          tooling
         - Source-list context places it under 'Data Storage' in LLMOps, not as a developer tool
       category_candidates: []
       contrastive_reason: null

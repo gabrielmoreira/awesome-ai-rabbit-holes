@@ -1,0 +1,83 @@
+id: github__homayoonalimohammadi__jev-sdk-go
+kind: github-repo
+name: homayoonalimohammadi/jev-sdk-go
+canonical_url: https://github.com/homayoonalimohammadi/jev-sdk-go
+identity:
+  github_repo: homayoonalimohammadi/jev-sdk-go
+provenance:
+  discoveries:
+    - id: discovery__github__homayoonalimohammadi__jev-sdk-go__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: jev-sdk-go
+        extracted_url: https://github.com/homayoonalimohammadi/jev-sdk-go
+        surrounding_text: >-
+          - [jev-sdk-go](https://github.com/HomayoonAlimohammadi/jev-sdk-go) ![type:
+          library](https://img.shields.io/badge/type-library-4B5563?style=flat-square)
+          ![stars](https://img.shields.io/github/stars/HomayoonAlimohammadi/jev-sdk-go?style=flat-square&label=%E2%98%85)
+          - Go ecosystem: dependency-free Go 1.24+ client for Jev `Noul`, `Choice` and `Score` questions that reads
+          `Choice` and `Score` answers back as the caller's own types, rejecting any label or level the question never
+          offered, with retries, OpenRouter support, and eleven examples tested against an in-process fake of the API.
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: HomayoonAlimohammadi/jev-sdk-go
+    html_url: https://github.com/HomayoonAlimohammadi/jev-sdk-go
+    created_at: '2026-09-22T14:15:46Z'
+    pushed_at: '2026-09-23T13:49:29Z'
+    description: Jev SDK in Go
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:12:11.045Z'
+    readme:
+      fetched_at: '2026-09-29T13:12:11.045Z'
+      bytes: 14980
+insights:
+  summary: >-
+    jev-sdk-go - Go ecosystem: dependency-free Go 1.24+ client for Jev Noul, Choice and Score questions that reads
+    Choice and Score answers back as the caller's own types, rejecting any label or level the question never offered,
+    with retries, OpenRouter support, and eleven examples tested against an in-process fake of the API.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  evidence:
+    - jev-latest choice confidence 0.98
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Client SDKs & CLIs
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.460Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:12:11.045Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

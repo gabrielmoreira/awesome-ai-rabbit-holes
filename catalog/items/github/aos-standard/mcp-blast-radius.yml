@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aos-standard__mcp-blast-radius__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-13T05:12:52.223Z"
+      discovered_at: '2026-07-13T05:12:52.223Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: aos-standard/mcp-blast-radius
         extracted_url: https://github.com/aos-standard/mcp-blast-radius
-        surrounding_text: "- [aos-standard/mcp-blast-radius](https://github.com/aos-standard/mcp-blast-radius) [![aos-standard/mcp-blast-radius MCP server](https://glama.ai/mcp/servers/aos-standard/mcp-blast-radius/badges/score.svg)](https://glama.ai/mcp/servers/aos-standard/mcp-blast-radius) 🐍 🏠 - MCP Blast-Radius Auditor — static blast radius extraction and AOS `manifest.json` divergence gate (Oracle / Permitted / Prohibited). Stdio MCP (`mcp-blast-radius`) plus CI blocking gate (`mcp-blast-radius-gate`). Install: `pip install mcp-blast-radius==0.2.0` · [PyPI](https://pypi.org/project/mcp-blast-radius/0.2.0/)"
+        surrounding_text: >-
+          - [aos-standard/mcp-blast-radius](https://github.com/aos-standard/mcp-blast-radius)
+          [![aos-standard/mcp-blast-radius MCP
+          server](https://glama.ai/mcp/servers/aos-standard/mcp-blast-radius/badges/score.svg)](https://glama.ai/mcp/servers/aos-standard/mcp-blast-radius)
+          🐍 🏠 - MCP Blast-Radius Auditor — static blast radius extraction and AOS `manifest.json` divergence gate
+          (Oracle / Permitted / Prohibited). Stdio MCP (`mcp-blast-radius`) plus CI blocking gate
+          (`mcp-blast-radius-gate`). Install: `pip install mcp-blast-radius==0.2.0` ·
+          [PyPI](https://pypi.org/project/mcp-blast-radius/0.2.0/)
         confidence: high
 metadata:
   github:
@@ -30,19 +37,25 @@ metadata:
     archived: false
     full_name: aos-standard/mcp-blast-radius
     html_url: https://github.com/aos-standard/mcp-blast-radius
-    created_at: "2026-06-21T22:25:58Z"
-    pushed_at: "2026-07-19T09:34:58Z"
+    created_at: '2026-06-21T22:25:58Z'
+    pushed_at: '2026-07-19T09:34:58Z'
     description: MCP Blast-Radius Auditor — static blast radius extraction and CI divergence gate for MCP servers.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-21T04:13:43.146Z"
+    last_checked_at: '2026-09-21T04:13:43.146Z'
     readme:
-      fetched_at: "2026-09-21T04:13:43.146Z"
+      fetched_at: '2026-09-21T04:13:43.146Z'
       bytes: 5676
 insights:
-  summary: A static analysis tool and CI gate that extracts the capability surface of MCP servers and verifies them against declared manifests.
-  why_it_matters: It enables developers to prevent MCP servers from silently gaining unauthorized access to files, network, or subprocesses through manifest divergence.
-  mental_damage: Because trusting a third-party MCP server with your local filesystem is a leap of faith we'd all prefer to automate away.
+  summary: >-
+    A static analysis tool and CI gate that extracts the capability surface of MCP servers and verifies them against
+    declared manifests.
+  why_it_matters: >-
+    It enables developers to prevent MCP servers from silently gaining unauthorized access to files, network, or
+    subprocesses through manifest divergence.
+  mental_damage: >-
+    Because trusting a third-party MCP server with your local filesystem is a leap of faith we'd all prefer to automate
+    away.
   tags:
     - mcp
     - security
@@ -52,7 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is a specialized piece of developer tooling for building, testing, and securing the MCP ecosystem.
+  reason: >-
+    The tool's primary identity is a specialized piece of developer tooling for building, testing, and securing the MCP
+    ecosystem.
   evidence:
     - Repo description defines it as an MCP Blast-Radius Auditor and CI divergence gate.
     - README describes capabilities like static extraction of network, subprocess, and filesystem access.
@@ -62,22 +77,22 @@ placement:
   secondary_categories: []
   section: Dev & Code Tools
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-13T05:12:52.224Z"
+    updated_at: '2026-07-13T05:12:52.224Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:43.146Z"
+    updated_at: '2026-09-21T04:13:43.146Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:24:22.820Z"
+    updated_at: '2026-09-24T04:24:22.820Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +105,9 @@ processing:
       input_hash: sha256:17f0f1c2d89c6983d728eeef741eca984426d67cb670700e07dc39a56861b62f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's primary identity is a specialized piece of developer tooling for building, testing, and securing the MCP ecosystem.
+      decision_reason: >-
+        The tool's primary identity is a specialized piece of developer tooling for building, testing, and securing the
+        MCP ecosystem.
       decision_evidence:
         - Repo description defines it as an MCP Blast-Radius Auditor and CI divergence gate.
         - README describes capabilities like static extraction of network, subprocess, and filesystem access.
@@ -98,6 +115,8 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because its core identity is a specialized developer tool for the MCP protocol's security and compliance rather than a generic plugin for a coding assistant.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because its core identity is a specialized developer tool for the MCP
+        protocol's security and compliance rather than a generic plugin for a coding assistant.
       review_reason: null
       review_resume_lifecycle: null

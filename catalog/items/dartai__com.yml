@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__dartai__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,12 @@ provenance:
           - Official Servers
         anchor_text: Dart
         extracted_url: https://itsdart.com
-        surrounding_text: "- **[Dart](https://github.com/its-dart/dart-mcp-server)** - Interact with task, doc, and project data in [Dart](https://itsdart.com), an AI-native project management tool"
+        surrounding_text: >-
+          - **[Dart](https://github.com/its-dart/dart-mcp-server)** - Interact with task, doc, and project data in
+          [Dart](https://itsdart.com), an AI-native project management tool
         confidence: high
     - id: discovery__www__dartai__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +35,9 @@ provenance:
           - Official Servers
         anchor_text: Dart
         extracted_url: https://itsdart.com
-        surrounding_text: "- **[Dart](https://github.com/its-dart/dart-mcp-server)** - Interact with task, doc, and project data in [Dart](https://itsdart.com), an AI-native project management tool"
+        surrounding_text: >-
+          - **[Dart](https://github.com/its-dart/dart-mcp-server)** - Interact with task, doc, and project data in
+          [Dart](https://itsdart.com), an AI-native project management tool
         confidence: high
 metadata:
   github:
@@ -51,9 +55,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Dart is a project management platform that enables teams to create, manage, and orchestrate AI agents alongside human workflows, with features like AI-generated tasks, agent collaboration, and integrations with tools like GitHub, Claude Code, and Slack.
-  why_it_matters: It matters to developers by providing a centralized workspace where AI coding agents (e.g., Codex, Claude Code) can be directed, monitored, and coordinated on coding tasks within a shared team plan.
-  mental_damage: It promises to eliminate the 'work' of project management by replacing human planning with AI agents that generate tasks and sprints — potentially automating away the very coordination it claims to support.
+  summary: >-
+    Dart is a project management platform that enables teams to create, manage, and orchestrate AI agents alongside
+    human workflows, with features like AI-generated tasks, agent collaboration, and integrations with tools like
+    GitHub, Claude Code, and Slack.
+  why_it_matters: >-
+    It matters to developers by providing a centralized workspace where AI coding agents (e.g., Codex, Claude Code) can
+    be directed, monitored, and coordinated on coding tasks within a shared team plan.
+  mental_damage: >-
+    It promises to eliminate the 'work' of project management by replacing human planning with AI agents that generate
+    tasks and sprints — potentially automating away the very coordination it claims to support.
   tags:
     - project-management
     - ai-agents
@@ -61,21 +72,31 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Dart is primarily a project management and team coordination platform that uses AI agents as features, not a developer-facing AI tool whose core identity is coding, framework, orchestration, or agent tooling; its value lies in workflow automation for teams, not in acting as a coding agent or extending one.
+  reason: >-
+    Dart is primarily a project management and team coordination platform that uses AI agents as features, not a
+    developer-facing AI tool whose core identity is coding, framework, orchestration, or agent tooling; its value lies
+    in workflow automation for teams, not in acting as a coding agent or extending one.
   evidence:
-    - The platform enables users to 'create, manage, and orchestrate agents alongside your team' and connects 'every handoff and result to the work', positioning it as a team workspace, not a coding agent.
-    - It features integrations with coding agents like Codex, Claude Code, and Cursor, but these are treated as connectable tools within Dart — meaning Dart orchestrates agents rather than being one.
-    - Its core use cases span product, marketing, sales, HR, and operations, with AI applied to tasks like sprint planning, property filling, and subtask generation, not direct code editing or repo interaction as a primary function.
+    - >-
+      The platform enables users to 'create, manage, and orchestrate agents alongside your team' and connects 'every
+      handoff and result to the work', positioning it as a team workspace, not a coding agent.
+    - >-
+      It features integrations with coding agents like Codex, Claude Code, and Cursor, but these are treated as
+      connectable tools within Dart — meaning Dart orchestrates agents rather than being one.
+    - >-
+      Its core use cases span product, marketing, sales, HR, and operations, with AI applied to tasks like sprint
+      planning, property filling, and subtask generation, not direct code editing or repo interaction as a primary
+      function.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:40:35.443Z"
+    updated_at: '2026-09-28T04:40:35.443Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,18 +109,28 @@ processing:
       input_hash: sha256:2807ec5f885eb7f1ce8c99bb76462a8fc09af44b54c908b0fd0fa01ce07016b2
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Dart is primarily a project management and team coordination platform that uses AI agents as features, not a developer-facing AI tool whose core identity is coding, framework, orchestration, or agent tooling; its value lies in workflow automation for teams, not in acting as a coding agent or extending one.
+      decision_reason: >-
+        Dart is primarily a project management and team coordination platform that uses AI agents as features, not a
+        developer-facing AI tool whose core identity is coding, framework, orchestration, or agent tooling; its value
+        lies in workflow automation for teams, not in acting as a coding agent or extending one.
       decision_evidence:
-        - The platform enables users to 'create, manage, and orchestrate agents alongside your team' and connects 'every handoff and result to the work', positioning it as a team workspace, not a coding agent.
-        - It features integrations with coding agents like Codex, Claude Code, and Cursor, but these are treated as connectable tools within Dart — meaning Dart orchestrates agents rather than being one.
-        - Its core use cases span product, marketing, sales, HR, and operations, with AI applied to tasks like sprint planning, property filling, and subtask generation, not direct code editing or repo interaction as a primary function.
+        - >-
+          The platform enables users to 'create, manage, and orchestrate agents alongside your team' and connects 'every
+          handoff and result to the work', positioning it as a team workspace, not a coding agent.
+        - >-
+          It features integrations with coding agents like Codex, Claude Code, and Cursor, but these are treated as
+          connectable tools within Dart — meaning Dart orchestrates agents rather than being one.
+        - >-
+          Its core use cases span product, marketing, sales, HR, and operations, with AI applied to tasks like sprint
+          planning, property filling, and subtask generation, not direct code editing or repo interaction as a primary
+          function.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.964Z"
+    updated_at: '2026-07-21T15:20:21.964Z'
     cause: null
     next_retry_at: null
   stars:

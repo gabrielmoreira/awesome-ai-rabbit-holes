@@ -60,11 +60,13 @@ describe("catalog templates", () => {
   it("keeps category page branching inline instead of splitting fragments", () => {
     const template = fs.readFileSync(path.join(TEMPLATE_DIR, "docs-category-page.njk"), "utf8");
 
-    expect(template).toContain("{% for item in activeItems %}");
-    expect(template).toContain("{% for item in incubatingItems %}");
+    expect(template).toContain("{% macro entry(item) %}");
+    expect(template).toContain("{% macro entryCompact(item) %}");
+    expect(template).toContain("{% for section in sections %}");
     expect(template).toContain("{% if item.hasStars %}");
     expect(template).toContain("{% if item.hasActivity %}");
     expect(template).toContain("{% if item.hasDetails %}");
+    expect(template).toContain("{% if item.isHot %}");
     expect(template).not.toContain("{% include");
     expect(template).not.toContain("{% extends");
   });
@@ -111,80 +113,131 @@ describe("catalog templates", () => {
     expect(output).toContain("- [MCP](docs/rabbit-holes/mcp.md) — Model Context Protocol tooling.");
   });
 
-  it("renders category pages with inline stars, activity, and details blocks", () => {
+  it("renders a table of contents and one section per category section", () => {
     const output = renderCatalogCategoryPageTemplate({
       categoryName: "Coding Agents",
       categoryDescription: "Tools for coding with AI.",
-      hasActiveItems: true,
-      activeItems: [
+      totalCount: 3,
+      topN: 2,
+      sectionCount: 2,
+      hasSections: true,
+      sections: [
         {
-          name: "test-tool",
-          url: "https://github.com/example/test-tool",
-          summary: "A great tool for teams.",
-          hasStars: true,
-          starsLabel: "1.2k",
-          hasActivity: true,
-          activityLabel: "updated ≤30d",
-          hasDetails: true,
-          hasWhyItMatters: true,
-          whyItMatters: "Matters a lot for busy teams.",
-          hasMentalDamage: true,
-          mentalDamage: "Now your backlog has a boss.",
-          hasTags: true,
-          tags: ["agents", "kanban"],
+          name: "Terminal & CLI Agents",
+          anchor: "terminal--cli-agents",
+          totalCount: 2,
+          visibleItems: [
+            {
+              name: "test-tool",
+              url: "https://github.com/example/test-tool",
+              summary: "A great tool for teams.",
+              hasStars: true,
+              starsLabel: "1.2k",
+              hasActivity: true,
+              isHot: false,
+              activityLabel: "updated ≤30d",
+              hasDetails: true,
+              hasWhyItMatters: true,
+              whyItMatters: "Matters a lot for busy teams.",
+              hasMentalDamage: true,
+              mentalDamage: "Now your backlog has a boss.",
+              hasTags: true,
+              tags: ["agents", "kanban"],
+            },
+            {
+              name: "website-only",
+              url: "https://example.com/tool",
+              summary: "Website-only item.",
+              hasStars: false,
+              starsLabel: null,
+              hasActivity: false,
+              isHot: false,
+              activityLabel: null,
+              hasDetails: false,
+              hasWhyItMatters: false,
+              whyItMatters: null,
+              hasMentalDamage: false,
+              mentalDamage: null,
+              hasTags: false,
+              tags: [],
+            },
+          ],
+          hasOverflow: true,
+          overflowCount: 1,
+          overflowItems: [
+            {
+              name: "folded-tool",
+              url: "https://example.com/folded",
+              summary: "Folded item.",
+              hasStars: true,
+              starsLabel: "42",
+              hasActivity: false,
+              isHot: false,
+              activityLabel: null,
+              hasDetails: true,
+              hasWhyItMatters: true,
+              whyItMatters: "Never rendered inside the folded panel.",
+              hasMentalDamage: false,
+              mentalDamage: null,
+              hasTags: false,
+              tags: [],
+            },
+          ],
         },
         {
-          name: "website-only",
-          url: "https://example.com/tool",
-          summary: "Website-only item.",
-          hasStars: false,
-          starsLabel: null,
-          hasActivity: false,
-          activityLabel: null,
-          hasDetails: false,
-          hasWhyItMatters: false,
-          whyItMatters: null,
-          hasMentalDamage: false,
-          mentalDamage: null,
-          hasTags: false,
-          tags: [],
-        },
-      ],
-      hasIncubatingItems: true,
-      incubatingItems: [
-        {
-          name: "new-tool",
-          url: "https://example.com/new",
-          summary: "New tool.",
-          hasStars: true,
-          starsLabel: "42",
-          hasActivity: false,
-          activityLabel: null,
-          hasDetails: false,
-          hasWhyItMatters: false,
-          whyItMatters: null,
-          hasMentalDamage: false,
-          mentalDamage: null,
-          hasTags: false,
-          tags: [],
+          name: "Others",
+          anchor: "others",
+          totalCount: 1,
+          visibleItems: [
+            {
+              name: "unsectioned",
+              url: "https://example.com/unsectioned",
+              summary: "Never classified into a section.",
+              hasStars: false,
+              starsLabel: null,
+              hasActivity: false,
+              isHot: false,
+              activityLabel: null,
+              hasDetails: false,
+              hasWhyItMatters: false,
+              whyItMatters: null,
+              hasMentalDamage: false,
+              mentalDamage: null,
+              hasTags: false,
+              tags: [],
+            },
+          ],
+          hasOverflow: false,
+          overflowCount: 0,
+          overflowItems: [],
         },
       ],
       isEmpty: false,
     });
 
-    expect(output).toBe(
-      "<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->\n# Coding Agents\n\nTools for coding with AI.\n\n## Tools & Resources\n\n- **[test-tool](https://github.com/example/test-tool)** `⭐ 1.2k` `updated ≤30d` A great tool for teams. <details><summary>More about</summary>\n\n  Matters a lot for busy teams.\n\n  _Now your backlog has a boss._\n\n  `agents` `kanban`\n  </details>\n\n- **[website-only](https://example.com/tool)** Website-only item.\n\n## Incubating\n\n_These are new or low-traffic entries being watched._\n\n- **[new-tool](https://example.com/new)** `⭐ 42` New tool.",
+    expect(output).toContain("## Contents");
+    expect(output).toContain("- [Terminal & CLI Agents](#terminal--cli-agents) — 2");
+    expect(output).toContain("- [Others](#others) — 1");
+    expect(output).toContain("## Terminal & CLI Agents");
+    expect(output).toContain("## Others");
+    expect(output).toContain(
+      "- **[test-tool](https://github.com/example/test-tool)** `⭐ 1.2k` `updated ≤30d` A great tool for teams. <details><summary>More about</summary>\n\n  Matters a lot for busy teams.\n\n  _Now your backlog has a boss._\n\n  `agents` `kanban`\n  </details>",
     );
+    // The folded remainder keeps the entry but drops the nested details panel.
+    expect(output).toContain("+1 more in Terminal & CLI Agents");
+    expect(output).toContain("- **[folded-tool](https://example.com/folded)** `⭐ 42` Folded item.");
+    expect(output).not.toContain("Never rendered inside the folded panel.");
   });
 
   it("renders the empty category fallback branch", () => {
     const output = renderCatalogCategoryPageTemplate({
       categoryName: "MCP",
       categoryDescription: "Model Context Protocol tooling.",
-      hasActiveItems: false,
-      activeItems: [],
-      hasIncubatingItems: false,
-      incubatingItems: [],
+      totalCount: 0,
+      topN: 30,
+      sectionCount: 0,
+      hasSections: false,
+      sections: [],
       isEmpty: true,
     });
 

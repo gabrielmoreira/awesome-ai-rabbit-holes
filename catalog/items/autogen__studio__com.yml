@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__autogen__studio__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,7 +18,10 @@ provenance:
           - 智能体 Agents
         anchor_text: AutoGen AIStudio
         extracted_url: https://autogen-studio.com
-        surrounding_text: "1. [AutoGen](https://github.com/microsoft/autogen): AutoGen is a framework that enables the development of LLM applications using multiple agents that can converse with each other to solve tasks. [AutoGen AIStudio](https://autogen-studio.com/)"
+        surrounding_text: >-
+          1. [AutoGen](https://github.com/microsoft/autogen): AutoGen is a framework that enables the development of LLM
+          applications using multiple agents that can converse with each other to solve tasks. [AutoGen
+          AIStudio](https://autogen-studio.com/)
         confidence: high
 metadata:
   github:
@@ -37,28 +40,39 @@ metadata:
     readme: null
 insights:
   summary: A curated list of AI tools, agents, and workflows for software developers.
-  why_it_matters: This catalog helps developers discover practical AI tools that integrate into their workflows, reducing manual effort and improving productivity.
-  mental_damage: Another AI tool list, because the last 17 this week already promised to 'revolutionize' your workflow while quietly eating your time.
+  why_it_matters: >-
+    This catalog helps developers discover practical AI tools that integrate into their workflows, reducing manual
+    effort and improving productivity.
+  mental_damage: >-
+    Another AI tool list, because the last 17 this week already promised to 'revolutionize' your workflow while quietly
+    eating your time.
   tags:
     - ai-dev-extensions
     - curated-lists
   confidence: medium
 curation:
   status: included
-  reason: The project is a curated list of AI tools, which fits the 'awesome-awesomes' category for navigation aids, but its core focus on developer tooling and coding agents makes 'coding-agents' the primary category.
+  reason: >-
+    The project is a curated list of AI tools, which fits the 'awesome-awesomes' category for navigation aids, but its
+    core focus on developer tooling and coding agents makes 'coding-agents' the primary category.
   evidence:
-    - The project is a curated list of AI tools for developers, as indicated by the scraped site context showing a collection of game sites, which is likely a misclassification and the actual purpose is a developer resource directory.
-    - The source-list context indicates it is included in a curated list of AI tools, aligning with the 'awesome-awesomes' category.
+    - >-
+      The project is a curated list of AI tools for developers, as indicated by the scraped site context showing a
+      collection of game sites, which is likely a misclassification and the actual purpose is a developer resource
+      directory.
+    - >-
+      The source-list context indicates it is included in a curated list of AI tools, aligning with the
+      'awesome-awesomes' category.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +81,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:34:34.009Z"
+    updated_at: '2026-09-24T04:34:34.009Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -80,13 +94,22 @@ processing:
       input_hash: sha256:7bbed23099699125314f44d0287e114ddff5e3e470a08f8b907fa23f37f1ec10
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The project is a curated list of AI tools, which fits the 'awesome-awesomes' category for navigation aids, but its core focus on developer tooling and coding agents makes 'coding-agents' the primary category.
+      decision_reason: >-
+        The project is a curated list of AI tools, which fits the 'awesome-awesomes' category for navigation aids, but
+        its core focus on developer tooling and coding agents makes 'coding-agents' the primary category.
       decision_evidence:
-        - The project is a curated list of AI tools for developers, as indicated by the scraped site context showing a collection of game sites, which is likely a misclassification and the actual purpose is a developer resource directory.
-        - The source-list context indicates it is included in a curated list of AI tools, aligning with the 'awesome-awesomes' category.
+        - >-
+          The project is a curated list of AI tools for developers, as indicated by the scraped site context showing a
+          collection of game sites, which is likely a misclassification and the actual purpose is a developer resource
+          directory.
+        - >-
+          The source-list context indicates it is included in a curated list of AI tools, aligning with the
+          'awesome-awesomes' category.
       category_candidates:
         - coding-agents
         - awesome-awesomes
-      contrastive_reason: Choose coding-agents over awesome-awesomes because it directly serves as a developer-facing tooling resource rather than just a discovery aid.
+      contrastive_reason: >-
+        Choose coding-agents over awesome-awesomes because it directly serves as a developer-facing tooling resource
+        rather than just a discovery aid.
       review_reason: null
       review_resume_lifecycle: null

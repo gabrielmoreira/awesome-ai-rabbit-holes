@@ -1,0 +1,117 @@
+id: github__aifabrice__jev-rag
+kind: github-repo
+name: aifabrice/jev-rag
+canonical_url: https://github.com/aifabrice/jev-rag
+identity:
+  github_repo: aifabrice/jev-rag
+provenance:
+  discoveries:
+    - id: discovery__github__aifabrice__jev-rag__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jev-rag
+        extracted_url: https://github.com/aifabrice/jev-rag
+        surrounding_text: >-
+          - [jev-rag](https://github.com/aifabrice/jev-rag) - Vector-free local RAG: SQLite BM25 retrieval, TypeSafe Jev
+          evidence reranking, optional grounded LLM answers (no embeddings). [Project
+          guide](community/projects/tools/jev-rag.md).
+        confidence: high
+    - id: discovery__github__aifabrice__jev-rag__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Data & Search
+        anchor_text: '**jev-rag**'
+        extracted_url: https://github.com/aifabrice/jev-rag
+        surrounding_text: >-
+          - [**jev-rag**](https://github.com/aifabrice/jev-rag) — Local knowledge search with three modes: BM25 + Jev by
+          default, agentic multi-query lexical search + Jev without vectors, and optional BM25 + embeddings/RRF + Jev,
+          with grounded streaming answers.
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: aifabrice/jev-rag
+    html_url: https://github.com/aifabrice/jev-rag
+    created_at: '2026-09-26T01:47:17Z'
+    pushed_at: '2026-09-29T01:25:54Z'
+    description: >-
+      Open-source local knowledge search with 7 measurable pipelines: vector-free BM25 + Jev, agentic lexical, hybrid
+      retrieval, taxonomy, passage gate, and line search.
+    homepage: https://aifabrice.github.io/jev-rag/
+    topics:
+      - agentic-search
+      - bm25
+      - chinese-nlp
+      - embeddings
+      - fts5
+      - hybrid-search
+      - jev
+      - knowledge-base
+      - llm
+      - local-first
+      - minimax
+      - openrouter
+      - python
+      - rag
+      - reranking
+      - retrieval-augmented-generation
+      - sqlite
+      - vector-free
+    last_checked_at: '2026-09-29T13:08:40.601Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:40.601Z'
+      bytes: 19787
+insights:
+  summary: >-
+    Open-source local knowledge search with 7 measurable pipelines: vector-free BM25 + Jev, agentic lexical, hybrid
+    retrieval, taxonomy, passage gate, and line search.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Retrieval & Fresh Docs
+  evidence:
+    - jev-latest choice confidence 0.59
+placement:
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.408Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:40.601Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

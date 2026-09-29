@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__chaindesk__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Databerry
         anchor_text: Databerry
         extracted_url: https://databerry.ai
-        surrounding_text: "## [Databerry](https://www.databerry.ai/)"
+        surrounding_text: '## [Databerry](https://www.databerry.ai/)'
         confidence: high
     - id: discovery__www__chaindesk__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Databerry
         anchor_text: Databerry
         extracted_url: https://www.databerry.ai
-        surrounding_text: "## [Databerry](https://www.databerry.ai/)"
+        surrounding_text: '## [Databerry](https://www.databerry.ai/)'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Askli is a no-code platform to build custom AI chatbots for websites using data sources like Notion, Google Drive, and Slack.
-  why_it_matters: It lets non-technical teams deploy AI-powered customer support without engineering help, reducing ticket volume through automated responses.
-  mental_damage: Another 'auto-pilot' promise that shifts support burden from humans to bots that confidently hallucinate refund policies.
+  summary: >-
+    Askli is a no-code platform to build custom AI chatbots for websites using data sources like Notion, Google Drive,
+    and Slack.
+  why_it_matters: >-
+    It lets non-technical teams deploy AI-powered customer support without engineering help, reducing ticket volume
+    through automated responses.
+  mental_damage: >-
+    Another 'auto-pilot' promise that shifts support burden from humans to bots that confidently hallucinate refund
+    policies.
   tags:
     - chatbot
     - no-code
@@ -61,21 +67,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Askli is a end-user-facing AI chatbot builder for customer support, not a developer tool for coding, agents, or AI infrastructure — it lacks any identity as a dev-facing product.
+  reason: >-
+    Askli is a end-user-facing AI chatbot builder for customer support, not a developer tool for coding, agents, or AI
+    infrastructure — it lacks any identity as a dev-facing product.
   evidence:
-    - "Primary pitch: 'Train a custom ChatGPT AI chatbot for your website. Automate support, lead generation, and more.'"
-    - "Core features: no-code data import, brand customization, omnichannel deployment (WhatsApp, Slack, WordPress), human handoff, email support — all aimed at business users, not developers."
-    - "No evidence of developer tooling: no SDK, CLI, API extensibility, code generation, agent framework, or integration with dev workflows — only end-user chatbot creation."
+    - 'Primary pitch: ''Train a custom ChatGPT AI chatbot for your website. Automate support, lead generation, and more.'''
+    - >-
+      Core features: no-code data import, brand customization, omnichannel deployment (WhatsApp, Slack, WordPress),
+      human handoff, email support — all aimed at business users, not developers.
+    - >-
+      No evidence of developer tooling: no SDK, CLI, API extensibility, code generation, agent framework, or integration
+      with dev workflows — only end-user chatbot creation.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:39:49.809Z"
+    updated_at: '2026-09-28T04:39:49.809Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,18 +100,26 @@ processing:
       input_hash: sha256:d87153cf47707ed8482f2ff241be2f2542776403894677b9203b007d5c3d2750
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Askli is a end-user-facing AI chatbot builder for customer support, not a developer tool for coding, agents, or AI infrastructure — it lacks any identity as a dev-facing product.
+      decision_reason: >-
+        Askli is a end-user-facing AI chatbot builder for customer support, not a developer tool for coding, agents, or
+        AI infrastructure — it lacks any identity as a dev-facing product.
       decision_evidence:
-        - "Primary pitch: 'Train a custom ChatGPT AI chatbot for your website. Automate support, lead generation, and more.'"
-        - "Core features: no-code data import, brand customization, omnichannel deployment (WhatsApp, Slack, WordPress), human handoff, email support — all aimed at business users, not developers."
-        - "No evidence of developer tooling: no SDK, CLI, API extensibility, code generation, agent framework, or integration with dev workflows — only end-user chatbot creation."
+        - >-
+          Primary pitch: 'Train a custom ChatGPT AI chatbot for your website. Automate support, lead generation, and
+          more.'
+        - >-
+          Core features: no-code data import, brand customization, omnichannel deployment (WhatsApp, Slack, WordPress),
+          human handoff, email support — all aimed at business users, not developers.
+        - >-
+          No evidence of developer tooling: no SDK, CLI, API extensibility, code generation, agent framework, or
+          integration with dev workflows — only end-user chatbot creation.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.963Z"
+    updated_at: '2026-07-21T15:20:21.963Z'
     cause: null
     next_retry_at: null
   stars:

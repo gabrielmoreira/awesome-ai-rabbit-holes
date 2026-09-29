@@ -1,0 +1,76 @@
+id: github__seb4ez__jevguard-mcp
+kind: github-repo
+name: seb4ez/jevguard-mcp
+canonical_url: https://github.com/seb4ez/jevguard-mcp
+identity:
+  github_repo: seb4ez/jevguard-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__seb4ez__jevguard-mcp__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents, coding, and guardrails
+        anchor_text: jevguard-mcp
+        extracted_url: https://github.com/seb4ez/jevguard-mcp
+        surrounding_text: >-
+          - [jevguard-mcp](https://github.com/seb4ez/jevguard-mcp) - Zero-dependency MCP server and Python runtime where
+          Jev evaluates shell command safety, code patch regression risk, and discrete decision certainty, with local
+          SQLite WAL caching and automatic closed-world escape injection.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    jevguard-mcp - Zero-dependency MCP server and Python runtime where Jev evaluates shell command safety, code patch
+    regression risk, and discrete decision certainty, with local SQLite WAL caching and automatic closed-world escape
+    injection.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.90
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.476Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

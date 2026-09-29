@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__anzy-renlab-ai__pronounce__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,15 @@ provenance:
           - 🎓 <a name="education"></a>Education
         anchor_text: anzy-renlab-ai/pronounce
         extracted_url: https://github.com/anzy-renlab-ai/pronounce
-        surrounding_text: "- [anzy-renlab-ai/pronounce](https://github.com/anzy-renlab-ai/pronounce) [![pronounce MCP server](https://glama.ai/mcp/servers/anzy-renlab-ai/pronounce/badges/score.svg)](https://glama.ai/mcp/servers/anzy-renlab-ai/pronounce) 🐍 🏠 🍎 🪟 🐧 - Community pronunciation dictionary for developer project / product / jargon names (kubectl, nginx, GIF, JSON, Pydantic, Knative, LaTeX — 1,848 entries). Each entry carries IPA, a General-American respelling, alternate readings where the pronunciation is contested, a source citation (creator interview / project FAQ / Wikipedia § Pronunciation), and a confidence level. Tools: `pronounce(word)`, `search_pronunciations(query)`, `list_pronunciations(category)`. Install: `uvx pronounce-mcp`. Live browse: <https://pronounce.renlab.ai>."
+        surrounding_text: >-
+          - [anzy-renlab-ai/pronounce](https://github.com/anzy-renlab-ai/pronounce) [![pronounce MCP
+          server](https://glama.ai/mcp/servers/anzy-renlab-ai/pronounce/badges/score.svg)](https://glama.ai/mcp/servers/anzy-renlab-ai/pronounce)
+          🐍 🏠 🍎 🪟 🐧 - Community pronunciation dictionary for developer project / product / jargon names (kubectl,
+          nginx, GIF, JSON, Pydantic, Knative, LaTeX — 1,848 entries). Each entry carries IPA, a General-American
+          respelling, alternate readings where the pronunciation is contested, a source citation (creator interview /
+          project FAQ / Wikipedia § Pronunciation), and a confidence level. Tools: `pronounce(word)`,
+          `search_pronunciations(query)`, `list_pronunciations(category)`. Install: `uvx pronounce-mcp`. Live browse:
+          <https://pronounce.renlab.ai>.
         confidence: high
 metadata:
   github:
@@ -30,9 +38,11 @@ metadata:
     archived: false
     full_name: anzy-renlab-ai/pronounce
     html_url: https://github.com/anzy-renlab-ai/pronounce
-    created_at: "2026-05-16T04:56:52Z"
-    pushed_at: "2026-09-01T10:54:22Z"
-    description: 🔊 Hear how developers actually pronounce kubectl, nginx, GIF & 1,900+ tech terms. Sourced dictionary + CLI + VS Code + GitHub Action + MCP + Agent Skill.
+    created_at: '2026-05-16T04:56:52Z'
+    pushed_at: '2026-09-01T10:54:22Z'
+    description: >-
+      🔊 Hear how developers actually pronounce kubectl, nginx, GIF & 1,900+ tech terms. Sourced dictionary + CLI + VS
+      Code + GitHub Action + MCP + Agent Skill.
     homepage: https://pronounce.renlab.ai
     topics:
       - agent-skills
@@ -55,13 +65,17 @@ metadata:
       - text-to-speech
       - tts
       - vscode-extension
-    last_checked_at: "2026-09-21T04:13:43.082Z"
+    last_checked_at: '2026-09-21T04:13:43.082Z'
     readme:
-      fetched_at: "2026-09-21T04:13:43.082Z"
+      fetched_at: '2026-09-21T04:13:43.082Z'
       bytes: 19618
 insights:
-  summary: Pronounce is a developer pronunciation dictionary with a CLI, VS Code extension, GitHub Action, MCP server, and agent skill for hearing how to say tech terms like kubectl and nginx.
-  why_it_matters: It saves developers from embarrassing mispronunciations in standups by providing authoritative, sourced audio pronunciations of 1,900+ developer terms.
+  summary: >-
+    Pronounce is a developer pronunciation dictionary with a CLI, VS Code extension, GitHub Action, MCP server, and
+    agent skill for hearing how to say tech terms like kubectl and nginx.
+  why_it_matters: >-
+    It saves developers from embarrassing mispronunciations in standups by providing authoritative, sourced audio
+    pronunciations of 1,900+ developer terms.
   mental_damage: Now you have to worry not just about writing correct code, but also saying its name right in front of your peers.
   tags:
     - pronunciation
@@ -72,31 +86,35 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Pronounce is primarily an extension that adds pronunciation capabilities to developer tools like VS Code, Claude Code, and GitHub Actions, rather than being a standalone coding agent or app builder.
+  reason: >-
+    Pronounce is primarily an extension that adds pronunciation capabilities to developer tools like VS Code, Claude
+    Code, and GitHub Actions, rather than being a standalone coding agent or app builder.
   evidence:
     - README highlights VS Code extension, GitHub Action, and MCP server as key distribution methods
     - Repo description frames it as a 'sourced dictionary + CLI + VS Code + GitHub Action + MCP + Agent Skill'
-    - Core utility is augmenting existing workflows (terminal, editor, CI) with pronunciation lookup, not autonomous coding
+    - >-
+      Core utility is augmenting existing workflows (terminal, editor, CI) with pronunciation lookup, not autonomous
+      coding
 placement:
   primary_category: extensions-and-addons
   section: IDE & Editor Add-ons
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:43.082Z"
+    updated_at: '2026-09-21T04:13:43.082Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:28:06.356Z"
+    updated_at: '2026-09-24T04:28:06.356Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -109,14 +127,20 @@ processing:
       input_hash: sha256:3260d7a40d091fed1869531c20c3e85a99569ae826918f2a337b8b9239eb57d0
       proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: Pronounce is primarily an extension that adds pronunciation capabilities to developer tools like VS Code, Claude Code, and GitHub Actions, rather than being a standalone coding agent or app builder.
+      decision_reason: >-
+        Pronounce is primarily an extension that adds pronunciation capabilities to developer tools like VS Code, Claude
+        Code, and GitHub Actions, rather than being a standalone coding agent or app builder.
       decision_evidence:
         - README highlights VS Code extension, GitHub Action, and MCP server as key distribution methods
         - Repo description frames it as a 'sourced dictionary + CLI + VS Code + GitHub Action + MCP + Agent Skill'
-        - Core utility is augmenting existing workflows (terminal, editor, CI) with pronunciation lookup, not autonomous coding
+        - >-
+          Core utility is augmenting existing workflows (terminal, editor, CI) with pronunciation lookup, not autonomous
+          coding
       category_candidates:
         - extensions-and-addons
         - skills
-      contrastive_reason: Choose extensions-and-addons over skills because Pronounce delivers executable integrations (CLI, VS Code extension, MCP server) that augment host tools, not just installable rule/content packs for agents.
+      contrastive_reason: >-
+        Choose extensions-and-addons over skills because Pronounce delivers executable integrations (CLI, VS Code
+        extension, MCP server) that augment host tools, not just installable rule/content packs for agents.
       review_reason: null
       review_resume_lifecycle: null

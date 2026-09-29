@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__botwallet-co__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: botwallet-co/mcp
         extracted_url: https://github.com/botwallet-co/mcp
-        surrounding_text: "- [botwallet-co/mcp](https://github.com/botwallet-co/mcp) [![botwallet-co/mcp MCP server](https://glama.ai/mcp/servers/botwallet-co/mcp/badges/score.svg)](https://glama.ai/mcp/servers/botwallet-co/mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Wallet for AI agents. Earn via invoices, spend on other agents and paid APIs, manage USDC on Solana with human-set spending limits and FROST 2-of-2 threshold signing."
+        surrounding_text: >-
+          - [botwallet-co/mcp](https://github.com/botwallet-co/mcp) [![botwallet-co/mcp MCP
+          server](https://glama.ai/mcp/servers/botwallet-co/mcp/badges/score.svg)](https://glama.ai/mcp/servers/botwallet-co/mcp)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Wallet for AI agents. Earn via invoices, spend on other agents and paid APIs, manage USDC
+          on Solana with human-set spending limits and FROST 2-of-2 threshold signing.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: botwallet-co/mcp
     html_url: https://github.com/botwallet-co/mcp
-    created_at: "2026-03-23T20:44:12Z"
-    pushed_at: "2026-09-14T16:24:30Z"
-    description: MCP server for Botwallet — Give any AI agent a wallet via Model Context Protocol. FROST threshold signing, x402 paid APIs, spending guard rails.
+    created_at: '2026-03-23T20:44:12Z'
+    pushed_at: '2026-09-14T16:24:30Z'
+    description: >-
+      MCP server for Botwallet — Give any AI agent a wallet via Model Context Protocol. FROST threshold signing, x402
+      paid APIs, spending guard rails.
     homepage: https://botwallet.co
     topics:
       - ai-agent
@@ -45,14 +51,20 @@ metadata:
       - payments
       - solana
       - wallet
-    last_checked_at: "2026-09-24T04:13:02.430Z"
+    last_checked_at: '2026-09-24T04:13:02.430Z'
     readme:
-      fetched_at: "2026-09-24T04:13:02.430Z"
+      fetched_at: '2026-09-24T04:13:02.430Z'
       bytes: 9416
 insights:
-  summary: Botwallet MCP Server is an MCP server that gives AI agents cryptocurrency wallet capabilities via FROST threshold signing and x402 paid APIs.
-  why_it_matters: It enables AI agents to autonomously send and receive cryptocurrency payments within spending guardrails, extending their ability to interact with paid APIs and other agents.
-  mental_damage: Now your AI agent can independently blow your crypto budget on paid speech-to-text APIs while you frantically check approval notifications.
+  summary: >-
+    Botwallet MCP Server is an MCP server that gives AI agents cryptocurrency wallet capabilities via FROST threshold
+    signing and x402 paid APIs.
+  why_it_matters: >-
+    It enables AI agents to autonomously send and receive cryptocurrency payments within spending guardrails, extending
+    their ability to interact with paid APIs and other agents.
+  mental_damage: >-
+    Now your AI agent can independently blow your crypto budget on paid speech-to-text APIs while you frantically check
+    approval notifications.
   tags:
     - mcp
     - crypto
@@ -62,32 +74,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server exposing financial capabilities (wallet, payments, API access) over the Model Context Protocol, making MCP its core purpose rather than a side feature.
+  reason: >-
+    The product's primary identity is an MCP server exposing financial capabilities (wallet, payments, API access) over
+    the Model Context Protocol, making MCP its core purpose rather than a side feature.
   evidence:
-    - "Repo description: 'MCP server for Botwallet — Give any AI agent a wallet via Model Context Protocol'"
-    - "README emphasizes MCP integration: 'Add one JSON block to your MCP client config. That's it.' and provides config examples for Claude Desktop, Cursor, Windsurf, and Cline"
-    - The tool's value is specifically as an MCP server that enables financial transactions for AI agents, not as a coding agent or general-purpose extension
+    - 'Repo description: ''MCP server for Botwallet — Give any AI agent a wallet via Model Context Protocol'''
+    - >-
+      README emphasizes MCP integration: 'Add one JSON block to your MCP client config. That's it.' and provides config
+      examples for Claude Desktop, Cursor, Windsurf, and Cline
+    - >-
+      The tool's value is specifically as an MCP server that enables financial transactions for AI agents, not as a
+      coding agent or general-purpose extension
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Finance, Crypto & DeFi
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:02.430Z"
+    updated_at: '2026-09-24T04:13:02.430Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:57:50.076Z"
+    updated_at: '2026-09-28T04:57:50.076Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -100,14 +118,22 @@ processing:
       input_hash: sha256:29c6eccd0ffc78218f8f6fc76faf10185de7a0e7a549394293cb6f61248871ed
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's primary identity is an MCP server exposing financial capabilities (wallet, payments, API access) over the Model Context Protocol, making MCP its core purpose rather than a side feature.
+      decision_reason: >-
+        The product's primary identity is an MCP server exposing financial capabilities (wallet, payments, API access)
+        over the Model Context Protocol, making MCP its core purpose rather than a side feature.
       decision_evidence:
-        - "Repo description: 'MCP server for Botwallet — Give any AI agent a wallet via Model Context Protocol'"
-        - "README emphasizes MCP integration: 'Add one JSON block to your MCP client config. That's it.' and provides config examples for Claude Desktop, Cursor, Windsurf, and Cline"
-        - The tool's value is specifically as an MCP server that enables financial transactions for AI agents, not as a coding agent or general-purpose extension
+        - 'Repo description: ''MCP server for Botwallet — Give any AI agent a wallet via Model Context Protocol'''
+        - >-
+          README emphasizes MCP integration: 'Add one JSON block to your MCP client config. That's it.' and provides
+          config examples for Claude Desktop, Cursor, Windsurf, and Cline
+        - >-
+          The tool's value is specifically as an MCP server that enables financial transactions for AI agents, not as a
+          coding agent or general-purpose extension
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server whose identity is providing MCP infrastructure for financial capabilities, not an extension that augments another agent's workflow.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product is an MCP server whose identity is providing MCP
+        infrastructure for financial capabilities, not an extension that augments another agent's workflow.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arbengine__mailbox-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: arbengine/mailbox-mcp
         extracted_url: https://github.com/arbengine/mailbox-mcp
-        surrounding_text: "- [arbengine/mailbox-mcp](https://github.com/arbengine/mailbox-mcp) [![arbengine/mailbox-mcp MCP server](https://glama.ai/mcp/servers/arbengine/mailbox-mcp/badges/score.svg)](https://glama.ai/mcp/servers/arbengine/mailbox-mcp) 📇 ☁️ - Physical mail API for AI agents. Send letters, certified mail, postcards, and batch mailings with cost previews, approval controls, tracking, and webhooks."
+        surrounding_text: >-
+          - [arbengine/mailbox-mcp](https://github.com/arbengine/mailbox-mcp) [![arbengine/mailbox-mcp MCP
+          server](https://glama.ai/mcp/servers/arbengine/mailbox-mcp/badges/score.svg)](https://glama.ai/mcp/servers/arbengine/mailbox-mcp)
+          📇 ☁️ - Physical mail API for AI agents. Send letters, certified mail, postcards, and batch mailings with cost
+          previews, approval controls, tracking, and webhooks.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: arbengine/mailbox-mcp
     html_url: https://github.com/arbengine/mailbox-mcp
-    created_at: "2026-05-04T23:45:22Z"
-    pushed_at: "2026-07-08T02:11:23Z"
+    created_at: '2026-05-04T23:45:22Z'
+    pushed_at: '2026-07-08T02:11:23Z'
     description: Official MCP server for mailbox.bot — physical postal mail API for AI agents.
     homepage: https://mailbox.bot
     topics:
@@ -42,13 +46,17 @@ metadata:
       - mcp
       - model-context-protocol
       - usps
-    last_checked_at: "2026-09-21T04:13:45.548Z"
+    last_checked_at: '2026-09-21T04:13:45.548Z'
     readme:
-      fetched_at: "2026-09-21T04:13:45.548Z"
+      fetched_at: '2026-09-21T04:13:45.548Z'
       bytes: 4273
 insights:
-  summary: An MCP server that enables AI agents to send physical postal mail and ingest inbound document scans via the mailbox.bot API.
-  why_it_matters: It provides a bridge for autonomous agents to interact with the physical world through services like certified mail and document retrieval.
+  summary: >-
+    An MCP server that enables AI agents to send physical postal mail and ingest inbound document scans via the
+    mailbox.bot API.
+  why_it_matters: >-
+    It provides a bridge for autonomous agents to interact with the physical world through services like certified mail
+    and document retrieval.
   mental_damage: We have officially reached the point where your LLM needs to handle its own certified mail and physical tax notices.
   tags:
     - mcp
@@ -59,31 +67,35 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The repository is a dedicated MCP server designed to expose specific domain capabilities (physical mail) via the Model Context Protocol.
+  reason: >-
+    The repository is a dedicated MCP server designed to expose specific domain capabilities (physical mail) via the
+    Model Context Protocol.
   evidence:
     - Repo description identifies it as the 'Official MCP server for mailbox.bot'
-    - README specifies it provides tools for sending letters, certified mail, and retrieving inbound document context via MCP
+    - >-
+      README specifies it provides tools for sending letters, certified mail, and retrieving inbound document context
+      via MCP
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Communication, Files & Productivity
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.455Z"
+    updated_at: '2026-06-22T05:53:30.455Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:45.548Z"
+    updated_at: '2026-09-21T04:13:45.548Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:18:19.531Z"
+    updated_at: '2026-09-24T04:18:19.531Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -96,13 +108,19 @@ processing:
       input_hash: sha256:56a5fe01e2ee0657f8bb10d9cb33f63daad0dcf0e321d3daff4be5afc2524ef5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The repository is a dedicated MCP server designed to expose specific domain capabilities (physical mail) via the Model Context Protocol.
+      decision_reason: >-
+        The repository is a dedicated MCP server designed to expose specific domain capabilities (physical mail) via the
+        Model Context Protocol.
       decision_evidence:
         - Repo description identifies it as the 'Official MCP server for mailbox.bot'
-        - README specifies it provides tools for sending letters, certified mail, and retrieving inbound document context via MCP
+        - >-
+          README specifies it provides tools for sending letters, certified mail, and retrieving inbound document
+          context via MCP
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product's primary identity is the MCP server implementation itself, rather than a plugin for a specific coding assistant.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product's primary identity is the MCP server implementation
+        itself, rather than a plugin for a specific coding assistant.
       review_reason: null
       review_resume_lifecycle: null

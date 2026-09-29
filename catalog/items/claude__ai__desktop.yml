@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__claude__ai__desktop__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Claude Desktop
         extracted_url: https://claude.ai/desktop
-        surrounding_text: "- **[Claude Desktop](https://claude.ai/desktop)** – Anthropic's desktop app for development tasks, code analysis, and programming assistance."
+        surrounding_text: >-
+          - **[Claude Desktop](https://claude.ai/desktop)** – Anthropic's desktop app for development tasks, code
+          analysis, and programming assistance.
         confidence: high
 metadata:
   github:
@@ -46,21 +48,23 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Claude Desktop is a client interface for a model provider, not a developer tool that performs coding tasks, builds apps, or extends agents.
+  reason: >-
+    Claude Desktop is a client interface for a model provider, not a developer tool that performs coding tasks, builds
+    apps, or extends agents.
   evidence:
-    - "URL: https://claude.ai/desktop — official Claude AI desktop client"
-    - "Source-list context: listed in awesome-ai-coding-tools under 'Code Editors and Assistants'"
+    - 'URL: https://claude.ai/desktop — official Claude AI desktop client'
+    - 'Source-list context: listed in awesome-ai-coding-tools under ''Code Editors and Assistants'''
     - No evidence of autonomous coding, app generation, or agent extension capabilities
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:53:22.933Z"
+    updated_at: '2026-09-28T04:53:22.933Z'
     cause: null
     attempts: 5
     prompt_version: catalog-categorize-v5-single-template
@@ -82,10 +86,12 @@ processing:
       input_hash: sha256:b08740be8ea05d5e8596fa682d22827612a139281aa143f4c6c73bdd7d38bc37
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Claude Desktop is a client interface for a model provider, not a developer tool that performs coding tasks, builds apps, or extends agents.
+      decision_reason: >-
+        Claude Desktop is a client interface for a model provider, not a developer tool that performs coding tasks,
+        builds apps, or extends agents.
       decision_evidence:
-        - "URL: https://claude.ai/desktop — official Claude AI desktop client"
-        - "Source-list context: listed in awesome-ai-coding-tools under 'Code Editors and Assistants'"
+        - 'URL: https://claude.ai/desktop — official Claude AI desktop client'
+        - 'Source-list context: listed in awesome-ai-coding-tools under ''Code Editors and Assistants'''
         - No evidence of autonomous coding, app generation, or agent extension capabilities
       category_candidates: []
       contrastive_reason: null

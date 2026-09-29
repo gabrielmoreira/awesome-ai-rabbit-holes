@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cammac-creator__ibanforge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: cammac-creator/ibanforge-mcp
         extracted_url: https://github.com/cammac-creator/ibanforge
-        surrounding_text: "- [cammac-creator/ibanforge-mcp](https://github.com/cammac-creator/ibanforge) [![cammac-creator/ibanforge MCP server](https://glama.ai/mcp/servers/cammac-creator/ibanforge/badges/score.svg)](https://glama.ai/mcp/servers/cammac-creator/ibanforge) 🎖️ 📇 ☁️ - Pre-payout counterparty screening for AI agents: IBAN validation + OFAC/EU/UN sanctions screening + Swiss BC-Nummer clearing + SEPA/VoP reachability + risk score. MCP-native (stdio via `npx -y ibanforge-mcp` or Streamable HTTP at `api.ibanforge.com/mcp`). Free tier 200 req/month, pay-per-call USDC (x402) beyond."
+        surrounding_text: >-
+          - [cammac-creator/ibanforge-mcp](https://github.com/cammac-creator/ibanforge) [![cammac-creator/ibanforge MCP
+          server](https://glama.ai/mcp/servers/cammac-creator/ibanforge/badges/score.svg)](https://glama.ai/mcp/servers/cammac-creator/ibanforge)
+          🎖️ 📇 ☁️ - Pre-payout counterparty screening for AI agents: IBAN validation + OFAC/EU/UN sanctions screening
+          + Swiss BC-Nummer clearing + SEPA/VoP reachability + risk score. MCP-native (stdio via `npx -y ibanforge-mcp`
+          or Streamable HTTP at `api.ibanforge.com/mcp`). Free tier 200 req/month, pay-per-call USDC (x402) beyond.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: cammac-creator/ibanforge
     html_url: https://github.com/cammac-creator/ibanforge
-    created_at: "2026-04-01T18:01:37Z"
-    pushed_at: "2026-09-23T11:42:32Z"
-    description: IBANforge — IBAN validation, BIC/SWIFT lookup, Swiss clearing, and EMI/vIBAN classification API with MCP for AI agents
+    created_at: '2026-04-01T18:01:37Z'
+    pushed_at: '2026-09-23T11:42:32Z'
+    description: >-
+      IBANforge — IBAN validation, BIC/SWIFT lookup, Swiss clearing, and EMI/vIBAN classification API with MCP for AI
+      agents
     homepage: https://ibanforge.com
     topics:
       - ai-agents
@@ -55,14 +62,18 @@ metadata:
       - validation
       - viban
       - x402
-    last_checked_at: "2026-09-24T04:13:06.718Z"
+    last_checked_at: '2026-09-24T04:13:06.718Z'
     readme:
-      fetched_at: "2026-09-24T04:13:06.718Z"
+      fetched_at: '2026-09-24T04:13:06.718Z'
       bytes: 14353
 insights:
   summary: A fintech API for IBAN validation, BIC/SWIFT lookup, and Swiss clearing, provided natively via MCP and SDKs.
-  why_it_matters: It allows AI agents to perform complex financial compliance and banking lookups without requiring manual API key management or complex integration workflows.
-  mental_damage: Now you can let your LLM execute SEPA payments through x402 micropayments before you've even realized you've lost control of your bank account.
+  why_it_matters: >-
+    It allows AI agents to perform complex financial compliance and banking lookups without requiring manual API key
+    management or complex integration workflows.
+  mental_damage: >-
+    Now you can let your LLM execute SEPA payments through x402 micropayments before you've even realized you've lost
+    control of your bank account.
   tags:
     - mcp-server
     - fintech
@@ -72,7 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is centered on providing specialized financial domain data as an MCP server to augment LLM capabilities.
+  reason: >-
+    The product's identity is centered on providing specialized financial domain data as an MCP server to augment LLM
+    capabilities.
   evidence:
     - README explicitly promotes 'one-click' installation for MCP-enabled tools like Claude Desktop and Cursor
     - Offers a dedicated MCP server via npx
@@ -82,22 +95,22 @@ placement:
   secondary_categories: []
   section: Finance, Crypto & DeFi
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:06.718Z"
+    updated_at: '2026-09-24T04:13:06.718Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
+    updated_at: '2026-09-21T04:14:01.561Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

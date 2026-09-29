@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ai-study-han__zero-chatgpt__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -29,19 +29,25 @@ metadata:
     archived: false
     full_name: AI-Study-Han/Zero-Chatgpt
     html_url: https://github.com/AI-Study-Han/Zero-Chatgpt
-    created_at: "2024-08-13T02:27:10Z"
-    pushed_at: "2024-09-05T02:42:51Z"
+    created_at: '2024-08-13T02:27:10Z'
+    pushed_at: '2024-09-05T02:42:51Z'
     description: 从0开始，将chatgpt的技术路线跑一遍。
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:35.382Z"
+    last_checked_at: '2026-09-17T04:13:35.382Z'
     readme:
-      fetched_at: "2026-09-17T04:13:35.382Z"
+      fetched_at: '2026-09-17T04:13:35.382Z'
       bytes: 7417
 insights:
-  summary: An educational implementation of the full ChatGPT training pipeline, from data collection and preprocessing to pre-training, instruction fine-tuning, and RLHF.
-  why_it_matters: It provides a complete, end-to-end walkthrough of the model training lifecycle, which is essential for engineers moving from using APIs to understanding model architecture and training mechanics.
-  mental_damage: Because knowing exactly how the magic is made makes it much harder to pretend the hallucinations aren't part of the training process.
+  summary: >-
+    An educational implementation of the full ChatGPT training pipeline, from data collection and preprocessing to
+    pre-training, instruction fine-tuning, and RLHF.
+  why_it_matters: >-
+    It provides a complete, end-to-end walkthrough of the model training lifecycle, which is essential for engineers
+    moving from using APIs to understanding model architecture and training mechanics.
+  mental_damage: >-
+    Because knowing exactly how the magic is made makes it much harder to pretend the hallucinations aren't part of the
+    training process.
   tags:
     - llm-training
     - educational
@@ -51,31 +57,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational tutorial/implementation guide rather than a practical tool, framework, or developer-facing product.
+  reason: >-
+    This is an educational tutorial/implementation guide rather than a practical tool, framework, or developer-facing
+    product.
   evidence:
     - Repo description translates to 'Running through the ChatGPT technical route from zero'
-    - README describes a step-by-step process (data cleaning -> pretraining -> SFT -> RLHF) rather than a usable library or CLI
+    - >-
+      README describes a step-by-step process (data cleaning -> pretraining -> SFT -> RLHF) rather than a usable library
+      or CLI
     - Project purpose is to 'run through the code and flow' to verify technical routes
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (280) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:35.382Z"
+    updated_at: '2026-09-17T04:13:35.382Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.163Z"
+    updated_at: '2026-09-28T04:14:00.163Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -90,10 +100,14 @@ processing:
       input_hash: sha256:988be69e6840bde4012208b06ddf9a06266da110c14d95404691c844662cd982
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational tutorial/implementation guide rather than a practical tool, framework, or developer-facing product.
+      decision_reason: >-
+        This is an educational tutorial/implementation guide rather than a practical tool, framework, or
+        developer-facing product.
       decision_evidence:
         - Repo description translates to 'Running through the ChatGPT technical route from zero'
-        - README describes a step-by-step process (data cleaning -> pretraining -> SFT -> RLHF) rather than a usable library or CLI
+        - >-
+          README describes a step-by-step process (data cleaning -> pretraining -> SFT -> RLHF) rather than a usable
+          library or CLI
         - Project purpose is to 'run through the code and flow' to verify technical routes
       category_candidates: []
       contrastive_reason: null

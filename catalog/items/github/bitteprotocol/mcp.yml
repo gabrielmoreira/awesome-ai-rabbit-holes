@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bitteprotocol__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: bitteprotocol/mcp
         extracted_url: https://github.com/bitteprotocol/mcp
-        surrounding_text: "- [bitteprotocol/mcp](https://github.com/BitteProtocol/mcp) 📇 - Bitte Protocol integration to run AI Agents on several blockchains."
+        surrounding_text: >-
+          - [bitteprotocol/mcp](https://github.com/BitteProtocol/mcp) 📇 - Bitte Protocol integration to run AI Agents
+          on several blockchains.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,21 @@ metadata:
     archived: false
     full_name: BitteProtocol/mcp
     html_url: https://github.com/BitteProtocol/mcp
-    created_at: "2025-03-17T14:51:20Z"
-    pushed_at: "2025-04-09T14:42:28Z"
+    created_at: '2025-03-17T14:51:20Z'
+    pushed_at: '2025-04-09T14:42:28Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-24T04:13:00.007Z"
+    last_checked_at: '2026-09-24T04:13:00.007Z'
     readme:
-      fetched_at: "2026-09-24T04:13:00.007Z"
+      fetched_at: '2026-09-24T04:13:00.007Z'
       bytes: 1240
 insights:
   summary: This is a monorepo containing MCP (Model Control Protocol) servers for Bitte AI integrations.
   why_it_matters: It provides ready-to-use MCP servers that let AI agents access Bitte AI services through a standardized protocol.
-  mental_damage: Another day, another protocol wrapper promising seamless AI-tool interoperability while we all just want our agents to stop hallucinating API keys.
+  mental_damage: >-
+    Another day, another protocol wrapper promising seamless AI-tool interoperability while we all just want our agents
+    to stop hallucinating API keys.
   tags:
     - mcp
     - protocol
@@ -50,7 +54,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project's core identity is providing MCP servers as infrastructure for the Model Control Protocol, making MCP its primary product rather than a side feature.
+  reason: >-
+    The project's core identity is providing MCP servers as infrastructure for the Model Control Protocol, making MCP
+    its primary product rather than a side feature.
   evidence:
     - README describes it as 'MCP (Model Control Protocol) servers for different services'
     - Provides configuration examples for adding MCP servers to Cursor settings
@@ -60,22 +66,22 @@ placement:
   secondary_categories: []
   section: Dev & Code Tools
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:00.007Z"
+    updated_at: '2026-09-24T04:13:00.007Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:56:41.021Z"
+    updated_at: '2026-09-28T04:56:41.021Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +94,9 @@ processing:
       input_hash: sha256:6a9d74ac3cc7f7387683472bd71536bec99b8f0b085b09f96b1e08763cac0f84
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's core identity is providing MCP servers as infrastructure for the Model Control Protocol, making MCP its primary product rather than a side feature.
+      decision_reason: >-
+        The project's core identity is providing MCP servers as infrastructure for the Model Control Protocol, making
+        MCP its primary product rather than a side feature.
       decision_evidence:
         - README describes it as 'MCP (Model Control Protocol) servers for different services'
         - Provides configuration examples for adding MCP servers to Cursor settings
@@ -96,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product's primary identity is MCP server infrastructure, not augmenting a host coding agent or editor.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product's primary identity is MCP server infrastructure, not
+        augmenting a host coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null

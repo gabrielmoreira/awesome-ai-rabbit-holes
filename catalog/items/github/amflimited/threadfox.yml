@@ -1,0 +1,82 @@
+id: github__amflimited__threadfox
+kind: github-repo
+name: amflimited/threadfox
+canonical_url: https://github.com/amflimited/threadfox
+identity:
+  github_repo: amflimited/threadfox
+provenance:
+  discoveries:
+    - id: discovery__github__amflimited__threadfox__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 🎯 Marketing
+        anchor_text: amflimited/threadfox
+        extracted_url: https://github.com/amflimited/threadfox
+        surrounding_text: >-
+          -   **[amflimited/threadfox](https://github.com/amflimited/threadfox)** [![GitHub
+          stars](https://img.shields.io/github/stars/amflimited/threadfox?style=social)](https://github.com/amflimited/threadfox):
+          Paid Reddit MCP server and skill for Claude Code and Codex that reads community rules, searches, posts and
+          replies through your own logged-in Chrome, with a local ledger that blocks double posts and rechecks posts for
+          removal.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    amflimited/threadfox : Paid Reddit MCP server and skill for Claude Code and Codex that reads community rules,
+    searches, posts and replies through your own logged-in Chrome, with a local ledger that blocks double posts and
+    rechecks posts for removal.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
+  evidence:
+    - jev-latest choice confidence 0.68
+placement:
+  primary_category: mcp
+  secondary_categories: []
+  section: Browser & Web Automation
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.448Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: '2026-09-29T13:12:38.742Z'
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for amflimited/threadfox
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

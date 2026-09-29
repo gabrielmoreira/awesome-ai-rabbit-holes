@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aleksey-panf__b2b-enrichment-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: Aleksey-Panf/b2b-enrichment-mcp
         extracted_url: https://github.com/aleksey-panf/b2b-enrichment-mcp
-        surrounding_text: "- [Aleksey-Panf/b2b-enrichment-mcp](https://github.com/Aleksey-Panf/b2b-enrichment-mcp) [![Aleksey-Panf/b2b-enrichment-mcp MCP server](https://glama.ai/mcp/servers/Aleksey-Panf/b2b-enrichment-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Aleksey-Panf/b2b-enrichment-mcp) 🐍 ☁️ - B2B lead enrichment server integrating Hunter.io and Apollo APIs. 9 tools for email discovery, domain search, company data, and contact verification."
+        surrounding_text: >-
+          - [Aleksey-Panf/b2b-enrichment-mcp](https://github.com/Aleksey-Panf/b2b-enrichment-mcp)
+          [![Aleksey-Panf/b2b-enrichment-mcp MCP
+          server](https://glama.ai/mcp/servers/Aleksey-Panf/b2b-enrichment-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Aleksey-Panf/b2b-enrichment-mcp)
+          🐍 ☁️ - B2B lead enrichment server integrating Hunter.io and Apollo APIs. 9 tools for email discovery, domain
+          search, company data, and contact verification.
         confidence: high
 metadata:
   github:
@@ -30,10 +35,10 @@ metadata:
     archived: false
     full_name: Aleksey-Panf/b2b-enrichment-mcp
     html_url: https://github.com/Aleksey-Panf/b2b-enrichment-mcp
-    created_at: "2026-06-18T20:15:45Z"
-    pushed_at: "2026-07-07T08:21:38Z"
+    created_at: '2026-06-18T20:15:45Z'
+    pushed_at: '2026-07-07T08:21:38Z'
     description: Unified MCP server combining Hunter.io and Apollo for B2B lead enrichment
-    homepage: ""
+    homepage: ''
     topics:
       - ai-agents
       - apollo-ios
@@ -45,14 +50,20 @@ metadata:
       - mcp
       - model-context-protocol
       - python3
-    last_checked_at: "2026-09-17T04:13:38.548Z"
+    last_checked_at: '2026-09-17T04:13:38.548Z'
     readme:
-      fetched_at: "2026-09-17T04:13:38.548Z"
+      fetched_at: '2026-09-17T04:13:38.548Z'
       bytes: 4931
 insights:
-  summary: An MCP server that integrates Hunter.io and Apollo.io to provide B2B email and company intelligence to AI assistants.
-  why_it_matters: It enables automated B2B lead enrichment and firmographic data retrieval directly within Claude and Cursor workflows.
-  mental_damage: Because your AI assistant definitely needs to know the exact headcount of a random SaaS startup while you're debugging a race condition.
+  summary: >-
+    An MCP server that integrates Hunter.io and Apollo.io to provide B2B email and company intelligence to AI
+    assistants.
+  why_it_matters: >-
+    It enables automated B2B lead enrichment and firmographic data retrieval directly within Claude and Cursor
+    workflows.
+  mental_damage: >-
+    Because your AI assistant definitely needs to know the exact headcount of a random SaaS startup while you're
+    debugging a race condition.
   tags:
     - mcp
     - b2b
@@ -71,22 +82,22 @@ placement:
   primary_category: mcp
   section: Cloud & API Integration
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:38.548Z"
+    updated_at: '2026-09-17T04:13:38.548Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:26:44.293Z"
+    updated_at: '2026-09-24T04:26:44.293Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -99,7 +110,9 @@ processing:
       input_hash: sha256:1e6c670d55c5ba159d8fe09c9b0f956d3625ca498b4b1d4a85b305a47aebd342
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's primary identity is an MCP server providing specialized B2B data tools via the Model Context Protocol.
+      decision_reason: >-
+        The project's primary identity is an MCP server providing specialized B2B data tools via the Model Context
+        Protocol.
       decision_evidence:
         - Repo description explicitly identifies it as a 'Unified MCP server'
         - Provides specific tool definitions for Hunter.io and Apollo.io capabilities
@@ -107,6 +120,8 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product's core identity is an MCP server providing tools via a standardized protocol rather than a host-specific extension.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product's core identity is an MCP server providing tools via a
+        standardized protocol rather than a host-specific extension.
       review_reason: null
       review_resume_lifecycle: null

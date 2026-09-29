@@ -1,0 +1,77 @@
+id: github__justhalfbit__dsh-plugin-jev-effort-selector
+kind: github-repo
+name: justhalfbit/dsh-plugin-jev-effort-selector
+canonical_url: https://github.com/justhalfbit/dsh-plugin-jev-effort-selector
+identity:
+  github_repo: justhalfbit/dsh-plugin-jev-effort-selector
+provenance:
+  discoveries:
+    - id: discovery__github__justhalfbit__dsh-plugin-jev-effort-selector__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: dsh-plugin-jev-effort-selector
+        extracted_url: https://github.com/justhalfbit/dsh-plugin-jev-effort-selector
+        surrounding_text: >-
+          - [dsh-plugin-jev-effort-selector](https://github.com/justhalfbit/dsh-plugin-jev-effort-selector) - DeepSeek
+          Harness (DSH) 推理等级自动选择插件：由 Jev System One
+          模型判断每条消息值多少思考量，按模型声明的等级自动推导档位，上下文信封让「继续」这类追问继承话题深度，低置信度向上取，任何失败都静默沿用原等级。 | Jev-driven reasoning effort per
+          message: per-model ladders derived from what each model advertises, a fixed-size context envelope so
+          follow-ups inherit topic depth, ties break upward, silent fallback on every failure path.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    dsh-plugin-jev-effort-selector - DeepSeek Harness (DSH) 推理等级自动选择插件：由 Jev System One
+    模型判断每条消息值多少思考量，按模型声明的等级自动推导档位，上下文信封让「继续」这类追问继承话题深度，低置信度向上取，任何失败都静默沿用原等级。
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.91
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.463Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

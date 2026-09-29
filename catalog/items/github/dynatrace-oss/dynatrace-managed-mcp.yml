@@ -1,0 +1,85 @@
+id: github__dynatrace-oss__dynatrace-managed-mcp
+kind: github-repo
+name: dynatrace-oss/dynatrace-managed-mcp
+canonical_url: https://github.com/dynatrace-oss/dynatrace-managed-mcp
+identity:
+  github_repo: dynatrace-oss/dynatrace-managed-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__dynatrace-oss__dynatrace-managed-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: dynatrace-oss/dynatrace-managed-mcp
+        extracted_url: https://github.com/dynatrace-oss/dynatrace-managed-mcp
+        surrounding_text: >-
+          - [dynatrace-oss/dynatrace-managed-mcp](https://github.com/dynatrace-oss/dynatrace-managed-mcp)
+          [![dynatrace-managed-mcp MCP
+          server](https://glama.ai/mcp/servers/dynatrace-oss/dynatrace-managed-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dynatrace-oss/dynatrace-managed-mcp)
+          🎖️ 📇 🏠 ☁️ 🍎 🪟 🐧 - Query problems, logs, events, SLOs, security insights and performance metrics from
+          self-hosted Dynatrace Managed environments.
+        confidence: high
+metadata:
+  github:
+    stars: 32
+    forks: 12
+    license: Apache-2.0
+    archived: false
+    full_name: dynatrace-oss/dynatrace-managed-mcp
+    html_url: https://github.com/dynatrace-oss/dynatrace-managed-mcp
+    created_at: '2025-10-27T12:39:45Z'
+    pushed_at: '2026-09-29T07:02:40Z'
+    description: An MCP server for self-hosted Dynatrace Managed platform
+    homepage: ''
+    topics:
+      - dynatrace
+      - managed
+      - mcp
+      - mcp-server
+      - monitoring
+      - observability
+    last_checked_at: '2026-09-29T13:10:51.904Z'
+    readme:
+      fetched_at: '2026-09-29T13:10:51.904Z'
+      bytes: 20425
+insights:
+  summary: An MCP server for self-hosted Dynatrace Managed platform
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
+  evidence:
+    - jev-latest choice confidence 0.71
+placement:
+  primary_category: mcp
+  secondary_categories: []
+  section: Cloud & API Integration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.455Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:10:51.904Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

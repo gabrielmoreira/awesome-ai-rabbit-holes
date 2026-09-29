@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__delta-io__delta__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Data Management
         anchor_text: Delta-Lake
         extracted_url: https://github.com/delta-io/delta
-        surrounding_text: "| [Delta-Lake](https://github.com/delta-io/delta)     | Storage layer that brings scalable, ACID transactions to Apache Spark and other engines.                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/delta-io/delta.svg?style=flat-square)      |"
+        surrounding_text: >-
+          | [Delta-Lake](https://github.com/delta-io/delta)     | Storage layer that brings scalable, ACID transactions
+          to Apache Spark and other engines.                                                                        |
+          ![GitHub Badge](https://img.shields.io/github/stars/delta-io/delta.svg?style=flat-square)      |
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: delta-io/delta
     html_url: https://github.com/delta-io/delta
-    created_at: "2019-04-22T18:56:51Z"
-    pushed_at: "2026-09-11T23:12:41Z"
-    description: An open-source storage framework that enables building a Lakehouse architecture with compute engines including Spark, PrestoDB, Flink, Trino, and Hive and APIs
+    created_at: '2019-04-22T18:56:51Z'
+    pushed_at: '2026-09-11T23:12:41Z'
+    description: >-
+      An open-source storage framework that enables building a Lakehouse architecture with compute engines including
+      Spark, PrestoDB, Flink, Trino, and Hive and APIs
     homepage: https://delta.io
     topics:
       - acid
@@ -40,13 +45,17 @@ metadata:
       - big-data
       - delta-lake
       - spark
-    last_checked_at: "2026-09-14T04:13:38.835Z"
+    last_checked_at: '2026-09-14T04:13:38.835Z'
     readme:
-      fetched_at: "2026-09-14T04:13:38.835Z"
+      fetched_at: '2026-09-14T04:13:38.835Z'
       bytes: 11352
 insights:
-  summary: An open-source storage framework for building Lakehouse architectures with compute engines like Spark, Flink, and Trino.
-  why_it_matters: Enables ACID transactions and scalable data management for big data workflows, which is foundational for reliable AI/ML pipelines.
+  summary: >-
+    An open-source storage framework for building Lakehouse architectures with compute engines like Spark, Flink, and
+    Trino.
+  why_it_matters: >-
+    Enables ACID transactions and scalable data management for big data workflows, which is foundational for reliable
+    AI/ML pipelines.
   mental_damage: Because nothing says 'modern data stack' like debating Delta Lake vs. Iceberg at 2 AM.
   tags:
     - lakehouse
@@ -57,7 +66,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a data infrastructure/storage framework (Lakehouse) rather than a developer-facing AI tool, agent, or workflow product.
+  reason: >-
+    This is a data infrastructure/storage framework (Lakehouse) rather than a developer-facing AI tool, agent, or
+    workflow product.
   evidence:
     - Repo description explicitly identifies it as a storage framework for Lakehouse architectures
     - README focuses on compute engine integrations (Spark, Flink, Trino) and API documentation
@@ -66,22 +77,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (8771) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:38.835Z"
+    updated_at: '2026-09-14T04:13:38.835Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -96,7 +107,9 @@ processing:
       input_hash: sha256:04efb7e3174ed2fbaa4f2a3eafed92f96db5512fc938f3910c74750052b3738d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a data infrastructure/storage framework (Lakehouse) rather than a developer-facing AI tool, agent, or workflow product.
+      decision_reason: >-
+        This is a data infrastructure/storage framework (Lakehouse) rather than a developer-facing AI tool, agent, or
+        workflow product.
       decision_evidence:
         - Repo description explicitly identifies it as a storage framework for Lakehouse architectures
         - README focuses on compute engine integrations (Spark, Flink, Trino) and API documentation

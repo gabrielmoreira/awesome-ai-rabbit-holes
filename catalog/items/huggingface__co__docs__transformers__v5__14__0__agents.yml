@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__docs__transformers__v5__14__0__agents__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -18,7 +18,9 @@ provenance:
           - Other LLM Frameworks
         anchor_text: Transformers Agents
         extracted_url: https://huggingface.co/docs/transformers/transformers_agents
-        surrounding_text: "- [Transformers Agents](https://huggingface.co/docs/transformers/transformers_agents): Provides a natural language API on top of transformers"
+        surrounding_text: >-
+          - [Transformers Agents](https://huggingface.co/docs/transformers/transformers_agents): Provides a natural
+          language API on top of transformers
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A redirect notice indicating the Agents documentation page for transformers v5.14.0 does not exist and users should go to the main version.
-  why_it_matters: It highlights documentation versioning friction developers face when navigating Hugging Face's moving target API references.
-  mental_damage: Another reminder that in the world of AI tooling, the docs you're reading are already outdated by the time you finish the sentence.
+  summary: >-
+    A redirect notice indicating the Agents documentation page for transformers v5.14.0 does not exist and users should
+    go to the main version.
+  why_it_matters: >-
+    It highlights documentation versioning friction developers face when navigating Hugging Face's moving target API
+    references.
+  mental_damage: >-
+    Another reminder that in the world of AI tooling, the docs you're reading are already outdated by the time you
+    finish the sentence.
   tags:
     - documentation
     - huggingface
@@ -46,7 +54,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is not a tool, agent, or product — it is a broken documentation link with no functional agent behavior, making it outside the catalog's scope.
+  reason: >-
+    This is not a tool, agent, or product — it is a broken documentation link with no functional agent behavior, making
+    it outside the catalog's scope.
   evidence:
     - The page 'AGENTS' does not exist in transformers v5.14.0 and redirects to the main version
     - No repo, stars, or activity signals are provided — this is a documentation notice, not a project
@@ -55,12 +65,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.716Z"
+    updated_at: '2026-07-16T05:04:46.716Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:28:11.926Z"
+    updated_at: '2026-09-24T04:28:11.926Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,7 +92,9 @@ processing:
       input_hash: sha256:e33b67706ec84cc3c0c20b1c9c54b81aa5d787644b41c60a43ff416ade23f569
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is not a tool, agent, or product — it is a broken documentation link with no functional agent behavior, making it outside the catalog's scope.
+      decision_reason: >-
+        This is not a tool, agent, or product — it is a broken documentation link with no functional agent behavior,
+        making it outside the catalog's scope.
       decision_evidence:
         - The page 'AGENTS' does not exist in transformers v5.14.0 and redirects to the main version
         - No repo, stars, or activity signals are provided — this is a documentation notice, not a project

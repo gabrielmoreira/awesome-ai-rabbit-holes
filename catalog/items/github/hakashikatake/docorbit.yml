@@ -1,0 +1,90 @@
+id: github__hakashikatake__docorbit
+kind: github-repo
+name: hakashikatake/docorbit
+canonical_url: https://github.com/hakashikatake/docorbit
+identity:
+  github_repo: hakashikatake/docorbit
+provenance:
+  discoveries:
+    - id: discovery__github__hakashikatake__docorbit__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: HakashiKatake/docorbit
+        extracted_url: https://github.com/hakashikatake/docorbit
+        surrounding_text: >-
+          - [HakashiKatake/docorbit](https://github.com/HakashiKatake/docorbit) [![HakashiKatake/docorbit MCP
+          server](https://glama.ai/mcp/servers/HakashiKatake/docorbit/badges/score.svg)](https://glama.ai/mcp/servers/HakashiKatake/docorbit)
+          📇 🏠 🍎 🪟 🐧 - Version-aware docs for coding agents: finds llms.txt, OpenAPI and skill specs, resolves
+          dependency versions, detects pitfalls and verifies code.
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: HakashiKatake/docorbit
+    html_url: https://github.com/HakashiKatake/docorbit
+    created_at: '2026-09-07T05:59:02Z'
+    pushed_at: '2026-09-13T17:40:47Z'
+    description: >-
+      DocOrbit discovers authoritative documentation, resolves it against your project's dependency versions, retrieves
+      task-specific context, and verifies generated code against documentation contracts.
+    homepage: https://hakashikatake.github.io/docorbit/
+    topics:
+      - agent-documentation
+      - cli
+      - document-processing
+      - documentation
+      - mcp
+      - mcp-server
+      - mcp-tools
+      - open-source
+    last_checked_at: '2026-09-29T13:11:55.776Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:55.776Z'
+      bytes: 30353
+insights:
+  summary: >-
+    DocOrbit discovers authoritative documentation, resolves it against your project's dependency versions, retrieves
+    task-specific context, and verifies generated code against documentation contracts.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Retrieval & Fresh Docs
+  evidence:
+    - jev-latest choice confidence 0.54
+placement:
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.458Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:55.776Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

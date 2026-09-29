@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__avisangle__method-crm-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: avisangle/method-crm-mcp
         extracted_url: https://github.com/avisangle/method-crm-mcp
-        surrounding_text: "- [avisangle/method-crm-mcp](https://github.com/avisangle/method-crm-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Production-ready MCP server for Method CRM API integration with 20 comprehensive tools for tables, files, users, events, and API key management. Features rate limiting, retry logic, and dual transport support (stdio/HTTP)."
+        surrounding_text: >-
+          - [avisangle/method-crm-mcp](https://github.com/avisangle/method-crm-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Production-ready
+          MCP server for Method CRM API integration with 20 comprehensive tools for tables, files, users, events, and
+          API key management. Features rate limiting, retry logic, and dual transport support (stdio/HTTP).
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: avisangle/method-crm-mcp
     html_url: https://github.com/avisangle/method-crm-mcp
-    created_at: "2025-11-22T16:33:19Z"
-    pushed_at: "2025-11-22T16:59:33Z"
-    description: Production-ready Model Context Protocol (MCP) server for Method CRM API integration. Enables LLMs to interact with Method CRM through 20 comprehensive tools.
+    created_at: '2025-11-22T16:33:19Z'
+    pushed_at: '2025-11-22T16:59:33Z'
+    description: >-
+      Production-ready Model Context Protocol (MCP) server for Method CRM API integration. Enables LLMs to interact with
+      Method CRM through 20 comprehensive tools.
     homepage: null
     topics:
       - api-integration
@@ -41,9 +46,9 @@ metadata:
       - method-crm
       - model-context-protocol
       - python
-    last_checked_at: "2026-09-21T04:13:51.993Z"
+    last_checked_at: '2026-09-21T04:13:51.993Z'
     readme:
-      fetched_at: "2026-09-21T04:13:51.993Z"
+      fetched_at: '2026-09-21T04:13:51.993Z'
       bytes: 14493
 insights:
   summary: Production-ready MCP server for integrating Method CRM APIs with LLMs via 20 tools.
@@ -57,7 +62,7 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: a server exposing CRM capabilities via the Model Context Protocol."
+  reason: 'MCP is the product identity: a server exposing CRM capabilities via the Model Context Protocol.'
   evidence:
     - Repo description explicitly states it is a production-ready MCP server for Method CRM
     - README details 20 comprehensive tools for CRM operations with MCP transport support
@@ -67,22 +72,22 @@ placement:
   secondary_categories: []
   section: Cloud & API Integration
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:51.993Z"
+    updated_at: '2026-09-21T04:13:51.993Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -97,7 +102,7 @@ processing:
       input_hash: sha256:15dbc4feb033a6e2d4f23f7226e51ddee54d7f591ec11eb0e32113dfd2e0e04d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: a server exposing CRM capabilities via the Model Context Protocol."
+      decision_reason: 'MCP is the product identity: a server exposing CRM capabilities via the Model Context Protocol.'
       decision_evidence:
         - Repo description explicitly states it is a production-ready MCP server for Method CRM
         - README details 20 comprehensive tools for CRM operations with MCP transport support
@@ -105,6 +110,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

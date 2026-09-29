@@ -1,0 +1,75 @@
+id: github__ickma2311__jev-baselines-eval
+kind: github-repo
+name: ickma2311/jev-baselines-eval
+canonical_url: https://github.com/ickma2311/jev-baselines-eval
+identity:
+  github_repo: ickma2311/jev-baselines-eval
+provenance:
+  discoveries:
+    - id: discovery__github__ickma2311__jev-baselines-eval__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Security & Guardrails
+        anchor_text: '**jev-baselines-eval**'
+        extracted_url: https://github.com/ickma2311/jev-baselines-eval
+        surrounding_text: >-
+          - [**jev-baselines-eval**](https://github.com/ickma2311/jev-baselines-eval) — Every latency number here is
+          \*\*wall-clock duration of one API call\*\* measured in the client: a timestamp before the request, another
+          after the full response body is read (\[\`code/run\_b1.py:32\`\](code/run\_b1.py),
+          \[\`code/common.py:50\`\](code/common.py)). Non-streaming on both sides, so these are completion times, not
+          time-to-first-token.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  evidence:
+    - Jev classification confidence below inclusion threshold
+placement:
+  primary_category: null
+  secondary_categories: []
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.460Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

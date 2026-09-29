@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__brutalzinn__simple-mcp-selenium__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: brutalzinn/simple-mcp-selenium
         extracted_url: https://github.com/brutalzinn/simple-mcp-selenium
-        surrounding_text: "- [brutalzinn/simple-mcp-selenium](https://github.com/brutalzinn/simple-mcp-selenium) 📇 🏠 - An MCP Selenium Server for controlling browsers using natural language in Cursor IDE. Perfect for testing, automation, and multi-user scenarios."
+        surrounding_text: >-
+          - [brutalzinn/simple-mcp-selenium](https://github.com/brutalzinn/simple-mcp-selenium) 📇 🏠 - An MCP Selenium
+          Server for controlling browsers using natural language in Cursor IDE. Perfect for testing, automation, and
+          multi-user scenarios.
         confidence: high
 metadata:
   github:
@@ -30,17 +33,21 @@ metadata:
     archived: false
     full_name: brutalzinn/simple-mcp-selenium
     html_url: https://github.com/brutalzinn/simple-mcp-selenium
-    created_at: "2025-09-10T18:27:58Z"
-    pushed_at: "2025-11-20T01:59:54Z"
+    created_at: '2025-09-10T18:27:58Z'
+    pushed_at: '2025-11-20T01:59:54Z'
     description: This is just a tool to use a chrome driver that exposes a MCP server to be easily to use with Cursor IDE
     homepage: null
     topics: []
-    last_checked_at: "2026-09-24T04:13:03.986Z"
+    last_checked_at: '2026-09-24T04:13:03.986Z'
     readme: null
 insights:
   summary: A minimal MCP server exposing ChromeDriver browser automation capabilities for use with Cursor IDE.
-  why_it_matters: Lets developers drive a real browser through Claude Code or Cursor via the Model Context Protocol without writing custom tooling.
-  mental_damage: Another MCP wrapper for a solved problem, because apparently every dev needs their own ChromeDriver server to feel productive.
+  why_it_matters: >-
+    Lets developers drive a real browser through Claude Code or Cursor via the Model Context Protocol without writing
+    custom tooling.
+  mental_damage: >-
+    Another MCP wrapper for a solved problem, because apparently every dev needs their own ChromeDriver server to feel
+    productive.
   tags:
     - mcp
     - browser-automation
@@ -48,32 +55,36 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is an MCP server whose identity is browser automation, but it is presented as a Cursor IDE extension and lacks standalone value as developer tooling.
+  reason: >-
+    The project is an MCP server whose identity is browser automation, but it is presented as a Cursor IDE extension and
+    lacks standalone value as developer tooling.
   evidence:
-    - "Repo description: 'This is just a tool to use a chrome driver that exposes a MCP server to be easily to use with Cursor IDE'"
-    - "Source-list context: listed in awesome-mcp-servers under Browser Automation"
-    - "Stars: 1, created 2025-09-10, pushed 2025-11-20 — minimal traction and activity"
+    - >-
+      Repo description: 'This is just a tool to use a chrome driver that exposes a MCP server to be easily to use with
+      Cursor IDE'
+    - 'Source-list context: listed in awesome-mcp-servers under Browser Automation'
+    - 'Stars: 1, created 2025-09-10, pushed 2025-11-20 — minimal traction and activity'
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:03.986Z"
+    updated_at: '2026-09-24T04:13:03.986Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:58:49.534Z"
+    updated_at: '2026-09-28T04:58:49.534Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -86,11 +97,15 @@ processing:
       input_hash: sha256:ee978697bcef9a26463fe1970fd0e950cff727edfcf882b69d5be27cb5dcaf19
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is an MCP server whose identity is browser automation, but it is presented as a Cursor IDE extension and lacks standalone value as developer tooling.
+      decision_reason: >-
+        The project is an MCP server whose identity is browser automation, but it is presented as a Cursor IDE extension
+        and lacks standalone value as developer tooling.
       decision_evidence:
-        - "Repo description: 'This is just a tool to use a chrome driver that exposes a MCP server to be easily to use with Cursor IDE'"
-        - "Source-list context: listed in awesome-mcp-servers under Browser Automation"
-        - "Stars: 1, created 2025-09-10, pushed 2025-11-20 — minimal traction and activity"
+        - >-
+          Repo description: 'This is just a tool to use a chrome driver that exposes a MCP server to be easily to use
+          with Cursor IDE'
+        - 'Source-list context: listed in awesome-mcp-servers under Browser Automation'
+        - 'Stars: 1, created 2025-09-10, pushed 2025-11-20 — minimal traction and activity'
       category_candidates: []
       contrastive_reason: null
       review_reason: null

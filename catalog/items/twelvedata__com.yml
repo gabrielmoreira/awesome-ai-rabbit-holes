@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__twelvedata__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Twelve Data
         extracted_url: https://twelvedata.com
-        surrounding_text: "- [twelvedata/mcp](https://github.com/twelvedata/mcp) 🐍 ☁️ - Interact with [Twelve Data](https://twelvedata.com) APIs to access real-time and historical financial market data for your AI agents."
+        surrounding_text: >-
+          - [twelvedata/mcp](https://github.com/twelvedata/mcp) 🐍 ☁️ - Interact with [Twelve
+          Data](https://twelvedata.com) APIs to access real-time and historical financial market data for your AI
+          agents.
         confidence: high
     - id: discovery__twelvedata__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,7 +37,9 @@ provenance:
           - Official Servers
         anchor_text: Twelve Data
         extracted_url: https://twelvedata.com
-        surrounding_text: "- **[Twelve Data](https://github.com/twelvedata/mcp)** - Interact with [Twelve Data](https://twelvedata.com) APIs to access real-time and historical financial market data for your AI agents."
+        surrounding_text: >-
+          - **[Twelve Data](https://github.com/twelvedata/mcp)** - Interact with [Twelve Data](https://twelvedata.com)
+          APIs to access real-time and historical financial market data for your AI agents.
         confidence: high
 metadata:
   github:
@@ -52,9 +57,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Twelve Data provides financial market data APIs for stocks, forex, crypto, and other assets with SDKs and WebSocket access for developers.
-  why_it_matters: It gives developers real-time and historical financial data to integrate into trading apps, fintech tools, or market analysis workflows.
-  mental_damage: Another financial API wrapper promising 'instant access' while developers wrestle with rate limits and WebSocket reconnection logic.
+  summary: >-
+    Twelve Data provides financial market data APIs for stocks, forex, crypto, and other assets with SDKs and WebSocket
+    access for developers.
+  why_it_matters: >-
+    It gives developers real-time and historical financial data to integrate into trading apps, fintech tools, or market
+    analysis workflows.
+  mental_damage: >-
+    Another financial API wrapper promising 'instant access' while developers wrestle with rate limits and WebSocket
+    reconnection logic.
   tags:
     - financial-data
     - api
@@ -64,21 +75,27 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Twelve Data is a provider SDK for financial market data that developers import and use as a library in their applications, making it a classic Frameworks & SDKs fit under provider abstractions.
+  reason: >-
+    Twelve Data is a provider SDK for financial market data that developers import and use as a library in their
+    applications, making it a classic Frameworks & SDKs fit under provider abstractions.
   evidence:
-    - Listed in awesome-mcp-servers under 'Official Servers' with description emphasizing API access to stock, forex, and crypto data
+    - >-
+      Listed in awesome-mcp-servers under 'Official Servers' with description emphasizing API access to stock, forex,
+      and crypto data
     - Scraped site shows SDK examples in Python, Go, C++, C#, Java, R, and JavaScript for time-series data retrieval
-    - Primary identity is providing financial data via APIs and SDKs, not acting as an AI agent, orchestrator, or app builder
+    - >-
+      Primary identity is providing financial data via APIs and SDKs, not acting as an AI agent, orchestrator, or app
+      builder
 placement:
   primary_category: ai-frameworks
   section: Provider & Model Abstractions
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.597Z"
+    updated_at: '2026-05-06T22:12:15.597Z'
     cause: null
     next_retry_at: null
   stars:
@@ -87,7 +104,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:47:44.869Z"
+    updated_at: '2026-09-28T04:47:44.869Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -100,14 +117,22 @@ processing:
       input_hash: sha256:ddccf1fbd65499db624cac993ed59c83b313ae0d7e67c4c7f7f170679451b8a9
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: Twelve Data is a provider SDK for financial market data that developers import and use as a library in their applications, making it a classic Frameworks & SDKs fit under provider abstractions.
+      decision_reason: >-
+        Twelve Data is a provider SDK for financial market data that developers import and use as a library in their
+        applications, making it a classic Frameworks & SDKs fit under provider abstractions.
       decision_evidence:
-        - Listed in awesome-mcp-servers under 'Official Servers' with description emphasizing API access to stock, forex, and crypto data
+        - >-
+          Listed in awesome-mcp-servers under 'Official Servers' with description emphasizing API access to stock,
+          forex, and crypto data
         - Scraped site shows SDK examples in Python, Go, C++, C#, Java, R, and JavaScript for time-series data retrieval
-        - Primary identity is providing financial data via APIs and SDKs, not acting as an AI agent, orchestrator, or app builder
+        - >-
+          Primary identity is providing financial data via APIs and SDKs, not acting as an AI agent, orchestrator, or
+          app builder
       category_candidates:
         - ai-frameworks
         - mcp
-      contrastive_reason: Choose ai-frameworks over mcp because Twelve Data's core identity is a financial data provider SDK, not MCP infrastructure, even though it appears in an MCP server list as a data source.
+      contrastive_reason: >-
+        Choose ai-frameworks over mcp because Twelve Data's core identity is a financial data provider SDK, not MCP
+        infrastructure, even though it appears in an MCP server list as a data source.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cert-manager__cert-manager__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: cert-manager
         extracted_url: https://github.com/cert-manager/cert-manager
-        surrounding_text: "- [pibblokto/cert-manager-mcp-server](https://github.com/pibblokto/cert-manager-mcp-server) 🐍 🍎/🐧 ☁️ - mcp server for [cert-manager](https://github.com/cert-manager/cert-manager) management and troubleshooting"
+        surrounding_text: >-
+          - [pibblokto/cert-manager-mcp-server](https://github.com/pibblokto/cert-manager-mcp-server) 🐍 🍎/🐧 ☁️ - mcp
+          server for [cert-manager](https://github.com/cert-manager/cert-manager) management and troubleshooting
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: cert-manager/cert-manager
     html_url: https://github.com/cert-manager/cert-manager
-    created_at: "2017-05-24T16:25:59Z"
-    pushed_at: "2026-09-07T01:08:56Z"
+    created_at: '2017-05-24T16:25:59Z'
+    pushed_at: '2026-09-07T01:08:56Z'
     description: Automatically provision and manage TLS certificates in Kubernetes
     homepage: https://cert-manager.io
     topics:
@@ -41,14 +43,18 @@ metadata:
       - kubernetes
       - letsencrypt
       - tls
-    last_checked_at: "2026-09-07T04:13:42.900Z"
+    last_checked_at: '2026-09-07T04:13:42.900Z'
     readme:
-      fetched_at: "2026-09-07T04:13:42.900Z"
+      fetched_at: '2026-09-07T04:13:42.900Z'
       bytes: 7020
 insights:
   summary: Automatically provisions and manages TLS certificates in Kubernetes clusters.
-  why_it_matters: Simplifies obtaining, renewing, and maintaining TLS certificates for Kubernetes workloads, reducing operational toil and outage risk.
-  mental_damage: Because nothing says 'modern infrastructure' like spending a week debugging why your Let's Encrypt certs expired at 3 AM.
+  why_it_matters: >-
+    Simplifies obtaining, renewing, and maintaining TLS certificates for Kubernetes workloads, reducing operational toil
+    and outage risk.
+  mental_damage: >-
+    Because nothing says 'modern infrastructure' like spending a week debugging why your Let's Encrypt certs expired at
+    3 AM.
   tags:
     - kubernetes
     - tls
@@ -62,29 +68,31 @@ curation:
   evidence:
     - Repo description explicitly states it is for TLS certificate management in Kubernetes
     - README confirms focus on certificate issuance/renewal, not AI/ML or developer tooling
-    - Source-list context shows it appears in MCP servers list but only as a cloud platform integration, not as an AI tool
+    - >-
+      Source-list context shows it appears in MCP servers list but only as a cloud platform integration, not as an AI
+      tool
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (13793) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-24T04:13:09.293Z"
+    updated_at: '2026-09-24T04:13:09.293Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for cert-manager/cert-manager
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -99,11 +107,15 @@ processing:
       input_hash: sha256:e78cc18408384893c543d4a77b5fc574ddcfbfabc4bbc9212825e033f15607d3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a Kubernetes-native certificate management tool, not an AI/ML or developer-tooling product for AI workflows.
+      decision_reason: >-
+        This is a Kubernetes-native certificate management tool, not an AI/ML or developer-tooling product for AI
+        workflows.
       decision_evidence:
         - Repo description explicitly states it is for TLS certificate management in Kubernetes
         - README confirms focus on certificate issuance/renewal, not AI/ML or developer tooling
-        - Source-list context shows it appears in MCP servers list but only as a cloud platform integration, not as an AI tool
+        - >-
+          Source-list context shows it appears in MCP servers list but only as a cloud platform integration, not as an
+          AI tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

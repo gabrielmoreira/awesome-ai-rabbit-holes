@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kiwi__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,14 @@ provenance:
           - Official Servers
         anchor_text: Kiwi.com
         extracted_url: https://kiwi.com
-        surrounding_text: "- **[Kiwi.com](<[https://www.kiwi.com](https://mcp-install-instructions.alpic.cloud/servers/kiwi-com-flight-search)>)** - Official [Kiwi.com](https://www.kiwi.com) flight search MCP server. Search and book flights directly from your favorite AI assistant."
+        surrounding_text: >-
+          -
+          **[Kiwi.com](<[https://www.kiwi.com](https://mcp-install-instructions.alpic.cloud/servers/kiwi-com-flight-search)>)**
+          - Official [Kiwi.com](https://www.kiwi.com) flight search MCP server. Search and book flights directly from
+          your favorite AI assistant.
         confidence: high
     - id: discovery__www__kiwi__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +37,11 @@ provenance:
           - Official Servers
         anchor_text: Kiwi.com
         extracted_url: https://www.kiwi.com
-        surrounding_text: "- **[Kiwi.com](<[https://www.kiwi.com](https://mcp-install-instructions.alpic.cloud/servers/kiwi-com-flight-search)>)** - Official [Kiwi.com](https://www.kiwi.com) flight search MCP server. Search and book flights directly from your favorite AI assistant."
+        surrounding_text: >-
+          -
+          **[Kiwi.com](<[https://www.kiwi.com](https://mcp-install-instructions.alpic.cloud/servers/kiwi-com-flight-search)>)**
+          - Official [Kiwi.com](https://www.kiwi.com) flight search MCP server. Search and book flights directly from
+          your favorite AI assistant.
         confidence: high
 metadata:
   github:
@@ -52,27 +60,33 @@ metadata:
     readme: null
 insights:
   summary: Kiwi.com is an online travel agency for booking flights, hotels, and car rentals.
-  why_it_matters: It does not provide any developer-facing AI tooling, workflow enhancement, or infrastructure relevant to software development.
+  why_it_matters: >-
+    It does not provide any developer-facing AI tooling, workflow enhancement, or infrastructure relevant to software
+    development.
   mental_damage: Another reminder that not every .com with AI buzz is a dev tool — sometimes it’s just a flight search.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: Kiwi.com is a consumer travel booking site with no AI developer tooling identity, making it out of scope for this catalog.
+  reason: >-
+    Kiwi.com is a consumer travel booking site with no AI developer tooling identity, making it out of scope for this
+    catalog.
   evidence:
     - URL is https://kiwi.com, a consumer travel site
-    - Listed in awesome-mcp-servers as an 'Official Server' but this reflects MCP exposure, not MCP identity as the product's core purpose
+    - >-
+      Listed in awesome-mcp-servers as an 'Official Server' but this reflects MCP exposure, not MCP identity as the
+      product's core purpose
     - No GitHub repo, README, or description provided to indicate any developer-facing AI functionality
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:42:19.165Z"
+    updated_at: '2026-09-28T04:42:19.165Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -85,10 +99,14 @@ processing:
       input_hash: sha256:25b3b1b220a372fb0107859ae24a3ee5c820f000c1be7a571638fcc7f15c158e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Kiwi.com is a consumer travel booking site with no AI developer tooling identity, making it out of scope for this catalog.
+      decision_reason: >-
+        Kiwi.com is a consumer travel booking site with no AI developer tooling identity, making it out of scope for
+        this catalog.
       decision_evidence:
         - URL is https://kiwi.com, a consumer travel site
-        - Listed in awesome-mcp-servers as an 'Official Server' but this reflects MCP exposure, not MCP identity as the product's core purpose
+        - >-
+          Listed in awesome-mcp-servers as an 'Official Server' but this reflects MCP exposure, not MCP identity as the
+          product's core purpose
         - No GitHub repo, README, or description provided to indicate any developer-facing AI functionality
       category_candidates: []
       contrastive_reason: null
@@ -96,7 +114,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause: null
     next_retry_at: null
   stars:

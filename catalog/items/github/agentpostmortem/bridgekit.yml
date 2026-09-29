@@ -1,0 +1,90 @@
+id: github__agentpostmortem__bridgekit
+kind: github-repo
+name: agentpostmortem/bridgekit
+canonical_url: https://github.com/agentpostmortem/bridgekit
+identity:
+  github_repo: agentpostmortem/bridgekit
+provenance:
+  discoveries:
+    - id: discovery__github__agentpostmortem__bridgekit__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 💻 Developer Tools
+        anchor_text: AgentPostmortem/Bridgekit
+        extracted_url: https://github.com/agentpostmortem/bridgekit
+        surrounding_text: >-
+          -   **[AgentPostmortem/Bridgekit](https://github.com/AgentPostmortem/Bridgekit)** [![GitHub
+          stars](https://img.shields.io/github/stars/AgentPostmortem/Bridgekit?style=social)](https://github.com/AgentPostmortem/Bridgekit):
+          Scoped MCP server with per-client permission boundaries and an append-only audit log.
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 6
+    license: MIT
+    archived: false
+    full_name: AgentPostmortem/Bridgekit
+    html_url: https://github.com/AgentPostmortem/Bridgekit
+    created_at: '2026-06-10T06:12:59Z'
+    pushed_at: '2026-09-17T11:24:00Z'
+    description: >-
+      A scoped MCP server exposing company tools (Shopify, Triple Whale, Postgres) to an AI stack with per-client
+      permission boundaries and an append-only audit log. Writes need an explicit scope. Zero runtime dependencies,
+      hand-rolled MCP on Cloudflare Workers.
+    homepage: https://bridgekit.agentpostmortem.com
+    topics:
+      - access-control
+      - ai-agents
+      - audit-log
+      - cloudflare-workers
+      - mcp
+      - model-context-protocol
+      - typescript
+    last_checked_at: '2026-09-29T13:08:35.478Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:35.478Z'
+      bytes: 2411
+insights:
+  summary: >-
+    A scoped MCP server exposing company tools (Shopify, Triple Whale, Postgres) to an AI stack with per-client
+    permission boundaries and an append-only audit log. Writes need an explicit scope. Zero runtime dependencies,
+    hand-rolled MCP on Cloudflare Workers.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
+  evidence:
+    - jev-latest choice confidence 0.43
+placement:
+  primary_category: mcp
+  secondary_categories: []
+  section: Middleware & Generic
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.447Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:35.478Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

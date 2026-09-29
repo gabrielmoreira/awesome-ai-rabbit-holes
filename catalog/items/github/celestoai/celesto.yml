@@ -1,0 +1,102 @@
+id: github__celestoai__celesto
+kind: github-repo
+name: celestoai/celesto
+canonical_url: https://github.com/celestoai/celesto
+identity:
+  github_repo: celestoai/celesto
+provenance:
+  discoveries:
+    - id: discovery__github__celestoai__celesto__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Browser & computer use (75)
+        anchor_text: celesto
+        extracted_url: https://github.com/celestoai/celesto
+        surrounding_text: >-
+          | [celesto](https://github.com/CelestoAI/celesto) | ★ 958 | Python | 2026-09-22 | Agent-computer platform with
+          a runnable pull-request review lab where Jev judges whether findings are introduced, supported, and
+          actionable. |
+        confidence: high
+    - id: discovery__github__celestoai__celesto__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Navigation
+        anchor_text: '**celesto**'
+        extracted_url: https://github.com/celestoai/celesto
+        surrounding_text: >-
+          - [**celesto**](https://github.com/CelestoAI/celesto) — A Celesto PR-review example prepares sandbox checks
+          and compares a general model with Jev on candidate findings.
+        confidence: high
+metadata:
+  github:
+    stars: 989
+    forks: 79
+    license: Apache-2.0
+    archived: false
+    full_name: CelestoAI/celesto
+    html_url: https://github.com/CelestoAI/celesto
+    created_at: '2026-02-15T00:31:08Z'
+    pushed_at: '2026-09-29T11:47:44Z'
+    description: Secure and persistent computer for AI agents
+    homepage: https://celesto.ai/docs
+    topics:
+      - agent-runtime
+      - ai-sandbox
+      - browser-agent
+      - browser-use
+      - computer-use
+      - grokbot
+      - muse
+      - sandbox
+    last_checked_at: '2026-09-29T13:09:44.941Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:44.941Z'
+      bytes: 17305
+insights:
+  summary: Secure and persistent computer for AI agents
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Browser & Computer-Use Agents
+  evidence:
+    - jev-latest choice confidence 0.67
+placement:
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Browser & Computer-Use Agents
+lifecycle:
+  status: curated
+  reason: Stars (989) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.411Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:44.941Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

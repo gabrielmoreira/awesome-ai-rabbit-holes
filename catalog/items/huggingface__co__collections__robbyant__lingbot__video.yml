@@ -5,8 +5,9 @@ canonical_url: https://huggingface.co/collections/robbyant/lingbot-video
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__huggingface__co__collections__robbyant__lingbot__video__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-09T05:28:44.887Z"
+    - id: >-
+        discovery__huggingface__co__collections__robbyant__lingbot__video__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: '2026-07-09T05:28:44.887Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -39,7 +40,9 @@ metadata:
 insights:
   summary: LingBot-Video is a Hugging Face collection of video-related AI models curated by robbyant.
   why_it_matters: It helps developers discover video-generation and video-understanding models in one place.
-  mental_damage: Another model zoo to bookmark and never actually use, because fine-tuning video models requires a datacenter and a grant.
+  mental_damage: >-
+    Another model zoo to bookmark and never actually use, because fine-tuning video models requires a datacenter and a
+    grant.
   tags:
     - video-models
     - huggingface-collection
@@ -47,7 +50,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: LingBot-Video is a curated model collection without developer tooling, workflow integration, or code-level utility, making it a resource directory rather than a developer-facing AI tool.
+  reason: >-
+    LingBot-Video is a curated model collection without developer tooling, workflow integration, or code-level utility,
+    making it a resource directory rather than a developer-facing AI tool.
   evidence:
     - It is a Hugging Face collection listing models like lingbot-video-rewriter-lora and lingbot-video-moe-30b-a3b
     - No README, repo description, or tooling claims are provided — only model listings
@@ -56,12 +61,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-09T05:28:44.888Z"
+    updated_at: '2026-07-09T05:28:44.888Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,10 +75,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:23:35.890Z"
+    updated_at: '2026-09-24T04:23:35.890Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for huggingface__co__collections__robbyant__lingbot__video: Invalid AI response structure: Missing required field: why_it_matters"
+      message: >-
+        Catalog LLM categorization failed for huggingface__co__collections__robbyant__lingbot__video: Invalid AI
+        response structure: Missing required field: why_it_matters
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

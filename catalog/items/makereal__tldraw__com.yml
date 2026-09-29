@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__makereal__tldraw__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - UI Generators
         anchor_text: tldraw Make Real
         extracted_url: https://makereal.tldraw.com
-        surrounding_text: "- **[tldraw Make Real](https://makereal.tldraw.com/)** – Draw UI wireframes on a canvas and convert them to working HTML/CSS with AI."
+        surrounding_text: >-
+          - **[tldraw Make Real](https://makereal.tldraw.com/)** – Draw UI wireframes on a canvas and convert them to
+          working HTML/CSS with AI.
         confidence: high
 metadata:
   github:
@@ -38,7 +40,9 @@ metadata:
 insights:
   summary: A web-based tool that lets users draw UI designs in tldraw and converts them into functional, deployable code.
   why_it_matters: Turns visual sketches into working frontend code, reducing the gap between design and implementation for developers.
-  mental_damage: Finally, a tool that promises to make your crayon wireframes production-ready — because we all needed more ways to feel guilty about our Figma skills.
+  mental_damage: >-
+    Finally, a tool that promises to make your crayon wireframes production-ready — because we all needed more ways to
+    feel guilty about our Figma skills.
   tags:
     - ui-generation
     - design-to-code
@@ -46,22 +50,26 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool’s core function is generating deployable apps from visual prompts (UI drawings), matching the app-builder pattern of prompt-to-artifact without requiring an existing codebase.
+  reason: >-
+    The tool’s core function is generating deployable apps from visual prompts (UI drawings), matching the app-builder
+    pattern of prompt-to-artifact without requiring an existing codebase.
   evidence:
-    - "Scraped site title and description: 'Draw a ui and make it real with tldraw'"
-    - "Source-list context: listed in awesome-ai-coding-tools under 'UI Generators' with the note 'Draw a ui and make it real with tldraw'"
+    - 'Scraped site title and description: ''Draw a ui and make it real with tldraw'''
+    - >-
+      Source-list context: listed in awesome-ai-coding-tools under 'UI Generators' with the note 'Draw a ui and make it
+      real with tldraw'
     - No evidence of editing existing codebases; focuses on creating new UI from scratch via drawing
 placement:
   primary_category: app-builders
   secondary_categories: []
   section: Internal Tools & Dashboards
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:32:06.369Z"
+    updated_at: '2026-09-28T04:32:06.369Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,14 +91,20 @@ processing:
       input_hash: sha256:d0b50db2b77ef48bd75a808ff3e9999700a64fc224bbd56042e6d0fc76b3946f
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The tool’s core function is generating deployable apps from visual prompts (UI drawings), matching the app-builder pattern of prompt-to-artifact without requiring an existing codebase.
+      decision_reason: >-
+        The tool’s core function is generating deployable apps from visual prompts (UI drawings), matching the
+        app-builder pattern of prompt-to-artifact without requiring an existing codebase.
       decision_evidence:
-        - "Scraped site title and description: 'Draw a ui and make it real with tldraw'"
-        - "Source-list context: listed in awesome-ai-coding-tools under 'UI Generators' with the note 'Draw a ui and make it real with tldraw'"
+        - 'Scraped site title and description: ''Draw a ui and make it real with tldraw'''
+        - >-
+          Source-list context: listed in awesome-ai-coding-tools under 'UI Generators' with the note 'Draw a ui and make
+          it real with tldraw'
         - No evidence of editing existing codebases; focuses on creating new UI from scratch via drawing
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because makereal.tldraw.com generates new apps from visual prompts rather than acting as an autonomous coding assistant that edits existing repositories.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because makereal.tldraw.com generates new apps from visual prompts rather
+        than acting as an autonomous coding assistant that edits existing repositories.
       review_reason: null
       review_resume_lifecycle: null

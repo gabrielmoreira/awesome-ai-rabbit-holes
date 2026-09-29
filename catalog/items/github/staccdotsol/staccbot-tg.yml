@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__staccdotsol__staccbot-tg__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: staccDOTsol/staccbot-tg
         extracted_url: https://github.com/staccdotsol/staccbot-tg
-        surrounding_text: "- [staccDOTsol/staccbot-tg](https://github.com/staccDOTsol/staccbot-tg) [![staccDOTsol/staccbot-tg MCP server](https://glama.ai/mcp/servers/staccDOTsol/staccbot-tg/badges/score.svg)](https://glama.ai/mcp/servers/staccDOTsol/staccbot-tg) 📇 ☁️ - fomox402 broker + MCP server for last-bidder-wins games on Solana. One URL into Claude/Cursor/Goose/Cline and the agent auto-registers a Solana wallet, gets faucet-funded, and bids autonomously via streamable HTTP at `https://bot.staccpad.fun/mcp`."
+        surrounding_text: >-
+          - [staccDOTsol/staccbot-tg](https://github.com/staccDOTsol/staccbot-tg) [![staccDOTsol/staccbot-tg MCP
+          server](https://glama.ai/mcp/servers/staccDOTsol/staccbot-tg/badges/score.svg)](https://glama.ai/mcp/servers/staccDOTsol/staccbot-tg)
+          📇 ☁️ - fomox402 broker + MCP server for last-bidder-wins games on Solana. One URL into
+          Claude/Cursor/Goose/Cline and the agent auto-registers a Solana wallet, gets faucet-funded, and bids
+          autonomously via streamable HTTP at `https://bot.staccpad.fun/mcp`.
         confidence: high
 metadata:
   github:
@@ -51,24 +56,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.649Z"
+    updated_at: '2026-05-06T22:12:15.649Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-07-21T15:20:35.676Z"
+    updated_at: '2026-07-21T15:20:35.676Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: staccdotsol/staccbot-tg"
+      message: 'GitHub repository not found: staccdotsol/staccbot-tg'
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.168Z"
+    updated_at: '2026-09-28T04:14:00.168Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

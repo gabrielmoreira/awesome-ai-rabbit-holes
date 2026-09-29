@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gitmcp__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: gitmcp.io
         extracted_url: https://gitmcp.io
-        surrounding_text: "- [idosal/git-mcp](https://github.com/idosal/git-mcp) 📇 ☁️ - [gitmcp.io](https://gitmcp.io/) is a generic remote MCP server to connect to ANY [GitHub](https://www.github.com) repository or project for documentation"
+        surrounding_text: >-
+          - [idosal/git-mcp](https://github.com/idosal/git-mcp) 📇 ☁️ - [gitmcp.io](https://gitmcp.io/) is a generic
+          remote MCP server to connect to ANY [GitHub](https://www.github.com) repository or project for documentation
         confidence: high
 metadata:
   github:
@@ -38,8 +40,12 @@ metadata:
     readme: null
 insights:
   summary: GitMCP creates an instant MCP server for any GitHub repository by replacing github.com with gitmcp.io in the URL.
-  why_it_matters: It lets developers connect AI assistants to any public GitHub project with zero configuration, providing immediate code context for more accurate AI responses.
-  mental_damage: Yet another URL-swapping ritual to add to the growing list of MCP-dependent incantations for making AI less forgetful.
+  why_it_matters: >-
+    It lets developers connect AI assistants to any public GitHub project with zero configuration, providing immediate
+    code context for more accurate AI responses.
+  mental_damage: >-
+    Yet another URL-swapping ritual to add to the growing list of MCP-dependent incantations for making AI less
+    forgetful.
   tags:
     - mcp
     - github
@@ -47,21 +53,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: GitMCP's core identity is providing MCP servers for GitHub repositories, making it a clear fit for the MCP Ecosystem category under Dev & Code Tools.
+  reason: >-
+    GitMCP's core identity is providing MCP servers for GitHub repositories, making it a clear fit for the MCP Ecosystem
+    category under Dev & Code Tools.
   evidence:
-    - "Scraped site description: 'Instantly create an MCP server for any GitHub project'"
-    - "Primary page excerpt: 'GitMCP creates a dedicated Model Context Protocol (MCP) server for any GitHub project'"
+    - 'Scraped site description: ''Instantly create an MCP server for any GitHub project'''
+    - 'Primary page excerpt: ''GitMCP creates a dedicated Model Context Protocol (MCP) server for any GitHub project'''
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Dev & Code Tools
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:16:46.113Z"
+    updated_at: '2026-09-28T04:16:46.113Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,13 +91,17 @@ processing:
       input_hash: sha256:22f31e7a91869ec5083eaaeb23515e1cac53dbec78cb648e10a5a5f40cdcd236
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: GitMCP's core identity is providing MCP servers for GitHub repositories, making it a clear fit for the MCP Ecosystem category under Dev & Code Tools.
+      decision_reason: >-
+        GitMCP's core identity is providing MCP servers for GitHub repositories, making it a clear fit for the MCP
+        Ecosystem category under Dev & Code Tools.
       decision_evidence:
-        - "Scraped site description: 'Instantly create an MCP server for any GitHub project'"
-        - "Primary page excerpt: 'GitMCP creates a dedicated Model Context Protocol (MCP) server for any GitHub project'"
+        - 'Scraped site description: ''Instantly create an MCP server for any GitHub project'''
+        - 'Primary page excerpt: ''GitMCP creates a dedicated Model Context Protocol (MCP) server for any GitHub project'''
       category_candidates:
         - mcp
         - memory-and-context
-      contrastive_reason: Choose mcp over memory-and-context because GitMCP's primary identity is an MCP server, and the MCP protocol identity takes precedence over its context-providing capability.
+      contrastive_reason: >-
+        Choose mcp over memory-and-context because GitMCP's primary identity is an MCP server, and the MCP protocol
+        identity takes precedence over its context-providing capability.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kwal__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Kwal
         anchor_text: Kwal
         extracted_url: https://kwal.ai
-        surrounding_text: "## [Kwal](https://www.kwal.ai/)"
+        surrounding_text: '## [Kwal](https://www.kwal.ai/)'
         confidence: high
     - id: discovery__www__kwal__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Kwal
         anchor_text: Kwal
         extracted_url: https://www.kwal.ai
-        surrounding_text: "## [Kwal](https://www.kwal.ai/)"
+        surrounding_text: '## [Kwal](https://www.kwal.ai/)'
         confidence: high
 metadata:
   github:
@@ -52,7 +52,9 @@ metadata:
     readme: null
 insights:
   summary: Kwal is an AI agent platform for building and managing autonomous AI agents.
-  why_it_matters: It lets developers create and orchestrate AI agents without deep infrastructure setup, accelerating agent-based application development.
+  why_it_matters: >-
+    It lets developers create and orchestrate AI agents without deep infrastructure setup, accelerating agent-based
+    application development.
   mental_damage: Another agent platform promising autonomy while you spend more time configuring agents than writing actual code.
   tags:
     - ai-agents
@@ -61,9 +63,11 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Kwal positions itself as a platform for building and managing autonomous AI agents, which aligns with agent orchestration rather than being a coding agent itself or a framework.
+  reason: >-
+    Kwal positions itself as a platform for building and managing autonomous AI agents, which aligns with agent
+    orchestration rather than being a coding agent itself or a framework.
   evidence:
-    - "Listed in awesome-ai-agents under the 'purpose: A list of AI autonomous agents' section"
+    - 'Listed in awesome-ai-agents under the ''purpose: A list of AI autonomous agents'' section'
     - Homepage at kwal.ai presents it as an AI agent platform for building and managing agents
     - No evidence of being a coding agent that writes/edits code directly
 placement:
@@ -71,12 +75,12 @@ placement:
   secondary_categories: []
   section: Hosted Agent Platforms
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:42:20.362Z"
+    updated_at: '2026-09-28T04:42:20.362Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,20 +93,24 @@ processing:
       input_hash: sha256:a91c5bb8736f0fcf1e4205f5e4e2063c1745afce24197482ae9a2acc6836967f
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Kwal positions itself as a platform for building and managing autonomous AI agents, which aligns with agent orchestration rather than being a coding agent itself or a framework.
+      decision_reason: >-
+        Kwal positions itself as a platform for building and managing autonomous AI agents, which aligns with agent
+        orchestration rather than being a coding agent itself or a framework.
       decision_evidence:
-        - "Listed in awesome-ai-agents under the 'purpose: A list of AI autonomous agents' section"
+        - 'Listed in awesome-ai-agents under the ''purpose: A list of AI autonomous agents'' section'
         - Homepage at kwal.ai presents it as an AI agent platform for building and managing agents
         - No evidence of being a coding agent that writes/edits code directly
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because Kwal is presented as a platform for managing agents rather than a code-first library developers import and program against.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because Kwal is presented as a platform for managing agents rather
+        than a code-first library developers import and program against.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.967Z"
+    updated_at: '2026-07-21T15:20:21.967Z'
     cause: null
     next_retry_at: null
   stars:

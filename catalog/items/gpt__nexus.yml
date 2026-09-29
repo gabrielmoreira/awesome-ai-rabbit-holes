@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gpt__nexus__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - NexusGPT
         anchor_text: NexusGPT
         extracted_url: https://gpt.nexus
-        surrounding_text: "## [NexusGPT](https://gpt.nexus/)"
+        surrounding_text: '## [NexusGPT](https://gpt.nexus/)'
         confidence: high
 metadata:
   github:
@@ -43,7 +43,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project lacks sufficient descriptive substance to determine if it is a functional developer tool, and its presence in source lists suggests it may be a sub-curation or landing page rather than a standalone product.
+  reason: >-
+    The project lacks sufficient descriptive substance to determine if it is a functional developer tool, and its
+    presence in source lists suggests it may be a sub-curation or landing page rather than a standalone product.
   evidence:
     - No repo description or README provided
     - No scraped site context or text available
@@ -53,12 +55,12 @@ placement:
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.456Z"
+    updated_at: '2026-06-22T05:53:30.456Z'
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +69,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:19:08.786Z"
+    updated_at: '2026-09-24T04:19:08.786Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -80,7 +82,9 @@ processing:
       input_hash: sha256:e3f36e1e1fc3725d7ebd167465f5045d8507246127db07b4af7690090e0c7b1e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project lacks sufficient descriptive substance to determine if it is a functional developer tool, and its presence in source lists suggests it may be a sub-curation or landing page rather than a standalone product.
+      decision_reason: >-
+        The project lacks sufficient descriptive substance to determine if it is a functional developer tool, and its
+        presence in source lists suggests it may be a sub-curation or landing page rather than a standalone product.
       decision_evidence:
         - No repo description or README provided
         - No scraped site context or text available

@@ -1,0 +1,83 @@
+id: github__arielbubis__jevflix
+kind: github-repo
+name: arielbubis/jevflix
+canonical_url: https://github.com/arielbubis/jevflix
+identity:
+  github_repo: arielbubis/jevflix
+provenance:
+  discoveries:
+    - id: discovery__github__arielbubis__jevflix__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Apps powered by Jev
+        anchor_text: Jevflix
+        extracted_url: https://github.com/arielbubis/jevflix
+        surrounding_text: >-
+          - [Jevflix](https://github.com/ArielBubis/Jevflix) - `Open source` · `Free source build` · `BYOK`. Hybrid
+          FAISS+BM25 movie shortlist; TypeSafe Jev parses constraints and picks one film with a confidence gate.
+          [Project guide](community/projects/apps/jevflix.md).
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: ArielBubis/Jevflix
+    html_url: https://github.com/ArielBubis/Jevflix
+    created_at: '2026-09-21T21:34:34Z'
+    pushed_at: '2026-09-21T21:35:44Z'
+    description: >-
+      Jev picks, you watch. A hybrid movie recommender: fast semantic + keyword search narrows 4,800 films to a
+      shortlist, then TypeSafe Jev reads your constraints and picks the one film that fits - with a confidence score
+      that decides whether to answer instantly or ask a follow-up.
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:09:10.698Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:10.698Z'
+      bytes: 23119
+insights:
+  summary: >-
+    Jev picks, you watch. A hybrid movie recommender: fast semantic + keyword search narrows 4,800 films to a shortlist,
+    then TypeSafe Jev reads your constraints and picks the one film that fits - with a confidence score that decides
+    whether to answer instantly or ask a follow-up.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  evidence:
+    - jev-latest choice confidence 0.87
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Apps, Games & Simulation
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.448Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:10.698Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mux__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,14 @@ provenance:
           - Official Servers
         anchor_text: Mux
         extracted_url: https://mux.com
-        surrounding_text: "- **[Mux](https://github.com/muxinc/mux-node-sdk/tree/master/packages/mcp-server)** - [Mux](https://www.mux.com) is a video API for developers. With Mux's official MCP you can upload videos, create live streams, generate thumbnails, add captions, manage playback policies, dig through engagement data, monitor video performance, and more."
+        surrounding_text: >-
+          - **[Mux](https://github.com/muxinc/mux-node-sdk/tree/master/packages/mcp-server)** -
+          [Mux](https://www.mux.com) is a video API for developers. With Mux's official MCP you can upload videos,
+          create live streams, generate thumbnails, add captions, manage playback policies, dig through engagement data,
+          monitor video performance, and more.
         confidence: high
     - id: discovery__www__mux__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +37,11 @@ provenance:
           - Official Servers
         anchor_text: Mux
         extracted_url: https://www.mux.com
-        surrounding_text: "- **[Mux](https://github.com/muxinc/mux-node-sdk/tree/master/packages/mcp-server)** - [Mux](https://www.mux.com) is a video API for developers. With Mux's official MCP you can upload videos, create live streams, generate thumbnails, add captions, manage playback policies, dig through engagement data, monitor video performance, and more."
+        surrounding_text: >-
+          - **[Mux](https://github.com/muxinc/mux-node-sdk/tree/master/packages/mcp-server)** -
+          [Mux](https://www.mux.com) is a video API for developers. With Mux's official MCP you can upload videos,
+          create live streams, generate thumbnails, add captions, manage playback policies, dig through engagement data,
+          monitor video performance, and more.
         confidence: high
 metadata:
   github:
@@ -51,9 +59,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Mux is a video API platform that enables developers to stream, encode, analyze, and manipulate video with AI-powered features like transcription, moderation, and summarization.
-  why_it_matters: It lets developers integrate sophisticated video processing into apps with minimal code, abstracting away complex infrastructure like encoding pipelines and AI model orchestration.
-  mental_damage: Another 'AI-powered' feature dropdown that makes you wonder if your cat video really needed sentiment analysis to go viral.
+  summary: >-
+    Mux is a video API platform that enables developers to stream, encode, analyze, and manipulate video with AI-powered
+    features like transcription, moderation, and summarization.
+  why_it_matters: >-
+    It lets developers integrate sophisticated video processing into apps with minimal code, abstracting away complex
+    infrastructure like encoding pipelines and AI model orchestration.
+  mental_damage: >-
+    Another 'AI-powered' feature dropdown that makes you wonder if your cat video really needed sentiment analysis to go
+    viral.
   tags:
     - video
     - api
@@ -62,7 +76,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Mux provides a developer-facing SDK and API for video processing with AI capabilities, fitting as a provider abstraction layer rather than a standalone agent, orchestrator, or app builder.
+  reason: >-
+    Mux provides a developer-facing SDK and API for video processing with AI capabilities, fitting as a provider
+    abstraction layer rather than a standalone agent, orchestrator, or app builder.
   evidence:
     - Offers SDKs for Node, Python, Go, Elixir, Ruby, PHP, iOS, and Android
     - Marketed as 'Video for developers' with API-first integration and prebuilt AI workflows (Mux Robots)
@@ -71,12 +87,12 @@ placement:
   primary_category: ai-frameworks
   section: Provider & Model Abstractions
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:43:23.664Z"
+    updated_at: '2026-09-28T04:43:23.664Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +105,9 @@ processing:
       input_hash: sha256:d4d39fd45e42081bf7606bb4e92a219d24ab6e133404c2a0e0acc898929a992c
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: Mux provides a developer-facing SDK and API for video processing with AI capabilities, fitting as a provider abstraction layer rather than a standalone agent, orchestrator, or app builder.
+      decision_reason: >-
+        Mux provides a developer-facing SDK and API for video processing with AI capabilities, fitting as a provider
+        abstraction layer rather than a standalone agent, orchestrator, or app builder.
       decision_evidence:
         - Offers SDKs for Node, Python, Go, Elixir, Ruby, PHP, iOS, and Android
         - Marketed as 'Video for developers' with API-first integration and prebuilt AI workflows (Mux Robots)
@@ -97,12 +115,14 @@ processing:
       category_candidates:
         - ai-frameworks
         - mcp
-      contrastive_reason: Choose ai-frameworks over mcp because Mux's primary identity is a video API/SDK platform, not MCP infrastructure — while it may support MCP, its core value is video abstraction, not protocol serving.
+      contrastive_reason: >-
+        Choose ai-frameworks over mcp because Mux's primary identity is a video API/SDK platform, not MCP infrastructure
+        — while it may support MCP, its core value is video abstraction, not protocol serving.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.968Z"
+    updated_at: '2026-07-21T15:20:21.968Z'
     cause: null
     next_retry_at: null
   stars:

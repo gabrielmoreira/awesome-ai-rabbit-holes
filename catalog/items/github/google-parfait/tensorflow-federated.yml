@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__google-parfait__tensorflow-federated__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,10 @@ provenance:
           - Federated ML
         anchor_text: TensorFlow Federated
         extracted_url: https://github.com/tensorflow/federated
-        surrounding_text: "| [TensorFlow Federated](https://github.com/tensorflow/federated) | A framework for implementing federated learning                                                                                                                                                                                                                                  | ![GitHub Badge](https://img.shields.io/github/stars/tensorflow/federated.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [TensorFlow Federated](https://github.com/tensorflow/federated) | A framework for implementing federated
+          learning                                                                                                                                                                                                                                 
+          | ![GitHub Badge](https://img.shields.io/github/stars/tensorflow/federated.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -29,19 +32,25 @@ metadata:
     archived: false
     full_name: google-parfait/tensorflow-federated
     html_url: https://github.com/google-parfait/tensorflow-federated
-    created_at: "2018-12-12T23:15:35Z"
-    pushed_at: "2026-09-01T19:48:10Z"
+    created_at: '2018-12-12T23:15:35Z'
+    pushed_at: '2026-09-01T19:48:10Z'
     description: An open-source framework for machine learning and other computations on decentralized data.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-03T05:16:52.261Z"
+    last_checked_at: '2026-09-03T05:16:52.261Z'
     readme:
-      fetched_at: "2026-09-03T05:16:52.261Z"
+      fetched_at: '2026-09-03T05:16:52.261Z'
       bytes: 4641
 insights:
-  summary: An open-source framework for machine learning and other computations on decentralized data, enabling federated learning.
-  why_it_matters: It allows developers to train models across distributed devices without centralizing sensitive data, useful for privacy-preserving ML workflows.
-  mental_damage: Now you can train models on data you’ll never see, which is great until you realize debugging is just staring at a void.
+  summary: >-
+    An open-source framework for machine learning and other computations on decentralized data, enabling federated
+    learning.
+  why_it_matters: >-
+    It allows developers to train models across distributed devices without centralizing sensitive data, useful for
+    privacy-preserving ML workflows.
+  mental_damage: >-
+    Now you can train models on data you’ll never see, which is great until you realize debugging is just staring at a
+    void.
   tags:
     - federated-learning
     - tensorflow
@@ -50,7 +59,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a federated learning framework (ML research/infra) rather than a developer-tooling product for coding agents, workflows, or app-building.
+  reason: >-
+    This is a federated learning framework (ML research/infra) rather than a developer-tooling product for coding
+    agents, workflows, or app-building.
   evidence:
     - Repo description explicitly frames it as a framework for ML on decentralized data
     - README focuses on federated learning algorithms and research use cases
@@ -59,22 +70,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (2437) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:52.261Z"
+    updated_at: '2026-09-03T05:16:52.261Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -89,7 +100,9 @@ processing:
       input_hash: sha256:3e7e4b4f695ae8b93ee7c8168450ae9e314980916d37553d9feec566f91fd194
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a federated learning framework (ML research/infra) rather than a developer-tooling product for coding agents, workflows, or app-building.
+      decision_reason: >-
+        This is a federated learning framework (ML research/infra) rather than a developer-tooling product for coding
+        agents, workflows, or app-building.
       decision_evidence:
         - Repo description explicitly frames it as a framework for ML on decentralized data
         - README focuses on federated learning algorithms and research use cases

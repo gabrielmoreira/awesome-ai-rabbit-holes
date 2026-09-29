@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__breakthrough__pyscenedetect__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -20,7 +20,9 @@ provenance:
           - 实用工具
         anchor_text: PySceneDetect
         extracted_url: https://github.com/breakthrough/pyscenedetect
-        surrounding_text: "- [PySceneDetect](https://github.com/Breakthrough/PySceneDetect): Python and OpenCV-based scene cut/transition detection program & library."
+        surrounding_text: >-
+          - [PySceneDetect](https://github.com/Breakthrough/PySceneDetect): Python and OpenCV-based scene cut/transition
+          detection program & library.
         confidence: high
 metadata:
   github:
@@ -30,9 +32,9 @@ metadata:
     archived: false
     full_name: Breakthrough/PySceneDetect
     html_url: https://github.com/Breakthrough/PySceneDetect
-    created_at: "2014-06-04T04:43:21Z"
-    pushed_at: "2026-09-21T04:44:36Z"
-    description: ":movie_camera: Python and OpenCV-based scene cut/transition detection program & library."
+    created_at: '2014-06-04T04:43:21Z'
+    pushed_at: '2026-09-21T04:44:36Z'
+    description: ':movie_camera: Python and OpenCV-based scene cut/transition detection program & library.'
     homepage: https://www.scenedetect.com/
     topics:
       - analysis
@@ -44,13 +46,15 @@ metadata:
       - scene-recognition
       - video
       - video-processing
-    last_checked_at: "2026-09-24T04:13:02.942Z"
+    last_checked_at: '2026-09-24T04:13:02.942Z'
     readme:
-      fetched_at: "2026-09-24T04:13:02.942Z"
+      fetched_at: '2026-09-24T04:13:02.942Z'
       bytes: 6810
 insights:
   summary: PySceneDetect is a Python and OpenCV-based library and CLI tool for detecting scene cuts and transitions in videos.
-  why_it_matters: It gives developers a programmatic way to automatically segment videos into scenes for editing, analysis, or further processing pipelines.
+  why_it_matters: >-
+    It gives developers a programmatic way to automatically segment videos into scenes for editing, analysis, or further
+    processing pipelines.
   mental_damage: Another reminder that video metadata extraction still feels like dark magic wrapped in FFmpeg incantations.
   tags:
     - video
@@ -61,31 +65,37 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: PySceneDetect is a computer vision tool for video analysis, not an AI-powered developer tool; it lacks any AI/ML model integration, agent behavior, or LLM-assisted workflow despite appearing in an LLM resources list.
+  reason: >-
+    PySceneDetect is a computer vision tool for video analysis, not an AI-powered developer tool; it lacks any AI/ML
+    model integration, agent behavior, or LLM-assisted workflow despite appearing in an LLM resources list.
   evidence:
-    - "Repo description: 'Python and OpenCV-based scene cut/transition detection program & library'"
-    - README focuses on traditional computer vision algorithms (ContentDetector, AdaptiveDetector, ThresholdDetector) with no mention of AI, LLMs, or model-assisted detection
-    - Source-list placement in 'awesome-LLM-resources' under 视频 Video > 实用工具 is incidental and does not confer AI developer tooling identity
+    - 'Repo description: ''Python and OpenCV-based scene cut/transition detection program & library'''
+    - >-
+      README focuses on traditional computer vision algorithms (ContentDetector, AdaptiveDetector, ThresholdDetector)
+      with no mention of AI, LLMs, or model-assisted detection
+    - >-
+      Source-list placement in 'awesome-LLM-resources' under 视频 Video > 实用工具 is incidental and does not confer AI
+      developer tooling identity
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (4781) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:02.942Z"
+    updated_at: '2026-09-24T04:13:02.942Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:58:05.872Z"
+    updated_at: '2026-09-28T04:58:05.872Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -98,11 +108,17 @@ processing:
       input_hash: sha256:599c8504f107c51a6c4f102412efa0dbbb4d55edf30e7f79e8d6f757aa876a79
       proposed_primary_category: null
       disagreement: false
-      decision_reason: PySceneDetect is a computer vision tool for video analysis, not an AI-powered developer tool; it lacks any AI/ML model integration, agent behavior, or LLM-assisted workflow despite appearing in an LLM resources list.
+      decision_reason: >-
+        PySceneDetect is a computer vision tool for video analysis, not an AI-powered developer tool; it lacks any AI/ML
+        model integration, agent behavior, or LLM-assisted workflow despite appearing in an LLM resources list.
       decision_evidence:
-        - "Repo description: 'Python and OpenCV-based scene cut/transition detection program & library'"
-        - README focuses on traditional computer vision algorithms (ContentDetector, AdaptiveDetector, ThresholdDetector) with no mention of AI, LLMs, or model-assisted detection
-        - Source-list placement in 'awesome-LLM-resources' under 视频 Video > 实用工具 is incidental and does not confer AI developer tooling identity
+        - 'Repo description: ''Python and OpenCV-based scene cut/transition detection program & library'''
+        - >-
+          README focuses on traditional computer vision algorithms (ContentDetector, AdaptiveDetector,
+          ThresholdDetector) with no mention of AI, LLMs, or model-assisted detection
+        - >-
+          Source-list placement in 'awesome-LLM-resources' under 视频 Video > 实用工具 is incidental and does not confer AI
+          developer tooling identity
       category_candidates: []
       contrastive_reason: null
       review_reason: null

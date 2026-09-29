@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kyegomez__autort__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,7 +20,9 @@ provenance:
           - Swarm Intelligence Frameworks
         anchor_text: AutoRT
         extracted_url: https://github.com/kyegomez/autort
-        surrounding_text: "| [AutoRT](https://github.com/kyegomez/AutoRT) | Embodied foundation models for robotic agents | ![Stars](https://img.shields.io/github/stars/kyegomez/AutoRT) |"
+        surrounding_text: >-
+          | [AutoRT](https://github.com/kyegomez/AutoRT) | Embodied foundation models for robotic agents |
+          ![Stars](https://img.shields.io/github/stars/kyegomez/AutoRT) |
         confidence: high
 metadata:
   github:
@@ -30,9 +32,9 @@ metadata:
     archived: false
     full_name: kyegomez/AutoRT
     html_url: https://github.com/kyegomez/AutoRT
-    created_at: "2024-01-08T16:31:15Z"
-    pushed_at: "2024-11-11T07:01:19Z"
-    description: "Implementation of AutoRT: \"AutoRT: Embodied Foundation Models for Large Scale Orchestration of Robotic Agents\""
+    created_at: '2024-01-08T16:31:15Z'
+    pushed_at: '2024-11-11T07:01:19Z'
+    description: 'Implementation of AutoRT: "AutoRT: Embodied Foundation Models for Large Scale Orchestration of Robotic Agents"'
     homepage: https://discord.gg/GYbXvDGevY
     topics:
       - ai
@@ -49,13 +51,17 @@ metadata:
       - ros
       - swarm
       - swarms
-    last_checked_at: "2026-07-30T05:06:01.940Z"
+    last_checked_at: '2026-07-30T05:06:01.940Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.940Z"
+      fetched_at: '2026-07-30T05:06:01.940Z'
       bytes: 2857
 insights:
-  summary: Implementation of AutoRT for large-scale orchestration of robotic agents using multi-agent systems and robotic action models.
-  why_it_matters: It demonstrates how multi-agent AI systems can coordinate robotic tasks from scene analysis to execution, which may inspire developer workflows for autonomous systems.
+  summary: >-
+    Implementation of AutoRT for large-scale orchestration of robotic agents using multi-agent systems and robotic
+    action models.
+  why_it_matters: >-
+    It demonstrates how multi-agent AI systems can coordinate robotic tasks from scene analysis to execution, which may
+    inspire developer workflows for autonomous systems.
   mental_damage: Now your robots can argue about who should pick up the bottle first.
   tags:
     - robotics
@@ -65,7 +71,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is focused on robotic agent orchestration rather than developer-facing AI tooling, workflows, or infrastructure.
+  reason: >-
+    The project is focused on robotic agent orchestration rather than developer-facing AI tooling, workflows, or
+    infrastructure.
   evidence:
     - Repo description explicitly targets robotic agents, not developer workflows
     - README centers on robotic action models (RT-1) and swarm coordination
@@ -74,22 +82,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.940Z"
+    updated_at: '2026-07-30T05:06:01.940Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -104,7 +112,9 @@ processing:
       input_hash: sha256:6679869731bc3cf051037adcdbaf27a35ac593958400f65dffd7c7048b5f3f01
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is focused on robotic agent orchestration rather than developer-facing AI tooling, workflows, or infrastructure.
+      decision_reason: >-
+        The project is focused on robotic agent orchestration rather than developer-facing AI tooling, workflows, or
+        infrastructure.
       decision_evidence:
         - Repo description explicitly targets robotic agents, not developer workflows
         - README centers on robotic action models (RT-1) and swarm coordination

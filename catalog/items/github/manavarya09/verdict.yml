@@ -1,0 +1,95 @@
+id: github__manavarya09__verdict
+kind: github-repo
+name: manavarya09/verdict
+canonical_url: https://github.com/manavarya09/verdict
+identity:
+  github_repo: manavarya09/verdict
+provenance:
+  discoveries:
+    - id: discovery__github__manavarya09__verdict__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Jev-like models (72)
+        anchor_text: Verdict
+        extracted_url: https://github.com/manavarya09/verdict
+        surrounding_text: >-
+          | [Verdict](https://github.com/Manavarya09/verdict) | ★ 0 | Python | 2026-09-25 | Independent multilingual
+          decision model with calibrated answers, abstention, and a Jev-compatible API. |
+        confidence: high
+    - id: discovery__github__manavarya09__verdict__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Calibration & Research
+        anchor_text: Verdict
+        extracted_url: https://github.com/manavarya09/verdict
+        surrounding_text: >-
+          - [Verdict](https://github.com/Manavarya09/verdict)
+          ![stars](https://img.shields.io/github/stars/Manavarya09/verdict?style=flat-square&label=%E2%98%85) - Open
+          alternative: Apache-2.0 118M multilingual bi-encoder that answers `Choice`, `Score`, and `Noul` questions on
+          the same `POST /v1/systemone` wire format, calibrated with temperature scaling plus a split conformal abstain
+          set with a coverage guarantee (ECE 0.01 to 0.03 on the public suites), runs on CPU or in the browser via ONNX,
+          fits on your own labels in seconds, and its README says it loses to Laya on typed decisions (0.71 vs 0.77).
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Independent multilingual decision model with calibrated answers, abstention, and a Jev-compatible API.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.94
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.419Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

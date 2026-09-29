@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__liujuanjuan1984__lifeos-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Agent infrastructure
         anchor_text: lifeos-cli
         extracted_url: https://github.com/liujuanjuan1984/lifeos-cli
-        surrounding_text: "- **[lifeos-cli](https://github.com/liujuanjuan1984/lifeos-cli)** `⭐ 6` — Terminal-native LifeOS for managing intentions, habits, and timelogs; provides structured persistent context for agentic workflows."
+        surrounding_text: >-
+          - **[lifeos-cli](https://github.com/liujuanjuan1984/lifeos-cli)** `⭐ 6` — Terminal-native LifeOS for managing
+          intentions, habits, and timelogs; provides structured persistent context for agentic workflows.
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: liujuanjuan1984/lifeos-cli
     html_url: https://github.com/liujuanjuan1984/lifeos-cli
-    created_at: "2026-04-09T03:48:11Z"
-    pushed_at: "2026-07-28T05:37:11Z"
-    description: Terminal-native LifeOS with an optional local Web UI for tasks, notes, habits, schedules, timelogs, relationships, and human-agent collaboration.
+    created_at: '2026-04-09T03:48:11Z'
+    pushed_at: '2026-07-28T05:37:11Z'
+    description: >-
+      Terminal-native LifeOS with an optional local Web UI for tasks, notes, habits, schedules, timelogs, relationships,
+      and human-agent collaboration.
     homepage: null
     topics:
       - agentic-workflows
@@ -55,13 +59,17 @@ metadata:
       - time-tracking
       - vite
       - web-ui
-    last_checked_at: "2026-07-30T05:06:06.941Z"
+    last_checked_at: '2026-07-30T05:06:06.941Z'
     readme:
-      fetched_at: "2026-07-30T05:06:06.941Z"
+      fetched_at: '2026-07-30T05:06:06.941Z'
       bytes: 11001
 insights:
-  summary: lifeos-cli is a terminal-native CLI for personal task, habit, note, timelog, and relationship management with optional web UI and agent-friendly command structure.
-  why_it_matters: It offers a unified local-first system for self-management that agents can interact with via stable CLI grammar, bridging personal productivity and developer tooling.
+  summary: >-
+    lifeos-cli is a terminal-native CLI for personal task, habit, note, timelog, and relationship management with
+    optional web UI and agent-friendly command structure.
+  why_it_matters: >-
+    It offers a unified local-first system for self-management that agents can interact with via stable CLI grammar,
+    bridging personal productivity and developer tooling.
   mental_damage: Finally, a way to outsource your life admin to an agent so you can focus on pretending to work on side projects.
   tags:
     - cli
@@ -70,31 +78,37 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: lifeos-cli is a personal life management tool focused on habits, notes, timelogs, and relationships—not code, repos, or developer workflows—so it lacks the developer-tooling angle required for inclusion.
+  reason: >-
+    lifeos-cli is a personal life management tool focused on habits, notes, timelogs, and relationships—not code, repos,
+    or developer workflows—so it lacks the developer-tooling angle required for inclusion.
   evidence:
-    - "Repo description: 'Terminal-native LifeOS with an optional local Web UI for tasks, notes, habits, schedules, timelogs, relationships, and human-agent collaboration.'"
-    - "README: Covers 'visions, tasks, habits, planned events' and 'notes, timelogs, completed habit actions, and relationship records' as core functionality."
+    - >-
+      Repo description: 'Terminal-native LifeOS with an optional local Web UI for tasks, notes, habits, schedules,
+      timelogs, relationships, and human-agent collaboration.'
+    - >-
+      README: Covers 'visions, tasks, habits, planned events' and 'notes, timelogs, completed habit actions, and
+      relationship records' as core functionality.
     - No mention of coding, code editing, repo interaction, or software development in any core use case.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:06.941Z"
+    updated_at: '2026-07-30T05:06:06.941Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -109,10 +123,16 @@ processing:
       input_hash: sha256:00d71fcb9d9e4633dce3eae31ce6f15c8ae4a5103c85613fed12c292db8010a4
       proposed_primary_category: null
       disagreement: false
-      decision_reason: lifeos-cli is a personal life management tool focused on habits, notes, timelogs, and relationships—not code, repos, or developer workflows—so it lacks the developer-tooling angle required for inclusion.
+      decision_reason: >-
+        lifeos-cli is a personal life management tool focused on habits, notes, timelogs, and relationships—not code,
+        repos, or developer workflows—so it lacks the developer-tooling angle required for inclusion.
       decision_evidence:
-        - "Repo description: 'Terminal-native LifeOS with an optional local Web UI for tasks, notes, habits, schedules, timelogs, relationships, and human-agent collaboration.'"
-        - "README: Covers 'visions, tasks, habits, planned events' and 'notes, timelogs, completed habit actions, and relationship records' as core functionality."
+        - >-
+          Repo description: 'Terminal-native LifeOS with an optional local Web UI for tasks, notes, habits, schedules,
+          timelogs, relationships, and human-agent collaboration.'
+        - >-
+          README: Covers 'visions, tasks, habits, planned events' and 'notes, timelogs, completed habit actions, and
+          relationship records' as core functionality.
         - No mention of coding, code editing, repo interaction, or software development in any core use case.
       category_candidates: []
       contrastive_reason: null

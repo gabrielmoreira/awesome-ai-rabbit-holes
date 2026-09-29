@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__datawhalechina__hello-agents__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -29,8 +29,8 @@ metadata:
     archived: false
     full_name: datawhalechina/hello-agents
     html_url: https://github.com/datawhalechina/hello-agents
-    created_at: "2025-09-07T09:50:24Z"
-    pushed_at: "2026-09-04T09:03:14Z"
+    created_at: '2025-09-07T09:50:24Z'
+    pushed_at: '2026-09-04T09:03:14Z'
     description: 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
     homepage: https://hello-agents.datawhale.cc
     topics:
@@ -38,13 +38,15 @@ metadata:
       - llm
       - rag
       - tutorial
-    last_checked_at: "2026-09-14T04:13:35.176Z"
+    last_checked_at: '2026-09-14T04:13:35.176Z'
     readme:
-      fetched_at: "2026-09-14T04:13:35.176Z"
+      fetched_at: '2026-09-14T04:13:35.176Z'
       bytes: 20119
 insights:
   summary: A Chinese tutorial book and practical guide for building AI agents from scratch.
-  why_it_matters: Provides developers with a structured introduction to agent principles and hands-on implementation, which can accelerate adoption of agent-based workflows.
+  why_it_matters: >-
+    Provides developers with a structured introduction to agent principles and hands-on implementation, which can
+    accelerate adoption of agent-based workflows.
   mental_damage: Another day, another 'from zero to hero' guide that assumes you have infinite time to read it.
   tags:
     - tutorial
@@ -54,7 +56,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational resource (tutorial/book) rather than a practical developer tool, framework, or workflow product.
+  reason: >-
+    This is an educational resource (tutorial/book) rather than a practical developer tool, framework, or workflow
+    product.
   evidence:
     - Repo description explicitly calls it a tutorial/book ('教程')
     - Topics include 'agent', 'llm', 'rag', 'tutorial'
@@ -63,22 +67,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (42972) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:35.176Z"
+    updated_at: '2026-09-14T04:13:35.176Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -93,7 +97,9 @@ processing:
       input_hash: sha256:cbbcd4dc09fcc4ebf37fda783d69f0fce94fcb0d0d1d79c4d6c04fc86aa0bb99
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational resource (tutorial/book) rather than a practical developer tool, framework, or workflow product.
+      decision_reason: >-
+        This is an educational resource (tutorial/book) rather than a practical developer tool, framework, or workflow
+        product.
       decision_evidence:
         - Repo description explicitly calls it a tutorial/book ('教程')
         - Topics include 'agent', 'llm', 'rag', 'tutorial'

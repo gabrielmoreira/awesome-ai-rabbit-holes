@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aws__amazon__com__dynamodb__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,10 @@ provenance:
           - Community Servers
         anchor_text: DynamoDB
         extracted_url: https://aws.amazon.com/dynamodb
-        surrounding_text: "- **[DynamoDB-Toolbox](https://www.dynamodbtoolbox.com/docs/databases/actions/mcp-toolkit)** - Leverages your Schemas and Access Patterns to interact with your [DynamoDB](https://aws.amazon.com/dynamodb) Database using natural language."
+        surrounding_text: >-
+          - **[DynamoDB-Toolbox](https://www.dynamodbtoolbox.com/docs/databases/actions/mcp-toolkit)** - Leverages your
+          Schemas and Access Patterns to interact with your [DynamoDB](https://aws.amazon.com/dynamodb) Database using
+          natural language.
         confidence: high
 metadata:
   github:
@@ -36,9 +39,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed for high-performance applications at any scale.
-  why_it_matters: It provides a highly scalable, zero-maintenance data storage layer that simplifies infrastructure management for high-concurrency workloads.
-  mental_damage: It's a reliable way to ensure you'll never have to manage a database server, but you'll spend your life worrying about partition keys and throughput provisioning.
+  summary: >-
+    Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed for high-performance applications
+    at any scale.
+  why_it_matters: >-
+    It provides a highly scalable, zero-maintenance data storage layer that simplifies infrastructure management for
+    high-concurrency workloads.
+  mental_damage: >-
+    It's a reliable way to ensure you'll never have to manage a database server, but you'll spend your life worrying
+    about partition keys and throughput provisioning.
   tags:
     - nosql
     - serverless
@@ -57,12 +66,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,10 +80,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:34:43.443Z"
+    updated_at: '2026-09-24T04:34:43.443Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for aws__amazon__com__dynamodb: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for aws__amazon__com__dynamodb: Upstream error from Nvidia: ResourceExhausted:
+        Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -86,7 +97,9 @@ processing:
       input_hash: sha256:5c5470ccc614690b564993a4df6d9d0a6c22e6592a420e7f62bd7e83acb99a0a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: DynamoDB is a general-purpose cloud database service, not a developer-facing AI tool, agent, or workflow utility.
+      decision_reason: >-
+        DynamoDB is a general-purpose cloud database service, not a developer-facing AI tool, agent, or workflow
+        utility.
       decision_evidence:
         - Primary product is a managed NoSQL database
         - Does not perform AI tasks, coding assistance, or agentic orchestration

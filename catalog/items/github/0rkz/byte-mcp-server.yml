@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0rkz__byte-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: 0rkz/byte-mcp-server
         extracted_url: https://github.com/0rkz/byte-mcp-server
-        surrounding_text: "- [0rkz/byte-mcp-server](https://github.com/0rkz/byte-mcp-server) [![0rkz/byte-mcp-server MCP server](https://glama.ai/mcp/servers/0rkz/byte-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0rkz/byte-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - PayPerByte — per-byte data marketplace for AI agents on Arbitrum. Discover publishers, evaluate on-chain Proof-of-Quality Score (PQS), subscribe + pay per request in USDC via x402 gateway. 15 tools, zero API keys."
+        surrounding_text: >-
+          - [0rkz/byte-mcp-server](https://github.com/0rkz/byte-mcp-server) [![0rkz/byte-mcp-server MCP
+          server](https://glama.ai/mcp/servers/0rkz/byte-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0rkz/byte-mcp-server)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - PayPerByte — per-byte data marketplace for AI agents on Arbitrum. Discover publishers,
+          evaluate on-chain Proof-of-Quality Score (PQS), subscribe + pay per request in USDC via x402 gateway. 15
+          tools, zero API keys.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: 0rkz/byte-mcp-server
     html_url: https://github.com/0rkz/byte-mcp-server
-    created_at: "2026-04-20T22:00:10Z"
-    pushed_at: "2026-09-13T06:02:25Z"
-    description: MCP server for PayPerByte — pay-per-call USDC data feeds for AI agents (x402 on Base; EIP-712 attestations). No API keys, no token.
+    created_at: '2026-04-20T22:00:10Z'
+    pushed_at: '2026-09-13T06:02:25Z'
+    description: >-
+      MCP server for PayPerByte — pay-per-call USDC data feeds for AI agents (x402 on Base; EIP-712 attestations). No
+      API keys, no token.
     homepage: https://www.payperbyte.io
     topics:
       - agent-commerce
@@ -47,13 +54,15 @@ metadata:
       - model-context-protocol
       - web3
       - x402
-    last_checked_at: "2026-09-28T04:13:55.386Z"
+    last_checked_at: '2026-09-28T04:13:55.386Z'
     readme:
-      fetched_at: "2026-09-28T04:13:55.385Z"
+      fetched_at: '2026-09-28T04:13:55.385Z'
       bytes: 13258
 insights:
   summary: An MCP server providing AI agents with cryptographically attested, pay-per-call data feeds settled via USDC on Base.
-  why_it_matters: It enables agents to autonomously purchase and verify the integrity of real-world data feeds without the friction of traditional API keys or off-chain accounts.
+  why_it_matters: >-
+    It enables agents to autonomously purchase and verify the integrity of real-world data feeds without the friction of
+    traditional API keys or off-chain accounts.
   mental_damage: Now you have to worry about your agent's crypto wallet being drained by a weather feed with a bad price quote.
   tags:
     - mcp
@@ -64,7 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server that exposes specialized data-commerce tools to agents through the Model Context Protocol.
+  reason: >-
+    The project's primary identity is an MCP server that exposes specialized data-commerce tools to agents through the
+    Model Context Protocol.
   evidence:
     - Repo description explicitly defines it as an 'MCP server for PayPerByte'
     - README describes the core functionality as a Model Context Protocol server for verifiable data feeds
@@ -73,22 +84,22 @@ placement:
   secondary_categories: []
   section: Finance, Crypto & DeFi
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.065Z"
+    updated_at: '2026-06-18T05:40:04.065Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-28T04:13:55.386Z"
+    updated_at: '2026-09-28T04:13:55.386Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:15:29.404Z"
+    updated_at: '2026-09-24T04:15:29.404Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -101,13 +112,17 @@ processing:
       input_hash: sha256:c1b8a9dd06ce9132b1ccd08cd7dbe3e719dbda62bf8914dc8bf0d8ee7a890f8c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's primary identity is an MCP server that exposes specialized data-commerce tools to agents through the Model Context Protocol.
+      decision_reason: >-
+        The project's primary identity is an MCP server that exposes specialized data-commerce tools to agents through
+        the Model Context Protocol.
       decision_evidence:
         - Repo description explicitly defines it as an 'MCP server for PayPerByte'
         - README describes the core functionality as a Model Context Protocol server for verifiable data feeds
       category_candidates:
         - mcp
         - memory-and-context
-      contrastive_reason: Choose mcp over memory-and-context because the product's primary identity is as an MCP server exposing tools/data via the protocol rather than a general-purpose retrieval or context management system.
+      contrastive_reason: >-
+        Choose mcp over memory-and-context because the product's primary identity is as an MCP server exposing
+        tools/data via the protocol rather than a general-purpose retrieval or context management system.
       review_reason: null
       review_resume_lifecycle: null

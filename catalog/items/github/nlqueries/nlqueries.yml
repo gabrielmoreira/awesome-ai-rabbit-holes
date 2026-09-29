@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nlqueries__nlqueries__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-08-06T05:06:55.627Z"
+      discovered_at: '2026-08-06T05:06:55.627Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: nlqueries/nlqueries
         extracted_url: https://github.com/nlqueries/nlqueries
-        surrounding_text: "- [nlqueries/nlqueries](https://github.com/nlqueries/nlqueries) [![nlqueries/nlqueries MCP server](https://glama.ai/mcp/servers/nlqueries/nlqueries/badges/score.svg)](https://glama.ai/mcp/servers/nlqueries/nlqueries) 🐍 🏠 - Natural language to validated SQL engine with multi-connector support (PostgreSQL, MySQL, Snowflake, BigQuery, DuckDB), document QA, semantic caching, and self-hosted MCP server."
+        surrounding_text: >-
+          - [nlqueries/nlqueries](https://github.com/nlqueries/nlqueries) [![nlqueries/nlqueries MCP
+          server](https://glama.ai/mcp/servers/nlqueries/nlqueries/badges/score.svg)](https://glama.ai/mcp/servers/nlqueries/nlqueries)
+          🐍 🏠 - Natural language to validated SQL engine with multi-connector support (PostgreSQL, MySQL, Snowflake,
+          BigQuery, DuckDB), document QA, semantic caching, and self-hosted MCP server.
         confidence: high
 metadata:
   github:
@@ -51,12 +55,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-06T05:06:55.629Z"
+    updated_at: '2026-08-06T05:06:55.629Z'
     cause: null
     next_retry_at: null
   stars:
@@ -65,7 +69,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

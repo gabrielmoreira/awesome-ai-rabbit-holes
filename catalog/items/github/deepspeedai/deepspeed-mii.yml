@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deepspeedai__deepspeed-mii__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Large Model Serving
         anchor_text: DeepSpeed-MII
         extracted_url: https://github.com/microsoft/deepspeed-mii
-        surrounding_text: "| [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII)                           | MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.                             | ![GitHub Badge](https://img.shields.io/github/stars/microsoft/DeepSpeed-MII.svg?style=flat-square)               |"
+        surrounding_text: >-
+          | [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII)                           | MII makes
+          low-latency and high-throughput inference possible, powered by DeepSpeed.                             |
+          ![GitHub
+          Badge](https://img.shields.io/github/stars/microsoft/DeepSpeed-MII.svg?style=flat-square)               |
         confidence: high
 metadata:
   github:
@@ -30,22 +34,26 @@ metadata:
     archived: false
     full_name: deepspeedai/DeepSpeed-MII
     html_url: https://github.com/deepspeedai/DeepSpeed-MII
-    created_at: "2022-03-23T22:30:45Z"
-    pushed_at: "2025-06-30T16:21:45Z"
+    created_at: '2022-03-23T22:30:45Z'
+    pushed_at: '2025-06-30T16:21:45Z'
     description: MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
-    homepage: ""
+    homepage: ''
     topics:
       - deep-learning
       - inference
       - pytorch
-    last_checked_at: "2026-09-14T04:13:38.386Z"
+    last_checked_at: '2026-09-14T04:13:38.386Z'
     readme:
-      fetched_at: "2026-09-14T04:13:38.386Z"
+      fetched_at: '2026-09-14T04:13:38.386Z'
       bytes: 20477
 insights:
   summary: MII is a DeepSpeed-powered inference engine for low-latency, high-throughput model serving.
-  why_it_matters: It lets developers deploy large language models in production with optimized throughput and latency without rewriting serving infrastructure.
-  mental_damage: Another serving stack promising to solve inference woes while you quietly wonder if quantization and batch size tuning were ever really the bottleneck.
+  why_it_matters: >-
+    It lets developers deploy large language models in production with optimized throughput and latency without
+    rewriting serving infrastructure.
+  mental_damage: >-
+    Another serving stack promising to solve inference woes while you quietly wonder if quantization and batch size
+    tuning were ever really the bottleneck.
   tags:
     - inference
     - serving
@@ -55,31 +63,33 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: deepspeed-mii is a model serving and inference optimization library, not a developer-facing AI tool for coding, agents, or workflows; it belongs in ML infrastructure, not AI-assisted development.
+  reason: >-
+    deepspeed-mii is a model serving and inference optimization library, not a developer-facing AI tool for coding,
+    agents, or workflows; it belongs in ML infrastructure, not AI-assisted development.
   evidence:
-    - "Repo description: 'MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.'"
-    - "Topics: deep-learning, inference, pytorch — indicates ML infrastructure focus."
+    - 'Repo description: ''MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.'''
+    - 'Topics: deep-learning, inference, pytorch — indicates ML infrastructure focus.'
     - Listed in Awesome-LLMOps under Serving > Large Model Serving, confirming its domain as model serving tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (2109) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:38.386Z"
+    updated_at: '2026-09-14T04:13:38.386Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -1,0 +1,78 @@
+id: github__zachlandes__decision-gate
+kind: github-repo
+name: zachlandes/decision-gate
+canonical_url: https://github.com/zachlandes/decision-gate
+identity:
+  github_repo: zachlandes/decision-gate
+provenance:
+  discoveries:
+    - id: discovery__github__zachlandes__decision-gate__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: decision-gate
+        extracted_url: https://github.com/zachlandes/decision-gate
+        surrounding_text: >-
+          - [decision-gate](https://github.com/zachlandes/decision-gate) ![type:
+          library](https://img.shields.io/badge/type-library-4B5563?style=flat-square)
+          ![stars](https://img.shields.io/github/stars/zachlandes/decision-gate?style=flat-square&label=%E2%98%85) -
+          Cost and rate control: npm library that every Jev request in a loop goes through, which waits for room under
+          80% of the account's requests-per-minute and tokens-per-second limits, pauses every caller sharing the
+          account, across processes, for the server's `Retry-After` delay when the service answers 429, refuses any
+          request that would pass a per-key daily spend ceiling (USD 0.20 by default), and keeps an opt-in cache of
+          answer probabilities under caller-chosen keys, so a repeated question over the same state is not paid for
+          twice.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.485Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

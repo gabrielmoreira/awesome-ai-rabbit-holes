@@ -1,12 +1,12 @@
 id: wandb__courses__courses__rag__in__production
 kind: website
-name: "RAG++ : From POC to production"
+name: 'RAG++ : From POC to production'
 canonical_url: https://wandb.courses/courses/rag-in-production
 identity: {}
 provenance:
   discoveries:
     - id: discovery__wandb__courses__courses__rag__in__production__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,12 +16,14 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: "RAG++ : From POC to production"
+        anchor_text: 'RAG++ : From POC to production'
         extracted_url: https://wandb.courses/courses/rag-in-production
-        surrounding_text: "43. [RAG++ : From POC to production](https://www.wandb.courses/courses/rag-in-production): Advanced RAG course."
+        surrounding_text: >-
+          43. [RAG++ : From POC to production](https://www.wandb.courses/courses/rag-in-production): Advanced RAG
+          course.
         confidence: high
     - id: discovery__www__wandb__courses__courses__rag__in__production__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -31,9 +33,11 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: "RAG++ : From POC to production"
+        anchor_text: 'RAG++ : From POC to production'
         extracted_url: https://www.wandb.courses/courses/rag-in-production
-        surrounding_text: "43. [RAG++ : From POC to production](https://www.wandb.courses/courses/rag-in-production): Advanced RAG course."
+        surrounding_text: >-
+          43. [RAG++ : From POC to production](https://www.wandb.courses/courses/rag-in-production): Advanced RAG
+          course.
         confidence: high
 metadata:
   github:
@@ -52,8 +56,12 @@ metadata:
     readme: null
 insights:
   summary: RAG++ is an online course teaching how to transition RAG systems from proof-of-concept to production deployment.
-  why_it_matters: It helps developers bridge the gap between RAG prototypes and scalable, maintainable systems in real-world applications.
-  mental_damage: Another reminder that your 'working' RAG demo will collapse under real traffic, and now there's a course to tell you why.
+  why_it_matters: >-
+    It helps developers bridge the gap between RAG prototypes and scalable, maintainable systems in real-world
+    applications.
+  mental_damage: >-
+    Another reminder that your 'working' RAG demo will collapse under real traffic, and now there's a course to tell you
+    why.
   tags:
     - rag
     - production
@@ -63,21 +71,23 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: RAG++ is an educational course, not a developer-facing AI tool, agent, framework, or infrastructure product; it teaches concepts but does not provide runnable tooling or code that developers directly use in their workflows.
+  reason: >-
+    RAG++ is an educational course, not a developer-facing AI tool, agent, framework, or infrastructure product; it
+    teaches concepts but does not provide runnable tooling or code that developers directly use in their workflows.
   evidence:
-    - "Repo description: (none)"
-    - "Source-list context: included in awesome-LLM-resources under '课程 Course' (Course section)"
+    - 'Repo description: (none)'
+    - 'Source-list context: included in awesome-LLM-resources under ''课程 Course'' (Course section)'
     - URL points to wandb.courses, indicating it is a hosted educational offering, not open-source software
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:49:10.745Z"
+    updated_at: '2026-09-28T04:49:10.745Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,10 +100,12 @@ processing:
       input_hash: sha256:775f4ea04a60ad36bc2ebc4ffa426791a52b721f61834679d036e9bd6c8fe479
       proposed_primary_category: null
       disagreement: false
-      decision_reason: RAG++ is an educational course, not a developer-facing AI tool, agent, framework, or infrastructure product; it teaches concepts but does not provide runnable tooling or code that developers directly use in their workflows.
+      decision_reason: >-
+        RAG++ is an educational course, not a developer-facing AI tool, agent, framework, or infrastructure product; it
+        teaches concepts but does not provide runnable tooling or code that developers directly use in their workflows.
       decision_evidence:
-        - "Repo description: (none)"
-        - "Source-list context: included in awesome-LLM-resources under '课程 Course' (Course section)"
+        - 'Repo description: (none)'
+        - 'Source-list context: included in awesome-LLM-resources under ''课程 Course'' (Course section)'
         - URL points to wandb.courses, indicating it is a hosted educational offering, not open-source software
       category_candidates: []
       contrastive_reason: null
@@ -101,7 +113,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.971Z"
+    updated_at: '2026-07-21T15:20:21.971Z'
     cause: null
     next_retry_at: null
   stars:

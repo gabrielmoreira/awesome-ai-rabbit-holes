@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__usemage__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - App Builders
         anchor_text: Mage
         extracted_url: https://usemage.ai
-        surrounding_text: "- **[Mage](https://usemage.ai/)** – Generate full-stack apps from natural language prompts."
+        surrounding_text: '- **[Mage](https://usemage.ai/)** – Generate full-stack apps from natural language prompts.'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: MAGE GPT Web App Generator creates full-stack React, Node.js and Prisma web apps from prompts using the Wasp framework.
-  why_it_matters: It lets developers generate deployable full-stack applications from natural language, turning prompt-driven scaffolding into runnable code.
-  mental_damage: The dream of typing 'build me a startup' and getting a production app is now one prompt away — and the stack overflow posts are already writing themselves.
+  summary: >-
+    MAGE GPT Web App Generator creates full-stack React, Node.js and Prisma web apps from prompts using the Wasp
+    framework.
+  why_it_matters: >-
+    It lets developers generate deployable full-stack applications from natural language, turning prompt-driven
+    scaffolding into runnable code.
+  mental_damage: >-
+    The dream of typing 'build me a startup' and getting a production app is now one prompt away — and the stack
+    overflow posts are already writing themselves.
   tags:
     - app-builder
     - full-stack
@@ -47,22 +53,28 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MAGE GPT generates complete, deployable web apps from prompts without requiring an existing codebase, fitting the core app-builder loop of prompt-to-deployable-artifact.
+  reason: >-
+    MAGE GPT generates complete, deployable web apps from prompts without requiring an existing codebase, fitting the
+    core app-builder loop of prompt-to-deployable-artifact.
   evidence:
-    - "Scraped site title: 'MAGE GPT Web App Generator ✨ MageGPT'"
-    - "Scraped site description: 'Generate your full-stack React, Node.js and Prisma web app using the magic of GPT and the Wasp full-stack framework.'"
-    - "Source-list context: listed in awesome-ai-coding-tools under App Builders section for generating full-stack React, Node.js and Prisma web apps via GPT and Wasp"
+    - 'Scraped site title: ''MAGE GPT Web App Generator ✨ MageGPT'''
+    - >-
+      Scraped site description: 'Generate your full-stack React, Node.js and Prisma web app using the magic of GPT and
+      the Wasp full-stack framework.'
+    - >-
+      Source-list context: listed in awesome-ai-coding-tools under App Builders section for generating full-stack React,
+      Node.js and Prisma web apps via GPT and Wasp
 placement:
   primary_category: app-builders
   secondary_categories: []
   section: Full App Builders
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:48:40.576Z"
+    updated_at: '2026-09-28T04:48:40.576Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +96,22 @@ processing:
       input_hash: sha256:768bbed325f7d41b8e54853555560e1d92fd2cdae50ab00eb3665e84cc8be0bd
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: MAGE GPT generates complete, deployable web apps from prompts without requiring an existing codebase, fitting the core app-builder loop of prompt-to-deployable-artifact.
+      decision_reason: >-
+        MAGE GPT generates complete, deployable web apps from prompts without requiring an existing codebase, fitting
+        the core app-builder loop of prompt-to-deployable-artifact.
       decision_evidence:
-        - "Scraped site title: 'MAGE GPT Web App Generator ✨ MageGPT'"
-        - "Scraped site description: 'Generate your full-stack React, Node.js and Prisma web app using the magic of GPT and the Wasp full-stack framework.'"
-        - "Source-list context: listed in awesome-ai-coding-tools under App Builders section for generating full-stack React, Node.js and Prisma web apps via GPT and Wasp"
+        - 'Scraped site title: ''MAGE GPT Web App Generator ✨ MageGPT'''
+        - >-
+          Scraped site description: 'Generate your full-stack React, Node.js and Prisma web app using the magic of GPT
+          and the Wasp full-stack framework.'
+        - >-
+          Source-list context: listed in awesome-ai-coding-tools under App Builders section for generating full-stack
+          React, Node.js and Prisma web apps via GPT and Wasp
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the tool’s main loop is prompt-to-app generation from a blank slate, not editing or assisting within an existing codebase.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because the tool’s main loop is prompt-to-app generation from a blank
+        slate, not editing or assisting within an existing codebase.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__federatedai__fate__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,10 @@ provenance:
           - Federated ML
         anchor_text: FATE
         extracted_url: https://github.com/federatedai/fate
-        surrounding_text: "| [FATE](https://github.com/FederatedAI/FATE)                     | An Industrial Grade Federated Learning Framework                                                                                                                                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/FederatedAI/FATE.svg?style=flat-square)     |"
+        surrounding_text: >-
+          | [FATE](https://github.com/FederatedAI/FATE)                     | An Industrial Grade Federated Learning
+          Framework                                                                                                                                                                                                                                
+          | ![GitHub Badge](https://img.shields.io/github/stars/FederatedAI/FATE.svg?style=flat-square)     |
         confidence: high
 metadata:
   github:
@@ -29,24 +32,28 @@ metadata:
     archived: false
     full_name: FederatedAI/FATE
     html_url: https://github.com/FederatedAI/FATE
-    created_at: "2019-01-24T10:32:43Z"
-    pushed_at: "2024-11-19T08:19:11Z"
+    created_at: '2019-01-24T10:32:43Z'
+    pushed_at: '2024-11-19T08:19:11Z'
     description: An Industrial Grade Federated Learning Framework
-    homepage: ""
+    homepage: ''
     topics:
       - algorithm
       - fate
       - federated-learning
       - machine-learning
       - privacy-preserving
-    last_checked_at: "2026-08-27T09:23:28.809Z"
+    last_checked_at: '2026-08-27T09:23:28.809Z'
     readme:
-      fetched_at: "2026-08-27T09:23:28.809Z"
+      fetched_at: '2026-08-27T09:23:28.809Z'
       bytes: 7613
 insights:
   summary: An industrial-grade open source framework for privacy-preserving federated learning.
-  why_it_matters: It enables developers to train machine learning models on distributed, heterogeneous data sources without compromising data privacy through secure computation.
-  mental_damage: Because nothing says 'peace of mind' like managing complex multi-party computation protocols and homomorphic encryption just to train a model.
+  why_it_matters: >-
+    It enables developers to train machine learning models on distributed, heterogeneous data sources without
+    compromising data privacy through secure computation.
+  mental_damage: >-
+    Because nothing says 'peace of mind' like managing complex multi-party computation protocols and homomorphic
+    encryption just to train a model.
   tags:
     - federated-learning
     - privacy-preserving
@@ -55,31 +62,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is a specialized machine learning framework for distributed training rather than a developer-facing AI coding tool.
+  reason: >-
+    The project is a specialized machine learning framework for distributed training rather than a developer-facing AI
+    coding tool.
   evidence:
     - Repo description defines it as an 'Industrial Grade Federated Learning Framework'
     - README focuses on secure computation, homomorphic encryption, and MPC
-    - Does not provide developer-centric AI assistance, code generation, or workflow orchestration for software development
+    - >-
+      Does not provide developer-centric AI assistance, code generation, or workflow orchestration for software
+      development
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (6070) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:28.809Z"
+    updated_at: '2026-08-27T09:23:28.809Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -94,11 +105,15 @@ processing:
       input_hash: sha256:0e7c8296bc8dac10b267e09d1cf70d744a3e16bdc64c9c31dc7239041792fe66
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a specialized machine learning framework for distributed training rather than a developer-facing AI coding tool.
+      decision_reason: >-
+        The project is a specialized machine learning framework for distributed training rather than a developer-facing
+        AI coding tool.
       decision_evidence:
         - Repo description defines it as an 'Industrial Grade Federated Learning Framework'
         - README focuses on secure computation, homomorphic encryption, and MPC
-        - Does not provide developer-centric AI assistance, code generation, or workflow orchestration for software development
+        - >-
+          Does not provide developer-centric AI assistance, code generation, or workflow orchestration for software
+          development
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__edubase__net__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,13 @@ provenance:
           - Official Servers
         anchor_text: EduBase
         extracted_url: https://edubase.net
-        surrounding_text: "- **[EduBase](https://github.com/EduBase/MCP)** - Interact with [EduBase](https://www.edubase.net), a comprehensive e-learning platform with advanced quizzing, exam management, and content organization capabilities"
+        surrounding_text: >-
+          - **[EduBase](https://github.com/EduBase/MCP)** - Interact with [EduBase](https://www.edubase.net), a
+          comprehensive e-learning platform with advanced quizzing, exam management, and content organization
+          capabilities
         confidence: high
     - id: discovery__www__edubase__net__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +36,10 @@ provenance:
           - Official Servers
         anchor_text: EduBase
         extracted_url: https://www.edubase.net
-        surrounding_text: "- **[EduBase](https://github.com/EduBase/MCP)** - Interact with [EduBase](https://www.edubase.net), a comprehensive e-learning platform with advanced quizzing, exam management, and content organization capabilities"
+        surrounding_text: >-
+          - **[EduBase](https://github.com/EduBase/MCP)** - Interact with [EduBase](https://www.edubase.net), a
+          comprehensive e-learning platform with advanced quizzing, exam management, and content organization
+          capabilities
         confidence: high
 metadata:
   github:
@@ -51,9 +57,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: EduBase is an all-in-one online learning and testing platform for creating quizzes, exams, courses, and managing competency for businesses and schools.
-  why_it_matters: It helps organizations automate compliance training and assessment with AI-assisted question generation, anti-cheating measures, and audit-ready reporting.
-  mental_damage: Another AI-powered LMS trying to convince you that uploading your old PowerPoints now constitutes 'digital transformation'.
+  summary: >-
+    EduBase is an all-in-one online learning and testing platform for creating quizzes, exams, courses, and managing
+    competency for businesses and schools.
+  why_it_matters: >-
+    It helps organizations automate compliance training and assessment with AI-assisted question generation,
+    anti-cheating measures, and audit-ready reporting.
+  mental_damage: >-
+    Another AI-powered LMS trying to convince you that uploading your old PowerPoints now constitutes 'digital
+    transformation'.
   tags:
     - lms
     - assessment
@@ -61,7 +73,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: EduBase is a general-purpose learning management system with AI-assisted quiz generation as a feature, not a developer-facing AI tool for coding, agents, or workflow automation.
+  reason: >-
+    EduBase is a general-purpose learning management system with AI-assisted quiz generation as a feature, not a
+    developer-facing AI tool for coding, agents, or workflow automation.
   evidence:
     - Primary product is an online learning and testing system for quizzes, exams, courses, and competency management
     - AI Assistant is an add-on for generating quiz questions from documents, not a core coding agent or developer tool
@@ -70,12 +84,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:52:19.989Z"
+    updated_at: '2026-09-28T04:52:19.989Z'
     cause: null
     next_retry_at: null
     attempts: 5
@@ -88,10 +102,16 @@ processing:
       input_hash: sha256:fc2507168fde287d930cc41d09faaa69ec8dda0780b2257f43c1d3fa7e7d8661
       proposed_primary_category: null
       disagreement: false
-      decision_reason: EduBase is a general-purpose learning management system with AI-assisted quiz generation as a feature, not a developer-facing AI tool for coding, agents, or workflow automation.
+      decision_reason: >-
+        EduBase is a general-purpose learning management system with AI-assisted quiz generation as a feature, not a
+        developer-facing AI tool for coding, agents, or workflow automation.
       decision_evidence:
-        - Primary product is an online learning and testing system for quizzes, exams, courses, and competency management
-        - AI Assistant is an add-on for generating quiz questions from documents, not a core coding agent or developer tool
+        - >-
+          Primary product is an online learning and testing system for quizzes, exams, courses, and competency
+          management
+        - >-
+          AI Assistant is an add-on for generating quiz questions from documents, not a core coding agent or developer
+          tool
         - Listed in awesome-mcp-servers as an MCP server, but MCP is a compatibility feature, not the product identity
       category_candidates: []
       contrastive_reason: null
@@ -99,7 +119,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.965Z"
+    updated_at: '2026-07-21T15:20:21.965Z'
     cause: null
     next_retry_at: null
   stars:

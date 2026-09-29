@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__about__gitlab__com__gitlab__duo__agent__platform__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - GitLab Duo
         anchor_text: GitLab Duo
         extracted_url: https://about.gitlab.com/gitlab-duo
-        surrounding_text: "## [GitLab Duo](https://about.gitlab.com/gitlab-duo/)"
+        surrounding_text: '## [GitLab Duo](https://about.gitlab.com/gitlab-duo/)'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GitLab Duo Agent Platform is an enterprise-grade platform for creating, orchestrating, and governing specialized AI agents and workflows across the software development lifecycle using GitLab context.
-  why_it_matters: It enables developers and teams to automate DevSecOps tasks like code reviews, security analysis, and CI/CD debugging with AI agents that operate within GitLab's permission and transparency model.
+  summary: >-
+    GitLab Duo Agent Platform is an enterprise-grade platform for creating, orchestrating, and governing specialized AI
+    agents and workflows across the software development lifecycle using GitLab context.
+  why_it_matters: >-
+    It enables developers and teams to automate DevSecOps tasks like code reviews, security analysis, and CI/CD
+    debugging with AI agents that operate within GitLab's permission and transparency model.
   mental_damage: Finally, a way to feel productive while outsourcing your job to agents that need their own agents to manage.
   tags:
     - ai-agents
@@ -47,7 +51,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The platform's core identity is coordinating multiple specialized agents (planning, coding, security, etc.) via flows and a centralized catalog, making it an agent orchestration platform rather than a coding agent or extension.
+  reason: >-
+    The platform's core identity is coordinating multiple specialized agents (planning, coding, security, etc.) via
+    flows and a centralized catalog, making it an agent orchestration platform rather than a coding agent or extension.
   evidence:
     - Specialized agents for planning, coding, security, and deployment with enterprise governance
     - Use flows to combine one or more agents into guided sequences that automate manual steps
@@ -57,12 +63,12 @@ placement:
   secondary_categories: []
   section: Domain & Enterprise Platforms
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:53:01.678Z"
+    updated_at: '2026-09-28T04:53:01.678Z'
     cause: null
     attempts: 5
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +90,10 @@ processing:
       input_hash: sha256:ec0c53b3f5dbf6c11ee99771414d3dfd16561bda7fcca03f8b53773d9fafd213
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The platform's core identity is coordinating multiple specialized agents (planning, coding, security, etc.) via flows and a centralized catalog, making it an agent orchestration platform rather than a coding agent or extension.
+      decision_reason: >-
+        The platform's core identity is coordinating multiple specialized agents (planning, coding, security, etc.) via
+        flows and a centralized catalog, making it an agent orchestration platform rather than a coding agent or
+        extension.
       decision_evidence:
         - Specialized agents for planning, coding, security, and deployment with enterprise governance
         - Use flows to combine one or more agents into guided sequences that automate manual steps
@@ -92,6 +101,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because the product manages multiple agents and workflows as a control plane, rather than acting as a primary coding assistant itself.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because the product manages multiple agents and workflows as a
+        control plane, rather than acting as a primary coding assistant itself.
       review_reason: null
       review_resume_lifecycle: null

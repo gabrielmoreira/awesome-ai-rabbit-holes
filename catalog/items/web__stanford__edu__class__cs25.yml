@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__web__stanford__edu__class__cs25__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: "斯坦福 CS25: Transformers United V4"
+        anchor_text: '斯坦福 CS25: Transformers United V4'
         extracted_url: https://web.stanford.edu/class/cs25
-        surrounding_text: "10. [斯坦福 CS25: Transformers United V4](https://web.stanford.edu/class/cs25/)"
+        surrounding_text: '10. [斯坦福 CS25: Transformers United V4](https://web.stanford.edu/class/cs25/)'
         confidence: high
 metadata:
   github:
@@ -38,7 +38,9 @@ metadata:
 insights:
   summary: CS25 is a Stanford seminar course on Transformers research featuring lectures from top AI researchers.
   why_it_matters: Provides developers with access to cutting-edge Transformer research talks that can inform AI engineering work.
-  mental_damage: Watching yet another AI lecture series while your PRs rot and your local LLM keeps hallucinating about your codebase.
+  mental_damage: >-
+    Watching yet another AI lecture series while your PRs rot and your local LLM keeps hallucinating about your
+    codebase.
   tags:
     - education
     - research
@@ -46,21 +48,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: CS25 is an educational course and lecture series, not a developer-facing AI tool, agent, workflow, or infrastructure product.
+  reason: >-
+    CS25 is an educational course and lecture series, not a developer-facing AI tool, agent, workflow, or infrastructure
+    product.
   evidence:
-    - Scraped site context describes CS25 as 'one of Stanford's hottest seminar courses' featuring talks from researchers like Geoffrey Hinton and Andrej Karpathy
-    - Source-list context shows it appears in 'awesome-LLM-resources' under the '课程 Course' section as an educational resource
-    - Primary page excerpt emphasizes weekly attendance to talks/lectures as the only homework, with no mention of developer tooling, code generation, or AI agent functionality
+    - >-
+      Scraped site context describes CS25 as 'one of Stanford's hottest seminar courses' featuring talks from
+      researchers like Geoffrey Hinton and Andrej Karpathy
+    - >-
+      Source-list context shows it appears in 'awesome-LLM-resources' under the '课程 Course' section as an educational
+      resource
+    - >-
+      Primary page excerpt emphasizes weekly attendance to talks/lectures as the only homework, with no mention of
+      developer tooling, code generation, or AI agent functionality
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:49:28.986Z"
+    updated_at: '2026-09-28T04:49:28.986Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,11 +92,19 @@ processing:
       input_hash: sha256:2c9eaa1c87d6306a41e8bc31b890278aab07a24ab651d2db6f7d2228e244df93
       proposed_primary_category: null
       disagreement: false
-      decision_reason: CS25 is an educational course and lecture series, not a developer-facing AI tool, agent, workflow, or infrastructure product.
+      decision_reason: >-
+        CS25 is an educational course and lecture series, not a developer-facing AI tool, agent, workflow, or
+        infrastructure product.
       decision_evidence:
-        - Scraped site context describes CS25 as 'one of Stanford's hottest seminar courses' featuring talks from researchers like Geoffrey Hinton and Andrej Karpathy
-        - Source-list context shows it appears in 'awesome-LLM-resources' under the '课程 Course' section as an educational resource
-        - Primary page excerpt emphasizes weekly attendance to talks/lectures as the only homework, with no mention of developer tooling, code generation, or AI agent functionality
+        - >-
+          Scraped site context describes CS25 as 'one of Stanford's hottest seminar courses' featuring talks from
+          researchers like Geoffrey Hinton and Andrej Karpathy
+        - >-
+          Source-list context shows it appears in 'awesome-LLM-resources' under the '课程 Course' section as an
+          educational resource
+        - >-
+          Primary page excerpt emphasizes weekly attendance to talks/lectures as the only homework, with no mention of
+          developer tooling, code generation, or AI agent functionality
       category_candidates: []
       contrastive_reason: null
       review_reason: null

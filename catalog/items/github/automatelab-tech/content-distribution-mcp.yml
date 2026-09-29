@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__automatelab-tech__content-distribution-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: AutomateLab-tech/content-distribution-mcp
         extracted_url: https://github.com/automatelab-tech/content-distribution-mcp
-        surrounding_text: "- [AutomateLab-tech/content-distribution-mcp](https://github.com/AutomateLab-tech/content-distribution-mcp) [![AutomateLab-tech/content-distribution-mcp MCP server](https://glama.ai/mcp/servers/AutomateLab-tech/content-distribution-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AutomateLab-tech/content-distribution-mcp) 📇 ☁️ 🏠 - Publish one piece of content to DEV.to, Hashnode, GitHub Discussions, Reddit, Bluesky, LinkedIn, Medium and Twitter with idempotent state and per-platform adaptation."
+        surrounding_text: >-
+          - [AutomateLab-tech/content-distribution-mcp](https://github.com/AutomateLab-tech/content-distribution-mcp)
+          [![AutomateLab-tech/content-distribution-mcp MCP
+          server](https://glama.ai/mcp/servers/AutomateLab-tech/content-distribution-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AutomateLab-tech/content-distribution-mcp)
+          📇 ☁️ 🏠 - Publish one piece of content to DEV.to, Hashnode, GitHub Discussions, Reddit, Bluesky, LinkedIn,
+          Medium and Twitter with idempotent state and per-platform adaptation.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: AutomateLab-tech/content-distribution-mcp
     html_url: https://github.com/AutomateLab-tech/content-distribution-mcp
-    created_at: "2026-05-19T16:21:37Z"
-    pushed_at: "2026-06-08T11:02:13Z"
-    description: Multi-channel content distribution MCP server with idempotent state. Auto-publish to DEV.to, Hashnode, GitHub Discussions, Reddit, Bluesky; browser-fallback for Medium, LinkedIn, X/Twitter.
+    created_at: '2026-05-19T16:21:37Z'
+    pushed_at: '2026-06-08T11:02:13Z'
+    description: >-
+      Multi-channel content distribution MCP server with idempotent state. Auto-publish to DEV.to, Hashnode, GitHub
+      Discussions, Reddit, Bluesky; browser-fallback for Medium, LinkedIn, X/Twitter.
     homepage: https://automatelab.tech/products/mcp/content-distribution-mcp/
     topics:
       - ai-agents
@@ -50,14 +57,20 @@ metadata:
       - python
       - reddit
       - twitter
-    last_checked_at: "2026-09-21T04:13:50.861Z"
+    last_checked_at: '2026-09-21T04:13:50.861Z'
     readme:
-      fetched_at: "2026-09-21T04:13:50.861Z"
+      fetched_at: '2026-09-21T04:13:50.861Z'
       bytes: 7499
 insights:
-  summary: An MCP server that automates multi-channel content distribution across platforms like DEV.to, Reddit, and Bluesky using idempotent publishing and platform-specific adaptation.
-  why_it_matters: It enables developers to leverage coding agents to manage and schedule technical content distribution across multiple social channels without manual formatting or state tracking.
-  mental_damage: Because why just write the code when you can automate the existential dread of social media presence directly from your terminal?
+  summary: >-
+    An MCP server that automates multi-channel content distribution across platforms like DEV.to, Reddit, and Bluesky
+    using idempotent publishing and platform-specific adaptation.
+  why_it_matters: >-
+    It enables developers to leverage coding agents to manage and schedule technical content distribution across
+    multiple social channels without manual formatting or state tracking.
+  mental_damage: >-
+    Because why just write the code when you can automate the existential dread of social media presence directly from
+    your terminal?
   tags:
     - mcp
     - automation
@@ -77,22 +90,22 @@ placement:
   secondary_categories: []
   section: Communication, Files & Productivity
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.818Z"
+    updated_at: '2026-05-28T05:28:09.818Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:50.861Z"
+    updated_at: '2026-09-21T04:13:50.861Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:28:17.430Z"
+    updated_at: '2026-09-21T04:28:17.430Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -105,14 +118,20 @@ processing:
       input_hash: sha256:674f73da416bc7df47fda1d0bb857bd0cfcd446afbc0b7b3c2b7bafcdc14f90c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's primary identity is an MCP server designed to expose a set of content distribution tools to AI agents.
+      decision_reason: >-
+        The product's primary identity is an MCP server designed to expose a set of content distribution tools to AI
+        agents.
       decision_evidence:
         - README explicitly defines the project as an 'MCP server' that provides a tool surface for agents.
-        - Installation and configuration are centered entirely around the Model Context Protocol (e.g., .claude/mcp.json).
+        - >-
+          Installation and configuration are centered entirely around the Model Context Protocol (e.g.,
+          .claude/mcp.json).
         - The core functionality is exposed via MCP-specific tool definitions like post_publish and channel_hints.
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because its primary identity is an MCP server exposing tools via the protocol rather than a host-specific plugin for a single editor or agent.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because its primary identity is an MCP server exposing tools via the
+        protocol rather than a host-specific plugin for a single editor or agent.
       review_reason: null
       review_resume_lifecycle: null

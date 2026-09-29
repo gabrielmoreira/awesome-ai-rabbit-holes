@@ -1,0 +1,79 @@
+id: github__morriszj__anyjev
+kind: github-repo
+name: morriszj/anyjev
+canonical_url: https://github.com/morriszj/anyjev
+identity:
+  github_repo: morriszj/anyjev
+provenance:
+  discoveries:
+    - id: discovery__github__morriszj__anyjev__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Open reproductions and research
+        anchor_text: AnyJev
+        extracted_url: https://github.com/morriszj/anyjev
+        surrounding_text: >-
+          - [AnyJev](https://github.com/MorrisZJ/AnyJev) - Library that turns any open transformers or vLLM model into a
+          Jev-style Choice/Score/Noul decision from one prefill with no training, using cyclic-shift marginalization and
+          a label-free prior estimate to reduce option-order sensitivity; every result is labeled raw, L0 or L1 by the
+          debiasing and calibration it carries, and the committed bench reports order-flip rate, Brier and ECE on its
+          own task set.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    AnyJev - Library that turns any open transformers or vLLM model into a Jev-style Choice/Score/Noul decision from one
+    prefill with no training, using cyclic-shift marginalization and a label-free prior estimate to reduce option-order
+    sensitivity; every result is labeled raw, L0 or L1 by the debiasing and calibration it carries, and the committed
+    bench reports order-flip rate, Brier and ECE on its own task set.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.48
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.469Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

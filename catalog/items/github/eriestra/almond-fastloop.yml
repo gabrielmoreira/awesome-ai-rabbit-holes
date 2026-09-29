@@ -1,0 +1,79 @@
+id: github__eriestra__almond-fastloop
+kind: github-repo
+name: eriestra/almond-fastloop
+canonical_url: https://github.com/eriestra/almond-fastloop
+identity:
+  github_repo: eriestra/almond-fastloop
+provenance:
+  discoveries:
+    - id: discovery__github__eriestra__almond-fastloop__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Browser & computer use (75)
+        anchor_text: almond-fastloop
+        extracted_url: https://github.com/eriestra/almond-fastloop
+        surrounding_text: >-
+          | [almond-fastloop](https://github.com/eriestra/almond-fastloop) | ★ 1 | HTML | 2026-09-19 | Almond-fastloop:
+          Almond's browser computer-use rig (Chrome DevTools + TypeSafe Jev), and the Browser Use Olympics benchmark it
+          is measured on. |
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Almond-fastloop: Almond's browser computer-use rig (Chrome DevTools + TypeSafe Jev), and the Browser Use Olympics
+    benchmark it is measured on.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Browser & Computer Use
+  evidence:
+    - jev-latest choice confidence 0.50
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Browser & Computer Use
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.456Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: failed
+    updated_at: '2026-09-29T13:11:03.768Z'
+    cause:
+      type: github_repo_missing
+      message: 'GitHub repository not found: eriestra/almond-fastloop'
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

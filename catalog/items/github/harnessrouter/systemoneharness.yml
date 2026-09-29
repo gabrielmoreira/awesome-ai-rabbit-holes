@@ -1,0 +1,102 @@
+id: github__harnessrouter__systemoneharness
+kind: github-repo
+name: harnessrouter/systemoneharness
+canonical_url: https://github.com/harnessrouter/systemoneharness
+identity:
+  github_repo: harnessrouter/systemoneharness
+provenance:
+  discoveries:
+    - id: discovery__github__harnessrouter__systemoneharness__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: System One Harness
+        extracted_url: https://github.com/harnessrouter/systemoneharness
+        surrounding_text: >-
+          - [System One Harness](https://github.com/HarnessRouter/SystemOneHarness) - Python controller: finite-action
+          agent loops with TypeSafe Jev (OpenRouter or TypeSafe), confidence gates, and step traces. [Project
+          guide](community/projects/tools/systemone-harness.md).
+        confidence: high
+    - id: discovery__github__harnessrouter__systemoneharness__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Evaluation & Benchmarking
+        anchor_text: SystemOneHarness
+        extracted_url: https://github.com/harnessrouter/systemoneharness
+        surrounding_text: >-
+          - [SystemOneHarness](https://github.com/HarnessRouter/SystemOneHarness) ![type:
+          cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square)
+          ![stars](https://img.shields.io/github/stars/HarnessRouter/SystemOneHarness?style=flat-square&label=%E2%98%85)
+          - Model evaluation: execution harness and dual-loop test framework that compiles goals, browser environments,
+          and MCP servers into bounded System One reflexes, evaluating Jev against deterministic baselines.
+        confidence: high
+metadata:
+  github:
+    stars: 183
+    forks: 14
+    license: Apache-2.0
+    archived: false
+    full_name: HarnessRouter/SystemOneHarness
+    html_url: https://github.com/HarnessRouter/SystemOneHarness
+    created_at: '2026-09-19T21:52:18Z'
+    pushed_at: '2026-09-21T11:01:24Z'
+    description: >-
+      The System One harness for System One models. Run Jev and other System One models locally or directly on
+      HarnessRouter.ai.
+    homepage: HarnessRouter.ai
+    topics:
+      - harness
+      - harness-engineering
+      - system-one-harness
+      - system-one-models
+    last_checked_at: '2026-09-29T13:11:58.904Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:58.904Z'
+      bytes: 13452
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: Stars (183) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.414Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:58.904Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

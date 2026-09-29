@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__devart__com__dbforge__ai__assistant__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Database and API Tools
         anchor_text: dbForge AI Assistant
         extracted_url: https://devart.com/dbforge/ai-assistant
-        surrounding_text: "- **[dbForge AI Assistant](https://www.devart.com/dbforge/ai-assistant/)** – AI-powered SQL code generation and optimization."
+        surrounding_text: >-
+          - **[dbForge AI Assistant](https://www.devart.com/dbforge/ai-assistant/)** – AI-powered SQL code generation
+          and optimization.
         confidence: high
     - id: discovery__www__devart__com__dbforge__ai__assistant__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +35,9 @@ provenance:
           - Database and API Tools
         anchor_text: dbForge AI Assistant
         extracted_url: https://www.devart.com/dbforge/ai-assistant
-        surrounding_text: "- **[dbForge AI Assistant](https://www.devart.com/dbforge/ai-assistant/)** – AI-powered SQL code generation and optimization."
+        surrounding_text: >-
+          - **[dbForge AI Assistant](https://www.devart.com/dbforge/ai-assistant/)** – AI-powered SQL code generation
+          and optimization.
         confidence: high
 metadata:
   github:
@@ -51,9 +55,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: dbForge AI Assistant is an AI-powered tool integrated into dbForge database IDEs for generating, optimizing, explaining, and troubleshooting SQL queries using natural language.
-  why_it_matters: It reduces manual SQL writing and debugging time by providing AI-assisted query generation and optimization directly within database development tools.
-  mental_damage: Another niche SQL assistant that promises 2x-4x productivity gains while locking you into a proprietary IDE ecosystem you may already regret adopting.
+  summary: >-
+    dbForge AI Assistant is an AI-powered tool integrated into dbForge database IDEs for generating, optimizing,
+    explaining, and troubleshooting SQL queries using natural language.
+  why_it_matters: >-
+    It reduces manual SQL writing and debugging time by providing AI-assisted query generation and optimization directly
+    within database development tools.
+  mental_damage: >-
+    Another niche SQL assistant that promises 2x-4x productivity gains while locking you into a proprietary IDE
+    ecosystem you may already regret adopting.
   tags:
     - sql
     - ai-assistant
@@ -61,21 +71,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: dbForge AI Assistant is not a standalone coding agent but a feature embedded within dbForge IDEs, making it an extension of those tools rather than a primary coding assistant; its identity is subsumed by the host product.
+  reason: >-
+    dbForge AI Assistant is not a standalone coding agent but a feature embedded within dbForge IDEs, making it an
+    extension of those tools rather than a primary coding assistant; its identity is subsumed by the host product.
   evidence:
-    - dbForge AI Assistant integrates with various dbForge products, from all-in-one IDEs to specialized database applications
+    - >-
+      dbForge AI Assistant integrates with various dbForge products, from all-in-one IDEs to specialized database
+      applications
     - The Assistant is an integrated feature of dbForge products and is not available as a standalone application
-    - Appears in awesome-ai-coding-tools under 'Database and API Tools', indicating it is positioned as a database tool enhancement, not a general coding agent
+    - >-
+      Appears in awesome-ai-coding-tools under 'Database and API Tools', indicating it is positioned as a database tool
+      enhancement, not a general coding agent
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:40:42.737Z"
+    updated_at: '2026-09-28T04:40:42.737Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,18 +104,24 @@ processing:
       input_hash: sha256:92e986267e4bbcf77e73306a3d06e8e822c6d04a30873644076e23f4306c839d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: dbForge AI Assistant is not a standalone coding agent but a feature embedded within dbForge IDEs, making it an extension of those tools rather than a primary coding assistant; its identity is subsumed by the host product.
+      decision_reason: >-
+        dbForge AI Assistant is not a standalone coding agent but a feature embedded within dbForge IDEs, making it an
+        extension of those tools rather than a primary coding assistant; its identity is subsumed by the host product.
       decision_evidence:
-        - dbForge AI Assistant integrates with various dbForge products, from all-in-one IDEs to specialized database applications
+        - >-
+          dbForge AI Assistant integrates with various dbForge products, from all-in-one IDEs to specialized database
+          applications
         - The Assistant is an integrated feature of dbForge products and is not available as a standalone application
-        - Appears in awesome-ai-coding-tools under 'Database and API Tools', indicating it is positioned as a database tool enhancement, not a general coding agent
+        - >-
+          Appears in awesome-ai-coding-tools under 'Database and API Tools', indicating it is positioned as a database
+          tool enhancement, not a general coding agent
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.965Z"
+    updated_at: '2026-07-21T15:20:21.965Z'
     cause: null
     next_retry_at: null
   stars:

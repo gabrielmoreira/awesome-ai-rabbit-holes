@@ -68,7 +68,7 @@ function makeItem(options: {
     },
     curation: { status: "pending", reason: null, evidence: [] },
     placement: { primary_category: null, section: null },
-    lifecycle: { status: "incubating", reason: null },
+    lifecycle: { status: "curated", reason: null },
     processing: options.processing ?? {
       discover: { status: "done", updated_at: "2026-07-16T00:00:00.000Z", cause: null },
       stars: { status: options.githubRepo ? "done" : "skipped", updated_at: "2026-07-16T00:00:00.000Z", cause: null },

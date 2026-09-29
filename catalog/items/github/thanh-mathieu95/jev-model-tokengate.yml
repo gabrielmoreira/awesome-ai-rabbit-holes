@@ -1,0 +1,113 @@
+id: github__thanh-mathieu95__jev-model-tokengate
+kind: github-repo
+name: thanh-mathieu95/jev-model-tokengate
+canonical_url: https://github.com/thanh-mathieu95/jev-model-tokengate
+identity:
+  github_repo: thanh-mathieu95/jev-model-tokengate
+provenance:
+  discoveries:
+    - id: discovery__github__thanh-mathieu95__jev-model-tokengate__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: jev-model-tokengate
+        extracted_url: https://github.com/thanh-mathieu95/jev-model-tokengate
+        surrounding_text: >-
+          - [jev-model-tokengate](https://github.com/Thanh-Mathieu95/jev-model-tokengate) - An OpenAI-compatible proxy
+          that sits between your LLM and your users. It evaluates each sliding window of tokens while the response is
+          still streaming and cuts the stream before a violating token can reach the screen.
+        confidence: high
+    - id: discovery__github__thanh-mathieu95__jev-model-tokengate__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: tokengate (jev-model-tokengate)
+        extracted_url: https://github.com/thanh-mathieu95/jev-model-tokengate
+        surrounding_text: >-
+          - [tokengate (jev-model-tokengate)](https://github.com/Thanh-Mathieu95/jev-model-tokengate) - Streaming
+          OpenAI-compatible proxy that buffers tokens and runs TypeSafe Jev safety criteria before release, aiming for
+          zero UI leakage vs post-hoc redaction. [Project guide](community/projects/tools/jev-model-tokengate.md).
+        confidence: high
+    - id: discovery__github__thanh-mathieu95__jev-model-tokengate__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Security & Guardrails
+        anchor_text: '**jev-model-tokengate**'
+        extracted_url: https://github.com/thanh-mathieu95/jev-model-tokengate
+        surrounding_text: >-
+          - [**jev-model-tokengate**](https://github.com/Thanh-Mathieu95/jev-model-tokengate) — An OpenAI-compatible
+          proxy that sits between your LLM and your users. It evaluates each sliding window of tokens \*\*while the
+          response is still streaming\*\* and cuts the stream \*\*before\*\* a violating token can reach the screen.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    jev-model-tokengate - An OpenAI-compatible proxy that sits between your LLM and your users. It evaluates each
+    sliding window of tokens while the response is still streaming and cuts the stream before a violating token can
+    reach the screen.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.67
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.405Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

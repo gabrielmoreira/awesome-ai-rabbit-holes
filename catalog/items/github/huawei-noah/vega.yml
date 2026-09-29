@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huawei-noah__vega__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,11 @@ provenance:
           - AutoML
         anchor_text: Vegas
         extracted_url: https://github.com/huawei-noah/vega
-        surrounding_text: "| [Vegas](https://github.com/huawei-noah/vega)                                 | an AutoML algorithm tool chain by Huawei Noah's Arb Lab.                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/huawei-noah/vega.svg?style=flat-square)                |"
+        surrounding_text: >-
+          | [Vegas](https://github.com/huawei-noah/vega)                                 | an AutoML algorithm tool
+          chain by Huawei Noah's Arb
+          Lab.                                                                                                                       
+          | ![GitHub Badge](https://img.shields.io/github/stars/huawei-noah/vega.svg?style=flat-square)                |
         confidence: high
 metadata:
   github:
@@ -29,19 +33,25 @@ metadata:
     archived: false
     full_name: huawei-noah/vega
     html_url: https://github.com/huawei-noah/vega
-    created_at: "2020-06-20T08:20:06Z"
-    pushed_at: "2023-02-15T09:36:59Z"
+    created_at: '2020-06-20T08:20:06Z'
+    pushed_at: '2023-02-15T09:36:59Z'
     description: AutoML tools chain
     homepage: http://www.noahlab.com.hk/opensource/vega/
     topics: []
-    last_checked_at: "2026-07-30T05:05:39.012Z"
+    last_checked_at: '2026-07-30T05:05:39.012Z'
     readme:
-      fetched_at: "2026-07-30T05:05:39.012Z"
+      fetched_at: '2026-07-30T05:05:39.012Z'
       bytes: 8823
 insights:
-  summary: Vega is an AutoML algorithm toolchain for hyperparameter optimization, neural architecture search, model compression, and data augmentation.
-  why_it_matters: It provides a full pipeline for automated machine learning tasks, including NAS, HPO, and model compression, with multi-backend support for PyTorch, TensorFlow, and MindSpore.
-  mental_damage: Because nothing says 'modern development' like spending your day tuning neural architectures instead of writing code.
+  summary: >-
+    Vega is an AutoML algorithm toolchain for hyperparameter optimization, neural architecture search, model
+    compression, and data augmentation.
+  why_it_matters: >-
+    It provides a full pipeline for automated machine learning tasks, including NAS, HPO, and model compression, with
+    multi-backend support for PyTorch, TensorFlow, and MindSpore.
+  mental_damage: >-
+    Because nothing says 'modern development' like spending your day tuning neural architectures instead of writing
+    code.
   tags:
     - automl
     - nas
@@ -51,7 +61,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a research-oriented AutoML toolchain focused on neural architecture search and model optimization, not a developer-facing AI tool for coding workflows.
+  reason: >-
+    This is a research-oriented AutoML toolchain focused on neural architecture search and model optimization, not a
+    developer-facing AI tool for coding workflows.
   evidence:
     - Repo description explicitly states it is an AutoML tools chain
     - README emphasizes NAS, HPO, and model compression algorithms rather than developer tooling
@@ -60,22 +72,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (851) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:39.012Z"
+    updated_at: '2026-07-30T05:05:39.012Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -90,7 +102,9 @@ processing:
       input_hash: sha256:8015c2fba3d36076035992cf2334cf6d427a0e34494087078bdd8bb3bb381ea7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a research-oriented AutoML toolchain focused on neural architecture search and model optimization, not a developer-facing AI tool for coding workflows.
+      decision_reason: >-
+        This is a research-oriented AutoML toolchain focused on neural architecture search and model optimization, not a
+        developer-facing AI tool for coding workflows.
       decision_evidence:
         - Repo description explicitly states it is an AutoML tools chain
         - README emphasizes NAS, HPO, and model compression algorithms rather than developer tooling

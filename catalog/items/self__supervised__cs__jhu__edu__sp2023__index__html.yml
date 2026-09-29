@@ -5,8 +5,9 @@ canonical_url: https://self-supervised.cs.jhu.edu/sp2023/index.html
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__self__supervised__cs__jhu__edu__sp2023__index__html__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__self__supervised__cs__jhu__edu__sp2023__index__html__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: "约翰霍普金斯 CS 601.471/671 NLP: Self-supervised Models"
+        anchor_text: '约翰霍普金斯 CS 601.471/671 NLP: Self-supervised Models'
         extracted_url: https://self-supervised.cs.jhu.edu/sp2023/index.html
-        surrounding_text: "13. [约翰霍普金斯 CS 601.471/671 NLP: Self-supervised Models](https://self-supervised.cs.jhu.edu/sp2023/index.html)"
+        surrounding_text: '13. [约翰霍普金斯 CS 601.471/671 NLP: Self-supervised Models](https://self-supervised.cs.jhu.edu/sp2023/index.html)'
         confidence: high
 metadata:
   github:
@@ -37,8 +38,12 @@ metadata:
     readme: null
 insights:
   summary: A Johns Hopkins University course on self-supervised learning techniques for NLP applications using PyTorch.
-  why_it_matters: Provides structured learning materials for developers seeking to understand and implement self-supervised models in NLP.
-  mental_damage: Another academic syllabus masquerading as a tool, promising enlightenment while delivering only slides and assignment deadlines.
+  why_it_matters: >-
+    Provides structured learning materials for developers seeking to understand and implement self-supervised models in
+    NLP.
+  mental_damage: >-
+    Another academic syllabus masquerading as a tool, promising enlightenment while delivering only slides and
+    assignment deadlines.
   tags:
     - education
     - nlp
@@ -46,24 +51,34 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is an academic course website with syllabi, assignments, and lecture materials — not a developer-facing AI tool, agent, framework, or infrastructure product.
+  reason: >-
+    This is an academic course website with syllabi, assignments, and lecture materials — not a developer-facing AI
+    tool, agent, framework, or infrastructure product.
   evidence:
-    - Scraped site context shows it is a Johns Hopkins University course (CS 601.471/671) from Spring 2023 with lectures, assignments, and a final project
-    - README excerpt and primary page content detail course logistics, grading, topics like Word2vec, Transformers, and prompt engineering — all educational in nature
-    - No claims of being a tool, agent, library, or platform for developers to use in workflows; it is purely instructional material
+    - >-
+      Scraped site context shows it is a Johns Hopkins University course (CS 601.471/671) from Spring 2023 with
+      lectures, assignments, and a final project
+    - >-
+      README excerpt and primary page content detail course logistics, grading, topics like Word2vec, Transformers, and
+      prompt engineering — all educational in nature
+    - >-
+      No claims of being a tool, agent, library, or platform for developers to use in workflows; it is purely
+      instructional material
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -71,7 +86,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:37:05.687Z"
+    updated_at: '2026-09-28T04:37:05.687Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,11 +99,19 @@ processing:
       input_hash: sha256:748c32aaf638ca8db366695b22bc3d284f58b92f91483e57b2334d47362b724c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an academic course website with syllabi, assignments, and lecture materials — not a developer-facing AI tool, agent, framework, or infrastructure product.
+      decision_reason: >-
+        This is an academic course website with syllabi, assignments, and lecture materials — not a developer-facing AI
+        tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - Scraped site context shows it is a Johns Hopkins University course (CS 601.471/671) from Spring 2023 with lectures, assignments, and a final project
-        - README excerpt and primary page content detail course logistics, grading, topics like Word2vec, Transformers, and prompt engineering — all educational in nature
-        - No claims of being a tool, agent, library, or platform for developers to use in workflows; it is purely instructional material
+        - >-
+          Scraped site context shows it is a Johns Hopkins University course (CS 601.471/671) from Spring 2023 with
+          lectures, assignments, and a final project
+        - >-
+          README excerpt and primary page content detail course logistics, grading, topics like Word2vec, Transformers,
+          and prompt engineering — all educational in nature
+        - >-
+          No claims of being a tool, agent, library, or platform for developers to use in workflows; it is purely
+          instructional material
       category_candidates: []
       contrastive_reason: null
       review_reason: null

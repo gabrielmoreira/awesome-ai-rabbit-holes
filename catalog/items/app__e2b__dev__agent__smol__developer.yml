@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__app__e2b__dev__agent__smol__developer__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,9 @@ provenance:
           - Description
         anchor_text: Deployed in few seconds via e2b
         extracted_url: https://app.e2b.dev/agent/smol-developer
-        surrounding_text: Smol is your own junior developer. [Deployed in few seconds via e2b](https://app.e2b.dev/agent/smol-developer/?utm_source=awesome-ai-agents)
+        surrounding_text: >-
+          Smol is your own junior developer. [Deployed in few seconds via
+          e2b](https://app.e2b.dev/agent/smol-developer/?utm_source=awesome-ai-agents)
         confidence: high
 metadata:
   github:
@@ -38,8 +40,12 @@ metadata:
     readme: null
 insights:
   summary: An autonomous AI software engineer that uses E2B sandboxed environments to plan, write, and execute code.
-  why_it_matters: It provides a sandboxed execution environment for agents to actually run and test the code they write, reducing the risk of local system corruption.
-  mental_damage: At least you can rest easy knowing your autonomous agent is breaking things in a sandbox instead of on your actual machine.
+  why_it_matters: >-
+    It provides a sandboxed execution environment for agents to actually run and test the code they write, reducing the
+    risk of local system corruption.
+  mental_damage: >-
+    At least you can rest easy knowing your autonomous agent is breaking things in a sandbox instead of on your actual
+    machine.
   tags:
     - agent
     - sandbox
@@ -48,7 +54,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool acts as a standalone autonomous developer that plans and executes tasks, fitting the primary identity of a coding agent.
+  reason: >-
+    The tool acts as a standalone autonomous developer that plans and executes tasks, fitting the primary identity of a
+    coding agent.
   evidence:
     - URL points to an agent hosted on E2B
     - Listed in awesome-ai-agents under 'autonomous agents'
@@ -56,12 +64,12 @@ placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,10 +78,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:34:15.870Z"
+    updated_at: '2026-09-24T04:34:15.870Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for app__e2b__dev__agent__smol__developer: Invalid AI response structure: Invalid confidence value: undefined"
+      message: >-
+        Catalog LLM categorization failed for app__e2b__dev__agent__smol__developer: Invalid AI response structure:
+        Invalid confidence value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -85,13 +95,17 @@ processing:
       input_hash: sha256:3c0d0538466670d0e5800af45ef7a4d2768fbb9df947a87c2ecc6cecdfb32c54
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The tool acts as a standalone autonomous developer that plans and executes tasks, fitting the primary identity of a coding agent.
+      decision_reason: >-
+        The tool acts as a standalone autonomous developer that plans and executes tasks, fitting the primary identity
+        of a coding agent.
       decision_evidence:
         - URL points to an agent hosted on E2B
         - Listed in awesome-ai-agents under 'autonomous agents'
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the product is positioned as a specific agentic developer rather than a platform for managing multiple different agents.
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because the product is positioned as a specific agentic developer
+        rather than a platform for managing multiple different agents.
       review_reason: null
       review_resume_lifecycle: null

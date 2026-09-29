@@ -1,0 +1,79 @@
+id: github__dark-hxx__jev-safety-gateway
+kind: github-repo
+name: dark-hxx/jev-safety-gateway
+canonical_url: https://github.com/dark-hxx/jev-safety-gateway
+identity:
+  github_repo: dark-hxx/jev-safety-gateway
+provenance:
+  discoveries:
+    - id: discovery__github__dark-hxx__jev-safety-gateway__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Security & Guardrails
+        anchor_text: '**jev-safety-gateway**'
+        extracted_url: https://github.com/dark-hxx/jev-safety-gateway
+        surrounding_text: >-
+          - [**jev-safety-gateway**](https://github.com/dark-hxx/jev-safety-gateway) — This project integrates Jev to
+          provide structured decisions for its workflow. See the repository for implementation details.
+        confidence: high
+metadata:
+  github:
+    stars: 13
+    forks: 1
+    license: AGPL-3.0
+    archived: false
+    full_name: dark-hxx/jev-safety-gateway
+    html_url: https://github.com/dark-hxx/jev-safety-gateway
+    created_at: '2026-09-24T03:21:43Z'
+    pushed_at: '2026-09-24T18:47:14Z'
+    description: 位于 nginx 与大模型后端之间的前置过滤反向代理：逐请求提取用户输入交给 JEV 判定，有害拦截、正常透明放行
+    homepage: https://jev-gateway.clim.asia
+    topics:
+      - api
+      - gateway
+      - go
+      - jev
+    last_checked_at: '2026-09-29T13:10:24.250Z'
+    readme:
+      fetched_at: '2026-09-29T13:10:24.250Z'
+      bytes: 23286
+insights:
+  summary: 位于 nginx 与大模型后端之间的前置过滤反向代理：逐请求提取用户输入交给 JEV 判定，有害拦截、正常透明放行
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.79
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.454Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:10:24.250Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__heliumtrades__com__mcp__page__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,12 @@ provenance:
           - MCP Servers and Directories
         anchor_text: Documentation
         extracted_url: https://heliumtrades.com/mcp-page
-        surrounding_text: "- **[Helium MCP](https://github.com/connerlambden/helium-mcp)** – Remote MCP server for AI coding assistants with real-time news and multi-dimensional bias scoring (3.2M+ articles, 5000+ sources), financial markets (stocks, ETFs, crypto, AI bull/bear cases), ML options pricing (ITM probability, Greeks, fair value), balanced news synthesis, trending topics, and semantic meme search. [Documentation](https://heliumtrades.com/mcp-page/)."
+        surrounding_text: >-
+          - **[Helium MCP](https://github.com/connerlambden/helium-mcp)** – Remote MCP server for AI coding assistants
+          with real-time news and multi-dimensional bias scoring (3.2M+ articles, 5000+ sources), financial markets
+          (stocks, ETFs, crypto, AI bull/bear cases), ML options pricing (ITM probability, Greeks, fair value), balanced
+          news synthesis, trending topics, and semantic meme search.
+          [Documentation](https://heliumtrades.com/mcp-page/).
         confidence: high
 metadata:
   github:
@@ -37,8 +42,12 @@ metadata:
     readme: null
 insights:
   summary: An MCP server providing trained options pricing models, market forecasts, and news bias analysis to AI assistants.
-  why_it_matters: It enables developers to integrate real-time financial intelligence and predictive market modeling directly into AI-native IDEs and workflows.
-  mental_damage: Your AI assistant can now accurately price a complex derivative, which is a significant upgrade from its current ability to explain your own codebase.
+  why_it_matters: >-
+    It enables developers to integrate real-time financial intelligence and predictive market modeling directly into
+    AI-native IDEs and workflows.
+  mental_damage: >-
+    Your AI assistant can now accurately price a complex derivative, which is a significant upgrade from its current
+    ability to explain your own codebase.
   tags:
     - mcp
     - finance
@@ -48,7 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server designed to expose domain-specific financial tools and data to host assistants.
+  reason: >-
+    The product's primary identity is an MCP server designed to expose domain-specific financial tools and data to host
+    assistants.
   evidence:
     - Explicitly marketed as 'Helium MCP' for Cursor, Claude, and Windsurf
     - Provides specific MCP tools including get_option_price and get_top_trading_strategies
@@ -58,12 +69,12 @@ placement:
   secondary_categories: []
   section: Finance, Crypto & DeFi
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:21:12.323Z"
+    updated_at: '2026-09-28T04:21:12.323Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +96,9 @@ processing:
       input_hash: sha256:ae1584c768996f8b61f9f01aee95f2d50f3d43c247994b540fc72ff143d98265
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's primary identity is an MCP server designed to expose domain-specific financial tools and data to host assistants.
+      decision_reason: >-
+        The product's primary identity is an MCP server designed to expose domain-specific financial tools and data to
+        host assistants.
       decision_evidence:
         - Explicitly marketed as 'Helium MCP' for Cursor, Claude, and Windsurf
         - Provides specific MCP tools including get_option_price and get_top_trading_strategies
@@ -93,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product's identity is defined by its role as an MCP server providing domain-specific tools rather than being a general-purpose coding workflow extension.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product's identity is defined by its role as an MCP server
+        providing domain-specific tools rather than being a general-purpose coding workflow extension.
       review_reason: null
       review_resume_lifecycle: null

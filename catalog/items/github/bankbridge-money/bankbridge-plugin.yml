@@ -1,0 +1,78 @@
+id: github__bankbridge-money__bankbridge-plugin
+kind: github-repo
+name: bankbridge-money/bankbridge-plugin
+canonical_url: https://github.com/bankbridge-money/bankbridge-plugin
+identity:
+  github_repo: bankbridge-money/bankbridge-plugin
+provenance:
+  discoveries:
+    - id: discovery__github__bankbridge-money__bankbridge-plugin__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 💰 Finance & Fintech
+        anchor_text: bankbridge-money/bankbridge-plugin
+        extracted_url: https://github.com/bankbridge-money/bankbridge-plugin
+        surrounding_text: >-
+          -   **[bankbridge-money/bankbridge-plugin](https://github.com/bankbridge-money/bankbridge-plugin)** [![GitHub
+          stars](https://img.shields.io/github/stars/bankbridge-money/bankbridge-plugin?style=social)](https://github.com/bankbridge-money/bankbridge-plugin):
+          Read-only bank access for AI agents via hosted MCP server. 12 tools — balances, transactions, recurring
+          charges, monthly cashflow, holdings — for Claude, ChatGPT, Cursor, Gemini, Codex. Plaid-backed.
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: null
+    archived: false
+    full_name: bankbridge-money/bankbridge-plugin
+    html_url: https://github.com/bankbridge-money/bankbridge-plugin
+    created_at: '2026-04-19T06:54:42Z'
+    pushed_at: '2026-07-10T19:44:59Z'
+    description: Claude plugin for BankBridge — read-only access to bank accounts, transactions, and investments via MCP.
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:09:26.518Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:26.518Z'
+      bytes: 9363
+insights:
+  summary: Claude plugin for BankBridge — read-only access to bank accounts, transactions, and investments via MCP.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
+  evidence:
+    - jev-latest choice confidence 0.84
+placement:
+  primary_category: mcp
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.449Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:26.518Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -1,0 +1,97 @@
+id: github__bgmlai__gate.cat
+kind: github-repo
+name: bgmlai/gate.cat
+canonical_url: https://github.com/bgmlai/gate.cat
+identity:
+  github_repo: bgmlai/gate.cat
+provenance:
+  discoveries:
+    - id: discovery__github__bgmlai__gate.cat__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: gate.cat
+        extracted_url: https://github.com/bgmlai/gate.cat
+        surrounding_text: >-
+          - **[gate.cat](https://github.com/BGMLAI/gate.cat)** – Deterministic, fail-closed action veto for AI coding
+          agents that blocks irreversible shell commands (rm -rf, DROP TABLE, terraform destroy) and secret exfiltration
+          before they run, with no LLM in the veto path. Works as a Claude Code hook, a gated shell for any CLI agent,
+          or a local OpenAI-API proxy.
+        confidence: high
+metadata:
+  github:
+    stars: 2
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    full_name: BGMLAI/gate.cat
+    html_url: https://github.com/BGMLAI/gate.cat
+    created_at: '2026-07-04T11:20:17Z'
+    pushed_at: '2026-09-29T11:25:11Z'
+    description: >-
+      Block irreversible AI-agent actions before they run — deterministic, fail-closed action veto for Claude Code,
+      Codex, Cursor, and other tool-using agents.
+    homepage: https://gate.cat
+    topics:
+      - action-veto
+      - agent-guardrail
+      - agent-safety
+      - ai-agents
+      - ai-safety
+      - claude-code
+      - codex
+      - cursor
+      - developer-tools
+      - devsecops
+      - fail-closed
+      - guardrails
+      - llm
+      - llm-agents
+      - local-llm
+      - mcp
+      - ollama
+      - pretooluse
+      - python
+      - security
+    last_checked_at: '2026-09-29T13:09:31.355Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:31.355Z'
+      bytes: 28486
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.450Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:31.355Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

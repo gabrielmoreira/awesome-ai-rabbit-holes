@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aytzey__showagent__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Session managers & parallel runners
         anchor_text: showagent
         extracted_url: https://github.com/aytzey/showagent
-        surrounding_text: "- **[showagent](https://github.com/aytzey/showagent)** `⭐ 30` — Bubble Tea TUI that unifies the local session stores of Claude Code, Codex, Gemini CLI, and OpenCode: fuzzy search grouped by workspace, resume via each agent's own CLI, branch local copies, and cross-agent transcript conversion into the target's native format. Scriptable (`list --json`), fully local, single Go binary. MIT."
+        surrounding_text: >-
+          - **[showagent](https://github.com/aytzey/showagent)** `⭐ 30` — Bubble Tea TUI that unifies the local session
+          stores of Claude Code, Codex, Gemini CLI, and OpenCode: fuzzy search grouped by workspace, resume via each
+          agent's own CLI, branch local copies, and cross-agent transcript conversion into the target's native format.
+          Scriptable (`list --json`), fully local, single Go binary. MIT.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,12 @@ metadata:
     archived: false
     full_name: aytzey/showagent
     html_url: https://github.com/aytzey/showagent
-    created_at: "2026-06-22T07:18:43Z"
-    pushed_at: "2026-09-21T03:24:38Z"
-    description: Find local coding-agent sessions and copy their user and assistant messages into another agent's native format. TUI, CLI and MCP.
-    homepage: ""
+    created_at: '2026-06-22T07:18:43Z'
+    pushed_at: '2026-09-21T03:24:38Z'
+    description: >-
+      Find local coding-agent sessions and copy their user and assistant messages into another agent's native format.
+      TUI, CLI and MCP.
+    homepage: ''
     topics:
       - ai-agents
       - bubbletea
@@ -53,14 +59,18 @@ metadata:
       - session-manager
       - terminal
       - tui
-    last_checked_at: "2026-09-21T04:13:53.549Z"
+    last_checked_at: '2026-09-21T04:13:53.549Z'
     readme:
-      fetched_at: "2026-09-21T04:13:53.549Z"
+      fetched_at: '2026-09-21T04:13:53.549Z'
       bytes: 21328
 insights:
-  summary: A CLI and TUI tool for finding local coding agent sessions and transferring their conversation history into different agent runtimes.
+  summary: >-
+    A CLI and TUI tool for finding local coding agent sessions and transferring their conversation history into
+    different agent runtimes.
   why_it_matters: It allows developers to switch between different coding assistants without losing the context of their ongoing work.
-  mental_damage: Because the search for the perfect coding agent has evolved from choosing one tool to managing a complex ecosystem of handoffs between them.
+  mental_damage: >-
+    Because the search for the perfect coding agent has evolved from choosing one tool to managing a complex ecosystem
+    of handoffs between them.
   tags:
     - cli
     - tui
@@ -70,32 +80,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It functions as a session management harness that coordinates context and state transfer between multiple distinct agent runtimes.
+  reason: >-
+    It functions as a session management harness that coordinates context and state transfer between multiple distinct
+    agent runtimes.
   evidence:
-    - "Repo description: 'Find local coding-agent sessions and copy their user and assistant messages into another agent's native format.'"
-    - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Session managers & parallel runners'."
-    - "README: Demonstrates switching conversation state between Codex, Claude Code, and Gemini CLI."
+    - >-
+      Repo description: 'Find local coding-agent sessions and copy their user and assistant messages into another
+      agent's native format.'
+    - >-
+      Source-list context: Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Session managers &
+      parallel runners'.
+    - 'README: Demonstrates switching conversation state between Codex, Claude Code, and Gemini CLI.'
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
   section: Agent Runtimes & Harnesses
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:53.550Z"
+    updated_at: '2026-09-21T04:13:53.550Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:28:25.918Z"
+    updated_at: '2026-09-24T04:28:25.918Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -108,14 +124,23 @@ processing:
       input_hash: sha256:040c8bc257bfddf6c0d13ff99f255b1f81b39407baeb545751a9eff7e032dffd
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: It functions as a session management harness that coordinates context and state transfer between multiple distinct agent runtimes.
+      decision_reason: >-
+        It functions as a session management harness that coordinates context and state transfer between multiple
+        distinct agent runtimes.
       decision_evidence:
-        - "Repo description: 'Find local coding-agent sessions and copy their user and assistant messages into another agent's native format.'"
-        - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Session managers & parallel runners'."
-        - "README: Demonstrates switching conversation state between Codex, Claude Code, and Gemini CLI."
+        - >-
+          Repo description: 'Find local coding-agent sessions and copy their user and assistant messages into another
+          agent's native format.'
+        - >-
+          Source-list context: Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Session managers
+          & parallel runners'.
+        - 'README: Demonstrates switching conversation state between Codex, Claude Code, and Gemini CLI.'
       category_candidates:
         - agent-orchestration
         - extensions-and-addons
-      contrastive_reason: Choose agent-orchestration over extensions-and-addons because its core novelty is coordinating the handoff and state transition between different agent runtimes rather than adding a specific capability to a single host tool.
+      contrastive_reason: >-
+        Choose agent-orchestration over extensions-and-addons because its core novelty is coordinating the handoff and
+        state transition between different agent runtimes rather than adding a specific capability to a single host
+        tool.
       review_reason: null
       review_resume_lifecycle: null

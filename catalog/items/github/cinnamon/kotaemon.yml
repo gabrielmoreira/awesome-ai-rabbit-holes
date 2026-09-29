@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cinnamon__kotaemon__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 知识库 RAG
         anchor_text: kotaemon
         extracted_url: https://github.com/cinnamon/kotaemon
-        surrounding_text: "18. [kotaemon](https://github.com/Cinnamon/kotaemon): An open-source clean & customizable RAG UI for chatting with your documents. Built with both end users and developers in mind."
+        surrounding_text: >-
+          18. [kotaemon](https://github.com/Cinnamon/kotaemon): An open-source clean & customizable RAG UI for chatting
+          with your documents. Built with both end users and developers in mind.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: Cinnamon/kotaemon
     html_url: https://github.com/Cinnamon/kotaemon
-    created_at: "2024-03-25T08:16:42Z"
-    pushed_at: "2026-07-14T16:53:59Z"
+    created_at: '2024-03-25T08:16:42Z'
+    pushed_at: '2026-07-14T16:53:59Z'
     description: An open-source RAG-based tool for chatting with your documents.
     homepage: https://cinnamon.github.io/kotaemon/
     topics:
@@ -38,13 +40,15 @@ metadata:
       - llms
       - open-source
       - rag
-    last_checked_at: "2026-09-07T04:13:45.296Z"
+    last_checked_at: '2026-09-07T04:13:45.296Z'
     readme:
-      fetched_at: "2026-09-07T04:13:45.296Z"
+      fetched_at: '2026-09-07T04:13:45.296Z'
       bytes: 18355
 insights:
   summary: An open-source RAG-based tool for chatting with your documents.
-  why_it_matters: Developers can use it to build or integrate document-grounded chat experiences without reinventing retrieval pipelines.
+  why_it_matters: >-
+    Developers can use it to build or integrate document-grounded chat experiences without reinventing retrieval
+    pipelines.
   mental_damage: Finally, a way to ask your PDFs questions—just like you always dreamed of doing in 2024.
   tags:
     - rag
@@ -54,7 +58,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a general-purpose RAG chat system for documents, not a developer-tooling product focused on coding workflows, IDEs, or app-building.
+  reason: >-
+    The tool is a general-purpose RAG chat system for documents, not a developer-tooling product focused on coding
+    workflows, IDEs, or app-building.
   evidence:
     - Repo description explicitly states it is a RAG-based tool for chatting with documents
     - Source-list context places it under '知识库 RAG' (Knowledge Base RAG), not developer tooling
@@ -63,22 +69,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (25366) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:45.296Z"
+    updated_at: '2026-09-07T04:13:45.296Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -93,7 +99,9 @@ processing:
       input_hash: sha256:2621e555e50dd5234a34b2a9cd34cc00a27c26ce3247f4a6a2ada3f8cf1049a1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a general-purpose RAG chat system for documents, not a developer-tooling product focused on coding workflows, IDEs, or app-building.
+      decision_reason: >-
+        The tool is a general-purpose RAG chat system for documents, not a developer-tooling product focused on coding
+        workflows, IDEs, or app-building.
       decision_evidence:
         - Repo description explicitly states it is a RAG-based tool for chatting with documents
         - Source-list context places it under '知识库 RAG' (Knowledge Base RAG), not developer tooling

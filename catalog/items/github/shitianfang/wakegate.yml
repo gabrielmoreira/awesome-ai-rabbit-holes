@@ -1,0 +1,99 @@
+id: github__shitianfang__wakegate
+kind: github-repo
+name: shitianfang/wakegate
+canonical_url: https://github.com/shitianfang/wakegate
+identity:
+  github_repo: shitianfang/wakegate
+provenance:
+  discoveries:
+    - id: discovery__github__shitianfang__wakegate__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Agent Decisions
+        anchor_text: wakegate
+        extracted_url: https://github.com/shitianfang/wakegate
+        surrounding_text: >-
+          - [wakegate](https://github.com/shitianfang/wakegate)
+          ![stars](https://img.shields.io/github/stars/shitianfang/wakegate?style=flat-square&label=%E2%98%85) -
+          Long-running agents: before a sleeping agent's LLM is resumed on a timer or incoming event, Jev answers a
+          `Choice` (wake, not yet, unrelated) against the agent's own sleep note, and code skips the wakeup only when
+          wake is below 0.2 while always waking on user messages, bare timers, a skip limit, errors, and timeouts; one
+          run passed 21 of 21 hand-written scenarios, which the README calls a smoke test rather than a benchmark.
+        confidence: high
+    - id: discovery__github__shitianfang__wakegate__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents, coding, and guardrails
+        anchor_text: wakegate
+        extracted_url: https://github.com/shitianfang/wakegate
+        surrounding_text: >-
+          - [wakegate](https://github.com/shitianfang/wakegate) - Experimental gate where Jev decides whether a timer or
+          incoming event is worth resuming a sleeping agent's LLM; code skips only when Jev is confident and always
+          wakes on user messages, errors, and a skip limit.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    wakegate - Long-running agents: before a sleeping agent's LLM is resumed on a timer or incoming event, Jev answers a
+    Choice (wake, not yet, unrelated) against the agent's own sleep note, and code skips the wakeup only when wake is
+    below 0.2 while always waking on user messages, bare timers, a skip limit, errors, and timeouts; one run passed 21
+    of 21 hand-written scenarios, which the README calls a smoke test rather than a benchmark.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.95
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.425Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -1,0 +1,98 @@
+id: github__blingdivinity__jevseek
+kind: github-repo
+name: blingdivinity/jevseek
+canonical_url: https://github.com/blingdivinity/jevseek
+identity:
+  github_repo: blingdivinity/jevseek
+provenance:
+  discoveries:
+    - id: discovery__github__blingdivinity__jevseek__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Applications
+        anchor_text: jevseek
+        extracted_url: https://github.com/blingdivinity/jevseek
+        surrounding_text: >-
+          - [jevseek](https://github.com/blingdivinity/jevseek) - DeepSeek proposes the next token, TypeSafe's Jev
+          chooses it: a decision model used as a sampler.
+        confidence: high
+    - id: discovery__github__blingdivinity__jevseek__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jevseek
+        extracted_url: https://github.com/blingdivinity/jevseek
+        surrounding_text: >-
+          - [jevseek](https://github.com/blingdivinity/jevseek) - DeepSeek proposes next tokens; TypeSafe Jev via
+          OpenRouter System One chooses which to append. [Project guide](community/projects/tools/jevseek.md).
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: blingdivinity/jevseek
+    html_url: https://github.com/blingdivinity/jevseek
+    created_at: '2026-09-22T08:07:43Z'
+    pushed_at: '2026-09-22T16:24:08Z'
+    description: 'DeepSeek proposes the next token, TypeSafe''s Jev chooses it: a decision model used as a sampler'
+    homepage: null
+    topics:
+      - deepseek
+      - jev
+      - llm
+      - sampling
+      - typesafe
+    last_checked_at: '2026-09-29T13:09:33.144Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:33.144Z'
+      bytes: 6788
+insights:
+  summary: 'DeepSeek proposes the next token, TypeSafe''s Jev chooses it: a decision model used as a sampler'
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.43
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.410Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:33.144Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

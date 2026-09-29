@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yunjuetech__yunjue-agent__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 智能体 Agents
         anchor_text: Yunjue-Agent
         extracted_url: https://github.com/yunjuetech/yunjue-agent
-        surrounding_text: "50. [Yunjue-Agent](https://github.com/YunjueTech/Yunjue-Agent): A Fully Reproducible, Zero-Start In-Situ Self-Evolving Agent System for Open-Ended Tasks."
+        surrounding_text: >-
+          50. [Yunjue-Agent](https://github.com/YunjueTech/Yunjue-Agent): A Fully Reproducible, Zero-Start In-Situ
+          Self-Evolving Agent System for Open-Ended Tasks.
         confidence: high
 metadata:
   github:
@@ -29,21 +31,25 @@ metadata:
     archived: false
     full_name: YunjueTech/Yunjue-Agent
     html_url: https://github.com/YunjueTech/Yunjue-Agent
-    created_at: "2026-01-26T04:01:21Z"
-    pushed_at: "2026-03-06T10:31:17Z"
-    description: "Yunjue Agent: A Fully Reproducible, Zero-Start In-Situ Self-Evolving Agent System for Open-Ended Tasks"
+    created_at: '2026-01-26T04:01:21Z'
+    pushed_at: '2026-03-06T10:31:17Z'
+    description: 'Yunjue Agent: A Fully Reproducible, Zero-Start In-Situ Self-Evolving Agent System for Open-Ended Tasks'
     homepage: https://www.yunjuetech.com/Yunjue-Agent/
     topics:
       - agent
       - llm-agent
       - self-evolving-agents
-    last_checked_at: "2026-07-21T15:21:23.153Z"
+    last_checked_at: '2026-07-21T15:21:23.153Z'
     readme:
-      fetched_at: "2026-07-21T15:21:23.153Z"
+      fetched_at: '2026-07-21T15:21:23.153Z'
       bytes: 10304
 insights:
-  summary: Yunjue Agent is a self-evolving agent system for open-ended tasks that creates and reuses tools to execute user-provided skills.
-  why_it_matters: It lets developers encode expertise as SKILL.md files and have the agent autonomously build the necessary tools to execute them, turning documented knowledge into functional automation.
+  summary: >-
+    Yunjue Agent is a self-evolving agent system for open-ended tasks that creates and reuses tools to execute
+    user-provided skills.
+  why_it_matters: >-
+    It lets developers encode expertise as SKILL.md files and have the agent autonomously build the necessary tools to
+    execute them, turning documented knowledge into functional automation.
   mental_damage: Another agent that promises to 'evolve' while you wait for its Python dependencies to resolve on macOS.
   tags:
     - agent
@@ -53,31 +59,35 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Yunjue Agent functions as a standalone coding assistant that plans, writes, and executes code to fulfill user-defined skills, making it a primary assistant rather than an extension.
+  reason: >-
+    Yunjue Agent functions as a standalone coding assistant that plans, writes, and executes code to fulfill
+    user-defined skills, making it a primary assistant rather than an extension.
   evidence:
-    - "Repo description: 'A Fully Reproducible, Zero-Start In-Situ Self-Evolving Agent System for Open-Ended Tasks'"
-    - "README: 'the agent autonomously generates the necessary tools to execute those skills' and 'Experience the seamless transformation of documented knowledge into functional automation'"
+    - 'Repo description: ''A Fully Reproducible, Zero-Start In-Situ Self-Evolving Agent System for Open-Ended Tasks'''
+    - >-
+      README: 'the agent autonomously generates the necessary tools to execute those skills' and 'Experience the
+      seamless transformation of documented knowledge into functional automation'
     - CLI demo shows agent generating tools from SKILL.md to perform tasks like stock search and PDF scraping
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (422) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:23.154Z"
+    updated_at: '2026-07-21T15:21:23.154Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.169Z"
+    updated_at: '2026-09-28T04:14:00.169Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

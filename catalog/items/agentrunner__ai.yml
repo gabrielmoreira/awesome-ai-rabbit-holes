@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentrunner__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,9 @@ provenance:
           - Agents
         anchor_text: AgentRunner.ai
         extracted_url: https://agentrunner.ai
-        surrounding_text: "- [AgentRunner.ai](https://www.agentrunner.ai) - Leverage the power of GPT-4 to create and train fully autonomous AI agents."
+        surrounding_text: >-
+          - [AgentRunner.ai](https://www.agentrunner.ai) - Leverage the power of GPT-4 to create and train fully
+          autonomous AI agents.
         confidence: high
 metadata:
   github:
@@ -38,7 +40,9 @@ metadata:
 insights:
   summary: AgentRunner.ai is a platform for running and managing autonomous AI agents that perform coding tasks.
   why_it_matters: It lets developers delegate coding work to agents, reducing manual effort in writing, testing, and debugging code.
-  mental_damage: Another promise of 'set and forget' AI coding that makes you wonder if you're outsourcing your job or just creating more surveillance.
+  mental_damage: >-
+    Another promise of 'set and forget' AI coding that makes you wonder if you're outsourcing your job or just creating
+    more surveillance.
   tags:
     - ai-agents
     - developer-tooling
@@ -46,21 +50,25 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: AgentRunner.ai markets itself as a platform for autonomous AI agents that act on code, matching the coding-agents category's focus on tools that perform coding tasks autonomously.
+  reason: >-
+    AgentRunner.ai markets itself as a platform for autonomous AI agents that act on code, matching the coding-agents
+    category's focus on tools that perform coding tasks autonomously.
   evidence:
     - Seen in awesome-local-ai under the Agents section, indicating recognition as an AI agent tool
     - The name 'agentrunner.ai' and positioning suggest autonomous agent execution for developer tasks
-    - No evidence of being primarily an app builder, framework, or extension — its identity centers on agent-mediated coding
+    - >-
+      No evidence of being primarily an app builder, framework, or extension — its identity centers on agent-mediated
+      coding
 placement:
   primary_category: coding-agents
   section: Autonomous & Multi-Agent Coding
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.364Z"
+    updated_at: '2026-07-20T16:42:15.364Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:54:43.947Z"
+    updated_at: '2026-09-28T04:54:43.947Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -80,15 +88,21 @@ processing:
       input_hash: sha256:caa49717331451e46e89cf77e9c3254862b24fd76e0f38f888b92f70087cd898
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: AgentRunner.ai markets itself as a platform for autonomous AI agents that act on code, matching the coding-agents category's focus on tools that perform coding tasks autonomously.
+      decision_reason: >-
+        AgentRunner.ai markets itself as a platform for autonomous AI agents that act on code, matching the
+        coding-agents category's focus on tools that perform coding tasks autonomously.
       decision_evidence:
         - Seen in awesome-local-ai under the Agents section, indicating recognition as an AI agent tool
         - The name 'agentrunner.ai' and positioning suggest autonomous agent execution for developer tasks
-        - No evidence of being primarily an app builder, framework, or extension — its identity centers on agent-mediated coding
+        - >-
+          No evidence of being primarily an app builder, framework, or extension — its identity centers on
+          agent-mediated coding
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the product's primary identity is agents performing coding tasks, not managing or coordinating multiple agents as a workforce platform.
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because the product's primary identity is agents performing coding
+        tasks, not managing or coordinating multiple agents as a workforce platform.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

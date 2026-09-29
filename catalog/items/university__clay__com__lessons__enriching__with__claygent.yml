@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__university__clay__com__lessons__enriching__with__claygent__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Claygent
         anchor_text: Claygent
         extracted_url: https://www.clay.com/learn/claygent
-        surrounding_text: "## [Claygent](https://www.clay.com/learn/claygent)"
+        surrounding_text: '## [Claygent](https://www.clay.com/learn/claygent)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Clay University lesson on using Claygent, an AI web scraper for enriching company and people data with real-time web research.
-  why_it_matters: Shows developers how to automate last-mile data enrichment that traditional providers miss, using AI to scrape live web content for GTM use cases.
-  mental_damage: Another reminder that your 'AI workflow' still depends on manually prompting a browser to read company websites like it's 2003.
+  summary: >-
+    A Clay University lesson on using Claygent, an AI web scraper for enriching company and people data with real-time
+    web research.
+  why_it_matters: >-
+    Shows developers how to automate last-mile data enrichment that traditional providers miss, using AI to scrape live
+    web content for GTM use cases.
+  mental_damage: >-
+    Another reminder that your 'AI workflow' still depends on manually prompting a browser to read company websites like
+    it's 2003.
   tags:
     - ai-scraping
     - data-enrichment
@@ -46,21 +52,23 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational lesson about using a feature within a broader platform (Clay), not a standalone AI developer tool or product; it lacks product identity and is documentation-first.
+  reason: >-
+    This is an educational lesson about using a feature within a broader platform (Clay), not a standalone AI developer
+    tool or product; it lacks product identity and is documentation-first.
   evidence:
     - URL points to a Clay University lesson page, not a GitHub repo or standalone tool
-    - "Primary content is a course lesson titled 'Enriching with Claygent' within 'Clay 101: GTM Automation'"
+    - 'Primary content is a course lesson titled ''Enriching with Claygent'' within ''Clay 101: GTM Automation'''
     - No evidence of a deployable product, SDK, agent, or framework — only usage instructions for Claygent inside Clay
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:48:13.933Z"
+    updated_at: '2026-09-28T04:48:13.933Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,11 +90,15 @@ processing:
       input_hash: sha256:e034a2c12701b891fee63d1db42eabb425b28a3f28ef35211ae87af8cc20ad5c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational lesson about using a feature within a broader platform (Clay), not a standalone AI developer tool or product; it lacks product identity and is documentation-first.
+      decision_reason: >-
+        This is an educational lesson about using a feature within a broader platform (Clay), not a standalone AI
+        developer tool or product; it lacks product identity and is documentation-first.
       decision_evidence:
         - URL points to a Clay University lesson page, not a GitHub repo or standalone tool
-        - "Primary content is a course lesson titled 'Enriching with Claygent' within 'Clay 101: GTM Automation'"
-        - No evidence of a deployable product, SDK, agent, or framework — only usage instructions for Claygent inside Clay
+        - 'Primary content is a course lesson titled ''Enriching with Claygent'' within ''Clay 101: GTM Automation'''
+        - >-
+          No evidence of a deployable product, SDK, agent, or framework — only usage instructions for Claygent inside
+          Clay
       category_candidates: []
       contrastive_reason: null
       review_reason: null

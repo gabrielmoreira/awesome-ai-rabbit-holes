@@ -1,0 +1,117 @@
+id: github__steven-shoemaker__hunch-js
+kind: github-repo
+name: steven-shoemaker/hunch-js
+canonical_url: https://github.com/steven-shoemaker/hunch-js
+identity:
+  github_repo: steven-shoemaker/hunch-js
+provenance:
+  discoveries:
+    - id: discovery__github__steven-shoemaker__hunch-js__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Frameworks & integrations (82)
+        anchor_text: hunch-js
+        extracted_url: https://github.com/steven-shoemaker/hunch-js
+        surrounding_text: >-
+          | [hunch-js](https://github.com/steven-shoemaker/hunch-js) | ★ 1 | TypeScript | 2026-09-23 | TypeScript
+          library that maps Jev Choice, Score, and Noul questions onto classification, ranking, extraction,
+          verification, and array workflows. |
+        confidence: high
+    - id: discovery__github__steven-shoemaker__hunch-js__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: hunch-js
+        extracted_url: https://github.com/steven-shoemaker/hunch-js
+        surrounding_text: >-
+          - [hunch (steven-shoemaker)](https://github.com/steven-shoemaker/hunch)
+          ![stars](https://img.shields.io/github/stars/steven-shoemaker/hunch?style=flat-square&label=%E2%98%85) -
+          Python and TypeScript ecosystem: libraries that turn Jev Choice, Score, and Noul questions into functions over
+          lists and DataFrames (classify, score, check, where, extract, pick, rank, verify), with request deduplication,
+          caching, and optional escalation of unsure rows to an LLM that must pick from the same labels; TypeScript port
+          at [hunch-js](https://github.com/steven-shoemaker/hunch-js).
+        confidence: high
+    - id: discovery__github__steven-shoemaker__hunch-js__awesome-list__cobanov__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - SDKs and developer tools
+        anchor_text: TypeScript port
+        extracted_url: https://github.com/steven-shoemaker/hunch-js
+        surrounding_text: >-
+          - [hunch (steven-shoemaker)](https://github.com/steven-shoemaker/hunch) - Python library that asks Jev
+          closed-set questions over each item in a list or DataFrame (classify, score, rank, check, where, extract,
+          pick, verify), caches the answers, and joins them back, while code owns candidates, thresholds, and actions; a
+          [TypeScript port](https://github.com/steven-shoemaker/hunch-js) offers the same verbs.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    TypeScript library that maps Jev Choice, Score, and Noul questions onto classification, ranking, extraction,
+    verification, and array workflows.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  evidence:
+    - jev-latest choice confidence 0.77
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Client SDKs & CLIs
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.404Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

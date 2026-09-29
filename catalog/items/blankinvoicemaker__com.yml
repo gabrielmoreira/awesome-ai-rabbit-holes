@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__blankinvoicemaker__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-25T05:24:49.456Z"
+      discovered_at: '2026-06-25T05:24:49.456Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Blank Invoice Maker
         extracted_url: https://blankinvoicemaker.com
-        surrounding_text: "- [InnarM/blank-invoice-maker-mcp](https://github.com/InnarM/blank-invoice-maker-mcp) [![InnarM/blank-invoice-maker-mcp MCP server](https://glama.ai/mcp/servers/InnarM/blank-invoice-maker-mcp/badges/score.svg)](https://glama.ai/mcp/servers/InnarM/blank-invoice-maker-mcp) 📇 🏠 🍎 🪟 🐧 - Create free, no-signup invoices from your AI assistant. Returns a deep link that opens [Blank Invoice Maker](https://blankinvoicemaker.com) pre-filled — review and download a watermark-free PDF. Invoice data stays in the browser. `npx blank-invoice-maker-mcp`"
+        surrounding_text: >-
+          - [InnarM/blank-invoice-maker-mcp](https://github.com/InnarM/blank-invoice-maker-mcp)
+          [![InnarM/blank-invoice-maker-mcp MCP
+          server](https://glama.ai/mcp/servers/InnarM/blank-invoice-maker-mcp/badges/score.svg)](https://glama.ai/mcp/servers/InnarM/blank-invoice-maker-mcp)
+          📇 🏠 🍎 🪟 🐧 - Create free, no-signup invoices from your AI assistant. Returns a deep link that opens [Blank
+          Invoice Maker](https://blankinvoicemaker.com) pre-filled — review and download a watermark-free PDF. Invoice
+          data stays in the browser. `npx blank-invoice-maker-mcp`
         confidence: high
 metadata:
   github:
@@ -39,12 +45,16 @@ metadata:
 insights:
   summary: A browser-based utility for generating and downloading PDF invoices using local IndexedDB storage.
   why_it_matters: While useful for freelance administrative tasks, it contains no AI-driven features or developer-centric tooling.
-  mental_damage: Managing your own billing remains one of the few manual tasks that hasn't been successfully automated by a coding agent.
+  mental_damage: >-
+    Managing your own billing remains one of the few manual tasks that hasn't been successfully automated by a coding
+    agent.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general-purpose business utility for invoicing and lacks any connection to AI, LLMs, or the software development lifecycle.
+  reason: >-
+    The product is a general-purpose business utility for invoicing and lacks any connection to AI, LLMs, or the
+    software development lifecycle.
   evidence:
     - Scraped site context describes a tool for freelancers and small businesses to create PDFs
     - No mention of AI, agents, or developer-facing infrastructure in the product description
@@ -52,12 +62,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-25T05:24:49.458Z"
+    updated_at: '2026-06-25T05:24:49.458Z'
     cause: null
     next_retry_at: null
   stars:
@@ -66,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:19:53.675Z"
+    updated_at: '2026-09-24T04:19:53.675Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -79,7 +89,9 @@ processing:
       input_hash: sha256:b1f8efdf6441c1334d5d5270ecb8f544960a6626e1adc18fda02c8629b60a640
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a general-purpose business utility for invoicing and lacks any connection to AI, LLMs, or the software development lifecycle.
+      decision_reason: >-
+        The product is a general-purpose business utility for invoicing and lacks any connection to AI, LLMs, or the
+        software development lifecycle.
       decision_evidence:
         - Scraped site context describes a tool for freelancers and small businesses to create PDFs
         - No mention of AI, agents, or developer-facing infrastructure in the product description

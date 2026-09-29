@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__flamerobin__org__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,14 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: FlameRobin's
         extracted_url: https://flamerobin.org
-        surrounding_text: "- [Michael2150/flamerobin-mcp-server](https://github.com/Michael2150/flamerobin-mcp-server) [![Michael2150/flamerobin-mcp-server MCP server](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server) #️⃣ 🏠 🪟 - Firebird database MCP server that reads connection details from [FlameRobin's](http://www.flamerobin.org/) config — no credential setup required. Access all locally registered databases in one session with full schema introspection, DDL/DML execution, execution plans, and missing index analysis."
+        surrounding_text: >-
+          - [Michael2150/flamerobin-mcp-server](https://github.com/Michael2150/flamerobin-mcp-server)
+          [![Michael2150/flamerobin-mcp-server MCP
+          server](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server)
+          #️⃣ 🏠 🪟 - Firebird database MCP server that reads connection details from
+          [FlameRobin's](http://www.flamerobin.org/) config — no credential setup required. Access all locally
+          registered databases in one session with full schema introspection, DDL/DML execution, execution plans, and
+          missing index analysis.
         confidence: high
 metadata:
   github:
@@ -47,22 +54,28 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Flamerobin is a database administration GUI with no AI capabilities, developer-tooling automation, or integration with coding agents, editors, or agent workflows.
+  reason: >-
+    Flamerobin is a database administration GUI with no AI capabilities, developer-tooling automation, or integration
+    with coding agents, editors, or agent workflows.
   evidence:
-    - Repo description is missing; the homepage describes Flamerobin as a 'GUI administration tool for Firebird database'.
-    - No mention of AI, agents, code generation, automation, or developer workflow enhancements in the available context.
+    - >-
+      Repo description is missing; the homepage describes Flamerobin as a 'GUI administration tool for Firebird
+      database'.
+    - >-
+      No mention of AI, agents, code generation, automation, or developer workflow enhancements in the available
+      context.
     - The tool is a standalone desktop app for database management, not an AI-powered developer tool.
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.965Z"
+    updated_at: '2026-07-21T15:20:21.965Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:53:44.292Z"
+    updated_at: '2026-09-28T04:53:44.292Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -82,10 +95,16 @@ processing:
       input_hash: sha256:1cc140f21d93a96e1c1a7a537f8d42cbbecc6f7135c05aee111306d5fc2d4a17
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Flamerobin is a database administration GUI with no AI capabilities, developer-tooling automation, or integration with coding agents, editors, or agent workflows.
+      decision_reason: >-
+        Flamerobin is a database administration GUI with no AI capabilities, developer-tooling automation, or
+        integration with coding agents, editors, or agent workflows.
       decision_evidence:
-        - Repo description is missing; the homepage describes Flamerobin as a 'GUI administration tool for Firebird database'.
-        - No mention of AI, agents, code generation, automation, or developer workflow enhancements in the available context.
+        - >-
+          Repo description is missing; the homepage describes Flamerobin as a 'GUI administration tool for Firebird
+          database'.
+        - >-
+          No mention of AI, agents, code generation, automation, or developer workflow enhancements in the available
+          context.
         - The tool is a standalone desktop app for database management, not an AI-powered developer tool.
       category_candidates: []
       contrastive_reason: null

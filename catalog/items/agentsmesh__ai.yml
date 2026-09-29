@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentsmesh__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,11 @@ provenance:
           - Coding Agents
         anchor_text: AgentsMesh
         extracted_url: https://agentsmesh.ai
-        surrounding_text: "- **[AgentsMesh](https://agentsmesh.ai)** – Self-hostable AI Agent Workforce Platform. Orchestrates Claude Code, Codex CLI, Gemini CLI, Aider, OpenCode across remote AI workstations (AgentPods) with PTY sandbox + git worktree isolation, channels-based multi-agent collaboration, built-in Kanban, and per-pod MCP server. Multi-Git (GitHub/GitLab/Gitee), multi-tenant, SSO/RBAC, BYOK."
+        surrounding_text: >-
+          - **[AgentsMesh](https://agentsmesh.ai)** – Self-hostable AI Agent Workforce Platform. Orchestrates Claude
+          Code, Codex CLI, Gemini CLI, Aider, OpenCode across remote AI workstations (AgentPods) with PTY sandbox + git
+          worktree isolation, channels-based multi-agent collaboration, built-in Kanban, and per-pod MCP server.
+          Multi-Git (GitHub/GitLab/Gitee), multi-tenant, SSO/RBAC, BYOK.
         confidence: high
 metadata:
   github:
@@ -37,7 +41,9 @@ metadata:
     readme: null
 insights:
   summary: An AI agent workforce platform designed to deploy and manage autonomous agent squads.
-  why_it_matters: It aims to scale developer productivity by coordinating multiple specialized agents to handle complex, multi-step tasks collaboratively.
+  why_it_matters: >-
+    It aims to scale developer productivity by coordinating multiple specialized agents to handle complex, multi-step
+    tasks collaboratively.
   mental_damage: Managing a team of autonomous agents is just one step away from needing a middle manager for your LLMs.
   tags:
     - agent-orchestration
@@ -46,7 +52,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is a platform for coordinating multiple agents (squads) and managing their tasks and collaboration, which is the core definition of agent orchestration.
+  reason: >-
+    The product's primary identity is a platform for coordinating multiple agents (squads) and managing their tasks and
+    collaboration, which is the core definition of agent orchestration.
   evidence:
     - Scraped site context describes it as an 'AI Agent Workforce Platform'
     - Pitch focuses on assigning tasks to 'agent squads' and tracking autonomous collaboration
@@ -55,12 +63,12 @@ placement:
   secondary_categories: []
   section: Hosted Agent Platforms
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:32:13.357Z"
+    updated_at: '2026-09-24T04:32:13.357Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,13 +90,17 @@ processing:
       input_hash: sha256:20f7651a0b0f13f7ee5a81dff2fc701e97bcf6d45691ea66a37133cbd218c199
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product's primary identity is a platform for coordinating multiple agents (squads) and managing their tasks and collaboration, which is the core definition of agent orchestration.
+      decision_reason: >-
+        The product's primary identity is a platform for coordinating multiple agents (squads) and managing their tasks
+        and collaboration, which is the core definition of agent orchestration.
       decision_evidence:
         - Scraped site context describes it as an 'AI Agent Workforce Platform'
         - Pitch focuses on assigning tasks to 'agent squads' and tracking autonomous collaboration
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because the product functions as a control plane for managing multiple agent squads rather than acting as a single standalone coding assistant.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because the product functions as a control plane for managing
+        multiple agent squads rather than acting as a single standalone coding assistant.
       review_reason: null
       review_resume_lifecycle: null

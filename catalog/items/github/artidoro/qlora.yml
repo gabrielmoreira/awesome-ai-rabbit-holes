@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__artidoro__qlora__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Foundation Model Fine Tuning
         anchor_text: QLoRA
         extracted_url: https://github.com/artidoro/qlora
-        surrounding_text: "| [QLoRA](https://github.com/artidoro/qlora)                                 | Efficient finetuning approach that reduces memory usage enough to finetune a 65B parameter model on a single 48GB GPU while preserving full 16-bit finetuning task performance.                  | ![GitHub Badge](https://img.shields.io/github/stars/artidoro/qlora.svg?style=flat-square)                  |"
+        surrounding_text: >-
+          | [QLoRA](https://github.com/artidoro/qlora)                                 | Efficient finetuning approach
+          that reduces memory usage enough to finetune a 65B parameter model on a single 48GB GPU while preserving full
+          16-bit finetuning task performance.                  | ![GitHub
+          Badge](https://img.shields.io/github/stars/artidoro/qlora.svg?style=flat-square)                  |
         confidence: high
 metadata:
   github:
@@ -30,18 +34,22 @@ metadata:
     archived: false
     full_name: artidoro/qlora
     html_url: https://github.com/artidoro/qlora
-    created_at: "2023-05-11T09:30:23Z"
-    pushed_at: "2024-06-10T19:20:16Z"
-    description: "QLoRA: Efficient Finetuning of Quantized LLMs"
+    created_at: '2023-05-11T09:30:23Z'
+    pushed_at: '2024-06-10T19:20:16Z'
+    description: 'QLoRA: Efficient Finetuning of Quantized LLMs'
     homepage: https://arxiv.org/abs/2305.14314
     topics: []
-    last_checked_at: "2026-09-21T04:13:47.991Z"
+    last_checked_at: '2026-09-21T04:13:47.991Z'
     readme:
-      fetched_at: "2026-09-21T04:13:47.991Z"
+      fetched_at: '2026-09-21T04:13:47.991Z'
       bytes: 10938
 insights:
-  summary: QLoRA is an efficient finetuning method for quantized large language models, enabling 65B parameter models to be finetuned on a single 48GB GPU.
-  why_it_matters: It lowers the hardware barrier for developers to finetune large models, preserving performance while drastically reducing memory usage.
+  summary: >-
+    QLoRA is an efficient finetuning method for quantized large language models, enabling 65B parameter models to be
+    finetuned on a single 48GB GPU.
+  why_it_matters: >-
+    It lowers the hardware barrier for developers to finetune large models, preserving performance while drastically
+    reducing memory usage.
   mental_damage: Now you too can spend 24 hours finetuning a 65B model on your single GPU, because who needs sleep anyway?
   tags:
     - finetuning
@@ -52,31 +60,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: QLoRA is a research-focused finetuning method and library, not a developer tool for coding assistance, app building, or workflow integration.
+  reason: >-
+    QLoRA is a research-focused finetuning method and library, not a developer tool for coding assistance, app building,
+    or workflow integration.
   evidence:
     - Repo description explicitly states it is for 'Efficient Finetuning of Quantized LLMs'
-    - README focuses on technical innovations (4-bit NormalFloat, Double Quantization, Paged Optimizers) and model performance benchmarks
+    - >-
+      README focuses on technical innovations (4-bit NormalFloat, Double Quantization, Paged Optimizers) and model
+      performance benchmarks
     - Source-list context places it under 'Training > Foundation Model Fine Tuning' in an LLMOps list
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (10898) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:47.991Z"
+    updated_at: '2026-09-21T04:13:47.991Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -91,10 +103,14 @@ processing:
       input_hash: sha256:6fdd130f11476f1297a9eb0a67b9a27f8b6a6322e987b708f79ea918f03e966c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: QLoRA is a research-focused finetuning method and library, not a developer tool for coding assistance, app building, or workflow integration.
+      decision_reason: >-
+        QLoRA is a research-focused finetuning method and library, not a developer tool for coding assistance, app
+        building, or workflow integration.
       decision_evidence:
         - Repo description explicitly states it is for 'Efficient Finetuning of Quantized LLMs'
-        - README focuses on technical innovations (4-bit NormalFloat, Double Quantization, Paged Optimizers) and model performance benchmarks
+        - >-
+          README focuses on technical innovations (4-bit NormalFloat, Double Quantization, Paged Optimizers) and model
+          performance benchmarks
         - Source-list context places it under 'Training > Foundation Model Fine Tuning' in an LLMOps list
       category_candidates: []
       contrastive_reason: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mongodb-js__mcp-mcp-server__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -21,7 +21,9 @@ provenance:
           - Database & Vector Stores
         anchor_text: mongodb-mcp-server
         extracted_url: https://github.com/mongodb-js/mcp-mcp-server
-        surrounding_text: "| [mongodb-mcp-server](https://github.com/mongodb-js/mcp-mcp-server) | MongoDB database server | ![Stars](https://img.shields.io/github/stars/mongodb-js/mongodb-mcp-server) |"
+        surrounding_text: >-
+          | [mongodb-mcp-server](https://github.com/mongodb-js/mcp-mcp-server) | MongoDB database server |
+          ![Stars](https://img.shields.io/github/stars/mongodb-js/mongodb-mcp-server) |
         confidence: high
 metadata:
   github:
@@ -52,24 +54,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: '2026-05-06T22:12:15.631Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-08-03T05:17:07.044Z"
+    updated_at: '2026-08-03T05:17:07.044Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: mongodb-js/mcp-mcp-server"
+      message: 'GitHub repository not found: mongodb-js/mcp-mcp-server'
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

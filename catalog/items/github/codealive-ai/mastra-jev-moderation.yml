@@ -1,0 +1,115 @@
+id: github__codealive-ai__mastra-jev-moderation
+kind: github-repo
+name: codealive-ai/mastra-jev-moderation
+canonical_url: https://github.com/codealive-ai/mastra-jev-moderation
+identity:
+  github_repo: codealive-ai/mastra-jev-moderation
+provenance:
+  discoveries:
+    - id: discovery__github__codealive-ai__mastra-jev-moderation__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: mastra-jev-moderation
+        extracted_url: https://github.com/codealive-ai/mastra-jev-moderation
+        surrounding_text: >-
+          - [mastra-jev-moderation](https://github.com/CodeAlive-AI/mastra-jev-moderation) - Input moderation for Mastra
+          agents on TypeSafe Jev — one file.
+        confidence: high
+    - id: discovery__github__codealive-ai__mastra-jev-moderation__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: mastra-jev-moderation
+        extracted_url: https://github.com/codealive-ai/mastra-jev-moderation
+        surrounding_text: >-
+          | [mastra-jev-moderation](https://github.com/CodeAlive-AI/mastra-jev-moderation) | ★ 2 | TypeScript |
+          2026-09-19 | Mastra input processor that uses Jev for a typed block decision and moderation category. |
+        confidence: high
+    - id: discovery__github__codealive-ai__mastra-jev-moderation__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Content Moderation
+        anchor_text: mastra-jev-moderation
+        extracted_url: https://github.com/codealive-ai/mastra-jev-moderation
+        surrounding_text: >-
+          - [mastra-jev-moderation](https://github.com/CodeAlive-AI/mastra-jev-moderation)
+          ![stars](https://img.shields.io/github/stars/CodeAlive-AI/mastra-jev-moderation?style=flat-square&label=%E2%98%85)
+          - AI assistants: Mastra input processor that asks Jev a `Boolean` "must this message be blocked?" plus a
+          category `Choice` in one request, aborting the turn at 0.7 and failing open behind a deadline and circuit
+          breaker; in production it blocked 9/9 hostile and 0/49 real messages at ~0.4 s median, about 4× cheaper than
+          an LLM moderator.
+        confidence: high
+metadata:
+  github:
+    stars: 7
+    forks: 2
+    license: MIT
+    archived: false
+    full_name: CodeAlive-AI/mastra-jev-moderation
+    html_url: https://github.com/CodeAlive-AI/mastra-jev-moderation
+    created_at: '2026-09-18T11:04:28Z'
+    pushed_at: '2026-09-18T11:59:53Z'
+    description: Input moderation for Mastra agents on TypeSafe Jev — one file
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:09:59.163Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:59.163Z'
+      bytes: 5192
+insights:
+  summary: Input moderation for Mastra agents on TypeSafe Jev — one file
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.90
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.393Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:59.163Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

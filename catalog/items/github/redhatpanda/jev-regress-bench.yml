@@ -1,0 +1,83 @@
+id: github__redhatpanda__jev-regress-bench
+kind: github-repo
+name: redhatpanda/jev-regress-bench
+canonical_url: https://github.com/redhatpanda/jev-regress-bench
+identity:
+  github_repo: redhatpanda/jev-regress-bench
+provenance:
+  discoveries:
+    - id: discovery__github__redhatpanda__jev-regress-bench__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Evaluation & Benchmarking
+        anchor_text: jev-regress-bench
+        extracted_url: https://github.com/redhatpanda/jev-regress-bench
+        surrounding_text: >-
+          - [jev-regress-bench](https://github.com/redhatpanda/jev-regress-bench)
+          ![stars](https://img.shields.io/github/stars/redhatpanda/jev-regress-bench?style=flat-square&label=%E2%98%85)
+          - Agent regression testing: after a config edit, one `Choice` (same / fact_differs / action_differs /
+          specificity_differs) decides which of an agent's approved answers changed meaning rather than wording, and on
+          109 before/after pairs whose ground truth is derived from what each config rule does to the answer, Jev
+          catches all 19 real changes with 13 false alarms against 33 for a markers-then-embeddings-then-LLM stack and
+          19 for the LLM judge alone.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    jev-regress-bench - Agent regression testing: after a config edit, one Choice (same / fact_differs / action_differs
+    / specificity_differs) decides which of an agent's approved answers changed meaning rather than wording, and on 109
+    before/after pairs whose ground truth is derived from what each config rule does to the answer, Jev catches all 19
+    real changes with 13 false alarms against 33 for a markers-then-embeddings-then-LLM stack and 19 for the LLM judge
+    alone.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  evidence:
+    - jev-latest choice confidence 0.90
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Evals, Benchmarks & Calibration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.474Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__smithery__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Smithery is a registry and discovery platform for MCP servers that enables AI agents to connect to thousands of tools and services.
-  why_it_matters: It simplifies agent tooling by handling authentication, sessions, and credentials, letting developers focus on building agent capabilities rather than integration plumbing.
-  mental_damage: Another layer in the MCP stack that makes you wonder if we’re just shifting complexity from API keys to tool discovery fatigue.
+  summary: >-
+    Smithery is a registry and discovery platform for MCP servers that enables AI agents to connect to thousands of
+    tools and services.
+  why_it_matters: >-
+    It simplifies agent tooling by handling authentication, sessions, and credentials, letting developers focus on
+    building agent capabilities rather than integration plumbing.
+  mental_damage: >-
+    Another layer in the MCP stack that makes you wonder if we’re just shifting complexity from API keys to tool
+    discovery fatigue.
   tags:
     - mcp
     - registry
@@ -46,21 +52,29 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Smithery’s core identity is as an MCP registry and discovery service, not a coding agent, framework, or orchestrator, making MCP Ecosystem the correct category.
+  reason: >-
+    Smithery’s core identity is as an MCP registry and discovery service, not a coding agent, framework, or
+    orchestrator, making MCP Ecosystem the correct category.
   evidence:
-    - Smithery is described as a platform to 'Connect agents to thousands of tools and services' with MCP handling auth, credentials, and sessions.
-    - It appears in the awesome-LLM-resources list under the 模型上下文协议 MCP section, indicating recognition as an MCP-focused resource.
-    - The site features numerous MCP servers (e.g., OneSignal, Exa Search, DevMatch) that users can add to their toolbox, confirming its role as an MCP registry and discovery hub.
+    - >-
+      Smithery is described as a platform to 'Connect agents to thousands of tools and services' with MCP handling auth,
+      credentials, and sessions.
+    - >-
+      It appears in the awesome-LLM-resources list under the 模型上下文协议 MCP section, indicating recognition as an
+      MCP-focused resource.
+    - >-
+      The site features numerous MCP servers (e.g., OneSignal, Exa Search, DevMatch) that users can add to their
+      toolbox, confirming its role as an MCP registry and discovery hub.
 placement:
   primary_category: mcp
   section: Registries & Discovery
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:37:37.682Z"
+    updated_at: '2026-09-28T04:37:37.682Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,14 +96,24 @@ processing:
       input_hash: sha256:c76ad6f873262115102ce4c16a719493c8861b1f94bbbaa7d189dd4d82da0c53
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: Smithery’s core identity is as an MCP registry and discovery service, not a coding agent, framework, or orchestrator, making MCP Ecosystem the correct category.
+      decision_reason: >-
+        Smithery’s core identity is as an MCP registry and discovery service, not a coding agent, framework, or
+        orchestrator, making MCP Ecosystem the correct category.
       decision_evidence:
-        - Smithery is described as a platform to 'Connect agents to thousands of tools and services' with MCP handling auth, credentials, and sessions.
-        - It appears in the awesome-LLM-resources list under the 模型上下文协议 MCP section, indicating recognition as an MCP-focused resource.
-        - The site features numerous MCP servers (e.g., OneSignal, Exa Search, DevMatch) that users can add to their toolbox, confirming its role as an MCP registry and discovery hub.
+        - >-
+          Smithery is described as a platform to 'Connect agents to thousands of tools and services' with MCP handling
+          auth, credentials, and sessions.
+        - >-
+          It appears in the awesome-LLM-resources list under the 模型上下文协议 MCP section, indicating recognition as an
+          MCP-focused resource.
+        - >-
+          The site features numerous MCP servers (e.g., OneSignal, Exa Search, DevMatch) that users can add to their
+          toolbox, confirming its role as an MCP registry and discovery hub.
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because Smithery is an MCP registry and discovery platform, not a tool that extends a specific coding agent or editor.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because Smithery is an MCP registry and discovery platform, not a tool
+        that extends a specific coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null

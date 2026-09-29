@@ -1,0 +1,75 @@
+id: github__lob-labs__cc-cost
+kind: github-repo
+name: lob-labs/cc-cost
+canonical_url: https://github.com/lob-labs/cc-cost
+identity:
+  github_repo: lob-labs/cc-cost
+provenance:
+  discoveries:
+    - id: discovery__github__lob-labs__cc-cost__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: cc-cost
+        extracted_url: https://github.com/lob-labs/cc-cost
+        surrounding_text: >-
+          - **[cc-cost](https://github.com/lob-labs/cc-cost)** – Single-file Python CLI that parses Claude Code
+          transcript JSONL and reports cost, prompt-cache hit rate, tool-call distribution, top expensive turns, and
+          actionable optimization recommendations (`--diagnose`).
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    cc-cost – Single-file Python CLI that parses Claude Code transcript JSONL and reports cost, prompt-cache hit rate,
+    tool-call distribution, top expensive turns, and actionable optimization recommendations (--diagnose).
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
+  evidence:
+    - jev-latest choice confidence 0.70
+placement:
+  primary_category: evals
+  secondary_categories: []
+  section: Observability & Tracing
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.466Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

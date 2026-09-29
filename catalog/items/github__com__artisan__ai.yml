@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__artisan__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Artisian AI
         anchor_text: Artisian AI
         extracted_url: https://github.com/Artisan-AI
-        surrounding_text: "## [Artisian AI](https://github.com/Artisan-AI)"
+        surrounding_text: '## [Artisian AI](https://github.com/Artisan-AI)'
         confidence: high
 metadata:
   github:
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: An AI-powered platform designed to automate outbound sales and marketing processes using autonomous 'AI employees'.
-  why_it_matters: While it leverages agentic workflows, the product is a business-facing sales tool rather than a tool for the software development lifecycle.
+  why_it_matters: >-
+    While it leverages agentic workflows, the product is a business-facing sales tool rather than a tool for the
+    software development lifecycle.
   mental_damage: The dream of replacing the entire sales department with a single script is closer than we'd like to admit.
   tags:
     - sales-automation
@@ -46,23 +48,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The product is a business-process automation tool for outbound outreach, which falls outside the scope of developer-facing coding, infrastructure, or agentic tooling.
+  reason: >-
+    The product is a business-process automation tool for outbound outreach, which falls outside the scope of
+    developer-facing coding, infrastructure, or agentic tooling.
   evidence:
-    - Scraped site description identifies the product as an 'All-In-One, AI-First Platform' for 'Automating Your Outbound'
+    - >-
+      Scraped site description identifies the product as an 'All-In-One, AI-First Platform' for 'Automating Your
+      Outbound'
     - Source-list context links the tool to 'Automate Your Outbound' rather than developer workflows
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -70,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:14:44.827Z"
+    updated_at: '2026-09-28T04:14:44.827Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,9 +91,13 @@ processing:
       input_hash: sha256:34cf4477b17877a21546074aefa702d6b360b4fefe96099194864cfb2a5312fb
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a business-process automation tool for outbound outreach, which falls outside the scope of developer-facing coding, infrastructure, or agentic tooling.
+      decision_reason: >-
+        The product is a business-process automation tool for outbound outreach, which falls outside the scope of
+        developer-facing coding, infrastructure, or agentic tooling.
       decision_evidence:
-        - Scraped site description identifies the product as an 'All-In-One, AI-First Platform' for 'Automating Your Outbound'
+        - >-
+          Scraped site description identifies the product as an 'All-In-One, AI-First Platform' for 'Automating Your
+          Outbound'
         - Source-list context links the tool to 'Automate Your Outbound' rather than developer workflows
       category_candidates: []
       contrastive_reason: null

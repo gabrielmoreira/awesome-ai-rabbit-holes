@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ruliad__co__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Naut
         anchor_text: Naut
         extracted_url: https://www.naut.ai
-        surrounding_text: "## [Naut](https://www.naut.ai/)"
+        surrounding_text: '## [Naut](https://www.naut.ai/)'
         confidence: high
 metadata:
   github:
@@ -45,21 +45,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Ruliad Chat emphasizes self-sovereign intelligence and local execution, aligning with local AI desktop chat tools that prioritize privacy and offline use.
+  reason: >-
+    Ruliad Chat emphasizes self-sovereign intelligence and local execution, aligning with local AI desktop chat tools
+    that prioritize privacy and offline use.
   evidence:
-    - "Scraped site title: 'Ruliad Chat'"
-    - "Scraped site description: 'Self Sovereign Intelligence'"
+    - 'Scraped site title: ''Ruliad Chat'''
+    - 'Scraped site description: ''Self Sovereign Intelligence'''
     - No evidence of code editing, agent orchestration, or app generation; focuses on chat interaction
 placement:
   primary_category: local-ai
   section: Desktop Chat & UIs
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +70,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:36:19.503Z"
+    updated_at: '2026-09-28T04:36:19.503Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -81,14 +83,18 @@ processing:
       input_hash: sha256:e72f00d7bfbc09b0d4880bfa65de42429270dcf5b963b36bcacb225353d56824
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: Ruliad Chat emphasizes self-sovereign intelligence and local execution, aligning with local AI desktop chat tools that prioritize privacy and offline use.
+      decision_reason: >-
+        Ruliad Chat emphasizes self-sovereign intelligence and local execution, aligning with local AI desktop chat
+        tools that prioritize privacy and offline use.
       decision_evidence:
-        - "Scraped site title: 'Ruliad Chat'"
-        - "Scraped site description: 'Self Sovereign Intelligence'"
+        - 'Scraped site title: ''Ruliad Chat'''
+        - 'Scraped site description: ''Self Sovereign Intelligence'''
         - No evidence of code editing, agent orchestration, or app generation; focuses on chat interaction
       category_candidates:
         - local-ai
         - coding-agents
-      contrastive_reason: Choose local-ai over coding-agents because Ruliad Chat is a desktop chat interface for private AI interaction, not an agent that autonomously writes, edits, or reviews code.
+      contrastive_reason: >-
+        Choose local-ai over coding-agents because Ruliad Chat is a desktop chat interface for private AI interaction,
+        not an agent that autonomously writes, edits, or reviews code.
       review_reason: null
       review_resume_lifecycle: null

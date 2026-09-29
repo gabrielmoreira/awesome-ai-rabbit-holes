@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__venuv__langchain_semantic_search__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,9 @@ provenance:
           - Notebooks
         anchor_text: Langchain Semantic Search
         extracted_url: https://github.com/venuv/langchain_semantic_search
-        surrounding_text: "- [Langchain Semantic Search](https://github.com/venuv/langchain_semantic_search): Search and indexing your own Google Drive Files using GPT3, LangChain, and Python"
+        surrounding_text: >-
+          - [Langchain Semantic Search](https://github.com/venuv/langchain_semantic_search): Search and indexing your
+          own Google Drive Files using GPT3, LangChain, and Python
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: venuv/langchain_semantic_search
     html_url: https://github.com/venuv/langchain_semantic_search
-    created_at: "2023-02-07T06:43:55Z"
-    pushed_at: "2023-02-07T11:42:25Z"
+    created_at: '2023-02-07T06:43:55Z'
+    pushed_at: '2023-02-07T11:42:25Z'
     description: Search and indexing your own Google Drive Files using GPT3, LangChain, and Python
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:21:02.722Z"
+    last_checked_at: '2026-07-21T15:21:02.722Z'
     readme:
-      fetched_at: "2026-07-21T15:21:02.722Z"
+      fetched_at: '2026-07-21T15:21:02.722Z'
       bytes: 1299
 insights:
-  summary: A Jupyter notebook that uses LangChain and GPT-3 to create a FAISS index for semantic search over personal Google Drive files.
-  why_it_matters: Enables developers to semantically search their own document collections using LLMs without building infrastructure from scratch.
-  mental_damage: Yet another notebook demo that makes you feel productive until you realize it's just wrapping two APIs in a local index.
+  summary: >-
+    A Jupyter notebook that uses LangChain and GPT-3 to create a FAISS index for semantic search over personal Google
+    Drive files.
+  why_it_matters: >-
+    Enables developers to semantically search their own document collections using LLMs without building infrastructure
+    from scratch.
+  mental_damage: >-
+    Yet another notebook demo that makes you feel productive until you realize it's just wrapping two APIs in a local
+    index.
   tags:
     - langchain
     - semantic-search
@@ -50,31 +58,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is an educational notebook demo with no reusable tooling, CLI, or production-ready artifact, making it a learning resource rather than developer tooling.
+  reason: >-
+    The project is an educational notebook demo with no reusable tooling, CLI, or production-ready artifact, making it a
+    learning resource rather than developer tooling.
   evidence:
     - Repo description frames it as a Jupyter notebook for searching Google Drive with LangChain and GPT-3
-    - README centers on a single notebook (langchain_semantic_search.ipynb) and setup instructions for a personal test drive
+    - >-
+      README centers on a single notebook (langchain_semantic_search.ipynb) and setup instructions for a personal test
+      drive
     - No evidence of reusable code, packaging, CLI, or library; activity ceased in February 2023 with no updates since
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:02.722Z"
+    updated_at: '2026-07-21T15:21:02.722Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.169Z"
+    updated_at: '2026-09-28T04:14:00.169Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

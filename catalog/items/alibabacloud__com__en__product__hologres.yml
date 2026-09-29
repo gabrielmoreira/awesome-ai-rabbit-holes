@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__alibabacloud__com__en__product__hologres__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,13 @@ provenance:
           - Official Servers
         anchor_text: Hologres
         extracted_url: https://alibabacloud.com/en/product/hologres
-        surrounding_text: "- **[Hologres](https://github.com/aliyun/alibabacloud-hologres-mcp-server)** - Connect to a [Hologres](https://www.alibabacloud.com/en/product/hologres) instance, get table metadata, query and analyze data."
+        surrounding_text: >-
+          - **[Hologres](https://github.com/aliyun/alibabacloud-hologres-mcp-server)** - Connect to a
+          [Hologres](https://www.alibabacloud.com/en/product/hologres) instance, get table metadata, query and analyze
+          data.
         confidence: high
     - id: discovery__www__alibabacloud__com__en__product__hologres__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +36,10 @@ provenance:
           - Official Servers
         anchor_text: Hologres
         extracted_url: https://www.alibabacloud.com/en/product/hologres
-        surrounding_text: "- **[Hologres](https://github.com/aliyun/alibabacloud-hologres-mcp-server)** - Connect to a [Hologres](https://www.alibabacloud.com/en/product/hologres) instance, get table metadata, query and analyze data."
+        surrounding_text: >-
+          - **[Hologres](https://github.com/aliyun/alibabacloud-hologres-mcp-server)** - Connect to a
+          [Hologres](https://www.alibabacloud.com/en/product/hologres) instance, get table metadata, query and analyze
+          data.
         confidence: high
 metadata:
   github:
@@ -51,9 +57,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Hologres is Alibaba Cloud's real-time data warehouse engine compatible with PostgreSQL, designed for OLAP, high-concurrency data serving, and integration with Flink and DataWorks.
-  why_it_matters: It enables developers to build real-time analytics applications with sub-second query responses on petabyte-scale data without rearchitecting their stack.
-  mental_damage: Another 'AI-ready' data warehouse promising real-time insights while you spend more time tuning Flink connectors than writing SQL.
+  summary: >-
+    Hologres is Alibaba Cloud's real-time data warehouse engine compatible with PostgreSQL, designed for OLAP,
+    high-concurrency data serving, and integration with Flink and DataWorks.
+  why_it_matters: >-
+    It enables developers to build real-time analytics applications with sub-second query responses on petabyte-scale
+    data without rearchitecting their stack.
+  mental_damage: >-
+    Another 'AI-ready' data warehouse promising real-time insights while you spend more time tuning Flink connectors
+    than writing SQL.
   tags:
     - data-warehouse
     - real-time-analytics
@@ -63,21 +75,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Hologres is a real-time data warehouse and analytics engine, not a developer-facing AI tool, agent, workflow, or infrastructure product; its inclusion in awesome-mcp-servers is incidental and does not establish AI developer-tooling identity.
+  reason: >-
+    Hologres is a real-time data warehouse and analytics engine, not a developer-facing AI tool, agent, workflow, or
+    infrastructure product; its inclusion in awesome-mcp-servers is incidental and does not establish AI
+    developer-tooling identity.
   evidence:
-    - Described as 'an all-in-one real-time data warehouse engine that is compatible with PostgreSQL' and 'supports online analytical processing (OLAP) and ad hoc analysis of PB-scale data'
-    - Primary use cases center on real-time data processing, interactive analysis, and centralized data serving for BI and enterprise workloads, not AI agent interactions or coding workflows
-    - Listed in awesome-mcp-servers under 'Official Servers' but the MCP connection is not detailed in the scraped content, and the product's core identity remains data warehousing
+    - >-
+      Described as 'an all-in-one real-time data warehouse engine that is compatible with PostgreSQL' and 'supports
+      online analytical processing (OLAP) and ad hoc analysis of PB-scale data'
+    - >-
+      Primary use cases center on real-time data processing, interactive analysis, and centralized data serving for BI
+      and enterprise workloads, not AI agent interactions or coding workflows
+    - >-
+      Listed in awesome-mcp-servers under 'Official Servers' but the MCP connection is not detailed in the scraped
+      content, and the product's core identity remains data warehousing
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:38:39.580Z"
+    updated_at: '2026-09-28T04:38:39.580Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,18 +111,27 @@ processing:
       input_hash: sha256:7eefb29c61f5581c5e5c00af99742441e7de9b7f636bb3f0d3f57091655563c6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Hologres is a real-time data warehouse and analytics engine, not a developer-facing AI tool, agent, workflow, or infrastructure product; its inclusion in awesome-mcp-servers is incidental and does not establish AI developer-tooling identity.
+      decision_reason: >-
+        Hologres is a real-time data warehouse and analytics engine, not a developer-facing AI tool, agent, workflow, or
+        infrastructure product; its inclusion in awesome-mcp-servers is incidental and does not establish AI
+        developer-tooling identity.
       decision_evidence:
-        - Described as 'an all-in-one real-time data warehouse engine that is compatible with PostgreSQL' and 'supports online analytical processing (OLAP) and ad hoc analysis of PB-scale data'
-        - Primary use cases center on real-time data processing, interactive analysis, and centralized data serving for BI and enterprise workloads, not AI agent interactions or coding workflows
-        - Listed in awesome-mcp-servers under 'Official Servers' but the MCP connection is not detailed in the scraped content, and the product's core identity remains data warehousing
+        - >-
+          Described as 'an all-in-one real-time data warehouse engine that is compatible with PostgreSQL' and 'supports
+          online analytical processing (OLAP) and ad hoc analysis of PB-scale data'
+        - >-
+          Primary use cases center on real-time data processing, interactive analysis, and centralized data serving for
+          BI and enterprise workloads, not AI agent interactions or coding workflows
+        - >-
+          Listed in awesome-mcp-servers under 'Official Servers' but the MCP connection is not detailed in the scraped
+          content, and the product's core identity remains data warehousing
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.364Z"
+    updated_at: '2026-07-20T16:42:15.364Z'
     cause: null
     next_retry_at: null
   stars:

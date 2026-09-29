@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__glama__ai__mcp__servers__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -18,10 +18,10 @@ provenance:
           - README
         anchor_text: Awesome MCP Servers
         extracted_url: https://glama.ai/mcp/servers
-        surrounding_text: "> [Awesome MCP Servers](https://glama.ai/mcp/servers) web directory."
+        surrounding_text: '> [Awesome MCP Servers](https://glama.ai/mcp/servers) web directory.'
         confidence: high
     - id: discovery__glama__ai__mcp__servers__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -52,8 +52,12 @@ metadata:
     readme: null
 insights:
   summary: A searchable registry and directory of Model Context Protocol (MCP) servers, clients, and tools.
-  why_it_matters: It provides a centralized discovery layer for the rapidly expanding ecosystem of MCP-compatible capabilities, making it easier to find tools for AI agents.
-  mental_damage: Attempting to navigate a registry of 93,000 servers is the final boss of decision paralysis for the agent-obsessed developer.
+  why_it_matters: >-
+    It provides a centralized discovery layer for the rapidly expanding ecosystem of MCP-compatible capabilities, making
+    it easier to find tools for AI agents.
+  mental_damage: >-
+    Attempting to navigate a registry of 93,000 servers is the final boss of decision paralysis for the agent-obsessed
+    developer.
   tags:
     - mcp
     - registry
@@ -62,7 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product serves as an operational registry and discovery service for the MCP ecosystem, which is a core identity within the MCP category.
+  reason: >-
+    The product serves as an operational registry and discovery service for the MCP ecosystem, which is a core identity
+    within the MCP category.
   evidence:
     - Lists over 93,000 MCP servers with real-time usage and star data
     - Provides a directory API for programmatic access
@@ -72,12 +78,12 @@ placement:
   secondary_categories: []
   section: Registries & Discovery
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.597Z"
+    updated_at: '2026-05-06T22:12:15.597Z'
     cause: null
     next_retry_at: null
   stars:
@@ -86,7 +92,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:17:10.925Z"
+    updated_at: '2026-09-28T04:17:10.925Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -99,7 +105,9 @@ processing:
       input_hash: sha256:c781976d01c7796b8c6fa144d64cc5c51cec20ee8602fb8d510e93811b9e9a89
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product serves as an operational registry and discovery service for the MCP ecosystem, which is a core identity within the MCP category.
+      decision_reason: >-
+        The product serves as an operational registry and discovery service for the MCP ecosystem, which is a core
+        identity within the MCP category.
       decision_evidence:
         - Lists over 93,000 MCP servers with real-time usage and star data
         - Provides a directory API for programmatic access
@@ -107,6 +115,8 @@ processing:
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because it is an operational discovery platform with an API and real-time metrics rather than a static curated list.
+      contrastive_reason: >-
+        Choose mcp over awesome-awesomes because it is an operational discovery platform with an API and real-time
+        metrics rather than a static curated list.
       review_reason: null
       review_resume_lifecycle: null

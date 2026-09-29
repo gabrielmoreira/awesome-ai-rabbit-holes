@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kubernetes-sigs__kueue__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Scheduling
         anchor_text: Kueue
         extracted_url: https://github.com/kubernetes-sigs/kueue
-        surrounding_text: "| [Kueue](https://github.com/kubernetes-sigs/kueue)   | Kubernetes-native Job Queueing.                                                | ![GitHub Badge](https://img.shields.io/github/stars/kubernetes-sigs/kueue.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [Kueue](https://github.com/kubernetes-sigs/kueue)   | Kubernetes-native Job
+          Queueing.                                                | ![GitHub
+          Badge](https://img.shields.io/github/stars/kubernetes-sigs/kueue.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -30,21 +33,23 @@ metadata:
     archived: false
     full_name: kubernetes-sigs/kueue
     html_url: https://github.com/kubernetes-sigs/kueue
-    created_at: "2022-02-16T05:52:19Z"
-    pushed_at: "2026-07-30T04:43:16Z"
+    created_at: '2022-02-16T05:52:19Z'
+    pushed_at: '2026-07-30T04:43:16Z'
     description: Kubernetes-native Job Queueing
     homepage: https://kueue.sigs.k8s.io
     topics:
       - k8s
       - k8s-sig-scheduling
       - kubernetes
-    last_checked_at: "2026-07-30T05:05:58.794Z"
+    last_checked_at: '2026-07-30T05:05:58.794Z'
     readme:
-      fetched_at: "2026-07-30T05:05:58.794Z"
+      fetched_at: '2026-07-30T05:05:58.794Z'
       bytes: 13554
 insights:
   summary: Kubernetes-native job queueing system for managing and scheduling workloads in K8s clusters.
-  why_it_matters: It provides fine-grained control over job admission, prioritization, and resource allocation in Kubernetes, which is critical for large-scale AI/ML workloads and multi-tenant clusters.
+  why_it_matters: >-
+    It provides fine-grained control over job admission, prioritization, and resource allocation in Kubernetes, which is
+    critical for large-scale AI/ML workloads and multi-tenant clusters.
   mental_damage: Finally, a way to make Kubernetes scheduling as complex as the AI pipelines it’s supposed to manage.
   tags:
     - kubernetes
@@ -55,31 +60,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a Kubernetes infrastructure tool for job queueing and resource management, not a developer-facing AI tool, framework, or workflow product.
+  reason: >-
+    This is a Kubernetes infrastructure tool for job queueing and resource management, not a developer-facing AI tool,
+    framework, or workflow product.
   evidence:
     - Repo description explicitly states it is 'Kubernetes-native Job Queueing'
     - README focuses on job admission, queueing strategies, and K8s integrations (e.g., Kubeflow, RayJob)
-    - Source-list context places it under 'Large Scale Deployment > Scheduling' in an LLMOps list, but the tool itself is not AI-specific
+    - >-
+      Source-list context places it under 'Large Scale Deployment > Scheduling' in an LLMOps list, but the tool itself
+      is not AI-specific
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (2489) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:58.794Z"
+    updated_at: '2026-07-30T05:05:58.794Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -94,11 +103,15 @@ processing:
       input_hash: sha256:ec8adeda9228c3f6078624cb89f0cf35f111040dc6a3f7369b8dda9b0441202e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a Kubernetes infrastructure tool for job queueing and resource management, not a developer-facing AI tool, framework, or workflow product.
+      decision_reason: >-
+        This is a Kubernetes infrastructure tool for job queueing and resource management, not a developer-facing AI
+        tool, framework, or workflow product.
       decision_evidence:
         - Repo description explicitly states it is 'Kubernetes-native Job Queueing'
         - README focuses on job admission, queueing strategies, and K8s integrations (e.g., Kubeflow, RayJob)
-        - Source-list context places it under 'Large Scale Deployment > Scheduling' in an LLMOps list, but the tool itself is not AI-specific
+        - >-
+          Source-list context places it under 'Large Scale Deployment > Scheduling' in an LLMOps list, but the tool
+          itself is not AI-specific
       category_candidates: []
       contrastive_reason: null
       review_reason: null

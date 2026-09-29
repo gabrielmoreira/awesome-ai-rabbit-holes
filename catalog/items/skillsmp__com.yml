@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__skillsmp__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: SkillsMP is a searchable marketplace for 1.7M+ agent skills in SKILL.md format compatible with Claude Code, Codex CLI, and ChatGPT.
-  why_it_matters: It gives developers a centralized registry to discover, evaluate, and install reusable agent behaviors without writing custom prompts or skills from scratch.
-  mental_damage: Another directory where you spend more time browsing skills than actually using them, hoping one finally understands your weird repo.
+  summary: >-
+    SkillsMP is a searchable marketplace for 1.7M+ agent skills in SKILL.md format compatible with Claude Code, Codex
+    CLI, and ChatGPT.
+  why_it_matters: >-
+    It gives developers a centralized registry to discover, evaluate, and install reusable agent behaviors without
+    writing custom prompts or skills from scratch.
+  mental_damage: >-
+    Another directory where you spend more time browsing skills than actually using them, hoping one finally understands
+    your weird repo.
   tags:
     - agent-skills
     - registry
@@ -46,25 +52,35 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: SkillsMP is a registry and directory for discovering and distributing SKILL.md skill packs, which is the core product identity of the skills category.
+  reason: >-
+    SkillsMP is a registry and directory for discovering and distributing SKILL.md skill packs, which is the core
+    product identity of the skills category.
   evidence:
-    - "Scraped site context: 'Discover open-source agent skills for Claude Code, Codex, ChatGPT, and any tool that uses SKILL.md.'"
-    - "Source-list context: listed in awesome-LLM-resources under '技能 Skills' with description 'Browse 1.7M+ agent skills compatible with Claude Code, Codex CLI and ChatGPT. The open standard SKILL.md format for AI coding assistants.'"
-    - README excerpt emphasizes browsing, searching, and installing skills via API or GitHub sources, not building or running agents itself.
+    - >-
+      Scraped site context: 'Discover open-source agent skills for Claude Code, Codex, ChatGPT, and any tool that uses
+      SKILL.md.'
+    - >-
+      Source-list context: listed in awesome-LLM-resources under '技能 Skills' with description 'Browse 1.7M+ agent skills
+      compatible with Claude Code, Codex CLI and ChatGPT. The open standard SKILL.md format for AI coding assistants.'
+    - >-
+      README excerpt emphasizes browsing, searching, and installing skills via API or GitHub sources, not building or
+      running agents itself.
 placement:
   primary_category: skills
   secondary_categories: []
   section: Registries & Directories
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -72,7 +88,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:37:25.635Z"
+    updated_at: '2026-09-28T04:37:25.635Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -85,14 +101,25 @@ processing:
       input_hash: sha256:c486b83c3ec9ec146f0ae5eee8e65fa75a26bae11988c3ece0e62e496b896e1d
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: SkillsMP is a registry and directory for discovering and distributing SKILL.md skill packs, which is the core product identity of the skills category.
+      decision_reason: >-
+        SkillsMP is a registry and directory for discovering and distributing SKILL.md skill packs, which is the core
+        product identity of the skills category.
       decision_evidence:
-        - "Scraped site context: 'Discover open-source agent skills for Claude Code, Codex, ChatGPT, and any tool that uses SKILL.md.'"
-        - "Source-list context: listed in awesome-LLM-resources under '技能 Skills' with description 'Browse 1.7M+ agent skills compatible with Claude Code, Codex CLI and ChatGPT. The open standard SKILL.md format for AI coding assistants.'"
-        - README excerpt emphasizes browsing, searching, and installing skills via API or GitHub sources, not building or running agents itself.
+        - >-
+          Scraped site context: 'Discover open-source agent skills for Claude Code, Codex, ChatGPT, and any tool that
+          uses SKILL.md.'
+        - >-
+          Source-list context: listed in awesome-LLM-resources under '技能 Skills' with description 'Browse 1.7M+ agent
+          skills compatible with Claude Code, Codex CLI and ChatGPT. The open standard SKILL.md format for AI coding
+          assistants.'
+        - >-
+          README excerpt emphasizes browsing, searching, and installing skills via API or GitHub sources, not building
+          or running agents itself.
       category_candidates:
         - skills
         - awesome-awesomes
-      contrastive_reason: Choose skills over awesome-awesomes because SkillsMP is a functional registry for installing agent skills, not merely a curated list or directory for discovery.
+      contrastive_reason: >-
+        Choose skills over awesome-awesomes because SkillsMP is a functional registry for installing agent skills, not
+        merely a curated list or directory for discovery.
       review_reason: null
       review_resume_lifecycle: null

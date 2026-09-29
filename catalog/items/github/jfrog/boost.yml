@@ -1,0 +1,75 @@
+id: github__jfrog__boost
+kind: github-repo
+name: jfrog/boost
+canonical_url: https://github.com/jfrog/boost
+identity:
+  github_repo: jfrog/boost
+provenance:
+  discoveries:
+    - id: discovery__github__jfrog__boost__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: Boost
+        extracted_url: https://boost.jfrog.com
+        surrounding_text: >-
+          - **[Boost](https://boost.jfrog.com/)** – Free CLI that reduces terminal and CI output before it reaches
+          Cursor, Claude Code, and Codex, typically saving 60–90% of log tokens with reversible retrieval and local
+          performance reports.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Boost – Free CLI that reduces terminal and CI output before it reaches Cursor, Claude Code, and Codex, typically
+    saving 60–90% of log tokens with reversible retrieval and local performance reports.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
+  evidence:
+    - jev-latest choice confidence 0.97
+placement:
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Compression & Token Optimization
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.462Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

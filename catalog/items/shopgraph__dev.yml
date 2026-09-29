@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__shopgraph__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,11 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: shopgraph.dev
         extracted_url: https://shopgraph.dev
-        surrounding_text: "- [laundromatic/shopgraph](https://github.com/laundromatic/shopgraph) [![laundromatic/shopgraph MCP server](https://glama.ai/mcp/servers/laundromatic/shopgraph/badges/score.svg)](https://glama.ai/mcp/servers/laundromatic/shopgraph) 📇 ☁️ - Structured product data from the open web — Schema.org + AI extraction for e-commerce enrichment. Pay per call via Stripe. [shopgraph.dev](https://shopgraph.dev)"
+        surrounding_text: >-
+          - [laundromatic/shopgraph](https://github.com/laundromatic/shopgraph) [![laundromatic/shopgraph MCP
+          server](https://glama.ai/mcp/servers/laundromatic/shopgraph/badges/score.svg)](https://glama.ai/mcp/servers/laundromatic/shopgraph)
+          📇 ☁️ - Structured product data from the open web — Schema.org + AI extraction for e-commerce enrichment. Pay
+          per call via Stripe. [shopgraph.dev](https://shopgraph.dev)
         confidence: high
 metadata:
   github:
@@ -37,9 +41,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ShopGraph is a product data extraction API that returns structured UCP format with per-field provenance and freshness signals.
-  why_it_matters: It lets developers trust automated product data pipelines by showing exactly how each field was derived and how recent it is.
-  mental_damage: Finally, an extraction tool that forces you to confront the uncomfortable truth that your scraped data might be lying to you.
+  summary: >-
+    ShopGraph is a product data extraction API that returns structured UCP format with per-field provenance and
+    freshness signals.
+  why_it_matters: >-
+    It lets developers trust automated product data pipelines by showing exactly how each field was derived and how
+    recent it is.
+  mental_damage: >-
+    Finally, an extraction tool that forces you to confront the uncomfortable truth that your scraped data might be
+    lying to you.
   tags:
     - data-extraction
     - provenance
@@ -47,21 +57,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: ShopGraph is a data extraction API for e-commerce product information, not a developer-facing AI tool for coding, agents, workflows, or infrastructure.
+  reason: >-
+    ShopGraph is a data extraction API for e-commerce product information, not a developer-facing AI tool for coding,
+    agents, workflows, or infrastructure.
   evidence:
-    - ShopGraph extracts product data from URLs and returns UCP schema JSON with extraction method and freshness per field
-    - The tool focuses on commerce data reliability for automation pipelines, not code generation, editing, or AI agent assistance
-    - No evidence of AI model interaction, prompt engineering, agent behavior, or developer workflow integration in the provided context
+    - >-
+      ShopGraph extracts product data from URLs and returns UCP schema JSON with extraction method and freshness per
+      field
+    - >-
+      The tool focuses on commerce data reliability for automation pipelines, not code generation, editing, or AI agent
+      assistance
+    - >-
+      No evidence of AI model interaction, prompt engineering, agent behavior, or developer workflow integration in the
+      provided context
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +88,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:37:06.863Z"
+    updated_at: '2026-09-28T04:37:06.863Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,11 +101,19 @@ processing:
       input_hash: sha256:c9e551775e2a54f908ce57bae2b5b683f70b755651007146eba73c77456aacf3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: ShopGraph is a data extraction API for e-commerce product information, not a developer-facing AI tool for coding, agents, workflows, or infrastructure.
+      decision_reason: >-
+        ShopGraph is a data extraction API for e-commerce product information, not a developer-facing AI tool for
+        coding, agents, workflows, or infrastructure.
       decision_evidence:
-        - ShopGraph extracts product data from URLs and returns UCP schema JSON with extraction method and freshness per field
-        - The tool focuses on commerce data reliability for automation pipelines, not code generation, editing, or AI agent assistance
-        - No evidence of AI model interaction, prompt engineering, agent behavior, or developer workflow integration in the provided context
+        - >-
+          ShopGraph extracts product data from URLs and returns UCP schema JSON with extraction method and freshness per
+          field
+        - >-
+          The tool focuses on commerce data reliability for automation pipelines, not code generation, editing, or AI
+          agent assistance
+        - >-
+          No evidence of AI model interaction, prompt engineering, agent behavior, or developer workflow integration in
+          the provided context
       category_candidates: []
       contrastive_reason: null
       review_reason: null

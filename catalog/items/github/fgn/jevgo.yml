@@ -1,0 +1,110 @@
+id: github__fgn__jevgo
+kind: github-repo
+name: fgn/jevgo
+canonical_url: https://github.com/fgn/jevgo
+identity:
+  github_repo: fgn/jevgo
+provenance:
+  discoveries:
+    - id: discovery__github__fgn__jevgo__awesome-list__hellogumbo__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - SDKs & clients
+        anchor_text: jevgo
+        extracted_url: https://github.com/fgn/jevgo
+        surrounding_text: >-
+          - [jevgo](https://github.com/fgn/jevgo) - Go client for TypeSafe AI's System One API (Jev), with optional
+          Langfuse instrumentation.
+        confidence: high
+    - id: discovery__github__fgn__jevgo__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - SDKs & clients (57)
+        anchor_text: jevgo
+        extracted_url: https://github.com/fgn/jevgo
+        surrounding_text: >-
+          | [jevgo](https://github.com/fgn/jevgo) | ★ 2 | Go | 2026-09-19 | Go client for TypeSafe AI's System One API
+          (Jev), with optional Langfuse instrumentation. |
+        confidence: high
+    - id: discovery__github__fgn__jevgo__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - SDK & Decision Frameworks
+        anchor_text: '**jevgo**'
+        extracted_url: https://github.com/fgn/jevgo
+        surrounding_text: >-
+          - [**jevgo**](https://github.com/fgn/jevgo) — A community Go client with a standard-library core and optional
+          Langfuse tracing.
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: fgn/jevgo
+    html_url: https://github.com/fgn/jevgo
+    created_at: '2026-09-17T14:03:36Z'
+    pushed_at: '2026-09-17T15:57:04Z'
+    description: Go client for TypeSafe AI's System One API (Jev), with optional Langfuse instrumentation
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:11:17.195Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:17.195Z'
+      bytes: 8849
+insights:
+  summary: Go client for TypeSafe AI's System One API (Jev), with optional Langfuse instrumentation
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  evidence:
+    - jev-latest choice confidence 0.96
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Client SDKs & CLIs
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.395Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:17.195Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

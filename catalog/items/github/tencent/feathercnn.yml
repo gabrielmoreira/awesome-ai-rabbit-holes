@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tencent__feathercnn__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,10 @@ provenance:
           - Optimizations
         anchor_text: FeatherCNN
         extracted_url: https://github.com/tencent/feathercnn
-        surrounding_text: "| [FeatherCNN](https://github.com/Tencent/FeatherCNN)                               | FeatherCNN is a high performance inference engine for convolutional neural networks.                                             | ![GitHub Badge](https://img.shields.io/github/stars/Tencent/FeatherCNN.svg?style=flat-square)            |"
+        surrounding_text: >-
+          | [FeatherCNN](https://github.com/Tencent/FeatherCNN)                               | FeatherCNN is a high
+          performance inference engine for convolutional neural networks.                                             |
+          ![GitHub Badge](https://img.shields.io/github/stars/Tencent/FeatherCNN.svg?style=flat-square)            |
         confidence: high
 metadata:
   github:
@@ -29,10 +32,10 @@ metadata:
     archived: false
     full_name: Tencent/FeatherCNN
     html_url: https://github.com/Tencent/FeatherCNN
-    created_at: "2018-04-27T02:21:30Z"
-    pushed_at: "2019-09-24T06:34:01Z"
+    created_at: '2018-04-27T02:21:30Z'
+    pushed_at: '2019-09-24T06:34:01Z'
     description: FeatherCNN is a high performance inference engine for convolutional neural networks.
-    homepage: ""
+    homepage: ''
     topics:
       - android
       - arm-neon
@@ -40,14 +43,20 @@ metadata:
       - convolutional-neural-networks
       - inference-engine
       - ios
-    last_checked_at: "2026-07-21T15:20:42.337Z"
+    last_checked_at: '2026-07-21T15:20:42.337Z'
     readme:
-      fetched_at: "2026-07-21T15:20:42.337Z"
+      fetched_at: '2026-07-21T15:20:42.337Z'
       bytes: 3909
 insights:
-  summary: FeatherCNN is a high-performance, lightweight C++ inference engine for running convolutional neural networks on ARM-based mobile and embedded devices.
-  why_it_matters: It allows developers to run optimized CNN models on iOS and Android with a small binary footprint and no third-party dependencies.
-  mental_damage: Yet another reminder that while we argue about which LLM writes the best React component, the heavy lifting of actual AI still happens in C++ libraries from 2018.
+  summary: >-
+    FeatherCNN is a high-performance, lightweight C++ inference engine for running convolutional neural networks on
+    ARM-based mobile and embedded devices.
+  why_it_matters: >-
+    It allows developers to run optimized CNN models on iOS and Android with a small binary footprint and no third-party
+    dependencies.
+  mental_damage: >-
+    Yet another reminder that while we argue about which LLM writes the best React component, the heavy lifting of
+    actual AI still happens in C++ libraries from 2018.
   tags:
     - inference-engine
     - cnn
@@ -57,35 +66,41 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional ML inference library for CNNs, not a developer-facing AI tool, agent, or infrastructure relevant to modern LLM/AI coding workflows.
+  reason: >-
+    This is a traditional ML inference library for CNNs, not a developer-facing AI tool, agent, or infrastructure
+    relevant to modern LLM/AI coding workflows.
   evidence:
-    - Repo description explicitly defines it as a 'high performance inference engine for convolutional neural networks', not an LLM or coding tool.
+    - >-
+      Repo description explicitly defines it as a 'high performance inference engine for convolutional neural networks',
+      not an LLM or coding tool.
     - Last push was in 2019, indicating an inactive project focused on pre-LLM-era mobile inference.
-    - Appears in Awesome-LLMOps under 'Optimizations', but it is a generic CNN library rather than a tool for LLM operations.
+    - >-
+      Appears in Awesome-LLMOps under 'Optimizations', but it is a generic CNN library rather than a tool for LLM
+      operations.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (1227) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.651Z"
+    updated_at: '2026-05-06T22:12:15.651Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:42.337Z"
+    updated_at: '2026-07-21T15:20:42.337Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.168Z"
+    updated_at: '2026-09-28T04:14:00.168Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

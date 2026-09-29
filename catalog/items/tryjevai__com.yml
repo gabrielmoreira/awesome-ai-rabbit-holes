@@ -1,0 +1,76 @@
+id: tryjevai__com
+kind: website
+name: tryjevai.com
+canonical_url: https://tryjevai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__tryjevai__com__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Verification & Guardrails
+        anchor_text: TryJevAI
+        extracted_url: https://tryjevai.com
+        surrounding_text: >-
+          - [TryJevAI](https://tryjevai.com/) - Scheduling: public Jev playground uses a typed `Choice` with an explicit
+          `Unresolved` option to distinguish a mentioned arrival time from an agreed meeting time, showing the returned
+          probabilities and prompting for missing agreement before treating a time as settled.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    TryJevAI - Scheduling: public Jev playground uses a typed Choice with an explicit Unresolved option to distinguish a
+    mentioned arrival time from an agreed meeting time, showing the returned probabilities and prompting for missing
+    agreement before treating a time as settled.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Official Jev & System One
+  evidence:
+    - jev-latest choice confidence 0.53
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Official Jev & System One
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.494Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

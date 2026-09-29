@@ -1,0 +1,84 @@
+id: factory__com
+kind: website
+name: factory.com
+canonical_url: https://factory.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__factory__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Factory
+        anchor_text: Factory
+        extracted_url: https://factory.ai
+        surrounding_text: '## [Factory](https://www.factory.ai/)'
+        confidence: high
+    - id: discovery__factory__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Factory
+        extracted_url: https://factory.ai
+        surrounding_text: '- **[Factory](https://factory.ai/)** – AI platform automating repetitive coding tasks at scale.'
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Factory – AI platform automating repetitive coding tasks at scale.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
+  evidence:
+    - jev-latest choice confidence 0.56
+placement:
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Autonomous & Multi-Agent Coding
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.431Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

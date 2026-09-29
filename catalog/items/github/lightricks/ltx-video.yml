@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lightricks__ltx-video__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -30,8 +30,8 @@ metadata:
     archived: false
     full_name: Lightricks/LTX-Video
     html_url: https://github.com/Lightricks/LTX-Video
-    created_at: "2024-11-20T20:06:28Z"
-    pushed_at: "2026-01-05T22:37:07Z"
+    created_at: '2024-11-20T20:06:28Z'
+    pushed_at: '2026-01-05T22:37:07Z'
     description: Official repository for LTX-Video
     homepage: https://ltx.io/model
     topics:
@@ -41,14 +41,18 @@ metadata:
       - image-to-video-generation
       - text-to-video
       - text-to-video-generation
-    last_checked_at: "2026-07-30T05:06:05.652Z"
+    last_checked_at: '2026-07-30T05:06:05.652Z'
     readme:
-      fetched_at: "2026-07-30T05:06:05.652Z"
+      fetched_at: '2026-07-30T05:06:05.652Z'
       bytes: 26649
 insights:
   summary: LTX-Video is a diffusion-based video generation model for text-to-video and image-to-video tasks.
-  why_it_matters: It enables developers to generate video content from prompts or images using open-source weights, supporting local and customizable video synthesis workflows.
-  mental_damage: Another model repo where you trade GPU hours for mildly coherent clips of people doing uncanny things in silent loops.
+  why_it_matters: >-
+    It enables developers to generate video content from prompts or images using open-source weights, supporting local
+    and customizable video synthesis workflows.
+  mental_damage: >-
+    Another model repo where you trade GPU hours for mildly coherent clips of people doing uncanny things in silent
+    loops.
   tags:
     - video-generation
     - diffusion
@@ -56,31 +60,33 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: LTX-Video is a raw model repository focused on video generation capabilities, not a developer-facing tool, agent, framework, or workflow product that changes how software is built or maintained.
+  reason: >-
+    LTX-Video is a raw model repository focused on video generation capabilities, not a developer-facing tool, agent,
+    framework, or workflow product that changes how software is built or maintained.
   evidence:
-    - "Repo description: 'Official repository for LTX-Video'"
-    - "Topics: diffusion-models, dit, image-to-video, text-to-video-generation"
+    - 'Repo description: ''Official repository for LTX-Video'''
+    - 'Topics: diffusion-models, dit, image-to-video, text-to-video-generation'
     - No evidence of CLI, SDK, editor integration, or developer workflow automation in inputs
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (10190) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:05.652Z"
+    updated_at: '2026-07-30T05:06:05.652Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -95,10 +101,12 @@ processing:
       input_hash: sha256:72fde53ffcfbc364aec28ca1deb688ab412c8f3713be4f234f4c9eb2841d08b2
       proposed_primary_category: null
       disagreement: false
-      decision_reason: LTX-Video is a raw model repository focused on video generation capabilities, not a developer-facing tool, agent, framework, or workflow product that changes how software is built or maintained.
+      decision_reason: >-
+        LTX-Video is a raw model repository focused on video generation capabilities, not a developer-facing tool,
+        agent, framework, or workflow product that changes how software is built or maintained.
       decision_evidence:
-        - "Repo description: 'Official repository for LTX-Video'"
-        - "Topics: diffusion-models, dit, image-to-video, text-to-video-generation"
+        - 'Repo description: ''Official repository for LTX-Video'''
+        - 'Topics: diffusion-models, dit, image-to-video, text-to-video-generation'
         - No evidence of CLI, SDK, editor integration, or developer workflow automation in inputs
       category_candidates: []
       contrastive_reason: null

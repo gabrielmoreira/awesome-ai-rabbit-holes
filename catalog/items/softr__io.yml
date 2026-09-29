@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__softr__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - App Builders
         anchor_text: Softr
         extracted_url: https://softr.io
-        surrounding_text: "- **[Softr](https://www.softr.io/)** – No-code app builder with AI assistance."
+        surrounding_text: '- **[Softr](https://www.softr.io/)** – No-code app builder with AI assistance.'
         confidence: high
     - id: discovery__www__softr__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - App Builders
         anchor_text: Softr
         extracted_url: https://www.softr.io
-        surrounding_text: "- **[Softr](https://www.softr.io/)** – No-code app builder with AI assistance."
+        surrounding_text: '- **[Softr](https://www.softr.io/)** – No-code app builder with AI assistance.'
         confidence: high
 metadata:
   github:
@@ -52,8 +52,12 @@ metadata:
     readme: null
 insights:
   summary: Softr is an AI app builder for creating business portals and internal tools without code.
-  why_it_matters: It lets developers and non-developers launch secure, data-connected internal tools quickly by turning prompts into deployable apps.
-  mental_damage: Another ‘no-code AI app builder’ promising to replace spreadsheets while quietly locking you into yet another proprietary platform.
+  why_it_matters: >-
+    It lets developers and non-developers launch secure, data-connected internal tools quickly by turning prompts into
+    deployable apps.
+  mental_damage: >-
+    Another ‘no-code AI app builder’ promising to replace spreadsheets while quietly locking you into yet another
+    proprietary platform.
   tags:
     - app-builder
     - no-code
@@ -63,21 +67,29 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Softr’s core identity is an AI-powered app builder that generates deployable business apps from prompts, fitting the app-builders category rather than coding agents or extensions.
+  reason: >-
+    Softr’s core identity is an AI-powered app builder that generates deployable business apps from prompts, fitting the
+    app-builders category rather than coding agents or extensions.
   evidence:
-    - "Source-list context: listed in awesome-ai-coding-tools under App Builders with description 'Build and launch custom AI-powered portals and internal tools in minutes, no code required.'"
-    - "Scraped site context: 'AI App Builder' is a primary product label, with claims to 'Create business apps with AI' and 'Simply describe what you need. Let Softr handle everything - Interface, database, workflows.'"
-    - "README excerpt: Positions itself as an 'AI app builder for business operations' that creates 'secure portals and internal tools' via AI Co-Builder, replacing off-the-shelf software and spreadsheets."
+    - >-
+      Source-list context: listed in awesome-ai-coding-tools under App Builders with description 'Build and launch
+      custom AI-powered portals and internal tools in minutes, no code required.'
+    - >-
+      Scraped site context: 'AI App Builder' is a primary product label, with claims to 'Create business apps with AI'
+      and 'Simply describe what you need. Let Softr handle everything - Interface, database, workflows.'
+    - >-
+      README excerpt: Positions itself as an 'AI app builder for business operations' that creates 'secure portals and
+      internal tools' via AI Co-Builder, replacing off-the-shelf software and spreadsheets.
 placement:
   primary_category: app-builders
   section: Internal Tools & Dashboards
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:45:36.057Z"
+    updated_at: '2026-09-28T04:45:36.057Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,20 +102,30 @@ processing:
       input_hash: sha256:f438d8eb5843c44cd2c0da4cbd192565709144edb59ed9331cff36455d4388d9
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: Softr’s core identity is an AI-powered app builder that generates deployable business apps from prompts, fitting the app-builders category rather than coding agents or extensions.
+      decision_reason: >-
+        Softr’s core identity is an AI-powered app builder that generates deployable business apps from prompts, fitting
+        the app-builders category rather than coding agents or extensions.
       decision_evidence:
-        - "Source-list context: listed in awesome-ai-coding-tools under App Builders with description 'Build and launch custom AI-powered portals and internal tools in minutes, no code required.'"
-        - "Scraped site context: 'AI App Builder' is a primary product label, with claims to 'Create business apps with AI' and 'Simply describe what you need. Let Softr handle everything - Interface, database, workflows.'"
-        - "README excerpt: Positions itself as an 'AI app builder for business operations' that creates 'secure portals and internal tools' via AI Co-Builder, replacing off-the-shelf software and spreadsheets."
+        - >-
+          Source-list context: listed in awesome-ai-coding-tools under App Builders with description 'Build and launch
+          custom AI-powered portals and internal tools in minutes, no code required.'
+        - >-
+          Scraped site context: 'AI App Builder' is a primary product label, with claims to 'Create business apps with
+          AI' and 'Simply describe what you need. Let Softr handle everything - Interface, database, workflows.'
+        - >-
+          README excerpt: Positions itself as an 'AI app builder for business operations' that creates 'secure portals
+          and internal tools' via AI Co-Builder, replacing off-the-shelf software and spreadsheets.
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because Softr’s main surface turns prompts into deployed apps, sites, and internal tools rather than helping a developer edit an existing codebase.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because Softr’s main surface turns prompts into deployed apps, sites, and
+        internal tools rather than helping a developer edit an existing codebase.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.970Z"
+    updated_at: '2026-07-21T15:20:21.970Z'
     cause: null
     next_retry_at: null
   stars:

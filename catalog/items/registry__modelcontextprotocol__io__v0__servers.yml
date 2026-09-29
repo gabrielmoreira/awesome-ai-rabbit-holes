@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__registry__modelcontextprotocol__io__v0__servers__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Official MCP Registry
         extracted_url: https://registry.modelcontextprotocol.io/v0/servers
-        surrounding_text: "- [deficlow/zipp-mcp](https://github.com/deficlow/zipp-mcp) [![deficlow/zipp-mcp MCP server](https://glama.ai/mcp/servers/deficlow/zipp-mcp/badges/score.svg)](https://glama.ai/mcp/servers/deficlow/zipp-mcp) 🐍 ☁️ - Multi-language crypto news for AI assistants — editorial summaries with sentiment labels (BULLISH/NEUTRAL/BEARISH) and importance scores (0–100). 6 tools across 8 languages, every story credits the original publisher. Install: `uvx zipp-mcp` or `ghcr.io/deficlow/zipp-mcp`. Public Streamable HTTP endpoint at `https://zippfeed.com/mcp/`; listed on the [Official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=zipp)."
+        surrounding_text: >-
+          - [deficlow/zipp-mcp](https://github.com/deficlow/zipp-mcp) [![deficlow/zipp-mcp MCP
+          server](https://glama.ai/mcp/servers/deficlow/zipp-mcp/badges/score.svg)](https://glama.ai/mcp/servers/deficlow/zipp-mcp)
+          🐍 ☁️ - Multi-language crypto news for AI assistants — editorial summaries with sentiment labels
+          (BULLISH/NEUTRAL/BEARISH) and importance scores (0–100). 6 tools across 8 languages, every story credits the
+          original publisher. Install: `uvx zipp-mcp` or `ghcr.io/deficlow/zipp-mcp`. Public Streamable HTTP endpoint at
+          `https://zippfeed.com/mcp/`; listed on the [Official MCP
+          Registry](https://registry.modelcontextprotocol.io/v0/servers?search=zipp).
         confidence: high
 metadata:
   github:
@@ -48,7 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a registry for the Model Context Protocol ecosystem, which matches the MCP category's definition for discovery services.
+  reason: >-
+    The product is a registry for the Model Context Protocol ecosystem, which matches the MCP category's definition for
+    discovery services.
   evidence:
     - The URL points to a registry of MCP servers
     - The identity is defined by the MCP protocol
@@ -57,12 +66,12 @@ placement:
   secondary_categories: []
   section: Registries & Discovery
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.820Z"
+    updated_at: '2026-05-28T05:28:09.820Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:30:04.707Z"
+    updated_at: '2026-09-21T04:30:04.707Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,13 +93,17 @@ processing:
       input_hash: sha256:7f4cbb878f01be7290515ec9558a61f834e061bb6c1680288d7f1b40b8f18b6f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is a registry for the Model Context Protocol ecosystem, which matches the MCP category's definition for discovery services.
+      decision_reason: >-
+        The product is a registry for the Model Context Protocol ecosystem, which matches the MCP category's definition
+        for discovery services.
       decision_evidence:
         - The URL points to a registry of MCP servers
         - The identity is defined by the MCP protocol
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because it is an operational registry for a specific protocol rather than a general-purpose curated resource list.
+      contrastive_reason: >-
+        Choose mcp over awesome-awesomes because it is an operational registry for a specific protocol rather than a
+        general-purpose curated resource list.
       review_reason: null
       review_resume_lifecycle: null

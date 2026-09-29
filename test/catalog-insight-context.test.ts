@@ -66,7 +66,7 @@ function makeGitHubItem(overrides: Partial<CatalogItem> = {}): CatalogItem {
     },
     curation: { status: "pending", reason: null, evidence: [] },
     placement: { primary_category: null, section: null },
-    lifecycle: { status: "incubating" },
+    lifecycle: { status: "curated" },
     processing: {},
     ...overrides,
   } as CatalogItem;

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eleutherai__gpt-neox__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Large Language Model
         anchor_text: GPT-NeoX
         extracted_url: https://github.com/eleutherai/gpt-neox
-        surrounding_text: "| [GPT-NeoX](https://github.com/EleutherAI/gpt-neox)                      | An implementation of model parallel autoregressive transformers on GPUs, based on the DeepSpeed library.                                                                                   | ![GitHub Badge](https://img.shields.io/github/stars/EleutherAI/gpt-neox.svg?style=flat-square)            |"
+        surrounding_text: >-
+          | [GPT-NeoX](https://github.com/EleutherAI/gpt-neox)                      | An implementation of model
+          parallel autoregressive transformers on GPUs, based on the DeepSpeed
+          library.                                                                                   | ![GitHub
+          Badge](https://img.shields.io/github/stars/EleutherAI/gpt-neox.svg?style=flat-square)            |
         confidence: high
 metadata:
   github:
@@ -30,23 +34,31 @@ metadata:
     archived: false
     full_name: EleutherAI/gpt-neox
     html_url: https://github.com/EleutherAI/gpt-neox
-    created_at: "2020-12-22T14:37:54Z"
-    pushed_at: "2026-09-04T21:41:34Z"
-    description: An implementation of model parallel autoregressive transformers on GPUs, based on the Megatron and DeepSpeed libraries
+    created_at: '2020-12-22T14:37:54Z'
+    pushed_at: '2026-09-04T21:41:34Z'
+    description: >-
+      An implementation of model parallel autoregressive transformers on GPUs, based on the Megatron and DeepSpeed
+      libraries
     homepage: https://www.eleuther.ai/
     topics:
       - deepspeed-library
       - gpt-3
       - language-model
       - transformers
-    last_checked_at: "2026-09-14T04:13:47.535Z"
+    last_checked_at: '2026-09-14T04:13:47.535Z'
     readme:
-      fetched_at: "2026-09-14T04:13:47.535Z"
+      fetched_at: '2026-09-14T04:13:47.535Z'
       bytes: 58329
 insights:
-  summary: An implementation of model-parallel autoregressive transformers on GPUs, based on Megatron and DeepSpeed libraries for training large-scale language models.
-  why_it_matters: It provides a centralized, accessible framework for training large-scale language models with distributed training, 3D parallelism, and support for diverse hardware and systems.
-  mental_damage: Because nothing says 'weekend project' like training a billion-parameter model from scratch on your local GPU cluster.
+  summary: >-
+    An implementation of model-parallel autoregressive transformers on GPUs, based on Megatron and DeepSpeed libraries
+    for training large-scale language models.
+  why_it_matters: >-
+    It provides a centralized, accessible framework for training large-scale language models with distributed training,
+    3D parallelism, and support for diverse hardware and systems.
+  mental_damage: >-
+    Because nothing says 'weekend project' like training a billion-parameter model from scratch on your local GPU
+    cluster.
   tags:
     - model-training
     - distributed-computing
@@ -56,7 +68,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a framework for training large-scale language models, not a developer-tooling product for building, integrating, or operating AI workflows in software development.
+  reason: >-
+    This is a framework for training large-scale language models, not a developer-tooling product for building,
+    integrating, or operating AI workflows in software development.
   evidence:
     - Repo description explicitly states it is for training large-scale language models on GPUs
     - README warns it is not for generic inference needs and recommends Hugging Face transformers instead
@@ -65,22 +79,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (7425) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:47.535Z"
+    updated_at: '2026-09-14T04:13:47.535Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -95,7 +109,9 @@ processing:
       input_hash: sha256:b3664cde339c3b1d1202c10a5dcefde57bc8e1025cbe71d19caf1bb83e758a64
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a framework for training large-scale language models, not a developer-tooling product for building, integrating, or operating AI workflows in software development.
+      decision_reason: >-
+        This is a framework for training large-scale language models, not a developer-tooling product for building,
+        integrating, or operating AI workflows in software development.
       decision_evidence:
         - Repo description explicitly states it is for training large-scale language models on GPUs
         - README warns it is not for generic inference needs and recommends Hugging Face transformers instead

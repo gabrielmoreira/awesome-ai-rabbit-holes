@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__newageflyfish-max__volthq__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: newageflyfish-max/volthq
         extracted_url: https://github.com/newageflyfish-max/volthq
-        surrounding_text: "- [newageflyfish-max/volthq](https://github.com/newageflyfish-max/volthq) [![newageflyfish-max/volthq MCP server](https://glama.ai/mcp/servers/newageflyfish-max/volthq/badges/score.svg)](https://glama.ai/mcp/servers/newageflyfish-max/volthq) 📇 ☁️ 🏠 🍎 🪟 🐧 - Compute price oracle for AI agents. Compare inference pricing across 8 providers in real time with routing recommendations and spend tracking. One-command install: `npx volthq-mcp-server --setup`."
+        surrounding_text: >-
+          - [newageflyfish-max/volthq](https://github.com/newageflyfish-max/volthq) [![newageflyfish-max/volthq MCP
+          server](https://glama.ai/mcp/servers/newageflyfish-max/volthq/badges/score.svg)](https://glama.ai/mcp/servers/newageflyfish-max/volthq)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Compute price oracle for AI agents. Compare inference pricing across 8 providers in real
+          time with routing recommendations and spend tracking. One-command install: `npx volthq-mcp-server --setup`.
         confidence: high
 metadata:
   github:
@@ -51,24 +55,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-07-23T05:09:45.004Z"
+    updated_at: '2026-07-23T05:09:45.004Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for newageflyfish-max/volthq
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

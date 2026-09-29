@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__pipedrive__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,13 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: Pipedrive CRM
         extracted_url: https://www.pipedrive.com
-        surrounding_text: "- [ckalima/pipedrive-mcp-server](https://github.com/ckalima/pipedrive-mcp-server) [![ckalima/pipedrive-mcp-server MCP server](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server) 📇 ☁️ - MCP server for [Pipedrive CRM](https://www.pipedrive.com). 155 tools covering deals, persons, organizations, activities, products, projects, tasks, leads, notes, mail, and fields. stdio transport, API-key auth, delete tools gated behind an env flag. Published on npm as `@ckalima/pipedrive-mcp-server`. MIT."
+        surrounding_text: >-
+          - [ckalima/pipedrive-mcp-server](https://github.com/ckalima/pipedrive-mcp-server)
+          [![ckalima/pipedrive-mcp-server MCP
+          server](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server)
+          📇 ☁️ - MCP server for [Pipedrive CRM](https://www.pipedrive.com). 155 tools covering deals, persons,
+          organizations, activities, products, projects, tasks, leads, notes, mail, and fields. stdio transport, API-key
+          auth, delete tools gated behind an env flag. Published on npm as `@ckalima/pipedrive-mcp-server`. MIT.
         confidence: high
 metadata:
   github:
@@ -38,7 +44,9 @@ metadata:
     readme: null
 insights:
   summary: A sales CRM and pipeline management platform designed to automate sales processes and lead management.
-  why_it_matters: While it offers an MCP server for data access, the core product is a business-facing CRM rather than a developer-facing tool.
+  why_it_matters: >-
+    While it offers an MCP server for data access, the core product is a business-facing CRM rather than a
+    developer-facing tool.
   mental_damage: Because even your autonomous coding agent needs to know exactly which sales leads are currently in the pipeline.
   tags:
     - crm
@@ -47,20 +55,24 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The primary product identity is a sales CRM for business users, and its MCP capability is an integration feature of a broader SaaS platform.
+  reason: >-
+    The primary product identity is a sales CRM for business users, and its MCP capability is an integration feature of
+    a broader SaaS platform.
   evidence:
     - Scraped site context explicitly defines it as 'Sales CRM & Pipeline Management Software'
-    - Source-list context categorizes it as a 'Customer Data Platform' within an MCP list, indicating its MCP server is an adapter for its core service
+    - >-
+      Source-list context categorizes it as a 'Customer Data Platform' within an MCP list, indicating its MCP server is
+      an adapter for its core service
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.990Z"
+    updated_at: '2026-06-15T05:51:04.990Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +81,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:14:44.668Z"
+    updated_at: '2026-09-24T04:14:44.668Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,10 +94,14 @@ processing:
       input_hash: sha256:7b8c976e5b5bd75541b54cc272ea6e1481fecd8daa89f8a66c5479a0408ac9e5
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The primary product identity is a sales CRM for business users, and its MCP capability is an integration feature of a broader SaaS platform.
+      decision_reason: >-
+        The primary product identity is a sales CRM for business users, and its MCP capability is an integration feature
+        of a broader SaaS platform.
       decision_evidence:
         - Scraped site context explicitly defines it as 'Sales CRM & Pipeline Management Software'
-        - Source-list context categorizes it as a 'Customer Data Platform' within an MCP list, indicating its MCP server is an adapter for its core service
+        - >-
+          Source-list context categorizes it as a 'Customer Data Platform' within an MCP list, indicating its MCP server
+          is an adapter for its core service
       category_candidates: []
       contrastive_reason: null
       review_reason: null

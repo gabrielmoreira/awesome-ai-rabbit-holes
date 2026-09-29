@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__daisys__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,12 @@ provenance:
           - Official Servers
         anchor_text: DAISYS
         extracted_url: https://daisys.ai
-        surrounding_text: "- **[DAISYS](https://github.com/daisys-ai/daisys-mcp)** - Generate high-quality text-to-speech and text-to-voice outputs using the [DAISYS](https://www.daisys.ai/) platform."
+        surrounding_text: >-
+          - **[DAISYS](https://github.com/daisys-ai/daisys-mcp)** - Generate high-quality text-to-speech and
+          text-to-voice outputs using the [DAISYS](https://www.daisys.ai/) platform.
         confidence: high
     - id: discovery__www__daisys__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +35,9 @@ provenance:
           - Official Servers
         anchor_text: DAISYS
         extracted_url: https://www.daisys.ai
-        surrounding_text: "- **[DAISYS](https://github.com/daisys-ai/daisys-mcp)** - Generate high-quality text-to-speech and text-to-voice outputs using the [DAISYS](https://www.daisys.ai/) platform."
+        surrounding_text: >-
+          - **[DAISYS](https://github.com/daisys-ai/daisys-mcp)** - Generate high-quality text-to-speech and
+          text-to-voice outputs using the [DAISYS](https://www.daisys.ai/) platform.
         confidence: high
 metadata:
   github:
@@ -52,8 +56,12 @@ metadata:
     readme: null
 insights:
   summary: DAISYS is an MCP server that provides memory and context capabilities for AI agents via the Model Context Protocol.
-  why_it_matters: It lets developers expose persistent memory or retrieval tools to any MCP-compatible agent without building custom integrations.
-  mental_damage: Another MCP server promising to fix context limits, adding yet another layer to the prompt engineering stack we all pretend to understand.
+  why_it_matters: >-
+    It lets developers expose persistent memory or retrieval tools to any MCP-compatible agent without building custom
+    integrations.
+  mental_damage: >-
+    Another MCP server promising to fix context limits, adding yet another layer to the prompt engineering stack we all
+    pretend to understand.
   tags:
     - mcp
     - memory
@@ -61,7 +69,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: DAISYS identifies as an MCP server whose core function is exposing memory and context capabilities, making MCP its primary identity rather than a feature of a broader tool.
+  reason: >-
+    DAISYS identifies as an MCP server whose core function is exposing memory and context capabilities, making MCP its
+    primary identity rather than a feature of a broader tool.
   evidence:
     - Listed in awesome-mcp-servers under 'Official Servers' section
     - Homepage URL daisys.ai positions it as an MCP-based service
@@ -71,12 +81,12 @@ placement:
   secondary_categories: []
   section: Dev & Code Tools
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:40:25.007Z"
+    updated_at: '2026-09-28T04:40:25.007Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +99,9 @@ processing:
       input_hash: sha256:9b86cca86a5cbdf5c1e4f86ae07dab7bb2663958b86d4ad19c96dc3f84155749
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: DAISYS identifies as an MCP server whose core function is exposing memory and context capabilities, making MCP its primary identity rather than a feature of a broader tool.
+      decision_reason: >-
+        DAISYS identifies as an MCP server whose core function is exposing memory and context capabilities, making MCP
+        its primary identity rather than a feature of a broader tool.
       decision_evidence:
         - Listed in awesome-mcp-servers under 'Official Servers' section
         - Homepage URL daisys.ai positions it as an MCP-based service
@@ -97,12 +109,14 @@ processing:
       category_candidates:
         - mcp
         - memory-and-context
-      contrastive_reason: Choose mcp over memory-and-context because DAISYS's primary identity is as an MCP server, and protocol identity takes precedence over capability domain when MCP is the core product.
+      contrastive_reason: >-
+        Choose mcp over memory-and-context because DAISYS's primary identity is as an MCP server, and protocol identity
+        takes precedence over capability domain when MCP is the core product.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.964Z"
+    updated_at: '2026-07-21T15:20:21.964Z'
     cause: null
     next_retry_at: null
   stars:

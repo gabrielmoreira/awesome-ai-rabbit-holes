@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__capably__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,9 @@ provenance:
           - Agents
         anchor_text: AgentRunner.ai
         extracted_url: https://www.agentrunner.ai
-        surrounding_text: "- [AgentRunner.ai](https://www.agentrunner.ai) - Leverage the power of GPT-4 to create and train fully autonomous AI agents."
+        surrounding_text: >-
+          - [AgentRunner.ai](https://www.agentrunner.ai) - Leverage the power of GPT-4 to create and train fully
+          autonomous AI agents.
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Capably.ai is a no-code platform that allows business users to build and deploy AI agents through a visual interface without coding.
-  why_it_matters: It enables non-developers to create AI-powered workflows, reducing the engineering overhead for internal tooling and automation.
-  mental_damage: Another promise of 'AI for everyone' that shifts the burden of prompt engineering and agent wrangling onto business teams who now have to debug hallucinations in their expense-report bot.
+  summary: >-
+    Capably.ai is a no-code platform that allows business users to build and deploy AI agents through a visual interface
+    without coding.
+  why_it_matters: >-
+    It enables non-developers to create AI-powered workflows, reducing the engineering overhead for internal tooling and
+    automation.
+  mental_damage: >-
+    Another promise of 'AI for everyone' that shifts the burden of prompt engineering and agent wrangling onto business
+    teams who now have to debug hallucinations in their expense-report bot.
   tags:
     - no-code
     - ai-agents
@@ -46,22 +54,31 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Capably.ai is a no-code AI agent builder for business users, not a developer-facing tool; its primary identity is enabling non-technical users to deploy agents, not assisting developers with coding tasks, workflows, or infrastructure.
+  reason: >-
+    Capably.ai is a no-code AI agent builder for business users, not a developer-facing tool; its primary identity is
+    enabling non-technical users to deploy agents, not assisting developers with coding tasks, workflows, or
+    infrastructure.
   evidence:
-    - The homepage describes Capably as a platform for 'building AI agents without code' and 'deploying AI teammates' for business functions like HR, sales, and operations.
-    - No evidence of developer-facing APIs, SDKs, CLI tools, or integrations with coding workflows; the product is positioned as a standalone SaaS platform for business process automation.
-    - The tool generates autonomous agents that act on data and workflows, not on codebases — it does not read, write, edit, or review code as part of its core function.
+    - >-
+      The homepage describes Capably as a platform for 'building AI agents without code' and 'deploying AI teammates'
+      for business functions like HR, sales, and operations.
+    - >-
+      No evidence of developer-facing APIs, SDKs, CLI tools, or integrations with coding workflows; the product is
+      positioned as a standalone SaaS platform for business process automation.
+    - >-
+      The tool generates autonomous agents that act on data and workflows, not on codebases — it does not read, write,
+      edit, or review code as part of its core function.
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.667Z"
+    updated_at: '2026-05-06T22:12:15.667Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +87,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:50:13.535Z"
+    updated_at: '2026-09-28T04:50:13.535Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,11 +100,20 @@ processing:
       input_hash: sha256:1d3ecca9fdacc4d70a6a00f589f40bc5e3cf01101207b5f59d9fa60cd6d12e8e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Capably.ai is a no-code AI agent builder for business users, not a developer-facing tool; its primary identity is enabling non-technical users to deploy agents, not assisting developers with coding tasks, workflows, or infrastructure.
+      decision_reason: >-
+        Capably.ai is a no-code AI agent builder for business users, not a developer-facing tool; its primary identity
+        is enabling non-technical users to deploy agents, not assisting developers with coding tasks, workflows, or
+        infrastructure.
       decision_evidence:
-        - The homepage describes Capably as a platform for 'building AI agents without code' and 'deploying AI teammates' for business functions like HR, sales, and operations.
-        - No evidence of developer-facing APIs, SDKs, CLI tools, or integrations with coding workflows; the product is positioned as a standalone SaaS platform for business process automation.
-        - The tool generates autonomous agents that act on data and workflows, not on codebases — it does not read, write, edit, or review code as part of its core function.
+        - >-
+          The homepage describes Capably as a platform for 'building AI agents without code' and 'deploying AI
+          teammates' for business functions like HR, sales, and operations.
+        - >-
+          No evidence of developer-facing APIs, SDKs, CLI tools, or integrations with coding workflows; the product is
+          positioned as a standalone SaaS platform for business process automation.
+        - >-
+          The tool generates autonomous agents that act on data and workflows, not on codebases — it does not read,
+          write, edit, or review code as part of its core function.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

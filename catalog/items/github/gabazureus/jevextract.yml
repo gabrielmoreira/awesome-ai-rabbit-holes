@@ -1,0 +1,115 @@
+id: github__gabazureus__jevextract
+kind: github-repo
+name: gabazureus/jevextract
+canonical_url: https://github.com/gabazureus/jevextract
+identity:
+  github_repo: gabazureus/jevextract
+provenance:
+  discoveries:
+    - id: discovery__github__gabazureus__jevextract__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Domain Tools
+        anchor_text: '**jevextract**'
+        extracted_url: https://github.com/gabazureus/jevextract
+        surrounding_text: >-
+          - [**jevextract**](https://github.com/gabazureus/jevextract) — Grounded information extraction that cannot
+          hallucinate: code proposes spans, Jev decides. An open-source alternative to LangExtract, with a bilingual
+          benchmark and paper.
+        confidence: high
+    - id: discovery__github__gabazureus__jevextract__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Data Labeling & Curation
+        anchor_text: jevextract
+        extracted_url: https://github.com/gabazureus/jevextract
+        surrounding_text: >-
+          - [jevextract](https://github.com/gabazureus/jevextract) ![type:
+          library](https://img.shields.io/badge/type-library-4B5563?style=flat-square)
+          ![stars](https://img.shields.io/github/stars/gabazureus/jevextract?style=flat-square&label=%E2%98%85) -
+          Information extraction: LangExtract alternative where code proposes candidate spans with exact offsets and Jev
+          answers one `Choice` per span (a schema class or none) plus a `Noul` per sentence-level class, keeping answers
+          above a per-class threshold and flagging close calls for review, with a published benchmark measuring 10–26×
+          lower cost than LangExtract on Gemini 3.5 Flash but lower F1 (84.2 vs 88.5 on its bilingual jx-bench).
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: gabazureus/jevextract
+    html_url: https://github.com/gabazureus/jevextract
+    created_at: '2026-09-25T12:48:45Z'
+    pushed_at: '2026-09-25T13:32:56Z'
+    description: >-
+      Grounded information extraction that cannot hallucinate: code proposes spans, Jev decides. An open-source
+      alternative to LangExtract, with a bilingual benchmark and paper.
+    homepage: https://github.com/gabazureus/jevextract/blob/main/paper/main.pdf
+    topics:
+      - benchmark
+      - grounding
+      - hallucination
+      - information-extraction
+      - jev
+      - langextract
+      - llm
+      - named-entity-recognition
+      - nlp
+      - portuguese
+      - python
+      - typesafe
+    last_checked_at: '2026-09-29T13:11:30.344Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:30.344Z'
+      bytes: 14243
+insights:
+  summary: >-
+    Grounded information extraction that cannot hallucinate: code proposes spans, Jev decides. An open-source
+    alternative to LangExtract, with a bilingual benchmark and paper.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
+  evidence:
+    - jev-latest choice confidence 0.58
+placement:
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.414Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:30.344Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

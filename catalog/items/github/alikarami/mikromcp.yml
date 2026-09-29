@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alikarami__mikromcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: AliKarami/MikroMCP
         extracted_url: https://github.com/alikarami/mikromcp
-        surrounding_text: "- [AliKarami/MikroMCP](https://github.com/AliKarami/MikroMCP) [![AliKarami/MikroMCP MCP server](https://glama.ai/mcp/servers/AliKarami/MikroMCP/badges/score.svg)](https://glama.ai/mcp/servers/AliKarami/MikroMCP) 📇 🏠 🍎 🪟 🐧 - Manage MikroTik RouterOS devices through AI assistants — interfaces, firewall rules, DHCP, DNS, routes, WireGuard, WiFi, BGP/OSPF, VLANs, and more. 77 tools with dry-run previews, idempotency checks, circuit breakers, RBAC, and rollback-aware change workflows."
+        surrounding_text: >-
+          - [AliKarami/MikroMCP](https://github.com/AliKarami/MikroMCP) [![AliKarami/MikroMCP MCP
+          server](https://glama.ai/mcp/servers/AliKarami/MikroMCP/badges/score.svg)](https://glama.ai/mcp/servers/AliKarami/MikroMCP)
+          📇 🏠 🍎 🪟 🐧 - Manage MikroTik RouterOS devices through AI assistants — interfaces, firewall rules, DHCP,
+          DNS, routes, WireGuard, WiFi, BGP/OSPF, VLANs, and more. 77 tools with dry-run previews, idempotency checks,
+          circuit breakers, RBAC, and rollback-aware change workflows.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: AliKarami/MikroMCP
     html_url: https://github.com/AliKarami/MikroMCP
-    created_at: "2026-04-21T20:13:26Z"
-    pushed_at: "2026-09-06T08:54:10Z"
+    created_at: '2026-04-21T20:13:26Z'
+    pushed_at: '2026-09-06T08:54:10Z'
     description: Production-grade MCP server for MikroTik RouterOS with secure AI-native network automation.
     homepage: https://mikromcp.com/
     topics:
@@ -53,14 +58,18 @@ metadata:
       - ros7
       - routeros
       - routeros7
-    last_checked_at: "2026-09-17T04:13:41.171Z"
+    last_checked_at: '2026-09-17T04:13:41.171Z'
     readme:
-      fetched_at: "2026-09-17T04:13:41.171Z"
+      fetched_at: '2026-09-17T04:13:41.171Z'
       bytes: 14253
 insights:
   summary: An MCP server that exposes MikroTik RouterOS functionality to AI agents via the Model Context Protocol.
-  why_it_matters: It provides a structured, schema-validated, and safer way for AI agents to perform network automation and diagnostics instead of relying on risky raw CLI commands.
-  mental_damage: Because delegating production network configuration to an LLM is the ultimate high-stakes test of your rollback strategy.
+  why_it_matters: >-
+    It provides a structured, schema-validated, and safer way for AI agents to perform network automation and
+    diagnostics instead of relying on risky raw CLI commands.
+  mental_damage: >-
+    Because delegating production network configuration to an LLM is the ultimate high-stakes test of your rollback
+    strategy.
   tags:
     - mcp
     - networking
@@ -70,7 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is primarily an MCP server designed to expose a specific domain's capabilities (network management) to AI clients.
+  reason: >-
+    The project is primarily an MCP server designed to expose a specific domain's capabilities (network management) to
+    AI clients.
   evidence:
     - Repo description explicitly identifies it as a 'Production-grade MCP server'
     - README defines the core product as exposing RouterOS as a typed MCP server
@@ -80,22 +91,22 @@ placement:
   secondary_categories: []
   section: Cloud & API Integration
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.818Z"
+    updated_at: '2026-05-28T05:28:09.818Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:41.171Z"
+    updated_at: '2026-09-17T04:13:41.171Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:27:00.400Z"
+    updated_at: '2026-09-21T04:27:00.400Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -108,7 +119,9 @@ processing:
       input_hash: sha256:ff6c64da50a3a9470ac7c1f42226ca90041d1330c5e0eb0efbc80f91e3bb1bef
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is primarily an MCP server designed to expose a specific domain's capabilities (network management) to AI clients.
+      decision_reason: >-
+        The project is primarily an MCP server designed to expose a specific domain's capabilities (network management)
+        to AI clients.
       decision_evidence:
         - Repo description explicitly identifies it as a 'Production-grade MCP server'
         - README defines the core product as exposing RouterOS as a typed MCP server
@@ -116,6 +129,8 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product's primary identity is the MCP server itself providing protocol-native tools rather than a plugin augmenting a specific editor's UI.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the product's primary identity is the MCP server itself providing
+        protocol-native tools rather than a plugin augmenting a specific editor's UI.
       review_reason: null
       review_resume_lifecycle: null

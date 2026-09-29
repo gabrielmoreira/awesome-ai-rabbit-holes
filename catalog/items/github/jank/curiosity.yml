@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jank__curiosity__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 搜索 Search
         anchor_text: curiosity
         extracted_url: https://github.com/jank/curiosity
-        surrounding_text: "4. [curiosity](https://github.com/jank/curiosity): Try to build a Perplexity-like user experience."
+        surrounding_text: '4. [curiosity](https://github.com/jank/curiosity): Try to build a Perplexity-like user experience.'
         confidence: high
 metadata:
   github:
@@ -29,14 +29,14 @@ metadata:
     archived: false
     full_name: jank/curiosity
     html_url: https://github.com/jank/curiosity
-    created_at: "2024-08-06T14:41:15Z"
-    pushed_at: "2026-07-15T13:24:07Z"
+    created_at: '2024-08-06T14:41:15Z'
+    pushed_at: '2026-07-15T13:24:07Z'
     description: Dabbling with ReAct chatbots
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:47.820Z"
+    last_checked_at: '2026-07-30T05:05:47.820Z'
     readme:
-      fetched_at: "2026-07-30T05:05:47.820Z"
+      fetched_at: '2026-07-30T05:05:47.820Z'
       bytes: 2471
 insights:
   summary: An experimental ReAct-based chatbot implementation.
@@ -49,7 +49,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The project is an experimental dabbling with ReAct chatbots rather than a practical developer tool, framework, or workflow product.
+  reason: >-
+    The project is an experimental dabbling with ReAct chatbots rather than a practical developer tool, framework, or
+    workflow product.
   evidence:
     - Repo description explicitly calls it 'Dabbling with ReAct chatbots'
     - No clear developer-tooling angle in the description or README
@@ -58,22 +60,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (206) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:47.820Z"
+    updated_at: '2026-07-30T05:05:47.820Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -88,7 +90,9 @@ processing:
       input_hash: sha256:357fe1997febff5becea8735ff401c8c0f55fa2e05609b1dbfabaf4a34a0cbc9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is an experimental dabbling with ReAct chatbots rather than a practical developer tool, framework, or workflow product.
+      decision_reason: >-
+        The project is an experimental dabbling with ReAct chatbots rather than a practical developer tool, framework,
+        or workflow product.
       decision_evidence:
         - Repo description explicitly calls it 'Dabbling with ReAct chatbots'
         - No clear developer-tooling angle in the description or README

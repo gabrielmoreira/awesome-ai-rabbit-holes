@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__karpathy__build-nanogpt__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 课程 Course
         anchor_text: build nanoGPT
         extracted_url: https://github.com/karpathy/build-nanogpt
-        surrounding_text: "24. [build nanoGPT](https://github.com/karpathy/build-nanogpt): Video+code lecture on building nanoGPT from scratch."
+        surrounding_text: >-
+          24. [build nanoGPT](https://github.com/karpathy/build-nanogpt): Video+code lecture on building nanoGPT from
+          scratch.
         confidence: high
 metadata:
   github:
@@ -29,14 +31,14 @@ metadata:
     archived: false
     full_name: karpathy/build-nanogpt
     html_url: https://github.com/karpathy/build-nanogpt
-    created_at: "2024-06-09T05:16:13Z"
-    pushed_at: "2024-08-13T12:28:52Z"
+    created_at: '2024-06-09T05:16:13Z'
+    pushed_at: '2024-08-13T12:28:52Z'
     description: Video+code lecture on building nanoGPT from scratch
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:54.701Z"
+    last_checked_at: '2026-07-30T05:05:54.701Z'
     readme:
-      fetched_at: "2026-07-30T05:05:54.701Z"
+      fetched_at: '2026-07-30T05:05:54.701Z'
       bytes: 4488
 insights:
   summary: Video lecture and code for building a minimal GPT model from scratch.
@@ -58,22 +60,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (4978) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:54.701Z"
+    updated_at: '2026-07-30T05:05:54.701Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -88,7 +90,9 @@ processing:
       input_hash: sha256:dc1f6296ac49e84881348706f57108b8991f07423386916c54ac70216241200b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational resource (video lecture + code) rather than a developer tool, framework, or workflow product.
+      decision_reason: >-
+        This is an educational resource (video lecture + code) rather than a developer tool, framework, or workflow
+        product.
       decision_evidence:
         - Repo description explicitly states it is a 'Video+code lecture on building nanoGPT from scratch'
         - Source-list context places it in a '课程 Course' section, reinforcing its educational nature

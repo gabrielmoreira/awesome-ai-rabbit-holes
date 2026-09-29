@@ -1,0 +1,80 @@
+id: github__unpeel-com__unpeel
+kind: github-repo
+name: unpeel-com/unpeel
+canonical_url: https://github.com/unpeel-com/unpeel
+identity:
+  github_repo: unpeel-com/unpeel
+provenance:
+  discoveries:
+    - id: discovery__github__unpeel-com__unpeel__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: scraped
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: Unpeel
+        extracted_url: https://unpeel.com
+        surrounding_text: >-
+          - **[Unpeel](https://unpeel.com)** — Native macOS app built on the Ghostty terminal engine for running and
+          remote-controlling multiple CLI agent sessions (Claude Code, Codex, Gemini CLI, Amp, OpenCode, Cline, and
+          more): persistent terminals that survive app restarts, git worktree isolation for parallel agents,
+          busy/attention notifications, and iPhone remote control via a self-hosted E2E-encrypted relay. Closed-source;
+          free with paid remote access.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Unpeel — Native macOS app built on the Ghostty terminal engine for running and remote-controlling multiple CLI agent
+    sessions (Claude Code, Codex, Gemini CLI, Amp, OpenCode, Cline, and more): persistent terminals that survive app
+    restarts, git worktree isolation for parallel agents, busy/attention notifications, and iPhone remote control via a
+    self-hosted E2E-encrypted relay. Closed-source; free with paid remote access.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.99
+placement:
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.482Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

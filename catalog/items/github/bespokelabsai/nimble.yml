@@ -1,0 +1,79 @@
+id: github__bespokelabsai__nimble
+kind: github-repo
+name: bespokelabsai/nimble
+canonical_url: https://github.com/bespokelabsai/nimble
+identity:
+  github_repo: bespokelabsai/nimble
+provenance:
+  discoveries:
+    - id: discovery__github__bespokelabsai__nimble__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Calibration & Research
+        anchor_text: Bespoke Nimble
+        extracted_url: https://github.com/bespokelabsai/nimble
+        surrounding_text: >-
+          - [Bespoke Nimble](https://github.com/bespokelabsai/nimble)
+          ![stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat-square&label=%E2%98%85) - Open
+          alternative: a LoRA on Qwen3.5-9B that scores one allowed answer token per `Choice`, boolean or rubric-score
+          question, released with its data pipeline, training config and eval harness under Apache-2.0, and reporting
+          90.1% on its 324-example holdout against Jev's 93.2%.
+        confidence: high
+metadata:
+  github:
+    stars: 1903
+    forks: 151
+    license: null
+    archived: false
+    full_name: bespokelabsai/nimble
+    html_url: https://github.com/bespokelabsai/nimble
+    created_at: '2026-09-18T09:07:48Z'
+    pushed_at: '2026-09-24T06:05:31Z'
+    description: Local typed decisions, contrastive data curation, and model evaluation.
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:09:30.308Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:30.308Z'
+      bytes: 33301
+insights:
+  summary: Local typed decisions, contrastive data curation, and model evaluation.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.47
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: Stars (1903) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.450Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:30.308Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

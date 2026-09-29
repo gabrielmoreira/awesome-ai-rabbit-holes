@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__code__visualstudio__com__docs__agent__customization__overview__awesome-list__github__awesome-copilot
-      discovered_at: "2026-06-04T05:40:27.160Z"
+      discovered_at: '2026-06-04T05:40:27.160Z'
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -18,7 +18,10 @@ provenance:
           - 📚 Additional Resources
         anchor_text: VS Code Copilot Customization Documentation
         extracted_url: https://code.visualstudio.com/docs/copilot/copilot-customization
-        surrounding_text: "- [VS Code Copilot Customization Documentation](https://code.visualstudio.com/docs/copilot/copilot-customization) - Official Microsoft documentation"
+        surrounding_text: >-
+          - [VS Code Copilot Customization
+          Documentation](https://code.visualstudio.com/docs/copilot/copilot-customization) - Official Microsoft
+          documentation
         confidence: high
 metadata:
   github:
@@ -37,8 +40,12 @@ metadata:
     readme: null
 insights:
   summary: VS Code documentation page for creating and managing agent customizations across profiles and workspaces.
-  why_it_matters: Helps developers configure AI agents in VS Code by providing a centralized place to define instructions, skills, and tools.
-  mental_damage: Another config layer to forget exists until your agent ignores your project rules and starts rewriting your TODO comments as sonnets.
+  why_it_matters: >-
+    Helps developers configure AI agents in VS Code by providing a centralized place to define instructions, skills, and
+    tools.
+  mental_damage: >-
+    Another config layer to forget exists until your agent ignores your project rules and starts rewriting your TODO
+    comments as sonnets.
   tags:
     - vscode
     - agent-customization
@@ -48,19 +55,25 @@ curation:
   status: excluded
   reason: This is documentation for a feature within VS Code, not a standalone developer-facing AI tool or product.
   evidence:
-    - URL is https://code.visualstudio.com/docs/agent-customization/overview, indicating it is official VS Code documentation
-    - Scraped site context shows it is part of the Visual Studio Code documentation hierarchy under 'Agents' and 'Customization'
-    - Source-list context appears in awesome-copilot as a linked page under 'Additional Resources', confirming its role as reference material
+    - >-
+      URL is https://code.visualstudio.com/docs/agent-customization/overview, indicating it is official VS Code
+      documentation
+    - >-
+      Scraped site context shows it is part of the Visual Studio Code documentation hierarchy under 'Agents' and
+      'Customization'
+    - >-
+      Source-list context appears in awesome-copilot as a linked page under 'Additional Resources', confirming its role
+      as reference material
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-04T05:40:27.161Z"
+    updated_at: '2026-06-04T05:40:27.161Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:33:31.573Z"
+    updated_at: '2026-09-21T04:33:31.573Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,9 +97,15 @@ processing:
       disagreement: false
       decision_reason: This is documentation for a feature within VS Code, not a standalone developer-facing AI tool or product.
       decision_evidence:
-        - URL is https://code.visualstudio.com/docs/agent-customization/overview, indicating it is official VS Code documentation
-        - Scraped site context shows it is part of the Visual Studio Code documentation hierarchy under 'Agents' and 'Customization'
-        - Source-list context appears in awesome-copilot as a linked page under 'Additional Resources', confirming its role as reference material
+        - >-
+          URL is https://code.visualstudio.com/docs/agent-customization/overview, indicating it is official VS Code
+          documentation
+        - >-
+          Scraped site context shows it is part of the Visual Studio Code documentation hierarchy under 'Agents' and
+          'Customization'
+        - >-
+          Source-list context appears in awesome-copilot as a linked page under 'Additional Resources', confirming its
+          role as reference material
       category_candidates: []
       contrastive_reason: null
       review_reason: null

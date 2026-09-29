@@ -1,0 +1,91 @@
+id: myspec__dev
+kind: website
+name: myspec.dev
+canonical_url: https://myspec.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__myspec__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: MySpec
+        extracted_url: https://myspec.dev
+        surrounding_text: >-
+          - **[MySpec](https://myspec.dev)** – Interactive AI architect that interviews developers and generates
+          structured 4-file spec bundles with MCP server integration.
+        confidence: high
+    - id: discovery__myspec__dev__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Specification Tools
+        anchor_text: MySpec
+        extracted_url: https://myspec.dev
+        surrounding_text: >-
+          - [MySpec](https://myspec.dev) - Spec-driven development platform compiling guided developer discovery
+          interviews into deterministic 4-file bundles (`constitution.md`, `requirements.md`, `solution.md`, `tasks.md`)
+          with MCP server integration.
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    MySpec – Interactive AI architect that interviews developers and generates structured 4-file spec bundles with MCP
+    server integration.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Spec-First & Plan-Execute
+  evidence:
+    - jev-latest choice confidence 0.93
+placement:
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Spec-First & Plan-Execute
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.431Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

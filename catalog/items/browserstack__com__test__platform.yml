@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__browserstack__com__test__platform__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,13 @@ provenance:
           - Official Servers
         anchor_text: Test Platform
         extracted_url: https://browserstack.com/test-platform
-        surrounding_text: "- **[BrowserStack](https://github.com/browserstack/mcp-server)** – Bring the full power of BrowserStack’s [Test Platform](https://www.browserstack.com/test-platform) to your AI tools, making testing faster and easier for every developer and tester on your team."
+        surrounding_text: >-
+          - **[BrowserStack](https://github.com/browserstack/mcp-server)** – Bring the full power of BrowserStack’s
+          [Test Platform](https://www.browserstack.com/test-platform) to your AI tools, making testing faster and easier
+          for every developer and tester on your team.
         confidence: high
     - id: discovery__www__browserstack__com__test__platform__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +36,10 @@ provenance:
           - Official Servers
         anchor_text: Test Platform
         extracted_url: https://www.browserstack.com/test-platform
-        surrounding_text: "- **[BrowserStack](https://github.com/browserstack/mcp-server)** – Bring the full power of BrowserStack’s [Test Platform](https://www.browserstack.com/test-platform) to your AI tools, making testing faster and easier for every developer and tester on your team."
+        surrounding_text: >-
+          - **[BrowserStack](https://github.com/browserstack/mcp-server)** – Bring the full power of BrowserStack’s
+          [Test Platform](https://www.browserstack.com/test-platform) to your AI tools, making testing faster and easier
+          for every developer and tester on your team.
         confidence: high
 metadata:
   github:
@@ -51,9 +57,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: BrowserStack Test Platform is a cloud-based testing infrastructure offering real-device web and mobile testing, accessibility validation, and AI-powered agent workflows for test generation, execution, and analysis.
-  why_it_matters: It consolidates cross-browser, mobile, accessibility, and AI-augmented testing into a single platform with out-of-the-box integrations, reducing tool sprawl and accelerating feedback loops for developers and QA teams.
-  mental_damage: Another 'AI-powered' testing platform promising to eliminate flaky tests while locking you into yet another vendor-specific dashboard and integration tax.
+  summary: >-
+    BrowserStack Test Platform is a cloud-based testing infrastructure offering real-device web and mobile testing,
+    accessibility validation, and AI-powered agent workflows for test generation, execution, and analysis.
+  why_it_matters: >-
+    It consolidates cross-browser, mobile, accessibility, and AI-augmented testing into a single platform with
+    out-of-the-box integrations, reducing tool sprawl and accelerating feedback loops for developers and QA teams.
+  mental_damage: >-
+    Another 'AI-powered' testing platform promising to eliminate flaky tests while locking you into yet another
+    vendor-specific dashboard and integration tax.
   tags:
     - testing
     - ai-agents
@@ -63,21 +75,30 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The BrowserStack Test Platform is primarily a hosted testing infrastructure and SaaS platform for executing and managing tests, not a developer-facing AI tool for coding, agent orchestration, prompt engineering, or app building; its AI agents are features within a broader testing suite, not standalone developer tooling.
+  reason: >-
+    The BrowserStack Test Platform is primarily a hosted testing infrastructure and SaaS platform for executing and
+    managing tests, not a developer-facing AI tool for coding, agent orchestration, prompt engineering, or app building;
+    its AI agents are features within a broader testing suite, not standalone developer tooling.
   evidence:
-    - Scraped site context describes it as an 'open, flexible and integrated platform' for 'test smarter and faster with AI-powered testing workflows' focused on web, mobile, accessibility, and test management.
-    - Source-list context appears in awesome-mcp-servers under 'Official Servers' with description emphasizing testing workflows, not MCP infrastructure or developer tooling identity.
-    - No evidence of the product being a coding agent, app builder, framework, or orchestrator — its core identity is test execution, reporting, and device cloud services.
+    - >-
+      Scraped site context describes it as an 'open, flexible and integrated platform' for 'test smarter and faster with
+      AI-powered testing workflows' focused on web, mobile, accessibility, and test management.
+    - >-
+      Source-list context appears in awesome-mcp-servers under 'Official Servers' with description emphasizing testing
+      workflows, not MCP infrastructure or developer tooling identity.
+    - >-
+      No evidence of the product being a coding agent, app builder, framework, or orchestrator — its core identity is
+      test execution, reporting, and device cloud services.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:39:45.703Z"
+    updated_at: '2026-09-28T04:39:45.703Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,18 +111,27 @@ processing:
       input_hash: sha256:eb149281aefcbfd30fe3157fcbe2ce3cddb06148fa5ab1c46f7babbc7cd68873
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The BrowserStack Test Platform is primarily a hosted testing infrastructure and SaaS platform for executing and managing tests, not a developer-facing AI tool for coding, agent orchestration, prompt engineering, or app building; its AI agents are features within a broader testing suite, not standalone developer tooling.
+      decision_reason: >-
+        The BrowserStack Test Platform is primarily a hosted testing infrastructure and SaaS platform for executing and
+        managing tests, not a developer-facing AI tool for coding, agent orchestration, prompt engineering, or app
+        building; its AI agents are features within a broader testing suite, not standalone developer tooling.
       decision_evidence:
-        - Scraped site context describes it as an 'open, flexible and integrated platform' for 'test smarter and faster with AI-powered testing workflows' focused on web, mobile, accessibility, and test management.
-        - Source-list context appears in awesome-mcp-servers under 'Official Servers' with description emphasizing testing workflows, not MCP infrastructure or developer tooling identity.
-        - No evidence of the product being a coding agent, app builder, framework, or orchestrator — its core identity is test execution, reporting, and device cloud services.
+        - >-
+          Scraped site context describes it as an 'open, flexible and integrated platform' for 'test smarter and faster
+          with AI-powered testing workflows' focused on web, mobile, accessibility, and test management.
+        - >-
+          Source-list context appears in awesome-mcp-servers under 'Official Servers' with description emphasizing
+          testing workflows, not MCP infrastructure or developer tooling identity.
+        - >-
+          No evidence of the product being a coding agent, app builder, framework, or orchestrator — its core identity
+          is test execution, reporting, and device cloud services.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.963Z"
+    updated_at: '2026-07-21T15:20:21.963Z'
     cause: null
     next_retry_at: null
   stars:

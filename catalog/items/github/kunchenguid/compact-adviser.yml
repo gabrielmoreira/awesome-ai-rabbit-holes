@@ -1,0 +1,94 @@
+id: github__kunchenguid__compact-adviser
+kind: github-repo
+name: kunchenguid/compact-adviser
+canonical_url: https://github.com/kunchenguid/compact-adviser
+identity:
+  github_repo: kunchenguid/compact-adviser
+provenance:
+  discoveries:
+    - id: discovery__github__kunchenguid__compact-adviser__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: compact-adviser
+        extracted_url: https://github.com/kunchenguid/compact-adviser
+        surrounding_text: >-
+          - [compact-adviser](https://github.com/kunchenguid/compact-adviser) - Agent plugin that asks TypeSafe Jev
+          whether the session is at a safe `/compact` boundary (hint or optional auto-compact). [Project
+          guide](community/projects/tools/compact-adviser.md).
+        confidence: high
+    - id: discovery__github__kunchenguid__compact-adviser__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: compact-adviser
+        extracted_url: https://github.com/kunchenguid/compact-adviser
+        surrounding_text: >-
+          | [compact-adviser](https://github.com/kunchenguid/compact-adviser) | ★ 173 | TypeScript | 2026-09-22 | Agent
+          plugin that uses Jev to judge when a coding session should compact its context. |
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    compact-adviser - Agent plugin that asks TypeSafe Jev whether the session is at a safe /compact boundary (hint or
+    optional auto-compact). Project guide.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Context Compaction & Memory
+  evidence:
+    - jev-latest choice confidence 0.58
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Context Compaction & Memory
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.418Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

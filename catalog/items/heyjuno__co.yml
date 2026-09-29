@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__heyjuno__co__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Juno
         anchor_text: Juno
         extracted_url: https://heyjuno.co
-        surrounding_text: "## [Juno](https://heyjuno.co/)"
+        surrounding_text: '## [Juno](https://heyjuno.co/)'
         confidence: high
     - id: discovery__www__heyjuno__co__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Juno
         anchor_text: Juno
         extracted_url: https://heyjuno.co
-        surrounding_text: "## [Juno](https://heyjuno.co/)"
+        surrounding_text: '## [Juno](https://heyjuno.co/)'
         confidence: high
 metadata:
   github:
@@ -51,7 +51,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Juno is an AI agent that designs qualitative research studies, conducts adaptive interviews with real people, and synthesizes findings with traceable evidence.
+  summary: >-
+    Juno is an AI agent that designs qualitative research studies, conducts adaptive interviews with real people, and
+    synthesizes findings with traceable evidence.
   why_it_matters: It lets product teams and researchers get human insights quickly without running their own research operations.
   mental_damage: Another AI agent promising to replace human judgment — now with interview transcripts and a pricing model.
   tags:
@@ -61,21 +63,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Juno is an autonomous agent for qualitative research and customer interviews, not a developer-facing tool for coding, app building, or workflow automation.
+  reason: >-
+    Juno is an autonomous agent for qualitative research and customer interviews, not a developer-facing tool for
+    coding, app building, or workflow automation.
   evidence:
-    - "Scraped site context: 'Juno is a research agent, ready to join your team' and describes designing studies, interviewing real people, and synthesizing findings."
-    - "Source-list context: Listed in awesome-ai-agents under 'Juno' with description: 'Brief Juno to run your research. It designs the study, interviews real people, and brings back the why — with evidence you can inspect.'"
-    - README excerpt focuses entirely on research workflows, customer insights, interviews, and evidence synthesis — no mention of code, development, SDKs, or developer tooling.
+    - >-
+      Scraped site context: 'Juno is a research agent, ready to join your team' and describes designing studies,
+      interviewing real people, and synthesizing findings.
+    - >-
+      Source-list context: Listed in awesome-ai-agents under 'Juno' with description: 'Brief Juno to run your research.
+      It designs the study, interviews real people, and brings back the why — with evidence you can inspect.'
+    - >-
+      README excerpt focuses entirely on research workflows, customer insights, interviews, and evidence synthesis — no
+      mention of code, development, SDKs, or developer tooling.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:41:47.698Z"
+    updated_at: '2026-09-28T04:41:47.698Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,18 +98,27 @@ processing:
       input_hash: sha256:61e990a6e26d421c492e3a4bd26711964253602b94f4a992f797a681439ac88b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Juno is an autonomous agent for qualitative research and customer interviews, not a developer-facing tool for coding, app building, or workflow automation.
+      decision_reason: >-
+        Juno is an autonomous agent for qualitative research and customer interviews, not a developer-facing tool for
+        coding, app building, or workflow automation.
       decision_evidence:
-        - "Scraped site context: 'Juno is a research agent, ready to join your team' and describes designing studies, interviewing real people, and synthesizing findings."
-        - "Source-list context: Listed in awesome-ai-agents under 'Juno' with description: 'Brief Juno to run your research. It designs the study, interviews real people, and brings back the why — with evidence you can inspect.'"
-        - README excerpt focuses entirely on research workflows, customer insights, interviews, and evidence synthesis — no mention of code, development, SDKs, or developer tooling.
+        - >-
+          Scraped site context: 'Juno is a research agent, ready to join your team' and describes designing studies,
+          interviewing real people, and synthesizing findings.
+        - >-
+          Source-list context: Listed in awesome-ai-agents under 'Juno' with description: 'Brief Juno to run your
+          research. It designs the study, interviews real people, and brings back the why — with evidence you can
+          inspect.'
+        - >-
+          README excerpt focuses entirely on research workflows, customer insights, interviews, and evidence synthesis —
+          no mention of code, development, SDKs, or developer tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause: null
     next_retry_at: null
   stars:

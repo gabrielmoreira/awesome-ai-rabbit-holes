@@ -1,0 +1,98 @@
+id: github__ashishakkumar__jev-checkpoint
+kind: github-repo
+name: ashishakkumar/jev-checkpoint
+canonical_url: https://github.com/ashishakkumar/jev-checkpoint
+identity:
+  github_repo: ashishakkumar/jev-checkpoint
+provenance:
+  discoveries:
+    - id: discovery__github__ashishakkumar__jev-checkpoint__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Jev Checkpoint
+        extracted_url: https://github.com/ashishakkumar/jev-checkpoint
+        surrounding_text: >-
+          - [Jev Checkpoint](https://github.com/ashishakkumar/Jev-Checkpoint) - Local MCP server that confidence-gates a
+          bounded next-step Choice with TypeSafe Jev and returns an advisory route only. [Project
+          guide](community/projects/tools/jev-checkpoint.md).
+        confidence: high
+    - id: discovery__github__ashishakkumar__jev-checkpoint__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: Jev-Checkpoint
+        extracted_url: https://github.com/ashishakkumar/jev-checkpoint
+        surrounding_text: >-
+          | [Jev-Checkpoint](https://github.com/ashishakkumar/Jev-Checkpoint) | ★ 0 | TypeScript | 2026-09-22 | A local
+          MCP server that uses TypeSafe Jev to confidence-gate an AI agent’s next step, routing uncertain decisions to
+          proceed, deeper review, or human input. |
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    Jev Checkpoint - Local MCP server that confidence-gates a bounded next-step Choice with TypeSafe Jev and returns an
+    advisory route only. Project guide.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  evidence:
+    - jev-latest choice confidence 0.74
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.409Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: '2026-09-29T13:12:39.292Z'
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for ashishakkumar/jev-checkpoint
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

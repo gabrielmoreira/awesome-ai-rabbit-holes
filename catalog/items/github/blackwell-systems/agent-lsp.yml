@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blackwell-systems__agent-lsp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,16 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: blackwell-systems/agent-lsp
         extracted_url: https://github.com/blackwell-systems/agent-lsp
-        surrounding_text: "- [blackwell-systems/agent-lsp](https://github.com/blackwell-systems/agent-lsp) [![blackwell-systems/agent-lsp MCP server](https://glama.ai/mcp/servers/blackwell-systems/agent-lsp/badges/score.svg)](https://glama.ai/mcp/servers/blackwell-systems/agent-lsp) 🏎️ 🏠 🍎 🪟 🐧 - Stateful MCP server over real language servers. 50 tools, 30 CI-verified languages, 20 agent workflows. Persistent sessions keep the index warm across files and projects. Speculative execution simulates edits in memory before writing to disk."
+        surrounding_text: >-
+          - [blackwell-systems/agent-lsp](https://github.com/blackwell-systems/agent-lsp) [![blackwell-systems/agent-lsp
+          MCP
+          server](https://glama.ai/mcp/servers/blackwell-systems/agent-lsp/badges/score.svg)](https://glama.ai/mcp/servers/blackwell-systems/agent-lsp)
+          🏎️ 🏠 🍎 🪟 🐧 - Stateful MCP server over real language servers. 50 tools, 30 CI-verified languages, 20 agent
+          workflows. Persistent sessions keep the index warm across files and projects. Speculative execution simulates
+          edits in memory before writing to disk.
         confidence: high
     - id: discovery__github__blackwell-systems__agent-lsp__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-18T05:26:15.344Z"
+      discovered_at: '2026-05-18T05:26:15.344Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -36,10 +42,14 @@ provenance:
           - Agent infrastructure
         anchor_text: agent-lsp
         extracted_url: https://github.com/blackwell-systems/agent-lsp
-        surrounding_text: "- **[agent-lsp](https://github.com/blackwell-systems/agent-lsp)** `⭐ 25` — MCP server giving any CLI coding agent type-aware language intelligence: 50+ LSP tools, speculative execution (preview edits without touching disk), 21 skills, 30 CI-verified languages. Measured 5–34× token savings vs grep/read. Works with Claude Code, Codex, Gemini CLI, Goose, and any MCP client. Go, MIT."
+        surrounding_text: >-
+          - **[agent-lsp](https://github.com/blackwell-systems/agent-lsp)** `⭐ 25` — MCP server giving any CLI coding
+          agent type-aware language intelligence: 50+ LSP tools, speculative execution (preview edits without touching
+          disk), 21 skills, 30 CI-verified languages. Measured 5–34× token savings vs grep/read. Works with Claude Code,
+          Codex, Gemini CLI, Goose, and any MCP client. Go, MIT.
         confidence: high
     - id: discovery__github__blackwell-systems__agent-lsp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-09-21T04:13:39.852Z"
+      discovered_at: '2026-09-21T04:13:39.852Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -51,7 +61,10 @@ provenance:
           - MCP Servers and Directories
         anchor_text: agent-lsp
         extracted_url: https://github.com/blackwell-systems/agent-lsp
-        surrounding_text: "- **[agent-lsp](https://github.com/blackwell-systems/agent-lsp)** – MCP server that gives AI coding agents language server intelligence (go-to-definition, find-references, diagnostics, refactoring, speculative execution) across 30 languages. 56 tools, 22 agent skills, single Go binary."
+        surrounding_text: >-
+          - **[agent-lsp](https://github.com/blackwell-systems/agent-lsp)** – MCP server that gives AI coding agents
+          language server intelligence (go-to-definition, find-references, diagnostics, refactoring, speculative
+          execution) across 30 languages. 56 tools, 22 agent skills, single Go binary.
         confidence: high
 metadata:
   github:
@@ -61,8 +74,8 @@ metadata:
     archived: false
     full_name: blackwell-systems/agent-lsp
     html_url: https://github.com/blackwell-systems/agent-lsp
-    created_at: "2026-04-06T16:38:40Z"
-    pushed_at: "2026-09-24T03:42:03Z"
+    created_at: '2026-04-06T16:38:40Z'
+    pushed_at: '2026-09-24T03:42:03Z'
     description: MCP server that orchestrates language servers into agent-native workflows. 65 tools, 30 CI-verified languages.
     homepage: http://www.agent-lsp.com/
     topics:
@@ -85,14 +98,20 @@ metadata:
       - rust
       - static-analysis
       - typescript
-    last_checked_at: "2026-09-24T04:13:00.423Z"
+    last_checked_at: '2026-09-24T04:13:00.423Z'
     readme:
-      fetched_at: "2026-09-24T04:13:00.423Z"
+      fetched_at: '2026-09-24T04:13:00.423Z'
       bytes: 24798
 insights:
-  summary: agent-lsp is an MCP server that orchestrates language servers into agent-native workflows for AI-powered code intelligence.
-  why_it_matters: It reduces cold-start latency and token usage by keeping language servers warm and exposing batch, speculative editing workflows to AI agents via MCP.
-  mental_damage: Another layer of abstraction to make your AI coding assistant feel less like a toddler with a chainsaw and more like a sleep-deprived intern who finally had coffee.
+  summary: >-
+    agent-lsp is an MCP server that orchestrates language servers into agent-native workflows for AI-powered code
+    intelligence.
+  why_it_matters: >-
+    It reduces cold-start latency and token usage by keeping language servers warm and exposing batch, speculative
+    editing workflows to AI agents via MCP.
+  mental_damage: >-
+    Another layer of abstraction to make your AI coding assistant feel less like a toddler with a chainsaw and more like
+    a sleep-deprived intern who finally had coffee.
   tags:
     - mcp
     - lsp
@@ -102,32 +121,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: agent-lsp's core identity is an MCP server that exposes language server capabilities via MCP, making MCP its primary protocol identity rather than a coding agent or extension.
+  reason: >-
+    agent-lsp's core identity is an MCP server that exposes language server capabilities via MCP, making MCP its primary
+    protocol identity rather than a coding agent or extension.
   evidence:
-    - "Repo description: 'MCP server that orchestrates language servers into agent-native workflows'"
-    - "README: 'agent-lsp is an MCP server that orchestrates existing LSP servers into agent-native workflows'"
-    - "Source-list: listed in awesome-mcp-servers under Server Implementations > Developer Tools"
+    - 'Repo description: ''MCP server that orchestrates language servers into agent-native workflows'''
+    - 'README: ''agent-lsp is an MCP server that orchestrates existing LSP servers into agent-native workflows'''
+    - 'Source-list: listed in awesome-mcp-servers under Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Dev & Code Tools
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-21T04:13:39.855Z"
+    updated_at: '2026-09-21T04:13:39.855Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:00.423Z"
+    updated_at: '2026-09-24T04:13:00.423Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:56:51.107Z"
+    updated_at: '2026-09-28T04:56:51.107Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -140,14 +161,18 @@ processing:
       input_hash: sha256:650d867eff4bf574f64f4b524d848aedaec41f679326466a3bec1b6308a30ae3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: agent-lsp's core identity is an MCP server that exposes language server capabilities via MCP, making MCP its primary protocol identity rather than a coding agent or extension.
+      decision_reason: >-
+        agent-lsp's core identity is an MCP server that exposes language server capabilities via MCP, making MCP its
+        primary protocol identity rather than a coding agent or extension.
       decision_evidence:
-        - "Repo description: 'MCP server that orchestrates language servers into agent-native workflows'"
-        - "README: 'agent-lsp is an MCP server that orchestrates existing LSP servers into agent-native workflows'"
-        - "Source-list: listed in awesome-mcp-servers under Server Implementations > Developer Tools"
+        - 'Repo description: ''MCP server that orchestrates language servers into agent-native workflows'''
+        - 'README: ''agent-lsp is an MCP server that orchestrates existing LSP servers into agent-native workflows'''
+        - 'Source-list: listed in awesome-mcp-servers under Server Implementations > Developer Tools'
       category_candidates:
         - mcp
         - coding-agents
-      contrastive_reason: Choose mcp over coding-agents because agent-lsp is an MCP server whose primary function is exposing LSP capabilities via MCP, not autonomously performing coding tasks as an agent.
+      contrastive_reason: >-
+        Choose mcp over coding-agents because agent-lsp is an MCP server whose primary function is exposing LSP
+        capabilities via MCP, not autonomously performing coding tasks as an agent.
       review_reason: null
       review_resume_lifecycle: null

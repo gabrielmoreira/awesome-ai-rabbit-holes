@@ -1,0 +1,99 @@
+id: github__shanghua-gao__rsi-jev
+kind: github-repo
+name: shanghua-gao/rsi-jev
+canonical_url: https://github.com/shanghua-gao/rsi-jev
+identity:
+  github_repo: shanghua-gao/rsi-jev
+provenance:
+  discoveries:
+    - id: discovery__github__shanghua-gao__rsi-jev__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: RSI-Jev
+        extracted_url: https://github.com/shanghua-gao/rsi-jev
+        surrounding_text: >-
+          - [RSI-Jev](https://github.com/Shanghua-Gao/RSI-Jev) - Recursively self-improving research loop that trains
+          Jev-style System One (noul/choice/score) models and serves them at `/v1/systemone`. [Project
+          guide](community/projects/tools/rsi-jev.md).
+        confidence: high
+    - id: discovery__github__shanghua-gao__rsi-jev__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Calibration & Research
+        anchor_text: RSI-Jev
+        extracted_url: https://github.com/shanghua-gao/rsi-jev
+        surrounding_text: >-
+          - [RSI-Jev](https://github.com/Shanghua-Gao/RSI-Jev)
+          ![stars](https://img.shields.io/github/stars/Shanghua-Gao/RSI-Jev?style=flat-square&label=%E2%98%85) -
+          Jev-like model built by an RSI system: a recursively self-improving AI research loop (the next version of
+          AutoScientists) proposes, runs and judges every experiment, and publishes each one, failures included — whose
+          open 2B models answer `Noul`, `Choice` and `Score` on the same `POST /v1/systemone` wire format in one forward
+          pass, scoring 0.791 top-1 on typed-decisions' 2,000 test decisions after training on its train split (Jev
+          1.13.0: 0.727), and 0.774 on 873 scienthoon support tickets it never trained on (Jev: 0.753).
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: >-
+    RSI-Jev - Recursively self-improving research loop that trains Jev-style System One (noul/choice/score) models and
+    serves them at /v1/systemone. Project guide.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.48
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.424Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

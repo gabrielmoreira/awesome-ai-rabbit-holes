@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__databrickslabs__dolly__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Large Language Model
         anchor_text: dolly
         extracted_url: https://github.com/databrickslabs/dolly
-        surrounding_text: "| [dolly](https://github.com/databrickslabs/dolly)                        | Databricks’ Dolly, a large language model trained on the Databricks Machine Learning Platform                                                                                              | ![GitHub Badge](https://img.shields.io/github/stars/databrickslabs/dolly.svg?style=flat-square)           |"
+        surrounding_text: >-
+          | [dolly](https://github.com/databrickslabs/dolly)                        | Databricks’ Dolly, a large
+          language model trained on the Databricks Machine Learning
+          Platform                                                                                              |
+          ![GitHub Badge](https://img.shields.io/github/stars/databrickslabs/dolly.svg?style=flat-square)           |
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: databrickslabs/dolly
     html_url: https://github.com/databrickslabs/dolly
-    created_at: "2023-03-24T16:15:53Z"
-    pushed_at: "2023-06-30T18:36:16Z"
+    created_at: '2023-03-24T16:15:53Z'
+    pushed_at: '2023-06-30T18:36:16Z'
     description: Databricks’ Dolly, a large language model trained on the Databricks Machine Learning Platform
     homepage: https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html
     topics:
@@ -39,13 +43,17 @@ metadata:
       - databricks
       - dolly
       - gpt
-    last_checked_at: "2026-09-14T04:13:34.562Z"
+    last_checked_at: '2026-09-14T04:13:34.562Z'
     readme:
-      fetched_at: "2026-09-14T04:13:34.562Z"
+      fetched_at: '2026-09-14T04:13:34.562Z'
       bytes: 9327
 insights:
-  summary: Databricks’ Dolly is an instruction-following large language model trained on the Databricks Machine Learning Platform and licensed for commercial use.
-  why_it_matters: It provides developers with a permissively licensed, fine-tuned LLM for instruction-following tasks, including code-related use cases, without the restrictions of closed-source models.
+  summary: >-
+    Databricks’ Dolly is an instruction-following large language model trained on the Databricks Machine Learning
+    Platform and licensed for commercial use.
+  why_it_matters: >-
+    It provides developers with a permissively licensed, fine-tuned LLM for instruction-following tasks, including
+    code-related use cases, without the restrictions of closed-source models.
   mental_damage: Finally, a model that can follow instructions—just don’t ask it to write a haiku about your codebase.
   tags:
     - llm
@@ -56,31 +64,35 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Dolly is a raw model release (checkpoint + dataset) rather than a developer tool, framework, or workflow product; it lacks a developer-tooling identity beyond being a model artifact.
+  reason: >-
+    Dolly is a raw model release (checkpoint + dataset) rather than a developer tool, framework, or workflow product; it
+    lacks a developer-tooling identity beyond being a model artifact.
   evidence:
     - Repo description identifies it as a 'large language model trained on the Databricks Machine Learning Platform'
     - README emphasizes it is a model available on Hugging Face, not a tool or framework
-    - Source-list context places it under 'Model > Large Language Model' in Awesome-LLMOps, reinforcing its identity as a model, not a tool
+    - >-
+      Source-list context places it under 'Model > Large Language Model' in Awesome-LLMOps, reinforcing its identity as
+      a model, not a tool
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (10794) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:34.562Z"
+    updated_at: '2026-09-14T04:13:34.562Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -95,11 +107,15 @@ processing:
       input_hash: sha256:e373c3578e8d2aca981bd5a7d8b69956ffb17b86fe826f0c75889440acd7d17a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Dolly is a raw model release (checkpoint + dataset) rather than a developer tool, framework, or workflow product; it lacks a developer-tooling identity beyond being a model artifact.
+      decision_reason: >-
+        Dolly is a raw model release (checkpoint + dataset) rather than a developer tool, framework, or workflow
+        product; it lacks a developer-tooling identity beyond being a model artifact.
       decision_evidence:
         - Repo description identifies it as a 'large language model trained on the Databricks Machine Learning Platform'
         - README emphasizes it is a model available on Hugging Face, not a tool or framework
-        - Source-list context places it under 'Model > Large Language Model' in Awesome-LLMOps, reinforcing its identity as a model, not a tool
+        - >-
+          Source-list context places it under 'Model > Large Language Model' in Awesome-LLMOps, reinforcing its identity
+          as a model, not a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

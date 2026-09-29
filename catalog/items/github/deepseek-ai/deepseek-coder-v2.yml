@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deepseek-ai__deepseek-coder-v2__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,9 @@ provenance:
           - Code Models
         anchor_text: DeepSeek Coder
         extracted_url: https://github.com/deepseek-ai/deepseek-coder-v2
-        surrounding_text: "- **[DeepSeek Coder](https://github.com/deepseek-ai/DeepSeek-Coder-V2)** – High-performance open-source coding model; popular for cost-efficient AI coding via API."
+        surrounding_text: >-
+          - **[DeepSeek Coder](https://github.com/deepseek-ai/DeepSeek-Coder-V2)** – High-performance open-source coding
+          model; popular for cost-efficient AI coding via API.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: deepseek-ai/DeepSeek-Coder-V2
     html_url: https://github.com/deepseek-ai/DeepSeek-Coder-V2
-    created_at: "2024-06-14T03:39:37Z"
-    pushed_at: "2025-11-11T06:44:45Z"
-    description: "DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence"
-    homepage: ""
+    created_at: '2024-06-14T03:39:37Z'
+    pushed_at: '2025-11-11T06:44:45Z'
+    description: 'DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence'
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:38.011Z"
+    last_checked_at: '2026-09-14T04:13:38.011Z'
     readme:
-      fetched_at: "2026-09-14T04:13:38.011Z"
+      fetched_at: '2026-09-14T04:13:38.011Z'
       bytes: 20235
 insights:
-  summary: DeepSeek-Coder-V2 is an open-source Mixture-of-Experts code language model with 16B and 236B parameter variants, supporting 338 programming languages and a 128K context length.
-  why_it_matters: It offers developers a high-performance, open-source alternative to closed models like GPT4-Turbo for code-specific tasks, with strong benchmarks in coding and math.
-  mental_damage: Another model claims to outperform GPT-4, and now you have to decide whether to trust the benchmarks or your own sanity.
+  summary: >-
+    DeepSeek-Coder-V2 is an open-source Mixture-of-Experts code language model with 16B and 236B parameter variants,
+    supporting 338 programming languages and a 128K context length.
+  why_it_matters: >-
+    It offers developers a high-performance, open-source alternative to closed models like GPT4-Turbo for code-specific
+    tasks, with strong benchmarks in coding and math.
+  mental_damage: >-
+    Another model claims to outperform GPT-4, and now you have to decide whether to trust the benchmarks or your own
+    sanity.
   tags:
     - code-model
     - open-source
@@ -51,7 +59,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a raw model release, not a developer tool, framework, or workflow product; the catalog focuses on practical AI tools and workflows, not standalone model checkpoints.
+  reason: >-
+    This is a raw model release, not a developer tool, framework, or workflow product; the catalog focuses on practical
+    AI tools and workflows, not standalone model checkpoints.
   evidence:
     - Repo description identifies it as a code language model, not a tool or workflow
     - README centers on model capabilities, downloads, and benchmarks, not a developer-facing product
@@ -60,22 +70,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (6710) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:38.011Z"
+    updated_at: '2026-09-14T04:13:38.011Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -90,7 +100,9 @@ processing:
       input_hash: sha256:8844c788dc2fa442711b20a315168843fbae9c39ec223ed80084da685bed02bf
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a raw model release, not a developer tool, framework, or workflow product; the catalog focuses on practical AI tools and workflows, not standalone model checkpoints.
+      decision_reason: >-
+        This is a raw model release, not a developer tool, framework, or workflow product; the catalog focuses on
+        practical AI tools and workflows, not standalone model checkpoints.
       decision_evidence:
         - Repo description identifies it as a code language model, not a tool or workflow
         - README centers on model capabilities, downloads, and benchmarks, not a developer-facing product

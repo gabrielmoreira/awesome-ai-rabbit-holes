@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__youtube__com__watch__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -18,7 +18,7 @@ provenance:
           - Tutorials
         anchor_text: Setup Claude Desktop App to Use a SQLite Database
         extracted_url: https://youtu.be/wxCCzo9dGj0
-        surrounding_text: "* [Setup Claude Desktop App to Use a SQLite Database](https://youtu.be/wxCCzo9dGj0)"
+        surrounding_text: '* [Setup Claude Desktop App to Use a SQLite Database](https://youtu.be/wxCCzo9dGj0)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: YouTube is a video-sharing platform for uploading, watching, and distributing videos and music.
-  why_it_matters: Developers use YouTube for tutorials, conference talks, and learning new tools, but it does not directly assist with coding tasks or software development workflows.
-  mental_damage: Another reminder that half your open-source education comes from algorithmically recommended 10-minute videos with suspiciously loud intros.
+  why_it_matters: >-
+    Developers use YouTube for tutorials, conference talks, and learning new tools, but it does not directly assist with
+    coding tasks or software development workflows.
+  mental_damage: >-
+    Another reminder that half your open-source education comes from algorithmically recommended 10-minute videos with
+    suspiciously loud intros.
   tags:
     - video
     - platform
@@ -46,20 +50,24 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: YouTube is a general-purpose media platform not focused on developer tooling, AI-assisted coding, or any workflow relevant to the catalog's scope.
+  reason: >-
+    YouTube is a general-purpose media platform not focused on developer tooling, AI-assisted coding, or any workflow
+    relevant to the catalog's scope.
   evidence:
-    - "Repo description: (none)"
-    - "Scraped site context: Title: YouTube, Description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+    - 'Repo description: (none)'
+    - >-
+      Scraped site context: Title: YouTube, Description: Enjoy the videos and music you love, upload original content,
+      and share it all with friends, family, and the world on YouTube.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.972Z"
+    updated_at: '2026-07-21T15:20:21.972Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:55:01.744Z"
+    updated_at: '2026-09-28T04:55:01.744Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -79,10 +87,14 @@ processing:
       input_hash: sha256:0a90b8cad513e9dfcd1fab96d8cdbb23d450cc034e4b7ff168bd4d8acc17072f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: YouTube is a general-purpose media platform not focused on developer tooling, AI-assisted coding, or any workflow relevant to the catalog's scope.
+      decision_reason: >-
+        YouTube is a general-purpose media platform not focused on developer tooling, AI-assisted coding, or any
+        workflow relevant to the catalog's scope.
       decision_evidence:
-        - "Repo description: (none)"
-        - "Scraped site context: Title: YouTube, Description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+        - 'Repo description: (none)'
+        - >-
+          Scraped site context: Title: YouTube, Description: Enjoy the videos and music you love, upload original
+          content, and share it all with friends, family, and the world on YouTube.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

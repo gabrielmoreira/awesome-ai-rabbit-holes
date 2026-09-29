@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__chat__ruliad__co__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Naut
         anchor_text: Naut
         extracted_url: https://naut.ai
-        surrounding_text: "## [Naut](https://www.naut.ai/)"
+        surrounding_text: '## [Naut](https://www.naut.ai/)'
         confidence: high
 metadata:
   github:
@@ -46,21 +46,29 @@ insights:
   confidence: medium
 curation:
   status: excluded
-  reason: Ruliad Chat is a general-purpose AI chat interface without clear developer-tooling focus, making it out of scope for the catalog.
+  reason: >-
+    Ruliad Chat is a general-purpose AI chat interface without clear developer-tooling focus, making it out of scope for
+    the catalog.
   evidence:
-    - Repo description is missing; scraped site context describes it as 'Self Sovereign Intelligence' with no mention of coding, agents, or developer workflows.
-    - Listed in awesome-ai-agents under 'Naut' section, but the site itself shows no agent-like behavior or code-centric features.
-    - No evidence of integration with development tools, code editing, or agent orchestration; appears to be a standalone chat frontend.
+    - >-
+      Repo description is missing; scraped site context describes it as 'Self Sovereign Intelligence' with no mention of
+      coding, agents, or developer workflows.
+    - >-
+      Listed in awesome-ai-agents under 'Naut' section, but the site itself shows no agent-like behavior or code-centric
+      features.
+    - >-
+      No evidence of integration with development tools, code editing, or agent orchestration; appears to be a
+      standalone chat frontend.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.963Z"
+    updated_at: '2026-07-21T15:20:21.963Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:54:55.167Z"
+    updated_at: '2026-09-28T04:54:55.167Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -80,11 +88,19 @@ processing:
       input_hash: sha256:c77a2ad964970fc57842ec212e852b846eaa563db3645c82075467d5a958d5d1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Ruliad Chat is a general-purpose AI chat interface without clear developer-tooling focus, making it out of scope for the catalog.
+      decision_reason: >-
+        Ruliad Chat is a general-purpose AI chat interface without clear developer-tooling focus, making it out of scope
+        for the catalog.
       decision_evidence:
-        - Repo description is missing; scraped site context describes it as 'Self Sovereign Intelligence' with no mention of coding, agents, or developer workflows.
-        - Listed in awesome-ai-agents under 'Naut' section, but the site itself shows no agent-like behavior or code-centric features.
-        - No evidence of integration with development tools, code editing, or agent orchestration; appears to be a standalone chat frontend.
+        - >-
+          Repo description is missing; scraped site context describes it as 'Self Sovereign Intelligence' with no
+          mention of coding, agents, or developer workflows.
+        - >-
+          Listed in awesome-ai-agents under 'Naut' section, but the site itself shows no agent-like behavior or
+          code-centric features.
+        - >-
+          No evidence of integration with development tools, code editing, or agent orchestration; appears to be a
+          standalone chat frontend.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

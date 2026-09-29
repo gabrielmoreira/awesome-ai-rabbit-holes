@@ -100,7 +100,7 @@ export function buildNewCatalogItem(
     insights: { summary: null, why_it_matters: null, mental_damage: null, tags: [], confidence: null },
     curation: { status: "pending", reason: null, evidence: [] },
     placement: { primary_category: null, section: null },
-    lifecycle: { status: "incubating" },
+    lifecycle: { status: "curated" },
   };
 }
 

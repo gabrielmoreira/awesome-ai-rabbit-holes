@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__getunblocked__com__unblocked__mcp__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: "2026-05-14T05:20:10.208Z"
+      discovered_at: '2026-05-14T05:20:10.208Z'
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -19,7 +19,10 @@ provenance:
           - Sponsorships
         anchor_text: Unblocked MCP
         extracted_url: https://getunblocked.com/unblocked-mcp
-        surrounding_text: "- [Unblocked MCP](https://getunblocked.com/unblocked-mcp/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-cursorrules) - Team knowledge for Cursor workflows."
+        surrounding_text: >-
+          - [Unblocked
+          MCP](https://getunblocked.com/unblocked-mcp/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-cursorrules)
+          - Team knowledge for Cursor workflows.
         confidence: high
 metadata:
   github:
@@ -37,9 +40,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server that delivers synthesized organizational context from sources like GitHub, Slack, and Jira to AI agents.
-  why_it_matters: It helps agents understand the intent and history behind code by bridging the gap between the codebase and the conversations or documentation surrounding it.
-  mental_damage: Finally, an automated way to ensure your AI agent can hallucinate based on a three-year-old Slack thread just as easily as your codebase.
+  summary: >-
+    An MCP server that delivers synthesized organizational context from sources like GitHub, Slack, and Jira to AI
+    agents.
+  why_it_matters: >-
+    It helps agents understand the intent and history behind code by bridging the gap between the codebase and the
+    conversations or documentation surrounding it.
+  mental_damage: >-
+    Finally, an automated way to ensure your AI agent can hallucinate based on a three-year-old Slack thread just as
+    easily as your codebase.
   tags:
     - mcp
     - context-engineering
@@ -48,7 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is an MCP server that provides organizational context to agents via the Model Context Protocol.
+  reason: >-
+    The tool's primary identity is an MCP server that provides organizational context to agents via the Model Context
+    Protocol.
   evidence:
     - Branded explicitly as 'Unblocked MCP Server'
     - Synthesizes data from multiple sources like Slack, Jira, and GitHub into a single MCP connection
@@ -58,12 +69,12 @@ placement:
   secondary_categories: []
   section: Communication, Files & Productivity
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-14T05:20:10.209Z"
+    updated_at: '2026-05-14T05:20:10.209Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:18:33.892Z"
+    updated_at: '2026-09-21T04:18:33.892Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +96,9 @@ processing:
       input_hash: sha256:6e2ea1f02fd1e6ea3c0d1be64a1aed22022ff659104e81f792aae9a79a911fe8
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's primary identity is an MCP server that provides organizational context to agents via the Model Context Protocol.
+      decision_reason: >-
+        The tool's primary identity is an MCP server that provides organizational context to agents via the Model
+        Context Protocol.
       decision_evidence:
         - Branded explicitly as 'Unblocked MCP Server'
         - Synthesizes data from multiple sources like Slack, Jira, and GitHub into a single MCP connection
@@ -93,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - memory-and-context
-      contrastive_reason: Choose mcp over memory-and-context because the product's primary identity is an MCP server, which takes priority over its functional role as a context provider.
+      contrastive_reason: >-
+        Choose mcp over memory-and-context because the product's primary identity is an MCP server, which takes priority
+        over its functional role as a context provider.
       review_reason: null
       review_resume_lifecycle: null

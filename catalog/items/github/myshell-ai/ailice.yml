@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__myshell-ai__ailice__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - AIlice
         anchor_text: AIlice
         extracted_url: https://github.com/myshell-ai/ailice
-        surrounding_text: "## [AIlice](https://github.com/myshell-ai/AIlice)"
+        surrounding_text: '## [AIlice](https://github.com/myshell-ai/AIlice)'
         confidence: high
 metadata:
   github:
@@ -29,23 +29,29 @@ metadata:
     archived: false
     full_name: myshell-ai/AIlice
     html_url: https://github.com/myshell-ai/AIlice
-    created_at: "2023-10-16T01:51:14Z"
-    pushed_at: "2025-08-18T03:24:03Z"
+    created_at: '2023-10-16T01:51:14Z'
+    pushed_at: '2025-08-18T03:24:03Z'
     description: AIlice is a fully autonomous, general-purpose AI agent.
-    homepage: ""
+    homepage: ''
     topics:
       - agent
       - ai
       - llm
       - llm-agent
-    last_checked_at: "2026-07-20T15:11:58.661Z"
+    last_checked_at: '2026-07-20T15:11:58.661Z'
     readme:
-      fetched_at: "2026-07-20T15:11:58.661Z"
+      fetched_at: '2026-07-20T15:11:58.661Z'
       bytes: 60870
 insights:
-  summary: AIlice is a fully autonomous, general-purpose AI agent built on open-source LLMs that uses an Interactive Agents Call Tree architecture to handle complex tasks like themed research, coding, and system management.
-  why_it_matters: It offers developers a framework for running a self-contained, locally-hosted 'JARVIS-like' assistant capable of decomposing complex tasks without relying solely on cloud APIs.
-  mental_damage: Just when you thought your terminal was safe, here comes a recursive call tree of agents ready to refactor your repo while you wonder if you're still the senior developer.
+  summary: >-
+    AIlice is a fully autonomous, general-purpose AI agent built on open-source LLMs that uses an Interactive Agents
+    Call Tree architecture to handle complex tasks like themed research, coding, and system management.
+  why_it_matters: >-
+    It offers developers a framework for running a self-contained, locally-hosted 'JARVIS-like' assistant capable of
+    decomposing complex tasks without relying solely on cloud APIs.
+  mental_damage: >-
+    Just when you thought your terminal was safe, here comes a recursive call tree of agents ready to refactor your repo
+    while you wonder if you're still the senior developer.
   tags:
     - autonomous-agent
     - local-ai
@@ -55,37 +61,39 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: AIlice is a standalone, autonomous AI agent that directly plans and executes complex tasks including coding and system management via a CLI/repo workflow, fitting the Coding Agents profile.
+  reason: >-
+    AIlice is a standalone, autonomous AI agent that directly plans and executes complex tasks including coding and
+    system management via a CLI/repo workflow, fitting the Coding Agents profile.
   evidence:
-    - "Repo description explicitly states: 'AIlice is a fully autonomous, general-purpose AI agent.'"
+    - 'Repo description explicitly states: ''AIlice is a fully autonomous, general-purpose AI agent.'''
     - README claims proficiency in 'thematic research, coding, system management' using the IACT architecture.
     - Active development with a push date of 2025-08-18 and 1406 stars, confirming it is not archived or stale.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (1406) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-08-03T05:17:09.807Z"
+    updated_at: '2026-08-03T05:17:09.807Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for myshell-ai/ailice
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

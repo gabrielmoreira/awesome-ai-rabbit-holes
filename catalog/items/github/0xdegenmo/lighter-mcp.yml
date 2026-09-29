@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0xdegenmo__lighter-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: 0xDegenMo/lighter-mcp
         extracted_url: https://github.com/0xdegenmo/lighter-mcp
-        surrounding_text: "- [0xDegenMo/lighter-mcp](https://github.com/0xDegenMo/lighter-mcp) [![0xDegenMo/lighter-mcp MCP server](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp/badges/score.svg)](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - MCP server for [Lighter](https://lighter.xyz) — a zero-fee zk-rollup perpetual DEX. Trade ~190 perpetuals (crypto + RWA: PAXG/XAU gold, XAG silver, WTI oil, equity tickers like TSLA/AMZN/ASML) from Claude Desktop, Cursor, Hermes, or any MCP client. Three credential tiers (PUBLIC market data → READ account → TRADE signing), native on-chain stop-loss / take-profit, server-side safety caps (max-quote-USD, slippage, symbol allowlist). `pip install 0xdegenmo-lighter-mcp`."
+        surrounding_text: >-
+          - [0xDegenMo/lighter-mcp](https://github.com/0xDegenMo/lighter-mcp) [![0xDegenMo/lighter-mcp MCP
+          server](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp/badges/score.svg)](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp)
+          🐍 ☁️ 🏠 🍎 🪟 🐧 - MCP server for [Lighter](https://lighter.xyz) — a zero-fee zk-rollup perpetual DEX. Trade
+          ~190 perpetuals (crypto + RWA: PAXG/XAU gold, XAG silver, WTI oil, equity tickers like TSLA/AMZN/ASML) from
+          Claude Desktop, Cursor, Hermes, or any MCP client. Three credential tiers (PUBLIC market data → READ account →
+          TRADE signing), native on-chain stop-loss / take-profit, server-side safety caps (max-quote-USD, slippage,
+          symbol allowlist). `pip install 0xdegenmo-lighter-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,19 +37,23 @@ metadata:
     archived: false
     full_name: 0xDegenMo/lighter-mcp
     html_url: https://github.com/0xDegenMo/lighter-mcp
-    created_at: "2026-05-20T12:07:54Z"
-    pushed_at: "2026-05-28T20:16:41Z"
+    created_at: '2026-05-20T12:07:54Z'
+    pushed_at: '2026-05-28T20:16:41Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:24.859Z"
+    last_checked_at: '2026-09-17T04:13:24.859Z'
     readme:
-      fetched_at: "2026-09-17T04:13:24.859Z"
+      fetched_at: '2026-09-17T04:13:24.859Z'
       bytes: 11102
 insights:
   summary: An MCP server that enables AI agents to interact with the Lighter perpetual decentralized exchange on Ethereum.
-  why_it_matters: It allows developers to equip AI clients like Claude Desktop or Cursor with the ability to query market data and execute on-chain trades via natural language.
-  mental_damage: Because nothing says 'developer workflow' like giving your LLM the ability to execute high-leverage perpetual trades on a zk-rollup.
+  why_it_matters: >-
+    It allows developers to equip AI clients like Claude Desktop or Cursor with the ability to query market data and
+    execute on-chain trades via natural language.
+  mental_damage: >-
+    Because nothing says 'developer workflow' like giving your LLM the ability to execute high-leverage perpetual trades
+    on a zk-rollup.
   tags:
     - mcp
     - crypto
@@ -62,24 +73,24 @@ placement:
   secondary_categories: []
   section: Finance, Crypto & DeFi
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.817Z"
+    updated_at: '2026-05-28T05:28:09.817Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-28T04:13:55.604Z"
+    updated_at: '2026-09-28T04:13:55.604Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for 0xdegenmo/lighter-mcp
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:31:54.360Z"
+    updated_at: '2026-09-21T04:31:54.360Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -92,7 +103,9 @@ processing:
       input_hash: sha256:c5c622eee1f2956a3ea48f6fcc81c27d6bdcaa474f9ccc97b75cbeaf2575a9a6
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is primarily an MCP server designed to expose specific domain tools and data to any MCP-compliant agent.
+      decision_reason: >-
+        The product is primarily an MCP server designed to expose specific domain tools and data to any MCP-compliant
+        agent.
       decision_evidence:
         - README explicitly defines the project as an MCP server for the Lighter DEX
         - Provides 17 specialized trading tools for MCP-aware clients
@@ -100,6 +113,9 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the tool's primary identity is an MCP server providing protocol-level tools rather than a plugin specifically designed to augment the UI or workflow of a single editor.
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the tool's primary identity is an MCP server providing
+        protocol-level tools rather than a plugin specifically designed to augment the UI or workflow of a single
+        editor.
       review_reason: null
       review_resume_lifecycle: null

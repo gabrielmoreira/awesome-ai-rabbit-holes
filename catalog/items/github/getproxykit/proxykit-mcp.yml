@@ -1,0 +1,86 @@
+id: github__getproxykit__proxykit-mcp
+kind: github-repo
+name: getproxykit/proxykit-mcp
+canonical_url: https://github.com/getproxykit/proxykit-mcp
+identity:
+  github_repo: getproxykit/proxykit-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__getproxykit__proxykit-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔒 <a name="delivery"></a>Delivery
+        anchor_text: getproxykit/proxykit-mcp
+        extracted_url: https://github.com/getproxykit/proxykit-mcp
+        surrounding_text: >-
+          - [getproxykit/proxykit-mcp](https://github.com/getproxykit/proxykit-mcp) [![getproxykit/proxykit-mcp MCP
+          server](https://glama.ai/mcp/servers/getproxykit/proxykit-mcp/badges/score.svg)](https://glama.ai/mcp/servers/getproxykit/proxykit-mcp)
+          🏎️ 🏠 🍎 🪟 🐧 - Drive the local ProxyKit MITM debugging proxy: inspect HTTP(S), gRPC and WebSocket traffic,
+          create mocks and rewrites, replay requests and run chaos scenarios.
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: getproxykit/proxykit-mcp
+    html_url: https://github.com/getproxykit/proxykit-mcp
+    created_at: '2026-08-07T21:00:20Z'
+    pushed_at: '2026-09-11T15:21:32Z'
+    description: MCP server for ProxyKit — drive a local HTTP(S) debugging proxy from Claude, Cursor, and any MCP host.
+    homepage: https://proxykit.net/mcp
+    topics:
+      - claude
+      - cursor
+      - debugging
+      - http
+      - mcp
+      - mitm
+      - model-context-protocol
+      - proxy
+    last_checked_at: '2026-09-29T13:11:39.140Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:39.140Z'
+      bytes: 6323
+insights:
+  summary: MCP server for ProxyKit — drive a local HTTP(S) debugging proxy from Claude, Cursor, and any MCP host.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
+  evidence:
+    - jev-latest choice confidence 0.76
+placement:
+  primary_category: mcp
+  secondary_categories: []
+  section: Clients & Inspector Tools
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.458Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:39.140Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

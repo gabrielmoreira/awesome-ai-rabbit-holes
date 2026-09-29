@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hashgraph-online__hol-guard__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Agent infrastructure
         anchor_text: HOL Guard
         extracted_url: https://github.com/hashgraph-online/hol-guard
-        surrounding_text: "- **[HOL Guard](https://github.com/hashgraph-online/hol-guard)** `⭐ 421` — Local-first security harness that intercepts tool calls in AI coding agents before files change or network is contacted. Pre-tool hooks, approval center, and supply-chain advisory scanning. Supports Claude Code, Codex, Cursor, Gemini, Copilot CLI, Hermes, and OpenCode."
+        surrounding_text: >-
+          - **[HOL Guard](https://github.com/hashgraph-online/hol-guard)** `⭐ 421` — Local-first security harness that
+          intercepts tool calls in AI coding agents before files change or network is contacted. Pre-tool hooks,
+          approval center, and supply-chain advisory scanning. Supports Claude Code, Codex, Cursor, Gemini, Copilot CLI,
+          Hermes, and OpenCode.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: hashgraph-online/hol-guard
     html_url: https://github.com/hashgraph-online/hol-guard
-    created_at: "2026-03-28T19:02:15Z"
-    pushed_at: "2026-07-30T01:57:36Z"
-    description: "Open-source antivirus for AI agents: block risky tools, secret access, prompt injection, malicious packages, MCP servers, plugins, and skills at runtime."
+    created_at: '2026-03-28T19:02:15Z'
+    pushed_at: '2026-07-30T01:57:36Z'
+    description: >-
+      Open-source antivirus for AI agents: block risky tools, secret access, prompt injection, malicious packages, MCP
+      servers, plugins, and skills at runtime.
     homepage: https://hol.org/guard
     topics:
       - agent-security
@@ -55,9 +61,9 @@ metadata:
       - secrets-detection
       - security
       - supply-chain-security
-    last_checked_at: "2026-07-30T05:05:35.644Z"
+    last_checked_at: '2026-07-30T05:05:35.644Z'
     readme:
-      fetched_at: "2026-07-30T05:05:35.644Z"
+      fetched_at: '2026-07-30T05:05:35.644Z'
       bytes: 44862
 insights:
   summary: null
@@ -73,24 +79,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (421) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.995Z"
+    updated_at: '2026-07-30T05:05:26.995Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-03T05:16:58.990Z"
+    updated_at: '2026-09-03T05:16:58.990Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for hashgraph-online/hol-guard
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

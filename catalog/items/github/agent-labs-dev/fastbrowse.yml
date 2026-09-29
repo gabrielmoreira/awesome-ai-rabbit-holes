@@ -1,0 +1,104 @@
+id: github__agent-labs-dev__fastbrowse
+kind: github-repo
+name: agent-labs-dev/fastbrowse
+canonical_url: https://github.com/agent-labs-dev/fastbrowse
+identity:
+  github_repo: agent-labs-dev/fastbrowse
+provenance:
+  discoveries:
+    - id: discovery__github__agent-labs-dev__fastbrowse__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Browser & computer use (75)
+        anchor_text: fastbrowse
+        extracted_url: https://github.com/agent-labs-dev/fastbrowse
+        surrounding_text: >-
+          | [fastbrowse](https://github.com/agent-labs-dev/fastbrowse) | ★ 5 | Python | 2026-09-19 | Browser agent where
+          Jev selects actions, an LLM reads and plans, and answers cite page evidence. |
+        confidence: high
+    - id: discovery__github__agent-labs-dev__fastbrowse__awesome-list__yibie__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Agent Decisions
+        anchor_text: fastbrowse
+        extracted_url: https://github.com/agent-labs-dev/fastbrowse
+        surrounding_text: >-
+          - [fastbrowse](https://github.com/agent-labs-dev/fastbrowse)
+          ![stars](https://img.shields.io/github/stars/agent-labs-dev/fastbrowse?style=flat-square&label=%E2%98%85) -
+          Browser agents: Jev picks each action from what is on the page while an LLM reads and plans.
+        confidence: high
+metadata:
+  github:
+    stars: 110
+    forks: 12
+    license: MIT
+    archived: false
+    full_name: agent-labs-dev/fastbrowse
+    html_url: https://github.com/agent-labs-dev/fastbrowse
+    created_at: '2026-09-17T15:11:57Z'
+    pushed_at: '2026-09-29T12:58:24Z'
+    description: >-
+      A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in
+      an answer cites a quote from the page.
+    homepage: null
+    topics:
+      - agents
+      - browser-agent
+      - llm
+      - python
+      - web-automation
+    last_checked_at: '2026-09-29T13:08:32.144Z'
+    readme:
+      fetched_at: '2026-09-29T13:08:32.144Z'
+      bytes: 21848
+insights:
+  summary: >-
+    A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an
+    answer cites a quote from the page.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Browser & Computer Use
+  evidence:
+    - jev-latest choice confidence 0.47
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Browser & Computer Use
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.408Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:08:32.145Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

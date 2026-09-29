@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bobaba99__motionlint__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: bobaba99/motionlint
         extracted_url: https://github.com/bobaba99/motionlint
-        surrounding_text: "- [bobaba99/motionlint](https://github.com/bobaba99/motionlint) [![bobaba99/motionlint MCP server](https://glama.ai/mcp/servers/bobaba99/motionlint/badges/score.svg)](https://glama.ai/mcp/servers/bobaba99/motionlint) 📇 🏠 🍎 🪟 🐧 - Catch bad animations before they ship. 13 deterministic checks on the live page (duration, easing, stagger, exits, reduced-motion, touch-gated hover) with no API key or LLM, plus optional vision-LLM UX review across viewports. Install via NPM: `npx -y motionlint mcp`"
+        surrounding_text: >-
+          - [bobaba99/motionlint](https://github.com/bobaba99/motionlint) [![bobaba99/motionlint MCP
+          server](https://glama.ai/mcp/servers/bobaba99/motionlint/badges/score.svg)](https://glama.ai/mcp/servers/bobaba99/motionlint)
+          📇 🏠 🍎 🪟 🐧 - Catch bad animations before they ship. 13 deterministic checks on the live page (duration,
+          easing, stagger, exits, reduced-motion, touch-gated hover) with no API key or LLM, plus optional vision-LLM UX
+          review across viewports. Install via NPM: `npx -y motionlint mcp`
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: bobaba99/motionlint
     html_url: https://github.com/bobaba99/motionlint
-    created_at: "2026-04-28T06:48:27Z"
-    pushed_at: "2026-07-27T16:09:03Z"
-    description: Catch bad animations before they ship. Deterministic motion audit + vision-LLM design review for your terminal and Claude Code.
+    created_at: '2026-04-28T06:48:27Z'
+    pushed_at: '2026-07-27T16:09:03Z'
+    description: >-
+      Catch bad animations before they ship. Deterministic motion audit + vision-LLM design review for your terminal and
+      Claude Code.
     homepage: https://www.resila.ai/motionlint
     topics:
       - accessibility
@@ -49,13 +56,17 @@ metadata:
       - typescript
       - ui
       - web-animation
-    last_checked_at: "2026-09-24T04:13:01.850Z"
+    last_checked_at: '2026-09-24T04:13:01.850Z'
     readme:
-      fetched_at: "2026-09-24T04:13:01.850Z"
+      fetched_at: '2026-09-24T04:13:01.850Z'
       bytes: 40250
 insights:
-  summary: MotionLint is a CLI tool that performs deterministic motion audits and vision-LLM design reviews of web animations via Playwright and MCP integration.
-  why_it_matters: It closes the gap between AI coding agents and visual output by measuring actual animation behavior and feeding ranked findings back into the developer workflow.
+  summary: >-
+    MotionLint is a CLI tool that performs deterministic motion audits and vision-LLM design reviews of web animations
+    via Playwright and MCP integration.
+  why_it_matters: >-
+    It closes the gap between AI coding agents and visual output by measuring actual animation behavior and feeding
+    ranked findings back into the developer workflow.
   mental_damage: Finally, a way to make your AI pair programmer feel guilty about that 600ms modal it swore was 'subtle'.
   tags:
     - animation
@@ -66,7 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MotionLint primarily functions as an MCP server and CLI tool that extends Claude Code and Cursor with animation audit and vision-LLM review capabilities, making it an add-on rather than a standalone coding agent.
+  reason: >-
+    MotionLint primarily functions as an MCP server and CLI tool that extends Claude Code and Cursor with animation
+    audit and vision-LLM review capabilities, making it an add-on rather than a standalone coding agent.
   evidence:
     - Runs as an MCP server inside Claude Code and Cursor per README
     - Provides deterministic motion audit and vision-LLM design review as additive features to coding agents
@@ -75,22 +88,22 @@ placement:
   primary_category: extensions-and-addons
   section: Claude Code & Agent Tools
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.994Z"
+    updated_at: '2026-07-30T05:05:26.994Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:01.850Z"
+    updated_at: '2026-09-24T04:13:01.850Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:57:33.174Z"
+    updated_at: '2026-09-28T04:57:33.174Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -101,7 +114,9 @@ processing:
       input_hash: sha256:a28be29e7ec80a217dadcd2b5f76702056518f855026419cb9124ab6a679e9cb
       proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: MotionLint primarily functions as an MCP server and CLI tool that extends Claude Code and Cursor with animation audit and vision-LLM review capabilities, making it an add-on rather than a standalone coding agent.
+      decision_reason: >-
+        MotionLint primarily functions as an MCP server and CLI tool that extends Claude Code and Cursor with animation
+        audit and vision-LLM review capabilities, making it an add-on rather than a standalone coding agent.
       decision_evidence:
         - Runs as an MCP server inside Claude Code and Cursor per README
         - Provides deterministic motion audit and vision-LLM design review as additive features to coding agents
@@ -109,7 +124,10 @@ processing:
       category_candidates:
         - extensions-and-addons
         - coding-agents
-      contrastive_reason: Choose extensions-and-addons over coding-agents because MotionLint mainly augments Claude Code and Cursor with animation review and audit capabilities rather than acting as a primary coding assistant that writes or edits code.
+      contrastive_reason: >-
+        Choose extensions-and-addons over coding-agents because MotionLint mainly augments Claude Code and Cursor with
+        animation review and audit capabilities rather than acting as a primary coding assistant that writes or edits
+        code.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

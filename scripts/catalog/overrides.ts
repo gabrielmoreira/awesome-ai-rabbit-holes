@@ -255,8 +255,6 @@ const PATCH_VALUE_RULES = {
       status: {
         kind: "string",
         values: [
-          "incubating",
-          "promotion_candidate",
           "curated",
           "landmark",
           "watchlist",

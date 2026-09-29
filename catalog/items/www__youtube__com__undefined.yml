@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__youtube__com__undefined__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -18,7 +18,7 @@ provenance:
           - Tutorials
         anchor_text: Setup Claude Desktop App to Use a SQLite Database
         extracted_url: https://youtu.be/wxCCzo9dGj0
-        surrounding_text: "* [Setup Claude Desktop App to Use a SQLite Database](https://youtu.be/wxCCzo9dGj0)"
+        surrounding_text: '* [Setup Claude Desktop App to Use a SQLite Database](https://youtu.be/wxCCzo9dGj0)'
         confidence: high
 metadata:
   github:
@@ -38,12 +38,16 @@ metadata:
 insights:
   summary: The input provides no identifiable product name, description, or valid URL.
   why_it_matters: No information was provided to determine utility for developers.
-  mental_damage: There is a profound existential dread in reviewing a tool that doesn't even have the decency to exist in its own metadata.
+  mental_damage: >-
+    There is a profound existential dread in reviewing a tool that doesn't even have the decency to exist in its own
+    metadata.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The entry appears to be a failed scrape of a YouTube link from a source list, containing no substantive product or resource information.
+  reason: >-
+    The entry appears to be a failed scrape of a YouTube link from a source list, containing no substantive product or
+    resource information.
   evidence:
     - Name is listed as 'undefined'
     - URL is 'https://www.youtube.com/undefined'
@@ -52,12 +56,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
+    updated_at: '2026-05-12T15:06:19.301Z'
     cause: null
     next_retry_at: null
   stars:
@@ -66,7 +70,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:17:57.467Z"
+    updated_at: '2026-09-21T04:17:57.467Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -79,7 +83,9 @@ processing:
       input_hash: sha256:e0cac4636f042b13bce84b82df6887ab8c0409772741f8e85a9ea3f4397fa650
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The entry appears to be a failed scrape of a YouTube link from a source list, containing no substantive product or resource information.
+      decision_reason: >-
+        The entry appears to be a failed scrape of a YouTube link from a source list, containing no substantive product
+        or resource information.
       decision_evidence:
         - Name is listed as 'undefined'
         - URL is 'https://www.youtube.com/undefined'

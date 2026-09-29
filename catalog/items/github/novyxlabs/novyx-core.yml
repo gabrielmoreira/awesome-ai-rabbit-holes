@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__novyxlabs__novyx-core__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: novyxlabs/novyx-mcp
         extracted_url: https://github.com/novyxlabs/novyx-core
-        surrounding_text: "- [novyxlabs/novyx-mcp](https://github.com/novyxlabs/novyx-core/tree/main/packages/novyx-mcp) [![novyx-mcp-desktop MCP server](https://glama.ai/mcp/servers/@novyxlabs/novyx-mcp-desktop/badges/score.svg)](https://glama.ai/mcp/servers/@novyxlabs/novyx-mcp-desktop) 🐍 🏠 ☁️ 🍎 🪟 🐧 - Persistent AI agent memory with rollback, audit trails, semantic search, and knowledge graph. Zero-config local SQLite mode or cloud API. 23 tools, 6 resources, 3 prompts."
+        surrounding_text: >-
+          - [novyxlabs/novyx-mcp](https://github.com/novyxlabs/novyx-core/tree/main/packages/novyx-mcp)
+          [![novyx-mcp-desktop MCP
+          server](https://glama.ai/mcp/servers/@novyxlabs/novyx-mcp-desktop/badges/score.svg)](https://glama.ai/mcp/servers/@novyxlabs/novyx-mcp-desktop)
+          🐍 🏠 ☁️ 🍎 🪟 🐧 - Persistent AI agent memory with rollback, audit trails, semantic search, and knowledge
+          graph. Zero-config local SQLite mode or cloud API. 23 tools, 6 resources, 3 prompts.
         confidence: high
 metadata:
   github:
@@ -51,24 +56,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.633Z"
+    updated_at: '2026-05-06T22:12:15.633Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-07-23T05:09:44.998Z"
+    updated_at: '2026-07-23T05:09:44.998Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for novyxlabs/novyx-core
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

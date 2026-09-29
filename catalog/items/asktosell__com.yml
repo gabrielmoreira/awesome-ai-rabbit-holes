@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__asktosell__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - AskToSell
         anchor_text: AskToSell
         extracted_url: https://asktosell.com
-        surrounding_text: "## [AskToSell](https://asktosell.com/)"
+        surrounding_text: '## [AskToSell](https://asktosell.com/)'
         confidence: high
 metadata:
   github:
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: AskToSell is a curated directory of AI autonomous agents for software development.
-  why_it_matters: It helps developers discover and evaluate autonomous agents that can plan and execute coding tasks, reducing the time spent searching for reliable AI coding assistants.
+  why_it_matters: >-
+    It helps developers discover and evaluate autonomous agents that can plan and execute coding tasks, reducing the
+    time spent searching for reliable AI coding assistants.
   mental_damage: Another directory of AI agents that promises to solve the problem of too many AI agents.
   tags:
     - ai-agents
@@ -46,7 +48,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: AskToSell is included because it is a curated directory of AI autonomous agents, which falls under the 'awesome-awesomes' category and aligns with the coding-agents product identity.
+  reason: >-
+    AskToSell is included because it is a curated directory of AI autonomous agents, which falls under the
+    'awesome-awesomes' category and aligns with the coding-agents product identity.
   evidence:
     - Appears in 'awesome-ai-agents' source list with purpose 'A list of AI autonomous agents'
     - README excerpt describes it as 'a curated directory of AI autonomous agents'
@@ -55,12 +59,12 @@ placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:34:23.553Z"
+    updated_at: '2026-09-24T04:34:23.553Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,7 +86,9 @@ processing:
       input_hash: sha256:66499eb51b3624964c339f95402b65413ea7bccf190c8e1aaa6eca6b55c5d854
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: AskToSell is included because it is a curated directory of AI autonomous agents, which falls under the 'awesome-awesomes' category and aligns with the coding-agents product identity.
+      decision_reason: >-
+        AskToSell is included because it is a curated directory of AI autonomous agents, which falls under the
+        'awesome-awesomes' category and aligns with the coding-agents product identity.
       decision_evidence:
         - Appears in 'awesome-ai-agents' source list with purpose 'A list of AI autonomous agents'
         - README excerpt describes it as 'a curated directory of AI autonomous agents'
@@ -90,6 +96,8 @@ processing:
       category_candidates:
         - coding-agents
         - awesome-awesomes
-      contrastive_reason: Choose coding-agents over awesome-awesomes because AskToSell is a product listing of AI agents rather than a general resource directory.
+      contrastive_reason: >-
+        Choose coding-agents over awesome-awesomes because AskToSell is a product listing of AI agents rather than a
+        general resource directory.
       review_reason: null
       review_resume_lifecycle: null

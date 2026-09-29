@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__scotia1973-bot__api-hub__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-25T05:24:49.456Z"
+      discovered_at: '2026-06-25T05:24:49.456Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: scotia1973-bot/api-hub
         extracted_url: https://github.com/scotia1973-bot/api-hub
-        surrounding_text: "- [scotia1973-bot/api-hub](https://github.com/scotia1973-bot/api-hub) [![scotia1973-bot/api-hub MCP server](https://glama.ai/mcp/servers/scotia1973-bot/api-hub/badges/score.svg)](https://glama.ai/mcp/servers/scotia1973-bot/api-hub) 🐍 ☁️ 📇 🍎 🪟 🐧 - Memory Vault: 49 MCP tools with persistent agent memory (store/recall/search), plus 45 utility tools (QR codes, crypto prices, weather, DNS, geolocation, passwords, UUIDs, text, finance, code). Free tier + $2.99/mo Pro. Install: `pip install gadgethumans-api-hub-mcp` or `uvx gadgethumans-api-hub-mcp`. Hosted at `api.gadgethumans.com/mcp`."
+        surrounding_text: >-
+          - [scotia1973-bot/api-hub](https://github.com/scotia1973-bot/api-hub) [![scotia1973-bot/api-hub MCP
+          server](https://glama.ai/mcp/servers/scotia1973-bot/api-hub/badges/score.svg)](https://glama.ai/mcp/servers/scotia1973-bot/api-hub)
+          🐍 ☁️ 📇 🍎 🪟 🐧 - Memory Vault: 49 MCP tools with persistent agent memory (store/recall/search), plus 45
+          utility tools (QR codes, crypto prices, weather, DNS, geolocation, passwords, UUIDs, text, finance, code).
+          Free tier + $2.99/mo Pro. Install: `pip install gadgethumans-api-hub-mcp` or `uvx gadgethumans-api-hub-mcp`.
+          Hosted at `api.gadgethumans.com/mcp`.
         confidence: high
 metadata:
   github:
@@ -51,24 +57,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-25T05:24:49.458Z"
+    updated_at: '2026-06-25T05:24:49.458Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-07-23T05:09:46.597Z"
+    updated_at: '2026-07-23T05:09:46.597Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for scotia1973-bot/api-hub
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.168Z"
+    updated_at: '2026-09-28T04:14:00.168Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

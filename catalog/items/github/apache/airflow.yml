@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apache__airflow__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Apache Airflow
         extracted_url: https://airflow.apache.org
-        surrounding_text: "- [yangkyeongmo@/mcp-server-apache-airflow](https://github.com/yangkyeongmo/mcp-server-apache-airflow) 🐍 🏠 - MCP server that connects to [Apache Airflow](https://airflow.apache.org/) using official client."
+        surrounding_text: >-
+          - [yangkyeongmo@/mcp-server-apache-airflow](https://github.com/yangkyeongmo/mcp-server-apache-airflow) 🐍 🏠 -
+          MCP server that connects to [Apache Airflow](https://airflow.apache.org/) using official client.
         confidence: high
     - id: discovery__github__apache__airflow__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -36,7 +38,10 @@ provenance:
           - Workflow
         anchor_text: Airflow
         extracted_url: https://airflow.apache.org
-        surrounding_text: "| [Airflow](https://airflow.apache.org/)                       | A platform to programmatically author, schedule and monitor workflows.                                            | ![GitHub Badge](https://img.shields.io/github/stars/apache/airflow?style=flat-square)              |"
+        surrounding_text: >-
+          | [Airflow](https://airflow.apache.org/)                       | A platform to programmatically author,
+          schedule and monitor workflows.                                            | ![GitHub
+          Badge](https://img.shields.io/github/stars/apache/airflow?style=flat-square)              |
         confidence: high
 metadata:
   github:
@@ -46,8 +51,8 @@ metadata:
     archived: false
     full_name: apache/airflow
     html_url: https://github.com/apache/airflow
-    created_at: "2015-04-13T18:04:58Z"
-    pushed_at: "2026-09-21T01:47:03Z"
+    created_at: '2015-04-13T18:04:58Z'
+    pushed_at: '2026-09-21T01:47:03Z'
     description: Apache Airflow - A platform to programmatically author, schedule, and monitor workflows
     homepage: https://airflow.apache.org/
     topics:
@@ -71,9 +76,9 @@ metadata:
       - workflow
       - workflow-engine
       - workflow-orchestration
-    last_checked_at: "2026-09-21T04:13:43.303Z"
+    last_checked_at: '2026-09-21T04:13:43.303Z'
     readme:
-      fetched_at: "2026-09-21T04:13:43.303Z"
+      fetched_at: '2026-09-21T04:13:43.303Z'
       bytes: 41263
 insights:
   summary: Apache Airflow is a platform to programmatically author, schedule, and monitor workflows.
@@ -88,7 +93,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Airflow is a general-purpose workflow orchestration platform for data pipelines, not a developer-facing AI tool, agent, or workflow specific to AI/ML development.
+  reason: >-
+    Airflow is a general-purpose workflow orchestration platform for data pipelines, not a developer-facing AI tool,
+    agent, or workflow specific to AI/ML development.
   evidence:
     - Repo description explicitly states it is a platform for authoring, scheduling, and monitoring workflows
     - Topics include data-engineering, ETL, and MLops but not AI developer tooling or coding assistance
@@ -97,22 +104,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (45304) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.582Z"
+    updated_at: '2026-05-06T22:12:15.582Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:43.303Z"
+    updated_at: '2026-09-21T04:13:43.303Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.164Z"
+    updated_at: '2026-09-28T04:14:00.164Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -127,7 +134,9 @@ processing:
       input_hash: sha256:0728b4354eb42e5fc6b4215d33d15e479962e19410edc8a75390d48854fc9488
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Airflow is a general-purpose workflow orchestration platform for data pipelines, not a developer-facing AI tool, agent, or workflow specific to AI/ML development.
+      decision_reason: >-
+        Airflow is a general-purpose workflow orchestration platform for data pipelines, not a developer-facing AI tool,
+        agent, or workflow specific to AI/ML development.
       decision_evidence:
         - Repo description explicitly states it is a platform for authoring, scheduling, and monitoring workflows
         - Topics include data-engineering, ETL, and MLops but not AI developer tooling or coding assistance

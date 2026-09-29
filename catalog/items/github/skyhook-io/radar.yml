@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__skyhook-io__radar__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: skyhook-io/radar
         extracted_url: https://github.com/skyhook-io/radar
-        surrounding_text: "- [skyhook-io/radar](https://github.com/skyhook-io/radar) [![radar MCP server](https://glama.ai/mcp/servers/skyhook-io/radar/badges/score.svg)](https://glama.ai/mcp/servers/skyhook-io/radar) 🎖️ 🏎️ 🏠 🍎 🪟 🐧 - Built-in MCP server for [Radar](https://radarhq.io), a modern Kubernetes visibility tool. Lets AI agents query cluster topology, resources, events, logs, and Helm/GitOps state across multiple clusters. Single binary, no agents, no cloud dependency. Apache 2.0."
+        surrounding_text: >-
+          - [skyhook-io/radar](https://github.com/skyhook-io/radar) [![radar MCP
+          server](https://glama.ai/mcp/servers/skyhook-io/radar/badges/score.svg)](https://glama.ai/mcp/servers/skyhook-io/radar)
+          🎖️ 🏎️ 🏠 🍎 🪟 🐧 - Built-in MCP server for [Radar](https://radarhq.io), a modern Kubernetes visibility
+          tool. Lets AI agents query cluster topology, resources, events, logs, and Helm/GitOps state across multiple
+          clusters. Single binary, no agents, no cloud dependency. Apache 2.0.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: skyhook-io/radar
     html_url: https://github.com/skyhook-io/radar
-    created_at: "2026-01-20T00:09:40Z"
-    pushed_at: "2026-07-20T13:47:30Z"
-    description: The missing open source Kubernetes UI. Topology, event timeline, and service traffic — plus resource browsing and Helm management.
+    created_at: '2026-01-20T00:09:40Z'
+    pushed_at: '2026-07-20T13:47:30Z'
+    description: >-
+      The missing open source Kubernetes UI. Topology, event timeline, and service traffic — plus resource browsing and
+      Helm management.
     homepage: https://radarhq.io
     topics:
       - argocd
@@ -47,9 +54,9 @@ metadata:
       - kubernetes-tools
       - kubernetes-ui
       - mcp-server
-    last_checked_at: "2026-07-20T16:42:58.786Z"
+    last_checked_at: '2026-07-20T16:42:58.786Z'
     readme:
-      fetched_at: "2026-07-20T16:42:58.786Z"
+      fetched_at: '2026-07-20T16:42:58.786Z'
       bytes: 30448
 insights:
   summary: null
@@ -65,22 +72,22 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: promotion_candidate
+  status: curated
   reason: Stars (2628) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:58.786Z"
+    updated_at: '2026-07-20T16:42:58.786Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.168Z"
+    updated_at: '2026-09-28T04:14:00.168Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

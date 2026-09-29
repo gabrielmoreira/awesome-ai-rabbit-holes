@@ -1,0 +1,80 @@
+id: github__cbruyndoncx__askjev-mcp
+kind: github-repo
+name: cbruyndoncx/askjev-mcp
+canonical_url: https://github.com/cbruyndoncx/askjev-mcp
+identity:
+  github_repo: cbruyndoncx/askjev-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__cbruyndoncx__askjev-mcp__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: AskJev-MCP
+        extracted_url: https://github.com/cbruyndoncx/askjev-mcp
+        surrounding_text: >-
+          | [AskJev-MCP](https://github.com/cbruyndoncx/AskJev-MCP) | ★ 0 | JavaScript | 2026-09-20 | MCP server for
+          typed Jev Choice, Noul, and Score judgments with probabilities and confidence. |
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: null
+    archived: false
+    full_name: cbruyndoncx/AskJev-MCP
+    html_url: https://github.com/cbruyndoncx/AskJev-MCP
+    created_at: '2026-09-18T10:01:32Z'
+    pushed_at: '2026-09-22T10:52:55Z'
+    description: >-
+      MCP server for TypeSafe's System One API (Jev): typed choice/noul/score judgments with calibrated probabilities
+      and confidence
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:09:43.885Z'
+    readme:
+      fetched_at: '2026-09-29T13:09:43.885Z'
+      bytes: 10288
+insights:
+  summary: >-
+    MCP server for TypeSafe's System One API (Jev): typed choice/noul/score judgments with calibrated probabilities and
+    confidence
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
+  evidence:
+    - jev-latest choice confidence 0.40
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Local Serving & Gateways
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.451Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:09:43.885Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

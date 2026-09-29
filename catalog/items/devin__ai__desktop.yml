@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__devin__ai__desktop__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-06-04T05:40:27.160Z"
+      discovered_at: '2026-06-04T05:40:27.160Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Windsurf
         extracted_url: https://windsurf.com
-        surrounding_text: "- **[Windsurf](https://windsurf.com/)** – AI code editor with Cascade, a deep contextual coding agent that goes beyond autocompletion."
+        surrounding_text: >-
+          - **[Windsurf](https://windsurf.com/)** – AI code editor with Cascade, a deep contextual coding agent that
+          goes beyond autocompletion.
         confidence: high
     - id: discovery__devin__ai__desktop__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-06-04T05:40:27.160Z"
+      discovered_at: '2026-06-04T05:40:27.160Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -51,8 +53,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Devin Desktop is a desktop application that provides an IDE and agent command center for managing local and cloud coding agents from one surface.
-  why_it_matters: It lets developers oversee, delegate to, and review the work of multiple AI coding agents without leaving their editor, streamlining agent supervision.
+  summary: >-
+    Devin Desktop is a desktop application that provides an IDE and agent command center for managing local and cloud
+    coding agents from one surface.
+  why_it_matters: >-
+    It lets developers oversee, delegate to, and review the work of multiple AI coding agents without leaving their
+    editor, streamlining agent supervision.
   mental_damage: Finally, a way to feel guilty about not micromanaging your AI interns in real time.
   tags:
     - ai-agents
@@ -61,22 +67,28 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Devin Desktop's core identity is managing fleets of local and cloud agents via a command center (Spaces, Kanban view) rather than acting as a primary coding agent itself, fitting agent orchestration.
+  reason: >-
+    Devin Desktop's core identity is managing fleets of local and cloud agents via a command center (Spaces, Kanban
+    view) rather than acting as a primary coding agent itself, fitting agent orchestration.
   evidence:
-    - Manage fleets of local and cloud agents from one surface. Plan, delegate, review, and ship without leaving your editor.
-    - Devin Desktop is the home for coding agents to do your best work. You decide what to build, then your agents write the code, chase the edge cases, and test every detail.
+    - >-
+      Manage fleets of local and cloud agents from one surface. Plan, delegate, review, and ship without leaving your
+      editor.
+    - >-
+      Devin Desktop is the home for coding agents to do your best work. You decide what to build, then your agents write
+      the code, chase the edge cases, and test every detail.
     - The Agent Command Center (Spaces, Kanban view, and multi-agent management) is front and center.
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
   section: Hosted Agent Platforms
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-04T05:40:27.161Z"
+    updated_at: '2026-06-04T05:40:27.161Z'
     cause: null
     next_retry_at: null
   stars:
@@ -85,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:33:41.346Z"
+    updated_at: '2026-09-21T04:33:41.346Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -98,14 +110,22 @@ processing:
       input_hash: sha256:be27be02d256835f3a43d800e653c3601c60d79ff6ca6a291153f46558ca77f7
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Devin Desktop's core identity is managing fleets of local and cloud agents via a command center (Spaces, Kanban view) rather than acting as a primary coding agent itself, fitting agent orchestration.
+      decision_reason: >-
+        Devin Desktop's core identity is managing fleets of local and cloud agents via a command center (Spaces, Kanban
+        view) rather than acting as a primary coding agent itself, fitting agent orchestration.
       decision_evidence:
-        - Manage fleets of local and cloud agents from one surface. Plan, delegate, review, and ship without leaving your editor.
-        - Devin Desktop is the home for coding agents to do your best work. You decide what to build, then your agents write the code, chase the edge cases, and test every detail.
+        - >-
+          Manage fleets of local and cloud agents from one surface. Plan, delegate, review, and ship without leaving
+          your editor.
+        - >-
+          Devin Desktop is the home for coding agents to do your best work. You decide what to build, then your agents
+          write the code, chase the edge cases, and test every detail.
         - The Agent Command Center (Spaces, Kanban view, and multi-agent management) is front and center.
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because Devin Desktop primarily coordinates multiple agents via a control plane rather than performing coding tasks autonomously as a single agent.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because Devin Desktop primarily coordinates multiple agents via a
+        control plane rather than performing coding tasks autonomously as a single agent.
       review_reason: null
       review_resume_lifecycle: null

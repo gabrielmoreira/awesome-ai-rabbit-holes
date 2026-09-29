@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__baozi__bet__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Baozi.bet
         extracted_url: https://baozi.bet
-        surrounding_text: "- [bolivian-peru/baozi-mcp](https://github.com/bolivian-peru/baozi-mcp) 📇 ☁️ - 68 tools for AI agents to interact with Solana prediction markets on [Baozi.bet](https://baozi.bet) — browse markets, place bets, claim winnings, create markets, and earn affiliate commissions."
+        surrounding_text: >-
+          - [bolivian-peru/baozi-mcp](https://github.com/bolivian-peru/baozi-mcp) 📇 ☁️ - 68 tools for AI agents to
+          interact with Solana prediction markets on [Baozi.bet](https://baozi.bet) — browse markets, place bets, claim
+          winnings, create markets, and earn affiliate commissions.
         confidence: high
 metadata:
   github:
@@ -38,7 +41,9 @@ metadata:
     readme: null
 insights:
   summary: A prediction market platform on Solana for trading outcomes on crypto, sports, politics, and culture.
-  why_it_matters: It is currently listed in an MCP server directory, though it functions as a consumer fintech application rather than a developer tool.
+  why_it_matters: >-
+    It is currently listed in an MCP server directory, though it functions as a consumer fintech application rather than
+    a developer tool.
   mental_damage: Another way to lose SOL while trying to architect the perfect agentic workflow.
   tags:
     - prediction-markets
@@ -48,7 +53,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The product is a consumer-facing betting/fintech application, not a developer tool, framework, or infrastructure component.
+  reason: >-
+    The product is a consumer-facing betting/fintech application, not a developer tool, framework, or infrastructure
+    component.
   evidence:
     - Scraped site context describes it as a prediction market for sports, politics, and culture
     - Identified as a 'Finance & Fintech' implementation within an awesome-mcp-servers list
@@ -56,12 +63,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,10 +77,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:34:43.896Z"
+    updated_at: '2026-09-24T04:34:43.896Z'
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for baozi__bet: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      message: >-
+        Catalog LLM categorization failed for baozi__bet: Upstream error from Nvidia: ResourceExhausted: Worker local
+        total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -85,7 +94,9 @@ processing:
       input_hash: sha256:8dc3a4b0695332329f4c68d185ab921fc2c5af3bcd6fca590db7903067baaf4a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a consumer-facing betting/fintech application, not a developer tool, framework, or infrastructure component.
+      decision_reason: >-
+        The product is a consumer-facing betting/fintech application, not a developer tool, framework, or infrastructure
+        component.
       decision_evidence:
         - Scraped site context describes it as a prediction market for sports, politics, and culture
         - Identified as a 'Finance & Fintech' implementation within an awesome-mcp-servers list

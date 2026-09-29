@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__yourusername__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -18,7 +18,9 @@ provenance:
           - License
         anchor_text: Your Name
         extracted_url: https://github.com/yourusername
-        surrounding_text: To the extent possible under law, [Your Name](https://github.com/yourusername) has waived all copyright and related rights to this work.
+        surrounding_text: >-
+          To the extent possible under law, [Your Name](https://github.com/yourusername) has waived all copyright and
+          related rights to this work.
         confidence: high
 metadata:
   github:
@@ -43,7 +45,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The profile contains no public repositories, tooling, or product identity; it is a personal account with no developer-facing AI tool to evaluate.
+  reason: >-
+    The profile contains no public repositories, tooling, or product identity; it is a personal account with no
+    developer-facing AI tool to evaluate.
   evidence:
     - Repo description is missing.
     - No public repositories are present on the profile.
@@ -52,15 +56,17 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -68,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:55:21.263Z"
+    updated_at: '2026-09-28T04:55:21.263Z'
     cause: null
     attempts: 7
     prompt_version: catalog-categorize-v5-single-template
@@ -81,7 +87,9 @@ processing:
       input_hash: sha256:5585bfcd3c53077f7d39f182ab0bcf477171ff15e0943ab3bb814131565df99c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The profile contains no public repositories, tooling, or product identity; it is a personal account with no developer-facing AI tool to evaluate.
+      decision_reason: >-
+        The profile contains no public repositories, tooling, or product identity; it is a personal account with no
+        developer-facing AI tool to evaluate.
       decision_evidence:
         - Repo description is missing.
         - No public repositories are present on the profile.

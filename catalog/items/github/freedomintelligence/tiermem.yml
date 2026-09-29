@@ -1,0 +1,76 @@
+id: github__freedomintelligence__tiermem
+kind: github-repo
+name: freedomintelligence/tiermem
+canonical_url: https://github.com/freedomintelligence/tiermem
+identity:
+  github_repo: freedomintelligence/tiermem
+provenance:
+  discoveries:
+    - id: discovery__github__freedomintelligence__tiermem__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (228)
+        anchor_text: Tiermem
+        extracted_url: https://github.com/freedomintelligence/tiermem
+        surrounding_text: >-
+          | [Tiermem](https://github.com/FreedomIntelligence/Tiermem) | ★ 13 | Python | 2026-09-23 | The Jev integration
+          routes agent memory queries between compact Markdown notes and searchable raw history. |
+        confidence: high
+metadata:
+  github:
+    stars: 15
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: FreedomIntelligence/Tiermem
+    html_url: https://github.com/FreedomIntelligence/Tiermem
+    created_at: '2025-12-05T07:06:28Z'
+    pushed_at: '2026-09-24T16:03:33Z'
+    description: '[COLM'' 2026] TierMem: Balancing Compressed Memory and Raw Evidence for Long-Horizon Agent Memory'
+    homepage: ''
+    topics: []
+    last_checked_at: '2026-09-29T13:11:25.451Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:25.451Z'
+      bytes: 15932
+insights:
+  summary: '[COLM'' 2026] TierMem: Balancing Compressed Memory and Raw Evidence for Long-Horizon Agent Memory'
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
+  evidence:
+    - jev-latest choice confidence 0.54
+placement:
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Compression & Token Optimization
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.457Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:25.451Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__langchain__ai__github__io__langgraph__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -19,7 +19,7 @@ provenance:
           - Documentation
         anchor_text: LangGraph Documentation
         extracted_url: https://langchain-ai.github.io/langgraph
-        surrounding_text: "- [LangGraph Documentation](https://langchain-ai.github.io/langgraph/) - LangGraph docs"
+        surrounding_text: '- [LangGraph Documentation](https://langchain-ai.github.io/langgraph/) - LangGraph docs'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LangGraph is a workflow engine framework for building stateful, multi-agent AI applications using graph-based orchestration.
-  why_it_matters: It lets developers structure complex agent interactions with controllable state and branching logic, moving beyond simple linear chains.
+  summary: >-
+    LangGraph is a workflow engine framework for building stateful, multi-agent AI applications using graph-based
+    orchestration.
+  why_it_matters: >-
+    It lets developers structure complex agent interactions with controllable state and branching logic, moving beyond
+    simple linear chains.
   mental_damage: Another YAML-adjacent graph DSL to learn while your agents still hallucinate in the same three places.
   tags:
     - workflow
@@ -48,7 +52,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: LangGraph is a code-first framework developers import to build agent systems, not a standalone agent or orchestration platform, making Frameworks & SDKs the best fit.
+  reason: >-
+    LangGraph is a code-first framework developers import to build agent systems, not a standalone agent or
+    orchestration platform, making Frameworks & SDKs the best fit.
   evidence:
     - Seen in awesome-agent-orchestration as a curated AI Agent framework alongside AutoGen, CrewAI, and MetaGPT
     - Described as a workflow engine for stateful, multi-agent applications via graph-based orchestration
@@ -58,12 +64,12 @@ placement:
   secondary_categories: []
   section: Workflow & Graph Engines
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.967Z"
+    updated_at: '2026-07-21T15:20:21.967Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:54:01.419Z"
+    updated_at: '2026-09-28T04:54:01.419Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -83,7 +89,9 @@ processing:
       input_hash: sha256:af176265ecc667197d7d42aaf65cfb09f49b4b00b670bde7c189324c75b70e16
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: LangGraph is a code-first framework developers import to build agent systems, not a standalone agent or orchestration platform, making Frameworks & SDKs the best fit.
+      decision_reason: >-
+        LangGraph is a code-first framework developers import to build agent systems, not a standalone agent or
+        orchestration platform, making Frameworks & SDKs the best fit.
       decision_evidence:
         - Seen in awesome-agent-orchestration as a curated AI Agent framework alongside AutoGen, CrewAI, and MetaGPT
         - Described as a workflow engine for stateful, multi-agent applications via graph-based orchestration
@@ -91,7 +99,9 @@ processing:
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because LangGraph is primarily imported as a library to build agent systems in code, not operated as a hosted platform or visual workflow builder.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because LangGraph is primarily imported as a library to build
+        agent systems in code, not operated as a hosted platform or visual workflow builder.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

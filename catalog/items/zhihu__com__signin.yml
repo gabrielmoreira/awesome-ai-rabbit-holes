@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__zhihu__com__signin__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 教程 Tutorial
-        anchor_text: "知乎: 原石人类"
+        anchor_text: '知乎: 原石人类'
         extracted_url: https://zhihu.com/people/zhang-shi-tou-88-98/posts
-        surrounding_text: "13. [知乎: 原石人类](https://www.zhihu.com/people/zhang-shi-tou-88-98/posts)"
+        surrounding_text: '13. [知乎: 原石人类](https://www.zhihu.com/people/zhang-shi-tou-88-98/posts)'
         confidence: high
 metadata:
   github:
@@ -46,21 +46,29 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Zhihu is a general-purpose knowledge-sharing platform without a primary identity as a developer-facing AI tool, agent, or infrastructure.
+  reason: >-
+    Zhihu is a general-purpose knowledge-sharing platform without a primary identity as a developer-facing AI tool,
+    agent, or infrastructure.
   evidence:
-    - Repo description is empty; the platform is described as a 'knowledge-sharing community and creator platform' with no mention of AI-assisted development.
-    - Scraped site context frames Zhihu as a broad Q&A and content platform for topics like tech, business, and culture, not as a tool for coding, agents, or workflows.
-    - Appears in awesome-LLM-resources only as a tutorial resource, not as a tool or product with developer-facing AI functionality.
+    - >-
+      Repo description is empty; the platform is described as a 'knowledge-sharing community and creator platform' with
+      no mention of AI-assisted development.
+    - >-
+      Scraped site context frames Zhihu as a broad Q&A and content platform for topics like tech, business, and culture,
+      not as a tool for coding, agents, or workflows.
+    - >-
+      Appears in awesome-LLM-resources only as a tutorial resource, not as a tool or product with developer-facing AI
+      functionality.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.972Z"
+    updated_at: '2026-07-21T15:20:21.972Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:54:11.224Z"
+    updated_at: '2026-09-28T04:54:11.224Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -80,11 +88,19 @@ processing:
       input_hash: sha256:a34f8fde41bb240554ede253c2943de44f1027191f6951ab15aaa7a882848a84
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Zhihu is a general-purpose knowledge-sharing platform without a primary identity as a developer-facing AI tool, agent, or infrastructure.
+      decision_reason: >-
+        Zhihu is a general-purpose knowledge-sharing platform without a primary identity as a developer-facing AI tool,
+        agent, or infrastructure.
       decision_evidence:
-        - Repo description is empty; the platform is described as a 'knowledge-sharing community and creator platform' with no mention of AI-assisted development.
-        - Scraped site context frames Zhihu as a broad Q&A and content platform for topics like tech, business, and culture, not as a tool for coding, agents, or workflows.
-        - Appears in awesome-LLM-resources only as a tutorial resource, not as a tool or product with developer-facing AI functionality.
+        - >-
+          Repo description is empty; the platform is described as a 'knowledge-sharing community and creator platform'
+          with no mention of AI-assisted development.
+        - >-
+          Scraped site context frames Zhihu as a broad Q&A and content platform for topics like tech, business, and
+          culture, not as a tool for coding, agents, or workflows.
+        - >-
+          Appears in awesome-LLM-resources only as a tutorial resource, not as a tool or product with developer-facing
+          AI functionality.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

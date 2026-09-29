@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openai__symphony__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-27T09:23:03.260Z"
+      discovered_at: '2026-08-27T09:23:03.260Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,12 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: Symphony
         extracted_url: https://github.com/openai/symphony
-        surrounding_text: "- **[Symphony](https://github.com/openai/symphony)** `⭐ 26.9k` `[OpenAI]` — Turns tracker issues into isolated autonomous implementation runs: polls Linear, GitHub Issues, Jira, Asana, or GitLab, creates a workspace per issue, launches Codex in App Server mode, and keeps it working until the task lands with proof of work (CI status, PR review, walkthrough video). Ships as a spec plus an Elixir reference implementation with an escript CLI. Apache-2.0."
+        surrounding_text: >-
+          - **[Symphony](https://github.com/openai/symphony)** `⭐ 26.9k` `[OpenAI]` — Turns tracker issues into isolated
+          autonomous implementation runs: polls Linear, GitHub Issues, Jira, Asana, or GitLab, creates a workspace per
+          issue, launches Codex in App Server mode, and keeps it working until the task lands with proof of work (CI
+          status, PR review, walkthrough video). Ships as a spec plus an Elixir reference implementation with an escript
+          CLI. Apache-2.0.
         confidence: high
 metadata:
   github:
@@ -51,12 +56,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-27T09:23:03.262Z"
+    updated_at: '2026-08-27T09:23:03.262Z'
     cause: null
     next_retry_at: null
   stars:
@@ -65,7 +70,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

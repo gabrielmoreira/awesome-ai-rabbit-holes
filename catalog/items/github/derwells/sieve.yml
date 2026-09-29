@@ -1,0 +1,77 @@
+id: github__derwells__sieve
+kind: github-repo
+name: derwells/sieve
+canonical_url: https://github.com/derwells/sieve
+identity:
+  github_repo: derwells/sieve
+provenance:
+  discoveries:
+    - id: discovery__github__derwells__sieve__awesome-list__appitstudio__awesome-jev
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: sieve
+        extracted_url: https://github.com/derwells/sieve
+        surrounding_text: >-
+          - [sieve](https://github.com/derwells/sieve) - Local MCP server that enumerates candidates and scores them
+          with TypeSafe Jev (`jev_grep` / `jev_rank` / `jev_search`). [Project
+          guide](community/projects/tools/sieve.md).
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: derwells/sieve
+    html_url: https://github.com/derwells/sieve
+    created_at: '2026-09-22T06:29:08Z'
+    pushed_at: '2026-09-29T10:57:46Z'
+    description: 'Local MCP server giving coding agents Jev-backed filters: jev_grep, jev_rank, jev_search'
+    homepage: null
+    topics: []
+    last_checked_at: '2026-09-29T13:10:36.538Z'
+    readme:
+      fetched_at: '2026-09-29T13:10:36.538Z'
+      bytes: 33076
+insights:
+  summary: 'Local MCP server giving coding agents Jev-backed filters: jev_grep, jev_rank, jev_search'
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Search, Retrieval & Data
+  evidence:
+    - jev-latest choice confidence 0.78
+placement:
+  primary_category: decision-models
+  secondary_categories: []
+  section: Search, Retrieval & Data
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.454Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:10:36.538Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

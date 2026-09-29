@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__audiense__com__products__audiense__discover__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,13 @@ provenance:
           - Official Servers
         anchor_text: Audiense
         extracted_url: https://audiense.com/products/audiense-insights
-        surrounding_text: "- **[Audiense Insights](https://github.com/AudienseCo/mcp-audiense-insights)** - Marketing insights and audience analysis from [Audiense](https://www.audiense.com/products/audiense-insights) reports, covering demographic, cultural, influencer, and content engagement analysis."
+        surrounding_text: >-
+          - **[Audiense Insights](https://github.com/AudienseCo/mcp-audiense-insights)** - Marketing insights and
+          audience analysis from [Audiense](https://www.audiense.com/products/audiense-insights) reports, covering
+          demographic, cultural, influencer, and content engagement analysis.
         confidence: high
     - id: discovery__www__audiense__com__products__audiense__discover__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +36,10 @@ provenance:
           - Official Servers
         anchor_text: Audiense
         extracted_url: https://www.audiense.com/products/audiense-insights
-        surrounding_text: "- **[Audiense Insights](https://github.com/AudienseCo/mcp-audiense-insights)** - Marketing insights and audience analysis from [Audiense](https://www.audiense.com/products/audiense-insights) reports, covering demographic, cultural, influencer, and content engagement analysis."
+        surrounding_text: >-
+          - **[Audiense Insights](https://github.com/AudienseCo/mcp-audiense-insights)** - Marketing insights and
+          audience analysis from [Audiense](https://www.audiense.com/products/audiense-insights) reports, covering
+          demographic, cultural, influencer, and content engagement analysis.
         confidence: high
 metadata:
   github:
@@ -51,9 +57,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Audiense is an audience research and analytics platform used to uncover consumer behaviors and social media trends across multiple platforms.
-  why_it_matters: This is a marketing intelligence tool for brand strategists rather than a tool for the software development lifecycle or agentic coding workflows.
-  mental_damage: It is difficult to stay in the zone when your coding agent starts asking about the psychographics of Gen Z TikTok consumers.
+  summary: >-
+    Audiense is an audience research and analytics platform used to uncover consumer behaviors and social media trends
+    across multiple platforms.
+  why_it_matters: >-
+    This is a marketing intelligence tool for brand strategists rather than a tool for the software development
+    lifecycle or agentic coding workflows.
+  mental_damage: >-
+    It is difficult to stay in the zone when your coding agent starts asking about the psychographics of Gen Z TikTok
+    consumers.
   tags:
     - marketing-intelligence
     - audience-research
@@ -61,7 +73,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The product is a marketing and consumer research platform designed for brand strategists and agencies, not a tool for software developers.
+  reason: >-
+    The product is a marketing and consumer research platform designed for brand strategists and agencies, not a tool
+    for software developers.
   evidence:
     - Scraped site context identifies target users as marketers, strategists, and agencies
     - Core functionality focuses on consumer behavioral signals and campaign design rather than code or infrastructure
@@ -69,12 +83,12 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-24T04:28:53.212Z"
+    updated_at: '2026-09-24T04:28:53.212Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -87,17 +101,21 @@ processing:
       input_hash: sha256:efafb72ea26ebed3bc4396b81f85d3a63301b43beb4c033c6105b95f11eb5a21
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a marketing and consumer research platform designed for brand strategists and agencies, not a tool for software developers.
+      decision_reason: >-
+        The product is a marketing and consumer research platform designed for brand strategists and agencies, not a
+        tool for software developers.
       decision_evidence:
         - Scraped site context identifies target users as marketers, strategists, and agencies
-        - Core functionality focuses on consumer behavioral signals and campaign design rather than code or infrastructure
+        - >-
+          Core functionality focuses on consumer behavioral signals and campaign design rather than code or
+          infrastructure
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.364Z"
+    updated_at: '2026-07-20T16:42:15.364Z'
     cause: null
     next_retry_at: null
   stars:

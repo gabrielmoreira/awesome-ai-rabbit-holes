@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__rygen__io__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,7 +18,11 @@ provenance:
           - LLMOps
         anchor_text: Dataoorts
         extracted_url: https://dataoorts.com/ai
-        surrounding_text: "| [Dataoorts](https://dataoorts.com/ai)                              | Enjoy unlimited API calls with Serverless AI Workers/LLMs for just $25 per month. No rate or concurrency limits.                                                                                                                                                                                                                                                                                        |                                                                                                           |"
+        surrounding_text: >-
+          | [Dataoorts](https://dataoorts.com/ai)                              | Enjoy unlimited API calls with
+          Serverless AI Workers/LLMs for just $25 per month. No rate or concurrency
+          limits.                                                                                                                                                                                                                                                                                       
+          |                                                                                                           |
         confidence: high
 metadata:
   github:
@@ -36,9 +40,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Rygen.io is an AI model gateway offering low-cost API access to various AI models with an emphasis on enterprise security and privacy.
-  why_it_matters: Provides developers with an affordable, secure way to integrate AI models into applications without managing infrastructure.
-  mental_damage: Another API gateway promising 'uncompromised AI' while developers juggle model selection, cost, and vendor lock-in anxiety.
+  summary: >-
+    Rygen.io is an AI model gateway offering low-cost API access to various AI models with an emphasis on enterprise
+    security and privacy.
+  why_it_matters: >-
+    Provides developers with an affordable, secure way to integrate AI models into applications without managing
+    infrastructure.
+  mental_damage: >-
+    Another API gateway promising 'uncompromised AI' while developers juggle model selection, cost, and vendor lock-in
+    anxiety.
   tags:
     - api-gateway
     - ai-models
@@ -46,21 +56,27 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: Rygen.io is primarily an AI model access gateway, not a developer-facing AI tool, agent, framework, or infrastructure that directly aids coding workflows.
+  reason: >-
+    Rygen.io is primarily an AI model access gateway, not a developer-facing AI tool, agent, framework, or
+    infrastructure that directly aids coding workflows.
   evidence:
-    - Scraped site excerpt describes it as 'The world's most affordable Gateway to AI' with focus on API uptime, enterprise security, and privacy.
+    - >-
+      Scraped site excerpt describes it as 'The world's most affordable Gateway to AI' with focus on API uptime,
+      enterprise security, and privacy.
     - No evidence of coding assistance, agent behavior, app building, framework, or developer tooling functionality.
-    - Listed in Awesome-LLMOps under LLMOps section, which focuses on operational tooling for LLMs rather than direct developer coding aids.
+    - >-
+      Listed in Awesome-LLMOps under LLMOps section, which focuses on operational tooling for LLMs rather than direct
+      developer coding aids.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +85,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:37:10.923Z"
+    updated_at: '2026-09-28T04:37:10.923Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,11 +98,17 @@ processing:
       input_hash: sha256:934ac54cffba88c8b3bfcf756a250bd7388031f79a6d948c1929a1eaa1f881f9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Rygen.io is primarily an AI model access gateway, not a developer-facing AI tool, agent, framework, or infrastructure that directly aids coding workflows.
+      decision_reason: >-
+        Rygen.io is primarily an AI model access gateway, not a developer-facing AI tool, agent, framework, or
+        infrastructure that directly aids coding workflows.
       decision_evidence:
-        - Scraped site excerpt describes it as 'The world's most affordable Gateway to AI' with focus on API uptime, enterprise security, and privacy.
+        - >-
+          Scraped site excerpt describes it as 'The world's most affordable Gateway to AI' with focus on API uptime,
+          enterprise security, and privacy.
         - No evidence of coding assistance, agent behavior, app building, framework, or developer tooling functionality.
-        - Listed in Awesome-LLMOps under LLMOps section, which focuses on operational tooling for LLMs rather than direct developer coding aids.
+        - >-
+          Listed in Awesome-LLMOps under LLMOps section, which focuses on operational tooling for LLMs rather than
+          direct developer coding aids.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

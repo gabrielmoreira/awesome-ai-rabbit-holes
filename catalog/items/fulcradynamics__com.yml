@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__fulcradynamics__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-06-11T05:37:56.129Z"
+      discovered_at: '2026-06-11T05:37:56.129Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,13 @@ provenance:
           - Official Servers
         anchor_text: Context by Fulcra
         extracted_url: https://www.fulcradynamics.com
-        surrounding_text: "- **[Fulcra Context](https://github.com/fulcradynamics/fulcra-context-mcp)** - Fulcra Context MCP server for accessing your personal health, workouts, sleep, location, and more, all privately. Built around [Context by Fulcra](https://www.fulcradynamics.com/)."
+        surrounding_text: >-
+          - **[Fulcra Context](https://github.com/fulcradynamics/fulcra-context-mcp)** - Fulcra Context MCP server for
+          accessing your personal health, workouts, sleep, location, and more, all privately. Built around [Context by
+          Fulcra](https://www.fulcradynamics.com/).
         confidence: high
     - id: discovery__www__fulcradynamics__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +36,10 @@ provenance:
           - Official Servers
         anchor_text: Context by Fulcra
         extracted_url: https://www.fulcradynamics.com
-        surrounding_text: "- **[Fulcra Context](https://github.com/fulcradynamics/fulcra-context-mcp)** - Fulcra Context MCP server for accessing your personal health, workouts, sleep, location, and more, all privately. Built around [Context by Fulcra](https://www.fulcradynamics.com/)."
+        surrounding_text: >-
+          - **[Fulcra Context](https://github.com/fulcradynamics/fulcra-context-mcp)** - Fulcra Context MCP server for
+          accessing your personal health, workouts, sleep, location, and more, all privately. Built around [Context by
+          Fulcra](https://www.fulcradynamics.com/).
         confidence: high
 metadata:
   github:
@@ -51,8 +57,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Fulcra is a user-owned context backend for AI agents that unifies real-world data, files, and agent work into a controllable context lake.
-  why_it_matters: It solves the fragmentation of agent memory by giving developers a shared, persistent context that travels across agents and models.
+  summary: >-
+    Fulcra is a user-owned context backend for AI agents that unifies real-world data, files, and agent work into a
+    controllable context lake.
+  why_it_matters: >-
+    It solves the fragmentation of agent memory by giving developers a shared, persistent context that travels across
+    agents and models.
   mental_damage: Finally, a place where your AI agents can gossip about you without you being able to delete the chat history.
   tags:
     - context-engineering
@@ -61,22 +71,30 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Fulcra's core identity is a persistent, user-controlled context backend for AI agents, making it a memory and context system rather than an MCP server, coding agent, or orchestration platform.
+  reason: >-
+    Fulcra's core identity is a persistent, user-controlled context backend for AI agents, making it a memory and
+    context system rather than an MCP server, coding agent, or orchestration platform.
   evidence:
-    - Described as a 'user-owned context backend for AI agents' and 'context lake' of structured, semi-structured, and unstructured data
-    - Appears in awesome-mcp-servers as an 'Official Server' but emphasizes context ownership and agent memory over MCP protocol identity
-    - Focuses on persistent agent memory, cross-agent context sharing, and controllable data access rather than code generation or workflow orchestration
+    - >-
+      Described as a 'user-owned context backend for AI agents' and 'context lake' of structured, semi-structured, and
+      unstructured data
+    - >-
+      Appears in awesome-mcp-servers as an 'Official Server' but emphasizes context ownership and agent memory over MCP
+      protocol identity
+    - >-
+      Focuses on persistent agent memory, cross-agent context sharing, and controllable data access rather than code
+      generation or workflow orchestration
 placement:
   primary_category: memory-and-context
   secondary_categories: []
   section: Persistent Memory & Knowledge
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:52:36.998Z"
+    updated_at: '2026-09-28T04:52:36.998Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -87,22 +105,32 @@ processing:
       input_hash: sha256:97fb7f6598a82afe9f2cd370f29eb0c946fafe9c812caf8c498ab309b47b8e40
       proposed_primary_category: memory-and-context
       disagreement: false
-      decision_reason: Fulcra's core identity is a persistent, user-controlled context backend for AI agents, making it a memory and context system rather than an MCP server, coding agent, or orchestration platform.
+      decision_reason: >-
+        Fulcra's core identity is a persistent, user-controlled context backend for AI agents, making it a memory and
+        context system rather than an MCP server, coding agent, or orchestration platform.
       decision_evidence:
-        - Described as a 'user-owned context backend for AI agents' and 'context lake' of structured, semi-structured, and unstructured data
-        - Appears in awesome-mcp-servers as an 'Official Server' but emphasizes context ownership and agent memory over MCP protocol identity
-        - Focuses on persistent agent memory, cross-agent context sharing, and controllable data access rather than code generation or workflow orchestration
+        - >-
+          Described as a 'user-owned context backend for AI agents' and 'context lake' of structured, semi-structured,
+          and unstructured data
+        - >-
+          Appears in awesome-mcp-servers as an 'Official Server' but emphasizes context ownership and agent memory over
+          MCP protocol identity
+        - >-
+          Focuses on persistent agent memory, cross-agent context sharing, and controllable data access rather than code
+          generation or workflow orchestration
       category_candidates:
         - memory-and-context
         - mcp
-      contrastive_reason: Choose memory-and-context over mcp because Fulcra's primary identity is as a persistent context and memory system for agents, with MCP being one of several connection methods rather than its core protocol identity.
+      contrastive_reason: >-
+        Choose memory-and-context over mcp because Fulcra's primary identity is as a persistent context and memory
+        system for agents, with MCP being one of several connection methods rather than its core protocol identity.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
   discover:
     status: done
-    updated_at: "2026-06-11T05:37:56.131Z"
+    updated_at: '2026-06-11T05:37:56.131Z'
     cause: null
     next_retry_at: null
   stars:

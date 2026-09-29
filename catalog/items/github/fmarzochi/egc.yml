@@ -1,0 +1,100 @@
+id: github__fmarzochi__egc
+kind: github-repo
+name: fmarzochi/egc
+canonical_url: https://github.com/fmarzochi/egc
+identity:
+  github_repo: fmarzochi/egc
+provenance:
+  discoveries:
+    - id: discovery__github__fmarzochi__egc__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-09-29T13:07:10.365Z'
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: EGC
+        extracted_url: https://github.com/fmarzochi/egc
+        surrounding_text: >-
+          - **[EGC](https://github.com/Fmarzochi/EGC)** – Persistent cross-session memory MCP server for 13+ AI coding
+          tools. SQLite-backed state survives context resets and keeps Claude Code, Cursor, Gemini CLI, Codex, Windsurf,
+          Amp, Kiro, VS Code Copilot, Trae, and more in sync. Install: `npm install -g @egchq/egc`.
+        confidence: high
+metadata:
+  github:
+    stars: 57
+    forks: 46
+    license: Apache-2.0
+    archived: false
+    full_name: Fmarzochi/EGC
+    html_url: https://github.com/Fmarzochi/EGC
+    created_at: '2026-05-06T20:23:12Z'
+    pushed_at: '2026-09-29T12:50:28Z'
+    description: >-
+      EGC gives every AI coding agent the same brain. Shared memory, skills, and live context across Cursor, Claude
+      Code, Copilot, Aider, and 20+ AI coding tools with zero configuration. Every tab, terminal, and AI stays
+      automatically synchronized. One brain. Everywhere.
+    homepage: https://fmarzochi.github.io/EGCSite/
+    topics:
+      - agent-memory
+      - agentic-workflows
+      - ai-agents
+      - ai-memory
+      - aider
+      - claude-code
+      - context-engineering
+      - copilot
+      - cursor
+      - developer-tools
+      - local-first
+      - mcp
+      - mcp-server
+      - multi-agent-orchestration
+      - persistent-memory
+      - shared-context
+      - token-optimization
+      - windsurf
+    last_checked_at: '2026-09-29T13:11:21.848Z'
+    readme:
+      fetched_at: '2026-09-29T13:11:21.848Z'
+      bytes: 8113
+insights:
+  summary: >-
+    EGC gives every AI coding agent the same brain. Shared memory, skills, and live context across Cursor, Claude Code,
+    Copilot, Aider, and 20+ AI coding tools with zero configuration. Every tab, terminal, and AI stays automatically
+    synchronized. One brain. Everywhere.
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: included
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
+  evidence:
+    - jev-latest choice confidence 0.52
+placement:
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: '2026-09-29T13:07:10.457Z'
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: '2026-09-29T13:11:21.848Z'
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

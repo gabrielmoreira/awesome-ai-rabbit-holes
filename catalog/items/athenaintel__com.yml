@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__athenaintel__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Athena Intelligence
         anchor_text: Athena Intelligence
         extracted_url: https://athenaintelligence.ai
-        surrounding_text: "## [Athena Intelligence](https://www.athenaintelligence.ai/)"
+        surrounding_text: '## [Athena Intelligence](https://www.athenaintelligence.ai/)'
         confidence: high
     - id: discovery__www__athenaintel__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Athena Intelligence
         anchor_text: Athena Intelligence
         extracted_url: https://www.athenaintelligence.ai
-        surrounding_text: "## [Athena Intelligence](https://www.athenaintelligence.ai/)"
+        surrounding_text: '## [Athena Intelligence](https://www.athenaintelligence.ai/)'
         confidence: high
 metadata:
   github:
@@ -52,7 +52,9 @@ metadata:
     readme: null
 insights:
   summary: Athena Intelligence is a platform for building and orchestrating AI agents for complex, regulated knowledge work.
-  why_it_matters: It enables enterprises to deploy autonomous AI workers in regulated environments with built-in governance, identity, and audit trails.
+  why_it_matters: >-
+    It enables enterprises to deploy autonomous AI workers in regulated environments with built-in governance, identity,
+    and audit trails.
   mental_damage: Finally, an AI tool that treats your lack of trust in agents as a feature to be solved with more infrastructure.
   tags:
     - ai-agents
@@ -61,21 +63,28 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Athena Intelligence is included as an agent orchestration platform because its core identity is building, governing, and coordinating AI agent workforces for regulated enterprise tasks, not performing coding or acting as a standalone agent.
+  reason: >-
+    Athena Intelligence is included as an agent orchestration platform because its core identity is building, governing,
+    and coordinating AI agent workforces for regulated enterprise tasks, not performing coding or acting as a standalone
+    agent.
   evidence:
-    - "Scraped site states: 'A platform for building and orchestrating AI agents for complex, highly regulated knowledge work'"
-    - "Source-list context: listed in awesome-ai-agents under the purpose 'A list of AI autonomous agents'"
-    - README excerpt emphasizes deployment, governance, collaboration, and agent identity — not code generation or editing
+    - >-
+      Scraped site states: 'A platform for building and orchestrating AI agents for complex, highly regulated knowledge
+      work'
+    - 'Source-list context: listed in awesome-ai-agents under the purpose ''A list of AI autonomous agents'''
+    - >-
+      README excerpt emphasizes deployment, governance, collaboration, and agent identity — not code generation or
+      editing
 placement:
   primary_category: agent-orchestration
   section: Domain & Enterprise Platforms
 lifecycle:
-  status: incubating
+  status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:38:56.290Z"
+    updated_at: '2026-09-28T04:38:56.290Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,20 +97,30 @@ processing:
       input_hash: sha256:1bc7fe34c75060dd957fcedd210b7d6547b8069d03d16e661b0db70458e630b1
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Athena Intelligence is included as an agent orchestration platform because its core identity is building, governing, and coordinating AI agent workforces for regulated enterprise tasks, not performing coding or acting as a standalone agent.
+      decision_reason: >-
+        Athena Intelligence is included as an agent orchestration platform because its core identity is building,
+        governing, and coordinating AI agent workforces for regulated enterprise tasks, not performing coding or acting
+        as a standalone agent.
       decision_evidence:
-        - "Scraped site states: 'A platform for building and orchestrating AI agents for complex, highly regulated knowledge work'"
-        - "Source-list context: listed in awesome-ai-agents under the purpose 'A list of AI autonomous agents'"
-        - README excerpt emphasizes deployment, governance, collaboration, and agent identity — not code generation or editing
+        - >-
+          Scraped site states: 'A platform for building and orchestrating AI agents for complex, highly regulated
+          knowledge work'
+        - 'Source-list context: listed in awesome-ai-agents under the purpose ''A list of AI autonomous agents'''
+        - >-
+          README excerpt emphasizes deployment, governance, collaboration, and agent identity — not code generation or
+          editing
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because Athena Intelligence’s primary product identity is coordinating and governing AI agent workforces, not autonomously performing coding tasks on behalf of developers.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because Athena Intelligence’s primary product identity is
+        coordinating and governing AI agent workforces, not autonomously performing coding tasks on behalf of
+        developers.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.364Z"
+    updated_at: '2026-07-20T16:42:15.364Z'
     cause: null
     next_retry_at: null
   stars:
