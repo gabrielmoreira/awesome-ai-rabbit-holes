@@ -66,13 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is an MCP server providing specific domain capabilities (image generation/editing) to
-    host clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo description explicitly states it is an 'MCP server'
-    - README details implementation for Claude Desktop, Cursor, and VS Code via MCP
-    - Functionality is centered around providing tools to an MCP-compatible client
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

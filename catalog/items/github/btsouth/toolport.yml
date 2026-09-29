@@ -78,15 +78,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is a middleware layer and gateway specifically for the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - Repo description explicitly calls it a 'Local-first MCP gateway'
-    - Provides a single setup for multiple clients including Claude, Cursor, and VS Code
-    - Claims ~90% token savings through lazy tool discovery
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Clients & Inspector Tools
 lifecycle:
   status: curated
   reason: Stars (205) exceeded threshold (150)

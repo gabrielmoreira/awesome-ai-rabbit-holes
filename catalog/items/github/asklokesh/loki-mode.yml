@@ -83,17 +83,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a spec-driven autonomous agent that manages the full software development lifecycle (SDLC) rather than just
-    being a simple generator or a broad orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - Repo description identifies it as a 'Multi-agent autonomous SDLC framework'
-    - README highlights a 'spec-driven autonomous builder' that uses '8 quality gates' to ensure verified completion
-    - Provides a terminal-native CLI experience and functions as a plugin for Claude Code
+    - jev-latest choice confidence 0.44
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Spec-First & Plan-Execute
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: curated
   reason: Stars (980) exceeded threshold (150)

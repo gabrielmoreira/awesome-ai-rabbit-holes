@@ -3,25 +3,17 @@
 
 Frameworks, platforms, and tooling for measuring, tracing, comparing, and improving model, prompt, and agent behavior.
 
-_134 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_150 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Agent & LLM Benchmarks](#agent--llm-benchmarks) — 53
-- [Observability & Tracing](#observability--tracing) — 61
-- [Prompt Regression & Testing](#prompt-regression--testing) — 10
-- [Safety, Fairness & Red-teaming](#safety-fairness--red-teaming) — 10
+- [Agent & LLM Benchmarks](#agent--llm-benchmarks) — 62
+- [Observability & Tracing](#observability--tracing) — 60
+- [Prompt Regression & Testing](#prompt-regression--testing) — 15
+- [Safety, Fairness & Red-teaming](#safety-fairness--red-teaming) — 13
 
 ## Agent & LLM Benchmarks
 
-- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 18.3k` `updated ≤30d` An open-source LLM evaluation framework for testing and benchmarking AI agents, RAG pipelines, and chatbots. <details><summary>More about</summary>
-
-  It lets developers measure and compare model quality, prompt effectiveness, and architecture choices with research-backed metrics like G-Eval and task completion.
-
-  _Finally, a way to prove your LLM app is bad before your users do._
-
-  `evaluation` `llm-testing` `benchmarking` `python` `metrics`
-  </details>
 - **[RAGAS](https://github.com/vibrantlabsai/ragas)** `⭐ 14.9k` `updated ≤1y` Ragas is a Python library for evaluating LLM applications with objective metrics and test data generation. <details><summary>More about</summary>
 
   It gives developers a programmatic, data-driven way to measure and improve LLM app quality without relying on subjective assessments.
@@ -230,6 +222,7 @@ _134 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `mcp` `evals` `prompt-engineering` `tooling`
   </details>
+- **[bunsdev/typesafe-ai-playground](https://github.com/bunsdev/typesafe-ai-playground)** `⭐ 21` `updated ≤30d` Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI.
 - **[PDF Race](https://github.com/goodrahstar/pdf-race)** `⭐ 13` `updated ≤30d` Docling → Jev vs Docling → Gemini 3.8 Flash vs Gemini reading the PDF: same documents, one clock, scored against arXiv's own metadata.
 - **[scorable-mcp](https://github.com/root-signals/scorable-mcp)** `⭐ 12` `updated ≤180d` An MCP server that exposes Scorable evaluators, judges, and coding policy adherence checks as tools for AI assistants and agents. <details><summary>More about</summary>
 
@@ -248,9 +241,17 @@ _134 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   `benchmarking` `agent-evaluation` `instrumentation` `ai-agents`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+23 more in Agent & LLM Benchmarks &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+32 more in Agent & LLM Benchmarks &nbsp;—&nbsp; click to expand</strong></summary>
 
+- **[Eikos Arena](https://github.com/caiovicentino/eikos-arena)** `⭐ 7` `updated ≤30d` Eikos-27B vs Jev: live paper trading on Hyperliquid. Real prices, simulated money, rules hashed before the start.
+- **[brida-ai/reflexbench](https://github.com/brida-ai/reflexbench)** `⭐ 5` `updated ≤30d` ReflexBench — open benchmark and evaluation harness for System One models and typed decision engines.
+- **[chenmingtang830/jevarena](https://github.com/chenmingtang830/jevarena)** `⭐ 4` `updated ≤30d` Open-source BYOK arena for Jev and other AI judges. Find failures, compare quality, cost, and latency.
+- **[Jev Score](https://github.com/a-fig/jev-score)** `⭐ 4` `updated ≤30d` Local-first document evaluation workspaces powered by Jev.
 - **[swarms-evals](https://github.com/the-swarm-corporation/swarms-evals)** `⭐ 4` `updated ≤1y` A Python package providing evaluation harnesses for comparing multi-agent collaboration performance against individual agents across benchmarks like HumanEval, MMLU, and SWE-BENCH.
+- **[Jev Pong](https://github.com/ably-labs/jev-pong)** `⭐ 2` `updated ≤30d` Pong where the ball moves one step per model decision. Jev vs LLMs via Vercel AI Gateway, every player and agent on an Ably channel.
+- **[4esv/jev-eval](https://github.com/4esv/jev-eval)** `⭐ 1` `updated ≤30d` Benchmark TypeSafe Jev against any OpenRouter model on your own data.
+- **[blas0/jev-shadcn-lint-eval](https://github.com/blas0/jev-shadcn-lint-eval)** `⭐ 1` `updated ≤30d` A small second eval for shadcn-ui/lint that uses TypeSafe's Jev to judge the linter's own output.
+- **[clduab11/jev-test](https://github.com/clduab11/jev-test)** `⭐ 1` `updated ≤30d` Pre-registered benchmark: can a 2B local model (Gemma 4 E2B) answer web questions without making things up when a decision model (TypeSafe Jev) makes every call? SearXNG for search, MemPalace for verbatim memory, seven arms including open local judges. Spec and thresholds fixed before any run.
 - **[Agent Operator Score](https://github.com/monglong0214/agent-operator-score)** Agent Operator Score – Local-first CLI (aos) that scores how well you operate Claude Code, Codex, and Grok CLI from your own session transcripts, plus a controlled-run assessment suite with a hidden verifier. No model calls in review mode; nothing leaves your disk.
 - **[idovmamane/dejevu](https://github.com/idovmamane/dejevu)** Browser-agent comparison that benchmarks a one-look open-model policy against the Jev demo.
 - **[iotexproject/sidegrade](https://github.com/iotexproject/sidegrade)** sidegrade – Reads your local coding-agent usage (Claude Code, Codex, Hermes, OpenCode) and shows which model gives you the same intelligence for less — scoring every model on the Artificial Analysis Intelligence Index and re-pricing your own token mix. 100% local, no account, MIT-licensed. Run with npx sidegrade; on npm.
@@ -268,6 +269,7 @@ _134 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 - **[Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmarena-ai/arena-leaderboard)** Arena Leaderboard is a Hugging Face Space that displays the current LMArena leaderboard showing how language models rank against each other.
 - **[LM Arena](https://arena.ai)** An interactive platform for chatting with, comparing, and voting on various AI models.
 - **[Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)** A Hugging Face Space that tracks, ranks, and evaluates the performance of open-source large language models.
+- **[per-answer explorer](https://convex-evals.netlify.app)** Convex Decision Evals - Model evaluation: asks Jev a Choice on 108 verified four-option questions about the Convex backend platform (no docs or tools in the prompt, each asked 3 times with shuffled options, random guessing 25%) alongside 14 LLMs, where jev-1.13 scores 84.6% at a 199 ms median and $0.0088 per full run against 98.0% at 2.12 s and $1.59 for the top model, with every answer, probability and raw request/response in a public explorer and the runner in get-convex/convex-evals.
 - **[Root Signals](https://scorable.ai)** Scorable is an LLM evaluation platform for building and monitoring custom LLM-as-a-judge evaluators.
 - **[sidegrade](https://npmjs.com/package/sidegrade)** sidegrade – Reads your local coding-agent usage (Claude Code, Codex, Hermes, OpenCode) and shows which model gives you the same intelligence for less — scoring every model on the Artificial Analysis Intelligence Index and re-pricing your own token mix. 100% local, no account, MIT-licensed. Run with npx sidegrade; on npm.
 - **[swebench.com](https://swebench.com)** SWE-Bench.com is a public leaderboard for evaluating coding agents on software engineering tasks using the SWE-bench benchmark.
@@ -471,14 +473,6 @@ _134 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `observability` `tracing` `opentelemetry` `llmops` `agents`
   </details>
-- **[Comet-ML/Opik-MCP](https://github.com/comet-ml/opik-mcp)** `⭐ 217` `updated ≤30d` Model Context Protocol (MCP) server implementation for Opik, enabling IDE integration and unified access to prompts, projects, traces, and metrics. <details><summary>More about</summary>
-
-  Developers can integrate Opik's prompt lifecycle, workspace exploration, and metrics capabilities directly into MCP-compatible clients like Cursor or VS Code.
-
-  _Now your IDE can juggle prompts, traces, and metrics like a circus performer with too many hats._
-
-  `mcp-server` `opik` `ide-integration` `typescript` `developer-tools`
-  </details>
 - **[agenttrace](https://github.com/luoyuctl/agenttrace)** `⭐ 111` `updated ≤90d` AgentTrace is a local-first terminal TUI and report generator that analyzes session logs from AI coding agents to track cost, tokens, time, tool failures, and performance. <details><summary>More about</summary>
 
   It gives developers visibility into AI agent spend and latency so they can optimize usage and diagnose slow or expensive runs without relying on external observability.
@@ -486,14 +480,6 @@ _134 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _Finally, a tool to quantify the guilt of letting your AI coding agent loop on a typo for 47 minutes while burning through your token budget._
 
   `observability` `tui` `ai-agents` `cost-tracking` `local-first`
-  </details>
-- **[avivsinai/langfuse-mcp](https://github.com/avivsinai/langfuse-mcp)** `⭐ 106` `updated ≤30d` An MCP server for Langfuse that enables AI agents to query trace data, debug errors, and analyze sessions for observability. <details><summary>More about</summary>
-
-  Developers can integrate Langfuse's observability features directly into their AI agent workflows via MCP, enabling richer debugging and trace analysis.
-
-  _Now your AI agents can debug their own debugging tools, because why stop at one layer of meta._
-
-  `mcp` `observability` `debugging` `langfuse` `tracing`
   </details>
 - **[Azure OpenAI Logger](https://github.com/aavetis/azure-openai-logger)** `⭐ 73` `updated >1y` A deployment solution that uses Azure API Management to proxy and log Azure OpenAI requests to Application Insights. <details><summary>More about</summary>
 
@@ -504,16 +490,29 @@ _134 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   `azure` `observability` `llmops` `logging` `tracing`
   </details>
 - **[Jeview](https://github.com/andududu/jeview)** `⭐ 62` `updated ≤30d` An unofficial local visualizer for Jev (TypeSafe): a live view of every call your code makes. Not affiliated with TypeSafe AI.
+- **[futureagi-sdk](https://github.com/future-agi/futureagi-sdk)** `⭐ 50` `updated ≤90d` An open-source SDK for AI evaluation, prompt management, and observability, supporting Python and TypeScript. <details><summary>More about</summary>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+31 more in Observability & Tracing &nbsp;—&nbsp; click to expand</strong></summary>
+  It provides the necessary infrastructure to measure model performance, manage prompt versioning, and implement real-time guardrails in production agent workflows.
 
-- **[futureagi-sdk](https://github.com/future-agi/futureagi-sdk)** `⭐ 50` `updated ≤90d` An open-source SDK for AI evaluation, prompt management, and observability, supporting Python and TypeScript.
+  _Because nothing says 'table production deployment' like running 50+ metrics and sub-100ms guardrails to catch the agent's inevitable hallucinations._
+
+  `evals` `observability` `prompt-management` `guardrails` `mlops`
+  </details>
+- **[AgentDiff](https://github.com/codeprakhar25/agentdiff)** `⭐ 43` `updated ≤180d` A git-native tool for AI code provenance that records and cryptographically signs which AI agent wrote specific lines of code. <details><summary>More about</summary>
+
+  It provides a durable, signed audit trail for AI-generated code, moving from probabilistic detection to verifiable authorship for governance and security.
+
+  _We have finally reached the era where we need cryptographic proof to determine which LLM is actually responsible for the bug in production._
+
+  `provenance` `git` `governance` `sbom` `security`
+  </details>
+
+<details><summary><strong>▸ &nbsp;&nbsp;+30 more in Observability & Tracing &nbsp;—&nbsp; click to expand</strong></summary>
+
 - **[RagTune](https://github.com/metawake/ragtune)** `⭐ 13` `updated ≤1y` RagTune is a CLI tool for debugging, benchmarking, and evaluating RAG retrieval layers across vector stores.
-- **[semantic-coverage](https://github.com/aashirpersonal/semantic-coverage)** `⭐ 13` `updated ≤1y` An automated tool for detecting knowledge gaps, hallucination triggers, and representation bias in RAG vector databases.
-- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 5` `updated ≤180d` Drop-in OSOP session logging rules for 18 AI coding agents, enabling structured execution records across platforms like Cursor, Codex, Windsurf, and Copilot.
 - **[agent-trace](https://github.com/ertygiq/agent-trace)** `⭐ 3` `updated ≤90d` A CLI tool for filtering and printing text transcripts from agentic sessions such as Claude Code, Codex, and Pi.
-- **[alog-mcp](https://github.com/asicojp/alog-mcp)** `⭐ 1` `updated ≤180d` An MCP server that enables AI agents to log real-time thinking processes and publish articles to the Alog blogging platform.
 - **[ashutoshvjti/progressgate](https://github.com/ashutoshvjti/progressgate)** `⭐ 1` `updated ≤30d` Detect semantic stagnation in AI agent loops.
+- **[brandonbryant12/transcript-scorecard](https://github.com/brandonbryant12/transcript-scorecard)** `⭐ 1` `updated ≤30d` ACME live support-call scoring demo with TypeSafe AI, Effect, SQLite, React, Vite, and Turborepo.
 - **[Monitor Token](https://github.com/a596480606/monitor_token)** `⭐ 1` `updated ≤90d` Lightweight Codex token monitor for Windows and macOS: local usage stats, weekly quota, reset time, and compact desktop widgets.
 - **[bricelancasterwcp-sudo/sensorium](https://github.com/bricelancasterwcp-sudo/sensorium)** `⭐ 0` `updated ≤30d` Record what a program actually did and ask it questions afterward — Python, Rust and TypeScript recorders writing one trace format, read by one LLM-native query CLI that refuses rather than guesses.
 - **[ClawMetry](https://github.com/vivekchand/clawmetry)** ClawMetry – Self-hosted dashboard that reads the session logs coding agents already write on disk (Claude Code, Codex, Cursor, Aider, Goose, OpenClaw and others), so there is no SDK and nothing sits in the request path. Shows sessions, tool calls, tokens and cache-aware cost per session and per model. MIT core, pip install clawmetry. Website.
@@ -528,7 +527,9 @@ _134 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 - **[typesafe-ai/overwatch](https://github.com/typesafe-ai/overwatch)** Official tooling for observing and evaluating System One workflows.
 - **[Atla API](https://docs.atla-ai.com/overview)** Atla is an observability platform designed to monitor, trace, and debug the behavior of AI agents.
 - **[CloudByte PMS](https://getpms.cloudbyte.ai)** CloudByte PMS – Team analytics for AI coding assistants: tracks Claude Code, GitHub Copilot, and Cursor sessions, prompts, and commits to surface adoption, ROI, ghost seats, and prompt governance in one dashboard with role-based access.
+- **[CostGoat](https://costgoat.com)** CostGoat – Privacy-first menubar app tracking AI agent quotas (Claude Code, Codex, Kimi, Z.ai), LLM API costs (OpenAI, OpenRouter, Anthropic, ElevenLabs), cloud spend, and SaaS subscriptions in real-time.
 - **[Dash0](https://dash0.com)** Dash0 is an OpenTelemetry-native observability platform for monitoring AI agents and applications in production.
+- **[DownForAI](https://downforai.com)** DownForAI – Real-time status monitoring for 800+ AI services including ChatGPT, Claude, Gemini, Midjourney, and Groq. Tracks uptime, latency, and community outage reports.
 - **[Fiddler AI](https://fiddler.ai/llmops)** Fiddler AI provides LLM observability and monitoring tools to track, analyze, and safeguard large language model applications in production.
 - **[Keywords AI](https://respan.ai)** An LLM engineering platform that unifies observability, evaluations, and model gateway routing.
 - **[Launchable](https://cloudbees.com/capabilities/cloudbees-smart-tests)** Launchable is CloudBees Smart Tests, an AI-powered test selection and flaky test detection service that reduces CI test execution time by running only relevant tests per code change.
@@ -551,6 +552,14 @@ _134 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `eval` `red-teaming` `cli` `llm-testing` `ci-cd`
   </details>
+- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 18.3k` `updated ≤30d` An open-source LLM evaluation framework for testing and benchmarking AI agents, RAG pipelines, and chatbots. <details><summary>More about</summary>
+
+  It lets developers measure and compare model quality, prompt effectiveness, and architecture choices with research-backed metrics like G-Eval and task completion.
+
+  _Finally, a way to prove your LLM app is bad before your users do._
+
+  `evaluation` `llm-testing` `benchmarking` `python` `metrics`
+  </details>
 - **[GPT Prompt Engineer](https://github.com/mshumer/gpt-prompt-engineer)** `⭐ 9.7k` `updated ≤1y` A notebook-based tool that generates, tests, and ELO-ranks multiple prompt candidates against provided test cases to find the most effective prompt for a given task. <details><summary>More about</summary>
 
   It automates the trial-and-error loop of prompt engineering by systematically evaluating variations so developers can optimize LLM performance without manual guesswork.
@@ -566,6 +575,14 @@ _134 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _Finally, a way to A/B test your prompts without pretending you know what you're doing._
 
   `prompt-testing` `llm-evaluation` `vector-db-testing` `python` `experimentation`
+  </details>
+- **[AgentMark](https://github.com/agentmark-ai/agentmark)** `⭐ 352` `updated ≤90d` AgentMark is an open-source platform for managing, running, and evaluating AI agent prompts defined in Markdown files, with OpenTelemetry tracing and SDK adapters. <details><summary>More about</summary>
+
+  It gives developers a version-controlled, type-safe workflow to iterate on prompts, run experiments against datasets, and trace LLM calls across local and cloud environments.
+
+  _You now have a Markdown dialect, a custom CLI, and a telemetry pipeline just to ask a model how long shipping takes._
+
+  `prompt-management` `evals` `observability` `mdx` `agents`
   </details>
 - **[EvalView](https://github.com/hidai25/eval-view)** `⭐ 126` `updated ≤90d` Open-source regression testing tool for AI agents that snapshots behavior, diffs tool calls, and catches regressions in CI. <details><summary>More about</summary>
 
@@ -591,8 +608,18 @@ _134 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `slop-detection` `cli` `mcp` `linting` `ai-quality`
   </details>
+- **[CodeVetter](https://github.com/codevetter/codevetter)** `⭐ 1` `updated ≤30d` Verify AI-generated code with execution evidence — deterministic, local-first verification for coding-agent changes via a macOS app, CLI, and MCP server.
 - **[SDKProof](https://github.com/kalpitrathore/sdkproof)** SDKProof – Type-checks how well AI writes your SDK's current API by compiling model output against the real installed package (no LLM judge).
 - **[sean-sunagaku/promptlint-mcp](https://github.com/sean-sunagaku/promptlint-mcp)** sean-sunagaku/promptlint-mcp : Static linter for AI prompts. Catches contradictions, redundancy, ambiguity, long examples, and politeness fluff in system prompts and agent instructions. CLI + MCP server. Zero network, MIT.
+- **[AIFast Model Check](https://docs.aifast.hk/model-check)** AIFast Model Check – Free browser-based diagnostics for public HTTPS OpenAI-compatible API endpoints, including metadata, token handling, dynamic responses, SSE streaming, and tool-call checks.
+- **[ContextQA](https://contextqa.com)** An AI-native testing platform that automates end-to-end QA for enterprise applications and AI agents through self-healing tests and MCP integration. <details><summary>More about</summary>
+
+  It helps developers validate non-deterministic AI agents and complex enterprise workflows by automatically catching hallucinations and selector drift.
+
+  _Finally, a way to watch your AI agent hallucinate in a controlled, automated environment before it does it to your customers._
+
+  `ai-testing` `qa-automation` `mcp` `enterprise-software` `agent-validation`
+  </details>
 - **[Prompt Evaluator](https://prompt-evaluator.vercel.app)** Prompt Evaluator – Web-based prompt and workflow QA tool. Evaluate, compare, and audit AI prompt outputs and workflow quality.
 - **[Testsigma](https://testsigma.com)** Testsigma is a SaaS platform that uses AI agents to generate, run, self-heal, and diagnose automated tests for web, mobile, API, and Salesforce applications, providing release confidence scoring. <details><summary>More about</summary>
 
@@ -637,6 +664,14 @@ _134 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `evaluation` `llm-observability` `red-teaming` `nlp-auditing`
   </details>
+- **[alexgreensh/repo-forensics](https://github.com/alexgreensh/repo-forensics)** `⭐ 176` `updated ≤30d` Offline security scanner for auditing AI-agent skills, plugins, and MCP servers. <details><summary>More about</summary>
+
+  It provides a local vetting step to prevent malicious third-party agent components from accessing sensitive files or credentials.
+
+  _It adds a necessary, highly uncomfortable layer of paranoia to the 'install and forget' agent workflow._
+
+  `security` `ai-agents` `mcp` `audit` `devops`
+  </details>
 - **[Plexiglass](https://github.com/w4-advisory/plexiglass)** `⭐ 153` `updated ≤1y` A CLI toolkit for detecting and protecting against LLM vulnerabilities by testing models against adversarial attacks like prompt injection and jailbreaking. <details><summary>More about</summary>
 
   It lets developers benchmark and harden their LLM integrations against security, bias, and toxicity risks using real-world adversarial datasets.
@@ -644,6 +679,15 @@ _134 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _Because what your pipeline really needed at 4 PM on a Friday was a dedicated scanner to confirm that your 'secure' model can indeed be jailbroken by a teenager on Reddit._
 
   `adversarial-testing` `benchmarking` `cli-tool` `llm-security`
+  </details>
+- **[aak204/MCP-Scorecard](https://github.com/aak204/mcp-scorecard)** `⭐ 21` `updated ≤180d` Deterministic CI scanner and surface-risk scoring for MCP (Model Context Protocol) servers.
+- **[semantic-coverage](https://github.com/aashirpersonal/semantic-coverage)** `⭐ 13` `updated ≤1y` An automated tool for detecting knowledge gaps, hallucination triggers, and representation bias in RAG vector databases. <details><summary>More about</summary>
+
+  It helps developers identify 'blind spots' in their retrieval pipelines by mapping user intent against existing document embeddings.
+
+  _Because nothing says 'production-ready' like realizing your RAG system has zero context for 40% of your users' actual questions._
+
+  `rag` `observability` `vector-db` `embeddings` `llmops`
   </details>
 - **[thoughtproof/thoughtproof-mcp](https://github.com/thoughtproof/thoughtproof-mcp)** `⭐ 1` `updated ≤180d` An MCP server that provides adversarial multi-model reasoning verification for AI agents by challenging claims across Claude, Grok, DeepSeek, and Gemini with signed attestations. <details><summary>More about</summary>
 

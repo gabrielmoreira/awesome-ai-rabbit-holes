@@ -67,20 +67,12 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Duet is a hosted control plane for managing multiple agent instances across client workspaces, with built-in
-    scheduling, file sharing, and multi-agent collaboration — making it a platform for operating agent teams rather than
-    a single coding agent.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
   evidence:
-    - >-
-      Duet gives each client a workspace that holds your agents, their memory and skill files, the apps they build, and
-      an always-on machine to run them.
-    - You look after the agent. Duet looks after everything under it.
-    - >-
-      One workspace, everyone in it: Files and shared memory every agent reads and writes, with teammates in the same
-      sessions.
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: agent-orchestration
+  secondary_categories: []
   section: Hosted Agent Platforms
 lifecycle:
   status: curated

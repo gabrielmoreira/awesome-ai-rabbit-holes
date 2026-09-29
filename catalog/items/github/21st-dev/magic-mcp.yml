@@ -106,11 +106,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server designed to provide external capability (UI generation) to host IDEs.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Explicitly describes itself as an 'MCP server' in the README
-    - Provides installation instructions for MCP config files in Cursor, Windsurf, and Cline
-    - Functionality is defined by adding a new tool/capability to existing assistants
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: mcp
   secondary_categories: []

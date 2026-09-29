@@ -57,17 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It provides the core novelty of a shared session and memory layer that allows context to flow between disparate
-    coding agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Functions as a shared API and MCP server over existing agent sessions
-    - Solves the 'context trapped in another window' problem by reading live sessions
-    - Enables handoffs and independent headless sessions across different hosts
+    - jev-latest choice confidence 0.90
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Context & Session Management
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

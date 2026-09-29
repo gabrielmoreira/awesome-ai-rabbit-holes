@@ -61,11 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to provide specific tool capabilities to a host assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README identifies it as an 'MCP server for managing app publishing on Huawei AppGallery Connect'
-    - Provides specific tools for querying metadata, uploading APKs, and managing release states
-    - Can be added to Claude Desktop or Claude Code via MCP protocols
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -81,17 +81,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    CHAP is fundamentally a protocol that defines the 'shape' (the spec/contract) of human-agent coordination for the
-    purposes of governance and auditability.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description defines it as an MCP/A2A-compatible runtime for auditable human-agent work.
-    - README emphasizes the use of hash-linked envelopes to provide a shared, structured shape for decisions.
-    - Provided as code-first integration via PyPI and npm packages.
+    - jev-latest choice confidence 0.78
 placement:
-  primary_category: agent-orchestration
+  primary_category: mcp
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

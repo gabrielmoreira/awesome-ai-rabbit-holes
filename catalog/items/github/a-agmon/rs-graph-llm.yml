@@ -68,11 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a code-first library used by developers to build workflows rather than a managed workbench or control plane.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Workflow & Graph Engines
   evidence:
-    - README describes it as a 'framework library' and 'graph execution library'
-    - Users interact with it by implementing the Task trait in Rust code
-    - Core logic involves a GraphBuilder and FlowRunner API for programmatic use
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

@@ -66,13 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server exposing crypto news tools to AI agents, fitting the MCP Servers & Tooling category
-    where MCP is the product identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly identifies it as an MCP server for Gloria AI
-    - README details MCP tools (get_latest_news, get_news_recap, etc.) and MCP-specific setup (stdio, streamable-http)
-    - Uses x402 protocol for paid tier, a common MCP monetization pattern
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

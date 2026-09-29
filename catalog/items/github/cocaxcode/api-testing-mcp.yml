@@ -78,13 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is primarily a domain-specific MCP server designed to bring API testing capabilities to any MCP-compatible
-    agent or editor.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies it as an MCP server for API testing
-    - README details 42 specialized tools including OpenAPI support and load testing
-    - Installation is strictly via MCP client configurations for Claude, Cursor, and Windsurf
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

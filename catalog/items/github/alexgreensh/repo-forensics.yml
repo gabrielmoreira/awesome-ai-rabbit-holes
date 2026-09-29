@@ -93,16 +93,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It functions as a security and testing add-on for the agent ecosystem, providing a vetting workflow for third-party
-    skills and MCP servers.
+  reason: Jev decision-model reclassifier placed this item in evals / Safety, Fairness & Red-teaming
   evidence:
-    - Offline security scanner for AI-agent repos, skills, and MCP servers
-    - Supports vetting for Claude Code, OpenClaw, and Cursor environments
+    - jev-latest choice confidence 0.56
 placement:
-  primary_category: extensions-and-addons
+  primary_category: evals
   secondary_categories: []
-  section: Security & DevSecOps
+  section: Safety, Fairness & Red-teaming
 lifecycle:
   status: curated
   reason: Stars (157) exceeded threshold (150)

@@ -5,8 +5,9 @@ canonical_url: https://colab.research.google.com/drive/1xt2IsFPGYMEQdoJFNgWNAjWG
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__colab__research__google__com__drive__1xt2isfpgymeqdojfngwnajwgxa60vxdv__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__colab__research__google__com__drive__1xt2isfpgymeqdojfngwnajwgxa60vxdv__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,7 +20,7 @@ provenance:
           - Notebooks
         anchor_text: GPT Political Compass
         extracted_url: https://colab.research.google.com/drive/1xt2IsFPGYMEQdoJFNgWNAjWGxa60VXdV
-        surrounding_text: "- [GPT Political Compass](https://colab.research.google.com/drive/1xt2IsFPGYMEQdoJFNgWNAjWGxa60VXdV)"
+        surrounding_text: '- [GPT Political Compass](https://colab.research.google.com/drive/1xt2IsFPGYMEQdoJFNgWNAjWGxa60VXdV)'
         confidence: high
 metadata:
   github:
@@ -38,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: A Google Colab notebook that provides a web-based interface for interacting with AI agents.
-  why_it_matters: It lowers the barrier to entry for developers to experiment with AI coding agents without local setup, making it a common starting point for LangChain exploration.
-  mental_damage: Another 'just click here and watch AI code' demo that makes you wonder if you'll ever need to write your own code again.
+  why_it_matters: >-
+    It lowers the barrier to entry for developers to experiment with AI coding agents without local setup, making it a
+    common starting point for LangChain exploration.
+  mental_damage: >-
+    Another 'just click here and watch AI code' demo that makes you wonder if you'll ever need to write your own code
+    again.
   tags:
     - colab
     - langchain
@@ -47,22 +52,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is a notebook-based interface for AI coding agents, fitting the coding-agents category as it enables autonomous code execution.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - "Seen in source lists: awesome-langchain with section 'Learn > Notebooks'"
-    - Primary page excerpt shows 'Sign in' header typical of Colab notebooks
-    - Colab notebooks are commonly used for demonstrating AI coding agents like Claude Code
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+  reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:36:26.253Z"
+    updated_at: '2026-09-24T04:36:26.253Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +87,18 @@ processing:
       input_hash: sha256:723170575c124c09a090501b7348298890a017c2cbd78bf832d7d2dc24ee6f6f
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: This is a notebook-based interface for AI coding agents, fitting the coding-agents category as it enables autonomous code execution.
+      decision_reason: >-
+        This is a notebook-based interface for AI coding agents, fitting the coding-agents category as it enables
+        autonomous code execution.
       decision_evidence:
-        - "Seen in source lists: awesome-langchain with section 'Learn > Notebooks'"
+        - 'Seen in source lists: awesome-langchain with section ''Learn > Notebooks'''
         - Primary page excerpt shows 'Sign in' header typical of Colab notebooks
         - Colab notebooks are commonly used for demonstrating AI coding agents like Claude Code
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because it is a direct interface for AI agents to perform coding tasks rather than extending another tool.
-      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because it is a direct interface for AI agents to perform coding
+        tasks rather than extending another tool.
+      review_reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
       review_resume_lifecycle: null

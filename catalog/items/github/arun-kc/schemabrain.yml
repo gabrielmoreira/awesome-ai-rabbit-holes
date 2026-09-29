@@ -80,13 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is built as an MCP-native server that exposes database capabilities to agents, fitting the core definition
-    of an MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Description explicitly identifies as 'MCP-native'
-    - Works with Claude Desktop, Cursor, and other MCP hosts
-    - Provides tools for database interaction via the Model Context Protocol
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is centered on measuring and scoring agent behavior through rule-based checks rather
-    than providing the agent itself.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - README claims to 'Benchmark your AI agent setup — not the model'
-    - Uses a 3-layer scoring system (structural, metrics, behavioral) to evaluate performance
-    - Offers comparison of runs and per-tool-call tracing
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: evals
   secondary_categories: []

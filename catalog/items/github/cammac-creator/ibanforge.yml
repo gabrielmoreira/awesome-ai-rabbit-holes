@@ -83,13 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is centered on providing specialized financial domain data as an MCP server to augment LLM
-    capabilities.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - README explicitly promotes 'one-click' installation for MCP-enabled tools like Claude Desktop and Cursor
-    - Offers a dedicated MCP server via npx
-    - Provides tools like `validate_iban` and `lookup_bic` specifically for agentic use
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
   secondary_categories: []

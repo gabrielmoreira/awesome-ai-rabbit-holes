@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is fundamentally an MCP server providing a specific domain of capabilities (data retrieval and analysis)
-    to any MCP-compatible client.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly identifies it as an 'Autario MCP server'.
-    - README describes installation for Claude Desktop, Cursor, and Cline via the MCP stdio/HTTP transport.
-    - Included in awesome-mcp-servers under 'Server Implementations > Data Platforms'.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

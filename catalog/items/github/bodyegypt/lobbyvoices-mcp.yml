@@ -68,19 +68,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server exposing domain-specific tools over the Model Context Protocol,
-    matching the MCP category's core requirement that MCP be the product's identity, not just a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - >-
-      Repo description: 'Official MCP server for Lobby (lobbyvoices.com) — 8 free, no-auth receptionist tools for AI
-      agents'
-    - >-
-      README: 'The official MCP server for Lobby [...] It gives any AI agent eight free, no-auth receptionist tools,
-      served remotely over Streamable HTTP'
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Conversational AI'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: AI & Model Services
 lifecycle:
   status: curated

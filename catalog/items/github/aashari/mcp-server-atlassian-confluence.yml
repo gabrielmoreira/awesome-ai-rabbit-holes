@@ -81,13 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is strictly a specialized MCP server designed to provide a specific domain's data to AI
-    hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly defines it as an 'MCP server for Atlassian Confluence'
-    - README focuses on connecting Claude and Cursor via the MCP interface
-    - Provides tools for listing/getting spaces and searching via CQL
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

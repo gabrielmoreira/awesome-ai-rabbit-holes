@@ -67,15 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is an MCP server that exposes domain-specific tools (Canvas LMS) via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly identifies it as a 'Local-first Canvas LMS MCP server'
-    - Exposes a specific set of tools (list_assignments, get_grades, etc.) over stdio transport
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
-  section: Cloud & API Integration
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: null

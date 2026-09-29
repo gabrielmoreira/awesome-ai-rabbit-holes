@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bloop__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Bloop
         anchor_text: Bloop
         extracted_url: https://bloop.ai
-        surrounding_text: "## [Bloop](https://bloop.ai/)"
+        surrounding_text: '## [Bloop](https://bloop.ai/)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: bloop.ai provides infrastructure to plan, orchestrate, and review the work of autonomous AI agents.
-  why_it_matters: It aims to let engineers delegate complex, multi-step development tasks to AI agents, turning them into high-velocity engineering managers.
-  mental_damage: Another AI 'manager' that promises to eliminate your toil while you watch autonomous agents debate GitHub issues in a kanban board.
+  why_it_matters: >-
+    It aims to let engineers delegate complex, multi-step development tasks to AI agents, turning them into
+    high-velocity engineering managers.
+  mental_damage: >-
+    Another AI 'manager' that promises to eliminate your toil while you watch autonomous agents debate GitHub issues in
+    a kanban board.
   tags:
     - ai-agents
     - workflow
@@ -48,22 +52,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is explicitly described as infrastructure for planning and orchestrating autonomous agents rather than a single coding assistant.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
   evidence:
-    - Claims to build tools to plan, orchestrate and review autonomous AI agents
-    - Focuses on long-running tasks and workflow orchestration
-    - Identifies as infrastructure to multiply engineering output
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Hosted Agent Platforms
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+  reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''coding-agents'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:35:00.361Z"
+    updated_at: '2026-09-24T04:35:00.361Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -85,14 +87,20 @@ processing:
       input_hash: sha256:88b1e06d4091c0f734fd8a21f35e5ea91d6773e0f7870a5ddba6e1fafd8fc16d
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: bloop.ai is a developer-facing platform whose core purpose is enabling autonomous AI agents to plan and execute coding tasks, fitting the Coding Agents category.
+      decision_reason: >-
+        bloop.ai is a developer-facing platform whose core purpose is enabling autonomous AI agents to plan and execute
+        coding tasks, fitting the Coding Agents category.
       decision_evidence:
         - README states it 'enables you to plan, orchestrate and review the work of autonomous AI agents'
         - Source-list context places it in 'awesome-ai-agents' under the Bloop section
-        - Description emphasizes infrastructure for 'long-running tasks' and 'multiplication of output' via agent workflows
+        - >-
+          Description emphasizes infrastructure for 'long-running tasks' and 'multiplication of output' via agent
+          workflows
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because bloop focuses on enabling agents to perform coding tasks rather than managing multiple agent workflows as its primary identity.
-      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because bloop focuses on enabling agents to perform coding tasks
+        rather than managing multiple agent workflows as its primary identity.
+      review_reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''coding-agents'''
       review_resume_lifecycle: null

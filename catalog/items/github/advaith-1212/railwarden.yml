@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It functions as an operated control plane and runtime that manages the execution, state, and integration of multiple
-    agents.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Explicitly defines itself as a 'deterministic execution and integration control plane'.
-    - Coordinates multiple agents across isolated Git worktrees with mechanical validation and review gates.
-    - Provides a durable execution ledger and state management independent of agent chat history.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

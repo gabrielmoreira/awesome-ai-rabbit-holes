@@ -70,19 +70,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    CrossFin’s core identity is an MCP server exposing crypto routing and payment tools, making MCP its primary protocol
-    identity rather than a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description: 'The only way AI agents access Asian crypto markets. Routing engine + x402 payments across 9
-      exchanges.'
-    - >-
-      README emphasizes MCP installation: 'Add this to your MCP client config' and lists 16 MCP tools like
-      find_optimal_route and call_paid_service.
-    - >-
-      Product positions itself as a financial router for AI agents, with x402 payment readiness and real-time Asian
-      premium data.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -58,17 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a core runtime/binding for executing models on local hardware, making it a foundational local AI
-    tool.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - Provides Python bindings for llama.cpp
-    - Supports local hardware acceleration (CUDA, Metal, OpenBLAS)
-    - Includes an OpenAI-compatible web server for local inference
+    - jev-latest choice confidence 0.52
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Inference Engines
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (10271) exceeded threshold (150)

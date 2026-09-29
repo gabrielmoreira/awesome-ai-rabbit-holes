@@ -104,15 +104,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server implementation whose primary identity is MCP infrastructure, not a compatibility footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP implementation for Opik
-    - README confirms it is an MCP server with stdio and streamable-http transports
-    - Listed in multiple MCP-focused awesome lists under Server Implementations
+    - jev-latest choice confidence 0.99
 placement:
-  primary_category: evals
+  primary_category: mcp
   secondary_categories: []
-  section: Observability & Tracing
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (202) exceeded threshold (150)

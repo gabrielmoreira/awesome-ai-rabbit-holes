@@ -66,13 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: it is a server that exposes OpenAPI endpoints as MCP tools, fitting the MCP-first
-    tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP server converting OpenAPI/Swagger specs to MCP tools
-    - README confirms it dynamically loads OpenAPI specs and provides them as MCP tools for AI agents
-    - Already listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

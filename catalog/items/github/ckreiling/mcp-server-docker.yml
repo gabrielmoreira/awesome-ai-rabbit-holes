@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing Docker management capabilities via the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP server for Docker'
-    - README details MCP server functionality for Docker (containers, images, volumes, networks)
-    - Already listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -74,15 +74,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is a quality-measurement utility that scores and detects specific patterns (slop) in AI
-    outputs, making it a specialized evaluation tool.
+  reason: Jev decision-model reclassifier placed this item in evals / Prompt Regression & Testing
   evidence:
-    - Provides a deterministic score and exit codes for CI/CD integration
-    - Functions as an MCP server to allow agents to self-evaluate their own prose
-    - Specifically designed to measure and identify 'slop' in AI-generated text
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: evals
+  secondary_categories: []
   section: Prompt Regression & Testing
 lifecycle:
   status: curated

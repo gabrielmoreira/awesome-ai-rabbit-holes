@@ -54,11 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly defined as an MCP server providing specific domain-related tools for Netbird.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description specifies 'MCP Server for Netbird'
-    - README defines a set of tools mapping Netbird API resources to MCP tools
-    - Provides read-only access to peers, groups, and policies via MCP
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

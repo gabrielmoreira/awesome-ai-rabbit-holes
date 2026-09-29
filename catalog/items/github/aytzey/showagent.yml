@@ -80,21 +80,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It functions as a session management harness that coordinates context and state transfer between multiple distinct
-    agent runtimes.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Context & Session Management
   evidence:
-    - >-
-      Repo description: 'Find local coding-agent sessions and copy their user and assistant messages into another
-      agent's native format.'
-    - >-
-      Source-list context: Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Session managers &
-      parallel runners'.
-    - 'README: Demonstrates switching conversation state between Codex, Claude Code, and Gemini CLI.'
+    - jev-latest choice confidence 0.59
 placement:
-  primary_category: agent-orchestration
+  primary_category: memory-and-context
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Context & Session Management
 lifecycle:
   status: curated
   reason: null

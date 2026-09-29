@@ -71,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a primary coding assistant that directly reads, plans, edits, and executes code in repos, matching the
-    canonical positive examples for this category.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''The open source coding agent'''
-    - 'README: Includes built-in agents (build, plan, general) for development work and code exploration'
-    - 'Source-list context: Listed in awesome-cli-coding-agents under ''Terminal-native coding agents > Open Source'''
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []

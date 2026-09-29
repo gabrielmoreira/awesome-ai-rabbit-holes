@@ -63,17 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The repository provides a core MCP server implementation to facilitate agreement execution via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
   evidence:
-    - README explicitly offers a local stdio MCP server package
-    - README provides a hosted MCP endpoint for remote execution
-    - Directly implements MCP protocol capability for agreement lifecycles
+    - jev-latest choice confidence 0.90
 placement:
-  primary_category: extensions-and-addons
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: API & Service Integrations
+  section: Multi-Agent Systems
 lifecycle:
   status: curated
   reason: null

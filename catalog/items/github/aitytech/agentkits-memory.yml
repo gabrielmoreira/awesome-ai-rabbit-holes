@@ -63,15 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a memory and retrieval system designed to manage context for other assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README claims it 'fixes' the issue of AI assistants forgetting everything between sessions.
-    - Uses SQLite/sqlite-vec for local persistence and semantic search.
-    - Implemented as an MCP server to inject context into various coding tools.
+    - jev-latest choice confidence 0.80
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

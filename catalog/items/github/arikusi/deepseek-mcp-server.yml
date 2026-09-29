@@ -73,13 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server implementation whose primary identity is providing DeepSeek model access via MCP
-    protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo description explicitly states it's an MCP server for DeepSeek V4
-    - README confirms MCP compatibility with multiple clients and official MCP registry listing
-    - Source-list context shows it's included in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

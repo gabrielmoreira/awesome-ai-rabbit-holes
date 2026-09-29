@@ -271,11 +271,14 @@ async function callJevWithRetry(
 
     if (res.ok) return res.json() as Promise<JevResponse>;
 
-    // Out of credit is a whole-run failure, not a per-item one: stop instead of
-    // repeating the same error for every remaining item.
-    if (res.status === 402) {
+    // Out of credit or over a key's limit is a whole-run failure, not a
+    // per-item one: stop instead of repeating the same error for every
+    // remaining item.
+    if (res.status === 402 || res.status === 403) {
       const body = await res.text();
-      throw new Error(`PROVIDER_OUT_OF_CREDIT 402: ${body.slice(0, 200)}`);
+      throw new Error(body.includes("Key limit exceeded")
+        ? `PROVIDER_KEY_LIMIT 403: ${body.slice(0, 240)}`
+        : `PROVIDER_OUT_OF_CREDIT ${res.status}: ${body.slice(0, 240)}`);
     }
 
     if ((res.status === 429 || res.status === 529) && attempt < maxRetries) {
@@ -681,6 +684,10 @@ async function main() {
     return;
   }
 
+  // A provider limit or credit failure stops the run: every later item would
+  // fail the same way, so we stop claiming work instead of retrying thousands
+  // of doomed calls.
+  let providerFailure: string | null = null;
   const sem = createSemaphore(args.concurrency);
   const results: ReclassifyResult[] = [];
   let done = 0;
@@ -701,6 +708,7 @@ async function main() {
   await Promise.all(
     toProcess.map(async (loaded) => {
       const release = await sem.acquire();
+      if (providerFailure) { release(); return; }
       try {
         const result = await reclassifyItem(loaded, context, client.apiKey, args.minConfidence);
         results.push(result);
@@ -740,7 +748,13 @@ async function main() {
           processedAt: new Date().toISOString(),
         });
         if (!args.dryRun) saveCacheThrottled();
-        console.error(`\nERROR ${loaded.item.id}: ${err instanceof Error ? err.message : String(err)}`);
+        const message = err instanceof Error ? err.message : String(err);
+        if (message.startsWith("PROVIDER_")) {
+          if (!providerFailure) { providerFailure = message; console.error(`\n${message}`); }
+          process.exitCode = 2;
+          return;
+        }
+        console.error(`\nERROR ${loaded.item.id}: ${message}`);
       } finally {
         release();
       }

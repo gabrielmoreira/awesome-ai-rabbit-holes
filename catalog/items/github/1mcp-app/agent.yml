@@ -66,11 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP middleware/aggregator that manages server lifecycles and tool discovery.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description defines it as a unified MCP server implementation
-    - README describes '1mcp serve' as an aggregated runtime for multiple upstream servers
-    - Provides a CLI mode specifically for managing tool discovery (inspect/run) for agents
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -61,15 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server whose core identity is exposing Browserless.io’s automation capabilities over MCP, making it a
-    pure MCP infrastructure fit rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - 'Repo description: ''Official MCP server for the Browserless.io'''
-    - >-
-      README: 'MCP (Model Context Protocol) server for Browserless.io — expose the Browserless smart scraper API to LLM
-      clients'
-    - Listed in awesome-mcp-servers under Browser Automation
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

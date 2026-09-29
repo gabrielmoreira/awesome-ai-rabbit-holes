@@ -61,13 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose primary identity is executing JavaScript in isolated containers, fitting the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as a Node.js-based MCP server
-    - README details its role as a sandboxed code execution server for MCP clients
-    - Listed in awesome-mcp-servers under Code Execution
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

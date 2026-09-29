@@ -73,16 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server providing Apple Music integration, not a secondary
-    adapter or compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'Full Apple Music integration for Claude via MCP'
-    - README details 11 MCP tools for Apple Music operations
-    - Already listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

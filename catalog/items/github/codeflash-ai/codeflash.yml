@@ -59,15 +59,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Codeflash is a standalone developer tool that delegates code optimization and correctness verification to an AI,
-    fitting coding-agents under Review, Testing & Repair Agents rather than a mere IDE add-on.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - Repo description presents it as a 'Coding super-intelligence' for optimizing Python and opening PRs.
-    - >-
-      README shows it generates optimization ideas, tests correctness, benchmarks performance, and creates merge-ready
-      pull requests as a primary workflow.
-    - Source list awesome-ai-coding-tools categorizes it under Testing and QA, aligning with review/repair agent work.
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: coding-agents
   secondary_categories: []

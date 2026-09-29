@@ -72,17 +72,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server exposing company signal data and tools, making MCP its primary purpose
-    rather than a secondary feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''Connection details, client configs and a stdio launcher for the hosted Bounce Watch MCP server'''
-    - >-
-      README states: 'This repository holds the connection details and client configs for the hosted Model Context
-      Protocol server' and lists MCP tools like `search_signals` and `get_company_signals`
-    - 'Source-list context: Included in awesome-mcp-servers under ''Customer Data Platforms'' section'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Data & Databases
 lifecycle:
   status: curated

@@ -107,20 +107,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core novelty is a memory and retrieval system designed to shape the context provided to an LLM.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Claims verbatim recall >= 99% via a local LanceDB and embedding-based architecture
-    - Uses capture and recall hooks to automate context injection at session start
-    - Primary identity is a 'memory system' rather than a generic MCP implementation
-    - >-
-      README describes it as a 'local memory layer' that captures session turns and serves a 'small slice of relevant
-      memory'
-    - Focuses on technical metrics like 'verbatim recall' and 'p95 latency'
-    - Provides an automated pipeline for embed -> dedup -> encrypted insert
+    - jev-latest choice confidence 0.61
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (289) exceeded threshold (150)

@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server whose primary identity is providing Solana DEX functionality via MCP, fitting the MCP Servers
-    & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - README explicitly describes it as a Model Context Protocol server for Jupiter API
-    - Source-list context places it in an MCP servers directory under Finance & Fintech
-    - Provides MCP configuration instructions and DXT for Claude Desktop
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

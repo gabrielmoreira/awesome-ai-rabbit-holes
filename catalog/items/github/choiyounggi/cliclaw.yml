@@ -77,17 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an extension that augments existing CLI coding agents with a remote session UI and workflow management via
-    Telegram.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
-    - Acts as a daemon that manages local coding CLI agents like Claude Code, Codex, Pi, and Gemini
-    - Provides a remote interface for tasking, progress streaming, and command approval via Telegram
-    - Does not perform coding tasks itself, but rather interfaces with existing authenticated local agents
+    - jev-latest choice confidence 0.42
 placement:
-  primary_category: agent-orchestration
+  primary_category: extensions-and-addons
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Claude Code & Agent Tools
 lifecycle:
   status: curated
   reason: null

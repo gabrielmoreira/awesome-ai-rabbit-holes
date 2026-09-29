@@ -69,13 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool acts as a domain-specific MCP server that provides agents with functional, governed capabilities for
-    Kubernetes cluster management.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Provides a suite of MCP tools wrapped in a '@governed_tool' harness for auditing and risk management
-    - Designed to be used as a standalone MCP server with clients like Claude Code or OpenClaw
-    - Includes safety features like runaway budget guards and undo-token recording for cluster operations
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

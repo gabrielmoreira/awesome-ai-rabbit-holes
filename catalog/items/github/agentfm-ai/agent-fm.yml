@@ -74,15 +74,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is an add-on that augments Claude Code and Codex with a monitoring UI and audio narration layer, not a standalone
-    coding agent.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      README states the app listens to Claude Code and Codex sessions and surfaces them as stations; it does not read,
-      plan, or edit code itself.
-    - Repo topics include agent-monitoring, audio, and voice-assistant, not code generation or repo editing.
-    - Primary value proposition is augmenting existing terminal agents with ambient awareness and blocker alerts.
+    - jev-latest choice confidence 0.65
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

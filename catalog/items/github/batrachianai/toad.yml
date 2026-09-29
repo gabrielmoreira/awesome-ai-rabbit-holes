@@ -65,15 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Toad is a primary coding assistant interface that directly orchestrates multiple agents in a terminal workflow,
-    fitting the core definition of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''A unified interface for AI in your terminal'''
-    - 'README: ''Toad is an interface to coding agents, such as Claude, Gemini, Codex, OpenHand, and many more'''
-    - >-
-      Source-list context: Listed under 'Harnesses & orchestration > Session managers & parallel runners' in
-      awesome-cli-coding-agents
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

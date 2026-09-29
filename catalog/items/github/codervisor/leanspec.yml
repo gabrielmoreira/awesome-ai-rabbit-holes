@@ -82,22 +82,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Core product identity is a spec-first framework for planning, validation, and AI-assisted development workflows.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Workflow & Graph Engines
   evidence:
-    - Repo description explicitly calls it 'Spec-Driven Development (SDD)'
-    - README emphasizes tool-agnostic spec backends (GitHub, ADO, Jira, markdown) with unified AI integration
-    - Includes MCP server, CLI, and UI for spec visualization and management
-    - Repo description explicitly frames it as 'Lightweight, flexible Spec-Driven Development (SDD)'
-    - >-
-      README centers on a spec-provider architecture, CLI, and AI-native structured specs rather than being a coding
-      assistant or extension
-    - >-
-      Listed in awesome-spec-driven-development under Specification Tools and matches the category's canonical positive
-      'lean-spec'
+    - jev-latest choice confidence 0.59
 placement:
-  primary_category: coding-agents
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Spec-First & Plan-Execute
+  section: Workflow & Graph Engines
 lifecycle:
   status: curated
   reason: Stars (238) exceeded threshold (150)

@@ -63,11 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is strictly an MCP server that provides specialized tool capabilities to an existing host.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo description explicitly identifies as an 'MCP server for ByteDance Seedream'
-    - README focuses on providing tools like `seedream_generate_image` to MCP-compatible clients
-    - Product is an adapter/interface between an API and an MCP host
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -68,11 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for a specific domain (MiSTer-FPGA), making MCP its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description identifies it as an MCP server for MiSTer-FPGA
-    - README explicitly states it is the first MCP server for MiSTer-FPGA
-    - Source-list context places it in awesome-mcp-servers under Embedded System
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -70,23 +70,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product itself functions as a developer-facing coding assistant that plans, writes, reviews, tests, and deploys
-    code across a repo via CLI orchestration, making it a coding agent rather than an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'Autonomous AI dev team — 9 Claude agents run as an agile team: plan sprints, write code,
-      review, test, deploy. Runs 24/7 via cron.'
-    - >-
-      README: Agents implement features, write tests, review code, handle DevOps, QA, security, and sync with
-      GitLab/GitHub issues and MRs.
-    - >-
-      Uses Claude Code CLI directly via `claude --print --allowedTools` to perform coding tasks without requiring API
-      keys.
+    - jev-latest choice confidence 0.72
 placement:
-  primary_category: coding-agents
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Autonomous & Multi-Agent Coding
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: null

@@ -86,17 +86,12 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Pronounce is primarily an extension that adds pronunciation capabilities to developer tools like VS Code, Claude
-    Code, and GitHub Actions, rather than being a standalone coding agent or app builder.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / IDE & Editor Add-ons
   evidence:
-    - README highlights VS Code extension, GitHub Action, and MCP server as key distribution methods
-    - Repo description frames it as a 'sourced dictionary + CLI + VS Code + GitHub Action + MCP + Agent Skill'
-    - >-
-      Core utility is augmenting existing workflows (terminal, editor, CI) with pronunciation lookup, not autonomous
-      coding
+    - jev-latest choice confidence 0.54
 placement:
   primary_category: extensions-and-addons
+  secondary_categories: []
   section: IDE & Editor Add-ons
 lifecycle:
   status: curated

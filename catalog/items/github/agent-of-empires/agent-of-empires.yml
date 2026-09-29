@@ -100,13 +100,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool acts as a control plane and runtime harness for managing multiple concurrent coding agent sessions,
-    worktrees, and sandboxed environments.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README defines the tool as a 'session manager for AI coding agents' that runs them in parallel
-    - Provides TUI, web, and CLI surfaces to monitor and manage multiple agent processes
-    - Uses tmux, git worktrees, and Docker/Podman for session isolation and persistence
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

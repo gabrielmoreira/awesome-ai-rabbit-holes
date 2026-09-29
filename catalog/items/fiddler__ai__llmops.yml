@@ -73,18 +73,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Fiddler AI is primarily an observability and monitoring platform for LLM applications, focusing on tracking metrics,
-    detecting risks, and ensuring trustworthiness—core evals functions—rather than being a coding agent, framework, or
-    app builder.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - >-
-      Scraped site context: 'Fiddler empowers AI teams with LLM observability, providing tools to monitor, analyze, and
-      safeguard large language models (LLMs) and their applications.'
-    - 'Source-list context: Included in Awesome-LLMOps under LLMOps section for LLM observability.'
-    - >-
-      README excerpt: Tracks 50+ out-of-the-box LLM metrics (hallucination, toxicity, jailbreak activity, PII exposure)
-      and enables root cause analysis on prompt injection attacks.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: evals
   secondary_categories: []

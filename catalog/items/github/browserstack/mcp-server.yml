@@ -62,18 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server providing BrowserStack's testing capabilities over MCP, not a coding
-    agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - 'Repo description: ''BrowserStack''s Official MCP Server'''
-    - >-
-      README: 'Manage test cases, execute manual or automated tests, debug issues, and even fix code—directly within
-      tools like Cursor, Claude, or any MCP-enabled client'
-    - 'Seen in source list: awesome-mcp-servers under ''Official Servers'''
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
-  section: Dev & Code Tools
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: curated
   reason: Stars (152) exceeded threshold (150)

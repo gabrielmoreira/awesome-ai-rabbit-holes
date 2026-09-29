@@ -61,17 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is a host integration (Chrome Extension) that augments AI agents with browser automation capabilities,
-    rather than being a primary coding assistant or standalone platform.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
-    - Repo description identifies it as 'AgenticShell'
-    - README explicitly positions it as a Chrome Extension for AI agents to browse the web via Linux commands
-    - Listed in awesome-mcp-servers under 'Browser Automation' as a server implementation
+    - jev-latest choice confidence 0.46
 placement:
-  primary_category: mcp
+  primary_category: extensions-and-addons
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Claude Code & Agent Tools
 lifecycle:
   status: curated
   reason: null

@@ -101,17 +101,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool augments the existing git/IDE workflow by adding an attribution layer to other coding assistants rather
-    than acting as an assistant itself.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - README describes it as a 'source-line authorship layer' that 'hooks into every major AI coding agent'
-    - Provides a CLI tool (agentdiff list) to query authorship evidence stored in git history
-    - Explicitly contrasts itself against primary assistants, positioning itself as an additive provenance layer
+    - jev-latest choice confidence 0.50
 placement:
-  primary_category: extensions-and-addons
+  primary_category: evals
   secondary_categories: []
-  section: Security & DevSecOps
+  section: Observability & Tracing
 lifecycle:
   status: curated
   reason: null

@@ -107,19 +107,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product’s entire identity is a Model Context Protocol server implementation; it is built, distributed, and
-    listed as domain-specific MCP infrastructure for Kubernetes.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies it as a 'Model Context Protocol (MCP) server for Kubernetes and OpenShift'.
-    - >-
-      README states it is a 'Go-based native implementation' distributed as an MCP server via npm, PyPI, and native
-      binaries.
-    - Listed in awesome-mcp-servers and awesome-mcp-list under Cloud Platforms / Server Implementations.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (1532) exceeded threshold (150)

@@ -57,13 +57,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is an MCP server whose core identity is providing health reporting via the Model Context Protocol, making MCP the
-    primary product rather than a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server for AOS-compliant agent health reporting'''
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
-    - Provides a pip-installable package with agent card and MCP client configuration
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
   secondary_categories: []

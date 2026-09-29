@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool acts as a terminal-based control plane/workbench for coordinating and running multiple independent agents
-    in parallel.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README describes it as a TUI for running parallel coding agents
-    - Uses git worktrees to provide isolation for multiple workspaces
-    - Works with multiple existing assistants like Claude Code, Codex, and Gemini
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

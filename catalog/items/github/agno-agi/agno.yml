@@ -81,17 +81,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Agno acts as a comprehensive runtime and control plane for deploying and managing agentic workflows, rather than
-    just a library for coding agents.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - README describes it as a 'framework and runtime for agent platforms' with a 'AgentOS runtime' and 'AgentOS UI'
-    - Offers production-grade features like JWT-based RBAC, scheduling, and observability
-    - High ecosystem traction with over 41k stars
+    - jev-latest choice confidence 0.83
 placement:
-  primary_category: agent-orchestration
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (39948) exceeded threshold (150)

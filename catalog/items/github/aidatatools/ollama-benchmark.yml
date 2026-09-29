@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core function is measuring performance metrics (throughput/tokens per second), which falls directly under
-    evaluation and benchmarking.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - README claims to 'Measure how fast your local LLMs really are'
-    - Focuses on throughput and tokens-per-second truth
-    - Includes custom benchmark model configuration via YAML
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: evals
   secondary_categories: []

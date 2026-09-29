@@ -113,13 +113,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product acts as a control plane and runtime platform for managing agent workflows and scaling them as
-    microservices.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README defines it as an 'open-source control plane' for routing, coordination, and async execution.
-    - Claims to scale from one agent on a laptop to ten thousand via the control plane.
-    - Provides SDKs (Python, Go, TypeScript) and a REST API for agent interaction.
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

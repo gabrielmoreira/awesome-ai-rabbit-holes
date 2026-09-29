@@ -55,11 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity here: it is a dedicated MCP server for OpenAPI validation, not a compatibility footnote.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP server for validating OpenAPI specs
-    - README confirms it implements MCP and integrates with Claude Desktop as an MCP server
-    - Source-list context shows it is curated under awesome-mcp-servers
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

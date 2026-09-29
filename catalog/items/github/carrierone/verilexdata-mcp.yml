@@ -79,13 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is exposing datasets via the Model Context Protocol, fitting
-    the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is an MCP server for Verilex Data
-    - README details 20 structured datasets accessible via MCP
-    - Listed in awesome-mcp-servers under Server Implementations > Data Platforms
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

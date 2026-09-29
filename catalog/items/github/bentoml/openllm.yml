@@ -111,15 +111,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Core product identity is a local/self-hosted serving layer for LLMs, aligning with Local AI's focus on private,
-    self-hosted execution.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Local API Servers
   evidence:
-    - 'Repo description: ''Run any open-source LLMs... as OpenAI compatible API endpoint in the cloud'''
-    - 'README: ''OpenLLM allows developers to run any open-source LLMs... as OpenAI-compatible APIs with a single command'''
-    - >-
-      Source-list context: Listed under 'Large Scale Deployment > ML Platforms' in Awesome-LLMOps and 'Inference' in
-      awesome-LLM-resources
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: local-ai
   secondary_categories: []

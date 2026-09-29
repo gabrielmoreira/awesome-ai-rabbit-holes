@@ -56,16 +56,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server implementation, with MCP as its primary identity, serving a specific domain
-    (Shahnameh).
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description identifies it as an MCP server for Shahnameh
-    - README confirms it wraps the Shahnameh API and dataset as an MCP server
-    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

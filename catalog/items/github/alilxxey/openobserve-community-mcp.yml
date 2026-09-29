@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing OpenObserve API access via MCP, fitting the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly describes it as a 'stdio MCP server for OpenObserve Community Edition'
-    - Provides MCP tools like list_streams, search_logs, get_dashboard for MCP clients
-    - Published as MCP server with glama.ai badge and Docker support
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

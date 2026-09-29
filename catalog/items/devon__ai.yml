@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__devon__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: Devon
         extracted_url: https://devon.ai
-        surrounding_text: "- **[Devon](https://devon.ai/)** – AI software engineer for autonomous coding."
+        surrounding_text: '- **[Devon](https://devon.ai/)** – AI software engineer for autonomous coding.'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: Devon.ai is a coding agent that autonomously plans and executes code-related tasks across developer environments.
-  why_it_matters: It lets developers delegate autonomous code planning, writing, and testing to an agent that operates across terminals, IDEs, or browsers.
-  mental_damage: The anxiety of handing over your codebase to an autonomous agent that might rewrite your entire project while you watch helplessly.
+  why_it_matters: >-
+    It lets developers delegate autonomous code planning, writing, and testing to an agent that operates across
+    terminals, IDEs, or browsers.
+  mental_damage: >-
+    The anxiety of handing over your codebase to an autonomous agent that might rewrite your entire project while you
+    watch helplessly.
   tags:
     - coding-agents
     - ai-dev-extensions
@@ -46,21 +50,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Devon.ai is included as a coding agent because it autonomously performs coding tasks like planning, writing, and testing across environments, matching the core identity of the category.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - Listed in awesome-ai-coding-tools under 'Coding Agents' section, indicating curation as a primary coding tool
-    - README excerpt describes it as an 'autonomous coding agent' that 'plans and executes tasks' across developer environments
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+  reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +72,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:37:41.163Z"
+    updated_at: '2026-09-24T04:37:41.163Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,13 +85,19 @@ processing:
       input_hash: sha256:445c35cebc729120ff48a22b9e93175f458ffa0c1ffd2465efb8a8742c997c20
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Devon.ai is included as a coding agent because it autonomously performs coding tasks like planning, writing, and testing across environments, matching the core identity of the category.
+      decision_reason: >-
+        Devon.ai is included as a coding agent because it autonomously performs coding tasks like planning, writing, and
+        testing across environments, matching the core identity of the category.
       decision_evidence:
         - Listed in awesome-ai-coding-tools under 'Coding Agents' section, indicating curation as a primary coding tool
-        - README excerpt describes it as an 'autonomous coding agent' that 'plans and executes tasks' across developer environments
+        - >-
+          README excerpt describes it as an 'autonomous coding agent' that 'plans and executes tasks' across developer
+          environments
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Devon.ai is a standalone autonomous coding agent rather than an add-on that extends another agent's functionality.
-      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Devon.ai is a standalone autonomous coding agent rather than
+        an add-on that extends another agent's functionality.
+      review_reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
       review_resume_lifecycle: null

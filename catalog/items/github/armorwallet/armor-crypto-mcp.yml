@@ -83,13 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the primary product identity, and the server provides domain-specific (crypto/finance) capabilities to AI
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for blockchain interactions
-    - README details MCP setup and usage with Claude Desktop, Cline, and n8n
-    - Listed in awesome-mcp-servers under Finance & Fintech
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

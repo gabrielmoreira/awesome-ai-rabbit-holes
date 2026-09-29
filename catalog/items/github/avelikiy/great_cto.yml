@@ -97,13 +97,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool acts as a control plane and runtime that coordinates a multi-agent pipeline rather than being a single
-    agent or a simple host extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Runs Claude Code as a pipeline of 70 specialist agents
-    - Provides a dashboard for managing decisions, costs (ledger), and agent reliability (fleet)
-    - Uses human-in-the-loop checkpoints to approve architecture, implementation, and deployment
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

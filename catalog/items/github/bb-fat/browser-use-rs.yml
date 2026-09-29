@@ -62,17 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the primary product identity here as a browser automation server implementation, not just a compatibility
-    feature.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly states it's a Rust library with built-in MCP integration
-    - README highlights MCP server as a core feature ('Run the built-in MCP server for AI-driven automation')
-    - Already listed in awesome-mcp-servers under Browser Automation
+    - jev-latest choice confidence 0.81
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Browser & Web Automation
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

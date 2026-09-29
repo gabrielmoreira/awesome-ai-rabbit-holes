@@ -66,17 +66,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here - this is explicitly an MCP server exposing CompetLab's competitive intelligence
-    data through the protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies it as a 'Competitive intelligence MCP server'
-    - README shows it implements MCP protocol with both HTTP and stdio transports
-    - Product is listed in Glama MCP registry
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

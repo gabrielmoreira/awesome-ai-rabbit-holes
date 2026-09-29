@@ -69,13 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a standalone desktop application whose primary identity is built around local-first execution via Whisper and
-    Ollama.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
   evidence:
-    - README claims '100% local-capable' and 'Fully offline with local Whisper'
-    - Supports local LLMs via Ollama
-    - Standalone macOS desktop application
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: local-ai
   secondary_categories: []

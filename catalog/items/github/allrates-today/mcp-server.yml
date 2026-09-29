@@ -100,16 +100,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is a specialized MCP server that exposes a specific domain (forex) via the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly identifies it as an MCP server for Claude Code, Cursor, and Windsurf.
-    - README defines specific MCP tools like get_exchange_rate and get_historical_rates.
-    - The product is a dedicated server implementation for the Model Context Protocol.
-    - Repo description explicitly states it is an MCP server for FX data
-    - README confirms it exposes 4 tools for currency data via MCP 1.x protocol
-    - Supports multiple MCP clients (Claude Code, Cursor, Windsurf, etc.)
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

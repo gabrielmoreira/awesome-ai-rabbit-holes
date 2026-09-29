@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server whose primary identity is exposing healthcare vendor data via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly identifies it as an MCP server for healthcare provider data
-    - README details MCP tools (`match_practice`, `search_providers`, `get_provider_detail`) and MCP endpoint usage
-    - Listed in `awesome-mcp-servers` under Biology/Medicine section
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

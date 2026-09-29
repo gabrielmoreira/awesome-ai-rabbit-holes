@@ -53,13 +53,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is described as an agentic system for writing, debugging, and maintaining code, making it a direct coding
-    agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
   evidence:
-    - Claims to resolve 62.2% of issues on swe-bench-verified
-    - Focuses on 'how agentic systems can reshape the way software is written, debugged, and maintained'
-    - Uses scaling test-time inference with Sonnet 3.5
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: coding-agents
   secondary_categories: []

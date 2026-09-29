@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aidevboard__com__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - MCP Servers and Directories
         anchor_text: AI Dev Jobs MCP
         extracted_url: https://aidevboard.com/mcp
-        surrounding_text: "- **[AI Dev Jobs MCP](https://aidevboard.com/mcp)** – Search 5,400+ AI developer jobs with salary data via MCP. REST API also available."
+        surrounding_text: >-
+          - **[AI Dev Jobs MCP](https://aidevboard.com/mcp)** – Search 5,400+ AI developer jobs with salary data via
+          MCP. REST API also available.
         confidence: high
 metadata:
   github:
@@ -37,7 +39,9 @@ metadata:
     readme: null
 insights:
   summary: A directory and collection of Model Context Protocol (MCP) servers.
-  why_it_matters: It helps developers find pre-built connectors to give AI agents access to external data and tools via the MCP standard.
+  why_it_matters: >-
+    It helps developers find pre-built connectors to give AI agents access to external data and tools via the MCP
+    standard.
   mental_damage: Just another layer of abstraction to manage in your quest to give an LLM a keyboard and a browser.
   tags:
     - mcp
@@ -47,22 +51,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The item is a directory page listing MCP servers and directories, fitting the 'Lists & Directories' category as a navigation aid for developers.
+  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
   evidence:
-    - URL is https://aidevboard.com/mcp, indicating a directory page specifically for MCP.
-    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
-    - No code repository or product execution surface exists; it is a discovery resource.
+    - jev-latest choice confidence 0.49
 placement:
-  primary_category: mcp
+  primary_category: awesome-awesomes
   secondary_categories: []
-  section: Registries & Discovery
+  section: Awesome Lists & Directories
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,10 +73,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:33:24.270Z"
+    updated_at: '2026-09-24T04:33:24.270Z'
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for aidevboard__com__mcp: Invalid AI response structure: Missing required field: mental_damage"
+      message: >-
+        Catalog LLM categorization failed for aidevboard__com__mcp: Invalid AI response structure: Missing required
+        field: mental_damage
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -93,6 +97,8 @@ processing:
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because its primary identity is a specialized registry for the MCP protocol rather than a general-purpose AI tooling directory.
-      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over awesome-awesomes because its primary identity is a specialized registry for the MCP protocol
+        rather than a general-purpose AI tooling directory.
+      review_reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
       review_resume_lifecycle: null

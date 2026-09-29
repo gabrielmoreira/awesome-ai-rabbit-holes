@@ -66,15 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a standalone terminal-native coding assistant that directly reads, edits, and reviews code, fitting the
-    primary identity of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''A multi-provider AI coding agent with the persona of a Tech-Priest'''
-    - >-
-      README: 'Binharic is a terminal-based AI coding assistant... with features like analyzing projects, running tests,
-      finding bugs, and performing code review'
-    - 'Source-list context: Listed under ''Terminal-native coding agents > Open Source'' in awesome-cli-coding-agents'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []

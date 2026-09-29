@@ -3,11 +3,11 @@
 
 Awesome lists, curated directories, ecosystem maps, newsletters, and publications for discovering tools and staying current with AI development.
 
-_33 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_35 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Awesome Lists & Directories](#awesome-lists--directories) — 23
+- [Awesome Lists & Directories](#awesome-lists--directories) — 25
 - [Ecosystem Maps & Landscapes](#ecosystem-maps--landscapes) — 2
 - [Publications & Feeds](#publications--feeds) — 8
 
@@ -125,6 +125,14 @@ _33 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `ai-apps` `directory` `open-source` `typescript`
   </details>
+- **[clankwright/satring](https://github.com/clankwright/satring)** `⭐ 7` `updated ≤90d` A curated registry of paid APIs that support autonomous agent payments via Bitcoin Lightning, USDC, or Stripe/Tempo. <details><summary>More about</summary>
+
+  It provides the discovery and payment infrastructure necessary for AI agents to autonomously procure the external services they need to complete complex workflows.
+
+  _We have officially reached the stage where we are building decentralized marketplaces just so our bots can buy their own microservices._
+
+  `agents` `lightning-network` `api-registry` `mpp` `l402`
+  </details>
 - **[All skills →](https://awesome-copilot.github.com/skills)** A curated list of community-contributed instructions, agents, skills, and configurations for GitHub Copilot. <details><summary>More about</summary>
 
   Helps developers extend GitHub Copilot's behavior using community-tested skill packs and configurations.
@@ -141,13 +149,21 @@ _33 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `directory` `curation` `discovery`
   </details>
-- **[DIDLogic](https://didlogic.com)** A collection of Model Context Protocol (MCP) server implementations. <details><summary>More about</summary>
+- **[AskToSell](https://asktosell.com)** AskToSell is a curated directory of AI autonomous agents for software development. <details><summary>More about</summary>
 
-  It provides a curated list of standardized connectors to give AI assistants access to external tools and data sources.
+  It helps developers discover and evaluate autonomous agents that can plan and execute coding tasks, reducing the time spent searching for reliable AI coding assistants.
 
-  _Because one protocol to rule them all is the only way to stop manually copy-pasting JSON into your chat window._
+  _Another directory of AI agents that promises to solve the problem of too many AI agents._
 
-  `mcp` `protocols` `integrations` `ai-tooling`
+  `ai-agents` `curated-list` `developer-tools`
+  </details>
+- **[AutoGen AIStudio](https://autogen-studio.com)** A curated list of AI tools, agents, and workflows for software developers. <details><summary>More about</summary>
+
+  This catalog helps developers discover practical AI tools that integrate into their workflows, reducing manual effort and improving productivity.
+
+  _Another AI tool list, because the last 17 this week already promised to 'revolutionize' your workflow while quietly eating your time._
+
+  `ai-dev-extensions` `curated-lists`
   </details>
 - **[HuggingFace](https://huggingface.co)** Hugging Face is a platform for hosting, discovering, and collaborating on machine learning models, datasets, and applications. <details><summary>More about</summary>
 

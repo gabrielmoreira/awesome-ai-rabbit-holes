@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is a persistent memory system for AI agents, which falls under context and memory infrastructure
-    rather than being a primary assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - 'Repo description: ''Persistent memory for AI agents. Agents forget. CI remembers.'''
-    - README explicitly describes it as a memory system with MCP tools for storing, recalling, and sharing information.
-    - Benchmarks (LifeBench, LongMemEval, AMB) focus on memory performance, not coding or orchestration.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: memory-and-context
   secondary_categories: []

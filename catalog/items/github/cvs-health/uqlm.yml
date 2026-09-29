@@ -70,13 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job of UQLM is measuring and mitigating hallucinations in LLM outputs, which aligns with the evals
-    category's focus on measuring model behavior.
+  reason: Jev decision-model reclassifier placed this item in evals / Safety, Fairness & Red-teaming
   evidence:
-    - Repo description explicitly states it is for 'UQ-based LLM hallucination detection'
-    - README details multiple scorer types for quantifying uncertainty in LLM outputs
-    - Published in JMLR/TMLR and cited in arXiv, indicating academic and practical evaluation focus
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: evals
   secondary_categories: []

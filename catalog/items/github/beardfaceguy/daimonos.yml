@@ -60,13 +60,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is primarily an MCP server that optimizes agent context by providing structured tool outputs instead of
-    raw text.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Runs as an MCP server to provide tools like git, cargo, and docker
-    - Replaces raw terminal output with compact JSON to reduce token consumption
-    - Provides semantic filters for non-native tools like pytest and eslint
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: mcp
   secondary_categories: []

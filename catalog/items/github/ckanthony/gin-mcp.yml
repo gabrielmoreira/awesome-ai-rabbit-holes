@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity: it is a library that turns Gin APIs into MCP servers, not just an adapter or
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it enables MCP features for Gin APIs
-    - README emphasizes zero-config MCP server creation for existing Gin routes
-    - Already listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: mcp
   secondary_categories: []

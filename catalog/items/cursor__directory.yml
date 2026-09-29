@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cursor__directory__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -18,7 +18,7 @@ provenance:
           - Directories
         anchor_text: CursorDirectory
         extracted_url: https://cursor.directory
-        surrounding_text: "- [CursorDirectory](https://cursor.directory/)"
+        surrounding_text: '- [CursorDirectory](https://cursor.directory/)'
         confidence: high
 metadata:
   github:
@@ -46,21 +46,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It functions as a registry of reusable rule packs meant to augment a coding assistant's behavior.
+  reason: Jev decision-model reclassifier placed this item in skills / Registries & Directories
   evidence:
-    - Name and URL indicate a directory for Cursor-specific configurations
-    - Source-list context links it to the curation of Cursor enhancement rules
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: skills
   secondary_categories: []
-  section: null
+  section: Registries & Directories
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'skills', proposed 'awesome-awesomes'"
+  reason: 'Categorization review required: placement disagreement: retained ''skills'', proposed ''awesome-awesomes'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +68,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:55:14.841Z"
+    updated_at: '2026-09-28T04:55:14.841Z'
     cause: null
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
@@ -82,7 +81,9 @@ processing:
       input_hash: sha256:9447a360dcd8406ad95379a629a36cfccbe39f87514ecdf4bdc714fa45b95982
       proposed_primary_category: awesome-awesomes
       disagreement: true
-      decision_reason: It is a curated directory of configuration files for Cursor, fitting the role of a developer-facing resource list.
+      decision_reason: >-
+        It is a curated directory of configuration files for Cursor, fitting the role of a developer-facing resource
+        list.
       decision_evidence:
         - Listed in awesome-cursorrules as a Directories section resource
         - Provides .cursorrules files to enhance Cursor AI editor experience with custom rules and behaviors
@@ -90,6 +91,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - skills
-      contrastive_reason: Choose awesome-awesomes over skills because the project is a directory of configuration files for Cursor, not a reusable skill pack or agent behavior extension installed into an agent.
-      review_reason: "Categorization review required: placement disagreement: retained 'skills', proposed 'awesome-awesomes'"
+      contrastive_reason: >-
+        Choose awesome-awesomes over skills because the project is a directory of configuration files for Cursor, not a
+        reusable skill pack or agent behavior extension installed into an agent.
+      review_reason: 'Categorization review required: placement disagreement: retained ''skills'', proposed ''awesome-awesomes'''
       review_resume_lifecycle: null

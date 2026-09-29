@@ -65,13 +65,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    AgentRPC's core function is enabling inter-agent communication via RPC, placing it squarely in agent orchestration
-    as infrastructure for coordinating multiple agents rather than being a coding agent or MCP-first tool.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Listed in awesome-mcp-servers under 'Official Servers' section, indicating recognition in MCP ecosystem
-    - Described as a 'universal RPC layer for agents' in agent-orchestration canonical positives
-    - Focuses on agent-to-agent communication rather than coding tasks or MCP server functionality
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

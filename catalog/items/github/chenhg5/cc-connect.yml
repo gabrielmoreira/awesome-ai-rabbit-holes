@@ -64,17 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly a bridge to existing coding agents rather than a primary coding assistant itself, fitting
-    squarely as an integration layer that adds messaging-platform access.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / API & Service Integrations
   evidence:
-    - >-
-      Repo description frames the project as a bridge between local AI coding agents and messaging platforms, not a
-      code-authoring agent.
-    - >-
-      README emphasizes chatting with Claude Code, Cursor, Gemini CLI, and Codex from Slack, Telegram, Discord, etc.,
-      confirming the integration-layer identity.
-    - Over 10k stars and active pushes signal strong traction as a developer workflow connector.
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []

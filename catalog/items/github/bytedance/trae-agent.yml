@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a primary coding assistant with a CLI interface that directly plans, executes, and debugs software engineering
-    tasks, fitting the core definition of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly states it is an LLM-based agent for general-purpose software engineering tasks
-    - README highlights features like file editing, bash execution, and trajectory recording for debugging
-    - Source-list context places it under 'Terminal-native coding agents > Open Source'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []

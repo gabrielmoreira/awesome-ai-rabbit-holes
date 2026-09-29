@@ -54,15 +54,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server designed to provide external context to an LLM host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Claims to be an MCP server in README and site context
-    - Provides type signatures and prose docs for npm packages
-    - Found in awesome-mcp-servers
+    - jev-latest choice confidence 0.99
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Retrieval & Fresh Docs
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

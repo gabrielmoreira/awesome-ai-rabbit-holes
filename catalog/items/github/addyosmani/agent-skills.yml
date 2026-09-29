@@ -66,13 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is the distribution of installable rule packs and slash-command sets for existing
-    agents, which fits the specific definition of the skills category.
+  reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
-    - README describes the product as 'Production-grade engineering skills for AI coding agents'
-    - The tool is installed into agents like Claude Code and Cursor via 'npx skills add'
-    - The core value is a set of 9 slash commands and reusable rule content rather than a standalone tool or executable
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: skills
   secondary_categories: []

@@ -77,13 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a context engineering system focused on compression, deterministic inference, and truth
-    maintenance for AI agents, not a primary assistant, extension, or framework.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
   evidence:
-    - Repo description explicitly calls it a 'context engineering engine for AI agents'
-    - README emphasizes deterministic inference, token reduction, and truth maintenance as primary features
-    - Integrates with multiple frameworks (LangChain, CrewAI, MCP) but is not itself an assistant or extension
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: memory-and-context
   secondary_categories: []

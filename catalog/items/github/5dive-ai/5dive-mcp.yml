@@ -67,15 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It serves as a workflow extension that brings 5dive's agent management capabilities into MCP-compatible hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Exposes 5dive CLI tools (tasks, agents, digest) via stdio MCP
-    - Acts as a thin adapter for the existing 5dive binary
-    - Enables tasking and fleet inspection within Claude Desktop, Cursor, and Cline
+    - jev-latest choice confidence 0.96
 placement:
-  primary_category: agent-orchestration
+  primary_category: mcp
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

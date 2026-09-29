@@ -63,17 +63,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    BGI is primarily an MCP server exposing architectural analysis tools over the Model Context Protocol, with its core
-    identity tied to MCP registration and tooling rather than standalone analysis or agent behavior.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      The README emphasizes MCP Registry publication and provides MCP-specific usage: 'bgi mcp --graph bgi-graph.json
-      --fuse-graph fuse-graph.json'
-    - >-
-      It exposes MCP tools like `task_fingerprint`, `behavioral_twins`, and `twin_context` to ground AI prompts in repo
-      behavior
-    - Listed in awesome-mcp-servers under 'Developer Tools' as an MCP server implementation
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: mcp
   secondary_categories: []

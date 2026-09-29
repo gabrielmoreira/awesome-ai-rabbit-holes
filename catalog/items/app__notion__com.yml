@@ -50,19 +50,12 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Notion's primary value is providing a hosted platform where users can build, manage, and orchestrate AI agents
-    alongside team workflows, making it a control plane for agent teams rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
   evidence:
-    - >-
-      Scraped site description: 'Build and orchestrate agents right alongside your team's projects, meetings, and
-      connected apps.'
-    - 'Scraped site title: ''Notion | Where teams and agents work together'''
-    - >-
-      No evidence of being a coding agent, IDE extension, or standalone framework — focuses on agent orchestration in a
-      collaborative workspace
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: agent-orchestration
+  secondary_categories: []
   section: Hosted Agent Platforms
 lifecycle:
   status: curated

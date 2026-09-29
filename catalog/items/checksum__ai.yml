@@ -54,13 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a specialized agentic system designed to autonomously repair and maintain test code, fitting the
-    'Repair Agents' definition.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - Claims to resolve 70% of failures autonomously without engineer intervention
-    - Provides specialized E2E, CI, and API agents
-    - Generates and heals Playwright tests automatically
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: coding-agents
   secondary_categories: []

@@ -60,17 +60,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is a code-first library for wrapping and extending LangChain chat models, making it a reusable SDK for LLM
-    provider abstraction rather than a standalone agent or orchestration tool.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
-    - >-
-      Repo description: 'LangChain chat model abstractions for dynamic failover, load balancing, chaos engineering, and
-      more!'
-    - README shows subclassing BaseChatModel to add custom logic like failover, load balancing, and chaos injection
-    - >-
-      Not archived, last pushed Jan 2024, MIT licensed, 84 stars — indicates modest but real traction in LangChain
-      ecosystem
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

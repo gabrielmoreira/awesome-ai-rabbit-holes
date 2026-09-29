@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__clirank__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,16 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: clirank.dev
         extracted_url: https://clirank.dev
-        surrounding_text: "- [alexanderclapp/clirank-mcp-server](https://github.com/alexanderclapp/clirank-mcp-server) [![alexanderclapp/clirank-mcp-server MCP server](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - API intelligence for AI coding agents. 387 APIs scored on agent-friendliness with tools to recommend, compare, check scores, and discover APIs. Install: `npx clirank-mcp-server`. Web: [clirank.dev](https://clirank.dev)."
+        surrounding_text: >-
+          - [alexanderclapp/clirank-mcp-server](https://github.com/alexanderclapp/clirank-mcp-server)
+          [![alexanderclapp/clirank-mcp-server MCP
+          server](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server)
+          📇 ☁️ 🍎 🪟 🐧 - API intelligence for AI coding agents. 387 APIs scored on agent-friendliness with tools to
+          recommend, compare, check scores, and discover APIs. Install: `npx clirank-mcp-server`. Web:
+          [clirank.dev](https://clirank.dev).
         confidence: high
     - id: discovery__clirank__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,7 +40,9 @@ provenance:
           - MCP Servers and Directories
         anchor_text: CLIRank
         extracted_url: https://clirank.dev
-        surrounding_text: "- **[CLIRank](https://clirank.dev/)** – API directory scoring 387 APIs on agent-friendliness across 11 signals. MCP server and web directory."
+        surrounding_text: >-
+          - **[CLIRank](https://clirank.dev/)** – API directory scoring 387 APIs on agent-friendliness across 11
+          signals. MCP server and web directory.
         confidence: high
 metadata:
   github:
@@ -52,9 +60,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: clirank.dev is a directory that aggregates and ranks AI coding tools, particularly focusing on Model Context Protocol (MCP) servers and related developer resources.
-  why_it_matters: It helps developers navigate the fragmented landscape of AI coding tools by providing a curated, ranked directory of MCP servers and related resources.
-  mental_damage: Another directory, another ranking—because nothing says 'developer productivity' like yet another list to parse through the AI tooling jungle.
+  summary: >-
+    clirank.dev is a directory that aggregates and ranks AI coding tools, particularly focusing on Model Context
+    Protocol (MCP) servers and related developer resources.
+  why_it_matters: >-
+    It helps developers navigate the fragmented landscape of AI coding tools by providing a curated, ranked directory of
+    MCP servers and related resources.
+  mental_damage: >-
+    Another directory, another ranking—because nothing says 'developer productivity' like yet another list to parse
+    through the AI tooling jungle.
   tags:
     - mcp
     - directory
@@ -63,21 +77,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool is primarily a directory/aggregator of MCP servers, making it a discovery resource rather than a standalone MCP server.
+  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
   evidence:
-    - Seen in awesome-mcp-servers as an aggregator
-    - Seen in awesome-ai-coding-tools as an MCP aggregator
+    - jev-latest choice confidence 0.95
 placement:
-  primary_category: mcp
+  primary_category: awesome-awesomes
   secondary_categories: []
-  section: null
+  section: Awesome Lists & Directories
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'coding-agents'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''coding-agents'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: '2026-05-06T22:12:15.596Z'
     cause: null
     next_retry_at: null
   stars:
@@ -86,7 +99,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:35:24.430Z"
+    updated_at: '2026-09-24T04:35:24.430Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -99,14 +112,24 @@ processing:
       input_hash: sha256:fb3ff3e78b15d4dc62ff9a5fba1a66d01d3e088a711bef15258d31a9b994dca8
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: clirank.dev is included as it serves as a discovery platform for MCP servers, which are primary coding agents that expose tool capabilities to AI agents.
+      decision_reason: >-
+        clirank.dev is included as it serves as a discovery platform for MCP servers, which are primary coding agents
+        that expose tool capabilities to AI agents.
       decision_evidence:
-        - Listed in 'awesome-ai-coding-tools' under 'MCP Servers and Directories' section, indicating its role in curating coding tools
-        - Listed in 'awesome-mcp-servers' under 'Server Implementations > 🔗 <a name="aggregators"></a>Aggregators', confirming its focus on aggregating MCP server implementations
-        - Functions as a directory/ranking service for AI coding tools, aligning with the 'awesome-awesomes' category for curated resources
+        - >-
+          Listed in 'awesome-ai-coding-tools' under 'MCP Servers and Directories' section, indicating its role in
+          curating coding tools
+        - >-
+          Listed in 'awesome-mcp-servers' under 'Server Implementations > 🔗 <a name="aggregators"></a>Aggregators',
+          confirming its focus on aggregating MCP server implementations
+        - >-
+          Functions as a directory/ranking service for AI coding tools, aligning with the 'awesome-awesomes' category
+          for curated resources
       category_candidates:
         - coding-agents
         - awesome-awesomes
-      contrastive_reason: Choose coding-agents over awesome-awesomes because clirank.dev functions as a discovery tool for coding agents rather than just a curated list of resources.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'coding-agents'"
+      contrastive_reason: >-
+        Choose coding-agents over awesome-awesomes because clirank.dev functions as a discovery tool for coding agents
+        rather than just a curated list of resources.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''coding-agents'''
       review_resume_lifecycle: null

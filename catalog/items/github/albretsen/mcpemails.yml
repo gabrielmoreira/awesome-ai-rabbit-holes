@@ -73,13 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is fundamentally an MCP server implementation that provides a specific domain of tools (email) via the
-    protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description identifies it as a 'Hosted email MCP server'
-    - Provides a direct MCP endpoint (https://mcpemails.com/api/mcp) for clients like Claude and Cursor
-    - Offers protocol-native tools like email_read, email_compose, and schedule
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

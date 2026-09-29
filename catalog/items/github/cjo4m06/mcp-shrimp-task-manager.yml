@@ -78,13 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here—a server providing task management capabilities for AI agents, not merely an
-    adapter or compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly identifies it as an MCP server for AI agents
-    - README emphasizes MCP integration and server setup for Claude Code and other clients
-    - Listed in awesome-mcp-servers under Developer Tools
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: mcp
   secondary_categories: []

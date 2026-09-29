@@ -53,13 +53,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Devin is a standalone agent that plans and executes tasks within a development environment, fitting the primary
-    identity of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - Claims to be a fully autonomous AI software engineer.
-    - Operates within a sandboxed environment with access to a shell, editor, and browser.
-    - Demonstrated ability to resolve real-world issues on the SWE-bench benchmark.
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: coding-agents
   secondary_categories: []

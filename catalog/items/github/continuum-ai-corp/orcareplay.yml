@@ -100,17 +100,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core identity is providing the infrastructure to trace, replay, and compare agentic behavior, which is
-    the primary function of the evals category.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - >-
-      README claims the tool allows for 'byte-for-byte' reproduction of runs and forking at any step onto a different
-      model.
-    - >-
-      The product explicitly positions itself as an upgrade to existing observability tools by adding replay and
-      debugging capabilities.
-    - The core utility is centered on tracing and measuring model performance within an agentic loop.
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: evals
   secondary_categories: []

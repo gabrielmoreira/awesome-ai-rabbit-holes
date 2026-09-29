@@ -59,21 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server whose primary identity and value proposition is providing terminal automation through the
-    Model Context Protocol, making it MCP infrastructure rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'Terminal MCP Server - Model Context Protocol server for TUI/CLI automation with structured
-      Terminal State Tree (TST)'
-    - >-
-      README focuses entirely on MCP server setup, tools, and configuration for various MCP clients like Claude Code,
-      Codex, Gemini, VS Code/Copilot, Cursor, Windsurf, Zed, Cline, and AWS Bedrock
-    - >-
-      Lists specific MCP tools: terminal_session_create, terminal_type, terminal_press_key, terminal_snapshot,
-      terminal_read_output, etc.
-    - Positioned in awesome-mcp-servers under 'Server Implementations > Coding Agents' section
-    - Created 2025-11-28, pushed 2026-01-02, 17 stars, MIT license, not archived
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

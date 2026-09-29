@@ -61,11 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server providing domain-specific API access, fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies it as an MCP server for Apple Search Ads API v5
-    - README confirms it implements MCP stdio transport and exposes 9 read-only tools for ASA data
-    - MCP is the primary product identity, not a compatibility footnote
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

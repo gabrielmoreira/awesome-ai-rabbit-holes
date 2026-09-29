@@ -60,17 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP server whose primary identity is exposing a specialized semantic search capability to agents via the
-    Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Explicitly built using FastMCP for AI agent integration
-    - Provides specific tools like `search_texts` and `get_book_list` via the MCP protocol
-    - Exposes a hosted HTTP endpoint for immediate Claude MCP configuration
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: null

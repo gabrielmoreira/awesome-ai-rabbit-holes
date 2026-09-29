@@ -61,13 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    RA.Aid is a standalone agent that performs research, planning, and implementation, making it a primary coding
-    assistant rather than an extension.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - README claims 'near-fully-autonomous software development'
-    - Uses a three-stage architecture (Research, Planning, Implementation)
-    - Provides a standalone CLI for executing complex, multi-step tasks
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []

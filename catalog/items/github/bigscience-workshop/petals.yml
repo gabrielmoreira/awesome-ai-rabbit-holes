@@ -77,17 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Petals is a self-hosted inference runtime designed for running large models on personal or volunteer hardware,
-    making it a core local AI tool rather than a coding agent, framework, or orchestrator.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - 'Repo description: ''Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading'''
-    - >-
-      README emphasizes running models locally or in Colab via peer-to-peer GPU swarm, with instructions for hosting
-      model parts on personal GPUs
-    - >-
-      Not archived, actively maintained (pushed 2024-09-07), and focused on local/self-hosted execution as its primary
-      identity
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: local-ai
   secondary_categories: []

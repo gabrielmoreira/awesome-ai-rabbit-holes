@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__getmaxim__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,10 +19,10 @@ provenance:
           - Observability
         anchor_text: Maxim AI
         extracted_url: https://getmaxim.ai
-        surrounding_text: "| [Maxim AI](https://getmaxim.ai) | Platform for AI Agent Simulation, Evaluation & Observability |"
+        surrounding_text: '| [Maxim AI](https://getmaxim.ai) | Platform for AI Agent Simulation, Evaluation & Observability |'
         confidence: high
     - id: discovery__www__getmaxim__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,7 +35,7 @@ provenance:
           - Observability
         anchor_text: Maxim AI
         extracted_url: https://getmaxim.ai
-        surrounding_text: "| [Maxim AI](https://getmaxim.ai) | Platform for AI Agent Simulation, Evaluation & Observability |"
+        surrounding_text: '| [Maxim AI](https://getmaxim.ai) | Platform for AI Agent Simulation, Evaluation & Observability |'
         confidence: high
 metadata:
   github:
@@ -53,9 +53,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Bifrost is an open-source enterprise LLM, MCP, and agent gateway providing routing, governance, guardrails, and observability via a unified control plane.
-  why_it_matters: It lets developers replace fragmented AI SDKs with a single drop-in interface that adds reliability, cost controls, and security to LLM-powered applications.
-  mental_damage: Another layer of YAML and API keys to debug when your agent suddenly can’t reach the model you swore was working five minutes ago.
+  summary: >-
+    Bifrost is an open-source enterprise LLM, MCP, and agent gateway providing routing, governance, guardrails, and
+    observability via a unified control plane.
+  why_it_matters: >-
+    It lets developers replace fragmented AI SDKs with a single drop-in interface that adds reliability, cost controls,
+    and security to LLM-powered applications.
+  mental_damage: >-
+    Another layer of YAML and API keys to debug when your agent suddenly can’t reach the model you swore was working
+    five minutes ago.
   tags:
     - llm-gateway
     - mcp
@@ -65,22 +71,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core product is a platform for measuring, tracing, and evaluating agent behavior, which aligns with the Evals & Benchmarks category.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - Described as 'end-to-end evaluation and observability platform' for AI agents
-    - Features include agent simulation, evaluation, tracing, debugging, and online evaluations
-    - Source-list context places it under 'Security > Observability' in Awesome-LLMOps
+    - jev-latest choice confidence 0.43
 placement:
   primary_category: evals
   secondary_categories: []
-  section: null
+  section: Observability & Tracing
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''mcp'''
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:41:26.084Z"
+    updated_at: '2026-09-28T04:41:26.084Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -93,20 +97,27 @@ processing:
       input_hash: sha256:d72acbcf855ba63134e2ff02bf8c774e2ef1f07f3245e145c275d8e9e2c967f4
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: Bifrost’s core identity is as an MCP gateway and enterprise AI infrastructure layer — MCP is not just a feature but a central protocol identity enabling centralized tool governance, which aligns with the MCP category’s requirement that MCP be the product’s primary identity.
+      decision_reason: >-
+        Bifrost’s core identity is as an MCP gateway and enterprise AI infrastructure layer — MCP is not just a feature
+        but a central protocol identity enabling centralized tool governance, which aligns with the MCP category’s
+        requirement that MCP be the product’s primary identity.
       decision_evidence:
         - Built in MCP gateway to use all tools within the agent.
-        - Centralize all MCP tool connections, governance, security, and auth. Your AI can safely use MCP tools with centralized policy enforcement.
+        - >-
+          Centralize all MCP tool connections, governance, security, and auth. Your AI can safely use MCP tools with
+          centralized policy enforcement.
         - Open source under Apache 2.0 License.
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because Bifrost’s main value is operating as an MCP-first gateway and control plane for agent tooling, not as a code library developers import to build applications.
-      review_reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because Bifrost’s main value is operating as an MCP-first gateway and control
+        plane for agent tooling, not as a code library developers import to build applications.
+      review_reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''mcp'''
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.965Z"
+    updated_at: '2026-07-21T15:20:21.965Z'
     cause: null
     next_retry_at: null
   stars:

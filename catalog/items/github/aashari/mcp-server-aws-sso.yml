@@ -64,11 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is specifically built as an MCP server to provide a domain-specific capability (AWS) to host assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description defines it explicitly as an 'MCP server for AWS Single Sign-On (SSO)'
-    - README details configuration specifically for Claude Desktop's mcpServers setting
-    - Product identity is centered on the Model Context Protocol to bridge AI and AWS
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

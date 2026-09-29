@@ -71,17 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Rovo Dev CLI is a standalone coding agent that performs autonomous code understanding, generation, and editing in
-    the terminal, with deep Atlassian integration as a feature, not the core identity.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - >-
-      The tool transforms the command line into an intelligent development agent that understands, codes, and
-      collaborates with you.
-    - It performs code navigation, generation, refactoring, testing, and debugging directly in the terminal.
-    - >-
-      It integrates with Jira, Confluence, and Bitbucket via MCP servers to complete work items end-to-end without
-      context switching.
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: coding-agents
   secondary_categories: []

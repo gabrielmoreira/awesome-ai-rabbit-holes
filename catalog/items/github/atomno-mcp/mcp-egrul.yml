@@ -94,16 +94,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a domain-specific MCP server exposing Russian business registry tools to AI
-    assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly identifies it as an MCP server for EGRUL/EGRIP lookups
-    - README details seven MCP tools for business registry queries
-    - Listed in MCP registries (Glama, Smithery) and published on PyPI as MCP server
-    - Repo description specifies it is an 'MCP server for Russian EGRUL/EGRIP lookups'
-    - README describes the product as providing 'Seven MCP-tools' for AI assistants
-    - Implementation uses the Model Context Protocol to expose FNS data
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

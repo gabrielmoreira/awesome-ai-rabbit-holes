@@ -72,13 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity and delivery mechanism is an MCP server that provides a design contract to external
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README explicitly states it 'exposes a single machine-readable contract via MCP'
-    - The primary workflow is using `npx @ai-by-design/primitiv serve` to start an MCP server
-    - The product is designed to be picked up by Cursor, Claude Code, and Windsurf via MCP config
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

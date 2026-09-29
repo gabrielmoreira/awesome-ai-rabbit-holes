@@ -66,17 +66,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project's core identity includes an MCP server exposing AlgoVoi payment tools to Claude Desktop, Cursor, and
-    Windsurf, making MCP the primary adopted thing.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - README explicitly lists an MCP server (`@algovoi/mcp-server`) as a core component
-    - Source-list context shows it in awesome-mcp-servers under Finance & Fintech
-    - Repo description and README focus on adapters for AI agents and platforms, with MCP as a first-class integration
+    - jev-latest choice confidence 0.49
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

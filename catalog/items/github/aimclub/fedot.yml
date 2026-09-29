@@ -69,14 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a code-first SDK and framework used by developers to programmatically construct and optimize ML pipelines.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - Repo description identifies it as a machine learning framework
-    - README describes it as a Python package installed via pip
-    - Core functionality involves constructing and optimizing complex pipelines via a high-level API
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: ai-frameworks
-  section: Workflow & Graph Engines
+  secondary_categories: []
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (704) exceeded threshold (150)

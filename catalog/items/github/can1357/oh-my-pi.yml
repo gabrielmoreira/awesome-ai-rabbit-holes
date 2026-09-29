@@ -73,13 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a standalone terminal-native coding assistant that directly plans, edits, and manages code workflows,
-    fitting the core definition of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly calls it an 'AI Coding agent for the terminal'
-    - README highlights terminal setup, LSP, Python, browser, and subagents as core features
-    - Source-list context places it under 'Terminal-native coding agents > Open Source'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []

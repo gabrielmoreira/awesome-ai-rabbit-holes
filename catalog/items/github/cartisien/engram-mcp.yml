@@ -67,17 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: this is a dedicated MCP server for memory functionality, not a compatibility
-    footnote or broader platform.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP server for persistent semantic memory
-    - README shows it exposes MCP tools (remember, recall, history, forget, stats) to MCP clients
-    - Core functionality is memory management via MCP protocol, not a broader assistant or framework
+    - jev-latest choice confidence 0.94
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

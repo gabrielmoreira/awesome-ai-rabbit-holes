@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose primary identity is providing deployment tracking capabilities via the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is a 'Universal deployment tracker for AI assistants'
-    - README confirms it is an MCP server with `npx deploy-mcp` as the entrypoint
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.98
 placement:
   primary_category: mcp
   secondary_categories: []

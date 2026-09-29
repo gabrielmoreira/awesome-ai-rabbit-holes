@@ -62,11 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the core product identity here: it is a dedicated MCP server exposing JupyterCAD tools to LLMs.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP server for JupyterCAD
-    - README details MCP transport options (stdio, streamable-http) and tool endpoints
-    - Listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

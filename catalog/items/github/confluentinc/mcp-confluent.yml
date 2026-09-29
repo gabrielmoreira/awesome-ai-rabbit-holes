@@ -58,19 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is explicitly an MCP server that exposes Confluent Cloud and Local APIs as natural-language tools for AI
-    assistants; MCP is its core product identity and distribution mechanism.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - >-
-      Repository is named mcp-confluent and the README calls it 'An open-source MCP server' for Confluent Cloud and
-      Local.
-    - >-
-      Listed in awesome-mcp-servers under Server Implementations, indicating ecosystem recognition as MCP
-      infrastructure.
-    - >-
-      Provides 50+ tools across Kafka, Flink SQL, Schema Registry, Tableflow, and other Confluent services specifically
-      via the Model Context Protocol.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

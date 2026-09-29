@@ -71,19 +71,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a reusable agent skill pack for content marketing workflows, not a primary assistant, framework, or
-    orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo description explicitly calls it an 'AI-powered SEO content automation agent skill'
-    - >-
-      README positions it as a skill for AI agents (Claude Code, Codex CLI, Factory Droid) with install instructions for
-      each
-    - Core value is the portable skill content (SEO, trend scouting, publishing) rather than a broader platform
+    - jev-latest choice confidence 0.49
 placement:
-  primary_category: skills
+  primary_category: mcp
   secondary_categories: []
-  section: Skill Packs & Libraries
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: null

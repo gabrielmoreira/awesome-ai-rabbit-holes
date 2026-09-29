@@ -54,16 +54,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The primary product identity is an MCP server with domain-specific tools for campground discovery, fitting the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly describes an MCP server with tools for campground search, details, availability, and booking
-    - Includes agent skill files compatible with OpenClaw, Claude Code, and other agent platforms
-    - Listed in awesome-mcp-servers under Official Servers
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

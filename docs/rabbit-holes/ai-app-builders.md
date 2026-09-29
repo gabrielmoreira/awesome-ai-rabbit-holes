@@ -3,25 +3,17 @@
 
 Products that generate complete apps, websites, dashboards, or scaffolds from prompts — the user starts from zero and receives a deployable artifact.
 
-_65 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_66 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Full App Builders](#full-app-builders) — 26
-- [Site & Landing Page Builders](#site--landing-page-builders) — 9
+- [Full App Builders](#full-app-builders) — 27
+- [Site & Landing Page Builders](#site--landing-page-builders) — 10
 - [Internal Tools & Dashboards](#internal-tools--dashboards) — 14
-- [Scaffolding & Boilerplate](#scaffolding--boilerplate) — 16
+- [Scaffolding & Boilerplate](#scaffolding--boilerplate) — 15
 
 ## Full App Builders
 
-- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** 🔥 `⭐ 79.1k` `updated ≤30d` An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks. <details><summary>More about</summary>
-
-  It accelerates the prototyping phase by turning visual designs directly into structured HTML, Tailwind, React, or Vue code.
-
-  _It makes the distance between a napkin sketch and a deployed frontend so short it might actually trigger a crisis of purpose for UI designers._
-
-  `prompt-to-app` `frontend` `react` `tailwind` `prototyping`
-  </details>
 - **[dyad](https://github.com/dyad-sh/dyad)** 🔥 `⭐ 21.5k` `updated ≤30d` Local, open-source AI app builder for creating applications with various AI models on your own machine. <details><summary>More about</summary>
 
   Developers can build AI-powered apps locally with their own API keys, avoiding vendor lock-in while maintaining privacy and control.
@@ -38,6 +30,14 @@ _65 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `app-builder` `browser-ide` `multi-model` `self-hosted` `full-stack`
   </details>
+- **[Friday](https://github.com/amirrezasalimi/friday)** `⭐ 66` `updated >1y` Friday is a developer assistant that generates whole Node.js projects from prompts using GPT-4. <details><summary>More about</summary>
+
+  It lets developers scaffold and generate entire applications by describing app sections as prompts, reducing manual setup time.
+
+  _Finally, a tool that turns your vague app ideas into a folder full of Node.js files you’ll have to debug anyway._
+
+  `prompt-to-app` `nodejs` `gpt-4` `scaffolding`
+  </details>
 - **[GitWit](https://github.com/gitwitorg/gitwit)** `⭐ 64` `updated ≤180d` An open-source, AI-native cloud-based coding platform for building apps with integrated code generation, live preview, and AI chat. <details><summary>More about</summary>
 
   It provides a hosted development environment where developers can rapidly prototype and build applications using AI-assisted code generation and real-time collaboration features.
@@ -46,6 +46,7 @@ _65 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `ai-native-ide` `cloud-development` `code-generation` `live-preview`
   </details>
+- **[claudfuen/jev-genui](https://github.com/claudfuen/jev-genui)** `⭐ 1` `updated ≤30d` Generative UI sandbox: Jev composes the interface as you type, one typed decision at a time.
 - **[vibesdiy/vibes.diy](https://github.com/vibesdiy/vibes.diy)** Vibes DIY – Open-source AI app builder that turns a plain-English description into a real, live web app you can share, remix, and collaborate on.
 - **[base44](https://base44.com)** A no-code AI platform that generates full-stack applications, websites, and AI agents from natural language prompts. <details><summary>More about</summary>
 
@@ -190,6 +191,14 @@ _65 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
 ## Site & Landing Page Builders
 
+- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** 🔥 `⭐ 79.1k` `updated ≤30d` An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks. <details><summary>More about</summary>
+
+  It accelerates the prototyping phase by turning visual designs directly into structured HTML, Tailwind, React, or Vue code.
+
+  _It makes the distance between a napkin sketch and a deployed frontend so short it might actually trigger a crisis of purpose for UI designers._
+
+  `prompt-to-app` `frontend` `react` `tailwind` `prototyping`
+  </details>
 - **[builder](https://github.com/builderio/builder)** `⭐ 8.8k` `updated ≤30d` A visual development platform that connects to existing sites and apps to generate code from Figma designs or a drag-and-drop editor. <details><summary>More about</summary>
 
   It bridges the gap between design and production code by allowing developers to visually edit their own existing components rather than regenerating static pages.
@@ -251,6 +260,14 @@ _65 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
 ## Internal Tools & Dashboards
 
+- **[Baserow](https://github.com/baserow/baserow)** `⭐ 6k` `updated ≤30d` Open-source no-code platform for building databases, automations, apps, and AI agents with self-hosting options. <details><summary>More about</summary>
+
+  Developers can use it to rapidly create internal tools, dashboards, and workflows without writing code, while retaining full data control via self-hosting.
+
+  _The one tool that promises to replace Airtable, Jira, and your entire backend team—until you realize you still need to debug the automations._
+
+  `no-code` `database` `self-hosted` `ai-agents` `automation`
+  </details>
 - **[MemFree](https://github.com/memfreeme/memfree)** `⭐ 1.5k` `updated ≤90d` MemFree is a hybrid AI search engine and AI page generator that enables searching knowledge bases and the web while generating React-based UI pages from prompts. <details><summary>More about</summary>
 
   It consolidates AI search and UI generation into one workflow, reducing context-switching for developers building internal tools or prototypes.
@@ -355,14 +372,6 @@ _65 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `defi` `ai-agents` `developer-platform`
   </details>
-- **[Wren](https://getwren.ai)** Wren AI is an open-source GenBI platform that converts natural language into governed text-to-SQL and structured insights across multiple data sources. <details><summary>More about</summary>
-
-  It allows developers to build agentic data interfaces that bridge the gap between raw databases and human-readable analytics with built-in governance.
-
-  _Now you have to decide whether to trust your agent's SQL query or spend the afternoon auditing its semantic model._
-
-  `genbi` `text-to-sql` `data-engineering` `agentic-analytics` `governance`
-  </details>
 
 ## Scaffolding & Boilerplate
 
@@ -397,14 +406,6 @@ _65 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
   _Because nothing says 'cutting-edge AI' like wrapping a 2018 NLU pipeline in FastAPI and declaring victory over the chatbot industrial complex._
 
   `chatbot` `rasa` `langchain` `fastapi` `headless`
-  </details>
-- **[entaoai](https://github.com/akshata29/entaoai)** `⭐ 866` `updated >1y` A reference implementation for building RAG-based chat applications using Azure OpenAI and vector stores like Pinecone or Redis. <details><summary>More about</summary>
-
-  It provides a working template for implementing enterprise-grade retrieval-augmented generation patterns and evaluation metrics.
-
-  _Now you can spend your weekend debugging vector search similarity scores instead of actually writing business logic._
-
-  `rag` `azure` `langchain` `openai` `vector-search`
   </details>
 - **[create-t3-turbo-ai](https://github.com/zckly/create-t3-turbo-ai)** `⭐ 354` `updated >1y` A Turborepo-based starter kit for building full-stack, type-safe LLM-powered apps using the T3 Stack, OpenAI, and LangChain. <details><summary>More about</summary>
 
@@ -446,15 +447,8 @@ _65 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `langchain` `codespaces` `template` `jupyter` `llm`
   </details>
-- **[Friday](https://github.com/amirrezasalimi/friday)** `⭐ 66` `updated >1y` Friday is a developer assistant that generates whole Node.js projects from prompts using GPT-4. <details><summary>More about</summary>
-
-  It lets developers scaffold and generate entire applications by describing app sections as prompts, reducing manual setup time.
-
-  _Finally, a tool that turns your vague app ideas into a folder full of Node.js files you’ll have to debug anyway._
-
-  `prompt-to-app` `nodejs` `gpt-4` `scaffolding`
-  </details>
 - **[bhaig-de/jev-design-test](https://github.com/bhaig-de/jev-design-test)** `⭐ 31` `updated ≤30d` Jev shadcn-block generator.
+- **[KI-App-Bauplan](https://agentic-coder.de/tools/ki-app-bauplan)** KI-App-Bauplan – Free guided planner that turns an app idea into a focused MVP scope, risk review, seven-step build plan, and a starter prompt for Cursor, Claude Code, or Codex.
 - **[Makedraft](https://makedraft.com)** A web-based tool that generates HTML templates from AI prompts. <details><summary>More about</summary>
 
   Developers can quickly scaffold HTML templates without manual coding, accelerating frontend or email template creation.

@@ -76,17 +76,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here—a domain-specific server exposing logistics/WMS tools to AI agents via the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly calls it an MCP server for AI agents
-    - README details MCP server setup for Claude/Cursor and lists MCP tools/resources
-    - Source-list context (awesome-mcp-servers) categorizes it under MCP server implementations
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

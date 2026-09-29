@@ -76,14 +76,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is an MCP server that exposes a specialized design prompt catalog to host coding
-    assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly defines it as an MCP server for Claude Code, Claude Desktop, and Cursor
-    - README details specific MCP tools like `nightmarquee_search_prompts` and `nightmarquee_get_prompt`
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

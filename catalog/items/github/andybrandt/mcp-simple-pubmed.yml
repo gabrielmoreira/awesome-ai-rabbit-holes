@@ -57,16 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server designed to extend the capabilities of AI clients with a specific
-    domain (medical research).
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description identifies it as an 'MCP server for searching and querying PubMed'
-    - README specifies it provides tools and prompts specifically for MCP clients like Claude Desktop
-    - Identity is centered on the Model Context Protocol implementation
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (164) exceeded threshold (150)

@@ -75,14 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server providing specialized domain knowledge to a host agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo name and description explicitly identify it as an MCP server.
-    - README describes functionality for searching community articles and snippets via the Model Context Protocol.
-    - Setup instructions focus on adding the tool to Claude Code as an MCP server.
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: null

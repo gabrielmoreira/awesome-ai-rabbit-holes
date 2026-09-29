@@ -3,11 +3,11 @@
 
 Reusable skill packs, rules bundles, slash-command sets, and directories that install into a coding agent or assistant to extend its behavior.
 
-_72 entries in 2 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_77 entries in 2 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Skill Packs & Libraries](#skill-packs--libraries) — 58
+- [Skill Packs & Libraries](#skill-packs--libraries) — 63
 - [Registries & Directories](#registries--directories) — 14
 
 ## Skill Packs & Libraries
@@ -87,6 +87,8 @@ _72 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
   </details>
 - **[StyleSeed](https://github.com/bitjaru/styleseed)** `⭐ 968` `updated ≤30d` Open-source design-method engine for Claude Code, Codex & Cursor. 23 agent skills for fixed design judgment, multiple grammars, semantic palettes, reference compilation, and evidence-verified UI. MIT.
 - **[horace-maxwell/horosa-skill](https://github.com/horace-maxwell/horosa-skill)** `⭐ 431` `updated ≤30d` 让你的 AI 本地挂载一个玄学家：92 个术数/占星技法全部离线本地算（MCP + CLI）。西占本命·转盘·中点·调波·巴比伦·印占·20+ 推运·主限·卜卦·择日·占星地图·合盘｜八字·紫微·大六壬·奇门遁甲·法奇门·奇门择日·太乙·金口诀·三式合一｜六爻·河洛理数·邵子参评数·一掌经·小六壬·飞宫小奇门·小成图·皇极轨策·统摄法·宿占·灵棋经｜14 神数·神数正传｜塔罗·天文地占·老黄历·通书择日·万年历。Offline-first — full 92-technique catalog in README.
+- **[christian-katzmann/app-it](https://github.com/christian-katzmann/app-it)** `⭐ 217` `updated ≤90d` A Claude Code + Codex skill that turns a local project into a macOS Dock-launchable app — native window, its own icon, no Electron. [The Windows version is in BETA].
+- **[apus-ai-lab/fast-browser-use](https://github.com/apus-ai-lab/fast-browser-use)** `⭐ 182` `updated ≤30d` A fast browser-use skill powered by local LLMs via single-token reflexes. Fast, local-first, zero hallucinations.
 - **[OpenPaw](https://github.com/daxaur/openpaw)** `⭐ 168` `updated ≤180d` OpenPaw is a CLI tool that installs 38 skills to turn Claude Code into a personal assistant for email, calendar, smart home, media, and task management. <details><summary>More about</summary>
 
   It lets developers extend Claude Code beyond coding into daily productivity workflows without leaving the terminal.
@@ -106,6 +108,7 @@ _72 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
 
   `legal-tech` `agent-skills` `mcp-server` `cli-tool` `docx`
   </details>
+- **[altryne/jevify](https://github.com/altryne/jevify)** `⭐ 36` `updated ≤30d` An agent skill to discover TypeSafe Jev opportunities, design typed questions, and learn from recent community experiments.
 - **[LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-)** `⭐ 31` `updated ≤180d` A biomedical-focused agentic skills repository with MCP servers and AI provider integrations for clinical, genomics, and drug discovery workflows. <details><summary>More about</summary>
 
   Provides reusable, domain-specific agent skills and MCP servers that developers can adapt for healthcare AI applications like clinical trial matching or genomics analysis.
@@ -131,14 +134,6 @@ _72 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
 
   `spec-driven-development` `skill-pack` `pi-agent`
   </details>
-- **[Citedy/citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 19` `updated ≤180d` An AI-powered SEO content automation agent skill for trend scouting, competitor analysis, multilingual article generation, and social media adaptations. <details><summary>More about</summary>
-
-  Developers and marketers can integrate this skill into AI agents to automate end-to-end SEO content workflows, from research to multi-platform publishing.
-
-  _Now your AI agent can outsource its content marketing to another AI agent, because nothing says 'scalable' like a stack of agents writing LinkedIn posts about agents._
-
-  `agent-skills` `seo-automation` `content-marketing` `mcp-server` `ai-agent`
-  </details>
 - **[bytesagain/ai-skills](https://github.com/bytesagain/ai-skills)** `⭐ 14` `updated ≤180d` AI Agent Skills for Claude Code, Manus, OpenClaw & more.
 - **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** `⭐ 13` `updated ≤180d` A CLI tool and library for installing, managing, and sharing 50,000+ reusable skill files and slash commands across AI coding assistants like Claude Code, Cursor, and Cline. <details><summary>More about</summary>
 
@@ -156,6 +151,7 @@ _72 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
 
   `crypto` `web3` `mcp` `agent-skills` `blockchain`
   </details>
+- **[Augustus](https://github.com/24601/augustus)** `⭐ 11` `updated ≤30d` Agent skills for designing, training, evaluating and improving application-specific decision systems. Primitive/model selection, data assembly, export/reload and bounded hill climbing. TypeSafe Jev is the default hosted exemplar; independent of TypeSafe.
 - **[qovery-skills](https://github.com/qovery/qovery-skills)** `⭐ 7` `updated ≤90d` A reusable skill pack that teaches AI coding agents how to deploy, troubleshoot, optimize, and manage preview environments for applications on Qovery and Kubernetes. <details><summary>More about</summary>
 
   It packages DevOps expertise into portable SKILL.md files so agents can handle cloud onboarding, deployments, and cost optimization without the developer manually orchestrating Qovery.
@@ -165,20 +161,15 @@ _72 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
   `skills` `devops` `kubernetes` `agent-skills` `qovery`
   </details>
 - **[Aident-AI/aident-skill](https://github.com/aident-ai/aident-skill)** `⭐ 5` `updated ≤30d` Use Aident Loadout to connect your AI Agents to 1,000+ real-world apps and tools like Gmail, Slack, Linear, Notion, Firecrawl, and Fal, unlock 27,000+ executable actions, and track full audit history so your agents can get real work done reliably.
-- **[ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/claudecode-devplanbuilder)** `⭐ 5` `updated ≤1y` A reusable methodology and template pack for Claude Code that interviews users to generate structured project briefs, detailed development plans, and executor/verifier agent definitions. <details><summary>More about</summary>
 
-  It gives Claude Code a repeatable spec-first workflow for turning product ideas into phased, testable development plans with built-in git discipline.
+<details><summary><strong>▸ &nbsp;&nbsp;+33 more in Skill Packs & Libraries &nbsp;—&nbsp; click to expand</strong></summary>
 
-  _We have officially reached the point where your coding agent needs its own project manager, onboarding questionnaire, and middleware to avoid recursively inventing agile ceremonies._
-
-  `claude-code` `spec-driven` `planning` `agent-skills`
-  </details>
+- **[ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/claudecode-devplanbuilder)** `⭐ 5` `updated ≤1y` A reusable methodology and template pack for Claude Code that interviews users to generate structured project briefs, detailed development plans, and executor/verifier agent definitions.
+- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 5` `updated ≤180d` Drop-in OSOP session logging rules for 18 AI coding agents, enabling structured execution records across platforms like Cursor, Codex, Windsurf, and Copilot.
 - **[Cleo-Labs-IA/skills_library](https://github.com/cleo-labs-ia/skills_library)** `⭐ 3` `updated ≤180d` Comply — All-in-one compliance skills library for AI coding agents. 12 production-grade skills to get physical products legally to market.
-- **[channelerh/codex-skin-packs](https://github.com/channelerh/codex-skin-packs)** `⭐ 2` `updated ≤30d` Verified Codex theme and skin packs for Codex desktop, installable with npx skills and plugin workflows.
-
-<details><summary><strong>▸ &nbsp;&nbsp;+28 more in Skill Packs & Libraries &nbsp;—&nbsp; click to expand</strong></summary>
-
+- **[ahm3dwasim/twoperson](https://github.com/ahm3dwasim/twoperson)** `⭐ 1` `updated ≤30d` A two-person rule for AI coding agents: a ship report can't be recorded without an approving verdict for that exact commit.
 - **[public-google-drive](https://github.com/zagmoai/public-google-drive)** `⭐ 1` `updated ≤1y` Public Google Drive is a skill pack that lets LLM coding agents create and edit Google Docs and Sheets on Memyard without Google sign-in.
+- **[Agent Coordinator](https://github.com/alanhoff/agent-coordinator)** `⭐ 0` `updated ≤30d` Agent Coordinator – Per-user Codex skill that represents dependency-aware tasks as bounded work graphs, records revisioned local state, reconciles uncertain work before retry, reruns planned checks at closeout, and can use optional specialists or run inline. Free and open source (MIT).
 - **[Agent Ops Prompt Generator](https://github.com/mysubb01/agent-ops-prompt-generator)** Agent Ops Prompt Generator – Free local-first browser and CLI tool that generates Korean prompts for AI coding agents during incident triage, deploy smoke checks, code review, data correction, and handoff work.
 - **[Agent Toolkit](https://github.com/ulises-jeremias/agent-toolkit)** Agent Toolkit ⭐ 18 — Portable Agent Skills catalog, personas, MCP templates, and loop/swarm orchestration for coding assistants, deployed via native CLI to Claude Code, Cursor, OpenCode, Copilot, Windsurf, and Pi. MIT.
 - **[AI Context Templates](https://github.com/mrdwarf7/ai-context-templates)** AI Context Templates – Production-ready AI agent context templates for configuring coding assistants like Claude Code, Cursor, and others.

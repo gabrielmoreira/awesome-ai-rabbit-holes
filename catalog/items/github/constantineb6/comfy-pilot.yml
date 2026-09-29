@@ -67,15 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is an MCP-based integration layer that augments Claude Code with ComfyUI-specific capabilities, not a
-    standalone coding assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - >-
-      Repo description explicitly states it is an MCP server + terminal for Claude Code to interact with ComfyUI
-      workflows
-    - README emphasizes integration with Claude Code as the primary host assistant
-    - Source-list context places it under MCP Servers > Art & Culture
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: mcp
   secondary_categories: []

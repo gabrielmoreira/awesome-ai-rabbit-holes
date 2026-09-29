@@ -62,17 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The primary artifact is a reusable rules pack for multiple coding agents, fitting the 'Agent Skills' category as a
-    portable skill/rules bundle rather than a standalone assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
-    - README explicitly describes it as 'Drop-in .osoplog generation for 18 AI coding platforms'
-    - Project structure consists of platform-specific rule files (e.g., `.cursor/rules/`, `.continue/rules/`)
-    - Source-list context places it under 'Agent infrastructure' in a curated directory of coding agents
+    - jev-latest choice confidence 0.67
 placement:
-  primary_category: evals
+  primary_category: skills
   secondary_categories: []
-  section: Observability & Tracing
+  section: Skill Packs & Libraries
 lifecycle:
   status: curated
   reason: null

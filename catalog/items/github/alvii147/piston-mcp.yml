@@ -60,11 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a server that exposes Piston code execution as MCP tools.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for Piston code execution
-    - README confirms it is an MCP server allowing LLMs to connect to and execute code using Piston
-    - Listed in awesome-mcp-servers under Code Execution
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -78,15 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is an MCP server designed to provide a specific domain capability (bash-style command
-    execution) to agentic hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as an 'MCP server + CLI built for AI agents'.
-    - >-
-      README benchmarks show a significant reduction in errors when agents use this translation layer instead of native
-      PowerShell.
-    - The project is included in the 'awesome-mcp-servers' directory.
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: mcp
   secondary_categories: []

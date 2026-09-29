@@ -76,15 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The repository is explicitly an MCP server implementation intended to bridge AI agents to the cogDepot brokering
-    service.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo name and description identify it specifically as an 'MCP server for cogDepot'
-    - README provides configuration patterns for MCP-native clients like Claude Desktop and Cursor
-    - >-
-      The core utility is providing an interface for agents to browse and negotiate capabilities via the Model Context
-      Protocol
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
   secondary_categories: []

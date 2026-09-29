@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    DeepSource acts as an automated reviewer that directly inspects code to plan, detect, and repair bugs and security
-    flaws.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - Claims to use AI agents for deep code review and automated fixes (Autofix™)
-    - Provides structured feedback on security, reliability, and complexity during pull requests
-    - Found in awesome-ai-coding-tools under Code Review and Refactoring
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: coding-agents
   secondary_categories: []

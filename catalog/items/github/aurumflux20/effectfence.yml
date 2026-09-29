@@ -71,17 +71,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is primarily a code-first Rust library and SDK designed to be imported into agentic workflows to handle
-    exactly-once execution.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
   evidence:
-    - Repo description identifies it as a 'Rust library + MCP server'.
-    - README emphasizes the core utility is the 'effectfence::fence' Rust crate API.
-    - Functionality focuses on providing developer-facing building blocks for idempotency and causal consistency.
+    - jev-latest choice confidence 0.67
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: LLM & Agent SDKs
+  section: Multi-Agent Systems
 lifecycle:
   status: curated
   reason: null

@@ -3,15 +3,16 @@
 
 Code-first libraries, SDKs, and engines that developers import and program against to build AI-powered applications and agent systems.
 
-_346 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_379 entries in 6 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [LLM & Agent SDKs](#llm--agent-sdks) — 159
-- [Multi-Agent Systems](#multi-agent-systems) — 78
-- [Provider & Model Abstractions](#provider--model-abstractions) — 42
-- [Workflow & Graph Engines](#workflow--graph-engines) — 30
-- [Memory & Retrieval Infrastructure](#memory--retrieval-infrastructure) — 37
+- [LLM & Agent SDKs](#llm--agent-sdks) — 176
+- [Multi-Agent Systems](#multi-agent-systems) — 80
+- [Provider & Model Abstractions](#provider--model-abstractions) — 49
+- [Workflow & Graph Engines](#workflow--graph-engines) — 28
+- [Memory & Retrieval Infrastructure](#memory--retrieval-infrastructure) — 39
+- [Training & Model Infrastructure](#training--model-infrastructure) — 7
 
 ## LLM & Agent SDKs
 
@@ -23,6 +24,7 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `framework` `agents` `llm`
   </details>
+- **[browser-use/browser-use](https://github.com/browser-use/browser-use)** 🔥 `⭐ 116.7k` `updated ≤30d` Agents that use the browser.
 - **[MinerU](https://github.com/opendatalab/mineru)** `⭐ 75.2k` `updated ≤90d` MinerU is a Python toolkit that parses PDFs, Office documents, and other complex files into markdown or JSON structured for LLM and agent pipelines. <details><summary>More about</summary>
 
   It removes the boilerplate of layout analysis, OCR, and table extraction so developers can feed clean, structured documents directly into RAG systems and coding agents.
@@ -46,6 +48,22 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   _Another week, another foundational framework that promises to be the only abstraction layer you will ever need, right up until the next one replaces it._
 
   `rag` `agent-framework` `llm` `python` `retrieval`
+  </details>
+- **[Agno](https://github.com/agno-agi/agno)** 🔥 `⭐ 42.2k` `updated ≤30d` A framework and runtime for building, running, and managing scalable agent platforms with built-in memory, observability, and security. <details><summary>More about</summary>
+
+  It provides the heavy-lifting infrastructure—like storage, task scheduling, and multi-tenant isolation—needed to turn a simple LLM script into a production-ready agent service.
+
+  _Because knowing how to write an agent is easy, but figuring out how to manage its memory, security, and deployment without losing your mind is the real battle._
+
+  `agents` `runtime` `orchestration` `observability` `infrastructure`
+  </details>
+- **[ui-tars-desktop](https://github.com/bytedance/ui-tars-desktop)** 🔥 `⭐ 39.1k` `updated ≤30d` An open-source multimodal AI agent stack providing GUI and vision-based agents for terminal, computer, browser, and product integration via CLI, Web UI, and desktop applications. <details><summary>More about</summary>
+
+  It enables developers to automate complex GUI and computer-use workflows with multimodal LLMs, bridging the gap between AI agents and real-world desktop/browser environments.
+
+  _Finally, an AI that can click buttons for you—because manually filling out forms was clearly the last frontier of human dignity._
+
+  `multimodal-agents` `gui-automation` `mcp` `computer-use` `browser-automation`
   </details>
 - **[CopilotKit](https://github.com/copilotkit/copilotkit)** 🔥 `⭐ 37.3k` `updated ≤30d` An open-source SDK for building agent-native applications with generative UI, shared state, and human-in-the-loop workflows across React, Angular, and other platforms. <details><summary>More about</summary>
 
@@ -137,6 +155,14 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   `computer-use` `agent-infrastructure` `sandbox` `sdk` `benchmarks`
   </details>
 - **[Eliza](https://github.com/elizaos/eliza)** 🔥 `⭐ 19.5k` `updated ≤30d` Open source agentic operating system.
+- **[Agent Zero](https://github.com/agent0ai/agent-zero)** 🔥 `⭐ 19.2k` `updated ≤30d` An open agent framework that provides a Dockerized Linux desktop environment and browser for autonomous task execution. <details><summary>More about</summary>
+
+  It allows agents to move beyond simple chat by giving them a full GUI, terminal, and browser with DOM annotation to interact with real software.
+
+  _There is nothing quite like the existential dread of watching an autonomous agent struggle to click a button in a virtual XFCE desktop._
+
+  `agent-framework` `linux-desktop` `docker` `autonomous-agents` `computer-use`
+  </details>
 - **[PydanticAI](https://github.com/pydantic/pydantic-ai)** `⭐ 18.7k` `updated ≤90d` A Python agent framework from the Pydantic team for building production-grade GenAI applications with type-safe models, tool integration, and durable execution. <details><summary>More about</summary>
 
   It lets developers build typed, validated, and observable agentic workflows using the same Pydantic patterns that already power much of the Python AI ecosystem.
@@ -177,6 +203,14 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `structured-generation` `llm-outputs` `pydantic` `type-hints` `python`
   </details>
+- **[Botpress](https://github.com/botpress/botpress)** `⭐ 14.9k` `updated ≤30d` An open-source platform for building and deploying GPT/LLM-powered chatbots and assistants. <details><summary>More about</summary>
+
+  It provides developers with a full-stack environment to create, deploy, and manage AI agents for chatbots and assistants, accelerating the development of conversational AI applications.
+
+  _Because nothing says 'next-generation' like realizing your chatbot still can't remember what you asked it two messages ago._
+
+  `agent-platform` `chatbot-framework` `llm-orchestration` `open-source` `sdk`
+  </details>
 - **[E2B](https://github.com/e2b-dev/e2b)** `⭐ 13.8k` `updated ≤30d` Open-source infrastructure for running AI-generated code in secure isolated cloud sandboxes via SDKs. <details><summary>More about</summary>
 
   Developers can safely execute untrusted or AI-generated code in isolated environments without risking their local or production systems.
@@ -201,49 +235,14 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `go` `llm-framework` `agent-orchestration` `workflow-engine`
   </details>
-- **[LangChain4j](https://github.com/langchain4j/langchain4j)** `⭐ 12.7k` `updated ≤90d` LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM, providing a unified API over popular LLM providers, vector stores, and tool calling capabilities. <details><summary>More about</summary>
 
-  It enables Java developers to integrate LLMs, RAG, and agent patterns into enterprise applications using familiar frameworks like Spring Boot and Quarkus without wrestling with proprietary APIs.
+<details><summary><strong>▸ &nbsp;&nbsp;+146 more in LLM & Agent SDKs &nbsp;—&nbsp; click to expand</strong></summary>
 
-  _Now you can finally wrap your LLM strategy in three layers of enterprise Java abstraction and call it innovation while the Python team ships features in minutes._
-
-  `java` `llm` `rag` `agents` `spring-boot`
-  </details>
-- **[Chainlit](https://github.com/chainlit/chainlit)** `⭐ 12.4k` `updated ≤90d` Chainlit is a Python framework for building production-ready conversational AI applications with a built-in UI. <details><summary>More about</summary>
-
-  It lets developers quickly prototype and deploy interactive chat interfaces for LLM-powered apps without heavy frontend work.
-
-  _Because nothing says 'production-ready' like a framework that pivots to community maintenance before its second birthday._
-
-  `python` `llm-ui` `framework` `conversational-ai` `langchain`
-  </details>
-- **[Zerox](https://github.com/getomni-ai/zerox)** `⭐ 12.3k` `updated >1y` An OCR and document extraction tool that leverages vision models to convert complex documents into structured data. <details><summary>More about</summary>
-
-  It enables developers to build robust pipelines that can parse unstructured PDFs and images using the same reasoning capabilities as large multimodal models.
-
-  _Now you have no excuse for not building that automated invoice parser you've been procrastinating on for six months._
-
-  `ocr` `document-extraction` `vision-models` `data-processing`
-  </details>
-- **[Tambo](https://github.com/tambo-ai/tambo)** `⭐ 11.2k` `updated ≤90d` An open-source React SDK and backend toolkit that lets developers register UI components with Zod schemas so an LLM agent can select and stream props to render generative user interfaces. <details><summary>More about</summary>
-
-  It gives React developers a structured way to wire existing UI components into an agent-driven conversation loop without building custom streaming and state infrastructure.
-
-  _Yet another reminder that your beautifully handcrafted component library is now just a Zod schema waiting to be hallucinated into a chat window._
-
-  `react` `generative-ui` `agent-sdk` `streaming` `llm`
-  </details>
-- **[ten-framework](https://github.com/ten-framework/ten-framework)** `⭐ 10.9k` `updated ≤90d` An open-source framework for building real-time, multimodal conversational AI agents with support for voice, video, and extensions like memory and turn detection. <details><summary>More about</summary>
-
-  It gives developers a structured way to build low-latency voice and video AI agents with pluggable extensions instead of wiring raw model APIs by hand.
-
-  _Yet another framework promising that this time, stitching LLMs into real-time voice apps will definitely not turn into a multithreaded nightmare of VAD configs and WebSocket edge cases._
-
-  `voice-ai` `multimodal` `real-time` `agent-framework` `conversational-ai`
-  </details>
-
-<details><summary><strong>▸ &nbsp;&nbsp;+129 more in LLM & Agent SDKs &nbsp;—&nbsp; click to expand</strong></summary>
-
+- **[LangChain4j](https://github.com/langchain4j/langchain4j)** `⭐ 12.7k` `updated ≤90d` LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM, providing a unified API over popular LLM providers, vector stores, and tool calling capabilities.
+- **[Chainlit](https://github.com/chainlit/chainlit)** `⭐ 12.4k` `updated ≤90d` Chainlit is a Python framework for building production-ready conversational AI applications with a built-in UI.
+- **[Zerox](https://github.com/getomni-ai/zerox)** `⭐ 12.3k` `updated >1y` An OCR and document extraction tool that leverages vision models to convert complex documents into structured data.
+- **[Tambo](https://github.com/tambo-ai/tambo)** `⭐ 11.2k` `updated ≤90d` An open-source React SDK and backend toolkit that lets developers register UI components with Zod schemas so an LLM agent can select and stream props to render generative user interfaces.
+- **[ten-framework](https://github.com/ten-framework/ten-framework)** `⭐ 10.9k` `updated ≤90d` An open-source framework for building real-time, multimodal conversational AI agents with support for voice, video, and extensions like memory and turn detection.
 - **[tokenizers](https://github.com/huggingface/tokenizers)** `⭐ 10.9k` `updated ≤90d` Fast, Rust-based tokenizers library for research and production with bindings for Python, Node.js, and Ruby.
 - **[PDF-Extract-Kit](https://github.com/opendatalab/pdf-extract-kit)** `⭐ 9.8k` `updated >1y` A modular Python toolkit that bundles fine-tuned models for layout detection, OCR, formula recognition, and table extraction to parse complex PDF documents into structured content.
 - **[Langchain Go](https://github.com/tmc/langchaingo)** `⭐ 9.6k` `updated ≤1y` LangChain for Go is a Go-native library providing composable building blocks for writing LLM-powered applications, including model abstraction, chains, and memory.
@@ -266,12 +265,10 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[adalflow](https://github.com/sylphai-inc/adalflow)** `⭐ 4.2k` `updated ≤180d` AdalFlow is a PyTorch-like Python library for building and auto-optimizing LLM workflows, including RAG pipelines, chatbots, and agents.
 - **[FlagAI](https://github.com/flagai-open/flagai)** `⭐ 3.9k` `updated ≤90d` FlagAI is a fast, easy-to-use and extensible toolkit for large-scale model training and inference.
 - **[Code Interpreter API](https://github.com/shroominic/codeinterpreter-api)** `⭐ 3.8k` `updated >1y` An open-source Python library built on LangChain that provides a sandboxed code interpreter session for LLMs to execute generated Python code, install packages, and return text or file outputs.
-- **[Distilabel](https://github.com/argilla-io/distilabel)** `⭐ 3.4k` `updated ≤30d` Distilabel is a Python framework for generating synthetic data and AI feedback pipelines based on verified research papers.
 - **[core](https://github.com/cheshire-cat-ai/core)** `⭐ 3.1k` `updated ≤90d` Cheshire Cat AI is a framework for building custom AI agents as microservices with API-first design, plugin extensibility, and built-in RAG.
 - **[Ax](https://github.com/ax-llm/ax)** `⭐ 3k` `updated ≤30d` The pretty much "official" DSPy framework for Typescript.
 - **[BMTools](https://github.com/openbmb/bmtools)** `⭐ 2.8k` `updated >1y` BMTools is an open-source Python framework for extending language models with external tools, serving as an academic-oriented platform for building, sharing, and using tool plugins similar to ChatGPT-Plugins.
 - **[Griptape](https://github.com/griptape-ai/griptape)** `⭐ 2.6k` `updated ≤30d` Modular Python framework for building AI agents and workflows with chain-of-thought reasoning, tools, and memory.
-- **[OCRFlux](https://github.com/chatdoc-com/ocrflux)** `⭐ 2.5k` `updated ≤180d` OCRFlux is a lightweight multimodal toolkit for advanced PDF-to-Markdown conversion, specializing in complex layouts, tables, and cross-page content merging.
 - **[Magentic](https://github.com/jackmpcollins/magentic)** `⭐ 2.4k` `updated ≤1y` A Python library that integrates LLMs as functions using decorators for structured outputs, function calling, and agentic workflows.
 - **[nextpy](https://github.com/dot-agent/nextpy)** `⭐ 2.3k` `updated >1y` Nextpy is a Python framework for building self-modifying AI agents with a focus on prompt engineering, session state management, and optimized code generation.
 - **[OpenAGI](https://github.com/agiresearch/openagi)** `⭐ 2.3k` `updated >1y` A package and SDK designed for creating and structuring agents to work within the AIOS ecosystem.
@@ -321,42 +318,53 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[nanoPerplexityAI](https://github.com/yusuke710/nanoperplexityai)** `⭐ 336` `updated >1y` An open-source Python implementation of a Perplexity-like search experience that uses Google and an LLM to answer questions.
 - **[cognesy/instructor-php](https://github.com/cognesy/instructor-php)** `⭐ 327` `updated ≤30d` Unified LLM API, structured data outputs with LLMs, and agent SDK - in PHP.
 - **[CleverBee](https://github.com/surescaleai/cleverbee)** `⭐ 302` `updated ≤1y` CleverBee is an open-source, Python-based research assistant that uses LLMs, Playwright, and Chainlit to automate web browsing, content extraction, and synthesis into research reports.
+- **[capsulerun/runtime](https://github.com/capsulerun/runtime)** `⭐ 296` `updated ≤180d` Secure runtime to sandbox AI agent tasks in isolated WebAssembly environments.
 - **[saplings](https://github.com/shobrook/saplings)** `⭐ 275` `updated >1y` A Python framework that adds Monte Carlo Tree Search, A*, and greedy best-first search algorithms to LLM agents with two lines of code.
 - **[Langchain Decorators](https://github.com/ju-bezdek/langchain-decorators)** `⭐ 234` `updated ≤180d` A lightweight Python decorator library that adds syntactic sugar for writing LangChain prompts and chains.
 - **[slangchain](https://github.com/prof-frink-lab/slangchain)** `⭐ 199` `updated >1y` An extended functionality toolkit built on top of the LangChain framework that includes browser automation capabilities via Selenium and deployment examples for BabyAGI on AWS Lambda.
-- **[autoai](https://github.com/blobcity/autoai)** `⭐ 186` `updated >1y` A Python framework that automates model search, hyperparameter tuning, and code generation for regression and classification on numerical data.
 - **[Axar](https://github.com/axar-ai/axar)** `⭐ 163` `updated ≤1y` A lightweight TypeScript framework for building production-ready agentic applications with explicit control and minimal abstractions.
 - **[ai-toolkit](https://github.com/memgraph/ai-toolkit)** `⭐ 110` `updated ≤90d` A toolkit for building AI-driven graph applications on Memgraph, providing a core toolbox, LangChain integrations, an MCP server, and utilities for converting unstructured documents into knowledge graphs.
 - **[LLFn](https://github.com/orgexyz/llfn)** `⭐ 96` `updated >1y` LLFn is a lightweight Python framework that turns LLM prompts into typed, callable functions using a decorator pattern, built on top of LangChain's model interface.
 - **[Micdrop](https://github.com/godefroy/micdrop)** `⭐ 92` `updated ≤30d` Micdrop is a set packages for node and browser that simplify voice conversations with AI systems.
 - **[langchain_yt_tools](https://github.com/venuv/langchain_yt_tools)** `⭐ 76` `updated >1y` Langchain_yt_tools provides two custom LangChain tools for searching YouTube videos by person name and transcribing them to text.
 - **[caudena/beam_weaver](https://github.com/caudena/beam_weaver)** `⭐ 64` `updated ≤30d` Elixir-native LangChain, LangGraph, and DeepAgents for traceable LLM apps: OTP workflows, tools, memory, human-in-the-loop, streaming, custom clients/adapters, minimal deps, and WeaveScope tracing.
+- **[coingecko-typescript](https://github.com/coingecko/coingecko-typescript)** `⭐ 58` `updated ≤30d` A TypeScript library for accessing the CoinGecko REST API with optional MCP server integration for AI assistants.
 - **[MobileReality/mdma](https://github.com/mobilereality/mdma)** `⭐ 58` `updated ≤90d` MDMA extends Markdown with interactive components like forms, approval gates, and webhooks so LLMs can generate actionable, schema-driven documents instead of plain text.
 - **[qwed-verification](https://github.com/qwed-ai/qwed-verification)** `⭐ 57` `updated ≤90d` An open-source Python framework that uses symbolic verification, math, and logic to deterministically verify LLM outputs, SQL, and tool calls before they execute in production.
 - **[FastAPI Agents](https://github.com/blairhudson/fastapi-agents)** `⭐ 53` `updated >1y` A FastAPI extension for integrating and serving AI agent frameworks like PydanticAI, LlamaIndex, Smolagents, and CrewAI.
 - **[Yourgoal](https://github.com/pj4533/yourgoal)** `⭐ 53` `updated >1y` A Swift port of BabyAGI that implements an AI-powered task management loop using OpenAI and Pinecone to create, prioritize, and execute tasks.
 - **[Langchain-hs](https://github.com/tusharad/langchain-hs)** `⭐ 52` `updated ≤180d` Haskell implementation of the LangChain framework for building LLM-powered applications.
 - **[MetaSpec](https://github.com/acnlabs/metaspec)** `⭐ 51` `updated ≤1y` A meta-specification framework designed to automatically generate spec-driven toolkits (speckits) for AI agents.
+- **[agenticfabriq/mnemiq](https://github.com/agenticfabriq/mnemiq)** `⭐ 46` `updated ≤30d` Open-source text-to-SQL engine you tune and measure on your own database.
+- **[acunningham-ship-it/veilbrowser](https://github.com/acunningham-ship-it/veilbrowser)** `⭐ 41` `updated ≤30d` A TypeScript-native stealth browser driver that uses raw CDP to bypass bot detection for AI agents.
+- **[BB-fat/browser-use-rs](https://github.com/bb-fat/browser-use-rs)** `⭐ 41` `updated ≤1y` A Rust library for browser automation via Chrome DevTools Protocol with built-in Model Context Protocol (MCP) server integration.
 - **[KodeAgent](https://github.com/barun-saha/kodeagent)** `⭐ 40` `updated ≤90d` KodeAgent is a minimal AI agent engine that provides a reasoning core with ReAct, CodeAct, and function calling support.
 - **[berriai/liteagents](https://github.com/berriai/liteagents)** `⭐ 28` `updated ≤30d` A provider-independent agent SDK with the same query() interface as the Claude Agent SDK, allowing you to use the right model for every turn.
 - **[CoreAgent](https://github.com/coreagent-project/coreagent)** `⭐ 28` `updated >1y` CoreAgent is a lightweight Python framework for building LLM agents with shared stateful tools.
 - **[AgentOS](https://github.com/the-swarm-corporation/agentos)** `⭐ 25` `updated >1y` AgentOS is a single-file, SDK-based Python implementation of Karpathy's Agent OS architecture that provides a unified interface for multiple LLMs, browser automation, and multimodal tooling to build autonomous agents.
-- **[Hyv](https://github.com/blib-la/hyv)** `⭐ 24` `updated >1y` Hyv is a library for integrating and managing multiple AI models through a unified API and agent-based architecture.
 - **[rhein1/agoragentic-integrations](https://github.com/rhein1/agoragentic-integrations)** `⭐ 23` `updated ≤90d` SDKs, MCP tooling, and protocol adapters for Agoragentic Agent OS, enabling deployed agents to route paid tasks, manage context via Micro ECF, and settle USDC transactions on Base L2.
 - **[bunsdev/typesafe-ui](https://github.com/bunsdev/typesafe-ui)** `⭐ 7` `updated ≤30d` shadcn-style reusable components and blocks for using TypeSafe AI.
+- **[claw-army/claude-node](https://github.com/claw-army/claude-node)** `⭐ 6` `updated ≤180d` claude-node is a thin Python subprocess bridge for controlling the local Claude Code CLI as a long-lived process with stream-json communication.
 - **[Agently](https://github.com/maplemx/agently)** `⭐ 5` `updated ≤90d` Agently is a GenAI application development framework for building and managing AI agents with structured output, event-driven workflows, and model-agnostic configuration.
 - **[bensyverson/goodall](https://github.com/bensyverson/goodall)** `⭐ 5` `updated ≤30d` A simple and extensible agent loop for Golang projects.
-- **[Aganium/agenium](https://github.com/aganium/agenium)** `⭐ 4` `updated ≤1y` An agent-to-agent communication protocol providing identity, discovery, and secure messaging via the `agent://` URI scheme.
+- **[codeitlikemiley/typesafe-sdk-rust](https://github.com/codeitlikemiley/typesafe-sdk-rust)** `⭐ 4` `updated ≤30d` Rust SDK for the TypeSafe AI API.
 - **[edamame-labs/tab-jev](https://github.com/edamame-labs/tab-jev)** `⭐ 4` `updated ≤30d` Pluggable framework for predictions on mixed text and tabular data (early development).
+- **[AlexanderLawson17/revettr-python](https://github.com/alexanderlawson17/revettr-python)** `⭐ 3` `updated ≤180d` Python client SDK for Revettr's counterparty risk scoring API, designed for AI agents transacting via x402 on Base.
 - **[dwgx/SmartCLI](https://github.com/dwgx/smartcli)** `⭐ 3` `updated ≤30d` A Python toolkit for enabling AI agents to drive, perceive, and render interactive terminal applications using a PTY and cell model.
+- **[azeemkafridi/bulkpublish-api](https://github.com/azeemkafridi/bulkpublish-api)** `⭐ 2` `updated ≤30d` The best free social media publishing and scheduling API. SDKs for Python & Node, MCP server for AI agents, 11 platforms.
+- **[cole-gillespie/typesafe-go](https://github.com/cole-gillespie/typesafe-go)** `⭐ 2` `updated ≤30d` unofficial go SDK for typesafe AI, with typed answers, retries, and context support.
 - **[Mamba Agents](https://github.com/sequenzia/mamba-agents)** `⭐ 2` `updated ≤1y` A lightweight Python framework built on pydantic-ai that provides production-ready infrastructure for building AI agents, including context window management, token tracking, and observability.
 - **[rkocosmergon/cosmergon-agent](https://github.com/rkocosmergon/cosmergon-agent)** `⭐ 2` `updated ≤90d` A Python SDK and MCP server for deploying and managing autonomous AI agents that participate in a tick-based Conway's Game of Life economy with energy currency and marketplace trading.
+- **[chopmob-cloud/AlgoVoi-Platform-Adapters](https://github.com/chopmob-cloud/algovoi-platform-adapters)** `⭐ 1` `updated ≤90d` Production-ready payment adapters and integration plugins for connecting e-commerce platforms, AI agents, and no-code tools to the AlgoVoi multi-chain payment gateway.
 - **[gabazureus/jevextract](https://github.com/gabazureus/jevextract)** `⭐ 1` `updated ≤30d` Grounded information extraction that cannot hallucinate: code proposes spans, Jev decides. An open-source alternative to LangExtract, with a bilingual benchmark and paper.
+- **[Jev Policy Engine](https://github.com/bhavinm/jev-policy-engine)** `⭐ 1` `updated ≤30d` Jev Policy Engine is the first universal Policy-as-Code SDK built for TypeSafe AI's Jev System One model. It allows RevOps, DevOps, and Security teams to define strict, deterministic AI governance rules in YAML, and execute them at high speed.
 - **[marras0914/agent-toolbelt](https://github.com/marras0914/agent-toolbelt)** `⭐ 1` `updated ≤90d` A collection of stock research and utility tools for AI agents, accessible via a production API and npm SDK.
 - **[Agent Cost Guardrails](https://github.com/sapph1re/agent-cost-guardrails)** `⭐ 0` `updated ≤90d` A pure Python middleware library that enforces hard budget limits, rate limits, and circuit breakers for AI agent frameworks including CrewAI, AutoGen, and LangGraph.
-- **[aurumflux20/effectfence](https://github.com/aurumflux20/effectfence)** `⭐ 0` `updated ≤30d` A Rust library and MCP server that provides a causal concurrency fence to prevent duplicate side effects in multi-agent tool calls.
+- **[bristlecone2026/bristlecone-logic](https://github.com/bristlecone2026/bristlecone-logic)** `⭐ 0` `updated ≤30d` Deterministic guardrails and M2M security rails for autonomous AI agents: pre-socket SSRF defense, zero-overhead JSON repair, and sandboxed AST math verification.
+- **[JEV ADK](https://github.com/abyakod/jev_adk)** `⭐ 0` `updated ≤30d` Agent Development Kit for System-One AI: Sub-100ms non-autoregressive decision pipelines, guardrails, and dual-brain agent orchestrator powered by TypeSafe AI's Jev.
 - **[jvsteiner/jevex](https://github.com/jvsteiner/jevex)** jevex - Minimal agent loop where Jev directs control flow and a LangChain chat model writes argument values and the final response.
 - **[kieranklaassen/ruby_llm-typesafe](https://github.com/kieranklaassen/ruby_llm-typesafe)** ruby_llm-typesafe - TypeSafe structured-output provider for RubyLLM 2.
+- **[langchain-text-summarizer](https://github.com/alphasecio/langchain-text-summarizer)** langchain-text-summarizer: A sample streamlit application summarizing text using LangChain.
 - **[LightAgent](https://github.com/wanxingai/lightagent)** LightAgent 1,225 Python Apache-2.0 2026-09 Lightweight Python agents with tools and memory.
 - **[nicolasmontone/jev-tool-permissions](https://github.com/nicolasmontone/jev-tool-permissions)** jev-tool-permissions — Adds tool-call approval and tool-list pruning to the Vercel AI SDK.
 - **[nshkrdotcom/typesafe_sdk](https://github.com/nshkrdotcom/typesafe_sdk)** typesafe_sdk (post) - An idiomatic, type-safe Elixir port of the official TypeScript AI SDK (ai / ai-sdk) providing unified LLM integrations, streaming text and structured outputs, tool calling, and agentic workflows. Jev is their current flagship model and is the first System One model.
@@ -369,10 +377,13 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[vinnie357/typesafe_sdk_ex](https://github.com/vinnie357/typesafe_sdk_ex)** typesafe_sdk_ex - Typesafe AI SDK in Elixir using Req.
 - **[Axolotl](http://docs.axolotl.ai)** Axolotl is a free and open-source framework for post-training and fine-tuning large language models.
 - **[CSV-AI](https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/snowflake.html)** LangChain provides a minimal, configurable agent harness for composing agents from model, tools, prompt, and middleware.
+- **[eve.dev](https://eve.dev)** eve (site) - Vercel's open agent framework, which ships Jev as the default evaluation model in its experimental evaluate path.
 - **[flaml-a-fast-and-lightweight-automl-library](https://microsoft.com/en-us/research/publication/flaml-a-fast-and-lightweight-automl-library)** FLAML is a fast and lightweight AutoML library from Microsoft Research that automates learner and hyperparameter selection with low computational cost.
 - **[LangChain](https://langchain.com)** LangChain is a framework and SDK for building applications with language agents, offering abstractions for LLMs, chains, agents, and tools.
 - **[Markstream Vue](https://markstream-vue.simonhe.me)** Markstream Vue – MIT-licensed streaming Markdown renderer for AI chat interfaces, with Mermaid, KaTeX, SSR, and Vue, React, Svelte, and Angular integrations.
 - **[PyPI](https://pypi.org/project/agent-cost-guardrails)** A Python package for managing cost guardrails in AI agent workflows.
+- **[Vercel AI SDK](https://ai-sdk.dev)** A unified TypeScript SDK from Vercel for building AI-powered applications with support for streaming, fallbacks, and multiple model providers.
+- **[Wren](https://getwren.ai)** Wren AI is an open-source GenBI platform that converts natural language into governed text-to-SQL and structured insights across multiple data sources.
 
 </details>
 
@@ -619,7 +630,7 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   `multi-agent` `autonomous-agents` `agent-framework` `multi-agent-collaboration`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+48 more in Multi-Agent Systems &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+50 more in Multi-Agent Systems &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[rinadelph/Agent-MCP](https://github.com/rinadelph/agent-mcp)** `⭐ 1.3k` `updated ≤1y` Agent-MCP is a developer framework for building multi-agent systems that coordinate specialized AI agents through a shared memory graph and task management dashboard using the Model Context Protocol.
 - **[IX](https://github.com/kreneskyp/ix)** `⭐ 1k` `updated ≤1y` An autonomous GPT-4 agent platform for designing, deploying, and coordinating multi-agent workflows.
@@ -631,10 +642,10 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[IoA](https://github.com/openbmb/ioa)** `⭐ 826` `updated ≤1y` An open-source framework that connects diverse AI agents across distributed environments to autonomously form teams and collaboratively tackle complex tasks.
 - **[data-to-paper](https://github.com/technion-kishony-lab/data-to-paper)** `⭐ 811` `updated >1y` An automation framework that navigates interacting AI agents through end-to-end scientific research, from raw data analysis to generating human-verifiable, backward-traceable research papers.
 - **[CodeFuse-muAgent](https://github.com/codefuse-ai/codefuse-muagent)** `⭐ 775` `updated >1y` An open-source agent framework driven by an eventic knowledge graph that provides a Python SDK and a containerized runtime for building multi-agent workflows.
-- **[chunxiaoxx/nautilus-compass](https://github.com/chunxiaoxx/nautilus-compass)** `⭐ 733` `updated ≤30d` Reliability layer for multi-agent setups — keep agents coordinating without an orchestrator. Cross-dialog contracts + drift detection + black-box memory (no LLM extraction).
 - **[Swarm](https://github.com/christopherkarani/swarm)** `⭐ 574` `updated ≤90d` A Swift framework for building stateful AI agent workflows natively on Apple and Linux platforms.
 - **[Multi GPT](https://github.com/sidhq/multi-gpt)** `⭐ 564` `updated >1y` An experimental multi-agent system that spins up multiple collaborating GPT-4 'expertGPTs' with individual short and long-term memory to complete tasks, built as a Python CLI project in 2023.
 - **[RAI](https://github.com/robotecai/rai)** `⭐ 552` `updated ≤180d` RAI is a vendor-agnostic agentic framework for Physical AI and robotics that integrates LLMs and multimodal models with ROS 2 to perform complex actions, scenarios, and human-robot interactions.
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 494` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work.
 - **[Octochains](https://github.com/ahmadvh/octochains)** `⭐ 373` `updated ≤90d` A lightweight Python framework for parallel, isolated, and collaborative multi-agent reasoning and consensus.
 - **[openai-agents-go](https://github.com/nlpodyssey/openai-agents-go)** `⭐ 265` `updated ≤1y` A Go port of the OpenAI Agents Python SDK for building multi-agent workflows with handoffs, guardrails, and tool-calling support.
 - **[bondai](https://github.com/krohling/bondai)** `⭐ 222` `updated >1y` BondAI is an open-source framework for building single and multi-agent AI systems with built-in memory/context management, error handling, and tool integrations.
@@ -654,15 +665,17 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[subagents-pydantic-ai](https://github.com/vstorm-co/subagents-pydantic-ai)** `⭐ 54` `updated ≤90d` Subagent delegation library for Pydantic AI that enables nested, dynamically spawned specialist agents with sync/async/auto execution modes and runtime agent creation.
 - **[agent-swarm-kit](https://github.com/tripolskypetr/agent-swarm-kit)** `⭐ 38` `updated ≤90d` A TypeScript npm library for building orchestrated, framework-agnostic multi-agent AI systems with session management, agent testing utilities, and MCP server connectivity.
 - **[shifts](https://github.com/aaronrussell/shifts)** `⭐ 37` `updated >1y` An Elixir framework for composing autonomous AI agent workflows using various LLM backends.
+- **[Hyv](https://github.com/blib-la/hyv)** `⭐ 24` `updated >1y` Hyv is a library for integrating and managing multiple AI models through a unified API and agent-based architecture.
 - **[SwiftSwarm](https://github.com/jamesrochabrun/swiftswarm)** `⭐ 23` `updated >1y` Swift framework for lightweight multi-agent orchestration inspired by OpenAI's Swarm library.
 - **[swarm-ai](https://github.com/intelliswarm-ai/swarm-ai)** `⭐ 20` `updated ≤90d` A Java-based multi-agent orchestration framework built on Spring AI that enables dynamic skill generation, runtime capability detection, and enterprise-grade governance for agent workflows.
 - **[a2a4j](https://github.com/pheonixhkbxoic/a2a4j)** `⭐ 18` `updated >1y` A Java SDK and Spring Boot scaffold implementing Google's Agent-to-Agent (A2A) protocol for building interoperable, multi-vendor AI agents.
 - **[nestjs-a2a](https://github.com/thestupd/nestjs-a2a)** `⭐ 16` `updated >1y` A NestJS library and module for implementing Google's Agent-to-Agent (A2A) protocol to build type-safe, streaming-capable agents with JSON-RPC 2.0 compliant APIs.
 - **[Flux0](https://github.com/flux0-ai/flux0)** `⭐ 14` `updated >1y` Flux0 is a framework for deploying and orchestrating AI agents with real-time streaming, session management, and LLM-agnostic integration.
-- **[Cohexa-ai/agent-coherence](https://github.com/cohexa-ai/agent-coherence)** `⭐ 11` `updated ≤30d` A vendor-neutral coordination layer for multi-agent systems that prevents silent state clobbering via MESI-style concurrency control.
 - **[ruby-openai-swarm](https://github.com/graysonchen/ruby-openai-swarm)** `⭐ 11` `updated >1y` A Ruby-based framework adapted from OpenAI’s Swarm for lightweight multi-agent orchestration.
 - **[swarm-go](https://github.com/feiskyer/swarm-go)** `⭐ 8` `updated >1y` A lightweight multi-agent orchestration framework for Go, inspired by OpenAI's Swarm.
 - **[Voltmachines](https://github.com/ssdeanx/voltmachines)** `⭐ 4` `updated >1y` A TypeScript framework for building orchestrated multi-agent systems with persistent memory, tool integration, and a supervisor-based delegation architecture.
+- **[CNSLabs/agreements-api-sdk](https://github.com/cnslabs/agreements-api-sdk)** `⭐ 2` `updated ≤90d` A TypeScript SDK and MCP server for interacting with the Shodai Agreements API to manage machine-readable coordination workflows.
+- **[aurumflux20/effectfence](https://github.com/aurumflux20/effectfence)** `⭐ 0` `updated ≤30d` A Rust library and MCP server that provides a causal concurrency fence to prevent duplicate side effects in multi-agent tool calls.
 - **[Multi-Agent](https://github.com/masonlee39/multi-agent)** Multi-agent orchestration engine with warm sessions, a durable mailbox, and per-task token accounting.
 - **[OpenAcme](https://github.com/sandydasari/openacme)** OpenAcme 87 TypeScript MIT 2026-07 Role-specialized agents that self-organize.
 - **[prescott-data/jarviscore-framework](https://github.com/prescott-data/jarviscore-framework)** JarvisCore - Agent frameworks: Python multi-agent runtime that ships Jev natively from 1.12, where agents ask typed Choice, Score and Noul questions through a decision client separate from the text model, the Kernel picks a specialist subagent by Choice, and each retrieved RAG passage is withheld from the generating model when its prompt-injection Noul exceeds 0.70.
@@ -730,14 +743,6 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `api-gateway` `mcp` `cloud-native` `ai-infra` `envoy`
   </details>
-- **[BentoML](https://github.com/bentoml/bentoml)** `⭐ 8.9k` `updated ≤30d` BentoML is a Python library for building model inference APIs and multi-model serving systems for AI apps. <details><summary>More about</summary>
-
-  It lets developers turn any ML model into a production-ready API with minimal code, handling containerization, scaling, and deployment.
-
-  _Finally, a way to serve your fine-tuned llama without wrestling with Flask, Gunicorn, and Dockerfiles at 2 a.m._
-
-  `model-serving` `inference` `mlops` `python` `api`
-  </details>
 - **[Bifrost](https://github.com/maximhq/bifrost)** `⭐ 7k` `updated ≤90d` Bifrost is a high-performance AI gateway that unifies access to multiple LLM providers through an OpenAI-compatible API with load balancing, failover, and guardrails. <details><summary>More about</summary>
 
   It lets developers swap LLMs and scale AI apps without rewriting code or managing provider-specific integrations.
@@ -753,14 +758,6 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   _You can now add a sophisticated routing layer to your stack so you can spend more engineering hours optimizing a cost-saving knob than the actual API bill you are trying to reduce._
 
   `llm-routing` `cost-optimization` `openai-compatible` `model-inference` `benchmarking`
-  </details>
-- **[optillm](https://github.com/algorithmicsuperintelligence/optillm)** `⭐ 4.3k` `updated ≤90d` An optimizing inference proxy for LLMs that improves performance and cost-efficiency. <details><summary>More about</summary>
-
-  Developers can reduce LLM inference costs and latency without changing their application code by routing requests through this proxy.
-
-  _Now you can spend more time arguing about whether your proxy is optimizing the right thing._
-
-  `llm-inference` `proxy-server` `optimization` `api-gateway` `mixture-of-experts`
   </details>
 - **[SimpleAIChat](https://github.com/minimaxir/simpleaichat)** `⭐ 3.5k` `updated >1y` Python package for easily interfacing with chat apps like ChatGPT and GPT-4 with minimal code complexity. <details><summary>More about</summary>
 
@@ -802,6 +799,7 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `react` `hooks` `browser-api` `typescript` `mcp`
   </details>
+- **[agentjido/req_llm](https://github.com/agentjido/req_llm)** `⭐ 589` `updated ≤30d` Composable Elixir library for LLM interactions built on Req and Finch.
 - **[ormb](https://github.com/kleveross/ormb)** `⭐ 473` `updated >1y` An open-source model registry that manages ML/DL models using OCI artifacts and Docker-like workflows. <details><summary>More about</summary>
 
   It lets developers version, share, and deploy machine learning models using familiar container registry patterns and tooling.
@@ -883,29 +881,24 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `typescript` `sdk` `streaming` `durable-streams` `real-time`
   </details>
-- **[pickelfintech/sentisift-sdks](https://github.com/pickelfintech/sentisift-sdks)** `⭐ 1` `updated ≤90d` Official Python, TypeScript, and MCP-server clients for the SentiSift comment-moderation and sentiment analysis API. <details><summary>More about</summary>
+- **[ainame/swift-typesafe](https://github.com/ainame/swift-typesafe)** `⭐ 16` `updated ≤30d` Unofficial Swift SDK for TypeSafe.
+- **[atharvamhaske/typesafe-sdk-go](https://github.com/atharvamhaske/typesafe-sdk-go)** `⭐ 12` `updated ≤30d` unofficial go sdk for typesafe ai. not affiliated with or endorsed by typesafe ai. a side project built to fill the missing go sdk gap, for the community to use.
+- **[alterhq/typesafe-sdk-swift](https://github.com/alterhq/typesafe-sdk-swift)** `⭐ 5` `updated ≤30d` Unofficial Swift library for the TypeSafe API.
+- **[butochnikov/laravel-typesafe-jev](https://github.com/butochnikov/laravel-typesafe-jev)** `⭐ 4` `updated ≤30d` Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes.
 
-  Developers can integrate automated comment scoring and bot filtering into apps via SDKs or by giving an AI agent access through the included MCP server.
+<details><summary><strong>▸ &nbsp;&nbsp;+19 more in Provider & Model Abstractions &nbsp;—&nbsp; click to expand</strong></summary>
 
-  _You can now delegate the existential burden of moderating internet comments to a model context protocol server, because reading them yourself would be far too human._
-
-  `sdk` `mcp` `content-moderation` `sentiment-analysis`
-  </details>
-- **[.github](https://github.com/flyflow-devs/.github)** `⭐ 0` `updated >1y` Flyflow is an API middleware written in Go designed to optimize LLM application performance by improving response quality, latency, and reliability. <details><summary>More about</summary>
-
-  It acts as a performance and security abstraction layer to help developers manage rate limits and token constraints when building production LLM apps.
-
-  _Because apparently, we couldn't have enough middleware to manage the chaos of unpredictable LLM latency and token costs._
-
-  `middleware` `llm-ops` `go` `latency-optimization` `api-management`
-  </details>
+- **[chez-shanpu/typesafeai-go](https://github.com/chez-shanpu/typesafeai-go)** `⭐ 2` `updated ≤30d` Go SDK for TypeSafe AI API https://docs.typesafe.ai/api.
+- **[afurm/typesafe-sdk-ruby](https://github.com/afurm/typesafe-sdk-ruby)** `⭐ 1` `updated ≤30d` Unofficial Ruby SDK for the TypeSafe AI API (Jev model) - typed questions, retries, and typed errors. Community port of typesafe-sdk-js.
+- **[pickelfintech/sentisift-sdks](https://github.com/pickelfintech/sentisift-sdks)** `⭐ 1` `updated ≤90d` Official Python, TypeScript, and MCP-server clients for the SentiSift comment-moderation and sentiment analysis API.
+- **[.github](https://github.com/flyflow-devs/.github)** `⭐ 0` `updated >1y` Flyflow is an API middleware written in Go designed to optimize LLM application performance by improving response quality, latency, and reliability.
+- **[auroracapital/upres-cli](https://github.com/auroracapital/upres-cli)** `⭐ 0` `updated ≤30d` Official CLI + SDK for upres.ai — image, video, and speech restoration. 14 public aliases, up to 8K.
 - **[openrouterteam/ai-sdk-provider](https://github.com/openrouterteam/ai-sdk-provider)** The OpenRouter provider for the Vercel AI SDK contains support for hundreds of models through the OpenRouter chat and completion APIs.
-
-<details><summary><strong>▸ &nbsp;&nbsp;+12 more in Provider & Model Abstractions &nbsp;—&nbsp; click to expand</strong></summary>
-
+- **[ReliableGPT](https://github.com/berriai/reliablegpt)** Handle OpenAI Errors (overloaded OpenAI servers, rotated keys, or context window errors) for your production LLM Applications.
 - **[CoderPlan](https://coderplan.ai)** CoderPlan – Unified LLM API gateway with OpenAI-compatible API for Claude, GPT, Gemini and 200+ models. Pay-per-use pricing with Alipay/WeChat support, designed for developers using Claude Code and Cursor.
 - **[Codestral](https://mistral.ai/news/codestral)** Codestral is an open-weight 22B parameter code generation model from Mistral AI trained on 80+ programming languages with a 32k context window.
 - **[FireworksAI](https://app.fireworks.ai/account/home)** Fireworks AI provides fast hosted inference for open-source LLMs and image models, with training and deployment capabilities.
+- **[FireworksAI](https://fireworks.ai)** Fireworks.ai provides fast inference for generative AI models, including open-source LLMs and image models, with optional fine-tuning and deployment capabilities.
 - **[FuturMix](https://futurmix.ai)** FuturMix – Unified AI API gateway for 22+ models with OpenAI-compatible endpoint. Features automatic failover, 99.99% SLA, and cost optimization across OpenAI, Anthropic, and Google models.
 - **[Mux](https://mux.com)** Mux is a video API platform that enables developers to stream, encode, analyze, and manipulate video with AI-powered features like transcription, moderation, and summarization.
 - **[OpenRouter](https://openrouter.ai)** OpenRouter is a unified interface for accessing and comparing AI models from multiple providers via a single API.
@@ -914,7 +907,6 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[TeamoRouter](https://teamorouter.cn)** LLM routing gateway for OpenClaw. One API key to access Claude, GPT-4o, Gemini, DeepSeek, Kimi, MiniMax. Smart routing modes (teamo-best, teamo-balanced, teamo-eco) auto-pick the optimal model. Up to 50% off official prices. 2-second install via skill.md.
 - **[TeamoRouter](https://teamorouter.com)** An LLM routing gateway providing a unified, OpenAI-compatible API to access multiple models like Claude, GPT, and Gemini with automated cost reduction.
 - **[Twelve Data](https://twelvedata.com)** Twelve Data provides financial market data APIs for stocks, forex, crypto, and other assets with SDKs and WebSocket access for developers.
-- **[Vercel AI SDK](https://ai-sdk.dev)** A unified TypeScript SDK from Vercel for building AI-powered applications with support for streaming, fallbacks, and multiple model providers.
 
 </details>
 
@@ -927,14 +919,6 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   _Yet another graph framework ensuring you can visualize your agent's existential crisis in acyclical detail before it inevitably hangs on a missing edge._
 
   `agents` `framework` `graph` `stateful` `orchestration`
-  </details>
-- **[TVM](https://github.com/apache/tvm)** `⭐ 13.8k` `updated ≤30d` Open Machine Learning Compiler Framework for optimizing and deploying ML models across hardware backends. <details><summary>More about</summary>
-
-  Enables developers to compile and optimize machine learning models for diverse hardware targets, from GPUs to mobile devices, with Python-first customization.
-
-  _Finally, a compiler that lets you argue with your GPU about how to run your model._
-
-  `ml-compiler` `cross-platform` `performance` `python-first` `apache`
   </details>
 - **[Kedro](https://github.com/kedro-org/kedro)** `⭐ 10.9k` `updated ≤90d` Kedro is a Python framework for building production-ready, reproducible, and modular data engineering and data science pipelines. <details><summary>More about</summary>
 
@@ -1000,14 +984,6 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `dag` `etl` `data-pipelines` `python` `mlops`
   </details>
-- **[FEDOT](https://github.com/aimclub/fedot)** `⭐ 711` `updated ≤30d` An open-source AutoML framework for the automated design and optimization of machine learning pipelines. <details><summary>More about</summary>
-
-  It automates the complex process of building, tuning, and managing predictive models for classification, regression, and time-series tasks.
-
-  _Because why spend weeks manually tuning hyperparameters when an evolutionary algorithm can do it while you contemplate your career choices?_
-
-  `automl` `machine-learning` `evolutionary-algorithms` `pipeline-automation`
-  </details>
 - **[LLMFlows](https://github.com/stoyan-stoyanov/llmflows)** `⭐ 705` `updated >1y` LLMFlows is a Python framework for building explicit, transparent LLM-powered applications using structured flows, prompt templates, and vector store integrations. <details><summary>More about</summary>
 
   It gives developers a minimal, code-first way to define and trace complex LLM call chains without hidden prompts or opaque abstractions.
@@ -1056,6 +1032,14 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `workflows` `json` `langchain` `cli` `llm`
   </details>
+- **[codervisor/lean-spec](https://github.com/codervisor/leanspec)** `⭐ 287` `updated ≤180d` Lightweight, tool-agnostic framework for Spec-Driven Development (SDD) with AI integration and MCP support. <details><summary>More about</summary>
+
+  Lets developers use their existing issue trackers (GitHub, ADO, Jira, etc.) as spec backends while adding a unified interface, AI-native workflows, and visualization tools for SDD.
+
+  _Finally, a way to turn your Jira backlog into something even an AI can pretend to understand._
+
+  `ai-integration` `cli` `mcp` `project-management` `sdd` `spec-driven-development` `workflow`
+  </details>
 - **[IBM wxflows](https://github.com/ibm/wxflows)** `⭐ 118` `updated >1y` Examples and tutorials for building AI applications with IBM's watsonx.ai Flows Engine, a tool for creating and deploying agent tools. <details><summary>More about</summary>
 
   Developers can use it to build, run, and deploy custom tools for AI agents that integrate with frameworks like LangChain, LangGraph, and OpenAI.
@@ -1088,7 +1072,6 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `orchestration` `pipelines` `infrastructure` `genai`
   </details>
-- **[chuf-h/jev-tree](https://github.com/chuf-h/jev-tree)** `⭐ 43` `updated ≤30d` Jev-native probability tree and graph runtime for verifiable multi-step decision making.
 - **[titan-orchestrator](https://github.com/ramn51/titan-orchestrator)** `⭐ 34` `updated ≤180d` Titan is a zero-dependency distributed runtime and orchestrator for running static DevOps pipelines, long-running services, and dynamic LLM-generated agentic workflows via a Python SDK and CLI. <details><summary>More about</summary>
 
   It offers developers a unified substrate to bridge deterministic DAG orchestration with autonomous, runtime-defined agent graphs and hardware-aware auto-scaling.
@@ -1248,14 +1231,6 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `vector-database` `hybrid-search` `rag` `ai-native` `embeddings`
   </details>
-- **[Fast-GraphRAG](https://github.com/circlemind-ai/fast-graphrag)** `⭐ 3.9k` `updated ≤1y` A GraphRAG implementation that intelligently adapts to specific use cases, data, and queries. <details><summary>More about</summary>
-
-  It addresses the limitations of standard RAG by using graph structures to improve retrieval accuracy for complex, interconnected datasets.
-
-  _Now you can spend your weekends worrying about the structural integrity of your knowledge graphs instead of just your code._
-
-  `rag` `graph-rag` `retrieval` `knowledge-graph` `llm-infrastructure`
-  </details>
 - **[Vearch](https://github.com/vearch/vearch)** `⭐ 2.3k` `updated ≤90d` Distributed vector database for efficient similarity search and retrieval in AI-native applications, serving as a scalable memory backend for RAG systems. <details><summary>More about</summary>
 
   Developers building retrieval-augmented generation need low-latency hybrid search over millions of embeddings without manually orchestrating storage, replication, and metadata filtering.
@@ -1312,6 +1287,14 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `vector-database` `rag` `embeddings` `search` `infrastructure`
   </details>
+- **[entaoai](https://github.com/akshata29/entaoai)** `⭐ 866` `updated >1y` A reference implementation for building RAG-based chat applications using Azure OpenAI and vector stores like Pinecone or Redis. <details><summary>More about</summary>
+
+  It provides a working template for implementing enterprise-grade retrieval-augmented generation patterns and evaluation metrics.
+
+  _Now you can spend your weekend debugging vector search similarity scores instead of actually writing business logic._
+
+  `rag` `azure` `langchain` `openai` `vector-search`
+  </details>
 - **[Rankify](https://github.com/datascienceuibk/rankify)** `⭐ 683` `updated ≤30d` A Python toolkit for retrieval, re-ranking, and retrieval-augmented generation with 40+ benchmark datasets, 7+ retrieval techniques, 24+ reranking models, and multiple RAG methods. <details><summary>More about</summary>
 
   Developers building RAG pipelines or evaluating retrieval models can use this to benchmark, compare, and integrate state-of-the-art techniques without reinventing infrastructure.
@@ -1362,14 +1345,75 @@ _346 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   `graphrag` `rag` `knowledge-graph` `neo4j` `retrieval`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+7 more in Memory & Retrieval Infrastructure &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+9 more in Memory & Retrieval Infrastructure &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[distributed-semantic-cache-and-stateful-routing-system](https://github.com/redjackfred/distributed-semantic-cache-and-stateful-routing-system)** `⭐ 1` `updated ≤180d` A self-hosted Go and Python system that uses consistent hashing and Redis vector search to cache semantically similar LLM responses and route requests to warm workers.
+- **[Chonkie](https://github.com/bhavnicksm/chonkie)** 28. Chonkie: The no-nonsense RAG chunking library that's lightweight, lightning-fast, and ready to CHONK your texts.
 - **[Pixeltable](https://github.com/pixeltable/pixeltable)** Pixeltable: Declarative multimodal AI data engine providing versioned tables, computed columns, and native LangChain VectorStore (langchain-pixeltable) and LangGraph memory store (langgraph-store-pixeltable) integrations.
 - **[Vector Graph RAG](https://github.com/zilliztech/vector-graph-rag)** vector-graph-rag — Graph RAG with pure vector search, achieving SOTA performance in multi-hop reasoning scenarios.
+- **[Firecrawl](https://firecrawl.dev)** Firecrawl is a web scraping and crawler engine designed to turn entire websites into clean, LLM-ready markdown or structured data.
 - **[LlamaIndex](https://llamaindex.ai)** LlamaIndex is a data framework for connecting custom data sources to large language models, enabling retrieval-augmented generation and context-aware AI applications.
 - **[Ragie](https://www.ragie.ai)** Ragie is a managed RAG-as-a-service platform that provides APIs for document ingestion, chunking, embedding, and retrieval to augment LLMs with private data.
 - **[Rivestack](https://rivestack.io)** Managed PostgreSQL with optimized pgvector on dedicated NVMe storage for AI workloads, offering low-latency vector search and built-in semantic search tools.
 - **[Unstructured Platform](https://unstructured.io)** unstructured.io provides tools to extract, clean, and structure unstructured data like documents, PDFs, and web pages for downstream AI processing.
 
 </details>
+
+## Training & Model Infrastructure
+
+- **[TVM](https://github.com/apache/tvm)** `⭐ 13.8k` `updated ≤30d` Open Machine Learning Compiler Framework for optimizing and deploying ML models across hardware backends. <details><summary>More about</summary>
+
+  Enables developers to compile and optimize machine learning models for diverse hardware targets, from GPUs to mobile devices, with Python-first customization.
+
+  _Finally, a compiler that lets you argue with your GPU about how to run your model._
+
+  `ml-compiler` `cross-platform` `performance` `python-first` `apache`
+  </details>
+- **[llama-cpp-python](https://github.com/abetlen/llama-cpp-python)** `⭐ 10.6k` `updated ≤30d` Python bindings for the llama.cpp library providing high-level and low-level access to local LLM inference. <details><summary>More about</summary>
+
+  It allows developers to integrate high-performance, quantized local LLM inference directly into Python applications and workflows.
+
+  _Nothing says 'I'm building a local-first agent' like wrestling with CMAKE_ARGS just to get CUDA acceleration working._
+
+  `local-llm` `python` `inference` `llama-cpp` `quantization`
+  </details>
+- **[BentoML](https://github.com/bentoml/bentoml)** `⭐ 8.9k` `updated ≤30d` BentoML is a Python library for building model inference APIs and multi-model serving systems for AI apps. <details><summary>More about</summary>
+
+  It lets developers turn any ML model into a production-ready API with minimal code, handling containerization, scaling, and deployment.
+
+  _Finally, a way to serve your fine-tuned llama without wrestling with Flask, Gunicorn, and Dockerfiles at 2 a.m._
+
+  `model-serving` `inference` `mlops` `python` `api`
+  </details>
+- **[Distilabel](https://github.com/argilla-io/distilabel)** `⭐ 3.4k` `updated ≤30d` Distilabel is a Python framework for generating synthetic data and AI feedback pipelines based on verified research papers. <details><summary>More about</summary>
+
+  It helps developers create high-quality, scalable datasets for fine-tuning LLMs by synthesizing and judging data with AI feedback.
+
+  _Now you can spend less time collecting data and more time questioning whether your synthetic data is hallucinating its own existence._
+
+  `synthetic-data` `ai-feedback` `llm-training` `python-framework` `data-pipelines`
+  </details>
+- **[VeOmni](https://github.com/bytedance-seed/veomni)** `⭐ 2.2k` `updated ≤30d` A modular framework for scaling single- and multi-modal model pre-training and post-training across various accelerators. <details><summary>More about</summary>
+
+  It provides a 'trainer-free' architecture that allows developers to use linear training scripts for greater transparency and control during large-scale model training.
+
+  _A new way to spend your compute budget watching a distributed training loop fail for reasons no one can explain._
+
+  `multi-modal` `model-training` `distributed-training` `pytorch` `framework`
+  </details>
+- **[FEDOT](https://github.com/aimclub/fedot)** `⭐ 711` `updated ≤30d` An open-source AutoML framework for the automated design and optimization of machine learning pipelines. <details><summary>More about</summary>
+
+  It automates the complex process of building, tuning, and managing predictive models for classification, regression, and time-series tasks.
+
+  _Because why spend weeks manually tuning hyperparameters when an evolutionary algorithm can do it while you contemplate your career choices?_
+
+  `automl` `machine-learning` `evolutionary-algorithms` `pipeline-automation`
+  </details>
+- **[autoai](https://github.com/blobcity/autoai)** `⭐ 186` `updated >1y` A Python framework that automates model search, hyperparameter tuning, and code generation for regression and classification on numerical data. <details><summary>More about</summary>
+
+  Saves data scientists time by automating ML workflow steps and exporting ready-to-use code from a simple API.
+
+  _Another AutoML tool promising 'AI for everyone' while quietly assuming your data is clean, small, and fits in a CSV._
+
+  `automl` `code-generation` `python` `scikit-learn` `data-science`
+  </details>

@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is specifically an MCP server designed to provide domain-specific (blockchain) data to AI
-    hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo name and description explicitly identify it as an 'MCP Server'
-    - README provides configuration instructions specifically for 'claude_desktop_config.json'
-    - Functionality is centered on providing external API data (BICScan) as tool capabilities
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

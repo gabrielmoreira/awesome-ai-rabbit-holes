@@ -57,17 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a code-first training framework and engine designed for developers to build and scale models, fitting the core
-    definition of ai-frameworks.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - Repo description defines it as a distributed recipe zoo for scaling model training
-    - README highlights core features like FSDP2, sequence parallelism, and MoE support
-    - Provides a modular, 'trainer-free' approach for maximum transparency and control
+    - jev-latest choice confidence 0.71
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Fine-tuning & Training
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (1951) exceeded threshold (150)

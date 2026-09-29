@@ -113,15 +113,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is explicitly an MCP server built to expose crypto and DeFi data to AI assistants, fitting squarely in MCP
-    Servers & Tooling under Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repository name and description identify it as the 'DexPaprika MCP server' for real-time crypto token and DEX
-      data.
-    - README centers entirely on MCP protocol setup, Claude Desktop MCP configuration, and hosted MCP endpoints.
-    - Listed in awesome-mcp-servers under Finance & Fintech and Official Servers sections.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

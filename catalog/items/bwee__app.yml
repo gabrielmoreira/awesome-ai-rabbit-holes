@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bwee__app__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,7 +19,9 @@ provenance:
           - Session managers & parallel runners
         anchor_text: Bwee
         extracted_url: https://bwee.app
-        surrounding_text: "- **[Bwee](https://bwee.app)** — Desktop app for CLI coding agents where users build their own views (BYOUI) — custom tools and dashboards that live alongside the terminal. Persistent sessions and task management. macOS."
+        surrounding_text: >-
+          - **[Bwee](https://bwee.app)** — Desktop app for CLI coding agents where users build their own views (BYOUI) —
+          custom tools and dashboards that live alongside the terminal. Persistent sessions and task management. macOS.
         confidence: high
 metadata:
   github:
@@ -38,7 +40,9 @@ metadata:
     readme: null
 insights:
   summary: A native macOS GUI wrapper for Claude Code that enables building custom tool interfaces through chat.
-  why_it_matters: It provides a persistent, local-first desktop environment for interacting with Claude Code beyond the standard terminal interface.
+  why_it_matters: >-
+    It provides a persistent, local-first desktop environment for interacting with Claude Code beyond the standard
+    terminal interface.
   mental_damage: Because typing in a terminal wasn't quite enough of a high-stakes way to watch an agent rewrite your files.
   tags:
     - macos
@@ -48,22 +52,22 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It belongs because it is a developer-facing integration that augments Claude Code with native UI, session persistence, and custom tool-building, rather than acting as the primary coding assistant itself.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
-    - Landing page states 'Requires Claude Code' and its title is 'Claude Code GUI for Mac', framing it as a wrapper, not a standalone agent.
-    - Scraped description reads 'Wrap Claude Code in a native macOS app' and emphasizes session persistence and native UI building on top of the existing agent.
-    - Source list places it in 'Harnesses & orchestration > Session managers & parallel runners', confirming its identity as an augmenting layer rather than a primary assistant.
+    - jev-latest choice confidence 0.99
 placement:
-  primary_category: agent-orchestration
+  primary_category: extensions-and-addons
   secondary_categories: []
-  section: null
+  section: Claude Code & Agent Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'extensions-and-addons'"
+  reason: >-
+    Categorization review required: placement disagreement: retained 'agent-orchestration', proposed
+    'extensions-and-addons'
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.716Z"
+    updated_at: '2026-07-16T05:04:46.716Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:25:51.007Z"
+    updated_at: '2026-09-24T04:25:51.007Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -93,6 +97,10 @@ processing:
       category_candidates:
         - extensions-and-addons
         - agent-orchestration
-      contrastive_reason: Choose extensions-and-addons over agent-orchestration because its core identity is a GUI wrapper for Claude Code rather than a runtime for coordinating multiple independent agent teams.
-      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'extensions-and-addons'"
+      contrastive_reason: >-
+        Choose extensions-and-addons over agent-orchestration because its core identity is a GUI wrapper for Claude Code
+        rather than a runtime for coordinating multiple independent agent teams.
+      review_reason: >-
+        Categorization review required: placement disagreement: retained 'agent-orchestration', proposed
+        'extensions-and-addons'
       review_resume_lifecycle: null

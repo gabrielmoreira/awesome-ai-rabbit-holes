@@ -154,16 +154,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the primary product identity (server + CLI) with domain-specific code research capabilities, not just a
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly calls it a 'code research platform for AI agents' with MCP/CLI delivery
-    - README centers on MCP server installation and skills marketplace
-    - Topics include 'model-context-protocol' and 'mcp' as core identity
-    - Repo description leads with 'MCP server for semantic code research' and implements the Model Context Protocol
-    - Listed in awesome-mcp-servers under Developer Tools with 844 stars and active maintenance (last pushed 2026-05-18)
-    - Primary artifact is the octocode-mcp server package, not merely a skill pack or extension layer
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a standalone terminal-based coding assistant that manages its own execution loop and tool use.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly defines it as 'The Economical Coding Agent'.
-    - README provides installation commands for terminal environments and demonstrates a task-oriented CLI workflow.
-    - >-
-      Claims significant token savings via specialized context management techniques like 'chunked mode' and 'context
-      compaction'.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []

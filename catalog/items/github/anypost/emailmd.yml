@@ -59,15 +59,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    emailmd is primarily an MCP server and utility that augments AI assistants with email rendering capabilities, making
-    it an extension rather than a standalone coding agent or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''Render markdown into email-safe HTML'''
-    - >-
-      README: 'emailmd ships a Model Context Protocol server, so an AI assistant can render, lint, and preview emails
-      for you'
-    - 'Source-list context: listed in awesome-mcp-servers under Communication section'
+    - jev-latest choice confidence 0.46
 placement:
   primary_category: mcp
   secondary_categories: []

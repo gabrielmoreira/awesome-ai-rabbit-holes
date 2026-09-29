@@ -80,11 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It acts as a runtime harness and platform for managing the execution environment and lifecycle of AI agents.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Kubernetes-native platform providing isolated sandboxes for AI agents
-    - Uses gVisor for kernel-level isolation of untrusted AI-generated code
-    - Supports orchestration of multi-agent workflows via inter-sandbox communication
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

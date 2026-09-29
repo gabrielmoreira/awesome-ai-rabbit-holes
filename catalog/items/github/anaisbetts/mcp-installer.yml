@@ -54,17 +54,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is as an MCP server that provides MCP-specific functionality (installing other MCP
-    servers), making it a clear fit for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - Repo description explicitly states it is 'An MCP server that installs other MCP servers for you'
-    - README demonstrates usage via Claude Desktop MCP configuration and natural language installation commands
-    - Listed in awesome-mcp-servers under 'Community Servers'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Clients & Inspector Tools
 lifecycle:
   status: curated
   reason: Stars (1517) exceeded threshold (150)

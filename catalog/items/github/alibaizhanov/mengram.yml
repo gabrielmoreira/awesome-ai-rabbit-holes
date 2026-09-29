@@ -103,15 +103,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Core novelty is memory infrastructure (semantic/episodic/procedural) and context management, not host integration or
-    primary coding assistance.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - Repo description explicitly frames it as 'Human-like memory for AI agents' with semantic/episodic/procedural types
-    - >-
-      README highlights memory as primary value (cognitive profiles, auto-save/recall, failure-driven procedure
-      evolution)
-    - Integrations (LangChain, CrewAI, MCP) are secondary to the memory system itself
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: memory-and-context
   secondary_categories: []

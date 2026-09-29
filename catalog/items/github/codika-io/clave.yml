@@ -62,15 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is a session manager and UI wrapper that augments existing CLI agents rather than being a standalone agent
-    itself.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'a one-line GitHub description. Use this as the seed for the factual one-line summary when it
-      exists.'
-    - README explicitly states it's for managing 'Claude Code, Gemini CLI, and Codex CLI side by side'
-    - Requires at least one supported agent CLI to be installed and authenticated to function
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

@@ -70,13 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    FrontierAgent’s core identity is a workbench for coordinating multiple agents via a task board and sandboxed
-    workflows, making it an agent orchestration platform rather than a standalone coding assistant.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README describes Agent Team mode where a coordinator delegates work to parallel sub-agents and synthesizes results
-    - Repo description calls it an 'agent framework' with native command-line TUI and Agent Team modes
-    - Architecture shows clear separation between coordinator, task board, sub-agents, and shared sandbox
+    - jev-latest choice confidence 0.40
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

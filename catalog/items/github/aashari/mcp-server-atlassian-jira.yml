@@ -84,13 +84,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is a Model Context Protocol (MCP) server designed to provide specific domain
-    capabilities (Jira) to an AI host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description identifies it specifically as an 'MCP server for Atlassian Jira'
-    - README provides configuration patterns for MCP-compatible assistants like Claude Desktop
-    - Core functionality is providing tool-calling capabilities to an external host
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

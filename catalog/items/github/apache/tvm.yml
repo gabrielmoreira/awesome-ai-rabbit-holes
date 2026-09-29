@@ -71,18 +71,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    TVM is a code-first framework for compiling and optimizing ML models, fitting the developer-tooling scope as a
-    reusable building block rather than an end-user product or assistant.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - 'Repo description: ''Open Machine Learning Compiler Framework'''
-    - >-
-      README: 'Apache TVM is an open machine learning compilation framework' with Python-first development and universal
-      deployment
-    - 'Source-list context: Listed under ''Performance > ML Compiler'' in Awesome-LLMOps'
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: ai-frameworks
-  section: Workflow & Graph Engines
+  secondary_categories: []
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (13333) exceeded threshold (150)

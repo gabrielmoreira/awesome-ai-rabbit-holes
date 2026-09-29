@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here—a server exposing DataWorks API tools via MCP protocol, not a secondary
-    integration.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP server for DataWorks Open API
-    - README details MCP server configuration and tool exposure
-    - Listed in awesome-mcp-servers under 'Official Servers'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

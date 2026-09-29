@@ -121,13 +121,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    agent-lsp's core identity is an MCP server that exposes language server capabilities via MCP, making MCP its primary
-    protocol identity rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server that orchestrates language servers into agent-native workflows'''
-    - 'README: ''agent-lsp is an MCP server that orchestrates existing LSP servers into agent-native workflows'''
-    - 'Source-list: listed in awesome-mcp-servers under Server Implementations > Developer Tools'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

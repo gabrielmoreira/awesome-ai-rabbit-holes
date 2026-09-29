@@ -83,19 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a runtime platform for coordinating multiple coding-agent CLIs through structured workflows, not
-    a primary coding assistant or thin extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'Run reviewable, resumable coding-agent workflows across Claude Code, Codex, Gemini, GitHub
-      Copilot CLI, or any CLI'
-    - >-
-      README: 'Define the whole process in Markdown — the prompts, stages, agents, handoffs, and rules for what happens
-      next'
-    - >-
-      Source-list context: Listed under 'Harnesses & orchestration > Orchestrators & autonomous loops' in
-      awesome-cli-coding-agents
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

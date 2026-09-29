@@ -64,16 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is a set of MCP servers providing a specific domain of functionality (approximate
-    filters) to an LLM.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly identifies as 'MCP servers'
-    - README provides Claude Desktop MCP configuration for several filter implementations
-    - The core value is exposing a specific ADT interface through MCP tools
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: curated
   reason: null

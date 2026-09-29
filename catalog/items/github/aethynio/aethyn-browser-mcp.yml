@@ -74,13 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a dedicated MCP server providing specialized browser automation tools with advanced proxy and geo-steering
-    capabilities.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description and README identify it as an MCP server
-    - Provides specific tools like aethyn_launch_browser for per-task geo-steering
-    - Implements the Model Context Protocol to expose Playwright capabilities to agents
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

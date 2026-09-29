@@ -69,17 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Botpress is primarily a platform for coordinating and deploying AI agents and chatbots, fitting the agent
-    orchestration category as a workbench and runtime surface.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''The open-source hub to build & deploy GPT/LLM Agents'''
-    - 'README: ''Botpress is the ultimate platform for building next-generation chatbots and assistants powered by OpenAI'''
-    - Includes SDK, CLI, and integrations for building and managing bots
+    - jev-latest choice confidence 0.70
 placement:
-  primary_category: agent-orchestration
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Visual Builders & Workbenches
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (14673) exceeded threshold (150)

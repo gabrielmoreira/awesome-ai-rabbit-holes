@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server providing domain-specific infrastructure tools, making the protocol its
-    primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README claims 51 MCP tools for Nutanix Prism Central v4
-    - Provides governance features like ETag safety, audit logs, and undo-token recording
-    - Listed in awesome-mcp-servers under Cloud Platforms
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -3,14 +3,14 @@
 
 Runtimes, serving stacks, desktop apps, and tooling for running AI models on your own hardware or self-hosted infrastructure.
 
-_104 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_106 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Inference Engines](#inference-engines) — 30
-- [Local API Servers](#local-api-servers) — 15
-- [Desktop Chat & UIs](#desktop-chat--uis) — 28
-- [Fine-tuning & Training](#fine-tuning--training) — 31
+- [Inference Engines](#inference-engines) — 29
+- [Local API Servers](#local-api-servers) — 16
+- [Desktop Chat & UIs](#desktop-chat--uis) — 31
+- [Fine-tuning & Training](#fine-tuning--training) — 30
 
 ## Inference Engines
 
@@ -101,14 +101,6 @@ _104 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _Another local inference tool that makes you feel guilty for not quantizing your own 70B model on a Raspberry Pi._
 
   `local-ai` `inference` `gguf`
-  </details>
-- **[llama-cpp-python](https://github.com/abetlen/llama-cpp-python)** `⭐ 10.6k` `updated ≤30d` Python bindings for the llama.cpp library providing high-level and low-level access to local LLM inference. <details><summary>More about</summary>
-
-  It allows developers to integrate high-performance, quantized local LLM inference directly into Python applications and workflows.
-
-  _Nothing says 'I'm building a local-first agent' like wrestling with CMAKE_ARGS just to get CUDA acceleration working._
-
-  `local-llm` `python` `inference` `llama-cpp` `quantization`
   </details>
 - **[petals](https://github.com/bigscience-workshop/petals)** `⭐ 10.6k` `updated >1y` Petals is a distributed inference and fine-tuning system that runs large language models across a peer-to-peer network of volunteer GPUs. <details><summary>More about</summary>
 
@@ -246,13 +238,13 @@ _104 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `llm-inference` `local-ai` `cpp` `cuda` `performance`
   </details>
-- **[FireworksAI](https://fireworks.ai)** Fireworks.ai provides fast inference for generative AI models, including open-source LLMs and image models, with optional fine-tuning and deployment capabilities. <details><summary>More about</summary>
+- **[How Much VRAM](https://github.com/alexbodner/how_much_vram)** `⭐ 101` `updated >1y` A web tool that estimates VRAM requirements for running local LLMs based on model parameters and configuration. <details><summary>More about</summary>
 
-  It enables developers to run high-speed, cost-effective AI inference locally or via API, reducing latency and operational overhead for AI-powered applications.
+  Helps developers plan hardware needs when self-hosting or running large language models locally.
 
-  _The promise of 'blazing fast' inference feels like shouting into a void when your actual bottleneck is just waiting for the API to respond._
+  _Finally, a way to know if your GPU will laugh at your model dreams before you even try._
 
-  `inference` `llm` `local-ai`
+  `vram-calculator` `local-ai` `hardware-planning` `llm-inference`
   </details>
 
 ## Local API Servers
@@ -304,6 +296,14 @@ _104 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _Yet another locally-hosted inference server that promises drop-in compatibility, adding to the ever-growing list of 'just point your client here' tools that all require slightly different model formats._
 
   `local-ai` `inference-server` `openai-compatible` `gguf` `webgpu`
+  </details>
+- **[optillm](https://github.com/algorithmicsuperintelligence/optillm)** `⭐ 4.3k` `updated ≤90d` An optimizing inference proxy for LLMs that improves performance and cost-efficiency. <details><summary>More about</summary>
+
+  Developers can reduce LLM inference costs and latency without changing their application code by routing requests through this proxy.
+
+  _Now you can spend more time arguing about whether your proxy is optimizing the right thing._
+
+  `llm-inference` `proxy-server` `optimization` `api-gateway` `mixture-of-experts`
   </details>
 - **[Rapid-MLX](https://github.com/raullenchai/rapid-mlx)** `⭐ 3.3k` `updated ≤90d` A local inference engine for Apple Silicon that serves models via an OpenAI-compatible API, optimized for speed and tool calling to work with coding assistants like Claude Code and Cursor. <details><summary>More about</summary>
 
@@ -518,9 +518,11 @@ _104 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   `local-first` `task-management` `ai-agent` `browser-based` `mcp`
   </details>
 - **[baiyuscc13724-max/deepseek-harness-desktop](https://github.com/baiyuscc13724-max/deepseek-harness-desktop)** `⭐ 10` `updated ≤30d` DeepSeek Harness 中文 Windows 桌面版：女仆鲸桌宠、主题、插件市场、模型路由与安全更新。.
+- **[amanadhav/traderai](https://github.com/amanadhav/traderai)** `⭐ 4` `updated ≤30d` Self-hosted AI trading intelligence platform - scoring engine, two-model AI analyst (Claude + TypeSafe Jev), risk engine, discipline guardian, backtester, React dashboard.
 - **[LibreChat](https://github.com/librechat-ai/librechat)** LibreChat Open-source AI Web UI, supporting multiple providers including OpenAI, Anthropic, Google, Ollama, and local models. Includes MCP support for Agents.
 - **[miaowunya/rikkahub-sillytavern-android](https://github.com/miaowunya/rikkahub-sillytavern-android)** RikkaHub Plus Huadeng Edition - Android AI chat client & SillyTavern Android tavern compatibility. Connected to API instant chat: prefix cache to save token, semantic memory RAG, Jev intelligent decision-making, QuickJS plug-in, voice call, WeChat QQ Bot; character card, world book Lorebook, default, regular, QR, beautification theme can be imported with one click according to the official semantics of the tavern, without Termux/Node.js.
 - **[PyGPT](https://github.com/szczyglis-dev/py-gpt)** Desktop AI assistant with a Jev plugin for typed classification, routing, verification, and scoring.
+- **[Bodega One Code](https://bodegaone.ai)** Bodega One Code – Free, local-first AI IDE with a built-in coding agent, bring-your-own-LLM, and full offline/air-gap support.
 - **[FuLLMetalAi](https://fullmetal.ai)** FuLLMetalAi is a local AI inference UI listed in the awesome-local-ai directory under Inference UI. <details><summary>More about</summary>
 
   It provides a desktop interface for running local AI models, helping developers experiment with offline LLMs without relying on cloud APIs.
@@ -561,7 +563,13 @@ _104 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `local-ai` `desktop-assistant` `offline-ai`
   </details>
+- **[Try app](https://ai.quantdinger.com)** QuantDinger - Open source · Free source build · BYOK. Self-hosted AI trading OS with optional TypeSafe Jev pre-trade entry gates; hosted app also available. Product · Try app · Project guide.
+
+<details><summary><strong>▸ &nbsp;&nbsp;+1 more in Desktop Chat & UIs &nbsp;—&nbsp; click to expand</strong></summary>
+
 - **[Whisper by Remskill](https://whisper.remskill.com)** Whisper by Remskill – Local-first desktop voice-to-text (Windows & macOS) for hands-free dictation of code comments, commit messages, docs, and AI prompts into any editor; runs fully offline with local Whisper/Parakeet models or via OpenAI cloud. Free local tier.
+
+</details>
 
 ## Fine-tuning & Training
 
@@ -717,14 +725,6 @@ _104 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `llm` `fine-tuning` `local-ai` `lora` `quantization`
   </details>
-- **[VeOmni](https://github.com/bytedance-seed/veomni)** `⭐ 2.2k` `updated ≤30d` A modular framework for scaling single- and multi-modal model pre-training and post-training across various accelerators. <details><summary>More about</summary>
-
-  It provides a 'trainer-free' architecture that allows developers to use linear training scripts for greater transparency and control during large-scale model training.
-
-  _A new way to spend your compute budget watching a distributed training loop fail for reasons no one can explain._
-
-  `multi-modal` `model-training` `distributed-training` `pytorch` `framework`
-  </details>
 - **[Smol Vision](https://github.com/merveenoyan/smol-vision)** `⭐ 2k` `updated ≤180d` Recipes for shrinking, optimizing, customizing cutting edge vision models. <details><summary>More about</summary>
 
   Helps developers deploy vision models more efficiently by reducing size and improving performance.
@@ -805,9 +805,11 @@ _104 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `llm-finetuning` `cloud-training` `deepspeed` `lora` `python-sdk`
   </details>
+- **[H2OAI](https://h2o.ai)** An end-to-end generative and predictive AI platform designed for air-gapped, on-premises, and private cloud environments. <details><summary>More about</summary>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+1 more in Fine-tuning & Training &nbsp;—&nbsp; click to expand</strong></summary>
+  It enables developers in highly regulated industries to build and deploy autonomous agents and models while maintaining total data sovereignty.
 
-- **[H2OAI](https://h2o.ai)** An end-to-end generative and predictive AI platform designed for air-gapped, on-premises, and private cloud environments.
+  _It's 'local AI' for people who have to clear their model weights with a compliance committee first._
 
-</details>
+  `enterprise-ai` `local-ai` `mlops` `generative-ai`
+  </details>

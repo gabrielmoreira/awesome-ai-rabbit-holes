@@ -57,17 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is an MCP server that provides organizational context to agents via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Branded explicitly as 'Unblocked MCP Server'
-    - Synthesizes data from multiple sources like Slack, Jira, and GitHub into a single MCP connection
-    - Designed to function as a context layer for existing agents like Claude Code, Cursor, and Windsurf
+    - jev-latest choice confidence 0.98
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

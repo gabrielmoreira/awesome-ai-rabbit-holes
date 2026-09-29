@@ -54,17 +54,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core value is measuring, scoring, and regression-testing the behavior and quality of AI agents and
-    enterprise apps.
+  reason: Jev decision-model reclassifier placed this item in evals / Prompt Regression & Testing
   evidence:
-    - Claims to catch hallucinations and drift in AI agents
-    - Uses AI judgment and deterministic checks to score response quality
-    - Provides automated regression testing for model versions
+    - jev-latest choice confidence 0.99
 placement:
-  primary_category: coding-agents
+  primary_category: evals
   secondary_categories: []
-  section: Review, Testing & Repair
+  section: Prompt Regression & Testing
 lifecycle:
   status: curated
   reason: null

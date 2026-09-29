@@ -60,17 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is exposing browser automation via MCP, not augmenting another
-    assistant or acting as a coding agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - >-
-      Repo description: 'Give your AI assistant local access to your open tabs, saved bookmarks, and recently opened
-      links across every browser on your Mac.'
-    - >-
-      README: 'The MCP server is a thin bridge. It translates AI tool calls into local HTTP requests to the SupaSidebar
-      app running on your Mac.'
-    - 'Source-list context: Listed in awesome-mcp-servers under Browser Automation as an MCP server implementation.'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

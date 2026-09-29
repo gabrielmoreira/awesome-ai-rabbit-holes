@@ -78,13 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP server designed to expose domain-specific developer tools (dependency auditing and API verification) to
-    an agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Provides MCP tools like `check_upgrade` and `verify_snippet` for agent use
-    - Uses static analysis to identify breaking changes in installed packages
-    - Identified as an MCP server in the repo description and name
+    - jev-latest choice confidence 0.98
 placement:
   primary_category: mcp
   secondary_categories: []

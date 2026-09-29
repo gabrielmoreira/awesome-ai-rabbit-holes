@@ -82,17 +82,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server exposing SSH tools over the Model Context Protocol, making MCP its
-    core purpose rather than a secondary feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'MCP SSH Server: 37 tools for remote SSH management | Claude Code & OpenAI Codex | DevOps
-      automation'
-    - >-
-      README: 'A Model Context Protocol (MCP) server that enables Claude Code and OpenAI Codex to manage multiple SSH
-      connections'
-    - Listed in awesome-mcp-servers under Server Implementations > Command Line as an MCP server
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

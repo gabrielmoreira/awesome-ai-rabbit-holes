@@ -70,11 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is explicitly an MCP server that acts as a discovery/registry layer for agent instructions.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README describes it as an 'MCP server for the AgentBase agent instruction registry'
-    - Provides tools like search_registry and get_file specifically via MCP
-    - Primary function is exposing a registry of skills/prompts as MCP tools
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

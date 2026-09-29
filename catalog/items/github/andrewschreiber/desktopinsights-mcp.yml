@@ -66,15 +66,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server providing a specific domain-specific data service to AI hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description identifies it specifically as an 'MCP server'
-    - README provides setup instructions for Claude Desktop and Cursor via MCP
-    - Provides domain-specific lookup tools for desktop app tech stacks
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

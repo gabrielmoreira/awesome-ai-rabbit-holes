@@ -61,15 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server providing domain-specific (network operations) tools, making MCP its primary
-    identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description states it is a 'comprehensive MCP server that provides access to essential DevOps and networking
-      tools'
-    - README details extensive network/DevOps tooling exposed via MCP interface
-    - Source-list context shows it in an MCP servers collection
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

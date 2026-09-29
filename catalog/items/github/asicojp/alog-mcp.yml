@@ -79,16 +79,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is explicitly an MCP server designed to bridge AI assistants with a specific service (Alog), making MCP its
-    primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description identifies it as an MCP server for Claude Code, Cursor, and other MCP clients
-    - README details specific MCP tools for posting logs and compiling sessions into articles
+    - jev-latest choice confidence 0.97
 placement:
-  primary_category: evals
+  primary_category: mcp
   secondary_categories: []
-  section: Observability & Tracing
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

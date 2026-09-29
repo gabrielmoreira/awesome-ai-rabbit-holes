@@ -71,23 +71,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Fulcra's core identity is a persistent, user-controlled context backend for AI agents, making it a memory and
-    context system rather than an MCP server, coding agent, or orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Context & Session Management
   evidence:
-    - >-
-      Described as a 'user-owned context backend for AI agents' and 'context lake' of structured, semi-structured, and
-      unstructured data
-    - >-
-      Appears in awesome-mcp-servers as an 'Official Server' but emphasizes context ownership and agent memory over MCP
-      protocol identity
-    - >-
-      Focuses on persistent agent memory, cross-agent context sharing, and controllable data access rather than code
-      generation or workflow orchestration
+    - jev-latest choice confidence 0.47
 placement:
   primary_category: memory-and-context
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: Context & Session Management
 lifecycle:
   status: curated
   reason: null

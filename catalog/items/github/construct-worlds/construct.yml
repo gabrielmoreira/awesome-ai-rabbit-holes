@@ -70,13 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool acts as a control plane/runtime to coordinate multiple agent sessions (Codex, Claude Code, etc.) rather
-    than acting as a single assistant.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README claims it is a 'tmux for agent fleets'
-    - Supports 'fork / merge' of agent sessions for parallel attempts
-    - Provides a daemon and client-server architecture for managing agent sessions
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

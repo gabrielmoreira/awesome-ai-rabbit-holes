@@ -74,11 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is built specifically as an MCP server to expose ReSharper's C# analysis capabilities to AI agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Wraps JetBrains' 'jb' command-line tool to expose inspections and cleanup via the Model Context Protocol
-    - Manages solution-wide caches to minimize the cost of repeated agentic inspection calls
-    - Includes SARIF-to-Markdown conversion to make analysis results compatible with LLM context windows
+    - jev-latest choice confidence 0.98
 placement:
   primary_category: mcp
   secondary_categories: []

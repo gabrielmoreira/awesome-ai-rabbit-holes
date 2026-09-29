@@ -121,18 +121,22 @@ metadata:
       fetched_at: '2026-09-29T13:08:31.648Z'
       bytes: 16041
 insights:
-  summary: null
+  summary: >-
+    Screens an AI agent's tool calls before they run and tool results before the agent reads them. An MCP proxy plus a
+    hooks adapter for a client's built-in tools.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
+  evidence:
+    - jev-latest choice confidence 0.64
 placement:
-  primary_category: null
-  section: null
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: curated
   reason: null

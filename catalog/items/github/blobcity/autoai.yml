@@ -67,18 +67,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    AutoAI is a code-first Python library developers import to automate ML training and code export, fitting the
-    Frameworks & SDKs category as a reusable engine rather than an agent, orchestrator, or app builder.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - 'Repo description: ''Python based framework for Automatic AI for Regression and Classification over numerical data'''
-    - README shows usage via `import blobcity as bc` and `bc.train()` calls, confirming library/SDK identity
-    - Exports code via `model.spill()` but does not edit existing repos or act as a coding agent
-    - 'Source-list context: listed in Awesome-LLMOps under AutoML, aligning with ML infrastructure/tooling'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: LLM & Agent SDKs
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (186) exceeded threshold (150)

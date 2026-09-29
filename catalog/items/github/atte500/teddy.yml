@@ -61,23 +61,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    TeDDy functions as a standalone terminal-native coding agent that plans, writes, tests, and iterates on code using
-    Markdown-specified workflows, fitting the coding-agents category despite its opinionated harness design.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - >-
-      Repo description: 'xCogito on YouTube' (indicating video-driven project, but README clarifies it's a coding
-      harness)
-    - >-
-      README: Uses 'Markdown as Interface', enforces TDD (Red-Green-Refactor), Git-based incremental commits, and
-      hexagonal architecture via specialized agents
-    - >-
-      README: Agents write tests first, run pre-commit hooks, and deliver vertical slices via Gherkin scenarios to
-      prevent defect compounding
+    - jev-latest choice confidence 0.47
 placement:
-  primary_category: agent-orchestration
+  primary_category: coding-agents
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Terminal & CLI Agents
 lifecycle:
   status: curated
   reason: null

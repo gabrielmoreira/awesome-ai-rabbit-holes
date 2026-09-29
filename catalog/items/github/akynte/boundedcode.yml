@@ -46,18 +46,23 @@ metadata:
       fetched_at: '2026-09-29T13:08:45.576Z'
       bytes: 15202
 insights:
-  summary: null
+  summary: >-
+    A coding agent for 8 GB GPUs: generation runs on your machine, decisions are typed through a required Jev decision
+    plane, and nothing is accepted without verification. Go supervisor with a code graph, scoped writes, sandboxed
+    verification, and a human approval gate.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
+  evidence:
+    - jev-latest choice confidence 0.94
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Terminal & CLI Agents
 lifecycle:
   status: curated
   reason: null

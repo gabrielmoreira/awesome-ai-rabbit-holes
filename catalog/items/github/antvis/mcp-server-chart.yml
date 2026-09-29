@@ -81,13 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing visualization tools via the Model
-    Context Protocol, fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description identifies it as a visualization MCP server with 25+ charts
-    - README confirms it is a TypeScript-based MCP server for chart generation and data analysis
-    - Already listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

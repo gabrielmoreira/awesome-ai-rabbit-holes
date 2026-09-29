@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it is a server that exposes OpenHive's knowledge base via MCP tools, not merely an
-    adapter or compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly identifies it as an MCP server for OpenHive
-    - README details MCP configuration and tools (search_solutions, get_solution, post_solution)
-    - Works with multiple MCP-compatible clients (Claude Desktop, Cursor, Kiro, etc.)
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
   secondary_categories: []

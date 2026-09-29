@@ -81,13 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's identity is centered on being a Model Context Protocol (MCP) server that provides specific hardware
-    debugging capabilities to an AI host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies as an 'MCP server + CLI + Codex/Claude skill'
-    - Architecture diagram shows the product as a middle layer between an MCP client and debug backends
-    - Includes specialized MCP tools for probe discovery, memory access, and crash diagnosis
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -59,15 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP server whose primary identity is exposing domain data via the Model Context Protocol, not a coding
-    agent or extension, and it appears in the awesome-mcp-servers list under Data Platforms.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''MCP server for Brazilian agricultural data — connect LLMs to 10 public data sources via agrobr'''
-    - >-
-      README: 'MCP server that gives LLMs access to real-time Brazilian agricultural data' and shows integration with
-      Claude Desktop, Cursor, and Claude Code
-    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

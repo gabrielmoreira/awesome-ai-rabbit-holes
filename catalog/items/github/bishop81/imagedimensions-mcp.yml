@@ -62,17 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server exposing image-audit capabilities over the Model Context Protocol, making MCP its
-    primary identity rather than a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - 'Repo description: ''MCP server that audits images on any web page'''
-    - 'README: Explicitly positions itself as an MCP server for AI agents like Claude and Cursor'
-    - 'Source-list context: Included in awesome-mcp-servers under Developer Tools'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Browser & Web Automation
 lifecycle:
   status: curated
   reason: null

@@ -65,15 +65,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Code Autopilot functions as a standalone AI agent that performs coding tasks like bug fixing and feature
-    implementation in response to GitHub issues, making it a coding agent rather than an extension or orchestrator.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - >-
-      README states: 'Autopilot leverages the power of cutting-edge AI coding agents driven by state-of-the-art LLM
-      models' and 'listens to the issues created on your repository and responds with proposed solutions'
-    - Primary surface is GitHub issue/PR threads where it proposes code changes, summaries, and implementation plans
-    - It operates as a primary coding surface via GitHub integration, not as a plugin to another agent or IDE
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []

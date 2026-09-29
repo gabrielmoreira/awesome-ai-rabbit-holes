@@ -54,14 +54,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server exposing a domain-specific capability (IP intelligence) as a protocol-native tool.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly labels it as an MCP server ('chaitin ip intelligence search tool for mcp')
-    - README provides MCP server configuration snippet and Smithery badge
-    - Listed in awesome-mcp-servers under 'Community Servers'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

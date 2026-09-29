@@ -68,17 +68,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is a domain-specific MCP server designed to expand the capabilities of AI assistants in
-    a Kubernetes environment.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly defines it as an MCP server for Kubernetes diagnostics.
-    - Provides specific domain tools such as get_pod_diagnostics and list_warning_events.
-    - Included in the 'awesome-mcp-servers' directory.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

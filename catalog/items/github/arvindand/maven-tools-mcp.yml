@@ -92,13 +92,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools for JVM dependency
-    intelligence.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for Maven Central dependency intelligence
-    - README details 10 MCP tools for version checks, dependency analysis, and Context7 integration
-    - Already listed in awesome-mcp-servers under Developer Tools
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

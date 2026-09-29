@@ -80,13 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here, as it is explicitly an MCP server providing terminal capabilities to AI agents,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for interactive terminal sessions
-    - README details its role as an MCP server for Claude Code, Cursor, Windsurf, etc.
-    - Source-list context includes it in an MCP servers list under Command Line
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -74,17 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server exposing financial capabilities (wallet, payments, API access) over
-    the Model Context Protocol, making MCP its core purpose rather than a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''MCP server for Botwallet — Give any AI agent a wallet via Model Context Protocol'''
-    - >-
-      README emphasizes MCP integration: 'Add one JSON block to your MCP client config. That's it.' and provides config
-      examples for Claude Desktop, Cursor, Windsurf, and Cline
-    - >-
-      The tool's value is specifically as an MCP server that enables financial transactions for AI agents, not as a
-      coding agent or general-purpose extension
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

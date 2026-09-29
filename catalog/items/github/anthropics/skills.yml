@@ -74,13 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The primary artifact is a reusable skill pack/registry for coding tools, fitting the 'Agent Skills' category
-    definition precisely.
+  reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
-    - Repo description explicitly states it is a 'Public repository for Agent Skills'
-    - README describes skills as 'folders of instructions, scripts, and resources that Claude loads dynamically'
-    - Source-list context includes it in MCP servers list under 'Aggregators' and in LLM resources under 'Skills'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: skills
   secondary_categories: []

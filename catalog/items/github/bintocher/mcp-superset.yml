@@ -69,18 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is exposing Superset capabilities via the Model Context Protocol,
-    not a coding agent, extension, or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - >-
-      Repo description: 'MCP server for managing Apache Superset — 128+ tools for dashboards, charts, datasets, SQL Lab,
-      access control'
-    - >-
-      README: 'A comprehensive Model Context Protocol (MCP) server for Apache Superset. Gives AI assistants full control
-      over your Superset instance — dashboards, charts, datasets, SQL Lab, users, roles, RLS, and more — through 137
-      tools.'
-    - Listed in awesome-mcp-servers under Server Implementations > Data Platforms
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

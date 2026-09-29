@@ -80,13 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core identity is an MCP server designed to give AI agents (Claude, Cursor) safe, structured access to
-    SQLite fleets.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - README explicitly focuses on 'Litescope MCP server' for Claude/Cursor
-    - Provides specialized tools like litescope_migrate_plan and litescope_diff for agent use
-    - Explicitly markets the ability to 'Let AI agents touch production SQLite — safely'
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: mcp
   secondary_categories: []

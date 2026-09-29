@@ -92,17 +92,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Cline is a primary coding assistant that directly plans, writes, and executes code changes across IDE and CLI
-    environments, fitting the core definition of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
   evidence:
-    - Repo description explicitly states it is an 'autonomous coding agent as an SDK, IDE extension, or CLI assistant'
-    - >-
-      README highlights capabilities like file editing, terminal command execution, and browser interaction as core
-      features
-    - >-
-      Source-list context consistently places it in coding agent categories (e.g., awesome-ai-coding-tools,
-      awesome-cli-coding-agents)
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []

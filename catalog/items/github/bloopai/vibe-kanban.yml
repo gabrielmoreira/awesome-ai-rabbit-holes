@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bloopai__vibe-kanban__direct-link
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: direct-link
         name: Manual submission
@@ -29,8 +29,8 @@ metadata:
     archived: false
     full_name: BloopAI/vibe-kanban
     html_url: https://github.com/BloopAI/vibe-kanban
-    created_at: "2025-06-14T19:10:21Z"
-    pushed_at: "2026-09-19T06:52:48Z"
+    created_at: '2025-06-14T19:10:21Z'
+    pushed_at: '2026-09-19T06:52:48Z'
     description: Get 10X more out of Claude Code, Codex or any coding agent
     homepage: https://www.vibekanban.com/
     topics:
@@ -39,13 +39,17 @@ metadata:
       - kanban
       - management
       - task-manager
-    last_checked_at: "2026-09-24T04:13:01.366Z"
+    last_checked_at: '2026-09-24T04:13:01.366Z'
     readme:
-      fetched_at: "2026-09-24T04:13:01.366Z"
+      fetched_at: '2026-09-24T04:13:01.366Z'
       bytes: 7427
 insights:
-  summary: Vibe Kanban is a terminal-based tool that integrates coding agents with kanban issue planning, workspace execution, and PR workflows.
-  why_it_matters: It streamlines the human-in-the-loop agent workflow by combining task planning, agent execution, and review in one CLI-driven interface.
+  summary: >-
+    Vibe Kanban is a terminal-based tool that integrates coding agents with kanban issue planning, workspace execution,
+    and PR workflows.
+  why_it_matters: >-
+    It streamlines the human-in-the-loop agent workflow by combining task planning, agent execution, and review in one
+    CLI-driven interface.
   mental_damage: Finally, a way to feel productive while watching an AI agent implement your poorly defined kanban card.
   tags:
     - kanban
@@ -56,31 +60,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core value is coordinating multiple coding agents in a shared workspace with kanban-style task management, fitting the agent orchestration category.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
-    - README describes it as a tool to 'get 10X more out of Claude Code, Codex or any coding agent' with kanban planning and multi-agent workspace execution
-    - Supports 10+ coding agents (Claude Code, Codex, Gemini CLI, etc.) in a unified interface
-    - Source-list context places it in 'Harnesses & orchestration' and 'Workflow Management' sections
+    - jev-latest choice confidence 0.83
 placement:
-  primary_category: agent-orchestration
-  section: null
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+  reason: >-
+    Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary
+    'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'agent-orchestration',
+    proposed 'coding-agents'
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.573Z"
+    updated_at: '2026-05-06T22:12:15.573Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:01.366Z"
+    updated_at: '2026-09-24T04:13:01.366Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:57:23.439Z"
+    updated_at: '2026-09-28T04:57:23.439Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -93,14 +99,25 @@ processing:
       input_hash: sha256:b158436f4cf22cad2950ee288ec796a09899f57d011364beaba003487bf99cfc
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: Vibe Kanban primarily functions as a workflow extension that enhances coding agents with kanban planning, workspace orchestration, and PR integration rather than acting as a standalone coding agent.
+      decision_reason: >-
+        Vibe Kanban primarily functions as a workflow extension that enhances coding agents with kanban planning,
+        workspace orchestration, and PR integration rather than acting as a standalone coding agent.
       decision_evidence:
-        - "Repo description states: 'Get 10X more out of Claude Code, Codex or any coding agent'"
-        - README emphasizes planning with kanban issues, running agents in workspaces, reviewing diffs, and switching between agents
-        - Source-list placement in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'
+        - 'Repo description states: ''Get 10X more out of Claude Code, Codex or any coding agent'''
+        - >-
+          README emphasizes planning with kanban issues, running agents in workspaces, reviewing diffs, and switching
+          between agents
+        - >-
+          Source-list placement in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers &
+          parallel runners'
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because Vibe Kanban augments existing coding agents with workflow capabilities rather than performing coding tasks autonomously as its primary function.
-      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because Vibe Kanban augments existing coding agents with workflow
+        capabilities rather than performing coding tasks autonomously as its primary function.
+      review_reason: >-
+        Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary
+        'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'agent-orchestration',
+        proposed 'coding-agents'
       review_resume_lifecycle: null

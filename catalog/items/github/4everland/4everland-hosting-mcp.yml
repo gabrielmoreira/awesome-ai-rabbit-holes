@@ -77,11 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server designed specifically to provide deployment capabilities to an AI host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly defines it as an 'MCP server implementation'
-    - Primary functionality is providing a 'deploy_site' tool via Model Context Protocol
-    - Integrations provided for Cursor and Claude Desktop via MCP configuration
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

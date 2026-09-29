@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is a dedicated MCP server designed to provide domain-specific financial data to existing AI
-    hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly defines it as an 'MCP Server'
-    - README provides setup instructions for Claude Code, Cursor, and Windsurf via MCP configuration
-    - Provides specific tool definitions like 'crypto_get_articles' for agent consumption
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

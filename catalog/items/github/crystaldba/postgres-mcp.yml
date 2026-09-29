@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for Postgres, with MCP as its primary identity and purpose.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description states it is a Postgres MCP server with read/write access and performance analysis
-    - >-
-      README explicitly positions it as an MCP server with features like index tuning, explain plans, and schema
-      intelligence
-    - Already listed in awesome-mcp-servers under Database servers
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

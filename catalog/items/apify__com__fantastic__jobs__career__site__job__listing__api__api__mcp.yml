@@ -55,15 +55,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is specifically an MCP server designed to expose a specialized API to LLM clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Scraped site context confirms it is an 'MCP server' for the Career Site Job Listing API
-    - README provides specific JSON configuration for MCP clients
-    - Listed in 'awesome-mcp-servers' as a community server
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

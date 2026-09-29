@@ -57,19 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is exposing SSH host management and command execution over the
-    Model Context Protocol, making MCP the primary product identity rather than a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'SSH MCP server that runs locally making it easy to manage hosts and perform commands across a
-      group of hosts'
-    - README defines MCP tools like add_host, perform_command, get_command_status as the primary interface
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

@@ -59,11 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly defined as an MCP server providing tool capabilities to other clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo description states 'MCP Server to make searching openrouter easy'
-    - README focuses on MCP implementation, client configuration (Claude/Cursor), and transport via stdio
-    - Identified as an MCP server in the awesome-mcp-servers directory
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

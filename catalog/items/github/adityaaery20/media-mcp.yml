@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server designed to provide media manipulation capabilities to MCP-compatible
-    clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README defines it as an 'MCP server for image & video processing'
-    - Provides specific tools for image/video manipulation via Model Context Protocol
-    - Compatible with Claude Desktop, Cursor, and Windsurf via MCP config
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

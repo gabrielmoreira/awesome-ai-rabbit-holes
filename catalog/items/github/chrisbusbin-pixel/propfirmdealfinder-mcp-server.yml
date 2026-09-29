@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server whose primary identity is providing prop firm data via MCP protocol, fitting
-    the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly identifies it as an MCP server for prop firm deal data
-    - README details MCP tools, transports (stdio/HTTP), and registry listings
-    - Source-list context shows it's curated in awesome-mcp-servers under Finance & Fintech
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

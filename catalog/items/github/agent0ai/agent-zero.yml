@@ -65,17 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool functions as a standalone, high-capability agent that operates via a desktop/browser environment rather
-    than just augmenting an existing editor.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Claims to 'Give your agent a full Linux computer' via Dockerized XFCE
-    - Features browser DOM annotation and live document cowork
-    - Offers multi-agent cooperation and project memory
+    - jev-latest choice confidence 0.89
 placement:
-  primary_category: coding-agents
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Browser & Computer-Use Agents
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (17565) exceeded threshold (150)

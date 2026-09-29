@@ -80,11 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server designed to expose a set of content distribution tools to AI agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - README explicitly defines the project as an 'MCP server' that provides a tool surface for agents.
-    - Installation and configuration are centered entirely around the Model Context Protocol (e.g., .claude/mcp.json).
-    - The core functionality is exposed via MCP-specific tool definitions like post_publish and channel_hints.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

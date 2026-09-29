@@ -72,17 +72,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    While it is an MCP middleware layer, its core novelty is the compression and distillation of context to optimize
-    token usage.
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - Collapses 50+ tool definitions into 4 meta-tools to save schema tokens.
-    - Compresses real-world HTML and JSON tool outputs by 60–95%.
-    - Sits as a local proxy between MCP clients (like Cursor or Claude Code) and downstream servers.
+    - jev-latest choice confidence 0.86
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Compression & Token Optimization
+  section: Clients & Inspector Tools
 lifecycle:
   status: curated
   reason: null

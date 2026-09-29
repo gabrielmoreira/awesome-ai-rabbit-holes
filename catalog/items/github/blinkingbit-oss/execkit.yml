@@ -59,15 +59,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Execkit is primarily an integration layer that gives AI agents safe access to shell environments, making it an
-    extension rather than a standalone coding agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'Stateful, structured, safe command execution for AI agents - over local shells, SSH, and
-      Docker.'
-    - 'README: ''Use it as an embeddable Rust library or as an MCP server any agent can drive.'''
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Command Line'
+    - jev-latest choice confidence 0.40
 placement:
   primary_category: mcp
   secondary_categories: []

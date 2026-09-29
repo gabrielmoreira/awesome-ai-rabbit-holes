@@ -73,13 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It functions as a capability provider for AI agents (via CLI and MCP) to handle file transfers, augmenting their
-    ability to interact with external data.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description defines it as 'WeTransfer for agents'
-    - Includes an MCP server implementation via 'npx -y transfa-mcp'
-    - Primary product identity is a CLI, Python SDK, and REST API
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: mcp
   secondary_categories: []

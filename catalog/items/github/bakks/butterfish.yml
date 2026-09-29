@@ -53,15 +53,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a primary coding assistant that operates in the terminal, directly helping developers with shell commands,
-    debugging, and contextual queries.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''A shell with AI superpowers'''
-    - >-
-      README: 'Butterfish is for people who work from the command line, it adds AI prompting to your shell (bash, zsh)
-      with OpenAI. Think Github Copilot for shell.'
-    - 'Source-list context: Listed in awesome-ai-coding-tools under CLI Tools'
+    - jev-latest choice confidence 0.95
 placement:
   primary_category: coding-agents
   secondary_categories: []

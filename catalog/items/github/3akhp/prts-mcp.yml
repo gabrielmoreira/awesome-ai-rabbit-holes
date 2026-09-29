@@ -71,15 +71,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is a domain-specific MCP server providing external data access to LLM clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly identifies it as an 'MCP Server for Arknights'
-    - Implements a specific toolset for wiki and game data retrieval
-    - Supports both Python and TypeScript implementations for MCP transport
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: null

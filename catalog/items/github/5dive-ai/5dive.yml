@@ -98,13 +98,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is a runtime for coordinating multiple agents, managing a shared task queue, and
-    handling agent lifecycles.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Orchestrates multiple agent CLIs (Claude, Codex, etc.) as systemd services
-    - Uses a shared SQLite task queue for multi-agent coordination
-    - Provides a control plane for managing an 'org chart' of agents
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

@@ -75,13 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server providing domain-specific (Google Tasks) integration, fitting the MCP Servers & Tooling
-    category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly identifies it as an MCP server for Google Tasks
-    - README details MCP client integration (Claude Desktop, Cursor, Codex)
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Communication/Domain Servers
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
   secondary_categories: []

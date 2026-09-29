@@ -63,11 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for Spotinst API, making MCP its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description states it is an MCP server for Spot.io API
-    - README details 34+ tools for Spotinst resource management via MCP
-    - Listed in awesome-mcp-servers under Cloud Platforms
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

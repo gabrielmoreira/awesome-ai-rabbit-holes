@@ -63,17 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a primary coding assistant that directly reads, navigates, and patches codebases autonomously, fitting the
-    core definition of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly calls it an 'autonomous software engineer' for program improvement
-    - README highlights autonomous resolution of GitHub issues with concrete SWE-bench efficacy metrics
-    - Source-list context places it in 'Terminal-native coding agents > Open Source'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Review, Testing & Repair
+  section: Terminal & CLI Agents
 lifecycle:
   status: curated
   reason: Stars (3071) exceeded threshold (150)

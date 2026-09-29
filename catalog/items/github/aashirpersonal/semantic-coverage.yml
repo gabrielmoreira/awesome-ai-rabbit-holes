@@ -62,17 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core function is measuring the quality and coverage of RAG retrieval, which falls directly under
-    evaluation and observability.
+  reason: Jev decision-model reclassifier placed this item in evals / Safety, Fairness & Red-teaming
   evidence:
-    - Claims to be 'The Code Coverage tool for RAG Knowledge Bases'
-    - Uses UMAP and HDBSCAN to identify 'Red Zones' or gaps in knowledge
-    - Focuses on detecting hallucinations and data drift
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: evals
   secondary_categories: []
-  section: Observability & Tracing
+  section: Safety, Fairness & Red-teaming
 lifecycle:
   status: curated
   reason: null

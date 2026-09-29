@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aresyn__codex-control-plane-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: aresyn/codex-control-plane-mcp
         extracted_url: https://github.com/aresyn/codex-control-plane-mcp
-        surrounding_text: "- [aresyn/codex-control-plane-mcp](https://github.com/aresyn/codex-control-plane-mcp) [![aresyn/codex-control-plane-mcp MCP server](https://glama.ai/mcp/servers/aresyn/codex-control-plane-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aresyn/codex-control-plane-mcp) 🐍 🏠 🪟 - Durable control plane for long-running Codex Desktop tasks. Submit tasks asynchronously, poll operation/workflow state, approve Plan Mode, recover retries, and use hook-backed SQLite history for search and diagnostics."
+        surrounding_text: >-
+          - [aresyn/codex-control-plane-mcp](https://github.com/aresyn/codex-control-plane-mcp)
+          [![aresyn/codex-control-plane-mcp MCP
+          server](https://glama.ai/mcp/servers/aresyn/codex-control-plane-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aresyn/codex-control-plane-mcp)
+          🐍 🏠 🪟 - Durable control plane for long-running Codex Desktop tasks. Submit tasks asynchronously, poll
+          operation/workflow state, approve Plan Mode, recover retries, and use hook-backed SQLite history for search
+          and diagnostics.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: aresyn/codex-control-plane-mcp
     html_url: https://github.com/aresyn/codex-control-plane-mcp
-    created_at: "2026-06-17T10:02:02Z"
-    pushed_at: "2026-09-09T07:48:51Z"
+    created_at: '2026-06-17T10:02:02Z'
+    pushed_at: '2026-09-09T07:48:51Z'
     description: Durable MCP control plane for long-running Codex Desktop tasks
     homepage: https://pypi.org/project/codex-control-plane-mcp/
     topics:
@@ -52,14 +58,20 @@ metadata:
       - openclaw
       - orchestration
       - python
-    last_checked_at: "2026-09-21T04:13:46.244Z"
+    last_checked_at: '2026-09-21T04:13:46.244Z'
     readme:
-      fetched_at: "2026-09-21T04:13:46.243Z"
+      fetched_at: '2026-09-21T04:13:46.243Z'
       bytes: 29896
 insights:
-  summary: A durable MCP server that provides an asynchronous control plane for managing long-running Codex Desktop automation tasks.
-  why_it_matters: It solves the problem of MCP clients timing out or losing state during multi-hour coding tasks by providing a persistent, pollable interface for workflows and approvals.
-  mental_damage: Because apparently, we can't trust a single LLM call to last longer than a standard HTTP timeout without a dedicated SQLite-backed state machine.
+  summary: >-
+    A durable MCP server that provides an asynchronous control plane for managing long-running Codex Desktop automation
+    tasks.
+  why_it_matters: >-
+    It solves the problem of MCP clients timing out or losing state during multi-hour coding tasks by providing a
+    persistent, pollable interface for workflows and approvals.
+  mental_damage: >-
+    Because apparently, we can't trust a single LLM call to last longer than a standard HTTP timeout without a dedicated
+    SQLite-backed state machine.
   tags:
     - mcp
     - codex
@@ -69,32 +81,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server designed to provide a middleware layer between an MCP client and the Codex app-server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - "Repo description: 'Durable MCP control plane for long-running Codex Desktop tasks'"
-    - "README mentions: 'MCP client / orchestrator -> submit a task... poll status'"
-    - Explicitly implements the Model Context Protocol (MCP) as its core interface
+    - jev-latest choice confidence 0.96
 placement:
-  primary_category: extensions-and-addons
+  primary_category: mcp
   secondary_categories: []
-  section: null
+  section: Middleware & Generic
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''extensions-and-addons'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.455Z"
+    updated_at: '2026-06-22T05:53:30.455Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:46.244Z"
+    updated_at: '2026-09-21T04:13:46.244Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:18:44.723Z"
+    updated_at: '2026-09-24T04:18:44.723Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -107,14 +117,20 @@ processing:
       input_hash: sha256:f3d5d8428d621ad92eec18a924d2c9a85e8b7ff0ef4efd32b17ecf17542e4efc
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: The tool is fundamentally an MCP server designed as a stateful middleware layer to provide durability and async task management to the Model Context Protocol.
+      decision_reason: >-
+        The tool is fundamentally an MCP server designed as a stateful middleware layer to provide durability and async
+        task management to the Model Context Protocol.
       decision_evidence:
         - Repo description identifies it as a 'Durable MCP control plane'.
-        - README highlights its ability to handle multi-hour tasks via polling and SQLite state, which is a protocol-level enhancement.
+        - >-
+          README highlights its ability to handle multi-hour tasks via polling and SQLite state, which is a
+          protocol-level enhancement.
         - Primary function is to serve as a bridge/middleware between MCP clients and Codex Desktop.
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the core product identity is a protocol-first middleware layer that manages state and lifecycle via MCP, rather than just a plugin for a specific host.
-      review_reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the core product identity is a protocol-first middleware layer
+        that manages state and lifecycle via MCP, rather than just a plugin for a specific host.
+      review_reason: 'Categorization review required: placement disagreement: retained ''extensions-and-addons'', proposed ''mcp'''
       review_resume_lifecycle: null

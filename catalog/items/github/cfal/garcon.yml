@@ -96,11 +96,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Garcon acts as a workbench and control plane for coordinating multiple agents and their parallel execution sessions.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README describes it as a workspace to 'Run the agents. Steer the work. Ship the change.'
-    - Supports parallel sessions for multiple agents like Claude Code, Codex, and Cursor Agent
-    - Provides a centralized UI for steering, diff review, and Git management across different model endpoints
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

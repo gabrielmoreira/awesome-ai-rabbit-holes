@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__a2cr__a2cr__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: a2cr/a2cr
         extracted_url: https://github.com/a2cr/a2cr
-        surrounding_text: "- [a2cr/a2cr](https://github.com/a2cr/a2cr) [![a2cr/a2cr MCP server](https://glama.ai/mcp/servers/a2cr/a2cr/badges/score.svg)](https://glama.ai/mcp/servers/a2cr/a2cr) 🐍 ☁️ 🏠 🍎 🪟 🐧 - MCP server for AI-agent handoffs. Saves client-encrypted WorkBaton checkpoints and WorkStash notes so Codex, Claude Code, Roo Code, and other MCP clients can resume work without passing full chat history."
+        surrounding_text: >-
+          - [a2cr/a2cr](https://github.com/a2cr/a2cr) [![a2cr/a2cr MCP
+          server](https://glama.ai/mcp/servers/a2cr/a2cr/badges/score.svg)](https://glama.ai/mcp/servers/a2cr/a2cr) 🐍
+          ☁️ 🏠 🍎 🪟 🐧 - MCP server for AI-agent handoffs. Saves client-encrypted WorkBaton checkpoints and WorkStash
+          notes so Codex, Claude Code, Roo Code, and other MCP clients can resume work without passing full chat
+          history.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: a2cr/a2cr
     html_url: https://github.com/a2cr/a2cr
-    created_at: "2026-05-13T03:28:11Z"
-    pushed_at: "2026-09-10T21:44:04Z"
+    created_at: '2026-05-13T03:28:11Z'
+    pushed_at: '2026-09-10T21:44:04Z'
     description: MCP server for client-encrypted AI agent handoffs with WorkBaton and WorkStash
     homepage: https://a2cr.app
     topics:
@@ -51,14 +56,18 @@ metadata:
       - python
       - workbaton
       - workstash
-    last_checked_at: "2026-09-17T04:13:27.463Z"
+    last_checked_at: '2026-09-17T04:13:27.463Z'
     readme:
-      fetched_at: "2026-09-17T04:13:27.463Z"
+      fetched_at: '2026-09-17T04:13:27.463Z'
       bytes: 15014
 insights:
   summary: An MCP server that enables AI agents to save checkpoints and notes to facilitate context handoffs between sessions.
-  why_it_matters: It allows developers to resume long-running coding tasks in fresh AI context windows without the noise of a full chat transcript.
-  mental_damage: Because we've reached the point where we need specialized infrastructure just to help one AI agent remember what it was doing to another one.
+  why_it_matters: >-
+    It allows developers to resume long-running coding tasks in fresh AI context windows without the noise of a full
+    chat transcript.
+  mental_damage: >-
+    Because we've reached the point where we need specialized infrastructure just to help one AI agent remember what it
+    was doing to another one.
   tags:
     - mcp
     - context-management
@@ -67,32 +76,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core novelty is the management, compression, and persistence of agent memory and handoff state.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README claims it keeps handoff state 'compact, explicit, and safer to share' to restart tasks from clean windows
-    - Core features include 'WorkBaton checkpoints' and 'WorkStash notes' for managing session state
-    - It is delivered as an MCP server to integrate with agents like Claude Code and Roo Code
+    - jev-latest choice confidence 0.93
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: null
+  section: Middleware & Generic
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''memory-and-context'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.817Z"
+    updated_at: '2026-05-28T05:28:09.817Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:27.463Z"
+    updated_at: '2026-09-17T04:13:27.463Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:24:40.593Z"
+    updated_at: '2026-09-21T04:24:40.593Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -105,7 +112,9 @@ processing:
       input_hash: sha256:710f0ec47efae60ab0dd92062f9ac208bda0a65c104b1aafdfa9736f928a71c1
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: It is an MCP server whose primary identity is providing context-saving and handoff capabilities via the Model Context Protocol.
+      decision_reason: >-
+        It is an MCP server whose primary identity is providing context-saving and handoff capabilities via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description identifies it as an 'MCP server for client-encrypted AI agent handoffs'
         - README describes its purpose as allowing agents to save WorkBaton checkpoints and WorkStash notes
@@ -113,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - memory-and-context
-      contrastive_reason: Choose mcp over memory-and-context because the instructions specify that an MCP server providing memory capabilities should prioritize the mcp category.
-      review_reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over memory-and-context because the instructions specify that an MCP server providing memory
+        capabilities should prioritize the mcp category.
+      review_reason: 'Categorization review required: placement disagreement: retained ''memory-and-context'', proposed ''mcp'''
       review_resume_lifecycle: null

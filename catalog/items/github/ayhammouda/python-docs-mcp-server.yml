@@ -73,17 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server providing documentation, and per the catalog rules, the MCP protocol
-    identity takes precedence over the retrieval capability.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly defines it as a 'Read-only MCP server'
-    - README details a local SQLite + FTS5 index for version-aware symbol lookup
-    - The tool's purpose is to expose Python documentation tools over the Model Context Protocol
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: null

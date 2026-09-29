@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server with MCP as its primary identity, providing domain-specific functionality
-    (reminders) via the protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description states it is 'A MCP server for scheduling and triggering reminders via Slack or Telegram'
-    - README confirms MCP server identity and external cron service integration
-    - Listed in awesome-mcp-servers under 'Community Servers'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

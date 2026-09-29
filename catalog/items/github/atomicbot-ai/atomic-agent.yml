@@ -129,15 +129,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Atomic Agent is a standalone terminal-based coding assistant that directly edits files, runs commands, and drives
-    browsers, matching the core behavior of coding agents rather than acting as an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - >-
-      Repo description: 'Local First Ai Agent. Optimized for Local Ai models. Long context window. Proper tools
-      callings. Runs privately on your device.'
-    - 'README: ''Drives your browser, edits files, runs approved commands, and remembers context across sessions.'''
-    - 'Source-list: Listed in awesome-cli-coding-agents under ''Terminal-native coding agents > Open Source'''
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []

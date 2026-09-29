@@ -75,13 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It acts as a coordination layer that manages shared state, task dependencies, and agent concurrency rather than
-    being a single coding agent itself.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README defines it as an 'agent-coordination issue tracker'
-    - Features include atomic claims, dependency graphs, and capability routing for multiple agents
-    - Provides a CLI and local Web UI to manage agent workstreams via a SQLite database
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

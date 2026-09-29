@@ -70,13 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is an MCP server designed to provide a specialized domain capability (UI design review)
-    to agent hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Explicitly identifies as an MCP server in the README
-    - Provides visual verification by acting as the 'eyes' for a coding agent
-    - Delivers structured findings like viewport, element refs, and suggested fixes
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
   secondary_categories: []

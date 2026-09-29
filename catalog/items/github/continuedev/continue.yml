@@ -128,13 +128,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a primary coding assistant that directly reviews, validates, and suggests fixes for code in PR
-    workflows.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - 'Repo description: ''open-source coding agent'''
-    - 'README: ''Continue runs agents on every pull request as GitHub status checks'''
-    - 'Source-list context: Listed under ''Terminal-native coding agents > Open Source'' in awesome-cli-coding-agents'
+    - jev-latest choice confidence 0.98
 placement:
   primary_category: coding-agents
   secondary_categories: []

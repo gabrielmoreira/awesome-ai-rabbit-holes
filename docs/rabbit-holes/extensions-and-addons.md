@@ -3,14 +3,14 @@
 
 Plugins, integrations, and tools that extend a coding agent, editor, or development workflow rather than standing alone as a primary product.
 
-_181 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_179 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [IDE & Editor Add-ons](#ide--editor-add-ons) — 21
-- [Claude Code & Agent Tools](#claude-code--agent-tools) — 101
-- [Testing & Code Quality](#testing--code-quality) — 22
-- [Security & DevSecOps](#security--devsecops) — 14
+- [IDE & Editor Add-ons](#ide--editor-add-ons) — 20
+- [Claude Code & Agent Tools](#claude-code--agent-tools) — 103
+- [Testing & Code Quality](#testing--code-quality) — 21
+- [Security & DevSecOps](#security--devsecops) — 12
 - [API & Service Integrations](#api--service-integrations) — 23
 
 ## IDE & Editor Add-ons
@@ -31,7 +31,14 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `debugging` `mcp` `vscode-extension` `llm-integration`
   </details>
-- **[cafeTechne/antigravity-link-extension](https://github.com/cafetechne/antigravity-link-extension)** `⭐ 213` `updated ≤180d` Mobile companion for Google's Antigravity IDE. Mirror AI sessions on your phone, send messages, stop generation, automate via 9 MCP tools or OpenAPI.
+- **[alfredoperez/speckit-companion](https://github.com/alfredoperez/speckit-companion)** `⭐ 90` `updated ≤30d` VS Code extension for managing and reviewing the specifications used to steer AI coding agents. <details><summary>More about</summary>
+
+  It provides a dedicated workspace to oversee the spec lifecycle, ensuring AI agents follow precise plans instead of drifting into incorrect implementations.
+
+  _Because managing the specs that guide your AI is quickly becoming a full-time job in itself._
+
+  `vscode-extension` `spec-driven` `ai-agents` `workflow-tools`
+  </details>
 - **[Cursor Watchful Headers](https://github.com/johnbenac/cursor-watchful-headers)** `⭐ 52` `updated >1y` A Python-based file watcher that manages file headers and maintains an automated project tree structure within.cursorrules. <details><summary>More about</summary>
 
   It helps prevent LLM context drift by pruning irrelevant files from the project tree and ensuring critical documentation headers remain consistent.
@@ -56,7 +63,6 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `pronunciation` `developer-tools` `cli` `mcp` `agent-skill`
   </details>
-- **[Cline plugins](https://github.com/cline/plugins)** `⭐ 31` `updated ≤30d` Official curated plugins for Cline CLI and extensions.
 - **[vscode-awesome-copilot](https://github.com/timheuer/vscode-awesome-copilot)** `⭐ 30` `updated ≤1y` A VS Code extension that provides a tree-view browser for discovering, previewing, and downloading customizations from the awesome-copilot repository into your workspace. <details><summary>More about</summary>
 
   It streamlines the adoption of community-contributed Copilot instructions, prompts, agents, and skills by removing the friction of manually fetching files from GitHub.
@@ -66,8 +72,7 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   `vscode` `copilot` `extensions` `skills` `awesome-list`
   </details>
 - **[SlidePilot](https://github.com/harshil1712/slidepilot)** `⭐ 9` `updated ≤30d` Voice-driven semantic auto-advance for Slidev, powered by Cloudflare Agents and TypeSafe AI Jev.
-- **[Pi Agent IDE](https://github.com/alexshpunt/pi-agent-ide)** `⭐ 8` `updated ≤30d` Agent-native IDE extension for the Pi coding agent — guarded editing, search, LSP, terminals, debugging and observability.
-- **[Vox](https://github.com/aasis21/vox)** `⭐ 3` `updated ≤90d` A hands-free voice panel for GitHub Copilot — speak your turn, hear the reply. Works in the Copilot CLI and the Copilot app. Pure JS, no build, one-line install. MIT.
+- **[astonycat/jev-tab-grouper](https://github.com/astonycat/jev-tab-grouper)** `⭐ 3` `updated ≤30d` One-click AI tab grouping for Chrome — Jev typed decisions (~1s, whole window) or any OpenAI-compatible LLM that invents its own group names. Featured in awesome-jev.
 - **[OpenFiles](https://github.com/devgiordane/openfiles)** `⭐ 2` `updated ≤30d` VS Code extension that opens every file your AI agent edits, so ESLint, TypeScript and your linters actually check it — and hands the problems back to Claude Code, Codex, Copilot, Gemini CLI and Cursor.
 - **[impossiblecode/overseer-nvim-mcp](https://github.com/impossiblecode/overseer-nvim-mcp)** impossiblecode/overseer-nvim-mcp - Runs long-running commands a coding agent starts in Neovim (dev servers, watchers) as overseer.nvim tasks you can watch and stop from your task list.
 - **[mohsen1/llm-debugger-vscode-extension](https://github.com/mohsen1/llm-debugger-vscode-extension)** At each debugger pause, Jev chooses the next debugging action from the stack, locals, nearby source, output, and prior attempts.
@@ -83,6 +88,7 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `vscode-extension` `github-integration` `code-snippets` `knowledge-management`
   </details>
+- **[Git AutoReview](https://gitautoreview.com)** Git AutoReview – VS Code extension for pull request review on GitHub, GitLab, and Bitbucket, including self-hosted Server and Data Center. You pick Claude, Gemini, or GPT, then approve each suggestion before it posts. Runs on your own API key, so code goes straight to the provider.
 - **[LegacyDoc AI](https://romanticode.com/legacydoc-ai)** LegacyDoc AI – VS Code extension that generates AI code audit reports, Markdown docs, JSDoc, and Mermaid architecture maps from existing codebases.
 - **[Supercode.sh](https://supercode.sh/en)** Supercode.sh – Cursor extension adding Architect Mode, voice input, and prompt enhancement.
 
@@ -145,6 +151,7 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `claude-code` `spec-driven` `multi-agent` `tdd` `cli`
   </details>
+- **[Abide](https://github.com/coldteadotai/abide)** 🔥 `⭐ 416` `updated ≤30d` Make your coding agent abide by all your project rules.
 - **[claude-cmd](https://github.com/kiliczsh/claude-cmd)** `⭐ 313` `updated ≤1y` A CLI tool for managing Claude Code commands, configurations, and MCP servers. <details><summary>More about</summary>
 
   It centralizes command discovery, project-specific CLAUDE.md setup, and MCP server management for developers using Claude AI.
@@ -161,7 +168,6 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `llm-proxy` `token-management` `claude-code` `api-gateway` `ai-infrastructure`
   </details>
-- **[christian-katzmann/app-it](https://github.com/christian-katzmann/app-it)** `⭐ 217` `updated ≤90d` A Claude Code + Codex skill that turns a local project into a macOS Dock-launchable app — native window, its own icon, no Electron. [The Windows version is in BETA].
 - **[codex-profiles](https://github.com/ducksss/codex-profiles)** `⭐ 146` `updated ≤30d` A Bash wrapper that manages isolated CODEX_HOME profiles to separate auth tokens, settings, and state for multiple Codex accounts. <details><summary>More about</summary>
 
   Prevents identity leakage and config collisions when switching between work, personal, and client accounts without manually copying auth.json files.
@@ -169,14 +175,6 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   _The inevitable realization that we've reached the 'managing multiple AI personas' phase of our career, essentially treating LLM accounts like separate browser profiles for our professional identities._
 
   `cli` `bash` `account-switching` `codex` `macos`
-  </details>
-- **[alfredoperez/speckit-companion](https://github.com/alfredoperez/speckit-companion)** `⭐ 90` `updated ≤30d` VS Code extension for managing and reviewing the specifications used to steer AI coding agents. <details><summary>More about</summary>
-
-  It provides a dedicated workspace to oversee the spec lifecycle, ensuring AI agents follow precise plans instead of drifting into incorrect implementations.
-
-  _Because managing the specs that guide your AI is quickly becoming a full-time job in itself._
-
-  `vscode-extension` `spec-driven` `ai-agents` `workflow-tools`
   </details>
 - **[handoff](https://github.com/dazuiba/handoff)** `⭐ 88` `updated ≤90d` Handoff is a CLI tool that enables task delegation between Claude Code, Codex, and DeepSeek agents within the same session. <details><summary>More about</summary>
 
@@ -194,6 +192,14 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   _Now you can review failing tests and approve destructive file edits while walking the dog, because apparently nowhere is safe from your CI pipeline._
 
   `telegram` `remote-control` `cli-agents` `mobile` `bridge`
+  </details>
+- **[apireno/DOMShell](https://github.com/apireno/domshell)** `⭐ 53` `updated ≤90d` A Chrome Extension that exposes the browser's Accessibility Tree as a virtual filesystem, allowing AI agents and humans to navigate and interact with web pages using standard Linux commands. <details><summary>More about</summary>
+
+  It replaces brittle CSS selectors and pixel-based automation with a deterministic, semantic filesystem metaphor for browser interaction, making web automation more reliable for AI agents.
+
+  _Now your AI can `cd ~/tabs/123` and `cat submit_btn` instead of guessing which tab is active or where the button moved this week._
+
+  `browser-automation` `filesystem-abstraction` `chrome-extension` `ai-agent-tools`
   </details>
 - **[Agon](https://github.com/autoresearch-factory/agon)** `⭐ 49` `updated ≤30d` Agon is a Claude Code plugin that orchestrates autonomous AI research loops to turn a topic into runnable experiments without human-written experimental code. <details><summary>More about</summary>
 
@@ -222,6 +228,7 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   `claude-code` `plugin` `workflow` `orchestration` `validation`
   </details>
 - **[borislemeec/jev](https://github.com/borislemeec/jev)** `⭐ 33` `updated ≤30d` A claude code plugin for jev.
+- **[Cline plugins](https://github.com/cline/plugins)** `⭐ 31` `updated ≤30d` Official curated plugins for Cline CLI and extensions.
 - **[francoischastel/jev-code](https://github.com/francoischastel/jev-code)** `⭐ 29` `updated ≤30d` Jev, TypeSafe's System One classifier, as a tool inside Claude Code, Codex, Pi, and OpenCode: typed classify, check, score, rank, and ask, plus one-command setup.
 - **[EchoCoding](https://github.com/launsion-boop/echocoding)** `⭐ 28` `updated ≤180d` EchoCoding is a CLI and MCP-compatible add-on that adds sound effects, ambient audio, TTS speech, and voice command capabilities to AI coding agents like Claude Code, Cursor, and Windsurf. <details><summary>More about</summary>
 
@@ -231,6 +238,7 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `audio` `voice` `mcp` `extensions` `cli`
   </details>
+- **[Agent Chaperone](https://github.com/agent-chaperone/agent-chaperone)** `⭐ 21` `updated ≤30d` Screens an AI agent's tool calls before they run and tool results before the agent reads them. An MCP proxy plus a hooks adapter for a client's built-in tools.
 - **[agent-runbook](https://github.com/knoxops/agent-runbook)** `⭐ 17` `updated ≤90d` Agent-runbook is a contract-based framework that compiles YAML runbooks into SKILL.md files for Claude Code and Codex, enabling multi-agent workflows with loops, parallelism, branching, and checkpointing. <details><summary>More about</summary>
 
   It lets developers structure complex, resilient agent workflows using typed contracts and file-based state instead of brittle LLM context, enabling resumable, debuggable, and parallel multi-agent automation.
@@ -239,7 +247,6 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `multi-agent` `workflow` `claude-code` `yaml` `checkpoint`
   </details>
-- **[commandcodeai/cmd-mod-jev-nudge](https://github.com/commandcodeai/cmd-mod-jev-nudge)** `⭐ 15` `updated ≤30d` Command Code mod: nudges the agent to keep going when it stops with work left, judged by Jev.
 - **[Agentic Engineering Framework](https://github.com/dimitrigeelen/agentic-engineering-framework)** `⭐ 14` `updated ≤30d` Governance framework for AI coding agents that enforces task traceability, structural gates, session continuity, and audit trails for tools like Claude Code, Cursor, and Copilot. <details><summary>More about</summary>
 
   It prevents AI agents from making destructive or untraceable changes by enforcing mandatory task gates, blocking risky commands, and maintaining audit trails.
@@ -264,42 +271,36 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `mcp` `multi-agent` `code-review` `claude-code` `consultation`
   </details>
-- **[Smart-AI-Memory/empathy-framework](https://github.com/smart-ai-memory/empathy-framework)** `⭐ 12` `updated ≤180d` A Python framework that provides git-native memory and cost-optimized workflows for running code review, debugging, and testing tasks via the terminal or Claude Code. <details><summary>More about</summary>
 
-  It focuses on making Claude the primary coding partner by adding session-persistent memory and smart tier routing to reduce LLM costs by up to 90%.
+<details><summary><strong>▸ &nbsp;&nbsp;+73 more in Claude Code & Agent Tools &nbsp;—&nbsp; click to expand</strong></summary>
 
-  _Because nothing says 'emotional intelligence' like a Python pip install that promises to predict your bugs weeks in advance while shaming you for not routing your large modules to the expensive API tier._
-
-  `claude-code` `memory` `cost-optimization` `cli` `python`
-  </details>
-
-<details><summary><strong>▸ &nbsp;&nbsp;+71 more in Claude Code & Agent Tools &nbsp;—&nbsp; click to expand</strong></summary>
-
+- **[Smart-AI-Memory/empathy-framework](https://github.com/smart-ai-memory/empathy-framework)** `⭐ 12` `updated ≤180d` A Python framework that provides git-native memory and cost-optimized workflows for running code review, debugging, and testing tasks via the terminal or Claude Code.
 - **[preflight-dev/preflight](https://github.com/preflight-dev/preflight)** `⭐ 11` `updated ≤1y` A 24-tool MCP server for Claude Code that intercepts prompts to catch ambiguity, scores prompt quality, searches session history with vector search, and estimates token costs.
 - **[codachi](https://github.com/vincent-k2026/codachi)** `⭐ 10` `updated ≤180d` Codachi is a tamagotchi-style virtual pet that lives in the Claude Code statusline, showing context usage, rate limits, git state, and playful mood messages.
 - **[erkamyaman/jev-enforce](https://github.com/erkamyaman/jev-enforce)** `⭐ 9` `updated ≤30d` Claude Code plugin that makes Claude follow your AGENTS.md: every reply and edit checked by TypeSafe Jev ✅.
+- **[choiyounggi/cliclaw](https://github.com/choiyounggi/cliclaw)** `⭐ 8` `updated ≤90d` A macOS daemon that enables remote control of local coding CLI agents via a Telegram interface.
 - **[drowzeys/keys-mcode-continuous-context-browser-decision-enhancement-pack](https://github.com/drowzeys/keys-mcode-continuous-context-browser-decision-enhancement-pack)** `⭐ 8` `updated ≤30d` MiniMax Code CLI enhancement pack: continuous 25% context renewal, context progress meter, browser tooling, Syntra and djev-spark local decision integrations.
-- **[buchmark/claude-jev](https://github.com/buchmark/claude-jev)** `⭐ 7` `updated ≤30d` Claude Code plugin that scores review findings, debug hypotheses and design options with TypeSafe's Jev — calibrated probabilities instead of one more opinion.
+- **[Pi Agent IDE](https://github.com/alexshpunt/pi-agent-ide)** `⭐ 8` `updated ≤30d` Agent-native IDE extension for the Pi coding agent — guarded editing, search, LSP, terminals, debugging and observability.
+- **[agent-easy-use/mobile-easy-use](https://github.com/agent-easy-use/mobile-easy-use)** `⭐ 7` `updated ≤30d` Runtime access for AI coding agents to observe and control Android and iOS apps.
 - **[getshim/shim-cli](https://github.com/getshim/shim-cli)** `⭐ 7` `updated ≤30d` Local traffic visibility and privacy controls for coding agents. See what Claude Code, Codex and Copilot actually send to the model, and mask secrets and personal data before they leave your machine.
-- **[ansidium/jev-codex-bridge](https://github.com/ansidium/jev-codex-bridge)** `⭐ 6` `updated ≤30d` Model and reasoning routing for Codex Desktop and CLI, with a Windows service and validated updates.
-- **[claw-army/claude-node](https://github.com/claw-army/claude-node)** `⭐ 6` `updated ≤180d` claude-node is a thin Python subprocess bridge for controlling the local Claude Code CLI as a long-lived process with stream-json communication.
 - **[dariofontanel/jev-claude-code](https://github.com/dariofontanel/jev-claude-code)** `⭐ 6` `updated ≤30d` Prompt Claude Code: tre sistemi costruiti su Jev di TypeSafe — routing del modello, compattazione del contesto e code review.
 - **[mmorris35/devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)** `⭐ 6` `updated ≤180d` An MCP server that generates detailed, agent-executable development plans, roadmaps, and task breakdowns specifically for Claude Code.
-- **[AV-Labs-Co/cos-codex-bridge](https://github.com/av-labs-co/cos-codex-bridge)** `⭐ 3` `updated ≤30d` Local MCP for Chief of Staff agents to run Codex and Claude Code CLI project sessions with scoped access and durable receipts.
 - **[charlyhno-eng/jev-codex-pilot](https://github.com/charlyhno-eng/jev-codex-pilot)** `⭐ 3` `updated ≤30d` Smart Codex overlay featuring JEV-model-based routing, contextual optimization, and Kanban automation. Reduce token consumption by up to 70% while maintaining control.
-- **[clemensschartmueller/jev-guard](https://github.com/clemensschartmueller/jev-guard)** `⭐ 3` `updated ≤30d` jev-guard — High-speed, cross-agent safety gate plugin for \*\*Claude Code\*\*, \*\*Codex CLI\*\*, and \*\*Antigravity\*\*.
 - **[JevPromptCoach](https://github.com/crowdlinker/jevpromptcoach)** `⭐ 3` `updated ≤30d` Claude Code plugin that scores how well you prompt a coding agent, and shows whether your habits are improving. Runs on TypeSafe's Jev model. Zero added latency.
 - **[megazord](https://github.com/sh3rd3n/megazord)** `⭐ 3` `updated ≤1y` A Claude Code plugin that adds project management, code quality workflows, and native multi-agent coordination via Agent Teams.
+- **[Vox](https://github.com/aasis21/vox)** `⭐ 3` `updated ≤90d` A hands-free voice panel for GitHub Copilot — speak your turn, hear the reply. Works in the Copilot CLI and the Copilot app. Pure JS, no build, one-line install. MIT.
+- **[bgmlai/gate.cat](https://github.com/bgmlai/gate.cat)** `⭐ 2` `updated ≤30d` Block irreversible AI-agent actions before they run — deterministic, fail-closed action veto for Claude Code, Codex, Cursor, and other tool-using agents.
+- **[channelerh/codex-skin-packs](https://github.com/channelerh/codex-skin-packs)** `⭐ 2` `updated ≤30d` Verified Codex theme and skin packs for Codex desktop, installable with npx skills and plugin workflows.
 - **[flam1ngfir3ball/jev-claude-router](https://github.com/flam1ngfir3ball/jev-claude-router)** `⭐ 2` `updated ≤30d` Model router for Claude Code using Jev.
 - **[hatt-io/jevkeep](https://github.com/hatt-io/jevkeep)** `⭐ 2` `updated ≤30d` Codex plugin that preserves useful conversation excerpts alongside the summary after context compaction.
 - **[linear-cli](https://github.com/phnx-labs/linear-cli)** `⭐ 2` `updated ≤90d` A single-file Python CLI for managing Linear issues from the terminal, designed to be used directly by developers or as an integration layer for coding agents like Claude Code and Codex.
 - **[nalediym/touch-grass](https://github.com/nalediym/touch-grass)** `⭐ 2` `updated ≤180d` A Claude Code plugin and MCP server that injects weather, sunset, and streak data to prompt developers to take context-aware breaks during coding sessions.
+- **[ac-kurniawan/jev-controller](https://github.com/ac-kurniawan/jev-controller)** `⭐ 1` `updated ≤30d` Jev Controller is a fail-open advisory workflow controller for the OMP (oh-my-pi) coding agent. After each tool result it asks TypeSafe Jev whether to inspect, edit, tests, or ask the user, and leaves the original result unchanged if Jev is unavailable.
 - **[archerkattri/stepback](https://github.com/archerkattri/stepback)** `⭐ 1` `updated ≤30d` Git time-travel for AI coding agents. Checkpoint and rewind Claude Code, Codex, aider, or any command—without touching HEAD, staging, or your branch.
 - **[claude-northstar](https://github.com/nisarg38/claude-northstar)** `⭐ 1` `updated ≤1y` A goal-oriented framework that augments Claude Code and OpenCode with autonomous milestone planning, sub-agent orchestration, and persistent project state tracking.
-- **[Agent Coordinator](https://github.com/alanhoff/agent-coordinator)** `⭐ 0` `updated ≤30d` Agent Coordinator – Per-user Codex skill that represents dependency-aware tasks as bounded work graphs, records revisioned local state, reconciles uncertain work before retry, reruns planned checks at closeout, and can use optional specialists or run inline. Free and open source (MIT).
+- **[auschoi96/jev-pi-token-reduction](https://github.com/auschoi96/jev-pi-token-reduction)** `⭐ 0` `updated ≤30d` Pi extension that uses TypeSafe's Jev to trim retrieved tool output before the model sees it (~15% lower cost on read-heavy work).
 - **[bobaba99/motionlint](https://github.com/bobaba99/motionlint)** `⭐ 0` `updated ≤90d` MotionLint is a CLI tool that performs deterministic motion audits and vision-LLM design reviews of web animations via Playwright and MCP integration.
 - **[harshpuri84/slopcheck-jev](https://github.com/harshpuri84/slopcheck-jev)** `⭐ 0` `updated ≤30d` slopcheck-jev — A prose linter that catches AI writing tells. Regex settles the 18 a pattern can settle. Jev takes the 15 that need reading, as 15 Nouls in one call, 604 ms median. It ships as a Claude Code \Stop\ hook that scores Claude's own output after every turn and warns rather than blocks.
-- **[0x7067/claude-jev](https://github.com/0x7067/claude-jev)** claude-jev (0x7067) - Claude Code plugin: Jev for rule checks, verbatim compaction, and prompt routing.
 - **[Claude Pet](https://github.com/nikhilagrima/claude-pet)** Claude Pet – Desktop companion for Claude Code that reacts to hook events with animated emotions, maintains a local graph memory per project, promotes repeated patterns into skill files, and monitors GitHub repository activity. macOS/Windows/Linux, 100% local, MIT.
 - **[Codex Fixes](https://github.com/zhuhaow/codex-fixes)** Codex Fixes – Checks your local Codex install for known issues and runs the matching community-maintained fix scripts.
 - **[Codex Jev Preflight](https://github.com/wellkilo/codex-jev-preflight)** codex-jev-preflight (site) - Fail-open Codex UserPromptSubmit hook that injects TypeSafe Jev pre-task routing metadata.
@@ -361,14 +362,6 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   </details>
 - **[Sniff Test](https://github.com/danrwilloughby/snifftest)** `⭐ 33` `updated ≤30d` A prose linter that sniffs out AI writing tells. Zero dependencies, countable rules plus one judgment model.
 - **[doeixd/jev-pref](https://github.com/doeixd/jev-pref)** `⭐ 11` `updated ≤30d` Turn your AGENTS.md preferences into a fast, Jev-powered AI linter.
-- **[AIStoryHub/etincel](https://github.com/aistoryhub/etincel)** `⭐ 8` `updated ≤90d` A deterministic linter and MCP server for detecting AI-generated prose patterns and enforcing specific writing styles. <details><summary>More about</summary>
-
-  It allows developers to automate the detection of 'AI slop' in technical documentation and maintain a consistent human-like voice through CI and editor integrations.
-
-  _Because nothing says 'professionalism' like a deterministic linter telling you your paragraph length is too uniform._
-
-  `ai-tells` `mcp` `linter` `prose` `cli`
-  </details>
 - **[ckorhonen/jev-lint](https://github.com/ckorhonen/jev-lint)** `⭐ 4` `updated ≤30d` A fuzzy linter for coding agents. It checks the code your agent writes against your team's best practices while the agent is still working, not at code review.
 - **[holasoymalva/jev-test-impact](https://github.com/holasoymalva/jev-test-impact)** `⭐ 2` `updated ≤30d` Ultra-fast test impact analysis powered by Jev. Run only the tests that matter.
 - **[avansaber/tailtest-cline](https://github.com/avansaber/tailtest-cline)** `⭐ 1` `updated ≤180d` An MCP server and .clinerules pack for Cline that automatically generates and runs tests after agent edits, with adversarial test mode. <details><summary>More about</summary>
@@ -433,22 +426,6 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   _It adds a whole new layer of kernel-level infrastructure to manage just so you can finally trust a chatbot with your SSH keys._
 
   `security` `sandboxing` `ai-agents` `linux` `macos`
-  </details>
-- **[alexgreensh/repo-forensics](https://github.com/alexgreensh/repo-forensics)** `⭐ 176` `updated ≤30d` Offline security scanner for auditing AI-agent skills, plugins, and MCP servers. <details><summary>More about</summary>
-
-  It provides a local vetting step to prevent malicious third-party agent components from accessing sensitive files or credentials.
-
-  _It adds a necessary, highly uncomfortable layer of paranoia to the 'install and forget' agent workflow._
-
-  `security` `ai-agents` `mcp` `audit` `devops`
-  </details>
-- **[AgentDiff](https://github.com/codeprakhar25/agentdiff)** `⭐ 43` `updated ≤180d` A git-native tool for AI code provenance that records and cryptographically signs which AI agent wrote specific lines of code. <details><summary>More about</summary>
-
-  It provides a durable, signed audit trail for AI-generated code, moving from probabilistic detection to verifiable authorship for governance and security.
-
-  _We have finally reached the era where we need cryptographic proof to determine which LLM is actually responsible for the bug in production._
-
-  `provenance` `git` `governance` `sbom` `security`
   </details>
 - **[aporthq/aport-agent-guardrails](https://github.com/aporthq/aport-agent-guardrails)** `⭐ 25` `updated ≤30d` Pre-action authorization guardrails that intercept and validate AI agent tool calls against policy before execution. <details><summary>More about</summary>
 
@@ -559,6 +536,7 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `mcp` `aseprite` `pixel-art` `automation` `python`
   </details>
+- **[cafeTechne/antigravity-link-extension](https://github.com/cafetechne/antigravity-link-extension)** `⭐ 213` `updated ≤180d` Mobile companion for Google's Antigravity IDE. Mirror AI sessions on your phone, send messages, stop generation, automate via 9 MCP tools or OpenAPI.
 - **[Maige](https://github.com/rubriclab/maige)** `⭐ 102` `updated ≤180d` Maige is an AI-powered GitHub App that automates repository maintenance tasks, such as managing issue labels and responding to natural language commands within issues and pull requests. <details><summary>More about</summary>
 
   It allows maintainers to offload routine repo management and triage directly to an AI agent that listens to GitHub events via webhooks.
@@ -615,14 +593,6 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `mcp` `cad` `fusion-360` `claude` `mechanical`
   </details>
-- **[andreilungeanu/cursor-delegate-mcp](https://github.com/andreilungeanu/cursor-delegate-mcp)** `⭐ 4` `updated ≤30d` An MCP server that allows coding assistants like Claude Code or GitHub Copilot to delegate multi-file implementation tasks to Cursor's Composer engine. <details><summary>More about</summary>
-
-  It enables developers to use high-reasoning frontier models for planning and review while offloading token-heavy boilerplate implementation to Cursor's specialized environment.
-
-  _Because why use one model efficiently when you can orchestrate a high-stakes handoff between two different AI ecosystems?_
-
-  `mcp` `cursor` `claude-code` `automation` `workflow`
-  </details>
 - **[opusforge/gorilla-mcp](https://github.com/opusforge/gorilla-mcp)** `⭐ 3` `updated ≤90d` An MCP server that connects Claude and other assistants to Gorilla, a SaaS marketing tool for finding early users by searching Reddit, X, YouTube, TikTok, and LinkedIn. <details><summary>More about</summary>
 
   It lets developers delegate SaaS lead generation and outreach drafting directly to their coding assistant instead of switching contexts to a marketing dashboard.
@@ -630,14 +600,6 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   _We have successfully abstracted founder marketing anxiety into a schema that your coding assistant can now stress about between debugging sessions._
 
   `mcp` `marketing` `lead-generation` `saas` `claude`
-  </details>
-- **[CNSLabs/agreements-api-sdk](https://github.com/cnslabs/agreements-api-sdk)** `⭐ 2` `updated ≤90d` A TypeScript SDK and MCP server for interacting with the Shodai Agreements API to manage machine-readable coordination workflows. <details><summary>More about</summary>
-
-  It enables developers to integrate verifiable, stateful, and deterministic agreement workflows into agentic systems and applications.
-
-  _Because clearly, the final frontier of agentic autonomy is programmatic, cryptographically-signed, multi-participant coordination logic._
-
-  `typescript-sdk` `mcp-server` `agentic-workflows` `coordination-protocol`
   </details>
 - **[grovs-io/mcp](https://github.com/grovs-io/mcp)** `⭐ 2` `updated ≤180d` An MCP server that lets AI assistants like Claude Code, Cursor, and Windsurf manage Grovs' deep linking, attribution analytics, and campaign features via natural language. <details><summary>More about</summary>
 
@@ -663,6 +625,7 @@ _181 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `figma` `mcp` `ui-generation` `design-systems`
   </details>
+- **[biztactix/n8n-nodes-typesafe](https://github.com/biztactix/n8n-nodes-typesafe)** `⭐ 0` `updated ≤30d` Typesafe AI Node for N8N.
 - **[LucasGorgal/localfig](https://github.com/lucasgorgal/localfig)** LucasGorgal/localfig - Exposes the Figma desktop app's Plugin API on the open file: inline renders, design token reading and one undo step per call, without the cloud API.
 - **[ClevAgent](https://clevagent.io)** ClevAgent is a supervised terminal layer that adds guidance and safety checks for AI agents running in developer environments. <details><summary>More about</summary>
 

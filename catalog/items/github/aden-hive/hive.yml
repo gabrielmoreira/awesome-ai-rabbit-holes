@@ -92,13 +92,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It functions as a runtime layer and harness for coordinating multiple specialized agents (colonies) rather than
-    being a single agent or a simple code-first library.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README identifies it as a 'Multi-Agent Harness' and 'runtime layer' for production workloads.
-    - Specifically manages 'colonies of agents' through a shared ledger and persistent task planning.
-    - Features include crash-safe state management and human-in-the-loop (Sentinel) oversight.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

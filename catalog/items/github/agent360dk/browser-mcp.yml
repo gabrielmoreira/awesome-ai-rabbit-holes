@@ -81,13 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is a specialized MCP server that provides browser automation capabilities via the
-    Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Functions as an MCP server that can be added to Claude Code, Cursor, or VS Code
-    - Explicitly designed to use existing user sessions to bypass 2FA and CAPTCHA
-    - Provides 40 specific tools for browser interaction through the MCP protocol
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

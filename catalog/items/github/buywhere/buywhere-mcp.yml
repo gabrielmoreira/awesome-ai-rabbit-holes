@@ -78,21 +78,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server exposing product search and comparison tools over the Model Context
-    Protocol, making MCP its primary identity rather than a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description: 'BuyWhere MCP server — search 300M+ products across US, Singapore & SEA via Model Context
-      Protocol'
-    - >-
-      README: 'Product search API for AI agents via [Model Context Protocol](https://modelcontextprotocol.io)' and lists
-      compatibility with Claude Desktop, Cursor, VS Code Copilot, and other MCP-compatible clients
-    - 'Source-list context: Included in awesome-mcp-list under Contributing > 🛒 E-Commerce section'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

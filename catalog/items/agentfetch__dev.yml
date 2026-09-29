@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is centered on being an MCP-native service that provides specialized tools to agents, which
-    triggers the priority rule to prefer the MCP category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Explicitly describes itself as 'MCP-native web scraping & fetch API for AI agents'
-    - Provides a dedicated MCP server implementation via the `agentfetch-mcp` package
-    - Offers specialized MCP tools like `fetch_url`, `estimate_tokens`, and `search_and_fetch`
+    - jev-latest choice confidence 0.64
 placement:
   primary_category: mcp
   secondary_categories: []

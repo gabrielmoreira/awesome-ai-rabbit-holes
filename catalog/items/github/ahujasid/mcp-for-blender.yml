@@ -69,13 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is a server implementing the Model Context Protocol to bridge an application (Blender)
-    to a client (Claude).
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description defines it as 'Open-source MCP to use Blender with any LLM'
-    - README specifies it consists of a Blender addon and an MCP server component
-    - Functions as an interface between Claude AI and Blender via the Model Context Protocol
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

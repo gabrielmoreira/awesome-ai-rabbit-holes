@@ -51,18 +51,22 @@ metadata:
       fetched_at: '2026-09-29T13:09:35.209Z'
       bytes: 3331
 insights:
-  summary: null
+  summary: >-
+    MCP server for RoboPartPicker — search source-linked robotics projects, bills of materials and components from AI
+    agents. Hosted endpoint: https://robopartpicker.com/mcp
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
+  evidence:
+    - jev-latest choice confidence 1.00
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

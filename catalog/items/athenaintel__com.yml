@@ -63,21 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Athena Intelligence is included as an agent orchestration platform because its core identity is building, governing,
-    and coordinating AI agent workforces for regulated enterprise tasks, not performing coding or acting as a standalone
-    agent.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
   evidence:
-    - >-
-      Scraped site states: 'A platform for building and orchestrating AI agents for complex, highly regulated knowledge
-      work'
-    - 'Source-list context: listed in awesome-ai-agents under the purpose ''A list of AI autonomous agents'''
-    - >-
-      README excerpt emphasizes deployment, governance, collaboration, and agent identity — not code generation or
-      editing
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: agent-orchestration
-  section: Domain & Enterprise Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: curated
   reason: null

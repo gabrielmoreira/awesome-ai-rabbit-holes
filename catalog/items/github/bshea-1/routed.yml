@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bshea-1__routed__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-10T04:12:32.934Z"
+      discovered_at: '2026-09-10T04:12:32.934Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: bshea-1/Routed
         extracted_url: https://github.com/bshea-1/routed
-        surrounding_text: "- [bshea-1/Routed](https://github.com/bshea-1/Routed) [![bshea-1/Routed MCP server](https://glama.ai/mcp/servers/bshea-1/Routed/badges/score.svg)](https://glama.ai/mcp/servers/bshea-1/Routed) 📇 🏠 🍎 🪟 🐧 - Universal local router for Agent Skills across Cursor, Claude Code, Antigravity, and MCP clients with zero-token sub-20ms hybrid matching on local CPU."
+        surrounding_text: >-
+          - [bshea-1/Routed](https://github.com/bshea-1/Routed) [![bshea-1/Routed MCP
+          server](https://glama.ai/mcp/servers/bshea-1/Routed/badges/score.svg)](https://glama.ai/mcp/servers/bshea-1/Routed)
+          📇 🏠 🍎 🪟 🐧 - Universal local router for Agent Skills across Cursor, Claude Code, Antigravity, and MCP
+          clients with zero-token sub-20ms hybrid matching on local CPU.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: bshea-1/Routed
     html_url: https://github.com/bshea-1/Routed
-    created_at: "2026-09-06T01:21:56Z"
-    pushed_at: "2026-09-20T10:30:11Z"
+    created_at: '2026-09-06T01:21:56Z'
+    pushed_at: '2026-09-20T10:30:11Z'
     description: Universal local router for Agent Skills across AI coding environments
     homepage: https://routed-demo.vercel.app/
     topics: []
-    last_checked_at: "2026-09-24T04:13:04.023Z"
+    last_checked_at: '2026-09-24T04:13:04.023Z'
     readme:
-      fetched_at: "2026-09-24T04:13:04.023Z"
+      fetched_at: '2026-09-24T04:13:04.023Z'
       bytes: 21388
 insights:
-  summary: Routed is a universal local router that routes coding prompts to relevant agent skills using hybrid search without token cost.
-  why_it_matters: It reduces LLM routing overhead and latency by performing skill selection locally, improving responsiveness in AI coding workflows.
-  mental_damage: Another layer to manage in the growing stack of agents, skills, routers, and MCP servers just to get a line of code written.
+  summary: >-
+    Routed is a universal local router that routes coding prompts to relevant agent skills using hybrid search without
+    token cost.
+  why_it_matters: >-
+    It reduces LLM routing overhead and latency by performing skill selection locally, improving responsiveness in AI
+    coding workflows.
+  mental_damage: >-
+    Another layer to manage in the growing stack of agents, skills, routers, and MCP servers just to get a line of code
+    written.
   tags:
     - agent-skills
     - local-routing
@@ -50,32 +60,32 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It functions as a local, high-speed retrieval and routing layer designed to manage which agent skills are injected into an LLM's context.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Uses local hybrid search (BM25 and semantic) to route prompts
-    - Claims to eliminate context pollution in tools like Cursor and Claude Desktop
-    - Provides an MCP server to bridge skill routing with AI hosts
+    - jev-latest choice confidence 0.62
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: null
+  section: Middleware & Generic
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'extensions-and-addons'"
+  reason: >-
+    Categorization review required: placement disagreement: retained 'memory-and-context', proposed
+    'extensions-and-addons'
 processing:
   discover:
     status: done
-    updated_at: "2026-09-10T04:12:32.936Z"
+    updated_at: '2026-09-10T04:12:32.936Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:04.023Z"
+    updated_at: '2026-09-24T04:13:04.023Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:58:46.254Z"
+    updated_at: '2026-09-28T04:58:46.254Z'
     cause: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
@@ -84,16 +94,25 @@ processing:
       input_hash: sha256:1fc0e4ee1aace56cd3acad6d30f33f52da680f16f0b5afec64db53d59c109b67
       proposed_primary_category: extensions-and-addons
       disagreement: true
-      decision_reason: Routed is not a coding agent itself but a router that enhances existing agents by connecting them to skills, making it an extension focused on skill discovery and intent routing.
+      decision_reason: >-
+        Routed is not a coding agent itself but a router that enhances existing agents by connecting them to skills,
+        making it an extension focused on skill discovery and intent routing.
       decision_evidence:
-        - "Repo description: 'Universal local router for Agent Skills across AI coding environments'"
-        - "README: 'zero-token router for Agent Skills', 'routes coding prompts to the most relevant skill'"
-        - "Source-list context: listed under awesome-mcp-servers in the Coding Agents section, indicating it's seen as an add-on to agents"
+        - 'Repo description: ''Universal local router for Agent Skills across AI coding environments'''
+        - 'README: ''zero-token router for Agent Skills'', ''routes coding prompts to the most relevant skill'''
+        - >-
+          Source-list context: listed under awesome-mcp-servers in the Coding Agents section, indicating it's seen as an
+          add-on to agents
       category_candidates:
         - extensions-and-addons
         - mcp
-      contrastive_reason: Choose extensions-and-addons over mcp because while Routed can run as an MCP server, its primary identity is routing prompts to agent skills as an integration layer for coding agents, not providing MCP infrastructure as a core product.
-      review_reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'extensions-and-addons'"
+      contrastive_reason: >-
+        Choose extensions-and-addons over mcp because while Routed can run as an MCP server, its primary identity is
+        routing prompts to agent skills as an integration layer for coding agents, not providing MCP infrastructure as a
+        core product.
+      review_reason: >-
+        Categorization review required: placement disagreement: retained 'memory-and-context', proposed
+        'extensions-and-addons'
       review_resume_lifecycle: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template

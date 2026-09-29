@@ -59,17 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first SDK for a specialized API (counterparty risk scoring), fitting the Frameworks & SDKs category
-    as a provider abstraction for developers to integrate into agentic workflows.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly calls it a 'Python client SDK for Revettr counterparty risk scoring API'
-    - README demonstrates usage as a library (pip install, direct imports, method calls)
-    - Core value is programmatic access to a risk-scoring service, not a standalone assistant or orchestration platform
+    - jev-latest choice confidence 0.93
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

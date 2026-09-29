@@ -56,15 +56,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here—a server that integrates with Claude Code to provide a specific domain capability
-    (legendary persona interactions).
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP server for chatting with legendary figures in Claude
-    - README details MCP server configuration and tools like `party_mode` and `summon_legend`
-    - No API key required, designed as a pluggable MCP server
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

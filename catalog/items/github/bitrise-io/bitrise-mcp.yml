@@ -60,21 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is exposing Bitrise API functionality over the Model Context
-    Protocol, making MCP its primary purpose rather than a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'MCP Server for the Bitrise API, enabling app management, build operations, artifact management
-      and more.'
-    - >-
-      README emphasizes MCP Server title and provides installation guides for AI assistants like Claude Code, Cursor,
-      and GitHub Copilot.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools as an MCP server.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

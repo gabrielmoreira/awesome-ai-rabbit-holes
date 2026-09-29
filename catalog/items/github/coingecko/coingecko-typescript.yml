@@ -55,22 +55,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first TypeScript SDK for accessing CoinGecko's REST API, making it a provider abstraction rather than
-    a coding agent, extension, or MCP server.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      README describes it as a library providing 'convenient access to the Coingecko REST API from server-side
-      TypeScript or JavaScript'
-    - Generated with Stainless, includes TypeScript definitions for all request params and response fields
-    - MCP server is presented as an optional add-on ('Use the Coingecko MCP Server to enable AI assistants')
-    - >-
-      Source-list context shows it's curated in awesome-mcp-servers as an 'Official Server' for connecting AI agents to
-      crypto data
+    - jev-latest choice confidence 0.98
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

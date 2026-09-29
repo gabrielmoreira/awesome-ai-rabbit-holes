@@ -60,14 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly defined as an MCP server designed to provide a specific domain (Bilibili) to LLMs.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description specifies 'Bilibili video search MCP service'
-    - README demonstrates implementation using MCP protocols and Node.js
-    - Provides structured API access for video, trending, and creator information
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (165) exceeded threshold (150)

@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it's a dedicated server exposing CallHub API capabilities through the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly describes it as a 'Claude-powered tool for managing CallHub resources via API'
-    - Project is listed in awesome-mcp-servers under 'Official Servers'
-    - Core functionality is exposing CallHub API tools to Claude via MCP
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It functions as an orchestration platform because its core purpose is managing the execution, visibility, and
-    lifecycle of multiple concurrent agent processes.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README explicitly describes it as an 'infinite canvas IDE for parallel coding agents'
-    - Features agent-aware terminals that monitor turn status and permission prompts for multiple CLIs
-    - Supports managing multiple worktrees to keep parallel agent workstreams visually and logically separate
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

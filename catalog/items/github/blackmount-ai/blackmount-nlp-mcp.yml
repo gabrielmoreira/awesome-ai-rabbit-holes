@@ -76,18 +76,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server providing NLP capabilities to MCP clients, fitting the MCP Servers & Tooling
-    category.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo description identifies it as 'NLP without the bloat' delivered as an MCP server.
-    - >-
-      README states it is 'Deterministic local text analysis for Claude Desktop, Cursor, Cline, and any MCP client' with
-      45 tools.
-    - Listed in awesome-mcp-servers under 'Data Science Tools', confirming its identity as an MCP implementation.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: null

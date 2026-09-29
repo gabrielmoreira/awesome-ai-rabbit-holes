@@ -65,17 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is a specialized piece of developer tooling for building, testing, and securing the MCP
-    ecosystem.
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - Repo description defines it as an MCP Blast-Radius Auditor and CI divergence gate.
-    - README describes capabilities like static extraction of network, subprocess, and filesystem access.
-    - The tool provides a CLI for CI gates and an MCP server for auditing.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Clients & Inspector Tools
 lifecycle:
   status: curated
   reason: null

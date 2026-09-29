@@ -67,13 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is a specialized MCP server providing a specific capability (file conversion) to any
-    MCP-compliant client.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly identifies as an 'MCP server for ChangeThisFile'
-    - README provides standard MCP configuration for streamable-http and stdio transports
-    - Included in awesome-mcp-servers under File Systems
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
   secondary_categories: []

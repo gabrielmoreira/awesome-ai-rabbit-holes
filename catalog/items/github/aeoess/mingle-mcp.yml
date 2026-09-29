@@ -59,11 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly defined as an MCP server providing specific networking tools to an AI client.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description specifies 'Agent-to-agent networking via MCP'
-    - README details specific MCP tools like publish_intent_card and search_matches
-    - Functions as a server for Claude Desktop, Cursor, and other MCP clients
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

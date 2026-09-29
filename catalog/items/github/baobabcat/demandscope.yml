@@ -69,14 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server that provides specialized tools for domain-specific data retrieval.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly defines it as a dependency-free MCP server.
-    - Provides specific tools for GitHub, Hacker News, npm, and PyPI demand signals.
-    - The project is published to the official MCP Registry.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

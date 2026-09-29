@@ -74,17 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is exposing ipinfo.io’s geolocation and network intelligence tools
-    over MCP, making MCP the primary product identity rather than a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''IP Geolocation Server for MCP using ipinfo.io'''
-    - 'README: ''A Model Context Protocol server that exposes the ipinfo.io API to AI agents'''
-    - 'Source-list context: Listed in awesome-mcp-list under Contributing > 🗺️ Location Services'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

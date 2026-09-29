@@ -58,17 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity: it is a server implementation that converts OpenAPI specs to MCP-compatible
-    interfaces.
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - Repo description explicitly states 'Convert Any OpenAPI V3 API to MCP Server'
-    - README emphasizes automatic MCP server generation as primary functionality
-    - Listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Clients & Inspector Tools
 lifecycle:
   status: curated
   reason: Stars (605) exceeded threshold (150)

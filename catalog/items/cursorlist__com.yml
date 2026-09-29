@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cursorlist__com__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -18,7 +18,7 @@ provenance:
           - Directories
         anchor_text: CursorList
         extracted_url: https://cursorlist.com
-        surrounding_text: "- [CursorList](https://cursorlist.com)"
+        surrounding_text: '- [CursorList](https://cursorlist.com)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: CursorList.com is a curated directory for browsing and submitting .cursorrule files and SOPs for the Cursor AI editor.
-  why_it_matters: It helps developers quickly find and share editor-specific behavior rules that improve AI-assisted coding consistency.
-  mental_damage: Another rule collection promising cleaner AI output while silently adding to the cognitive load of managing ever-more-niche configuration fragments.
+  summary: >-
+    CursorList.com is a curated directory for browsing and submitting .cursorrule files and SOPs for the Cursor AI
+    editor.
+  why_it_matters: >-
+    It helps developers quickly find and share editor-specific behavior rules that improve AI-assisted coding
+    consistency.
+  mental_damage: >-
+    Another rule collection promising cleaner AI output while silently adding to the cognitive load of managing
+    ever-more-niche configuration fragments.
   tags:
     - cursor
     - rules
@@ -46,24 +52,25 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The platform acts as a specialized registry of reusable instruction assets (.cursorrules) designed to enhance specific coding workflows.
+  reason: Jev decision-model reclassifier placed this item in skills / Registries & Directories
   evidence:
-    - Scraped content shows a searchable collection of .cursorrule files for various tech stacks like Angular, NextJS, and Solidity
-    - The site description identifies its purpose as managing and viewing .cursorrule files and SOPs
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: skills
   secondary_categories: []
-  section: null
+  section: Registries & Directories
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'skills', proposed 'awesome-awesomes'"
+  reason: 'Categorization review required: placement disagreement: retained ''skills'', proposed ''awesome-awesomes'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -71,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:55:18.726Z"
+    updated_at: '2026-09-28T04:55:18.726Z'
     cause: null
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +91,21 @@ processing:
       input_hash: sha256:57da51d06ffe06091d1c56b8aebcd6eeb876bc9de634779b180ab437d1c84819
       proposed_primary_category: awesome-awesomes
       disagreement: true
-      decision_reason: CursorList.com is a curated directory of .cursorrule files and SOPs, making it a developer-facing resource for discovering and sharing editor-specific AI behavior configurations, which fits the role of an awesome list or directory.
+      decision_reason: >-
+        CursorList.com is a curated directory of .cursorrule files and SOPs, making it a developer-facing resource for
+        discovering and sharing editor-specific AI behavior configurations, which fits the role of an awesome list or
+        directory.
       decision_evidence:
-        - "Appears in the awesome-cursorrules source list with purpose: 'Configuration files that enhance Cursor AI editor experience with custom rules and behaviors'"
+        - >-
+          Appears in the awesome-cursorrules source list with purpose: 'Configuration files that enhance Cursor AI
+          editor experience with custom rules and behaviors'
         - Site describes itself as a place to 'Manage and view .cursorrule files and SOPs' for Cursor AI
         - Primary content consists of tagged .cursorrule submissions for various frameworks and languages
       category_candidates:
         - awesome-awesomes
         - skills
-      contrastive_reason: Choose awesome-awesomes over skills because CursorList.com is a curated directory of rule files for discovery, not a skill pack or registry for distributing executable agent behaviors.
-      review_reason: "Categorization review required: placement disagreement: retained 'skills', proposed 'awesome-awesomes'"
+      contrastive_reason: >-
+        Choose awesome-awesomes over skills because CursorList.com is a curated directory of rule files for discovery,
+        not a skill pack or registry for distributing executable agent behaviors.
+      review_reason: 'Categorization review required: placement disagreement: retained ''skills'', proposed ''awesome-awesomes'''
       review_resume_lifecycle: null

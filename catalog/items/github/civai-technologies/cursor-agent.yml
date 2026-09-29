@@ -71,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is a functional coding assistant designed to perform autonomous repo tasks like editing
-    and searching, rather than a general-purpose AI library.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly states it replicates Cursor's coding assistant capabilities.
-    - README defines core agentic abilities including code generation, editing, and terminal command execution.
-    - Included in curated lists specifically for terminal-native coding agents.
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: coding-agents
   secondary_categories: []

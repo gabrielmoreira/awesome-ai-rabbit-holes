@@ -91,14 +91,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is providing CBR financial data via MCP protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for Central Bank of Russia rates
-    - README confirms it implements 5 MCP tools for CBR data with no API keys required
-    - Listed in Glama MCP server registry
-    - 'Repo description: ''MCP server for Central Bank of Russia rates, key rate, inflation and macro stats'''
-    - 'README: Exposes CBR data via five MCP tools with strict Pydantic schemas'
-    - 'Source-list context: Listed in awesome-mcp-servers under Finance & Fintech > Server Implementations'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

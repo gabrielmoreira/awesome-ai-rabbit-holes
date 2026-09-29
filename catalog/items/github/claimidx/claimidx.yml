@@ -95,13 +95,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is a specialized memory and retrieval system for agentic error correction and failure state
-    management.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - The README defines the product as a 'compact, replay-gated index of software failures'
-    - It implements a 'retrieve → reason → attempt → observe → verify → update' loop to manage agent knowledge
-    - The project provides an MCP server to integrate this failure index into existing agentic workflows
+    - jev-latest choice confidence 0.50
 placement:
   primary_category: memory-and-context
   secondary_categories: []

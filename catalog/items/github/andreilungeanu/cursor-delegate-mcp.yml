@@ -84,16 +84,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It functions as an integration layer that augments existing assistants with the specific capability to use Cursor,
-    rather than acting as a standalone assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README defines it as an 'MCP bridge' for Claude Code, ChatGPT, and Copilot
-    - Core value proposition is delegating implementation to Cursor to save frontier model limits
-    - Provides a 'skill' to existing assistants to enable multi-file edits via Cursor's CLI
+    - jev-latest choice confidence 0.94
 placement:
-  primary_category: extensions-and-addons
-  section: API & Service Integrations
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

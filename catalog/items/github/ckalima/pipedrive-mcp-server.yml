@@ -71,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is explicitly an MCP server designed to provide a specific domain (Pipedrive CRM) to
-    MCP-compatible clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states 'MCP server for Pipedrive'
-    - README provides configuration for .mcp.json for Claude Code
-    - Included in awesome-mcp-servers list
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

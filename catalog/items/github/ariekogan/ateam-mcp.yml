@@ -65,15 +65,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it is explicitly an MCP server that exposes ADAS platform capabilities to
-    MCP-compatible AI environments.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''ADAS MCP Server — build, validate, and deploy multi-agent solutions from any AI environment'''
-    - 'README: ''This is an MCP server that connects AI assistants... directly to the ADAS platform'''
-    - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Aggregators'''
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

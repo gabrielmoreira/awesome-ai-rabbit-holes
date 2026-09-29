@@ -57,11 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone development environment (a VS Code fork) rather than a plugin or a terminal-only agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
   evidence:
-    - Product is described as an 'AI-powered integrated development environment'
-    - Built on a modified fork of Visual Studio Code
-    - Features a 'two-view architecture' including an Editor View and a Manager View
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: coding-agents
   secondary_categories: []

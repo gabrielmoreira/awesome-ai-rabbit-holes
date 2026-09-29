@@ -79,11 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's identity is explicitly an MCP server, providing a specific domain capability to a host protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description identifies it as an 'MCP server for interacting with Twitter'
-    - README details installation via MCP clients like Claude Desktop
-    - Functionality is centered on providing tool calls like search_twitter and get_timeline to an LLM
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

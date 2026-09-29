@@ -93,19 +93,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Its primary identity is an MCP server exposing awesome list data as tools, making MCP the core product rather than
-    an add-on or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''awesome-lists now available as CLI & MCP server for your agent'''
-    - >-
-      README positions it as 'A Model Context Protocol (MCP) server that provides access to all the curated awesome
-      lists'
-    - Listed in source lists under 'awesome-mcp-servers' as a curated MCP server
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

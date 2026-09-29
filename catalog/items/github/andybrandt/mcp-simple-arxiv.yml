@@ -57,19 +57,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The repository is explicitly an MCP server for arXiv access, fitting cleanly into the MCP Servers & Tooling category
-    as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repository is named 'mcp-simple-arxiv' and README frames it entirely as an MCP server with arXiv search and PDF
-      retrieval tools.
-    - Curated in awesome-mcp-list under Search, confirming ecosystem recognition as MCP infrastructure.
-    - >-
-      Installation and usage docs target Claude Desktop and other MCP clients, not a standalone app or generic IDE
-      plugin.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

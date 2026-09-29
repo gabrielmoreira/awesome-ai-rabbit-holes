@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server whose primary identity is providing NYTimes article search as an MCP-compatible tool, fitting
-    the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly describes it as a TypeScript-based MCP server for NYTimes article search
-    - Listed in awesome-mcp-list under Search section
-    - Provides MCP tools (search_articles) and integrates with NYTimes API
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

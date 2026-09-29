@@ -69,21 +69,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Its core identity is an MCP server exposing pet gallery data and tools for coding agents, not a coding agent itself
-    or a mere extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states: 'Community gallery, CLI, and MCP service for Codex-compatible animated pets,
-      backed by YDB.'
-    - >-
-      README details: 'Codex Pets exposes a public read-only MCP server so coding agents can search, inspect, install,
-      and share approved pet packs.'
-    - >-
-      Topics include mcp, model-context-protocol, and developer-tools, confirming its MCP-focused developer tooling
-      purpose.
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Dev & Code Tools
 lifecycle:
   status: curated

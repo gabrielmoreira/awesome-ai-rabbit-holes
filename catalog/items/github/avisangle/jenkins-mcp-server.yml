@@ -74,13 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is as an MCP server for Jenkins, fitting the MCP Servers & Tooling category where MCP is
-    the primary adopted protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for Jenkins
-    - README details MCP-specific features like STDIO/HTTP transports and Claude Desktop integration
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -55,11 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server exposing iOS Simulator capabilities as tools.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README explicitly describes it as a Model Context Protocol server implementation for iOS Simulator control
-    - Source-list context places it in awesome-mcp-servers under Server Implementations > Developer Tools
-    - Provides concrete tooling for device/app management, permissions, and system features via MCP
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -53,13 +53,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server providing linting capabilities, not a coding agent or extension,
-    making MCP the correct category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README describes it as 'A Model Context Protocol (MCP) server that provides clj-kondo linting capabilities'
-    - Source-list context shows it appears in awesome-mcp-servers under Community Servers
-    - It exposes a single MCP tool (lint_clojure) and requires configuration as an MCP server in client settings
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

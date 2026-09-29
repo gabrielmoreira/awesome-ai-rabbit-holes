@@ -82,17 +82,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It functions as an augmentation tool that extends developer workflows via CLI, GitHub Actions, and MCP to audit and
-    shape prose.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Provides an MCP server, CLI, and GitHub Action for prose auditing
-    - Uses deterministic rules to detect AI-typical patterns in rhythm and vocabulary without model calls
-    - Offers a 'voice layer' to shape the context for assistants like Claude and Cursor
+    - jev-latest choice confidence 0.54
 placement:
-  primary_category: extensions-and-addons
+  primary_category: mcp
   secondary_categories: []
-  section: Testing & Code Quality
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

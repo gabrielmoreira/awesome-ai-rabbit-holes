@@ -71,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a primary coding assistant that directly edits code, runs commands, and learns from developer interactions,
-    fitting the core definition of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''Command Code AI'''
-    - 'README: ''The coding agent that learns your coding taste'' with CLI installation and usage'
-    - 'Source-list context: Listed under ''Terminal-native coding agents'' in awesome-cli-coding-agents'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []

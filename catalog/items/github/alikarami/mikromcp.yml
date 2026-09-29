@@ -79,13 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is primarily an MCP server designed to expose a specific domain's capabilities (network management) to
-    AI clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies it as a 'Production-grade MCP server'
-    - README defines the core product as exposing RouterOS as a typed MCP server
-    - Provides 122 specific tools for agentic interaction with network hardware
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

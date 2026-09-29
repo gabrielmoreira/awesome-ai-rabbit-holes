@@ -72,19 +72,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a code-first library/SDK for embedding coherence into multi-agent systems, not an operated platform
-    or thin extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''The coordination layer for Multiplayer AI'''
-    - >-
-      README: vendor-neutral MESI + optimistic-concurrency coordinator for agent state, with adapters for LangGraph,
-      CrewAI, AutoGen, etc.
-    - Installable via PyPI as a library with framework-specific extras
+    - jev-latest choice confidence 0.68
 placement:
-  primary_category: ai-frameworks
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Multi-Agent Systems
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: null

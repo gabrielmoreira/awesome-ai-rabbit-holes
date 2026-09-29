@@ -81,20 +81,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a platform for building and coordinating agents with workflows, document analysis, and multi-model
-    support, fitting the agent orchestration category.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep
-      research, Document analysis, Multi-model support, and API connectivity for agents.'
-    - 'README highlights: Agent Workflow Builder, multi-model support, API connectivity, and enterprise-grade deployment.'
-    - >-
-      Source-list context: Listed in awesome-langchain under 'Open Source Projects > Knowledge Management' as a tool for
-      building agents.
+    - jev-latest choice confidence 0.48
 placement:
   primary_category: agent-orchestration
-  section: Visual Builders & Workbenches
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (17870) exceeded threshold (150)

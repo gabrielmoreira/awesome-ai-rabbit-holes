@@ -52,19 +52,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    AutoGPT is a hosted platform that coordinates multiple agents via a visual builder, dashboard, and marketplace,
-    making its primary identity agent orchestration rather than a single coding agent or app builder.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
   evidence:
-    - >-
-      The platform provides a visual Builder, Agent Dashboard, and Marketplace for managing agents that automate
-      workflows like research, outreach, and support.
-    - >-
-      AutoGPT is described as 'an AI agent platform: software for building, deploying, and running agents you can hand a
-      goal to' that run on schedules or triggers.
-    - >-
-      It positions itself as a workforce of agents handling repeatable work, with users managing them through a central
-      control plane (Dashboard).
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

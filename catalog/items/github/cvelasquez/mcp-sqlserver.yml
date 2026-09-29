@@ -74,13 +74,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is a Model Context Protocol server providing domain-specific database capabilities to
-    any compatible agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description identifies it as an MCP server for SQL Server administration
-    - README highlights specialized capabilities like execution plan analysis and index audits
-    - Explicitly designed to work via the Model Context Protocol configuration in agents like Claude Desktop and Cursor
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

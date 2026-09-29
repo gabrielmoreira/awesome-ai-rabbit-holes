@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bv-venky__excalidraw-architect-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: BV-Venky/excalidraw-architect-mcp
         extracted_url: https://github.com/bv-venky/excalidraw-architect-mcp
-        surrounding_text: "- [BV-Venky/excalidraw-architect-mcp](https://github.com/BV-Venky/excalidraw-architect-mcp) [![excalidraw-architect-mcp MCP server](https://glama.ai/mcp/servers/@BV-Venky/excalidraw-architect-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@BV-Venky/excalidraw-architect-mcp) 🐍 🏠 🍎 🪟 🐧 - Generate beautiful Excalidraw architecture diagrams with auto-layout, architecture-aware component styling, and stateful editing. 50+ technology mappings including databases, message queues, caches, and more. No API keys required."
+        surrounding_text: >-
+          - [BV-Venky/excalidraw-architect-mcp](https://github.com/BV-Venky/excalidraw-architect-mcp)
+          [![excalidraw-architect-mcp MCP
+          server](https://glama.ai/mcp/servers/@BV-Venky/excalidraw-architect-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@BV-Venky/excalidraw-architect-mcp)
+          🐍 🏠 🍎 🪟 🐧 - Generate beautiful Excalidraw architecture diagrams with auto-layout, architecture-aware
+          component styling, and stateful editing. 50+ technology mappings including databases, message queues, caches,
+          and more. No API keys required.
         confidence: high
 metadata:
   github:
@@ -30,10 +36,12 @@ metadata:
     archived: false
     full_name: BV-Venky/excalidraw-architect-mcp
     html_url: https://github.com/BV-Venky/excalidraw-architect-mcp
-    created_at: "2026-03-05T17:40:40Z"
-    pushed_at: "2026-08-25T19:10:17Z"
-    description: Turn your architecture into a living, queryable knowledge graph - and render it as beautiful auto-laid-out Excalidraw diagrams. An MCP server for Cursor, Claude Code & Windsurf. Offline, no API keys.
-    homepage: ""
+    created_at: '2026-03-05T17:40:40Z'
+    pushed_at: '2026-08-25T19:10:17Z'
+    description: >-
+      Turn your architecture into a living, queryable knowledge graph - and render it as beautiful auto-laid-out
+      Excalidraw diagrams. An MCP server for Cursor, Claude Code & Windsurf. Offline, no API keys.
+    homepage: ''
     topics:
       - ai
       - antigravity
@@ -53,14 +61,20 @@ metadata:
       - productivity
       - skills
       - windsurf
-    last_checked_at: "2026-09-24T04:13:05.027Z"
+    last_checked_at: '2026-09-24T04:13:05.027Z'
     readme:
-      fetched_at: "2026-09-24T04:13:05.027Z"
+      fetched_at: '2026-09-24T04:13:05.027Z'
       bytes: 24665
 insights:
-  summary: Excalidraw Architect MCP is an MCP server that turns architecture diagrams into editable Excalidraw visuals via natural language prompts.
-  why_it_matters: It lets developers generate and edit architecture diagrams in Excalidraw format directly from AI agents without hallucinated coordinates or manual rework.
-  mental_damage: Finally, an AI that draws boxes where you want them — until you realize you still have to explain your system to the AI first.
+  summary: >-
+    Excalidraw Architect MCP is an MCP server that turns architecture diagrams into editable Excalidraw visuals via
+    natural language prompts.
+  why_it_matters: >-
+    It lets developers generate and edit architecture diagrams in Excalidraw format directly from AI agents without
+    hallucinated coordinates or manual rework.
+  mental_damage: >-
+    Finally, an AI that draws boxes where you want them — until you realize you still have to explain your system to the
+    AI first.
   tags:
     - mcp
     - diagrams
@@ -70,32 +84,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server that exposes diagram generation as a tool, matching the MCP category's requirement that MCP be the product's primary identity, not just a feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - "Repo description: 'An MCP server for Cursor, Claude Code & Windsurf. Offline, no API keys.'"
-    - "README: 'excalidraw-architect-mcp separates the what from the where — the AI describes structure, the engine does the pixel math.'"
-    - Listed in awesome-mcp-servers under Server Implementations > Architecture & Design
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+  reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:05.027Z"
+    updated_at: '2026-09-24T04:13:05.027Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:59:22.577Z"
+    updated_at: '2026-09-28T04:59:22.577Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -108,14 +120,20 @@ processing:
       input_hash: sha256:0c2a3f093bf3985ea680b93804ee346a67e77c7859a7194fa893f0ba30bf268e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server that exposes diagram generation as a tool, matching the MCP category's requirement that MCP be the product's primary identity, not just a feature.
+      decision_reason: >-
+        The product's core identity is an MCP server that exposes diagram generation as a tool, matching the MCP
+        category's requirement that MCP be the product's primary identity, not just a feature.
       decision_evidence:
-        - "Repo description: 'An MCP server for Cursor, Claude Code & Windsurf. Offline, no API keys.'"
-        - "README: 'excalidraw-architect-mcp separates the what from the where — the AI describes structure, the engine does the pixel math.'"
+        - 'Repo description: ''An MCP server for Cursor, Claude Code & Windsurf. Offline, no API keys.'''
+        - >-
+          README: 'excalidraw-architect-mcp separates the what from the where — the AI describes structure, the engine
+          does the pixel math.'
         - Listed in awesome-mcp-servers under Server Implementations > Architecture & Design
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server whose primary function is exposing diagram generation via MCP, not merely extending a host agent with new capabilities.
-      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server whose primary function is exposing
+        diagram generation via MCP, not merely extending a host agent with new capabilities.
+      review_reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
       review_resume_lifecycle: null

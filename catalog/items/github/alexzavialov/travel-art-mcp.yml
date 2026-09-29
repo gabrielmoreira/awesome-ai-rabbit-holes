@@ -68,19 +68,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server exposing domain-specific tools over the Model Context Protocol, making
-    MCP its primary purpose rather than a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''Model Context Protocol server for travel.art — art-tourism data exposed to AI agents over MCP'''
-    - >-
-      README: Exposes three MCP tools (find_art_events, find_museum_guide, recommend_art_trip) via Streamable HTTP
-      transport
-    - Listed in awesome-mcp-servers under Art & Culture section
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

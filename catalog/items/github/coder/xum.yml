@@ -78,17 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Mux is a workbench for coordinating multiple agents in parallel workspaces, which aligns with Agent Orchestration's
-    focus on multi-agent coordination as the primary value proposition.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''A desktop app for isolated, parallel agentic development'''
-    - >-
-      README: 'Mux is a desktop & browser application for parallel agentic development. It enables developers to plan
-      and execute tasks with multiple AI agents on local or remote compute.'
-    - >-
-      Source-list context: Listed under 'Harnesses & orchestration > Session managers & parallel runners' in
-      awesome-cli-coding-agents
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

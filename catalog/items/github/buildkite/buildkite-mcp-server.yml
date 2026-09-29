@@ -78,15 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server exposing Buildkite data; MCP is the primary protocol and product
-    purpose, not a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''Official MCP Server for Buildkite'''
-    - >-
-      README: 'Model Context Protocol (MCP) server exposing Buildkite data (pipelines, builds, jobs, tests) to AI
-      tooling and editors'
-    - Listed in awesome-mcp-servers under 'Official Servers' and 'Developer Tools' sections
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

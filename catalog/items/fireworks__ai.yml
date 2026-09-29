@@ -54,19 +54,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Fireworks.ai is a self-hosted inference service that delivers low-latency AI model execution, fitting squarely
-    within the local-ai category's focus on private, on-premise model execution.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
-    - >-
-      The scraped site context explicitly states Fireworks.ai offers 'blazing fast speed' for running and deploying
-      generative AI models.
-    - >-
-      The description emphasizes open-source model support and self-deployment without additional cost, aligning with
-      local-ai's core identity of self-hosted execution.
+    - jev-latest choice confidence 0.60
 placement:
-  primary_category: local-ai
-  section: Inference Engines
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: Provider & Model Abstractions
 lifecycle:
   status: curated
   reason: null

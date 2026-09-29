@@ -72,17 +72,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is as an MCP server for Langfuse, fitting the MCP Servers & Tooling category where MCP
-    is the primary adopted thing.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for Langfuse
-    - README details 37 MCP tools for traces, observations, sessions, etc.
-    - 'Project is actively maintained (pushed_at: 2026-06-27)'
+    - jev-latest choice confidence 1.00
 placement:
-  primary_category: evals
+  primary_category: mcp
   secondary_categories: []
-  section: Observability & Tracing
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

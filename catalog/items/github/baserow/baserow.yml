@@ -91,15 +91,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Primary identity is a prompt-to-app/internal-tool builder, not a coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Internal Tools & Dashboards
   evidence:
-    - 'Repo description: ''Build databases, automations, apps & agents with AI — no code'''
-    - 'README: ''AI Assistant that lets you create databases and workflows using natural language'''
-    - 'Source-list context: Listed in MCP servers as a database integration, but core product is the no-code platform'
+    - jev-latest choice confidence 0.60
 placement:
-  primary_category: mcp
+  primary_category: app-builders
   secondary_categories: []
-  section: Data & Databases
+  section: Internal Tools & Dashboards
 lifecycle:
   status: curated
   reason: Stars (4787) exceeded threshold (150)

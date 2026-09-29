@@ -73,17 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is centered on providing an MCP server that exposes 12 tools and 6 resources to AI agents for
-    PDF manipulation.
+  reason: Jev decision-model reclassifier placed this item in document-ai / Document Parsing & Layout
   evidence:
-    - README explicitly highlights 'Built-in MCP server so AI agents can work with PDFs out of the box'
-    - Lists specific MCP tools like `read_pdf`, `extract_text`, and `convert_pdf` for RAG
-    - Listed in `awesome-mcp-servers` under File Systems
+    - jev-latest choice confidence 0.41
 placement:
-  primary_category: mcp
+  primary_category: document-ai
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Document Parsing & Layout
 lifecycle:
   status: curated
   reason: null

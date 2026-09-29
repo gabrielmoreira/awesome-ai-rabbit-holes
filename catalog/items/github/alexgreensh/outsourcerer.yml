@@ -89,13 +89,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It functions as a coordination layer that manages and routes tasks to various existing coding agents and models
-    rather than being a single standalone assistant.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README explicitly describes it as an orchestrator that makes multiple models 'work as one team'
-    - It features delegation logic to move 'grunt work' to cheaper engines while maintaining MCP and skill connectivity
-    - Includes specific modes (Auto-pilot, You-drive, Hybrid) for managing multi-agent workflows
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

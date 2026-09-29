@@ -69,17 +69,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    DAISYS identifies as an MCP server whose core function is exposing memory and context capabilities, making MCP its
-    primary identity rather than a feature of a broader tool.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Listed in awesome-mcp-servers under 'Official Servers' section
-    - Homepage URL daisys.ai positions it as an MCP-based service
-    - No evidence of being a coding agent, app builder, or framework; presented as MCP infrastructure
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

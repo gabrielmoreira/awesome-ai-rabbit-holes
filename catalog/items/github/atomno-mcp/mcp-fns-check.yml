@@ -96,18 +96,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server providing domain-specific tooling (Russian counterparty checks) for AI agents, fitting
-    the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly identifies it as an MCP server for FNS data checks
-    - README confirms it exposes 7 tools for AI agents to query Russian legal/business data
-    - Compatible with Claude Desktop, Cursor, and other MCP clients
-    - 'Repo description: ''MCP server for checking RU counterparties via FNS open data'''
-    - >-
-      README: 'MCP-сервер для проверки российских контрагентов' and readiness for connection in Claude Desktop, Cursor,
-      etc.
-    - 'Source-list context: Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

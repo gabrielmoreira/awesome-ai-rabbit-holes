@@ -73,16 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a code-first SDK and protocol that developers import to enable communication between their custom-built
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Registries & Discovery
   evidence:
-    - Provides an npm package (`agenium`) used as a library to resolve and connect agents
-    - Core functionality is centered around the `agent://` protocol and SDK methods like `client.resolve()`
-    - Identified as an SDK/protocol rather than a standalone workbench or control plane
+    - jev-latest choice confidence 0.63
 placement:
-  primary_category: ai-frameworks
-  section: LLM & Agent SDKs
+  primary_category: mcp
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: curated
   reason: null

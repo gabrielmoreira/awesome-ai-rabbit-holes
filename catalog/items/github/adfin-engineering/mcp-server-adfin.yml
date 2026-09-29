@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server whose primary identity is exposing Adfin capabilities over the Model Context Protocol, not a
-    coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description explicitly states: ''A Model Context Protocol Server for connecting with Adfin APIs'''
-    - README shows configuration for Claude Desktop to register Adfin as an MCP server
-    - Source-list context places it in 'awesome-mcp-servers' under 'Official Servers' section
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -71,20 +71,12 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Dash0 focuses on observability and tracing of AI agent behavior in production, which aligns with the evals
-    category's focus on measuring, tracing, and comparing agent behavior rather than acting as a coding agent or app
-    builder.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - >-
-      Dash0 acquires Polar Signals and provides AI SDLC Insights, Chat Automations, and Auto-tune for monitoring agents
-      writing code
-    - Product emphasizes 'See everything happening in production' and 'fix problems automatically' for AI-generated code
-    - >-
-      Listed in awesome-mcp-servers under 'Official Servers' with description referencing OpenTelemetry Native
-      Observability
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: evals
+  secondary_categories: []
   section: Observability & Tracing
 lifecycle:
   status: curated

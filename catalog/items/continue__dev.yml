@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__continue__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Continue
         anchor_text: Continue
         extracted_url: https://continue.dev
-        surrounding_text: "## [Continue](https://continue.dev/)"
+        surrounding_text: '## [Continue](https://continue.dev/)'
         confidence: high
     - id: discovery__continue__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,9 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Continue
         extracted_url: https://continue.dev
-        surrounding_text: "- **[Continue](https://continue.dev/)** – Open-source AI tool for code completion and chat, pluggable into VS Code and JetBrains."
+        surrounding_text: >-
+          - **[Continue](https://continue.dev/)** – Open-source AI tool for code completion and chat, pluggable into VS
+          Code and JetBrains.
         confidence: high
 metadata:
   github:
@@ -52,8 +54,12 @@ metadata:
     readme: null
 insights:
   summary: An open-source coding agent that integrates AI assistance directly into VS Code and JetBrains IDEs.
-  why_it_matters: It allows developers to leverage custom LLMs and deep codebase context within their existing, preferred editor environments.
-  mental_damage: Watching your favorite open-source agent get acquired by its most successful proprietary competitor is the inevitable end-game of the AI tooling arms race.
+  why_it_matters: >-
+    It allows developers to leverage custom LLMs and deep codebase context within their existing, preferred editor
+    environments.
+  mental_damage: >-
+    Watching your favorite open-source agent get acquired by its most successful proprietary competitor is the
+    inevitable end-game of the AI tooling arms race.
   tags:
     - open-source
     - coding-agent
@@ -63,20 +69,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Continue functions as a primary AI coding assistant within the IDE rather than a tool that augments an existing assistant.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
   evidence:
-    - Scraped site text confirms it is an open-source coding agent.
-    - The project provides the primary interface for AI-driven code editing and context within an IDE.
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: IDE-Native & Editor Agents
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+  reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.065Z"
+    updated_at: '2026-06-18T05:40:04.065Z'
     cause: null
     next_retry_at: null
   stars:
@@ -85,7 +91,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:15:12.637Z"
+    updated_at: '2026-09-24T04:15:12.637Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -98,13 +104,17 @@ processing:
       input_hash: sha256:81a4f3e52f46a64ff30c49d3f61bccd5d362293a9cbbb68358f8e04748b94255
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Continue functions as a primary AI coding assistant within the IDE rather than a tool that augments an existing assistant.
+      decision_reason: >-
+        Continue functions as a primary AI coding assistant within the IDE rather than a tool that augments an existing
+        assistant.
       decision_evidence:
         - Scraped site text confirms it is an open-source coding agent.
         - The project provides the primary interface for AI-driven code editing and context within an IDE.
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because it acts as the primary assistant/agent within the IDE rather than a secondary capability plugin for another assistant.
-      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because it acts as the primary assistant/agent within the IDE rather
+        than a secondary capability plugin for another assistant.
+      review_reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
       review_resume_lifecycle: null

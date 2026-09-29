@@ -52,20 +52,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is a curated list of AI tools, which fits the 'awesome-awesomes' category for navigation aids, but its
-    core focus on developer tooling and coding agents makes 'coding-agents' the primary category.
+  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
   evidence:
-    - >-
-      The project is a curated list of AI tools for developers, as indicated by the scraped site context showing a
-      collection of game sites, which is likely a misclassification and the actual purpose is a developer resource
-      directory.
-    - >-
-      The source-list context indicates it is included in a curated list of AI tools, aligning with the
-      'awesome-awesomes' category.
+    - jev-latest choice confidence 1.00
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: awesome-awesomes
+  secondary_categories: []
+  section: Awesome Lists & Directories
 lifecycle:
   status: curated
   reason: null

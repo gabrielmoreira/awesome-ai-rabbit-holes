@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server (per README and source-list context) providing domain-specific data for AI
-    agents, fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'README lists an MCP Server endpoint: https://mcp.printmoneylab.com/mcp'
-    - 'Source-list context: included in awesome-mcp-servers under Finance & Fintech'
-    - Repo description identifies it as a Korean crypto market data API for AI agents
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
   secondary_categories: []

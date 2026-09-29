@@ -61,13 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary purpose is the observability and tracing of model behavior, which aligns with the explicit focus
-    of the evals category.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - Uses APIM as a proxy to funnel logs, requests, and responses to Application Insights
-    - Provides prebuilt queries and workbooks for visualizing metrics and traces
-    - Supports custom header tracking for user, plan, and application analytics
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: evals
   secondary_categories: []

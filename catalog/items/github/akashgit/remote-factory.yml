@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It functions as a multi-agent orchestration layer that manages specialized roles like Strategists and QA Directors
-    to execute complex design-and-build workflows.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Described as a domain-agnostic multi-agent software design and evolution harness
-    - Uses 'Design-v2' to coordinate multiple parallel roles like Research Director, Strategy Director, and QA Director
-    - Operates as a CLI harness that requires Claude Code as a base agent for execution
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

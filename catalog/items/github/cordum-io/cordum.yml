@@ -96,18 +96,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Cordum is a control plane for coordinating and governing multiple agents, not a primary coding assistant, framework,
-    or extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly calls it an 'action firewall for AI agents' with policy enforcement and human approval
-    - >-
-      README positions it as an 'Agent Control Plane for Governance, Safety, and Trust' with workflow engine and safety
-      kernel
-    - Source-list context places it in 'Frameworks' for LLM security and agent frameworks
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: agent-orchestration
-  section: Hosted Agent Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (472) exceeded threshold (150)

@@ -79,13 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It acts as a command center/control plane for managing multiple concurrent agent sessions, which falls squarely
-    under agent orchestration.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README describes it as 'mission control' for managing fleets of agents like Claude Code and OpenCode
-    - Features include session grouping, forking, git worktree management, and cost tracking
-    - Specifically designed as a TUI to manage multiple running or waiting agent processes
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

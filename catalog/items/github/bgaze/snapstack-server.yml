@@ -60,15 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server exposing browser capture data over the Model Context Protocol, matching
-    the MCP category's focus on protocol-first infrastructure.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - >-
-      Repo description: 'Local always-on server for SnapStack: receives browser captures and serves them to any
-      MCP-capable LLM client over MCP (Streamable HTTP + stdio).'
-    - 'README: ''serves them to any MCP-capable LLM client over Streamable HTTP'' and lists MCP-compatible badge.'
-    - 'Source-list context: Included in awesome-mcp-servers under Browser Automation.'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

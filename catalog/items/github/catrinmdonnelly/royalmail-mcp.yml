@@ -69,15 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing domain-specific shipping capabilities
-    via MCP.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''Book, label, track and cancel Royal Mail and Parcelforce shipments from any MCP-compatible AI.'''
-    - >-
-      README explicitly lists MCP tools (e.g., `book_order`, `track_order`) and compatibility with MCP clients (Claude,
-      Cursor, Windsurf).
-    - Already listed in `awesome-mcp-servers` under 'Server Implementations > Delivery'.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

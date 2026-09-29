@@ -78,17 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is an MCP server that exposes Playwright tools over the Model Context Protocol, making
-    MCP its primary product identity rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - >-
-      README describes the project as 'playwright-server MCP server' with MCP-defined resources, prompts, and tools like
-      playwright_navigate and playwright_screenshot
-    - Source-list context shows inclusion in awesome-mcp-list and awesome-mcp-servers under browser automation sections
-    - >-
-      No evidence of autonomous coding behavior; the server provides browser control primitives for use by agents, not
-      code editing or generation
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

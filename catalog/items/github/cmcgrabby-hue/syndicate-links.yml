@@ -63,17 +63,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that exposes affiliate program discovery and commission tracking as tools for AI
-    agents, making MCP its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      README states: 'MCP server for the Syndicate Links affiliate commission API — 7 tools for AI agent attribution,
-      program discovery, and commission tracking.'
-    - >-
-      Source list placement in awesome-mcp-servers under 'Server Implementations > E-Commerce' confirms MCP server
-      identity.
-    - Configuration instructions show Claude Desktop MCP server setup with npx syndicate-links-mcp.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

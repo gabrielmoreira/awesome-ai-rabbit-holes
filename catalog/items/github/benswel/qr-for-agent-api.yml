@@ -87,16 +87,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: a dedicated MCP server with 37 tools for QR code operations, not just a
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly calls it a QR-as-a-Service API for AI agents with MCP server
-    - README highlights MCP server with 37 tools as a core offering
-    - NPM package `qr-for-agent` is the MCP server distribution
-    - Repo description explicitly identifies as a 'QR-as-a-Service API' and 'MCP server'.
-    - README lists 37 specific MCP tools for use in Claude Desktop and Cursor.
-    - Included in the awesome-mcp-servers list under Developer Tools.
+    - jev-latest choice confidence 0.98
 placement:
   primary_category: mcp
   secondary_categories: []

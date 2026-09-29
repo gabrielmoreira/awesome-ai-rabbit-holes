@@ -71,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a standalone CLI agent specialized for the code review workflow, performing automated analysis, security
-    scanning, and line-level commenting.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - CLI tool that reads Git diffs and performs agentic reviews
-    - Uses a hybrid architecture of deterministic rules and LLM agents
-    - Claims higher precision and lower token usage than general-purpose agents like Claude Code
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []

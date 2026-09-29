@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__airplane__dev__autopilot__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Airplane Autopilot
         anchor_text: Airplane Autopilot
         extracted_url: https://airplane.dev/autopilot
-        surrounding_text: "## [Airplane Autopilot](https://www.airplane.dev/autopilot/?utm_source=awesome-ai-agents/)"
+        surrounding_text: '## [Airplane Autopilot](https://www.airplane.dev/autopilot/?utm_source=awesome-ai-agents/)'
         confidence: high
     - id: discovery__www__airplane__dev__autopilot__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Airplane Autopilot
         anchor_text: Airplane Autopilot
         extracted_url: https://www.airplane.dev/autopilot
-        surrounding_text: "## [Airplane Autopilot](https://www.airplane.dev/autopilot/?utm_source=awesome-ai-agents/)"
+        surrounding_text: '## [Airplane Autopilot](https://www.airplane.dev/autopilot/?utm_source=awesome-ai-agents/)'
         confidence: high
 metadata:
   github:
@@ -61,21 +61,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is a platform for coordinating autonomous agents to perform workflows, fitting the agent orchestration category.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Internal Tools & Dashboards
   evidence:
-    - Listed in awesome-ai-agents under 'Airplane Autopilot'
-    - Product identity aligns with multi-agent coordination and workflow automation
+    - jev-latest choice confidence 0.91
 placement:
-  primary_category: agent-orchestration
+  primary_category: app-builders
   secondary_categories: []
-  section: null
+  section: Internal Tools & Dashboards
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'app-builders'"
+  reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''app-builders'''
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:38:32.640Z"
+    updated_at: '2026-09-28T04:38:32.640Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +87,9 @@ processing:
       input_hash: sha256:1f679506867b8da374023d1ac055c6e16bd945eaeae3497775b1ea00cd0eb336
       proposed_primary_category: app-builders
       disagreement: true
-      decision_reason: Airplane Autopilot fits app-builders because its core identity is generating deployable internal tools from prompts, not editing existing codebases as a coding agent would.
+      decision_reason: >-
+        Airplane Autopilot fits app-builders because its core identity is generating deployable internal tools from
+        prompts, not editing existing codebases as a coding agent would.
       decision_evidence:
         - Seen in awesome-ai-agents under the purpose 'A list of AI autonomous agents'
         - Product URL is airplane.dev/autopilot, positioning it as an AI-powered internal tool builder
@@ -96,12 +97,14 @@ processing:
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because Airplane Autopilot generates new internal tools from prompts rather than acting as an assistant that edits or reviews code in an existing repository.
-      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'app-builders'"
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because Airplane Autopilot generates new internal tools from prompts
+        rather than acting as an assistant that edits or reviews code in an existing repository.
+      review_reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''app-builders'''
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.364Z"
+    updated_at: '2026-07-20T16:42:15.364Z'
     cause: null
     next_retry_at: null
   stars:

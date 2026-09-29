@@ -72,19 +72,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a code-first Python library for embedding and controlling the Claude Code runtime, fitting the
-    SDK/framework identity over extension or orchestration.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly calls it a 'thin runtime layer for embedding Claude Code into your own systems'
-    - >-
-      README emphasizes it is 'not another high-level agent framework' but a 'direct bridge to the installed claude
-      executable'
-    - Primary artifact is a Python package (pip installable) with a runtime dependency on the local claude CLI
+    - jev-latest choice confidence 0.74
 placement:
-  primary_category: extensions-and-addons
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Claude Code & Agent Tools
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

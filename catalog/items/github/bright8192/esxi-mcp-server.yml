@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server exposing VMware management tools, making MCP its primary purpose rather
-    than a side rather than an add-on to another system.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''A VMware ESXi/vCenter management server based on MCP (Model Control Protocol)'''
-    - README emphasizes MCP-based server functionality with REST API interfaces for VM management
-    - Listed in awesome-mcp-servers under Cloud Platforms section
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

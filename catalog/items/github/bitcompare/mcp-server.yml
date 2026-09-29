@@ -56,17 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server providing domain-specific tools, making MCP its primary purpose rather
-    than a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      README describes it as 'the official crypto yield data MCP server' with 18 read-only tools for crypto lending,
-      savings, staking, prices, and market data.
-    - It is designed to work with Claude Desktop, Claude Code, Claude.ai, and any MCP-compatible agent via npx or HTTP.
-    - >-
-      The repository mirrors the published npm package and contains no indication of being a coding agent, framework, or
-      app builder.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

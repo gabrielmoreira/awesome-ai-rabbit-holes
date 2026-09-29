@@ -88,13 +88,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it is explicitly an MCP server providing project-aware search and retrieval tools
-    for AI assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo description explicitly calls it a Rust MCP server with daemon and CLI
-    - README highlights 6 MCP tools (search, retrieve, rules, store, grep, list)
-    - Topics include 'mcp-server' and 'model-context-protocol'
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: mcp
   secondary_categories: []

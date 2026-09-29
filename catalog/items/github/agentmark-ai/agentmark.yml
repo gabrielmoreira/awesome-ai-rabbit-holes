@@ -66,21 +66,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job is prompt management, experiment runs against datasets, and OpenTelemetry observability rather than
-    being a coding assistant or a generic framework.
+  reason: Jev decision-model reclassifier placed this item in evals / Prompt Regression & Testing
   evidence:
-    - >-
-      README states: 'The open-source platform to develop, test, and observe your AI agents' with prompt management,
-      evaluations, and tracing as primary features.
-    - >-
-      Features include 'Datasets & Evals', 'Tracing' with OpenTelemetry, and prompt definition in .prompt.mdx files with
-      type-safe inputs.
-    - Appears in Awesome-LLMOps under LLMOps, aligning with its eval, observability, and prompt-ops positioning.
+    - jev-latest choice confidence 0.84
 placement:
-  primary_category: memory-and-context
+  primary_category: evals
   secondary_categories: []
-  section: Prompt Engineering & Management
+  section: Prompt Regression & Testing
 lifecycle:
   status: curated
   reason: Stars (346) exceeded threshold (150)

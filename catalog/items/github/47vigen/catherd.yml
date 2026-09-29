@@ -52,18 +52,22 @@ metadata:
       fetched_at: '2026-09-29T13:08:17.908Z'
       bytes: 18139
 insights:
-  summary: null
+  summary: >-
+    Herds coding agents: autopilot builds from your own Claude Code session — Claude plans and verifies, Codex and
+    opencode write the code, Jev picks the model.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.57
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: null

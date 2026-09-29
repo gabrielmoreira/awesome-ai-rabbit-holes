@@ -79,19 +79,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The tool's primary substance is providing memory and retrieval infrastructure to existing coding assistants via the
-    Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      README describes the tool as an 'AI memory brain' that fixes the problem of AI forgetting context between
-      sessions.
-    - Uses git history and semantic search to provide 'lessons learned' to tools like Claude Code and Cursor.
-    - Functions as an MCP server to integrate this memory layer into existing developer workflows.
+    - jev-latest choice confidence 0.91
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

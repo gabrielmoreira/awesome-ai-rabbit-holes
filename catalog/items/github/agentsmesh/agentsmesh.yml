@@ -112,13 +112,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool functions as an operated control plane and runtime platform for coordinating a fleet of agents, rather than
-    being a single assistant or a library.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README claims to provide a 'control layer' for a 'workforce' of agents
-    - Features a 'Runner fleet' and 'one console' for orchestration
-    - Uses a control-plane/data-plane split with gRPC orchestration
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

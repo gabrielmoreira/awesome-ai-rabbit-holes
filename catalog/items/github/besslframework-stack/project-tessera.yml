@@ -60,19 +60,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Tessera’s core identity is a persistent memory and retrieval system for AI agents, not a coding agent, framework, or
-    MCP server, making memory-and-context the best fit.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      Repo description: 'Tessera — Memory layer for every AI. 58 MCP tools, 54 REST endpoints, local-first, AES-256
-      encrypted.'
-    - >-
-      README: 'One knowledge base for Claude Desktop... Runs locally. No API keys, no Docker, no data leaving your
-      machine.'
-    - >-
-      README: 'Auto-learning from conversations', 'Contradiction detection', 'Memory confidence scoring', 'Encrypted
-      vault (AES-256)'
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: memory-and-context
   secondary_categories: []

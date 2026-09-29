@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__claudemcp__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - MCP Servers and Directories
         anchor_text: Claude MCP Servers
         extracted_url: https://claudemcp.com/servers
-        surrounding_text: "- **[Claude MCP Servers](https://www.claudemcp.com/servers)** – Claude's curated MCP server list."
+        surrounding_text: '- **[Claude MCP Servers](https://www.claudemcp.com/servers)** – Claude''s curated MCP server list.'
         confidence: high
     - id: discovery__www__claudemcp__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: Claude MCP Servers
         extracted_url: https://www.claudemcp.com/servers
-        surrounding_text: "- **[Claude MCP Servers](https://www.claudemcp.com/servers)** – Claude's curated MCP server list."
+        surrounding_text: '- **[Claude MCP Servers](https://www.claudemcp.com/servers)** – Claude''s curated MCP server list.'
         confidence: high
 metadata:
   github:
@@ -52,8 +52,12 @@ metadata:
     readme: null
 insights:
   summary: Claude MCP Servers is a directory of MCP servers for the Model Context Protocol, hosted at claudemcp.com/servers.
-  why_it_matters: It helps developers discover MCP servers that enable Claude Code and other agents to access external tools and data via a standardized interface.
-  mental_damage: Another curated list to bookmark before realizing you still have to vet each server for security, uptime, and whether it actually works.
+  why_it_matters: >-
+    It helps developers discover MCP servers that enable Claude Code and other agents to access external tools and data
+    via a standardized interface.
+  mental_damage: >-
+    Another curated list to bookmark before realizing you still have to vet each server for security, uptime, and
+    whether it actually works.
   tags:
     - mcp
     - directory
@@ -61,22 +65,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is a navigation and discovery page for MCP servers, making it a directory, not an operational server, extension, or framework itself.
+  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
   evidence:
-    - URL is https://www.claudemcp.com/servers, indicating a listing/discovery page rather than a runnable product.
-    - Seen in awesome-ai-coding-tools under the section 'MCP Servers and Directories', confirming its identity as a directory.
-    - No repo description, stars, or code artifacts provided, consistent with a static listing page rather than a software project.
+    - jev-latest choice confidence 0.62
 placement:
-  primary_category: mcp
+  primary_category: awesome-awesomes
   secondary_categories: []
-  section: null
+  section: Awesome Lists & Directories
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'awesome-awesomes'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:39:57.196Z"
+    updated_at: '2026-09-28T04:39:57.196Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,20 +91,24 @@ processing:
       input_hash: sha256:92343c3ffc32c43441a87763ab95c7247c392faa00e1fe2c3641e8a488f13dd8
       proposed_primary_category: awesome-awesomes
       disagreement: true
-      decision_reason: The site functions as a curated directory of MCP servers, matching the awesome-awesomes category's purpose of helping developers discover tools rather than being a tool itself.
+      decision_reason: >-
+        The site functions as a curated directory of MCP servers, matching the awesome-awesomes category's purpose of
+        helping developers discover tools rather than being a tool itself.
       decision_evidence:
-        - "Seen in source list: awesome-ai-coding-tools | section: MCP Servers and Directories"
+        - 'Seen in source list: awesome-ai-coding-tools | section: MCP Servers and Directories'
         - URL claudemcp.com/servers presents a directory/index of MCP servers
         - No evidence of being an MCP server, client, or toolkit itself — appears to be a listing page
       category_candidates:
         - awesome-awesomes
         - mcp
-      contrastive_reason: Choose awesome-awesomes over mcp because the product is a directory of MCP servers, not an MCP server, client, or infrastructure tool whose primary identity is the MCP protocol.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'awesome-awesomes'"
+      contrastive_reason: >-
+        Choose awesome-awesomes over mcp because the product is a directory of MCP servers, not an MCP server, client,
+        or infrastructure tool whose primary identity is the MCP protocol.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.963Z"
+    updated_at: '2026-07-21T15:20:21.963Z'
     cause: null
     next_retry_at: null
   stars:

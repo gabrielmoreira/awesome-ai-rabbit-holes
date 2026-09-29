@@ -62,17 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server with SSH management as its core identity, fitting the MCP Servers & Tooling
-    category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''MCP server for SSH remote server management'''
-    - 'README: ''cygnus-ssh-mcp is an MCP server... exposing 46 purpose-built tools'''
-    - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Command Line'''
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

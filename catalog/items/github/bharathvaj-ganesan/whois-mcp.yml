@@ -56,19 +56,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product’s core identity is an MCP server exposing whois lookup capabilities, matching the MCP category’s
-    requirement that MCP be the product’s primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''MCP Server for whois lookups.'''
-    - >-
-      README: 'This MCP server allows AI agents like Claude Desktop, Cursor, Windsurf,.. etc to perform WHOIS lookups
-      and retrieve domain details.'
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

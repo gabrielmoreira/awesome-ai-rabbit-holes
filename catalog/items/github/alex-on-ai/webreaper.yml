@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alex-on-ai__webreaper__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: alex-on-ai/WebReaper
         extracted_url: https://github.com/alex-on-ai/webreaper
-        surrounding_text: "- [alex-on-ai/WebReaper](https://github.com/alex-on-ai/WebReaper) [![alex-on-ai/WebReaper MCP server](https://glama.ai/mcp/servers/alex-on-ai/WebReaper/badges/score.svg)](https://glama.ai/mcp/servers/alex-on-ai/WebReaper) #️⃣ 🏠 🍎 🪟 🐧 - AI-native web scraper MCP server. Single binary, returns clean markdown, MIT-licensed Firecrawl alternative."
+        surrounding_text: >-
+          - [alex-on-ai/WebReaper](https://github.com/alex-on-ai/WebReaper) [![alex-on-ai/WebReaper MCP
+          server](https://glama.ai/mcp/servers/alex-on-ai/WebReaper/badges/score.svg)](https://glama.ai/mcp/servers/alex-on-ai/WebReaper)
+          #️⃣ 🏠 🍎 🪟 🐧 - AI-native web scraper MCP server. Single binary, returns clean markdown, MIT-licensed
+          Firecrawl alternative.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: alex-on-ai/WebReaper
     html_url: https://github.com/alex-on-ai/WebReaper
-    created_at: "2022-04-12T21:59:25Z"
-    pushed_at: "2026-07-11T12:19:45Z"
+    created_at: '2022-04-12T21:59:25Z'
+    pushed_at: '2026-07-11T12:19:45Z'
     description: AI-native web scraper. Single binary with a bundled Claude Code skill. MIT-licensed alternative to Firecrawl.
     homepage: https://webreaper.ai
     topics:
@@ -52,14 +56,18 @@ metadata:
       - scraping-websites
       - webcrawler
       - webscraping
-    last_checked_at: "2026-09-17T04:13:39.143Z"
+    last_checked_at: '2026-09-17T04:13:39.143Z'
     readme:
-      fetched_at: "2026-09-17T04:13:39.143Z"
+      fetched_at: '2026-09-17T04:13:39.143Z'
       bytes: 31514
 insights:
   summary: AI-native web scraper that converts websites into LLM-ready markdown and provides a Claude Code skill.
-  why_it_matters: It automates the extraction and cleaning of web data, making it easy to feed fresh, structured documentation and real-time information into an agent's context.
-  mental_damage: Because once you automate the extraction of niche documentation, you will inevitably spend your entire weekend scraping every obscure forum to feed your custom agent.
+  why_it_matters: >-
+    It automates the extraction and cleaning of web data, making it easy to feed fresh, structured documentation and
+    real-time information into an agent's context.
+  mental_damage: >-
+    Because once you automate the extraction of niche documentation, you will inevitably spend your entire weekend
+    scraping every obscure forum to feed your custom agent.
   tags:
     - web-scraping
     - markdown
@@ -69,32 +77,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core value proposition is augmenting coding assistants like Claude Code with web-browsing capabilities via a 'kill'.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - README explicitly mentions a 'bundled Claude Code skill' and 'WebReaper Agent Skill'
-    - Acts as an interface between web content and an LLM assistant
-    - Provides both a CLI tool and a.NET library for integration
+    - jev-latest choice confidence 0.62
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: null
+  section: Browser & Web Automation
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'memory-and-context'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''memory-and-context'''
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:39.143Z"
+    updated_at: '2026-09-17T04:13:39.143Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:27:49.200Z"
+    updated_at: '2026-09-24T04:27:49.200Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -107,7 +113,9 @@ processing:
       input_hash: sha256:c2b9cb8ef13f2f72cf5fc4b00b668be15929b5a7721d912497c0f86f2257a989
       proposed_primary_category: memory-and-context
       disagreement: true
-      decision_reason: It functions as a retrieval engine that turns the live web into structured markdown, providing the 'fresh docs' necessary for reliable agentic reasoning.
+      decision_reason: >-
+        It functions as a retrieval engine that turns the live web into structured markdown, providing the 'fresh docs'
+        necessary for reliable agentic reasoning.
       decision_evidence:
         - README describes it as an 'AI-native web scraper' and 'alternative to Firecrawl'
         - Provides a .NET library and CLI for programmatic use
@@ -115,6 +123,8 @@ processing:
       category_candidates:
         - memory-and-context
         - ai-frameworks
-      contrastive_reason: Choose memory-and-context over ai-frameworks because its primary value is providing retrieval-based context for LLMs rather than serving as a general-purpose programming library.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'memory-and-context'"
+      contrastive_reason: >-
+        Choose memory-and-context over ai-frameworks because its primary value is providing retrieval-based context for
+        LLMs rather than serving as a general-purpose programming library.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''memory-and-context'''
       review_resume_lifecycle: null

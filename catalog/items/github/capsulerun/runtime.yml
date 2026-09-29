@@ -94,21 +94,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Core product is a code-first SDK/runtime for executing untrusted code in isolated environments, fitting the
-    developer-tooling scope as a framework for agent workflows.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description: 'Secure runtime to sandbox AI agent tasks. Run untrusted code in isolated WebAssembly
-      environments.'
-    - README shows SDK usage (Python/TypeScript decorators) and CLI for running tasks in Wasm sandboxes
-    - Topics include 'agentic-workflow', 'code-execution', 'sandbox', 'webassembly'
-    - Provides Python and TypeScript SDKs for wrapping functions as sandboxed tasks
-    - Uses WebAssembly for isolated, resource-constrained execution
-    - Primary interaction is via library import and CLI rather than an operated control plane
+    - jev-latest choice confidence 0.92
 placement:
-  primary_category: agent-orchestration
-  section: Agent Runtimes & Harnesses
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (281) exceeded threshold (150)

@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing Elasticsearch/OpenSearch integration via MCP,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is an MCP server for Elasticsearch/OpenSearch
-    - README details MCP-specific tools and configuration for Elasticsearch/OpenSearch operations
-    - Already listed in multiple MCP-focused directories under database servers
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

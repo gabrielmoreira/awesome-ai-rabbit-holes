@@ -92,13 +92,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It acts as a specialized retrieval and context-shaping layer that filters technical noise into stack-specific
-    signal.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Scans local files like Cargo.toml and package.json to score content relevance
-    - Uses an LLM layer to verify technical relevance against the user's specific dependency graph
-    - Provides an MCP server to inject filtered ecosystem intelligence into assistants like Cursor or Claude Code
+    - jev-latest choice confidence 0.60
 placement:
   primary_category: mcp
   secondary_categories: []

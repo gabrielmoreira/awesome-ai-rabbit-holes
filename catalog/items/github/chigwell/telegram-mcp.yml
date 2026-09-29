@@ -74,13 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it is a dedicated MCP server for Telegram, not just an adapter or compatibility
-    feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states it is a 'Telegram MCP server'
-    - README confirms it exposes Telegram operations via MCP for clients like Claude and Cursor
-    - Already listed in awesome-mcp-servers under 'Communication' section
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

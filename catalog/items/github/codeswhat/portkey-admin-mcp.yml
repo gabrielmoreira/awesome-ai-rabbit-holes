@@ -94,16 +94,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is a dedicated MCP server providing a set of tools for a specific domain (Portkey's
-    Admin API).
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies as 'Full Portkey Admin API MCP server'
-    - README provides installation instructions specifically for MCP clients like Claude Code and Cursor
-    - Identified as an MCP server in the 'awesome-mcp-servers' list
-    - 'Repo description states: ''Full Portkey Admin API MCP server'''
-    - README lists 150 tools exposing Portkey Admin API capabilities via MCP protocol 1.0
-    - Included in awesome-mcp-servers under 'Cloud Platforms' section
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

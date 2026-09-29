@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing package registry access via MCP, fitting the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for package registries
-    - README details MCP-specific setup for Cursor, Claude Code, and Claude Desktop
-    - Source-list context places it in MCP server directories
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

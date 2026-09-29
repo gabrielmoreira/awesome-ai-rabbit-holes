@@ -81,16 +81,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server designed to expose domain-specific tools (CometChat documentation and bundles) to AI
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Identified as a first-party MCP server in the README
-    - Exposes specific tools like `search_cometchat_docs` and `get_cometchat_implementation_bundle`
-    - Designed for integration with MCP-compatible agents like Claude, Cursor, and Windsurf
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: null

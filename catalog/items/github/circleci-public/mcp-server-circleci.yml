@@ -78,11 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly defined as an MCP server designed to bridge a specific domain (CircleCI) to LLM clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README defines it as an MCP Server for CircleCI
-    - Provides tools for analyze_diff, get_build_failure_logs, and run_pipeline
-    - Instructional setup for Cursor and VS Code MCP configurations
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

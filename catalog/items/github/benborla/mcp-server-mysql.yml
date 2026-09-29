@@ -62,11 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing database access via the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is an MCP server for MySQL databases
-    - README emphasizes MCP server functionality and integration with Claude Code/other LLMs
-    - Listed in awesome-mcp-servers under Database servers
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

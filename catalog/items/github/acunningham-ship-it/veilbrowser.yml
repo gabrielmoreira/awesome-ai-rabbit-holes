@@ -74,17 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It functions as an augmentation layer that provides browser automation capabilities to existing agents and editors,
-    primarily via its MCP server implementation.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - TypeScript-native library and MCP-native server
-    - Uses raw CDP to bypass Cloudflare and sannysoft detection
-    - Designed to give agents access to real Chrome sessions and FedCM (Google SSO)
+    - jev-latest choice confidence 0.91
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Browser & Web Automation
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cachly__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: Website
         extracted_url: https://cachly.dev
-        surrounding_text: "- [cachly-dev/cachly-mcp](https://github.com/cachly-dev/cachly-mcp) [![cachly-dev/cachly-mcp MCP server](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Persistent AI memory brain for Claude Code, Cursor, Copilot, Windsurf, Cline & Zed. `session_start()` briefs your AI on last session, lessons, and open tasks in one call. 84 tools — Team Brain, semantic BM25+ search, Team Telepathy, Ambient Git Learning, Memory Crystals, Analytics, and managed Valkey/Redis. `npx @cachly-dev/init` — free tier, no credit card. [Website](https://cachly.dev)"
+        surrounding_text: >-
+          - [cachly-dev/cachly-mcp](https://github.com/cachly-dev/cachly-mcp) [![cachly-dev/cachly-mcp MCP
+          server](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Persistent AI memory brain for Claude Code, Cursor, Copilot, Windsurf, Cline & Zed.
+          `session_start()` briefs your AI on last session, lessons, and open tasks in one call. 84 tools — Team Brain,
+          semantic BM25+ search, Team Telepathy, Ambient Git Learning, Memory Crystals, Analytics, and managed
+          Valkey/Redis. `npx @cachly-dev/init` — free tier, no credit card. [Website](https://cachly.dev)
         confidence: high
 metadata:
   github:
@@ -37,8 +43,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A persistent memory layer for AI coding assistants that provides codebase context and causal reasoning via the Model Context Protocol.
-  why_it_matters: It automates context injection by learning from Git history, preventing the need to re-explain your stack to agents in every new session.
+  summary: >-
+    A persistent memory layer for AI coding assistants that provides codebase context and causal reasoning via the Model
+    Context Protocol.
+  why_it_matters: >-
+    It automates context injection by learning from Git history, preventing the need to re-explain your stack to agents
+    in every new session.
   mental_damage: It's the perfect tool for when you want your AI to remember exactly why your legacy code is so broken.
   tags:
     - mcp
@@ -49,22 +59,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product identity is a memory and retrieval system (the 'Brain') designed to shape the context provided to other assistants, which fits the definition of context engineering.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Claims to provide a 'permanent brain' that 'bootstraps from git history'
-    - Features 'causal_trace' and 'brain_recall' for semantic memory retrieval
-    - Explicitly compares itself to other memory tools like mem0 and MemGPT
+    - jev-latest choice confidence 0.69
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: null
+  section: Middleware & Generic
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''memory-and-context'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.820Z"
+    updated_at: '2026-05-28T05:28:09.820Z'
     cause: null
     next_retry_at: null
   stars:
@@ -73,7 +81,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:32:40.576Z"
+    updated_at: '2026-09-21T04:32:40.576Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -86,7 +94,9 @@ processing:
       input_hash: sha256:2fffae613b8409023c12476db6667276055f42752c879ba7ab3a6bf18c5f41d9
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: The product is an MCP server that provides memory and retrieval capabilities, which according to the catalog's priority rules, places it in the MCP category.
+      decision_reason: >-
+        The product is an MCP server that provides memory and retrieval capabilities, which according to the catalog's
+        priority rules, places it in the MCP category.
       decision_evidence:
         - Identity as an MCP server (@cachly-dev/mcp-server)
         - Provides memory and causal reasoning via MCP
@@ -94,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - memory-and-context
-      contrastive_reason: Choose mcp over memory-and-context because the product's primary identity is an MCP server providing memory capabilities.
-      review_reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over memory-and-context because the product's primary identity is an MCP server providing memory
+        capabilities.
+      review_reason: 'Categorization review required: placement disagreement: retained ''memory-and-context'', proposed ''mcp'''
       review_resume_lifecycle: null

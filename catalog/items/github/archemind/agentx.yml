@@ -70,13 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It serves as a centralized control plane for managing the lifecycle and sessions of multiple disparate coding agent
-    CLIs rather than acting as a single assistant.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README defines the tool as a 'native-first runtime manager' for various agents.
-    - Provides unified commands for listing, installing, and resuming sessions across multiple specific tools.
-    - Explicitly targets multiple existing runtimes including Claude Code, Codex CLI, and Gemini CLI.
+    - jev-latest choice confidence 0.98
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

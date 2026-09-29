@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__factory__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Factory
         anchor_text: Factory
         extracted_url: https://www.factory.ai
-        surrounding_text: "## [Factory](https://www.factory.ai/)"
+        surrounding_text: '## [Factory](https://www.factory.ai/)'
         confidence: high
     - id: discovery__factory__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Coding Agents
         anchor_text: Factory
         extracted_url: https://factory.ai
-        surrounding_text: "- **[Factory](https://factory.ai/)** – AI platform automating repetitive coding tasks at scale."
+        surrounding_text: '- **[Factory](https://factory.ai/)** – AI platform automating repetitive coding tasks at scale.'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Factory.ai is an enterprise platform that enables autonomous AI agents to plan, build, and deploy software across desktop, terminal, web, and CLI environments.
-  why_it_matters: It aims to automate full software development lifecycles, letting teams focus on business goals rather than manual coding and deployment tasks.
-  mental_damage: The promise of a fully autonomous software factory creates workflow whiplash for developers who must still debug, review, and validate AI-generated code in production.
+  summary: >-
+    Factory.ai is an enterprise platform that enables autonomous AI agents to plan, build, and deploy software across
+    desktop, terminal, web, and CLI environments.
+  why_it_matters: >-
+    It aims to automate full software development lifecycles, letting teams focus on business goals rather than manual
+    coding and deployment tasks.
+  mental_damage: >-
+    The promise of a fully autonomous software factory creates workflow whiplash for developers who must still debug,
+    review, and validate AI-generated code in production.
   tags:
     - ai-dev-extensions
     - agent-orchestration
@@ -61,22 +67,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Factory.ai is included because it is a developer-facing autonomous agent that directly plans and executes coding tasks across terminals and IDEs, fitting the core definition of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - README states Factory Droids "automate coding, testing, and deployment" across desktop, terminal, web, and CLI.
-    - Product page describes "plan, build, review, and ship software with autonomous agents" as its core workflow.
-    - Source-list context shows it is featured in curated AI development resources as a developer tooling product.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+  reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: '2026-05-06T22:12:15.596Z'
     cause: null
     next_retry_at: null
   stars:
@@ -85,7 +89,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:39:27.183Z"
+    updated_at: '2026-09-24T04:39:27.183Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -98,14 +102,20 @@ processing:
       input_hash: sha256:52780e6126361dc3dbb4b1dd82d37bb5178d0f0fb927e20c4d39fff2feac3e9d
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Factory.ai is included because it is a developer-facing autonomous agent that directly plans and executes coding tasks across terminals and IDEs, fitting the core definition of a coding agent.
+      decision_reason: >-
+        Factory.ai is included because it is a developer-facing autonomous agent that directly plans and executes coding
+        tasks across terminals and IDEs, fitting the core definition of a coding agent.
       decision_evidence:
-        - README states Factory Droids "automate coding, testing, and deployment" across desktop, terminal, web, and CLI.
+        - >-
+          README states Factory Droids "automate coding, testing, and deployment" across desktop, terminal, web, and
+          CLI.
         - Product page describes "plan, build, review, and ship software with autonomous agents" as its core workflow.
         - Source-list context shows it is featured in curated AI development resources as a developer tooling product.
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Factory.ai is the primary autonomous coding agent rather than an add-on to another assistant or IDE.
-      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Factory.ai is the primary autonomous coding agent rather
+        than an add-on to another assistant or IDE.
+      review_reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
       review_resume_lifecycle: null

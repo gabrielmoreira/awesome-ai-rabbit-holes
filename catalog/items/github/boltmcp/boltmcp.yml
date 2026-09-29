@@ -59,17 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    BoltMCP's core identity is providing MCP server functionality for Kubernetes cluster management, making MCP its
-    primary purpose rather than a secondary feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repository topics include mcp, mcp-server, and skills indicating MCP focus
-    - README describes installation via Helm chart to expose infrastructure to Claude Code agent
-    - Listed in awesome-mcp-servers under Server Implementations > Aggregators
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (371) exceeded threshold (150)

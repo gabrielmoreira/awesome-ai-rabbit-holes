@@ -90,13 +90,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Ante is primarily a standalone coding agent that operates via a terminal interface, designed to perform autonomous
-    coding tasks.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - README describes it as a 'self-contained coding agent that lives in your terminal'.
-    - It operates similarly to Claude Code and Gemini CLI (canonical positives for coding-agents).
-    - It provides a single Rust executable for autonomous task execution.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []

@@ -58,14 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is exposing sports data via the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies it as an MCP server for sports data
-    - README confirms it implements the MCP Server specification
-    - Listed in awesome-mcp-servers under Official Servers
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

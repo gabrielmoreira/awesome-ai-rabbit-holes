@@ -75,17 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    ClawFleet is primarily a control plane for managing multiple isolated AI agent instances via a dashboard, making it
-    an orchestration platform rather than a coding agent itself.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''Deploy a fleet of AI agents [...] Open-source fleet manager with browser dashboard'''
-    - >-
-      README: 'Run a fleet of AI agents on your laptop in 5 minutes — OpenClaw and Hermes in isolated containers,
-      managed from one browser dashboard'
-    - >-
-      Features include sandboxed Docker instances, skill management, Soul Archive, and multi-runtime support — all
-      orchestrated via CLI and UI
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

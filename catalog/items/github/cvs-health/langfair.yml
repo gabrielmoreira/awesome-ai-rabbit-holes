@@ -74,13 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job is measuring and assessing LLM behavior (bias/fairness) rather than acting as a primary assistant,
-    framework, or orchestration tool.
+  reason: Jev decision-model reclassifier placed this item in evals / Safety, Fairness & Red-teaming
   evidence:
-    - Repo description explicitly states it is a Python library for LLM bias and fairness assessments
-    - README emphasizes use-case level evaluations with BYOP approach and output-based metrics
-    - Topics include llm-evaluation, llm-evaluation-framework, and llm-evaluation-metrics
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: evals
   secondary_categories: []

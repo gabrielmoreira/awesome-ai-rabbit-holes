@@ -79,13 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's identity is a specialized MCP server designed to provide specific domain capabilities to host AI
-    assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description identifies it as an 'MCP server for Aiven'
-    - README describes providing tools for PostgreSQL and Kafka to Claude, Cursor, and VS Code
-    - The product's primary function is acting as a middleware/adapter between an AI client and Aiven APIs
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

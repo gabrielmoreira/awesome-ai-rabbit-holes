@@ -70,17 +70,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is primarily an MCP server designed to provide domain-specific (bioinformatics) tools to existing AI
-    assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Exposes six MCP tools including run_pipeline and get_provenance
-    - Provides a Nextflow backend for real-world pipeline execution
-    - Emits verifiable RO-Crate provenance records for all runs
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Data & Databases
 lifecycle:
   status: curated
   reason: null

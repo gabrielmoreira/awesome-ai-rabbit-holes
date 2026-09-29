@@ -102,20 +102,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    DarkMoon functions as an autonomous AI agent that plans, executes, and validates security tests via real tool
-    chains, fitting the coding agent pattern of delegating complex workflows to an AI, even though the domain is
-    security rather than code editing.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Domain & Enterprise Platforms
   evidence:
-    - >-
-      Repo description: 'Autonomous AI pentesting engine... Agentic reasoning plus real exploit execution deliver
-      proof-based vulnerabilities.'
-    - >-
-      README: 'Point it at a target... it runs the whole assessment on its own: it reasons, plans, and dispatches 50
-      specialist agents that execute real offensive operations through a controlled MCP layer'.
-    - >-
-      Runs via CLI, orchestrates real tools (Nuclei, sqlmap, etc.) via MCP, and outputs proof-of-exploitation—behavior
-      matches agentic task execution.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

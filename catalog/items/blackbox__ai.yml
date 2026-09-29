@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__blackbox__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Blackbox AI
         anchor_text: Blackbox AI
         extracted_url: https://blackbox.ai
-        surrounding_text: "## [Blackbox AI](https://www.blackbox.ai/)"
+        surrounding_text: '## [Blackbox AI](https://www.blackbox.ai/)'
         confidence: high
     - id: discovery__blackbox__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,10 +33,10 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Blackbox AI
         extracted_url: https://blackbox.ai
-        surrounding_text: "- **[Blackbox AI](https://www.blackbox.ai/)** – AI coding assistant with code completions, chat, and search."
+        surrounding_text: '- **[Blackbox AI](https://www.blackbox.ai/)** – AI coding assistant with code completions, chat, and search.'
         confidence: high
     - id: discovery__www__blackbox__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -48,10 +48,10 @@ provenance:
           - Blackbox AI
         anchor_text: Blackbox AI
         extracted_url: https://www.blackbox.ai
-        surrounding_text: "## [Blackbox AI](https://www.blackbox.ai/)"
+        surrounding_text: '## [Blackbox AI](https://www.blackbox.ai/)'
         confidence: high
     - id: discovery__www__blackbox__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -63,7 +63,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Blackbox AI
         extracted_url: https://www.blackbox.ai
-        surrounding_text: "- **[Blackbox AI](https://www.blackbox.ai/)** – AI coding assistant with code completions, chat, and search."
+        surrounding_text: '- **[Blackbox AI](https://www.blackbox.ai/)** – AI coding assistant with code completions, chat, and search.'
         confidence: high
 metadata:
   github:
@@ -81,9 +81,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Blackbox AI is a secure, private inference platform offering dedicated deployments and a unified router for 300+ open and closed models with end-to-end encryption and zero data retention.
-  why_it_matters: It gives developers a high-speed, trustworthy way to run any model for coding tasks without exposing prompts or sacrificing performance.
-  mental_damage: Yet another inference API promising 'zero data retention' while you wonder if your autocomplete habits are now part of a training set somewhere.
+  summary: >-
+    Blackbox AI is a secure, private inference platform offering dedicated deployments and a unified router for 300+
+    open and closed models with end-to-end encryption and zero data retention.
+  why_it_matters: >-
+    It gives developers a high-speed, trustworthy way to run any model for coding tasks without exposing prompts or
+    sacrificing performance.
+  mental_damage: >-
+    Yet another inference API promising 'zero data retention' while you wonder if your autocomplete habits are now part
+    of a training set somewhere.
   tags:
     - inference
     - api
@@ -92,22 +98,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Blackbox AI is primarily a developer-facing coding assistant that directly plans, writes, reviews, and deploys code via agents, CLI, and IDE integrations.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
-    - Described as 'multi-agent coding, AI-native IDE, VS Code extension, CLI, and a unified inference API'
-    - Demonstrates agent tasks like refactoring, migrations, test generation, and deployments
-    - Source lists categorize it under 'Code Editors and Assistants' and 'AI autonomous agents'
+    - jev-latest choice confidence 0.40
 placement:
-  primary_category: coding-agents
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: null
+  section: Provider & Model Abstractions
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-frameworks'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-frameworks'''
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:40:07.348Z"
+    updated_at: '2026-09-28T04:40:07.348Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -120,20 +124,32 @@ processing:
       input_hash: sha256:cf28ecd6b1253f75ca7478f7085e56fce769105b24a6803d00c43d6a8c3d7a49
       proposed_primary_category: ai-frameworks
       disagreement: true
-      decision_reason: Blackbox AI is primarily an inference API and model routing service, not a coding agent or app builder; it provides an OpenAI-compatible endpoint that developers import and program against, making it a provider abstraction SDK.
+      decision_reason: >-
+        Blackbox AI is primarily an inference API and model routing service, not a coding agent or app builder; it
+        provides an OpenAI-compatible endpoint that developers import and program against, making it a provider
+        abstraction SDK.
       decision_evidence:
-        - Scraped site emphasizes 'OpenAI-compatible REST and streaming' and 'One OpenAI-compatible endpoint. Change the base URL and keep your code.'
-        - Products include 'Blackbox Router' (300+ models through one endpoint) and 'Agents API' (send coding agents to any repository over HTTP), positioning it as infrastructure for agents rather than an agent itself.
-        - Source-list context appears in 'awesome-ai-coding-tools' under 'Code Editors and Assistants' and 'awesome-ai-agents' under 'Blackbox AI', but the core offering is model routing and secure inference, not direct coding assistance.
+        - >-
+          Scraped site emphasizes 'OpenAI-compatible REST and streaming' and 'One OpenAI-compatible endpoint. Change the
+          base URL and keep your code.'
+        - >-
+          Products include 'Blackbox Router' (300+ models through one endpoint) and 'Agents API' (send coding agents to
+          any repository over HTTP), positioning it as infrastructure for agents rather than an agent itself.
+        - >-
+          Source-list context appears in 'awesome-ai-coding-tools' under 'Code Editors and Assistants' and
+          'awesome-ai-agents' under 'Blackbox AI', but the core offering is model routing and secure inference, not
+          direct coding assistance.
       category_candidates:
         - ai-frameworks
         - extensions-and-addons
-      contrastive_reason: Choose ai-frameworks over extensions-and-addons because Blackbox AI provides a developer-facing SDK and API abstraction for model access, not a plugin that extends an existing coding agent or editor.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-frameworks'"
+      contrastive_reason: >-
+        Choose ai-frameworks over extensions-and-addons because Blackbox AI provides a developer-facing SDK and API
+        abstraction for model access, not a plugin that extends an existing coding agent or editor.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-frameworks'''
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.686Z"
+    updated_at: '2026-07-20T15:10:47.686Z'
     cause: null
     next_retry_at: null
   stars:

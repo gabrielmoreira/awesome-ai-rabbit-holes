@@ -87,21 +87,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Core novelty is a neuroscience-inspired memory/retrieval system for shaping model context, not a primary coding
-    assistant or host integration.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description explicitly calls it 'Persistent memory for Claude Code built on computational neuroscience, not
-      just retrieval'
-    - >-
-      README emphasizes memory consolidation, context reconstruction, and 26+ biological mechanisms over direct code
-      editing
-    - Topics include 'llm-memory', 'long-term-memory', 'episodic-memory', and 'model-context-protocol'
+    - jev-latest choice confidence 0.74
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

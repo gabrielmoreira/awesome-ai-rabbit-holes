@@ -67,13 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is a Model Context Protocol (MCP) server designed to expose Flux AI capabilities to
-    other host applications.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo description explicitly states it is an 'MCP server for Flux AI'
-    - README provides configuration for MCP-compatible clients like Claude, Cursor, and Windsurf
-    - Product identity is the server/interface layer, not the model itself
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

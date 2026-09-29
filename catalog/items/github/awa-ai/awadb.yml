@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    AwaDB is a code-first vector database SDK/framework for embedding storage and retrieval, fitting the
-    developer-tooling scope as infrastructure for AI workflows.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Memory & Retrieval Infrastructure
   evidence:
-    - Repo description explicitly states it is an 'AI Native database for embedding vectors'
-    - README demonstrates Python SDK usage for vector storage/search with SentenceTransformer/OpenAI embeddings
-    - Source-list context places it in 'Vector search' under LLMOps tools
+    - jev-latest choice confidence 0.60
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

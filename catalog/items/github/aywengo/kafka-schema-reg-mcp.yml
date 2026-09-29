@@ -66,15 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it is a dedicated MCP server for Kafka Schema Registry, not a compatibility
-    footnote or adapter.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - >-
-      Repo description explicitly states it is a 'comprehensive Message Control Protocol (MCP) server for Kafka Schema
-      Registry'
-    - README highlights full MCP 2025-06-18 specification compliance and integration with Claude Desktop
-    - Already listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

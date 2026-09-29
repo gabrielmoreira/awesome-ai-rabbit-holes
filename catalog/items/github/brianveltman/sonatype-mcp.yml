@@ -60,17 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server exposing Nexus Repository Manager capabilities over the Model Context
-    Protocol, making MCP its primary identity rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server for Sonatype Nexus Repository Manager'''
-    - 'README: Explicitly positions as an MCP server enabling AI assistants to interact with Nexus'
-    - 'Source-list context: Listed in awesome-mcp-servers under Community Servers'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

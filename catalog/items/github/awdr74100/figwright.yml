@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__awdr74100__figwright__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-06T05:29:57.556Z"
+      discovered_at: '2026-07-06T05:29:57.556Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: awdr74100/figwright
         extracted_url: https://github.com/awdr74100/figwright
-        surrounding_text: "- [awdr74100/figwright](https://github.com/awdr74100/figwright) [![awdr74100/figwright MCP server](https://glama.ai/mcp/servers/awdr74100/figwright/badges/score.svg)](https://glama.ai/mcp/servers/awdr74100/figwright) 📇 🏠 🍎 🪟 🐧 - Bidirectional Figma server over a local WebSocket relay: turn a selection into framework-aware code (reusing your components and tokens), or author frames, text, styles, variables, and whole screens back onto the canvas. 92 tools, any MCP client, no Dev Mode seat or paid tier."
+        surrounding_text: >-
+          - [awdr74100/figwright](https://github.com/awdr74100/figwright) [![awdr74100/figwright MCP
+          server](https://glama.ai/mcp/servers/awdr74100/figwright/badges/score.svg)](https://glama.ai/mcp/servers/awdr74100/figwright)
+          📇 🏠 🍎 🪟 🐧 - Bidirectional Figma server over a local WebSocket relay: turn a selection into
+          framework-aware code (reusing your components and tokens), or author frames, text, styles, variables, and
+          whole screens back onto the canvas. 92 tools, any MCP client, no Dev Mode seat or paid tier.
         confidence: high
 metadata:
   github:
@@ -30,10 +35,12 @@ metadata:
     archived: false
     full_name: awdr74100/figwright
     html_url: https://github.com/awdr74100/figwright
-    created_at: "2026-06-18T16:34:43Z"
-    pushed_at: "2026-09-21T01:05:42Z"
-    description: Free, two-way Figma MCP server. Turn designs into framework-aware code, and push code back to the canvas. Works with Claude Code, Cursor, Codex, and any MCP client.
-    homepage: ""
+    created_at: '2026-06-18T16:34:43Z'
+    pushed_at: '2026-09-21T01:05:42Z'
+    description: >-
+      Free, two-way Figma MCP server. Turn designs into framework-aware code, and push code back to the canvas. Works
+      with Claude Code, Cursor, Codex, and any MCP client.
+    homepage: ''
     topics:
       - ai
       - claude-code
@@ -47,14 +54,20 @@ metadata:
       - figma-to-code
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-09-21T04:13:52.399Z"
+    last_checked_at: '2026-09-21T04:13:52.399Z'
     readme:
-      fetched_at: "2026-09-21T04:13:52.399Z"
+      fetched_at: '2026-09-21T04:13:52.399Z'
       bytes: 22296
 insights:
-  summary: A bidirectional MCP server and Figma plugin that allows coding agents to read design context and write changes directly to the Figma canvas.
-  why_it_matters: It enables agents to implement designs and update canvases using Figma's free tier, bypassing the need for a paid Dev Mode seat.
-  mental_damage: Finally, a way to let your coding agent rewrite your design system while you're still trying to figure out what the designer meant.
+  summary: >-
+    A bidirectional MCP server and Figma plugin that allows coding agents to read design context and write changes
+    directly to the Figma canvas.
+  why_it_matters: >-
+    It enables agents to implement designs and update canvases using Figma's free tier, bypassing the need for a paid
+    Dev Mode seat.
+  mental_damage: >-
+    Finally, a way to let your coding agent rewrite your design system while you're still trying to figure out what the
+    designer meant.
   tags:
     - figma
     - mcp
@@ -63,32 +76,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Figwright primarily augments MCP clients like Claude Code and Cursor with bidirectional Figma access, making it an extension rather than a standalone coding agent or app builder.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - "Repo description: 'Free, bidirectional Figma MCP server — turn designs into framework-aware code and write back to the canvas, for Claude Code, Cursor, and any MCP client.'"
-    - "README: 'Figwright connects an MCP server to a Figma plugin over a local WebSocket relay, so an AI agent [...] can work _with_ Figma instead of just looking at it.'"
-    - It provides read (design-to-code) and write (code-to-Figma) capabilities via a local plugin, positioning itself as a host integration layer for MCP clients.
+    - jev-latest choice confidence 0.99
 placement:
-  primary_category: extensions-and-addons
+  primary_category: mcp
   secondary_categories: []
-  section: null
+  section: Cloud & API Integration
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''extensions-and-addons'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-07-06T05:29:57.557Z"
+    updated_at: '2026-07-06T05:29:57.557Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-21T04:13:52.399Z"
+    updated_at: '2026-09-21T04:13:52.399Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:23:01.190Z"
+    updated_at: '2026-09-24T04:23:01.190Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -101,7 +112,9 @@ processing:
       input_hash: sha256:c194a6cc2b6185892f1bd1410eb745c900ba475f8919ba505529d8ab1e3d854a
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: The product's primary identity is an MCP server that exposes a specific set of domain tools (Figma read/write) to any compatible agent.
+      decision_reason: >-
+        The product's primary identity is an MCP server that exposes a specific set of domain tools (Figma read/write)
+        to any compatible agent.
       decision_evidence:
         - README explicitly defines it as a 'two-way Figma MCP server'
         - Provides 113 tools for reading and writing to the Figma canvas
@@ -109,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the tool's primary identity is a protocol-native server providing domain capabilities rather than a simple integration layer for a single host.
-      review_reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over extensions-and-addons because the tool's primary identity is a protocol-native server providing
+        domain capabilities rather than a simple integration layer for a single host.
+      review_reason: 'Categorization review required: placement disagreement: retained ''extensions-and-addons'', proposed ''mcp'''
       review_resume_lifecycle: null

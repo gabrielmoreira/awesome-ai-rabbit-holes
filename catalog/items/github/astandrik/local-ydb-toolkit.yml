@@ -72,13 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project functions as a specialized MCP server and Codex skill set designed to provide agents with direct,
-    domain-specific control over YDB database operations.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly identifies it as a Codex skill and MCP server.
-    - README details specific capabilities for agents, such as bootstrap, DDL generation, and lifecycle management.
-    - The toolkit is designed to bridge the gap between AI agents and local YDB Docker environments.
+    - jev-latest choice confidence 0.95
 placement:
   primary_category: mcp
   secondary_categories: []

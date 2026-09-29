@@ -83,13 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It functions as a model abstraction layer, providing a unified interface for multiple providers through a single
-    API.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
-    - Provides one OpenAI-compatible API for OpenAI, Anthropic, Gemini, Bedrock, and more
-    - Built in Rust for low per-request overhead and single static binary deployment
-    - Offers routing, guardrails, caching, and observability features
+    - jev-latest choice confidence 0.41
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

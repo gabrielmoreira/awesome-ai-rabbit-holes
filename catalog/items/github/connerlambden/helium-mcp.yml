@@ -98,11 +98,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server with domain-specific tools (finance, news, memes) as its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server
-    - README details MCP integration for Cursor, Claude Desktop, Windsurf, and GitHub Copilot
-    - Source lists categorize it under MCP Servers
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

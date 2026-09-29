@@ -75,13 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity and delivery mechanism is as a functional MCP server that provides a specific domain
-    capability (codebase discovery).
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Explicitly describes itself as 'An opinionated MCP server' in the repo description.
-    - Provides specific tools for searching multiple registries like GitHub, npm, and PyPI.
-    - Designed to be integrated directly into Claude Code, Cursor, and Claude Desktop via MCP configuration.
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
   secondary_categories: []

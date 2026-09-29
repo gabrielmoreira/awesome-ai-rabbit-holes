@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a standalone, primary coding assistant operating via a CLI/terminal interface rather than an extension for
-    another editor.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description identifies it as a 'CLI AI Agent for coding'
-    - README defines capabilities like reading/writing files and running Python code in a loop
-    - Positioned as a standalone agent with its own entrypoint and core loop
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []

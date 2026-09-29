@@ -72,15 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a Cline plugin that augments the assistant with automated test generation and execution, not a standalone
-    coding agent.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Testing & Code Quality
   evidence:
-    - Repo description identifies it as a Cline plugin with MCP server + .clinerules pack
-    - README states it is a Cline plugin that automatically generates and runs tests after edits
-    - >-
-      Source-list context places it under Coding Agents in an MCP servers list, but primary identity is as a Cline
-      extension
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []

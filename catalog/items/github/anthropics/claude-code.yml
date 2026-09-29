@@ -75,13 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a primary coding assistant that developers delegate repo work to, fitting the canonical positive for
-    coding-agents.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly calls it an 'agentic coding tool' for terminal use
-    - README confirms it reads code, plans changes, and handles git workflows via natural language
-    - Source-list context places it under 'Terminal-native coding agents' in a curated directory
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []

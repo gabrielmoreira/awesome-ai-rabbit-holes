@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__anyaitools__com__babycommandagi__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,10 @@ provenance:
           - Description
         anchor_text: Generating text, like poems, code, scripts, musical pieces, email, and letters, translating languages
         extracted_url: https://anyaitools.com/babycommandagi
-        surrounding_text: "- Aside from setting up the environment, it seems to be able to handle a bit of general tasks such as [Generating text, like poems, code, scripts, musical pieces, email, and letters, translating languages](https://anyaitools.com/babycommandagi/?utm_source=SocialAutoPoster&utm_medium=Social&utm_campaign=Twitter)"
+        surrounding_text: >-
+          - Aside from setting up the environment, it seems to be able to handle a bit of general tasks such as
+          [Generating text, like poems, code, scripts, musical pieces, email, and letters, translating
+          languages](https://anyaitools.com/babycommandagi/?utm_source=SocialAutoPoster&utm_medium=Social&utm_campaign=Twitter)
         confidence: high
 metadata:
   github:
@@ -38,8 +41,12 @@ metadata:
     readme: null
 insights:
   summary: BabyCommandAGI is an autonomous coding agent that plans and executes code-related tasks across repositories.
-  why_it_matters: It reduces developer time spent on manual code planning and execution by automating task decomposition and file manipulation.
-  mental_damage: Another agent that promises to replace your IDE workflow, yet still requires you to maintain context windows and debug its hallucinated edits.
+  why_it_matters: >-
+    It reduces developer time spent on manual code planning and execution by automating task decomposition and file
+    manipulation.
+  mental_damage: >-
+    Another agent that promises to replace your IDE workflow, yet still requires you to maintain context windows and
+    debug its hallucinated edits.
   tags:
     - ai-dev-extensions
     - agent-orchestration
@@ -47,22 +54,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: BabyCommandAGI is a primary coding agent that autonomously plans and executes code tasks, fitting the core definition of coding-agents rather than being an extension or orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - Listed under 'awesome-ai-agents' with section 'BabyCommandAGI > Description', indicating recognized agent identity
-    - README excerpt states it 'autonomously executes complex tasks' and 'plans and executes code-related tasks'
-    - Source context shows it is positioned as a standalone agent rather than an add-on to another tool
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+  reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:34:00.800Z"
+    updated_at: '2026-09-24T04:34:00.800Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +89,20 @@ processing:
       input_hash: sha256:64735b97affe19e01a97965827adf1518e426f40038b7d1b320979b8a8cac37d
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: BabyCommandAGI is a primary coding agent that autonomously plans and executes code tasks, fitting the core definition of coding-agents rather than being an extension or orchestration platform.
+      decision_reason: >-
+        BabyCommandAGI is a primary coding agent that autonomously plans and executes code tasks, fitting the core
+        definition of coding-agents rather than being an extension or orchestration platform.
       decision_evidence:
-        - Listed under 'awesome-ai-agents' with section 'BabyCommandAGI > Description', indicating recognized agent identity
+        - >-
+          Listed under 'awesome-ai-agents' with section 'BabyCommandAGI > Description', indicating recognized agent
+          identity
         - README excerpt states it 'autonomously executes complex tasks' and 'plans and executes code-related tasks'
         - Source context shows it is positioned as a standalone agent rather than an add-on to another tool
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because it acts as the primary autonomous coder rather than augmenting another agent's capabilities.
-      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because it acts as the primary autonomous coder rather than
+        augmenting another agent's capabilities.
+      review_reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
       review_resume_lifecycle: null

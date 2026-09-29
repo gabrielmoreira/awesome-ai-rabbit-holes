@@ -21,6 +21,7 @@ Pick one rabbit hole, follow it until it becomes useful or emotionally dangerous
 - [Agent Orchestration](docs/rabbit-holes/agent-orchestration.md) — Platforms and runtimes for coordinating multiple agents: designing workflows, routing tasks between specialists, and deploying autonomous agent teams.
 - [Frameworks & SDKs](docs/rabbit-holes/ai-frameworks.md) — Code-first libraries, SDKs, and engines that developers import and program against to build AI-powered applications and agent systems.
 - [Evals & Benchmarks](docs/rabbit-holes/evals.md) — Frameworks, platforms, and tooling for measuring, tracing, comparing, and improving model, prompt, and agent behavior.
+- [Document AI & OCR](docs/rabbit-holes/document-ai.md) — Tools that read documents — turning scans, PDFs, screenshots, and office files into text, structure, or extracted fields.
 - [Local & Self-hosted AI](docs/rabbit-holes/local-ai.md) — Runtimes, serving stacks, desktop apps, and tooling for running AI models on your own hardware or self-hosted infrastructure.
 - [Memory & Context](docs/rabbit-holes/memory-and-context.md) — Systems that improve what goes into the model: persistent agent memory, retrieval and RAG pipelines, context compression, and prompt management.
 - [Agent Skills](docs/rabbit-holes/skills.md) — Reusable skill packs, rules bundles, slash-command sets, and directories that install into a coding agent or assistant to extend its behavior.

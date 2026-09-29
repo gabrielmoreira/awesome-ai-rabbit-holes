@@ -59,11 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: it is a server exposing SonarQube-specific tools via the Model Context Protocol.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is for chatting with SonarQube data via MCP
-    - README lists MCP tools for SonarQube metrics, history, and issues
-    - Already listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

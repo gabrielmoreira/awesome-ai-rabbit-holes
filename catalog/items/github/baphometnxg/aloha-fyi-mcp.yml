@@ -61,15 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server with a domain-specific focus, and MCP is its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly identifies it as 'Hawaii tourism MCP server'
-    - Implements MCP protocol (2025-03-26) with Streamable HTTP transport
-    - Core novelty is AAAK structured-response contract for machine-parseable outputs
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

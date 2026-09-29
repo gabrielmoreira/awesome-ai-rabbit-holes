@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here, as the server's sole purpose is to expose Photopea's capabilities via the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly states it is an MCP server for Photopea
-    - README details how it translates agent commands to Photopea API calls via MCP
-    - Already listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

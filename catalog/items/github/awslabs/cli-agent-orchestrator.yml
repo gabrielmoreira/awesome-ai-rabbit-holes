@@ -81,11 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a workbench for coordinating multiple coding agents, not a single assistant or a thin extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README explicitly describes it as a 'multi-agent orchestration framework' with supervisor–worker pattern over MCP
-    - Supports parallel/sequential/swarm execution across multiple CLI agents (Claude Code, Kiro, Codex, etc.)
-    - Source-list context places it under 'Harnesses & orchestration > Session managers & parallel runners'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

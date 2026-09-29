@@ -94,13 +94,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Agon is a plugin that augments Claude Code with autonomous research workflows rather than acting as a standalone
-    coding assistant, making it an extension rather than a primary agent.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
-    - 'Repo description: ''Claude Code plugin for autonomous AI research'''
-    - 'README: ''Agon itself is a Claude Code plugin. Run it from a separate data workspace'''
-    - 'Required setup: ''claude --plugin-dir ../Agon'' to activate the plugin within Claude Code'
+    - jev-latest choice confidence 0.62
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []

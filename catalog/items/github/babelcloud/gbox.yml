@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: a server providing device/environment control capabilities to agents, with
-    explicit MCP integration as the primary distribution mechanism.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly states 'Cli and MCP for gbox'
-    - README emphasizes MCP server functionality for Claude Code/Cursor integration
-    - Listed in awesome-mcp-servers under 'Community Servers'
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
   secondary_categories: []

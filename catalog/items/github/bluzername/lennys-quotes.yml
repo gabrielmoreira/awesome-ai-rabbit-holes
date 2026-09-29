@@ -57,19 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server exposing podcast transcript data as tools, making MCP the primary
-    protocol identity rather than a mere extension or context tool.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description: 'MCP server that puts 269 episodes of Lenny's Podcast product wisdom inside Claude Code, Cursor,
-      or any MCP client'
-    - 'README: Provides MCP server tools like search_quotes, list_guests, get_episode via stdio or npx installation'
-    - 'Installation: Uses ''claude mcp add'' and stdio server configuration typical of MCP servers'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

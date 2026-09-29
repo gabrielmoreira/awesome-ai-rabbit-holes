@@ -59,17 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core identity is generating a new application scaffold/site from a visual input rather than editing an
-    existing codebase.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Site & Landing Page Builders
   evidence:
-    - README describes turning screenshots and mockups into functional code
-    - Supports generating multiple stacks including React, Vue, and Tailwind
-    - Included in awesome-ai-coding-tools under App Builders
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: Full App Builders
+  section: Site & Landing Page Builders
 lifecycle:
   status: curated
   reason: Stars (72452) exceeded threshold (150)

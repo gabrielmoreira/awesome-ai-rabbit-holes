@@ -74,11 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is providing CoinMarketCap data via MCP protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - README explicitly describes it as a 'Coinmarket MCP Server' implementing API endpoints as MCP resources/tools
-    - Listed in multiple MCP server directories under Finance & Fintech
-    - Requires MCP-compatible configuration (Claude Desktop, Docker) and exposes MCP-specific URI scheme
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

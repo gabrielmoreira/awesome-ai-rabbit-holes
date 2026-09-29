@@ -57,23 +57,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    UACOS’s core novelty is its local-first context compression and bounded task scoping for AI agents, making it a
-    prompt/context engineering tool rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
   evidence:
-    - >-
-      README describes UACOS as a 'local-first repo brain, context-compression layer, orchestration planner, and patch
-      safety/evidence gate'
-    - >-
-      It prepares bounded context, validates patch scope/risk, and prevents unsupported product claims — core
-      context-shaping infrastructure
-    - >-
-      Listed in awesome-cli-coding-agents under 'Agent infrastructure' but its function is context preparation, not
-      agent orchestration
+    - jev-latest choice confidence 0.50
 placement:
-  primary_category: agent-orchestration
+  primary_category: memory-and-context
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Compression & Token Optimization
 lifecycle:
   status: curated
   reason: null

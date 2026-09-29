@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bigcactuslabs__dead-letter__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: BigCactusLabs/dead-letter
         extracted_url: https://github.com/bigcactuslabs/dead-letter
-        surrounding_text: "- [BigCactusLabs/dead-letter](https://github.com/BigCactusLabs/dead-letter) [![BigCactusLabs/dead-letter MCP server](https://glama.ai/mcp/servers/BigCactusLabs/dead-letter/badges/score.svg)](https://glama.ai/mcp/servers/BigCactusLabs/dead-letter) 🐍 🏠 - Convert `.eml` email exports to clean Markdown with YAML front matter — thread splitting, signature stripping, attachment extraction, and calendar parsing. Tuned for feeding archived email into RAG/LLM pipelines."
+        surrounding_text: >-
+          - [BigCactusLabs/dead-letter](https://github.com/BigCactusLabs/dead-letter) [![BigCactusLabs/dead-letter MCP
+          server](https://glama.ai/mcp/servers/BigCactusLabs/dead-letter/badges/score.svg)](https://glama.ai/mcp/servers/BigCactusLabs/dead-letter)
+          🐍 🏠 - Convert `.eml` email exports to clean Markdown with YAML front matter — thread splitting, signature
+          stripping, attachment extraction, and calendar parsing. Tuned for feeding archived email into RAG/LLM
+          pipelines.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: BigCactusLabs/dead-letter
     html_url: https://github.com/BigCactusLabs/dead-letter
-    created_at: "2026-03-26T02:02:11Z"
-    pushed_at: "2026-09-24T04:10:16Z"
+    created_at: '2026-03-26T02:02:11Z'
+    pushed_at: '2026-09-24T04:10:16Z'
     description: Convert .eml email exports to Markdown with YAML front matter
     homepage: https://pypi.org/project/dead-letter/
     topics:
@@ -52,14 +57,20 @@ metadata:
       - python
       - rag
       - yaml-frontmatter
-    last_checked_at: "2026-09-24T04:12:58.993Z"
+    last_checked_at: '2026-09-24T04:12:58.993Z'
     readme:
-      fetched_at: "2026-09-24T04:12:58.993Z"
+      fetched_at: '2026-09-24T04:12:58.993Z'
       bytes: 21827
 insights:
-  summary: dead-letter converts .eml email exports to Markdown with YAML front matter for local email archiving and LLM-ready ingestion.
-  why_it_matters: It lets developers turn noisy email exports into clean, structured Markdown for use in RAG, knowledge bases, or agent workflows without raw MIME overhead.
-  mental_damage: Another tool to optimize the part of your workflow where you pretend email can be knowledge if you just strip the headers enough times.
+  summary: >-
+    dead-letter converts .eml email exports to Markdown with YAML front matter for local email archiving and LLM-ready
+    ingestion.
+  why_it_matters: >-
+    It lets developers turn noisy email exports into clean, structured Markdown for use in RAG, knowledge bases, or
+    agent workflows without raw MIME overhead.
+  mental_damage: >-
+    Another tool to optimize the part of your workflow where you pretend email can be knowledge if you just strip the
+    headers enough times.
   tags:
     - email
     - markdown
@@ -69,32 +80,30 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool's identity is tied to providing a specialized domain-specific parser as an MCP server for LLM clients.
+  reason: Jev decision-model reclassifier placed this item in document-ai / File Conversion & Markdown
   evidence:
-    - Explicitly provides an MCP server for Claude Desktop and Claude Code
-    - Designed to normalize raw.eml files for LLM pipelines
-    - Offers a CLI and Python API for structured data extraction
+    - jev-latest choice confidence 0.96
 placement:
-  primary_category: mcp
+  primary_category: document-ai
   secondary_categories: []
-  section: null
+  section: File Conversion & Markdown
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'extensions-and-addons'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''extensions-and-addons'''
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:12:58.993Z"
+    updated_at: '2026-09-24T04:12:58.993Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:56:07.248Z"
+    updated_at: '2026-09-28T04:56:07.248Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -107,14 +116,20 @@ processing:
       input_hash: sha256:315e85d7206a92fa1e3054726d6d4da5cefeeb73326bee2703d16ab9af6aa099
       proposed_primary_category: extensions-and-addons
       disagreement: true
-      decision_reason: dead-letter is an MCP server and Claude plugin that adds email conversion capabilities to coding agents like Claude Code, making it an extension rather than a standalone agent or framework.
+      decision_reason: >-
+        dead-letter is an MCP server and Claude plugin that adds email conversion capabilities to coding agents like
+        Claude Code, making it an extension rather than a standalone agent or framework.
       decision_evidence:
-        - "Repo description: 'Convert .eml email exports to Markdown with YAML front matter'"
-        - "README: 'MCP server — integrate with Claude Desktop, Claude Code, Codex, and other MCP clients' and 'Claude plugin — marketplace install in Claude Code or Cowork'"
-        - "Source-list context: listed in awesome-mcp-servers under Communication as an MCP server implementation"
+        - 'Repo description: ''Convert .eml email exports to Markdown with YAML front matter'''
+        - >-
+          README: 'MCP server — integrate with Claude Desktop, Claude Code, Codex, and other MCP clients' and 'Claude
+          plugin — marketplace install in Claude Code or Cowork'
+        - 'Source-list context: listed in awesome-mcp-servers under Communication as an MCP server implementation'
       category_candidates:
         - extensions-and-addons
         - mcp
-      contrastive_reason: Choose extensions-and-addons over mcp because dead-letter's primary identity is as a Claude Code extension adding email conversion, not as MCP infrastructure itself.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'extensions-and-addons'"
+      contrastive_reason: >-
+        Choose extensions-and-addons over mcp because dead-letter's primary identity is as a Claude Code extension
+        adding email conversion, not as MCP infrastructure itself.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''extensions-and-addons'''
       review_resume_lifecycle: null

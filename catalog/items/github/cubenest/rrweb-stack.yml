@@ -80,14 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's identity is split between a test reporter and an MCP server; since the MCP component is the primary
-    mechanism for AI agent interaction and has its own dedicated package/docs, it fits as an MCP domain server for
-    browser sessions.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Includes `@peekdev/mcp` as a stdio MCP server for Claude Code, Cursor, and Cline
-    - Specifically marketed as 'your real browser, exposed to your AI coding agent'
-    - Includes a separate test-focused reporter (tracelane) using the same rrweb core
+    - jev-latest choice confidence 0.95
 placement:
   primary_category: mcp
   secondary_categories: []

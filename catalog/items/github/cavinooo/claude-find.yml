@@ -66,15 +66,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary value is the semantic retrieval and management of conversation history to improve model context.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Uses Ollama and embeddings to perform semantic search over raw Claude Code session transcripts
-    - Implements an MCP server to inject retrieved context back into Claude Code sessions
-    - Specifically designed to overcome the loss of context in compressed session summaries
+    - jev-latest choice confidence 0.78
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

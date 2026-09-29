@@ -52,11 +52,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool acts as a standalone assistant for interacting with and navigating a codebase using natural language.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - README describes it as an 'AI Coding Assistant' for querying codebases
-    - Uses LangChain and OpenAI for RAG-based Q&A
-    - Supports real-time file monitoring and terminal/voice I/O
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: coding-agents
   secondary_categories: []

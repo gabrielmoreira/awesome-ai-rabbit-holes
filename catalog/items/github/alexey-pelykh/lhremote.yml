@@ -66,17 +66,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: it is explicitly an MCP server for LinkedHelper automation, not just a compatibility
-    feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly states 'CLI and MCP server for LinkedHelper automation'
-    - README details 68+ MCP tools for LinkedIn control (campaigns, messaging, profile queries)
-    - Claude Desktop integration example shows MCP server configuration
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Browser & Web Automation
 lifecycle:
   status: curated
   reason: null

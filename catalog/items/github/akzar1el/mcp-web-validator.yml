@@ -71,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server implementation designed to provide domain-specific tools to AI assistants
-    via the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description identifies it as a W3C HTML/CSS Validator and SEO Audit MCP Server.
-    - README details specific MCP tools for html.local, css.local, seo.metadata, and screenshot.capture.
-    - Supports both stdio transport for local clients and Streamable HTTP for remote clients.
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

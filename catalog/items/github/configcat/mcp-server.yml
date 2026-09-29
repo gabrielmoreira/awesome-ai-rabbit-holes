@@ -63,11 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server exposing ConfigCat’s management API as MCP tools.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly calls it an MCP server
-    - README details MCP server setup for Cursor, VS Code, and Claude Desktop
-    - Source-list context lists it under MCP servers
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

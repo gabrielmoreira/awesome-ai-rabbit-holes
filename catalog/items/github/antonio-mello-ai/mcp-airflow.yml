@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is purely an MCP server implementation for a specific domain (Airflow), making it a perfect fit for the
-    MCP category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states 'MCP server for airflow'
-    - README provides tool definitions for specific Airflow actions like 'list_dags' and 'check_scheduler_health'
-    - Included in 'awesome-mcp-servers' under 'Data Platforms'
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []

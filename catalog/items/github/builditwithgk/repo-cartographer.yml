@@ -82,13 +82,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server that exposes architecture analysis and diagram generation as tools over
-    the Model Context Protocol, making MCP its primary purpose rather than a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server, CLI, and GitHub Action
-    - README emphasizes it speaks MCP over stdio and works with any MCP client like Claude Code or Cursor
-    - Listed in awesome-mcp-servers under Server Implementations > Architecture & Design
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: mcp
   secondary_categories: []

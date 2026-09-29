@@ -99,13 +99,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Cosmos is an enterprise control plane that coordinates multiple expert agents across triage, authoring, review, and
-    verification loops, making agent orchestration the primary identity.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Domain & Enterprise Platforms
   evidence:
-    - 'Cosmos orchestrates agents for end-to-end SDLC loops: triage, author, review, verify'
-    - Experts are reusable agents with memory, environment, and capabilities that hand off work between stages
-    - Platform provides triggers, shared memory, sandboxing, and human-in-the-loop checkpoints
+    - jev-latest choice confidence 0.99
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

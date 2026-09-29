@@ -61,17 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server providing domain-specific tooling for observability
-    backends.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly positions it as an MCP server for Claude Code/Codex CLI
-    - Supports multiple observability backends (Grafana, Prometheus, Kafka UI, Datadog)
-    - Credentials stay local via env vars, no data egress
+    - jev-latest choice confidence 1.00
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

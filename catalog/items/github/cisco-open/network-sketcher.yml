@@ -76,17 +76,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is defined by its Local MCP implementation that enables LLM clients to perform specialized
-    network design tasks.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Explicitly offers a Local MCP edition for Cursor and Claude Code
-    - Provides a dedicated mcp-server implementation in the repo
-    - Primary workflow involves using MCP tool calls to design networks
+    - jev-latest choice confidence 0.65
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (371) exceeded threshold (150)
