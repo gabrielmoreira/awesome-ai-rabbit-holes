@@ -118,8 +118,38 @@ interface CacheFile {
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
-const API_URL = "https://api.typesafe.ai/v1/systemone";
-const MODEL = "jev-latest";
+const DEFAULT_ENDPOINT = "https://api.typesafe.ai/v1/systemone";
+/**
+ * OpenRouter serves the same System One contract at its own path and bills the
+ * request to an OpenRouter key, which is what makes this reachable when the
+ * TypeSafe account is out of credit.
+ */
+const OPENROUTER_ENDPOINT = "https://openrouter.ai/api/v1/systemone";
+const DEFAULT_MODEL = "jev-latest";
+
+/** Set from the CLI flags in main(); the provider is a choice, not a constant. */
+const client = {
+  endpoint: DEFAULT_ENDPOINT,
+  model: DEFAULT_MODEL,
+  apiKey: "",
+};
+
+function resolveApiKey(endpoint: string, env: NodeJS.ProcessEnv = process.env): string {
+  const host = new URL(endpoint).hostname;
+  if (host.endsWith("openrouter.ai")) {
+    const key = env.OPENROUTER_API_KEY?.trim();
+    if (!key) throw new Error("OPENROUTER_API_KEY not set (required for the OpenRouter endpoint)");
+    return key;
+  }
+  const key = env.TYPESAFE_AI_API_KEY?.trim() ?? env.TYPESAFE_API_KEY?.trim();
+  if (!key) throw new Error("TYPESAFE_AI_API_KEY not set");
+  return key;
+}
+/**
+ * Bump when the classifier's shape changes: the cache key must move with it,
+ * or a new builder silently reuses verdicts the old one produced.
+ */
+const CLASSIFIER_VERSION = "v2-two-pass";
 const CATEGORIES_PATH = path.join(process.cwd(), "config/categories.yml");
 const ITEMS_DIR = path.join(process.cwd(), "catalog/items");
 const CACHE_PATH = path.join(process.cwd(), ".local/jev-reclassify-cache.json");
@@ -233,13 +263,20 @@ async function callJevWithRetry(
   maxRetries = 3,
 ): Promise<JevResponse | null> {
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
-    const res = await fetch(API_URL, {
+    const res = await fetch(client.endpoint, {
       method: "POST",
-      headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ state, model: MODEL, questions }),
+      headers: { Authorization: `Bearer ${client.apiKey}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ state, model: client.model, questions }),
     });
 
     if (res.ok) return res.json() as Promise<JevResponse>;
+
+    // Out of credit is a whole-run failure, not a per-item one: stop instead of
+    // repeating the same error for every remaining item.
+    if (res.status === 402) {
+      const body = await res.text();
+      throw new Error(`PROVIDER_OUT_OF_CREDIT 402: ${body.slice(0, 200)}`);
+    }
 
     if ((res.status === 429 || res.status === 529) && attempt < maxRetries) {
       await sleep(Math.min(1000 * 2 ** attempt, 8000) + Math.random() * 200);
@@ -266,51 +303,71 @@ interface CategoryWithHints extends Category {
 }
 
 /**
- * Builds Jev placement criteria dynamically from categories.yml.
- * Each option key: "category-id||Section Name"
- * Each value: section_hint (from YAML) enriched with:
- *   - category instructions (first sentence — what it IS)
- *   - canonical_positives (examples that belong)
- *   - common_false_positives (examples that DON'T belong)
+ * Two-level classification, both derived from categories.yml.
  *
- * This makes categories.yml the single source of truth.
- * Cache invalidation key is the SHA-1 of the categories.yml file content.
+ * Asking one question over every `category||section` option diluted the rules:
+ * 66 options meant each carried only the first sentence of its instructions and
+ * three examples, so every rule written in `use_when`/`do_not_use_when` — the
+ * ones that actually separate lookalikes — never reached the model.
+ *
+ * Pass 1 chooses between the categories themselves, where each option can afford
+ * its full identity, its inclusion anchors, its exclusion anchors, and examples.
+ * Pass 2 then chooses a section inside the winning category, where the options
+ * are few and the section hints are the whole question. Fewer options per
+ * decision also means less dilution, and the two calls together are cheaper than
+ * the single 66-option call they replace.
  */
-function buildPlacementCriteria(categories: CategoryWithHints[]): Record<string, string> {
+function buildCategoryCriteria(categories: CategoryWithHints[]): Record<string, string> {
   const criteria: Record<string, string> = {
     [EXCLUDED_PLACEMENT_KEY]:
-      "This item should NOT be in the catalog: it is a documentation page, auxiliary link, generic non-AI SaaS, or lacks enough information to evaluate.",
+      "Not a developer-facing AI tool: a documentation page, a citation, an auxiliary link, a generic non-AI product, or too little information to judge.",
   };
 
   for (const cat of categories) {
-    const hints = cat.prompt.section_hints ?? {};
-    // First sentence of instructions = the core identity statement
-    const identity = cat.prompt.instructions.trim().replace(/\n\s*/g, " ").split(/\.\s+/)[0] + ".";
-    // Examples: canonical_positives
-    const positives = cat.prompt.canonical_positives.slice(0, 4).join(", ");
-    // Counter-examples: common_false_positives
-    const negatives = cat.prompt.common_false_positives.slice(0, 3).join("; ");
-
-    for (const section of (cat.sections ?? [])) {
-      const key = `${cat.id}||${section}`;
-      const hint = hints[section] ?? "";
-      criteria[key] = [
-        `[${cat.name} → ${section}]`,
-        identity,
-        hint ? hint : "",
-        `Canonical examples: ${positives}.`,
-        `NOT for: ${negatives}.`,
-      ].filter(Boolean).join(" ");
-    }
+    // Every rule reaches the model. An earlier version took the first four
+    // use_when and six exclusions, which silently dropped exactly the rules
+    // that settled the cases the classifier got wrong — a benchmark of a
+    // decision model sat at use_when[7] and never made it into the prompt.
+    criteria[cat.id] = [
+      `[${cat.name}]`,
+      collapseWhitespace(cat.prompt.instructions),
+      `Belongs when: ${cat.prompt.use_when.join("; ")}.`,
+      `Canonical examples: ${cat.prompt.canonical_positives.join(", ")}.`,
+      `NOT for: ${[...cat.prompt.common_false_positives, ...cat.prompt.do_not_use_when].join("; ")}.`,
+    ].join(" ");
   }
 
   return criteria;
 }
 
+function buildSectionCriteria(category: CategoryWithHints): Record<string, string> {
+  const hints = category.prompt.section_hints ?? {};
+  const criteria: Record<string, string> = {};
+  for (const section of category.sections ?? []) {
+    criteria[section] = hints[section] ?? `A section of ${category.name}.`;
+  }
+  return criteria;
+}
+
+function collapseWhitespace(value: string): string {
+  return value.replace(/\s+/g, " ").trim();
+}
+
+/** One line per category so the model sees every identity before choosing one. */
+function buildCategoryRoster(categories: CategoryWithHints[]): string {
+  return categories
+    .map((cat) => `- ${cat.id} (${cat.name}): ${cat.prompt.use_when[0] ?? collapseWhitespace(cat.prompt.instructions)}`)
+    .join("\n");
+}
+
 function computeCriteriaHash(): string {
   // Hash the raw categories.yml file — if it changes, all items re-evaluate
   const content = fs.readFileSync(CATEGORIES_PATH, "utf8");
-  return crypto.createHash("sha1").update(content).digest("hex").slice(0, 12);
+  // Provider and model are part of the key: switching either must not reuse the
+  // other one's verdicts.
+  return crypto.createHash("sha1").update(`${content}
+${client.endpoint}
+${client.model}`).digest("hex").slice(0, 12);
 }
 
 // ─── State builder ────────────────────────────────────────────────────────────
@@ -425,38 +482,41 @@ function applyResultToItem(
 
 async function reclassifyItem(
   loaded: LoadedItem,
-  placementCriteria: Record<string, string>,
+  context: { categories: CategoryWithHints[]; categoryCriteria: Record<string, string>; roster: string },
   apiKey: string,
   minConfidence: number,
 ): Promise<ReclassifyResult> {
   const { filePath, item } = loaded;
+  const oldCategory = item.placement?.primary_category ?? null;
+  const oldSection = item.placement?.section ?? null;
+  const skip = (reason: string): ReclassifyResult => ({
+    itemId: item.id, filePath, oldCategory, oldSection,
+    newCategory: null, newSection: null,
+    shouldInclude: false, confidence: 0, ambiguous: false, changed: false,
+    skipped: true, skipReason: reason, inputTokens: 0, model: "",
+  });
+
   const summary = resolveSummaryText(item);
-  if (summary.length < 15) {
-    return {
-      itemId: item.id, filePath,
-      oldCategory: item.placement?.primary_category ?? null, oldSection: item.placement?.section ?? null,
-      newCategory: null, newSection: null,
-      shouldInclude: false, confidence: 0, ambiguous: false, changed: false,
-      skipped: true, skipReason: "no_summary", inputTokens: 0, model: "",
-    };
-  }
+  if (summary.length < 15) return skip("no_summary");
 
   const state = buildItemState(item, summary);
-  const questions = {
-    placement: {
+
+  // Pass 1 — the category, where the full rules can be stated once per identity.
+  const categoryResult = await callJevWithRetry(state, {
+    category: {
       type: "choice",
       instructions:
-        "Classify this developer AI tool into the single best category and section. " +
-        "The key format is 'category-id||Section Name'. " +
-        "Base your decision on the product's primary identity and main reason to exist, " +
-        "not on side features or integrations it also supports. " +
-        "Precedence: when the product is a decision model (Jev, TypeSafe System One, Laya, Kev, " +
-        "or a similar typed-decision model) or a tool whose judgment IS the product, choose a " +
-        "decision-models option even though it also ships an MCP server, installs as a host " +
-        "add-on, or measures model behaviour. The protocol, host, or harness is the transport, " +
-        "not the identity. " +
-        "Select '__excluded__' only if this is clearly not a developer-facing AI tool.",
-      criteria: placementCriteria,
+        "Pick the single category whose primary identity this developer tool matches, from its " +
+        "main reason to exist rather than from side features or integrations it also supports. " +
+        "Every category is listed in the roster with the one thing it means:\n" + context.roster + "\n" +
+        "Precedence, when a product could sit in two: a decision model (Jev, TypeSafe System One, " +
+        "Laya, Kev, and similar) or a tool whose judgment IS the product goes to decision-models " +
+        "even when it also ships an MCP server, installs as a host add-on, or measures model " +
+        "behaviour — the protocol, host, or harness is the transport, not the identity. Then, a " +
+        "coding agent stays in coding-agents; an MCP server whose identity is the protocol stays " +
+        "in mcp. Choose '" + EXCLUDED_PLACEMENT_KEY + "' only when this is not a developer-facing AI " +
+        "tool at all.",
+      criteria: context.categoryCriteria,
     },
     should_include: {
       type: "noul",
@@ -464,46 +524,60 @@ async function reclassifyItem(
         "This item is a genuine, developer-facing AI tool that belongs in a curated catalog " +
         "of AI tools for developers — not a documentation page, auxiliary link, or generic SaaS.",
     },
-  };
+  }, apiKey);
+  if (!categoryResult) return skip("jev_400_invalid_request");
 
-  const result = await callJevWithRetry(state, questions, apiKey);
-  if (!result) {
-    // 400 — bad request, skip this item
+  const categoryAnswer = categoryResult.answers.category as JevChoiceAnswer;
+  const includeAnswer = categoryResult.answers.should_include as JevNoulAnswer;
+  const chosenKey = categoryAnswer.choice;
+  const isExcluded = chosenKey === EXCLUDED_PLACEMENT_KEY;
+  // A category the model invented falls back to "no placement" rather than a bad one.
+  const chosenCategory = context.categories.find((entry) => entry.id === chosenKey) ?? null;
+  const shouldInclude = !isExcluded && chosenCategory !== null && includeAnswer.noul >= 0.4;
+  const confidence = categoryAnswer.confidence;
+  const inputTokens = categoryResult.usage.input_tokens;
+  const model = categoryResult.model;
+
+  if (!shouldInclude || !chosenCategory) {
     return {
-      itemId: item.id, filePath,
-      oldCategory: item.placement?.primary_category ?? null, oldSection: item.placement?.section ?? null,
+      itemId: item.id, filePath, oldCategory, oldSection,
       newCategory: null, newSection: null,
-      shouldInclude: false, confidence: 0, ambiguous: false, changed: false,
-      skipped: true, skipReason: "jev_400_invalid_request", inputTokens: 0, model: "",
+      shouldInclude: false, confidence, ambiguous: confidence < minConfidence, changed: false,
+      skipped: false, inputTokens, model,
     };
   }
 
-  const catAnswer = result.answers.placement as JevChoiceAnswer;
-  const inclAnswer = result.answers.should_include as JevNoulAnswer;
-
-  const choiceKey = catAnswer.choice;
-  const isExcluded = choiceKey === EXCLUDED_PLACEMENT_KEY;
-  const shouldInclude = !isExcluded && inclAnswer.noul >= 0.4;
-
-  let newCategory: string | null = null;
+  // Pass 2 — the section inside the chosen category, where the options are few
+  // and the section hint is the whole question.
+  const sectionCriteria = buildSectionCriteria(chosenCategory);
   let newSection: string | null = null;
-  if (!isExcluded && choiceKey.includes("||")) {
-    const [cat, sec] = choiceKey.split("||");
-    newCategory = cat ?? null;
-    newSection = sec ?? null;
+  let totalTokens = inputTokens;
+  if (Object.keys(sectionCriteria).length > 0) {
+    const sectionResult = await callJevWithRetry(state, {
+      section: {
+        type: "choice",
+        instructions:
+          `The item is in the "${chosenCategory.name}" category. Pick the section of that ` +
+          "category it belongs in, based on the part of the product the item is.",
+        criteria: sectionCriteria,
+      },
+    }, apiKey);
+    if (sectionResult) {
+      totalTokens += sectionResult.usage.input_tokens;
+      const sectionAnswer = sectionResult.answers.section as JevChoiceAnswer;
+      if (Object.hasOwn(sectionCriteria, sectionAnswer.choice)) newSection = sectionAnswer.choice;
+    }
   }
 
-  const confidence = catAnswer.confidence;
-  const ambiguous = confidence < minConfidence;
-  const oldCategory = item.placement?.primary_category ?? null;
-  const oldSection = item.placement?.section ?? null;
-  const changed = newCategory !== oldCategory || newSection !== oldSection;
-
   return {
-    itemId: item.id, filePath,
-    oldCategory, oldSection, newCategory, newSection,
-    shouldInclude, confidence, ambiguous, changed,
-    skipped: false, inputTokens: result.usage.input_tokens, model: result.model,
+    itemId: item.id, filePath, oldCategory, oldSection,
+    newCategory: chosenCategory.id, newSection,
+    shouldInclude: true, confidence,
+    ambiguous: confidence < minConfidence,
+    changed: chosenCategory.id !== oldCategory || newSection !== oldSection,
+    skipped: false,
+    inputTokens: totalTokens,
+    model,
   };
 }
 
@@ -518,10 +592,12 @@ interface CliArgs {
   minConfidence: number;
   resetCache: boolean;
   seedOnly: boolean;
+  endpoint: string;
+  model: string;
 }
 function parseArgs(): CliArgs {
   const argv = process.argv.slice(2);
-  const args: CliArgs = { sample: null, category: null, ids: null, dryRun: false, concurrency: 20, minConfidence: 0.55, resetCache: false, seedOnly: false };
+  const args: CliArgs = { sample: null, category: null, ids: null, dryRun: false, concurrency: 20, minConfidence: 0.55, resetCache: false, seedOnly: false, endpoint: DEFAULT_ENDPOINT, model: DEFAULT_MODEL };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === "--sample" && argv[i + 1]) args.sample = Number(argv[++i]);
     else if (argv[i] === "--category" && argv[i + 1]) args.category = argv[++i] ?? null;
@@ -535,6 +611,8 @@ function parseArgs(): CliArgs {
     else if (argv[i] === "--min-confidence" && argv[i + 1]) args.minConfidence = Number(argv[++i]);
     else if (argv[i] === "--reset-cache") args.resetCache = true;
     else if (argv[i] === "--seed-only") args.seedOnly = true;
+    else if (argv[i] === "--endpoint" && argv[i + 1]) args.endpoint = argv[++i]!;
+    else if (argv[i] === "--model" && argv[i + 1]) args.model = argv[++i]!;
   }
   return args;
 }
@@ -570,16 +648,19 @@ async function main() {
     return;
   }
 
-  const apiKey = process.env.TYPESAFE_AI_API_KEY ?? process.env.TYPESAFE_API_KEY;
-  if (!apiKey) throw new Error("TYPESAFE_AI_API_KEY not set");
+  client.endpoint = args.endpoint;
+  client.model = args.model;
+  client.apiKey = resolveApiKey(client.endpoint);
 
   const categories = loadCategories() as CategoryWithHints[];
-  const placementCriteria = buildPlacementCriteria(categories);
+  const categoryCriteria = buildCategoryCriteria(categories);
+  const roster = buildCategoryRoster(categories);
+  const context = { categories, categoryCriteria, roster };
   const criteriaHash = computeCriteriaHash();
   const cache = loadCache(criteriaHash, args.resetCache);
 
   console.log(`Jev Reclassifier`);
-  console.log(`Criteria hash: ${criteriaHash} | Options: ${Object.keys(placementCriteria).length}`);
+  console.log(`Criteria hash: ${criteriaHash} | Categories: ${Object.keys(categoryCriteria).length - 1} + excluded`);
   console.log(`Concurrency: ${args.concurrency} | Min-confidence: ${args.minConfidence} | Dry-run: ${args.dryRun}\n`);
 
   let items = loadIncludedItems();
@@ -621,7 +702,7 @@ async function main() {
     toProcess.map(async (loaded) => {
       const release = await sem.acquire();
       try {
-        const result = await reclassifyItem(loaded, placementCriteria, apiKey, args.minConfidence);
+        const result = await reclassifyItem(loaded, context, client.apiKey, args.minConfidence);
         results.push(result);
 
         // Update cache

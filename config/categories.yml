@@ -31,6 +31,9 @@
       - Cline
       - Aider
     common_false_positives:
+      - A browser automation or computer-use tool whose decisions come from a decision model such as Jev — that is decision-models/Browser & Computer Use, even though it drives a browser or a desktop
+      - A browser or computer-use tool that automates general web or desktop tasks rather than coding work (it is not a coding agent)
+      - A tool whose identity is a decision model or the judgment it makes — Jev, Laya, Kev, and similar belong in decision-models
       - Cursor (the IDE product itself, not a coding agent)
       - LangChain (framework developers program against)
       - Dify (multi-agent orchestration platform, not a coding agent)
@@ -40,7 +43,7 @@
     section_hints:
       Terminal & CLI Agents: "CLI or terminal invocation is the primary interface; the agent runs in a shell to perform coding tasks, not inside a GUI."
       IDE-Native & Editor Agents: "The editor or IDE is the product surface — either an AI-first editor like Cursor or Windsurf, or an agent embedded inside a specific IDE like Cline in VS Code."
-      Browser & Computer-Use Agents: "Controls a browser, desktop, or operating system to execute coding or computing tasks via GUI automation or computer-use."
+      Browser & Computer-Use Agents: "Controls a browser, desktop, or operating system to do coding or developer tasks via GUI automation. General web or desktop automation that is not about code belongs elsewhere."
       Review, Testing & Repair: "Primary job is reviewing PRs, finding bugs, running tests, or auto-repairing failures — not general code generation."
       Spec-First & Plan-Execute: "Developer writes specs, requirements, or structured plans first; the agent converts them into working code through a structured execution loop."
       Autonomous & Multi-Agent Coding: "Spawns or coordinates multiple sub-agents to decompose and autonomously complete a complex coding task; the end product is working code."
@@ -91,6 +94,7 @@
       - It is an orchestration platform, framework, or provider SDK where the decision model is not the reason the product exists.
     canonical_positives:
       - Jev (TypeSafe System One)
+      - jev-browser (browser automation whose decisions come from Jev)
       - laya (open non-autoregressive decision model)
       - kev (trainable Qwen-based decision models)
       - Ollaya (local runner serving open decision models behind a Jev-compatible API)
@@ -165,6 +169,7 @@
       - Screenshot-to-Code
       - dyad
     common_false_positives:
+      - A no-code or low-code platform where AI is optional — a database, internal-tool, or site builder is not a prompt-to-app product
       - Cursor (coding assistant, not an app generator)
       - Claude Code (coding agent that edits repos)
       - n8n (workflow automation without a prompt-to-app identity)
@@ -275,6 +280,7 @@
       - mcp-bridge (middleware exposing MCP tools through an OpenAI-compatible API)
       - Lunar.dev (API gateway and MCP aggregator middleware)
     common_false_positives:
+      - A marketplace, registry, or directory of content that is not MCP itself (agent skills, prompts, rules) that merely exposes an MCP endpoint — the catalogued content is the identity
       - A Jev or decision-model MCP server (it serves typed decision judgments — the decision layer is the identity, so it belongs in decision-models, not here)
       - LangChain (framework with MCP support, identity is the framework)
       - Claude Code (coding agent that uses MCP as a client)
@@ -289,8 +295,8 @@
       Data & Databases: "MCP server providing SQL queries, NoSQL access, analytics, data pipelines, spreadsheets, or database schema inspection."
       Cloud & API Integration: "MCP server bridging cloud provider APIs (AWS, GCP, Azure), REST endpoints, GraphQL, webhooks, or generic HTTP APIs."
       AI & Model Services: "MCP server for AI model inference, embeddings, vector search, image generation, or AI provider API access."
-      Browser & Web Automation: "MCP server that controls a browser, scrapes web pages, extracts structured content from URLs, or provides web interaction."
-      Communication, Files & Productivity: "MCP server for email, messaging (Slack, Discord, Telegram), calendar, file storage (Drive, S3), documents (Notion, Confluence), or project management."
+      Browser & Web Automation: "MCP server that drives a browser or acts on live pages: automation, scraping, testing, clicking. NOT for a server that merely serves documents, wiki content, or an API's data over MCP."
+      Communication, Files & Productivity: "MCP server for email, messaging (Slack, Discord, Telegram), calendar, file storage (Drive, S3), documents and wikis (Notion, Confluence, a public wiki), or project management."
       Middleware & Generic: "General-purpose MCP utility, multi-domain server, proxy, or infrastructure middleware. MCP servers providing memory or retrieval also go here (MCP identity wins)."
       Registries & Discovery: "Operational directory or API for finding, listing, and discovering MCP servers. Not a static curated list — this is a searchable registry."
       Clients & Inspector Tools: "MCP client, inspector, debugger, proxy-for-testing, or SDK for building MCP servers. Developer tooling for the MCP protocol itself."
@@ -397,6 +403,8 @@
       - PydanticAI
       - Claude (Anthropic model family — the provider API itself, not an agent or framework)
     common_false_positives:
+      - A fine-tuning or training toolkit whose identity is adapting or running models on your own hardware — that is local-ai
+      - A vector database server offered as infrastructure rather than imported as a client library
       - Dify (operated orchestration platform)
       - LangFlow (visual builder, not the code library)
       - Ollama (local model runtime, not imported as a code library)
@@ -409,12 +417,14 @@
       Provider & Model Abstractions: "SDK or abstraction layer for accessing AI model providers; unified interface across LLMs; or a specific model provider's developer SDK. LiteLLM, Vercel AI SDK."
       Workflow & Graph Engines: "Code-first graph or state machine engine for building stateful multi-step AI pipelines. Developers define nodes and transitions in code. LangGraph, Temporal for AI."
       Memory & Retrieval Infrastructure: "Code-first vector store client, embedding pipeline, or RAG component imported as a library building block. NOT a standalone memory product — a developer tool."
+      Training & Model Infrastructure: "Code-first library for training, fine-tuning, or running models: distributed-training frameworks, optimizer and parallelism toolkits, and model compilers. The developer imports it to train or serve weights, not to build an agent."
   sections:
     - LLM & Agent SDKs
     - Multi-Agent Systems
     - Provider & Model Abstractions
     - Workflow & Graph Engines
     - Memory & Retrieval Infrastructure
+    - Training & Model Infrastructure
 
 - id: evals
   name: Evals & Benchmarks
@@ -427,9 +437,12 @@
       The product's primary job is measuring quality or behavior: running
       evaluations, recording traces, comparing model outputs, benchmarking
       agents, detecting regressions, or assessing safety. The product
-      measures AI systems rather than being one. The key signal is that
-      scoring, grading, tracing, or comparison is the product's reason to
-      exist, not a side feature of an orchestration platform or coding tool.
+      measures AI systems rather than being one. Benchmarks, calibration
+      studies, and judgment harnesses aimed at a decision model (Jev, Laya,
+      Kev, or similar) are not evals — they belong in decision-models. The key
+      signal is that scoring, grading, tracing, or comparison is the product's
+      reason to exist, not a side feature of an orchestration platform or
+      coding tool.
     use_when:
       - The core product job is evaluation, benchmarking, tracing, or observability of AI behavior.
       - It grades model outputs, scores agent runs, or detects prompt regressions.
@@ -453,7 +466,6 @@
       - Dify (orchestration platform — evals is one feature inside it)
       - LangSmith (LangChain observability — valid evals entry but leans LLMOps)
       - PromptLayer (prompt management — belongs in memory-and-context)
-      - MLflow (general ML tracking — not AI-eval specific)
       - Agenta (workbench for building and deploying agents with eval features — agent-orchestration identity is stronger)
     section_hints:
       Agent & LLM Benchmarks: "Runs standardized benchmark suites or arena-style head-to-head comparisons to measure and rank model or agent capability."
@@ -465,6 +477,56 @@
     - Observability & Tracing
     - Prompt Regression & Testing
     - Safety, Fairness & Red-teaming
+
+- id: document-ai
+  name: Document AI & OCR
+  slug: document-ai
+  description: >
+    Tools that read documents — turning scans, PDFs, screenshots, and office
+    files into text, structure, or extracted fields.
+  prompt:
+    instructions: >
+      The product's job is reading documents: turning scans, PDFs, screenshots,
+      or office files into text, structure, or extracted fields. This covers OCR
+      engines, layout and table understanding, multi-format conversion, and
+      hosted document-AI APIs. Whether it runs on your machine or as a service
+      does not matter; what matters is that document understanding is the
+      product, not one module inside a RAG framework, an agent, or an ML
+      framework.
+    use_when:
+      - Turns PDFs, scans, images, or office documents into text, Markdown, or structured data.
+      - Is an OCR engine, or a layout, table, formula, or handwriting extraction model or toolkit.
+      - Parses or converts files as its main job, for humans or for downstream LLM pipelines.
+      - Is a hosted document-AI service with OCR, form, invoice, or receipt extraction APIs.
+    do_not_use_when:
+      - Document parsing is one module inside a broader RAG, agent, or ML framework.
+      - It is a vector store, embedding pipeline, or retrieval service rather than a document reader.
+      - It is a general vision or multimodal model whose main product is not reading documents.
+      - It is an MCP server whose identity is the protocol — that belongs in mcp.
+    canonical_positives:
+      - PaddleOCR
+      - Docling
+      - MinerU
+      - MarkItDown
+      - Tesseract
+    common_false_positives:
+      - A Jev or decision-model tool that reads documents as one step — that is decision-models
+      - LangChain (framework — document loaders are one module of it)
+      - LlamaIndex (framework — ingestion is one module of it)
+      - Qdrant (vector store, not a document reader)
+      - GPT-4o (general multimodal model, not a document tool)
+    section_hints:
+      OCR Engines: "Recognises text in images and scans: the recognition engine itself, with little pipeline around it."
+      Document Parsing & Layout: "Turns a PDF or office file into structured text: layout analysis, reading order, tables, formulas, figures. The parser is the product."
+      File Conversion & Markdown: "Converts files between formats, especially to Markdown or plain text for downstream use, with little analysis of its own."
+      Extraction & Structured Output: "Pulls specific fields or records out — invoices, receipts, forms, IDs — into a schema rather than whole-document text."
+      Cloud Document AI APIs: "Hosted service for OCR or document understanding billed by the page; the provider's API is the product."
+  sections:
+    - OCR Engines
+    - Document Parsing & Layout
+    - File Conversion & Markdown
+    - Extraction & Structured Output
+    - Cloud Document AI APIs
 
 - id: local-ai
   name: Local & Self-hosted AI
@@ -496,6 +558,7 @@
       - llama.cpp
       - LM Studio
       - vLLM
+      - Axolotl (fine-tuning toolkit that runs on your own hardware)
       - open-webui
     common_false_positives:
       - LangChain (framework that supports local models but identity is the framework)
