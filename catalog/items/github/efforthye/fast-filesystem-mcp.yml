@@ -98,13 +98,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity, and the server provides filesystem-specific capabilities as a first-class MCP
-    implementation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly identifies it as an MCP server for filesystem access
-    - README details MCP server configuration and tools for filesystem operations
-    - Listed in awesome-mcp-servers under File Systems and Community Servers
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

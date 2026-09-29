@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product identity is an observability and tracing tool for measuring and monitoring agent behavior, which
-    fits the 'evals' category's mandate for tracing and scoring agent behavior.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - README describes it as a 'perf/top/strace-like tool for AI agents'
-    - Specifically focuses on correlating LLM traffic with process execution and file access
-    - Explicitly contrasts itself against application-level observability tools like LangSmith and Phoenix
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: evals
   secondary_categories: []

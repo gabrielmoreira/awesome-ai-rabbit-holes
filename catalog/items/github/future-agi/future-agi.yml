@@ -81,15 +81,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product identity is centered on measuring, scoring, and tracing agent behavior to ensure reliability.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - 'Repo description: ''One-line GitHub description: ...evaluating, tracing, and optimizing AI agents'''
-    - 'README claim: ''Simulate edge cases before launch, evaluate what happens in production'''
-    - Provides a combination of evals, tracing, and guardrails in one platform
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: evals
   secondary_categories: []
-  section: Observability & Tracing
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: curated
   reason: Stars (1117) exceeded threshold (150)

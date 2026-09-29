@@ -80,20 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Reasonix is a standalone coding assistant that directly edits code, runs commands, and operates autonomously in a
-    terminal, fitting the core definition of a coding agent rather than an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - >-
-      Repo description: 'DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability —
-      leave it running.'
-    - >-
-      README: 'One local engine, four ways in — terminal, desktop app, browser, or your editor over ACP. Plan mode,
-      permissions, a workspace sandbox and per-turn checkpoints keep a long autonomous run something you can still read
-      and undo.'
-    - >-
-      Features include config-driven agents, multi-model execution, plugin-driven MCP support, and cache-aware context
-      maintenance for long sessions.
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: coding-agents
   secondary_categories: []

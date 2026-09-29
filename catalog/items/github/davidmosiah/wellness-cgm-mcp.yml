@@ -72,11 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server designed to expose specific biological domain data to LLM hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README describes it as a 'Local MCP server that exposes CGM data... to any MCP-aware agent'
-    - Repo description explicitly identifies it as a 'continuous glucose monitor MCP'
-    - Includes setup instructions for Claude Desktop via mcpServers configuration
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -58,10 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is an MCP server designed to provide specific domain capabilities to compatible hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly defines it as an 'MCP server for Google Sheets'
-    - README provides configuration specifically for MCP clients like Claude Desktop and Cursor
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

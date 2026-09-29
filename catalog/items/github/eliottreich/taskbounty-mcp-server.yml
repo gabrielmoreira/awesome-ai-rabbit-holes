@@ -64,16 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a domain-specific MCP server designed to provide coding assistants with access to a specialized
-    bounty marketplace.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Explicitly identified as an 'MCP server for TaskBounty'
-    - Provides specific tools for listing bounties, submitting PRs, and managing funding
-    - Designed for integration with Claude Code, Cursor, and Cline via the Model Context Protocol
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

@@ -69,17 +69,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    GitGuardian is not a coding agent itself but a security tool that integrates into developer workflows (CLI, IDE, AI
-    coding sessions) to detect and remediate secrets, making it an extension/addon rather than a primary coding agent.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Security & DevSecOps
   evidence:
-    - Appears in awesome-ai-coding-tools under the Security section as a secret detection platform
-    - >-
-      GitGuardian CLI (ggshield) provides visibility wherever code is written: pre-commit, pre-push, IDE, AI coding
-      tools, and agent skills/plugins
-    - Core value is detecting secrets in code, repos, and tools with agentic prioritization and remediation playbooks
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: extensions-and-addons
+  secondary_categories: []
   section: Security & DevSecOps
 lifecycle:
   status: curated

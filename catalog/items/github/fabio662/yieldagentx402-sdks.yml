@@ -70,17 +70,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The repository is primarily a collection of code-first SDKs and library wrappers (TypeScript, CrewAI, LangChain)
-    used to programmatically integrate agent capabilities.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description and README explicitly define the project as 'Public SDKs'.
-    - Provides multiple distribution packages via npm and PyPI for direct developer import.
-    - Includes framework-specific tools for CrewAI and LangChain rather than acting as a standalone agent.
+    - jev-latest choice confidence 0.81
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

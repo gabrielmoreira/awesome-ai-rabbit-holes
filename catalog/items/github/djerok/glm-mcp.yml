@@ -74,19 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP server first and foremost, exposing tools over stdio for host agents like Claude Code, with GLM
-    delegation as its function, not its identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'GLM (Zhipu/Z.ai) as a cheap, full-capability subagent for the Claude Code app' and 'wraps it as
-      an MCP server with four tools'
-    - 'README: ''GLM exposes an Anthropic-compatible /v1/messages endpoint... This repo wraps it as an MCP server'''
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Coding Agents'
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

@@ -55,16 +55,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server providing domain-specific tools for DevHub CMS, fitting the MCP Servers & Tooling
-    category where MCP is the product identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states it is a DevHub CMS LLM integration through MCP
-    - README details MCP server setup for Claude Desktop, Cursor, and Claude Code
-    - Provides domain-specific tools for DevHub CMS (businesses, locations, blog posts, media)
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: null

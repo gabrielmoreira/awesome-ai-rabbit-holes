@@ -115,13 +115,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    OMK functions as a multi-agent workbench and control plane focused on coordinating agents via scoped DAGs and
-    verifiable outcomes, not as a coding assistant itself.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Routes tasks into scoped DAG lanes with replayable artifacts (repo description)
-    - Provider-neutral coding-agent CLI and multi-agent control plane for Codex, Claude Code, and OpenCode (README)
-    - Control loop involves Scope, Route, Verify, Replay steps with durable goals and session recovery (README)
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

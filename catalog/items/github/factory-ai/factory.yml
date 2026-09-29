@@ -58,11 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Factory's core identity is its agent 'Droid' which acts as a standalone coding assistant through the CLI and IDEs.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - README describes Droid as a top-performing terminal-based agent
-    - Offers a CLI installation via curl/npm that initiates a session in a project directory
-    - Includes SDKs and GitHub Actions for automated code reviews and security scans
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: coding-agents
   secondary_categories: []

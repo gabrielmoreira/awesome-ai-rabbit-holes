@@ -55,15 +55,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server designed to provide specific capabilities to a host assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies it as an 'MCP Server'
-    - README details configuration for Claude Desktop via MCP protocols
-    - Provides access to Hugging Face Spaces via the Model Context Protocol
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (388) exceeded threshold (150)

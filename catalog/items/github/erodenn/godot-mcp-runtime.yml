@@ -62,17 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is explicitly an MCP server designed to extend an assistant's capabilities into a specific
-    domain (Godot runtime).
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Description explicitly states it is a 'TypeScript MCP server'
-    - README emphasizes the MCP implementation as the core delivery mechanism
-    - Functionality focuses on providing tools (screenshots, input, UI discovery) to an external host
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

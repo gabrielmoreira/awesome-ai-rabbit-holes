@@ -78,11 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server providing a domain-specific toolset (market intelligence) to AI agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly calls it an 'MCP server for CoinOpAI'
-    - Architecture diagram shows it acting as a bridge between Claude Code and a paid API via MCP (stdio)
-    - Included in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

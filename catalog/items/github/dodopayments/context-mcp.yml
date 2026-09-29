@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: it is a dedicated MCP server for documentation retrieval, not a compatibility footnote
-    or adapter.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'Self-hosted MCP server for your documentation'
-    - README details MCP as the primary interface for serving indexed docs
-    - Topics include 'mcp', 'mcp-server', and 'context'
+    - jev-latest choice confidence 0.62
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -63,15 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP implementation providing specialized domain knowledge via a stdio bridge.
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - Repo description explicitly defines it as a 'stdio bridge to the hosted VineVerse MCP server'.
-    - Provides 17 specialized MCP tools for scripture, entity, and relationship retrieval.
-    - Designed specifically to enable local-process MCP clients to access a remote knowledge graph.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Clients & Inspector Tools
 lifecycle:
   status: curated
   reason: null

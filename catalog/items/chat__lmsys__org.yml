@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__chat__lmsys__org__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,7 @@ provenance:
           - LLM Leaderboard
         anchor_text: lmsys.org
         extracted_url: https://chat.lmsys.org
-        surrounding_text: "- [lmsys.org](https://chat.lmsys.org/) - Benchmarking LLMs in the Wild with Elo Ratings."
+        surrounding_text: '- [lmsys.org](https://chat.lmsys.org/) - Benchmarking LLMs in the Wild with Elo Ratings.'
         confidence: high
 metadata:
   github:
@@ -38,7 +38,9 @@ metadata:
 insights:
   summary: A curated list of local AI tools that developers can run on their own hardware.
   why_it_matters: It gives developers control over AI models and data, enabling offline use and privacy-preserving workflows.
-  mental_damage: Another list to parse through while wondering if you'll ever actually run these models on your laptop instead of paying for cloud APIs.
+  mental_damage: >-
+    Another list to parse through while wondering if you'll ever actually run these models on your laptop instead of
+    paying for cloud APIs.
   tags:
     - local-ai
     - awesome-list
@@ -46,21 +48,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core function is measuring and comparing model behavior through side-by-side evaluation.
+  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
   evidence:
-    - Directly included in awesome-local-ai under LLM Leaderboard
-    - Platform focuses on comparative model ranking/evaluation
+    - jev-latest choice confidence 0.68
 placement:
-  primary_category: evals
+  primary_category: awesome-awesomes
   secondary_categories: []
-  section: null
+  section: Awesome Lists & Directories
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'local-ai'"
+  reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''local-ai'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +70,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:35:07.898Z"
+    updated_at: '2026-09-24T04:35:07.898Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,14 +83,18 @@ processing:
       input_hash: sha256:41f3c15ad0f5934a8d8ebd0921d79717cc3cabf5108f426f644cd00a158c227d
       proposed_primary_category: local-ai
       disagreement: true
-      decision_reason: This is a curated directory of local AI tools, which fits squarely under the Local & Self-hosted AI category as a resource for discovering self-hosted inference engines and runtimes.
+      decision_reason: >-
+        This is a curated directory of local AI tools, which fits squarely under the Local & Self-hosted AI category as
+        a resource for discovering self-hosted inference engines and runtimes.
       decision_evidence:
-        - "Listed in awesome-local-ai source list under purpose: An awesome repository of local AI tools"
+        - 'Listed in awesome-local-ai source list under purpose: An awesome repository of local AI tools'
         - Contains tools like Ollama, llama.cpp, and LM Studio which are canonical local AI inference engines
         - Focuses on local execution rather than cloud services, matching the Local & Self-hosted AI category definition
       category_candidates:
         - local-ai
         - awesome-awesomes
-      contrastive_reason: Choose local-ai over awesome-awesomes because it's a purpose-built category for self-hosted AI execution tools rather than just a discovery directory
-      review_reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'local-ai'"
+      contrastive_reason: >-
+        Choose local-ai over awesome-awesomes because it's a purpose-built category for self-hosted AI execution tools
+        rather than just a discovery directory
+      review_reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''local-ai'''
       review_resume_lifecycle: null

@@ -71,17 +71,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The primary product is a code-first SDK/framework for building systems, with MCP serving as an optional interface
-    for agents rather than the core identity.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description identifies it as a 'framework for building trading systems'.
-    - Provides SDKs for Python, Node.js, Codon, and a C API.
-    - README explicitly separates the core framework from the 'AI companion' (flox-mcp).
+    - jev-latest choice confidence 0.84
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (215) exceeded threshold (150)

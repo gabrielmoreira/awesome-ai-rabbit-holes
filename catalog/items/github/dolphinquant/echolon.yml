@@ -75,17 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a code-first backtesting framework for quantitative research that uses MCP as its primary
-    interface for agentic interaction.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description identifies it as an 'LLM-agent-native backtest framework'
-    - README highlights features like typed Pydantic configs and catalogued error codes to assist agents
-    - Provides a CLI and package structure for developers to scaffold and run research workflows
+    - jev-latest choice confidence 0.55
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

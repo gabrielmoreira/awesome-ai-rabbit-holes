@@ -59,13 +59,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The tool's core function is inspecting, debugging, and evaluating agent session behavior through transcript
-    filtering.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - README explicitly states it is useful for 'inspecting agent runs, debugging what happened, and evaluating results'
-    - Functionality focuses on filtering event categories like thinking, bash commands, and messages
-    - Acts as a diagnostic layer for existing agentic harnesses
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: evals
   secondary_categories: []

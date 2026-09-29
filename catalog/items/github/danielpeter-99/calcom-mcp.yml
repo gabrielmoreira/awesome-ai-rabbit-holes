@@ -78,15 +78,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server exposing Cal.com API tools for LLM consumption.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is a FastMCP server for Cal.com API
-    - README details tools for LLM interaction with Cal.com (e.g., get_bookings, create_booking)
-    - Listed in awesome-mcp-servers under Server Implementations > Communication
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

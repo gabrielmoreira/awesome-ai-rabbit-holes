@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is a core part of the product identity (explicitly listed as an MCP server in description and README), and the
-    primary value is the MCP server functionality for SSH management.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly mentions 'MCP server'
-    - README highlights MCP server as a feature for AI assistant integration
-    - Listed in awesome-mcp-servers under 'Server Implementations > Command Line'
+    - jev-latest choice confidence 0.50
 placement:
   primary_category: mcp
   secondary_categories: []

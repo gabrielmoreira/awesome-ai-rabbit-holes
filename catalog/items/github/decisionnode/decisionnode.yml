@@ -83,13 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is a structured memory and retrieval system for AI assistants, not the MCP integration layer or
-    host-specific augmentation.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - Repo description explicitly calls it a 'shared structured memory store' with semantic queryability
-    - README emphasizes vector embeddings, local storage, and explicit retrieval via MCP as the primary mechanism
-    - Topics include 'embeddings', 'rag', 'vector-search', and 'semantic-search'
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: memory-and-context
   secondary_categories: []

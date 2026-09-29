@@ -65,11 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's entire identity is as an MCP server that provides image generation capabilities to an AI host.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo identity is 'forgemesh-imagegen' an MCP server
-    - 'Provides specific MCP tools: generate_image, generate_clean, generate_hd, generate_pro'
-    - Integrates via claude_desktop_config.json and claude code mcp add
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -70,20 +70,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is an MCP server whose entire product identity is exposing website and API audit tools via the Model Context
-    Protocol, fitting squarely in MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly labels it an 'Open-source Agent Signal Optimization audit MCP' for scanning sites and
-      APIs.
-    - >-
-      README shows it exposes MCP tools (`scan_site`, `check_signal`) and is installed via `claude mcp add` or standard
-      MCP client JSON config.
-    - Appears in awesome-mcp-servers under Developer Tools, confirming its curation as MCP infrastructure.
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

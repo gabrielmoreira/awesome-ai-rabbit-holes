@@ -73,17 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity here—a platform for deploying and managing MCP servers, not just an adapter or
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly frames it as an MCP integration platform with Docker/Kubernetes backends and CLI tools
-    - README emphasizes one-command MCP server deployment and template-based workflows
-    - Source-list context places it in an MCP servers directory under 'Aggregators'
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

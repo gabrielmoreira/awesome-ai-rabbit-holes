@@ -68,16 +68,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Embedbase is a code-first SDK/API for embeddings and retrieval, fitting the Frameworks & SDKs category as a reusable
-    building block for AI workflows.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''A dead-simple API to build LLM-powered apps'''
-    - 'README highlights: vector DB hosting, semantic search, and LLM text generation via SDK'
-    - 'Source-list context: listed under ''Other LLM Frameworks'' in awesome-langchain'
+    - jev-latest choice confidence 0.64
 placement:
   primary_category: ai-frameworks
-  section: Memory & Retrieval Infrastructure
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (522) exceeded threshold (150)

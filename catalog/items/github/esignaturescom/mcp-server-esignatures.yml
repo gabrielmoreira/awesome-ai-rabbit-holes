@@ -54,15 +54,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's identity is specifically an MCP server designed to grant model access to a domain-specific API.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description identifies it explicitly as an 'MCP server for eSignatures'
-    - README outlines specific tools (create_contract, update_template) for model execution
-    - Included in 'awesome-mcp-servers' under Official Servers
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

@@ -65,13 +65,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server that provides specialized domain tools to an existing host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README defines the architecture as Agent/MCP client -> MCP server -> API
-    - Provides 16 specific tools (blockchain, aviation, GitHub) via the Model Context Protocol
-    - Repo description identifies it specifically as an MCP server
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

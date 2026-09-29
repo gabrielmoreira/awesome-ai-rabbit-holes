@@ -72,14 +72,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool is explicitly an MCP server designed to expose a specific marketplace of agents to MCP hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly identifies it as an MCP server.
-    - README lists 17 specific tools for agent discovery, invocation, and verification.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Registries & Discovery
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

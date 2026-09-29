@@ -53,11 +53,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is providing Quran.com API access via MCP.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is a Quran.com API integration for MCP
-    - README details endpoints exposed as MCP tools for LLMs
-    - Listed in awesome-mcp-servers under Art & Culture
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

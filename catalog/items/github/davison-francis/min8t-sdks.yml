@@ -80,15 +80,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the primary product identity here, with a dedicated MCP server for email deliverability tools.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
-    - Repo explicitly describes itself as MCP server + SDKs for DeliverIQ/MiN8T
-    - MCP server is listed in MCP Registry and has dedicated npm package
-    - Core functionality is email deliverability tools exposed via MCP
+    - jev-latest choice confidence 0.66
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Provider & Model Abstractions
 lifecycle:
   status: curated
   reason: null

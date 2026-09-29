@@ -87,11 +87,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core identity is tracing and measuring the behavior of AI applications and agentic steps.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - README claims it captures every LLM call, prompt, and agent decision
-    - Built on OpenTelemetry for structured tracing
-    - Directly supports observability for AI applications
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: evals
   secondary_categories: []

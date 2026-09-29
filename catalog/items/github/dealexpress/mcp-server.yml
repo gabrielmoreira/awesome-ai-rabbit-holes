@@ -50,13 +50,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing DealX platform access via MCP, fitting the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies it as an MCP Server for DealX platform
-    - README confirms it implements the Model Context Protocol to allow LLMs to interact with DealX
-    - Listed in awesome-mcp-servers under Official Servers
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

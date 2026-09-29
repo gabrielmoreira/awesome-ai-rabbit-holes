@@ -87,13 +87,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is the specialized indexing and retrieval infrastructure (knowledge graph) used to shape context
-    for LLMs, which fits the 'context-engineering' definition over a simple integration.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README claims '120x fewer tokens' and 'One graph query replaces dozens of grep/read cycles'
-    - Core functionality is building a 'persistent knowledge graph of functions, classes, call chains'
-    - Designed as a backend 'intelligence engine' that feeds multiple different coding agents
+    - jev-latest choice confidence 0.50
 placement:
   primary_category: mcp
   secondary_categories: []

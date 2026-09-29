@@ -70,13 +70,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is primarily a code-first library (PyPI) that provides a unified SDK for agents to interact with diverse
-    interfaces, fitting the provider abstraction pattern.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Provides a Python SDK with PyPI distribution for developers to import
-    - Unified API (fetch, query, write, sense) that abstracts underlying transport layers
-    - Claims to 'repair itself' when upstream APIs drift using an LLM at setup
+    - jev-latest choice confidence 0.51
 placement:
   primary_category: mcp
   secondary_categories: []

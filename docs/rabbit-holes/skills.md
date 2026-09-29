@@ -3,11 +3,11 @@
 
 Reusable skill packs, rules bundles, slash-command sets, and directories that install into a coding agent or assistant to extend its behavior.
 
-_77 entries in 2 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_76 entries in 2 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Skill Packs & Libraries](#skill-packs--libraries) — 63
+- [Skill Packs & Libraries](#skill-packs--libraries) — 62
 - [Registries & Directories](#registries--directories) — 14
 
 ## Skill Packs & Libraries
@@ -162,10 +162,9 @@ _77 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
   </details>
 - **[Aident-AI/aident-skill](https://github.com/aident-ai/aident-skill)** `⭐ 5` `updated ≤30d` Use Aident Loadout to connect your AI Agents to 1,000+ real-world apps and tools like Gmail, Slack, Linear, Notion, Firecrawl, and Fal, unlock 27,000+ executable actions, and track full audit history so your agents can get real work done reliably.
 
-<details><summary><strong>▸ &nbsp;&nbsp;+33 more in Skill Packs & Libraries &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+32 more in Skill Packs & Libraries &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/claudecode-devplanbuilder)** `⭐ 5` `updated ≤1y` A reusable methodology and template pack for Claude Code that interviews users to generate structured project briefs, detailed development plans, and executor/verifier agent definitions.
-- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 5` `updated ≤180d` Drop-in OSOP session logging rules for 18 AI coding agents, enabling structured execution records across platforms like Cursor, Codex, Windsurf, and Copilot.
 - **[Cleo-Labs-IA/skills_library](https://github.com/cleo-labs-ia/skills_library)** `⭐ 3` `updated ≤180d` Comply — All-in-one compliance skills library for AI coding agents. 12 production-grade skills to get physical products legally to market.
 - **[ahm3dwasim/twoperson](https://github.com/ahm3dwasim/twoperson)** `⭐ 1` `updated ≤30d` A two-person rule for AI coding agents: a ship report can't be recorded without an approving verdict for that exact commit.
 - **[public-google-drive](https://github.com/zagmoai/public-google-drive)** `⭐ 1` `updated ≤1y` Public Google Drive is a skill pack that lets LLM coding agents create and edit Google Docs and Sheets on Memyard without Google sign-in.

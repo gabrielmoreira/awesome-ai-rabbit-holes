@@ -73,15 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is a domain-specific MCP server for financial portfolio tracking, explicitly built to
-    integrate with Claude Desktop via `firma mcp install`.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description states: 'Local-first CLI portfolio tracker for overseas investors, with built-in MCP server for
-      Claude'
-    - README shows `firma mcp install` wires the tool into Claude Desktop as an MCP server.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a Server Implementation.
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: mcp
   secondary_categories: []

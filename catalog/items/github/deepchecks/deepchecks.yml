@@ -77,13 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job is measuring, validating, and monitoring model/data behavior, which aligns with the evals category's
-    focus on observability and validation.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - Repo description explicitly states it is for 'Continuous Validation of ML Models & Data'
-    - README highlights testing, CI, and monitoring as primary components
-    - Source-list context places it under 'Security > Observability' in Awesome-LLMOps
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: evals
   secondary_categories: []

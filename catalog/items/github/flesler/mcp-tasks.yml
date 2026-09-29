@@ -67,11 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is an MCP server designed to provide task-management capabilities to host assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly defines it as an MCP server
-    - README emphasizes minimal tool count to reduce AI confusion
-    - Provides direct integration for Cursor and Claude Desktop via MCP config
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []

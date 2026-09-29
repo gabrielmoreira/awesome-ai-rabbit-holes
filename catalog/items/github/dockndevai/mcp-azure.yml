@@ -66,13 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server designed to provide specific domain capabilities (Azure) to any
-    compatible AI client.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly identifies as an 'MCP server for Azure'
-    - Provides specific tools for Azure Resource Manager operations including inventory and lifecycle management
-    - Includes a robust governance and security model tailored for agentic use
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

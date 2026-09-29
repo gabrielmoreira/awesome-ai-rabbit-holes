@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server for Dolt databases, not a compatibility footnote.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states 'The MCP server for Dolt'
-    - >-
-      README describes it as 'A Model Context Protocol (MCP) server that provides AI assistants with direct access to
-      Dolt and DoltgreSQL databases'
-    - Listed in awesome-mcp-servers under 'Community Servers'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

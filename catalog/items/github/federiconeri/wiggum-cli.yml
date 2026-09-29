@@ -76,17 +76,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core identity is a spec-first loop where the primary artifact is the generated.ralph spec that drives the
-    execution.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - README claims it runs 'autonomous implement-test-fix cycles' based on generated specs.
-    - Repo description explicitly identifies it as a 'pec-driven feature loop' tool.
-    - The workflow is structured around an 'AI interview' to produce detailed specs before execution.
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Spec-First & Plan-Execute
+  section: Terminal & CLI Agents
 lifecycle:
   status: curated
   reason: null

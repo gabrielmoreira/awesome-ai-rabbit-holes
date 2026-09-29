@@ -74,11 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is explicitly built as an MCP server to provide specific domain capabilities (document access) to AI hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description and README identify it as a Go MCP server
-    - Provides 13 distinct tools for document interaction via the Model Context Protocol
-    - Primary identity is a standalone server rather than a library or extension
+    - jev-latest choice confidence 0.58
 placement:
   primary_category: mcp
   secondary_categories: []

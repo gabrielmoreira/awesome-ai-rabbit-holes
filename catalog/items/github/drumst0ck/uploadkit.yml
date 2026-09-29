@@ -61,17 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is a core part of the product identity (dedicated MCP server package and integration guide), not just a
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - README explicitly highlights MCP server package (`@uploadkitdev/mcp`) and integration with AI assistants
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
-    - MCP server is a first-class offering with dedicated docs and npm package
+    - jev-latest choice confidence 0.75
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: null

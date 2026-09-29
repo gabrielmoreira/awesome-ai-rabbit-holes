@@ -65,17 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    GNAP is a protocol for multi-agent coordination where agents use git to share tasks, state, and messages — making it
-    a runtime platform for agent collaboration, not a coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''GNAP — Git-Native Agent Protocol. RFC Draft for git-based agent orchestration. Zero servers.'''
-    - >-
-      README: 'Your AI agents [...] work as a team through a shared git repo. Four JSON files. That's the entire
-      protocol.'
-    - >-
-      Architecture diagram shows GNAP Protocol layer sitting above Git transport, with agents reading/writing tasks,
-      runs, messages via git pull/push.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

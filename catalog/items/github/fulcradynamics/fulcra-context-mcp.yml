@@ -78,13 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is a Model Context Protocol server designed to expose a specific API to AI
-    assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly defines the project as an MCP server to access Fulcra Context data.
-    - Provides standard MCP transport methods including stdio and remote HTTP.
-    - Listed in 'awesome-mcp-servers' as a functional implementation.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server designed to bridge a specific domain dataset (French construction
-    permits) to LLM clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Explicitly described as an 'MCP server officiel pour PermisAPI'
-    - Provides 18 specialized tools for querying construction, zoning, and budget data
-    - Supports both SSE (hosted) and stdio (local) transport for MCP-compatible clients
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -61,17 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It functions as a control plane/runtime for coordinating complex AI workflows and pipelines rather than a code-first
-    library.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README describes it as an orchestration and execution engine for GenAI pipelines
-    - Offers managed features like caching, failover, and security guardrails
-    - Provides SDKs across multiple languages for integration into broader systems
+    - jev-latest choice confidence 0.82
 placement:
-  primary_category: ai-frameworks
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Workflow & Graph Engines
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: null

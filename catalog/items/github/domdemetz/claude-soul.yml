@@ -81,13 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core novelty is a persistent memory and retrieval system designed to shape the context of an existing
-    assistant.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - Uses local SQLite and Ollama embeddings for cross-session semantic memory
-    - Tracks behavioral patterns and user corrections to improve model judgment over time
-    - Integrates with Claude Code specifically to manage context and session history
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: memory-and-context
   secondary_categories: []

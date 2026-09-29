@@ -87,11 +87,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is specifically an MCP server designed to bridge iTerm2 and MCP clients like Claude Desktop.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as a 'Model Context Protocol server'
-    - README focuses on MCP implementation for iTerm session access
-    - Provides tools like write_to_terminal and read_terminal_output specifically for MCP communication
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

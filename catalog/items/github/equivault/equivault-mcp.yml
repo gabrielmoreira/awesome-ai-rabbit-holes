@@ -58,11 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server exposing a domain-specific API (EquiVault) to Claude.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for EquiVault
-    - README details MCP server configuration and tool endpoints for Claude
-    - Project is actively maintained (pushed_at 2026-06-04)
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

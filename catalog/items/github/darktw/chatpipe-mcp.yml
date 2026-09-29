@@ -63,11 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a server implementation for the Model Context Protocol, not just an adapter.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for publishing live web pages
-    - README confirms it is a Model Context Protocol server with dedicated tools (publish_page, list_projects, etc.)
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []

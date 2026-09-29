@@ -55,18 +55,22 @@ metadata:
       fetched_at: '2026-09-29T13:11:13.112Z'
       bytes: 14805
 insights:
-  summary: null
+  summary: >-
+    Open-source AI ad blocker for Chrome. No filter lists: TypeSafe AI's Jev model decides what is an ad. Bring your own
+    key.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Browser & Computer Use
+  evidence:
+    - jev-latest choice confidence 0.80
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  secondary_categories: []
+  section: Browser & Computer Use
 lifecycle:
   status: curated
   reason: null

@@ -75,13 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server implementation for Trino, making MCP the primary product identity rather than a
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states 'MCP Server for Trino'
-    - README details MCP resources/tools for Trino table listing and SQL execution
-    - Listed in multiple MCP server directories under Databases
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -66,17 +66,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is an MCP server providing specific domain-driven tools for Storybook, making it a
-    perfect fit for the MCP category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly defines it as an 'MCP (Model Context Protocol) server'.
-    - README details a suite of 9 specialized MCP tools for component and theme extraction.
-    - Included in the 'awesome-mcp-servers' directory.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

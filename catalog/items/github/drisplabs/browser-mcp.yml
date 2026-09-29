@@ -94,13 +94,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server designed to act as a semantic middleware layer between an agent and
-    the browser.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly calls it an 'MCP server for AI agents'
-    - README describes it as a 'emantic observation layer over Puppeteer and CDP'
-    - Provides a specialized 'eid' (stable element ID) abstraction for agent interaction
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is explicitly an MCP server designed to provide a specific set of tools to an existing agent
-    host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo name is 'amendor-mcp'
-    - README provides a 'claude mcp add' command for installation
-    - Defines specific MCP tools like 'list_change_requests' and 'ship_change'
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

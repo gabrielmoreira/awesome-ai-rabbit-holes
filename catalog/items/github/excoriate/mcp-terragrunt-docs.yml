@@ -57,11 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's identity is explicitly an MCP server providing domain-specific documentation context.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description identifies it as a 'Deno/TypeScript MCP Server'
-    - README specifies the product acts as an MCP provider for Terragrunt documentation and GitHub issues
-    - Primary function is exposing tools to MCP clients like Claude Desktop
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: mcp
   secondary_categories: []

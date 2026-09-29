@@ -78,11 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing OVH API access via MCP protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it's an MCP server for OVH API
-    - README details MCP tools for searching and executing OVH endpoints
-    - Already listed in awesome-mcp-servers under Cloud Platforms
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

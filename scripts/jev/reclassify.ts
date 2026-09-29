@@ -141,6 +141,11 @@ function resolveApiKey(endpoint: string, env: NodeJS.ProcessEnv = process.env): 
     if (!key) throw new Error("OPENROUTER_API_KEY not set (required for the OpenRouter endpoint)");
     return key;
   }
+  // A decision model served on this machine (Ollaya and friends) needs no key
+  // unless the server was started with one.
+  if (host === "localhost" || host === "127.0.0.1" || host === "::1" || host === "host.docker.internal") {
+    return env.OLLAYA_API_KEY?.trim() ?? "";
+  }
   const key = env.TYPESAFE_AI_API_KEY?.trim() ?? env.TYPESAFE_API_KEY?.trim();
   if (!key) throw new Error("TYPESAFE_AI_API_KEY not set");
   return key;
@@ -149,7 +154,7 @@ function resolveApiKey(endpoint: string, env: NodeJS.ProcessEnv = process.env): 
  * Bump when the classifier's shape changes: the cache key must move with it,
  * or a new builder silently reuses verdicts the old one produced.
  */
-const CLASSIFIER_VERSION = "v2-two-pass";
+const CLASSIFIER_VERSION = "v5-inclusion";
 const CATEGORIES_PATH = path.join(process.cwd(), "config/categories.yml");
 const ITEMS_DIR = path.join(process.cwd(), "catalog/items");
 const CACHE_PATH = path.join(process.cwd(), ".local/jev-reclassify-cache.json");
@@ -265,7 +270,10 @@ async function callJevWithRetry(
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     const res = await fetch(client.endpoint, {
       method: "POST",
-      headers: { Authorization: `Bearer ${client.apiKey}`, "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        ...(client.apiKey ? { Authorization: `Bearer ${client.apiKey}` } : {}),
+      },
       body: JSON.stringify({ state, model: client.model, questions }),
     });
 
@@ -320,7 +328,20 @@ interface CategoryWithHints extends Category {
  * decision also means less dilution, and the two calls together are cheaper than
  * the single 66-option call they replace.
  */
-function buildCategoryCriteria(categories: CategoryWithHints[]): Record<string, string> {
+/**
+ * The pairs the classifier confuses, written as resolutions. Every line restates
+ * a rule the YAML already carries, moved to where a smaller model will weigh it:
+ * these are exactly the pairs the golden cases catch.
+ */
+const TIE_BREAKS = [
+  "- A library or framework developers import is ai-frameworks even when it runs or serves models locally; local-ai is for products whose point is running models on your own hardware — runtimes, serving stacks, desktop UIs, fine-tuning toolkits.",
+  "- A plugin, extension, or add-on that installs into an existing agent is extensions-and-addons even when it ships an MCP server; mcp is for products whose identity is the protocol itself.",
+  "- A platform, workbench, or builder for running agents is agent-orchestration even when it contains evaluation features; evals is for products whose point is measuring model behaviour.",
+  "- A browser or computer-use agent that exists to do coding work is coding-agents; one that automates general web tasks, or takes its decisions from a decision model, belongs elsewhere.",
+  "- A curated list, newsletter, or directory of tools is awesome-awesomes, and it is included even when it is broader than the rest of the catalog.",
+].join("\n");
+
+function buildCategoryCriteria(categories: CategoryWithHints[], terse = false): Record<string, string> {
   const criteria: Record<string, string> = {
     [EXCLUDED_PLACEMENT_KEY]:
       "Not a developer-facing AI tool: a documentation page, a citation, an auxiliary link, a generic non-AI product, or too little information to judge.",
@@ -331,16 +352,34 @@ function buildCategoryCriteria(categories: CategoryWithHints[]): Record<string, 
     // use_when and six exclusions, which silently dropped exactly the rules
     // that settled the cases the classifier got wrong — a benchmark of a
     // decision model sat at use_when[7] and never made it into the prompt.
-    criteria[cat.id] = [
-      `[${cat.name}]`,
-      collapseWhitespace(cat.prompt.instructions),
-      `Belongs when: ${cat.prompt.use_when.join("; ")}.`,
-      `Canonical examples: ${cat.prompt.canonical_positives.join(", ")}.`,
-      `NOT for: ${[...cat.prompt.common_false_positives, ...cat.prompt.do_not_use_when].join("; ")}.`,
-    ].join(" ");
+    const exclusions = [...cat.prompt.common_false_positives, ...cat.prompt.do_not_use_when];
+    criteria[cat.id] = terse
+      ? [
+        // A dense option: the identity sentence, two inclusion anchors, three
+        // examples, two exclusions. The prompt is 8k tokens of prose that a small
+        // model has to weigh 14 ways; length is the cost and the dilution.
+        `[${cat.name}]`,
+        firstSentence(cat.prompt.instructions),
+        `Belongs when: ${cat.prompt.use_when.slice(0, 2).join("; ")}.`,
+        `Examples: ${cat.prompt.canonical_positives.slice(0, 3).join(", ")}.`,
+        `NOT for: ${exclusions.slice(0, 2).join("; ")}.`,
+      ].join(" ")
+      : [
+        `[${cat.name}]`,
+        collapseWhitespace(cat.prompt.instructions),
+        `Belongs when: ${cat.prompt.use_when.join("; ")}.`,
+        `Canonical examples: ${cat.prompt.canonical_positives.join(", ")}.`,
+        `NOT for: ${exclusions.join("; ")}.`,
+      ].join(" ");
   }
 
   return criteria;
+}
+
+function firstSentence(value: string): string {
+  const collapsed = collapseWhitespace(value);
+  const match = collapsed.match(/^.*?[.!?](?=\s|$)/);
+  return match ? match[0] : collapsed;
 }
 
 function buildSectionCriteria(category: CategoryWithHints): Record<string, string> {
@@ -485,7 +524,14 @@ function applyResultToItem(
 
 async function reclassifyItem(
   loaded: LoadedItem,
-  context: { categories: CategoryWithHints[]; categoryCriteria: Record<string, string>; roster: string },
+  context: {
+    categories: CategoryWithHints[];
+    categoryCriteria: Record<string, string>;
+    roster: string;
+    ablation: string;
+    tieBreaks: boolean;
+    sectionContext: boolean;
+  },
   apiKey: string,
   minConfidence: number,
 ): Promise<ReclassifyResult> {
@@ -512,6 +558,7 @@ async function reclassifyItem(
         "Pick the single category whose primary identity this developer tool matches, from its " +
         "main reason to exist rather than from side features or integrations it also supports. " +
         "Every category is listed in the roster with the one thing it means:\n" + context.roster + "\n" +
+        (context.tieBreaks ? "Tie-breaks, when two categories both look plausible:\n" + TIE_BREAKS + "\n" : "") +
         "Precedence, when a product could sit in two: a decision model (Jev, TypeSafe System One, " +
         "Laya, Kev, and similar) or a tool whose judgment IS the product goes to decision-models " +
         "even when it also ships an MCP server, installs as a host add-on, or measures model " +
@@ -523,9 +570,13 @@ async function reclassifyItem(
     },
     should_include: {
       type: "noul",
+      // A curated list or a newsletter is not a "tool", and the older wording
+      // made the model exclude every one of them.
       instructions:
-        "This item is a genuine, developer-facing AI tool that belongs in a curated catalog " +
-        "of AI tools for developers — not a documentation page, auxiliary link, or generic SaaS.",
+        "This item is a genuine, developer-facing AI resource that belongs in a curated catalog " +
+        "for developers: a tool, a framework, a curated list, or a publication such as a newsletter " +
+        "or blog. It is NOT a documentation page, a citation, an auxiliary link, or a generic " +
+        "non-AI product.",
     },
   }, apiKey);
   if (!categoryResult) return skip("jev_400_invalid_request");
@@ -550,8 +601,10 @@ async function reclassifyItem(
     };
   }
 
-  // Pass 2 — the section inside the chosen category, where the options are few
-  // and the section hint is the whole question.
+  // Pass 2 — the section inside the chosen category. The category is already
+  // decided, so the question carries its identity: with one-line hints alone the
+  // model cannot tell a section of this category from a similar section of
+  // another, and it does not know what the category itself means.
   const sectionCriteria = buildSectionCriteria(chosenCategory);
   let newSection: string | null = null;
   let totalTokens = inputTokens;
@@ -560,8 +613,12 @@ async function reclassifyItem(
       section: {
         type: "choice",
         instructions:
-          `The item is in the "${chosenCategory.name}" category. Pick the section of that ` +
-          "category it belongs in, based on the part of the product the item is.",
+          (context.sectionContext
+            ? `The category is already decided: this item is in "${chosenCategory.name}". What that category means: ${collapseWhitespace(chosenCategory.prompt.instructions)} `
+            : `The item is in the "${chosenCategory.name}" category. `) +
+          "Pick the section of that category the item belongs in, by what the product IS rather " +
+          "than by what it uses. If two sections both fit, pick the one whose description names " +
+          "the product's main job.",
         criteria: sectionCriteria,
       },
     }, apiKey);
@@ -597,10 +654,13 @@ interface CliArgs {
   seedOnly: boolean;
   endpoint: string;
   model: string;
+  tieBreaks: boolean;
+  sectionContext: boolean;
+  terseCriteria: boolean;
 }
 function parseArgs(): CliArgs {
   const argv = process.argv.slice(2);
-  const args: CliArgs = { sample: null, category: null, ids: null, dryRun: false, concurrency: 20, minConfidence: 0.55, resetCache: false, seedOnly: false, endpoint: DEFAULT_ENDPOINT, model: DEFAULT_MODEL };
+  const args: CliArgs = { sample: null, category: null, ids: null, dryRun: false, concurrency: 20, minConfidence: 0.55, resetCache: false, seedOnly: false, endpoint: DEFAULT_ENDPOINT, model: DEFAULT_MODEL, tieBreaks: false, sectionContext: false, terseCriteria: false };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === "--sample" && argv[i + 1]) args.sample = Number(argv[++i]);
     else if (argv[i] === "--category" && argv[i + 1]) args.category = argv[++i] ?? null;
@@ -616,6 +676,9 @@ function parseArgs(): CliArgs {
     else if (argv[i] === "--seed-only") args.seedOnly = true;
     else if (argv[i] === "--endpoint" && argv[i + 1]) args.endpoint = argv[++i]!;
     else if (argv[i] === "--model" && argv[i + 1]) args.model = argv[++i]!;
+    else if (argv[i] === "--no-tie-breaks") args.tieBreaks = false;
+    else if (argv[i] === "--no-section-context") args.sectionContext = false;
+    else if (argv[i] === "--terse-criteria") args.terseCriteria = true;
   }
   return args;
 }
@@ -656,9 +719,10 @@ async function main() {
   client.apiKey = resolveApiKey(client.endpoint);
 
   const categories = loadCategories() as CategoryWithHints[];
-  const categoryCriteria = buildCategoryCriteria(categories);
+  const categoryCriteria = buildCategoryCriteria(categories, args.terseCriteria);
   const roster = buildCategoryRoster(categories);
-  const context = { categories, categoryCriteria, roster };
+  const ablation = [args.tieBreaks ? "tb" : "-", args.sectionContext ? "sc" : "-", args.terseCriteria ? "tc" : "-"].join("");
+  const context = { categories, categoryCriteria, roster, ablation, tieBreaks: args.tieBreaks, sectionContext: args.sectionContext };
   const criteriaHash = computeCriteriaHash();
   const cache = loadCache(criteriaHash, args.resetCache);
 

@@ -73,11 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server providing a specific domain of data to a host agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly calls it a 'Real-time market data server for Claude... powered by MCP'
-    - README provides installation instructions specifically for the 'mcpServers' configuration block
-    - Included in the 'awesome-mcp-servers' list under 'Finance & Fintech'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

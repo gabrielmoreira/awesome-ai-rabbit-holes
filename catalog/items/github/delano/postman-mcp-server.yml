@@ -76,17 +76,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing Postman API access via MCP, fitting the
-    MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description states it is 'An MCP server that provides access to Postman'
-    - README confirms it is a TypeScript-based MCP server integrating with Postman API
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Developer Tools
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (153) exceeded threshold (150)

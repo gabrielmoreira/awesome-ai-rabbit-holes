@@ -63,17 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty of the tool is model compression and distillation to optimize how the model fits into memory, which
-    fits the 'Compression/Distillation' section of context engineering.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - 'Repo description: ''a one-line GitHub description'' focuses on compression.'
-    - README lists 'Quantization Error Propagation' and 'AutoBit' for memory budget management.
-    - Features focus on distillation and quantization (PTQ) to reduce model size.
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: LLM & Agent SDKs
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (381) exceeded threshold (150)

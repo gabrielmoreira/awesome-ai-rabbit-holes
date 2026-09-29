@@ -54,15 +54,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: it is a server implementation that turns CLIs into MCP tools.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''Convert any (whatever) CLI to proper MCP server with tools mapped based on CLI help'''
-    - 'README: ''Turn any CLI tool into an MCP server. Uses the --help to build MCP tools.'''
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

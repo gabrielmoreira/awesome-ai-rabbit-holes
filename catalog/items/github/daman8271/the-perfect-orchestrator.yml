@@ -77,19 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is primarily a workbench for coordinating multiple agents with adversarial verification, fitting the
-    agent-orchestration category better than coding-agents since it does not itself write or edit code.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'One lead Claude Code session commanding N autonomous workers in tmux — with adversarially
-      verified results'
-    - >-
-      README: 'You talk to one Claude Code session — the LEAD. It spawns N fully interactive Claude Code workers in tmux
-      panes... has the workers adversarially verify each other's results'
-    - >-
-      Source-list context: listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators &
-      autonomous loops'
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

@@ -97,14 +97,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is a protocol-level middleware layer designed specifically for MCP infrastructure.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README describes it as a 'PgBouncer for MCP' providing a stable local endpoint for multiple upstreams
-    - Explicitly claims significant context reduction (92.94% tool-definition count reduction)
-    - Operates as a local daemon via a Unix socket to manage server lifecycles
-    - README describes it as a 'local MCP broker' and 'one small MCP entry for MCP clients'
-    - Core functionality includes tool-definition reduction and session management for MCP servers
-    - Explicitly addresses MCP-specific problems like tool-definition token overhead
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []

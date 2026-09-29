@@ -56,15 +56,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server exposing Discourse-specific tools and resources.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - Repo description explicitly states 'MCP client for Discourse sites'
-    - README describes it as a 'Model Context Protocol (MCP) stdio server'
-    - Already listed in awesome-mcp-servers under 'Server Implementations > Communication'
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Clients & Inspector Tools
 lifecycle:
   status: curated
   reason: null

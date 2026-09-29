@@ -70,11 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server providing domain-specific tools for ClickHouse.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo is explicitly an MCP server for ClickHouse
-    - Provides granular tools for schema exploration, read queries, and management
-    - Implements a statement-aware security model with read-only, read-write, and admin modes
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

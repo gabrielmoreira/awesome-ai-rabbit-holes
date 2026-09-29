@@ -77,17 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is fundamentally an MCP server designed to provide specific research and PDF management capabilities to AI
-    hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly identifies it as an 'MCP Server'
-    - Provides 9 specific MCP tools for Zotero and PDF interaction
-    - Designed to be used as a server for Claude Code and other MCP clients
+    - jev-latest choice confidence 0.55
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

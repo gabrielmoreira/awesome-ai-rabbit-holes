@@ -75,13 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is primarily an MCP server providing specialized domain-specific data access and analysis capabilities to
-    LLM hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - The README explicitly identifies it as an MCP server for Claude Code, Gemini, and Cursor
-    - It provides a real analysis toolkit for robotics data (ROS2, PX4, ArduPilot)
-    - It uses DuckDB for deterministic, auditable SQL calculations instead of model guesswork
+    - jev-latest choice confidence 0.67
 placement:
   primary_category: mcp
   secondary_categories: []

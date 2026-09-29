@@ -63,11 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server providing domain-specific diagramming capabilities to host assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP server for FlowZap'
-    - README focuses entirely on configuration for MCP-compatible tools like Claude Desktop, Cursor, and Zed
-    - Core functionality is providing specialized tools (validate, export, diff) via the Model Context Protocol
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

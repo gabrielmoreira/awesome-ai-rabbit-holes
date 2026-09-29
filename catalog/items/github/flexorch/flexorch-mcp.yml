@@ -61,15 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is explicitly an MCP server designed to bridge an external API to LLM agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''MCP server for FlexOrch'''
-    - README explicitly defines tools for Claude, Cursor, and OpenAI Codex via MCP
-    - Primary function is acting as a thin proxy/adapter for the FlexOrch API
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

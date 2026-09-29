@@ -57,11 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is a specialized MCP server designed to bridge a specific API domain to LLM clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly defines it as 'An MCP server'
-    - README provides specific implementation details for Claude Desktop MCP configuration
-    - The tool provides a set of domain-specific tools (get_income_statements, etc.) via the MCP interface
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []

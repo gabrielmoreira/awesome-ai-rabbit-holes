@@ -280,6 +280,7 @@
       - mcp-bridge (middleware exposing MCP tools through an OpenAI-compatible API)
       - Lunar.dev (API gateway and MCP aggregator middleware)
     common_false_positives:
+      - A coding agent, editor, or other tool that merely consumes MCP servers as a client — being a client is not an MCP identity
       - A marketplace, registry, or directory of content that is not MCP itself (agent skills, prompts, rules) that merely exposes an MCP endpoint — the catalogued content is the identity
       - A Jev or decision-model MCP server (it serves typed decision judgments — the decision layer is the identity, so it belongs in decision-models, not here)
       - LangChain (framework with MCP support, identity is the framework)

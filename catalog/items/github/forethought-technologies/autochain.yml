@@ -56,15 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    AutoChain is a code-first SDK for building agents, not a standalone assistant or orchestration platform, making it a
-    clear fit for AI frameworks.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''Build lightweight, extensible, and testable LLM Agents'''
-    - >-
-      README: 'AutoChain aims to provide a lightweight and extensible framework for developers to build their own agents
-      using LLMs with custom tools'
-    - Usage shows importing Chain, Agent, Tool classes as code-first building blocks
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

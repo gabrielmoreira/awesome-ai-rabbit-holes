@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here—a dedicated server exposing Hetzner Cloud API capabilities to language models via
-    MCP.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP server for Hetzner Cloud API
-    - README details structured functions for managing Hetzner resources (servers, volumes, firewalls, etc.)
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

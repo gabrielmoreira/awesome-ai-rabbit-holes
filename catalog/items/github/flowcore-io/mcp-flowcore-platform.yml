@@ -59,15 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's sole identity is serving as an MCP server for a specific platform.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly identifies it as an 'MCP server'
-    - README focuses entirely on the Model Context Protocol implementation
-    - Primary function is providing a standardized interface for an external platform
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

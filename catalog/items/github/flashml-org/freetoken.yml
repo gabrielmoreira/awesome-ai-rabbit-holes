@@ -55,17 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    FreeToken is a local runtime and serving stack designed for private, self-hosted execution of large MoE models on
-    consumer hardware, making local inference its core identity.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - >-
-      README states it is an 'edge-native Mixture-of-Experts (MoE) serving engine designed for running frontier-scale
-      open-weight models on personal and consumer hardware'
-    - >-
-      Features include 'Elastic Memory Management' for dynamic VRAM re-allocation and 'Diverse Consumer Hardware'
-      scaling across laptops, gaming desktops, and workstation GPUs
-    - Provides a desktop app and CLI for local model running, chatting, and tuning
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: local-ai
   secondary_categories: []

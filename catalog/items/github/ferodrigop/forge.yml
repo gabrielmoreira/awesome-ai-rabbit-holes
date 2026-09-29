@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is a Model Context Protocol (MCP) server providing specific terminal capabilities to external
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description defines it as a 'Terminal MCP server'
-    - Product identity is to serve as a middleware layer between agents and PTY sessions
-    - Provides incremental reads and clean screen rendering via MCP
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

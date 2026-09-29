@@ -97,13 +97,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server implementation designed to provide specific web-access capabilities
-    to MCP-compliant hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly identifies it as an 'Official Firecrawl MCP Server'
-    - README focuses on MCP installation and integration with Cursor, Claude, and Windsurf
-    - Core functionality is serving web-scraping/searching tools via the Model Context Protocol
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

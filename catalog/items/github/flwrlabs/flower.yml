@@ -75,17 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Flower is a code-first framework used to programmatically build and extend federated learning workflows, rather than
-    an operated workbench.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - Repo description identifies it as a federated AI framework
-    - README confirms it is framework-agnostic, supporting PyTorch, TensorFlow, and JAX
-    - 7,103 stars and recent activity indicate significant ecosystem traction
+    - jev-latest choice confidence 0.91
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Fine-tuning & Training
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (6880) exceeded threshold (150)

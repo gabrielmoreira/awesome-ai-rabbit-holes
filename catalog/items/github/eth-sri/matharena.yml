@@ -54,13 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core identity is measuring and scoring model behavior on complex reasoning tasks, which aligns perfectly
-    with the Evals category.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - Repo description specifically mentions 'Evaluation of LLMs on latest math competitions'
-    - README describes running evaluation scripts to measure model performance across various competition datasets
-    - Provides logs of reasoning traces and solutions for scoring and comparison
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: evals
   secondary_categories: []

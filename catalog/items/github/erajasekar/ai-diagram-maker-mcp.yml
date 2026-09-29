@@ -62,17 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing diagram generation capabilities via MCP
-    protocol to AI agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README describes it as an MCP server for AI Diagram Maker
-    - Supports stdio and HTTP/Streamable HTTP transports
-    - Listed in awesome-mcp-servers under Architecture & Design
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

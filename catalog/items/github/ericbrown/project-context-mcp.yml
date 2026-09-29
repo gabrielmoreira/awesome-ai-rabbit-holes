@@ -60,16 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server whose sole purpose is to serve project context to Claude
-    Code.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for Claude Code
-    - README details its role as a context-providing MCP server with `.context/` folder integration
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.54
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

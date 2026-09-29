@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's identity is explicitly an MCP server providing specialized domain capabilities (trading) to host AI
-    assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly identifies it as an 'Official VibeTrader MCP server'
-    - README focuses on connecting assistants like Claude Desktop and Cursor via the Model Context Protocol
-    - Toolset includes domain-specific functions like 'backtest_strategy' and 'get_options_chain'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

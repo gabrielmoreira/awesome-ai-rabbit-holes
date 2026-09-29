@@ -67,17 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is MCP-first: it provides four MCP servers for policy checks, with MCP as the primary
-    integration surface.
+  reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
   evidence:
-    - Repo description explicitly states 'Four read-only MCP tools plus the deterministic Decision API engine'
-    - README highlights MCP server installation as the primary integration method
-    - Already listed in awesome-mcp-servers under 'Finance & Fintech' section
+    - jev-latest choice confidence 0.70
 placement:
-  primary_category: mcp
+  primary_category: decision-models
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Local Serving & Gateways
 lifecycle:
   status: curated
   reason: null

@@ -87,23 +87,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a Kubernetes operator purpose-built for self-hosted LLM inference, fitting the Local AI catalog because it
-    turns private GPU and Metal hardware into an OpenAI-compatible serving layer managed with YAML.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - >-
-      Repo description and README identify the product as a Kubernetes operator for local LLM inference with llama.cpp,
-      vLLM, TGI, and mlx-server.
-    - >-
-      README explicitly targets self-hosted, air-gapped, multi-GPU deployment with autoscaling and an OpenAI-compatible
-      API endpoint.
-    - >-
-      Appears in Awesome-LLMOps under Large Model Serving, confirming its role as inference infrastructure rather than a
-      coding agent or framework.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: local-ai
   secondary_categories: []
-  section: Local API Servers
+  section: Inference Engines
 lifecycle:
   status: curated
   reason: Stars (156) exceeded threshold (150)

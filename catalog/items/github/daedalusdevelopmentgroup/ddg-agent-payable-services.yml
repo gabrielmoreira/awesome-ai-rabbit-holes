@@ -84,17 +84,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the primary product identity: it is an MCP server providing agent-payable services, with MCP security audits
-    and OpenAI-compatible API as core features.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP server + OpenAI-compatible API for agent tools
-    - README highlights MCP server functionality and x402/direct-crypto payment rails as core features
-    - Listed in awesome-mcp-servers under Server Implementations > Aggregators
+    - jev-latest choice confidence 0.64
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

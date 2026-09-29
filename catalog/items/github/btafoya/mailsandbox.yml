@@ -59,21 +59,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    MailSandbox’s MCP server is a core feature enabling AI assistants to interact with email, making MCP its primary
-    identity as a developer tool exposing data over the protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - >-
-      README highlights MCP server as a key feature: 'MCP server for AI-assisted debugging' and lists MCP tools like
-      list_messages, get_message, analyze_message
-    - Source-list context shows inclusion in awesome-mcp-servers under Official Servers
-    - >-
-      Repo description explicitly states: 'MailSandbox is a fast, zero-dependency email testing tool & API [...] and MCP
-      server for AI-assisted debugging'
+    - jev-latest choice confidence 0.55
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: null

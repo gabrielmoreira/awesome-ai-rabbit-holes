@@ -76,15 +76,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server providing search capabilities to existing hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README describes it as an MCP server to connect assistants to Exa's search
-    - Repo topics specifically include 'cp' and 'cp-server'
-    - Provides configuration for multiple MCP-compliant clients like Cursor, Claude Desktop, and Zed
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (4395) exceeded threshold (150)

@@ -94,13 +94,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an implementation of an MCP server designed to provide specific database capabilities to
-    an MCP host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - README describes it as a 'JSON Document Server' for MCP
-    - Implements CRUD operations for LLM tool use
-    - Explicitly mentioned in awesome-mcp-list under Databases
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: mcp
   secondary_categories: []

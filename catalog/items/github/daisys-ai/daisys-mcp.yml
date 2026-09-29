@@ -52,15 +52,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server whose primary identity is providing Daisys audio capabilities through the MCP protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as 'The Daisys mcp server'
-    - README provides MCP client configuration instructions
-    - Listed in awesome-mcp-servers under 'Official Servers'
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

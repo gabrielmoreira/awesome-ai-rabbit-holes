@@ -53,13 +53,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Atla is primarily an observability and tracing platform focused on measuring and improving agent behavior.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - Documentation explicitly highlights tracing, instrumentation, and error detection as core features
-    - Provides Python and TypeScript SDKs for integrating observability into agent workflows
-    - Product mission is to clarify 'the messiness of agent behaviour' through insights and metrics
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: evals
+  secondary_categories: []
   section: Observability & Tracing
 lifecycle:
   status: curated

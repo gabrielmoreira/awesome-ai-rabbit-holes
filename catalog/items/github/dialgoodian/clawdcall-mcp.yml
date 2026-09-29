@@ -61,17 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server designed to expose specific telephony domain tools to compatible
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly identifies the project as the 'ClawdCall MCP Server'
-    - Exposes specific tools (send_signup_otp, place_outbound_call, etc.) via the Model Context Protocol
-    - Provides both a local npm package and a hosted remote HTTP endpoint for MCP clients
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

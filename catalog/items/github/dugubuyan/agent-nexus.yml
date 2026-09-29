@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is primarily a runtime platform/control plane for coordinating multiple agents via a shared document
-    exchange and MCP server, rather than being a single coding assistant.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README describes it as a 'coordination architecture' that coordinates agents at the 'service granularity'
-    - Provides an MCP server that allows multiple agents to connect and subscribe to document updates
-    - Focuses on the coordination of 'heterogeneous LLM code agents' rather than executing the code itself
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

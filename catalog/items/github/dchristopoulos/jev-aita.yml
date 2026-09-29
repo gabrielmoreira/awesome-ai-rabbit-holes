@@ -49,20 +49,22 @@ metadata:
       fetched_at: '2026-09-29T13:10:31.574Z'
       bytes: 19947
 insights:
-  summary: null
+  summary: >-
+    Benchmark of TypeSafe's Jev against Sonnet 5, GPT-5 nano and local LLMs on 770 Reddit AITA verdicts: Brier scores,
+    latency and cost
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - jev-latest choice confidence 0.50
 placement:
-  primary_category: null
+  primary_category: evals
   secondary_categories: []
-  section: null
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: curated
   reason: null

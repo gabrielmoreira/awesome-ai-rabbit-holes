@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose primary identity is exposing CalDAV calendar operations as MCP tools for AI
-    assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states it is a CalDAV MCP server
-    - README details MCP server setup and CalDAV-specific tools (list-events, create-event, etc.)
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

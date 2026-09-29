@@ -76,11 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a compression engine (AST body folding) designed to optimize the context passed to LLMs.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
   evidence:
-    - Claims 41-89% token reduction via AST body folding
-    - Acts as a 'Context Layer' by serving compressed structural overviews
-    - Provides tools for indexing, searching, and retrieving code via SQLite
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: memory-and-context
   secondary_categories: []

@@ -67,13 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is serving Swift/SwiftUI best practices via MCP,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for Swift/SwiftUI best practices
-    - README emphasizes MCP compatibility and runtime tooling (search, retrieval, memory)
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: mcp
   secondary_categories: []

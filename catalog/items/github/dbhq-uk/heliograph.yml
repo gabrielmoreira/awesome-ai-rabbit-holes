@@ -77,13 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It acts as a capability extension that augments existing AI agents with the ability to interact with remote,
-    restricted machines.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README identifies it as a way to run code on machines you cannot log into
-    - Explicitly provides 'agent skills' for Claude Code, Codex, and Cursor
-    - Uses MCP to allow agents to bridge the gap to remote environments
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: mcp
   secondary_categories: []

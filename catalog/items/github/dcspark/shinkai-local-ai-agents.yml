@@ -68,17 +68,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a workbench for orchestrating multiple AI agents with collaboration, payments, and MCP support,
-    not a primary coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README emphasizes multi-agent orchestration and no-code agent creation as primary features
-    - Repo description highlights local AI agent creation with MCP support
-    - Source-list context places it under MCP Clients, but primary identity is agent orchestration
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Visual Builders & Workbenches
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (429) exceeded threshold (150)

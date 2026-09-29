@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    g3 is a standalone coding assistant with direct repo interaction, task execution, and multi-provider LLM
-    integration, fitting the primary identity of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - README describes it as a 'coding AI agent' with file operations, shell commands, and task automation
-    - Source-list context places it under 'Terminal-native coding agents > Open Source'
-    - Modular Rust workspace with core agent engine, provider abstraction, and CLI interface
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: coding-agents
   secondary_categories: []

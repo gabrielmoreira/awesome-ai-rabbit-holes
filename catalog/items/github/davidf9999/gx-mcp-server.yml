@@ -56,17 +56,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated server exposing Great Expectations functionality through MCP, not a
-    compatibility footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for Great Expectations
-    - README details MCP transport modes (STDIO, HTTP, Inspector) and client configuration
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

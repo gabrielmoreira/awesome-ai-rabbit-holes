@@ -72,13 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is an integration layer that augments Claude Code with browser automation capabilities, not a standalone
-    coding assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly calls it an MCP bridge for Claude Code and Chromium browsers
-    - README details architecture as a proxy between Claude Code (stdio MCP) and a browser extension
-    - Source-list context places it under MCP servers for browser automation
+    - jev-latest choice confidence 0.67
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -65,15 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core identity is facilitating testing and scoring of agent behavior through simulated environments.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description defines it as a 'Voice AI simulation SDK for testing your AI Agents'
-    - README states it drives scenarios and hands results to an 'Evaluate' pillar for scoring
-    - Includes helpers to integrate results directly into evaluation frameworks
+    - jev-latest choice confidence 0.66
 placement:
-  primary_category: evals
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Agent & LLM Benchmarks
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is built entirely around acting as an MCP server to expose Binary Ninja's domain-specific
-    capabilities to LLM clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description defines it as an MCP server for Binary Ninja integration
-    - README specifies it provides an MCP server and a bridge component
-    - Product identity is the protocol interface rather than the assistant itself
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []

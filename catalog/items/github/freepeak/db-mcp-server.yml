@@ -82,13 +82,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server implementation providing specialized domain capabilities
-    (databases).
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly identifies it as a multi-database server implementing the Model Context Protocol.
-    - README details dynamic tool generation for MySQL, Postgres, and Oracle via MCP.
-    - Active development confirmed by recent push date.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

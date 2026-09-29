@@ -66,13 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core functionality is measuring model behavior, testing for adversarial outcomes, and performing quality
-    audits.
+  reason: Jev decision-model reclassifier placed this item in evals / Safety, Fairness & Red-teaming
   evidence:
-    - README claims it enables you to test LLMs and identify weaknesses
-    - Features include red-teaming with prompt perturbation and custom evaluation metrics
-    - Repo description defines it as a tool to evaluate language models
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: evals
   secondary_categories: []

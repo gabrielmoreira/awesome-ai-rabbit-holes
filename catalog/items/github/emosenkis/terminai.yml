@@ -57,15 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool acts as a wrapper/enhancement for existing CLI agents rather than being the primary agent itself.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
-    - README states it runs your configured AI CLI agent instead of owning model logic
-    - Uses MCP to provide terminal context to an existing host agent
-    - Primarily augments the shell workflow with an overlay UI
+    - jev-latest choice confidence 0.69
 placement:
-  primary_category: coding-agents
+  primary_category: extensions-and-addons
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Claude Code & Agent Tools
 lifecycle:
   status: curated
   reason: null

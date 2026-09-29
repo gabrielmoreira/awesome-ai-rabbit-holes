@@ -75,17 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is explicitly that of an MCP server, providing a standardized interface for agents to interact
-    with Docker.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly identifies as 'Docker MCP server'
-    - README highlights 'MCP-compatible' and 'Claude Desktop-compatible' badges
-    - Included in 'awesome-mcp-servers' under Server Implementations
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

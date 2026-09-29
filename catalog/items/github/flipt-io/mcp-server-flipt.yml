@@ -54,13 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server as its primary identity, enabling AI assistants to interact with Flipt's feature flag
-    system, fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README describes it as a 'Model Context Protocol (MCP) server for Flipt'
-    - Provides STDIO transport and registers tools/prompts for MCP communication
-    - Listed in awesome-mcp-servers under Developer Tools > Server Implementations
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

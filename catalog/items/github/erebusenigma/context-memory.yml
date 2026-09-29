@@ -66,13 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a memory and retrieval system for context persistence, not the host integration layer.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      Repo description explicitly states it is 'Persistent, searchable context storage across Claude Code sessions using
-      SQLite + FTS5'
-    - README emphasizes structured AI summaries, full-text search, and cross-session memory as primary features
-    - Includes MCP server as a secondary feature, but memory system is the main product identity
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: memory-and-context
   secondary_categories: []

@@ -94,13 +94,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing MCP-based access to NocoDB databases, fitting the
-    MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly identifies it as a 'nocodb mcp server'
-    - README states it 'enables seamless interaction with your NocoDB database using the Model Context Protocol (MCP)'
-    - Listed in multiple MCP-focused directories under database sections
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []

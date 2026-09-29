@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's identity is explicitly an MCP server designed to provide specific financial capabilities to host AI
-    models.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly defines it as an 'MCP server'
-    - README details specific tools (balance, pay_offer) for agent execution
-    - Provides direct installation instructions for Claude Desktop MCP configuration
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

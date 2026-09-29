@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server providing domain-specific structural analysis capabilities, fitting the
-    MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for EN Diagram
-    - README details MCP installation and integration with Claude Code, Cursor, and Smithery
-    - Source-list context shows it is already curated in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.52
 placement:
   primary_category: mcp
   secondary_categories: []

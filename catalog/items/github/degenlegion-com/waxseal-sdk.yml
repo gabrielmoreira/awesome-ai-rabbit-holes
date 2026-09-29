@@ -75,21 +75,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    WaxSeal SDK is primarily an MCP server that extends Claude, Cursor, or Windsurf with cryptographic identity and
-    approval tools, making it an integration layer rather than a standalone coding assistant.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description: 'Ed25519 cryptographic identity for apps and AI agents — MCP server for Claude/Cursor/Windsurf +
-      JS/TS verify SDK'
-    - >-
-      README: '@waxseal/mcp' is an MCP server for Claude, Cursor, Windsurf, and VS Code that verifies identities, signs
-      documents, and gates AI actions with human approvals
-    - 'Source-list: included in awesome-mcp-servers under Cryptography section as an MCP server implementation'
+    - jev-latest choice confidence 0.73
 placement:
-  primary_category: extensions-and-addons
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Security & DevSecOps
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

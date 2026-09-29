@@ -72,13 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is a file-sharing utility that explicitly includes an MCP server as a primary interface for
-    AI assistants, fitting the 'Domain Servers' pattern of providing specific system capabilities to LLMs.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - README states it provides 'an MCP server for AI assistants'
-    - Included in 'awesome-mcp-servers' under 'File Systems'
-    - Primary function is read-only file access via REST, S3, WebDAV, and MCP
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: mcp
   secondary_categories: []

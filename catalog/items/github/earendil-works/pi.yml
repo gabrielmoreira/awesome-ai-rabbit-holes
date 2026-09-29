@@ -94,13 +94,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Pi is a standalone coding agent that directly reads, plans, edits, and tests code via CLI, making it a primary
-    assistant rather than an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI'''
-    - 'README: ''@earendil-works/pi-coding-agent'' is described as ''Interactive coding agent CLI'''
-    - 'Source-list: listed in ''awesome-cli-coding-agents'' under ''Terminal-native coding agents > Open Source'''
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: coding-agents
   secondary_categories: []

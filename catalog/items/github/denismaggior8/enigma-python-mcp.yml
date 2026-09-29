@@ -74,17 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server implementation designed to extend the capabilities of MCP clients with
-    specific cryptographic tools.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description identifies it as an MCP server
-    - Provides specific tools like 'encrypt_message' for Enigma models
-    - Listed in 'awesome-mcp-servers' under Cryptography
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

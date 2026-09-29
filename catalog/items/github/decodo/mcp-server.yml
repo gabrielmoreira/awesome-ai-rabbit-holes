@@ -66,17 +66,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing MCP-based access to Decodo's services,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description identifies it as 'The Decodo MCP server which enables MCP clients to interface with services'
-    - README details MCP client configuration and toolsets for web scraping, search, and ecommerce
-    - Listed in awesome-mcp-servers under 'Official Servers'
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

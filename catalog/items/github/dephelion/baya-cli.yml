@@ -67,13 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It serves as a coordination layer that manages task dependencies and parallel execution across multiple external
-    agents rather than being a single assistant.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README explicitly describes it as a 'command-line orchestrator' for existing AI agents.
-    - Uses a JSON DAG to handle task dependencies and parallel dispatch.
-    - Coordinates multiple external CLIs including codex, claude, copilot, and opencode.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

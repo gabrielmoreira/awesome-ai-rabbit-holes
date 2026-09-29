@@ -58,15 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server exposing Twitch Chat capabilities to MCP clients.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP server for Twitch Chat
-    - README details MCP client integration (Gemini CLI, Qwen Coder, Claude Code)
-    - Listed in awesome-mcp-list under Communication section
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

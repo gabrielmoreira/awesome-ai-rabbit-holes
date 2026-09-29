@@ -69,22 +69,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The resource is an educational course listed in an awesome list under '课程 Course', making it a curated learning
-    resource rather than a tool, SDK, or platform, which fits the curated lists and resources category.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - >-
-      Listed in awesome-LLM-resources under section: 课程 Course with summary 'Register for this course and learn to build
-      modern software with LLMs'
-    - >-
-      Scraped site describes it as a 'FREE COURSE' titled 'LLM Evaluation with Opik' focused on applied LLM evaluation
-      techniques
-    - >-
-      Course content includes lessons on evaluation pipelines, heuristic and LLM-based metrics, testing, and monitoring
-      using Opik and open source tools
+    - jev-latest choice confidence 0.72
 placement:
-  primary_category: awesome-awesomes
-  section: Publications & Feeds
+  primary_category: evals
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: curated
   reason: null

@@ -57,17 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core value is prompt versioning, tracking, and experimentation, which aligns with prompt management systems
-    rather than coding assistance or host integrations.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly calls it a 'prompt version management package'
-    - README highlights version control, run tracking, and synthetic data generation for prompts
-    - Source-list context places it in LLMOps tools
+    - jev-latest choice confidence 0.66
 placement:
-  primary_category: memory-and-context
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Prompt Engineering & Management
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

@@ -97,15 +97,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is an MCP server implementation for a specific domain.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly identifies it as an 'MCP Server for kubernetes management commands'
-    - README describes integration via MCP configuration for Claude Desktop, Cursor, and VS Code
-    - Strong ecosystem traction with 1,459 stars and active development
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (1387) exceeded threshold (150)

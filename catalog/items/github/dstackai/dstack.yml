@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dstackai__dstack__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,11 @@ provenance:
           - LLMOps
         anchor_text: Dstack
         extracted_url: https://github.com/dstackai/dstack
-        surrounding_text: "| [Dstack](https://github.com/dstackai/dstack)                       | Cost-effective LLM development in any cloud (AWS, GCP, Azure, Lambda, etc).                                                                                                                                                                                                                                                                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/dstackai/dstack.svg?style=flat-square)                |"
+        surrounding_text: >-
+          | [Dstack](https://github.com/dstackai/dstack)                       | Cost-effective LLM development in any
+          cloud (AWS, GCP, Azure, Lambda,
+          etc).                                                                                                                                                                                                                                                                                                                            
+          | ![GitHub Badge](https://img.shields.io/github/stars/dstackai/dstack.svg?style=flat-square)                |
         confidence: high
 metadata:
   github:
@@ -29,9 +33,11 @@ metadata:
     archived: false
     full_name: dstackai/dstack
     html_url: https://github.com/dstackai/dstack
-    created_at: "2022-01-04T10:29:46Z"
-    pushed_at: "2026-09-13T14:19:54Z"
-    description: Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal.
+    created_at: '2022-01-04T10:29:46Z'
+    pushed_at: '2026-09-13T14:19:54Z'
+    description: >-
+      Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and
+      Tenstorrent on clouds, Kubernetes, and bare metal.
     homepage: https://dstack.ai/docs
     topics:
       - agent-skills
@@ -52,13 +58,17 @@ metadata:
       - python
       - slurm
       - training
-    last_checked_at: "2026-09-14T04:13:44.925Z"
+    last_checked_at: '2026-09-14T04:13:44.925Z'
     readme:
-      fetched_at: "2026-09-14T04:13:44.925Z"
+      fetched_at: '2026-09-14T04:13:44.925Z'
       bytes: 5978
 insights:
-  summary: Vendor-agnostic orchestration platform for training, inference, and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal.
-  why_it_matters: It provides a unified control plane for GPU provisioning and orchestration, streamlining development, training, and inference across diverse hardware and environments.
+  summary: >-
+    Vendor-agnostic orchestration platform for training, inference, and agentic workloads across NVIDIA, AMD, TPU, and
+    Tenstorrent on clouds, Kubernetes, and bare metal.
+  why_it_matters: >-
+    It provides a unified control plane for GPU provisioning and orchestration, streamlining development, training, and
+    inference across diverse hardware and environments.
   mental_damage: Finally, a way to stop juggling cloud dashboards and YAML configs just to get a GPU to do your bidding.
   tags:
     - gpu-orchestration
@@ -69,31 +79,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: dstack is primarily a CLI, server, and configuration-driven framework that developers script and operate as infrastructure code, which maps cleanly to Frameworks & SDKs rather than a multi-agent workbench or control plane product.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - "Repo description: 'Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal.'"
-    - "README: 'dstack is a unified control plane for GPU provisioning and orchestration... Configuration can be defined as YAML files within your repo.'"
-    - Seen in Awesome-LLMOps under LLMOps; active repo with latest push in 2026 and 2,130 stars.
+    - jev-latest choice confidence 0.63
 placement:
-  primary_category: ai-frameworks
-  section: null
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:44.925Z"
+    updated_at: '2026-09-14T04:13:44.925Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -108,7 +117,9 @@ processing:
       input_hash: sha256:76ed08f23b81f6829b538b17dbe68c6ebbcaf0073017280e17a660d32adfd43d
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: The primary product is a control plane and runtime platform for orchestrating agentic workloads, training, and inference across heterogeneous infrastructure, fitting the agent orchestration category.
+      decision_reason: >-
+        The primary product is a control plane and runtime platform for orchestrating agentic workloads, training, and
+        inference across heterogeneous infrastructure, fitting the agent orchestration category.
       decision_evidence:
         - Repo description explicitly states it is for 'agentic workloads' and orchestration across diverse hardware
         - README highlights it as a 'unified control plane for GPU provisioning and orchestration'
@@ -116,6 +127,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated workbench/control plane for coordinating workloads rather than a code-first SDK or library.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product is an operated workbench/control plane for
+        coordinating workloads rather than a code-first SDK or library.
+      review_reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

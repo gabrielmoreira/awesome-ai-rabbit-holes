@@ -60,11 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: it is a server exposing Mercado Pago tools via the Model Context Protocol.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - README explicitly states it is an MCP server with 5 tools for Mercado Pago
-    - Source-list context lists it under MCP servers in Finance & Fintech
-    - Repo description identifies it as a Mercado Pago tool connector for AI agents
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

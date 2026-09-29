@@ -80,19 +80,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is a standalone GUI and CLI workbench for coordinating multiple AI agents, fitting the definition of an
-    operated surface for multi-agent workflows rather than a code-first framework.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description states it helps 'coordinate AI agents... for efficient, parallel execution' with a GUI and CLI.
-    - README details a 'user-friendly application' with a dashboard to 'manage multiple AI agents' and 'track issues'.
-    - >-
-      Source list places it under 'Core Frameworks > Swarm Intelligence Frameworks', though the README emphasizes the
-      GUI/workbench identity.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Visual Builders & Workbenches
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: null

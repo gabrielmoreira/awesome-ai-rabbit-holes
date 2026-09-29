@@ -79,13 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server designed to expose specific industrial domain capabilities to AI
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly calls it a 'Cross-manufacturer industrial MCP server'
-    - README provides specific MCP configuration for Claude Desktop and Cursor
-    - The toolset consists of 14 specific tools wrapping the Forge v1 API for telemetry and automation
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

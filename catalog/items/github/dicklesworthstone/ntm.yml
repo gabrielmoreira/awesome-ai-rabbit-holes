@@ -67,20 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    NTM is primarily a control plane for coordinating multiple AI coding agents, not a coding agent itself, making
-    agent-orchestration the best fit over coding-agents or extensions.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'Named Tmux Manager: spawn, tile, and coordinate multiple AI coding agents (Claude, Codex,
-      Gemini) across tmux panes with a TUI command palette'
-    - >-
-      README: 'NTM turns tmux into a local control plane for multi-agent software development' and lists session
-      orchestration, work intelligence, coordination, safety, durable operations, and automation surfaces as core
-      features
-    - >-
-      Source-list context: Included in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers &
-      parallel runners'
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

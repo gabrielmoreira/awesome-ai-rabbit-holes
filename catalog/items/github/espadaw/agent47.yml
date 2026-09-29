@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server that standardizes disparate agent marketplace APIs into a single
-    interface.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README identifies it as an 'MCP Native' project providing an SSE endpoint for autonomous agents.
-    - Repo description explicitly defines it as an 'MCP server integrating x402, RentAHuman, Virtuals, and more'.
-    - Primary functionality is exposing tool capabilities like 'findJobs' and 'comparePrice' via MCP.
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: mcp
   secondary_categories: []

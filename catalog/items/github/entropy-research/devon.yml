@@ -88,13 +88,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Devon is a standalone coding assistant that developers delegate repo work to, fitting the primary identity of a
-    coding agent rather than an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly calls it an 'open-source pair programmer'
-    - README highlights features like multi-file editing, codebase exploration, and test writing
-    - Source-list context places it under 'Terminal-native coding agents' in awesome-cli-coding-agents
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: coding-agents
   secondary_categories: []

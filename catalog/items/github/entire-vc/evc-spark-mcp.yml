@@ -69,17 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server exposing a specific domain (Spark's catalog) to MCP
-    clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for the Spark workflow catalog
-    - README shows it is a standalone MCP server with tools for searching and retrieving catalog assets
-    - Already listed in awesome-mcp-servers under Server Implementations > Aggregators
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Registries & Discovery
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

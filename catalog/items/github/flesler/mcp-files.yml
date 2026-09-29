@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server designed to provide specific tools to host environments like Cursor or
-    Claude Desktop.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README defines available tools (read_symbol, insert_text) for MCP hosts
-    - Repo description explicitly states it is an 'MCP server'
-    - Includes configuration instructions for Cursor and Claude Desktop mcp.json files
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

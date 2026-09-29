@@ -59,15 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a server implementation that exposes Kubernetes tools via the MCP protocol.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is a 'Bridge connecting OpenWebUI to Kubernetes clusters via MCP protocol'
-    - README details MCP server setup and tool registration in OpenWebUI
-    - Already listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

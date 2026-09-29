@@ -82,13 +82,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is explicitly an MCP server implementation designed to bring a specific domain (health data) to the
-    protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies it as a 'Local-first MCP server'
-    - README specifies it is 'Built for MCP' and provides instructions for Claude Desktop and Cursor
-    - Provides specific domain connectivity to Google Health API v4
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

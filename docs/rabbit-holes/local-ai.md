@@ -3,14 +3,14 @@
 
 Runtimes, serving stacks, desktop apps, and tooling for running AI models on your own hardware or self-hosted infrastructure.
 
-_106 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_105 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Inference Engines](#inference-engines) — 29
-- [Local API Servers](#local-api-servers) — 16
+- [Inference Engines](#inference-engines) — 32
+- [Local API Servers](#local-api-servers) — 14
 - [Desktop Chat & UIs](#desktop-chat--uis) — 31
-- [Fine-tuning & Training](#fine-tuning--training) — 30
+- [Fine-tuning & Training](#fine-tuning--training) — 28
 
 ## Inference Engines
 
@@ -238,14 +238,29 @@ _106 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `llm-inference` `local-ai` `cpp` `cuda` `performance`
   </details>
-- **[How Much VRAM](https://github.com/alexbodner/how_much_vram)** `⭐ 101` `updated >1y` A web tool that estimates VRAM requirements for running local LLMs based on model parameters and configuration. <details><summary>More about</summary>
+- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 209` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
 
-  Helps developers plan hardware needs when self-hosting or running large language models locally.
+  It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
 
-  _Finally, a way to know if your GPU will laugh at your model dreams before you even try._
+  _Because what started as 'I don't want to send data to OpenAI' inevitably becomes 'I now operate a mini OpenAI-compatible platform on Kubernetes with circuit breakers for PII and a metal-agent binary running on my MacBook.'._
 
-  `vram-calculator` `local-ai` `hardware-planning` `llm-inference`
+  `kubernetes` `local-inference` `self-hosted` `gpu-serving` `llm-operator`
   </details>
+- **[ClawFleet](https://github.com/clawfleet/clawfleet)** `⭐ 173` `updated ≤180d` ClawFleet is a self-hosted Docker-based fleet manager for running isolated instances of AI agents like OpenClaw and Hermes with a browser dashboard. <details><summary>More about</summary>
+
+  It lets developers run and manage multiple local AI agents without cloud costs, using their own API keys and hardware.
+
+  _Finally, a way to feel like a Silicon Valley CEO by orchestrating a fleet of AI interns from your laptop’s terminal._
+
+  `self-hosted` `docker` `ai-agents` `fleet-management`
+  </details>
+
+<details><summary><strong>▸ &nbsp;&nbsp;+2 more in Inference Engines &nbsp;—&nbsp; click to expand</strong></summary>
+
+- **[How Much VRAM](https://github.com/alexbodner/how_much_vram)** `⭐ 101` `updated >1y` A web tool that estimates VRAM requirements for running local LLMs based on model parameters and configuration.
+- **[FireworksAI](https://fireworks.ai)** Fireworks.ai provides fast inference for generative AI models, including open-source LLMs and image models, with optional fine-tuning and deployment capabilities.
+
+</details>
 
 ## Local API Servers
 
@@ -297,14 +312,6 @@ _106 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `local-ai` `inference-server` `openai-compatible` `gguf` `webgpu`
   </details>
-- **[optillm](https://github.com/algorithmicsuperintelligence/optillm)** `⭐ 4.3k` `updated ≤90d` An optimizing inference proxy for LLMs that improves performance and cost-efficiency. <details><summary>More about</summary>
-
-  Developers can reduce LLM inference costs and latency without changing their application code by routing requests through this proxy.
-
-  _Now you can spend more time arguing about whether your proxy is optimizing the right thing._
-
-  `llm-inference` `proxy-server` `optimization` `api-gateway` `mixture-of-experts`
-  </details>
 - **[Rapid-MLX](https://github.com/raullenchai/rapid-mlx)** `⭐ 3.3k` `updated ≤90d` A local inference engine for Apple Silicon that serves models via an OpenAI-compatible API, optimized for speed and tool calling to work with coding assistants like Claude Code and Cursor. <details><summary>More about</summary>
 
   It allows developers on Mac to run frontier-sized models locally with minimal latency, enabling private, cost-free usage of tool-calling workflows inside their existing editors.
@@ -336,14 +343,6 @@ _106 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _Another valiant attempt to let you host your own 'private' GPT while quietly praying your inference latency doesn't make the terminal feel like it's running on a potato._
 
   `local-ai` `inference` `openai-compatible` `self-hosted` `llm-serving`
-  </details>
-- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 209` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
-
-  It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
-
-  _Because what started as 'I don't want to send data to OpenAI' inevitably becomes 'I now operate a mini OpenAI-compatible platform on Kubernetes with circuit breakers for PII and a metal-agent binary running on my MacBook.'._
-
-  `kubernetes` `local-inference` `self-hosted` `gpu-serving` `llm-operator`
   </details>
 - **[donvito/ai-backends](https://github.com/donvito/ai-backends)** `⭐ 147` `updated ≤30d` API server runtime for common AI use cases — supports multiple models and providers. Run locally with Ollama or LM Studio, or in the cloud via OpenRouter, OpenAI, Anthropic, or Google.
 - **[AI-Mask](https://github.com/pacwoodson/ai-mask)** `⭐ 32` `updated >1y` A Chrome extension that acts as a local AI inference provider, caching models once in the browser and serving them to compatible web apps via an SDK. <details><summary>More about</summary>
@@ -661,14 +660,6 @@ _106 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `fine-tuning` `llm-eval` `model-deployment` `cli`
   </details>
-- **[Flower](https://github.com/flwrlabs/flower)** `⭐ 7.1k` `updated ≤30d` A framework for building federated AI systems that enables decentralized machine learning training. <details><summary>More about</summary>
-
-  It allows developers to train models on distributed, private data without the need to move the data to a central server.
-
-  _Now you can debug distributed training failures across a thousand fragmented edge devices._
-
-  `federated-learning` `framework` `machine-learning` `distributed-systems`
-  </details>
 - **[Liger-Kernel](https://github.com/linkedin/liger-kernel)** `⭐ 6.5k` `updated ≤90d` A collection of optimized Triton kernels designed to increase LLM training throughput and reduce memory usage. <details><summary>More about</summary>
 
   It enables developers to train models with longer context lengths and larger batch sizes by optimizing the low-level math operations.
@@ -700,14 +691,6 @@ _106 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _The dream of 'no-code' fine-tuning just means you can now break your model's weights via a slider instead of a misplaced comma in a Python script._
 
   `fine-tuning` `lora` `no-code` `llm-ops` `dpo`
-  </details>
-- **[FedML](https://github.com/fedml-ai/fedml)** `⭐ 4.1k` `updated ≤1y` An open-source machine learning library for scalable distributed training, model serving, and federated learning. <details><summary>More about</summary>
-
-  It provides the infrastructure to manage complex AI workloads across diverse hardware, from edge devices to multi-cloud GPU clusters.
-
-  _Nothing says 'I love scaling' like managing distributed training across decentralized GPUs and smartphones simultaneously._
-
-  `distributed-training` `federated-learning` `mlops` `model-serving` `edge-ai`
   </details>
 - **[luotuo-chinese-llm](https://github.com/lc1332/luotuo-chinese-llm)** `⭐ 3.6k` `updated >1y` Luotuo is an open-source Chinese large language model project that includes base models, embeddings, QA, and derivative applications. <details><summary>More about</summary>
 
@@ -765,14 +748,6 @@ _106 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `llm` `post-training` `fine-tuning` `rlhf` `knowledge-distillation`
   </details>
-- **[LMMs-Engine](https://github.com/evolvinglmms-lab/lmms-engine)** `⭐ 824` `updated ≤90d` A unified training engine designed for scaling multimodal model development. <details><summary>More about</summary>
-
-  It provides a lean, flexible framework for developers building and training their own large multimodal models (LMMs).
-
-  _Another engine to master in the endless arms race to benchmark Model FLOPs Utilization._
-
-  `multimodal` `training-engine` `pytorch` `machine-learning` `lmm`
-  </details>
 - **[InternEvo](https://github.com/internlm/internevo)** `⭐ 421` `updated >1y` InternEvo is an open-source lightweight training framework for model pre-training and fine-tuning with minimal dependencies. <details><summary>More about</summary>
 
   It enables developers to train large-scale models on clusters or fine-tune on single GPUs with high efficiency and performance optimizations.
@@ -804,6 +779,14 @@ _106 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _Yet another abstraction layer promising to hide the terrifying complexity of distributed training behind a 'simple decorator', ensuring you can now ruin a cloud budget with just a single line of Python._
 
   `llm-finetuning` `cloud-training` `deepspeed` `lora` `python-sdk`
+  </details>
+- **[Axolotl](http://docs.axolotl.ai)** Axolotl is a free and open-source framework for post-training and fine-tuning large language models. <details><summary>More about</summary>
+
+  It enables developers to customize and optimize LLMs for specific tasks using flexible configuration and advanced training methods.
+
+  _The promise of fine-tuning state-of-the-art models in minutes clashes with the reality of GPU requirements, complex YAML configs, and the constant churn of new model support._
+
+  `llm` `fine-tuning` `open-source`
   </details>
 - **[H2OAI](https://h2o.ai)** An end-to-end generative and predictive AI platform designed for air-gapped, on-premises, and private cloud environments. <details><summary>More about</summary>
 

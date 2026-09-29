@@ -113,13 +113,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server designed to provide specific browser automation capabilities to host
-    assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description identifies it as a 'Playwright Model Context Protocol Server'
-    - README describes tools for browser automation, screenshots, and device emulation
-    - Supports integration with Claude Desktop, Cline, and Cursor via MCP
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

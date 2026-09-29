@@ -80,13 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is explicitly defined as an MCP server providing specialized domain capabilities to LLM
-    clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description identifies it as a 'Postgres MCP Server'
-    - README focuses on MCP-specific features like ToolAnnotations and transport via stdio/HTTP
-    - Includes production-grade safety features like AST validation for SQL
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []

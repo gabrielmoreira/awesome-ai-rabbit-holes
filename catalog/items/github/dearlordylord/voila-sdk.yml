@@ -58,17 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is a Model Context Protocol server providing domain-specific tools for a grocery
-    service.
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - README describes it as a 'Model Context Protocol server for safe personal Voila grocery automation'
-    - Exposes specific tools like 'voila_search_products' and 'voila_get_cart' via MCP
-    - Includes a corresponding TypeScript SDK (@firfi/voila-sdk)
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Clients & Inspector Tools
 lifecycle:
   status: curated
   reason: null

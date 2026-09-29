@@ -77,13 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a memory and retrieval system that shapes context for agents, not a coding assistant, extension,
-    or orchestrator.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - README emphasizes persistent shared memory, knowledge graph, and 5ms retrieval for agent pipelines
-    - 'Repo description: ''Open-source persistent memory for AI agent pipelines'' with REST API and knowledge graph'
-    - Features include embeddings, causal knowledge graphs, autonomous consolidation, and scoped retrieval via headers
+    - jev-latest choice confidence 0.63
 placement:
   primary_category: memory-and-context
   secondary_categories: []

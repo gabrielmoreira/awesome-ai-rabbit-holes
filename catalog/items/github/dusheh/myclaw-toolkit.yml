@@ -89,19 +89,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly defined as an MCP server designed to provide tool capabilities to AI assistants via the
-    Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description identifies it as a '23-in-1 developer utility MCP server'
-    - >-
-      README provides installation instructions specifically for Claude Desktop, Cursor, and Claude Code using MCP
-      syntax
-    - Core identity is a provider of tools (search, crypto, formatters) for the MCP protocol
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

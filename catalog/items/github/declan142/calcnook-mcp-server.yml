@@ -65,15 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools to AI agents.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for calcnook
-    - README details 24 financial tools exposed via MCP to agents like Claude Code/Cursor
-    - Already listed in awesome-mcp-servers under Finance & Fintech
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

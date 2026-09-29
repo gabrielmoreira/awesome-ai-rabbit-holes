@@ -83,13 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity, and the server provides domain-specific developer tools rather than being a thin
-    adapter.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as an MCP server with 17 developer tools
-    - README emphasizes MCP integration (Claude Desktop config examples)
-    - Source-list context places it in 'Server Implementations > Developer Tools' for MCP
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

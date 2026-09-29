@@ -79,13 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool’s core function is measuring and optimizing agent skill performance through structured, graded evaluation
-    suites, making it an evals tool rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - 'Repo description: ''Benchmark, evaluate, and optimize skills to ensure reliable performance across all LLMs'''
-    - 'README: ''Docker workbench and Agent Skill for running deterministic evals against agent skills'''
-    - 'Core concepts: defines cases, suites, graders, and references for verifying agent outputs via file/system state'
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: evals
   secondary_categories: []

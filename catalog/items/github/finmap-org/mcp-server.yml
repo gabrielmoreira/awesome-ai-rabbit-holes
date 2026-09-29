@@ -83,11 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's identity is a domain-specific MCP server designed to provide structured market data to LLM hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - README explicitly offers an MCP server configuration for Claude Desktop
-    - Product provides specialized financial data tools (list_exchange_sectors, etc.) via MCP
-    - Main identity is an MCP server provider, not a coding assistant or framework
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: mcp
   secondary_categories: []

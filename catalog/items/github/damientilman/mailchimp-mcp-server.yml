@@ -78,17 +78,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is as an MCP server for Mailchimp, fitting the MCP Servers & Tooling category where MCP
-    is the primary adopted thing.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies it as an MCP server for Mailchimp Marketing API
-    - README details 227 tools spanning Mailchimp's API with MCP-specific configuration and safety modes
-    - Topics include 'mcp', 'mcp-server', and 'model-context-protocol'
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

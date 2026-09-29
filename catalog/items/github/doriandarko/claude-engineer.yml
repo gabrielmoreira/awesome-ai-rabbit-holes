@@ -81,13 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a primary coding assistant that developers delegate repo work to, with both CLI and web interfaces, and it
-    directly plans, writes, and manages tools for software development tasks.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly states it is an interactive CLI for software development tasks using Claude 3.5 Sonnet
-    - README highlights autonomous tool creation, dynamic capability expansion, and direct repo workflow integration
-    - Source-list context includes it in 'Terminal-native coding agents > Open Source'
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: coding-agents
   secondary_categories: []

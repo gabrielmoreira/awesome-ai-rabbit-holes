@@ -74,19 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is strictly an MCP server designed to provide a specific set of tools to compatible AI
-    assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly calls it an 'MCP server for Adobe Edge Delivery Services'
-    - >-
-      README lists specific tools for publishing and analytics that integrate with Claude Code and Cursor via the MCP
-      SDK
-    - Included in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

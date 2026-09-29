@@ -128,13 +128,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MetaGPT is primarily a code-first framework and library used to build agentic workflows, rather than a visual
-    control plane or workbench.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
   evidence:
-    - README provides explicit examples of usage as a Python library
-    - Repo description defines it as a 'Multi-Agent Framework'
-    - Explicitly listed as a canonical positive for the ai-frameworks category in the instructions
+    - jev-latest choice confidence 0.55
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

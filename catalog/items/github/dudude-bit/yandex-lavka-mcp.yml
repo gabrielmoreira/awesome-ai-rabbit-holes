@@ -66,16 +66,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project's core identity is an MCP server providing grocery-ordering tools to AI assistants, making MCP Servers &
-    Tooling the best fit despite its narrow domain.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''Unofficial MCP server for ordering Yandex Lavka groceries from an AI assistant'''
-    - 'README: Explicitly markets as an MCP server with tools like search_products, add_to_cart, confirm_order'
-    - 'Setup: Provides instructions for registering with Claude Code and Claude Desktop as an MCP server'
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

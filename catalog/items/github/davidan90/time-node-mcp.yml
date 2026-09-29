@@ -54,17 +54,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing timezone-aware date/time operations via the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for timezone-aware date/time operations
-    - README details its role as a server addressing AI assistant timezone confusion
-    - Already listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

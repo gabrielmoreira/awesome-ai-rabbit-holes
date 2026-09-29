@@ -3,14 +3,14 @@
 
 Products that generate complete apps, websites, dashboards, or scaffolds from prompts — the user starts from zero and receives a deployable artifact.
 
-_66 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_67 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
 - [Full App Builders](#full-app-builders) — 27
-- [Site & Landing Page Builders](#site--landing-page-builders) — 10
+- [Site & Landing Page Builders](#site--landing-page-builders) — 7
 - [Internal Tools & Dashboards](#internal-tools--dashboards) — 14
-- [Scaffolding & Boilerplate](#scaffolding--boilerplate) — 15
+- [Scaffolding & Boilerplate](#scaffolding--boilerplate) — 19
 
 ## Full App Builders
 
@@ -46,7 +46,6 @@ _66 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `ai-native-ide` `cloud-development` `code-generation` `live-preview`
   </details>
-- **[claudfuen/jev-genui](https://github.com/claudfuen/jev-genui)** `⭐ 1` `updated ≤30d` Generative UI sandbox: Jev composes the interface as you type, one typed decision at a time.
 - **[vibesdiy/vibes.diy](https://github.com/vibesdiy/vibes.diy)** Vibes DIY – Open-source AI app builder that turns a plain-English description into a real, live web app you can share, remix, and collaborate on.
 - **[base44](https://base44.com)** A no-code AI platform that generates full-stack applications, websites, and AI agents from natural language prompts. <details><summary>More about</summary>
 
@@ -80,6 +79,7 @@ _66 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `ai-platform` `collaborative-coding` `visual-editor` `agentic-cms` `multi-role-workflow`
   </details>
+- **[Cactal](https://cactal.ai)** Cactal – Cactal is the website platform for AI agents. Connect Claude Code, Cursor, or anything that speaks MCP, and your agent gets the tools to design, build, host, and operate production websites: source code, CMS, assets, domains, analytics, and publishing.
 - **[Capacity](https://capacity.so)** An AI-powered platform that generates full-stack web and mobile applications from natural language descriptions. <details><summary>More about</summary>
 
   It streamlines the path from idea to deployment by automating the generation of React, TypeScript, and backend infrastructure.
@@ -191,22 +191,6 @@ _66 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
 ## Site & Landing Page Builders
 
-- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** 🔥 `⭐ 79.1k` `updated ≤30d` An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks. <details><summary>More about</summary>
-
-  It accelerates the prototyping phase by turning visual designs directly into structured HTML, Tailwind, React, or Vue code.
-
-  _It makes the distance between a napkin sketch and a deployed frontend so short it might actually trigger a crisis of purpose for UI designers._
-
-  `prompt-to-app` `frontend` `react` `tailwind` `prototyping`
-  </details>
-- **[builder](https://github.com/builderio/builder)** `⭐ 8.8k` `updated ≤30d` A visual development platform that connects to existing sites and apps to generate code from Figma designs or a drag-and-drop editor. <details><summary>More about</summary>
-
-  It bridges the gap between design and production code by allowing developers to visually edit their own existing components rather than regenerating static pages.
-
-  _The dream of 'no-code' has simply evolved into 'code that is visually managed by someone else,' ensuring the developer is still the one debugging the output._
-
-  `visual-development` `design-to-code` `cms` `figma-integration`
-  </details>
 - **[tcgunel/mobius-mcp](https://github.com/tcgunel/mobius-mcp)** tcgunel/mobius-mcp - Build WordPress sites on the Sweipe or FlatMobile themes: import demos, build a site from a brief, review it, rewrite page copy and change settings.
 - **[10Web](https://10web.io)** An AI-powered website and WordPress builder that generates, optimizes, and hosts sites from prompts or Figma designs. <details><summary>More about</summary>
 
@@ -216,7 +200,6 @@ _66 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `website-builder` `wordpress` `ai-agents` `ecommerce` `no-code`
   </details>
-- **[Cactal](https://cactal.ai)** Cactal – Cactal is the website platform for AI agents. Connect Claude Code, Cursor, or anything that speaks MCP, and your agent gets the tools to design, build, host, and operate production websites: source code, CMS, assets, domains, analytics, and publishing.
 - **[CodeWP](https://telex.automattic.ai)** Telex is an AI-assisted authoring environment for WordPress that transforms ideas into functional WordPress projects. <details><summary>More about</summary>
 
   It enables developers to generate complete WordPress sites from prompts, reducing manual setup and theme/plugin configuration time.
@@ -375,6 +358,14 @@ _66 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
 ## Scaffolding & Boilerplate
 
+- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** 🔥 `⭐ 79.1k` `updated ≤30d` An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks. <details><summary>More about</summary>
+
+  It accelerates the prototyping phase by turning visual designs directly into structured HTML, Tailwind, React, or Vue code.
+
+  _It makes the distance between a napkin sketch and a deployed frontend so short it might actually trigger a crisis of purpose for UI designers._
+
+  `prompt-to-app` `frontend` `react` `tailwind` `prototyping`
+  </details>
 - **[LLMApp](https://github.com/pathwaycom/llm-app)** `⭐ 59k` `updated ≤90d` A repository of ready-to-deploy Docker templates for building RAG pipelines, enterprise search, and AI applications that sync live with data sources like SharePoint, Google Drive, S3, and Kafka. <details><summary>More about</summary>
 
   It gives developers pre-built, scalable pipelines for real-time data ingestion and retrieval, reducing the boilerplate needed to stand up production RAG systems.
@@ -398,6 +389,14 @@ _66 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
   _We've successfully abstracted away the joy of setting up a new project, replacing it with the existential dread of debugging code generated by a 'smol dev' that never asks for a raise._
 
   `cli` `scaffolding` `agent` `library` `python`
+  </details>
+- **[builder](https://github.com/builderio/builder)** `⭐ 8.8k` `updated ≤30d` A visual development platform that connects to existing sites and apps to generate code from Figma designs or a drag-and-drop editor. <details><summary>More about</summary>
+
+  It bridges the gap between design and production code by allowing developers to visually edit their own existing components rather than regenerating static pages.
+
+  _The dream of 'no-code' has simply evolved into 'code that is visually managed by someone else,' ensuring the developer is still the one debugging the output._
+
+  `visual-development` `design-to-code` `cms` `figma-integration`
   </details>
 - **[RasaGPT](https://github.com/paulpierre/rasagpt)** `⭐ 2.5k` `updated ≤1y` RasaGPT is a headless LLM chatbot platform built on top of Rasa and Langchain, using FastAPI, pgvector, and LlamaIndex to provide document indexing, retrieval, and a multi-tenant API for building custom Telegram bots. <details><summary>More about</summary>
 
@@ -448,6 +447,8 @@ _66 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
   `langchain` `codespaces` `template` `jupyter` `llm`
   </details>
 - **[bhaig-de/jev-design-test](https://github.com/bhaig-de/jev-design-test)** `⭐ 31` `updated ≤30d` Jev shadcn-block generator.
+- **[BetterTyped/hype-stack](https://github.com/bettertyped/hype-stack)** `⭐ 8` `updated ≤30d` Fastest fullstack monorepo template for your SaaS. Built with vite, oxc, tsgo, pnpm. E2E typesafety, builds Desktop and Web, Browser Extensions and Mobile applications. Comes with a shadcn-style CLI for fullstack features: install them, or write your own and share.
+- **[ciliyun007/openspec-scaffold](https://github.com/ciliyun007/openspec-scaffold)** `⭐ 0` `updated ≤30d` Generate the four OpenSpec files (proposal / spec / design / tasks) for a change, from one sentence. No AI call, no network.
 - **[KI-App-Bauplan](https://agentic-coder.de/tools/ki-app-bauplan)** KI-App-Bauplan – Free guided planner that turns an app idea into a focused MVP scope, risk review, seven-step build plan, and a starter prompt for Cursor, Claude Code, or Codex.
 - **[Makedraft](https://makedraft.com)** A web-based tool that generates HTML templates from AI prompts. <details><summary>More about</summary>
 

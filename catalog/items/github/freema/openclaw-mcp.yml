@@ -67,17 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is providing MCP compliance for bridging Claude and OpenClaw,
-    making MCP the primary product identity rather than an extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description: '🦞 MCP server for OpenClaw - secure bridge between Claude.ai and your self-hosted OpenClaw
-      assistant with OAuth2 authentication'
-    - >-
-      README: 'Model Context Protocol (MCP) server for [OpenClaw](https://github.com/openclaw/openclaw) AI assistant
-      integration.'
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

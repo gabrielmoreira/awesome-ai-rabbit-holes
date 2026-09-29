@@ -69,18 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Launchable fits Evals because its core function is measuring, tracing, and optimizing test behavior—identifying
-    flaky tests and predicting test relevance—rather than generating or editing code.
+  reason: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers
   evidence:
-    - AI-powered test intelligence that cuts test execution time up to 80% by running only relevant tests
-    - Analyzes test behavior across pipelines to identify flaky tests, long-running tests, and reliable tests
-    - >-
-      AI-powered classification groups failures, surfaces patterns, and brings relevant history into one place for
-      faster triage
+    - jev-latest choice confidence 0.54
 placement:
-  primary_category: evals
-  section: Observability & Tracing
+  primary_category: decision-models
+  secondary_categories: []
+  section: Cloud Gateways & Providers
 lifecycle:
   status: curated
   reason: null

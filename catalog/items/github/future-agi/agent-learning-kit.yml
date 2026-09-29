@@ -88,14 +88,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product identity is measuring, scoring, and regression-testing AI behavior via a developer-facing SDK.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - Repo description identifies it as an 'Evaluation Framework for all your AI related Workflows'
-    - README emphasizes local metrics, LLM-as-Judge, and OpenTelemetry integration
-    - Included in Awesome-LLMOps under the LLMOps section
-    - README explicitly identifies as an 'Evaluation Framework'
-    - Provides 72 local metrics including faithfulness, hallucination, and function calling accuracy
-    - Includes features for streaming assessment and OpenTelemetry integration
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: evals
   secondary_categories: []

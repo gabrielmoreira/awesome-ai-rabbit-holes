@@ -78,13 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: agenthold is explicitly an MCP server providing shared state infrastructure for
-    multi-agent workflows.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is 'an MCP server'
-    - README positions it as shared infrastructure for multi-agent workflows via MCP
-    - Topics include 'mcp-server' and 'model-context-protocol'
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: mcp
   secondary_categories: []

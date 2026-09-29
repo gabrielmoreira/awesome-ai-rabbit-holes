@@ -53,22 +53,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Axolotl is a code-first library that developers import and program against to build AI applications, fitting the
-    Frameworks & SDKs category.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Fine-tuning & Training
   evidence:
-    - >-
-      README states it is 'a free and open-source tool designed to streamline post-training and fine-tuning' and
-      provides CLI commands like 'axolotl train' for developers to use in code.
-    - >-
-      Source-list context shows it appears in 'awesome-LLM-resources' under Fine-Tuning, indicating its role as a
-      developer tool for model customization.
-    - >-
-      Scraped site context lists extensive installation instructions via pip, Docker, and CLI, confirming its identity
-      as a developer-facing SDK rather than a hosted platform.
+    - jev-latest choice confidence 0.62
 placement:
-  primary_category: ai-frameworks
-  section: LLM & Agent SDKs
+  primary_category: local-ai
+  secondary_categories: []
+  section: Fine-tuning & Training
 lifecycle:
   status: curated
   reason: null

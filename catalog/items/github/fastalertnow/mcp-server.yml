@@ -58,15 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is an MCP server providing specific tool capabilities to host assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly defines it as an 'Official Model Context Protocol (MCP) server'
-    - Provides specific tools (list_channels, send_message) for AI assistants via the MCP protocol
-    - Configured via mcpServers in Claude/Cursor environments
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

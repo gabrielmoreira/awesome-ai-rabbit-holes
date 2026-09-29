@@ -61,15 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server implementing domain-specific tools for Outlook, making MCP its core identity rather
-    than a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''Local MCP server for Microsoft Outlook — calendars, events, and email via Microsoft Graph API'''
-    - >-
-      README states it is 'A single-binary MCP server that connects Claude Desktop and Claude Code to Microsoft Outlook
-      via the Microsoft Graph API'
-    - Listed in awesome-mcp-servers under Server Implementations > Communication
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

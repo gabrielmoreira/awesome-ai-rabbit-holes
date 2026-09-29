@@ -67,13 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's identity is fundamentally defined by its implementation as an MCP server meant to be consumed by clients
-    like Claude Desktop or Cursor.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as an 'MCP server for API testing'
-    - README focuses heavily on installation/configuration for various MCP clients (Claude Desktop, Cursor, Windsurf)
-    - Included in awesome-mcp-servers
+    - jev-latest choice confidence 0.61
 placement:
   primary_category: mcp
   secondary_categories: []

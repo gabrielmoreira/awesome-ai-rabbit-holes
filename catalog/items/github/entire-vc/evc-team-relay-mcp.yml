@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: this is a dedicated MCP server wrapping a specific domain (Obsidian via Team
-    Relay) for AI tool access.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly labels it as an MCP server for Obsidian vault access
-    - README centers on MCP tooling and client configuration (Claude Code, Codex CLI, OpenCode)
-    - Architecture diagram and security notes emphasize MCP as the integration layer
+    - jev-latest choice confidence 0.65
 placement:
   primary_category: mcp
   secondary_categories: []

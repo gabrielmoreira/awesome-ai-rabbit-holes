@@ -78,13 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity and delivery mechanism is a set of specialized MCP servers designed to provide
-    domain-specific financial data to agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - README describes it as an 'MCP data layer for AI-assisted market research'
-    - Provides 13 specific tools (e.g., sec8k_material_today, top_yield_farms) delivered via MCP
-    - Supports both hosted MCP endpoints and local stdio installation via pip
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -53,17 +53,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a primary coding assistant with autonomous repo-level capabilities, not merely an extension or integration
-    layer.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - 'Repo description: ''AI programming assistant'''
-    - >-
-      README: 'The purpose of Clippinator is to develop code for or with the user. It can plan, write, debug, and test
-      some projects autonomously.'
-    - >-
-      Uses multiple specialized agents (Taskmaster, Architect, Writer, etc.) with tools like file I/O, terminal, and
-      linters.
+    - jev-latest choice confidence 0.62
 placement:
   primary_category: coding-agents
   secondary_categories: []

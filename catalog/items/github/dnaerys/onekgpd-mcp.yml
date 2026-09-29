@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server whose primary identity is providing MCP-based access to a biological dataset,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly identifies it as a '1000 Genomes Project Dataset MCP Server'
-    - README confirms it is a natural language access layer for a genomic dataset via MCP
-    - Already listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

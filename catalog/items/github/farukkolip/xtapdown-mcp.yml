@@ -69,21 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is providing tooling over the Model Context Protocol, making it a
-    clear fit for MCP Servers & Tooling rather than an extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description: 'XTapDown MCP Server — 14 X (Twitter) creator tools for Claude, ChatGPT, Gemini and any MCP
-      client'
-    - >-
-      README: Explicitly positions itself as an MCP server that gives LLM clients direct access to XTapDown tools via
-      stdio or HTTP/SSE
-    - 'Source-list context: Included in awesome-mcp-servers under Server Implementations > Communication'
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

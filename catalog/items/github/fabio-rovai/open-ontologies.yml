@@ -81,13 +81,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is a specialized MCP server designed to provide semantic reasoning tools to AI hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly identifies as a 'Rust MCP server'
-    - README highlights 43 tools exposed via MCP for Claude, Cursor, and Windsurf
-    - Core value is providing ontology reasoning (OWL2-DL, SPARQL) as an MCP capability
+    - jev-latest choice confidence 0.52
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

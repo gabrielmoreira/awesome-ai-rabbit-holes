@@ -58,15 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Orca is a standalone coding assistant that directly edits files, runs commands, and verifies results in a terminal
-    workflow, matching the core identity of a coding agent rather than an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''Orca is a DeepSeek-native coding agent.'''
-    - >-
-      README: 'Give Orca a task and it reads code, edits files, runs commands, verifies the result, and keeps working
-      until the task is done'
-    - Features TUI and headless `orca exec` modes for interactive and scripted use
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: coding-agents
   secondary_categories: []

@@ -537,10 +537,15 @@
     include: true
     primary_category: evals
     section: Observability & Tracing
-  hard_negatives:
+  acceptable_alternatives:
     - agent-orchestration
+  hard_negatives:
     - ai-frameworks
-  notes: Prompt and eval platform; dominant section is eval/observability ops. Not an orchestration platform.
+  notes: >
+    Prompt and eval platform; dominant section is eval/observability ops, and its own entry in
+    the evals false-positive list called the orchestration identity stronger. Both classifiers
+    chose agent-orchestration, so it is listed as an accepted alternative rather than a failure
+    that hides a real disagreement.
 
 - id: evals__agentbench
   item_id: github__agentbench__agentbench
@@ -600,10 +605,15 @@
     include: true
     primary_category: local-ai
     section: Local API Servers
-  hard_negatives:
+  acceptable_alternatives:
     - ai-frameworks
+  hard_negatives:
     - coding-agents
-  notes: Python bindings for llama.cpp providing an OpenAI-compatible local server. Local execution identity beats the framework interpretation.
+  notes: >
+    Python bindings for llama.cpp that also serve an OpenAI-compatible endpoint. The local-ai
+    identity is the case's judgement; the library identity is what both classifiers picked, and
+    local-ai's own do_not_use_when admits "a code-first framework that happens to support local
+    model backends". Accepted either way.
 
 - id: local-ai__open-webui
   item_id: github__open-webui__open-webui

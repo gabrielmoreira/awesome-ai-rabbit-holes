@@ -77,13 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is explicitly an MCP server designed to provide web-browsing and research tools to agents through the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - README describes it as an MCP server for web grounding
-    - Provides tools like search, read_url, and research via MCP
-    - Uses a stealth Chrome container to avoid automation detection
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: mcp
   secondary_categories: []

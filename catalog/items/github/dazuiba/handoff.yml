@@ -70,19 +70,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Handoff functions as a terminal-native coding agent that delegates work to other models while maintaining session
-    context, fitting the CLI agent role rather than merely extending another assistant.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''Delegate tasks to DeepSeek right inside your Claude Code / Codex sessions.'''
-    - >-
-      README shows direct task execution: 'Make a plan, then hand it to `/handoff-ds`' with background processing and
-      result reporting.
-    - Appears in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'.
+    - jev-latest choice confidence 0.78
 placement:
-  primary_category: extensions-and-addons
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Claude Code & Agent Tools
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: null

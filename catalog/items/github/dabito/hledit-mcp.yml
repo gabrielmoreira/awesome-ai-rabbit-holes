@@ -74,13 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose core identity is providing hash-anchored file editing over the MCP protocol,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for hledit hash-anchored file edits
-    - README emphasizes MCP compatibility and integration with MCP clients like Claude Code and Cursor
-    - Listed in the official MCP Registry
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

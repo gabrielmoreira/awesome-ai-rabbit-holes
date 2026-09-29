@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is serving TwitterAPI.io documentation via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is a 'TwitterAPI.io MCP server'
-    - README confirms it is an MCP server for offline docs access in AI assistants
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

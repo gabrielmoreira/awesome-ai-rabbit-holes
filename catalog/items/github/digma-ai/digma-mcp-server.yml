@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an implementation of an MCP server designed to provide specific domain knowledge
-    (observability) to MCP clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README explicitly identifies as 'A Model Context Protocol (MCP) server implementation'
-    - Primary function is enabling agents to access observability insights via MCP
-    - Provides context for agents via SSE or command tools
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

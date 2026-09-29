@@ -84,13 +84,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: it is a server that exposes analytics capabilities via the Model Context Protocol, not
-    merely an MCP-compatible tool.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it works in Claude, Cursor, and any MCP client
-    - README emphasizes MCP-native integration and private library queryable from MCP clients
-    - Listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -74,17 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    llm-bus is a coordination layer for multiple agents with shared state, handoffs, and resource allocation, making it
-    a control plane for agent workflows rather than a coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'Open-source coordination engine for AI agents, over MCP. Atomic claims, shared ledger, leases,
-      presence, handoffs, tasks.'
-    - >-
-      README: 'Stop being the bridge between your agents... LLM Bus is the shared backplane over MCP that does the
-      relaying.'
-    - MCP tools include handoffs, claims, leases, tasks, presence—core orchestration primitives.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

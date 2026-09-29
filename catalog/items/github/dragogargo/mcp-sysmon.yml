@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server providing system monitoring tools, not merely an adapter
-    or compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP server for system monitoring
-    - README details MCP-specific installation and usage with Claude Desktop/Code
-    - Tool list and example prompts are all framed as MCP tools for Claude
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -73,17 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server providing a specialized domain-specific protocol (ZAP1) to AI
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description identifies it as 'ZAP1 attestation and proof-verification MCP for Zcash agents'
-    - README explicitly defines its role as an MCP server exposing the ZAP1 attestation layer
-    - The tool focuses on protocol-specific capabilities like attest, anchor, prove, and verify via MCP
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

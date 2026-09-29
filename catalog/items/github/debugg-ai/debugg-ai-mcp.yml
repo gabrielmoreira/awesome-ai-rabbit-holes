@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server exposing browser testing tools via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly identifies it as an MCP server for AI-powered browser testing
-    - README details 12 MCP tools (e.g., `check_app_in_browser`, `probe_page`) and MCP client configuration
-    - Listed in awesome-mcp-servers under 'Official Servers'
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: mcp
   secondary_categories: []

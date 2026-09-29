@@ -77,17 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is a structural context-retrieval and dependency-graph system designed to feed the right files into
-    a model, which aligns with Prompt & Context Engineering.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly calls it a 'code graph context engine' with MCP tools for file discovery.
-    - >-
-      README positions it as solving the problem of agents guessing files by using tree-sitter dependency graphs and 24
-      MCP tools.
-    - >-
-      Includes a Python API (build_graph, search_symbols, importers_of) confirming it is a context infrastructure tool
-      rather than a primary coding assistant.
+    - jev-latest choice confidence 0.58
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is a specialized server designed specifically for the Model Context Protocol to expose MySQL capabilities
-    to LLM clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description identifies it as an 'MCP server for MySQL database operations'
-    - README details specific MCP tools like connect_db, query, and describe_table
-    - Fits the 'Domain Servers' section of the MCP category by providing domain-specific database logic
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

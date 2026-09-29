@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is primarily a Python SDK that developers import and script against to manage agent operations, rather
-    than a standalone conversational assistant.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
   evidence:
-    - README highlights a Python SDK with 'ingle_agent' and 'agent_map' functions
-    - Provides core building blocks for researcher, forecaster, and scorer roles
-    - Includes MCP connectivity for integration into other environments
+    - jev-latest choice confidence 0.57
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

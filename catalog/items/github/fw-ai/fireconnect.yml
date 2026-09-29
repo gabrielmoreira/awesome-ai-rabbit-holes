@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool functions as an integration layer that augments existing coding assistants by redirecting their model
-    traffic through a different provider.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
-    - README states it 'points your existing AI coding tools at Fireworks'
-    - Explicitly supports 'harnesses' like Claude Code, Cursor, and VS Code
-    - Operates by rewriting host configuration files via 'on' and 'off' commands
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []

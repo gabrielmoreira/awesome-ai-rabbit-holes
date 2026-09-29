@@ -62,13 +62,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    DeepSeek Harness is a code-first framework/SDK for building agents via plugins, fitting Frameworks & SDKs as
-    developers import and script against it rather than operate it as a control plane.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''DeepSeek Harness: Everything is a Plugin.'''
-    - 'README: ''uses an architecture where everything is a plugin, and is powered by Cordis'''
-    - Installation via npm/pnpm and CLI usage (pnpm dsh web) indicates developer-facing toolkit
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

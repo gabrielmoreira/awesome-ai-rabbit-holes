@@ -59,11 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the primary product identity, and the server exposes IMAP operations as MCP tools for AI assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states it is an IMAP MCP server
-    - README confirms MCP compatibility and IMAP tool exposure
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

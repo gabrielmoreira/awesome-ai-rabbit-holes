@@ -55,11 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server for Docker Hub, not a compatibility footnote.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'Docker Hub MCP Server'
-    - README positions it as an MCP server interfacing with Docker Hub APIs
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

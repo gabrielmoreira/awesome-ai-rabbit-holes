@@ -59,11 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is specifically an MCP server designed to bridge a CLI to LLM clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description identifies it as an 'ESP RainMaker MCP server'
-    - README specifies it is a 'Model Context Protocol (MCP) server wrapper'
-    - Provides specific integration instructions for MCP clients like Cursor and Claude Desktop
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

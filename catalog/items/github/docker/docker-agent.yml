@@ -62,20 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Docker Agent is primarily a platform for defining, running, and sharing multi-agent AI systems via declarative
-    configuration and tool integration, making it a runtime workbench for agent coordination rather than a single coding
-    assistant.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      README states: 'Build, run, and share AI agents with a declarative YAML config, rich tool ecosystem, and
-      multi-agent orchestration.'
-    - >-
-      Features include: 'Multi-agent architecture — Create teams of specialized agents that delegate tasks
-      automatically' and 'Package & share — Push agents to any OCI registry, pull and run them anywhere'
-    - >-
-      Source-list context: listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Agent
-      infrastructure'
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

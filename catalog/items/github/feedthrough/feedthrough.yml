@@ -77,17 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is as an MCP server implementation that bridges browser internals to a client, fitting
-    the MCP category's specific server identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly defines it as 'exposing runtime internals to AI agents via MCP'.
-    - Provides a dedicated `@feedthrough/mcp` package as the primary bridge.
-    - Listed in awesome-mcp-servers under Browser Automation.
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

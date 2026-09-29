@@ -66,17 +66,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: the repo explicitly ships an MCP server alongside its Python SDK and LangChain
-    tools, and it is already listed in an MCP server registry.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly states it is a Python SDK, LangChain tools, and MCP server for corporate credit data
-    - README highlights MCP server badge and Glama registry link
-    - Listed in awesome-mcp-servers under Finance & Fintech
+    - jev-latest choice confidence 0.64
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

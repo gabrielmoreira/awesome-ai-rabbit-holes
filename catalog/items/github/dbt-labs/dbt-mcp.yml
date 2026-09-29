@@ -84,11 +84,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server for dbt, not a compatibility footnote.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is a MCP server for interacting with dbt
-    - README details extensive MCP tools for SQL, semantic layer, discovery, CLI, and admin APIs
-    - Already listed in awesome-mcp-servers under Server Implementations > Data Platforms
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

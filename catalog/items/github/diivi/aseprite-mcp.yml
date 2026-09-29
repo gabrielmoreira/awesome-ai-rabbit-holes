@@ -58,14 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server designed to provide a specific domain's API to an AI host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description identifies it as an 'MCP server for interacting with the Aseprite API'
-    - README provides specific MCP configuration for integration with Cursor
+    - jev-latest choice confidence 0.85
 placement:
-  primary_category: extensions-and-addons
+  primary_category: mcp
   secondary_categories: []
-  section: API & Service Integrations
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (160) exceeded threshold (150)

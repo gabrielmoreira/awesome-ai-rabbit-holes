@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core identity is providing infrastructure/middleware for the Model Context Protocol to enable remote
-    access to local tools.
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - README describes it as a 'Lightweight bridge that exposes local MCP servers as HTTP APIs'
-    - The product implements both Streamable HTTP and classic request/response bridge modes for MCP
-    - Primary functionality is acting as an HTTP gateway for MCP
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

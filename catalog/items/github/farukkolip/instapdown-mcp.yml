@@ -65,17 +65,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server providing domain-specific tools, making it a clear fit for the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''16 Instagram creator tools as an MCP server'''
-    - >-
-      README: 'Wraps the public API and data behind instapdown.com so any MCP client [...] can download Reels, audit
-      engagement...'
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication'
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

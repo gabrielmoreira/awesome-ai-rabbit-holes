@@ -58,17 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the primary product identity here - this is explicitly a Model Context Protocol server for DreamFactory
-    integration with Claude.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description identifies it as a DreamFactory MCP server for Claude integration
-    - README explicitly describes it as an MCP server with detailed installation/configuration for Claude Desktop
-    - Listed in awesome-mcp-servers under Official Servers
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

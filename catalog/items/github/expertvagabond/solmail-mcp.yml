@@ -71,17 +71,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server designed to provide specific domain capabilities (physical mail via Solana)
-    to host agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description defines it as an 'MCP server for sending physical mail'
-    - README provides an MCP config JSON implementation
-    - Primary function is providing tools (`get_mail_quote`, `send_mail`) via the Model Context Protocol
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: null

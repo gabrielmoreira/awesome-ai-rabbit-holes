@@ -61,19 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's entire identity is memory and retrieval infrastructure for long-running agents, which squarely fits
-    Prompt & Context Engineering rather than being the agent itself or a thin host integration.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      README describes itself as a 'context engine' that 'stores full episodes and retrieves old constraints instead of
-      losing them to summaries.'
-    - >-
-      Core mechanism is hierarchical clustering, beam-search retrieval, and episodic storage—classic context-shaping
-      infrastructure.
-    - >-
-      Marketed as a drop-in OpenClaw plugin for constraint recovery, not as a coding agent, orchestration platform, or
-      IDE extension layer.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: memory-and-context
   secondary_categories: []

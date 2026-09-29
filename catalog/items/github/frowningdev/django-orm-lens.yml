@@ -89,17 +89,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary AI value is providing structured, ground-truth schema context to agents through MCP and static
-    analysis, effectively serving as a specialized context retrieval layer for Django.
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
   evidence:
-    - Provides 13 read-only MCP tools for answering schema questions from ground truth
-    - Uses static parsing to provide schema intelligence without a database or Django boot
-    - Offers a multi-surface distribution including a VS Code extension, CLI, and MCP server
+    - jev-latest choice confidence 0.56
 placement:
-  primary_category: mcp
+  primary_category: decision-models
   secondary_categories: []
-  section: Data & Databases
+  section: Verification, Guardrails & Safety
 lifecycle:
   status: curated
   reason: null
