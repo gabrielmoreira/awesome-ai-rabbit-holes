@@ -26,6 +26,9 @@ import * as fs from "node:fs";
 import * as path from "node:path";
 import * as crypto from "node:crypto";
 import * as yaml from "js-yaml";
+import { recordBelowGateVerdict } from "./placement-provenance.ts";
+import { deriveSeedSummary, sanitizeText } from "./seed-summary.ts";
+import { readWebsiteLinkResolution } from "../catalog/website-links.ts";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -98,6 +101,8 @@ interface ReclassifyResult {
   skipReason?: string;
   inputTokens: number;
   model: string;
+  /** The option right behind the winner, or null when there was no second. */
+  runnerUpCategory: string | null;
 }
 
 /** Persisted cache entry for one item. */
@@ -240,17 +245,6 @@ function loadIncludedItems(): LoadedItem[] {
 
 function saveItem(filePath: string, item: CatalogItem): void {
   fs.writeFileSync(filePath, yaml.dump(item, { lineWidth: 120, noRefs: true }), "utf8");
-}
-
-// ─── Text helpers ─────────────────────────────────────────────────────────────
-
-/** Strip unpaired surrogates and control chars that Jev rejects. */
-function sanitizeText(text: string | null | undefined): string {
-  if (!text) return "";
-  return text
-    .replace(/[\uD800-\uDFFF]/g, "")           // unpaired surrogates
-    .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, "") // control chars (keep \t \n \r)
-    .trim();
 }
 
 // ─── Jev helpers ──────────────────────────────────────────────────────────────
@@ -470,47 +464,19 @@ function buildItemState(item: CatalogItem, summaryOverride?: string): Record<str
 
 // ─── Result applier ───────────────────────────────────────────────────────────
 
-/** Strip markdown table/badge/link noise from an index line so it reads as prose. */
-function cleanIndexLine(raw: string | null | undefined): string {
-  const text = sanitizeText(raw);
-  if (!text) return "";
-  // Table-style indexes put the useful description in the longest cell; the
-  // other cells hold the name, a star count, a language, and a date.
-  const cells = text.split("|").map((cell) => cell.trim()).filter(Boolean);
-  const source = cells.length > 1 ? cells.reduce((longest, cell) => (cell.length > longest.length ? cell : longest)) : text;
-  return source
-    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
-    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
-    .replace(/\*\*|`/g, "")
-    .replace(/^\s*[-*]\s*/, "")
-    .replace(/[|]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
 /**
- * The catalog prompt tells the categorizer to seed the summary from the
- * repository description. Discovery and the star refresh already store that
- * description, and every discovery records the index line the project was
- * found on, so a freshly imported item can be placed and rendered before the
- * (slow, free) categorizer writes its own prose. The categorizer overwrites
- * this later because its stored rules version is still missing.
+ * An item needs words before the (slow, free) categorizer writes its own prose,
+ * or the reclassifier has nothing to classify from. Its own repository
+ * description and the index line it was found on come first; the last resort is
+ * the website-link cache, pages the pipeline already fetched for their canonical
+ * URL and never turned into a summary.
  */
-function deriveSeedSummary(item: CatalogItem): string {
-  const description = sanitizeText(item.metadata?.github?.description);
-  if (description.length >= 15) return description;
-
-  for (const discovery of item.provenance?.discoveries ?? []) {
-    const line = cleanIndexLine(discovery.extraction?.surrounding_text);
-    if (line.length >= 15) return line;
-  }
-  return "";
-}
+const seedSummary = (item: CatalogItem): string => deriveSeedSummary(item, readWebsiteLinkResolution);
 
 function resolveSummaryText(item: CatalogItem): string {
   const existing = sanitizeText(item.insights?.summary);
   if (existing.length >= 15 && existing !== "N/A") return existing;
-  return deriveSeedSummary(item);
+  return seedSummary(item);
 }
 
 /** True once the categorizer, not this script, wrote the item's prose. */
@@ -524,6 +490,7 @@ function applyResultToItem(
   newSection: string | null,
   shouldInclude: boolean,
   confidence: number,
+  model: string,
 ): CatalogItem {
   const updated = structuredClone(item);
   if (!shouldInclude) {
@@ -538,7 +505,7 @@ function applyResultToItem(
     updated.curation = {
       status: "included",
       reason: `Jev decision-model reclassifier placed this item in ${newCategory} / ${newSection}`,
-      evidence: [`jev-latest choice confidence ${confidence.toFixed(2)}`],
+      evidence: [`jev ${model} confidence ${confidence.toFixed(2)}`],
     };
     const seededSummary = resolveSummaryText(item);
     if (seededSummary && sanitizeText(item.insights?.summary) !== seededSummary) {
@@ -573,7 +540,7 @@ async function reclassifyItem(
     itemId: item.id, filePath, oldCategory, oldSection,
     newCategory: null, newSection: null,
     shouldInclude: false, confidence: 0, ambiguous: false, changed: false,
-    skipped: true, skipReason: reason, inputTokens: 0, model: "",
+    skipped: true, skipReason: reason, inputTokens: 0, model: "", runnerUpCategory: null,
   });
 
   const summary = resolveSummaryText(item);
@@ -673,13 +640,19 @@ async function reclassifyItem(
   const confidence = categoryAnswer.confidence;
   const inputTokens = categoryResult.usage.input_tokens + shortlistTokens;
   const model = categoryResult.model;
+  // The option right behind the winner, and never the exclusion: "out of scope"
+  // is not a category an item can sit beside.
+  const runnerUpCategory =
+    Object.entries(categoryAnswer.probabilities ?? {})
+      .filter(([id]) => id !== chosenKey && id !== EXCLUDED_PLACEMENT_KEY)
+      .sort((a, b) => b[1] - a[1])[0]?.[0] ?? null;
 
   if (!shouldInclude || !chosenCategory) {
     return {
       itemId: item.id, filePath, oldCategory, oldSection,
       newCategory: null, newSection: null,
       shouldInclude: false, confidence, ambiguous: confidence < minConfidence, changed: false,
-      skipped: false, inputTokens, model,
+      skipped: false, inputTokens, model, runnerUpCategory,
     };
   }
 
@@ -720,6 +693,7 @@ async function reclassifyItem(
     skipped: false,
     inputTokens: totalTokens,
     model,
+    runnerUpCategory,
   };
 }
 
@@ -784,7 +758,7 @@ async function main() {
     for (const { filePath, item } of items) {
       if (item.curation?.status !== "included") continue;
       if (hasCategorizerInsights(item)) continue;
-      const seeded = deriveSeedSummary(item);
+      const seeded = seedSummary(item);
       if (!seeded || seeded === sanitizeText(item.insights?.summary)) continue;
       // Replacing an existing summary is only safe for items the caller named
       // explicitly — without an id set, this only fills a missing summary so a
@@ -885,9 +859,22 @@ async function main() {
         }
 
         // Apply to disk
-        if (!args.dryRun && !result.skipped && !result.ambiguous && result.newCategory) {
-          const updated = applyResultToItem(loaded.item, result.newCategory, result.newSection, result.shouldInclude, result.confidence);
-          saveItem(loaded.filePath, updated);
+        if (!args.dryRun && !result.skipped) {
+          if (!result.ambiguous && result.newCategory) {
+            saveItem(loaded.filePath, applyResultToItem(loaded.item, result.newCategory, result.newSection, result.shouldInclude, result.confidence, result.model));
+          } else if (result.ambiguous) {
+            // The gate refused the verdict. The item keeps its placement and the
+            // verdict is written down instead of thrown away, so the residue is
+            // visible in the item rather than only in a report.
+            saveItem(loaded.filePath, recordBelowGateVerdict(loaded.item, {
+              proposedCategory: result.shouldInclude ? result.newCategory : null,
+              proposedSection: result.shouldInclude ? result.newSection : null,
+              runnerUp: result.runnerUpCategory,
+              shouldInclude: result.shouldInclude,
+              confidence: result.confidence,
+              model: result.model,
+            }, args.minConfidence));
+          }
         }
       } catch (err) {
         // Record error in cache so it gets retried next run
