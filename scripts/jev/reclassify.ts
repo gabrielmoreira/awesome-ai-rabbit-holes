@@ -759,8 +759,8 @@ function parseArgs(): CliArgs {
     else if (argv[i] === "--seed-only") args.seedOnly = true;
     else if (argv[i] === "--endpoint" && argv[i + 1]) args.endpoint = argv[++i]!;
     else if (argv[i] === "--model" && argv[i + 1]) args.model = argv[++i]!;
-    else if (argv[i] === "--no-tie-breaks") args.tieBreaks = false;
-    else if (argv[i] === "--no-section-context") args.sectionContext = false;
+    else if (argv[i] === "--tie-breaks") args.tieBreaks = true;
+    else if (argv[i] === "--section-context") args.sectionContext = true;
     else if (argv[i] === "--terse-criteria") args.terseCriteria = true;
     else if (argv[i] === "--cascade" && argv[i + 1]) args.cascadeWindow = Number(argv[++i]);
   }
