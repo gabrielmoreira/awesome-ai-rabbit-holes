@@ -60,19 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly a framework for building MCP server infrastructure, making it a perfect fit for the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description identifies it as a 'Secure, Multi-Tenant MCP Server Framework'.
-    - >-
-      README states it 'extends the capabilities of FastMCP 2.7' to create 'sophisticated, multi-tenant AI backend
-      systems'.
-    - Listed under 'Frameworks' in the awesome-mcp-servers directory.
+    - jev-latest choice confidence 0.55
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

@@ -68,15 +68,12 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is an MCP server that provides deal aggregation as its core product identity, making it a clear fit for MCP
-    Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'MCP server aggregating free tiers, startup credits & developer tool deals'
-    - README positions it as a server with 4 tools and 6 prompt templates for any MCP-compatible client
-    - Topics include mcp and mcp-server, and it is listed in awesome-mcp-servers under 'Aggregators'
+    - jev-latest choice confidence 0.58
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

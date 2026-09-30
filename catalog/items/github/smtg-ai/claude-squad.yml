@@ -65,17 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a terminal workbench and control surface for coordinating multiple coding agents across isolated
-    sessions and branches, which matches agent orchestration rather than being a coding assistant itself.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.'''
-    - >-
-      README: 'terminal app that manages multiple Claude Code, Codex, Gemini, and other local agents in separate
-      workspaces' using tmux and git worktrees.
-    - >-
-      Source list placement: awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel
-      runners'.
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

@@ -59,13 +59,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP client with REST and CLI surfaces, making it a clear fit for MCP infrastructure
-    tooling rather than a generic coding agent or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - README states it is 'A simple REST API and CLI client to interact with Model Context Protocol (MCP) servers.'
-    - Supports any MCP-compatible servers and is listed in awesome-mcp-servers under Clients.
-    - Uses LangChain to execute LLM prompts across multiple MCP servers simultaneously.
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: mcp
   secondary_categories: []

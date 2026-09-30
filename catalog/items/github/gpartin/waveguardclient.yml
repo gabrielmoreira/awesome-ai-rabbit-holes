@@ -70,17 +70,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a code-first SDK for integrating an anomaly detection API, fitting the Frameworks & SDKs category as
-    a provider abstraction.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
-    - Repo description explicitly calls it a 'Python SDK for WaveGuard physics-based anomaly detection API'
-    - README emphasizes it as a library for API integration with code examples and benchmarks
-    - Topics include 'sdk' and 'python', and the README shows it's meant to be imported and used programmatically
+    - jev-latest choice confidence 0.78
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: AI & Model Services
+  section: Provider & Model Abstractions
 lifecycle:
   status: curated
   reason: null

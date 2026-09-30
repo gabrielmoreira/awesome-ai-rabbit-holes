@@ -80,13 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server providing domain-specific (finance) tooling for AI
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly identifies it as an MCP server for Chart Library
-    - README details MCP client integrations (Claude Desktop, Cursor, VS Code, etc.) and remote MCP endpoint
-    - Source-list context places it in awesome-mcp-servers under Finance & Fintech
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []

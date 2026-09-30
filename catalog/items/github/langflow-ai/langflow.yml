@@ -85,15 +85,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Langflow functions as a visual workbench for designing, testing, and coordinating multi-agent workflows, making it a
-    control plane for agent orchestration rather than a coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Visual Builders & Workbenches
   evidence:
-    - 'Repo description: ''Langflow is a powerful tool for building and deploying AI-powered agents and workflows.'''
-    - >-
-      README: 'Multi-agent orchestration with conversation management and retrieval' and 'Deploy as an MCP server and
-      turn your flows into tools for MCP clients'.
-    - 'Pushed at: 2026-07-20, showing active maintenance; Stars: 152087 indicate strong traction.'
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

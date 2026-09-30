@@ -71,13 +71,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server designed to provide specific domain-driven data access to host assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly defines it as 'Biomedical Model Context Protocol'
-    - README details implementation as an MCP server for Claude Desktop and other clients
-    - Provides domain-specific 'kills' and command grammar for biomedical research
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

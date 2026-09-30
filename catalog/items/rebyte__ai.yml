@@ -52,17 +52,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a workforce platform for coordinating multiple specialized agents (e.g., researchers, engineers,
-    analysts) with shared context, identities, and tool access, not a single coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
   evidence:
-    - >-
-      Described as 'hire a team of digital employees — agents on real cloud computers that build, ship, and operate
-      software for you'
-    - Agents are scoped, named, and equipped like hires (identities, roles, cloud machines, tools, access control)
-    - >-
-      Multi-agent coordination is the primary workflow (e.g., @claude reviews, @codex implements in the same Slack
-      thread)
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

@@ -55,11 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a domain-specific MCP server providing crypto project data to agents.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server
-    - README details MCP server setup and usage with `mcp dev` and `mcp install`
-    - Core functionality is exposing Mobula.io data via MCP tools and prompts
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

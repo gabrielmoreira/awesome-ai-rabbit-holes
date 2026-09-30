@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is an MCP server for WhatsApp, making MCP the primary product rather than an extension
-    or agent, and it fits the MCP Servers & Tooling category's definition of domain-specific MCP infrastructure.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''WhatsApp MCP server'''
-    - 'README: ''This is a Model Context Protocol (MCP) server for WhatsApp'' and details MCP server implementation'
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication'
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

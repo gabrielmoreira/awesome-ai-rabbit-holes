@@ -119,19 +119,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    SWE-agent is a standalone, developer-facing coding assistant that autonomously plans, edits, tests, and repairs code
-    across a repo via the CLI, matching the coding-agents category perfectly.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - >-
-      Repo description states it 'takes a GitHub issue and tries to automatically fix it, using your LM of choice' with
-      19,147 stars.
-    - >-
-      README claims it 'autonomously use tools to fix issues in real GitHub repositories' and is state-of-the-art on
-      SWE-bench.
-    - >-
-      Included in awesome-ai-coding-tools and awesome-cli-coding-agents under 'Terminal-native coding agents > Open
-      Source'.
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: coding-agents
   secondary_categories: []

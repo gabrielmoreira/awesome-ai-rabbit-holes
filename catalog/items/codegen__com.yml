@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__codegen__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-06-04T05:40:27.160Z"
+      discovered_at: '2026-06-04T05:40:27.160Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Codegen
         anchor_text: Codegen
         extracted_url: https://www.codegen.com
-        surrounding_text: "## [Codegen](https://www.codegen.com/)"
+        surrounding_text: '## [Codegen](https://www.codegen.com/)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Codegen.com is a developer directory and learning hub for AI coding tools like Claude Code, Cursor, and Windsurf, offering skills, guides, comparisons, and agent recipes.
-  why_it_matters: It helps developers discover, install, and learn to use AI coding agents and extensions through curated skills, tutorials, and tool comparisons.
-  mental_damage: Another curated list promising to save you from tool fatigue, while adding yet another tab to your endless AI coding tool comparison spreadsheet.
+  summary: >-
+    Codegen.com is a developer directory and learning hub for AI coding tools like Claude Code, Cursor, and Windsurf,
+    offering skills, guides, comparisons, and agent recipes.
+  why_it_matters: >-
+    It helps developers discover, install, and learn to use AI coding agents and extensions through curated skills,
+    tutorials, and tool comparisons.
+  mental_damage: >-
+    Another curated list promising to save you from tool fatigue, while adding yet another tab to your endless AI coding
+    tool comparison spreadsheet.
   tags:
     - developer-directory
     - ai-coding-tools
@@ -46,22 +52,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is a standalone agent platform that plans and implements changes across a repo, moving from ticket to PR.
+  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
   evidence:
-    - Claims to 'automate the full development workflow — from ticket to pull request'
-    - Described as the 'Operating System for AI coding agents'
-    - Includes specific integration where 'Tickets Become Code' (Linear integration)
+    - jev-latest choice confidence 0.95
 placement:
-  primary_category: coding-agents
+  primary_category: awesome-awesomes
   secondary_categories: []
-  section: null
+  section: Awesome Lists & Directories
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'awesome-awesomes'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''awesome-awesomes'''
 processing:
   discover:
     status: done
-    updated_at: "2026-06-04T05:40:27.161Z"
+    updated_at: '2026-06-04T05:40:27.161Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:33:37.582Z"
+    updated_at: '2026-09-21T04:33:37.582Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,14 +87,20 @@ processing:
       input_hash: sha256:227b566eec428a9980b8be0e7b2aca3f766c239cc44f8a02797a1b80e0ccf0c9
       proposed_primary_category: awesome-awesomes
       disagreement: true
-      decision_reason: Codegen.com functions as a curated directory and educational resource for AI coding tools, aligning with the awesome-awesomes category's purpose of helping developers discover and navigate the AI ecosystem.
+      decision_reason: >-
+        Codegen.com functions as a curated directory and educational resource for AI coding tools, aligning with the
+        awesome-awesomes category's purpose of helping developers discover and navigate the AI ecosystem.
       decision_evidence:
         - Described as 'The developer directory for Claude Code, Cursor, Windsurf, and every AI coding tool worth using'
-        - Seen in source list awesome-ai-agents under section 'Codegen' as a source for 'AI coding tool reviews, head-to-head comparisons, alternatives guides'
+        - >-
+          Seen in source list awesome-ai-agents under section 'Codegen' as a source for 'AI coding tool reviews,
+          head-to-head comparisons, alternatives guides'
         - Offers skills, guides, courses, and agent recipes for installing and using AI coding agents like Claude Code
       category_candidates:
         - awesome-awesomes
         - skills
-      contrastive_reason: Choose awesome-awesomes over skills because while it hosts skill packs, its primary identity is as a curated directory and learning hub for AI coding tools, not a skill registry or distributor.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'awesome-awesomes'"
+      contrastive_reason: >-
+        Choose awesome-awesomes over skills because while it hosts skill packs, its primary identity is as a curated
+        directory and learning hub for AI coding tools, not a skill registry or distributor.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''awesome-awesomes'''
       review_resume_lifecycle: null

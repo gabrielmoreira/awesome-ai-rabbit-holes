@@ -74,13 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is a Model Context Protocol server providing domain-specific tools for a specific set of
-    APIs.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly calls it an 'MCP server for M-Pesa'
-    - README focuses entirely on MCP tool definitions like `mpesa_stk_push` and `sms_send`
-    - Provides configuration instructions specifically for Claude Desktop and Claude Code MCP setups
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

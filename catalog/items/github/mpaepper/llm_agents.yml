@@ -78,15 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Developers import and script against this as a lightweight agent framework/library, making it a code-first building
-    block rather than a standalone assistant or platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''Build agents which are controlled by LLMs'''
-    - >-
-      README: 'Small library... pip install -e .' and usage example shows importing Agent, ChatLLM, and Tools directly
-      in Python code.
-    - Topics include langchain, llms, and deep-learning; listed in awesome-langchain under 'Other LLM Frameworks'.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

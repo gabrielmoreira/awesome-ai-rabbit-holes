@@ -65,17 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    automl-gs is a code-first Python library that generates models and pipelines for developers to import and use,
-    fitting the Frameworks & SDKs category as a reusable toolkit for embedding ML workflows.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - 'Repo description: ''Provide an input CSV and a target field to predict, generate a model + code to run it.'''
-    - 'README: ''generates native Python code; no platform lock-in'' and ''invoked from Python via automl_grid_search'''
-    - 'Stars: 1867, pushed 2019-10-22 (not archived), shows established traction in AutoML'
+    - jev-latest choice confidence 0.64
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Fine-tuning & Training
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (1869) exceeded threshold (150)

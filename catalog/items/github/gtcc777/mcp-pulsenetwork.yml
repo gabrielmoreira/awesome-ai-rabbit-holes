@@ -91,22 +91,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server that exposes domain intelligence APIs as tools, making MCP the core product identity rather
-    than an extension or compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description: 'MCP server for PulseNetwork — discover & pay (x402, USDC on Base + Solana) for 68 real-time
-      intelligence APIs'
-    - 'README: Describes installation and configuration as an MCP server for Claude Desktop and other MCP clients'
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Aggregators'
-    - Explicitly identifies as an 'MCP server for PulseNetwork'
-    - Provides 67 intelligence verticals as MCP tools
-    - Configured via standard MCP client patterns (Claude Desktop, Cursor, etc.)
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

@@ -61,13 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a prompt- and form-driven code generator that produces new smart contract scaffolds rather than editing an
-    existing repo as a primary coding assistant.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Scaffolding & Boilerplate
   evidence:
-    - Repo description states it is an 'Interactive smart contract generator based on OpenZeppelin Contracts.'
-    - README says it generates all necessary code from selected parameters and features, ready to compile or customize.
-    - Includes a CLI and MCP server, but these are secondary interfaces to the core scaffolding product.
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: app-builders
   secondary_categories: []

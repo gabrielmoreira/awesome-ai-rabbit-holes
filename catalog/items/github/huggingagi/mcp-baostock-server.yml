@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server whose primary identity is exposing stock market data via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - README explicitly describes it as a BaoStock-based stock data server with MCP interface
-    - Provides multiple stock data endpoints (K-line, financials, dividends, etc.)
-    - Repository is active (pushed March 2026) and not archived
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []

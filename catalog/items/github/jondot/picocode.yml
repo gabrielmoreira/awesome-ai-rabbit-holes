@@ -59,17 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a standalone coding assistant that directly reads, edits, and automates code workflows, fitting the primary
-    assistant identity.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - >-
-      Repo description: 'a minimal, Rust-based coding agent focused at CI workflows and small codemods, similar to
-      Claude Code'
-    - >-
-      README: 'picocode is a minimal, high-performance Rust-based coding agent' with filesystem, search, and system
-      tools
-    - 'Source-list context: listed under ''Terminal-native coding agents > Open Source'' in awesome-cli-coding-agents'
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: coding-agents
   secondary_categories: []

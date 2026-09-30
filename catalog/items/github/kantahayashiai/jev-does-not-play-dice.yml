@@ -119,20 +119,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    Jev Does Not Play Dice (site) - Independent calibration evaluation of Jev on fair random draws with known
+    probabilities and synthetic forecast documents, with recorded outputs and offline recomputation.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - jev-latest choice confidence 0.52
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Evals, Benchmarks & Calibration
 lifecycle:
   status: curated
   reason: null

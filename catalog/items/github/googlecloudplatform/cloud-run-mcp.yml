@@ -59,17 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose primary identity is providing Cloud Run deployment capabilities to MCP-compatible
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for Cloud Run deployments
-    - README details MCP tools like deploy-file-contents, list-services, and deploy-local-folder
-    - Listed in awesome-mcp-servers under Official Servers
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (605) exceeded threshold (150)

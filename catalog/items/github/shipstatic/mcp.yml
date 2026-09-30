@@ -81,17 +81,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that exposes deployment, domain, and account tools to MCP-compatible clients like
-    Claude Code, Cursor, and Windsurf.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description states: ''MCP server for instant static site deploys from AI agents — free, no account needed'''
-    - README provides setup instructions for Claude Code, Cursor, Antigravity, Windsurf, and Zed as MCP clients
-    - Listed in awesome-mcp-servers under 'Cloud Platforms' as a server implementation
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

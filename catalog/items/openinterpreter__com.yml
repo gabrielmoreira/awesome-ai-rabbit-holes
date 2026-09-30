@@ -63,16 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Open Interpreter is a standalone coding agent that operates on codebases via terminal, making it a primary coding
-    surface rather than an extension or orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Spec-First & Plan-Execute
   evidence:
-    - Scraped site describes it as 'an open-source coding agent built for low-cost and open-weight models'
-    - Listed in awesome-ai-agents under the purpose 'A list of AI autonomous agents' with section 'Open Interpreter'
-    - No evidence of being an extension, framework, or app generator — its core identity is autonomous code execution
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  secondary_categories: []
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: curated
   reason: null

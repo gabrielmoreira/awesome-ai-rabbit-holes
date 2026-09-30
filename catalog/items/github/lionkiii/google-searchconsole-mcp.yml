@@ -73,17 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is providing Google Search Console data through the Model Context
-    Protocol, making MCP the primary product identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''MCP server for Google Search Console'''
-    - 'README: ''A Model Context Protocol (MCP) server that connects Google Search Console to AI assistants'''
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Data & Databases
 lifecycle:
   status: curated
   reason: null

@@ -79,17 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a control plane and workforce platform for coordinating multiple coding agents across a unified task
-    board and runtime, matching the agent-orchestration category definition exactly.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description and README state it is 'The open-source managed agents platform' for turning coding agents into
-      teammates with task assignment and progress tracking.
-    - Canonical positives for agent-orchestration explicitly list Multica as a reference example.
-    - >-
-      Works with Claude Code, Codex, Copilot CLI, Cursor Agent, and others, functioning as a coordination layer rather
-      than a single assistant.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

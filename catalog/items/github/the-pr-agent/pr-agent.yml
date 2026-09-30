@@ -67,13 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a standalone AI coding assistant whose primary job is reviewing, improving, and answering questions about pull
-    requests across multiple git platforms.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - 'Repo description explicitly states: ''The Original Open-Source PR Reviewer.'''
-    - README defines PR-Agent as 'an open-source, AI-powered code review agent' with /review, /improve, and /ask tools.
-    - Seen in awesome-ai-coding-tools under 'Code Review and Refactoring', matching its core identity.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: coding-agents
   secondary_categories: []

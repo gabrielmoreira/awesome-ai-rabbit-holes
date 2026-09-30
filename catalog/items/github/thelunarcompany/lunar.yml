@@ -72,15 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is centered on MCP as a gateway and aggregator, acting as middleware to consolidate and govern
-    MCP servers along with general AI API traffic.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'Agent native MCP Gateway for governance and security'.
-    - >-
-      README highlights 'Centralized MCP Aggregation' and includes Lunar MCPX as a zero-code aggregator for multiple MCP
-      servers.
-    - GitHub topics heavily emphasize MCP (mcp, mcp-client, mcp-gateway, mcp-security, mcp-server, mcpx).
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

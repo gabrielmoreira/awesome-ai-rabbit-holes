@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getmockd__mockd__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: getmockd/mockd
         extracted_url: https://github.com/getmockd/mockd
-        surrounding_text: "- [getmockd/mockd](https://github.com/getmockd/mockd) [![mockd MCP server](https://glama.ai/mcp/servers/getmockd/mockd/badges/score.svg)](https://glama.ai/mcp/servers/getmockd/mockd) 🏎️ 🏠 🍎 🪟 🐧 - Multi-protocol API mock server with 18 MCP tools. Mock HTTP, GraphQL, gRPC, WebSocket, MQTT, SSE, and SOAP APIs with chaos engineering, stateful CRUD, 8 import formats (OpenAPI, Postman, HAR, WireMock, cURL, Mockoon, WSDL), and deterministic seeded responses."
+        surrounding_text: >-
+          - [getmockd/mockd](https://github.com/getmockd/mockd) [![mockd MCP
+          server](https://glama.ai/mcp/servers/getmockd/mockd/badges/score.svg)](https://glama.ai/mcp/servers/getmockd/mockd)
+          🏎️ 🏠 🍎 🪟 🐧 - Multi-protocol API mock server with 18 MCP tools. Mock HTTP, GraphQL, gRPC, WebSocket, MQTT,
+          SSE, and SOAP APIs with chaos engineering, stateful CRUD, 8 import formats (OpenAPI, Postman, HAR, WireMock,
+          cURL, Mockoon, WSDL), and deterministic seeded responses.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: getmockd/mockd
     html_url: https://github.com/getmockd/mockd
-    created_at: "2026-02-04T06:03:11Z"
-    pushed_at: "2026-09-02T07:33:32Z"
+    created_at: '2026-02-04T06:03:11Z'
+    pushed_at: '2026-09-02T07:33:32Z'
     description: High-performance, multi-protocol mock server. HTTP, WebSocket, gRPC, MQTT, SSE, GraphQL, SOAP in one binary.
     homepage: https://mockd.io
     topics:
@@ -50,14 +55,20 @@ metadata:
       - sse
       - testing
       - websocket
-    last_checked_at: "2026-09-03T05:16:48.676Z"
+    last_checked_at: '2026-09-03T05:16:48.676Z'
     readme:
-      fetched_at: "2026-09-03T05:16:48.676Z"
+      fetched_at: '2026-09-03T05:16:48.676Z'
       bytes: 12437
 insights:
-  summary: A high-performance, multi-protocol mock server supporting HTTP, WebSocket, gRPC, MQTT, SSE, GraphQL, and SOAP in a single binary.
-  why_it_matters: It streamlines backend testing by providing a unified, stateful CLI tool that can simulate diverse communication protocols and even generate mocks via AI agents.
-  mental_damage: Because nothing says 'tress-free development' like trying to debug a distributed system where the mocks are hallucinating MQTT messages.
+  summary: >-
+    A high-performance, multi-protocol mock server supporting HTTP, WebSocket, gRPC, MQTT, SSE, GraphQL, and SOAP in a
+    single binary.
+  why_it_matters: >-
+    It streamlines backend testing by providing a unified, stateful CLI tool that can simulate diverse communication
+    protocols and even generate mocks via AI agents.
+  mental_damage: >-
+    Because nothing says 'tress-free development' like trying to debug a distributed system where the mocks are
+    hallucinating MQTT messages.
   tags:
     - api-mocking
     - cli
@@ -67,31 +78,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: mockd is primarily a developer tool for service virtualization, but its explicit inclusion in awesome-mcp-servers and its README highlighting an 'MCP server' capability make the MCP identity a strong fit for this catalog.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description lists it as a multi-protocol mock server and topics include 'mcp'.
-    - "README 'Why mockd?' table explicitly lists 'MCP server: ✅ local' as a differentiator."
-    - Found in the 'awesome-mcp-servers' list under 'Server Implementations > Developer Tools'.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:48.676Z"
+    updated_at: '2026-09-03T05:16:48.676Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -106,7 +116,9 @@ processing:
       input_hash: sha256:d5f6127d838e31cd80c601fbcd19af9d8b4e46a1100576289456bfe9481b36a1
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: The tool's core identity is a specialized utility that provides capabilities (mocking/protocol simulation) that augment development and testing workflows.
+      decision_reason: >-
+        The tool's core identity is a specialized utility that provides capabilities (mocking/protocol simulation) that
+        augment development and testing workflows.
       decision_evidence:
         - Supports 7+ protocols (HTTP, gRPC, GraphQL, etc.) in a single binary
         - Includes built-in MCP server functionality
@@ -114,6 +126,8 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because MCP is a featured capability of the tool rather than its entire product identity.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because MCP is a featured capability of the tool rather than its entire
+        product identity.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

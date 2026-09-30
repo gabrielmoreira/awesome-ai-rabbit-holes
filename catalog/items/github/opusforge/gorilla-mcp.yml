@@ -71,17 +71,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that gives assistants access to a specific domain (SaaS lead generation), fitting
-    cleanly as a domain-specific MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'MCP server for Gorilla' with lead generation on social platforms.
-    - README provides setup instructions for Claude Code and Cursor MCP configurations.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Marketing'.
+    - jev-latest choice confidence 0.79
 placement:
-  primary_category: extensions-and-addons
+  primary_category: mcp
   secondary_categories: []
-  section: API & Service Integrations
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

@@ -72,13 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server for Discord, exactly matching the protocol-first server definition
-    in the MCP category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states 'A MCP server for the Discord integration'
-    - README positions it as 'A Model Context Protocol (MCP) server for the Discord API' built with JDA
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

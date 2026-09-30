@@ -60,19 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    mcp-swiss is an MCP server whose core identity and value lie in exposing Swiss open data through the Model Context
-    Protocol, making it a pure MCP infrastructure fit.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''Swiss open data MCP server — transport, weather, geodata, companies, etc,. Zero API keys.'''
-    - >-
-      README: 'mcp-swiss is a Model Context Protocol server that gives any AI assistant direct access to Swiss open
-      data' and lists 76 tools across domains.
-    - 'Source-list context: included in awesome-mcp-servers under Server Implementations > Data Platforms.'
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

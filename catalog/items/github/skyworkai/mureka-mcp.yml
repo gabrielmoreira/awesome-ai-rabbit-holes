@@ -58,15 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for a specific domain (music/lyrics generation), making it a textbook fit
-    for MCP Servers & Tooling under Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - 'Repo description: ''generate lyrics, song and background music... Model Context Protocol (MCP) server.'''
-    - >-
-      README: 'Official Mureka Model Context Protocol (MCP) server that enables interaction with powerful lyrics, song
-      and bgm generating APIs.'
-    - Listed in awesome-mcp-servers under 'Official Servers' section.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -87,13 +87,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server for Apache Druid, not a compatibility footnote or
-    adapter.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is a comprehensive MCP server for Apache Druid
-    - README details MCP tools, resources, and prompts for Druid management
-    - Listed in awesome-mcp-servers under Server Implementations > Databases
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

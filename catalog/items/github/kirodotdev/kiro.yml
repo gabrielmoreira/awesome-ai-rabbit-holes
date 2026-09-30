@@ -60,15 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The primary product surface is an AI-native IDE/editor environment, not a plugin, terminal agent, or backend
-    framework.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
   evidence:
-    - 'Repo description: ''Kiro is an agentic IDE that works alongside you from prototype to production'''
-    - >-
-      README: 'Kiro is an agentic IDE and command-line interface that helps you go from prototype to production with
-      spec-driven development'
-    - Available as both desktop application and CLI, with IDE as the standalone product
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: coding-agents
   secondary_categories: []

@@ -75,19 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a code-first library for retrieval-augmented generation (RAG) from GitHub, fitting the
-    Frameworks & SDKs category as a reusable building block for AI workflows.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Memory & Retrieval Infrastructure
   evidence:
-    - Repo description explicitly states it is a Python library for Agentic RAG from GitHub
-    - >-
-      README emphasizes its role as a tool for LLM chatbots, AI agents, and auto-dev solutions to retrieve and generate
-      context
-    - Source-list context (awesome-langchain) places it under Tools > Services, aligning with framework/library usage
+    - jev-latest choice confidence 0.79
 placement:
-  primary_category: memory-and-context
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Retrieval & Fresh Docs
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: curated
   reason: Stars (304) exceeded threshold (150)

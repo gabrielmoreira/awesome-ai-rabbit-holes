@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server designed to provide git context to compatible clients like Claude Code,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description defines it as 'MCP server that answers why code exists'.
-    - README demonstrates installation via `claude mcp add` and usage inside Claude Code.
-    - Listed in awesome-mcp-servers under 'Developer Tools' due to its protocol-native identity.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

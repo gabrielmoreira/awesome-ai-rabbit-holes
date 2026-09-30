@@ -56,15 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a standalone terminal-native coding agent that plans, writes, and edits code, matching the core definition of
-    a coding agent rather than an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal'''
-    - 'README: ''build, edit, debug, and refactor code with an AI collaborator that can plan and execute complex tasks'''
-    - >-
-      README: 'Agentic capabilities: Build, edit, debug, and refactor code with an AI collaborator that can plan and
-      execute complex tasks'
+    - jev-latest choice confidence 0.95
 placement:
   primary_category: coding-agents
   secondary_categories: []

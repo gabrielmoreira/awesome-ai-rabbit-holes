@@ -74,15 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Core value is coordinating multiple coding agents in parallel worktrees, fitting the multi-agent
-    runtime/orchestration identity.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'A command center for AI coding agents — run Claude, Gemini & Codex in parallel, each in its own
-      git worktree'
-    - README emphasizes parallel execution, worktree isolation, and multi-agent coordination as primary features
-    - 'Source-list context: listed under ''Harnesses & orchestration > Session managers & parallel runners'''
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product’s core identity is an MCP server that exposes Emacs/Elisp capabilities to agents, which fits MCP Servers
-    & Tooling as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''Dev tools in Emacs MCP for agentic Elisp development with LLMs''.'
-    - 'README: ''elisp-dev-mcp is an Emacs package that provides an MCP server for agentic Elisp development''.'
-    - Listed in awesome-mcp-servers under Community Servers, reinforcing the MCP server identity.
+    - jev-latest choice confidence 0.63
 placement:
   primary_category: mcp
   secondary_categories: []

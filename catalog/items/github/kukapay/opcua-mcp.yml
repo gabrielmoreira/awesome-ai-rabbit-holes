@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing OPC UA integration via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''An MCP server that connects to OPC UA-enabled industrial systems.'''
-    - 'README: Exposes OPC UA tools (read/write/browse nodes) for MCP clients like Claude Desktop.'
-    - 'Source-list context: Listed in awesome-mcp-servers under ''Embedded System'' servers.'
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

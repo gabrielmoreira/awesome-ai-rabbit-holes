@@ -56,11 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is a Model Context Protocol server providing specific domain capabilities.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly defines it as an 'MCP Server'
-    - README describes tools for searching and reading Drive/Sheets via the protocol
-    - Product identity is the MCP interface rather than the host or the data itself
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

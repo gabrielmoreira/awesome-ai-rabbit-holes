@@ -68,18 +68,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server designed to give AI assistants access to LinkedIn-specific capabilities,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description explicitly states: 'MCP server that lets AI assistants control LinkedIn accounts and retrieve
-      real-time data.'
-    - Found in awesome-mcp-servers under the 'Official Servers' section.
-    - README confirms integration with Claude, Cursor, and VS Code via the MCP protocol.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

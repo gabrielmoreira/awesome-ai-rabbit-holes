@@ -84,19 +84,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The primary artifact is a reusable skill pack with agent configs and slash commands designed to be dropped into
-    Claude Code, Codex, or Gemini CLI, which aligns with the Skills category's focus on portable skill content.
+  reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
-    - >-
-      README explicitly calls it 'A coding agent skill' and ships CLAUDE.md, AGENTS.md, GEMINI.md configs plus
-      .claude/commands/ slash commands.
-    - >-
-      Repo description states it 'Works with Claude Code, Codex, OpenCode, Gemini CLI' and requires one of these agents
-      as the host.
-    - >-
-      The product is a skill pack, not a standalone assistant, IDE, or platform, and is actively maintained (pushed
-      2026-05-06, not archived).
+    - jev-latest choice confidence 0.52
 placement:
   primary_category: skills
   secondary_categories: []

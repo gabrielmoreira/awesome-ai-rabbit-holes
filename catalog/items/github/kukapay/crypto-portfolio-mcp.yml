@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose primary identity is providing domain-specific (crypto portfolio) tools via the
-    Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for crypto portfolio management
-    - README details MCP client integration (Claude Desktop) and MCP-specific installation/usage
-    - Core functionality is exposed as MCP tools (get_portfolio_summary, add_holding, etc.)
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

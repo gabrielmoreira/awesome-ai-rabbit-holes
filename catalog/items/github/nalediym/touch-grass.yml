@@ -77,13 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly a plugin and skill pack that augments Claude Code with break-reminder capabilities,
-    fitting the extension identity over a primary coding agent.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
-    - 'Repo description: ''A Claude Code plugin that teaches your AI agent to remind you to go outside.'''
-    - 'README: ''The Claude Code plugin that reminds you to go outside... An MCP server + SessionStart hook + skill.'''
-    - Topics include claude-code-plugin, claude-code-hooks, and mcp-server, confirming the extension identity.
+    - jev-latest choice confidence 0.56
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []

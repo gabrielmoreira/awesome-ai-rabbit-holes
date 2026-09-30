@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server as its core identity, providing iMessage data access through the Model Context
-    Protocol, matching the MCP category's focus on MCP-first tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''A Model Context Protocol server for reading iMessage data from macOS'''
-    - 'README: Explicitly markets ''@wyattjoh/imessage-mcp'' as ''Model Context Protocol (MCP) server for LLM integration'''
-    - 'Source-list context: Included in awesome-mcp-servers under ''Server Implementations > Communication'''
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -73,24 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a zero-code platform and control plane for generating and managing production-grade AI agents with
-    built-in orchestration, memory, and tools, fitting the agent orchestration category.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
   evidence:
-    - >-
-      Repo description describes it as a 'zero-code platform for auto-generating production-grade AI agents using
-      Harness Engineering principles — unified tools, skills, memory, and orchestration with built-in constraints,
-      feedback loops, and control planes.'
-    - >-
-      README states it is a 'zero-code platform for auto-generating production-grade AI agents' and highlights features
-      like control planes and multi-agent orchestration.
-    - >-
-      Topics include agent, agentic-ai, agentic-framework, agentic-workflow, multi-agent, and mcp, reinforcing its
-      orchestration identity.
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Visual Builders & Workbenches
+  section: Hosted Agent Platforms
 lifecycle:
   status: curated
   reason: Stars (4392) exceeded threshold (150)

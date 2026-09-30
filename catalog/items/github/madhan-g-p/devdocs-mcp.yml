@@ -60,18 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    DevDocs-MCP is an MCP server whose core identity is providing documentation context via the Model Context Protocol,
-    making MCP the primary product identity rather than an extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''Documentation Authority for AI Agents based upon Devdocs'''
-    - >-
-      README: 'DevDocs-MCP is a Model Context Protocol (MCP) server that provides version-pinned, deterministic
-      documentation'
-    - 'Source-list: listed in awesome-mcp-servers under Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: null

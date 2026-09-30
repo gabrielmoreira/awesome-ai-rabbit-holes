@@ -69,15 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server as its core identity, providing browser and mobile automation via MCP, matching the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - >-
-      Repo description: 'A Model Context Protocol (MCP) server that enables AI assistants to interact with web browsers
-      and mobile applications using WebDriverIO.'
-    - README emphasizes MCP server installation and configuration for AI assistants like Claude, Cursor, and VS Code.
-    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

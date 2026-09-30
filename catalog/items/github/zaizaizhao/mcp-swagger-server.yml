@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server implementation whose core function is protocol translation, making it MCP
-    infrastructure rather than a coding assistant, extension, or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description states it converts OpenAPI/Swagger REST APIs into MCP format for AI assistants
-    - README positions it as a zero-config tool to turn REST APIs into AI-callable tools via MCP
-    - Seen in awesome-mcp-servers under Developer Tools > Server Implementations
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []

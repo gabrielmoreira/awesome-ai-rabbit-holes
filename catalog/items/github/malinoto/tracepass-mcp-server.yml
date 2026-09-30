@@ -65,17 +65,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is explicitly an MCP server implementation for a specific domain (EU Digital Product Passport / E-Commerce),
-    fitting squarely under MCP Servers & Tooling rather than a generic extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description declares it a 'Model Context Protocol server for TracePass'.
-    - README documents full MCP protocol support (tools, resources, prompts) with hosted and local stdio modes.
-    - Already curated in awesome-mcp-servers under Server Implementations > E-Commerce.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

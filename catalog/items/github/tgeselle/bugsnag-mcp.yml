@@ -61,15 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a purpose-built MCP server that gives LLM tools structured access to Bugsnag, making it a clear fit for the
-    MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server for interacting with Bugsnag'.
-    - >-
-      README confirms it exposes Bugsnag tools (list_errors, view_stacktrace, search_issues) to Cursor and Claude via
-      MCP.
-    - Listed in awesome-mcp-servers under 'Developer Tools', aligning with its MCP-first identity.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

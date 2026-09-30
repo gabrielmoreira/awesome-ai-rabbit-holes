@@ -78,19 +78,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product's entire identity is a graph-based memory and compression layer for AI context, not a host integration
-    or MCP-first toolkit, making Prompt & Context Engineering the clear home.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
   evidence:
-    - >-
-      README defines the product as a 'Session-scoped knowledge graph engine for AI chat context compression' with a
-      core workflow of compressing 40k+ tokens into ~300–800 token graphs.
-    - >-
-      Value lives in the distillation algorithm and memory graph, while delivery to assistants is a passive file-write
-      to copilot-instructions.md or CLAUDE.md.
-    - >-
-      MCP server is explicitly optional and secondary ('No MCP server required for the core workflow'), ruling out MCP
-      Servers & Tooling as the primary category.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: memory-and-context
   secondary_categories: []

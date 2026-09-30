@@ -70,15 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary developer-facing novelty is the 23-tool MCP server that lets AI agents interact with the
-    feedback platform, making it a domain-specific MCP server rather than just a general SaaS product.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - README explicitly highlights a '23-tool MCP server for AI agents' as a core feature and links to /docs/mcp.
-    - Listed in awesome-mcp-servers under 'Customer Data Platforms' as a server implementation.
-    - >-
-      Core product is an open-source alternative to Canny/Productboard, which is a general SaaS, but the MCP server is
-      the developer-tooling hook.
+    - jev-latest choice confidence 0.55
 placement:
   primary_category: mcp
   secondary_categories: []

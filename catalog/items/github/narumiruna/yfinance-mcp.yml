@@ -65,15 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server that provides Yahoo Finance data tools to AI assistants, making it a
-    textbook fit for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - GitHub topics include mcp and mcp-server, confirming MCP as the product identity.
-    - >-
-      README states it is 'A Model Context Protocol (MCP) server that provides AI assistants with access to Yahoo
-      Finance data'.
-    - Included in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

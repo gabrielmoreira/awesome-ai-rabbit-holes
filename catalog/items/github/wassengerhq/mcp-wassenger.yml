@@ -68,21 +68,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is providing WhatsApp API access through the Model Context
-    Protocol, making MCP the primary product identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description: 'MCP connector for Wassenger WhatsApp API: Send messages, summarize conversations, automate
-      anything on WhatsApp using text or voice from your favorite AI client'
-    - >-
-      README: Positioned as an MCP-powered tool that works with ChatGPT, Claude Desktop, Cursor, Windsurf and other MCP
-      clients
-    - Listed in awesome-mcp-servers under 'Community Servers' section
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that exposes Perplexity search and reasoning tools, matching the MCP Servers & Tooling
-    category and Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - 'Repo description states: ''The official MCP server implementation for the Perplexity API Platform'''
-    - README lists tools perplexity_search, perplexity_ask, perplexity_research, and perplexity_reason accessed via MCP
-    - Listed in awesome-mcp-servers under 'Official Servers', confirming ecosystem placement
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []

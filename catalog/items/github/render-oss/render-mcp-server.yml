@@ -59,19 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a purpose-built MCP server providing Render-specific tooling (services, databases, logs) for LLMs, fitting
-    the MCP Servers & Tooling category perfectly.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'The Official Render MCP Server'.
-    - >-
-      README details MCP tools for managing Render resources like web services, static sites, cron jobs, and Postgres
-      databases.
-    - Listed in the awesome-mcp-servers directory under 'Official Servers'.
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

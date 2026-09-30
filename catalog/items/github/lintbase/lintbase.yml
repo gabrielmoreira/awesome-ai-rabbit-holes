@@ -73,23 +73,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core product is a retrieval and context-shaping layer for live database schemas; the MCP server and editor drops
-    are secondary delivery mechanisms, not the primary identity.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Retrieval & Fresh Docs
   evidence:
-    - >-
-      README positions the tool as 'Ground Truth for AI Coding Agents' and centers on exporting a /lintbase-context/
-      folder with structured markdown (database-schema.md, security-rules.md, etc.) for AI context windows.
-    - >-
-      Repo description and CLI commands focus on scanning live Firestore/MongoDB instances and generating
-      snapshots/drift checks, not on acting as an IDE extension or MCP-first product.
-    - >-
-      Appears in awesome-mcp-servers only for its adapter package (lintbase-mcp), but the main repo identity is a
-      standalone CLI/SaaS context exporter.
+    - jev-latest choice confidence 0.51
 placement:
-  primary_category: mcp
+  primary_category: memory-and-context
   secondary_categories: []
-  section: Data & Databases
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: curated
   reason: null

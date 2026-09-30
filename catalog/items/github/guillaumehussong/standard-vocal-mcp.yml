@@ -63,16 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a domain-specific MCP server that provides specialized tools for the voice agent lifecycle via an
-    assistant host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Explicitly described as a 'Voice Agent Factory exposed over the Model Context Protocol'
-    - Provides specialized tools for deployment, audio forensics, and prompt versioning
-    - Functions as a bridge between MCP clients (like Claude Code) and the Vapi API
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

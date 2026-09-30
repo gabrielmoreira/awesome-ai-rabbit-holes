@@ -61,15 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product’s identity is an MCP server that exposes terminal interaction as tools, and MCP is the primary adopted
-    interface rather than a compatibility footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README positions it as an MCP server analogous to Chrome DevTools MCP, with setup via `claude mcp add`.
-    - >-
-      Tools are explicitly MCP tools: launch, screenshot, send_keys, wait_for_text, and others over a node-pty +
-      xterm-headless stack.
-    - Listed in awesome-mcp-servers under Server Implementations > Command Line, reinforcing MCP-first identity.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

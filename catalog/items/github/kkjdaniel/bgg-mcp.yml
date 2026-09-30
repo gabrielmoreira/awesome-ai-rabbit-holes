@@ -83,13 +83,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity, and the server provides domain-specific data access through the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is a BoardGameGeek MCP server
-    - README details MCP tools and resources for board game data access
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

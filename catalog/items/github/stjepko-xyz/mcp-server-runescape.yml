@@ -63,15 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose sole identity is exposing RuneScape game data as tools, fitting cleanly into MCP
-    Servers & Tooling as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''MCP server with tools for interacting with RuneScape (RS) and Old School RuneScape (OSRS) data'''
-    - >-
-      README states: 'This is an MCP server with tools for interacting with RuneScape (RS) and Old School RuneScape
-      (OSRS) data, including item prices, player hiscores, and more.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Gaming'
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

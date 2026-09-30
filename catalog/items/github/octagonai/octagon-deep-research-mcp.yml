@@ -61,17 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is specifically an MCP server designed to bridge clients like Cursor and Claude Desktop to a
-    proprietary deep research API.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - >-
-      Repo description explicitly states: 'The Octagon Deep Research MCP server provides specialized AI-powered
-      comprehensive research capabilities'.
-    - >-
-      README confirms: 'Universal MCP Integration - Add deep research functionality to any MCP client including Claude
-      Desktop, Cursor'.
-    - Source list context confirms inclusion in 'awesome-mcp-servers' under 'Official Servers'.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

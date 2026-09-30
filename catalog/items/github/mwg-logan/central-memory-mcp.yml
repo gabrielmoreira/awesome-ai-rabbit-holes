@@ -59,15 +59,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is an MCP server implementation with Azure-specific adaptations, making MCP its core identity rather
-    than a mere compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description: 'A custom fork of @modelcontextprotocol/server-memory using Azure Functions MCP triggers and
-      Table storage'
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory'
-    - 'Pushed at: 2026-04-27T12:25:21Z indicates recent activity'
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: mcp
   secondary_categories: []

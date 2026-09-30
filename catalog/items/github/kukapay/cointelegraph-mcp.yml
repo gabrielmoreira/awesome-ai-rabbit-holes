@@ -56,11 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing news data via the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for Cointelegraph news
-    - README details MCP tools (`get_rss_categories`, `get_latest_news`) and Claude Desktop integration
-    - Project is actively maintained (created and pushed in April 2025)
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -78,13 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that exposes datetime information, fitting cleanly into the MCP Servers & Tooling
-    category as a domain-specific utility.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description states it is 'A simple MCP server that exposes datetime information to agentic systems'.
-    - README details MCP components including a 'datetime://' URI scheme and a 'get_current_time()' tool.
-    - Listed in awesome-mcp-list under Utilities and awesome-mcp-servers under Location Services.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

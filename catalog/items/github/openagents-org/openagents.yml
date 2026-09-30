@@ -77,17 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a collaborative OS and workbench designed to coordinate multiple external agents (Claude Code,
-    Cursor, etc.) into a shared workspace, fitting the control plane definition of agent orchestration.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description defines it as 'AI Agent Networks for Open Collaboration'.
-    - >-
-      README pitch describes a 'unified workspace' and 'collaborative OS' where agents share context, files, and a
-      browser.
-    - >-
-      Supports connecting multiple specific agents like Claude Code, OpenClaw, Codex CLI, and Cursor rather than being a
-      coding agent itself.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

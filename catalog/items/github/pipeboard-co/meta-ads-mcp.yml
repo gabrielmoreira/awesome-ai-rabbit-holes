@@ -91,15 +91,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a canonical MCP server implementation designed to give AI assistants domain-specific access to Meta Ads,
-    fitting perfectly under Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description explicitly states: ''MCP server to manage Facebook and Instagram Ads (Meta Ads)''.'
-    - >-
-      README positions it as a 'Model Context Protocol (MCP) server for interacting with Meta Ads' with setup guides for
-      Claude and Cursor.
-    - Featured in 'awesome-mcp-servers' under 'Server Implementations > Marketing'.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

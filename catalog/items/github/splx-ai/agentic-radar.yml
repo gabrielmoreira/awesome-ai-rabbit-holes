@@ -93,13 +93,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job is measuring, mapping, and scoring agentic systems against security frameworks (OWASP), which aligns
-    with the evals category's focus on safety and behavior measurement.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Security & DevSecOps
   evidence:
-    - Repo description explicitly states it is 'A security scanner for your LLM agentic workflows'.
-    - README lists 'Vulnerability Mapping' and mapping to 'OWASP Top 10 LLM Applications' as core features.
-    - Topics include 'ai-security', 'ai-red-teaming', and 'llm-security', reinforcing the safety evaluation identity.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []

@@ -77,13 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a first-party MCP server implementation that exposes Prisma database capabilities to any
-    MCP-compatible agent or editor.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - README explicitly defines two MCP servers (local and remote) with JSON configs for MCP client integration.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases' and 'Official Servers'.
-    - Tools include ExecuteSqlQueryTool, migrate-dev, and Create-Prisma-Postgres-Database, all exposed via MCP.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

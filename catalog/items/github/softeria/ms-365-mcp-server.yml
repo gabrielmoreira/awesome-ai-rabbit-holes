@@ -77,17 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is exposing Microsoft 365 services via the Model Context Protocol,
-    fitting cleanly as a domain-specific MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - >-
-      Repo description explicitly states it is a 'Model Context Protocol (MCP) server for interacting with Microsoft 365
-      and Office services through the Graph API'.
-    - README emphasizes MCP configuration examples (Claude Desktop) and maps 200+ tools 1-to-1 to Graph API endpoints.
-    - >-
-      Listed in awesome-mcp-servers under 'Server Implementations > Communication' and 'Community Servers', reinforcing
-      its MCP server identity.
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []

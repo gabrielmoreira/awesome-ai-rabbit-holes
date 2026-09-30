@@ -60,11 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server exposing Junipr''s API tools to AI assistants.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly identifies it as an MCP server for Junipr APIs
-    - README details MCP client configuration for multiple assistants (Claude, Cursor, VS Code, Windsurf)
-    - Listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

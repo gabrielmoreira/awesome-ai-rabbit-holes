@@ -71,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for model compression, fitting the MCP Servers & Tooling category where
-    protocol identity is the primary artifact.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - 'Repo description states: ''MCP server for LLM quantization'' and ''First MCP server for model compression.'''
-    - README details tools like `quantize` and `evaluate` exposed via MCP to Claude Code/Desktop.
-    - Listed in awesome-mcp-servers under 'Data Science Tools', confirming its identity as an MCP implementation.
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []

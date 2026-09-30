@@ -70,17 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Hyperbrowser's primary identity is as an MCP server that exposes cloud browsing capabilities to AI agents via the
-    Model Context Protocol, making it infrastructure rather than an agent or extension itself.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Listed in awesome-mcp-servers under 'Official Servers' with the purpose 'Cloud browsers for AI agents & Apps'
-    - >-
-      Scraped site title and description: 'Hyperbrowser - Web Infra for AI Agents' and 'Cloud browsers for AI agents &
-      Apps'
-    - >-
-      No evidence of being a coding agent, app builder, or extension; the product is positioned as infrastructure for
-      agents to use
+    - jev-latest choice confidence 0.54
 placement:
   primary_category: mcp
   secondary_categories: []

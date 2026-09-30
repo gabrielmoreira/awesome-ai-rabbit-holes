@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server for Contentful's API, making MCP its primary identity rather than a compatibility
-    feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP server for Contentful Management API
-    - README details extensive MCP tooling for Contentful operations (CRUD, comments, spaces, etc.)
-    - Listed in awesome-mcp-servers under 'Community Servers'
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

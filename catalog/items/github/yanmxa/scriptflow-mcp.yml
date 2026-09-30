@@ -64,13 +64,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is an MCP server that provides script workflow management as its core identity, not merely an MCP-compatible
-    addon.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''Script workflow management via MCP. Converts AI workflows to persistent scripts...'''
-    - 'README: Explicitly positions itself as an MCP server with setup instructions for MCP client config.'
-    - 'Source-list context: Included in awesome-mcp-servers under Server Implementations > Developer Tools.'
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -52,19 +52,12 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Copilot X positions itself as an advanced AI coding agent that writes, explains, and refines code within GitHub and
-    editor environments, fitting the core identity of a developer-facing coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
   evidence:
-    - Listed in awesome-ai-agents under 'GitHub Copilot X' as an AI autonomous agent
-    - >-
-      GitHub's official preview describes Copilot X as integrating AI chat, voice, and pull request support into the
-      Copilot coding assistant
-    - >-
-      Copilot X extends the existing Copilot agent with more autonomous capabilities like PR description generation and
-      code explanation
+    - jev-latest choice confidence 0.51
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: IDE-Native & Editor Agents
 lifecycle:
   status: curated

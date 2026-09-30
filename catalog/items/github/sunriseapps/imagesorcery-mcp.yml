@@ -67,16 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for image processing, making it a domain-specific server that fits cleanly
-    into MCP Servers & Tooling rather than being a general framework or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - 'Repo description states: ''An MCP server providing tools for image processing operations'''
-    - >-
-      README confirms MCP identity with 'ImageSorcery MCP' branding and lists compatible assistants (Claude, Cursor,
-      Cline)
-    - Appears in awesome-mcp-servers list under 'Community Servers' section
-    - 'Active development: created 2025-05-12, last pushed 2025-09-23, 308 stars, not archived'
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: mcp
   secondary_categories: []

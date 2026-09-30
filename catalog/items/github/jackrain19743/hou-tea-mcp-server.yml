@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it is a purpose-built MCP server exposing a domain-specific API (tea commerce) for
-    AI agents, not a secondary integration or adapter.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly identifies it as an MCP server for hou-tea.com
-    - README details MCP tool exposure and integration with Claude Desktop, Cursor, Cline
-    - Source-list context places it in an MCP servers directory under Finance & Fintech
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

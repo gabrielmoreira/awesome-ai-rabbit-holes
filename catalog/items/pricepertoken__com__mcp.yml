@@ -53,19 +53,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server exposing pricing and benchmark tools, making MCP its primary purpose
-    rather than a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Title: ''LLM Pricing MCP Server for Claude Code & Cursor'''
-    - >-
-      Primary page excerpt describes providing 'real-time LLM pricing, benchmark and speed data' via MCP tools like
-      get_model, compare_models, get_benchmarks
-    - Setup instructions show MCP server configuration for Claude Code, Cursor, Windsurf, and Claude Desktop
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

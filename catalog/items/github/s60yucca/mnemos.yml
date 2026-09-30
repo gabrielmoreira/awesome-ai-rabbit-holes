@@ -63,21 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is an automated memory and context-shaping system (quality gates, dedup, summarization, MMR
-    packing) that feeds agents, fitting Prompt & Context Engineering over a generic extension label.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      README states mnemos 'compiles a knowledge base' with auto-summarization, file-linking, and MMR context assembly,
-      not just hosting tools.
-    - >-
-      Tool runs as an MCP server but the primary job is memory retrieval/compression ('Autopilot knowledge base for your
-      coding agent').
-    - Source list awesome-mcp-servers places it under 'Knowledge & Memory', aligning with context-engineering identity.
+    - jev-latest choice confidence 0.53
 placement:
-  primary_category: mcp
+  primary_category: memory-and-context
   secondary_categories: []
-  section: Middleware & Generic
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: curated
   reason: null

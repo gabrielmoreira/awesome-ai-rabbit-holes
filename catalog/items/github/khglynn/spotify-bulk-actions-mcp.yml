@@ -69,13 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server with Spotify-specific bulk operations as its core identity, fitting the MCP Servers &
-    Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP server for bulk Spotify operations
-    - README highlights MCP integration (Claude Code settings example) and 18 MCP tools
-    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

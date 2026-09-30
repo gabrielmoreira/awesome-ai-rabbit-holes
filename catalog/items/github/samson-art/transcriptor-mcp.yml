@@ -74,23 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server providing transcript and metadata tooling for video platforms,
-    fitting squarely into the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description explicitly states 'An MCP server (stdio + HTTP/SSE) that fetches video transcripts/subtitles via
-      yt-dlp'.
-    - >-
-      README emphasizes 'This repository primarily ships a stdio MCP server' and lists MCP host compatibility (Cursor,
-      Smithery, Glama).
-    - >-
-      Listed in awesome-mcp-servers under 'Server Implementations', confirming its identity as a domain-specific MCP
-      tool.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

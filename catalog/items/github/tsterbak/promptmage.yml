@@ -67,20 +67,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is explicitly a Python framework and CLI that developers install via pip and script against to define multi-step
-    LLM workflows, fitting Frameworks & SDKs rather than a no-code orchestration platform or pure prompt-management
-    tool.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Workflow & Graph Engines
   evidence:
-    - >-
-      README describes it as 'a python framework to simplify the development of complex, multi-step applications based
-      on LLMs' with `pip install` and code-first imports.
-    - >-
-      The primary workflow is writing Python flow files and running them via `promptmage run`, backed by an
-      auto-generated FastAPI server.
-    - >-
-      While it includes prompt version control and a playground, its core identity is a reusable workflow engine, not a
-      standalone coding agent or IDE extension.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

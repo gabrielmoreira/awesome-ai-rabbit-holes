@@ -81,21 +81,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is a shared memory, causal chains, context injection, and prompt-shaping system that sits beneath
-    other coding assistants rather than acting as the primary agent itself.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      Repo description states it is 'one open-source brain every AI coding agent can share' across Claude Code, Cursor,
-      Cline, and others.
-    - >-
-      README pitches 2K-token briefings, Causal Memory Chains, SABB context slivers, and a Reputation Ledger as the main
-      features.
-    - Topics and README highlight MCP-server and local-first architecture rather than standalone repo editing.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: memory-and-context
   secondary_categories: []
-  section: Context & Session Management
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: curated
   reason: null

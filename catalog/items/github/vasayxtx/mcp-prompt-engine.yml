@@ -60,17 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is serving prompts via the Model Context Protocol, making MCP
-    Servers & Tooling the best fit.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP Prompt Engine'''
-    - 'README: ''A Model Control Protocol (MCP) server for managing and serving dynamic prompt templates'''
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.65
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Prompt Engineering & Management
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

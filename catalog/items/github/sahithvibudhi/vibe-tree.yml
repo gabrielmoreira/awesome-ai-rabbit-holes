@@ -66,15 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a cross-platform workbench that coordinates multiple AI coding agents across parallel git worktrees,
-    fitting the agent orchestration control plane profile rather than acting as a standalone coding assistant.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly states 'Vibe code with Claude in parallel git worktrees'
-    - >-
-      README describes a cross-platform app that 'enables parallel development with AI assistance across multiple git
-      worktrees' with desktop, browser, and mobile access
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

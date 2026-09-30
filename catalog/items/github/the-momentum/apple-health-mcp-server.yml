@@ -69,15 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server for Apple Health data, built on FastMCP and designed to be used with
-    MCP-compatible LLMs, which fits cleanly under MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states 'MCP server for querying Apple Health data'.
-    - >-
-      README confirms it is 'Built on FastMCP for high-performance MCP server capabilities' and connects health data to
-      any MCP-supporting LLM.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Biology, Medicine and Bioinformatics'.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

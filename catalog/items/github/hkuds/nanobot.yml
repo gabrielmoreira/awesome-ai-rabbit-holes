@@ -81,19 +81,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a standalone, developer-facing coding assistant that directly handles repo work, chat, and workflows,
-    fitting the primary identity of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly calls it a 'lightweight, open-source AI agent for your tools, chats, and workflows'
-    - >-
-      README positions it as a coding agent in the spirit of Claude Code and Codex, with core agent loop, memory, and
-      MCP support
-    - Source-list context places it under 'Terminal-native coding agents > OpenClaw ecosystem'
+    - jev-latest choice confidence 0.51
 placement:
-  primary_category: coding-agents
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (41809) exceeded threshold (150)

@@ -69,17 +69,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for querying an AI service directory, making it a textbook fit for the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Registries & Discovery
   evidence:
-    - 'Repo description states: ''MCP server for the Voxie AI Phone Number Directory.'''
-    - README documents tools like `list_ai_services` and `chat_with_ai` exposed via MCP.
-    - Listed in the awesome-mcp-servers list under 'Server Implementations > Aggregators'.
+    - jev-latest choice confidence 0.53
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Registries & Discovery
 lifecycle:
   status: curated
   reason: null

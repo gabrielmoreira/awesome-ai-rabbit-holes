@@ -77,17 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    InternEvo is a code-first framework for training and fine-tuning LLMs, fitting the developer-tooling scope as a
-    reusable SDK/library.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - Repo description explicitly calls it a 'lightweight training framework'
-    - README emphasizes pre-training and fine-tuning workflows with PyTorch
-    - Source-list context places it under 'Fine-Tuning' in a curated LLM resources list
+    - jev-latest choice confidence 0.87
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Fine-tuning & Training
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (419) exceeded threshold (150)

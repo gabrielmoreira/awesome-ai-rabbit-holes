@@ -72,19 +72,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool centers on specs, plans, and tasks as primary artifacts driving implementation, fitting the spec-driven
-    development category despite being Cursor-specific.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / IDE & Editor Add-ons
   evidence:
-    - >-
-      Repo description: 'SDD toolkit for Cursor IDE — /specify, /plan, /tasks to turn ideas into specs, plans, and
-      actionable tasks.'
-    - README shows commands like /specify, /plan, /tasks generating spec.md, plan.md, tasks.md as controlling artifacts
-    - Listed in awesome-spec-driven-development under IDE & Editor Integrations
+    - jev-latest choice confidence 0.84
 placement:
-  primary_category: coding-agents
+  primary_category: extensions-and-addons
   secondary_categories: []
-  section: Spec-First & Plan-Execute
+  section: IDE & Editor Add-ons
 lifecycle:
   status: curated
   reason: Stars (177) exceeded threshold (150)

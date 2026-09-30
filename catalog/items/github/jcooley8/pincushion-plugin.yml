@@ -61,19 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is explicitly defined as an MCP server that provides specific implementation context to
-    existing agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description identifies it as a 'Cursor marketplace plugin for Pincushion — MCP server + slash commands'
-    - >-
-      README describes the implementation as an 'MCP server' that carries 'URL + element selector + Screenshot + DOM
-      snippet' to agents
-    - Explicit configuration guides for MCP-compliant clients like Cursor, Claude Desktop, and Claude Code
+    - jev-latest choice confidence 0.63
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

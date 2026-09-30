@@ -60,17 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a standalone terminal agent that directly plans, edits, and executes coding tasks, fitting the definition of
-    a primary coding assistant rather than an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description states it is 'An open-source AI agent that lives in your terminal.'
-    - >-
-      README claims it is an 'open-source AI agent for the terminal, optimized for Qwen series models' with built-in
-      tools and SubAgents.
-    - >-
-      Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source' with 24,207 stars and
-      recent activity (pushed 2026-05-06).
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: coding-agents
   secondary_categories: []

@@ -80,20 +80,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    ThumbGate primarily augments MCP-compatible agents (Claude Code, Cursor, etc.) with pre-action checks and
-    governance, rather than being a standalone coding assistant or primary IDE.
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
   evidence:
-    - >-
-      Repo description explicitly states it 'derive[s] rules from repeated failures, flag[s] risky tool calls,
-      hard-block[s] detected secret leaks' for MCP-compatible agents
-    - >-
-      README positions it as a layer on top of existing agents ('Works with Claude Code, Cursor, Codex, Gemini CLI, Amp,
-      Cline, OpenCode, and any MCP-compatible agent')
-    - Source-list context places it in 'Server Implementations > Developer Tools' for MCP servers
+    - jev-latest choice confidence 0.61
 placement:
-  primary_category: extensions-and-addons
-  section: API & Service Integrations
+  primary_category: decision-models
+  secondary_categories: []
+  section: Agent Gates, Routers & Skills
 lifecycle:
   status: curated
   reason: null

@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it's a server exposing VS Code capabilities via the MCP protocol, not just an
-    adapter or compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it's an MCP server for VS Code editing features
-    - README details MCP-compliant server exposing VS Code's filesystem/editing as MCP tools
-    - Listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

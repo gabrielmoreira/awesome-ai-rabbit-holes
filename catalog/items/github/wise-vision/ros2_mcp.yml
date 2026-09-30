@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server whose core identity is providing ROS 2 access via the Model Context Protocol, making
-    MCP the primary product rather than an extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''Advanced MCP Server ROS 2 bridging AI agents straight into robotics'''
-    - 'README: ''A Python implementation of the Model Context Protocol (MCP) for ROS 2'''
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []

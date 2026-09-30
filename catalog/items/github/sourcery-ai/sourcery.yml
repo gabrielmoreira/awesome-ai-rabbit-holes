@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Sourcery acts as a primary coding assistant that directly reviews diffs, suggests edits, and helps refactor code,
-    fitting the Review, Testing & Repair Agents profile.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - 'Repo description explicitly states: ''Instant AI code reviews''.'
-    - README states it reviews PRs with 'line by line suggestions' and acts as an 'automated pair programmer'.
-    - Appears in awesome-ai-coding-tools under 'Code Review and Refactoring'.
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: coding-agents
   secondary_categories: []

@@ -74,15 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a self-hosted, local-first web interface for running and interacting with LLMs on your own hardware, which is
-    the canonical shape of a Local AI desktop/chat product.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
   evidence:
-    - 'Repo description: ''User-friendly AI Interface (Supports Ollama, OpenAI API, ...)'''
-    - >-
-      README: 'self-hosted AI platform designed to operate entirely offline... supports various LLM runners like Ollama
-      and OpenAI-compatible APIs'
-    - Topics and homepage clearly position it as a self-hosted web UI with 135k stars and active development.
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: local-ai
   secondary_categories: []

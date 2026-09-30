@@ -80,19 +80,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a purpose-built MCP server paired with a REST API to expose NotebookLM capabilities to coding agents and
-    automation platforms, making it a textbook fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description explicitly states 'Google NotebookLM over MCP + a local HTTP REST API' and targets Claude Code,
-      Cursor, and Codex.
-    - README positions the project as an 'MCP server' and 'HTTP REST API' with 33 endpoints for NotebookLM automation.
-    - Included in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

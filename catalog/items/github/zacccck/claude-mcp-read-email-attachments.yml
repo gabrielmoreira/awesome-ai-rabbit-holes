@@ -65,15 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server whose primary identity and value lie in providing MCP-compliant tooling for reading email
-    attachments, making it a clear fit for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''Local MCP server for Claude — read and parse Outlook email attachments via Microsoft Graph API'''
-    - >-
-      README: Describes the project as a 'local stdio MCP server for Claude Desktop' that lists emails, downloads
-      attachments, and returns parsed content via MCP tools
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

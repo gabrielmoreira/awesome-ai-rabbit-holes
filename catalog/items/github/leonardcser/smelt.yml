@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a standalone terminal-native coding assistant that reads, edits, and plans across a repo, fitting the
-    primary coding agent definition rather than an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly states 'TUI coding agent'.
-    - 'README lists core agent features: file read/write/edit, glob, grep, bash, and multi-agent capabilities.'
-    - Included in the awesome-cli-coding-agents list under 'Terminal-native coding agents > Open Source'.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: coding-agents
   secondary_categories: []

@@ -59,18 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The repository exists primarily to distribute and document a remote MCP server for travel data, making it a clear
-    fit for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly describes 'Peek.com Remote MCP Server' and provides the server URL https://mcp.peek.com.
-    - Repository contains a server.json file defining the MCP server schema and remoteness settings.
-    - >-
-      Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture', confirming its identity as an MCP
-      server.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

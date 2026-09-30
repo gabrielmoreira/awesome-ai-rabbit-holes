@@ -64,19 +64,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP billing gateway and SDK that proxies MCP servers to enforce payments, making
-    it MCP-first infrastructure rather than a generic framework or extension.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''Client SDK and docs for MCP Billing Gateway — add Stripe + x402 billing to any MCP server'''
-    - >-
-      README: 'MCP Billing Gateway is a hosted billing proxy that sits between AI agents and your MCP server' with full
-      MCP transport support
-    - 'Source list: featured in awesome-mcp-servers under Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.69
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

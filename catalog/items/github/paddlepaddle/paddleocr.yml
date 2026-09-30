@@ -74,16 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a code-first toolkit and library used by developers to parse documents programmatically, fitting the
-    Frameworks & SDKs identity as a building block for AI workflows.
+  reason: Jev decision-model reclassifier placed this item in document-ai / Document Parsing & Layout
   evidence:
-    - Repo description explicitly states it is a 'powerful, lightweight OCR toolkit' for structured data.
-    - README positions it as a 'bedrock for building intelligent RAG and Agentic applications' used via import/CLI.
-    - Listed as a canonical positive example within the ai-frameworks category definition.
+    - jev-latest choice confidence 0.90
 placement:
-  primary_category: ai-frameworks
-  section: Provider & Model Abstractions
+  primary_category: document-ai
+  secondary_categories: []
+  section: Document Parsing & Layout
 lifecycle:
   status: curated
   reason: Stars (77183) exceeded threshold (150)

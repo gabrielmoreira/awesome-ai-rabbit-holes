@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing web snapshot capabilities via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly states it is an MCP server for website snapshots
-    - README details MCP client integration (VS Code, Cursor, etc.) and server configuration
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

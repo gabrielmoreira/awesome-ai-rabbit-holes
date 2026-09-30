@@ -65,16 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server as its core identity, providing standardized tools for user interaction via MCP,
-    matching the MCP Servers & Tooling category's focus on MCP-first infrastructure.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''Local, cross-platform MCP server for interact with your AI Agent'''
-    - >-
-      README: Explicitly states 'A MCP Server implemented in Node.js/TypeScript' and lists MCP tools like
-      request_user_input and message_complete_notification
-    - 'Source-list context: Listed in awesome-mcp-servers under Community Servers'
-    - 'Usage: Requires MCP client configuration (e.g., Claude Desktop, Cursor) and is invoked via npx as an MCP server'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

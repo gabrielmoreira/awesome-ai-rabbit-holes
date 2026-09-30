@@ -67,13 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Greptile functions as an autonomous coding agent whose primary identity is reviewing and improving code via PR
-    analysis, fitting the coding-agents category due to its direct action on codebases and diff-level intervention.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - AI agents that review and test pull requests with full context of the codebase.
-    - Constructs a graph index of your codebase, then uses a swarm of agents to review changes and flag issues.
-    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring' as an AI-powered coding tool.
+    - jev-latest choice confidence 0.53
 placement:
   primary_category: coding-agents
   secondary_categories: []

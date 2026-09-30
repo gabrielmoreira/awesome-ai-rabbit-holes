@@ -84,16 +84,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server implementation for the FHIR standard, fitting perfectly into the Domain
-    Servers section of the MCP category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'FHIR MCP Server for handling medical data standard.'
-    - Built on FastMCP framework and listed in awesome-mcp-servers under 'Biology, Medicine and Bioinformatics'.
-    - Provides MCP tools for FHIR resources (request_patient_resource, etc.) for use with Claude Desktop.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

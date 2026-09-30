@@ -65,19 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    IronClaw is a standalone personal AI assistant that can plan, execute tasks, build tools, and automate workflows
-    across a repo and local environment, fitting the coding agent definition.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - Repo description explicitly states it's an 'Agent OS' with 12,152 stars and recent push activity in 2026.
-    - >-
-      README describes dynamic tool building, routine automation, Docker sandboxing, and multi-channel REPL/HTTP
-      interfaces.
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem'.
+    - jev-latest choice confidence 0.79
 placement:
-  primary_category: coding-agents
+  primary_category: local-ai
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Inference Engines
 lifecycle:
   status: curated
   reason: Stars (12152) exceeded threshold (150)

@@ -80,17 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP-first middleware that aggregates and routes between MCP servers, making MCP infrastructure its
-    core identity rather than a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''Plugged.in MCP Server manages all your other MCPs in one MCP.'''
-    - >-
-      README: 'aggregates multiple Model Context Protocol (MCP) servers into a single unified interface' and 'fetches
-      tool, prompt, and resource configurations from the plugged.in App'
-    - >-
-      Source-list context: listed in awesome-mcp-servers under 'Server Implementations > Aggregators' and 'Official
-      Servers'
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

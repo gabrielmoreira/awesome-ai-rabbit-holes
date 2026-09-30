@@ -65,23 +65,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is primarily a code-first toolkit and CLI for building document-indexing and retrieval pipelines,
-    fitting the Memory / Retrieval Infrastructure section of Frameworks & SDKs.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Memory & Retrieval Infrastructure
   evidence:
-    - >-
-      Repo description states: 'Converse with book - Built with GPT-3' and topics include langchain,
-      nlp-machine-learning, python.
-    - >-
-      README shows a PyPI-installable CLI tool (dr-doc-search) with training and query commands using LangChain
-      embeddings.
-    - >-
-      Listed in awesome-langchain under 'Open Source Projects > Other / Chatbots', confirming its LangChain ecosystem
-      position.
+    - jev-latest choice confidence 0.51
 placement:
-  primary_category: memory-and-context
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Retrieval & Fresh Docs
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: curated
   reason: Stars (596) exceeded threshold (150)

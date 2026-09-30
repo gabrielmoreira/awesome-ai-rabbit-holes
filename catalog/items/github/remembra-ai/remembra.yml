@@ -79,13 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a memory, retrieval, and context-shaping system designed to persist and recall knowledge for AI
-    agents, which aligns directly with the Prompt & Context Engineering category.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - Repo description calls it a 'Universal memory layer for AI applications' with self-hosting.
-    - README demonstrates entity resolution, temporal decay, and graph-aware recall as core features.
-    - Provides SDKs (Python/TypeScript) and MCP server to feed memory into Claude, Cursor, Windsurf, and other agents.
+    - jev-latest choice confidence 0.63
 placement:
   primary_category: memory-and-context
   secondary_categories: []

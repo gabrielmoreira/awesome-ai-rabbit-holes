@@ -59,15 +59,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is a standalone CLI coding agent that plans and executes terminal commands to fulfill development tasks,
-    fitting the definition of a primary coding assistant.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description states it gives LLMs the ability to 'plan and execute terminal commands'.
-    - >-
-      README explains the script queries GPT-4 for a series of terminal commands to achieve a programming objective,
-      then asks user approval.
-    - Listed in awesome-langchain under 'Other LLM Frameworks', confirming its identity as a developer tool.
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: coding-agents
   secondary_categories: []

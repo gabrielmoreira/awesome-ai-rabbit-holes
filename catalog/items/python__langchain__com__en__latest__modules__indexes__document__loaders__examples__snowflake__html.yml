@@ -55,15 +55,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    LangChain is a code-first SDK developers import to build agent applications, fitting the Frameworks & SDKs category
-    as a library for composing agents rather than a standalone agent or orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'LangChain provides create_agent: a minimal, highly configurable agent harness'
-    - Developers compose agents from model, tools, prompt, and middleware in code
-    - Built on top of LangGraph for durable execution and middleware support
+    - jev-latest choice confidence 0.53
 placement:
   primary_category: ai-frameworks
+  secondary_categories: []
   section: LLM & Agent SDKs
 lifecycle:
   status: curated

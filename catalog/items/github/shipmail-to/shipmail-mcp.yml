@@ -94,14 +94,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an implementation of the Model Context Protocol (MCP) designed to expose a
-    specific service (Shipmail) to LLM clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - README identifies the project as an official Model Context Protocol server.
-    - >-
-      The tool enables MCP-compatible clients like Claude Desktop and Cursor to interact with Shipmail domains and
-      threads.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

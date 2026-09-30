@@ -61,21 +61,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is an MCP server whose entire product identity is exposing web-reading tools via the Model Context Protocol; it
-    fits squarely in MCP Servers & Tooling as a domain-specific server implementation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      README titles the project 'Lyrenth MCP server' and documents stdio MCP tool endpoints (read_url, read_urls,
-      check_usage) for Claude Desktop, Cursor, and Claude Code.
-    - >-
-      Listed in awesome-mcp-servers under Server Implementations > Browser Automation, confirming its categorical
-      identity.
-    - Repository is unarchived and recently pushed with active setup and local build instructions.
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

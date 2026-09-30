@@ -63,23 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server that aggregates and exposes hundreds of third-party endpoints to
-    MCP-compatible clients, matching the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo name and README present it as '@unclick/mcp-server' with install instructions for claude_desktop_config.json,
-      Cursor, and Windsurf.
-    - >-
-      README states it provides '450+ callable endpoints across 178+ tools, available to any MCP-compatible AI client'
-      through one server.
-    - >-
-      Listed in awesome-mcp-servers under Server Implementations > Aggregators, reinforcing its MCP infrastructure
-      identity.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

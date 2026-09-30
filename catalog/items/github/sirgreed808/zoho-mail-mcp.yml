@@ -67,15 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server for a specific domain (email), making it a clean fit for the MCP Servers & Tooling category
-    under Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states 'MCP server for Zoho Mail'.
-    - >-
-      README excerpt confirms it is 'A Model Context Protocol server for Zoho Mail' with tools like list_inbox,
-      send_email, and search_emails.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

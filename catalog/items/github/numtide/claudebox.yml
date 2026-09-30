@@ -61,17 +61,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The tool is not a primary coding assistant itself; it is a host integration layer that sandboxes and constrains
-    Claude Code's access to the system.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
-    - 'Repo description: ''responsible Claude Code YOLO'''
-    - 'README: ''Open your Claude Code project in a lightweight sandbox, and avoid unwanted surprises.'''
-    - 'README: ''Uses --dangerously-skip-permissions (safe in sandbox)'''
+    - jev-latest choice confidence 0.73
 placement:
-  primary_category: agent-orchestration
+  primary_category: extensions-and-addons
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Claude Code & Agent Tools
 lifecycle:
   status: curated
   reason: null

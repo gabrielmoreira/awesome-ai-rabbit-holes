@@ -55,17 +55,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The tool treats English Markdown specs as the primary artifact driving code generation, fitting a spec-first
-    development loop despite being a POC.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Scaffolding & Boilerplate
   evidence:
-    - 'Repo description: ''POC AI based Compiler, for converting english based markdown specs, into functional code'''
-    - 'README: ''What if, instead of writing code from functional specs, we simply compile it directly to code?'''
-    - Usage involves creating *.spec.md files and running `english-compiler build all` to generate code from specs
+    - jev-latest choice confidence 0.54
 placement:
-  primary_category: coding-agents
+  primary_category: app-builders
   secondary_categories: []
-  section: Spec-First & Plan-Execute
+  section: Scaffolding & Boilerplate
 lifecycle:
   status: curated
   reason: Stars (296) exceeded threshold (150)

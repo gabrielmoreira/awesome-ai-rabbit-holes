@@ -79,13 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a code-first library and CLI that developers import and script against to customize models, fitting
-    the Frameworks & SDKs identity rather than an agent or local runtime.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Fine-tuning & Training
   evidence:
-    - Repo description states it provides 'an easy way to personalize open-source LLMs' from data prep to fine-tuning.
-    - 'README examples show a Python SDK workflow: `from xturing.models import BaseModel` and `model.finetune(dataset)`.'
-    - Topics include library-focused tags like `peft`, `lora`, `deep-learning`, and `finetuning`.
+    - jev-latest choice confidence 0.54
 placement:
   primary_category: local-ai
   secondary_categories: []

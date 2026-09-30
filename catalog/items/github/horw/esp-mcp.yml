@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a domain-specific MCP server for ESP-IDF workflows, not a generic extension or
-    assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for ESP32/ESP-IDF commands
-    - README details MCP tool definitions and configuration for MCP-compatible clients
-    - Listed in awesome-mcp-servers under Embedded System servers
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

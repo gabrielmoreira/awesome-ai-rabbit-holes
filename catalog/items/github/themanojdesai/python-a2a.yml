@@ -63,23 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a code-first library and SDK used by developers to implement agent communication protocols in Python,
-    fitting the Frameworks & SDKs identity better than an orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description explicitly defines it as 'a powerful, easy-to-use library for implementing Google's A2A
-      protocol'.
-    - >-
-      README emphasizes 'Comprehensive documentation, type hints, and examples' and 'works with any Python framework'
-      like a typical SDK.
-    - >-
-      Source list places it in 'Agent Communication Protocols' under an agent orchestration awesome list, but the
-      product itself is the building block.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Multi-Agent Systems
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (988) exceeded threshold (150)

@@ -102,17 +102,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Xinference is a unified inference serving runtime focused on local, self-hosted, or on-prem deployment of LLMs and
-    multimodal models, making it a core local AI tool rather than a coding assistant, framework, or extension.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Local API Servers
   evidence:
-    - Repo description emphasizes running models 'on cloud, on-prem, or your laptop' through a unified inference API
-    - README highlights self-hosting, Docker support, and local deployment as key workflows
-    - >-
-      Project provides a local serving stack with CLI, Python library, and Docker image for on-device or private cloud
-      use
+    - jev-latest choice confidence 0.63
 placement:
   primary_category: local-ai
+  secondary_categories: []
   section: Local API Servers
 lifecycle:
   status: curated

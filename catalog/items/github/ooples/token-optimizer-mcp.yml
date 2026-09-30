@@ -72,17 +72,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for token optimization targeting Claude Code, making it a clear fit for MCP
-    Servers & Tooling as its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''Intelligent token optimization for Claude Code'' with MCP server topics'
-    - 'Archived: no, actively pushed as of 2026-04-20'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.57
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Compression & Token Optimization
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (360) exceeded threshold (150)

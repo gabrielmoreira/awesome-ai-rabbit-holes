@@ -54,13 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server whose primary identity is providing Markdown-to-PDF conversion as an MCP tool, fitting
-    the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''Convert Markdown to professional PDFs with customizable themes - MCP server for Claude Desktop'''
-    - README shows MCP server wrapper (md_to_pdf_mcp.py) and MCP tool definitions like convert_markdown_to_pdf
-    - Listed in awesome-mcp-servers under Server Implementations > File Systems
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []

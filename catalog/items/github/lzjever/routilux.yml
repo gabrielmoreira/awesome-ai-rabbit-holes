@@ -71,19 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a code-first Python library and CLI for building durable, event-driven workflows and agent pipelines,
-    fitting squarely as a developer-imported workflow engine rather than a control plane or standalone coding assistant.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Workflow & Graph Engines
   evidence:
-    - >-
-      Repo description explicitly calls it a 'routines-based, event-driven workflow orchestration for Python' with
-      durable state and error handling.
-    - >-
-      README positions it as a library and CLI installed via pip/uv/pipx, with 'LLM Agent Workflows' listed as one of
-      its perfect-for use cases.
-    - >-
-      Included in awesome-agent-orchestration under 'Core Frameworks > Workflow & Pipeline Frameworks', aligning with a
-      framework-grade identity.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

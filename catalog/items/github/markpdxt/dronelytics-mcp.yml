@@ -72,21 +72,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server providing domain-specific drone airspace and mission planning tools, making MCP its
-    core identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description: 'MCP server for US drone airspace intelligence and mission planning — 24 tools for airspace
-      queries, mission generation, Part 107 compliance, and flight plan export'
-    - >-
-      README: 'MCP (Model Context Protocol) server for the Dronelytics drone mission planning platform' and details 24
-      MCP tools organized by function
-    - Setup instructions show MCP client configuration for Claude Desktop, Claude Code, Cursor, and Windsurf via npx
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

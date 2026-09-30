@@ -64,19 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose primary identity is exposing axe-core accessibility testing APIs to
-    MCP-compatible clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP Server for Web Accessibility Testing'
-    - >-
-      README describes it as 'an MCP server that gives LLMs access to web accessibility testing APIs' using axe-core and
-      Puppeteer
-    - Listed in awesome-mcp-servers under 'Developer Tools' section
+    - jev-latest choice confidence 0.67
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

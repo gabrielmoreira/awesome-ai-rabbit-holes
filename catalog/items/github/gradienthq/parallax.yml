@@ -74,13 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a code-first framework for distributed model serving, fitting the developer-tooling scope as
-    infrastructure for building AI workflows.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - Repo description explicitly calls it a 'distributed model serving framework'
-    - README highlights pipeline parallelism, cross-platform support, and P2P communication as core features
-    - Source-list context places it under 'Inference' in a curated LLM resources list
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: local-ai
   secondary_categories: []

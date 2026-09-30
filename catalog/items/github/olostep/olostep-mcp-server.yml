@@ -78,13 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that exposes Olostep's web scraping and search infrastructure to MCP-compatible agents,
-    making MCP its core identity rather than a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly states 'MCP server for Olostep' with web scraping, crawling, and search capabilities.
-    - README details MCP integrations for Cursor, Claude Desktop, Claude Code, Windsurf, and VS Code.
-    - Listed in awesome-mcp-servers under 'Browser Automation' server implementations.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -71,17 +71,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is an MCP server that gives AI assistants access to Obsidian vaults, making MCP the core product identity
-    rather than a secondary integration.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description explicitly states 'Context infrastructure for AI-assisted development — on-demand Obsidian vault
-      access via MCP'
-    - >-
-      README shows it is an MCP server with tools like vault_query, vault_search, vault_write targeting Claude Code,
-      Gemini CLI, Cursor, and other MCP clients
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section, confirming its MCP server identity
+    - jev-latest choice confidence 0.53
 placement:
   primary_category: mcp
   secondary_categories: []

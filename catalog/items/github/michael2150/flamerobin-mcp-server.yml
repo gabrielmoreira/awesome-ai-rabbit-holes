@@ -64,15 +64,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is an MCP server for Firebird databases, and MCP is its primary identity rather than a compatibility
-    footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - >-
-      README states it is 'A Model Context Protocol (MCP) server for Firebird databases' with explicit MCP tool
-      definitions.
-    - Included in awesome-mcp-servers under 'Databases' section, confirming its identity as an MCP server.
-    - Provides Claude Desktop configuration example, showing it is designed as an MCP integration point.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

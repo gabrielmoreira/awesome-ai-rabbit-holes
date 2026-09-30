@@ -66,15 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product’s identity is an MCP server that exposes system metrics, fitting cleanly as a domain-specific MCP server
-    rather than a generic framework or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''A system monitoring tool that exposes system metrics via the Model Context Protocol (MCP).'''
-    - >-
-      README lists multiple MCP tools: get_cpu_info, get_memory_info, get_disk_info, get_network_info, get_host_info,
-      get_process_info.
-    - GitHub topics include mcp, mcp-server, and monitoring.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

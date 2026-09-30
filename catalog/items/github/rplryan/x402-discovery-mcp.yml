@@ -79,17 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server that exposes x402 service discovery as tools to MCP-compatible clients,
-    matching the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Registries & Discovery
   evidence:
-    - >-
-      Repo description explicitly states 'MCP server for x402 Service Discovery' with Claude, Cursor, Windsurf as
-      targets.
-    - >-
-      README positions the project as 'This MCP server solves it' and provides MCP tools (scout_route, scout_discover,
-      etc.).
-    - Listed in awesome-mcp-servers under Server Implementations > Aggregators, reinforcing the MCP server identity.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

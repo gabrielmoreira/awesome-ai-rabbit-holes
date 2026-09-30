@@ -63,21 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a code-first Python framework used by developers to script and orchestrate interacting LLM agents for
-    a specific domain (scientific research), rather than a standalone assistant or control plane.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly calls it an 'automation framework' for AI-driven research.
-    - >-
-      README notes it is a 'code implementation' with instructions like `pip install data-to-paper` and `data-to-paper
-      diabetes` CLI usage.
-    - >-
-      Implementation guides 'interacting LLM and rule-based agents' through scientific steps, fitting the
-      developer-building-with-code pattern.
+    - jev-latest choice confidence 0.88
 placement:
-  primary_category: ai-frameworks
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Multi-Agent Systems
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (787) exceeded threshold (150)

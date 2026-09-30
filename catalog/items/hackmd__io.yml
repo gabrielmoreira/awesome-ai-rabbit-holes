@@ -55,16 +55,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    HackMD functions as a persistent knowledge base where agents can retrieve and write Markdown context via API,
-    fitting the memory-and-context category's focus on externalized agent memory and knowledge storage.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Retrieval & Fresh Docs
   evidence:
-    - Every HackMD note is Markdown all the way down, enabling agents to pull context/reference docs via REST API or CLI
-    - Push agent-generated drafts back into your workspace with version history tracking
-    - Explicitly positioned as a 'shared context layer' for teams and agents to stay aligned
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: memory-and-context
-  section: Persistent Memory & Knowledge
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: curated
   reason: null

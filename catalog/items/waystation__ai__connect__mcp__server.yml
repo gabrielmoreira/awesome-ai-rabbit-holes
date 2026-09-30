@@ -50,17 +50,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server that exposes tools over the Model Context Protocol, matching the MCP
-    category's focus on protocol infrastructure rather than host extensions or coding agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Scraped site describes it as 'The only MCP Server action you need' to connect MCP hosts with daily tools
-    - Source-list context identifies it as an 'Official Server' in the awesome-mcp-servers directory
-    - Primary function is no-code, secure integration hub for MCP hosts to access productivity apps
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

@@ -79,17 +79,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server purpose-built to expose electronic component data to AI agents, making MCP its clear product
-    identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo name and description explicitly identify this as an MCP server (sheetsdata-mcp).
-    - >-
-      README states 'SheetsData is an MCP server that gives AI agents instant, structured access to electronic component
-      data.'
-    - Appears in awesome-mcp-servers under Server Implementations, reinforcing its MCP identity.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

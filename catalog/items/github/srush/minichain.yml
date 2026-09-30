@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a code-first library used to script and build LLM workflows, fitting the definition of a developer framework
-    rather than an autonomous agent or IDE extension.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description states it is 'A tiny library for coding with large language models.'
-    - README demonstrates usage via Python function decorators (@prompt) and chaining logic, not a CLI or IDE.
-    - Listed in awesome-langchain under 'Other LLM Frameworks', confirming its identity as a LangChain alternative.
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

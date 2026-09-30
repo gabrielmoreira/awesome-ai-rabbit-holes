@@ -55,19 +55,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a standalone agent that uses GPT-4 to perceive and act upon a browser environment to complete
-    user-defined tasks, fitting the computer-use agent profile.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Testing & Code Quality
   evidence:
-    - 'Repo description states: ''Automate your browser with GPT-4''.'
-    - >-
-      README excerpt confirms it 'uses GPT-4 to control your browser and perform repetitive actions' via a full action
-      cycle (DOM analysis -> LLM planning -> execution).
-    - Listed in awesome-ai-agents under the 'Taxy AI' entry for autonomous agents.
+    - jev-latest choice confidence 0.63
 placement:
-  primary_category: coding-agents
+  primary_category: extensions-and-addons
   secondary_categories: []
-  section: Browser & Computer-Use Agents
+  section: Testing & Code Quality
 lifecycle:
   status: curated
   reason: Stars (1268) exceeded threshold (150)

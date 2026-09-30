@@ -66,15 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is explicitly MCP infrastructure, serving as a framework for building MCP servers and clients,
-    which aligns perfectly with the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - Repo description states it is 'The fast, Pythonic way to build MCP servers and clients.'
-    - >-
-      README claims 'FastMCP is the standard framework for working with MCP' and powers '70% of MCP servers across all
-      languages.'
-    - Topics include mcp, mcp-servers, mcp-clients, and mcp-tools, confirming protocol-first identity.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

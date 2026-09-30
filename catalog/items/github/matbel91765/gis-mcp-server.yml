@@ -58,17 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP-first server whose core identity and functionality revolve around exposing geospatial tools
-    via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'README explicitly states: ''A Model Context Protocol (MCP) server providing geospatial tools for AI agents'''
-    - >-
-      Tools are exposed as MCP capabilities (geocode, route, buffer, read_file, etc.) with setup instructions for Claude
-      Desktop via mcpServers config
-    - >-
-      Architecture centers on server.py as MCP entry point, with no indication of being a wrapper, SDK, or extension to
-      another agent
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

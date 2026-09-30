@@ -61,15 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that exposes JoltSMS phone and OTP capabilities to AI agents, making MCP its clear
-    product identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states 'MCP server for JoltSMS'
-    - >-
-      README says it is 'Built on the Model Context Protocol' and lists tools like joltsms_provision_number and
-      joltsms_wait_for_sms
-    - Listed in awesome-mcp-servers under Server Implementations > Communication
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

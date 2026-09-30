@@ -59,21 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Shannon is a multi-agent orchestration platform with a control plane (gateway/orchestrator/services) for
-    coordinating agent workflows, not a coding assistant or framework library.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''A production-oriented multi-agent orchestration framework.'''
-    - >-
-      README emphasizes multi-strategy orchestration, swarm collaboration, token budgets, human approval workflows, and
-      time-travel debugging.
-    - >-
-      Architecture shows distinct services (Gateway, Orchestrator, Agent Core, LLM Service) forming a runtime platform
-      for agent coordination.
+    - jev-latest choice confidence 0.88
 placement:
-  primary_category: ai-frameworks
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Multi-Agent Systems
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (1823) exceeded threshold (150)

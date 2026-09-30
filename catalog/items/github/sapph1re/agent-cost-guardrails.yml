@@ -74,17 +74,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first library that developers import and script against to add budgeting to agent frameworks, fitting
-    squarely as a framework/SDK building block rather than a control plane or extension.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description states it is 'Budget limits and cost guardrails for AI agent frameworks'
-    - >-
-      README shows Python SDK usage via `pip install`, context managers, and decorators for CrewAI, AutoGen, and
-      LangGraph
-    - License is MIT with recent creation (2026-04-02) and active pushes (2026-04-07)
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: ai-frameworks
+  secondary_categories: []
   section: LLM & Agent SDKs
 lifecycle:
   status: curated

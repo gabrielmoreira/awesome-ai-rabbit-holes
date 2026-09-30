@@ -64,15 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for document management and semantic search, with MCP as its core identity
-    rather than an underlying platform or extension layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description states: ''Needle MCP Server for easy RAG. Long-term memory for LLMs.'''
-    - >-
-      README positions it as 'MCP server to manage documents and perform searches using Needle through Claude's Desktop
-      Application.'
-    - Listed in awesome-mcp-servers under 'Official Servers', reinforcing its MCP infrastructure identity.
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []

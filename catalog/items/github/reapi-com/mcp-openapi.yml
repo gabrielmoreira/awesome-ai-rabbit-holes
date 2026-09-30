@@ -65,15 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server designed to serve OpenAPI specs to IDEs, making it a perfect fit for the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description states: ''OpenAPI specification MCP server.'''
-    - >-
-      README identifies it as 'A Model Context Protocol (MCP) server that loads and serves multiple OpenAPI
-      specifications.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

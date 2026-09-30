@@ -75,15 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MetaMCP is an MCP-native infrastructure product whose core identity is as an aggregator and middleware for MCP
-    servers, fitting squarely in the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''MCP Aggregator, Orchestrator, Middleware, Gateway in one docker'''
-    - >-
-      README: 'MetaMCP is a MCP proxy that lets you dynamically aggregate MCP servers into a unified MCP server, and
-      apply middlewares. MetaMCP itself is a MCP server'
-    - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Aggregators'''
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

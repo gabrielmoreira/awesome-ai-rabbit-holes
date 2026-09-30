@@ -118,17 +118,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job is measuring, scoring, and regression-testing prompt, agent, and RAG behavior, which aligns exactly
-    with the Evals & Benchmarks category.
+  reason: Jev decision-model reclassifier placed this item in evals / Prompt Regression & Testing
   evidence:
-    - >-
-      Repo description explicitly states: 'Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability
-      scanning for AI.'
-    - >-
-      README states: 'promptfoo is a CLI and library for evaluating and red-teaming LLM apps' and highlights CI/CD
-      integration.
-    - GitHub topics include evaluation-framework, llm-eval, red-teaming, prompt-testing, and vulnerability-scanners.
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: evals
   secondary_categories: []

@@ -59,11 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for iOS simulator interaction, making MCP its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server for interacting with the iOS simulator'''
-    - README explicitly describes it as a Model Context Protocol (MCP) server with tools for simulator control
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

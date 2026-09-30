@@ -84,19 +84,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It acts as a primary coding assistant that reads a prompt and autonomously plans, writes, and structures an entire
-    codebase via its CLI and library interfaces.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description defines it as 'The LLM Automatic Computer Framework' for generating extensive codebases.
-    - README shows a CLI usage (l2mac 'Create a snake game...') that generates a full repo in ./workspace.
-    - >-
-      Included in 'awesome-agent-orchestration' under 'Multi-Agent Orchestration Frameworks', confirming its agentic
-      identity.
+    - jev-latest choice confidence 0.70
 placement:
-  primary_category: ai-frameworks
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Multi-Agent Systems
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (153) exceeded threshold (150)

@@ -68,15 +68,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server delivering healthcare-domain tools to MCP clients like Claude
-    Desktop and Cursor, fitting cleanly as a domain-specific MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'Healthcare billing MCP server' with 20 AI tools for medical coding and claims.
-    - README shows MCP client setup for Claude Desktop, Cursor, VS Code, and Claude Code as the integration model.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Biology, Medicine and Bioinformatics'.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

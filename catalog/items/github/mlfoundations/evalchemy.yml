@@ -59,15 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job is benchmarking and measuring model behavior across standardized tasks, which maps directly to the
-    Evals & Benchmarks category.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - Repo description states 'Automatic evals for LLMs' as the primary purpose.
-    - >-
-      README positions it as 'a unified and easy-to-use toolkit for evaluating post-trained language models' with
-      reasoning benchmarks like AIME24 and LiveCodeBench.
-    - Included in awesome-LLM-resources under the 评估 Evaluation section, aligning with its benchmarking identity.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: evals
   secondary_categories: []

@@ -67,13 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is memory infrastructure with consensus validation, which fits the context-engineering category's
-    focus on memory, retrieval, and prompt-shaping systems.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - README explicitly describes it as 'persistent, consensus-validated memory infrastructure for AI agents'
-    - Architecture centers on memory writes, BFT consensus, and confidence scoring
-    - MCP server badge is present but secondary to the memory infrastructure identity
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: memory-and-context
   secondary_categories: []

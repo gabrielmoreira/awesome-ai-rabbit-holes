@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__skillhub__cn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: SkillHub.cn is a curated directory of AI Skills optimized for Chinese users, offering a vetted list of Top 50 high-quality AI skills with safety review and multi-dimensional evaluation.
-  why_it_matters: Helps developers discover and adopt pre-vetted AI skills, reducing time spent evaluating unreliable or unsafe AI workflows.
-  mental_damage: Another curated list promising to save you from AI overwhelm by adding yet another thing to evaluate before you even start coding.
+  summary: >-
+    SkillHub.cn is a curated directory of AI Skills optimized for Chinese users, offering a vetted list of Top 50
+    high-quality AI skills with safety review and multi-dimensional evaluation.
+  why_it_matters: >-
+    Helps developers discover and adopt pre-vetted AI skills, reducing time spent evaluating unreliable or unsafe AI
+    workflows.
+  mental_damage: >-
+    Another curated list promising to save you from AI overwhelm by adding yet another thing to evaluate before you even
+    start coding.
   tags:
     - ai-skills
     - curated-list
@@ -46,22 +52,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is a curated directory of AI skills, fitting the scope of navigation aids for developers.
+  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
   evidence:
-    - Described as a Chinese-user-focused AI skills community
-    - Curates Top 50 high-quality AI Skills with safety reviews and multi-dimensional evaluation
-    - Listed in awesome-LLM-resources under 'Skills' section
+    - jev-latest choice confidence 0.76
 placement:
-  primary_category: skills
+  primary_category: awesome-awesomes
   secondary_categories: []
-  section: null
+  section: Awesome Lists & Directories
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'skills', proposed 'awesome-awesomes'"
+  reason: 'Categorization review required: placement disagreement: retained ''skills'', proposed ''awesome-awesomes'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:37:08.923Z"
+    updated_at: '2026-09-28T04:37:08.923Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,7 +87,9 @@ processing:
       input_hash: sha256:cf2f5c5c92d10e40ce079512c15d02ea178835d13970d9d194fe542e0fad7c9b
       proposed_primary_category: awesome-awesomes
       disagreement: true
-      decision_reason: SkillHub.cn functions as a curated directory of AI skills, not a tool or agent itself, making it a navigation resource for developers rather than a developer-facing product.
+      decision_reason: >-
+        SkillHub.cn functions as a curated directory of AI skills, not a tool or agent itself, making it a navigation
+        resource for developers rather than a developer-facing product.
       decision_evidence:
         - Described as '专为中国用户优化的 AI Skills 社区' and '精选 Top 50 高质量 AI Skills'
         - Listed in awesome-LLM-resources under '技能 Skills' as a resource summary
@@ -91,6 +97,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - skills
-      contrastive_reason: Choose awesome-awesomes over skills because SkillHub.cn is a directory for discovering AI skills, not a reusable skill pack or rules bundle meant to be installed into an agent.
-      review_reason: "Categorization review required: placement disagreement: retained 'skills', proposed 'awesome-awesomes'"
+      contrastive_reason: >-
+        Choose awesome-awesomes over skills because SkillHub.cn is a directory for discovering AI skills, not a reusable
+        skill pack or rules bundle meant to be installed into an agent.
+      review_reason: 'Categorization review required: placement disagreement: retained ''skills'', proposed ''awesome-awesomes'''
       review_resume_lifecycle: null

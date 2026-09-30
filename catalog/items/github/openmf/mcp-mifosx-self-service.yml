@@ -77,15 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for a specific domain (banking/fintech), making it a textbook fit for MCP
-    Servers & Tooling under Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''MCP Server for Mifos X - Self Service'''
-    - >-
-      README states it is 'a Model Context Protocol (MCP) server built using FastMCP' exposing AI-callable tools for
-      MifosX/Fineract APIs.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' and 'Community Servers'.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -59,15 +59,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core job of this package is measuring and benchmarking agent behavior across standard ML and code-generation
-    datasets, which aligns precisely with the Evals & Benchmarks category.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - Repo description states it is 'Implementation of all the evals of the swarm evals for the swarm paper.'
-    - README explicitly lists evaluation datasets including HumanEval, SWE-BENCH, MMLU, and ARC.
-    - >-
-      Source list places it under 'Tools & Infrastructure > Evaluation & Benchmarking' in an agent-orchestration
-      directory.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: evals
   secondary_categories: []

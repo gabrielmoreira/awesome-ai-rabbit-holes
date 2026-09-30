@@ -73,23 +73,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core novelty is a visualization and management layer for local vector memory systems used by coding assistants,
-    fitting context engineering over a generic extension label.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      Repo description states it is 'A local vector memory explorer with a modern UI' for SQLite-vec databases from MCP
-      Memory Service.
-    - >-
-      README explicitly targets users of 'Claude Code or Claude Desktop with the memory MCP server' to manage their
-      local memory DB.
-    - >-
-      Built as a React + Express UI surface focused on memory visualization, semantic clustering, and duplicate
-      detection rather than coding assistance.
+    - jev-latest choice confidence 0.53
 placement:
-  primary_category: mcp
+  primary_category: memory-and-context
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: curated
   reason: null

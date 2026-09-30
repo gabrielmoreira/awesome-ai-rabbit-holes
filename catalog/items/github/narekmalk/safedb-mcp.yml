@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is an MCP server designed to provide a specific capability (secure DB access) to MCP
-    clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - README defines it as an 'MCP server that lets AI agents inspect and query' databases
-    - 'Provides specific MCP tools: list_schemas, list_tables, run_readonly_query'
-    - Focuses on protocol-level security via SQL parsing and PII masking
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

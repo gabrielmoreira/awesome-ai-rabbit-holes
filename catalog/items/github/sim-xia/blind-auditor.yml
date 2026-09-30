@@ -65,16 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server whose core identity is providing a mandatory audit middleware layer for coding agents via the
-    Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP tool for improving model coding quality by mandatory self-audition'.
-    - README positions it as a 'mandatory code auditing system built on the MCP (Model Context Protocol)'.
-    - Source list places it in awesome-mcp-servers under 'Coding Agents', confirming MCP server identity.
+    - jev-latest choice confidence 0.58
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

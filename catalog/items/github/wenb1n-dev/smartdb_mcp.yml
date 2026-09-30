@@ -72,17 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    SmartDB is an MCP server first and foremost, offering database-specific tools via the Model Context Protocol, making
-    it a clear fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - >-
-      Repo description: 'Universal database MCP server connecting to MySQL, PostgreSQL, SQL Server, MariaDB, DM8,
-      Oracle'
-    - >-
-      README: 'SmartDB is a universal database gateway that implements the Model Context Protocol (MCP) server
-      interface'
-    - Listed in awesome-mcp-servers under Server Implementations > Databases
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

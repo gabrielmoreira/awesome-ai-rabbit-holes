@@ -89,19 +89,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The repository is a code-first library and SDK used by developers to script and assemble multi-agent LLM
-    applications, fitting the Frameworks & SDKs identity better than a hosted orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
   evidence:
-    - >-
-      Repo description explicitly calls it a tool for 'building multi-agent LLMs applications' with topics like
-      'framework' and 'rag'.
-    - >-
-      README describes it as a 'low-code development tool' where developers assemble modules 'like Lego building' using
-      functional modules and data flows.
-    - >-
-      Source lists categorize it under 'Core Frameworks > Multi-Agent Orchestration Frameworks' and '智能体 Agents' rather
-      than control planes.
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

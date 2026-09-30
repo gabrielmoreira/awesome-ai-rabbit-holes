@@ -70,15 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a purpose-built MCP server with domain-specific banking API tooling, fitting cleanly into MCP Servers &
-    Tooling as a domain server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states 'MCP server for the Monzo banking API'
-    - >-
-      README confirms it implements 7 MCP tools (monzo_list_accounts, monzo_sync, monzo_spending, etc.) for Claude Code
-      and any MCP client
-    - Listed in awesome-mcp-servers under Finance & Fintech, directly aligned with the MCP domain server identity
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -60,17 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server exposing Anki capabilities, fitting squarely into MCP infrastructure for
-    domain-specific tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is 'A custom Model Context Protocol (MCP) implementation for Anki'.
-    - README confirms it is 'A Model Context Protocol (MCP) server that provides seamless integration with Anki'.
-    - Listed in awesome-mcp-servers under the 'Community Servers' section.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

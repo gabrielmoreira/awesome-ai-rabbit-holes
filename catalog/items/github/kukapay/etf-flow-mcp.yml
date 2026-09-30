@@ -54,13 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server providing domain-specific (crypto ETF flow) data to agents, fitting the MCP Servers &
-    Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for crypto ETF flow data
-    - README details MCP server integration with Claude Desktop and tool usage
-    - Product identity is centered on MCP infrastructure (server) rather than a broader framework or extension
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

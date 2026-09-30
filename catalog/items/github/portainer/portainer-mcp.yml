@@ -66,13 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is a Model Context Protocol server for a specific domain (Portainer/container management),
-    fitting cleanly into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'Portainer MCP server'.
-    - README positions it as 'an implementation of the Model Context Protocol (MCP) for Portainer environments'.
-    - Usage example shows configuration as an mcpServer within Claude Desktop.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

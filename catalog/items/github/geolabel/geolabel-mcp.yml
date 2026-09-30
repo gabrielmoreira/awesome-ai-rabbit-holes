@@ -62,17 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's entire product identity is an MCP server designed to provide a specific capability to MCP-compatible
-    assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies as an 'MCP server'
-    - README focuses on integration with Claude Desktop, Claude Code, and Hermes via MCP
-    - Product provides a specific domain-specific tool (get_location_label) via the MCP protocol
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

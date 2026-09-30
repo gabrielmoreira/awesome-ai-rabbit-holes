@@ -77,17 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server implementation for secure CLI execution, fitting the MCP Servers & Tooling
-    category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states: 'Command line interface for MCP clients with secure execution and customizable
-      security policies'.
-    - >-
-      README confirms: 'A secure Model Context Protocol (MCP) server implementation for executing controlled
-      command-line operations'.
-    - Found in awesome-mcp-list under 'Command Line' and awesome-mcp-servers under 'Coding Agents'.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

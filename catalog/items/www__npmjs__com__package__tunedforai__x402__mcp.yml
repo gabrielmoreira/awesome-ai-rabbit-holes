@@ -59,14 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server implementation, making MCP its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Package name and URL indicate it is an MCP server (@tunedforai/x402-mcp)
-    - MCP is the core product identity, not a compatibility feature
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

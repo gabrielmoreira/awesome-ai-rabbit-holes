@@ -78,15 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is a specialized MCP server that provides deep code intelligence capabilities to AI
-    agents via the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'Deep code indexing MCP server for AI agents' and lists MCP as a topic.
-    - >-
-      README states 'Srclight builds a rich, searchable index of your codebase that AI coding agents can query
-      instantly' and 'MCP server — works with Claude Code, Cursor, and any MCP client'.
-    - Listed in awesome-mcp-servers under 'Developer Tools' section, confirming its identity as an MCP implementation.
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: mcp
   secondary_categories: []

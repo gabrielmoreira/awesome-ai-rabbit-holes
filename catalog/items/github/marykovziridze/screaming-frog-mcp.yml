@@ -75,17 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that gives Claude headless access to Screaming Frog, making MCP its clear primary
-    identity rather than a secondary integration or generic extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP server for Screaming Frog SEO Spider' with Claude skill integration.
-    - README shows a tool suite built entirely around MCP tools like crawl_site, export_crawl, and storage_summary.
-    - Listed in awesome-mcp-servers under Server Implementations > Marketing, reinforcing its MCP server identity.
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

@@ -97,15 +97,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Warp functions as a standalone coding agent with built-in AI capabilities and support for external agents like
-    Claude Code, positioning it as a primary developer assistant rather than an extension.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''Warp is an agentic development environment, born out of the terminal'''
-    - >-
-      README: 'Use Warp's built-in coding agent, or bring your own CLI agent (Claude Code, Codex, Gemini CLI, and
-      others)'
-    - 'Source-list: listed under ''Terminal-native coding agents > Closed Source'' in awesome-cli-coding-agents'
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: coding-agents
   secondary_categories: []

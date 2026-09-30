@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server implementation for SQLite, making MCP its primary product identity rather than a
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly identifies it as an MCP server for SQLite
-    - README demonstrates MCP tool calls and server configuration for Cursor/VSCode
-    - Listed in awesome-mcp-servers under Database servers
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

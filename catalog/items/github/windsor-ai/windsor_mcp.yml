@@ -58,17 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Windsor MCP is an MCP-first hosted server whose core identity is providing business data access via the Model
-    Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README describes it as a 'hosted MCP server' that lets AI assistants query 325+ marketing data sources
-    - Listed in awesome-mcp-servers under Community Servers as an MCP server discovery target
-    - Provides MCP-compatible endpoints like /llms.txt, /datasources, and OAuth 2.0 discovery for agent integration
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

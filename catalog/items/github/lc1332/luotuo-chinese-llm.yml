@@ -58,18 +58,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Luotuo is primarily a collection of Chinese language models and local tooling (embeddings, QA, etc.) meant for
-    self-hosted use, fitting the Local AI category as a runtime and model repository with clear developer-facing
-    utility.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - 'Repo description: ''Open Sourced Chinese Language Models'''
-    - 'README: Includes models, embeddings, QA, and derivative apps like Chat凉宫春日 and 驼嵌入'
-    - 'Source-list context: Listed in Awesome-LLMOps under Model > Large Language Model'
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: local-ai
   secondary_categories: []
-  section: Fine-tuning & Training
+  section: Inference Engines
 lifecycle:
   status: curated
   reason: Stars (3611) exceeded threshold (150)

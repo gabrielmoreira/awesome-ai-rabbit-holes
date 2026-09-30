@@ -61,17 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP client implementation for the CodeMirror editor, fitting the MCP tooling
-    category.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / IDE & Editor Add-ons
   evidence:
-    - 'Repo description states: ''CodeMirror extension to hook up a Model Context Provider (MCP)'''
-    - README lists features for MCP resource mentions and prompt commands within CodeMirror.
-    - Source list context shows inclusion in awesome-mcp-servers under the 'Clients' section.
+    - jev-latest choice confidence 0.90
 placement:
-  primary_category: mcp
+  primary_category: extensions-and-addons
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: IDE & Editor Add-ons
 lifecycle:
   status: curated
   reason: null

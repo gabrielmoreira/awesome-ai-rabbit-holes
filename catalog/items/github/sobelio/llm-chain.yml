@@ -69,19 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first library and SDK that developers import to build LLM chains and agents in Rust, fitting the
-    Frameworks & SDKs category.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Workflow & Graph Engines
   evidence:
-    - Repo description identifies it as a 'powerful rust crate for building chains in large language models'.
-    - >-
-      README states it is a 'collection of Rust crates' with features like prompt templates, chains, and vector store
-      integrations.
-    - Getting Started section shows adding llm-chain as a dependency in Cargo.toml, confirming library/SDK usage.
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: LLM & Agent SDKs
+  section: Workflow & Graph Engines
 lifecycle:
   status: curated
   reason: Stars (1600) exceeded threshold (150)

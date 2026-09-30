@@ -81,17 +81,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server designed to provide tools to other agents, rather than being a
-    standalone coding assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README explicitly describes it as a 'pecialized Model Context Protocol (MCP) server'
-    - Provides tools like BashCommand and FileWriteOrEdit for host agents
-    - Core value proposition is performance optimization for MCP-based toolsets
+    - jev-latest choice confidence 0.61
 placement:
-  primary_category: coding-agents
+  primary_category: mcp
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

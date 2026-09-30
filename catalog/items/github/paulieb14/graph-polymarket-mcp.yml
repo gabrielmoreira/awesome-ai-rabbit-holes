@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server for a specific domain (prediction markets), making it a textbook fit for the
-    MCP Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states 'MCP server for Polymarket prediction markets' with 31 tools.
-    - README positions the tool as exposing Polymarket data specifically for AI agents via MCP (Claude, Cursor, etc.).
-    - Listed in awesome-mcp-servers under 'Finance & Fintech', confirming its identity as an MCP server.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

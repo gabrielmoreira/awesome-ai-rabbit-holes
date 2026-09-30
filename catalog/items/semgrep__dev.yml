@@ -69,15 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Semgrep's core identity is a security scanning platform, but its MCP server integration positions it as an extension
-    for AI coding tools, augmenting them with security capabilities rather than acting as a primary assistant.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Security & DevSecOps
   evidence:
-    - >-
-      Described as an 'extensible developer-friendly application security platform' with AI-assisted SAST, SCA, and
-      secrets detection
-    - Explicitly offers MCP integrations for AI tools like Cursor and Replit
-    - Listed in awesome-mcp-servers under 'Official Servers'
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []

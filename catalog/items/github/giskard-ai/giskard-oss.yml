@@ -77,11 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core functionality is measuring and validating model and agent behavior via evals and red-teaming.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - README describes it as an 'Evaluation & Testing library for LLM Agents'
-    - Specifically provides 'Groundedness' and 'LLM-as-judge' checks
-    - Focuses on catching regressions and validating RAG quality
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: evals
   secondary_categories: []

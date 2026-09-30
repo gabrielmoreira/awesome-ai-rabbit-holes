@@ -74,17 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is centered on being an MCP-based middleware layer that brokers access via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / API & Service Integrations
   evidence:
-    - README states it provides MCP stdio and HTTP+OIDC frontends
-    - Core functionality is a broker/signer architecture for MCP tool calls
-    - Identity is a security middleware for agent access
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
-  section: Security & DevSecOps
+  section: API & Service Integrations
 lifecycle:
   status: curated
   reason: null

@@ -88,13 +88,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing Box storage integration via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states it is a Box MCP server for file operations
-    - README details Box authentication and MCP server configuration for Claude Desktop
-    - Listed in multiple MCP server directories under File Systems
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -78,16 +78,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server designed to provide specific codebase-analysis capabilities to host
-    IDEs.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as a Model Context Protocol server
-    - README details configuration for MCP clients like Cursor and Windsurf
-    - Provides a single tool (`deepview`) to query a codebase via the MCP protocol
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

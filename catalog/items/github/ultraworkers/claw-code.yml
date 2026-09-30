@@ -60,17 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Claw Code is a standalone CLI coding agent that directly performs coding tasks like reading, planning, editing, and
-    testing code, making it a primary coding assistant rather than an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - >-
-      README describes it as 'the public Rust implementation of the `claw` CLI agent harness' that runs prompts to
-      perform coding work
-    - >-
-      Usage shows it reads code, plans changes, edits files, runs commands, and repairs failures via the `claw prompt`
-      command
-    - It is positioned as a terminal-native AI coding agent in the source-list context under 'awesome-cli-coding-agents'
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: coding-agents
   secondary_categories: []

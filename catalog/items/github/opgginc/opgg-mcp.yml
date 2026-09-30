@@ -78,18 +78,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a domain-specific MCP server whose primary identity is exposing game data via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      README describes it explicitly as 'A Model Context Protocol implementation that provides AI agents with access to
-      OP.GG game data'.
-    - Source lists place it in awesome-mcp-servers under 'Server Implementations > Gaming' and 'Official Servers'.
-    - The server supports Streamable HTTP transport and provides structured tools for LoL, TFT, and Valorant data.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

@@ -96,11 +96,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server for Homebrew, not a generic tool or extension.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is a Homebrew MCP server
-    - README confirms it is an MCP server exposing Homebrew commands as tools
-    - Already listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

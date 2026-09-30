@@ -72,13 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server implementation for PostgreSQL, explicitly designed to be plugged into
-    MCP-compatible clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description states: ''An MCP server to query any Postgres database in natural language.'''
-    - README lists compatibility with 'Any MCP Client' including Cursor, Claude Desktop, and VS Code extensions.
-    - Listed in awesome-mcp-servers under 'Databases' with 529 stars and active development (pushed 2025-09-25).
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

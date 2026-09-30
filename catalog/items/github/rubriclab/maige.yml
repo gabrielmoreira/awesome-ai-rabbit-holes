@@ -60,19 +60,12 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is a GitHub App integration that adds automation capabilities to the repo/host layer rather than acting
-    as a primary coding assistant that edits code.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / API & Service Integrations
   evidence:
-    - >-
-      Repo description states it is 'Open-source infrastructure for running natural language workflows on your
-      codebase.'
-    - >-
-      README demonstrates commands like 'maige assign me to this issue' and 'maige add the label...', focusing on
-      issue/PR management rather than code editing.
-    - 'GitHub App integration requires permissions only for ''Issue: Read & Write'' and ''Pull Request: Read & Write''.'
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: extensions-and-addons
+  secondary_categories: []
   section: API & Service Integrations
 lifecycle:
   status: curated

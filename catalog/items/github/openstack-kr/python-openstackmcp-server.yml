@@ -62,15 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a first-party MCP server implementation that gives AI assistants direct access to OpenStack services, making
-    MCP its clear product identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description is literally 'openstack mcp server'
-    - README states it 'provides an interface for AI assistants to interact with OpenStack services' via MCP protocol
-    - >-
-      Listed in awesome-mcp-servers under Cloud Platforms, with tools for compute, image, identity, network, and block
-      storage
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

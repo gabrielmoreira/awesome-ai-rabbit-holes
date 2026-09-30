@@ -69,13 +69,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product explicitly identifies as an MCP server and positions itself as a feature-rich toolset for Claude Code,
-    making MCP its primary identity rather than a generic coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description states it is 'built on Claude Code + MCP' and 'MCP server' with 113+ tools.
-    - README comparison table claims it is 'the most comprehensive MCP server for Claude Code'.
-    - Topics include 'mcp', 'mcp-server', and 'model-context-protocol'.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

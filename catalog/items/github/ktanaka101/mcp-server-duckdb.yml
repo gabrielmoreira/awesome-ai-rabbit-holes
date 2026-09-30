@@ -79,13 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing DuckDB database interaction via MCP, fitting
-    squarely in the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is an MCP server for DuckDB
-    - README confirms it implements MCP tools for database operations
-    - Listed in multiple MCP server directories under Databases
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

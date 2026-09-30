@@ -69,15 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Desktop Commander MCP is primarily an MCP server providing filesystem and terminal tooling, making MCP its core
-    identity rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'This is MCP server for Claude that gives it terminal control, file system search and diff file
-      editing capabilities'
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Coding Agents'
-    - 'README: emphasizes MCP server functionality, Remote MCP, and server configuration management'
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

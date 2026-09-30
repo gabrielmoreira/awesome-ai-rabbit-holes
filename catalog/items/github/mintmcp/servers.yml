@@ -57,17 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a set of MCP servers exposing calendar and email tools, which fits MCP Servers & Tooling as
-    domain-specific servers rather than a framework, extension, or general platform.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - >-
-      Repo description is 'MintMCP Servers' and the README lists Google Calendar, Gmail, Outlook Calendar, and Outlook
-      MCP servers with URLs and tool definitions.
-    - >-
-      The README explicitly positions these as MCP servers for connecting agents like Claude, Cursor, Windsurf, and
-      ChatGPT to email and calendar apps.
-    - Listed in awesome-mcp-servers under Community Servers, reinforcing the MCP domain-server identity.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

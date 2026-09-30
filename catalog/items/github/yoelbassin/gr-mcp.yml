@@ -54,13 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    gr-mcp is an MCP server whose core identity is providing MCP tooling for GNU Radio, making it a domain-specific MCP
-    server rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server for GNU Radio'''
-    - 'README: ''gr-mcp is an MCP server that exposes GNU Radio flowgraph operations as tools for AI assistants'''
-    - 'Source-list: included in awesome-mcp-servers under Embedded System'
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

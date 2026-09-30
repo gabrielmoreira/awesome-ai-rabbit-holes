@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server exposing Chrome capabilities, not merely an
-    MCP-compatible extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly identifies it as a Chrome extension-based MCP server
-    - README emphasizes MCP as the core protocol and Chrome integration as the domain
-    - Source-list context places it under MCP > Browser & Automation
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

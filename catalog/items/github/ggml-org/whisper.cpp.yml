@@ -65,11 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a specialized local runtime for performing high-performance inference on a specific model type.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - High-performance C/C++ implementation for local inference
-    - Supports diverse hardware including Apple Silicon (Metal), AVX, and Vulkan
-    - Focuses on zero memory allocation at runtime for efficiency
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: local-ai
   secondary_categories: []

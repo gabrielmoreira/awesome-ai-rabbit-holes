@@ -61,19 +61,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product acts as a primary coding assistant wrapper that transforms CLI agents into autonomous project partners
-    with planning, execution, and review loops.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description states it 'transform[s] CLI agents from task executors into autonomous project partners'
-    - >-
-      README details a 'Main Agent as Tech Lead' with sub-agents (Developer, QA, Reviewer) and an autonomous ANALYZE →
-      PLAN → EXECUTE → EVALUATE loop
-    - Source list 'awesome-cli-coding-agents' categorizes it under 'Harnesses & orchestration > Agent infrastructure'
+    - jev-latest choice confidence 0.66
 placement:
-  primary_category: extensions-and-addons
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Claude Code & Agent Tools
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: null

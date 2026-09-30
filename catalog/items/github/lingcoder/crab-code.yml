@@ -100,15 +100,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a standalone, terminal-native coding assistant that plans, edits, and executes across a repo, fitting the
-    primary identity of a coding agent rather than an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - >-
-      Repo description explicitly states: 'Open-source alternative to Claude Code, built from scratch in Rust. Agentic
-      coding CLI'.
-    - Architecture includes 27 crates across engine, tools, session, and TUI layers for autonomous repo work.
-    - Included in the awesome-cli-coding-agents list under 'Terminal-native coding agents > Open Source'.
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: coding-agents
   secondary_categories: []

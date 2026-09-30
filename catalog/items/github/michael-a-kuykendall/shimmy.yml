@@ -100,17 +100,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Shimmy is a local runtime focused on self-hosted inference as its core purpose, matching the Local AI category's
-    emphasis on private, on-device execution rather than being a coding agent or framework.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Local API Servers
   evidence:
-    - >-
-      Repo description: 'Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No
-      Python. No llama.cpp. Single binary.'
-    - 'README: ''Drop-in OpenAI API Replacement for Local LLMs'' and ''Privacy: Your code never leaves your machine'''
-    - >-
-      Source-list context: Listed in 'Awesome-LLMOps' under 'Serving > Large Model Serving' and 'awesome-LLM-resources'
-      under '推理 Inference'
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: local-ai
   secondary_categories: []

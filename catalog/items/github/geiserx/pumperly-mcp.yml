@@ -82,11 +82,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's identity is strictly as an MCP server providing domain-specific tools (fuel/EV data) to an LLM host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly identifies as an 'MCP Server for Pumperly'
-    - README defines tools for find_nearest_stations and calculate_route over MCP
-    - Project provides a bridge between a specific data service and the Model Context Protocol
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -77,20 +77,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is a standalone terminal-based coding and system assistant that directly generates commands, interacts
-    with code in chat mode, and supports multiple LLM backends, fitting the Terminal & CLI Agents section of
-    coding-agents.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Local API Servers
   evidence:
-    - >-
-      Repo description states it is a lightweight shell script to interact with OpenAI, Ollama, Mistral, Anthropic, and
-      others from the terminal for intelligent system management.
-    - README highlights 'Generate a command and run it in terminal' and 'code chat mode' as core features.
-    - Listed in awesome-local-ai under Developer tools, and remains active with a pushed_at date of 2025-01-28.
+    - jev-latest choice confidence 0.78
 placement:
-  primary_category: coding-agents
+  primary_category: local-ai
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Local API Servers
 lifecycle:
   status: curated
   reason: null

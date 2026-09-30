@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is explicitly an MCP server for dynamic API discovery and execution, and MCP is the primary
-    adopted interface.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description states: ''An MCP server for dynamic API discovery and execution'''
-    - 'README confirms: ''JitAPI is an MCP server that lets Claude interact with any API from its OpenAPI spec'''
-    - Explicitly listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -40,18 +40,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    jev-toolspace — Jev answers yes/no (\noul\) questions about a shared state and returns an independent probability
+    for each one. One API call scores every tool in a menu with one question per tool, and a tool's score does not
+    compete with the others.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.93
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
 lifecycle:
   status: curated
   reason: null

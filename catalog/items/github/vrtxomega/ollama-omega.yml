@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server that exposes Ollama models as tools, making MCP the primary product
-    identity rather than a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - 'Repo description: ''Sovereign Ollama Bridge — MCP server for local and cloud Ollama models'''
-    - 'README: ''A single-file MCP server (ollama_mcp_server.py) that bridges Ollama into any MCP-compatible client'''
-    - 'Source-list context: Listed in awesome-mcp-servers under Developer Tools'
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -81,22 +81,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    whylogs fits best in Evals & Benchmarks as it provides data profiling and monitoring tools for measuring and
-    validating data quality and model behavior over time, which aligns with observability and evaluation use cases in ML
-    workflows.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - >-
-      Repo description: 'An open-source data logging library for machine learning models and data pipelines. Provides
-      visibility into data quality & model performance over time.'
-    - >-
-      README: 'Generate summaries of their datasets (called whylogs profiles) which they can use to: Track changes in
-      their dataset, Create data constraints, Visualize key summary statistics'
-    - 'Source-list context: Included in Awesome-LLMOps under Security > Observability'
+    - jev-latest choice confidence 0.61
 placement:
-  primary_category: evals
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Observability & Tracing
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (2819) exceeded threshold (150)

@@ -65,15 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a self-hosted inference server designed to provide local/cloud execution of open-source LLMs with an
-    OpenAI-compatible API.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Local API Servers
   evidence:
-    - 'Repo description states: ''OpenAI compatible API for LLMs and embeddings (LLaMA, Vicuna, ChatGLM and many others)'''
-    - >-
-      README lists 'Self-hosted' and 'Cloud native' as core features, providing Docker images for local and Kubernetes
-      deployment.
-    - Featured in 'Awesome-LLMOps' under the 'Serving > Large Model Serving' section.
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: local-ai
   secondary_categories: []

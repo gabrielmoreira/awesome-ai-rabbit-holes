@@ -58,15 +58,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server providing book querying functionality, making MCP the core identity rather than a
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description states: ''This is an MCP server used for querying books'''
-    - README shows MCP server configuration for Cherry Studio via STDIO transport
-    - Source-list context shows inclusion in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

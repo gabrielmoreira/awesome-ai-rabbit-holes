@@ -63,17 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP server that exposes microservices.sh capabilities via stdio, making MCP the core product identity
-    rather than a feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''Local stdio MCP server for microservices.sh modules and guarded agent workflows.'''
-    - 'README: ''This package is a standalone stdio MCP server.'' and lists MCP tools like compose_app, deploy_preview.'
-    - Appears in awesome-mcp-servers under Server Implementations > Developer Tools as an MCP server implementation.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

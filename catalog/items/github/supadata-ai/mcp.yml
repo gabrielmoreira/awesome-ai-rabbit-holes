@@ -68,19 +68,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose primary identity is exposing Supadata's video and web scraping capabilities to
-    MCP-compatible clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description explicitly states it is the 'Official Supadata MCP Server' for Cursor, Claude, and other LLM
-      clients.
-    - README documents MCP tools for transcript, scrape, map, crawl, metadata, and AI-powered extract.
-    - Listed in awesome-mcp-servers under 'Official Servers' section.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

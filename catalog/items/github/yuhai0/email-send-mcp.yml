@@ -53,13 +53,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server providing email and file search tools, making MCP the core identity rather than an
-    extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - README describes it as a 'Model Context Protocol server that provides email functionality'
-    - Available tools include send_email and search_attachments, exposed via MCP
-    - Usage example shows MCP server configuration for Cursor/Claude
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

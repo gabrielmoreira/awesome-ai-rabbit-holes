@@ -73,13 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing Meta Ads integration via the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly describes it as an MCP server for Meta Ads
-    - Listed in awesome-mcp-servers under Community Servers
-    - Provides MCP tools for interacting with Meta Ads objects and data
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

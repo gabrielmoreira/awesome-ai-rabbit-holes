@@ -57,17 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is an MCP server exposing Android device control via ADB, making MCP the primary product
-    rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''An MCP server that provides control over Android devices via adb'''
-    - README emphasizes MCP server functionality and configuration for use with clients like Claude Desktop and Cursor
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (744) exceeded threshold (150)

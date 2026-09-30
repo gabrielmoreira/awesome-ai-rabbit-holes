@@ -54,13 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP server whose core purpose is exposing Amazon Ads data through the Model Context Protocol, making MCP
-    the product identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''MCP Server to interact with Amazon Ads'''
-    - README provides MCP server configuration examples for Claude Desktop and LibreChat
-    - Project offers both stdio and streamable-HTTP MCP server modes
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

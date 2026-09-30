@@ -56,17 +56,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it is explicitly an MCP server bridging Ollama to MCP clients, fitting the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP Server for Ollama
-    - README shows it is used as an MCP server in Claude Desktop config
-    - Source-list context lists it under MCP servers
+    - jev-latest choice confidence 0.58
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

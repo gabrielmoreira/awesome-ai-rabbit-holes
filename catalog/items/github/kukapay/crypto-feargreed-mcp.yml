@@ -75,13 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server whose primary identity is serving Fear & Greed Index data via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for Crypto Fear & Greed Index data
-    - README details MCP resources, tools, and installation for MCP clients like Claude Desktop
-    - Listed in awesome-mcp-list under Finance & Fintech
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

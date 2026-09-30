@@ -58,15 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing blockchain-specific tools, making MCP its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description states it is 'An MCP server that provides real-time gas price predictions across multiple
-      blockchains'
-    - >-
-      README details MCP tools (`predict_gas_price`, `estimate_gas_cost`, `get_supported_chains`) and integration with
-      MCP Inspector/Claude Desktop
-    - Project is built using FastMCP framework and exposes MCP-compatible endpoints
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

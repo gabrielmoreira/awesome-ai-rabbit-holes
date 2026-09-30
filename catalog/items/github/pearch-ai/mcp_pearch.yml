@@ -65,20 +65,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server exposing a specific domain API, which fits cleanly as a domain
-    server in the MCP category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description explicitly states 'The most accurate people search API/MCP' and notes it is 'Built for ATSs and
-      AI Agents.'
-    - >-
-      README positions the project as 'MCP server for Pearch.AI' with setup instructions for Claude Desktop, Cursor, and
-      VS Code.
-    - Listed in awesome-mcp-servers under 'Official Servers', reinforcing its MCP infrastructure identity.
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

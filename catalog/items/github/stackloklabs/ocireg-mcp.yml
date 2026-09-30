@@ -78,21 +78,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity: a purpose-built MCP server for OCI registry interactions, not a compatibility
-    add-on.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description states: 'An MCP (Model Context Protocol) server that provides tools for querying OCI registries
-      and image references.'
-    - >-
-      README confirms: 'This project implements an SSE-based MCP server that allows LLM-powered applications to interact
-      with OCI registries.'
-    - Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms and Official Servers.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

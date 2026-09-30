@@ -71,15 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP-first server designed specifically to expose REAPER DAW functionality to AI assistants, making
-    MCP its core identity rather than a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      README describes it as 'a comprehensive Model Context Protocol (MCP) server that enables AI assistants to control
-      REAPER DAW'
-    - Installation and usage instructions center around configuring an MCP server for AI assistant integration
-    - Listed in 'awesome-mcp-servers' under Server Implementations > Art & Culture as an MCP server
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

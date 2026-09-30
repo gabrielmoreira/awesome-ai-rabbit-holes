@@ -93,17 +93,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server exposing Xcode build and test capabilities to LLMs, fitting cleanly as a
-    domain-specific MCP tool.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states 'MCP tool for building Xcode iOS workspace/project and feeding back error to
-      LLMs.'
-    - >-
-      README states 'A Model Context Protocol server that builds iOS workspace/project that enables seamless workflow
-      working with iOS projects in Visual Studio Code using extensions like Cline or Roo Code.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' and 'Community Servers'.
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

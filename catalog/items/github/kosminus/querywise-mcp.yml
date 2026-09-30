@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server designed to provide specialized database capabilities to host
-    assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo name and description explicitly identify it as an MCP server
-    - Provides a specific MCP toolset for semantic context, SQL generation, and execution
-    - Offers specialized connectors for SQLite, PostgreSQL, BigQuery, and Databricks
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: mcp
   secondary_categories: []

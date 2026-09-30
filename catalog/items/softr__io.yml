@@ -67,22 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Softr’s core identity is an AI-powered app builder that generates deployable business apps from prompts, fitting the
-    app-builders category rather than coding agents or extensions.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
   evidence:
-    - >-
-      Source-list context: listed in awesome-ai-coding-tools under App Builders with description 'Build and launch
-      custom AI-powered portals and internal tools in minutes, no code required.'
-    - >-
-      Scraped site context: 'AI App Builder' is a primary product label, with claims to 'Create business apps with AI'
-      and 'Simply describe what you need. Let Softr handle everything - Interface, database, workflows.'
-    - >-
-      README excerpt: Positions itself as an 'AI app builder for business operations' that creates 'secure portals and
-      internal tools' via AI Co-Builder, replacing off-the-shelf software and spreadsheets.
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: app-builders
-  section: Internal Tools & Dashboards
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: curated
   reason: null

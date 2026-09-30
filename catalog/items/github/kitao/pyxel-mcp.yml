@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server exposing Pyxel-specific tools and resources for AI
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for Pyxel
-    - README details MCP-specific tools (run_and_capture, inspect_state, etc.) and resources (pyxel://api-reference)
-    - Listed in MCP Registry (io.github.kitao/pyxel-mcp)
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
   secondary_categories: []

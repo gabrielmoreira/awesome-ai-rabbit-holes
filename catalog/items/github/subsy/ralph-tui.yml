@@ -59,19 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a TUI workbench that coordinates multiple external coding agents through task lists and autonomous
-    loops, rather than being a coding assistant itself.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      README identifies it as an 'AI Agent Loop Orchestrator' that connects assistants like Claude Code and Cursor CLI
-      to task trackers.
-    - >-
-      Source list 'awesome-cli-coding-agents' categorizes it under 'Harnesses & orchestration > Orchestrators &
-      autonomous loops'.
-    - >-
-      Features include multi-agent support, session persistence, and a real-time TUI for monitoring execution across
-      iterations.
+    - jev-latest choice confidence 0.61
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

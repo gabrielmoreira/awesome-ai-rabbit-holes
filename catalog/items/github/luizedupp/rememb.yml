@@ -82,19 +82,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    rememb’s core value is persistent, local memory management for AI agents via structured JSON storage and semantic
-    search, making it a context-shaping infrastructure rather than a coding agent or host extension.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      README states: 'rememb gives them persistent memory — local, portable, and works with any agent' and describes
-      saving/loading project context like tech stack, auth location, and async patterns
-    - >-
-      Core functionality revolves around .rememb/ directory with entries.json, meta.json, and config.json for structured
-      memory storage and retrieval
-    - >-
-      Uses local semantic embeddings (paraphrase-MiniLM-L3-v2) for search without API calls, emphasizing on-device,
-      zero-config memory persistence
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: memory-and-context
   secondary_categories: []

@@ -85,11 +85,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server for Slack, with MCP as its primary identity and purpose.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly identifies it as an MCP Slack Server
-    - README details MCP-specific transports (Stdio, SSE, HTTP) and Slack integration features
-    - Listed in awesome-mcp-servers under Server Implementations > Communication
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

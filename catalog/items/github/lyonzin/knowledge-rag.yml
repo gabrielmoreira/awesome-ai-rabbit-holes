@@ -85,17 +85,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server whose core identity is providing MCP tools for local RAG search, making MCP the primary
-    product identity rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description: 'Local RAG MCP server for Claude Code — hybrid search (semantic + BM25), cross-encoder
-      reranking, 13 MCP tools'
-    - >-
-      README: 'Drop your PDFs, markdown, code, notebooks... Everything runs locally via ONNX. No Docker, no Ollama, no
-      API keys, no data leaves your machine.'
-    - 'Stars: 228, pushed 2026-07-15, not archived, MIT license'
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: mcp
   secondary_categories: []

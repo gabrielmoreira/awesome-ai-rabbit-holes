@@ -73,19 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server for AWS S3, fitting cleanly into the MCP Servers & Tooling category as a
-    domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'MCP server for AWS S3' with bucket and object management features.
-    - >-
-      README confirms it is 'an MCP server' that works with Claude Desktop, Cursor, and VS Code Copilot using the
-      standard MCP protocol.
-    - Listed in awesome-mcp-servers under 'Cloud Platforms', aligning with the Domain Servers section.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

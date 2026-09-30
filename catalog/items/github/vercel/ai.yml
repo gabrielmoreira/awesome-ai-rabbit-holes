@@ -75,13 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The AI SDK is a code-first SDK used to embed AI into applications, not a standalone agent or orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
-    - >-
-      Repo description: 'The AI Toolkit for TypeScript... a free open-source library for building AI-powered
-      applications and agents'
-    - 'README: ''provider-agnostic TypeScript toolkit'' with unified API for OpenAI, Anthropic, Google, etc.'
-    - Usage shows importing and scripting against the SDK in TypeScript code (e.g., generateText, ToolLoopAgent)
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

@@ -79,11 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a memory and retrieval system for AI assistants, not a primary coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - README emphasizes persistent memory and autonomous knowledge capture as the primary value
-    - Supports MCP-compatible tools but is not itself an MCP-first toolkit
-    - Benchmark claims (95.10% LongMemEval, 91% LoCoMo) focus on memory performance
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: memory-and-context
   secondary_categories: []

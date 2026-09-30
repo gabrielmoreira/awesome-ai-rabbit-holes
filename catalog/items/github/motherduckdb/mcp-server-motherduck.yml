@@ -62,15 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server whose product identity is exposing DuckDB and MotherDuck databases to AI assistants via the
-    Model Context Protocol, exactly matching the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''Local MCP server for DuckDB and MotherDuck'''
-    - >-
-      README title and pitch: 'DuckDB / MotherDuck Local MCP Server — Connect AI assistants to your data using DuckDB's
-      analytical SQL engine'
-    - Listed in awesome-mcp-servers under 'Official Servers' with recent activity (pushed 2026-04-29, not archived)
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

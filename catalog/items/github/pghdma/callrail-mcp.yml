@@ -82,13 +82,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server that exposes CallRail API functionality to any MCP-compatible client, fitting
-    cleanly as a domain server in the MCP category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'Model Context Protocol (MCP) server for the CallRail REST API v3'
-    - README confirms it 'speaks standard MCP stdio' and configures as an mcpServer in Claude/Cursor
-    - Listed in awesome-mcp-servers under Server Implementations > Marketing section
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

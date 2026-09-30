@@ -60,17 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a domain-specific MCP server designed to expose GeoServer capabilities to LLMs, fitting cleanly as an
-    MCP Domain Server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description explicitly states: 'A Model Context Protocol (MCP) server implementation that connects LLMs to
-      the GeoServer REST API'.
-    - >-
-      README details MCP-compatible client integration with Claude Desktop and Cursor and lists geospatial tool
-      endpoints.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Location Services', confirming its ecosystem role.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

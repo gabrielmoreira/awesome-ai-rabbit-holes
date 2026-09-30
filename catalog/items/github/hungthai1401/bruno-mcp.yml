@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server that exposes Bruno collections as tools for LLMs, fitting the MCP-first
-    tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for running Bruno collections
-    - README details MCP tooling, installation via Smithery, and Claude Desktop configuration
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

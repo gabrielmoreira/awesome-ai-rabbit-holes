@@ -65,17 +65,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    blockagi functions as a standalone coding assistant that autonomously plans and executes code-related tasks via
-    LLM-driven loops, fitting the coding-agents category despite its research framing.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - 'Repo description: ''Your Self-Hosted, Hackable Research Agent Inspired by AutoGPT'''
-    - 'Stars: 320, pushed 2023-11-19 (recent activity), not archived'
-    - Listed in awesome-langchain under Tools > Agents, indicating agentic tool recognition
+    - jev-latest choice confidence 0.52
 placement:
-  primary_category: agent-orchestration
+  primary_category: local-ai
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Inference Engines
 lifecycle:
   status: curated
   reason: Stars (320) exceeded threshold (150)

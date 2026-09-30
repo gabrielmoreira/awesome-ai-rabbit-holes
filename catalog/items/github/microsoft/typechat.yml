@@ -58,16 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    TypeChat is a code-first library/SDK for building natural language interfaces using types, fitting the Frameworks &
-    SDKs category as developers import and program against it in code rather than operate it as a control plane or
-    assistant.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''TypeChat is a library that makes it easy to build natural language interfaces using types.'''
-    - >-
-      README: 'After defining your types, TypeChat takes care of the rest by constructing a prompt to the LLM using
-      types, validating the LLM response conforms to the schema, and repairing non-conforming output.'
-    - 'Stars: 8672, pushed at 2026-07-07, indicating active maintenance and ecosystem traction.'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

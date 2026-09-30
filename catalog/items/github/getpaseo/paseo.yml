@@ -77,17 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Paseo’s core function is coordinating multiple coding agents as a unified workbench, making it an agent
-    orchestration platform rather than a coding agent itself or a mere extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''Orchestrate multiple coding agents from desktop and mobile'''
-    - >-
-      README: 'Run agents in parallel on your own machines. Ship from your phone or your desk.' and 'One interface for
-      Claude Code, Codex, Copilot, OpenCode, and Pi agents.'
-    - >-
-      Source-list context: Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Session managers &
-      parallel runners'
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

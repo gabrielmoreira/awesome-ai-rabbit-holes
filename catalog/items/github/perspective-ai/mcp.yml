@@ -76,16 +76,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a first-party MCP server built to give MCP-compatible clients access to Perspective AI's
-    conversational concierge platform.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP server for Perspective AI' with MCP server topics.
-    - README says 'MCP server for Perspective AI' and documents Claude Code, Cursor, Claude.ai, and stdio client setup.
-    - Included in awesome-mcp-servers under Conversational AI, reinforcing MCP infrastructure identity.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

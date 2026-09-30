@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the primary product identity here, as it ships a first-class MCP server for email capabilities in agent
-    workflows.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - README explicitly describes it as 'Email infrastructure for AI agents' with an MCP server as a core feature
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
-    - Provides REST API, WebSocket streaming, and SDKs, but MCP server is a first-class offering
+    - jev-latest choice confidence 0.62
 placement:
   primary_category: mcp
   secondary_categories: []

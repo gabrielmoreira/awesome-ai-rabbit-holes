@@ -60,19 +60,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is a code-first extension of the LangChain framework, providing developers with reusable building blocks
-    and deployment examples for agent workflows.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      README states it 'contains extended functionality based on LangChain' and requires Python/Pip for installation as
-      a library.
-    - >-
-      Includes deployment boilerplate for BabyAGI on AWS Lambda, positioning it as a developer toolkit for agent
-      infrastructure.
-    - >-
-      Listed in awesome-langchain under 'Learn > Notebooks', reinforcing its identity as a framework extension rather
-      than a standalone product.
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

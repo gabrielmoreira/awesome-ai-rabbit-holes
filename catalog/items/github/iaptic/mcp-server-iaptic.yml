@@ -79,11 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server whose primary identity is providing MCP-based access to Iaptic's customer data API.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP server for Iaptic
-    - README details MCP server installation and usage with Claude Desktop
-    - Source lists categorize it under MCP servers in Customer Data Platforms
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

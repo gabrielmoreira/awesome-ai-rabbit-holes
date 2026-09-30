@@ -61,19 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is a self-contained local interface and serving stack for GraphRAG using local models,
-    fitting the local AI desktop/interface profile better than a framework or generic extension.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
   evidence:
-    - >-
-      Repo description explicitly states 'GraphRAG using Local LLMs' and calls it the 'ultimate GraphRAG/KG local LLM
-      app'.
-    - >-
-      README highlights a 'Dedicated Indexing and Prompt Tuning UI' and 'main interactive UI' built with Gradio, running
-      on local hardware.
-    - >-
-      Features 'Local Model Support' including Ollama and OpenAI-compatible APIs, emphasizing cost-effectiveness by
-      eliminating cloud dependency.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: local-ai
   secondary_categories: []

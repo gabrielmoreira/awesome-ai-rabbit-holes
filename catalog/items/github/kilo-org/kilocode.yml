@@ -87,21 +87,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Kilo is a primary coding assistant that directly reads, writes, and edits code, runs commands, and automates
-    workflows, fitting the core definition of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - >-
-      Repo description: 'Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the
-      most popular open source coding agent.'
-    - >-
-      README claims: code generation, inline autocomplete, task automation, refactoring, terminal commands, browser
-      automation, and multi-mode operation.
-    - 'Source-list context: listed in ''awesome-cli-coding-agents'' under ''Terminal-native coding agents > Open Source''.'
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: curated
   reason: Stars (18978) exceeded threshold (150)

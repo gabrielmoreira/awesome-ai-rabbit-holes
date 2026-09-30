@@ -58,15 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP server whose core identity and value lie in providing documentation via the Model Context Protocol,
-    making MCP the primary product identity rather than a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'A Model Context Protocol (MCP) tool that provides up-to-date documentation for npm packages
-      directly in your IDE'
-    - 'README: Describes itself as an MCP tool with MCP server installation instructions for Cursor'
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

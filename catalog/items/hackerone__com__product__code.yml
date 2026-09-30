@@ -66,12 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a developer-facing coding assistant specialized in security review and vulnerability remediation, fitting the
-    Review, Testing & Repair Agents section.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - Source-list context places it in the Security section of awesome-ai-coding-tools
-    - Product identity is a coding assistant focused on security (HackerOne Code)
+    - jev-latest choice confidence 0.62
 placement:
   primary_category: coding-agents
   secondary_categories: []

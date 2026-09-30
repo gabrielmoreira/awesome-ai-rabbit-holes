@@ -60,15 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for the Just command runner, aligning directly with the MCP Servers &
-    Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description states: ''mcp server for just''.'
-    - >-
-      README describes it as 'A production-ready MCP server that provides seamless integration with Just command
-      runner'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -87,18 +87,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is exposing Fal.ai's media generation models via the Model Context
-    Protocol, making MCP the primary product identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - 'Repo description: ''MCP server for Fal.ai - Generate images, videos, music and audio with Claude'''
-    - >-
-      README: 'A Model Context Protocol (MCP) server that enables Claude Desktop (and other MCP clients) to generate
-      images, videos, music, and audio using [Fal.ai](https://fal.ai) models.'
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Art & Culture'
-    - Repo description explicitly states 'MCP server for Fal.ai' with MCP and fal-ai topics.
-    - README centers on MCP transports (STDIO, HTTP/SSE), 18 MCP tools, and badges for MCP 1.0 and Glama MCP listing.
-    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture, reinforcing its MCP server identity.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

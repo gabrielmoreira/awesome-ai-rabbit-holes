@@ -80,13 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a purpose-built MCP server for a specific domain (fintech/payments), fitting cleanly into MCP Servers &
-    Tooling as a domain-specific server rather than a generic extension or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states 'MCP server for the Xendit payment API'.
-    - README confirms it is configured via claude_desktop_config.json, claude mcp add, and Cursor mcp.json.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

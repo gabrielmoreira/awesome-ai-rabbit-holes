@@ -67,13 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP middleware server that aggregates and searches across other MCP servers,
-    fitting cleanly as MCP infrastructure rather than a coding agent or generic framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'MCP Orchestration Gateway – aggregates tools from multiple MCP servers'
-    - README shows it runs as an MCP server and is configured in Claude Desktop's mcpServers block
-    - Listed in awesome-mcp-servers under Server Implementations > Aggregators
+    - jev-latest choice confidence 0.60
 placement:
   primary_category: mcp
   secondary_categories: []

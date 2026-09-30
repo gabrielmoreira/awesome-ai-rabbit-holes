@@ -65,15 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server providing Next.js devtools, making MCP its core identity rather than a mere
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''Next.js Development for Coding Agent'''
-    - >-
-      README: 'next-devtools-mcp is a Model Context Protocol (MCP) server that provides Next.js development tools and
-      utilities for coding agents like Claude and Cursor.'
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

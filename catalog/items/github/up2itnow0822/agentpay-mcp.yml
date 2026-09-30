@@ -63,15 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    AgentPay MCP is an MCP-native payment server whose core identity is providing MCP infrastructure for agent spend
-    control, not extending another agent or building apps.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''Non-custodial x402 MCP payment layer for AI agents'''
-    - >-
-      README: 'AgentPay MCP is a Model Context Protocol server that gives Claude, Cursor, and any MCP-compatible agent a
-      payment wallet with hard spend caps'
-    - Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

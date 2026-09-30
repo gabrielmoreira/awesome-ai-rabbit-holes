@@ -57,21 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose core identity is providing web scraping as an MCP service, not extending another
-    tool or acting as a coding assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description: 'A Model Context Protocol (MCP) server implementation that integrates with WebScraping.AI for
-      web data extraction capabilities.'
-    - >-
-      README focuses on MCP server setup, configuration for Cursor and Claude, and exposing web scraping tools via the
-      MCP protocol.
-    - Listed in awesome-mcp-servers under 'Official Servers', confirming its identity as an MCP server.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

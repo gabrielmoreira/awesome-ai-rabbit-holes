@@ -78,15 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a canonical MCP server implementation focused on a specific domain (art), fitting perfectly into the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description explicitly states 'Rijksmuseum MCP integration' and the README confirms it is 'A Model Context
-      Protocol (MCP) server'.
-    - Featured in both 'awesome-mcp-list' and 'awesome-mcp-servers' under Art & Culture sections.
-    - Setup instructions demonstrate direct integration with Claude Desktop via the MCP configuration standard.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

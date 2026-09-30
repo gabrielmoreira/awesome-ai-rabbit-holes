@@ -84,13 +84,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is a runtime and CLI for coordinating multiple specialist agents across different IDEs,
-    fitting the control-plane nature of agent orchestration.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly states 'Multi agents orchestration setup for Github Copilot, Cursor, Claude Code...'
-    - README describes 'Convoy Engine' as a deterministic, crash-recoverable orchestrator for running agent teams.
-    - Included in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

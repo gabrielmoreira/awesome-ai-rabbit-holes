@@ -74,19 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Ragas is a dedicated evaluation framework for LLM applications, focusing on objective metrics, test generation, and
-    feedback loops rather than acting as a coding assistant, orchestrator, or app builder.
+  reason: Jev decision-model reclassifier placed this item in evals / Prompt Regression & Testing
   evidence:
-    - 'Repo description: ''Supercharge Your LLM Application Evaluations 🚀'''
-    - 'README: ''Objective metrics, intelligent test generation, and data-driven insights for LLM apps'''
-    - >-
-      Source-list context: appears in awesome-agent-orchestration under 'Evaluation & Benchmarking' and
-      awesome-LLM-resources under '知识库 RAG'
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: evals
   secondary_categories: []
-  section: Agent & LLM Benchmarks
+  section: Prompt Regression & Testing
 lifecycle:
   status: curated
   reason: Stars (13882) exceeded threshold (150)

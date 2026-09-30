@@ -61,20 +61,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    Jev in Search: Three Practical Evaluations - Independent experiments on search stopping, memory reranking, and
+    multi-hop relation selection, with implementation links and limitations including private data, unequal sample
+    counts, and a simulated speed illustration.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - jev-latest choice confidence 0.50
 placement:
-  primary_category: null
+  primary_category: evals
   secondary_categories: []
-  section: null
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: curated
   reason: null

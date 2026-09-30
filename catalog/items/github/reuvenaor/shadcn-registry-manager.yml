@@ -59,15 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product’s core identity is an MCP server exposing shadcn CLI workflows, fitting cleanly as a domain-specific MCP
-    server rather than a general coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP shadcn registry cli manager'.
-    - >-
-      README title and description define it as 'an MCP (Model Context Protocol) server for the shadcn/ui component
-      registry and CLI'.
-    - Included in awesome-mcp-servers under Community Servers, aligning with MCP infrastructure scope.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

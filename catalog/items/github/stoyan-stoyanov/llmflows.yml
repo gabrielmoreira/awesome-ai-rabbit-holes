@@ -91,19 +91,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first Python library for building LLM applications with flows and prompt templates, fitting squarely
-    as a developer framework rather than a hosted platform or coding assistant.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''LLMFlows - Simple, Explicit and Transparent LLM Apps'''
-    - >-
-      README: 'LLMFlows is a framework for building simple, explicit, and transparent LLM applications... provides a
-      minimalistic set of abstractions'
-    - Developers import classes like Flow, FlowStep, PromptTemplate directly in Python code, not an operated workbench
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Workflow & Graph Engines
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (706) exceeded threshold (150)

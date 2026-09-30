@@ -56,19 +56,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is a core part of the product identity, with explicit MCP server support for AI agents to integrate LinkedIn
-    automation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Product explicitly lists MCP as a primary integration method ('Use via API, SDK, CLI, AI agents, or no-code
-      platforms')
-    - Dedicated 'MCP Server' and 'Agent Skills' sections in the product documentation
-    - Listed in awesome-mcp-servers under 'Official Servers'
+    - jev-latest choice confidence 0.50
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

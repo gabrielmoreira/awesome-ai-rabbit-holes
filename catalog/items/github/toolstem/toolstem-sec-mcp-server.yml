@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server delivering domain-specific SEC filing intelligence, making it a textbook fit
-    for the MCP Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''Agent-ready SEC filing intelligence MCP server'''
-    - 'README states: ''SEC EDGAR intelligence for AI agents. Five composite tools... returned as structured JSON.'''
-    - Listed in awesome-mcp-servers under Finance & Fintech
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -74,17 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is as an MCP server providing domain-specific (Zotero) integration, fitting the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is a connector for Claude Desktop to work with Zotero Cloud
-    - README confirms it is an MCP server for Zotero integration with Claude
-    - Listed in awesome-mcp-list under Knowledge & Memory section
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (158) exceeded threshold (150)

@@ -71,17 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project’s core identity is an MCP server delivering architectural analysis, making it MCP infrastructure rather
-    than an extension or coding agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'Give any AI assistant real architectural understanding of a codebase — local, private,
-      zero-config MCP serve'
-    - >-
-      README: Positions itself as an MCP server that hands assistants structured maps of any codebase via tools like
-      architecture_overview and dependency_graph
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations'
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []

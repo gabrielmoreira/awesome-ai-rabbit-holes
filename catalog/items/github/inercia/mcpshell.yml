@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity: it is a server that exposes shell commands as MCP tools, fitting the MCP Servers &
-    Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is for using shell scripts as MCP tools
-    - README details MCP server functionality with YAML-based tool definitions and security constraints
-    - Already listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

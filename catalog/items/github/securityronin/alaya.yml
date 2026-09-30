@@ -70,19 +70,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core product is a code-first Rust library and SDK for memory infrastructure, designed to be imported into agents
-    rather than operated as a control plane or standalone assistant.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      Repo description explicitly defines it as 'A memory engine for conversational AI agents' with Rust library usage
-      shown in README code examples.
-    - >-
-      README presents it as 'an embeddable Rust library' with crates.io and PyPI/npm packages, emphasizing code-first
-      integration over hosted operation.
-    - >-
-      Core novelty is memory, retrieval, and context-shaping infrastructure (episodes, knowledge, preferences stores
-      with decay/consolidation), fitting Frameworks & SDKs over extensions or orchestration.
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: memory-and-context
   secondary_categories: []

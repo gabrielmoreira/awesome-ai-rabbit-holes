@@ -72,17 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is a memory and context system that enforces deterministic state evolution and cross-agent recall,
-    which aligns with Prompt & Context Engineering.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - 'Repo description states: ''Your agents forget. Neotoma makes them remember.'''
-    - >-
-      README explicitly contrasts itself with RAG/vector search, emphasizing deterministic state evolution, versioned
-      history, and provenance.
-    - >-
-      Architecture diagram shows it exposes memory to agents via MCP, confirming MCP is a delivery mechanism, not the
-      primary product identity.
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: memory-and-context
   secondary_categories: []

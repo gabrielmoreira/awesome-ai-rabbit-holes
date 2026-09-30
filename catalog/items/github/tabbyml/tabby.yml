@@ -86,19 +86,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Tabby is a primary coding assistant product that developers delegate code completion and chat to within their IDE,
-    fitting the Coding Agents identity better than a local runtime or extension.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Local API Servers
   evidence:
-    - Repo description explicitly states 'Self-hosted AI coding assistant'.
-    - >-
-      README positions it as 'an open-source and on-premises alternative to GitHub Copilot' with chat and completion
-      features.
-    - Active development with recent pushes (2026-03-02) and integration with VSCode as a primary assistant surface.
+    - jev-latest choice confidence 0.87
 placement:
-  primary_category: coding-agents
+  primary_category: local-ai
   secondary_categories: []
-  section: IDE-Native & Editor Agents
+  section: Local API Servers
 lifecycle:
   status: curated
   reason: Stars (33486) exceeded threshold (150)

@@ -56,15 +56,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product acts as a primary coding assistant focused on debugging and repair within the IDE, fitting the Coding
-    Agents category.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
   evidence:
-    - Repo description explicitly states 'An open-source debugging agent in VSCode'.
-    - >-
-      README describes it as 'an open-source AI debugging agent for VSCode that uses LLMs to help identify and fix
-      backend code errors'.
-    - Users delegate debugging tasks to the agent which edits files, runs commands, and presents changes to apply.
+    - jev-latest choice confidence 0.54
 placement:
   primary_category: coding-agents
   secondary_categories: []

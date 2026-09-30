@@ -62,19 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product’s identity is an MCP server that exposes developer tools, matching the MCP Servers & Tooling category
-    with MCP as the core adoption layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states 'AI-native developer tools via MCP' and lists filesystem, databases, processes,
-      and OpenAPI as capabilities.
-    - >-
-      README positions it as 'a production-grade MCP server' for Claude, Cursor, Copilot, Continue, and other
-      MCP-compatible agents.
-    - >-
-      Included in awesome-mcp-servers under 'Server Implementations > Developer Tools', reinforcing its MCP server
-      identity.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

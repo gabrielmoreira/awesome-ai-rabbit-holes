@@ -81,11 +81,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is explicitly an MCP server built to give AI assistants access to ShopSavvy's product and pricing data.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description states it is a 'Model Context Protocol (MCP) server for ShopSavvy Data API'.
-    - README describes tools for product lookup, offers, price history, and scheduling via MCP.
-    - Included in awesome-mcp-list and awesome-mcp-servers directories under MCP sections.
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []

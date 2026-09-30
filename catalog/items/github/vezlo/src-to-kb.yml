@@ -67,15 +67,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core function is retrieving and preparing code context for LLMs via chunking, embeddings, and search, not
-    acting as a coding assistant or IDE extension.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Retrieval & Fresh Docs
   evidence:
-    - Converts source code to LLM-ready knowledge base with automatic chunking and embedding generation
-    - Provides intelligent search capabilities and multiple answer modes (End User, Developer, Copilot)
-    - Included in awesome-mcp-servers under Developer Tools as a knowledge base generator
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: memory-and-context
+  secondary_categories: []
   section: Retrieval & Fresh Docs
 lifecycle:
   status: curated

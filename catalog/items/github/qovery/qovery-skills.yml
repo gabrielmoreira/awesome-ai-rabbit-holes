@@ -73,19 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The primary artifact is a reusable skill pack distributed via the Agent Skills open standard, designed to be
-    consumed by 30+ coding agents rather than being a standalone assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
-    - >-
-      Repo description states: 'AI agent skills for deploying applications to Kubernetes with Qovery. Works with
-      OpenCode, Claude Code, and any agent supporting SKILL.md.'
-    - >-
-      README describes eight distinct skills (qovery-onboard, qovery-deploy, qovery-troubleshoot, etc.) installed
-      globally via a curl installer.
-    - >-
-      Skills follow the Agent Skills open standard and are designed for tools discovering skills from .claude/skills/ or
-      .agents/skills/ directories.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: skills
   secondary_categories: []

@@ -89,30 +89,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Nanoclaw is a terminal-invoked AI assistant that developers use as a primary coding and automation agent via Claude
-    Code, fitting the coding-agents category despite its messaging integrations.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - >-
-      Repo description: 'A lightweight alternative to OpenClaw that runs in containers for security. Connects to
-      WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps... runs directly on Anthropic's Agents SDK'
-    - >-
-      README: 'Claude agents run in their own Linux containers with filesystem isolation' and 'nanoclaw.sh walks you
-      from a fresh machine to a named agent you can message'
-    - >-
-      Source-list context: Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw
-      ecosystem'
-    - >-
-      Repo description states it is 'a lightweight alternative to OpenClaw that runs in containers' and 'runs directly
-      on Anthropic's Agents SDK'.
-    - >-
-      README says 'NanoClaw natively uses Claude Code via Anthropic's official Claude Agent SDK, so you get the latest
-      Claude models and Claude Code's full toolset'.
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem'.
+    - jev-latest choice confidence 0.50
 placement:
-  primary_category: coding-agents
+  primary_category: local-ai
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Inference Engines
 lifecycle:
   status: curated
   reason: Stars (28807) exceeded threshold (150)

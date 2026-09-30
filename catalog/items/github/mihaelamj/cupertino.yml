@@ -73,13 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server that provides a specific domain context (Apple documentation) to
-    agents, fitting the MCP Servers category perfectly.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description explicitly states: ''A local Apple Documentation crawler and MCP server.'''
-    - README states the tool 'Serves documentation to AI agents like Claude via the Model Context Protocol.'
-    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its identity as an MCP implementation.
+    - jev-latest choice confidence 0.55
 placement:
   primary_category: mcp
   secondary_categories: []

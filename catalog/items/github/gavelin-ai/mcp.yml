@@ -61,17 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is a specialized MCP server providing domain-specific data access to existing MCP
-    clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly identifies as 'Gavelin MCP Server'
-    - Provides specific MCP tools like 'earch_bills' and 'get_hearing_transcript'
-    - Designed for connection via Claude Desktop, Claude Code, or any MCP client
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

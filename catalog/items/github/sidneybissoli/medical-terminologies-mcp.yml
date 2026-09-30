@@ -46,18 +46,20 @@ metadata:
       fetched_at: '2026-07-20T16:42:57.156Z'
       bytes: 25837
 insights:
-  summary: null
+  summary: 'MCP Server for global medical terminologies: ICD-11, SNOMED CT, LOINC, RxNorm, MeSH'
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
+  evidence:
+    - jev-latest choice confidence 0.87
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

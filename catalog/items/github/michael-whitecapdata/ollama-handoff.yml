@@ -71,15 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is exposing local Ollama capabilities as MCP tools, making MCP the
-    primary product identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - 'Repo description: ''MCP server that offloads cheap work from your cloud LLM agent to a local Ollama model'''
-    - >-
-      README: exposes local Ollama instance as purpose-built MCP tools with baked-in system prompts for the calling
-      agent
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.55
 placement:
   primary_category: mcp
   secondary_categories: []

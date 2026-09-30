@@ -53,13 +53,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server providing domain-specific (blockchain news) data to AI agents, fitting the MCP Servers &
-    Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for blockchain news
-    - README details MCP server installation and usage with `get_latest_news` and `get_latest_articles` tools
-    - Project is actively maintained (pushed recently, not archived)
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a server implementation providing domain-specific tooling (FixGraph
-    integration) for MCP-compatible assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README explicitly describes it as an MCP server with tools for FixGraph integration
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
-    - Provides MCP-compatible tools (fixgraph_search, fixgraph_get_fixes, etc.)
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

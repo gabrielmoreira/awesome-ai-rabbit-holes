@@ -58,15 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server first and foremost, providing diagram preview functionality as an MCP service, making
-    MCP its core identity rather than an extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP Server to previewing mermaid diagrams with live reload'''
-    - >-
-      README positions it as an MCP server installable via `/plugin marketplace` and configurable in any MCP-compatible
-      client
-    - 'Source-list context: listed in awesome-mcp-servers under Developer Tools'
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

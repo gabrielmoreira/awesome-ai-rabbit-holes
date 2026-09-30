@@ -61,19 +61,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is an MCP server that brings Squad's product-management capabilities into MCP-compatible assistants, making it
-    a clear fit for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo description explicitly states it is a 'Remote Model Context Protocol (MCP) server for Squad AI'.
-    - >-
-      README shows 30+ MCP tools across 9 categories (opportunities, solutions, goals, knowledge, feedback, insights,
-      search, views).
-    - Listed in awesome-mcp-servers under 'Community Servers' for the purpose of MCP server curation.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: null

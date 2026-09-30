@@ -64,15 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Apifable is an MCP server whose core identity is providing API context via the Model Context Protocol, making it a
-    clear fit for MCP Servers & Tooling rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'MCP server that helps AI agents explore OpenAPI specs, search endpoints, and generate
-      TypeScript types.'
-    - 'README: ''apifable is an MCP server that helps AI integrate APIs more smoothly into TypeScript frontend projects.'''
-    - 'Usage: Configured via `.mcp.json` as an MCP server for Claude Code, Cursor, and Windsurf.'
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

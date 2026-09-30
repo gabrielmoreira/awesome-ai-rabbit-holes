@@ -66,13 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server for Neovim integration, making it a clear fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states it is 'A Model Context Protocol (MCP) server that provides seamless integration
-      with Neovim instances'.
-    - README highlights 26 MCP tools, MCP resources, and stdio/HTTP transport modes.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

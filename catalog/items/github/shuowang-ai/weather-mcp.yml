@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server providing weather data, directly fitting the MCP Servers & Tooling
-    category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly states 'A comprehensive Model Context Protocol (MCP) server' and uses FastMCP.
-    - Seen in 'awesome-mcp-servers' list under the 'Community Servers' section.
-    - Configuration instructions are provided specifically for Claude Desktop mcpServers config.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

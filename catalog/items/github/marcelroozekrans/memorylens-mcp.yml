@@ -62,17 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server as its core identity, providing .NET memory profiling via the Model Context Protocol,
-    making MCP the primary product identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'MCP server for .NET memory profiling with AI-actionable code fix suggestions, powered by
-      JetBrains dotMemory'
-    - >-
-      README: 'MemoryLens MCP' header, hosted deployment via Glama.ai MCP server badge, and MCP tools like `snapshot`,
-      `analyze`, and `ensure_dotmemory`
-    - 'Source-list context: included in awesome-mcp-servers under ''Server Implementations > Developer Tools'''
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

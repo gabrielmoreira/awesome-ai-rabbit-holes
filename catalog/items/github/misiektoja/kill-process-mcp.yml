@@ -60,17 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server first and foremost, with its core identity rooted in exposing process management via
-    the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'AI-powered cross-platform MCP server exposing LLM-accessible tools to list and terminate OS
-      processes via natural language queries'
-    - >-
-      README: Explicitly positions itself as an MCP server with tools like `process_list` and `process_kill` for LLM
-      clients
-    - Listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

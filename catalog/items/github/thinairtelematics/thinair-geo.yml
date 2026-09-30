@@ -64,15 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server providing domain-specific tools (geocoding, routing, weather) for AI agents,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description states: ''Geocoding, routing, traffic, weather & place search — 10 tools via MCP.'''
-    - >-
-      README identifies it as 'a Model Context Protocol (MCP) server that gives AI agents full-stack geospatial
-      tooling'.
-    - Listed in awesome-mcp-servers under 'Location Services' section.
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

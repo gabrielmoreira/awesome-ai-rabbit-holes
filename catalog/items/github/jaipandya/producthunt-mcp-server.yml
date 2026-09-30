@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing Product Hunt API access via MCP, fitting
-    the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly describes it as a 'plug-and-play MCP server for Product Hunt'
-    - Built with FastMCP and designed for MCP clients like Claude Desktop/Cursor
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

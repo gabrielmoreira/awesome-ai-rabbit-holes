@@ -75,15 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it is a dedicated server implementing the Model Context Protocol to expose
-    Hydrolix database capabilities.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states 'An MCP server for Hydrolix'
-    - >-
-      README details MCP server setup for Claude Desktop/Code with Hydrolix-specific tools (list_databases,
-      run_select_query, etc.)
-    - Already listed in awesome-mcp-servers under 'Server Implementations > Databases'
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -69,17 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for the security domain, providing natural language access to BloodHound's
-    graph data via the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description identifies it as 'integration that connects BloodHound with AI through Model Context Protocol'.
-    - README states 'over 75 specialized tools based on the original BloodHound CE Cypher queries' exposed via MCP.
-    - Listed in awesome-mcp-servers under 'Community Servers' section.
+    - jev-latest choice confidence 0.67
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (353) exceeded threshold (150)

@@ -40,18 +40,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    polar\_llama — A Polars library for parallel provider inference that also calls Jev per row as Noul, Choice, and
+    Score questions, or as one typed contract over a document.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
+  evidence:
+    - jev-latest choice confidence 0.63
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: Provider & Model Abstractions
 lifecycle:
   status: curated
   reason: null

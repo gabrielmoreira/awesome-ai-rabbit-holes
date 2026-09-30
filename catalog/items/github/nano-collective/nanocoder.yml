@@ -70,11 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a standalone terminal-native coding assistant that directly interacts with a repository to plan and edit code.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description identifies it as an 'open coding agent for your terminal'
-    - README details interactive modes like 'plan', 'yolo', and 'auto-accept' for executing code tasks
-    - Supports direct editing of files and running commands via CLI
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: coding-agents
   secondary_categories: []

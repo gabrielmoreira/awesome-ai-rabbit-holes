@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is serving prediction market data via the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description identifies it as an MCP server for prediction market data
-    - README emphasizes MCP integration with Cursor/Claude Desktop
-    - Homepage URL is a Glama MCP server listing
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -63,15 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a developer-facing MCP server implementation whose primary identity is providing a modular MCP serving
-    layer, fitting cleanly into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description explicitly states: ''A generic, modular server for implementing the Model Context Protocol (MCP).'''
-    - >-
-      README lists core features as a modular MCP framework with dynamic module loading and standardized model context
-      API.
-    - Listed in awesome-mcp-servers under Server Implementations > Aggregators, reinforcing its MCP server identity.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

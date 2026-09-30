@@ -80,13 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Core product is observability, tracing, and evaluation for LLM workflows, not a primary coding assistant or
-    framework.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - 'Repo description: ''Open source LLM observability platform. One line of code to monitor, evaluate, and experiment.'''
-    - 'README highlights: cost/latency tracking, agent tracing, prompt management, and fine-tuning integrations.'
-    - 'Source-list context: listed under ''Observability'' in Awesome-LLMOps.'
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: evals
   secondary_categories: []

@@ -41,18 +41,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    jev-toto — Counting and comparison happen in Rust, because Jev is documented as unreliable at arithmetic. Jev
+    receives per-number facts plus plain-English labels and answers two questions per number in one request: a yes/no
+    probability for "drawn in the next draw" and a five-level cold-to-hot score with confidence. Module layout and
+    commands are in \CLAUDE.md\.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  evidence:
+    - jev-latest choice confidence 0.89
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  secondary_categories: []
+  section: Client SDKs & CLIs
 lifecycle:
   status: curated
   reason: null

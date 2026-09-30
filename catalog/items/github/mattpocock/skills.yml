@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a curated collection of portable, reusable slash commands and instruction sets intended to be
-    installed into coding agents.
+  reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
-    - README defines the project as 'agent skills' for real engineering
-    - Installation via 'npx skills@latest add' confirms its nature as a reusable pack
-    - Provides specific slash commands like '/grill-me' and '/grill-with-docs'
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: skills
   secondary_categories: []

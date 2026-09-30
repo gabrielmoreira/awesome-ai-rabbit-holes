@@ -72,17 +72,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP-first server whose core identity is providing searchable documentation as an MCP service, not an
-    extension or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''Zero-config MCP server for searchable documentation (SQLite default, PostgreSQL optional)'''
-    - Topics include mcp, mcp-server, model-context-protocol, vector-search, sqlite, postgresql
-    - Listed in awesome-mcp-servers under Knowledge & Memory
+    - jev-latest choice confidence 0.54
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: null

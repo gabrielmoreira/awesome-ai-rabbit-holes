@@ -79,21 +79,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is a spec-first environment that uses Gherkin, TDD, and Kanban to govern how AI agents
-    implement code, fitting the spec-driven-development category perfectly.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description explicitly calls it 'The Spec-Driven, Multi-Agent Coding Factory' with tags like
-      spec-driven-development and bdd.
-    - >-
-      README details a workflow centered on Gherkin scenarios, auto-generated tests, and a TUI Kanban board to enforce
-      development discipline.
-    - Already listed in the 'awesome-spec-driven-development' list under the 'Development Frameworks' section.
+    - jev-latest choice confidence 0.53
 placement:
-  primary_category: coding-agents
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Spec-First & Plan-Execute
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: null

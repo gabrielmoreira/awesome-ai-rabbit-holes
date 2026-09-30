@@ -65,21 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Happy is a remote UI and wrapper for Claude Code and Codex rather than a primary coding assistant itself, making it
-    an extension/integration.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly calls it a 'Mobile and Web client for Codex and Claude Code'.
-    - >-
-      README instructs users to 'run happy instead of claude' or 'happy codex' to restart sessions in remote mode
-      controlled from a phone.
-    - >-
-      Project components include Happy App, CLI, Agent, and Server that collectively wrap and extend the host coding
-      agents.
+    - jev-latest choice confidence 0.65
 placement:
-  primary_category: extensions-and-addons
+  primary_category: coding-agents
   secondary_categories: []
-  section: Claude Code & Agent Tools
+  section: Terminal & CLI Agents
 lifecycle:
   status: curated
   reason: Stars (20177) exceeded threshold (150)

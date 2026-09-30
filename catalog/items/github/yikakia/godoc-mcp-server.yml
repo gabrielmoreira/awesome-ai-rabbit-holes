@@ -77,13 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core identity is an MCP server providing Go documentation, matching the MCP Servers & Tooling category
-    definition.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''A mcp server provide infomation from pkg.go.dev. For all golang programmers'''
-    - 'README: ''search golang packages and their docs from pkg.go.dev, provide the infomation to llm as mcp server'''
-    - Listed in awesome-mcp-servers under Developer Tools and Community Servers sections
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

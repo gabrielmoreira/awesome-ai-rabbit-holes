@@ -62,15 +62,9 @@ insights:
   confidence: low
 curation:
   status: included
-  reason: >-
-    It is a purpose-built MCP server whose entire architecture and identity revolve around exposing Safari browser
-    automation through the Model Context Protocol, fitting the Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - >-
-      README explicitly labels the project as an MCP server and details a bridge/Node.js JSON-RPC architecture feeding
-      13 Safari control tools.
-    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation.
-    - Active and unarchived (last pushed 2026-06-12, MIT license), with clear macOS/Safari-specific installation steps.
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: mcp
   secondary_categories: []

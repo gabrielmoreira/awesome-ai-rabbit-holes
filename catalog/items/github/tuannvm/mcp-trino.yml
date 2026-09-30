@@ -79,15 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    mcp-trino is an MCP server implementation for Trino, making MCP the core product identity rather than an extension
-    or compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''A high-performance Model Context Protocol (MCP) server for Trino implemented in Go'''
-    - >-
-      README: Implements MCP tools like execute_query, list_catalogs, list_schemas for AI assistants to interact with
-      Trino
-    - Listed in awesome-mcp-servers under Server Implementations > Databases and Community Servers sections
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

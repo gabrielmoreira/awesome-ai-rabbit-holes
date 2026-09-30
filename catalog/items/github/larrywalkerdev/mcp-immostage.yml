@@ -70,17 +70,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is an MCP-first server providing domain-specific virtual staging tools, making MCP its core identity
-    rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''MCP Server for AI Virtual Staging'''
-    - README positions it as an MCP server with tools like stage_room, beautify_floor_plan, classify_room
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

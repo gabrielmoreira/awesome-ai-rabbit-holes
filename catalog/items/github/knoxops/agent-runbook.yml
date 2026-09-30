@@ -89,24 +89,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Agent-runbook is a workflow engine that coordinates multiple agent steps with control flow constructs (loops,
-    branches, parallelism) and contract validation, positioning it as a runtime platform for multi-agent orchestration
-    rather than a coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'Contract-based multi-agent skill framework for Claude Code & Codex — compile YAML runbooks into
-      SKILL.md with loop, parallel, and checkpoint support.'
-    - >-
-      README: Defines loop engineering, provides examples with loop, parallel, branch, and checkpoint step types, and
-      compiles runbooks into executable SKILL.md files.
-    - >-
-      Source-list context: Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Agent
-      infrastructure'.
+    - jev-latest choice confidence 0.75
 placement:
-  primary_category: extensions-and-addons
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Claude Code & Agent Tools
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: null

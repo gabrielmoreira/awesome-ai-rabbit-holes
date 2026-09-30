@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server providing domain-specific tooling (Bazi calculation) for AI agents, fitting
-    cleanly into the Domain Servers section of MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'open-source MCP server' for giving AI agents Bazi chart reading abilities.
-    - 'README details two npm packages: ''shunshi-bazi-core'' (library) and ''shunshi-bazi-mcp'' (thin MCP server wrapper).'
-    - Source list context confirms inclusion in 'awesome-mcp-servers' under 'Art & Culture' server implementations.
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []

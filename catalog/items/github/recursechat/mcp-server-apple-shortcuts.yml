@@ -94,19 +94,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server for Apple Shortcuts, clearly fitting the MCP Servers & Tooling category as a
-    domain-specific protocol server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      README states: 'A Model Context Protocol (MCP) server that lets AI assistants like Claude control Apple Shortcuts
-      automations.'
-    - >-
-      Included in awesome-mcp-list and awesome-mcp-servers directories under browser automation and community server
-      sections.
-    - Repository is active, created in December 2024 and pushed recently, with 322 stars.
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

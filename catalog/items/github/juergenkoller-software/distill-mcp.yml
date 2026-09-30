@@ -80,13 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It serves as an integration layer that augments MCP-compatible assistants with file-renaming capabilities via a
-    bridge to the Distill app.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - The repository is explicitly described as a 'stdio→HTTP bridge' for the Distill macOS app
-    - It exposes specific tools like `rename_files` and `suggest_names` to MCP clients
-    - The actual AI processing and file analysis are handled by the Distill app, not the bridge itself
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

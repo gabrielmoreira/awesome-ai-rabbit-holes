@@ -67,13 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is a WhatsApp-focused MCP server, making MCP the primary adopted thing rather than a
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''A WhatsApp MCP server built around Streamable HTTP transport'''
-    - 'README: Explicitly defines MCP tools for WhatsApp operations like send_message, download_media, get_qr_code'
-    - 'Source-list context: Listed in awesome-mcp-servers under Communication section'
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

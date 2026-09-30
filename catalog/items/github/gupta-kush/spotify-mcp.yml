@@ -71,15 +71,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server providing domain-specific tools for Spotify integration.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it's an MCP server for Spotify control
-    - README details 100+ tools and MCP-specific installation/configuration
-    - Listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.89
 placement:
-  primary_category: extensions-and-addons
+  primary_category: mcp
   secondary_categories: []
-  section: API & Service Integrations
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

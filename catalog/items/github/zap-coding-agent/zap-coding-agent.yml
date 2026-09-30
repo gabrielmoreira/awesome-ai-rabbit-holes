@@ -53,18 +53,22 @@ metadata:
       fetched_at: '2026-07-21T15:21:25.202Z'
       bytes: 68847
 insights:
-  summary: null
+  summary: >-
+    ZAP is a terminal-first, local AI coding agent built in Rust. It uses AST-powered codebase indexing and lazy-loaded
+    skills to completely eliminate prompt bloat and minimize context token costs.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
+  evidence:
+    - jev-latest choice confidence 0.92
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Terminal & CLI Agents
 lifecycle:
   status: curated
   reason: null

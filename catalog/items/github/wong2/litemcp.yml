@@ -56,17 +56,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    litemcp is an MCP-first server framework, making it a clear fit for MCP Servers & Tooling as its core identity is
-    building MCP servers, not extending another agent or providing general AI infrastructure.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''A TypeScript framework for building MCP servers elegantly'''
-    - README positions it as a framework for defining MCP Tools, Resources, and Prompts with TypeScript
-    - 'Source-list context: listed in awesome-mcp-servers under Frameworks section'
+    - jev-latest choice confidence 0.65
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (185) exceeded threshold (150)

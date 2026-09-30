@@ -58,18 +58,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    jev-block-android-ad - JevNoiseGate filters unwanted notifications and SMS on Android. Rather than matching
+    keywords, an LLM decides what's noise — and only what it explicitly flags is blocked. Verification codes are matched
+    on-device and never uploaded; anything uncertain passes through.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  evidence:
+    - jev-latest choice confidence 0.84
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  secondary_categories: []
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null

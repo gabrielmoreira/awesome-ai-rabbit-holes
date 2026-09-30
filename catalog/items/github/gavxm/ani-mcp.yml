@@ -65,15 +65,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's identity is explicitly an MCP server designed to provide a specific domain's data and logic to LLM
-    hosts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description identifies it as an 'MCP server for AniList'
-    - README focuses on MCP integration for Claude Desktop and Claude Code
-    - Offers specialized 'intelligence layer' on top of raw API calls via MCP
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

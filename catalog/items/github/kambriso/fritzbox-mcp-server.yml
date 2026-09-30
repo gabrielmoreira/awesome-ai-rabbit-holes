@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing domain-specific (FRITZ!Box) capabilities
-    to AI assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description identifies it as a 'FRITZ!Box MCP Server for LLM/KI Integration'
-    - README explicitly frames it as an MCP server for interacting with FRITZ!Box routers
-    - Listed on mcpservers.org registry
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

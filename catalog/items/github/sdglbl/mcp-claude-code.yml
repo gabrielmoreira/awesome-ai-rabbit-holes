@@ -83,13 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server implementation of coding capabilities, fitting the MCP category
-    better than a generic coding agent label.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP implementation of Claude Code capabilities'.
-    - README confirms it 'provides an MCP server that implements Claude Code-like functionality'.
-    - Listed in awesome-mcp-servers under 'Developer Tools', reinforcing its MCP server identity.
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: mcp
   secondary_categories: []

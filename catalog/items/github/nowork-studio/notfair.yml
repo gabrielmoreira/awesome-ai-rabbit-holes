@@ -124,15 +124,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a reusable skill pack and slash-command library designed specifically for Claude Code, fitting the Agent
-    Skills category.
+  reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
-    - 'Repo description explicitly states: ''Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads'''
-    - >-
-      README confirms it is a plugin installed via '/plugin marketplace add nowork-studio/toprank' with skills available
-      as '/toprank:*' commands
-    - Canonical positives for the 'skills' category explicitly list 'toprank' as an example
+    - jev-latest choice confidence 0.60
 placement:
   primary_category: skills
   secondary_categories: []

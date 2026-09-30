@@ -72,13 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is purpose-built as an MCP server for healthcare interoperability, making it a textbook fit for the MCP Servers
-    & Tooling category under Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'DICOM/HL7 healthcare interoperability MCP server for Claude'
-    - README positions it as 'The only MCP server that bridges DICOM, HL7v2, and FHIR in one package'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Biology, Medicine and Bioinformatics'
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -66,17 +66,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product’s identity is an MCP server for Obsidian vaults, fitting cleanly as a domain-specific MCP server rather
-    than a generic extension or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''The most feature-complete MCP server for Obsidian vaults — 23 tools + 3 resources'''
-    - 'README: ''41 tools, 5 prompts, 3 resources'' exposing vault read/write/search/graph/semantic-search via MCP'
-    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

@@ -78,13 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly defined as an MCP server that provides a specialized domain of testing and QA tools to an
-    MCP-compliant host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Described as a 'Universal MCP server' for driving pytest, Jest, Cypress, Go, and Maestro
-    - Provides specialized domain capabilities including DOM analysis, mobile screen analysis, and smart test generation
-    - Designed specifically to be used via MCP clients like Claude Desktop or Cursor
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
   secondary_categories: []

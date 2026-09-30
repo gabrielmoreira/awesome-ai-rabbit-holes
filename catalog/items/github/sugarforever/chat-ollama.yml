@@ -61,19 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a local-first, self-hosted chat interface and platform for running models on your own hardware, which
-    aligns with the Local AI category.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
   evidence:
-    - >-
-      Repo description explicitly positions it as an open-source AI chatbot that 'keeps your data private and secure'
-      with local model support.
-    - >-
-      README emphasizes Docker-based deployment, Ollama support, PostgreSQL, and vector databases as core
-      infrastructure, not just a thin client.
-    - >-
-      Includes realtime voice chat, knowledge bases with RAG, and MCP server management, all delivered through a
-      self-hosted Nuxt 3 app.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: local-ai
   secondary_categories: []

@@ -65,17 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: a server exposing telephony tools for LLM integration, fitting the MCP Servers &
-    Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP Server with telephony tools
-    - README demonstrates integration with Claude Desktop and GitHub Copilot as MCP tools
-    - Listed in awesome-mcp-servers under Communication servers
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

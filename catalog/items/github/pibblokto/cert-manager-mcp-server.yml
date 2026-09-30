@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server focused on cert-manager, making it a textbook fit for the MCP Servers &
-    Tooling category under Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description states 'MCP Server for cert-manager'.
-    - README lists cert-manager-specific tools like list_certificates and renew_certificate exposed via MCP.
-    - Included in awesome-mcp-servers under Server Implementations > Cloud Platforms.
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

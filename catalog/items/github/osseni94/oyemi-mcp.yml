@@ -61,17 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server providing specialized semantic tooling to agents, fitting the MCP Servers &
-    Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description states: ''MCP support for Oyemi Library''.'
-    - README identifies it as an 'MCP (Model Context Protocol) server for the Oyemi semantic lexicon'.
-    - Listed in 'awesome-mcp-servers' under 'Data Platforms' section.
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

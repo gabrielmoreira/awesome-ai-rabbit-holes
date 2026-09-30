@@ -61,15 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP server implementation whose core identity is serving API documentation via the Model Context Protocol,
-    making it a pure MCP infrastructure tool rather than an extension, framework, or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''An MCP server implementation enabling LLMs to work with new APIs and frameworks'''
-    - >-
-      README: 'This project provides a way for AI agents to efficiently explore and understand unknown TypeScript APIs'
-      and details MCP tool endpoints like search_symbols, get_symbol_details
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

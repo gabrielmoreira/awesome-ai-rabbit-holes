@@ -80,15 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    cmux is a terminal UI surface that augments other coding agents (Claude Code, Gemini CLI, etc.) with session
-    management, notifications, and browser integration rather than acting as a coding assistant itself.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly states it is a 'terminal with vertical tabs and notifications for AI coding agents'.
-    - >-
-      README highlights features like 'Notification rings' and 'Claude Code Teams' integration, confirming it wraps
-      other agents.
-    - Source list 'awesome-cli-coding-agents' categorizes it under 'Session managers & parallel runners'.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

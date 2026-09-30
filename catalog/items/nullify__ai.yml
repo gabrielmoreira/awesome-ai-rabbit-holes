@@ -68,23 +68,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Nullify.ai integrates as an autonomous agent that plugs into existing developer workflows (Jira, Compass, Slack, CI)
-    to extend security remediation capabilities, acting as a workflow add-on rather than a standalone coding agent or
-    platform.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - >-
-      Source-list context: listed in awesome-ai-coding-tools under Security section as a tool that finds, proves, and
-      fixes vulnerabilities and drives PRs to merge.
-    - >-
-      README/scraped context: Nullify routes work via Compass (code ownership), Jira (capacity), and Slack
-      (escalations), integrating with existing dev tools rather than replacing them.
-    - >-
-      Core loop: detects, validates, triages, fixes, refines, and closes vulnerabilities in existing codebases — not
-      generating new apps or acting as a general-purpose coding agent.
+    - jev-latest choice confidence 0.71
 placement:
-  primary_category: extensions-and-addons
-  section: Security & DevSecOps
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: curated
   reason: null

@@ -56,15 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is providing structured financial and corporate data through the
-    Model Context Protocol, fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''MCP server for the Registrum Companies House API'''
-    - >-
-      README: Provides 5 MCP tools (search_company, get_company, get_financials, get_directors, get_network) for UK
-      company data
-    - 'Source-list: Included in awesome-mcp-servers under Finance & Fintech > Server Implementations'
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

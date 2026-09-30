@@ -71,16 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    SqlAugur is an MCP server whose core identity is providing MCP-compliant database access, making it a
-    domain-specific MCP server rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''MCP server providing AI assistants with safe, read-only access to SQL Server databases'''
-    - >-
-      README emphasizes MCP server functionality: 'An MCP server that gives AI assistants safe, read-only access to SQL
-      Server databases'
-    - Listed in awesome-mcp-servers under Server Implementations > Databases
-    - Provides MCP-compliant tools via stdio transport for AI clients like Claude Desktop and Claude Code
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -64,17 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server first and foremost, providing protocol-compliant tooling for HackMD access, making it a
-    clear fit for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - >-
-      Repo description: 'A Model Context Protocol server for integrating HackMD's note-taking platform with AI
-      assistants.'
-    - >-
-      README: Explicitly markets itself as an MCP server with STDIO and HTTP transport support for MCP clients like
-      Claude Desktop.
-    - 'Source-list context: Listed in awesome-mcp-servers under ''Community Servers''.'
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

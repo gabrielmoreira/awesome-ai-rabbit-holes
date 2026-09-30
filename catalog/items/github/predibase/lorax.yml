@@ -71,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a self-hosted inference stack and serving layer designed to run fine-tuned models locally or on your own
-    hardware, fitting the Local AI scope.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - Repo description explicitly defines it as a 'Multi-LoRA inference server'.
-    - README highlights production readiness with Docker images, Helm charts, and Prometheus metrics for self-hosting.
-    - Listed in the 'awesome-local-ai' directory under the 'Inference Engine' section.
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: local-ai
   secondary_categories: []

@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server whose primary identity is delivering cross-chain bridge data via MCP protocol
-    to AI agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for cross-chain bridge rates
-    - README details MCP server setup, tools, and integration with MCP clients like Claude Desktop
-    - Core functionality is exposing blockchain data (rates, chains, bridges) as MCP tools
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

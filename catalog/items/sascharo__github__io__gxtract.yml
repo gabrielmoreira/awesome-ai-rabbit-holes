@@ -57,18 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    GXtract's primary identity is an MCP server with GroundX tool integration, making MCP its core purpose rather than a
-    side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Self-described as 'a powerful and flexible Model Context Protocol (MCP) server with seamless GroundX tool
-      integration'
-    - Listed in awesome-mcp-servers under Community Servers as an MCP server
-    - Built with FastMCP v2 and asyncio, emphasizing MCP infrastructure
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: mcp
-  section: Dev & Code Tools
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

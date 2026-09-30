@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Codachi augments Claude Code with statusline UI, hooks, and contextual messaging but does not act as a primary
-    coding assistant, making it an extension rather than an agent.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
-    - 'Repo description: ''A tamagotchi-style virtual pet that lives in your Claude Code statusline'''
-    - 'README: Adds context ETA, event-aware pet reactions, and productivity stats via PostToolExecution hooks'
-    - 'Not a coding agent: does not plan, write, test, or debug code; only observes and displays state'
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []

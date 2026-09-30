@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose identity and utility are defined by implementing the Model Context Protocol to
-    expose financial data tools.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description states it is 'An MCP (Model Context Protocol) tool ... specifically adapted for Claude Desktop.'
-    - README details multiple MCP tools like get_stock_quote and get_insider_transactions using yfinance.
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its MCP server identity.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

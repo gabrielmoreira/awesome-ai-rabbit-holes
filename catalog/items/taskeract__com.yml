@@ -57,24 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Taskeract functions as a primary coding agent interface that executes coding tasks via autonomous agents in real
-    terminals, matching the coding-agents category’s focus on agents that directly act on code.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Desktop app where AI coding agents run in real terminals to generate code, review pull requests, and merge from
-      one app
-    - >-
-      Works with Claude Code, OpenAI Codex, and OpenCode in workflow-aware workspaces for implementation, review, and
-      triage
-    - Agents can pull, push, check pipeline status, and resolve merge requests on their own
-    - >-
-      Each session gets its own isolated workspace and timeline, allowing multiple agents to work on the same project
-      simultaneously
+    - jev-latest choice confidence 0.66
 placement:
-  primary_category: coding-agents
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: null

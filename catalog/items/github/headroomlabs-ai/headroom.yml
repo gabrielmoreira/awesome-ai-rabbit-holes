@@ -43,18 +43,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    Headroom ⭐ 66.6k — Context-compression layer for coding agents: headroom wrap <tool> transparently shrinks tool
+    output, logs, files, and RAG chunks before they reach the model (15–20% fewer tokens for coding agents, 60–95% for
+    JSON), reversibly and locally. Library, proxy, and MCP server; wraps Claude Code, Codex, Cursor, Aider, OpenCode,
+    Goose, OpenHands, and more. Apache-2.0.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
+  evidence:
+    - jev-latest choice confidence 0.81
 placement:
-  primary_category: null
-  section: null
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Compression & Token Optimization
 lifecycle:
   status: curated
   reason: null

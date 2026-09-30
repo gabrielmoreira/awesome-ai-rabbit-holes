@@ -64,17 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server implementation for the Rancher ecosystem, fitting squarely into the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'Model Context Protocol (MCP) server for the Rancher ecosystem'.
-    - README demonstrates configuration for Cursor and Claude Desktop as an MCP server using npx.
-    - Listed in awesome-mcp-servers under 'Cloud Platforms' server implementations.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

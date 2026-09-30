@@ -74,13 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP-first server providing standardized text editing capabilities, making MCP its core identity
-    rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README explicitly states it is a 'Model Context Protocol (MCP) server' providing line-oriented text file editing
-    - Designed for LLM tool integration with efficient partial file access to minimize token usage
-    - Listed in MCP-specific directories like awesome-mcp-list and awesome-mcp-servers under Developer Tools
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

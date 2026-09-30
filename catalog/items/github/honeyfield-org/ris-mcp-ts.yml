@@ -70,15 +70,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a domain-specific MCP server for legal data, not a compatibility footnote.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly identifies it as an MCP Server for RIS
-    - README details 12 specialized tools for Austrian legal data access via MCP
-    - Listed in MCP Registry (io.github.philrox/ris)
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

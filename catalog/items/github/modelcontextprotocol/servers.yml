@@ -94,19 +94,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is the canonical upstream repository for MCP reference servers, making it core MCP infrastructure rather than a
-    generic framework or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'Model Context Protocol Servers'
-    - >-
-      README describes it as 'a collection of reference implementations for the Model Context Protocol (MCP)' maintained
-      by the MCP steering group
-    - Included in multiple awesome-mcp lists specifically as reference MCP servers
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (85153) exceeded threshold (150)

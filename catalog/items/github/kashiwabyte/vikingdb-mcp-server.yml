@@ -76,17 +76,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for VikingDB, making MCP its primary identity rather than a compatibility
-    feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo description states it is 'a mcp server for vikingdb store and search'
-    - README confirms it implements MCP tools for VikingDB operations
-    - Listed in multiple MCP server directories under Databases
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: null

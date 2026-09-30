@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly built as an MCP server to give agents access to financial data, which aligns perfectly
-    with the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description identifies it as 'Financial data via Model Context Protocol'.
-    - README confirms it is a 'thin MCP stdio server' with tools for stocks, FRED indicators, and SEC filings.
-    - Source list context shows inclusion in 'awesome-mcp-servers' under Finance & Fintech.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

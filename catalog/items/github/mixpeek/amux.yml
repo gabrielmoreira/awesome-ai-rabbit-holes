@@ -83,17 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product’s primary identity is a control plane and runtime surface for coordinating multiple agents, with
-    dashboards, scheduling, and agent-to-agent orchestration, not a standalone coding assistant.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description explicitly calls it an 'open-source Claude Code agent multiplexer' for parallel unattended
-      sessions.
-    - >-
-      README positions it as 'The Agent Control Plane' with web dashboard, kanban, REST API orchestration, and
-      self-healing watchdog.
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'.
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

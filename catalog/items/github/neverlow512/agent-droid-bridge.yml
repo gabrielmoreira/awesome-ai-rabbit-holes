@@ -71,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server that bridges AI agents to Android devices, fitting squarely into MCP
-    Servers & Tooling as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description states it is 'an MCP server' giving AI agents control over Android devices via ADB.
-    - README identifies it as 'an MCP server that connects AI agents to Android devices' with 14+ built-in tools.
-    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its identity as an MCP implementation.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

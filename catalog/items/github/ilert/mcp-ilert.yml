@@ -52,13 +52,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server providing domain-specific (ilert) integration, matching the MCP Servers & Tooling
-    category identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as an MCP server for ilert
-    - README confirms it enables AI assistants to navigate ilert resources via MCP
-    - Listed in awesome-mcp-servers under Official Servers
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

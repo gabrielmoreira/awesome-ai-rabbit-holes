@@ -59,20 +59,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The repository provides reusable training scripts and utilities as a code-first toolkit for fine-tuning
-    vision-language models, fitting the Frameworks & SDKs category as developers import and modify these scripts in
-    their own workflows rather than using a managed platform or assistant.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Fine-tuning & Training
   evidence:
-    - >-
-      README states the purpose is to provide 'simple and transparent code' for fine-tuning Qwen2-VL to help developers
-      write their own training loops
-    - >-
-      Offers single-GPU and multi-GPU training scripts (finetune.py, finetune_distributed.py) that users run and modify
-      directly
-    - >-
-      Source-list context shows inclusion in awesome-LLM-resources under the '微调 Fine-Tuning' section, indicating its
-      role as a training resource
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: local-ai
   secondary_categories: []

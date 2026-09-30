@@ -61,19 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a purpose-built MCP server providing a specific domain capability (web search), fitting the MCP Servers &
-    Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description explicitly states 'A Model Context Protocol (MCP) server implementation that provides a web
-      search capability.'
-    - README details integration with Claude Desktop, Cursor IDE, and Cline as an MCP server.
-    - Listed in the 'awesome-mcp-servers' directory under the 'Community Servers' section.
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

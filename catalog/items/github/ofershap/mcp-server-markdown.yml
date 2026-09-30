@@ -73,21 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server purpose-built for markdown, fitting cleanly as domain-specific MCP
-    infrastructure rather than a generic framework or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - >-
-      Repo description explicitly states 'MCP server for markdown — search, extract sections, list headings, find code
-      blocks'.
-    - >-
-      README positions it as a server that 'understands headings, sections, or code blocks' for Claude Desktop, Cursor,
-      and VS Code Copilot.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools, reinforcing its MCP server identity.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: null

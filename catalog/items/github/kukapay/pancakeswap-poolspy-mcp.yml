@@ -78,13 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server with MCP as its primary identity, providing domain-specific (DeFi/Finance)
-    tooling via the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description states it is 'An MCP server that tracks newly created liquidity pools on Pancake Swap'
-    - README details MCP server setup, installation via Smithery, and MCP Inspector usage
-    - Listed in awesome-mcp-list under Finance & Fintech
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

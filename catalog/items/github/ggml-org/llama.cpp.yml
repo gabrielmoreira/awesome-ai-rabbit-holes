@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is the industry standard for running quantized models on local hardware, making it a foundational local AI
-    runtime.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - 'Repo description: LLM inference in C/C++'
-    - README confirms support for local execution via llama-cli and llama-server
-    - High traction with 120k+ stars
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: local-ai
   secondary_categories: []

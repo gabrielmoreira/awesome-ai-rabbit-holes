@@ -58,17 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary purpose is providing the retrieval, indexing, and semantic search infrastructure required to
-    deliver context to AI models.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Memory & Retrieval Infrastructure
   evidence:
-    - Provides hybrid retrieval (vector similarity + BM25) through a SQL interface
-    - Allows indexing unstructured content into knowledge bases for semantic search
-    - Acts as a federated query layer to fetch live data for agent context
+    - jev-latest choice confidence 0.68
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Data & Databases
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: curated
   reason: null

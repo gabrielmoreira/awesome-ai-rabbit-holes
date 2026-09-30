@@ -79,23 +79,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is primarily a code-first toolkit (SDKs, API, query language) for developers to script web interactions
-    and data extraction for their own agents or automation workflows.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description explicitly calls it a 'suite of tools' with 'Python and JavaScript SDKs, browser debugger, and
-      REST API'.
-    - >-
-      README details SDKs for Python and JS, a REST API, and integrations with Langchain and Playwright, positioning it
-      as a developer building block.
-    - >-
-      Although listed in awesome-mcp-servers, the core product identity is the query language and SDKs, with MCP being
-      just one of many integrations.
+    - jev-latest choice confidence 0.64
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Browser & Web Automation
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (1343) exceeded threshold (150)

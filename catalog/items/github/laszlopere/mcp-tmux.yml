@@ -75,17 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server designed to bridge the Model Context Protocol with tmux
-    functionality.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description identifies it as a 'universal MCP server for driving tmux'
-    - README focuses entirely on MCP integration and registration for clients like Claude Code
-    - Provides core infrastructure for session, window, and pane management via MCP
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

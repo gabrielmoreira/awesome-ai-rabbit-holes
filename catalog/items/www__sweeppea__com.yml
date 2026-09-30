@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__sweeppea__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,13 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: Sweeppea
         extracted_url: https://www.sweeppea.com
-        surrounding_text: "- [Sweeppea-Development-Lab/sweeppea-mcp-info](https://github.com/Sweeppea-Development-Lab/sweeppea-mcp-info) [![Sweeppea-Development-Lab/sweeppea-mcp-info MCP server](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info/badges/score.svg)](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info) 📇 ☁️ - Sweepstakes management platform with 70 MCP tools for legally compliant promotions in the US and Canada. Manage participants, official rules, winner drawings, entry pages, billing, and more. Requires a [Sweeppea](https://www.sweeppea.com/) subscription."
+        surrounding_text: >-
+          - [Sweeppea-Development-Lab/sweeppea-mcp-info](https://github.com/Sweeppea-Development-Lab/sweeppea-mcp-info)
+          [![Sweeppea-Development-Lab/sweeppea-mcp-info MCP
+          server](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info/badges/score.svg)](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info)
+          📇 ☁️ - Sweepstakes management platform with 70 MCP tools for legally compliant promotions in the US and
+          Canada. Manage participants, official rules, winner drawings, entry pages, billing, and more. Requires a
+          [Sweeppea](https://www.sweeppea.com/) subscription.
         confidence: high
 metadata:
   github:
@@ -38,8 +44,12 @@ metadata:
     readme: null
 insights:
   summary: Sweeppea is a web-based AI app builder that generates full applications from text prompts.
-  why_it_matters: It lets developers turn ideas into deployable apps without writing code, speeding up prototyping and internal tool creation.
-  mental_damage: Another prompt-to-app promise that makes you wonder if 'just describe it' will ever actually ship something maintainable.
+  why_it_matters: >-
+    It lets developers turn ideas into deployable apps without writing code, speeding up prototyping and internal tool
+    creation.
+  mental_damage: >-
+    Another prompt-to-app promise that makes you wonder if 'just describe it' will ever actually ship something
+    maintainable.
   tags:
     - app-builder
     - prompt-to-app
@@ -47,21 +57,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product directly analyzes and reviews code, fitting the definition of a coding agent focused on repository workflows.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
   evidence:
-    - The URL and name suggest a code review/analysis focus
-    - No signals indicate it is an extension, framework, or non-developer tool
+    - jev-latest choice confidence 0.94
 placement:
-  primary_category: coding-agents
+  primary_category: app-builders
   secondary_categories: []
-  section: null
+  section: Full App Builders
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'app-builders'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''app-builders'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.670Z"
+    updated_at: '2026-05-06T22:12:15.670Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:50:34.442Z"
+    updated_at: '2026-09-28T04:50:34.442Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,7 +92,9 @@ processing:
       input_hash: sha256:840b160bbe9ac2facac905e3df4612e0b8dcff083d6ade1c8d0133de56e179b3
       proposed_primary_category: app-builders
       disagreement: true
-      decision_reason: Sweeppea’s core identity is generating complete apps from prompts, matching the app-builder category’s focus on turning natural language into deployable artifacts rather than editing existing codebases.
+      decision_reason: >-
+        Sweeppea’s core identity is generating complete apps from prompts, matching the app-builder category’s focus on
+        turning natural language into deployable artifacts rather than editing existing codebases.
       decision_evidence:
         - Homepage describes generating full applications from text prompts
         - Output is a deployable app or site, not code edits
@@ -91,6 +102,8 @@ processing:
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because Sweeppea’s main loop is prompt-to-app generation from a blank slate, not editing or assisting within an existing codebase.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'app-builders'"
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because Sweeppea’s main loop is prompt-to-app generation from a blank
+        slate, not editing or assisting within an existing codebase.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''app-builders'''
       review_resume_lifecycle: null

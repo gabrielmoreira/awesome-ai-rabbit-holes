@@ -76,23 +76,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose identity and primary value is providing Nutrient's PDF API
-    capabilities to MCP-compatible AI clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description states it is 'A Model Context Protocol (MCP) server implementation that integrates with the
-      Nutrient Document Web Service (DWS) Processor API'.
-    - >-
-      README confirms it is a 'Local stdio MCP server for Claude Desktop and other MCP-compatible clients' with detailed
-      configs for Claude, Cursor, Windsurf, and VS Code.
-    - >-
-      Topics include 'mcp', 'mcp-server', and 'model-context-protocol', and it is listed in the awesome-mcp-list under
-      File Systems.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

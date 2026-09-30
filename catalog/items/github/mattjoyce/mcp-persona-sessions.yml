@@ -63,19 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP server first and foremost, providing persona-driven session tools through the Model Context Protocol,
-    making MCP its core identity rather than an extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - 'Repo description: ''MCP server for persona-driven AI sessions'''
-    - >-
-      README: 'A Model Context Protocol (MCP) server that enables AI assistants to conduct structured, persona-driven
-      sessions'
-    - Usage requires MCP client configuration (e.g., Claude Desktop)
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: null

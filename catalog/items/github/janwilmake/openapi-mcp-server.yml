@@ -73,13 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server for OpenAPI specifications, not just an adapter or
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as an MCP server for Claude/Cursor
-    - README details a 3-step MCP workflow for OpenAPI exploration
-    - Listed in multiple MCP-focused awesome lists under Server Implementations
+    - jev-latest choice confidence 0.65
 placement:
   primary_category: mcp
   secondary_categories: []

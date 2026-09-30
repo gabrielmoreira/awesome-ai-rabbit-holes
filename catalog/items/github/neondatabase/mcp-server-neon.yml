@@ -95,15 +95,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for Neon, fitting the MCP infrastructure category where the protocol is the
-    primary product identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description states: ''MCP server for interacting with Neon Management API and databases''.'
-    - >-
-      README describes it as a 'remote MCP Server for Neon' acting as a 'bridge between natural language requests and
-      the Neon API'.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under official and database server sections.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

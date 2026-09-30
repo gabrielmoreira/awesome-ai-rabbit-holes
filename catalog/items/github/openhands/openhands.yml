@@ -85,17 +85,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a primary coding assistant (CLI, GUI, Cloud) that developers delegate repo work to, fitting the
-    'Terminal & CLI Agents' profile better than a framework or extension.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - >-
-      Repo description identifies it as 'AI-Driven Development' and source lists classify it as a 'Terminal-native
-      coding agent'.
-    - >-
-      README explicitly compares the CLI experience to Claude Code and the GUI to Devin/Jules, confirming its identity
-      as a primary assistant.
-    - High traction with 72,759 stars and active development (pushed 2026-05-06) confirms ecosystem relevance.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: coding-agents
   secondary_categories: []

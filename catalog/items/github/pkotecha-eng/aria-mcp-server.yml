@@ -64,17 +64,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server providing domain-specific tools for biomedical research, fitting cleanly as a domain
-    server under MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description explicitly states 'ARIA Clinical Research MCP Server' exposing PubMed and clinical trials as MCP
-      tools.
-    - README shows it is built with FastMCP and designed to connect to Claude Desktop as a local MCP server.
-    - Listed in awesome-mcp-servers under 'Biology, Medicine and Bioinformatics' section.
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

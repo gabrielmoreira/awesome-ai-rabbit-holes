@@ -67,19 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP-first server exposing financial data and trading tools via the Model Context Protocol, making
-    MCP its core identity rather than an adapter or compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Official MCP server for the Longbridge brokerage with 145 tools across real-time quotes, options, order routing,
-      and portfolio analytics
-    - >-
-      Built with Rust using rmcp and axum, explicitly designed as MCP infrastructure with stateless architecture and
-      OAuth 2.1 resource metadata compliance
-    - >-
-      Connects via standard MCP clients (Claude Desktop, Claude Code, Zed, Cursor) using streamable-http transport and
-      auto-discovered OAuth via RFC 9728
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

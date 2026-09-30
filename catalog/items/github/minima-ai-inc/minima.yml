@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dmayboroda__minima__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,10 @@ provenance:
           - Community Servers
         anchor_text: Minima
         extracted_url: https://github.com/dmayboroda/minima
-        surrounding_text: "- **[Minima](https://github.com/dmayboroda/minima)** - Local RAG (on-premises) with MCP server."
+        surrounding_text: '- **[Minima](https://github.com/dmayboroda/minima)** - Local RAG (on-premises) with MCP server.'
         confidence: high
     - id: discovery__github__dmayboroda__minima__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -35,10 +35,12 @@ provenance:
           - Knowledge Management
         anchor_text: Minima
         extracted_url: https://github.com/dmayboroda/minima
-        surrounding_text: "- [Minima](https://github.com/dmayboroda/minima): Chat with local documents, connect local environment to ChatGPT or Claude ![GitHub Repo stars](https://img.shields.io/github/stars/dmayboroda/minima?style=social)"
+        surrounding_text: >-
+          - [Minima](https://github.com/dmayboroda/minima): Chat with local documents, connect local environment to
+          ChatGPT or Claude ![GitHub Repo stars](https://img.shields.io/github/stars/dmayboroda/minima?style=social)
         confidence: high
     - id: discovery__github__minima-ai-inc__minima__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-08-13T04:39:28.746Z"
+      discovered_at: '2026-08-13T04:39:28.746Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -50,10 +52,10 @@ provenance:
           - Community Servers
         anchor_text: Minima
         extracted_url: https://github.com/dmayboroda/minima
-        surrounding_text: "- **[Minima](https://github.com/dmayboroda/minima)** - Local RAG (on-premises) with MCP server."
+        surrounding_text: '- **[Minima](https://github.com/dmayboroda/minima)** - Local RAG (on-premises) with MCP server.'
         confidence: high
     - id: discovery__github__minima-ai-inc__minima__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-08-13T04:39:28.746Z"
+      discovered_at: '2026-08-13T04:39:28.746Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -66,7 +68,9 @@ provenance:
           - Knowledge Management
         anchor_text: Minima
         extracted_url: https://github.com/dmayboroda/minima
-        surrounding_text: "- [Minima](https://github.com/dmayboroda/minima): Chat with local documents, connect local environment to ChatGPT or Claude ![GitHub Repo stars](https://img.shields.io/github/stars/dmayboroda/minima?style=social)"
+        surrounding_text: >-
+          - [Minima](https://github.com/dmayboroda/minima): Chat with local documents, connect local environment to
+          ChatGPT or Claude ![GitHub Repo stars](https://img.shields.io/github/stars/dmayboroda/minima?style=social)
         confidence: high
 metadata:
   github:
@@ -76,10 +80,10 @@ metadata:
     archived: false
     full_name: Minima-AI-Inc/minima
     html_url: https://github.com/Minima-AI-Inc/minima
-    created_at: "2024-11-02T22:44:56Z"
-    pushed_at: "2026-01-22T09:22:09Z"
+    created_at: '2024-11-02T22:44:56Z'
+    pushed_at: '2026-01-22T09:22:09Z'
     description: On-premises conversational RAG with configurable containers
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - claude
@@ -93,13 +97,17 @@ metadata:
       - ollama
       - qdrant
       - sentence-transformers
-    last_checked_at: "2026-08-13T04:39:35.478Z"
+    last_checked_at: '2026-08-13T04:39:35.478Z'
     readme:
-      fetched_at: "2026-08-13T04:39:35.478Z"
+      fetched_at: '2026-08-13T04:39:35.478Z'
       bytes: 9319
 insights:
-  summary: On-premises conversational RAG system with configurable containers, supporting local LLMs, custom APIs, ChatGPT, and MCP integration.
-  why_it_matters: Developers can self-host a full RAG pipeline with their own data and models, avoiding cloud dependencies while integrating with popular AI assistants.
+  summary: >-
+    On-premises conversational RAG system with configurable containers, supporting local LLMs, custom APIs, ChatGPT, and
+    MCP integration.
+  why_it_matters: >-
+    Developers can self-host a full RAG pipeline with their own data and models, avoiding cloud dependencies while
+    integrating with popular AI assistants.
   mental_damage: Finally, a way to make your local documents searchable without handing them to every SaaS with a free tier.
   tags:
     - docker
@@ -110,21 +118,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary product identity is a self-hosted, local runtime for RAG that can serve as an MCP server, fitting the 'Local AI' scope of on-device/self-hosted tooling.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
   evidence:
-    - "Repo description explicitly states: 'On-premises conversational RAG with configurable containers'."
-    - README details fully local setups using Ollama and Docker Compose for self-hosted inference.
-    - Includes an MCP server mode for integration with Claude Desktop, acting as a local serving layer.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: local-ai
-  section: null
+  secondary_categories: []
+  section: Desktop Chat & UIs
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'context-engineering'"
+  reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''context-engineering'''
 processing:
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.167Z"
+    updated_at: '2026-09-28T04:14:00.167Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -139,24 +146,28 @@ processing:
       input_hash: sha256:1180779b019d3db258cf946a27a253c16f2189f9b564fdda3fe51e3c7c78a5ee
       proposed_primary_category: context-engineering
       disagreement: true
-      decision_reason: Core product is a retrieval/embedding pipeline for local documents, fitting context engineering despite MCP compatibility.
+      decision_reason: >-
+        Core product is a retrieval/embedding pipeline for local documents, fitting context engineering despite MCP
+        compatibility.
       decision_evidence:
-        - "Repo description: 'On-premises conversational RAG with configurable containers'"
+        - 'Repo description: ''On-premises conversational RAG with configurable containers'''
         - README lists four modes centered on indexing/local retrieval with various LLM backends
         - Appears in awesome-mcp-servers under Community Servers (MCP is a feature, not the identity)
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the primary identity is a RAG/retrieval system, with MCP as an integration option rather than the core product.
-      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'context-engineering'"
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the primary identity is a RAG/retrieval system, with MCP as an
+        integration option rather than the core product.
+      review_reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''context-engineering'''
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-08-13T04:39:28.748Z"
+    updated_at: '2026-08-13T04:39:28.748Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:35.478Z"
+    updated_at: '2026-08-13T04:39:35.478Z'
     cause: null
     next_retry_at: null

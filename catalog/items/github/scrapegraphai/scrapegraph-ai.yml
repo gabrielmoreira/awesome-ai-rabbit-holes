@@ -79,13 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a code-first Python library and SDK used to build AI-powered scraping workflows, fitting the Frameworks & SDKs
-    identity rather than a standalone coding agent or IDE extension.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''Python scraper based on AI'' and README states it is a ''web scraping python library''.'
-    - Provides SDKs for Python and Node and integrations with Langchain, Llama Index, and Crew.ai.
-    - Primary workflow is importing the library to define extraction graphs, not acting as a terminal agent or IDE.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

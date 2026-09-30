@@ -59,13 +59,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is an MCP server as its core identity, providing Databricks Genie API access via MCP tools, fitting the
-    MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - README describes it as 'A Model Context Protocol (MCP) server that connects to the Databricks Genie API'
-    - Provides MCP tools like ask_genie, follow_up, get_space_info for LLM interaction
-    - Listed in awesome-mcp-servers under Data Platforms section
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

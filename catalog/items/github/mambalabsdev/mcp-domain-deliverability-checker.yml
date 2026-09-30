@@ -64,14 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to provide a specific domain-auditing tool to AI clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description identifies it as an MCP server for the Mamba Labs Domain Deliverability Checker.
-    - README describes the core functionality as a single tool for auditing SPF, DKIM, DMARC, and MX records.
-    - The implementation acts as a bridge to an Apify actor, fitting the MCP server identity.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

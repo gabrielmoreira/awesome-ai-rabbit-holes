@@ -73,20 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server wrapping the Cursor Enterprise API, fitting squarely as a
-    domain-specific MCP server rather than a generic extension or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states 'MCP server + Cursor plugin + Claude Code plugin wrapping the full Cursor
-      Enterprise API.'
-    - >-
-      README describes it as 'An MCP server plugin that wraps the Cursor Enterprise API' with 15 tools covering Admin +
-      Analytics APIs.
-    - Source list placement in awesome-mcp-servers under 'Developer Tools' aligns with its MCP-first identity.
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

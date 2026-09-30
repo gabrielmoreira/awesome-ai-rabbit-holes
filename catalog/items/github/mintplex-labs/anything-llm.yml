@@ -95,15 +95,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is primarily a self-hosted desktop application enabling local LLM interaction with documents and agents, making
-    local execution central to its identity rather than coding assistance or agent orchestration.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
   evidence:
-    - 'Repo description: ''Everything you need for a powerful local-first agent experience'''
-    - >-
-      README: 'Chat with your docs... runs locally by default with zero setup friction' and 'Download Now' for
-      Mac/Windows/Linux desktop
-    - 'Topics include: local-ai, localai, self-hosted-ai, vector-database, rag'
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: local-ai
   secondary_categories: []

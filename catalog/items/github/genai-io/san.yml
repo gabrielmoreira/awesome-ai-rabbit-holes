@@ -73,17 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a standalone, terminal-native assistant that plans and executes tasks via a reason-act-observe loop, fitting
-    the primary identity of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description identifies it as a 'model-agnostic agent harness'
-    - README describes it as a 'terminal-native unified runtime for specialized agents — coding and beyond'
-    - Included in 'awesome-cli-coding-agents' under 'Terminal-native coding agents'
+    - jev-latest choice confidence 0.58
 placement:
-  primary_category: agent-orchestration
+  primary_category: mcp
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

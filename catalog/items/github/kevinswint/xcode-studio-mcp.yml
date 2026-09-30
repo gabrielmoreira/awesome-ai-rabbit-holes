@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here—a server that exposes Xcode and iOS Simulator capabilities via the Model Context
-    Protocol, not just an adapter or compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is a 'Unified MCP server for AI-assisted iOS development'
-    - README details 6 MCP tools for Xcode build, simulator interaction, and UI automation
-    - Already listed in awesome-mcp-servers under 'Developer Tools'
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

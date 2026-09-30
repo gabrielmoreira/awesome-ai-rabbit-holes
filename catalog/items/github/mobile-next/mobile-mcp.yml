@@ -91,19 +91,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly a Model Context Protocol server for mobile automation, making MCP its primary identity
-    rather than a secondary compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description states: 'Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android,
-      Emulators, Simulators and Real Devices)'
-    - 'README confirms: ''This is a Model Context Protocol (MCP) server that enables scalable mobile automation...'''
-    - Appears in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (4809) exceeded threshold (150)

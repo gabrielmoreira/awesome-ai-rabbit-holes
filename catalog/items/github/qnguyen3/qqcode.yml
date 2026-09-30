@@ -60,17 +60,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is a standalone CLI coding agent that reads, edits, and executes commands in a repo, fitting the primary
-    assistant definition for the coding-agents category.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - >-
-      Repo description explicitly calls it a 'lightweight CLI coding agent focused on speed, determinism, and developer
-      control'.
-    - >-
-      README details interactive chat, file manipulation, shell execution, and grep tools, identifying it as a primary
-      coding assistant.
-    - Recognized in the 'awesome-cli-coding-agents' list under 'Terminal-native coding agents > Open Source'.
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: coding-agents
   secondary_categories: []

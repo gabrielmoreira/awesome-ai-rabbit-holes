@@ -80,13 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server exposing Carbon Voice API capabilities, which fits clearly as MCP
-    infrastructure rather than a standalone assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states 'Carbon Voice MCP Server'
-    - README documents MCP server implementation with tools for voice messaging, conversations, and workspace management
-    - Listed in awesome-mcp-servers under Server Implementations and Official Servers sections
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

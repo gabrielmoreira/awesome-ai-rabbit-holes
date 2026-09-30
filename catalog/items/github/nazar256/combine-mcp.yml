@@ -58,17 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is an MCP aggregator server and client middleware built specifically to unify and
-    manage MCP server connections for MCP clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      README states it 'acts as a bridge between Cursor (or any other MCP client) and multiple MCP servers' and
-      functions as both MCP server and MCP client.
-    - >-
-      Source-list context shows inclusion in awesome-mcp-servers under 'Community Servers', aligning with its MCP
-      infrastructure role.
-    - Recent activity (pushed 2025-11-24) and no archive flag confirm it is an active, usable MCP tool.
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

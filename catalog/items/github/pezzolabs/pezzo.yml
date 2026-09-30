@@ -84,15 +84,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job is prompt management, versioning, and delivery rather than coding assistance, making Prompt & Context
-    Engineering the best fit.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - Repo description explicitly calls it an LLMOps platform for 'prompt design, version management, instant delivery'.
-    - >-
-      README highlights prompt management, observability, and caching as primary features across Node, Python, and
-      LangChain clients.
-    - Listed in Awesome-LLMOps under an LLMOps section, not as a coding agent or framework.
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: evals
   secondary_categories: []

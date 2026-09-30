@@ -70,17 +70,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is a runtime platform and API server for managing multiple agents in production, which aligns with
-    operated platforms for coordinating agents rather than a code-first framework.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
   evidence:
-    - Repo description states it is a 'production-grade REST API for deploying and managing AI agents in the cloud'
-    - README shows endpoints for creating agents, processing completions, and tracking metrics as a running service
-    - Listed in awesome-agent-orchestration under 'Tools & Infrastructure > Deployment & Infrastructure'
+    - jev-latest choice confidence 0.58
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Hosted Agent Platforms
 lifecycle:
   status: curated
   reason: null

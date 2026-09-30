@@ -59,20 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Devika is a standalone AI software engineer that directly plans, writes, and manages code tasks via a web UI and
-    browser integration, fitting the primary coding assistant definition.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - Repo description explicitly states it is 'an Agentic Software Engineer' and an 'open-source alternative to Devin'.
-    - >-
-      README claims the tool 'understands high-level human instructions, break them down into steps, research relevant
-      information, and write code'.
-    - >-
-      Key features include web browsing, code writing in multiple languages, and a state-tracking UI, positioning it as
-      a primary agent rather than an extension.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: coding-agents
-  section: Browser & Computer-Use Agents
+  secondary_categories: []
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: curated
   reason: Stars (19509) exceeded threshold (150)

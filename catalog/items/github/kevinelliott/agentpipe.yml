@@ -73,13 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a workbench for coordinating multiple agents in shared conversations, not a primary coding
-    assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly states it orchestrates multi-agent conversations
-    - README highlights shared rooms, real-time metrics, and cost tracking for multi-agent workflows
-    - Source-list context places it under 'Harnesses & orchestration > Session managers & parallel runners'
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

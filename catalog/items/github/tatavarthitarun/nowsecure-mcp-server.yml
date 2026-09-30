@@ -55,18 +55,22 @@ metadata:
       fetched_at: '2026-07-21T15:20:40.308Z'
       bytes: 4516
 insights:
-  summary: null
+  summary: >-
+    MCP server for NowSecure Platform: pull remediation findings and generate clean PDF reports, bypassing the broken UI
+    report renderer.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
+  evidence:
+    - jev-latest choice confidence 0.85
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

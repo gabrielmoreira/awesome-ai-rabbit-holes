@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity, and the server provides domain-specific iOS simulator control as its primary
-    function.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for iOS simulators
-    - README details natural language control of iOS simulators via MCP integration
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

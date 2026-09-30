@@ -56,15 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a standard MCP server implementation designed to connect a specific domain application (Routine) to the
-    Model Context Protocol ecosystem.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - >-
-      README explicitly states 'This is the Routine Model Context Protocol (MCP) server' and provides config for Claude
-      Desktop.
-    - Listed in the 'awesome-mcp-servers' directory under the 'Official Servers' section.
-    - Active development (pushed 2025-06-16) with usage instructions via npx.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

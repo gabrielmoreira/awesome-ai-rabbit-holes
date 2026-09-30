@@ -75,17 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is a desktop workbench for coordinating multiple coding agent sessions (Codex, Claude Code) across parallel
-    git worktrees, which aligns with agent orchestration workbenches rather than being a coding agent itself.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description states it runs multiple Codex and Claude Code sessions in parallel git worktrees via a desktop
-      app.
-    - Source list places it in 'Harnesses & orchestration > Session managers & parallel runners'.
-    - >-
-      README confirms it is deprecated in favor of Nimbalyst, an 'AI-native workspace' and 'code-aware agent
-      orchestration' platform.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

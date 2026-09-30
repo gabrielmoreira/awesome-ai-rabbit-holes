@@ -73,15 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is an MCP server designed to provide specific domain capabilities to an existing host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description identifies it as 'Read-only kubectl as an MCP server'
-    - README focuses on providing structured JSON tools to Claude Code via MCP
-    - Provides specialized MCP tools like k8s_triage and k8s_inventory
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

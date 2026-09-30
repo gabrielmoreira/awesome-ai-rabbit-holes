@@ -57,18 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is an MCP server that provides ADR generation as a service, making MCP the primary identity rather
-    than a mere extension or coding agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README explicitly states it is an 'MCP server for Claude Code'
-    - Tools are exposed via MCP protocol (9 total tools listed)
-    - Installation involves registering with Claude Code via 'claude mcp add'
-    - Source-list context appears in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.67
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

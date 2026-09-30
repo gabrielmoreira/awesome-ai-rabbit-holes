@@ -62,19 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP server as its core identity, enabling LLM access to Meilisearch, fitting the MCP Servers & Tooling
-    category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''A Model Context Protocol (MCP) server for interacting with Meilisearch through LLM interfaces.'''
-    - >-
-      README: 'The Meilisearch MCP Server is a Model Context Protocol server that enables any MCP-compatible client to
-      interact with Meilisearch.'
-    - Listed in awesome-mcp-servers under 'Official Servers'
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (185) exceeded threshold (150)

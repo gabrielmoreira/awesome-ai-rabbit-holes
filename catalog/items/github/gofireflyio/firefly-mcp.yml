@@ -58,17 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is enabling MCP-based integration with the Firefly
-    platform for resource discovery and codification.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description identifies it as 'Firefly MCP'
-    - README states it is a 'TypeScript-based MCP server' for Firefly platform integration
-    - Source-list context shows it in 'awesome-mcp-servers' under Server Implementations
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

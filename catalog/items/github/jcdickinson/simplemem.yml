@@ -56,15 +56,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here—a dedicated server providing memory storage and retrieval via the MCP protocol.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - Repo description explicitly calls it an MCP memory store
-    - README positions it as an MCP server for Claude and other MCP clients
-    - Core functionality is MCP tooling (memory storage, semantic search, backlinks)
+    - jev-latest choice confidence 0.70
 placement:
-  primary_category: mcp
+  primary_category: memory-and-context
   secondary_categories: []
-  section: Middleware & Generic
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: curated
   reason: null

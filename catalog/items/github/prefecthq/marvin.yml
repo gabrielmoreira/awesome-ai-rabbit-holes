@@ -68,21 +68,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a code-first Python library and SDK that developers import to define tasks, agents, and
-    workflows, making it a classic framework fit.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly calls it 'an ambient intelligence library' for Python.
-    - >-
-      README demonstrates heavy code-first usage: marvin.extract, marvin.Agent, marvin.Task, and thread orchestration as
-      imported Python classes.
-    - >-
-      Listed in awesome-langchain under 'Other LLM Frameworks', reinforcing its identity as a developer-embedded
-      framework rather than a hosted platform.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Multi-Agent Systems
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (6147) exceeded threshold (150)

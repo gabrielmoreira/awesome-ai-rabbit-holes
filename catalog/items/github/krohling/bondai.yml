@@ -61,19 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    BondAI is primarily a code-first SDK/framework for building agent systems, not a standalone assistant, IDE, or
-    orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description explicitly calls it a tool for developing AI Agent Systems with memory/context management and
-      integrations
-    - README highlights CLI, Docker, and Python API usage for building agents
-    - Source-list context places it under 'Other LLM Frameworks' in awesome-langchain
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Multi-Agent Systems
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (219) exceeded threshold (150)

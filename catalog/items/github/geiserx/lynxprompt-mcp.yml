@@ -82,15 +82,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's identity is strictly an MCP server designed to bridge LynxPrompt blueprints to an MCP-compliant host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as an 'MCP Server for LynxPrompt'
-    - README describes it as a 'bridge that exposes any LynxPrompt instance as an MCP server'
-    - Core functionality is providing MCP Resources and Tools
+    - jev-latest choice confidence 0.89
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Prompt Engineering & Management
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

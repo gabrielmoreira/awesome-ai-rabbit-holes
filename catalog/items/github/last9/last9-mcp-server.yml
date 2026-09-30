@@ -63,19 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server as its core identity, exposing observability data via the Model Context Protocol,
-    making it a clear fit for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''Last9 MCP Server'''
-    - >-
-      README: 'connects Claude, Cursor, Windsurf, and any other MCP-capable AI assistant directly to your production
-      observability data'
-    - 'Source-list context: listed in awesome-mcp-servers under ''Official Servers'''
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

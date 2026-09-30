@@ -63,14 +63,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    IndieStack's primary product identity is an MCP server (23 tools, 3 resources, 5 prompts) that acts as a
-    domain-specific validation and lookup layer for AI agents, rather than being a standalone coding agent or generic
-    extension.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Security & DevSecOps
   evidence:
-    - Repo description explicitly states 'MCP server + CLI + web' as the product offering.
-    - README lists 23 MCP tools including validate_package, find_tools, and analyze_dependencies.
-    - Provides integration snippets for Claude Code, Cursor, and Windsurf via MCP configuration.
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []

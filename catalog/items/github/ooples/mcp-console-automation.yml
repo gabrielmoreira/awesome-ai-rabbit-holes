@@ -61,15 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is specifically an MCP server implementation designed to give AI models terminal and console
-    automation capabilities.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description explicitly states: ''MCP server for AI-driven console application automation and monitoring''.'
-    - >-
-      README details a 'Production-Ready Model Context Protocol (MCP) server' with specific tools for shell and SSH
-      interaction.
-    - Included in the 'awesome-mcp-servers' list under 'Server Implementations'.
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: mcp
   secondary_categories: []

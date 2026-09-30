@@ -62,19 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Routa is a multi-agent coordination platform with a board, shared specs, and review gates that operates as a
-    workbench rather than a coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'Workspace-first multi-agent coordination platform for AI development, with shared Specs, Kanban
-      orchestration, and MCP/ACP/A2A support.'
-    - >-
-      README: 'keeps goals, tasks, sessions, traces, evidence, and review state visible on a board instead of burying
-      them inside a single chat thread.'
-    - >-
-      Architecture includes ACP, MCP, A2A, AG-UI integrations and a review gate with monitor, fitness, and specialist
-      roles.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

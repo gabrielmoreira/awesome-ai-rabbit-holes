@@ -62,16 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is a context-augmentation technique (CAG) that replaces retrieval with preloaded context and
-    KV-cache, fitting the Prompt & Context Engineering category.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Memory & Retrieval Infrastructure
   evidence:
-    - Repo description explicitly positions CAG as a 'Simple, Efficient Alternative to RAG'
-    - README details a retrieval-free paradigm leveraging extended context windows and cached runtime parameters
-    - Source-list context places it under '知识库 RAG' (Knowledge Base RAG) in a curated LLM resources list
+    - jev-latest choice confidence 0.62
 placement:
-  primary_category: memory-and-context
-  section: Retrieval & Fresh Docs
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: curated
   reason: Stars (1485) exceeded threshold (150)

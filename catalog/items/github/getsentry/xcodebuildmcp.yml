@@ -68,11 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is explicitly an MCP server designed to provide domain-specific capabilities (Xcode/macOS) to AI agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as an MCP server and CLI
-    - README details specific tools for building for simulators and running tests via xcodebuild
-    - Provides specialized instructions (skills) for agents to navigate the CLI and MCP server
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: mcp
   secondary_categories: []

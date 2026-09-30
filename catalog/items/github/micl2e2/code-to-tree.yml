@@ -66,15 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is fundamentally an MCP server providing AST conversion as a service to MCP clients, making MCP its core
-    identity rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''A runtime-free MCP server that converts source code into AST🌲, regardless of language.'''
-    - >-
-      README: Explicitly positions itself as an MCP server with goals to 'Give LLMs the capability of accurately
-      converting source code into AST' and be a 'standalone binary' for MCP clients.
-    - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Coding Agents'' section.'
+    - jev-latest choice confidence 0.63
 placement:
   primary_category: mcp
   secondary_categories: []

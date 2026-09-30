@@ -59,17 +59,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is an MCP server exposing infrastructure tools, making MCP the core identity rather than an extension or
-    agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README states it is an 'MCP directory entry' for mctl, exposing 30+ tools via natural language
-    - Listed in awesome-mcp-servers under Cloud Platforms section
-    - No evidence of being a coding agent, extension, or orchestration platform
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

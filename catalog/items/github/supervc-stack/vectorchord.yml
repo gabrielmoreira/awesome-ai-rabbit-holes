@@ -87,13 +87,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a developer-facing infrastructure component (a database extension) used as a code-first building block for
-    retrieval and memory systems in AI applications.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Memory & Retrieval Infrastructure
   evidence:
-    - Repo description identifies it as a PostgreSQL extension for vector search, the successor to pgvecto.rs.
-    - Topics include 'llmops' and 'vector-database', and it is listed in Awesome-LLMOps under 'Search > Vector search'.
-    - README emphasizes storage efficiency and integration with pgvector syntax for developer adoption.
+    - jev-latest choice confidence 0.51
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

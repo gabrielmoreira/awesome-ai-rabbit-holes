@@ -60,21 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    PicoClaw is a standalone, terminal-native AI agent that plans and executes tasks across repos and hardware, fitting
-    the primary coding assistant definition.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - >-
-      Repo description positions it as an automation assistant: 'Tiny, Fast, and Deployable anywhere — automate the
-      mundane'.
-    - README identifies it as an 'ultra-lightweight personal AI assistant' built in Go with sub-10MB RAM usage.
-    - >-
-      Source list 'awesome-cli-coding-agents' explicitly categorizes it under 'Terminal-native coding agents > OpenClaw
-      ecosystem'.
+    - jev-latest choice confidence 0.84
 placement:
-  primary_category: coding-agents
+  primary_category: local-ai
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Inference Engines
 lifecycle:
   status: curated
   reason: Stars (28818) exceeded threshold (150)

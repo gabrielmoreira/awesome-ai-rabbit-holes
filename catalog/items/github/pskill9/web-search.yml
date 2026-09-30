@@ -75,17 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose entire identity is exposing web search as an MCP tool, matching the MCP Servers &
-    Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''Web search using free google search (NO API KEYS REQUIRED)'''
-    - 'README states: ''A Model Context Protocol (MCP) server that enables free web searching using Google search results'''
-    - Included in awesome-mcp-list and awesome-mcp-servers under MCP server sections
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (449) exceeded threshold (150)

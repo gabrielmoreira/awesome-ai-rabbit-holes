@@ -53,15 +53,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is exposing LNbits wallet functionality via the Model Context
-    Protocol, making it MCP infrastructure rather than an extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''An MCP server for LNbits'''
-    - >-
-      README: 'Give your AI assistant a Lightning wallet. The LNbits MCP Server connects any MCP-compatible AI client to
-      your LNbits instance'
-    - Features focus on wallet operations, invoice creation, payments, and extension support through MCP tools
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

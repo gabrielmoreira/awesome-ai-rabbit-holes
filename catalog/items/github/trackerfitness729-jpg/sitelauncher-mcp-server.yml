@@ -70,13 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for website deployment and domain registration, making it a clear fit for
-    the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description states: ''MCP server for deploying live HTTPS websites via SiteLauncher.'''
-    - README details MCP tools like `deploy_site` and `check_availability` specifically for AI agents.
-    - Listed in awesome-mcp-servers under 'Cloud Platforms', reinforcing its MCP server identity.
+    - jev-latest choice confidence 0.65
 placement:
   primary_category: mcp
   secondary_categories: []

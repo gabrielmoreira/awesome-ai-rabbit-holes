@@ -57,17 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server as its core identity, providing access to GPTZero's detection API via the Model Context
-    Protocol, making it a clear fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README describes it as an 'MCP (Model Context Protocol) server for GPTZero AI detection API'
-    - Provides installation and usage instructions specifically for MCP clients like Claude Desktop and Claude Code
-    - Lists MCP-specific tools (`gptzero_detect`, `gptzero_model_versions`) as the main functionality
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

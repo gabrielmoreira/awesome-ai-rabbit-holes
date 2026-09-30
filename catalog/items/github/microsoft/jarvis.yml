@@ -58,18 +58,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    JARVIS functions as a workbench that coordinates multiple expert models as collaborative executors under an LLM
-    controller, making agent orchestration the best fit despite its research origins.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      README describes a system with 'an LLM as the controller' and 'numerous expert models as collaborative executors'
-      from Hugging Face Hub
-    - 'Workflow consists of four stages: task planning, model selection, task execution, and response generation'
-    - Listed in awesome-ai-agents under the JARVIS section as an AI autonomous agent
+    - jev-latest choice confidence 0.56
 placement:
   primary_category: agent-orchestration
-  section: Hosted Agent Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (24693) exceeded threshold (150)

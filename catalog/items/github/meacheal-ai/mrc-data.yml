@@ -69,15 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MRC Data is an MCP server whose core identity is providing domain-specific data via the Model Context Protocol,
-    making it a clear fit for MCP Servers & Tooling rather than a general agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''China''s apparel supply chain data infrastructure for AI agents — MCP + REST + OpenAPI'''
-    - >-
-      README: 'MRC Data is the first MCP (Model Context Protocol) server providing independently verified Chinese
-      apparel supply chain intelligence for AI agents'
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Data Platforms'
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

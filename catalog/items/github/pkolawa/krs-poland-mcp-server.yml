@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose sole identity is exposing a specific public API as MCP tools, making it a
-    textbook fit for Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description states: ''The MCP server for KRS Poland public API.'''
-    - 'README says: ''An MCP server for the Polish National Court Register (KRS) public API.'''
-    - Listed in awesome-mcp-servers under Community Servers for MCP tooling.
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []

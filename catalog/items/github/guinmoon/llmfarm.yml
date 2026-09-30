@@ -80,13 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a local, offline-first app for running LLMs on Apple devices, which fits the Local AI category's
-    focus on local runtimes and desktop interfaces.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
   evidence:
-    - Repo description explicitly states it runs LLMs offline on iOS/macOS using GGML
-    - README highlights features like model templates, RAG, and Apple Shortcuts integration for local inference
-    - Source-list context places it under 'Inference UI' in local AI directories
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: local-ai
   secondary_categories: []

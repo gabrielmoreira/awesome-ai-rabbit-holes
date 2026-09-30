@@ -65,17 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server that gives AI agents screenshot capabilities on macOS, and MCP is the core product identity
-    rather than a compatibility footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly calls it 'a privacy-focused macOS MCP server'
-    - README positions it as an MCP server with tools like listWindows and takeScreenshot for AI agents
-    - Listed in awesome-mcp-servers under Community Servers section
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

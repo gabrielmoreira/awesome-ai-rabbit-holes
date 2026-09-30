@@ -61,17 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server whose primary identity is providing email validation via the MailboxValidator API as an MCP
-    tool, fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''Email validation MCP server using MailboxValidator API'''
-    - 'README: Implements MCP server with tools like validate_email, check_disposable_email, check_free_email'
-    - 'Topics include: mcp-server, model-context-protocol, claude-desktop'
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

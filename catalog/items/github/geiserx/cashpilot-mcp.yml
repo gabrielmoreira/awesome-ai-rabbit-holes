@@ -80,15 +80,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly built as an MCP server to provide specific domain capabilities to LLMs.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description identifies it as an 'MCP Server for CashPilot'
-    - README defines specific MCP resources and tools (e.g., get_earnings_daily, restart_service)
-    - Product identity is the MCP interface, not a standalone assistant or app builder
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

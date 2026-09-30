@@ -59,17 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server that bridges AI assistants to the Peliqan connector ecosystem, which fits
-    clearly into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo name is 'mcp-server-peliqan' and README explicitly describes 'a local MCP Server' for Claude Desktop.
-    - Listed in awesome-mcp-servers under the 'Community Servers' section.
-    - Includes setup instructions for claude_desktop_config.json and exposes Peliqan connectors as MCP methods.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

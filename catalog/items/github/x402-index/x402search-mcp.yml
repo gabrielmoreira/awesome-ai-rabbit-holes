@@ -61,17 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is providing search-over-x402-apis as an MCP-compatible tool,
-    making it MCP infrastructure first and foremost.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''Search 13,000+ x402-enabled APIs from your AI agent. Powered by x402search.xyz'''
-    - README positions it as an MCP server installable via Claude Desktop, Cursor, Windsurf, and Python agents
-    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

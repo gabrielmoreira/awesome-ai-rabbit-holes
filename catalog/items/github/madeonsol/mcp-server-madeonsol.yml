@@ -101,16 +101,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's identity is explicitly an MCP server designed to provide external domain data (Solana/KOL
-    intelligence) to MCP-compatible clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''MCP server for MadeOnSol Solana KOL intelligence'''
-    - README specifies use with Claude Desktop and Cursor via MCP
-    - Product identity is the MCP interface for the MadeOnSol API
-    - 'Repo description: ''MCP server for MadeOnSol Solana KOL intelligence — use from Claude, Cursor, or any MCP client'''
-    - 'README: Explicitly states it is an MCP server for the MadeOnSol Solana KOL intelligence API'
-    - 'Source-list context: Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation'
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

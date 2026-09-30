@@ -81,18 +81,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project presents itself as a primary coding assistant that plans, writes, and debugs code via CLI and VS Code,
-    fitting the core coding-agents definition.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - Repo description calls it 'The first real AI developer' with topics including coding-assistant.
-    - >-
-      README states it 'aims to provide the first real AI developer companion' that writes full features, debugs them,
-      and asks for review.
-    - Offers both a CLI tool (python main.py) and a VS Code extension as the primary interaction surfaces.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  secondary_categories: []
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: curated
   reason: Stars (33769) exceeded threshold (150)

@@ -81,13 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is providing specific MCP server implementations (JDBC, Kubernetes, Filesystem, etc.)
-    for the Java/Quarkus ecosystem, fitting perfectly under domain-specific MCP tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'Model Context Protocol Servers in Quarkus'.
-    - README details specific servers like jdbc, jvminsight, filesystem, kubernetes, and containers.
-    - Included in 'awesome-mcp-servers' and 'awesome-mcp-list' under database and server implementation sections.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

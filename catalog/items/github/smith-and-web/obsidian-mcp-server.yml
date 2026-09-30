@@ -72,13 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server specifically built to give AI assistants access to Obsidian vaults, making MCP its core
-    identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states 'MCP server for Obsidian vault management'
-    - README describes full MCP server implementation with SSE transport and npx/Docker usage
-    - Found in awesome-mcp-servers under Knowledge & Memory with MCP as the primary framing
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

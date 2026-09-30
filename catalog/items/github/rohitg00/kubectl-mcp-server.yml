@@ -73,21 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product’s identity is an MCP server for Kubernetes, fitting cleanly as domain-specific MCP infrastructure rather
-    than a generic coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description states: 'A MCP server for Kubernetes' and it is listed in awesome-mcp-servers under Server
-      Implementations.
-    - >-
-      README emphasizes '253 powerful tools' exposed via MCP to control Kubernetes clusters through natural language
-      with AI assistants.
-    - Active project (pushed 2026-04-08) with packages on npm and PyPI, and inclusion in the CNCF Landscape.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (878) exceeded threshold (150)

@@ -59,15 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    ExLlama is a localized inference engine for running quantized Llama models, fitting the local AI runtime category as
-    a self-hosted execution tool for developers.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - >-
-      Repo description: 'A more memory-efficient rewrite of the HF transformers implementation of Llama for use with
-      quantized weights.'
-    - 'README: Focuses on running Llama via CLI, web UI, and Docker for local inference on consumer GPUs.'
-    - 'Source-list context: Listed in ''awesome-local-ai'' under ''Inference Engine'' section.'
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: local-ai
   secondary_categories: []

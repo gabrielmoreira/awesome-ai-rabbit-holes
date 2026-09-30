@@ -73,23 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Archai is a code-first framework for Neural Architecture Search, used as a library to build and run NAS workflows,
-    not as a standalone assistant or orchestrator.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - >-
-      Repo description: 'Accelerate your Neural Architecture Search (NAS) through fast, reproducible and modular
-      research.'
-    - >-
-      README shows usage as a Python library with imports like `from archai.discrete_search...` and algorithm
-      initialization in code.
-    - >-
-      Core functionality is defining search spaces, objectives, and algorithms via Python APIs, indicating an
-      SDK/framework identity.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: LLM & Agent SDKs
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (486) exceeded threshold (150)

@@ -57,19 +57,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The toolkit is a code-first library and CLI for training and aligning LLMs, making it a reusable SDK rather than a
-    standalone agent or app builder.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - 'Repo description: ''Effective LLM Alignment Toolkit'''
-    - >-
-      README: 'super customizable', 'concise', 'user-friendly', and 'efficient toolkit' for training and aligning LLMs
-      via YAML config
-    - Built on PyTorch, Transformers, TRL, Accelerate, FSDP, DeepSpeed, vLLM, Flash Attention, and Poetry
+    - jev-latest choice confidence 0.80
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Fine-tuning & Training
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (154) exceeded threshold (150)

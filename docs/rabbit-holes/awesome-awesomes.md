@@ -3,13 +3,13 @@
 
 Awesome lists, curated directories, ecosystem maps, newsletters, and publications for discovering tools and staying current with AI development.
 
-_71 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_172 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Awesome Lists & Directories](#awesome-lists--directories) — 61
-- [Ecosystem Maps & Landscapes](#ecosystem-maps--landscapes) — 3
-- [Publications & Feeds](#publications--feeds) — 7
+- [Awesome Lists & Directories](#awesome-lists--directories) — 154
+- [Ecosystem Maps & Landscapes](#ecosystem-maps--landscapes) — 7
+- [Publications & Feeds](#publications--feeds) — 11
 
 ## Awesome Lists & Directories
 
@@ -29,6 +29,14 @@ _71 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `mcp` `directory` `ecosystem` `discovery`
   </details>
+- **[awesome-openclaw-skills](https://github.com/voltagent/awesome-openclaw-skills)** `⭐ 51.4k` `updated ≤90d` awesome-openclaw-skills is a curated directory of 5,200+ OpenClaw skills, organized from the official OpenClaw Skills Registry. <details><summary>More about</summary>
+
+  It helps developers discover reusable automation skills for the OpenClaw local AI assistant, reducing time spent searching for functional extensions.
+
+  _Another awesome list promising 'discovery' while you spend more time curating your discovery than actually coding._
+
+  `awesome-list` `agent-skills` `openclaw`
+  </details>
 - **[awesome-cursorrules](https://github.com/patrickjs/awesome-cursorrules)** `⭐ 40.4k` `updated ≤180d` A curated collection of `.cursorrules` configuration files that enhance the Cursor AI editor with project-specific coding rules and behaviors. <details><summary>More about</summary>
 
   Developers can quickly adopt community-vetted rule sets to align Cursor's AI code generation with specific frameworks, languages, and team standards.
@@ -37,6 +45,14 @@ _71 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `cursor` `cursorrules` `config` `awesome-list` `ide`
   </details>
+- **[awesome-copilot](https://github.com/github/awesome-copilot)** 🔥 `⭐ 38.6k` `updated ≤30d` A community-curated collection of agents, instructions, skills, and plugins for extending GitHub Copilot. <details><summary>More about</summary>
+
+  It aggregates reusable Copilot customizations in one discoverable place, reducing the friction of finding and installing enhancements.
+
+  _Another awesome list promising to supercharge your workflow while silently adding to the cognitive load of tracking yet another ecosystem of micro-tools._
+
+  `awesome-list` `github-copilot` `agent-skills`
+  </details>
 - **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 30k` `updated ≤90d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
 
   It provides developers with a structured, discoverable map of the AI agent ecosystem, saving time in finding relevant tools for building or integrating agents.
@@ -44,6 +60,22 @@ _71 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
   _Because nothing says 'I have my life together' like bookmarking a list of 1000 things you’ll never actually try._
 
   `directory` `ai-agents` `curated-list` `discovery` `awesome`
+  </details>
+- **[awesome-agent-skills](https://github.com/voltagent/awesome-agent-skills)** `⭐ 28.6k` `updated ≤90d` A curated collection of 1100+ reusable agent skills for coding assistants like Claude Code, Cursor, and Gemini CLI. <details><summary>More about</summary>
+
+  Saves developers time by providing vetted, production-grade skill packs from real engineering teams instead of AI-generated noise.
+
+  _The quiet dread of realizing you’ve spent more time hunting for the right skill than actually coding._
+
+  `agent-skills` `skill-packs` `coding-assistants`
+  </details>
+- **[Awesome LLM](https://github.com/hannibal046/awesome-llm)** `⭐ 27.3k` `updated >1y` A curated list of Large Language Model papers, frameworks, tools, and resources. <details><summary>More about</summary>
+
+  Provides developers with a centralized directory to discover LLM research, deployment tools, and training frameworks.
+
+  _Another list to bookmark and forget about until you need to pretend you’ve read every LLM paper ever._
+
+  `curated-list` `llm-resources` `awesome-list` `developer-reference`
   </details>
 - **[Awesome-Nano-Banana-images](https://github.com/picotrex/awesome-nano-banana-images)** `⭐ 23.3k` `updated ≤1y` A curated list and dataset repository showcasing image generation examples and prompts for Google's Nano Banana (Gemini-2.5-flash-image) model, accompanied by the Nano-consistent-150K dataset for identity-consistent editing. <details><summary>More about</summary>
 
@@ -61,6 +93,14 @@ _71 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `mlops` `machine-learning` `deployment` `monitoring` `open-source`
   </details>
+- **[visenger/awesome-mlops](https://github.com/visenger/awesome-mlops)** `⭐ 14k` `updated >1y` A curated list of references for MLOps (Machine Learning Operations). <details><summary>More about</summary>
+
+  Helps developers discover MLOps tools, practices, and learning resources to productionize ML systems.
+
+  _Another awesome list promising to solve MLOps while you still can't get your model to stop drifting in staging._
+
+  `awesome-list` `mlops` `curated-directory`
+  </details>
 - **[Open LLMs](https://github.com/eugeneyan/open-llms)** `⭐ 12.9k` `updated >1y` A curated list of open-source large language models available for commercial use. <details><summary>More about</summary>
 
   Helps developers identify models with permissive licenses that can be self-hosted or integrated into commercial products without legal risk.
@@ -68,6 +108,22 @@ _71 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
   _Because nothing says 'peace of mind' like spending three hours checking Apache 2.0 compatibility on a model that was released during a fever dream._
 
   `llms` `open-source` `commercial-use` `models`
+  </details>
+- **[awesome-langchain](https://github.com/kyrolabs/awesome-langchain)** `⭐ 9.5k` `updated ≤180d` Curated list of tools, projects, and resources built with or for the LangChain framework. <details><summary>More about</summary>
+
+  Helps developers navigate the rapidly expanding LangChain ecosystem to find libraries, ports, templates, and learning materials.
+
+  _Because nothing says 'I have my life together' like bookmarking a list of lists to keep track of the tools that track the tools._
+
+  `langchain` `awesome-list` `ecosystem` `directory` `curated`
+  </details>
+- **[awesome-llm-resources](https://github.com/wangrongsheng/awesome-llm-resources)** `⭐ 8.7k` `updated ≤90d` awesome-llm-resources is a curated GitHub repository listing LLM-related papers, courses, books, and tools across topics like agents, MCP, and fine-tuning. <details><summary>More about</summary>
+
+  It helps developers discover and navigate the rapidly expanding LLM ecosystem through organized, community-maintained resource links.
+
+  _Another awesome list to star, never actually read, and guilt-triply ignore while building yet another RAG wrapper._
+
+  `awesome-list` `llm` `resources` `curated` `directory`
   </details>
 - **[awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)** `⭐ 6.5k` `updated ≤180d` A curated directory of Model Context Protocol (MCP) clients, cataloging production-ready and experimental tools that connect AI models to local and remote resources. <details><summary>More about</summary>
 
@@ -77,6 +133,38 @@ _71 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `mcp` `directory` `ecosystem` `clients` `navigation`
   </details>
+- **[awesome-llmops](https://github.com/tensorchord/awesome-llmops)** `⭐ 5.9k` `updated ≤180d` A curated, community-maintained awesome list indexing LLMOps tools spanning model training, serving, security, data management, and developer-facing code AI. <details><summary>More about</summary>
+
+  It acts as a map for developers trying to navigate the fragmented LLMOps ecosystem, from foundational models to the specific Code AI tooling used in daily workflows.
+
+  _Nothing soothes the anxiety of choosing a model-serving framework quite like a static Markdown table that hasn't been updated since last Tuesday._
+
+  `llmops` `awesome-list` `mlops` `directory`
+  </details>
+- **[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)** `⭐ 5.8k` `updated ≤1y` awesome-ai-tools is a curated GitHub list of various artificial intelligence tools and resources. <details><summary>More about</summary>
+
+  It helps developers discover AI tools across categories like coding, image, video, audio, and marketing in one browsable list.
+
+  _Yet another awesome list promising to save you time while adding to the infinite scroll of AI tool discovery._
+
+  `awesome-list` `ai-tools` `developer-resources`
+  </details>
+- **[Awesome-Video-Diffusion](https://github.com/showlab/awesome-video-diffusion)** `⭐ 5.7k` `updated ≤180d` A curated list of recent diffusion models for video generation, editing, restoration, and related research applications. <details><summary>More about</summary>
+
+  It serves as a centralized map for developers and researchers navigating the rapidly expanding ecosystem of video diffusion models and toolboxes.
+
+  _Another meticulously organized directory ensuring you can spend three hours researching generative video models instead of fixing the bug in your actual product._
+
+  `video-generation` `diffusion-models` `research` `awesome-list`
+  </details>
+- **[kelvins/awesome-mlops](https://github.com/kelvins/awesome-mlops)** `⭐ 5.2k` `updated ≤180d` A curated list of MLOps tools and resources for machine learning engineering workflows. <details><summary>More about</summary>
+
+  Provides a navigable map of the MLOps ecosystem, helping developers discover tools for CI/CD, data management, model serving, and other ML lifecycle stages.
+
+  _Because nothing says 'productive afternoon' like diving into a 50-section list of tools you’ll never have time to evaluate._
+
+  `mlops` `curated-list` `machine-learning` `directory` `awesome`
+  </details>
 - **[awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers)** `⭐ 4.2k` `updated ≤90d` A curated list of Model Context Protocol (MCP) servers for discovering MCP-compatible tools and integrations. <details><summary>More about</summary>
 
   Helps developers find pre-built MCP servers to extend AI agents with capabilities like web search, file access, or financial data without building from scratch.
@@ -85,6 +173,22 @@ _71 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `mcp` `directory` `discovery`
   </details>
+- **[Awesome AutoML Papers](https://github.com/hibayesian/awesome-automl-papers)** `⭐ 4.2k` `updated >1y` A curated list of automated machine learning papers, articles, tutorials, slides, and projects. <details><summary>More about</summary>
+
+  Provides developers with a centralized resource to track research and developments in AutoML, including techniques like hyperparameter optimization and neural architecture search.
+
+  _Because nothing says 'practical developer tooling' like a 4,000-star list of papers you’ll never have time to read._
+
+  `automl` `research` `curated-list` `machine-learning`
+  </details>
+- **[Awesome Harness Engineering](https://github.com/walkinglabs/awesome-harness-engineering)** `⭐ 3.7k` `updated ≤180d` A curated list of articles, playbooks, benchmarks, and open-source projects for harness engineering, focusing on making AI agents more reliable in real workflows. <details><summary>More about</summary>
+
+  Helps developers improve agent reliability by collecting resources on context, evaluation, orchestration, and runtime control for long-running coding and research tasks.
+
+  _Another awesome list promising to fix agent unreliability while the real harness remains a README and a prayer._
+
+  `awesome-list` `agent-reliability` `harness-engineering`
+  </details>
 - **[Awesome-AI4Med](https://github.com/freedomintelligence/awesome-ai4med)** `⭐ 2.9k` `updated ≤90d` A curated collection of medical LLMs, multimodal systems, datasets, and benchmarks. <details><summary>More about</summary>
 
   Provides a structured map of specialized medical models and datasets for developers building domain-specific AI applications.
@@ -92,6 +196,14 @@ _71 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
   _Another layer of abstraction to navigate when you realize 'general intelligence' still struggles with basic medical nuances._
 
   `medical-ai` `llm-resources` `datasets` `benchmarks` `curated-list`
+  </details>
+- **[Awesome Tensor Compilers](https://github.com/merrymercy/awesome-tensor-compilers)** `⭐ 2.8k` `updated >1y` A curated list of compiler projects and papers for tensor computation and deep learning. <details><summary>More about</summary>
+
+  It helps developers discover and learn about tensor compiler infrastructure used to optimize machine learning workloads.
+
+  _Spends hours diving into compiler IRs only to realize your model still runs slow because you forgot to pin the batch size._
+
+  `compilers` `deep-learning` `tensor` `machine-learning` `research`
   </details>
 - **[Awesome Argo](https://github.com/akuity/awesome-argo)** `⭐ 2.5k` `updated ≤30d` A curated list of projects and resources related to Argo, a CNCF graduated project for Kubernetes-native workflows, CD, rollouts, and event management. <details><summary>More about</summary>
 
@@ -133,124 +245,149 @@ _71 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `local-ai` `curated-list` `inference-engines` `self-hosted`
   </details>
-- **[currentslab/awesome-vector-search](https://github.com/currentslab/awesome-vector-search)** `⭐ 1.6k` `updated ≤90d` A curated list of vector search frameworks, engines, libraries, cloud services, and research papers. <details><summary>More about</summary>
+- **[awesome-LangGraph](https://github.com/vonzosten/awesome-langgraph)** `⭐ 1.9k` `updated ≤90d` An index of the LangChain + LangGraph ecosystem with concepts, projects, tools, templates, and guides for LLM & multi-agent apps. <details><summary>More about</summary>
 
-  Helps developers navigate the fragmented landscape of vector search and similarity search tools for AI applications.
+  Helps developers navigate the rapidly expanding LangGraph and LangChain ecosystem by providing a curated map of frameworks, integrations, and learning resources.
 
-  _Because nothing says 'modern development' like spending an afternoon comparing HNSW implementations._
+  _Another awesome list to star, forget about, and rediscover three months later when you're knee-deep in agent orchestration YAML._
 
-  `vector-search` `awesome-list` `similarity-search` `curated-directory`
+  `awesome-list` `ecosystem` `langgraph`
   </details>
-- **[awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents)** `⭐ 1.5k` `updated ≤90d` A curated list of LLM agent frameworks and development tools. <details><summary>More about</summary>
 
-  Provides developers with a navigable map of agent frameworks, saving time in discovering and comparing options for building AI agents.
+<details><summary><strong>▸ &nbsp;&nbsp;+124 more in Awesome Lists & Directories &nbsp;—&nbsp; click to expand</strong></summary>
 
-  _Because nothing says 'productivity' like spending an afternoon choosing between 20 agent frameworks that all claim to be the one ring to rule them all._
-
-  `curated-list` `agent-frameworks` `discovery` `awesome-list`
-  </details>
-- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 1.3k` `updated ≤30d` A curated directory listing terminal-native AI coding agents and their orchestration harnesses. <details><summary>More about</summary>
-
-  Helps developers discover and compare CLI-based AI coding agents that can autonomously edit, test, and manage code in local repositories.
-
-  _Yet another awesome list to star, fork, and never actually use when cursor-tab is faster._
-
-  `awesome-list` `cli` `coding-agents`
-  </details>
-- **[awesome-ai-sdks](https://github.com/e2b-dev/awesome-ai-sdks)** `⭐ 1.2k` `updated ≤90d` A curated database of SDKs, frameworks, libraries, and tools for creating, monitoring, debugging, and deploying autonomous AI agents. <details><summary>More about</summary>
-
-  Developers can discover and compare foundational building blocks for agent development without reinventing infrastructure.
-
-  _Another list to bookmark because you’ll forget which of the 17 agent frameworks you tried last week actually worked._
-
-  `awesome-list` `ai-agents` `sdk` `framework` `directory`
-  </details>
+- **[awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers)** `⭐ 1.6k` `updated ≤90d` A curated list of research papers on multi-agent systems and swarm intelligence for AI agents.
+- **[currentslab/awesome-vector-search](https://github.com/currentslab/awesome-vector-search)** `⭐ 1.6k` `updated ≤90d` A curated list of vector search frameworks, engines, libraries, cloud services, and research papers.
+- **[awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents)** `⭐ 1.5k` `updated ≤90d` A curated list of LLM agent frameworks and development tools.
+- **[Awesome-Code-LLM](https://github.com/huybery/awesome-code-llm)** `⭐ 1.3k` `updated >1y` A curated list of code-focused large language models, including leaderboards, evaluation toolkits, and research papers.
+- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 1.3k` `updated ≤30d` A curated directory listing terminal-native AI coding agents and their orchestration harnesses.
+- **[Awesome Language Agents](https://github.com/ysymyth/awesome-language-agents)** `⭐ 1.2k` `updated >1y` An awesome list compiling language agents based on the CoALA cognitive architecture framework.
+- **[awesome-ai-sdks](https://github.com/e2b-dev/awesome-ai-sdks)** `⭐ 1.2k` `updated ≤90d` A curated database of SDKs, frameworks, libraries, and tools for creating, monitoring, debugging, and deploying autonomous AI agents.
 - **[CodeAlmanac](https://github.com/almanaccode/codealmanac)** `⭐ 996` `updated ≤90d` A codebase wiki for AI coding agents. Captures what the code can't say: decisions, flows, invariants, gotchas.
-- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 887` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
-
-  Provides a centralized starting point for developers to navigate the rapidly shifting landscape of LLM architectures and agentic patterns.
-
-  _The sheer velocity of these resources ensures you'll be learning yesterday's breakthroughs by the time you finish the first chapter._
-
-  `llm` `learning-resources` `agents` `multimodal`
-  </details>
+- **[Awesome AutoML](https://github.com/windmaple/awesome-automl)** `⭐ 940` `updated ≤1y` A curated GitHub repository listing AutoML research papers, tools, and resources for developers interested in automated machine learning.
+- **[heyjunpenn/awesome-jev](https://github.com/heyjunpenn/awesome-jev)** 🔥 `⭐ 894` `updated ≤30d` A verified, community-maintained catalog of 944 open-source projects built with Jev.
+- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 887` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference.
 - **[Awesome Jev by TypeSafe](https://github.com/anil-matcha/awesome-jev-by-typesafe)** `⭐ 880` `updated ≤30d` Evidence-backed use cases, patterns, prompts, and starter code for TypeSafe Jev — a System One model for fast, typed, confidence-aware decisions in software.
-- **[Awesome Vibe Coding](https://github.com/awesome-vibe-coding/awesome-vibe-coding)** `⭐ 839` `updated ≤90d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>
-
-  It provides a centralized directory for the emerging 'vibe coding' workflow, gathering high-level builders and IDEs focused on prompt-driven development.
-
-  _It formalizes the existential dread of wondering if you're actually a software engineer or just a professional prompt stylist._
-
-  `ai-builders` `ai-editors` `curated-list` `vibe-coding`
-  </details>
-- **[awesome-local-llms](https://github.com/vince-lam/awesome-local-llms)** `⭐ 783` `updated ≤90d` awesome-local-llms is a curated comparison table of open-source local LLM inference projects ranked by GitHub metrics like stars and recent activity. <details><summary>More about</summary>
-
-  Helps developers quickly identify actively maintained, popular local LLM tools for inference without manual discovery.
-
-  _Yet another awesome list that pretends star count equals engineering quality while you still have to test each tool yourself._
-
-  `awesome-list` `local-llm` `discovery`
-  </details>
+- **[awesome-mcp-list](https://github.com/mobinx/awesome-mcp-list)** `⭐ 880` `updated ≤1y` A curated directory of Model Context Protocol (MCP) servers organized by domain, including browser control, art, cloud platforms, and other integrations.
+- **[Awesome Vibe Coding](https://github.com/awesome-vibe-coding/awesome-vibe-coding)** `⭐ 839` `updated ≤90d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration.
+- **[awesome-local-llms](https://github.com/vince-lam/awesome-local-llms)** `⭐ 783` `updated ≤90d` awesome-local-llms is a curated comparison table of open-source local LLM inference projects ranked by GitHub metrics like stars and recent activity.
+- **[awesome-federated-learning](https://github.com/weimingwill/awesome-federated-learning)** `⭐ 736` `updated ≤1y` A curated GitHub repository listing federated learning resources including papers, blogs, videos, and frameworks.
 - **[anotiawang/awesome-jev](https://github.com/anotiawang/awesome-jev)** 🔥 `⭐ 567` `updated ≤30d` A curated list of awesome Jev / TypeSafe System One applications, libraries, and resources.
 - **[abdelstark/awesome-typesafe](https://github.com/abdelstark/awesome-typesafe)** 🔥 `⭐ 540` `updated ≤30d` Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations.
 - **[Awesome TypeSafe Jev](https://github.com/abdelstark/awesome-typesafe-jev)** 🔥 `⭐ 540` `updated ≤30d` Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations.
-- **[Awesome Open MLOps](https://github.com/fuzzylabs/awesome-open-mlops)** `⭐ 482` `updated >1y` A curated guide and comprehensive directory of open-source MLOps tools. <details><summary>More about</summary>
-
-  It helps developers navigate the fragmented landscape of open-source infrastructure for data annotation, validation, and model deployment.
-
-  _Now you have one less excuse for why your model is hallucinating in production._
-
-  `mlops` `open-source` `infrastructure` `machine-learning` `data-science`
-  </details>
+- **[Awesome Open MLOps](https://github.com/fuzzylabs/awesome-open-mlops)** `⭐ 482` `updated >1y` A curated guide and comprehensive directory of open-source MLOps tools.
 - **[cobanov/awesome-jev](https://github.com/cobanov/awesome-jev)** 🔥 `⭐ 459` `updated ≤30d` A curated, source-backed list of projects built with Jev, TypeSafe AI's System One model for typed decisions.
-- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 251` `updated ≤90d` A curated list of tools and resources for spec-driven development (SDD). <details><summary>More about</summary>
-
-  Helps developers discover frameworks, standards, and workflows for writing specifications first to improve alignment, testing, and documentation in AI-assisted development.
-
-  _Because nothing says 'productive' like arguing with an LLM about whether your spec is *actually* a spec._
-
-  `spec-driven-development` `curated-list` `ai-workflows` `developer-tooling`
-  </details>
-
-<details><summary><strong>▸ &nbsp;&nbsp;+31 more in Awesome Lists & Directories &nbsp;—&nbsp; click to expand</strong></summary>
-
+- **[LLaMA Cult and More](https://github.com/shm007g/llama-cult-and-more)** `⭐ 449` `updated >1y` A curated catalog and timeline of large language models, pre-trained base models, alignment techniques, training libraries, and evaluation benchmarks.
+- **[xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)** `⭐ 265` `updated ≤90d` A curated list of resources for the HTTP 402 Payment Required protocol, focused on crypto micropayments and AI agent integration.
+- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 251` `updated ≤90d` A curated list of tools and resources for spec-driven development (SDD).
 - **[amal-david/awesome-jev](https://github.com/amal-david/awesome-jev)** `⭐ 214` `updated ≤30d` Jev demos, projects, SDKs and skills, with source links and a curated X gallery.
 - **[fatwang2/awesome-jev](https://github.com/fatwang2/awesome-jev)** `⭐ 211` `updated ≤30d` A source-backed Jev project directory with a reusable Jev-only GitHub review workflow.
+- **[hellogumbo/awesome-jev](https://github.com/hellogumbo/awesome-jev)** `⭐ 208` `updated ≤30d` A community directory of projects built on Jev, TypeSafe AI's System One model.
 - **[Stackwise](https://github.com/stackwiseai/stackwise)** `⭐ 186` `updated >1y` A curated, open-source collection of AI application stacks and workflows for developers.
 - **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 149` `updated ≤1y` A curated list of AI agents, categorized into open-source and closed-source projects.
+- **[awesome-oceanbase-mcp](https://github.com/oceanbase/awesome-oceanbase-mcp)** `⭐ 105` `updated ≤180d` A collection of Model Context Protocol (MCP) servers enabling AI assistants to interact with OceanBase databases, cloud platforms, Kubernetes deployments, and diagnostic tools.
 - **[appitstudio/awesome-jev](https://github.com/appitstudio/awesome-jev)** `⭐ 90` `updated ≤30d` Curated Jev resources and runnable examples for typed AI decisions.
+- **[Jev-Case](https://github.com/hiwoniu/jev-case)** `⭐ 80` `updated ≤30d` 收集全网优秀 case 的收藏库 | A curated collection of excellent cases from across the web.
 - **[beatapi/awesome-jev](https://github.com/beatapi/awesome-jev)** `⭐ 63` `updated ≤30d` A source-reviewed gallery of JEV-related projects with 50+ GitHub stars — integrations, tools, open models, experiments, and ecosystem resources. Live gallery: beatapi.io/awesome-jev.
+- **[vscode-awesome-copilot](https://github.com/timheuer/vscode-awesome-copilot)** `⭐ 30` `updated ≤1y` A VS Code extension that provides a tree-view browser for discovering, previewing, and downloading customizations from the awesome-copilot repository into your workspace.
+- **[awesome-agent-orchestration](https://github.com/vivy-yi/awesome-agent-orchestration)** `⭐ 27` `updated ≤1y` An awesome list curating AI agent orchestration frameworks, multi-agent systems, swarm intelligence, and communication protocols like A2A and MCP.
+- **[awesome-a2a-agents](https://github.com/isekos/awesome-a2a-agents)** `⭐ 26` `updated >1y` A curated list of tools, frameworks, and projects built on the Agent-to-Agent (A2A) communication protocol.
 - **[aliaihub/awesome-jev-usecases](https://github.com/aliaihub/awesome-jev-usecases)** `⭐ 22` `updated ≤30d` Evidence-backed use cases, patterns, and guidance for building with Jev, TypeSafe AI's System One model. Every claim is labeled and sourced.
+- **[awesome-Swarms-List](https://github.com/the-swarm-corporation/awesome-swarms-list)** `⭐ 20` `updated >1y` A curated list of libraries, tools, templates, and resources specifically for the Swarms multi-agent orchestration framework.
 - **[anandi1989/awesome-jev-usecases](https://github.com/anandi1989/awesome-jev-usecases)** `⭐ 19` `updated ≤30d` Evidence-backed index of real-world Jev (TypeSafe AI System One) use cases: repos, patterns, benchmarks, and measured results.
 - **[frank-zy-dou/awesome-jev](https://github.com/frank-zy-dou/awesome-jev)** `⭐ 18` `updated ≤30d` Public examples of Jev used for robot control, 3D modeling and adjacent control tasks, with sources and archived media.
 - **[ckaraca/awesome-jev](https://github.com/ckaraca/awesome-jev)** `⭐ 13` `updated ≤30d` A curated list of tools, integrations, and experiments built on Jev, TypeSafe AI's System One model for fast, typed decisions.
+- **[awesome-agents](https://github.com/l-aime/awesome-agents)** `⭐ 11` `updated >1y` A curated collection of AI agent projects, frameworks, and research papers focusing on agent-based systems.
 - **[daftai2026/awesome-jev](https://github.com/daftai2026/awesome-jev)** `⭐ 9` `updated ≤30d` Curated TypeSafe Jev / System One GitHub projects, open-source alternatives, and Jev news.
+- **[Not Human Search](https://github.com/unitedideas/nothumansearch)** `⭐ 9` `updated ≤90d` Not Human Search is a search engine and MCP server that indexes and ranks websites by agentic readiness signals like llms.txt, OpenAPI, and MCP server presence.
 - **[clankwright/satring](https://github.com/clankwright/satring)** `⭐ 7` `updated ≤90d` A curated registry of paid APIs that support autonomous agent payments via Bitcoin Lightning, USDC, or Stripe/Tempo.
+- **[grahamrowe82/pt-edge](https://github.com/grahamrowe82/pt-edge)** `⭐ 7` `updated ≤180d` Precomputed reasoning cache and directory site tracking 220K+ AI repos with quality scores and structured data for AI agents and humans.
+- **[toadlyBroodle/satring](https://github.com/toadlybroodle/satring)** `⭐ 7` `updated ≤180d` A curated, health-monitored web directory for discovering and rating paid APIs that accept Bitcoin Lightning (L402), USDC on Base (x402), or Stripe/Tempo (MPP) payments for the agent economy.
 - **[2456868764/jevguide](https://github.com/2456868764/jevguide)** `⭐ 5` `updated ≤30d` Curated Jev showcases from X, organized by category with media previews and direct source links.
 - **[chenrui333/jev-docs](https://github.com/chenrui333/jev-docs)** `⭐ 5` `updated ≤30d` Community-maintained history of Jev / TypeSafe System One APIs, SDKs, agent guidance, and engineering best practices.
+- **[awesome-ai-agents](https://github.com/heurema/awesome-ai-agents)** `⭐ 2` `updated >1y` Curated collection of tools, frameworks, research papers, and tutorials for building AI agents, multi-agent systems, LLM-based orchestration, memory, planning, tool use, and evaluation.
 - **[Jev-Research-Index](https://github.com/agenticapp-web/jev-research-index)** `⭐ 2` `updated ≤30d` Jev Research Index is a bilingual catalogue of papers, software projects, interviews, public analyses, demonstrations, and social-media material related to Jev, the TypeSafe AI System One typed probabilistic decision model.
 - **[awesome-agent-protocols](https://github.com/commune-dev/awesome-agent-protocols)** `⭐ 1` `updated ≤180d` Curated list of protocols for AI agent communication, including email, SMS, MCP, webhooks, inter-agent messaging, message queues, and notification routing.
+- **[awesome-agentic-ai](https://github.com/mlnjsh/awesome-agentic-ai)** `⭐ 1` `updated ≤1y` A curated awesome list collecting frameworks, papers, tools, and resources for building autonomous AI agents and multi-agent systems.
 - **[fabricioctelles/modelsystem](https://github.com/fabricioctelles/modelsystem)** `⭐ 1` `updated ≤30d` Curated catalog of System One / Decision Models — contributions for modelsystem.one.
+- **[Awesome Jev Robustness](https://github.com/yifan-lan/awesome-jev-robustness)** awesome-jev-robustness - Tests, calibration audits and failure-mode studies of Jev (TypeSafe System One): jaggedness, consistency, injection, abstention.
+- **[jessie-qingyu/jev-in-the-wild](https://github.com/jessie-qingyu/jev-in-the-wild)** jev-in-the-wild - Index covering Reddit, Hacker News and YouTube alongside GitHub, with a dedicated section for limits and failed results. Data is JSON with a schema; the README is generated from it.
+- **[jtnkminimal/awesome-jev](https://github.com/jtnkminimal/awesome-jev)** awesome-jev (jtnkminimal).
+- **[kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev)** awesome-jev (kraayenjon) (site) - A curated list of Jev use cases, projects, SDKs, and resources. Jev is TypeSafe AI's System One model for fast, typed decisions in software — Choice, Score, and Noul with calibrated probabilities.
+- **[kydlikebtc/awesome-jev](https://github.com/kydlikebtc/awesome-jev)** awesome-jev (kydlikebtc) (site) - 805 verified examples of Jev — TypeSafe AI's System One decision model — indexed by the decision each one makes, not the blog that mentioned it. Every cited call site is re-read by CI each week. Bilingual EN/中文, JSON schema, and a cross-platform compatibility table.
+- **[li-evan/awesome-jev](https://github.com/li-evan/awesome-jev)** awesome-jev (Li-Evan) (site) - The most complete gallery of what people build with Jev, TypeSafe's System One model: 3,400+ projects, demos, and write-ups by scenario, each with its original link, image, and description.
+- **[logicrw/awesome-jev-projects](https://github.com/logicrw/awesome-jev-projects)** Jev decision models — System-1 agent architecture radar with commit-pinned evidence.
+- **[mcpdiscovery](https://github.com/particlefuture/mcpdiscovery)** AllInOneMCP - MCP of MCPs. A central hub for MCP servers. Helps you discover available MCP servers and learn how to install and use them. REMOTE! Use the url https://mcp.pfvc.io/mcp/ to add the server. Remember the final backslash\*\*.
+- **[mizzlelover/jev-hub](https://github.com/mizzlelover/jev-hub)** jev-hub (site) - JEV HUB · X 上关于 TypeSafe AI「系统一模型」Jev 的长文与演示视频聚合（保留原链与作者）｜ 谁是专家 出品.
+- **[MrJev/awesome-jev](https://github.com/mrjev/awesome-jev)** awesome-jev (MrJev) (site) - Selective list behind a 10-star bar, with hands-on reviews at mrjev.com recording what each tool sends and where.
+- **[OmniJev/awesome-jev](https://github.com/omnijev/awesome-jev)** Papers, open reproductions and independent evaluations behind System One models and Jev.
+- **[omnijev/awesome-jev-gallery](https://github.com/omnijev/awesome-jev-gallery)** awesome-jev (OmniJev) (site) - Papers, open reproductions and independent evaluations behind System One models and Jev.
+- **[onmyway133/awesome-jev](https://github.com/onmyway133/awesome-jev)** awesome-jev (onmyway133) (site) - Awesome projects built with Jev from Typesafe AI.
+- **[promethe-us/awesome-jev](https://github.com/promethe-us/awesome-jev)** awesome-jev (Promethe-us).
+- **[punk2898/awesome-jev-verified](https://github.com/punk2898/awesome-jev-verified)** CC0 catalog where code entries link to pinned Jev call sites and claims are labeled against a stated verification method.
+- **[punkpeye/awesome-remote-mcp-servers](https://github.com/punkpeye/awesome-remote-mcp-servers)** This list is for servers with a GitHub repo you install and run yourself. Looking for a hosted server you just connect to over a URL? See awesome-remote-mcp-servers.
+- **[rhc98/awesome-jev](https://github.com/rhc98/awesome-jev)** Projects built on Jev (TypeSafe AI's System One model), curated by Jev itself.
+- **[rupeshpoojary9/awesome-open-system-one](https://github.com/rupeshpoojary9/awesome-open-system-one)** awesome-open-system-one - Open-only focus: open models and reproductions, independent benchmarks, and the calibration and constrained-decoding tooling behind typed decisions.
+- **[seeapi/awesome-jev-use-cases](https://github.com/seeapi/awesome-jev-use-cases)** Source-attributed Jev casebook that separates author-reported results from independently verified behavior and documents limits.
+- **[skillselion/skillselion-mcp](https://github.com/skillselion/skillselion-mcp)** skillselion/skillselion-mcp ☁️ - Search thousands of community-vetted Claude Code skills, MCP servers and marketplaces from the Skillselion catalog, ranked by real install counts + GitHub stars. load_skill fetches a real SKILL.md mid-task. Install: npx -y skillselion-mcp.
+- **[sontakey/awesome-jev](https://github.com/sontakey/awesome-jev)** Unofficial list of insanely useful TypeSafe AI Jev / System One projects.
+- **[tanxarx/awesome-jev](https://github.com/tanxarx/awesome-jev)** awesome-jev (tanxarx) - All things awesome related to Jev.
+- **[v-modal/awesome-jev-tools](https://github.com/v-modal/awesome-jev-tools)** awesome-jev-tools - A curated list of tools built for Jev — TypeSafe AI's System One model for typed decisions.
+- **[valentynkit/awesome-jev-typesafe](https://github.com/valentynkit/awesome-jev-typesafe)** awesome-jev-typesafe (site) - Typed decisions with TypeSafe's Jev, the first System One model.
+- **[walidboulanouar/awesome-jev-use-cases](https://github.com/walidboulanouar/awesome-jev-use-cases)** awesome-jev-use-cases (site) - Awesome list of TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, limits, cost and API examples. CC0, sponsored by AY Automate.
+- **[wh000wh000/awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live)** awesome-jev-live (site) - Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours.
+- **[whyashthakker/awesome-jev-use-cases](https://github.com/whyashthakker/awesome-jev-use-cases)** Fifty runnable visual demos comparing Jev typed decisions with an OpenAI structured-output baseline, with fixtures and explicit methodology limits.
+- **[wuyoscar/jev-skill](https://github.com/wuyoscar/jev-skill)** jev-skill - An awesome collection of Jev use cases, workflows, and agent skills.
+- **[yibie/awesome-jev](https://github.com/yibie/awesome-jev)** Jev decision models — curated typed-decision projects across application domains.
+- **[yzfly/awesome-jev-zh](https://github.com/yzfly/awesome-jev-zh)** awesome-jev-zh (site) - Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用、Agent 工具、开源复现与独立评测，附中文上手指南，每日自动收录 GitHub 热门项目。.
 - **[AI For Developers](https://aifordevelopers.org)** A curated directory of AI coding tools, agents, and developer-focused infrastructure.
 - **[All skills →](https://awesome-copilot.github.com/skills)** A curated list of community-contributed instructions, agents, skills, and configurations for GitHub Copilot.
 - **[Altern](https://altern.ai)** A curated directory of AI tools, agents, and SDKs.
 - **[AskToSell](https://asktosell.com)** AskToSell is a curated directory of AI autonomous agents for software development.
 - **[AutoGen AIStudio](https://autogen-studio.com)** A curated list of AI tools, agents, and workflows for software developers.
 - **[Awesome GitHub Copilot](https://awesome-copilot.github.com)** A community-curated repository of agents, instructions, skills, and plugins to enhance the GitHub Copilot experience.
-- **[HuggingFace](https://huggingface.co)** Hugging Face is a platform for hosting, discovering, and collaborating on machine learning models, datasets, and applications.
+- **[Awesome MCP Servers](https://glama.ai/mcp/servers)** A searchable registry and directory of Model Context Protocol (MCP) servers, clients, and tools.
+- **[awesome-jev](https://beatapi.io/awesome-jev)** awesome-jev (BeatAPI) (site) - We only curate source-reviewed JEV-related projects with 100+ GitHub stars — integrations, tools, open models, and experiments. Live gallery: beatapi.io/awesome-jev.
+- **[awesome-jev](https://omnijev.github.io/awesome-jev)** awesome-jev (OmniJev) (site) - Papers, open reproductions and independent evaluations behind System One models and Jev.
+- **[awesome-jev-projects](https://logicrw.github.io/awesome-jev-projects)** awesome-jev-projects (site) - Awesome Jev: source-backed open-source ecosystem radar, plain-language project discovery, and automatic GitHub sync.
+- **[awesome-jev-zh](https://code.jiangshu.ai/awesome-jev-zh)** awesome-jev-zh (site) - Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用、Agent 工具、开源复现与独立评测，附中文上手指南，每日自动收录 GitHub 热门项目。.
+- **[awesome-typesafe-jev](https://abdelstark.github.io/awesome-typesafe-jev)** awesome-typesafe (site) - Curated list of official resources and community projects for TypeSafe, System One models, and Jev, with a GitHub Pages site.
+- **[Chip Huyen](https://huyenchip.com)** Chip Huyen is a writer, computer scientist, and AI systems expert who shares insights on AI productionization through blog posts, books, talks, and curated resource lists.
+- **[clients](https://glama.ai/mcp/clients)** Clients is a directory page on glama.ai listing MCP client implementations.
+- **[hosted endpoint](https://glama.ai/mcp/connectors)** A registry of 9,411+ remote MCP servers for connecting AI agents like Claude, ChatGPT, and Cursor to external tools and data sources without local installation.
+- **[jev.guide](https://jev.guide)** jevguide (site) - Curated Jev showcases from X, organized by category with media previews and direct source links.
+- **[jevbest.com](https://jevbest.com)** awesome-jev (heyjunpenn) (site) - A verified, community-maintained catalog of 485 open-source projects built with Jev.
+- **[jevbooks: 16 Jev design patterns](https://jevbooks.com/en/patterns)** jevbooks: 16 Jev design patterns - Site: a bilingual gallery of 500+ open-source Jev projects in which Jev itself gates and tags every listing from its README, plus sixteen design patterns read out of ten codebases (Thermostat, Blind review, Flight recorder), each page a problem, a solution, and the recognition question the pipeline sends.
+- **[JevList](https://jevlist.ai)** Try the beta web UI at JevList. Explore the projects in this directory through a searchable web interface. We're continually improving the experience—take a look and let us know what you think!
+- **[laya.tools](https://laya.tools)** laya.tools - Site: an independent directory of about 950 projects built on Laya, the Apache-2.0 open alternative to Jev, imported daily from GitHub, npm, Hugging Face and X and browsable by platform and use case, with a Laya vs Jev comparison page.
 - **[llama-police.html](https://huyenchip.com/llama-police.html)** An automatically updated list of open source LLM tools hosted on Huyen Chip's blog.
 - **[LLM Resources Hub](https://llmresourceshub.vercel.app)** A curated collection of LLM resources, tools, and learning materials.
 - **[llms.txt](https://awesome-copilot.github.com/llms.txt)** A community-driven collection of custom agents, instructions, and skills designed to extend GitHub Copilot's capabilities.
+- **[Made with Jev](https://madewithjev.com)** awesome-jev (kraayenjon) (site) - A curated list of Jev use cases, projects, SDKs, and resources. Jev is TypeSafe AI's System One model for fast, typed decisions in software — Choice, Score, and Noul with calibrated probabilities.
+- **[MCP Server Finder](https://mcpserverfinder.com/servers)** MCP Server Finder is a directory listing and discovery tool for Model Context Protocol servers.
+- **[mcpstore.co](https://mcpstore.co)** MCP Store is a directory and discovery service for Model Context Protocol servers that allows users to add MCP-enabled AI capabilities to clients like Claude and Cursor.
 - **[Model Merging Paper](https://huggingface.co/collections/osanseviero/model-merging)** A curated collection of research papers focused on the techniques and evolution of model merging for large language models.
+- **[Modelscope Skills](https://modelscope.cn/skills)** ModelScope Skills is a directory of reusable skill components that extend AI model applications within the ModelScope community.
+- **[Not Human Search](https://nothumansearch.ai/mcp)** mcp is a curated directory of Model Context Protocol servers and related resources for developers.
+- **[nothumansearch.ai](https://nothumansearch.ai)** unitedideas/nothumansearch : MCP server for AI tool discovery. Search 8,600+ indexed AI tools and MCP servers. Live at nothumansearch.ai.
+- **[onmyway133.com](https://onmyway133.com)** awesome-jev (onmyway133) (site) - Awesome projects built with Jev from Typesafe AI.
+- **[Prismix](https://prismix.dev)** Prismix – AI hub with 500+ MCP server directory, real-time status monitoring for 75+ AI services, and news aggregator from 70+ sources with email/webhook alerts.
 - **[pulsemcp.com](https://pulsemcp.com)** pulsemcp.com is a curated directory of MCP (Model Context Protocol) resources and servers.
+- **[Search and filter](https://logicrw.github.io/awesome-jev-projects/en)** > Search and filter ↗ · 798 curated projects.
+- **[TypeSafe AI](https://typesafe.ai)** > Directory of projects built on Jev, TypeSafe AI's System One model.
 - **[VS Code MCP Directory](https://code.visualstudio.com/mcp)** A centralized GitHub registry for discovering and integrating Model Context Protocol (MCP) servers.
+- **[VS Code MCP Directory](https://github.com/mcp)** A centralized registry for Model Context Protocol (MCP) servers hosted on GitHub to facilitate discovery and integration.
 - **[Willi MaKo Knowledge Service](https://mcp.stromhaltig.de)** A curated list of Model Context Protocol (MCP) servers hosted at mcp.stromhaltig.de.
+- **[动手学大模型应用开发](https://datawhalechina.github.io/llm-universe)** A curated collection of LLM resources covering multi-modal generation, agents, programming assistance, and model training.
+- **[基于 transformers 的 generate 方法实现多样化文本生成：参数含义和算法原理解读](https://blog.csdn.net/muyao987/article/details/125917234)** A curated collection of LLM resources including multimodal generation, agents, coding assistance, and MCP insights.
 
 </details>
 
 ## Ecosystem Maps & Landscapes
 
 - **[everyinfra/jev-radar](https://github.com/everyinfra/jev-radar)** `⭐ 31` `updated ≤30d` 全网最全 · The world's most comprehensive tracker of the Jev (TypeSafe AI System One) ecosystem — 220+ documented cases · 108 confidence-graded entries · verified & rescanned every 3 hours · API access guide included.
+- **[Nadeus/toolradar-mcp](https://github.com/nadeus/toolradar-mcp)** Nadeus/toolradar-mcp : Search, compare, and get pricing for 8,600+ software tools with verified data, editorial scores, G2/Capterra ratings, and real alternatives. Install via npx -y toolradar-mcp.
+- **[Registry Broker](https://github.com/hashgraph-online/registry-broker)** Universal index and routing layer for AI agents. Aggregates agent metadata from multiple registries (NANDA, MCP, Virtuals, OpenRouter, A2A, X402 Bazaar) across web2 and web3, normalizes profiles, and provides protocol translation between agent ecosystems.
 - **[CodeCosts](https://codecosts.pages.dev)** A comparison and cost calculation platform for AI coding assistants and IDEs. <details><summary>More about</summary>
 
   Helps developers and engineering managers navigate the shifting pricing tiers and feature sets of the rapidly evolving AI coding tool landscape.
@@ -259,6 +396,15 @@ _71 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `comparison` `pricing` `productivity` `ide` `ai-tools`
   </details>
+- **[HuggingFace](https://huggingface.co)** Hugging Face is a platform for hosting, discovering, and collaborating on machine learning models, datasets, and applications. <details><summary>More about</summary>
+
+  It provides developers with centralized access to pre-trained models, datasets, and demo apps (Spaces), accelerating ML experimentation and deployment.
+
+  _Endless model cards and leaderboards create the illusion of progress while you're just scrolling through another fine-tuned Llama variant nobody asked for._
+
+  `model-hub` `ml-platform` `developer-tools`
+  </details>
+- **[Jev vs GPT-6 Astra: when to use each](https://vercel.com/i/jev-vs-gpt-6-astra)** Jev vs GPT-6 Astra: when to use each - Guide: Vercel's own decision guide for choosing between a System One model and a frontier model, published alongside a companion page of seven Jev use cases.
 - **[OpsLevel](https://opslevel.com)** OpsLevel is an internal developer portal that provides a unified catalog, scorecards, workflows, and AI-powered context to improve developer experience and software standards. <details><summary>More about</summary>
 
   It centralizes service ownership, documentation, and workflows so developers spend less time hunting for context and more time coding.
@@ -271,6 +417,15 @@ _71 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 ## Publications & Feeds
 
 - **[murmurecc/ai-devtools-sentiment](https://github.com/murmurecc/ai-devtools-sentiment)** Murmure — AI DevTools Community Sentiment Tracker – Weekly sentiment analysis of AI developer tools (Cursor, Windsurf, Linear, Devin, etc.) based on Reddit, HN, GitHub Issues, and Discord.
+- **[TerminalBlog](https://github.com/muzainaanshad/terminalblog)** TerminalBlog – SEO blog about AI coding agents, fully built and operated by AI agents (Hermes, Claude Code, Codex).
+- **[aifordevelopers.substack.com](https://aifordevelopers.substack.com)** A Substack newsletter providing commentary and updates on AI developments specifically for software developers. <details><summary>More about</summary>
+
+  It filters the overwhelming noise of general AI news into actionable insights and technical trends relevant to engineering workflows.
+
+  _Another subscription to manage in a world where the delta between 'tate of the art' and 'obsolete' is measured in weeks._
+
+  `newsletter` `developer-education` `ai-trends`
+  </details>
 - **[AI开发者频道](https://techdiylife.github.io/blog/blog_list.html)** blog_list.html is a static HTML page listing articles from the TechDIYLife website, which shares tech DIY content, YouTube videos, GitHub code, and free ebooks. <details><summary>More about</summary>
 
   It serves as a navigation aid for developers seeking tutorials or resources on AI and programming topics shared by the TechDIYLife channel.
@@ -278,6 +433,14 @@ _71 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
   _Yet another link farm pretending to be a curated tool, adding to the infinite scroll of marginally useful AI resource lists._
 
   `resource-list` `blog` `ai-tutorials`
+  </details>
+- **[awesomeagents.substack.com](https://awesomeagents.substack.com)** A Substack newsletter dedicated to tracking and analyzing the emerging landscape of AI agents. <details><summary>More about</summary>
+
+  It provides a curated feed of updates and insights to help developers navigate the rapidly shifting agentic ecosystem.
+
+  _Another subscription to manage in a world where the agentic frontier moves faster than your ability to unread it._
+
+  `newsletter` `ai-agents` `curation` `agentic-workflows`
   </details>
 - **[awesomelangchain.substack.com](https://awesomelangchain.substack.com)** A Substack newsletter providing curated updates and insights regarding the LangChain ecosystem. <details><summary>More about</summary>
 
@@ -287,14 +450,7 @@ _71 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `langchain` `newsletter` `curation` `ai-ecosystem`
   </details>
-- **[Chip Huyen](https://huyenchip.com)** Chip Huyen is a writer, computer scientist, and AI systems expert who shares insights on AI productionization through blog posts, books, talks, and curated resource lists. <details><summary>More about</summary>
-
-  Her curated lists and writing help developers navigate AI infrastructure, MLOps, and open-source tooling by distilling real-world production experience into accessible guidance.
-
-  _Following her advice feels like getting career counseling from someone who’s already shipped the future — while you’re still debugging your .env file._
-
-  `blog` `curated-list` `ai-education` `mlops` `newsletter`
-  </details>
+- **[blog](https://demensdeum.com/blog)** openjev-experiments (site) - Experiments with openjev, an open Jev-style option-logit runner, on local models.
 - **[Chip Huyen](https://huyenchip.com/blog)** Chip Huyen's personal blog on AI system design and production practices. <details><summary>More about</summary>
 
   Provides practical insights on deploying AI systems in production, drawn from real-world experience and research.
@@ -318,4 +474,12 @@ _71 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
   _Another syllabus to bookmark while pretending you’ll eventually watch all 12 lectures between sprint planning and incident response._
 
   `education` `llm-agents` `course`
+  </details>
+- **[张驰: A Year Inside ByteDance's AI Lab](https://changche.substack.com/p/a-year-inside-bytedances-ai-lab)** A Substack publication detailing ByteDance's AI laboratory operations and research insights over a one-year period. <details><summary>More about</summary>
+
+  Provides high-signal technical context on how a major AI lab approaches model training, agents, and infra in production.
+
+  _Another long-form essay to read while your local LLM is busy hallucinating a semi-working implementation of the very research described._
+
+  `insights` `research` `ai-lab` `case-study`
   </details>

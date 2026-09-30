@@ -83,13 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server implementation whose core identity is providing financial data access via MCP, matching
-    the category's focus on MCP infrastructure as the primary product.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description states it provides 'seamless, real-time access to financial market data via WebSocket' using MCP
-    - README positions it as an MCP server for Claude Desktop integration with specific configuration examples
-    - Listed in awesome-mcp-servers under Finance & Fintech and Official Servers sections
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -79,13 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose primary identity is providing MCP-based access to QA Sphere, fitting the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP Server for QA Sphere TMS
-    - README confirms it is a Model Context Protocol server for QA Sphere
-    - Listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

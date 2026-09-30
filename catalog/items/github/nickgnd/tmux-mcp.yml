@@ -61,13 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server exposing tmux capabilities, which fits cleanly as a domain-specific server in
-    the MCP category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description explicitly states: ''A MCP server for our beloved terminal multiplexer tmux.'''
-    - README lists MCP-specific resources and tools like 'tmux://sessions' and 'capture-pane' for Claude Desktop.
-    - Listed in 'awesome-mcp-servers' under the 'Community Servers' section.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

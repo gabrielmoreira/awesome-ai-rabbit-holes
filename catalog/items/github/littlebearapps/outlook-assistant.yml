@@ -84,15 +84,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server for Outlook, making MCP the primary category rather than an extension
-    or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''MCP server for Outlook email, calendar, and contacts'''
-    - >-
-      README: 'Outlook Assistant connects AI assistants to your Microsoft Outlook account through the Model Context
-      Protocol'
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Communication'
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

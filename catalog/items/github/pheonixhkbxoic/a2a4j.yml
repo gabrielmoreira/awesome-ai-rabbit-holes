@@ -66,21 +66,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is a code-first SDK and framework for Java developers to implement the A2A protocol, making it a
-    library/engine rather than a control plane or standalone agent.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly calls it 'A Java implementation of the A2A protocol'.
-    - >-
-      README details Spring Boot support (jdk8, jdk17, Webflux, Servlet) and example projects, signaling a code-first
-      library.
-    - >-
-      Source list places it under 'Agent Communication Protocols' within an agent orchestration list, but the product
-      itself is the Java SDK.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Multi-Agent Systems
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

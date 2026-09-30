@@ -77,23 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a workbench for coordinating multi-agent workflows, not a primary coding assistant, framework,
-    or extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'A versatile workflow automation platform to create, organize, and execute AI workflows, from a
-      single LLM to complex AI-driven workflows.'
-    - >-
-      README: 'Create, organize, and execute complex AI-driven tasks' with 'multi-member workflow' and 'scheduled and
-      recurring workflows' support.
-    - >-
-      Source-list context: Listed in awesome-ai-agents under AgentPilot, signaling recognition as an agent orchestration
-      tool.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Visual Builders & Workbenches
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (553) exceeded threshold (150)

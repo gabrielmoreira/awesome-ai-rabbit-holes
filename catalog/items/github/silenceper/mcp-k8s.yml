@@ -67,17 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is a Kubernetes-specific MCP server implementation, fitting cleanly as domain infrastructure
-    for the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states: 'A Kubernetes MCP (Model Control Protocol) server that enables interaction
-      with Kubernetes clusters through MCP tools.'
-    - README confirms it is an 'stdio-based MCP server' built using the mcp-go SDK for cluster and Helm operations.
-    - >-
-      Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms', confirming its role as MCP
-      infrastructure.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

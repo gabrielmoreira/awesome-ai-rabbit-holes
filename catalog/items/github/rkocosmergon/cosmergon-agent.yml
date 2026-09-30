@@ -65,17 +65,12 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is primarily a code-first Python SDK for building and scripting agents in a game economy, with MCP as a
-    secondary integration feature.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - README identifies it as 'the Python SDK' with programmatic @agent.on_tick hooks and SDK install via pip.
-    - MCP server is presented as a secondary feature to use Cosmergon as tools from Claude Code, Cursor, or Windsurf.
-    - >-
-      Developer-facing features include full type hints, test utilities (fake_state, FakeTransport), and credential
-      management for multi-agent setups.
+    - jev-latest choice confidence 0.50
 placement:
   primary_category: ai-frameworks
+  secondary_categories: []
   section: LLM & Agent SDKs
 lifecycle:
   status: curated

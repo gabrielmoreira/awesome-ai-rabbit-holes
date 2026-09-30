@@ -70,13 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Core product is a code-first framework for measuring, comparing, and regressing prompt/model behavior, not a primary
-    assistant or orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in evals / Prompt Regression & Testing
   evidence:
-    - Repo description explicitly states 'tools for prompt testing and experimentation'
-    - README highlights running experiments across models and vector DBs with visualization
-    - Source-list context (Awesome-LLMOps) places it under LLMOps, aligning with eval/benchmarking use cases
+    - jev-latest choice confidence 0.65
 placement:
   primary_category: evals
   secondary_categories: []

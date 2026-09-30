@@ -74,13 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server providing Java-specific semantic analysis tools for AI agents, making
-    it a textbook fit for the MCP Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description explicitly states: ''MCP server providing semantic Java code analysis for AI agents.'''
-    - Found in awesome-mcp-servers list under 'Developer Tools' section.
-    - README emphasizes MCP server configuration for Claude Code and other MCP clients.
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

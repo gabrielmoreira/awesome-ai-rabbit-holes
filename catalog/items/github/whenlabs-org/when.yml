@@ -66,13 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server that exposes six developer tools, making MCP the primary product rather
-    than an extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Registers a single MCP server (`whenlabs`) in Claude Code configuration
-    - All eight tools are served by the single `whenlabs` MCP server
-    - MCP is the mechanism through which the tools are exposed to Claude Code
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -60,21 +60,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is a code-first framework and UI for building agentic workflows, fitting squarely as a developer toolkit
-    rather than a standalone coding assistant or orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description and README explicitly define it as 'a framework for agentic workflow creation and deployment'
-      with microservices and MongoDB.
-    - Curated in the 'awesome-llm-agents' list under the 'Frameworks' section, aligning with its toolkit identity.
-    - >-
-      Includes developer-facing primitives like RAG, chain-of-thought, message pruning, and prompt templating rather
-      than acting as a primary coding agent.
+    - jev-latest choice confidence 0.62
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Visual Builders & Workbenches
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (258) exceeded threshold (150)

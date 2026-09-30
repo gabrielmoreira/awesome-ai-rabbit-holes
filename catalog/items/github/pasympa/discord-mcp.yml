@@ -70,13 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server that exposes Discord capabilities to MCP-compatible clients, fitting the MCP
-    Servers & Tooling category perfectly.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states 'MCP server to control Discord' with 95+ tools per the README.
-    - Listed in awesome-mcp-servers under 'Communication' section.
-    - Supports Claude Desktop, Claude Code, Cursor, and VS Code Copilot as MCP clients per README.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

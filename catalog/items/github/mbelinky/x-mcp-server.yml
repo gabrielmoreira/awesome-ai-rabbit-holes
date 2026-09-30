@@ -59,17 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is a specialized MCP server for X.com, fitting the MCP Servers & Tooling category as a
-    domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is 'A comprehensive mcp server to post on x.com'.
-    - README confirms it is a 'Model Context Protocol (MCP) server for X' with dual OAuth support.
-    - Listed in the awesome-mcp-servers directory under 'Community Servers'.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

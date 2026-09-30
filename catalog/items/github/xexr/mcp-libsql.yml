@@ -93,17 +93,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server whose primary identity is providing Model Context Protocol infrastructure for libSQL database
-    access, fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - >-
-      Repo description: 'Secure MCP server for libSQL databases with comprehensive tools, connection pooling, and
-      transaction support'
-    - >-
-      README: 'A Model Context Protocol (MCP) server for libSQL database operations, providing secure database access
-      through Claude Desktop, Claude Code, Cursor, and other MCP-compatible clients'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases' and 'Community Servers' sections
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

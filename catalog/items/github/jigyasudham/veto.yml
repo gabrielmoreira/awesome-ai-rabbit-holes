@@ -75,13 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Veto is primarily an MCP server that exposes specialist agents via the Model Context Protocol, making MCP its core
-    identity rather than a mere compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''Veto MCP — gives every major AI CLI a council of 49 specialist agents + 93 tools'''
-    - 'README: ''An MCP server that runs locally on your machine, plugs into Claude Code, Codex CLI, Gemini CLI...'''
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Coding Agents'
+    - jev-latest choice confidence 0.65
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a standalone CLI tool that autonomously plans, edits, tests, and repairs code across a repository, fitting the
-    primary coding assistant definition for terminal agents.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - Repo description states it is 'an agentless approach to automatically solve software development problems'.
-    - README details a three-phase process (localization, repair, patch validation) that edits files and runs tests.
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: coding-agents
   secondary_categories: []

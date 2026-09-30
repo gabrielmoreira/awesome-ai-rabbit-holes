@@ -71,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a workbench for coordinating multiple agents in shared rooms, which aligns with the
-    agent-orchestration category's focus on multi-agent coordination platforms.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly states it lets AI agents work together in real-time rooms via MCP and A2A
-    - README highlights multi-agent collaboration, file sharing, and room-based workflows as primary use cases
-    - Source-list context places it under MCP servers, but primary identity is multi-agent coordination
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

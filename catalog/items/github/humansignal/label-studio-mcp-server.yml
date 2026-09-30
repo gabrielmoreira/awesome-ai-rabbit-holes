@@ -56,13 +56,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server implementation whose primary identity is providing Label Studio integration via MCP.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README explicitly describes it as an MCP server for Label Studio
-    - Source-list context places it in awesome-mcp-servers under Server Implementations
-    - Exposes tools for project, task, and prediction management via MCP
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

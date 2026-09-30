@@ -80,20 +80,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first Python library and CLI that developers import and script against to normalize PDF inputs for AI
-    workflows, fitting Frameworks & SDKs better than MCP or extensions.
+  reason: Jev decision-model reclassifier placed this item in document-ai / Document Parsing & Layout
   evidence:
-    - 'Repo description: ''PDF extraction that checks its own work... zero AI, zero GPU, zero cost.'''
-    - >-
-      README shows primary usage via `pip install pdfmux` and Python API (`pdfmux.extract_text`,
-      `pdfmux.batch_extract`).
-    - >-
-      Topics and README include MCP, LangChain, and LlamaIndex integrations, but the core product is the extraction
-      library and router.
+    - jev-latest choice confidence 0.75
 placement:
-  primary_category: ai-frameworks
-  section: Provider & Model Abstractions
+  primary_category: document-ai
+  secondary_categories: []
+  section: Document Parsing & Layout
 lifecycle:
   status: curated
   reason: null

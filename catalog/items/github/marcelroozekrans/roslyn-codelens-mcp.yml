@@ -77,13 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity and value proposition is providing .NET code intelligence via the
-    Model Context Protocol, making MCP the primary categorization.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''Roslyn-based MCP server giving AI agents deep semantic understanding of .NET/C# codebases'''
-    - 'README: Features 57 tools including call graphs, diagnostics, code fixes, and test intelligence exposed via MCP'
-    - 'Source-list: Included in awesome-mcp-servers under Developer Tools section'
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

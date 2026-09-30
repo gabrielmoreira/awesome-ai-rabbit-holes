@@ -63,17 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server providing Smalltalk image capabilities to host assistants, fitting the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Name and description explicitly define it as 'A local MCP server to communicate local Pharo Smalltalk image'.
-    - >-
-      README details 22 MCP tools for evaluation, introspection, and UI debugging mapped to the
-      PharoSmalltalkInteropServer API.
-    - >-
-      Included in the 'awesome-mcp-servers' list under 'Developer Tools', confirming its identity as protocol
-      infrastructure.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -97,18 +97,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Graphlit's core is a managed context and memory layer for agents, aligning with memory-and-context rather than being
-    primarily an MCP server or coding agent.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Context & Session Management
   evidence:
-    - >-
-      Described as 'context layer for AI agents' with real-time sync across Slack, GitHub, Jira and semantic search
-      built-in
-    - Listed in awesome-ai-agents under Graphlit section for giving agents context that works
-    - Listed in awesome-mcp-servers under Official Servers with same context-sync description
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: memory-and-context
-  section: Persistent Memory & Knowledge
+  secondary_categories: []
+  section: Context & Session Management
 lifecycle:
   status: curated
   reason: null

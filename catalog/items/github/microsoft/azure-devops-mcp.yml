@@ -59,15 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose primary identity is providing Azure DevOps access through the Model Context
-    Protocol, fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.'''
-    - >-
-      README overview: 'This TypeScript project provides a local MCP server for Azure DevOps, enabling you to perform a
-      wide range of Azure DevOps tasks directly from your code editor.'
-    - 'Source-list context: Listed in awesome-mcp-servers under ''Official Servers'' section.'
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

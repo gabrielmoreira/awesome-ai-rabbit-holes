@@ -45,18 +45,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    gulmezeren2-byte/erp-report-engine - Read-only MCP over the SQL database behind an ERP (Logo Tiger, Netsis, Mikro).
+    The agent sees canonical entities like orders, never raw ERP tables, through a four-layer read-only guard that
+    checks the statement, fails closed, and blocks side-effecting functions (pg_read_file, xp_cmdshell, …) — measured by
+    a public 28-attack benchmark and an in-browser "break it" playground running the real guard via Pyodide.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
+  evidence:
+    - jev-latest choice confidence 0.68
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: curated
   reason: null

@@ -82,17 +82,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server designed to bridge managed agent services with MCP-compatible
-    clients via the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - The README explicitly defines the project as an MCP server to 'remote control' Managed Agents
-    - It exposes a specific toolset for agent discovery, session management, and interaction
-    - It is designed to work with diverse MCP clients including Claude Code, Cursor, and the MCP Inspector
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

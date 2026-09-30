@@ -80,21 +80,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is primarily a code-first boilerplate and reference implementation that developers build upon using
-    Python, FastAPI, and Langchain, fitting the Frameworks & SDKs mold rather than a standalone agent or UI.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description defines it as a 'headless LLM chatbot platform' built on Rasa and Langchain with FastAPI.
-    - >-
-      README describes it as 'boilerplate and a reference implementation' with custom async endpoints and database
-      models via SQLModel.
-    - >-
-      Listed in awesome-langchain under 'Tools > Agents', indicating its identity as a developer toolkit/library
-      component.
+    - jev-latest choice confidence 0.64
 placement:
-  primary_category: app-builders
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Scaffolding & Boilerplate
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (2465) exceeded threshold (150)

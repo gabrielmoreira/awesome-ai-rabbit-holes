@@ -80,17 +80,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server providing domain-specific publishing capabilities to Claude Code,
-    fitting squarely into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'MCP server to publish to Dev.to, Ghost, Hashnode... from Claude Code'
-    - README demonstrates MCP tool definitions for publishing, SEO, and social broadcasting
-    - Listed in awesome-mcp-servers under 'Marketing' section, confirming its protocol-first identity
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

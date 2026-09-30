@@ -75,15 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server as its core identity, exposing Infomaniak services as MCP tools, making MCP the primary
-    adopted thing rather than a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''Full unofficial agentic Infomaniak MCP server'''
-    - >-
-      README: 'infomaniak-mcp-agent is an unofficial Model Context Protocol server that exposes the full surface of
-      Infomaniak... as 81 tools an LLM can call directly'
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Cloud Platforms'
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

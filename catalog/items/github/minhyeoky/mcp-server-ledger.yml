@@ -63,15 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server whose core identity is exposing Ledger CLI functionality through the Model Context
-    Protocol, making MCP the primary product rather than a mere compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''A Model Context Protocol server for interacting with Ledger CLI'''
-    - 'README: Explicitly describes the server as exposing Ledger CLI tools via MCP for AI assistants'
-    - >-
-      Implementation: Built using the Model Context Protocol Python SDK and registers MCP tools like ledger_balance,
-      ledger_register
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -78,17 +78,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server that exposes website downloading as a tool, exactly matching the MCP Servers
-    & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description explicitly states: ''MCP server to download entire websites'''
-    - README confirms it is an MCP server providing a download_website tool using wget
-    - Listed in awesome-mcp-list (Utilities) and awesome-mcp-servers (Developer Tools)
+    - jev-latest choice confidence 0.67
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (154) exceeded threshold (150)

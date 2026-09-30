@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server with Bitcoin-specific tools and prompts, making MCP its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description states it is 'An MCP server that tracks Bitcoin's Unspent Transaction Outputs (UTXO) and block
-      statistics'
-    - README details MCP tools (`get_utxo`, `get_block_stats`) and prompt templates for AI agents
-    - Installation instructions target MCP-compatible clients like Claude Desktop
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

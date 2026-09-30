@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing domain-specific data access, making MCP its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description states it is 'An MCP server that provides AI agents with structured, real-time data on
-      cryptocurrency investment funds'
-    - README details MCP tool calls (e.g., get_all_funds, search_funds) and installation via MCP
-    - Project is active (pushed 2025-09-25) and not archived
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

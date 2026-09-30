@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server whose primary identity is exposing shell execution as a Model Context Protocol tool, fitting
-    cleanly into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server to run shell commands securely, auditably, and on demand.'''
-    - 'README: ''MCP server that runs shell commands. Your LLM gets a tool; you get control over what runs and how.'''
-    - Topics include 'mcp' and 'model-context-protocol'; implementation uses 'mark3labs/mcp-go'.
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -84,13 +84,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server whose entire identity is implementing the Model Context Protocol to expose
-    Rakuten APIs as tools for coding assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'MCP server for the Rakuten Web Service API'.
-    - README confirms it is a 'Model Context Protocol server' configured for Claude Desktop, Claude Code, and Cursor.
-    - Listed in awesome-mcp-servers under Server Implementations > E-Commerce.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

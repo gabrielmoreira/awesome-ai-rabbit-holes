@@ -93,13 +93,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The Letta Code CLI tool is positioned as a local terminal agent that helps you code and do tasks, fitting the Coding
-    Agents category, while the broader API/SDK serves as infrastructure for building such agents.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description states it is a platform for building stateful agents with advanced memory.
-    - README explicitly mentions 'Letta Code' CLI tool that 'help you code' and runs locally in the terminal.
-    - Provides Python and TypeScript SDKs and an API for developers to build agents into applications.
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

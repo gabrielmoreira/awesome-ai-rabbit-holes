@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server with MCP as its primary identity, providing domain-specific (crypto funding
-    rates) tooling for agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description states it is 'An MCP server that provides real-time funding rate data'
-    - README details MCP tool (`compare_funding_rates`) and prompt integration for Claude Desktop
-    - Installation and usage instructions focus on MCP server setup and Claude Desktop integration
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

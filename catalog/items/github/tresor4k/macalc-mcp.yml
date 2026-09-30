@@ -61,13 +61,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is an MCP server implementation whose entire product identity is providing domain-specific calculation tools via
-    the Model Context Protocol, fitting squarely in the MCP infrastructure category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo name 'macalc-mcp' and description explicitly identify it as an 'MCP server'
-    - Listed in awesome-mcp-servers under Finance & Fintech section, confirming MCP ecosystem relevance
-    - Implements MCP v1 protocol with both Streamable HTTP and stdio transports; provides 501 specific tools
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is MCP infrastructure—specifically a middleware proxy that translates MCP servers into
-    OpenAPI endpoints.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description explicitly states: ''A simple, secure MCP-to-OpenAPI proxy server''.'
-    - README emphasizes MCP-to-OpenAPI conversion as the primary value proposition.
-    - Topics include mcp, mcp-server, mcp-to-openapi, and openapi, confirming MCP as the main identity.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

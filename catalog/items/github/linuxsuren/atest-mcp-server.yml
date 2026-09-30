@@ -56,17 +56,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is exposing atest functionality through MCP, making MCP the primary
-    product identity rather than a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP Server of API Testing'''
-    - README provides MCP server configuration examples for both stdio and HTTP modes
-    - Source list appears in awesome-mcp-servers under Developer Tools section
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

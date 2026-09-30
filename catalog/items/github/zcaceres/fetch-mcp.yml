@@ -93,19 +93,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    fetch-mcp is an MCP server whose core identity is providing HTTP fetching capabilities via the Model Context
-    Protocol, making it MCP infrastructure rather than an extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''A flexible HTTP fetching Model Context Protocol server'''
-    - 'README: Explicitly positions itself as an MCP server for fetching web content in multiple formats'
-    - >-
-      Source-list context: Listed in awesome-mcp-servers under Developer Tools and in awesome-agent-orchestration under
-      MCP Development & Tools
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (754) exceeded threshold (150)

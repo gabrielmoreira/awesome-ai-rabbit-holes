@@ -64,15 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server providing specialized capabilities to a host assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README explicitly describes the project as an 'MCP server for Memeboat'
-    - Provides tools like `search_meme_templates` and `create_meme` via the Model Context Protocol
-    - Instructional focus is on connecting via Claude Desktop or Claude Code via MCP transport
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server providing domain-specific market data access, fitting cleanly into MCP Servers
-    & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states 'MCP server for Hyperliquid HIP-4 prediction markets'.
-    - README confirms it is an MCP server with 10 tools for market data, orderbooks, and positions.
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its MCP domain-server identity.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

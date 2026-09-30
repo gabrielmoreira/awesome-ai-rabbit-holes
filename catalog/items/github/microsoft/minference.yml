@@ -58,22 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MInference is a code-first library/SDK that developers import to accelerate attention computation in long-context
-    LLMs, fitting the Frameworks & SDKs category as reusable infrastructure rather than a standalone assistant or app
-    builder.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - >-
-      Repo description: 'To speed up Long-context LLMs' inference, approximate and dynamic sparse calculate the
-      attention, which reduces inference latency by up to 10x for pre-filling on an A100 while maintaining accuracy.'
-    - 'Created: 2024-05-22, pushed: 2026-04-08, stars: 1221, license: MIT — active and maintained open-source project.'
-    - >-
-      Source-list context: included in awesome-LLM-resources under '推理 Inference', indicating recognition as an LLM
-      inference optimization tool.
+    - jev-latest choice confidence 0.86
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Inference Engines
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (1211) exceeded threshold (150)

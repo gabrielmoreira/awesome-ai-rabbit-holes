@@ -66,15 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job is measuring and scoring LLM instruction-following behavior with high human correlation, fitting the
-    Evals & Benchmarks category.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - Repo description defines it as 'An automatic evaluator for instruction-following language models.'
-    - >-
-      README states the goal is a benchmark that is 'fast (< 5min), cheap (< $10), and highly correlated with humans
-      (0.98).'
-    - Topics include 'evaluation' and 'leaderboard', and it provides a toolkit for building automatic evaluators.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: evals
   secondary_categories: []

@@ -77,14 +77,14 @@ insights:
     - pipeline-tracing
   confidence: medium
 curation:
-  status: pending
-  reason: 'Manual audit: Primary identity is a tunneling tool; MCP is incidental.'
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Manual review of Jev Middleware & Generic audit, 2026-09-19
+    - jev-latest choice confidence 0.52
 placement:
-  primary_category: null
+  primary_category: mcp
   secondary_categories: []
-  section: null
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

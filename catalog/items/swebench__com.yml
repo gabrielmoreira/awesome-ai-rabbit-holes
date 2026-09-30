@@ -71,16 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    SWE-Bench.com is a benchmarking platform focused on evaluating coding agents, making it a clear fit for the evals
-    category as its primary purpose is measuring and comparing model/prompt/agent behavior on software engineering
-    tasks.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - 'Listed in awesome-ai-agents under the ''SWE Agent'' section with description: ''A list of AI autonomous agents'''
-    - >-
-      The site swebench.com hosts the SWE-bench leaderboard, which evaluates coding agents on real-world software
-      engineering tasks
-    - No evidence of being a coding agent, framework, or app builder; identity is centered on evaluation and comparison
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: evals
   secondary_categories: []

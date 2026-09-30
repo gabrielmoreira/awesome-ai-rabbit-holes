@@ -74,23 +74,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core product identity is a spec-first planning loop that generates structured DEVELOPMENT_PLAN.md artifacts,
-    validates them, and drives execution rather than acting as the coding agent itself.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states it 'generates development plans, project roadmaps, and task breakdowns' for
-      Claude Code.
-    - >-
-      README details a 'scaffold → enhance → validate' workflow centered on creating agent-executable plans with
-      validation checks.
-    - >-
-      The tool integrates as an MCP server to provide planning tools (devplan_start, devplan_validate_plan) rather than
-      performing the coding itself.
+    - jev-latest choice confidence 0.71
 placement:
-  primary_category: extensions-and-addons
+  primary_category: mcp
   secondary_categories: []
-  section: Claude Code & Agent Tools
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

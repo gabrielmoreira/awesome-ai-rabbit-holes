@@ -56,15 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing domain-specific (crypto order book)
-    capabilities via the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description states it is 'An MCP server that analyzes order book depth and imbalance across major crypto
-      exchanges'
-    - README confirms it exposes MCP tools (`calculate_orderbook`, `compare_orderbook`) for AI agents
-    - Installation and usage instructions are MCP-client-focused (e.g., Claude Desktop configuration)
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

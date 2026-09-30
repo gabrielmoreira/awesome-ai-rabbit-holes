@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it is a dedicated MCP server providing access to codewiki.google’s documentation
-    capabilities.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for codewiki.google
-    - README emphasizes MCP integration with multiple client configurations (Cursor, Claude, Windsurf, etc.)
-    - Source-list context places it in an MCP servers directory under Developer Tools
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

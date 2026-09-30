@@ -74,19 +74,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core product augments Claude Code with multi-agent consultation capabilities via MCP servers, making it an
-    extension that adds host integration and workflow capabilities rather than acting as the primary coding assistant.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly states 'Multi-agent AI consultation framework for Claude Code via MCP'
-    - README architecture diagram shows Claude Code as the primary surface with Concilium adding parallel consultations
-    - >-
-      Includes optional skill file 'ai-concilium.md' to be copied into ~/.claude/commands/, confirming it extends Claude
-      Code
+    - jev-latest choice confidence 0.67
 placement:
-  primary_category: extensions-and-addons
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Claude Code & Agent Tools
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: null

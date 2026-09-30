@@ -97,17 +97,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server delivering domain-specific market intelligence tools to MCP clients, making
-    it a canonical fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description states it is 'A free MCP server to analyze and extract insights from public filings, earnings
-      transcripts, financial metrics'
-    - >-
-      README confirms it 'provides specialized AI-powered financial research... within Claude Desktop and other popular
-      MCP clients'
-    - Appears in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

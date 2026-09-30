@@ -72,15 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server providing architectural analysis capabilities to AI assistants, fitting
-    cleanly into the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description states it is 'A sophisticated Model Context Protocol (MCP) server for analyzing Architectural
-      Decision Records'.
-    - Topics include 'mcp-server' and the package is distributed via npm as 'mcp-adr-analysis-server'.
-    - Found in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -71,16 +71,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server designed to provide a specific domain capability (language coaching) to MCP
-    clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Identifies explicitly as an MCP server in the README and repo description
-    - Provides specialized domain functionality (English tutoring) via the Model Context Protocol
-    - Designed to be integrated into MCP-ready environments like Claude Desktop and Cursor
+    - jev-latest choice confidence 0.51
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: null

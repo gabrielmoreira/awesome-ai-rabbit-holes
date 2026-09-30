@@ -77,17 +77,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Core novelty is a persistent memory, retrieval, and context-slicing system for a coding assistant, which maps
-    directly to Prompt & Context Engineering rather than a host integration or MCP infrastructure.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      README describes a four-layer memory system (L0-L3) with slice-first context assembly and automatic transcript
-      mining.
-    - >-
-      Repo topics and description center on persistent memory and Obsidian vault storage, not MCP as the primary
-      identity.
-    - Created April 2026 with active pushes through May 2026, indicating a new but maintained project.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: memory-and-context
   secondary_categories: []

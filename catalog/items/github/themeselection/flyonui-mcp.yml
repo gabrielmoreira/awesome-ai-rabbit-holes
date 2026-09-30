@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server specifically built to expose FlyonUI building capabilities to MCP-compatible
-    editors and agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP server for flyonUI'.
-    - README describes three main slash commands (/cui, /iui, /rui) for UI generation within IDEs.
-    - Listed in awesome-mcp-servers under 'Official Servers', confirming its protocol identity.
+    - jev-latest choice confidence 0.55
 placement:
   primary_category: mcp
   secondary_categories: []

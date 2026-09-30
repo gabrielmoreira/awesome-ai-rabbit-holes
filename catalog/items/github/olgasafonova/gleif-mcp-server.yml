@@ -71,15 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server providing domain-specific access to the GLEIF legal entity database, placing it
-    squarely in MCP Servers & Tooling as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states 'MCP server for GLEIF LEI database access'.
-    - >-
-      README confirms 29 MCP tools for LEI lookup, entity search, and compliance checks, working with Claude Desktop,
-      Cursor, VS Code, and other MCP-compatible tools.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' section as a server implementation.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

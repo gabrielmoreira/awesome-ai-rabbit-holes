@@ -52,16 +52,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It functions as a tool that extends AI agents with cost control capabilities rather than being a standalone agent or
-    framework.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Appears in awesome-ai-coding-tools under Developer Productivity Tools
-    - Distributed as an npm package suggesting integration into agent workflows
-    - Name implies guardrail functionality for agent cost management
+    - jev-latest choice confidence 0.58
 placement:
-  primary_category: extensions-and-addons
-  section: Claude Code & Agent Tools
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

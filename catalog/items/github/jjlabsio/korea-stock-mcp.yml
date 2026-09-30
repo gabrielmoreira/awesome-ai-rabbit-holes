@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server with Korean stock analysis as its primary identity, fitting the MCP Servers
-    & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for Korean stock analysis
-    - README details MCP server setup and usage with Claude Desktop
-    - Provides domain-specific tools (DART/KRX APIs) as MCP capabilities
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

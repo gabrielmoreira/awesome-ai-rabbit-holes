@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server implementation designed to expose a specific data domain to MCP-compatible
-    clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description identifies it as an MCP server for Solana NFT market data
-    - README provides specific MCP tool definitions like nft_floor and nft_stats
-    - The tool identity is centered on the Model Context Protocol integration
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

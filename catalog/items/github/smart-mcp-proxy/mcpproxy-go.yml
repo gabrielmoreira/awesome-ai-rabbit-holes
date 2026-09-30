@@ -122,13 +122,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is MCP infrastructure: it is a proxy, router, and middleware layer designed specifically
-    to manage MCP servers, not just a generic framework or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description and README explicitly define it as a proxy for MCP servers with tool routing and quarantine.
-    - Topics include mcp, mcp-proxy, mcp-server, and model-context-protocol as primary identifiers.
-    - Listed in awesome-mcp-servers under 'Aggregators', reinforcing its identity as MCP infrastructure.
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: mcp
   secondary_categories: []

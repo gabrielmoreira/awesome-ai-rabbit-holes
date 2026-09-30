@@ -59,15 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core purpose is to score, measure, and provide a rubric for the quality of tool definitions, which
-    fits perfectly under the Evals category.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - Repo description describes it as 'An open framework for scoring how well an MCP tool definition communicates'
-    - >-
-      README explicitly mentions a 'scoring pipeline' including 'LLM rubric evaluation' and 'deterministic
-      post-processing'
-    - The framework is used to generate public score pages and rankings for an MCP registry
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: evals
   secondary_categories: []

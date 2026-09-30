@@ -67,17 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server that exposes a V8 runtime as a tool for AI agents, exactly matching the MCP
-    Servers & Tooling category with placement in awesome-mcp-servers under code execution.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states 'MCP server that exposes a V8 JavaScript runtime as a tool for AI agents like
-      Claude and Cursor.'
-    - >-
-      README confirms 'Implements the Model Context Protocol for seamless tool integration with Claude, Cursor, and
-      other MCP clients.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Code Execution' section.
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []

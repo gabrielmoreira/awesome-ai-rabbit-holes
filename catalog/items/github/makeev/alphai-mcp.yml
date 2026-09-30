@@ -72,19 +72,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is explicitly a hosted MCP server—registry-listed, protocol-native, and scoped to financial-news
-    tooling—so it belongs in MCP Servers & Tooling rather than an extension or general data platform.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description and README identify the product as the hosted AlphaAI MCP server (mcp.alphai.io) with a
-      server.json manifest.
-    - >-
-      The server exposes 11 read-only financial-news tools over Streamable HTTP and is listed in the MCP Registry,
-      Smithery, Glama, and Awesome MCP Servers.
-    - >-
-      Very new repo (2 stars, created 2026-06-14) but actively maintained with pushes through 2026-06-18 and a clear,
-      narrow tool surface.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

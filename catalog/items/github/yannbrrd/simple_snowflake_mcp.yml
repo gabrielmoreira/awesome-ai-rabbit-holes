@@ -56,15 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server providing Snowflake access, making MCP its core identity rather than a secondary
-    feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - >-
-      README describes it as an 'Enhanced Snowflake MCP Server with comprehensive configuration system and full MCP
-      protocol compliance'
-    - Lists MCP tools for Snowflake operations like execute-snowflake-sql, list-databases, and describe-table
-    - Appears in awesome-mcp-servers under Server Implementations > Databases section
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

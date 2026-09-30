@@ -73,15 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose identity and entire purpose is exposing SQLite access to MCP clients like Claude
-    Desktop, Cursor, and VS Code Copilot.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''MCP server for SQLite — query databases, inspect schemas, explain queries'''
-    - >-
-      README states it 'opens the database read-only by default' and works with Claude Desktop, Cursor, and VS Code
-      Copilot
-    - Listed in awesome-mcp-servers under Server Implementations > Databases
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

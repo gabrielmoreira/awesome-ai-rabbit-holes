@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core identity of this repo is the Berkeley Function-Calling Leaderboard and associated evaluation datasets (BFCL
-    V2/V3/V4) used to measure model tool-use capabilities, fitting the evals category perfectly.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - 'Repo description explicitly states: ''Training and Evaluating LLMs for Function Calls (Tool Calls)''.'
-    - README highlights the 'Berkeley Function-Calling Leaderboard' (BFCL V4 Agentic) as the primary recent update.
-    - The project includes specific eval datasets like APIBench and runtime evaluation tools like GoEx.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: evals
   secondary_categories: []

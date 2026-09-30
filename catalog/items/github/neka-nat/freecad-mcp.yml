@@ -64,21 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server that exposes FreeCAD's capabilities to MCP-compatible clients like
-    Claude Desktop.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'FreeCAD MCP(Model Context Protocol) server'.
-    - >-
-      README details setup for Claude Desktop via `mcpServers` config and lists MCP tools like `create_object` and
-      `execute_code`.
-    - >-
-      GitHub topics include 'mcp' and 'claude', and it is listed in awesome-agent-orchestration under 'Specialized
-      Servers' for MCP.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (901) exceeded threshold (150)

@@ -58,16 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first product whose identity is explicitly as an MCP server for Crafty Controller, fitting the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is a 'Crafty Controller MCP server'
-    - README confirms it exposes Crafty Controller API as MCP tools for AI assistants
-    - Configuration examples show integration with Claude Desktop, Claude Code, and Cursor as MCP servers
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

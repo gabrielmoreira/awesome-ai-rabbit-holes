@@ -60,17 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server implementation for Pinecone Assistant, fitting the MCP Servers & Tooling
-    category as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description states: ''Pinecone Assistant MCP server''.'
-    - README confirms it is 'An MCP server implementation for retrieving information from Pinecone Assistant'.
-    - Included in the 'awesome-mcp-servers' list under 'Knowledge & Memory' servers.
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

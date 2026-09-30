@@ -77,19 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is MCP infrastructure itself: a registry, CLI manager, and router for MCP servers, fitting
-    squarely into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description explicitly states: ''CLI MCP package manager & registry for all platforms and all clients.'''
-    - >-
-      README describes the tool as 'an open source CLI tool for managing MCP servers' with a 'central registry' and
-      'router' features.
-    - Topics include 'mcp', 'package-manager', and covers integrations for Claude, Cursor, Windsurf, and Cline.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Registries & Discovery
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (940) exceeded threshold (150)

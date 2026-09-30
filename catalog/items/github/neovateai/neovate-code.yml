@@ -61,17 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a standalone CLI coding assistant that directly edits, reviews, and tests code, fitting squarely as a primary
-    agent rather than an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - >-
-      Repo description explicitly calls it 'a code agent to enhance your development' with generation, bug fixing, and
-      review capabilities.
-    - >-
-      README positions it as a primary coding assistant run via `npm install -g @neovate/code` with interactive and
-      headless modes.
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: coding-agents
   secondary_categories: []

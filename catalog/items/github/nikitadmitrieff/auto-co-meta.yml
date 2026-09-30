@@ -75,19 +75,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is a developer-facing coding agent loop that delegates repo work to Claude Code with minimal human
-    input, fitting the Terminal & CLI Agents section.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description states: ''Autonomous AI Company OS — 14 AI agents loop 24/7, ship real software''.'
-    - >-
-      README clarifies: 'A bash loop that calls Claude Code every 2 minutes... turn Claude Code into a self-running
-      company'.
-    - Created 2026-03-06 and pushed 2026-03-09, confirming an active, very recent project.
+    - jev-latest choice confidence 0.79
 placement:
-  primary_category: coding-agents
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Autonomous & Multi-Agent Coding
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: null

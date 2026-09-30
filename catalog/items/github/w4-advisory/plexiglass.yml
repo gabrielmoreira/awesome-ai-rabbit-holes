@@ -86,17 +86,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job is measuring and benchmarking model behavior against security, bias, and toxicity vulnerabilities,
-    which aligns with the Evals category.
+  reason: Jev decision-model reclassifier placed this item in evals / Safety, Fairness & Red-teaming
   evidence:
-    - >-
-      Repo description states it is 'A toolkit for detecting and protecting against vulnerabilities in Large Language
-      Models (LLMs).'
-    - README describes 'llm-scan' mode for benchmarking security/bias/toxicity using open-source adversarial datasets.
-    - >-
-      Listed in Awesome-LLMOps under 'Security > Frameworks for LLM security', reinforcing its eval/security tooling
-      identity.
+    - jev-latest choice confidence 0.58
 placement:
   primary_category: evals
   secondary_categories: []

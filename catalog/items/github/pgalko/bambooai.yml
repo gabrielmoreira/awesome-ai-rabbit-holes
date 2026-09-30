@@ -74,19 +74,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is a code-first Python library and SDK that developers import to build conversational data analysis
-    workflows, fitting the framework/sdk mold better than a standalone coding agent.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description: 'A Python library powered by Language Models (LLMs) for conversational data discovery and
-      analysis.'
-    - >-
-      README usage shows `import pandas as pd` and `from bambooai import BambooAI`, confirming a code-first SDK
-      identity.
-    - >-
-      Features include 'Dataframe Ontology' and 'Vector DB (Episodic Memory)', highlighting the framework's retrieval
-      and memory infrastructure.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

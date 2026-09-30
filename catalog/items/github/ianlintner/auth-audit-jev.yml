@@ -41,20 +41,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    auth-audit-jev - Observation-only Python EventPlugin: TypeSafe Jev audits allowlisted OAuth/IAM authn/authz events
+    and emits advisory alerts (never enforces). Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - jev-latest choice confidence 0.51
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Open & Local Decision Models
 lifecycle:
   status: curated
   reason: null

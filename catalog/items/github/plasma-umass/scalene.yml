@@ -77,21 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The primary product identity is a Python profiler; the AI feature is an integrated add-on that proposes
-    optimizations within the tool's UI and extension, rather than acting as a standalone coding agent.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - >-
-      Repo description identifies it as a 'CPU, GPU, and memory profiler for Python' with 'AI-powered optimization
-      proposals'.
-    - >-
-      README details AI integration via OpenAI, Azure, Bedrock, and Ollama to generate suggestions via a lightning bolt
-      icon in the UI.
-    - Includes a Visual Studio Code extension that wraps the profiling and AI suggestion features into the editor.
+    - jev-latest choice confidence 0.54
 placement:
-  primary_category: extensions-and-addons
+  primary_category: evals
   secondary_categories: []
-  section: Testing & Code Quality
+  section: Observability & Tracing
 lifecycle:
   status: curated
   reason: Stars (13409) exceeded threshold (150)

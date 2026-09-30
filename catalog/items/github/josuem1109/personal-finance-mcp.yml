@@ -72,11 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools (finance) to MCP clients.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly calls it an MCP server for personal finance
-    - README details 9 read-only tools exposing Plaid data via MCP protocol
-    - Integration is explicitly for MCP clients like Claude Code
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

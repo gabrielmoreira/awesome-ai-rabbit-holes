@@ -61,17 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a code-first library (pip install agentarium) used by developers to script and manage agent
-    behaviors, fitting the Frameworks & SDKs definition rather than a standalone orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
   evidence:
-    - Repo description identifies it as an 'open-source framework' for creating and managing simulations.
-    - >-
-      README shows usage via Python imports ('from agentarium import Agent') and pip installation, confirming a
-      code-first SDK identity.
-    - >-
-      Features include programmatic elements like 'Customizable Actions' and 'Checkpoint System' for developers to
-      extend.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

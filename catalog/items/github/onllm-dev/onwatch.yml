@@ -56,18 +56,22 @@ metadata:
       fetched_at: '2026-07-20T16:42:24.498Z'
       bytes: 42409
 insights:
-  summary: null
+  summary: >-
+    Track AI API quotas across Synthetic, Z.ai, Anthropic (Claude Code), Codex, GitHub Copilot & Antigravity in real
+    time. Lightweight background daemon (<50MB RAM), SQLite storage, Material Design 3 dashboard. Zero telemetry.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
+  evidence:
+    - jev-latest choice confidence 0.65
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: curated
   reason: Stars (680) exceeded threshold (150)

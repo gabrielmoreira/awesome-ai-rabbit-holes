@@ -75,15 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is explicitly an MCP server designed to be plugged into MCP-aware clients like Claude Desktop
-    and Cursor to provide agent oversight.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description identifies it as a tool providing mentor-like feedback to AI Agents via MCP.
-    - >-
-      README details npx commands for STDIO and HTTP transport specifically for MCP clients (Claude Desktop, Cursor,
-      Windsurf).
-    - Listed in the awesome-mcp-servers list under 'Community Servers' and featured on PulseMCP and Smithery.
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

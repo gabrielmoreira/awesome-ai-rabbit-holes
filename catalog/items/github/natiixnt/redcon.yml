@@ -43,18 +43,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    natiixnt/redcon - Deterministic repository context packing for AI coding agents: selects, compresses, caches, and
+    budgets only the files a task needs. Measured 83% fewer input tokens at the same task coverage, no LLM in the loop.
+    One MCP server for Claude Code, Cursor, Windsurf, Cline, and Zed. pip install redcon
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
+  evidence:
+    - jev-latest choice confidence 0.79
 placement:
-  primary_category: null
-  section: null
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Compression & Token Optimization
 lifecycle:
   status: curated
   reason: null

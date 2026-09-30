@@ -104,19 +104,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is a security and execution harness that wraps existing coding agents (Claude Code, Codex) in microVMs
-    rather than acting as the primary coding assistant itself.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly states it is a 'CLI tool for running coding agents inside hardware-isolated microVMs.'
-    - README shows it launches Claude Code inside a VM via `bbox claude-code` and is not the agent itself.
-    - >-
-      Listed as 'Agent infrastructure' in awesome-cli-coding-agents, reinforcing its identity as a harness/orchestration
-      layer for other agents.
+    - jev-latest choice confidence 0.54
 placement:
-  primary_category: agent-orchestration
+  primary_category: coding-agents
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Terminal & CLI Agents
 lifecycle:
   status: curated
   reason: null

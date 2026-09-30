@@ -66,17 +66,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP server hosting and unified MCP API management is a core, explicit capability, making MCP the primary product
-    identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README explicitly highlights MCP server hosting via plugin mechanism and provides a dedicated MCP quickstart guide
-    - Homepage and docs promote Higress as a platform for hosting remote MCP servers (e.g., mcp.higress.ai)
-    - Project is actively maintained (pushed_at 2026-07-17) and has significant traction (8892 stars)
+    - jev-latest choice confidence 0.64
 placement:
-  primary_category: ai-frameworks
+  primary_category: mcp
   secondary_categories: []
-  section: Provider & Model Abstractions
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (8314) exceeded threshold (150)

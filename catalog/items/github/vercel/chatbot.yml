@@ -63,21 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a template that turns prompts into deployed chat applications rather than assisting with editing existing
-    codebases, fitting the app-builder pattern.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''A full-featured, hackable Next.js AI chatbot built by Vercel'''
-    - >-
-      README: 'helps you quickly build powerful chatbot applications' and 'Deploy Your Own' with one-click Vercel
-      deployment
-    - >-
-      Features focus on app scaffolding: Next.js App Router, AI SDK, shadcn/ui, data persistence, and Auth.js for new
-      chatbot creation
+    - jev-latest choice confidence 0.55
 placement:
-  primary_category: app-builders
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Scaffolding & Boilerplate
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (20287) exceeded threshold (150)

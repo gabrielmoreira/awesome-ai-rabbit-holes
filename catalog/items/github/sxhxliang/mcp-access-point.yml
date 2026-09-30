@@ -64,17 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is a protocol conversion gateway specifically designed to turn HTTP services into MCP servers,
-    fitting the MCP infrastructure definition.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description states: ''Turn a web server into an MCP server in one click without making any code changes.'''
-    - README identifies it as a 'protocol conversion gateway tool' bridging HTTP services and MCP clients.
-    - Found in awesome-mcp-servers under 'Server Implementations > Aggregators'.
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (170) exceeded threshold (150)

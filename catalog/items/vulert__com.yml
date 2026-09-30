@@ -54,22 +54,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Vulert is a security scanning tool that integrates with coding agents via MCP to provide vulnerability monitoring
-    and remediation guidance, making it an extension that enhances agent workflows rather than a standalone coding agent
-    or framework.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Security & DevSecOps
   evidence:
-    - >-
-      Scraped site context shows Vulert provides software composition analysis with no install, using manifest files,
-      and offers real-time vulnerability alerts.
-    - >-
-      Primary page excerpt includes a dedicated section: 'MCP for Coding Agents' describing how Vulert connects to
-      Codex, Claude Code, Cursor and other MCP-compatible agents to scan dependency files before and after changes.
-    - >-
-      Source-list context from awesome-ai-coding-tools places it in the Security section, noting it provides software
-      composition analysis with no install, using manifest files, and real-time vulnerability alerts.
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: extensions-and-addons
+  secondary_categories: []
   section: Security & DevSecOps
 lifecycle:
   status: curated

@@ -61,18 +61,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server providing AutoGen documentation access, placing it cleanly in MCP Servers &
-    Tooling as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - >-
-      Repo description explicitly states 'A Model Context Protocol (MCP) server that provides AI assistants with the
-      ability to search and retrieve Microsoft AutoGen documentation.'
-    - Topics include 'mcp', 'mcp-server', and 'autogen', confirming MCP-first identity.
-    - Listed in awesome-mcp-servers under 'Community Servers', matching the MCP domain server profile.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: null

@@ -85,17 +85,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core novelty is a memory, retrieval, and context-shaping system for coding agents rather than being a primary
-    coding assistant or thin host integration.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - Repo description explicitly calls it an 'Open-source memory CLI for Claude Code, Codex & MCP'.
-    - >-
-      README states 'core novelty is memory, retrieval, compression, distillation, or fresh-doc lookup' and describes a
-      'local-first knowledge engine' with FTS5, graph expansion, and review gates.
-    - >-
-      Source list placement is under 'Knowledge & Memory' in awesome-mcp-servers, aligning with context-engineering
-      rather than primary agent identity.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: memory-and-context
   secondary_categories: []

@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP server first and foremost, exposing NixOS data through the Model Context Protocol, making MCP its core
-    identity rather than a mere extension or compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP-NixOS - Model Context Protocol Server for NixOS resources'''
-    - README positions it as an MCP server providing real NixOS data to AI assistants
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

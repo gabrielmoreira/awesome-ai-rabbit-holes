@@ -76,16 +76,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The primary artifact is a reusable pack of skills, slash commands, and platform rules that teach agents how to use
-    the Nex memory layer, which fits Agent Skills best; the underlying Nex platform is not the distributed artifact
-    here.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - Repo description and README position Nex as a knowledge graph and memory layer for AI agents.
-    - >-
-      README shows the core content is slash commands in plugin-commands/, platform rules in platform-rules/, and
-      plugins in platform-plugins/.
-    - Topics include context-engineering, mcp, memory, and developer-tools, aligning with skill/context distribution.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: memory-and-context
   secondary_categories: []

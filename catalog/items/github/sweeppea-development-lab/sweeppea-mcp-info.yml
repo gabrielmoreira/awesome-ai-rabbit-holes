@@ -65,20 +65,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The repo is a hosted MCP server exposing Sweeppea API tools for AI assistants, which fits cleanly as a
-    domain-specific MCP server rather than a generic framework or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description explicitly calls it 'the Sweeppea MCP server' with integration metadata and production endpoint
-      information.
-    - >-
-      README shows 71 tools across sweepstakes, participants, billing, and calendars behind a hosted MCP endpoint
-      (https://mcp.sweeppea.com/).
-    - Listed in awesome-mcp-servers under Server Implementations > Marketing, aligning with its MCP-first identity.
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

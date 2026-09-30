@@ -86,17 +86,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is built entirely around being an MCP server, offering 39 domain-specific tools for web
-    design analysis to MCP clients like Claude Desktop.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP server with 39 tools for web design analysis'.
-    - README positions it as 'MCP-native' with '39 tools purpose-built for Claude Desktop and MCP Client CLI'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

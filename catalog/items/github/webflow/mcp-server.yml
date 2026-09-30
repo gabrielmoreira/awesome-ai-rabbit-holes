@@ -60,15 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server whose core identity is providing Model Context Protocol access to a specific SaaS API, fitting
-    the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''Model Context Protocol (MCP) server for the Webflow Data API.'''
-    - >-
-      README focuses on installing and configuring the MCP server for use with Cursor and Claude Desktop via MCP
-      stdio/SSE transports.
-    - Listed in awesome-mcp-servers under 'Official Servers' section.
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: mcp
   secondary_categories: []

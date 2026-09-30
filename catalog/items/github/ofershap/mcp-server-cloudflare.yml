@@ -68,15 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server built specifically to give AI assistants access to Cloudflare resources, which aligns
-    directly with the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description explicitly states: 'MCP server to manage Cloudflare Workers, KV, R2, DNS, and cache from your
-      IDE'
-    - README confirms it works with Claude Desktop, Cursor, and VS Code Copilot as an MCP integration
-    - Listed in awesome-mcp-servers under 'Cloud Platforms' as a server implementation
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

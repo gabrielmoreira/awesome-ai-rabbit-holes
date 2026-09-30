@@ -54,23 +54,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server exposing Mercado Libre's API and documentation, making MCP its primary
-    purpose rather than a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      The site describes itself as 'Mercado Libre MCP Server' providing utilities to interact with Mercado Libre APIs
-      using natural language via MCP.
-    - >-
-      It exposes MCP tools like search_documentation and get_documentation_page for IDE agents to query documentation
-      and generate code.
-    - >-
-      Installation instructions show MCP server configuration for clients like Cursor and Windsurf, confirming its role
-      as an MCP endpoint.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

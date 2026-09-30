@@ -79,17 +79,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server that provides UI element annotation as an MCP tool, making MCP the
-    primary product identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server that annotates any web page with hover labels'''
-    - 'README: Describes MCP tools like `annotate(url)`, `get_elements()`, `highlight_element(name)` as the AI interface'
-    - 'Source-list: Included in awesome-mcp-servers under Developer Tools section'
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

@@ -44,18 +44,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    uxloom-dev/uxloom - Agent-native UI/UX design validation: model user journeys as state machines and prove what
+    AI-generated screens are missing (unreachable states, missing empty/loading/error states, WCAG contrast, touch
+    targets, localization overflow) before code exists — then verify the code implements the contract. Deterministic CI
+    gates (uxloom check, uxloom audit), one-command setup (npx uxloom init).
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.50
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
 lifecycle:
   status: curated
   reason: null

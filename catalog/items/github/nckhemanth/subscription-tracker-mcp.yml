@@ -87,13 +87,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product’s primary identity is an MCP server exposing 16 tools to Claude Desktop, with MCP configuration front
-    and center in the README and placement in awesome-mcp-servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - README centers on configuring Claude Desktop via mcpServers and running an MCP server (src/mcp_server.py).
-    - README explicitly describes '16 MCP Tools' and positions the project as a 'Professional MCP server'.
-    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech.
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
   secondary_categories: []

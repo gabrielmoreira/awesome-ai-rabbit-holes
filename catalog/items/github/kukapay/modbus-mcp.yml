@@ -53,11 +53,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: it is a server that exposes Modbus-specific tools via the Model Context Protocol.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP server for Modbus data
-    - README details MCP tool definitions and usage with Claude Desktop
-    - Listed in awesome-mcp-servers under Embedded System servers
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

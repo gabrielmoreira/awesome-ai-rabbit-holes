@@ -66,15 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server whose core identity is providing Solscan API access via the Model Context Protocol,
-    making it a domain-specific MCP tool rather than an extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''An MCP server for querying Solana transactions using natural language with Solscan API'''
-    - >-
-      README: Explicitly states it is an MCP server for Solscan Pro API, with installation instructions for Claude
-      Desktop MCP config
-    - 'Source-list context: Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation'
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

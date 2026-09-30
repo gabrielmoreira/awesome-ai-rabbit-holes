@@ -70,21 +70,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is MCP infrastructure, specifically a server middleware that bridges FastAPI
-    applications to the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description explicitly states: 'Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with
-      Auth!'
-    - >-
-      Topics include 'mcp', 'mcp-server', 'mcp-servers', and 'modelcontextprotocol', confirming MCP as the product
-      identity.
-    - README emphasizes it is 'FastAPI-native' and designed to mount an MCP server directly to a FastAPI app.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (11844) exceeded threshold (150)

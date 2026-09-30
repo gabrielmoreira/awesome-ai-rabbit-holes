@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    ExLlamaV2 is a code-first inference library developers import and script against to run LLMs locally, making it a
-    provider abstraction rather than a coding agent, extension, or orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - 'Repo description: ''A fast inference library for running LLMs locally on modern consumer-class GPUs'''
-    - README shows Python API usage like `generator.generate()` and installation via `pip install .`
-    - Listed in 'awesome-local-ai' under 'Inference Engine' section
+    - jev-latest choice confidence 0.63
 placement:
   primary_category: local-ai
   secondary_categories: []

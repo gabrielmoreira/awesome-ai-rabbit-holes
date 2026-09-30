@@ -58,11 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server designed to integrate SingleStore capabilities into MCP-compatible clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description states: ''MCP server for interacting with SingleStore Management API and services''.'
-    - README positions the tool for use with 'Claude Desktop, Claude Code, Cursor, or any compatible MCP client'.
-    - Listed in 'awesome-mcp-servers' under the section 'Official Servers'.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

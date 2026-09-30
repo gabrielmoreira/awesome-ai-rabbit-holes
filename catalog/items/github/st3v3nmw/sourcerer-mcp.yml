@@ -85,13 +85,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server designed to provide semantic code search capabilities to MCP-compatible
-    clients like Claude Code.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description states: ''MCP for semantic code search & navigation that reduces token waste''.'
-    - README explicitly lists 'mcp.json' configuration and MCP tools like 'semantic_search' and 'get_chunk_code'.
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: mcp
   secondary_categories: []

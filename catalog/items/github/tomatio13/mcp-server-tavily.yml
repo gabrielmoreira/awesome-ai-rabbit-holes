@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's identity is explicitly an MCP server built to give assistants access to the Tavily API, fitting the
-    MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description states it is an 'MCP Server' for the Tavily API.
-    - README details integration instructions for Claude Desktop and Cursor via MCP configuration.
-    - Listed in the 'awesome-mcp-list' under the Search section.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

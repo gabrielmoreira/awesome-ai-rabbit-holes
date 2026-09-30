@@ -66,15 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP-first server providing domain registrar tooling, making MCP its core identity rather than a
-    compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description: 'MCP server for Dynadot domain registrar API3 — 60 tools for domains, DNS, contacts, transfers &
-      more'
-    - 'README: Explicitly positions itself as an MCP server for AI assistant integration with Dynadot API'
-    - 'Source-list context: Listed in awesome-mcp-servers under Cloud Platforms'
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []

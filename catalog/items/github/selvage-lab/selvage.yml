@@ -60,17 +60,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The tool primarily augments coding assistants and Git workflows with automated review capabilities rather than
-    acting as a standalone coding agent that plans and edits code across a repo.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - >-
-      README states it is a 'CLI tool that helps AI analyze Git diffs' and includes a Claude Code plugin with a
-      '/review' skill.
-    - Features 'MCP Mode Support' for registration in Cursor and Claude Code to request reviews via natural language.
-    - >-
-      Core workflow is reviewing staged, unstaged, or commit-based changes, not autonomous repo planning or file
-      editing.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: coding-agents
   secondary_categories: []

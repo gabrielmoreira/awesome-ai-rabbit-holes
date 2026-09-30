@@ -143,20 +143,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a runtime platform that coordinates multiple coding agents, tasks, and workflows with
-    deterministic scheduling, git isolation, and audit trails, fitting agent orchestration over single-agent or
-    extension categories.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description explicitly calls it a 'Deterministic orchestrator for 30+ CLI AI coding agents' with git worktree
-      isolation and MCP server mode.
-    - >-
-      README states it 'splits the work across several AI coding agents… runs the tests, and merges the code that
-      actually passes' using a deterministic runtime rather than an LLM scheduler.
-    - >-
-      Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops',
-      reinforcing its orchestration identity.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

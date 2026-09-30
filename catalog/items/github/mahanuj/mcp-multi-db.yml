@@ -63,19 +63,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is a purpose-built MCP server for multi-database querying; MCP is its entire identity rather than a
-    compatibility layer or side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - >-
-      Repo description and README frame it exclusively as a stdio MCP server serving database tools like
-      `list_databases` and `run_query`.
-    - >-
-      Source-list context places it in awesome-mcp-servers under Databases, confirming community categorization as MCP
-      infrastructure.
-    - >-
-      Provides concrete server tooling (SQL-text guard, read-only transactions, schema discovery) rather than acting as
-      a generic framework or editor extension.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

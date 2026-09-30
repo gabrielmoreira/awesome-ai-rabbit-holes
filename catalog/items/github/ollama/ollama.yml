@@ -128,21 +128,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Ollama is the canonical local runtime and serving layer for developers running open models on their own hardware,
-    with deep integrations into coding agents but always as infrastructure rather than an assistant itself.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Local API Servers
   evidence:
-    - Repo description explicitly lists running local models like DeepSeek, Gemma, and Qwen via a CLI.
-    - >-
-      README shows REST API, Python/JS SDKs, and explicit integrations with Claude Code, Codex, and Copilot CLI as
-      hosted targets.
-    - >-
-      Listed as a canonical positive in the local-ai category and included in awesome-ai-coding-tools under 'Local LLM
-      Tools'.
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: local-ai
   secondary_categories: []
-  section: Inference Engines
+  section: Local API Servers
 lifecycle:
   status: curated
   reason: Stars (170860) exceeded threshold (150)

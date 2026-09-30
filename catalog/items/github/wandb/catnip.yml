@@ -70,19 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is clearly an augmentation layer for Claude Code rather than a standalone coding agent, providing containerized
-    hosting, worktree parallelism, and mobile UI capabilities.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      README explicitly describes Catnip as a container/web service for running Claude Code with worktree management,
-      not as the agent itself
-    - >-
-      Source list categorizes it under 'Harnesses & orchestration' indicating it is infrastructure for agents rather
-      than the agent
-    - >-
-      Core features (native iOS app, worktree parallelization, Codespaces integration) are host capabilities augmenting
-      Claude Code access
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

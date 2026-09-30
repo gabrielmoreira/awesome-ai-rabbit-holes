@@ -81,19 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is an MCP server implementation for the JVM ecosystem, making MCP the primary product
-    rather than an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is 'an implementation project of a JVM-based MCP server'
-    - >-
-      README positions it as providing 'AI agents with powerful capabilities to monitor and analyze Java applications'
-      via MCP
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
-    - Tools expose JDK commands (jps, jstack, jmap, etc.) through MCP interface using FastMCP
-    - >-
-      Not positioned as a coding agent, IDE extension, or framework—its value is in MCP-mediated access to JVM
-      diagnostics
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

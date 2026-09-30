@@ -92,13 +92,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It serves as a coordination layer for multiple agents, providing the shared state and messaging required for
-    multi-agent workflows.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Claims to be a 'communication and coordination layer' for AI coding agents
-    - Enables agents like Claude Code and Cursor to share work-state and detect file collisions
-    - Uses MCP to facilitate messaging and task handoffs between different agent harnesses
+    - jev-latest choice confidence 0.61
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

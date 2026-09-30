@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is an MCP server that exposes IDE capabilities as tools, not just a compatibility
-    adapter.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for JetBrains IDEs
-    - README details MCP tools for code navigation, refactoring, and diagnostics
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: mcp
   secondary_categories: []

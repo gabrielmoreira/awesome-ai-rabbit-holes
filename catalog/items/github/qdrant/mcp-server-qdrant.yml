@@ -101,17 +101,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is an official Qdrant MCP server providing vector memory tools, not a generic
-    framework or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo description explicitly states 'An official Qdrant Model Context Protocol (MCP) server implementation'.
-    - >-
-      README defines it as 'An official Model Context Protocol server for keeping and retrieving memories in the Qdrant
-      vector search engine.'
-    - >-
-      Listed in awesome-mcp-servers under 'Official Servers' and in awesome-agent-orchestration under MCP > Database &
-      Vector Stores.
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: mcp
   secondary_categories: []

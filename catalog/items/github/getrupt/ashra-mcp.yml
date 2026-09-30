@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server implementation for Ashra, fitting the MCP category definition where the product
-    identity is the protocol server itself.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - 'Repo description explicitly states: ''A Model Context Protocol server for Ashra''.'
-    - README details configuration for Claude Desktop via the 'mcpServers' JSON block.
-    - Listed in awesome-mcp-servers under 'Browser Automation' server implementations.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

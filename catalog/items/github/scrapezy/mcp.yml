@@ -59,21 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly built as an MCP server to give AI models access to web scraping capabilities, fitting
-    perfectly into the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      README states: 'A Model Context Protocol server for Scrapezy that enables AI models to extract structured data
-      from websites.'
-    - Includes explicit installation instructions for Claude Desktop via the `mcpServers` config block.
-    - >-
-      Listed in the 'awesome-mcp-servers' directory under 'Official Servers', confirming its identity as an MCP
-      component.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

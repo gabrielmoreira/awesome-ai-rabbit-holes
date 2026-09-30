@@ -58,17 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    YDB MCP is an MCP server whose primary identity is providing MCP infrastructure for YDB, fitting the MCP Servers &
-    Tooling category as a domain-specific server implementation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - >-
-      The README explicitly states it is a 'Model Context Protocol server for YDB' that enables LLMs to work with YDB
-      databases
-    - It provides MCP-compliant tools like ydb_query, ydb_describe_path, and ydb_status for database interaction
-    - >-
-      It is listed in the awesome-mcp-servers directory under Server Implementations > Databases, confirming its role as
-      an MCP server
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

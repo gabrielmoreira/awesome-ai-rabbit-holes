@@ -76,17 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server offering 19 specific domain tools for the Arbitrum ecosystem,
-    fitting the Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states '19 MCP tools' and the README architecture centers on the 'MCP Server (19
-      tools)'.
-    - Seen in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
-    - >-
-      The README quick start shows adding it strictly as an MCP server to Claude Code and Cursor, not as a standalone
-      agent.
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

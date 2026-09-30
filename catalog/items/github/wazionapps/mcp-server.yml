@@ -92,15 +92,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server as its core identity, exposing WhatsApp Business tools via the Model Context Protocol,
-    matching the MCP category’s focus on servers and tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''WAzion MCP Server - Connect AI agents to WhatsApp via WAzion API'''
-    - >-
-      README: 'This MCP server exposes 240+ tools that let any MCP-compatible client manage your WhatsApp Business
-      operations through natural language'
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication'
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

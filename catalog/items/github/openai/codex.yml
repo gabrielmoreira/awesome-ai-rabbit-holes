@@ -75,15 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The repository describes a developer-facing coding assistant designed to plan, write, and edit code directly in the
-    terminal or IDE, fitting the primary identity of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description explicitly states: ''Lightweight coding agent that runs in your terminal''.'
-    - >-
-      README identifies it as 'a coding agent from OpenAI that runs locally on your computer' with IDE integration
-      options.
-    - Included in the 'awesome-cli-coding-agents' list under the 'Terminal-native coding agents' section.
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: coding-agents
   secondary_categories: []

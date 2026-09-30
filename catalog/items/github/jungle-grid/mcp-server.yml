@@ -64,19 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is providing MCP tooling for Jungle Grid workloads, making MCP the
-    primary adopted thing rather than a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server for Jungle Grid lets agents submit, monitor, and retrieve logs from AI workloads.'''
-    - >-
-      README emphasizes MCP server functionality: supports local stdio and hosted Streamable HTTP deployments forwarding
-      tool calls to Jungle Grid API.
-    - 'Seen in source list: awesome-mcp-servers under ''Server Implementations > Developer Tools''.'
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

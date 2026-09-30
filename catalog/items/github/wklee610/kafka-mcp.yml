@@ -69,19 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server implementation whose core identity is providing Model Context Protocol tooling for
-    Kafka, making MCP the primary product rather than a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''MCP Server for Apache Kafka'''
-    - >-
-      README title and content: 'Kafka MCP Server' with detailed MCP tool definitions for cluster, topic, config,
-      consumer, and message operations
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Databases'
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

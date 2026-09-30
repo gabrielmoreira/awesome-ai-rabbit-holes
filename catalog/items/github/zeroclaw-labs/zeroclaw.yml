@@ -72,26 +72,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    ZeroClaw functions as a standalone coding assistant that can edit code, run commands, and automate development tasks
-    via its agent loop, tool use, and ACP protocol, positioning it as a primary assistant rather than an extension.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - >-
-      ZeroClaw is an agent runtime — a single Rust binary you configure and run. It talks to LLM providers [...] and
-      acts through tools (shell, browser, HTTP, hardware, custom MCP servers).
-    - >-
-      It includes an Agent Client Protocol (ACP) for IDE/editor integration via JSON-RPC 2.0 over stdio, enabling use as
-      a coding assistant.
-    - >-
-      The quick start includes `zeroclaw agent` for interactive chat in the terminal and `zeroclaw onboard` to configure
-      providers and channels for autonomous operation.
-    - >-
-      Listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > OpenClaw ecosystem', indicating
-      recognition as a terminal-native coding agent.
+    - jev-latest choice confidence 0.59
 placement:
-  primary_category: agent-orchestration
+  primary_category: local-ai
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Inference Engines
 lifecycle:
   status: curated
   reason: Stars (31279) exceeded threshold (150)

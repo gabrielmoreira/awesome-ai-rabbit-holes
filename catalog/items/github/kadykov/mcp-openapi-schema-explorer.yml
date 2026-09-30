@@ -91,13 +91,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity: this is a dedicated MCP server providing domain-specific (OpenAPI) functionality
-    via MCP Resource Templates.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as an MCP server for OpenAPI/Swagger specs
-    - README emphasizes MCP Resource Templates as the primary mechanism for spec access
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

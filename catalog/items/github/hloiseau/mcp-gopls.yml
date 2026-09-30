@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server exposing Go-specific LSP tooling, not a generic
-    extension or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as an MCP server for Go using gopls
-    - README details MCP tools for LSP features (definitions, tests, coverage, etc.)
-    - Already listed in awesome-mcp-servers under Developer Tools
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

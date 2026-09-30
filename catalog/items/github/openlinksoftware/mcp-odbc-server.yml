@@ -60,19 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose entire identity is exposing ODBC data sources to MCP clients, making it a
-    textbook fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - >-
-      Repo description explicitly states it is a 'Typescript based Model Context Protocol (MCP) Server for Open Database
-      Connectivity (ODBC)'.
-    - >-
-      README describes a small TypeScript layer built on node-odbc that routes calls to ODBC drivers for MCP client
-      applications.
-    - >-
-      Listed in awesome-mcp-servers under 'Databases', confirming its role as a domain-specific MCP server
-      implementation.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

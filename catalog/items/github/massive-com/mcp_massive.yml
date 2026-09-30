@@ -65,17 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server whose core identity is providing financial market data through the Model Context
-    Protocol, making it a clear fit for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''An MCP server for Massive.com Financial Market Data'''
-    - >-
-      README: 'A Model Context Protocol (MCP) server that provides access to the full Massive.com financial data API
-      through an LLM-friendly interface'
-    - >-
-      Provides three composable MCP tools (search_endpoints, call_api, query_data) specifically for accessing
-      Massive.com's API
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

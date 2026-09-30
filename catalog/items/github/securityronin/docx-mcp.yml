@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that extends coding agents with document-editing capabilities, making it a clear fit
-    for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states 'MCP server for reading and editing Word (.docx) documents'.
-    - README demonstrates MCP integration with Claude Code, Cursor, Windsurf, and VS Code via MCP configuration.
-    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

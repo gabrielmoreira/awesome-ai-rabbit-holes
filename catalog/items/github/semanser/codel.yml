@@ -87,19 +87,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is a standalone autonomous coding agent designed to plan and execute tasks via terminal, browser, and
-    editor, fitting the primary assistant definition.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - >-
-      Repo description explicitly calls it a 'Fully autonomous AI Agent that can perform complicated tasks and
-      projects'.
-    - README highlights autonomous execution, a built-in browser, and a built-in text editor for modifying files.
-    - Included in the 'awesome-cli-coding-agents' list under the 'Terminal-native coding agents > Open Source' section.
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: curated
   reason: Stars (2447) exceeded threshold (150)

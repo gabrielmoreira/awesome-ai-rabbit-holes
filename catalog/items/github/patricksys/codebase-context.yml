@@ -84,22 +84,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is a context-shaping system that maps architecture, detects patterns from git history, and provides
-    preflight context to agents via MCP, making it a context engineering tool rather than a coding agent or thin
-    extension.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Retrieval & Fresh Docs
   evidence:
-    - >-
-      Repo description: 'Generate a map of your codebase to help AI Agents understand your architecture, coding
-      conventions and patterns.'
-    - >-
-      README: 'The first call shows architecture layers, active patterns, golden files... search does not just return
-      code. Each result comes back with pattern signals, file relationships, and quality indicators.'
-    - >-
-      Topics and README emphasize context-engineering, MCP server, semantic-search, and local-first execution by
-      default.
+    - jev-latest choice confidence 0.63
 placement:
   primary_category: memory-and-context
+  secondary_categories: []
   section: Retrieval & Fresh Docs
 lifecycle:
   status: curated

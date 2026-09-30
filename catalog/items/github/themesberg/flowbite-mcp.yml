@@ -71,17 +71,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server providing Tailwind UI components and Figma-to-code tools to MCP-compatible
-    clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description states: ''Convert Figma design to code with the official Flowbite MCP server'''
-    - README identifies it as 'An MCP server that enables AI assistants to access the Flowbite library'
-    - Listed in awesome-mcp-servers under 'Developer Tools' with active recent pushes (pushed 2026-01-04)
+    - jev-latest choice confidence 0.84
 placement:
-  primary_category: extensions-and-addons
+  primary_category: mcp
   secondary_categories: []
-  section: API & Service Integrations
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

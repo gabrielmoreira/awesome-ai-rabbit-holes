@@ -68,16 +68,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server for Odoo ERP, making MCP the primary product identity rather than a compatibility
-    feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP server for Odoo ERP
-    - README details MCP-specific installation and configuration for multiple AI assistants
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (272) exceeded threshold (150)

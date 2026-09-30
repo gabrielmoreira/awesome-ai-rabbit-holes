@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is providing MCP-based access to editor local history, making MCP
-    the primary product identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server for accessing VS Code/Cursor''s Local History'''
-    - 'README: ''Access Cursor/VS Code Local History through the Model Context Protocol for AI-powered data recovery'''
-    - 'Source-list context: Listed in awesome-mcp-servers under Community Servers'
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []

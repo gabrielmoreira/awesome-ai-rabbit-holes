@@ -96,13 +96,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server providing domain-specific (crypto/finance) data access, fitting the
-    MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states 'A coincap mcp server to access crypto data from coincap API'.
-    - README focuses entirely on configuring the server for Claude Desktop via MCP configuration.
-    - Listed in awesome-mcp-list and awesome-mcp-servers directories under Finance & Fintech sections.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

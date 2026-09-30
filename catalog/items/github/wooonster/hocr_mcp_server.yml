@@ -55,13 +55,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server offering OCR functionality, making MCP the core product identity rather than
-    a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repository name and README identify it as an MCP Server using Model Context Protocol
-    - Provides a clear MCP server startup command via uvicorn
-    - Listed in awesome-mcp-servers under Developer Tools section
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

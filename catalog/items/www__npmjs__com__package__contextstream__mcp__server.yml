@@ -52,10 +52,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The package is explicitly an MCP server, making MCP its primary identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Package name is '@contextstream/mcp-server'
-    - Published on npm as an MCP server implementation
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

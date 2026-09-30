@@ -54,13 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is providing Model Context Protocol access to Notion, making it MCP
-    infrastructure rather than a coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''Official Notion MCP Server'''
-    - 'README: ''This project implements an MCP server for the Notion API'''
-    - 'Source-list context: Listed in awesome-mcp-servers under Official Servers'
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []

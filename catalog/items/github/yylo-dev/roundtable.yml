@@ -144,13 +144,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: it is a server that unifies multiple AI coding assistants via MCP protocol, not just an
-    adapter or compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly states it is a 'Zero-configuration MCP server'
-    - README emphasizes MCP server role coordinating sub-agents via CLI tools
-    - Listed in awesome-mcp-servers under 'Aggregators' section
+    - jev-latest choice confidence 0.58
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

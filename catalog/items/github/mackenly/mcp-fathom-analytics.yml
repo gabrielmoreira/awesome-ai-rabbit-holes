@@ -60,15 +60,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is an MCP server whose primary identity is providing Model Context Protocol access to Fathom Analytics data,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''MCP server for Fathom Analytics'''
-    - >-
-      README: Provides MCP tools like get-account, list-sites, list-events, get-aggregation, and get-current-visitors
-      for Fathom Analytics
-    - Listed in awesome-mcp-servers under Community Servers section
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

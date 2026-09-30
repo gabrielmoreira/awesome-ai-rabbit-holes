@@ -58,19 +58,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for Toggl, making it a clean fit for MCP Servers & Tooling as a
-    domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description states: ''A lazy Toggl MCP server for time tracking integration'''
-    - >-
-      README confirms: 'A Model Context Protocol (MCP) server that provides tools for interacting with Toggl time
-      tracking'
-    - Included in awesome-mcp-servers under 'Community Servers' for Toggl integration
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

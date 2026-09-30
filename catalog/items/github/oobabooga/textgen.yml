@@ -74,21 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a desktop app and local serving layer for running LLMs on your own hardware, which is the canonical
-    definition of the Local AI category.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
   evidence:
-    - >-
-      Repo description states: 'Open-source desktop app for local LLMs. Text, vision, tool-calling,
-      OpenAI/Anthropic-compatible API.'
-    - >-
-      README identifies it as 'A desktop app for local LLMs. Open source, no telemetry.' with an
-      OpenAI/Anthropic-compatible API.
-    - Listed in awesome-local-ai under the 'Inference UI' section and has high traction (46k+ stars).
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: local-ai
   secondary_categories: []
-  section: Local API Servers
+  section: Desktop Chat & UIs
 lifecycle:
   status: curated
   reason: Stars (46945) exceeded threshold (150)

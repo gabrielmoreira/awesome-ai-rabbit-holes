@@ -99,15 +99,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server designed to give Claude Desktop specific capabilities (loading CSVs, running
-    scripts) for data exploration, fitting the Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repository name is 'mcp-server-data-exploration' and README confirms it is 'MCP Server for Data Exploration'.
-    - Provides specific MCP components including 'explore-data' prompt and tools like 'load-csv' and 'run-script'.
-    - >-
-      Actively maintained (pushed 2025-03-22) and listed in multiple 'awesome-mcp-servers' directories under Data
-      Science Tools.
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: mcp
   secondary_categories: []

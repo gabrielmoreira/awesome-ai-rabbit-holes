@@ -95,13 +95,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is explicitly a 'MCP Aggregator' and 'meta-MCP server', fitting perfectly as MCP
-    infrastructure middleware rather than a generic framework or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description explicitly states ''Magg: The MCP Aggregator''.'
-    - README defines it as a 'meta-MCP server that acts as a central hub for managing multiple MCP servers'.
-    - Listed in awesome-mcp-servers under 'Aggregators' and 'Community Servers'.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

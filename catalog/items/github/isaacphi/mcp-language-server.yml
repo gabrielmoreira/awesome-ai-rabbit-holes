@@ -83,11 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the core product identity, and the server exposes LSP capabilities as MCP tools for developer workflows.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server exposing LSP tools
-    - README confirms it provides semantic tools (definition, references, rename, diagnostics) to MCP clients
-    - Listed in awesome-mcp-servers under 'Developer Tools' and 'Community Servers'
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

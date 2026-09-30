@@ -57,17 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server whose primary identity is providing Lorcana TCG data and analysis tools via the
-    Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as a 'Disney Lorcana TCG MCP server'
-    - README details MCP-compatible tools and installation via `npx` and Claude Desktop/Code configs
-    - Core functionality revolves around MCP tool calls (search_cards, analyze_ink_curve, etc.)
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

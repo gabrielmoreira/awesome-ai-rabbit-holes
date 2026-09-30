@@ -67,13 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server for Cloudflare tunneling, fitting the MCP Servers & Tooling
-    category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP server for mycrab.space
-    - README details MCP tools (check_domain, setup_free_tunnel, buy_domain_sol) and Claude Desktop integration
-    - Source-list context places it in an MCP server list under Cloud Platforms
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []

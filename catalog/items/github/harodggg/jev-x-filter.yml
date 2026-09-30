@@ -55,20 +55,22 @@ metadata:
       fetched_at: '2026-09-29T13:11:58.983Z'
       bytes: 63510
 insights:
-  summary: null
+  summary: >-
+    信息过滤器 · Jev —— Chrome MV3 扩展：用 Jev（TypeSafe System One）的类型化决策过滤 X 时间线上的垃圾信息（色情引流 / 诈骗博彩荐股 / 广告导流 / 标题党 / 低质 AI /
+    刷屏农场六类可开关），高置信度才动账号，默认演练模式
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - jev-latest choice confidence 0.75
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null

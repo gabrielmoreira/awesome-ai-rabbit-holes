@@ -75,17 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server whose primary identity is providing specialized UI-rendering tools to
-    existing AI assistants.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Scaffolding & Boilerplate
   evidence:
-    - Explicitly identifies as an MCP server providing tools like `generate_screen` and `iterate_screen`.
-    - Uses Playwright to render high-fidelity PNGs and Tailwind/HTML code from text prompts.
-    - Designed to be integrated into MCP clients like Claude Code, Cursor, and Windsurf.
+    - jev-latest choice confidence 0.64
 placement:
-  primary_category: mcp
+  primary_category: app-builders
   secondary_categories: []
-  section: AI & Model Services
+  section: Scaffolding & Boilerplate
 lifecycle:
   status: curated
   reason: null

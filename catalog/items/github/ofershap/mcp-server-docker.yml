@@ -71,15 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a canonical MCP server that exposes Docker capabilities to MCP-compatible clients, fitting cleanly into the
-    MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP server for Docker — manage containers, images, volumes from your IDE'
-    - >-
-      README confirms it is an MCP server compatible with Claude Desktop, Cursor, and VS Code Copilot, connecting to the
-      local Docker socket
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', reinforcing its MCP identity
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

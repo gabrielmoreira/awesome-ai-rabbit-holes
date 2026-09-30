@@ -65,17 +65,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Mini-Kode is a standalone CLI-based coding agent that performs core assistant functions like file editing, command
-    execution, and LLM-driven planning, fitting the definition of a developer-facing coding assistant.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''An educational AI coding agent CLI'''
-    - >-
-      README: Describes a 'Complete Agent Loop' with 'LLM workflow', 'human-in-the-loop permission approval', and tool
-      system for file operations, search, and command execution
-    - >-
-      Project structure includes src/agent/, src/tools/, src/llm/, and src/permissions/, indicating a full agent
-      architecture
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: coding-agents
   secondary_categories: []

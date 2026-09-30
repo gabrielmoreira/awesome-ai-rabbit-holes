@@ -74,17 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a multi-agent orchestration platform for enterprise workflows, fitting the Agent Orchestration
-    category as a control plane for coordinating agents.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly calls it an 'agentic workflow platform for building SuperAgents'
-    - Topics include 'multi-agent', 'orchestration', 'workflow-engine', and 'enterprise-automation'
-    - Source-list context places it under 'Agents' in a curated LLM resources list
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Visual Builders & Workbenches
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (8311) exceeded threshold (150)

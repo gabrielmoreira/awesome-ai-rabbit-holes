@@ -77,17 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is specifically a Model Context Protocol server designed to provide external tool capabilities
-    to MCP clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'MCP server for the Invovate invoice API'
-    - README details tools for Claude Desktop, Cursor, and Windsurf via MCP
-    - Primary function is providing domain-specific capabilities (invoicing) to existing AI assistants
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

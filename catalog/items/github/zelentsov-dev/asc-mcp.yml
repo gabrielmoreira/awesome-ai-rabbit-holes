@@ -73,17 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    ASC-MCP is an MCP server whose core identity is providing App Store Connect API access via the Model Context
-    Protocol, making it a domain-specific MCP server rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description: 'MCP server for App Store Connect API — 208 tools for managing apps, builds, TestFlight,
-      subscriptions, and more from Claude, Cursor, VS Code, or any MCP client'
-    - >-
-      README: 'ASC-MCP is a Swift-based MCP server that bridges Claude (or any MCP-compatible host) with the App Store
-      Connect API'
-    - 'Source-list: listed in awesome-mcp-servers under Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

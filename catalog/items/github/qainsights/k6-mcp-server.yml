@@ -65,15 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is specifically an MCP server implementation for k6, fitting cleanly into the MCP Servers &
-    Tooling category as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'k6 MCP server' and topics include 'mcp' and 'model-context-protocol'.
-    - >-
-      README confirms it is 'A Model Context Protocol (MCP) server implementation for running k6 load tests' with tools
-      like execute_k6_test.
-    - Listed in awesome-mcp-servers under 'Developer Tools', reinforcing its identity as an MCP server.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

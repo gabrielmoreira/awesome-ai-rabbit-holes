@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for a specific domain (Google Tag Manager), fitting cleanly into MCP Servers
-    & Tooling as a domain-specific implementation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description states: ''MCP server for Google Tag Manager''.'
-    - README confirms it 'provides an interface to the Google Tag Manager API' for clients like Claude Desktop.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Marketing'.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

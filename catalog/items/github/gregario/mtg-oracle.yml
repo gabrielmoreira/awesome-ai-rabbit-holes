@@ -59,11 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a domain-specific MCP server exposing MTG tools to AI assistants.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly identifies it as an MCP server
-    - README details 14 MCP tools for MTG data and analysis
-    - MCP compatibility is central to its purpose (not a secondary feature)
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -84,17 +84,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core novelty is the semantic retrieval and token reduction of code context, which is the primary focus of
-    the Prompt & Context Engineering category.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
   evidence:
-    - Uses clangd, Roslyn, and tree-sitter for semantic, symbol-based indexing instead of raw text grep
-    - Claims 97–99% token savings compared to traditional grep searches in large repos
-    - Designed specifically to sit between large codebases and agents like Claude Code to manage context windows
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: memory-and-context
   secondary_categories: []
-  section: Retrieval & Fresh Docs
+  section: Compression & Token Optimization
 lifecycle:
   status: curated
   reason: null

@@ -84,13 +84,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Keen Code functions as a standalone terminal-based coding assistant that reads, plans, edits code, and runs
-    commands, fitting the core definition of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''A context-aware and efficient CLI-based coding agent written in Go'''
-    - 'README: ''Keen Code is a terminal-based AI coding agent like Claude Code or Codex CLI'''
-    - 'Features: Includes file editing, bash execution, glob/grep, and session management for software engineering tasks'
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: coding-agents
   secondary_categories: []

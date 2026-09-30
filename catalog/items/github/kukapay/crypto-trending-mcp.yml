@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose primary identity is providing domain-specific (crypto) data via MCP tools and
-    prompts.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for CoinGecko trending tokens
-    - README details MCP tools (`get_trending_md_doc`) and prompts (`parse_trending_md_doc`) for MCP clients
-    - Designed for integration with Claude Desktop via MCP protocol
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

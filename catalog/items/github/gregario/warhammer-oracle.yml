@@ -58,15 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a domain-specific MCP server exposing Warhammer 40K/Kill Team tools and data.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as a Warhammer 40K/Kill Team MCP server
-    - README details MCP-compatible tools (lookup_unit, wound_calculator, etc.) and installation via npx/claude mcp add
-    - Badges and links confirm MCP compatibility and registry presence (glama.ai)
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

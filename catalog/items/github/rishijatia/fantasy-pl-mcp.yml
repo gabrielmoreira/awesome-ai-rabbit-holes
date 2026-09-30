@@ -77,16 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server for a specific domain (Fantasy Premier League), fitting cleanly into
-    MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'Fantasy Premier League MCP Server'.
-    - README positions the tool as an MCP server for Claude Desktop, Cursor, and Windsurf.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Gaming/Domain servers.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

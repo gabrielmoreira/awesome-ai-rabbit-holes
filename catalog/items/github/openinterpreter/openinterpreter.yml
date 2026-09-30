@@ -201,15 +201,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It fits as a Terminal & CLI Agent because it acts as a primary coding assistant in the terminal that plans and
-    executes code across a local environment.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''A natural language interface for computers'''
-    - 'README: ''lets LLMs run code (Python, Javascript, Shell, and more) locally'' via a ChatGPT-like terminal interface'
-    - >-
-      Listed as a 'Terminal-native coding agent' in awesome-cli-coding-agents and 'Coding Agents' in
-      awesome-ai-coding-tools
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: coding-agents
   secondary_categories: []

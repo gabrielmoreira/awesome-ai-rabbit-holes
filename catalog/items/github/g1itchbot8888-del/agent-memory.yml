@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty and utility of the project is its three-layer memory architecture for context management rather
-    than acting as a coding assistant itself.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - README describes a 'three-layer architecture' (identity, active, archive) to manage token burn.
-    - Uses SQLite and local embeddings for semantic retrieval.
-    - Focuses on 'learning from errors' and context-shaping for agents.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: memory-and-context
   secondary_categories: []

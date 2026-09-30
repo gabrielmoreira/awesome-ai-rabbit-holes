@@ -102,19 +102,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose primary identity is providing SMS verification capabilities via the Model Context
-    Protocol, making it a clear fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description: 'SMS verification MCP server — real SIM phone numbers across 145+ countries and 2000+ services
-      for AI agents'
-    - 'README: ''Built on the Model Context Protocol'' and ''One install, 18 tools, works with every major MCP client'''
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication'
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

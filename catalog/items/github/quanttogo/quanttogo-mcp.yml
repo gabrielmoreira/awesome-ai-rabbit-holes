@@ -71,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server providing a domain-specific data source for AI agents, fitting cleanly into
-    MCP Servers & Tooling as a domain server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''Macro-factor quantitative signal source for AI agents via MCP.'''
-    - README lists integration configs for Claude Desktop, Cursor, and Coze, and exposes 8 MCP tools and 1 resource.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' server implementations.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

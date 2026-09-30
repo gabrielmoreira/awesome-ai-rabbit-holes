@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing MCP-based access to Freqtrade's API,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for Freqtrade
-    - README details MCP server setup and tool exposure via Freqtrade REST API
-    - Project is part of a collection of crypto-related MCP servers
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

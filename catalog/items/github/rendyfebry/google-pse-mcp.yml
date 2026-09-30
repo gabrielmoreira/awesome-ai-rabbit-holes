@@ -59,17 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is explicitly an MCP server designed to bridge Google Custom Search with MCP-compatible
-    clients, fitting the 'Domain Servers' section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description states: 'A Model Context Protocol (MCP) server for the Google Programmable Search Engine (PSE)
-      API'.
-    - >-
-      README confirms it 'exposes tools for searching the web... making them accessible to MCP-compatible clients such
-      as VSCode, Copilot, and Claude Desktop'.
-    - Listed in 'awesome-mcp-servers' under the 'Community Servers' section.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

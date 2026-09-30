@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is exposing Storyblok's CMS capabilities through the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP Server for Storyblok
-    - README details CRUD operations for Storyblok resources via MCP
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []

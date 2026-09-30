@@ -74,13 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose primary identity is exposing iOS simulator functionality through the MCP
-    specification.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README explicitly describes it as an MCP server for iOS simulators
-    - Source lists categorize it under MCP servers (awesome-mcp-list, awesome-mcp-servers)
-    - Installation instructions show MCP server configuration for Claude
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

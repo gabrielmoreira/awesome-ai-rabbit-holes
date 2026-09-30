@@ -78,17 +78,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server that exposes email deliverability testing tools to MCP-compatible
-    clients like Claude Desktop, Cursor, and Windsurf.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'MCP server for email deliverability testing'.
-    - README says it 'exposes 5 tools that wrap the Inbox Check REST API' and is 'Built for AI agents'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Marketing'.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

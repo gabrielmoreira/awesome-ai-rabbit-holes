@@ -58,15 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that adds ntfy notification capabilities to assistants like Cline, fitting cleanly into
-    MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - >-
-      README states it is 'the MCP server that keeps you caffeinated and informed' and integrates with the Model Context
-      Protocol.
-    - Includes Cline configuration examples showing it acts as an integration layer for existing assistants.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication', confirming its MCP identity.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

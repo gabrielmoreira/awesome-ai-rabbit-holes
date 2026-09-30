@@ -92,15 +92,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP server identity is the core product, exposing Docker operations as tools for MCP-compatible assistants, which
-    fits the MCP Servers & Tooling category cleanly.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'A docker MCP Server (modelcontextprotocol)'.
-    - >-
-      README demonstrates MCP tool definitions (create-container, deploy-compose, get-logs, list-containers) and Claude
-      Desktop configuration.
-    - Included in awesome-mcp-servers and awesome-mcp-list directories under MCP server sections.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

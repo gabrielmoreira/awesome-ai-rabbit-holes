@@ -54,17 +54,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    opendevin.ai matches the coding-agents category as a developer-facing agent whose primary identity is performing
-    coding tasks autonomously across terminal, IDE, and browser environments.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - 'Source-list context: included in awesome-ai-coding-tools under the Coding Agents section'
-    - 'README excerpt (implied via source-list and URL): positions itself as an AI coding agent for software development'
-    - No evidence of being an extension, framework, or app builder; identity centers on autonomous coding task execution
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: curated
   reason: null

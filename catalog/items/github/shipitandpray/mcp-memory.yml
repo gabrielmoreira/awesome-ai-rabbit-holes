@@ -76,15 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for memory management, fitting cleanly into the MCP category as a
-    protocol-native tool rather than a generic extension or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description identifies it as a memory tool with '7 tools' and topics include 'mcp-server' and
-      'model-context-protocol'.
-    - 'Installation instructions show MCP server configuration: ''mcpServers: { command: npx, args: [mcp-memory] }''.'
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section, confirming protocol-native identity.
+    - jev-latest choice confidence 0.52
 placement:
   primary_category: mcp
   secondary_categories: []

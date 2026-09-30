@@ -59,19 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server implementation that serves as the bridge between the Sequa documentation platform and
-    MCP-capable clients like Cursor and Claude.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo name is 'sequa-mcp' and README states it is 'the entry point for using Sequa via the Model Context Protocol
-      (MCP)'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
-    - Provides configuration examples for multiple MCP clients including Cursor, Claude Desktop, Windsurf, and VS Code
+    - jev-latest choice confidence 0.72
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Retrieval & Fresh Docs
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

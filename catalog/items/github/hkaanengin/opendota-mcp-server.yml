@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it is a dedicated MCP server providing domain-specific tools for Dota 2 data
-    access.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP server for OpenDota API access
-    - README details 20+ tools for Dota 2 data with stdio/HTTP transport modes
-    - Topics include 'mcp-server' and 'opendota'
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

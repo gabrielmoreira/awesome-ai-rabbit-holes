@@ -62,17 +62,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is a visual workbench and execution engine for coordinating multiple coding agents (Claude Code, Codex)
-    in multi-step workflows, which fits agent orchestration platforms rather than being a coding assistant itself.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Visual Builders & Workbenches
   evidence:
-    - >-
-      Repo description: 'Drag-and-drop agent workflow builder for orchestrating AI agents. Build multi-step pipelines to
-      run Claude Code and OpenAI Codex'
-    - >-
-      README: 'Circuit is a drag-and-drop workflow designer and execution engine for orchestrating multi-step Claude
-      Code and OpenAI Codex agents'
-    - 'Source list: included in awesome-agent-orchestration under ''Core Frameworks > Workflow & Pipeline Frameworks'''
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

@@ -79,19 +79,10 @@ insights:
     - mcp
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description and README identify it primarily as a Model Context Protocol server.
-    - The tool provides specific domain intelligence including dependency graphs and symbol indexes.
-    - It is designed to be used as an MCP-based bridge between an assistant and a local repository.
-    - >-
-      included: The product is explicitly an MCP server designed to provide domain-specific code intelligence to
-      connected assistants.
-    - Repo description specifically identifies it as a 'Model Context Protocol server'
-    - README defines the product architecture as AI Assistant ──MCP──► Synapse MCP
-    - Core value prop is providing structural context via the MCP protocol
-    - 'included: The project''s primary identity is an MCP server designed to provide context to other assistants.'
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing Azure Resource Graph access via MCP
-    protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description states it is an MCP server for Azure Resource Graph queries
-    - README confirms it is an MCP server with tool `query-resources` for Azure resources
-    - Already listed in awesome-mcp-servers under Cloud Platforms
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

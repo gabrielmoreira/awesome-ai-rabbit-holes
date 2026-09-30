@@ -143,17 +143,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    LangChain is a code-first SDK used by developers to import, script, and build LLM applications as reusable
-    components, matching the ai-frameworks definition of a framework for embedding AI workflows into software.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''The agent engineering platform.'''
-    - >-
-      README: 'LangChain is a framework for building agents and LLM-powered applications. It helps you chain together
-      interoperable components and third-party integrations to simplify AI application development.'
-    - >-
-      Source-list context: listed in awesome-llm-agents under 'Frameworks' and awesome-agent-orchestration under 'Core
-      Frameworks > Graph-Based Workflow Frameworks'
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

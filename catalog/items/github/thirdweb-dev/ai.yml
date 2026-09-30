@@ -60,17 +60,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The repository primarily provides a Model Context Protocol server (`thirdweb-mcp`) and accompanying SDK specifically
-    for blockchain interactions, fitting the MCP product identity.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - README explicitly details a 'MCP Server' installation path using `uvx thirdweb-mcp`.
-    - The core features are structured as modular 'Tools' (Insight, Engine, Nebula) designed for agent integration.
-    - Listed in 'awesome-mcp-servers' under the 'Official Servers' section.
+    - jev-latest choice confidence 0.62
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

@@ -82,13 +82,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an implementation of an MCP server specifically designed to bridge an existing toolset with a
-    specific authentication requirement.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - README identifies as an MCP server wrapping mcp-atlassian
-    - Uses Playwright for manual SSO/MFA session management
-    - Provides 73 tools via the Model Context Protocol
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

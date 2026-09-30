@@ -87,17 +87,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server providing finance and market tools, making it a clear fit for the MCP
-    Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description explicitly states 'MCP server: NISA/iDeCo simulation, retirement planning, daily market snapshot,
-      economic events'
-    - >-
-      README confirms it is a stdio server for Model Context Protocol with 12 tools for Claude Desktop, Claude Code, and
-      Cursor
-    - Listed in awesome-mcp-servers under the Finance & Fintech section, reinforcing its protocol-first identity
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: mcp
   secondary_categories: []

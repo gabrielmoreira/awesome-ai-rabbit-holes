@@ -147,13 +147,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server implementation for a specific domain (Rootly), fitting the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'Rootly MCP server'.
-    - README identifies it as 'An MCP server for the Rootly API' for Cursor, Windsurf, Claude, and other MCP clients.
-    - Listed in awesome-mcp-list and awesome-mcp-servers directories under developer tools/server implementations.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -77,19 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MarkItDown is a code-first utility library that developers import to convert documents to Markdown for LLM
-    pipelines, matching the Frameworks & SDKs category's focus on reusable building blocks rather than being a
-    standalone assistant or app builder.
+  reason: Jev decision-model reclassifier placed this item in document-ai / File Conversion & Markdown
   evidence:
-    - 'Repo description: ''Python tool for converting files and office documents to Markdown.'''
-    - >-
-      README: 'MarkItDown is a lightweight Python utility for converting various files to Markdown for use with LLMs and
-      related text analysis pipelines.'
-    - Canonical positive for ai-frameworks includes markitdown explicitly.
+    - jev-latest choice confidence 0.91
 placement:
-  primary_category: ai-frameworks
-  section: Provider & Model Abstractions
+  primary_category: document-ai
+  secondary_categories: []
+  section: File Conversion & Markdown
 lifecycle:
   status: curated
   reason: Stars (121112) exceeded threshold (150)

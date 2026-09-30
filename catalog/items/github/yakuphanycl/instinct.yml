@@ -44,18 +44,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    yakuphanycl/instinct - Self-learning memory for AI coding agents. Observes tool sequences, user preferences, and
+    recurring fixes; confidence-based promotion (hits ≥5 → mature, ≥10 → rule) so agents stop repeating mistakes without
+    explicit instruction. SQLite-backed, project-aware, zero external deps. Works with Claude Code, Cursor, Windsurf,
+    Goose, Codex. Published on PyPI as instinct-mcp and registered in the MCP Registry.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
+  evidence:
+    - jev-latest choice confidence 0.82
 placement:
-  primary_category: null
-  section: null
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: curated
   reason: null

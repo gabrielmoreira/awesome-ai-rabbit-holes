@@ -77,15 +77,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Swarm.js is a code-first SDK developers import into Node.js projects to build agent systems, making it a framework
-    rather than a standalone assistant or orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
   evidence:
-    - Repo description calls it a 'Node.js implementation' and 'SDK' for orchestrating multi-agent systems
-    - README shows usage via `require('openai-swarm-node')` and defines agents as importable classes
-    - >-
-      Positioned in awesome-agent-orchestration under 'TypeScript & Node.js Frameworks', not as a runtime or control
-      plane
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

@@ -3,12 +3,12 @@
 
 Reusable skill packs, rules bundles, slash-command sets, and directories that install into a coding agent or assistant to extend its behavior.
 
-_76 entries in 2 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_70 entries in 2 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Skill Packs & Libraries](#skill-packs--libraries) — 62
-- [Registries & Directories](#registries--directories) — 14
+- [Skill Packs & Libraries](#skill-packs--libraries) — 59
+- [Registries & Directories](#registries--directories) — 11
 
 ## Skill Packs & Libraries
 
@@ -43,22 +43,6 @@ _76 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
   _Because your coding assistant is about to start peer-reviewing your actual research papers._
 
   `scientific-computing` `agent-skills` `bioinformatics` `research-tools` `ai-agents`
-  </details>
-- **[awesome-agent-skills](https://github.com/voltagent/awesome-agent-skills)** `⭐ 28.6k` `updated ≤90d` A curated collection of 1100+ reusable agent skills for coding assistants like Claude Code, Cursor, and Gemini CLI. <details><summary>More about</summary>
-
-  Saves developers time by providing vetted, production-grade skill packs from real engineering teams instead of AI-generated noise.
-
-  _The quiet dread of realizing you’ve spent more time hunting for the right skill than actually coding._
-
-  `agent-skills` `skill-packs` `coding-assistants`
-  </details>
-- **[skills](https://github.com/vercel-labs/skills)** `⭐ 26.8k` `updated ≤90d` skills is a CLI for discovering and installing reusable skill packs for AI agents like Claude Code and OpenCode. <details><summary>More about</summary>
-
-  It lets developers standardize and share agent behaviors across projects and teams via installable skill modules.
-
-  _Finally, a way to feel guilty about not having installed the 'enterprise-grade-prompt-engineering' skill in your global agent directory._
-
-  `agent-skills` `cli` `extensions`
   </details>
 - **[llm-wiki-agent](https://github.com/samuraigpt/llm-wiki-agent)** `⭐ 3.2k` `updated ≤90d` A reusable skill pack that turns Claude Code, Codex, Gemini CLI, or OpenCode into a self-building personal wiki by ingesting documents and maintaining interlinked markdown pages with knowledge graphs. <details><summary>More about</summary>
 
@@ -161,11 +145,18 @@ _76 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
   `skills` `devops` `kubernetes` `agent-skills` `qovery`
   </details>
 - **[Aident-AI/aident-skill](https://github.com/aident-ai/aident-skill)** `⭐ 5` `updated ≤30d` Use Aident Loadout to connect your AI Agents to 1,000+ real-world apps and tools like Gmail, Slack, Linear, Notion, Firecrawl, and Fal, unlock 27,000+ executable actions, and track full audit history so your agents can get real work done reliably.
+- **[ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/claudecode-devplanbuilder)** `⭐ 5` `updated ≤1y` A reusable methodology and template pack for Claude Code that interviews users to generate structured project briefs, detailed development plans, and executor/verifier agent definitions. <details><summary>More about</summary>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+32 more in Skill Packs & Libraries &nbsp;—&nbsp; click to expand</strong></summary>
+  It gives Claude Code a repeatable spec-first workflow for turning product ideas into phased, testable development plans with built-in git discipline.
 
-- **[ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/claudecode-devplanbuilder)** `⭐ 5` `updated ≤1y` A reusable methodology and template pack for Claude Code that interviews users to generate structured project briefs, detailed development plans, and executor/verifier agent definitions.
+  _We have officially reached the point where your coding agent needs its own project manager, onboarding questionnaire, and middleware to avoid recursively inventing agile ceremonies._
+
+  `claude-code` `spec-driven` `planning` `agent-skills`
+  </details>
 - **[Cleo-Labs-IA/skills_library](https://github.com/cleo-labs-ia/skills_library)** `⭐ 3` `updated ≤180d` Comply — All-in-one compliance skills library for AI coding agents. 12 production-grade skills to get physical products legally to market.
+
+<details><summary><strong>▸ &nbsp;&nbsp;+29 more in Skill Packs & Libraries &nbsp;—&nbsp; click to expand</strong></summary>
+
 - **[ahm3dwasim/twoperson](https://github.com/ahm3dwasim/twoperson)** `⭐ 1` `updated ≤30d` A two-person rule for AI coding agents: a ship report can't be recorded without an approving verdict for that exact commit.
 - **[public-google-drive](https://github.com/zagmoai/public-google-drive)** `⭐ 1` `updated ≤1y` Public Google Drive is a skill pack that lets LLM coding agents create and edit Google Docs and Sheets on Memyard without Google sign-in.
 - **[Agent Coordinator](https://github.com/alanhoff/agent-coordinator)** `⭐ 0` `updated ≤30d` Agent Coordinator – Per-user Codex skill that represents dependency-aware tasks as bounded work graphs, records revisioned local state, reconciles uncertain work before retry, reruns planned checks at closeout, and can use optional specialists or run inline. Free and open source (MIT).
@@ -191,7 +182,6 @@ _76 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
 - **[typesafe-ai/daggerverse](https://github.com/typesafe-ai/daggerverse)** Official collection of reusable Dagger modules for TypeSafe AI and System One workflows.
 - **[typesafe-ai/skills](https://github.com/typesafe-ai/skills)** TypeSafe agent skills (site) - Official agent skill for Claude Code, Codex, and compatible agents: primitives, patterns, and how to structure evaluations.
 - **[wanghai673/jev-browser-skill](https://github.com/wanghai673/jev-browser-skill)** jev-browser-skill — This Codex Skill lets Codex drive Chrome through Jev to complete multi-step browser tasks from a goal description with preset inputs.
-- **[wuyoscar/jev-skill](https://github.com/wuyoscar/jev-skill)** jev-skill - An awesome collection of Jev use cases, workflows, and agent skills.
 - **[yuyang2230/jev-agent-skill](https://github.com/yuyang2230/jev-agent-skill)** Multi (19) — jev-router · Harness Router · Switchboard · jev-guard (leepokai) · jev-axi · jev-harness · Canny · jev-lint · Perch · Jev-Code-Reviewer · yoshi · public-browser · jev-agent-skill · hermes-jev-skills · Jevbridge · jev-use · jev-mcp (burnigtm) · typesafe-mcp · jev-style.
 - **[PyPI](https://pypi.org/project/harness-ai-kit)** harness-ai-kit – Package manager for AI agent assets (skills/CLIs/MCPs/loops). Install, lock, and sync skills across Codex, Claude Code, Cursor, Kiro with SAT-based dependency resolution and SHA-256 lockfile. 23 curated enterprise skills included. Available on PyPI.
 - **[Septim Agents Pack](https://septimlabs.com/tools/agents)** Septim Agents Pack – 10 named Claude Code sub-agents covering planning, architecture, brand, marketing, finance, design, legal, customer research, and cross-lane coordination. Drop the .claude/agents/ folder into any project; pay-once at $49.
@@ -209,13 +199,13 @@ _76 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
 
   `claude-skills` `agent-skills` `workflow-automation` `skill-registry` `developer-tools`
   </details>
-- **[awesome-openclaw-skills](https://github.com/voltagent/awesome-openclaw-skills)** `⭐ 51.4k` `updated ≤90d` awesome-openclaw-skills is a curated directory of 5,200+ OpenClaw skills, organized from the official OpenClaw Skills Registry. <details><summary>More about</summary>
+- **[skills](https://github.com/vercel-labs/skills)** `⭐ 26.8k` `updated ≤90d` skills is a CLI for discovering and installing reusable skill packs for AI agents like Claude Code and OpenCode. <details><summary>More about</summary>
 
-  It helps developers discover reusable automation skills for the OpenClaw local AI assistant, reducing time spent searching for functional extensions.
+  It lets developers standardize and share agent behaviors across projects and teams via installable skill modules.
 
-  _Another awesome list promising 'discovery' while you spend more time curating your discovery than actually coding._
+  _Finally, a way to feel guilty about not having installed the 'enterprise-grade-prompt-engineering' skill in your global agent directory._
 
-  `awesome-list` `agent-skills` `openclaw`
+  `agent-skills` `cli` `extensions`
   </details>
 - **[ClawHub](https://github.com/openclaw/clawhub)** `⭐ 9.2k` `updated ≤90d` ClawHub is a public registry and CLI for publishing, versioning, searching, and installing text-based agent skills (SKILL.md) and OpenClaw plugins. <details><summary>More about</summary>
 
@@ -225,17 +215,8 @@ _76 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
 
   `skills` `registry` `cli` `openclaw` `agents`
   </details>
-- **[garasegae/aiskillstore](https://github.com/garasegae/aiskillstore)** `⭐ 4` `updated ≤180d` An agent-first skill marketplace and MCP server for the discovery and installation of cross-platform AI agent skills via the USK open standard. <details><summary>More about</summary>
-
-  It enables agents to programmatically find, vet, and install their own capabilities across different runtimes (like Claude Code and Cursor) without manual human configuration.
-
-  _We have reached the stage where AI agents are now shopping for their own plugins so they can better ignore our requests._
-
-  `mcp` `agent-skills` `marketplace` `usk` `interoperability`
-  </details>
 - **[pinutss/jev-plugins](https://github.com/pinutss/jev-plugins)** Cursor and Hermes plugin marketplace for JEV Labs routing tools.
 - **[pouria3/bstorms-skill](https://github.com/pouria3/bstorms-skill)** pouria3/bstorms-skill : Playbook marketplace for AI agents — browse, buy, download, publish, and rate packages via remote MCP at https://bstorms.ai/mcp.
-- **[rafsilva85/skillflow-mcp-server](https://github.com/rafsilva85/skillflow-mcp-server)** rafsilva85/skillflow-mcp-server : AI skills marketplace for searching and discovering curated skills for coding agents.
 - **[Agent Skill](https://agentskill.sh)** A marketplace and directory for discovering and installing reusable AI agent skills, rule sets, and instruction packs for tools like Claude Code and Cursor. <details><summary>More about</summary>
 
   It provides a centralized way for developers to instantly augment their coding assistants with specialized domain knowledge or complex workflow rules via a single command.
@@ -252,14 +233,6 @@ _76 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
   _It turns your AI agent into a character in an RPG, where utility is measured by how many skill packs you've successfully micro-managed into its prompt._
 
   `agent-skills` `marketplace` `registry` `mcp` `automation`
-  </details>
-- **[Modelscope Skills](https://modelscope.cn/skills)** ModelScope Skills is a directory of reusable skill components that extend AI model applications within the ModelScope community. <details><summary>More about</summary>
-
-  It helps developers discover and reuse pre-built AI skills to accelerate model integration without starting from scratch.
-
-  _Another skill hub promising modularity while quietly adding to the endless pile of AI Lego bricks nobody asked to assemble._
-
-  `skills` `directory` `modelscope`
   </details>
 - **[openclawmp.stepfun.com](https://openclawmp.stepfun.com)** A marketplace for sharing and installing skills, plugins, triggers, and communicators to extend AI agents. <details><summary>More about</summary>
 

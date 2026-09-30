@@ -72,11 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the primary product identity, and the server specifically exposes InfluxDB capabilities through MCP.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is an MCP Server for querying InfluxDB
-    - README details MCP-specific resources, tools, and prompts for InfluxDB operations
-    - Listed in multiple MCP-focused awesome lists under Databases section
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

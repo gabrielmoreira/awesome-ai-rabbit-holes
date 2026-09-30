@@ -59,17 +59,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is primarily a code-first toolkit and SDK for developers to build and load tool plugins for language
-    models, fitting the definition of a framework over an orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly states 'Tool Learning for Big Models, Open-Source Solutions of ChatGPT-Plugins'.
-    - >-
-      README highlights building plugins via Python functions and loading tools programmatically (load_single_tools,
-      MTQuestionAnswerer).
-    - >-
-      README notes 'For new features... please go to XAgent', indicating this is legacy library code rather than an
-      active platform.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

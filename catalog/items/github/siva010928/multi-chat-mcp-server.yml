@@ -72,15 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server product whose primary identity is providing chat platform access to AI assistants via the
-    Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly defines it as a 'Google Chat MCP server' for AI assistants like Claude and Cursor.
-    - >-
-      README states it is an 'open-source, production-ready Model Control Protocol (MCP) server designed for Google Chat
-      integration with AI assistants.'
-    - Listed in awesome-mcp-servers under 'Community Servers' section.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

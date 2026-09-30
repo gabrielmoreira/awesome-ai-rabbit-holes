@@ -73,17 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Emdash is a developer-facing coding assistant that runs parallel agents to plan, write, and test code, fitting the
-    coding-agents category rather than being merely an extension or orchestrator.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'Emdash is the Open-Source Agentic Development Environment. Run multiple coding agents in
-      parallel. Use any provider.'
-    - 'Stars: 4268, pushed at 2026-05-06 shows active maintenance.'
-    - >-
-      Source-list context: listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers &
-      parallel runners'.
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

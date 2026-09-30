@@ -63,17 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is explicitly described as a plugin for JetBrains, making it an extension of an existing editor rather than
-    a standalone coding agent or IDE.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / IDE & Editor Add-ons
   evidence:
-    - 'Repo description states: ''Sweep: AI coding assistant for JetBrains''.'
-    - README directs users to the JetBrains plugin marketplace page.
-    - Source list awesome-ai-coding-tools classifies it under 'Code Review and Refactoring'.
+    - jev-latest choice confidence 0.73
 placement:
-  primary_category: coding-agents
+  primary_category: extensions-and-addons
   secondary_categories: []
-  section: IDE-Native & Editor Agents
+  section: IDE & Editor Add-ons
 lifecycle:
   status: curated
   reason: Stars (7712) exceeded threshold (150)

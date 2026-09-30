@@ -73,13 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing location-based search capabilities via the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP server for nearby place searches
-    - README confirms it implements MCP server functionality with Google Places integration
-    - Already listed in awesome-mcp-list under Location Services
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -78,20 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Memori's core is a memory and context-shaping layer that improves what goes into the model via structured
-    persistence and retrieval, making it a fit for Prompt & Context Engineering rather than a coding agent or
-    orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      Repo description: 'Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution
-      and conversation into structured, persistent state for production systems.'
-    - >-
-      README: 'Memory from what agents do, not just what they say.' and 'Memori recalls that your favorite color is
-      blue.' showing automatic persistence and recall.
-    - >-
-      Benchmarks show 81.95% accuracy on LoCoMo with 67% prompt size reduction vs. Zep, proving its context compression
-      and retrieval value.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: memory-and-context
   secondary_categories: []

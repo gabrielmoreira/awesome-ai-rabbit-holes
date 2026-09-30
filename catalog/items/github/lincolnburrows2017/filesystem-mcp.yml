@@ -67,13 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server implementation for file system operations, fitting the 'MCP Servers &
-    Tooling' category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description explicitly states: ''Model Context Protocol server for file system operations''.'
-    - README details specific MCP tools like read_file, write_file, and list_directory for Claude and Cursor.
-    - Found in awesome-mcp-servers under the 'File Systems' section.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

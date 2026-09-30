@@ -63,19 +63,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core product is a memory and retrieval system (knowledge graph, semantic search, LLM consolidation) for shaping
-    agent context, which squarely fits Prompt & Context Engineering even though it ships as an MCP server.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      Repo description and README call it a 'Universal memory layer' built on knowledge graphs and semantic vector
-      search, not a generic MCP utility.
-    - >-
-      Explicitly compared to file-based memory (CLAUDE.md) and traditional memory (Mem0) on recall benchmarks,
-      positioning it as context infrastructure.
-    - >-
-      MCP is the transport layer to Claude Code/Cursor; the novel substance is the consolidation and spreading
-      activation memory model.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: memory-and-context
   secondary_categories: []

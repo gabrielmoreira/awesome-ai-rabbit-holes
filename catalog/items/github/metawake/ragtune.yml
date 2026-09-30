@@ -75,16 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    RagTune is primarily a benchmarking and observability tool for RAG retrieval quality, fitting the evals category as
-    its core job is measuring and comparing retrieval behavior rather than acting as a coding assistant or agent
-    orchestrator.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - 'Repo description: ''EXPLAIN ANALYZE for RAG retrieval — inspect, debug, benchmark, and tune your retrieval layer'''
-    - README emphasizes batch evaluation, recall@k, needle coverage, confidence intervals, and regression detection
-    - >-
-      Commands like `simulate`, `explain`, and `compare` focus on benchmarking and diagnostics, not code generation or
-      agent coordination
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: evals
   secondary_categories: []

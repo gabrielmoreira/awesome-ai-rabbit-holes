@@ -73,23 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Web Data Source's primary identity is an MCP server exposing web crawling and data retrieval tools, making MCP its
-    core protocol identity rather than a secondary feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - >-
-      The product exposes a Model Context Protocol endpoint with 21 registered tools for job, download, traversal,
-      scheduling, tenant, and retrieval workflows
-    - >-
-      Source-list context identifies it as an 'Official Server' in awesome-mcp-servers with the purpose of being a
-      'pluggable web crawler' for agentic AI systems
-    - >-
-      Documentation focuses on MCP server deployment, client connection, and tool/prompt specifications rather than
-      positioning it as a coding agent, app builder, or framework
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Browser & Web Automation
 lifecycle:
   status: curated
   reason: null

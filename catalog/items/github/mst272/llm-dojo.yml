@@ -59,17 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a code-first library and CLI toolkit for LLM post-training experiments, fitting the Frameworks & SDKs
-    category as a reusable building block for developers.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - Repo description explicitly defines it as a '轻量级 LLM Post-training 框架' (lightweight LLM Post-training framework).
-    - README highlights scriptable entry points like `main_train.py` and CLI usage with DeepSpeed for SFT and RLVR.
-    - Active development indicated by a recent push date of 2026-03-08, showing it is maintained.
+    - jev-latest choice confidence 0.87
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Fine-tuning & Training
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (932) exceeded threshold (150)

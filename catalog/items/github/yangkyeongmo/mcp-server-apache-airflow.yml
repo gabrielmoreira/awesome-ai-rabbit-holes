@@ -77,13 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP server implementation as its core identity, not an extension or agent, fitting the MCP Servers &
-    Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'README states: ''A Model Context Protocol (MCP) server implementation for Apache Airflow'''
-    - Provides MCP server functionality via PyPI package and Smithery registration
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Developer Tools and Server Implementations
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

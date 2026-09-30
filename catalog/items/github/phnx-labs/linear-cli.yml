@@ -76,23 +76,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool extends coding agents with Linear project management capabilities rather than acting as a primary coding
-    assistant itself.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / API & Service Integrations
   evidence:
-    - >-
-      Repo description states it is 'Linear for you and your agents' and a 'Single-file Python CLI that drives Linear
-      from the shell or a subagent'.
-    - >-
-      README highlights specific agent integrations with Claude, Codex, Gemini, and Cursor, and includes a `skill.md`
-      for agents.
-    - >-
-      Source list placement in 'awesome-cli-coding-agents' under 'Agent infrastructure' confirms its role in extending
-      agent capabilities.
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
-  section: Claude Code & Agent Tools
+  section: API & Service Integrations
 lifecycle:
   status: curated
   reason: null

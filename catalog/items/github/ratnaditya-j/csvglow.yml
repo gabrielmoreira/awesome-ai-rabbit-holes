@@ -72,15 +72,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product's primary identity is a data visualization tool that exposes itself as an MCP server, fitting the Domain
-    Servers section of the MCP category.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Internal Tools & Dashboards
   evidence:
-    - 'Repo description: ''Generate beautiful interactive HTML dashboards from CSV/Excel files''.'
-    - >-
-      README details MCP server mode: 'csvglow works as an MCP tool in any MCP-compatible client... add csvglow to its
-      MCP config file'.
-    - Listed in awesome-mcp-servers under 'Data Visualization' section.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: app-builders
   secondary_categories: []

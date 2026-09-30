@@ -71,17 +71,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    LangStream is a code-first framework for building LLM apps via event-driven pipelines, not a coding agent or
-    orchestration workbench.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description: 'Event-Driven Developer Platform for Building and Running LLM AI Apps. Powered by Kubernetes and
-      Kafka.'
-    - >-
-      README emphasizes CLI, Helm charts, and Kubernetes deployment for running applications, not agent coordination or
-      code editing.
-    - 'Source-list context: listed under ''Other LLM Frameworks'' in awesome-langchain.'
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

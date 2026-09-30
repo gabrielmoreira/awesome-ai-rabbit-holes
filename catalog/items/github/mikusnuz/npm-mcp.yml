@@ -63,15 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that exposes npm functionality, making MCP the core identity rather than an extension
-    or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'MCP server for npm package management — 32 tools for publish, install, audit, search, security
-      & more'
-    - README positions it as an MCP server for AI assistants like Claude Code to manage npm packages
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

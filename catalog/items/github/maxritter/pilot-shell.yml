@@ -78,21 +78,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Pilot Shell centers on spec-first workflows with `/spec`, `/fix`, and `/prd` commands that drive implementation and
-    validation, making specs the controlling artifact rather than optional prompts.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Spec-First & Plan-Execute
   evidence:
-    - >-
-      Repo description: 'How real engineers run Claude Code and Codex: spec-driven planning, enforced TDD, persistent
-      memory, and quality enforcement on all levels.'
-    - >-
-      README: 'Every component solves a real problem with an engineered solution: `/spec` — plans, implements, and
-      verifies features end-to-end with TDD'
-    - 'Source-list context: listed in awesome-spec-driven-development under ''Development Frameworks'''
+    - jev-latest choice confidence 0.83
 placement:
-  primary_category: extensions-and-addons
+  primary_category: coding-agents
   secondary_categories: []
-  section: Claude Code & Agent Tools
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: curated
   reason: Stars (1678) exceeded threshold (150)

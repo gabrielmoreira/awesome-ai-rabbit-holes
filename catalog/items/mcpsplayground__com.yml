@@ -50,13 +50,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the core product identity, and the tool is explicitly a client/inspector for MCP servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - Source-list context lists it under 'Clients' in awesome-mcp-servers
-    - >-
-      Scraped site context describes it as an 'Interactive playground for testing Model Context Protocol (MCP) servers
-      with AI agents'
-    - Primary page excerpt details a workflow for connecting, inspecting, and testing MCP servers
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []

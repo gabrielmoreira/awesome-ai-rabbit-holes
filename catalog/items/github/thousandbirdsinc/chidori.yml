@@ -71,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a code-first building block (Rust core, Python SDK, Starlark scripts) for embedding durable, replayable agent
-    logic into applications, fitting the framework profile better than a operated control plane.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly calls it 'A reactive runtime for building durable AI agents'
-    - README emphasizes a Rust core and Python SDK used via scripts, not an operated UI or control plane
-    - Listed under 'Other LLM Frameworks' in awesome-langchain, aligning with frameworks over orchestration platforms
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

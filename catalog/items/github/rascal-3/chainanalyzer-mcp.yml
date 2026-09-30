@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server that gives agents access to a specific domain (blockchain AML analysis),
-    matching the MCP Servers & Tooling category and Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''MCP Server for ChainAnalyzer'''
-    - 'README: exposes tools like check_address_risk and sanctions_check to Claude Desktop / Claude Code via MCP config'
-    - Listed in awesome-mcp-servers under Finance & Fintech
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -73,15 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server providing Godot LSP capabilities, fitting squarely into MCP Servers & Tooling
-    as a domain-specific implementation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states 'MCP server for GDScript semantic analysis via Godot's built-in language
-      server'.
-    - README architecture diagram shows the product as a bridge between AI Agent (MCP) and Godot Editor LSP over TCP.
-    - Listed in awesome-mcp-servers under 'Developer Tools' section, confirming ecosystem placement.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

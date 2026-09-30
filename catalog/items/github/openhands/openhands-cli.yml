@@ -61,13 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a standalone coding assistant CLI that reads code, plans changes, and executes tasks, fitting the
-    primary coding agent identity rather than an extension or plugin.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description states it is a 'Lightweight OpenHands CLI in a binary executable'.
-    - README lists running 'openhands' in terminal, headless CI mode, and IDE integration as core usage modes.
-    - Seen in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: coding-agents
   secondary_categories: []

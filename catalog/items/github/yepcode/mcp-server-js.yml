@@ -85,13 +85,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is exposing YepCode processes as MCP tools, making MCP the primary
-    product identity rather than a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server that exposes YepCode processes as callable tools for AI platforms'''
-    - 'README: ''An MCP server that enables AI platforms to interact with YepCode''s infrastructure'''
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations and Official Servers'
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

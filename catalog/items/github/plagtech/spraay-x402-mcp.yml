@@ -73,15 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server that gives MCP-compatible clients access to a specific domain (DeFi,
-    payments, and AI models on Base).
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description states: 'MCP server for Spraay x402 Gateway — 33 paid tools for onchain data, AI models & batch
-      payments on Base'.
-    - README presents it as an MCP server with setup instructions for Claude Desktop and Cursor and lists 57 MCP tools.
-    - Included in awesome-mcp-servers under Server Implementations > Finance & Fintech.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

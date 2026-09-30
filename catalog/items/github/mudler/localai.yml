@@ -114,17 +114,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product identity is a local, self-hosted inference and serving stack for running models privately, which is
-    a canonical fit for the Local AI category.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Local API Servers
   evidence:
-    - >-
-      Repo description: 'LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on
-      any hardware. No GPU required.'
-    - README lists drop-in OpenAI/Anthropic API compatibility and 36+ backends as core features.
-    - >-
-      Canonical positives for local-ai explicitly include LocalAI, and it appears in awesome lists under Local LLM Tools
-      and Inference UI.
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: local-ai
   secondary_categories: []

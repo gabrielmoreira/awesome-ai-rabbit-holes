@@ -66,13 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is a remote MCP server for a specific cloud platform, fitting cleanly into the MCP Servers &
-    Tooling category as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description explicitly states: ''Official remote MCP server for the Sevalla public API.'''
-    - README identifies this as a remote Model Context Protocol server implementing the 'Code Mode MCP' pattern.
-    - Listed in the 'awesome-mcp-servers' directory under 'Cloud Platforms', confirming its identity as an MCP server.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

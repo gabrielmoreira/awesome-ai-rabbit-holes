@@ -67,17 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server purpose-built to expose Kubernetes cluster operations as tools, fitting cleanly into
-    MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description states it is a Kubernetes MCP server for managing clusters via MCP.
-    - README lists MCP server modes (stdio, sse, streamable-http) and Kubernetes tooling as the core feature set.
-    - Included in awesome-mcp-servers under Cloud Platforms, confirming its MCP server identity.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (156) exceeded threshold (150)

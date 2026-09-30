@@ -79,19 +79,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server specifically for the dbt ecosystem, fitting the Domain Servers section of
-    the MCP category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP (model context protocol) server for interacting with dbt Docs'.
-    - >-
-      README confirms it exposes dbt graph info, node details, and lineage as MCP tools (e.g., search_dbt_node_names,
-      get_column_ancestors).
-    - Listed in awesome-mcp-servers under 'Data Platforms' and 'Community Servers'.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

@@ -58,13 +58,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is an MCP server providing calendar access, making MCP its primary identity rather than a thin integration
-    layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - README describes it as 'Universal MCP server for CalDAV protocol integration'
-    - Provides MCP-compatible tools like caldav_list_calendars and caldav_create_event
-    - Appears in awesome-mcp-servers under Server Implementations > Communication
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

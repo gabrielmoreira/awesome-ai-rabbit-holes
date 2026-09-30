@@ -72,19 +72,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Junie is positioned as a standalone AI coding agent that performs planning, writing, and editing code across
-    terminal, IDE, and CI/CD, fitting the core definition of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
   evidence:
-    - 'Description: ''The most cost efficient coding agent'' and ''AI Coding Agent'''
-    - 'README: ''Junie CLI works with Terminal IDE GitHub GitLab'' and ''Use IDE''s full code intelligence'''
-    - >-
-      Features: 'Writes structured plan requirements', 'Live Prompting', 'Human in the Loop', 'Custom Guidelines &
-      Skills'
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: curated
   reason: null

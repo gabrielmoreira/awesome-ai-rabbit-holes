@@ -67,24 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Kiro’s primary identity is a developer-facing agent that performs coding tasks via spec-driven development, using
-    parallel agents to implement validated requirements — fitting the coding-agents category better than app-builders or
-    extensions since it operates on existing codebases and edits files.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - >-
-      Turns prompts into executable specs, validates correctness with property-based tests, and implements with parallel
-      agents that learn from every session.
-    - >-
-      Works via IDE, CLI, web, and mobile interfaces to read codebases, write/edit files, and run commands on the
-      developer’s behalf.
-    - >-
-      Listed in awesome-ai-coding-tools under 'Code Editors and Assistants' as a tool that turns prompts into specs and
-      builds across large codebases.
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Spec-First & Plan-Execute
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: curated
   reason: null

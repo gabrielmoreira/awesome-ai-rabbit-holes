@@ -67,14 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing Algora bounty access via MCP tools.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description states it is an MCP server for Algora bounty platform
-    - README confirms it exposes 5 MCP tools for bounty discovery/search
-    - Uses stdio transport and integrates with MCP-compatible clients
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

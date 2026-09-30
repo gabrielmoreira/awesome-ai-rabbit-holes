@@ -64,16 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server specifically built to expose TestCollab's test management capabilities to
-    MCP-compatible clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description explicitly states: ''MCP server for TestCollab test management''.'
-    - README details integration with Claude, Cursor, Windsurf, and Codex via standard MCP configuration files.
-    - Listed in the awesome-mcp-servers directory under 'Developer Tools'.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

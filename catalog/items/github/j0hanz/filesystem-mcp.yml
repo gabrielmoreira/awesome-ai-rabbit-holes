@@ -78,13 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing filesystem access via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description identifies it as a filesystem MCP server
-    - README emphasizes MCP as the core protocol and filesystem operations as the main capability
-    - Already listed in awesome-mcp-servers under File Systems
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

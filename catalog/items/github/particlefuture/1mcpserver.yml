@@ -75,19 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is centered on the Model Context Protocol, acting as a 'MCP of MCPs' to discover and configure
-    other servers, fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - GitHub repo name is '1mcpserver' and describes itself as 'MCP of MCPs'.
-    - >-
-      README explicitly states the goal is to install 'this' MCP server so it handles searching, selecting, and
-      configuring other servers.
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Aggregators'.
+    - jev-latest choice confidence 0.54
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Registries & Discovery
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

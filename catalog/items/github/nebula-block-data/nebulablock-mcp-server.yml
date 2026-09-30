@@ -78,15 +78,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is an MCP server implementation that exposes a specific cloud platform's API as tools, fitting the Domain
-    Servers section of MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repository name is nebulablock-mcp-server with README stating it is 'the official NebulaBlock API Model Context
-      Protocol (MCP) server'.
-    - Uses fastmcp library to expose NebulaBlock API functionalities as MCP tools for any MCP-compatible environment.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms' and 'Official Servers'.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

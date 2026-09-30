@@ -68,15 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server providing Roslyn-powered semantic tools for .NET, making it a clear fit for
-    the MCP Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''Roslyn-powered MCP server for AI-driven C# semantic analysis, refactoring, and code generation'''
-    - >-
-      README states: 'A Model Context Protocol (MCP) server providing 62 AI-optimized tools for .NET/C# semantic code
-      analysis'
-    - Curated in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

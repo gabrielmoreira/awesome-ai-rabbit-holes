@@ -71,11 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's identity is specifically an MCP server implementation designed to bridge Basecamp 3 and AI clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description identifies it as an 'MCP server for Basecamp 3'
-    - README explicitly details configuration for MCP clients like Cursor and Claude Desktop
-    - Implements the Model Context Protocol to provide 75 specific tools for Basecamp
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

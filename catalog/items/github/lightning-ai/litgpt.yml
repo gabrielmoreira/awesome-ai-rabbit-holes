@@ -60,17 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    litgpt is a code-first library and CLI for working with LLMs, primarily used as a framework/SDK to build, train, and
-    deploy models rather than as a coding assistant or end-user app.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - 'Repo description: ''20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale'''
-    - 'Stars: 13491, pushed at 2026-07-20 shows active maintenance'
-    - 'Source-list context: appears in awesome-LLM-resources under 微调 Fine-Tuning section'
+    - jev-latest choice confidence 0.71
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Fine-tuning & Training
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (13343) exceeded threshold (150)

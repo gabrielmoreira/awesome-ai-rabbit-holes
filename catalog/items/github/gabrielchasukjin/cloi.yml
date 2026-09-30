@@ -57,11 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is a standalone terminal agent that directly reads code and applies fixes to repair failures.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''Local debugging agent that runs in your terminal'''
-    - 'README: ''With your permission, Cloi can analyze errors and apply fixes directly to your codebase.'''
-    - 'README: ''Automates debugging process... works with Ollama models'''
+    - jev-latest choice confidence 0.54
 placement:
   primary_category: coding-agents
   secondary_categories: []

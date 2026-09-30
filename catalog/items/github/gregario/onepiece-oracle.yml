@@ -57,15 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a domain-specific MCP server exposing card data and analysis tools.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly labels it as a 'One Piece TCG MCP server'
-    - README details MCP tools like search_cards, browse_sets, and analyze_cost_curve
-    - Includes MCP compatibility badge and installation instructions for Claude Desktop/Code
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

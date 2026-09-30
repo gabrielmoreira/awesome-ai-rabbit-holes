@@ -73,14 +73,14 @@ insights:
     - playwright
   confidence: high
 curation:
-  status: pending
-  reason: 'Manual audit: Primary identity is a screen-reader accessibility analyzer, not a developer-facing AI tool.'
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
   evidence:
-    - Manual review of Jev Middleware & Generic audit, 2026-09-19
+    - jev-latest choice confidence 0.59
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Client SDKs & CLIs
 lifecycle:
   status: curated
   reason: null

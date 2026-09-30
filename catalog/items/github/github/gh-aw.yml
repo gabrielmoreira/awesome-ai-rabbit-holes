@@ -65,15 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It serves as a platform to define, compile, and coordinate agentic tasks within the GitHub Actions runtime.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / API & Service Integrations
   evidence:
-    - Compiles Markdown/YAML agent definitions into standard GitHub Actions workflows
-    - Supports multiple AI engines including Claude Code, Copilot, and Gemini
-    - Provides a mechanism for running sandboxed agent jobs within a CI/CD lifecycle
+    - jev-latest choice confidence 0.75
 placement:
-  primary_category: agent-orchestration
+  primary_category: extensions-and-addons
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: API & Service Integrations
 lifecycle:
   status: curated
   reason: Stars (5087) exceeded threshold (150)

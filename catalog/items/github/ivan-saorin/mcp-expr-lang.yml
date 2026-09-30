@@ -56,17 +56,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here, as it is a dedicated server wrapping expr-lang for MCP-compatible clients like
-    Claude Desktop.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP Server around expr-lang.org
-    - README confirms it is a tool for Claude Desktop using MCP
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

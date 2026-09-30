@@ -78,16 +78,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing GrowthBook integration via MCP, fitting
-    the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description states it is the 'Official GrowthBook MCP server'
-    - README confirms it enables interaction with GrowthBook from LLM clients via MCP
-    - Listed in awesome-mcp-servers under 'Official Servers' and 'Data Science Tools'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

@@ -59,15 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is explicitly an MCP server implementation for a specific cloud platform, making it a textbook fit for the
-    Domain Servers section of MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description is 'MCP Server for Nutanix', clearly stating the product identity.
-    - >-
-      README states it 'allows LLMs to interact with Nutanix Prism Central' and provides configuration examples for
-      Claude and Cursor.
-    - Listed in awesome-mcp-servers under 'Cloud Platforms', aligning with the Domain Servers section.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -99,19 +99,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first SDK and library used by developers to script language model workflows, vector search, and agent
-    logic, fitting the Frameworks & SDKs definition.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description identifies it as an 'all-in-one AI framework' for semantic search and LLM orchestration.
-    - >-
-      README states 'Build autonomous agents, RAG processes, multi-model workflows' and shows Python import examples
-      (import txtai).
-    - Listed in awesome-langchain under 'Other LLM Frameworks' and in Awesome-LLMOps under 'Vector search'.
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Memory & Retrieval Infrastructure
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (12471) exceeded threshold (150)

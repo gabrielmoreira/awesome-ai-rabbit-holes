@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server with a hosted endpoint and npm packages that expose Casper Network DEX tools, making
-    MCP the core product identity rather than a compatibility footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - README explicitly brands it as 'CSPR.trade MCP' with a hosted MCP endpoint at https://mcp.cspr.trade/mcp.
-    - Includes 24 MCP tools for trading, market data, and portfolio tracking, plus an optional local signer mode.
-    - Listed in awesome-mcp-servers under Finance & Fintech, confirming its identity as a domain-specific MCP server.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

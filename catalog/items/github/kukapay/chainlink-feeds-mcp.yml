@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server providing domain-specific (Chainlink price feeds) functionality,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for Chainlink price feeds
-    - README details MCP server functionality and integration steps
-    - Uses @modelcontextprotocol/sdk as a primary dependency
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

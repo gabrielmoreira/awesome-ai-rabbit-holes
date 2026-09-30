@@ -71,17 +71,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server that gives Claude Desktop access to Selenix's browser automation
-    capabilities, making it a domain-specific MCP tool.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - >-
-      Repo description explicitly states: 'MCP server that bridges Claude Desktop... with Selenix for browser automation
-      and testing.'
-    - Included in awesome-mcp-servers under 'Browser Automation' section as a server implementation.
-    - >-
-      README confirms the architecture: 'Connect Claude Desktop to Selenix via the Model Context Protocol' with explicit
-      MCP server configuration.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

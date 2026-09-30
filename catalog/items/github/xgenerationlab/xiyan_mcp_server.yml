@@ -80,15 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity and value proposition is providing database access via the Model
-    Context Protocol, making it a domain-specific MCP infrastructure.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''A Model Context Protocol (MCP) server that enables natural language queries to databases'''
-    - >-
-      README: 'A Model Context Protocol (MCP) server that enables natural language queries to databases' and describes
-      MCP integration via tools like get_data and dialect:// resources
-    - Listed in awesome-mcp-list and awesome-mcp-servers under the Databases section
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

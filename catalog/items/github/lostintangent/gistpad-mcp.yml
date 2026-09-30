@@ -64,20 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    GistPad MCP is an MCP server whose core identity is exposing Gist functionality through the Model Context Protocol,
-    making it infrastructure rather than an extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - >-
-      Repo description: '📓 An MCP server for managing your personal knowledge, daily notes, and re-usable prompts via
-      GitHub Gists'
-    - >-
-      README: Exclusively describes MCP server setup, tool definitions, resource URIs (gist:///), and client
-      configuration for MCP clients like Copilot and Claude Desktop
-    - No evidence of acting as a coding agent, IDE extension, or app builder—its value is protocol-level access to Gists
+    - jev-latest choice confidence 0.62
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: Stars (189) exceeded threshold (150)

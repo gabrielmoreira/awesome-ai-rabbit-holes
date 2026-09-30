@@ -61,15 +61,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is an MCP server for SkySQL/MariaDB cloud, which fits cleanly as domain-specific MCP infrastructure
-    rather than a generic framework or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description states explicitly: ''SkySQL MCP server and client repository.'''
-    - >-
-      README describes launching an MCP server to manage SkySQL instances and execute SQL from IDEs like Cursor and
-      Windsurf.
-    - Listed in awesome-mcp-servers under Databases, confirming its identity as an MCP server implementation.
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

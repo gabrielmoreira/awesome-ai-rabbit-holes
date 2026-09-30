@@ -58,15 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is MCP infrastructure first: an official server that exposes Plane as an MCP endpoint, fitting cleanly as a
-    domain-specific MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''Plane''s Official Model Context Protocol Server'''
-    - >-
-      README: provides MCP tools and resources for interacting with Plane through AI agents via stdio, SSE, and HTTP
-      transports
-    - Listed in awesome-mcp-servers under 'Official Servers'
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []

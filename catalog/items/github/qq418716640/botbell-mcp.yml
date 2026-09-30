@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server that gives AI assistants push-notification capabilities via BotBell, fitting cleanly as a
-    domain-specific MCP server implementation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states 'BotBell MCP Server', confirming MCP as the core product identity.
-    - README shows tools like botbell_send and botbell_get_replies designed for Claude, Cursor, and other MCP clients.
-    - Listed in awesome-mcp-servers under 'Communication', aligning with its domain-specific MCP server purpose.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

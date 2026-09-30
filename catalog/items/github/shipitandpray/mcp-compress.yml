@@ -74,21 +74,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server that adds compression capabilities to any MCP-compatible agent, fitting
-    cleanly as domain-specific MCP infrastructure rather than a framework or generic extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly calls it 'First MCP server for data compression' with 7 tools for any AI agent.
-    - >-
-      README states it 'Speaks MCP protocol over stdio. Works with any MCP-compatible AI agent' and is listed in
-      awesome-mcp-servers under Server Implementations.
-    - >-
-      Core tools are compress, decompress, analyze, store, retrieve, list, and stats, all centered on MCP-provided data
-      compression.
+    - jev-latest choice confidence 0.57
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Compression & Token Optimization
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

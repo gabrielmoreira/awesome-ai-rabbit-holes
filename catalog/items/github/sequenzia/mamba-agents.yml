@@ -66,19 +66,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is a code-first Python framework and SDK that developers import and script against to build agents,
-    fitting the Frameworks & SDKs identity rather than an operated platform or primary coding assistant.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description states it is 'a simple, extensible AI Agent framework built on pydantic-ai' with production
-      infrastructure wrappers.
-    - >-
-      README includes Python import examples (from mamba_agents import Agent) showing it is used as a code-first
-      library.
-    - >-
-      Included in awesome-agent-orchestration under 'Core Frameworks > Type-Safe & Modern Frameworks', aligning with
-      framework tooling for developers.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

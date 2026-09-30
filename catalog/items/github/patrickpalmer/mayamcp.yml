@@ -72,15 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server purpose-built to give AI clients access to Autodesk Maya, making it a clean fit for the MCP
-    Servers & Tooling category under Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is a 'Model Context Protocol (MCP) server implementation for Autodesk Maya'.
-    - >-
-      README states it 'enables AI assistant clients like Claude Desktop to control Autodesk Maya through natural
-      language using the Model Context Protocol (MCP)'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture' and 'Community Servers'.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

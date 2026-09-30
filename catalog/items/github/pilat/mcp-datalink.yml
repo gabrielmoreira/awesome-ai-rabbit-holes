@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server for database access, making it a textbook fit for MCP Servers & Tooling under
-    Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description explicitly states: ''MCP server for secure database access (PostgreSQL, MySQL, SQLite)'''
-    - README positions it as an MCP server for Claude Desktop, Claude Code, Cursor, Cline, and any MCP-compatible client
-    - Listed in awesome-mcp-servers under Server Implementations > Databases
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

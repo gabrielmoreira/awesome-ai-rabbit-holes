@@ -64,15 +64,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server exposing structured knowledge units, with MCP, REST, and LangChain
-    integrations centered on context retrieval rather than orchestration or coding assistance.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - README explicitly provides an MCP Server for Claude, Cursor, and Windsurf with MCP tools like query_knowledge.
-    - >-
-      Core entity types include concept, software_reference, and execution_recipe designed as canonical knowledge units
-      for agents.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory', reinforcing its MCP server identity.
+    - jev-latest choice confidence 0.60
 placement:
   primary_category: memory-and-context
   secondary_categories: []

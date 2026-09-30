@@ -61,19 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a standalone terminal-native coding agent that directly reads, plans, edits, and executes code,
-    matching the primary identity of a coding assistant rather than an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - Repo description explicitly positions it as a Python reimplementation of Claude Code agent architecture
-    - >-
-      README highlights features like interactive chat, plugin runtime, nested agent delegation, and MCP transport—core
-      coding agent capabilities
-    - Source-list context places it under 'Terminal-native coding agents > Open Source'
+    - jev-latest choice confidence 0.58
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: curated
   reason: Stars (459) exceeded threshold (150)

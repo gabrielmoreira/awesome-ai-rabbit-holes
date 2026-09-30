@@ -58,15 +58,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose primary identity is providing MCP-compatible access to Wisepanel's multi-agent
-    platform.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP server for Wisepanel
-    - README shows it exposes Wisepanel tools via MCP protocol for Claude Code and other clients
-    - Listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

@@ -65,15 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server that exposes Android device capabilities to AI assistants, fitting
-    cleanly as a domain-specific MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description explicitly states: ''MCP server for controlling Android emulators via ADB'''
-    - >-
-      README states: 'MCP server for controlling Android emulators and devices via ADB. Gives AI assistants the ability
-      to see, interact with, and debug Android apps'
-    - Listed in awesome-mcp-servers under 'Developer Tools' section as a server implementation
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

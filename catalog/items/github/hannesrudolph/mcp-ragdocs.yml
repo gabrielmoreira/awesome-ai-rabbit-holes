@@ -84,17 +84,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a server implementation for the Model Context Protocol, not a compatibility
-    footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP server implementation
-    - README details MCP-specific tools and configuration (e.g., Claude Desktop integration)
-    - Source-list context places it in an MCP servers list under 'Knowledge & Memory'
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (261) exceeded threshold (150)

@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    wopee-mcp is an MCP server that provides tools for test generation and execution, making MCP its core identity
-    rather than a mere integration feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - The project is explicitly named and described as a 'Wopee MCP Server' in the README
-    - It requires configuration as an MCP server in MCP-compatible hosts like Cursor or VSCode
-    - It exposes MCP tools such as wopee_fetch_analysis_suites and wopee_dispatch_analysis for test-related operations
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -57,17 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    GuideLLM fits the evals category because its core function is measuring and comparing LLM inference behavior under
-    realistic loads, not assisting with code or orchestrating agents.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - 'Repo description: ''Evaluate and Enhance Your LLM Deployments for Real-World Inference Needs'''
-    - >-
-      README: 'GuideLLM is a platform for evaluating how language models perform under real workloads and
-      configurations'
-    - >-
-      It produces 'standardized, exportable reports for dashboards, analysis, and regression tracking' and focuses on
-      'latency and token-level statistics for SLO-driven evaluation'
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: evals
   secondary_categories: []

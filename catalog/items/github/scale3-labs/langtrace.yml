@@ -76,15 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job of this product is tracing, metrics, and evaluations for LLM applications, which aligns directly with
-    the Evals & Benchmarks category rather than orchestration or frameworks.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - >-
-      Repo description explicitly defines it as an observability tool for LLM apps with tracing, evaluations, and
-      metrics.
-    - README highlights real-time monitoring, performance insights, debug tools, and OTEL-standard trace generation.
-    - Source list placed it under Tools & Infrastructure > Observability & Tracing in an agent-orchestration repo.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: evals
   secondary_categories: []

@@ -61,13 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a purpose-built MCP server that exposes Redis Cloud API operations to MCP clients, making MCP its primary
-    product identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo name is mcp-redis-cloud and README explicitly describes it as 'an MCP Server for Redis Cloud's API'.
-    - Usage instructions are provided for Claude Desktop and Cursor IDE as MCP server integrations.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

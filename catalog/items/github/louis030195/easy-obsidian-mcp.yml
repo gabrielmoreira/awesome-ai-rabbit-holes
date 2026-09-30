@@ -61,17 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is exposing Obsidian data via the Model Context Protocol, making
-    MCP the primary product identity rather than a mere compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''wire your brain to AGI through the best obsidian MCP'''
-    - 'README: Provides MCP server configuration for Claude Desktop, Claude Code, and Cursor to connect to Obsidian vault'
-    - 'Functionality: Enables AI assistants to search, read, and analyze notes in Obsidian via the MCP protocol'
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

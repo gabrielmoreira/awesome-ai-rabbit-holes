@@ -80,17 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is a workflow/infrastructure add-on that configures and manages the environments for
-    other coding assistants, rather than acting as a coding assistant itself.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly calls it a 'declarative AI agent environment manager'.
-    - >-
-      README states it supports '21 built-in agent presets' like Claude Code and Cursor, syncing skills and MCP configs
-      into their specific formats.
-    - >-
-      Source list 'awesome-cli-coding-agents' placed it in 'Harnesses & orchestration > Agent infrastructure', aligning
-      with extension/infrastructure tooling.
+    - jev-latest choice confidence 0.60
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

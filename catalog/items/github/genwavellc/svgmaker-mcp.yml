@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is explicitly an MCP server designed to provide specific domain capabilities (SVG manipulation)
-    to host AI environments.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo description explicitly identifies it as a 'Model Context Protocol server'
-    - README highlights integration with Claude Desktop, Cursor, and VS Code via MCP
-    - Primary functionality is providing tools (generate, edit, convert) to an LLM via MCP protocol
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

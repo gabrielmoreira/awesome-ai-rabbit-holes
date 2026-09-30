@@ -117,20 +117,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is a specialized MCP server for Netskope Private Access, fitting cleanly as
-    domain-specific MCP infrastructure rather than a general framework or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      README explicitly brands it as 'A comprehensive Model Context Protocol (MCP) server for managing Netskope Private
-      Access (NPA) infrastructure'.
-    - >-
-      Provides 84 MCP tools across 10 categories including publishers, private apps, policy management, and SCIM
-      integration.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Cloud Platforms sections, confirming MCP server identity.
-    - README describes it as a 'comprehensive Model Context Protocol (MCP) server'
-    - Provides 84 specialized tools for NPA infrastructure management
-    - Listed in 'awesome-mcp-servers' under Cloud Platforms
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server purpose-built to give agents structured access to SQLite databases, which clearly
-    matches the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description states: ''MCP server for SQLite files.'''
-    - README demonstrates MCP tools like sqlite_get_catalog and sqlite_execute with Copilot agent mode integration.
-    - Listed in awesome-mcp-servers under Community Servers, reinforcing its MCP identity.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

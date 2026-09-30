@@ -71,15 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an orchestration layer and control plane for coordinating multiple AI coding agents and
-    workflows, rather than being a primary coding assistant itself.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description states it 'orchestrates AI coding agents into repeatable, long-running workflows'
-    - >-
-      README confirms it 'is an orchestration layer that runs AI coding CLIs through structured workflows' and handles
-      multi-agent coordination
-    - Source list places it in 'Terminal-native coding agents > Open Source' under harnesses that orchestrate agents
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

@@ -77,14 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is a local runtime and serving layer for LLMs on macOS hardware.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Local API Servers
   evidence:
-    - README explicitly states it runs a local server at localhost:8080/v1
-    - Built on llama.cpp and focuses on '100% local' execution
-    - Provides an OpenAI-compatible API for other editors and CLI tools to consume
-    - Runs a local server at localhost:2276/v1
-    - Built on llama.cpp by the GGML org
-    - Native macOS menu bar app for local model management
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: local-ai
   secondary_categories: []

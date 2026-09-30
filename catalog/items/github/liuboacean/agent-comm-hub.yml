@@ -79,17 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a control plane for coordinating multiple agents via MCP, offering task scheduling, shared memory, and
-    evolution engines as core orchestration features.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''Multi-agent real-time communication & task scheduling infrastructure based on MCP + SSE'''
-    - >-
-      README: Provides 'shared neural hub' with message bus, task queues, memory layers, and evolution engine for agent
-      collaboration
-    - >-
-      Architecture shows centralized Hub coordinating agents via MCP/SSE with identity, RBAC, messaging, task scheduler,
-      memory, and orchestrator components
+    - jev-latest choice confidence 0.51
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

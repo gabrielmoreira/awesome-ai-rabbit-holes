@@ -73,17 +73,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server providing news as a tool for AI agents, which fits cleanly as a
-    domain-specific MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'MCP server for real-time world news'.
-    - README documents MCP integration instructions for Claude, Cursor, Windsurf, Codex, Gemini CLI, and others.
-    - >-
-      The core interface is four MCP tools (get_news, get_news_detail, get_topics, get_regions) delivered via
-      @newsmcp/server.
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

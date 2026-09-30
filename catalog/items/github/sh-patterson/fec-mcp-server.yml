@@ -74,13 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server for a specific data domain, making it a clean fit for MCP Servers & Tooling
-    under Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states 'MCP server for querying FEC campaign finance data'
-    - README documents MCP tools like search_candidates and get_committee_finances intended for use with Claude Desktop
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its MCP server identity
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

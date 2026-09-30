@@ -72,15 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server first and foremost, with MCP as its core identity, not merely an add-on or
-    compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''Connect Telegram to Claude AI — messages, media, reactions, polls, scheduled messages & more.'''
-    - >-
-      README: 'An MCP (Model Context Protocol) server that connects AI assistants like Claude to Telegram via the
-      MTProto protocol.'
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication'
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

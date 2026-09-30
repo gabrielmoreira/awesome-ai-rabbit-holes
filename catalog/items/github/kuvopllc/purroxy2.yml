@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: it is a dedicated MCP server for browser automation, not merely an adapter or
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - README explicitly states it connects to Claude Desktop via MCP
-    - Listed in awesome-mcp-servers under Browser Automation
-    - Topics include mcp, mcp-server, and playwright
+    - jev-latest choice confidence 0.60
 placement:
   primary_category: mcp
   secondary_categories: []

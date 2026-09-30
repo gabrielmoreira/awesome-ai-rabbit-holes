@@ -114,17 +114,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    vLLM is a local/runtime serving engine for LLMs that enables efficient self-hosted inference, making it a core local
-    AI infrastructure tool rather than a coding agent or framework.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - 'Repo description: ''A high-throughput and memory-efficient inference and serving engine for LLMs'''
-    - >-
-      README: 'vLLM is a fast and easy-to-use library for LLM inference and serving' with support for local/self-hosted
-      deployment across GPUs, CPUs, and custom hardware
-    - >-
-      Source-list context: Included in awesome-local-ai under 'Inference Engine' and Awesome-LLMOps under 'Serving >
-      Large Model Serving'
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: local-ai
   secondary_categories: []

@@ -76,17 +76,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The repo is a Python SDK and provider API client that developers import and script against to build trading agents,
-    which aligns with the Frameworks & SDKs identity rather than orchestration or extensions.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly states 'Python SDK for agents.systemr.ai' and 'pip install systemr'.
-    - README demonstrates code-first usage via `from systemr import SystemRClient` and `client.call_tool(...)` patterns.
-    - Topics include 'python-sdk' and 'agent-framework', and the tool is a provider API rather than a control plane.
+    - jev-latest choice confidence 0.84
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

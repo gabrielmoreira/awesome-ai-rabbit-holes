@@ -67,18 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an official MCP server providing domain-specific e-commerce capabilities, fitting cleanly into MCP Servers &
-    Tooling as a domain server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'Official remote MCP server for Color Me Shop'
-    - >-
-      README lists MCP endpoints and setup instructions for Claude Code, Claude Desktop, Cursor, OpenAI Codex CLI, and
-      Gemini CLI
-    - Included in awesome-mcp-servers under Server Implementations > E-Commerce
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

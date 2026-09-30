@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity and functionality are defined by exposing Toreador’s crypto payment
-    tools over the Model Context Protocol, making it MCP infrastructure first and foremost.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''Official Model Context Protocol (MCP) server for Toreador'''
-    - 'README: Exposes 5 MCP tools for generating crypto QR codes and managing payment sessions'
-    - 'Source-list context: Listed in awesome-mcp-servers under Finance & Fintech'
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

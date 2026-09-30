@@ -69,13 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity: it is explicitly a Model Context Protocol server for GitHub projects, not merely
-    an MCP-compatible extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is a 'remote MCP server for any GitHub project'
-    - README emphasizes its role as an MCP server transforming GitHub projects into documentation hubs
-    - Already listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

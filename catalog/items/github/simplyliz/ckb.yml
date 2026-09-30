@@ -115,33 +115,10 @@ insights:
     - semantic-search
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'Code intelligence for AI assistants - MCP server, CLI, and HTTP API with symbol navigation,
-      impact analysis, and architecture mapping'
-    - >-
-      README: 'CKB transforms your codebase into a queryable knowledge base. Ask questions, understand impact, find
-      owners, detect dead code'
-    - >-
-      Appears in awesome-mcp-servers under Developer Tools, but its primary value is context engineering for AI
-      assistants
-    - >-
-      included: CKB’s core novelty is transforming code into a queryable knowledge base for better context delivery to
-      AI assistants, making it a retrieval and context-shaping system rather than a coding agent or extension.
-    - >-
-      Repo description explicitly calls it 'MCP server, CLI, and HTTP API with symbol navigation, impact analysis, and
-      architecture mapping'.
-    - >-
-      README shows MCP as a primary integration surface with commands like 'ckb setup' to connect to Claude Code and
-      highlights MCP token efficiency explicitly.
-    - >-
-      Listed in awesome-mcp-servers under Developer Tools, and it provides a standalone MCP server rather than being a
-      generic framework or extension.
-    - >-
-      included: The product's core identity is an MCP server for code intelligence that exposes symbol navigation,
-      impact analysis, and architecture mapping to AI assistants.
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: mcp
   secondary_categories: []

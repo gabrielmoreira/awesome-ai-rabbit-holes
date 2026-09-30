@@ -81,13 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server for databases, fitting cleanly as domain-specific MCP infrastructure rather
-    than a framework, extension, or assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is 'A MCP (model context protocol) server' for relational databases.
-    - README shows configuration for Claude Desktop via mcpServers, with SQLAlchemy-backed DB_URL support.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Databases sections.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

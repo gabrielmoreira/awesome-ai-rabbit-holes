@@ -97,20 +97,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    AgentTrace is not a coding agent itself but a local observability tool that augments existing AI coding agents by
-    analyzing their logs, making it an extension focused on host integration and workflow insight rather than primary
-    coding assistance.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - >-
-      Repo description: 'Local-first TUI for AI coding-agent session history: trace cost, tokens, time, tool failures,
-      latency, health, diffs, reports, and CI gates across local agent logs.'
-    - >-
-      README: 'agenttrace reads the logs your agents already write and puts cost-heavy or slow sessions first' and
-      supports logs from Claude Code, Codex CLI, Gemini CLI, Aider, Cursor, etc.
-    - >-
-      It does not edit code, plan changes, or run commands — it only analyzes existing agent session traces for cost,
-      performance, and health metrics.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: evals
   secondary_categories: []

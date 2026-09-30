@@ -70,17 +70,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is primarily a code-first Python framework and SDK (with a managed backend option) used to script and
-    train agent behaviors, fitting the Frameworks & SDKs definition over an orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - Repo description defines it as a trainer/framework for agents using GRPO.
-    - 'README promotes a Python SDK surface: ''from art.serverless.backend import ServerlessBackend''.'
-    - Notebooks demonstrate code-first training loops for specific agent tasks like email search and games.
+    - jev-latest choice confidence 0.81
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Fine-tuning & Training
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (9420) exceeded threshold (150)

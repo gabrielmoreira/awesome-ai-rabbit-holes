@@ -78,19 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server whose core identity and value lie in exposing deterministic math and date utilities
-    through the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      README explicitly describes gnomon-mcp as 'a small MCP server for the boring-but-essential utilities every model
-      needs: dates, calendars, arithmetic, unit conversion'
-    - >-
-      It provides MCP-exposed tools like `calc`, `calendar`, and `calc_convert` with batch support and natural-language
-      date parsing
-    - >-
-      Listed in 'awesome-mcp-servers' under 'Data Science Tools', confirming its identity as an MCP server
-      implementation
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

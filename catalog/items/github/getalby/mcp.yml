@@ -75,11 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server designed to provide specific financial capabilities to an MCP host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - README explicitly states it is an 'Alby Bitcoin Payments MCP Server'
-    - Uses the official MCP TypeScript SDK
-    - Provides connectivity for agents via SSE or STDIO transports
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

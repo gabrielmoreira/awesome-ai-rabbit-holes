@@ -61,15 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server that exposes Grok API capabilities as MCP tools, making MCP its core identity rather
-    than an extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - >-
-      Repo description: 'MCP server for xAI’s Grok API with Web/X search, vision, image/video generation and file
-      support'
-    - README positions it as an MCP server for Claude Desktop/Code integration via stdio or Docker
-    - Lists tools like chat, web_search, generate_image, upload_file as MCP-exposed functions
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

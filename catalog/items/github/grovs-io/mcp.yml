@@ -79,17 +79,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here—a server that exposes Grovs' functionality via the Model Context Protocol, not just
-    a compatibility adapter.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly identifies it as an MCP server for Grovs
-    - README details MCP protocol implementation and client integrations (Claude Code, Cursor, Windsurf)
-    - Core functionality is exposing Grovs' API through MCP tools (20+ listed)
+    - jev-latest choice confidence 0.87
 placement:
-  primary_category: extensions-and-addons
+  primary_category: mcp
   secondary_categories: []
-  section: API & Service Integrations
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

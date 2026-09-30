@@ -63,18 +63,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    rm-rf-prod/GroundTruth-MCP - Self-hosted MCP for live docs, code audits, snippets, and best practices across 445+
+    libraries. 14 tools, 107 audit patterns with file:line precision, BM25-ranked snippets, lockfile-aware version
+    pinning, npm/PyPI/crates.io/Go fallback. No API keys, no rate limits, Context7 alternative. npx -y
+    @groundtruth-mcp/gt-mcp
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
+  evidence:
+    - jev-latest choice confidence 0.59
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

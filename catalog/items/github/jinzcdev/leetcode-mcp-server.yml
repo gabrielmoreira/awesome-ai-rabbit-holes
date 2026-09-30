@@ -69,13 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing LeetCode integration via the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for LeetCode
-    - README details MCP server functionality and installation via Smithery/npm
-    - Source-list context shows it in an MCP servers collection
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: mcp
   secondary_categories: []

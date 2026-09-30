@@ -50,23 +50,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Scorable’s core function is evaluating and scoring AI agent behavior using calibrated LLM judges, making it an evals
-    platform rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in evals / Prompt Regression & Testing
   evidence:
-    - >-
-      Scorable is described as an 'LLM evaluation platform: build and calibrate custom LLM-as-a-judge evaluators, run
-      experiments, and monitor AI apps in production'
-    - >-
-      It is listed in awesome-mcp-servers under 'Official Servers' with the description: 'Scorable (formerly Root
-      Signals) is an LLM evaluation platform...'
-    - >-
-      The product enables real-time evaluation of AI responses via function calls, with use cases in compliance, quality
-      optimization, and learning loops
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: evals
   secondary_categories: []
-  section: Agent & LLM Benchmarks
+  section: Prompt Regression & Testing
 lifecycle:
   status: curated
   reason: null

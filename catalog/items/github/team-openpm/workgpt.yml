@@ -56,13 +56,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is primarily a code-first SDK and runner used by developers to script agent loops and API bindings, not a
-    standalone coding assistant or operated platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''A GPT agent framework for invoking APIs'''
-    - README shows TypeScript imports, API wiring, and runner usage, not a standalone assistant experience
-    - Last pushed 2023-06-23, placing it firmly in the early agent-framework era
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

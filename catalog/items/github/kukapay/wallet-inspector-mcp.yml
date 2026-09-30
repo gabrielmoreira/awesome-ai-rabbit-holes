@@ -59,15 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing blockchain wallet inspection
-    capabilities via MCP.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description states it is 'An MCP server that empowers AI agents to inspect any wallet’s balance and onchain
-      activity'
-    - README details installation and usage as an MCP-compatible server for Claude Desktop
-    - Supports multi-chain queries (EVM + Solana) as its core functionality
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

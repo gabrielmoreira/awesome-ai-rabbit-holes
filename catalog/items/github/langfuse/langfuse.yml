@@ -131,19 +131,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Langfuse’s core identity is LLM observability and evaluation, making it a fit for the evals category despite also
-    offering prompt management and tracing.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - >-
-      Repo description: 'Open source AI engineering platform: LLM evals, observability, metrics, prompt management,
-      playground, datasets'
-    - >-
-      README: 'Langfuse is an open source LLM engineering platform. It helps teams collaboratively develop, monitor,
-      evaluate, and debug AI applications'
-    - >-
-      Source-list context: Included in Awesome-LLMOps under Observability and in awesome-agent-orchestration under
-      Observability & Tracing
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: evals
   secondary_categories: []

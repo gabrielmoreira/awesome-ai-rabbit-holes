@@ -74,13 +74,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity: this is explicitly an MCP server exposing payment tools, not a generic payment
-    platform or a framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description states it is a 'Model Context Protocol (MCP) for P-Link.io'.
-    - README title is 'P-Link.io MCP Server' and describes exposing the p-link.io API as MCP tools over HTTP and STDIO.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -67,17 +67,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    CICADA’s core innovation is context compaction via AST indexing and semantic retrieval, making it a prompt/context
-    engineering tool rather than a coding assistant or MCP-first server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      README emphasizes 'Context compaction for AI code assistants' and 'token-efficient access' via structured,
-      pre-indexed knowledge
-    - Provides AST-level indexing, call-site tracking, and semantic search to reduce token usage by up to 70%
-    - >-
-      Listed in awesome-mcp-servers under Coding Agents but functions as a retrieval layer for assistants, not an
-      assistant itself
+    - jev-latest choice confidence 0.61
 placement:
   primary_category: mcp
   secondary_categories: []

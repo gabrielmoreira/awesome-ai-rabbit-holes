@@ -61,17 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server and extension that gives MCP clients structured access to NVIDIA Isaac Sim,
-    which clearly fits the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'Isaac Simulation MCP Extension and Server'.
-    - README shows it runs as an MCP server on localhost:8766 and integrates with Cursor via the MCP config.
-    - Listed in awesome-mcp-servers under Server Implementations, confirming its MCP identity.
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (161) exceeded threshold (150)

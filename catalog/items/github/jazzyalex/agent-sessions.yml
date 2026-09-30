@@ -84,24 +84,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Agent Sessions is an extension that augments multiple coding agents with session browsing, search, and resume
-    capabilities, making it a host integration layer rather than a primary coding assistant.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Context & Session Management
   evidence:
-    - >-
-      Repo description: 'Local-first macOS app to browse, search, analyze, and resume supported AI coding-agent session
-      history across Codex, Claude Code, OpenCode, Cursor Agent, Hermes, OpenClaw, Copilot CLI, and more.'
-    - >-
-      README: 'Brings Codex, Claude, OpenCode, Cursor Agent, Hermes, OpenClaw, Antigravity, GitHub Copilot CLI, and Pi
-      histories into one searchable view, with transcript inspection, image browsing, saved-session recovery, and resume
-      commands for supported CLIs.'
-    - >-
-      Source-list context: Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Session managers &
-      parallel runners' as a session manager for terminal-native AI coding agents.
+    - jev-latest choice confidence 0.75
 placement:
-  primary_category: agent-orchestration
+  primary_category: memory-and-context
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Context & Session Management
 lifecycle:
   status: curated
   reason: Stars (666) exceeded threshold (150)

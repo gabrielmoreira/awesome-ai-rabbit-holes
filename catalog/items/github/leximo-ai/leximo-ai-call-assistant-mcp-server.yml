@@ -63,17 +63,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server exposing Leximo's voice-calling API as tools for Claude, fitting
-    cleanly into Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is 'An MCP (Model Context Protocol) server' for Claude Desktop/Code.
-    - README details MCP tool implementations like create_assignment and list_agents for voice-calling workflows.
-    - Listed in awesome-mcp-servers under 'Communication', reinforcing its MCP infrastructure identity.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

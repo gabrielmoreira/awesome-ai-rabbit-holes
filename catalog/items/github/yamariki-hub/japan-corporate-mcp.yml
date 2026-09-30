@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP server whose core identity is providing domain-specific data access via the Model Context Protocol,
-    making it a clear fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''MCP Server for Japanese corporate data - gBizINFO, EDINET, e-Stat'''
-    - README shows MCP server configuration for Claude Desktop, Claude Code, and Cursor via stdio transport
-    - Listed in awesome-mcp-servers under Finance & Fintech section
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

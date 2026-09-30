@@ -66,18 +66,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server that provides mobile device interaction capabilities to other
-    assistants, fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP server for AI-powered mobile device control'.
-    - >-
-      README pitches it as a server that gives Claude Code, Cursor, and Windsurf access to mobile devices via the MCP
-      protocol.
-    - Found in the 'awesome-mcp-servers' list under 'Server Implementations > Developer Tools'.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

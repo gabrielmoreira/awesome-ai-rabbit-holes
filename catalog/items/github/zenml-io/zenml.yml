@@ -116,20 +116,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    ZenML is a code-first framework and SDK for defining and orchestrating AI/ML pipelines, where developers build
-    workflows by writing Pythonic logic that ZenML operationalizes, rather than operating it as a GUI-driven control
-    plane.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Workflow & Graph Engines
   evidence:
-    - >-
-      Repo description: 'ZenML 🙏: One AI Platform from Pipelines to Agents' and topics include mlops, pipelines,
-      workflow, llmops, agents
-    - >-
-      README: 'You can embed any Pythonic logic within these pipelines, like training a model, or running an agentic
-      loop. ZenML then operationalizes your application'
-    - >-
-      Architecture: Uses client-server with SDK-style usage (`pip install zenml`, `zenml init`) and emphasizes
-      code-first pipeline definition via steps and artifacts
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

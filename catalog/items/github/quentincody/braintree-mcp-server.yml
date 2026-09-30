@@ -61,15 +61,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for a specific domain (Braintree payments), fitting cleanly into MCP Servers
-    & Tooling as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      README states: 'implements the Model Context Protocol (MCP) specification to provide AI assistant models with
-      direct, structured access to Braintree's payment processing capabilities'
-    - Source list context shows inclusion in awesome-mcp-servers under 'Finance & Fintech' section
-    - Provides explicit STDIO and SSE transport implementations specifically for MCP clients like Claude Desktop
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

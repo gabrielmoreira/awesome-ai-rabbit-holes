@@ -118,17 +118,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly a runtime and control plane for coordinating multiple autonomous agents and swarms,
-    fitting the agent orchestration profile better than a single coding agent.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description states it is an 'Open-source self-hosted AI agent runtime and multi-agent framework for
-      autonomous agent swarms.'
-    - README describes it as an 'agent orchestration platform' and 'home base for self-hosted multi-agent AI workflows.'
-    - >-
-      Topics include agent-runtime, agent-swarm, and orchestration, signaling a platform identity over a single
-      assistant.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

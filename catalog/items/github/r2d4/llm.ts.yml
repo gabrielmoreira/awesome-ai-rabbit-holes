@@ -65,13 +65,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is a code-first library/SDK used to abstract multiple LLM providers behind a single API, fitting the Frameworks
-    & SDKs category.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
-    - 'Repo description states: ''Call any LLM with a single API. Zero dependencies.'''
-    - README shows usage via `import { LLM, MODEL } from 'llm.ts'` in code examples.
-    - Listed in awesome-langchain under the section 'Other LLM Frameworks'.
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

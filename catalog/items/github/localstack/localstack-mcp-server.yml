@@ -61,13 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server implementation designed to bridge AI assistants with LocalStack
-    cloud emulation services.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'MCP Server for LocalStack'.
-    - README confirms it is a Model Context Protocol server providing tools to manage LocalStack for AWS containers.
-    - Listed in awesome-mcp-servers under 'Cloud Platforms', reinforcing its identity as an MCP implementation.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

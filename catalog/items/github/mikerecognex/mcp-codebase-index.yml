@@ -75,19 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server that indexes codebases and exposes structured query tools, fitting
-    squarely into MCP Servers & Tooling as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states '17 MCP query tools for codebase navigation' and topics include 'mcp-server'
-      and 'model-context-protocol'.
-    - >-
-      README states it 'exposes 18 query tools via the Model Context Protocol, enabling Claude Code and other MCP
-      clients to navigate codebases efficiently'.
-    - >-
-      Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' confirming its role as an MCP
-      server.
+    - jev-latest choice confidence 0.67
 placement:
   primary_category: mcp
   secondary_categories: []

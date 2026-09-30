@@ -62,17 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it is a server implementation that bridges Claude Code and Perplexity Comet,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server
-    - README describes it as an MCP server connecting Claude Code to Perplexity Comet
-    - Listed in awesome-mcp-servers under Browser Automation
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (153) exceeded threshold (150)

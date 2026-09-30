@@ -59,19 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a code-first toolkit and model hub for parsing documents, fitting the Frameworks & SDKs category as retrieval
-    infrastructure for AI workflows rather than a coding agent or generic ML research.
+  reason: Jev decision-model reclassifier placed this item in document-ai / Document Parsing & Layout
   evidence:
-    - 'Repo description: ''A Comprehensive Toolkit for High-Quality PDF Content Extraction''.'
-    - >-
-      README states it is 'designed for high-quality document processing and functions as a model toolbox' for building
-      apps like 'document translation, document Q&A, or document assistants'.
-    - Includes modular models for Layout Detection, OCR, and Formula Recognition, serving as a parser/extractor library.
+    - jev-latest choice confidence 0.73
 placement:
-  primary_category: ai-frameworks
+  primary_category: document-ai
   secondary_categories: []
-  section: LLM & Agent SDKs
+  section: Document Parsing & Layout
 lifecycle:
   status: curated
   reason: Stars (9645) exceeded threshold (150)

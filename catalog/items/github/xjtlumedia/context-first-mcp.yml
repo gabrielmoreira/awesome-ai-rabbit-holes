@@ -59,21 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server whose core identity is providing MCP-compatible tooling for context management, making
-    it a direct fit for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      The README explicitly markets it as an 'MCP server' and includes badges for 'MCP Compatible', 'Smithery', and
-      'Glama'
-    - It is listed in the 'awesome-mcp-servers' directory under 'Knowledge & Memory' as an MCP server implementation
-    - >-
-      The tool is designed to be used via standard MCP client configurations (Claude Desktop, Cursor, etc.) and exposes
-      an MCP endpoint
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

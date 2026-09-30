@@ -73,15 +73,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server specifically bridging Mendeley to MCP-compatible clients, fitting the Domain
-    Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'MCP server for Mendeley reference manager'.
-    - README confirms it is an MCP server connecting to Claude Desktop, Cursor, and other MCP clients.
-    - Featured in 'awesome-mcp-servers' under 'Knowledge & Memory' section.
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

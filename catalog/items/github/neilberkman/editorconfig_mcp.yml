@@ -60,15 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server providing formatting capabilities, which fits squarely into the MCP Servers
-    & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'README states: ''A Model Context Protocol (MCP) compliant server that formats files using .editorconfig rules.'''
-    - Found in the 'awesome-mcp-servers' list under 'Server Implementations > Developer Tools'.
-    - >-
-      Installation and usage instructions are centered on running the MCP server and connecting it to tools like Claude
-      Code.
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []

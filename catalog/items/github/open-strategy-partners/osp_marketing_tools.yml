@@ -82,19 +82,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server providing marketing-specific tools, fitting the Domain Servers section of
-    the MCP category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description states it is 'A Model Context Protocol (MCP) server'.
-    - >-
-      README lists features like 'OSP Product Value Map Generator' and 'OSP Meta Information Generator' as tools for
-      LLMs.
-    - Included in 'awesome-mcp-servers' under the Marketing section.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (264) exceeded threshold (150)

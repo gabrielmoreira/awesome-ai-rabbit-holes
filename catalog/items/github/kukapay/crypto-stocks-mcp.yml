@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server with MCP as its primary identity, providing domain-specific (crypto stocks)
-    data capabilities.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description states it is 'An MCP server that tracks real-time data for major crypto-related stocks'
-    - README details installation and usage as an MCP server for Claude Desktop
-    - Core functionality is exposing stock data via MCP protocol
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

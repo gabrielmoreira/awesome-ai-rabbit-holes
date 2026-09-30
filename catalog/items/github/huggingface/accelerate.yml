@@ -65,17 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a code-first library for PyTorch developers, fitting the Frameworks & SDKs category as a reusable
-    building block for AI workflows.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - Repo description explicitly positions it as a PyTorch training abstraction layer
-    - README demonstrates minimal code changes to enable distributed/mixed-precision training
-    - Source-list context (Awesome-LLMOps) places it under Training > Frameworks for Training
+    - jev-latest choice confidence 0.93
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Fine-tuning & Training
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (9664) exceeded threshold (150)

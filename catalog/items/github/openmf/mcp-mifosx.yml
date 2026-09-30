@@ -70,15 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server exposing banking tools, and MCP is its primary product identity rather than a
-    side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states 'Model Context Protocol - MCP for Mifos X'.
-    - >-
-      README says it 'provides Model Context Protocol (MCP) for the Mifos X Ecosystem' with 38-102 typed tools per
-      implementation.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' section as a server implementation.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

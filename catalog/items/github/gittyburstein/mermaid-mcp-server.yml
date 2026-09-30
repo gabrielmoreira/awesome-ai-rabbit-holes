@@ -54,13 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: a server exposing tools for diagram generation and rendering, fitting the MCP Servers &
-    Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as an MCP server
-    - README details MCP tools (list_files, read_file, render_mermaid) and MCP-specific workflow
-    - Already listed in awesome-mcp-servers under Architecture & Design
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -79,13 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core novelty is the structured capture and retrieval of codebase memory to shape agent context, fitting
-    the primary definition of context engineering.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - Captures implementation decisions like patterns and rationale as structured records
-    - Serves these decisions to agents over MCP to improve context
-    - Uses a feedback loop to refine and distill codebase conventions
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: memory-and-context
   secondary_categories: []

@@ -75,19 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose primary identity is providing Kubernetes observability data via the Model Context
-    Protocol, fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''Metoro MCP Server'''
-    - >-
-      README: 'This MCP server exposes those APIs to an LLM so you can ask your AI questions about your Kubernetes
-      cluster.'
-    - 'Source-list context: Listed in awesome-mcp-list under Monitoring and awesome-mcp-servers under Official Servers'
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

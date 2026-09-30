@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is an extension that augments AI coding assistants with debugger control via MCP, rather than being a
-    primary assistant itself.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README explicitly states it is a JetBrains IDE plugin exposing an MCP server for debugger control
-    - Source-list context places it under MCP Server Implementations > Developer Tools
-    - Core functionality is host integration (debugger control) for another assistant
+    - jev-latest choice confidence 0.54
 placement:
   primary_category: mcp
   secondary_categories: []

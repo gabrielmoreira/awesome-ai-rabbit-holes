@@ -59,19 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The primary identity is a visual, operated workbench and control plane for building and coordinating AI applications
-    and agents, fitting the 'Control Planes & Workforce Platforms' section.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Visual Builders & Workbenches
   evidence:
-    - >-
-      README describes it as an 'AI Agent application development and management platform' with a 'visualization
-      component canvas'.
-    - >-
-      Features include multi-agent orchestration via RAG, model fine-tuning, and a full lifecycle workflow (create →
-      debug → publish → monitor).
-    - >-
-      Self-hosted via Docker, positioning it as infrastructure/platform rather than a code-first SDK or a single coding
-      assistant.
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

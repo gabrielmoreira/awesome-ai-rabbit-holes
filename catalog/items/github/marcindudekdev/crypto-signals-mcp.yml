@@ -57,15 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server focused on crypto signal delivery, making MCP its core identity rather than a
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''MCP server for real-time crypto volume anomaly detection across 50+ tokens'''
-    - >-
-      README title and first line: 'CryptoSignals MCP Server' and 'MCP server for real-time crypto volume anomaly
-      detection'
-    - Usage example shows configuration in Claude Desktop as an MCP server via fastmcp
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

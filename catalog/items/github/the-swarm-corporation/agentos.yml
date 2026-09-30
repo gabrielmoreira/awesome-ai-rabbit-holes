@@ -74,19 +74,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The primary artifact is a Python SDK (agentos-sdk) that developers import and script against to build custom
-    autonomous agents, which aligns with the Frameworks & SDKs category over an operated orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Installation command is 'pip3 install -U agentos-sdk' and usage involves 'from agentos_sdk import AgentOS',
-      confirming a code-first SDK.
-    - >-
-      Features are exposed as callable tools (Browser Agent, Terminal Developer Agent, Generate Video) within a
-      programmable framework, not a hosted control plane.
-    - >-
-      Repository has low ecosystem traction (23 stars) but is actively maintained (pushed 2025-07-11) and fits the
-      framework mold.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

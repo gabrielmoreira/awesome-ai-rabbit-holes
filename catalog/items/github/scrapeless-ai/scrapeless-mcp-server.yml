@@ -60,15 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server that provides web scraping and browser automation capabilities, making it a clear fit for the
-    MCP Servers & Tooling category as the product identity is the MCP server itself.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly states 'Scrapeless Mcp Server' as the product identity.
-    - >-
-      README positions it as 'the official Scrapeless Model Context Protocol (MCP) Server' connecting LLMs to web
-      capabilities.
-    - Listed in awesome-mcp-servers under the 'Official Servers' section, confirming ecosystem recognition.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

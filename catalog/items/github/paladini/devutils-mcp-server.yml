@@ -70,19 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server exposing developer utilities, which fits squarely into MCP Servers &
-    Tooling as a generic server implementation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states it is 'An open-source DevUtils MCP Server' with 36 tools for MCP-compatible AI
-      assistants.
-    - >-
-      README emphasizes MCP compatibility and provides setup instructions for Claude, Cursor, VS Code, and Windsurf as
-      MCP clients.
-    - >-
-      Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', aligning with the MCP servers
-      category.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

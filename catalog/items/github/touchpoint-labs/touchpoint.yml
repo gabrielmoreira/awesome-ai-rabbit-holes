@@ -79,21 +79,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is a domain-specific MCP server and Python library that gives agents structured desktop access,
-    fitting cleanly into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description explicitly states: ''cross-platform accessibility API with MCP server'''
-    - >-
-      README confirms: 'Ships with an MCP server so LLM agents like Claude or Cursor can control any desktop app out of
-      the box.'
-    - >-
-      Topics include mcp, mcp-server, and it is listed in awesome-mcp-servers under 'Coding Agents' (a misplacement we
-      correct).
+    - jev-latest choice confidence 0.51
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

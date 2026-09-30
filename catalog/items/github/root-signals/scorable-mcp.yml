@@ -62,19 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server that exposes evaluation tooling to MCP clients, making MCP its primary product identity rather
-    than a compatibility footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description states: ''MCP for Scorable Evaluation Platform'''
-    - >-
-      README: 'A Model Context Protocol (MCP) server that exposes Scorable evaluators as tools for AI assistants &
-      agents'
-    - Features include exposing list_evaluators, run_evaluation, run_coding_policy_adherence, and run_judge as MCP tools
+    - jev-latest choice confidence 0.64
 placement:
-  primary_category: evals
+  primary_category: mcp
   secondary_categories: []
-  section: Agent & LLM Benchmarks
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

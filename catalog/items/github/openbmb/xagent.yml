@@ -105,21 +105,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    XAgent is a standalone autonomous agent that developers run to plan, execute, and debug tasks across repos and
-    tools, matching the coding agent profile despite its research framing.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''An Autonomous LLM Agent for Complex Task Solving'''
-    - >-
-      README: 'XAgent is an open-source experimental LLM driven autonomous agent that can automatically solve various
-      tasks' with Dispatcher, Planner, and Actor components
-    - >-
-      README: Provides a GUI and CLI interface, file editors, Python notebooks, web browser, and shell tools via
-      ToolServer in Docker
+    - jev-latest choice confidence 0.68
 placement:
-  primary_category: ai-frameworks
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Multi-Agent Systems
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (8525) exceeded threshold (150)

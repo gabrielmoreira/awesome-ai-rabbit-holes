@@ -75,15 +75,12 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Puzzlet AI's core function is generating deployable code from prompts, aligning with app builders that turn natural
-    language into working artifacts rather than editing existing codebases.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Scaffolding & Boilerplate
   evidence:
-    - Homepage puzzlet.ai markets itself as turning prompts into code for developers
-    - Listed in Awesome-LLMOps under LLMOps section, indicating developer-facing tooling relevance
-    - No evidence of operating as a coding agent within an existing repo or IDE; focuses on generation from scratch
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: app-builders
+  secondary_categories: []
   section: Scaffolding & Boilerplate
 lifecycle:
   status: curated

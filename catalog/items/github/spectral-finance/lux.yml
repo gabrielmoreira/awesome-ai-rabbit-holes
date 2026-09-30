@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a code-first library and framework used by developers to build multi-agent systems, with Agents,
-    Signals, and Beams defined as code concepts rather than a managed runtime platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
   evidence:
-    - Repo description identifies it as 'an open-source framework for building multi-agent, swarmed intelligence'.
-    - README emphasizes building with concepts like Agents, Signals, Prisms, and Beams as code components.
-    - Source list 'awesome-agent-orchestration' places it under 'Core Frameworks > Swarm Intelligence Frameworks'.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

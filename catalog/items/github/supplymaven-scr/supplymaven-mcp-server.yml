@@ -67,19 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server providing domain-specific tools for supply chain intelligence, which aligns
-    precisely with the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description states: ''MCP server for real-time supply chain intelligence — 24 tools'''
-    - >-
-      README instructs users to connect via Claude Desktop, ChatGPT, Cursor, and Vercel AI SDK using standard MCP
-      endpoints
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

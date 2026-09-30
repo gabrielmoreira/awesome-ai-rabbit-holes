@@ -63,17 +63,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core job is measuring and scoring code characteristics (AI generation patterns) rather than generating or
-    editing code, fitting the evals category.
+  reason: Jev decision-model reclassifier placed this item in evals / Safety, Fairness & Red-teaming
   evidence:
-    - README defines a 'Synthetic Code Score' calculated via pattern matching and severity weighting.
-    - Tool scans existing code to detect AI patterns and outputs a JSON report for programmatic consumption.
-    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring', aligning with quality measurement.
+    - jev-latest choice confidence 0.59
 placement:
-  primary_category: extensions-and-addons
+  primary_category: evals
   secondary_categories: []
-  section: Testing & Code Quality
+  section: Safety, Fairness & Red-teaming
 lifecycle:
   status: curated
   reason: null

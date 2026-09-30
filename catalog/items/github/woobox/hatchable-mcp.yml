@@ -62,17 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Hatchable MCP is an MCP-first server exposing 30+ tools for app lifecycle and infrastructure, making MCP its primary
-    product identity rather than a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description: 'Hosted full-stack app platform. Creates a Postgres database, deploys API functions, and serves
-      static sites from any MCP client.'
-    - >-
-      README: Exposes 30+ tools for project lifecycle, files, database, deploy, and environment via Streamable HTTP MCP
-      server
-    - 'Source-list context: Listed in awesome-mcp-servers under Cloud Platforms as an MCP server implementation'
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

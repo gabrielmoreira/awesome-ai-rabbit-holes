@@ -72,13 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose primary identity is exposing a domain-specific API (reputation scoring) via the
-    Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for DJD Agent Score
-    - README details MCP tool exposure and configuration for multiple MCP clients
-    - Topics include 'mcp-server' and 'model-context-protocol'
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -74,11 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is exposing The Graph's blockchain data to AI agents via MCP.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for The Graph data
-    - README details MCP tools (getSubgraphSchema, querySubgraph) and installation as an MCP server
-    - Listed in awesome-mcp-list under Finance & Fintech
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

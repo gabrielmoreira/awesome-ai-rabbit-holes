@@ -69,19 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server for n8n workflow testing and inspection, with MCP as the primary adopted
-    interface rather than a compatibility footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly calls it a 'Safe MCP server + CLI for testing, inspecting, and operating n8n
-      workflows'.
-    - >-
-      README positions it as an MCP server for Claude, OpenClaw, or any MCP client, with stdio transport and client
-      config examples.
-    - >-
-      Listed in awesome-mcp-servers under Server Implementations > Developer Tools, reinforcing its MCP infrastructure
-      identity.
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: mcp
   secondary_categories: []

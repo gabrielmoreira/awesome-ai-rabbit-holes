@@ -133,40 +133,14 @@ insights:
     - workflow
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README describes it as a 'unified workspace where open-source agents get work done'
-    - Includes core orchestration features like a model router, memory, skills, and scheduling
-    - Provides a platform-level interface via web and desktop apps rather than just a code-first SDK
-    - >-
-      included: MindsHub acts as an operated workbench and control plane for managing multiple agents, model routing,
-      and shared workflows.
-    - README describes it as a 'unified workspace' and 'platform superproject'
-    - Features a model router and secure data connections to systems like BigQuery, Postgres, and HubSpot
-    - Offers a web and desktop interface for managing agentic workflows and artifacts
-    - >-
-      included: It functions as an operated control plane and workbench for coordinating multiple agents, models, and
-      data sources.
-    - 'Repo description: ''A query engine for AI Agents to securely query data from any datasource''.'
-    - >-
-      README states it is a 'SQL-compatible data language' used to 'Unify' and 'Respond' with structured and vectorized
-      data inside a Knowledge Base.
-    - >-
-      Installable via Docker and PyPI, positioning it as infrastructure developers script against rather than an
-      operated control plane.
-    - >-
-      included: The core product is a SQL-compatible data language and unification engine used as code-first
-      infrastructure to ground agent responses in live data, fitting the frameworks and SDKs category.
-    - README describes it as a 'unified workspace' and 'platform superproject' for delegating entire projects.
-    - Provides orchestration of multiple models (Claude, GPT, Gemini) and agents (Anton, Hermes).
-    - Includes data connectivity to BigQuery, Postgres, and Notion as part of a central workbench.
-    - >-
-      included: MindsHub acts as an operated workbench and control plane for coordinating multiple models, data sources,
-      and agents to perform end-to-end workflows.
+    - jev-latest choice confidence 0.82
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (39379) exceeded threshold (150)

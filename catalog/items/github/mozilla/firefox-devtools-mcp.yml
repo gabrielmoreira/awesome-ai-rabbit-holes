@@ -67,17 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server that exposes Firefox DevTools capabilities to MCP clients, fitting
-    cleanly into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'Model Context Protocol server for Firefox DevTools'.
-    - README confirms it works with Claude Code, Claude Desktop, Cursor, Cline and other MCP clients.
-    - Listed in awesome-mcp-servers under 'Browser Automation' as a server implementation.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (281) exceeded threshold (150)

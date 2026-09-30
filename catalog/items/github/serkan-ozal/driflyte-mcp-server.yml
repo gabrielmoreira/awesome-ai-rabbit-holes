@@ -68,19 +68,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server designed to give AI assistants retrieval access to crawled web and GitHub
-    content, making MCP its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description states it is 'The Driflyte MCP Server' exposing tools for AI assistants to query indexed web
-      pages.
-    - README explicitly lists configuration steps for Claude, Cursor, Copilot, and others as an MCP server integration.
-    - Listed in the awesome-mcp-servers directory under the 'Official Servers' section.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

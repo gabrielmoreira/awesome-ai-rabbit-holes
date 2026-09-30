@@ -59,15 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's identity is a Model Context Protocol server for databases, making it a textbook fit for the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description identifies it explicitly as a 'Java based Model Context Protocol (MCP) Server for JDBC'.
-    - >-
-      README demonstrates MCP tool endpoints like jdbc_get_schemas, jdbc_query_database, and configuration examples for
-      Claude Desktop.
-    - Listed in the awesome-mcp-servers directory under 'Databases', confirming its role as a protocol server.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

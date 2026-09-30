@@ -72,13 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server that exposes robotics control as a tool for LLMs, which fits squarely
-    into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description confirms it is 'a server built on the MCP' for controlling a robot.
-    - README details translating natural language into ROS2 instructions via MCP functions.
-    - Listed in awesome-mcp-servers under 'Server Implementations'.
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []

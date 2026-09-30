@@ -58,15 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server implementation as its core identity, fitting the MCP Servers & Tooling category for
-    domain-specific API access.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly describes it as 'A Model Context Protocol (MCP) server implementation for the Didlogic API'
-    - >-
-      Provides MCP tools for balance, SIP account, IP restriction, purchases, call history, and transaction history
-      management
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

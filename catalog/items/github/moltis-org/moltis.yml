@@ -74,23 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Moltis is a standalone, developer-facing coding and personal agent that runs locally, edits files, and executes
-    tasks, fitting the primary coding assistant profile rather than being an extension or integration layer.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - >-
-      Repo description explicitly calls it a 'secure persistent personal agent server' with multi-provider LLMs, memory,
-      and MCP tools.
-    - >-
-      README highlights sandbox execution, automatic edit checkpoints, project context, and multi-provider LLM support
-      as core capabilities.
-    - >-
-      Included in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem', reinforcing its
-      identity as a CLI agent.
+    - jev-latest choice confidence 0.78
 placement:
-  primary_category: agent-orchestration
+  primary_category: local-ai
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Inference Engines
 lifecycle:
   status: curated
   reason: Stars (2657) exceeded threshold (150)

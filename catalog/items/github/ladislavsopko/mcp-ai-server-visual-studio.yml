@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here, as it is a dedicated MCP server exposing Visual Studio-specific tools to AI
-    assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for Visual Studio
-    - README emphasizes MCP tools (41 tools) and Roslyn/debugger integration
-    - Already listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.67
 placement:
   primary_category: mcp
   secondary_categories: []

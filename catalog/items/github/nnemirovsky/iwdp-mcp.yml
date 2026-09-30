@@ -82,21 +82,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server that exposes 100+ WebKit Inspector Protocol tools to AI agents and IDEs, making MCP its core
-    product identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description states: 'MCP server + CLI for iOS Safari debugging via ios-webkit-debug-proxy — full WebKit
-      Inspector Protocol support'.
-    - >-
-      README shows '100+ tools across all 27 WebKit Inspector Protocol domains' and installs directly into Claude Code,
-      Cursor, Windsurf, and others as an MCP server.
-    - Listed in awesome-mcp-servers under 'Browser Automation' as a server implementation.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

@@ -83,15 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    PiloTY is an MCP server whose core identity is providing PTY-based terminal access as an MCP service, making MCP the
-    primary product identity rather than a mere integration feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'PiloTY: AI pilot for PTY operations via MCP - enables AI agents to control interactive
-      terminals like a human'
-    - 'README: ''PiloTY (PTY for your AI Copilot) is an MCP server that gives an agent a persistent, interactive terminal'''
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' and 'Community Servers'
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

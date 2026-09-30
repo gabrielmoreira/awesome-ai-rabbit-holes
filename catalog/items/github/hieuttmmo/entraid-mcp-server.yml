@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing EntraID/Graph API capabilities via MCP, fitting
-    the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP server for EntraID via Microsoft Graph API
-    - README details a modular FastMCP server with tools for users, groups, MFA, sign-in logs, etc.
-    - Already listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

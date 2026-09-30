@@ -86,15 +86,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server for Langfuse prompt management, making MCP infrastructure its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''Model Context Protocol (MCP) Server for Langfuse Prompt Management.'''
-    - 'README: implements MCP Prompts specification and tools for prompt discovery, retrieval, and compilation.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' and 'Official Servers'.
+    - jev-latest choice confidence 0.87
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Prompt Engineering & Management
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (166) exceeded threshold (150)

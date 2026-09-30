@@ -68,15 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is a local runtime that collapses LLM inference into a single executable, fitting
-    squarely into Local AI tooling for developers.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - 'Repo description states: ''Distribute and run LLMs with a single file.'''
-    - >-
-      README explains it combines llama.cpp with Cosmopolitan Libc to create a single-file executable with no
-      installation.
-    - Source list 'awesome-ai-coding-tools' catalogs it under 'Local LLM Tools'.
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: local-ai
   secondary_categories: []

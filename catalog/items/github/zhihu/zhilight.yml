@@ -69,15 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    ZhiLight is a local inference serving stack optimized for Llama-family models on consumer and data-center GPUs,
-    matching the Local AI category's focus on self-hosted execution as the main reason to use the product.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - 'Repo description: ''A highly optimized LLM inference acceleration engine for Llama and its variants.'''
-    - >-
-      README: 'Start OpenAI compatible server' via `python -m zhilight.server.openai.entrypoints.api_server` and
-      provides Docker image for local deployment.
-    - Performance benchmarks compare QPS, TTFT, and TPOT against vLLM and SGLang on AD102 PCIe, A800, and H20 GPUs.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: local-ai
   secondary_categories: []

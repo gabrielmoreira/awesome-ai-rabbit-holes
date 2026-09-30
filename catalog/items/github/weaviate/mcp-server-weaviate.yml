@@ -54,17 +54,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server implementation for Weaviate, making MCP the core identity rather than a compatibility
-    feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - 'Repo description: ''MCP (Model Context Protocol) server for Weaviate'''
-    - Listed in awesome-mcp-servers under Server Implementations > Databases
-    - README focuses on MCP server tools for Weaviate operations like insert and query
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: Stars (161) exceeded threshold (150)

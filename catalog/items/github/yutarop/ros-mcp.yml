@@ -58,15 +58,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It functions as a terminal-based coding agent that translates natural language prompts into ROS2 commands, enabling
-    developers to control robots via Claude Desktop without writing boilerplate code.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''MCP server for ROS to control robots via topics, services, and actions.'''
-    - >-
-      README: Processes natural language input, maps it to ROS commands, and communicates with ROS2
-      topics/services/actions.
-    - 'Usage: Integrated with Claude Desktop via MCP to execute robot control prompts like ''move TurtleBot3 forward''.'
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

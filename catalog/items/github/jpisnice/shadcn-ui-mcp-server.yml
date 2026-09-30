@@ -81,13 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose primary identity is providing domain-specific context (shadcn/ui components) to AI
-    assistants via the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for shadcn/ui
-    - README highlights MCP as the core integration mechanism with multi-framework support
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

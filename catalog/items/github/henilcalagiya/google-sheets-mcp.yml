@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity, and the server provides domain-specific (Google Sheets) functionality as an MCP
-    server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is a 'Python package of google sheet mcp'
-    - README confirms it is an MCP server for Google Sheets automation
-    - Already listed in awesome-mcp-servers under 'Server Implementations > Databases'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

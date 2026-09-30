@@ -102,18 +102,23 @@ metadata:
       fetched_at: '2026-07-21T15:20:41.501Z'
       bytes: 46969
 insights:
-  summary: null
+  summary: >-
+    The memory & context layer for AI agents: load only the context they actually need. Resolves live workspace state
+    into verified facts before the context window opens. 94% fewer prompt tokens, 0 ms overhead, 33 MCP tools.
+    Local-first, MIT. pip install perseus-ctx
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
+  evidence:
+    - jev-latest choice confidence 0.78
 placement:
-  primary_category: null
-  section: null
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: curated
   reason: null

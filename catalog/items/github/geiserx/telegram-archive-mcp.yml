@@ -81,11 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server serving a specific domain (Telegram archives).
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly defines it as an 'MCP Server for Telegram-Archive'
-    - README identifies it as a 'tiny bridge' that exposes Telegram-Archive via MCP
-    - Implementation uses JSON-RPC over stdio/HTTP for MCP transport
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

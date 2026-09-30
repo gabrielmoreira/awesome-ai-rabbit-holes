@@ -73,15 +73,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is an MCP server built with FastMCP that adds image-generation capabilities to MCP-compatible clients, making
-    MCP its clear product identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo description states it is 'A local MCP server for generating image assets using Google Gemini AI'.
-    - >-
-      README says 'mcp-alphabanana is a Model Context Protocol (MCP) server for generating image assets with Google
-      Gemini' and is built with FastMCP 3.
-    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture, aligning with its MCP server identity.
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []

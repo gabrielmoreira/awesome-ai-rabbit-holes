@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server designed to provide a specific domain (CODESYS) as a toolset for MCP
-    clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''Model Context Protocol server for CODESYS automation platform'''
-    - README features specifically list MCP Resources and tools for project/POU management
-    - Included in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

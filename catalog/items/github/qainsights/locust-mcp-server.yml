@@ -67,15 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server for load testing, fitting cleanly into the MCP Servers & Tooling category as a domain-specific
-    server implementation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states: 'A Model Context Protocol (MCP) server implementation for running Locust load
-      tests.'
-    - README shows it exposes a `run_locust` tool for MCP clients like Claude Desktop, Cursor, and Windsurf.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -69,19 +69,12 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    NVIDIA ChatRTX is a self-hosted desktop application that runs LLMs locally on RTX hardware for private document
-    querying, fitting the local AI runtime category.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
   evidence:
-    - >-
-      Scraped site context describes it as 'AI PCs for gaming, creating, productivity and development' with local AI
-      capabilities
-    - >-
-      Positioned as an on-device assistant (Project G-Assist) that uses RTX GPUs for private inference without cloud
-      dependency
-    - Appears in awesome-LLM-resources under 'Inference' section as a tool for local model use
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: local-ai
+  secondary_categories: []
   section: Desktop Chat & UIs
 lifecycle:
   status: curated

@@ -54,13 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server for GitLab/Jira integration, not a thin adapter or
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README explicitly describes it as an MCP server for GitLab and Jira integration
-    - Source-list context places it in an MCP servers directory under 'Developer Tools'
-    - Repo is actively maintained (pushed 2025-09-05) and not archived
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

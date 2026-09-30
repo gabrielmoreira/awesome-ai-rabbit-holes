@@ -62,15 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server exposing communication infrastructure as tools, which aligns directly with
-    the MCP Servers & Tooling category and is listed in awesome-mcp-servers under Communication.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''Spix MCP Server — give AI agents phone calls, SMS, and email as tool calls'''
-    - >-
-      README: 'spix-mcp is a standalone Model Context Protocol server that exposes Spix's communications
-      infrastructure... as MCP tools and resources'
-    - Seen in awesome-mcp-servers under 'Server Implementations > Communication'
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

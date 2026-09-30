@@ -87,19 +87,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a runtime platform and CLI designed specifically to coordinate multiple distinct AI agents (Claude,
-    Codex, etc.) in parallel, fitting the 'operated workbench' definition of agent orchestration.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description explicitly states 'One CLI to orchestrate them all. Manage a team of AI agents executing tasks in
-      parallel'.
-    - >-
-      README demonstrates a multi-agent runtime where a 'CTO' agent decomposes goals and 'Backend'/'QA' agents execute
-      them in parallel.
-    - >-
-      Included in 'awesome-cli-coding-agents' under the 'Harnesses & orchestration > Orchestrators & autonomous loops'
-      section.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

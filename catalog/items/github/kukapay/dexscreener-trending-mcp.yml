@@ -54,13 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server with DexScreener as its domain focus, fitting the MCP-first identity
-    requirement.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description states it is 'An MCP server that provides real-time trending tokens from DexScreener'
-    - README confirms it exposes MCP tools (`get_trending_pairs`) and prompt templates
-    - Installation instructions target MCP clients like Claude Desktop
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

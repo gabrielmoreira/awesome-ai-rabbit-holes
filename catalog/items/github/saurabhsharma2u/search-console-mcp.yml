@@ -70,15 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server designed to give AI agents structured access to search and analytics
-    platforms, fitting the MCP Servers & Tooling category perfectly.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - >-
-      Repo description states it is 'A Model Context Protocol (MCP) server for Google Search Console, Bing Webmaster
-      Tools, and GA4'.
-    - Found in the awesome-mcp-servers list under 'Server Implementations > Customer Data Platforms'.
-    - README demonstrates MCP client usage prompts for Claude Desktop and others to query SEO data.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

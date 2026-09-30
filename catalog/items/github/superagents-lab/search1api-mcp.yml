@@ -102,17 +102,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server that exposes Search1API functionality as MCP tools, making MCP its core identity rather
-    than a mere compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README describes it as 'the official MCP server for Search1API'
-    - Provides MCP-compatible configuration examples for Claude Desktop, Cursor, VS Code, and others
-    - Exposes discrete MCP tools like search, news, crawl, reasoning, and trending
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (172) exceeded threshold (150)

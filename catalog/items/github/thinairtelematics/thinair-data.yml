@@ -64,15 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for databases, which aligns directly with the MCP Servers & Tooling category
-    and is listed in awesome-mcp-servers under Databases.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - >-
-      Repo description: 'Connect your AI assistant to any PostgreSQL, MySQL, or SQL Server database in 60 seconds via
-      MCP.'
-    - README states it is a 'Model Context Protocol (MCP) server' with 23 dialect-aware tools across 4 tiers.
-    - Listed in awesome-mcp-servers under Server Implementations > Databases.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

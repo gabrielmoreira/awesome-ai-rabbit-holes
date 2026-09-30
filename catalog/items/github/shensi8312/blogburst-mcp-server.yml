@@ -71,21 +71,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The repository is an official MCP server implementation designed to give MCP clients access to the BlogBurst
-    marketing platform, fitting the MCP infrastructure definition.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'Official MCP server for BlogBurst'.
-    - >-
-      README confirms it is a Model Context Protocol server configured for Claude Desktop via
-      claude_desktop_config.json.
-    - >-
-      Listed in awesome-mcp-servers under 'Marketing' section, confirming ecosystem recognition as an MCP
-      implementation.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

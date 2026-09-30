@@ -70,15 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an official MCP server that exposes Oxylabs scraping and AI Studio capabilities as MCP tools, making MCP its
-    primary product identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - >-
-      Repo description states 'Official Oxylabs MCP integration' and topics include mcp, mcp-server, and
-      model-context-protocol.
-    - README describes 'Oxylabs MCP server' with eight MCP tools for scraping, crawling, browser control, and search.
-    - Listed in awesome-mcp-servers under the 'Official Servers' section, and pushed recently (2026-04-23).
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -61,11 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing EVM chain data via the MCP protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description states it is 'An MCP server that gives AI agents fast access to verified EVM chain information'
-    - README details MCP tools (`getChainById`, `getChainsByKeyword`) and installation as an MCP server
-    - Project is actively maintained (created and pushed in May 2025, not archived)
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -55,15 +55,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    json-mcp is an MCP server whose core identity is providing JSON file operations via the Model Context Protocol,
-    making it a clear fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''JSON MCP Server'''
-    - 'README: ''The Model Context Protocol (MCP) server empowers LLMs to efficiently interact with JSON files'''
-    - 'Source-list: listed in awesome-mcp-servers under Community Servers'
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

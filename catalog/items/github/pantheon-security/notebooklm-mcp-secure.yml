@@ -73,15 +73,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is itself an MCP server for NotebookLM, and MCP is the core identity rather than a compatibility
-    footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'Secure NotebookLM MCP Server' as the primary identity.
-    - README positions it as 'The World's Most Advanced NotebookLM MCP Server' with MCP protocol compliance highlighted.
-    - Seen in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

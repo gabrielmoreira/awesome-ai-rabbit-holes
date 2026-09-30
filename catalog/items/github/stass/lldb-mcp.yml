@@ -60,15 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server that gives Claude structured access to LLDB debugging capabilities, which fits cleanly as a
-    domain-specific MCP server rather than a standalone coding agent or generic extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description is 'LLDB MCP server', making MCP the explicit product identity.
-    - >-
-      README states it 'integrates the LLDB debugger with Claude’s Model Context Protocol (MCP)' and is configured as an
-      MCP server in Claude Desktop.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools, reinforcing its MCP server role.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

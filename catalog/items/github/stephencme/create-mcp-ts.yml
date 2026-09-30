@@ -59,19 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is a developer tool for creating and managing MCP server projects, fitting cleanly into MCP
-    infrastructure tooling rather than a generic framework or extension.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Scaffolding & Boilerplate
   evidence:
-    - 'Repo description explicitly states: ''Create a new MCP server in TypeScript, batteries included.'''
-    - >-
-      README details zero-config build tools via mcp-scripts and auto-configuration for Cursor, Windsurf, and Claude
-      Desktop.
-    - Appears in awesome-mcp-servers under the 'Frameworks' section, reinforcing its MCP-specific dev-tool identity.
+    - jev-latest choice confidence 0.73
 placement:
-  primary_category: mcp
+  primary_category: app-builders
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: Scaffolding & Boilerplate
 lifecycle:
   status: curated
   reason: null

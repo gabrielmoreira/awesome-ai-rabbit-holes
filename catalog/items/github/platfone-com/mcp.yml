@@ -79,19 +79,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server implementation for a specific domain (SMS/phone verification),
-    fitting cleanly into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'MCP server for virtual phone number verification'.
-    - >-
-      README positions the tool as enabling AI agents via 'MCP-compatible clients like Claude, VS Code Copilot, Codex,
-      etc.'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

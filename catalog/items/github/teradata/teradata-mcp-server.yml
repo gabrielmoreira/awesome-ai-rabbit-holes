@@ -59,15 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server for the Teradata database platform, providing tools and prompts
-    specifically over the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states 'MCP server for a Teradata database'
-    - >-
-      README emphasizes 'Model Context Protocol (MCP) server for Teradata' with tool modules for Query, Table, and DBA
-      tasks
-    - Listed in awesome-mcp-servers under 'Official Servers' section
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

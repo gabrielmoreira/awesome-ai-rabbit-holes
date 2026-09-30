@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product’s core identity is an MCP server wrapping a domain-specific library, making it a clear fit for the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''Bioinformatic MCP server that wraps the most useful functions of the gget library'''
-    - 'README: Explicitly states it is an ''MCP (Model Context Protocol) server for the gget bioinformatics library'''
-    - 'Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics'
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

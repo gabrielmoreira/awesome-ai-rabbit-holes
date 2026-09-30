@@ -68,17 +68,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is primarily a code-first library distributed via npm that developers import to script multi-agent behavior; the
-    core identity is a reusable agent framework rather than an operated control plane.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
   evidence:
-    - >-
-      README and repo description frame it as a 'lightweight TypeScript library' with a simple API for building
-      multi-agent systems
-    - Ships as an npm package intended to be imported into applications, not operated as a workbench or platform
-    - >-
-      Multi-agent coordination features like session orchestration and swarm navigation are exposed as library
-      primitives, not as a hosted runtime surface
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

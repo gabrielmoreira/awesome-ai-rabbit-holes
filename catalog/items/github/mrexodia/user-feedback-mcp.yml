@@ -80,19 +80,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is explicitly an MCP server designed to add human-in-the-loop capabilities to other coding
-    assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description states: 'Simple MCP Server to enable a human-in-the-loop workflow in tools like Cline and
-      Cursor.'
-    - README confirms it is an MCP Server using FastMCP to provide a 'user_feedback' tool.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

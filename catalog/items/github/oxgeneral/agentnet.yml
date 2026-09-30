@@ -63,13 +63,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: it is shipped as an MCP server and HTTP API specifically to give agents MCP-accessible
-    discovery and referral tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Registries & Discovery
   evidence:
-    - Repo description states it is 'Available as an MCP server and HTTP API'.
-    - README documents 7 MCP tools including register_agent, find_agents, and recommend.
-    - Pre-seeded with 48 real agents across MCP, Telegram, GPT Store, Web, and Discord platforms.
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []

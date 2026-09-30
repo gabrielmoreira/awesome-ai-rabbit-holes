@@ -67,22 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that exposes YouTube data and knowledge-base capabilities to MCP clients, making MCP
-    its clear product identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description states: 'Public MCP wrapper for SubDownload. Fetch YouTube transcripts, search videos, browse
-      channels and playlists — instant YouTube data for your AI workflow.'
-    - >-
-      README explicitly describes 'SubDownload exposes YouTube as an MCP-native data source' and provides MCP client
-      configuration examples.
-    - >-
-      Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory', reinforcing its MCP server
-      identity.
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

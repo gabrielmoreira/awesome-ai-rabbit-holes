@@ -59,21 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a code-first framework and toolkit used by developers to script and configure RL post-training for
-    agents, making it a clear fit for Frameworks & SDKs.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - 'Repo description: ''Train your Agent model via our easy and efficient framework'''
-    - >-
-      README: 'RLFactory is an easy and efficient RL post-training framework for Agentic Learning' with tool config,
-      reward functions, and async tool-calling
-    - >-
-      Developers use it via config files, training scripts, and framework components, not as an operated control plane
-      or end-user app
+    - jev-latest choice confidence 0.85
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Fine-tuning & Training
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (1746) exceeded threshold (150)

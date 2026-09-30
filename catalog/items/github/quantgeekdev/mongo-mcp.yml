@@ -95,13 +95,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server implementation for a specific database domain, fitting the MCP Servers &
-    Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is 'A mongo db server for the model context protocol (MCP)'.
-    - README confirms it is an MCP server providing tools like find, insertOne, and createIndex for LLMs.
-    - Listed in awesome-mcp-servers under 'Databases' and 'Community Servers' sections.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

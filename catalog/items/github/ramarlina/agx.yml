@@ -84,17 +84,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    AGX is a developer-facing coding assistant surface that runs agents across repos and tickets with its own CLI,
-    dashboard, and desktop app, not merely an extension or orchestration framework.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''Run AI coding agents as a persistent team with objectives, memory, and coordinated work.'''
-    - >-
-      README: 'AGX is a local workspace for running coding agents across your tickets, repos, and PRs — you stay the
-      author.'
-    - >-
-      Source lists place it in CLI Tools and Harnesses & orchestration > Orchestrators & autonomous loops, showing
-      ecosystem recognition.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

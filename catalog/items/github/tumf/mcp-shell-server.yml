@@ -83,15 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity and value come from implementing the Model Context Protocol for
-    shell command execution, making MCP the primary product identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'README explicitly states: ''A secure shell command execution server implementing the Model Context Protocol (MCP)'''
-    - Provides MCP client configuration examples for Claude Desktop showing integration as an MCP server
-    - >-
-      Appears in MCP-specific curated lists: awesome-mcp-list (Command Line section) and awesome-mcp-servers (Server
-      Implementations > Coding Agents section)
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -62,11 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the core product identity, and the server provides domain-specific (weather) functionality as an MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies it as an MCP server
-    - README details MCP transport modes (stdio, SSE, streamable-http) and Open-Meteo integration
-    - Listed on Smithery and Glama MCP registries
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

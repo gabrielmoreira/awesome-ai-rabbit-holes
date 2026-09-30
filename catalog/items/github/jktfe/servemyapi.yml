@@ -76,17 +76,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server for API key management, making it a clear fit for MCP Servers &
-    Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README explicitly describes it as a personal MCP server for API key storage/access
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Developer Tools
-    - Supports stdio and HTTP/SSE transports for MCP clients
+    - jev-latest choice confidence 0.55
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

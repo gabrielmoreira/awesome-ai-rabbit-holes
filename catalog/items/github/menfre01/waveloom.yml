@@ -69,13 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is a standalone terminal-native coding assistant that directly plans and edits code, rather than just an
-    extension for another tool.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Claims to be a 'terminal code agent' with a custom TUI
-    - Directly handles planning, file writes, and command execution
-    - Provides a complete alternative to Claude Code for DeepSeek users
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: coding-agents
   secondary_categories: []

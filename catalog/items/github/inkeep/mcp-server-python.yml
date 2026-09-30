@@ -57,17 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose primary identity is providing Inkeep's RAG capabilities as an MCP-compatible tool,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly labels it as an 'Inkeep MCP Server'
-    - README details setup for MCP clients (Claude Desktop) and Inkeep API integration
-    - Listed in awesome-mcp-servers under 'Official Servers'
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: null

@@ -81,19 +81,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Tentra MCP is an MCP server offering memory and code graph capabilities as its core product, making it MCP
-    infrastructure rather than an extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description: 'Tentra MCP — memory for AI coding agents. Persistent code graph + AI architecture diagrams. 32
-      MCP tools.'
-    - Lists MCP, model-context-protocol, and persistent-context as topics.
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Architecture & Design.'
+    - jev-latest choice confidence 0.53
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

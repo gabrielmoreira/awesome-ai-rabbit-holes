@@ -113,15 +113,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server for Supabase, directly matching the MCP Servers & Tooling category
-    with strong upstream backing.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description states: ''Connect Supabase to your AI assistants'''
-    - >-
-      README explicitly identifies it as 'The Model Context Protocol (MCP) standardizes how LLMs talk to external
-      services like Supabase'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases' and 'Official Servers'
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

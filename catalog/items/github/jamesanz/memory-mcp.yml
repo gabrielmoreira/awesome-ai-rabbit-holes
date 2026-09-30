@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here, as it is explicitly an MCP server providing memory and context management
-    capabilities.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP server for memory management
-    - README emphasizes MCP integration with Cursor and Claude Desktop
-    - Project is built using the MCP SDK and presents itself as an MCP server
+    - jev-latest choice confidence 0.58
 placement:
   primary_category: mcp
   secondary_categories: []

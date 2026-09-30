@@ -58,18 +58,22 @@ metadata:
       fetched_at: '2026-07-20T16:43:00.172Z'
       bytes: 2409
 insights:
-  summary: null
+  summary: >-
+    Every AI coding-agent CLI (Claude Code, Codex, Gemini, Qwen, Vibe) reviews your diff in parallel, read-only, for one
+    ship/no-ship verdict. One tiny script: no server, no MCP.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  evidence:
+    - jev-latest choice confidence 0.52
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: null

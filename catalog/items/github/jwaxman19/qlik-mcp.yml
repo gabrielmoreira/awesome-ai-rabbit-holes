@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server that provides domain-specific access to Qlik Cloud APIs, fitting the MCP Servers &
-    Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is an MCP server for Qlik
-    - README details MCP server tools for Qlik Cloud API interaction
-    - Already listed in awesome-mcp-servers under Data Platforms
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

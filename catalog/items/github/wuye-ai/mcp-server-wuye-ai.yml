@@ -79,15 +79,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server implementation as its primary identity, offering domain-specific tools through the
-    Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''CRIC物业AI MCP Server'''
-    - 'README: ''CRIC物业AI MCP Server 是一个基于 [Model Context Protocol](https://modelcontextprotocol.io/) 的服务端实现'''
-    - Listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

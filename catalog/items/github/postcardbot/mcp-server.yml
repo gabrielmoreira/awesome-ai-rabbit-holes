@@ -69,17 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for a specific domain (direct mail), making it a textbook fit for the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description states: ''MCP server for Postcard.bot — let AI agents send real printed postcards.'''
-    - README outlines tools like `send_postcard` and `bulk_send` exposed via MCP to Claude, Cursor, and Windsurf.
-    - Listed in the 'awesome-mcp-servers' directory under 'Server Implementations > Communication'.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

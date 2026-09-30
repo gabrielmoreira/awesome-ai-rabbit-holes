@@ -81,18 +81,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Core novelty is memory infrastructure and context retrieval for AI assistants, fitting the Prompt & Context
-    Engineering category despite being distributed as an MCP server.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - 'Repo description: ''Privacy-first MCP server for AI memory management'''
-    - README emphasizes 'Infinite Memory' and 'searchable knowledge base' with local storage as primary value
-    - Features center on summarization, memory slots, and timeline navigation—classic context-engineering primitives
-    - Very new repo (67 stars) but active and fits a clear gap in developer tooling
+    - jev-latest choice confidence 0.53
 placement:
-  primary_category: mcp
+  primary_category: memory-and-context
   secondary_categories: []
-  section: Middleware & Generic
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: curated
   reason: null

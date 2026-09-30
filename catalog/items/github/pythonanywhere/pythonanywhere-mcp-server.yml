@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server for a specific cloud platform, which fits cleanly as domain-specific MCP infrastructure
-    rather than a generic extension or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README states it is 'A Model Context Protocol (MCP) server' for PythonAnywhere.
-    - Installation instructions cover Claude Desktop, Claude Code, Cursor, and GitHub Copilot in PyCharm.
-    - Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

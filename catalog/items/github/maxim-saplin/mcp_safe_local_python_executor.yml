@@ -64,15 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server that exposes a wrapped Python executor as a tool for MCP-compatible
-    clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is a 'Stdio MCP Server wrapping custom Python runtime'.
-    - >-
-      README states it 'exposes the Python executor via MCP (Model Context Protocol) as a tool for LLM apps like Claude
-      Desktop, Cursor or any other MCP compatible client'.
-    - Active development with last push in 2025-07-17 and created in 2025-03-27.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

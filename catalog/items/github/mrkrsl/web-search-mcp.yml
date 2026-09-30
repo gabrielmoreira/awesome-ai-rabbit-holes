@@ -64,19 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server by identity, explicitly built to implement the Model Context Protocol for web search
-    capabilities in local LLM clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description states it is 'A simple, locally hosted Web Search MCP server for use with Local LLMs'.
-    - >-
-      README confirms it is a 'TypeScript MCP (Model Context Protocol) server' providing search tools for LM Studio and
-      LibreChat.
-    - Listed in the awesome-mcp-servers directory under 'Community Servers', confirming its ecosystem identity.
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (841) exceeded threshold (150)

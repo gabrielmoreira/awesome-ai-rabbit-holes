@@ -98,21 +98,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is indexing, compressing, and retrieving institutional knowledge (graph, git history, decisions) to
-    feed the right context to a model, which aligns with Prompt & Context Engineering.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
   evidence:
-    - Repo description defines it as 'Codebase intelligence... via MCP' with layers for graph, git, docs, and decisions.
-    - >-
-      README explicitly claims '27× fewer tokens per query' and '209× less than naive' via context retrieval strategies
-      like get_context.
-    - >-
-      Exposes seven MCP tools primarily for retrieval and context-shaping rather than acting as the primary coding
-      agent.
+    - jev-latest choice confidence 0.68
 placement:
-  primary_category: mcp
+  primary_category: memory-and-context
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Compression & Token Optimization
 lifecycle:
   status: curated
   reason: Stars (1402) exceeded threshold (150)

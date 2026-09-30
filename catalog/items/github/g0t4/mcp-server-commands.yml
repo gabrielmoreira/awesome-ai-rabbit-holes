@@ -78,11 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's identity is explicitly an MCP server designed to expose host process execution to a protocol client.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as an 'MCP server to run commands'
-    - README focuses on implementing the `runProcess` tool for the Model Context Protocol
-    - Primary function is acting as a middleware/adapter for host execution via MCP
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -80,15 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server implementation for the LINE Messaging API, fitting cleanly as domain-specific MCP
-    infrastructure.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - >-
-      Repo description explicitly states: 'MCP server that integrates the LINE Messaging API to connect an AI Agent to
-      the LINE Official Account.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication' and 'Official Servers'.
-    - Provides MCP tools like push_text_message, broadcast_flex_message, get_profile, and rich menu management for LINE.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

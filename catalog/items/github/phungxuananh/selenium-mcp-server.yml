@@ -59,15 +59,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product identity is a standalone MCP server for browser automation, placing it squarely in MCP Servers &
-    Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - >-
-      README states: 'A Model Context Protocol (MCP) server that provides web automation capabilities through Selenium
-      WebDriver.'
-    - Listed in awesome-mcp-servers under Browser Automation, confirming its MCP domain identity.
-    - Provides MCP tools such as navigate, click_to_element, take_screenshot powered by Selenium.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

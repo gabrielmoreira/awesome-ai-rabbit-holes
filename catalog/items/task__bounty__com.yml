@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__task__bounty__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,16 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: TaskBounty
         extracted_url: https://task-bounty.com
-        surrounding_text: "- [eliottreich/taskbounty-mcp-server](https://github.com/eliottreich/taskbounty-mcp-server) [![eliottreich/taskbounty-mcp-server MCP server](https://glama.ai/mcp/servers/eliottreich/taskbounty-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/eliottreich/taskbounty-mcp-server) 📇 ☁️ - MCP server for [TaskBounty](https://www.task-bounty.com). AI agents fix GitHub bugs (every fix ships with a regression test) and raise test coverage on your codebase. Posters draft and fund bounties from chat (Stripe Checkout); solvers submit PRs verified end-to-end in a sandbox. Paid in USDC, ETH, or BTC. 11 tools."
+        surrounding_text: >-
+          - [eliottreich/taskbounty-mcp-server](https://github.com/eliottreich/taskbounty-mcp-server)
+          [![eliottreich/taskbounty-mcp-server MCP
+          server](https://glama.ai/mcp/servers/eliottreich/taskbounty-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/eliottreich/taskbounty-mcp-server)
+          📇 ☁️ - MCP server for [TaskBounty](https://www.task-bounty.com). AI agents fix GitHub bugs (every fix ships
+          with a regression test) and raise test coverage on your codebase. Posters draft and fund bounties from chat
+          (Stripe Checkout); solvers submit PRs verified end-to-end in a sandbox. Paid in USDC, ETH, or BTC. 11 tools.
         confidence: high
     - id: discovery__www__task__bounty__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,7 +41,13 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: TaskBounty
         extracted_url: https://www.task-bounty.com
-        surrounding_text: "- [eliottreich/taskbounty-mcp-server](https://github.com/eliottreich/taskbounty-mcp-server) [![eliottreich/taskbounty-mcp-server MCP server](https://glama.ai/mcp/servers/eliottreich/taskbounty-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/eliottreich/taskbounty-mcp-server) 📇 ☁️ - MCP server for [TaskBounty](https://www.task-bounty.com). AI agents fix GitHub bugs (every fix ships with a regression test) and raise test coverage on your codebase. Posters draft and fund bounties from chat (Stripe Checkout); solvers submit PRs verified end-to-end in a sandbox. Paid in USDC, ETH, or BTC. 11 tools."
+        surrounding_text: >-
+          - [eliottreich/taskbounty-mcp-server](https://github.com/eliottreich/taskbounty-mcp-server)
+          [![eliottreich/taskbounty-mcp-server MCP
+          server](https://glama.ai/mcp/servers/eliottreich/taskbounty-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/eliottreich/taskbounty-mcp-server)
+          📇 ☁️ - MCP server for [TaskBounty](https://www.task-bounty.com). AI agents fix GitHub bugs (every fix ships
+          with a regression test) and raise test coverage on your codebase. Posters draft and fund bounties from chat
+          (Stripe Checkout); solvers submit PRs verified end-to-end in a sandbox. Paid in USDC, ETH, or BTC. 11 tools.
         confidence: high
 metadata:
   github:
@@ -53,9 +65,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An agent marketplace for posting tasks and hiring autonomous agents or operators for work such as coding, research, and design.
-  why_it_matters: It provides a structured workflow for developers to outsource discrete, well-defined technical tasks to specialized autonomous agents.
-  mental_damage: An efficient way to automate the process of delegating your entire backlog to a workforce of agents that you will inevitably have to audit.
+  summary: >-
+    An agent marketplace for posting tasks and hiring autonomous agents or operators for work such as coding, research,
+    and design.
+  why_it_matters: >-
+    It provides a structured workflow for developers to outsource discrete, well-defined technical tasks to specialized
+    autonomous agents.
+  mental_damage: >-
+    An efficient way to automate the process of delegating your entire backlog to a workforce of agents that you will
+    inevitably have to audit.
   tags:
     - agent-marketplace
     - task-delegation
@@ -64,22 +82,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: TaskBounty Autopilot functions as a developer-facing coding assistant that plans, writes, tests, and verifies code changes autonomously, matching the core identity of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
   evidence:
-    - "Autopilot fixes bugs while you sleep: connects a repo, labels issues, runs multi-agent attempts in parallel, and verifies every PR end-to-end in an isolated sandbox before delivery."
-    - Every PR must fail on main and pass on the PR, with full test suite and regression test verification — a core testing and repair workflow.
-    - Positioned in awesome-mcp-servers under 'Coding Agents' section, indicating recognition as an agent that performs coding work, not just an extension.
+    - jev-latest choice confidence 0.64
 placement:
-  primary_category: coding-agents
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: null
+  section: Hosted Agent Platforms
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-21T04:31:32.155Z"
+    updated_at: '2026-09-21T04:31:32.155Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -92,19 +108,23 @@ processing:
       input_hash: sha256:728a0fc2e686d6c0a418579e87cc08227451d0e75c8ef424831e430857a5797d
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: TaskBounty functions as a hosted platform and workforce-as-a-service for managing, routing, and paying multiple agents.
+      decision_reason: >-
+        TaskBounty functions as a hosted platform and workforce-as-a-service for managing, routing, and paying multiple
+        agents.
       decision_evidence:
         - Marketplace for hiring agents for specialized tasks including coding, research, and operations
         - Provides a full task lifecycle including brief definition, budget setting, and deliverable review
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because TaskBounty is the platform used to coordinate and hire agents rather than being a single autonomous coding agent itself.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because TaskBounty is the platform used to coordinate and hire
+        agents rather than being a single autonomous coding agent itself.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.970Z"
+    updated_at: '2026-07-21T15:20:21.970Z'
     cause: null
     next_retry_at: null
   stars:

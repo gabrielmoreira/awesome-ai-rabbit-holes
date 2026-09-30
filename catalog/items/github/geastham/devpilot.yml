@@ -70,13 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool functions as a conductor and control plane for managing multiple agents rather than being a single coding
-    assistant itself.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Explicitly describes itself as 'The Agent Conductor Platform' and 'the cockpit for your coding agents'
-    - Focuses on managing a fleet's 'runway' and task queues to prevent idle capacity
-    - Provides a spatial planning surface to move work from 'directional' intent to 'ready' for dispatch
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

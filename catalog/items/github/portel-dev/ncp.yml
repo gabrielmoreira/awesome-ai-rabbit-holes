@@ -89,20 +89,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP aggregation and middleware is the core product identity, explicitly described as '1 MCP to rule them all' with
-    smart loading, tool discovery, and client readiness.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description: 'Natural Context Provider (NCP). Your MCPs, supercharged. Find any tool instantly, load on
-      demand, run on schedule, ready for any client.'
-    - >-
-      README: 'Instead of your AI juggling 50+ tools scattered across different MCPs, NCP gives it a single, unified
-      interface... routing requests, discovering the right capability, executing code, scheduling tasks, managing
-      health, and caching responses.'
-    - >-
-      Topics and identity: tagged as mcp, mcp-client, mcp-server, orchestrator; appears in awesome-mcp-servers under
-      Aggregators.
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

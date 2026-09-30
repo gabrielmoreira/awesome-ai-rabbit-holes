@@ -71,15 +71,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    TokenSpeed is a local inference engine serving as a runtime for deploying LLMs on self-hosted hardware, matching the
-    local AI category's focus on private, self-hosted execution as the core product identity.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - 'Repo description: ''TokenSpeed is a speed-of-light LLM inference engine'''
-    - >-
-      README: 'Our goal is to be the most performant inference engine for production agentic workloads' with guides for
-      launching a server and model recipes
-    - 'Archived: no, pushed at 2026-07-02 indicating active maintenance'
+    - jev-latest choice confidence 0.57
 placement:
   primary_category: local-ai
   secondary_categories: []

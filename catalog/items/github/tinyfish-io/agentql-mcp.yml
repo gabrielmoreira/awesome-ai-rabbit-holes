@@ -76,15 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server that brings AgentQL's scraping capabilities into MCP-compatible assistants,
-    which fits the MCP Servers & Tooling category cleanly.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - >-
-      Repo description explicitly states: 'Model Context Protocol server that integrates AgentQL's data extraction
-      capabilities.'
-    - README documents setup instructions for Claude, Cursor, Windsurf, and VS Code as MCP servers.
-    - Listed in awesome-mcp-servers under the 'Official Servers' section.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

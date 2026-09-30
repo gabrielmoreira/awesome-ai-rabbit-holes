@@ -81,21 +81,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    CheckYourself functions as an extension that augments AI coding assistants with audit, scoring, and workflow
-    capabilities rather than acting as a primary coding assistant itself.
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
   evidence:
-    - Repo description positions it as a 'Local-first production-readiness system for AI-built apps' with MCP and CLI
-    - >-
-      README states it 'turns your AI assistant into a pre-launch production reviewer' and requires pointing the AI at
-      CONTEXT.md
-    - >-
-      It provides read-only audits, scoring, fix suggestions, and learning plans — augmenting, not replacing, the AI
-      assistant's core coding role
+    - jev-latest choice confidence 0.67
 placement:
-  primary_category: coding-agents
+  primary_category: decision-models
   secondary_categories: []
-  section: Review, Testing & Repair
+  section: Verification, Guardrails & Safety
 lifecycle:
   status: curated
   reason: null

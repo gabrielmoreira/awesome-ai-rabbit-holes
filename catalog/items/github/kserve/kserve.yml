@@ -83,19 +83,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    KServe is primarily a code-first framework/SDK for deploying and managing AI inference workloads on Kubernetes,
-    fitting the 'Frameworks & SDKs' category.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - >-
-      Repo description explicitly calls it a 'Standardized Distributed Generative and Predictive AI Inference Platform
-      for Scalable, Multi-Framework Deployment on Kubernetes'
-    - README highlights features like multi-framework support, autoscaling, and Kubernetes-native deployment
-    - Source-list context places it under 'Large Scale Deployment > ML Platforms' in Awesome-LLMOps
+    - jev-latest choice confidence 0.51
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Inference Engines
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (5427) exceeded threshold (150)

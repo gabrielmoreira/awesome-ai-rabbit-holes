@@ -119,23 +119,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a workbench and runtime platform for building, deploying, and coordinating agents via a low-code UI
-    and marketplace, fitting the agent orchestration profile over a single coding assistant.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      README describes 'Agent Builder' and 'Workflow Management' via a low-code interface for designing and configuring
-      AI agents.
-    - >-
-      AutoGPT Server is described as a 'powerhouse' and 'marketplace' for running agents continuously with lifecycle
-      management.
-    - >-
-      Listed in awesome-agent-orchestration under 'Core Frameworks > Lightweight & Specialized Agents' with 184k stars
-      and recent activity.
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Visual Builders & Workbenches
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (184037) exceeded threshold (150)

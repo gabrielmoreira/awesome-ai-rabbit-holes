@@ -64,17 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server focused on exposing Aave/DeFi data as tools, fitting clearly under MCP Servers &
-    Tooling as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description explicitly states 'MCP server for querying AAVE V2/V3/V4 lending and governance data via The
-      Graph'.
-    - >-
-      README describes '40 tools across 16 Graph subgraphs + the Aave V4 API' and includes Claude Code and Claude
-      Desktop integration instructions.
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its identity as an MCP server.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -73,13 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server product whose primary identity is turning OpenAPI specs into MCP tools, fitting cleanly into
-    MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description states: ''Turn any OpenAPI 3.x spec into MCP tools for Claude — zero config, instant API access'''
-    - README lists compatibility with Claude Desktop, Claude Code, Cursor, and Cline as an MCP server
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []

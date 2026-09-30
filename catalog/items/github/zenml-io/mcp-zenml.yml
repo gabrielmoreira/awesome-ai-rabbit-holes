@@ -77,15 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server whose core identity is providing ZenML pipeline data and triggers through the Model
-    Context Protocol, making MCP the primary product identity rather than a mere compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server to connect an MCP client with your ZenML MLOps and LLMOps pipelines'''
-    - 'README: ''This project implements a Model Context Protocol (MCP) server for interacting with the ZenML API'''
-    - >-
-      Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools and Official
-      Servers
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

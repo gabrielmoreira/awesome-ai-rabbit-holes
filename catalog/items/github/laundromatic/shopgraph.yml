@@ -75,17 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is a domain-specific MCP server and REST API for product data extraction, not a
-    coding assistant, framework, or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly calls it an 'extraction API' and 'REST API + MCP server'.
-    - README highlights MCP configuration for Claude, Cursor, Windsurf, and other MCP clients.
-    - Source list awesome-mcp-servers includes it under E-Commerce domain servers.
+    - jev-latest choice confidence 0.60
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

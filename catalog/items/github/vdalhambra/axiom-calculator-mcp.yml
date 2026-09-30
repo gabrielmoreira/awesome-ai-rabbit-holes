@@ -62,19 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP-first toolkit providing domain-specific financial tools over stdio, matching the MCP Servers & Tooling
-    category’s focus on MCP identity as the core product.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description and README position it as 'Personal finance calculators for Claude and AI agents' that works as
-      an MCP server via stdio
-    - Installation and usage instructions are entirely MCP-configuration driven (uvx, mcpServers config)
-    - Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation
+    - jev-latest choice confidence 0.67
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

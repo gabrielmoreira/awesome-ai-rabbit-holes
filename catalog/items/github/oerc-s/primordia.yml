@@ -60,18 +60,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product's MCP server exposing settlement, netting, and balance-sheet tools to Claude, Cursor, and Windsurf is a
-    first-class artifact alongside its SDK and runtime, making it a domain-specific MCP server rather than a generic
-    fintech platform.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      README explicitly publishes `npx @primordia1/mcp-server` with MCP config and lists tools like `verify_receipt` and
-      `net_receipts`.
-    - Already listed in awesome-mcp-servers under Finance & Fintech, confirming community recognition as an MCP server.
-    - >-
-      While it ships an SDK and kernel, the MCP adapter is a prominent, documented surface for developers using AI
-      coding assistants.
+    - jev-latest choice confidence 0.58
 placement:
   primary_category: mcp
   secondary_categories: []

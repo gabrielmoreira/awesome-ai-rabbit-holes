@@ -105,23 +105,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a code-first library and runtime toolkit developers use to build optimized LLM inference pipelines on NVIDIA
-    GPUs, fitting the Frameworks & SDKs identity.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - >-
-      Repo description explicitly calls it an 'easy-to-use Python API to define Large Language Models' with Python and
-      C++ runtimes.
-    - >-
-      README positions it as a 'pythonic framework that enables you to customize and extend the system' with specialized
-      kernels.
-    - >-
-      Source lists classify it under 'Inference Engine' and 'Large Model Serving', confirming its role as reusable
-      inference infrastructure.
+    - jev-latest choice confidence 0.90
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Inference Engines
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (13567) exceeded threshold (150)

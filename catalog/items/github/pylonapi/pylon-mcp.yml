@@ -61,19 +61,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is an MCP server that exposes a suite of API tools to MCP-compatible clients, making MCP the core product
-    identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description states: ''MCP server for Pylon AI — 10 pay-per-request APIs as AI agent tools.'''
-    - >-
-      README frames the project as giving 'Claude, Cursor, or any MCP-compatible client instant access' via the MCP
-      protocol.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

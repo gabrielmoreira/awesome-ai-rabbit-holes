@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is a server implementing the Model Context Protocol to provide Jira context to coding agents,
-    fitting the MCP Servers category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description states: ''MCP server to provide Jira Tickets information to AI coding agents like Cursor''.'
-    - README confirms it is 'A Model Context Protocol (MCP) implementation for Jira'.
-    - Included in the 'awesome-mcp-servers' list under the 'Community Servers' section.
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

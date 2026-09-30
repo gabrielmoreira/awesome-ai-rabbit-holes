@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that adds OpenAI model access to Claude Desktop, making MCP infrastructure its primary
-    identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - 'Repo description states: ''Query OpenAI models directly from Claude using MCP protocol.'''
-    - README shows MCP server setup via claude_desktop_config.json with mcpServers entry.
-    - Listed in awesome-mcp-servers under 'Community Servers' section.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -55,20 +55,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    ScrapeGraphAI is included because it is explicitly listed in the awesome-mcp-servers list as an MCP server, and its
-    core identity is providing web scraping capabilities via the Model Context Protocol, making MCP its primary product
-    identity rather than a feature of a broader tool.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Listed in awesome-mcp-servers under Community Servers with the description: 'The web scraping API built for the AI
-      era. Extract structured data from any website. No proxies, no selectors, no maintenance needed.'
-    - >-
-      Scraped site context confirms the product is 'ScrapeGraphAI' and describes it as 'The web scraping API built for
-      the AI era. Extract structured data from any website. No proxies, no selectors, no maintenance needed.'
+    - jev-latest choice confidence 0.69
 placement:
-  primary_category: mcp
-  section: Dev & Code Tools
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

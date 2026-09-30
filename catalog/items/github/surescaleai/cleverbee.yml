@@ -60,15 +60,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is a standalone AI agent that autonomously plans, browses, and synthesizes information via a CLI and web
-    UI, fitting the definition of a developer-facing agent, though its focus is research rather than code editing.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly calls it an 'Open Source Deep Researcher Tool'.
-    - >-
-      README states it is a 'Python-based research assistant agent' using LLMs, Playwright, and Chainlit for an
-      interactive UI.
-    - Listed in 'awesome-llm-agents' under the section 'Frameworks'.
+    - jev-latest choice confidence 0.62
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

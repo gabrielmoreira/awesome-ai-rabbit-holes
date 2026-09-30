@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server whose primary identity is providing Trading 212 integration via the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for Trading 212
-    - README details 32 tools covering Trading 212 API with MCP compatibility
-    - Works with multiple MCP-compatible clients (Claude, Cursor, etc.)
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

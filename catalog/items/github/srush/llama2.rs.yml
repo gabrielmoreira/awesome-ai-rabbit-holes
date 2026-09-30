@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a local, CPU-based Llama 2 inference runtime written in Rust, matching the Local AI category’s focus
-    on self-hosted execution tooling.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - Repo description states it is 'A fast llama2 decoder in pure Rust.'
-    - README emphasizes local CPU inference with SIMD, memory mapping, and 4-bit quantization for 70B models.
-    - Included in the awesome-local-ai list under the Inference Engine section.
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: local-ai
   secondary_categories: []

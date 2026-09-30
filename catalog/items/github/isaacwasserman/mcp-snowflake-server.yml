@@ -96,13 +96,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server for Snowflake, making MCP its primary identity and fitting the Domain Servers
-    section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - README explicitly describes it as a Model Context Protocol (MCP) server for Snowflake
-    - Source lists (awesome-mcp-list, awesome-mcp-servers) categorize it under MCP servers for databases
-    - Provides tools and resources specifically for MCP integration (e.g., `read_query`, `write_query`, schema tools)
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -87,15 +87,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a purpose-built MCP server for a specific domain (logistics/shipment tracking), fitting perfectly into the
-    MCP Servers & Tooling category as a domain-specific implementation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'Model Context Protocol (MCP) server for TrackMage API integration'.
-    - >-
-      README details MCP Resources (trackmage://...) and MCP Tools (create_shipment, list_carriers) as the core product
-      surface.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Location Services' and 'Official Servers'.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

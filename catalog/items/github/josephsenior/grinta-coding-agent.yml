@@ -69,11 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool acts as a primary assistant that plans, executes, and validates software tasks directly in the terminal.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description identifies it as a local-first autonomous coding agent.
-    - README specifies interactive TTY sessions and full task loops (Chat, Plan, Agent).
-    - Claimed ability to execute, validate, and finish software tasks end-to-end.
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: coding-agents
   secondary_categories: []

@@ -72,13 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server exposing domain-specific data (startup engineering signals) via MCP tools, with MCP as
-    the product identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly identifies it as an MCP server for VC Deal Flow Signal
-    - README details MCP tool definitions and installation for Claude Desktop/Code
-    - Topics include 'mcp-server' and 'model-context-protocol'
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
   secondary_categories: []

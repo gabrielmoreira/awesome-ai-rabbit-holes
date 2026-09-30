@@ -72,17 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a control-plane dashboard for coordinating multiple agents and routing work between them, which
-    aligns with Workbenches in Agent Orchestration rather than being a coding agent itself.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''A dashboard for running and coordinating multiple AI CLI agents at once.'''
-    - >-
-      README: 'Autopilot routes work between agents automatically... watches for one agent to finish, hands the output
-      to the next one.'
-    - >-
-      Source list placement: awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel
-      runners'.
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

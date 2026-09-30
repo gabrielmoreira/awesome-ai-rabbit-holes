@@ -69,22 +69,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core novelty is a memory, retrieval, and context system (17 tools for storing, recalling, and graph-connecting
-    memories) delivered as an MCP server, which aligns with Prompt & Context Engineering over extension or framework
-    identities.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description states: ''Persistent memory for AI Agents'' with MCP and knowledge-memory topics.'
-    - >-
-      README details 17 memory/knowledge-graph/context tools (store, recall, connect, awaken, reflect) and hybrid
-      BM25+vector+graph search.
-    - >-
-      Source list places it under 'knowledge & memory' in awesome-mcp-servers, and it connects to Claude, Cursor,
-      Windsurf, Gemini CLI as an MCP server.
+    - jev-latest choice confidence 0.60
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

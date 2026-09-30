@@ -50,19 +50,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The tool’s core function is generating deployable apps from visual prompts (UI drawings), matching the app-builder
-    pattern of prompt-to-artifact without requiring an existing codebase.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Scaffolding & Boilerplate
   evidence:
-    - 'Scraped site title and description: ''Draw a ui and make it real with tldraw'''
-    - >-
-      Source-list context: listed in awesome-ai-coding-tools under 'UI Generators' with the note 'Draw a ui and make it
-      real with tldraw'
-    - No evidence of editing existing codebases; focuses on creating new UI from scratch via drawing
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: Internal Tools & Dashboards
+  section: Scaffolding & Boilerplate
 lifecycle:
   status: curated
   reason: null

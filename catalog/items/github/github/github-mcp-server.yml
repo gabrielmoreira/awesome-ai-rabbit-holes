@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an official MCP server whose primary identity is providing GitHub capabilities via MCP, fitting the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is 'GitHub's official MCP Server'
-    - README details its role as a bridge between AI tools and GitHub's platform
-    - Already listed in awesome-mcp-servers under 'Official Servers'
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -57,17 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool functions as an augmentation to the existing Git workflow and editor experience rather than serving as a
-    primary coding assistant.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / API & Service Integrations
   evidence:
-    - Describes itself as a 'Git extension'
-    - Provides 'AI Blame' to augment standard git-blame functionality
-    - Augments existing assistants like Cursor, Copilot, and Claude Code
+    - jev-latest choice confidence 0.88
 placement:
-  primary_category: evals
+  primary_category: extensions-and-addons
   secondary_categories: []
-  section: Observability & Tracing
+  section: API & Service Integrations
 lifecycle:
   status: curated
   reason: Stars (1783) exceeded threshold (150)

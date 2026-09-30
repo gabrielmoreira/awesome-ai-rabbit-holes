@@ -83,17 +83,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: it is a dedicated MCP-first toolkit for testing and validating MCP servers, not just an
-    adapter or compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Security & DevSecOps
   evidence:
-    - Repo description explicitly states 'CI-native security testing for MCP servers'
-    - README emphasizes it is 'the first testing tool that is itself an MCP server'
-    - Source-list context places it in MCP server collections
+    - jev-latest choice confidence 0.66
 placement:
-  primary_category: mcp
+  primary_category: extensions-and-addons
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: Security & DevSecOps
 lifecycle:
   status: curated
   reason: Stars (237) exceeded threshold (150)

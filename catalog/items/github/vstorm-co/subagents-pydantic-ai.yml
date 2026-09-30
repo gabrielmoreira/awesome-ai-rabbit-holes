@@ -80,13 +80,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is a pip-installable Python library that developers import and script against to add subagent delegation to
-    Pydantic AI applications, fitting the code-first framework identity rather than an operated control plane.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
   evidence:
-    - 'README shows library usage: pip install, import subagents_pydantic_ai, integrate via Agent(capabilities=[...])'
-    - Repo description identifies as 'Subagent Delegation framework for Pydantic AI' with 'runtime agent creation'
-    - Source list placement in awesome-agent-orchestration under 'Core Frameworks > Type-Safe & Modern Frameworks'
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

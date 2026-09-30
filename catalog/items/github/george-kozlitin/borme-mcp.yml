@@ -61,11 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server designed to expose a specific domain of data to LLMs.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states 'MCP server for Spain's company registry'
-    - README focuses on tool definitions like 'earch_events' and 'company_history' for MCP use
-    - Hosted endpoint provided specifically for MCP configuration
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

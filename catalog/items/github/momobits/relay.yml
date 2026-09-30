@@ -59,15 +59,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The primary artifact is a pack of 20 workflow skills that run inside Claude Code, Codex CLI, and Gemini CLI to
-    provide persistent project memory and structured task management.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      README states it provides '20 workflow skills' covering the full lifecycle for Claude Code, Codex CLI, and Gemini
-      CLI.
-    - Creates a persistent `.relay/` directory with structured markdown as shared memory across sessions and models.
-    - Badged as 'Claude Code Skills', 'Codex CLI Skills', and 'Gemini CLI Skills' in the README header.
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: memory-and-context
   secondary_categories: []

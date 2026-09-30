@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This tool's core novelty is context-shaping and packaging existing code into a single artifact for model
-    consumption, fitting the Prompt & Context Engineering category.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Context & Session Management
   evidence:
-    - README states it 'collates your entire codebase into a single, organised Markdown file' for AI analysis.
-    - Use case focuses on providing a 'comprehensive overview of your codebase' to tools like ChatGPT or Claude.
-    - It is a CLI tool (pip install code-collator) focused on outputting a 'collated-code.md' file.
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: memory-and-context
   secondary_categories: []

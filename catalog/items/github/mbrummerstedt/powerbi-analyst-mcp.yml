@@ -63,15 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server that gives LLM clients read-only access to Power BI, fitting cleanly
-    into the MCP Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is 'a local mcp server made for connecting Power BI to your llm'.
-    - >-
-      README positions it as an MCP server alternative to Microsoft's official servers, with direct Power BI API
-      integration.
-    - Listed in awesome-mcp-servers under 'Data Platforms', confirming its ecosystem identity as an MCP implementation.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server purpose-built for a specific domain (Max/MSP), fitting exactly as a domain-specific
-    implementation within MCP infrastructure.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description explicitly states: ''MCP (Model Context Protocol) Server for Max (Max/MSP/Jitter)'''
-    - README demonstrates MCP integration with Claude and Cursor to explain and generate Max patches
-    - Active development (pushed 2025-11-10) and 211 stars show traction as a protocol server
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

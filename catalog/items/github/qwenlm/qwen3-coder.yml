@@ -59,17 +59,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    While the repo hosts the model weights, the product's primary identity is an open-weight model designed for local
-    execution and agentic coding, fitting the Local AI category better than a hosted Coding Agent.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - Repo description defines it as 'the code version of Qwen3, the large language model series'.
-    - README explicitly mentions 'Qwen3-Coder-Next' is designed for 'local development' with agentic training.
-    - >-
-      Source list 'awesome-ai-coding-tools' categorizes it under 'Code Models', confirming its identity as a model
-      rather than a standalone agent tool.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: local-ai
+  secondary_categories: []
   section: Inference Engines
 lifecycle:
   status: curated

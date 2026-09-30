@@ -68,18 +68,22 @@ metadata:
       fetched_at: '2026-07-20T16:43:01.094Z'
       bytes: 8795
 insights:
-  summary: null
+  summary: >-
+    Zero context compaction for Claude Code & LLM agents. Persistent memory powered by OS primitives (demand paging,
+    kswapd eviction, mlock pinning). Single SQLite file, MCP-native, multi-agent shared.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
+  evidence:
+    - jev-latest choice confidence 0.82
 placement:
-  primary_category: null
-  section: null
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: curated
   reason: null

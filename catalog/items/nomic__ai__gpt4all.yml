@@ -97,17 +97,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    GPT4All is a self-hosted desktop chat app whose primary identity is running LLMs locally for private use, matching
-    the core definition of Local & Self-hosted AI, not a coding agent or app builder.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
   evidence:
-    - >-
-      Runs open-source language models on Windows, macOS, and Linux—with full customization, local document chat
-      (LocalDocs), and support for thousands of models
-    - Delivers private, high-performance AI right on your device—no cloud required, no data leaves your machine
-    - >-
-      Listed in awesome-local-ai under 'Inference UI' and awesome-ai-coding-tools under 'Local LLM Tools' as a tool for
-      running models locally
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: local-ai
   secondary_categories: []

@@ -64,19 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is a domain-specific integration that exposes Stripe's API as tools for agents,
-    prominently featuring a hosted remote MCP server and local MCP server package.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description states it is a 'one-stop shop for building AI-powered products and businesses with Stripe' via
-      SDKs and MCP.
-    - README highlights a hosted remote MCP server at mcp.stripe.com and a local MCP server via npx @stripe/mcp.
-    - Includes @stripe/agent-toolkit for function calling in Python and TypeScript across OpenAI, LangChain, and CrewAI.
+    - jev-latest choice confidence 0.65
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (1528) exceeded threshold (150)

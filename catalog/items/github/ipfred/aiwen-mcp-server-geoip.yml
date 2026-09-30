@@ -56,11 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the primary product identity: this is a dedicated MCP server exposing IP-related tools.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly labels it as an MCP server for Aiwen IP Location API
-    - README details 9 distinct IP tools exposed via MCP protocol
-    - Configuration examples show integration with Cursor and VS Code MCP clients
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

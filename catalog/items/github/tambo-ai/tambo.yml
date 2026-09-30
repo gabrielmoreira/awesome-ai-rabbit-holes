@@ -68,17 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Tambo is a code-first SDK and backend used by developers to build agent-driven UIs in React, making it a strong fit
-    for Agent Frameworks under Frameworks & SDKs.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''Generative UI SDK for React'''
-    - >-
-      README: 'React toolkit for building agents that render UI… You get a React SDK plus a backend that handles
-      conversation state and agent execution.'
-    - >-
-      Topics and README emphasize SDK, Zod schemas, streaming infrastructure, and framework integrations (LangChain,
-      Mastra).
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

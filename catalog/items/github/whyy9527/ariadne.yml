@@ -79,15 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Ariadne is an MCP stdio server whose core identity is providing API dependency graph data to AI coding assistants
-    via the Model Context Protocol, making MCP the primary product identity rather than a mere compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description states: 'Cross-service API dependency graph for Spring Boot + TypeScript microservice stacks. CLI
-      + MCP server for Claude Code, Cursor, Windsurf.'
-    - 'README emphasizes: ''MCP stdio server for AI coding assistants (Claude Code, Cursor, Windsurf), with a CLI twin.'''
-    - 'Source-list context: listed in awesome-mcp-servers under Developer Tools > Server Implementations.'
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -56,15 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a standalone CLI agent that directly reads code diffs and writes output (commit messages), acting as a primary
-    assistant for a specific repo task.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''A CLI that writes your git commit messages for you with AI''.'
-    - >-
-      README confirms it reads staged changes, supports multiple providers (OpenAI, Ollama, etc.), and generates commit
-      text directly.
-    - Listed in awesome-ai-coding-tools under 'CLI Tools', fitting the Terminal & CLI Agent profile.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: coding-agents
   secondary_categories: []

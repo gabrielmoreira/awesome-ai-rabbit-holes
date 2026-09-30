@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__tabnine__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Code Completion
         anchor_text: Tabnine
         extracted_url: https://tabnine.com
-        surrounding_text: "- **[Tabnine](https://www.tabnine.com/)** – AI code completion with personalized suggestions and privacy-first options."
+        surrounding_text: >-
+          - **[Tabnine](https://www.tabnine.com/)** – AI code completion with personalized suggestions and privacy-first
+          options.
         confidence: high
     - id: discovery__www__tabnine__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +35,9 @@ provenance:
           - Code Completion
         anchor_text: Tabnine
         extracted_url: https://www.tabnine.com
-        surrounding_text: "- **[Tabnine](https://www.tabnine.com/)** – AI code completion with personalized suggestions and privacy-first options."
+        surrounding_text: >-
+          - **[Tabnine](https://www.tabnine.com/)** – AI code completion with personalized suggestions and privacy-first
+          options.
         confidence: high
 metadata:
   github:
@@ -51,9 +55,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Tabnine is an AI code assistant that provides code completion, generation, refactoring, testing, and documentation within IDEs.
-  why_it_matters: It accelerates software development by offering context-aware AI suggestions that learn from a developer's codebase and coding style.
-  mental_damage: Yet another AI autocomplete tool promising to read your mind, while you secretly wonder if it's just memorizing your boilerplate.
+  summary: >-
+    Tabnine is an AI code assistant that provides code completion, generation, refactoring, testing, and documentation
+    within IDEs.
+  why_it_matters: >-
+    It accelerates software development by offering context-aware AI suggestions that learn from a developer's codebase
+    and coding style.
+  mental_damage: >-
+    Yet another AI autocomplete tool promising to read your mind, while you secretly wonder if it's just memorizing your
+    boilerplate.
   tags:
     - ai-coding-assistant
     - code-completion
@@ -61,22 +71,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Tabnine is a primary coding assistant that developers delegate repo work to, fitting the core definition of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
   evidence:
-    - Described as 'the AI code assistant that accelerates and simplifies software development' in source-list context
-    - Provides code completion, generation, debugging, and documentation directly in IDEs
-    - Supports multi-model selection and enterprise-grade privacy controls
+    - jev-latest choice confidence 0.65
 placement:
-  primary_category: extensions-and-addons
+  primary_category: coding-agents
   secondary_categories: []
-  section: null
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
+  reason: 'Categorization review required: placement disagreement: retained ''extensions-and-addons'', proposed ''coding-agents'''
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:46:35.526Z"
+    updated_at: '2026-09-28T04:46:35.526Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,20 +97,31 @@ processing:
       input_hash: sha256:a3fc4f3586667d1fcffa45748c155471c06e829518df2a45468ab0f4220fac51
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: Tabnine functions as a primary coding agent that operates within IDEs to write, edit, and assist with code tasks, meeting the core definition of a coding agent rather than a mere extension or app builder.
+      decision_reason: >-
+        Tabnine functions as a primary coding agent that operates within IDEs to write, edit, and assist with code
+        tasks, meeting the core definition of a coding agent rather than a mere extension or app builder.
       decision_evidence:
-        - Tabnine is described as 'the AI code assistant that accelerates and simplifies software development' and offers 'AI agents for every stage of the SDLC, from planning and code creation to testing and documentation'.
-        - It integrates with IDEs to provide code completions, refactoring, debugging, testing, and documentation based on project context and learned coding patterns.
+        - >-
+          Tabnine is described as 'the AI code assistant that accelerates and simplifies software development' and
+          offers 'AI agents for every stage of the SDLC, from planning and code creation to testing and documentation'.
+        - >-
+          It integrates with IDEs to provide code completions, refactoring, debugging, testing, and documentation based
+          on project context and learned coding patterns.
         - It is listed in 'awesome-ai-coding-tools' under the 'Code Completion' section as an AI-powered coding tool.
       category_candidates:
         - coding-agents
         - extensions-and-addons
-      contrastive_reason: Choose coding-agents over extensions-and-addons because Tabnine is positioned as a standalone AI coding assistant with autonomous capabilities across the SDLC, not merely a plugin that extends another agent's functionality.
-      review_reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
+      contrastive_reason: >-
+        Choose coding-agents over extensions-and-addons because Tabnine is positioned as a standalone AI coding
+        assistant with autonomous capabilities across the SDLC, not merely a plugin that extends another agent's
+        functionality.
+      review_reason: >-
+        Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed
+        'coding-agents'
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.970Z"
+    updated_at: '2026-07-21T15:20:21.970Z'
     cause: null
     next_retry_at: null
   stars:

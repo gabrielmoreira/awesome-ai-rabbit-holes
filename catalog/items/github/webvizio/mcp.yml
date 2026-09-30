@@ -71,17 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity and functionality are defined by providing MCP-based access to
-    Webvizio task data, making it a domain-specific MCP implementation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'Webvizio MCP Server - Automatically converts feedback and bug reports from websites and web
-      apps into actionable, context-enriched developer tasks.'
-    - >-
-      README: 'A TypeScript-based Model Context Protocol (MCP) server that provides secure and structured access to the
-      Webvizio API.'
-    - Listed in 'awesome-mcp-servers' under Developer Tools as an MCP server implementation.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

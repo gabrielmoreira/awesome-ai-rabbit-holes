@@ -56,19 +56,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an official MCP server specifically built to expose Square APIs to MCP-compatible assistants, fitting
-    perfectly as a domain-specific MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description explicitly states: ''A Model Context Protocol (MCP) server for square'''
-    - >-
-      README confirms it 'follows the Model Context Protocol standard, allowing AI assistants to interact with Square's
-      connect API'
-    - Listed in awesome-mcp-servers under the 'Official Servers' section
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

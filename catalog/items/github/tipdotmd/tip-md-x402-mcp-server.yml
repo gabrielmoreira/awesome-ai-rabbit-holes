@@ -62,13 +62,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is an MCP server that gives agents crypto tipping capabilities, making MCP the clear product identity rather
-    than a secondary integration feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description explicitly states: ''MCP server for instant crypto tipping with automatic disbursement'''
-    - README lists 7 MCP tools exposed to agents including mcp_tip_md_tip_on_base and mcp_tip_md_tip_on_solana
-    - Appears in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

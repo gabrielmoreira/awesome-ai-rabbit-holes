@@ -59,17 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server for Jupyter Notebook, fitting the MCP Servers & Tooling category where
-    MCP is the primary adopted thing.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP for Jupyter Notebook
-    - README details a WebSocket-based MCP server implementation for Claude AI integration
-    - Already listed in awesome-mcp-servers under Data Science Tools
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

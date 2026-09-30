@@ -72,11 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to serve as a domain-specific knowledge layer for AI agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README explicitly defines it as a Model Context Protocol server
-    - Provides 96 knowledge documents and 36 tools via the MCP protocol
-    - Designed to be used by MCP clients like Claude and Cursor
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

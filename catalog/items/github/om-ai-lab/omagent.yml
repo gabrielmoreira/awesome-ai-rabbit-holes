@@ -77,21 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first library and SDK for building multimodal agents, not a standalone coding assistant, IDE, control
-    plane, or extension for another tool.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description states it is a tool to 'Build multimodal language agents for fast prototype and production'.
-    - >-
-      README explicitly calls it a 'python library for building multimodal language agents with ease' and provides pip
-      install instructions.
-    - >-
-      Key features include a graph-based workflow orchestration engine, memory types, and native multimodal interaction
-      support as reusable components.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Workflow & Graph Engines
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (2641) exceeded threshold (150)

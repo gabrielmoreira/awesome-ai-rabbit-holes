@@ -74,15 +74,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server providing domain-specific healthcare data access, fitting squarely into MCP
-    Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''Taiwan National Health Insurance (NHI) data for AI agents via Model Context Protocol.'''
-    - >-
-      README states: '@opdstar/nhi-mcp lets any Model Context Protocol client — Claude Desktop, Cursor, ChatGPT Desktop,
-      custom agents — directly query Taiwan's National Health Insurance dataset.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Biology, Medicine and Bioinformatics'.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

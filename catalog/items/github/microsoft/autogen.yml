@@ -150,13 +150,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    AutoGen is primarily a code-first framework and SDK for constructing agent-based systems, matching the Frameworks &
-    SDKs category's emphasis on developers importing and scripting against the product as a library.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
   evidence:
-    - 'Repo description: ''A programming framework for agentic AI'''
-    - README positions it as a framework requiring code imports (e.g., AssistantAgent, OpenAIChatCompletionClient)
-    - Canonical positives for ai-frameworks include AutoGen and MetaGPT
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

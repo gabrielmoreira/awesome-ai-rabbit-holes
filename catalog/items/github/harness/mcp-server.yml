@@ -59,17 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity, and the server is explicitly designed to expose Harness platform capabilities
-    through the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly identifies it as the official Harness MCP server
-    - README details 11 consolidated tools and 168 resource types for Harness platform access
-    - Listed in awesome-mcp-servers under 'Official Servers'
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

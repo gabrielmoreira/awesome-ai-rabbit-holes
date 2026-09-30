@@ -82,15 +82,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a code-first SDK and NLP framework that developers import and script against, fitting the Frameworks
-    & SDKs category as a provider/model abstraction layer.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      README describes it as a 'Task-based NLP engine' and 'Think scikit-learn for LLM-powered NLP', positioning it as a
-      library.
-    - Usage examples show direct code imports (from promptify import NER) and scripting, not an operated platform.
-    - Listed in awesome-langchain under 'Other LLM Frameworks', aligning with framework/SDK identity.
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

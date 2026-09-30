@@ -87,17 +87,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    PEFT is a code-first library/SDK for parameter-efficient fine-tuning, primarily used as a building block in Python
-    code rather than as an operated platform or assistant.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - Repo description explicitly states it is a library for Parameter-Efficient Fine-Tuning
-    - README shows it is integrated with Transformers, Diffusers, and Accelerate for model training/inference
-    - Source-list context places it under Training > Foundation Model Fine Tuning in LLMOps tools
+    - jev-latest choice confidence 0.92
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Fine-tuning & Training
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (21070) exceeded threshold (150)

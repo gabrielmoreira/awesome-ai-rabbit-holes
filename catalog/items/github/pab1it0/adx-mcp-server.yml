@@ -79,17 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose identity and adoption are entirely tied to the Model Context Protocol, making it
-    a textbook fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is a Model Context Protocol (MCP) server for Azure Data Explorer.
-    - >-
-      README emphasizes MCP tooling, transports (stdio/HTTP/SSE), and configuration for Claude Desktop as the primary
-      usage mode.
-    - >-
-      Featured in awesome-mcp-list and awesome-mcp-servers under Databases, confirming its ecosystem identity as an MCP
-      server.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

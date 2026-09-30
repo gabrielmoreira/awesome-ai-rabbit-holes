@@ -61,13 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a domain-specific MCP server providing structured tools and data for brewing
-    workflows.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly identifies it as a 'brewing knowledge MCP server'
-    - README emphasizes MCP compatibility and provides installation/configuration for multiple MCP-compatible IDEs
-    - All functionality is exposed as MCP tools (search_styles, diagnose_off_flavour, etc.)
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: mcp
   secondary_categories: []

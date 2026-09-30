@@ -63,15 +63,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is a self-hosted chat interface and serving layer designed to run locally with various LLM backends,
-    fitting the Local AI category's focus on local runtimes and desktop interfaces.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
   evidence:
-    - Repo description states it is 'An all in one AI solution compatible with any known AI service on the planet'
-    - >-
-      README describes a 'multi-user FastAPI backend and responsive Vue/Tailwind CSS frontend' with LLM integration and
-      RAG
-    - Seen in awesome-local-ai under the 'Inference Engine' section
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: local-ai
   secondary_categories: []

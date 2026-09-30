@@ -60,15 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a dedicated MCP server providing domain-specific SMS management tools to MCP-aware clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README identifies the project explicitly as a 'Model Context Protocol server for the iletiMerkezi SMS API'
-    - Provides specific tools like `send_sms`, `get_balance`, and `add_blacklist` for use by LLM clients
-    - Listed in the 'awesome-mcp-servers' directory
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

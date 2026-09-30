@@ -94,23 +94,10 @@ insights:
     - mcp
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''An MCP server that lets AI agents manage Docker'''
-    - >-
-      README: 'More than just a fully featured MCP server that lets AI agents manage Docker — containers, images,
-      networks, volumes, swarm services, secrets, configs, nodes, plugins, etc.'
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms'
-    - >-
-      included: The product is an MCP server whose core identity is providing Docker management capabilities through the
-      Model Context Protocol, making it MCP infrastructure first and a host integration second.
-    - Repo description explicitly states it is 'An MCP server'
-    - README focuses on exposing Docker's command surface via MCP protocol
-    - Includes features like lazy tool loading and read-only modes for MCP clients
-    - >-
-      included: The project's primary identity is an MCP server designed to provide specific domain capabilities
-      (Docker) to MCP-compliant clients.
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
   secondary_categories: []

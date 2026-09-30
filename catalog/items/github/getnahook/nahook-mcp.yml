@@ -71,17 +71,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server providing a bridge to a specific domain (webhooks), fitting the
-    definition of an MCP Domain Server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies as 'The official Model Context Protocol server for Nahook'
-    - README describes specific MCP tools like `list_deliveries` and `retry_delivery` for use in AI clients
-    - Included in awesome-mcp-servers under 'Developer Tools'
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

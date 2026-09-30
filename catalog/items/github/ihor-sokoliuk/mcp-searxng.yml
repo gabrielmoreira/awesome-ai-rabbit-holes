@@ -69,17 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity: this is a dedicated MCP server providing web search capabilities, not merely an
-    adapter or compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP server for SearXNG integration
-    - README confirms it is a standalone MCP server process for AI assistants
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.63
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (756) exceeded threshold (150)

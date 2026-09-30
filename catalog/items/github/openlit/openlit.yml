@@ -86,15 +86,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is measuring, tracing, and evaluating LLM behavior at runtime, which maps directly to the Evals &
-    Benchmarks category rather than a coding assistant or framework.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - >-
-      Repo description explicitly lists 'LLM Observability, Guardrails, Evaluations, Prompt Management' as the
-      platform's core capabilities.
-    - README highlights 11 built-in evaluation types and OpenTelemetry-native observability SDKs as primary features.
-    - Listed in Awesome-LLMOps under the LLMOps section, reinforcing its operations and evaluation role.
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: evals
   secondary_categories: []

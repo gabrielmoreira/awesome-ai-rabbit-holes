@@ -81,21 +81,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity and functionality are defined by providing venture capital analysis
-    via the Model Context Protocol, making MCP Servers & Tooling the best fit.
+  reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
   evidence:
-    - >-
-      Repo description: 'From company name to investment decision. Sieve scores startups across 7 dimensions so you know
-      who's worth a meeting.'
-    - >-
-      README: 'The first MCP server purpose-built for venture capital.' and detailed MCP integration instructions for
-      Claude, Cursor, and Windsurf.
-    - 'Available tools: sieve_screen, sieve_status, sieve_summary, sieve_usage — all exposed as MCP tools.'
+    - jev-latest choice confidence 0.63
 placement:
-  primary_category: mcp
+  primary_category: decision-models
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Local Serving & Gateways
 lifecycle:
   status: curated
   reason: null

@@ -51,19 +51,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    skills is a CLI tool for distributing and managing reusable agent skill packs, making it a clear fit for the Agent
-    Skills category as a skill registry and distribution mechanism.
+  reason: Jev decision-model reclassifier placed this item in skills / Registries & Directories
   evidence:
-    - 'Repo description: ''The open agent skills tool - npx skills'''
-    - 'README: ''The CLI for the open agent skills ecosystem'' and supports installing skills via `npx skills add`'
-    - >-
-      Source-list context: listed in awesome-LLM-resources under '技能 Skills' with summary 'Discover and install skills
-      for AI agents'
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: skills
   secondary_categories: []
-  section: Skill Packs & Libraries
+  section: Registries & Directories
 lifecycle:
   status: curated
   reason: Stars (18158) exceeded threshold (150)

@@ -66,13 +66,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is an MCP server that extends AI assistants with MySQL capabilities rather than acting as a standalone coding
-    assistant or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description and README emphasize MCP server functionality for MySQL interaction and analysis
-    - Appears in awesome-mcp-servers under 'Server Implementations > Databases'
-    - Provides tools like execute_sql, get_db_health_running, and prompt template invocation for AI agent use
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

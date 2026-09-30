@@ -71,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first library developers import to build text-to-SQL capabilities, aligning with the Frameworks &
-    SDKs category's focus on building blocks for AI workflows.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly calls it a 'Python Text-to-SQL RAG Library'.
-    - README usage shows importing `mindsql.core` and scripting against it as a library.
-    - Listed in awesome-langchain under 'Tools > Services', confirming its identity as a LangChain-adjacent dev tool.
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

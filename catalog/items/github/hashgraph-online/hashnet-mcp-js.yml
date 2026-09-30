@@ -72,19 +72,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose primary identity is enabling agent discovery and interaction via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly calls it a 'Universal MCP Server for finding + connecting to agents'
-    - >-
-      README details MCP transports (stdio, HTTP), tool surfaces (discovery, chat, registration), and HOL Registry
-      Broker integration
-    - Already listed in awesome-mcp-servers under 'Aggregators'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Registries & Discovery
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

@@ -66,13 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server that bridges Codex CLI to AI assistants, making MCP the primary product
-    rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README describes it as 'MCP server connecting Claude/Cursor to Codex CLI'
-    - Provides MCP server interface via `npx -y @trishchuk/codex-mcp-tool` command
-    - Listed in awesome-mcp-servers under Server Implementations > Coding Agents section
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

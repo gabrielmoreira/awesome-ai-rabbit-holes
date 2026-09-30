@@ -41,18 +41,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    japanese-jev-lint - Go CLI (jjl) that flags Japanese sentences with TypeSafe Jev Noul probabilities (plus local
+    です/ます regex); no rewrite generation. Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  evidence:
+    - jev-latest choice confidence 0.84
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  secondary_categories: []
+  section: Client SDKs & CLIs
 lifecycle:
   status: curated
   reason: null

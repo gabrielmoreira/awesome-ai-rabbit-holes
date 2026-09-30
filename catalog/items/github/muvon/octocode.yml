@@ -102,19 +102,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server that exposes code intelligence tools to AI assistants, placing it firmly in
-    MCP Servers & Tooling rather than as a standalone coding agent or generic framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly calls it a 'Semantic code searcher and codebase utility' with topics including
-      mcp-server and mcp-servers.
-    - >-
-      README states 'Octocode's MCP server gives AI agents' capabilities and shows the MCP JSON config block as the
-      integration path.
-    - >-
-      Source list context places it in awesome-mcp-servers under 'Developer Tools', aligning with its MCP-first
-      identity.
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: mcp
   secondary_categories: []

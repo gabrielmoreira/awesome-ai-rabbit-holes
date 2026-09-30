@@ -88,13 +88,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server for Timeplus that exposes database, Kafka, and Iceberg tooling to MCP-compatible clients,
-    making MCP its core product identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo name is mcp-timeplus and topics include mcp-server.
-    - README explicitly describes it as 'An MCP server for Timeplus' with tools like run_sql and list_kafka_topics.
-    - Featured in awesome-mcp-list and awesome-mcp-servers under Databases sections.
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -82,13 +82,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server that exposes VRChat API capabilities to MCP-compatible assistants, fitting
-    cleanly into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description states it is 'a Model Context Protocol (MCP) server for interacting with the VRChat API'.
-    - README documents VRChat-specific tools like vrchat_get_friends_list, vrchat_search_worlds, and vrchat_join_group.
-    - Explicitly designed for Claude Desktop integration via mcpServers config block in the README.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

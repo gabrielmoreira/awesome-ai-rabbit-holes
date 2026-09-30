@@ -67,17 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is serving medical data via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description identifies it as an MCP server for medical APIs
-    - README emphasizes MCP integration with Cursor/Claude Desktop
-    - Listed in awesome-mcp-servers under Biology/Medicine
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

@@ -56,11 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server providing domain-specific data access.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server
-    - README details MCP-specific installation and tooling (e.g., `mcp install`, Claude Desktop integration)
-    - Core functionality is exposing DEX data via MCP tools
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

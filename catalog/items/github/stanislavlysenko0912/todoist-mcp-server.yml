@@ -58,17 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server implementation that integrates Todoist with MCP-compatible clients, fitting cleanly as a
-    domain-specific MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - >-
-      Repo description states it is a 'Full implementation of Todoist Rest API & support Todoist Sync API for MCP
-      server'.
-    - >-
-      README describes it as 'A Model Context Protocol (MCP) server implementation that integrates Claude and other AI
-      assistants with Todoist'.
-    - Listed in awesome-mcp-servers under the 'Community Servers' section.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

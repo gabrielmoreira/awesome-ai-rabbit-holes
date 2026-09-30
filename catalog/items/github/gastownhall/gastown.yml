@@ -57,15 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Gas Town is a workbench for coordinating multiple AI agents with persistent identities, task handoffs, and scalable
-    workflows, making it a control plane rather than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''Gas Town - multi-agent workspace manager'''
-    - >-
-      README: 'Multi-agent orchestration system for Claude Code, GitHub Copilot, and other AI agents with persistent
-      work tracking'
-    - Architecture shows Mayor (AI Coordinator), Towns, Rigs, Polecats (worker agents), and Convoys for work tracking
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

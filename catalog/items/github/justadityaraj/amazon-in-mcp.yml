@@ -64,11 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server that provides domain-specific tools to a host assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - README explicitly states it is an 'MCP server that lets your LLM shop on Amazon.in'
-    - Implementation provides specific tools (search, get_product, price_history) for the Model Context Protocol
-    - Functions via stdio for integration with Claude Desktop, Cursor, and Claude Code
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

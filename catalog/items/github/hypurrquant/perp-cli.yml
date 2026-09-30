@@ -73,17 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here, with 18 MCP tools explicitly designed for AI-powered trading, making it a
-    domain-specific MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - Repo description explicitly states it is a 'Multi-DEX perpetual futures CLI + MCP server'
-    - README highlights '18 MCP tools for AI-powered trading' and agent-first design features like --json and --dry-run
-    - Topics include 'mcp-server' and 'ai-agent'
+    - jev-latest choice confidence 0.62
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Clients & Inspector Tools
 lifecycle:
   status: curated
   reason: null

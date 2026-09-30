@@ -69,17 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    figma-mcp-go primarily extends existing AI coding assistants with Figma host capabilities rather than acting as a
-    standalone coding assistant, making it an extension/integration.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README states it works with Cursor, Claude, GitHub Copilot, and any MCP-compatible AI tool as an add-on
-    - Repo description positions it as 'Figma MCP for free users' focused on read/write access via plugin bridge
-    - Installation shows it being added as an MCP server to existing tools like Claude Code and Cursor
+    - jev-latest choice confidence 0.78
 placement:
-  primary_category: extensions-and-addons
+  primary_category: mcp
   secondary_categories: []
-  section: API & Service Integrations
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (838) exceeded threshold (150)

@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is explicitly and exclusively an MCP server designed to bridge a specific system capability to
-    an AI client.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server: inspect, manage, kill local dev servers'''
-    - README describes it as an 'MCP server that runs as a stdio MCP server'
-    - Listed in awesome-mcp-servers
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

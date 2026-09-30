@@ -55,17 +55,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it is a dedicated MCP server for human approval workflows, not just an adapter or
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README explicitly describes it as an MCP server for human approvals in AI workflows
-    - Installation and usage instructions are MCP-first (npx @gotohuman/mcp-server)
-    - Listed in awesome-mcp-servers under Official Servers
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

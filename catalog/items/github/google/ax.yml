@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Included in Agent Orchestration because AX acts as a distributed runtime platform for managing the execution and
-    state of isolated agentic actors.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README defines AX as a 'distributed harness runtime' for isolated agents.
-    - Features include native support for recovery, execution resumption, and distributed setups.
-    - Designed for deployment on Kubernetes via Agent Substrate.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

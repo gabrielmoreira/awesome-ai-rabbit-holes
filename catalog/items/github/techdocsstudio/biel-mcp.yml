@@ -70,15 +70,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server designed to give AI tools access to documentation via the Model Context
-    Protocol, fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description states: ''Connect AI tools like Cursor, VS Code, and Claude to your product docs.'''
-    - README identifies it as 'Biel.ai MCP Server' with MCP configuration JSON for Cursor, Claude Desktop, and VS Code.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
+    - jev-latest choice confidence 0.62
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

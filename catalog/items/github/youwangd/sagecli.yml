@@ -73,19 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    sagecli is a terminal-native orchestration layer that coordinates multiple AI coding agent runtimes as processes,
-    positioning itself as a vendor-neutral control plane rather than a coding assistant itself.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'Simple Agent Engine — Orchestrate AI coding agents from your terminal. No frameworks, just
-      bash, jq, and tmux.'
-    - >-
-      README: 'Sage lets them work together — or swap between them — without writing Python. One bash script. No
-      framework. No lock-in.'
-    - >-
-      Positioning: 'Sage is not a coding assistant and does not compete with Claude Code / Aider / Cline on code
-      quality. It's the glue that lets you use them together.'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

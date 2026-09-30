@@ -81,21 +81,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Dingo's core function is measuring and scoring data/model/application quality using LLMs and rules, making it an
-    evaluation framework rather than a coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in evals / Safety, Fairness & Red-teaming
   evidence:
-    - 'Repo description: ''Dingo: A Comprehensive AI Data, Model and Application Quality Evaluation Tool'''
-    - >-
-      README: 'Comprehensive AI-powered data quality assessment platform for machine learning datasets, LLM training
-      data validation, hallucination detection, and RAG system evaluation'
-    - >-
-      Features include LLM-as-a-judge, hallucination detection, RAG system assessment with academic metrics, and
-      rule-based validation
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: evals
   secondary_categories: []
-  section: Agent & LLM Benchmarks
+  section: Safety, Fairness & Red-teaming
 lifecycle:
   status: curated
   reason: Stars (693) exceeded threshold (150)

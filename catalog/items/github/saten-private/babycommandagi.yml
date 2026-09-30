@@ -70,15 +70,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is a standalone CLI-based autonomous agent that plans and executes coding tasks directly via the
-    terminal, fitting the primary coding assistant definition for that section.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly states it combines CLI and LLM to test automatic programming and environment setup.
-    - >-
-      README demonstrates use cases for creating apps (Reversi, Snake) and installing environments (Flutter) via
-      autonomous command execution.
-    - Listed in awesome-ai-agents under the autonomous agents section, confirming its identity as a coding agent.
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: coding-agents
   secondary_categories: []

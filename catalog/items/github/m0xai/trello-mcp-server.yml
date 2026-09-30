@@ -57,15 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server exposing Trello functionality, making it a domain-specific MCP
-    infrastructure tool rather than an extension, agent, or app builder.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''A simple yet powerful MCP server for Trello'''
-    - >-
-      README emphasizes MCP server modes (Claude App, SSE, Docker) and Trello API integration via standard MCP
-      capabilities
-    - Listed in awesome-mcp-servers under 'Community Servers' section
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

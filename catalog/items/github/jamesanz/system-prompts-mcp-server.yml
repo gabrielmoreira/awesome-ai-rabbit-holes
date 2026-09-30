@@ -64,16 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose primary identity is exposing system prompts as MCP tools, fitting the MCP Servers
-    & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server exposing system prompt files and summaries
-    - README confirms it is an MCP server for AI coding environments like Cursor and Claude Desktop
-    - Already listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

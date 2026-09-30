@@ -69,15 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a terminal-native coding assistant that developers delegate repo work to, with a default CLI that launches a
-    built-in coding agent; the harness architecture is secondary to the core developer experience.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly calls it 'a coding agent and general agent harness'.
-    - >-
-      README features a dedicated 'Coding Agent' section as the default interface, launched via the `dexto` CLI, with
-      file editing, shell commands, and testing capabilities.
-    - Listed in awesome-cli-coding-agents under Terminal-native coding agents > Open Source.
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: coding-agents
   secondary_categories: []

@@ -86,13 +86,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server implementation for database access, fitting the 'MCP Servers &
-    Tooling' category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is a server using Model Context Protocol (MCP) to query databases.
-    - Found in 'awesome-mcp-servers' under 'Databases' and 'Community Servers' sections.
-    - README highlights exposing database operations as MCP resources, tools, and prompts using the MCP Python SDK.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

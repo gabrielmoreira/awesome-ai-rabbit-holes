@@ -71,17 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Tusk is a standalone AI agent that reads code, generates tests, executes them in CI, and feeds results back into the
-    PR workflow, fitting the Coding Agents definition for testing and repair.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - >-
-      Scraped site context states it is an 'AI agent that generates unit and integration tests' and runs them in an
-      ephemeral sandbox as a non-blocking PR check.
-    - >-
-      YC launch post describes it as an autonomous agent that suggests happy-path and edge-case tests and iterates on
-      failures, not a framework or IDE extension.
-    - Source list 'awesome-ai-agents' categorizes it as an AI autonomous agent for developer testing workflows.
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: coding-agents
   secondary_categories: []

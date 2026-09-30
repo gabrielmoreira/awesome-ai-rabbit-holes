@@ -71,11 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server that implements a specific domain-driven toolset for Nacos.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README explicitly defines itself as a 'Nacos MCP server'
-    - Provides specific MCP tools like 'nacos_diff_config' and 'nacos_search_config'
-    - Focuses on MCP protocol implementation rather than being a coding assistant itself
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

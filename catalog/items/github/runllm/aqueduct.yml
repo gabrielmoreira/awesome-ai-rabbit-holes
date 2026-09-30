@@ -77,15 +77,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is a code-first Python framework and SDK for defining and deploying ML/LLM workloads across cloud
-    infrastructure, which aligns with the Frameworks & SDKs category.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Workflow & Graph Engines
   evidence:
-    - Repo description states it is a framework to run LLM and ML workloads on any cloud infrastructure.
-    - README emphasizes a 'Python-native pipeline API' and vanilla Python ops run across Kubernetes, Spark, and Lambda.
-    - >-
-      Source list places it in Awesome-LLMOps under 'Large Scale Deployment > Workflow', supporting its MLOps framework
-      identity.
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__memclaw__me__en__claw__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,10 @@ provenance:
           - Developer Productivity Tools
         anchor_text: MemClaw
         extracted_url: https://memclaw.me
-        surrounding_text: "- **[MemClaw](https://memclaw.me)** – Persistent project memory for AI coding agents (MCP-compatible). Creates isolated memory workspaces per project with a web dashboard to review and manage context. Free and open source."
+        surrounding_text: >-
+          - **[MemClaw](https://memclaw.me)** – Persistent project memory for AI coding agents (MCP-compatible). Creates
+          isolated memory workspaces per project with a web dashboard to review and manage context. Free and open
+          source.
         confidence: high
 metadata:
   github:
@@ -38,7 +41,9 @@ metadata:
 insights:
   summary: MemClaw provides persistent project memory for OpenClaw, enabling isolated workspaces and team collaboration.
   why_it_matters: It solves the critical pain of context loss across multiple projects in conversational AI development.
-  mental_damage: You'll spend hours untangling which project's context is bleeding into which chat thread, then discover a tool that makes memory permanent.
+  mental_damage: >-
+    You'll spend hours untangling which project's context is bleeding into which chat thread, then discover a tool that
+    makes memory permanent.
   tags:
     - memory
     - context
@@ -48,22 +53,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is a memory and context system that improves what goes into AI models, not a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - README states MemClaw 'turns OpenClaw into persistent project memory with isolated workspaces, visible memory, and team collaboration'
-    - Scraped site context explicitly describes solving 'conversations start blending across projects' and 'long conversations still get forgotten'
-    - Source-list context places it in 'awesome-ai-coding-tools' under 'Developer Productivity Tools' as a memory solution for OpenClaw
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: memory-and-context
   secondary_categories: []
   section: Persistent Memory & Knowledge
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+  reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +75,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:33:11.091Z"
+    updated_at: '2026-09-28T04:33:11.091Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -87,12 +90,20 @@ processing:
       disagreement: false
       decision_reason: This is a memory and context system that improves what goes into AI models, not a coding agent or extension.
       decision_evidence:
-        - README states MemClaw 'turns OpenClaw into persistent project memory with isolated workspaces, visible memory, and team collaboration'
-        - Scraped site context explicitly describes solving 'conversations start blending across projects' and 'long conversations still get forgotten'
-        - Source-list context places it in 'awesome-ai-coding-tools' under 'Developer Productivity Tools' as a memory solution for OpenClaw
+        - >-
+          README states MemClaw 'turns OpenClaw into persistent project memory with isolated workspaces, visible memory,
+          and team collaboration'
+        - >-
+          Scraped site context explicitly describes solving 'conversations start blending across projects' and 'long
+          conversations still get forgotten'
+        - >-
+          Source-list context places it in 'awesome-ai-coding-tools' under 'Developer Productivity Tools' as a memory
+          solution for OpenClaw
       category_candidates:
         - memory-and-context
         - ai-dev-extensions
-      contrastive_reason: Choose memory-and-context over ai-dev-extensions because MemClaw's core novelty is persistent memory infrastructure rather than host integration layer.
-      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      contrastive_reason: >-
+        Choose memory-and-context over ai-dev-extensions because MemClaw's core novelty is persistent memory
+        infrastructure rather than host integration layer.
+      review_reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
       review_resume_lifecycle: null

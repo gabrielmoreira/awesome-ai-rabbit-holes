@@ -55,17 +55,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server with MCP as its primary identity, providing domain-specific functionality
-    (Twitter username history tracking).
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is 'An MCP server that tracks the historical changes of Twitter usernames'
-    - README details MCP integration, server setup, and usage with Claude Desktop
-    - Project is built around the MCP protocol as its core identity
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a purpose-built MCP server for a specific cloud provider, fitting cleanly into the Domain Servers section of
-    MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server' for DigitalOcean.
-    - README details 48 tools across 7 service categories (Droplets, K8s, Volumes, etc.) exposed via MCP.
-    - Listed in the 'awesome-mcp-servers' directory under the 'Community Servers' section.
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: mcp
   secondary_categories: []

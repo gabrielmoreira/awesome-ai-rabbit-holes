@@ -68,19 +68,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a standalone, autonomous coding assistant with CLI and GUI surfaces that reads, edits, and plans
-    across a repo, fitting the primary coding-agent identity rather than an extension or integration layer.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
-    - 'Repo description states: ''An LLM-powered, autonomous coding assistant'' with MCP and ACP modes.'
-    - >-
-      README emphasizes autonomous code analysis and modification with session management, context compaction, and
-      multi-provider tooling.
-    - Shipped as a native Rust binary with both terminal and GUI interfaces, not as a plugin or host integration.
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: curated
   reason: Stars (163) exceeded threshold (150)

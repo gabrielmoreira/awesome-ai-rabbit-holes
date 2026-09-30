@@ -70,17 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that exposes trading tools, resources, and prompts as its core identity, making MCP the
-    primary product rather than a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description: 'MCP server for pex.bot — AI simulated crypto trading with real-time Upbit prices. 11 tools, 5
-      resources, 5 prompts.'
-    - README title and badges emphasize 'MCP server for pex.bot' and include MCP-specific branding.
-    - >-
-      The tool provides MCP-compliant tools (e.g., place_order, get_balance), resources (e.g., pexbot://balance), and
-      prompts, aligning with MCP server functionality.
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

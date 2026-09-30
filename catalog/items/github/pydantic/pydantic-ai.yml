@@ -113,19 +113,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first framework and SDK for building agents, not a standalone coding assistant, IDE, or multi-agent
-    orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description: 'AI Agent Framework, the Pydantic way' and README positions it as a Python framework for
-      building GenAI apps.
-    - >-
-      README emphasizes developers import and script against it with type safety, tools, evals, and durable execution,
-      not operating a control plane.
-    - >-
-      Strong presence in awesome-llm-agents and awesome-agent-orchestration lists under frameworks, aligning with its
-      SDK identity.
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

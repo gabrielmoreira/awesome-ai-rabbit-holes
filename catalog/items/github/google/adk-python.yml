@@ -71,19 +71,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a code-first SDK/framework for building agents, not a primary assistant, IDE, or orchestration
-    platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description: 'An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated
-      AI agents'
-    - 'README: ''code-first Python framework for building, evaluating, and deploying sophisticated AI agents'''
-    - 'Source-list context: listed under ''Frameworks'' in awesome-llm-agents'
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Multi-Agent Systems
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (19480) exceeded threshold (150)

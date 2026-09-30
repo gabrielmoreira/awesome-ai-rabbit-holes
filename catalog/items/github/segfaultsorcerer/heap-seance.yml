@@ -62,13 +62,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: it is an MCP server that bundles JVM forensics tools and Claude Code slash commands as
-    its core distribution.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server that channels JVM forensics into structured leak verdicts — for Claude Code.'''
-    - 'README: ''An MCP server + CLI toolkit... designed to run inside Claude Code'' with 8 MCP tools and slash commands.'
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is providing Bitcoin blockchain data via MCP, fitting
-    the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description states it is 'An MCP server that provides real-time Bitcoin blockchain data'
-    - README explicitly positions it as an MCP server for AI coding environments
-    - Uses MCP SDK and follows MCP server conventions
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

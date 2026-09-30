@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It augments other coding assistants (Claude Code, Codex, OpenCode) with Zulip chat capabilities rather than being a
-    standalone coding assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'README: ''Run AI agents in Zulip as @mentionable bots — or wire into any MCP client'''
-    - Listener module watches for @mentions and spawns agent sessions using backends like Claude Code or Codex
-    - 'Source-list context: listed in awesome-mcp-servers under Communication section as an MCP server'
+    - jev-latest choice confidence 0.63
 placement:
   primary_category: mcp
   secondary_categories: []

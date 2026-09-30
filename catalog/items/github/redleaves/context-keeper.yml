@@ -75,19 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is a memory, retrieval, and context-shaping system for LLMs, not a primary coding agent or a thin
-    host integration.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      Repo description explicitly calls it an 'LLM-Driven Intelligent Memory & Context Management System' with RAG and
-      vector search.
-    - >-
-      README centers on context retrieval, knowledge graphs, and multi-stage memory pipelines rather than file editing
-      or agent orchestration.
-    - >-
-      Marked as MCP-compatible in badges and listed under 'Knowledge & Memory' in awesome-mcp-servers, reinforcing its
-      identity as context infrastructure.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: memory-and-context
   secondary_categories: []

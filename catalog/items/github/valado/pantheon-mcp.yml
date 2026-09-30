@@ -56,17 +56,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project’s core identity is an MCP server exposing agent definitions as tools, making it MCP infrastructure first
-    and foremost.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''A collection of AI agents'''
-    - 'README: ''An MCP (Model Context Protocol) server that delivers AI agent instructions on demand'''
-    - 'Source-lists: Listed in awesome-mcp-servers under Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Registries & Discovery
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

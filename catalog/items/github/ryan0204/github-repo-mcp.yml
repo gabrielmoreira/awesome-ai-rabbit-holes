@@ -65,15 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is clearly an MCP server for GitHub repository access, fitting the MCP Servers & Tooling
-    category with a domain-specific focus.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description states: ''Model Context Protocol server for Github Repo // Reading Github Repo'''
-    - >-
-      README explicitly says: 'GitHub Repo MCP is an open-source MCP server that lets your AI assistants browse GitHub
-      repositories'
-    - Listed in awesome-mcp-servers under 'Developer Tools' section
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -90,19 +90,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose core identity is providing Bluesky access via the Model Context
-    Protocol, making it a clear fit for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''Bluesky MCP server'''
-    - >-
-      README: 'A Model Context Protocol (MCP) server that enables MCP clients like Claude Desktop to interact with
-      Bluesky'
-    - Listed in multiple MCP-specific awesome lists under communication/server sections
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: it is a dedicated MCP server bridging Inspektor Gadget's telemetry tools to AI
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for debugging container/Kubernetes workloads
-    - README details how it exposes Inspektor Gadget gadgets as MCP tools for LLM-driven analysis
-    - Listed in awesome-mcp-servers under 'Official Servers'
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

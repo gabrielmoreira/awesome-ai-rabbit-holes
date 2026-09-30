@@ -62,19 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a textbook MCP server whose entire identity is exposing weather data to Claude Desktop via the Model Context
-    Protocol, fitting cleanly under Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description explicitly states it is 'An MCP (Model Context Protocol) tool... specifically designed for Claude
-      Desktop.'
-    - >-
-      README details MCP tool definitions (get_current_weather, get_weather_forecast, etc.) and Claude Desktop MCP
-      configuration instructions.
-    - >-
-      Listed in awesome-mcp-servers under 'Server Implementations > Location Services', confirming its ecosystem role as
-      an MCP server.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

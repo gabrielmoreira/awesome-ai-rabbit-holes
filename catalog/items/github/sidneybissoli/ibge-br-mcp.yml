@@ -75,17 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a clear MCP server implementation focused on a specific data domain (Brazilian geographic and statistical
-    data), making it a textbook fit for the MCP Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'MCP Server for IBGE APIs'
-    - README confirms it implements the Model Context Protocol with 23 specialized tools for IBGE data
-    - Listed in awesome-mcp-servers directory under 'Databases' section
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

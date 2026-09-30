@@ -67,13 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a standalone terminal coding assistant that reads repos, plans changes, runs commands, and edits code
-    using Grok models, fitting the primary coding-agent definition.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description states: ''An open-source coding agent for the Grok API''.'
-    - README shows headless and interactive modes that plan, edit, test, and refactor code across a repo.
-    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - jev-latest choice confidence 0.96
 placement:
   primary_category: coding-agents
   secondary_categories: []

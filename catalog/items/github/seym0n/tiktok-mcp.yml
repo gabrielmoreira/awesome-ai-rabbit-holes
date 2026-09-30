@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the core product identity: a standalone server that exposes TikTok capabilities to any MCP-compatible client.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'Model Context Protocol (MCP) with TikTok integration'
-    - >-
-      README details MCP server tools (tiktok_get_subtitle, tiktok_get_post_details, tiktok_search) for Claude AI
-      integration
-    - Listed in awesome-mcp-servers under 'Community Servers' section
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

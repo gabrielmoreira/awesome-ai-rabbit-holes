@@ -86,13 +86,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is as an MCP server providing domain-specific cloud financial context to host AI
-    applications.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies as a 'FinOps MCP server'
-    - Functions as a bridge between cloud providers and Claude/Cursor via MCP
-    - Product identity is the server implementation itself
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -57,17 +57,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is a standalone CLI agent that autonomously manages and executes tasks using AI, fitting the coding-agents
-    definition as a primary assistant for task work.
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
   evidence:
-    - Repo description explicitly states 'Swift implementation of BabyAGI', an autonomous AI agent.
-    - README confirms it creates, prioritizes, and executes tasks using OpenAI and Pinecone APIs.
-    - Listed in awesome-ai-agents under the 'Yourgoal' section as an autonomous agent.
+    - jev-latest choice confidence 0.60
 placement:
-  primary_category: ai-frameworks
+  primary_category: decision-models
   secondary_categories: []
-  section: LLM & Agent SDKs
+  section: Open & Local Decision Models
 lifecycle:
   status: curated
   reason: null

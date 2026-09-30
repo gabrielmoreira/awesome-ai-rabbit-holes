@@ -73,15 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server specifically designed to give AI tools access to WordPress management
-    capabilities via WP-CLI.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP server that gives AI tools full WordPress management via WP-CLI'.
-    - README lists 30+ specific tools like wp_plugin_install, wp_db_export, and wp_scaffold_theme exposed via MCP.
-    - >-
-      Topics include 'mcp' and 'model-context-protocol', and it is listed in awesome-mcp-servers under Server
-      Implementations.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

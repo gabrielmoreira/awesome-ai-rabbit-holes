@@ -61,13 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly built as an MCP server providing a specific domain of capabilities (image and video
-    manipulation) to LLM clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - README identifies the product as an MCP server for image and video generation
-    - Provides a specific suite of tools including generate_image, edit_image, and fix_region
-    - Integrates multiple model providers like Gemini, OpenAI, and Grok
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

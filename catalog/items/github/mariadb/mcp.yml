@@ -59,15 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is an MCP server implementation with MCP as its core identity, not merely an adapter or extension, fitting the
-    MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''MariaDB MCP (Model Context Protocol) server implementation'''
-    - README exposes MCP tools for database operations and vector stores
-    - >-
-      Listed in awesome-agent-orchestration under Agent Communication Protocols > Model Context Protocol (MCP) >
-      Database & Vector Stores
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

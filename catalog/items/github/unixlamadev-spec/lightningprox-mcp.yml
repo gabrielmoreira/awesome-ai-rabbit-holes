@@ -62,13 +62,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is an MCP server as its core identity, not merely an MCP-compatible extension, and provides AI gateway
-    functionality via Lightning Network payments.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - 'Repo description: ''MCP server for LightningProx — pay-per-request AI access via Bitcoin Lightning'''
-    - 'README: Describes setup as an MCP server for Claude Desktop and Claude Code via npx lightningprox-mcp'
-    - 'Source-list context: Included in awesome-mcp-servers under Finance & Fintech as an MCP server implementation'
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: mcp
   secondary_categories: []

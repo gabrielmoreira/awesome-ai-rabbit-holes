@@ -59,21 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first framework and SDK used by developers to build routing logic and evaluate model performance,
-    fitting cleanly as a provider/model abstraction library rather than a coding assistant or control plane.
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
   evidence:
-    - Repo description states it is 'A framework for serving and evaluating LLM routers'.
-    - >-
-      README shows primary usage is via Python SDK imports and launching an OpenAI-compatible server for routing between
-      model pairs.
-    - >-
-      Supports evaluation across multiple benchmarks and calibration of cost thresholds, positioning it as a developer
-      toolkit for model routing.
+    - jev-latest choice confidence 0.55
 placement:
-  primary_category: ai-frameworks
+  primary_category: decision-models
   secondary_categories: []
-  section: Provider & Model Abstractions
+  section: Agent Gates, Routers & Skills
 lifecycle:
   status: curated
   reason: Stars (4858) exceeded threshold (150)

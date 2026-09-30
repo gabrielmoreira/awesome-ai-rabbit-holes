@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server implementation whose primary identity is providing DoorDash API access via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README describes building an MCP server for DoorDash API integration
-    - Output is a JSON config for MCP clients (Claude Desktop, Windsurf, Cursor)
-    - Listed in awesome-mcp-servers under Server Implementations > Delivery
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

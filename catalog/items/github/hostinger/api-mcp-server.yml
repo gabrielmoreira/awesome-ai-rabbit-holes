@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: it is a dedicated MCP server exposing Hostinger API tools, not a compatibility
-    footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - README explicitly describes it as a Model Context Protocol (MCP) server for Hostinger API
-    - Provides multiple MCP server binaries (hostinger-api-mcp, hostinger-vps-mcp, etc.) with stdio/HTTP transport
-    - Listed in awesome-mcp-servers under Official Servers
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: mcp
   secondary_categories: []

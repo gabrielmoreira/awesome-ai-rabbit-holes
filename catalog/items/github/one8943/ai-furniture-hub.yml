@@ -84,19 +84,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly built as an MCP server with 15 tools and a remote endpoint, making MCP its primary
-    identity rather than an integration or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description states: ''MCP server for AI agents: 15 tools, 300+ products'''
-    - >-
-      README confirms remote MCP endpoint at /mcp and lists 15 specific tools like search_products and
-      diagnose_ai_visibility
-    - Found in awesome-mcp-servers under Server Implementations > E-Commerce
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

@@ -62,21 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Rivet is primarily a workbench for designing and coordinating AI agents and prompt chains, fitting the agent
-    orchestration category better than frameworks or extensions.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Workflow & Graph Engines
   evidence:
-    - 'Repo description: ''The open-source visual AI programming environment and TypeScript library'''
-    - >-
-      README: 'Rivet is a desktop application for creating complex AI agents and prompt chaining, and embedding it in
-      your application'
-    - >-
-      Source-list context: Listed under 'Other LLM Frameworks' in awesome-langchain, but its core identity is a visual
-      workbench
+    - jev-latest choice confidence 0.64
 placement:
-  primary_category: agent-orchestration
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Visual Builders & Workbenches
+  section: Workflow & Graph Engines
 lifecycle:
   status: curated
   reason: Stars (4567) exceeded threshold (150)

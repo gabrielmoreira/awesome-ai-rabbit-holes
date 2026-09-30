@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is an MCP server providing authenticated web fetching, making it a clear fit for MCP
-    Servers & Tooling under domain-specific implementations.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - 'Repo description: ''MCP server that lets AI assistants fetch content from authenticated web pages'''
-    - 'README: Explicitly positions itself as an MCP server for AI assistants via stdio transport'
-    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

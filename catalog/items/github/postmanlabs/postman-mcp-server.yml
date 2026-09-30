@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a first-party MCP server that provides Postman API capabilities to AI tools, making MCP its core product
-    identity rather than a compatibility footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'Connect your AI to your APIs on Postman' and topics include mcp, mcp-server.
-    - README details 100+ Postman API tools exposed via MCP for Claude Code, Cursor, VS Code, and other assistants.
-    - Listed in awesome-mcp-servers under 'Official Servers' section with active maintenance (pushed 2026-04-30).
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -112,17 +112,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: it is a managed MCP server exposing domain-specific tools for crypto data, not merely
-    an adapter or compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly states 'crypto MCP access for AI agents'
-    - README positions it as a 'managed MCP server' with 376+ live tools for crypto data
-    - Source-list context includes it in 'awesome-mcp-servers' under 'Official Servers'
+    - jev-latest choice confidence 0.68
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

@@ -120,15 +120,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is explicitly a set of MCP servers providing Neo4j capabilities to MCP clients, which fits
-    cleanly into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description states: ''Neo4j Labs Model Context Protocol servers'''
-    - >-
-      README describes multiple MCP servers (mcp-neo4j-cypher, mcp-neo4j-memory, etc.) that integrate with Claude
-      Desktop, VS Code, Cursor, and other MCP clients
-    - Project is actively maintained with a pushed_at date of 2026-04-10 and is not archived
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

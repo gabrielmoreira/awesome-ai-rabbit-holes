@@ -75,23 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first parser and extraction toolkit that developers import and script against to prepare documents
-    for LLM workflows, fitting cleanly as retrieval infrastructure in Frameworks & SDKs.
+  reason: Jev decision-model reclassifier placed this item in document-ai / Document Parsing & Layout
   evidence:
-    - >-
-      Repo description explicitly states: 'Transforms complex documents like PDFs and Office docs into LLM-ready
-      markdown/JSON for your Agentic workflows.'
-    - >-
-      Topics and README context show a Python-based parser focused on OCR, layout analysis, and structured output (PDF,
-      DOCX, PPTX, XLSX).
-    - >-
-      High traction with 62k+ stars and active development (pushed 2026-05-06) confirms it is a widely adopted developer
-      toolkit.
+    - jev-latest choice confidence 0.89
 placement:
-  primary_category: ai-frameworks
+  primary_category: document-ai
   secondary_categories: []
-  section: LLM & Agent SDKs
+  section: Document Parsing & Layout
 lifecycle:
   status: curated
   reason: Stars (62182) exceeded threshold (150)

@@ -54,13 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a reusable skill pack for coding agents to interact with Google Docs/Sheets via Memyard, fitting the
-    Agent Skills category as a portable command bundle.
+  reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
-    - README describes it as 'an agent skill that lets LLM coding agents create and edit Google Docs and Sheets'
-    - Installation instructions show cloning into agent skills folders (e.g., ~/.claude/skills/)
-    - Primary artifact is a skill pack with plan/execute flow, not a standalone agent or framework
+    - jev-latest choice confidence 0.55
 placement:
   primary_category: skills
   secondary_categories: []

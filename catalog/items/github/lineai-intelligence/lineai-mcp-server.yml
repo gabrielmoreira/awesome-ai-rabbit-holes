@@ -85,13 +85,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server implementation; MCP is its distribution format and primary identity, fitting
-    the canonical shape of domain-specific MCP servers like github-mcp-server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo name and description position it as 'An MCP Server' for CodeLogic data.
-    - README details eleven MCP tools and stdio server configuration for Cursor, not a standalone assistant.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

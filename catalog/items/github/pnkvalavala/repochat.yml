@@ -70,17 +70,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project's core identity is a local desktop interface for chatting with repos using self-hosted models, fitting
-    the Local AI category better than a coding agent or extension.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
   evidence:
-    - >-
-      Repo description explicitly states 'Chatbot assistant enabling GitHub repository interaction using LLMs with
-      Retrieval Augmented Generation'.
-    - >-
-      README emphasizes local execution: 'designed to run entirely on your local machine... doesn't rely on external API
-      calls'.
-    - Stack includes Streamlit, llama-cpp-python, and local ChromaDB for private embedding storage.
+    - jev-latest choice confidence 0.63
 placement:
   primary_category: local-ai
   secondary_categories: []

@@ -70,13 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server implementation that bridges Telegram bots to the Model Context
-    Protocol, fitting squarely into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description explicitly states: ''MCP server middleware for aiogram Telegram bots''.'
-    - 'README states core goal: ''turns any aiogram bot into an MCP server'' with 30 tools and 7 resources.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

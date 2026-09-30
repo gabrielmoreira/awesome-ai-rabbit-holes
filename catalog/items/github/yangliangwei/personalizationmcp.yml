@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is an MCP server that exposes personal data platforms as tools/resources, fitting the
-    MCP Servers & Tooling category as domain-specific infrastructure.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description states it is 'a unified personal data hub built on MCP'
-    - README emphasizes MCP compatibility and provides a `personalhub serve` command to run the server
-    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

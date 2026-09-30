@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server implementation for Microsoft Teams, making MCP its primary identity and
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states it is an MCP server for Microsoft Teams
-    - README confirms it provides Teams-specific capabilities (read/create/reply to messages, mention members)
-    - Already listed in awesome-mcp-servers under Server Implementations > Communication
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: mcp
   secondary_categories: []

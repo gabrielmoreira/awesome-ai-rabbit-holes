@@ -60,19 +60,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP-like server implementation for terminal access, fitting the MCP Servers &
-    Tooling category despite being a non-compliant proof-of-concept.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'A MCP-like server using the DeepSeek API for Terminal'.
-    - >-
-      README confirms it 'aims to demonstrate the core concepts behind the Model Context Protocol (MCP)' by exposing
-      /mcp/list_tools and /mcp/call_tool endpoints.
-    - Source list context places it in 'awesome-mcp-servers' under 'Server Implementations'.
+    - jev-latest choice confidence 0.56
 placement:
-  primary_category: coding-agents
+  primary_category: mcp
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

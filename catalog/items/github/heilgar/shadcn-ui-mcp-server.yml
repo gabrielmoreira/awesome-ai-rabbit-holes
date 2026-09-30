@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server providing domain-specific tools for shadcn/ui, not a general assistant
-    or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README explicitly describes it as an MCP server with tools for shadcn/ui components/blocks
-    - Listed in awesome-mcp-servers under Community Servers
-    - Provides MCP-specific installation/config for Claude Desktop, Windsurf, Cursor
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

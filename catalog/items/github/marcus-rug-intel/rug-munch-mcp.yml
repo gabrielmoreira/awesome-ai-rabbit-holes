@@ -77,21 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server providing domain-specific tools for crypto risk analysis, making MCP the core product identity
-    rather than a mere compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'MCP server for Marcus Rug Intel — 19 tools for crypto token risk analysis, rug pull detection,
-      and AI forensics'
-    - >-
-      README: Explicitly markets as an MCP server with installation guides for Claude Desktop, Cursor, and Windsurf via
-      MCP configuration
-    - 'Source-list context: Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation'
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

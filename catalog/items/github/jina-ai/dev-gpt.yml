@@ -55,17 +55,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The primary value is generating and deploying microservices from prompts, which aligns with prompt-to-app builders
-    rather than a general coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''Your Virtual Development Team'''
-    - 'README: ''Tell your AI team what microservice you want to build, and they will do it for you'''
-    - 'CLI workflow: generate, run, deploy microservices from descriptions'
+    - jev-latest choice confidence 0.51
 placement:
-  primary_category: coding-agents
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Autonomous & Multi-Agent Coding
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (1865) exceeded threshold (150)

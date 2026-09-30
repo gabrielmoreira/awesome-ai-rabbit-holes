@@ -45,18 +45,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    JevSpan - Information extraction: zero-shot named entity recognition that splits text at punctuation, asks Jev one
+    Choice over every candidate window per entity type, verifies each nominee with a second Choice (the type, none,
+    mixed or partial) and settles its boundary with a third, averaging 73.7 strict F1 across 12 Chinese and English NER
+    benchmarks against 72.1 for direct extraction with Qwen3.8-27B.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  evidence:
+    - jev-latest choice confidence 0.76
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  secondary_categories: []
+  section: Open & Local Decision Models
 lifecycle:
   status: curated
   reason: null

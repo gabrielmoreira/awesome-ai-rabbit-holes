@@ -52,18 +52,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    OpenCSG’s core identity is as an enterprise platform for building and operating agent teams via CSGShip, fitting
-    agent orchestration more than a coding agent or framework.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Local API Servers
   evidence:
-    - 'Source-list description: ''CSGShip助力AgenticOps智能体构建'' (CSGShip aids AgenticOps intelligent agent construction)'
-    - 'Scraped site context: OpenCSG打造''Hybrid Huggingface+ 大模型生态平台'' and ''助力大模型落地应用'' (empowers large model deployment)'
-    - >-
-      No evidence of code editing, CLI agent behavior, or SDK/library distribution; focuses on platform-level agent
-      workflow enablement
+    - jev-latest choice confidence 0.60
 placement:
-  primary_category: agent-orchestration
-  section: Domain & Enterprise Platforms
+  primary_category: local-ai
+  secondary_categories: []
+  section: Local API Servers
 lifecycle:
   status: curated
   reason: null

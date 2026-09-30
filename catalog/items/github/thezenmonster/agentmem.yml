@@ -80,19 +80,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core novelty is a governed memory and context-shaping infrastructure for coding agents, not a primary assistant
-    or a thin host integration.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      Repo description states: 'Governed memory for long-lived coding agents. Trust, provenance, conflict detection.
-      Local-first.'
-    - >-
-      README shows status-driven lifecycle (hypothesis -> active -> validated), conflict detection, staleness detection,
-      and trust-ranked recall.
-    - >-
-      Python API and MCP server are provided, but memory governance and context retrieval are the primary product
-      identity.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: memory-and-context
   secondary_categories: []

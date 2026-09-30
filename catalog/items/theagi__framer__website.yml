@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__theagi__framer__website__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - MultiOn
         anchor_text: MultiOn
         extracted_url: https://multion.ai
-        surrounding_text: "## [MultiOn](https://multion.ai/)"
+        surrounding_text: '## [MultiOn](https://multion.ai/)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI platform and intelligence layer for building on-device action agents that navigate mobile and desktop applications via screen reasoning.
-  why_it_matters: It enables developers to create agents that automate tasks across any app or OS without requiring custom API integrations for every single service.
-  mental_damage: "It turns the frustration of navigating messy UIs into a new kind of frustration: debugging why an agent thought a 'Cancel' button was actually 'Confirm Purchase'."
+  summary: >-
+    An AI platform and intelligence layer for building on-device action agents that navigate mobile and desktop
+    applications via screen reasoning.
+  why_it_matters: >-
+    It enables developers to create agents that automate tasks across any app or OS without requiring custom API
+    integrations for every single service.
+  mental_damage: >-
+    It turns the frustration of navigating messy UIs into a new kind of frustration: debugging why an agent thought a
+    'Cancel' button was actually 'Confirm Purchase'.
   tags:
     - action-ai
     - agent-framework
@@ -48,22 +54,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core value is an agent that 'ees, reasons, and acts' on existing application interfaces, making it a computer-use agent.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Claims to 'hip a working agent in less than a day' by pointing it at existing apps
-    - Specializes in on-device action AI that reasons and acts on top of existing software
-    - Collaborates with Qualcomm to bring agentic intelligence to Snapdragon platforms
+    - jev-latest choice confidence 0.52
 placement:
-  primary_category: coding-agents
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: null
+  section: LLM & Agent SDKs
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-frameworks'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-frameworks'''
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.716Z"
+    updated_at: '2026-07-16T05:04:46.716Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:29:21.999Z"
+    updated_at: '2026-09-24T04:29:21.999Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +89,9 @@ processing:
       input_hash: sha256:293a204511110ed590d3b1925ae8d54b4f0829a4ccf748ebe54fb6eec2543e79
       proposed_primary_category: ai-frameworks
       disagreement: true
-      decision_reason: It acts as a specialized engine and platform for developers to build agents that can interact with existing software through screen perception and reasoning.
+      decision_reason: >-
+        It acts as a specialized engine and platform for developers to build agents that can interact with existing
+        software through screen perception and reasoning.
       decision_evidence:
         - Claims to provide the intelligence layer for building on-device, private, and secure action agents.
         - Offers a platform to 'ship a working action agent in less than a day' without per-app integrations.
@@ -93,6 +99,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is positioned as a platform and engine for building agent capabilities rather than a control plane for managing multi-agent workforces.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-frameworks'"
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because the product is positioned as a platform and engine for
+        building agent capabilities rather than a control plane for managing multi-agent workforces.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-frameworks'''
       review_resume_lifecycle: null

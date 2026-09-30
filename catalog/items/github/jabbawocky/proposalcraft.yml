@@ -97,13 +97,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server providing specialized domain capabilities (proposal generation) to existing
-    coding assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description identifies it as an 'MCP server for freelancers'
-    - README specifies integration with Claude Code, Cursor, and Windsurf via MCP
-    - Offers specific domain-driven tools like 'analyze_brief' and 'draft_proposal' via the protocol
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

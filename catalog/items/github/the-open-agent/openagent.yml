@@ -100,13 +100,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project presents itself as a primary personal AI assistant capable of coding, browsing, and computer-use via
-    agent loops, fitting the coding agent definition rather than a thin extension or framework.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly labels it a 'next-generation personal AI assistant... supporting... coding agent'.
-    - README states it connects LLMs, RAG, and agents to 'browse the web, run code, and call any MCP-compatible tool'.
-    - Recently pushed (2026-05-06) and self-hostable via pre-built binaries or Docker.
+    - jev-latest choice confidence 0.58
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

@@ -56,15 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server with Ethereum-specific tooling, making MCP its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description states it is 'An MCP server that tracks Ethereum’s validator activation and exit queues in real
-      time'
-    - >-
-      README details MCP tools (`get_activation_queue`, `get_exit_queue`, `get_validator_status`) and prompt templates
-      for LLMs
-    - Installation instructions explicitly target MCP-compatible clients like Claude Desktop
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

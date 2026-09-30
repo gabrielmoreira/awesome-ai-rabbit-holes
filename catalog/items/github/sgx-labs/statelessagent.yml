@@ -82,19 +82,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core novelty is a memory and context-surfacing system that boosts other coding agents via MCP, which aligns with
-    Prompt & Context Engineering rather than being a primary assistant or thin host integration.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      Repo description: 'Your AI forgets everything between sessions. SAME fixes that. Local-first, no API keys, single
-      binary.'
-    - >-
-      README: 'SAME gives every AI coding tool persistent memory. Claude Code, Cursor, Windsurf, Codex CLI, Gemini CLI —
-      one memory layer that works everywhere.'
-    - >-
-      Topics include llm-memory, context-surfacing, rag, semantic-search, and mcp-server, confirming the
-      memory/retrieval identity.
+    - jev-latest choice confidence 0.63
 placement:
   primary_category: memory-and-context
   secondary_categories: []

@@ -69,17 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Hive Intelligence is an MCP server whose primary identity is exposing crypto and DeFi tools over the Model Context
-    Protocol, fitting the MCP category's core definition.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - The product exposes 525 callable tools via an MCP endpoint at https://mcp.hiveintelligence.xyz/mcp
-    - >-
-      It provides discovery (search_tools), schema (get_api_endpoint_schema), and execution (invoke_api_endpoint)
-      workflows for agents
-    - >-
-      It normalizes 15 data sources including CoinGecko, Alchemy, and CCXT for crypto market data, wallet analysis, and
-      DeFi analytics
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

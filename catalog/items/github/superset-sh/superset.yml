@@ -80,15 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a desktop workbench and control plane for coordinating multiple CLI agents across isolated git
-    worktrees, which aligns with the Agent Orchestration category's focus on multi-agent coordination surfaces.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description explicitly states: ''Run an army of Claude Code, Codex, etc. on your machine'''
-    - >-
-      README highlights 'Orchestrate swarms of Claude Code, Codex, and more in parallel' and 'Monitor all your agents
-      from one place'
-    - Source-list context places it under 'Harnesses & orchestration > Session managers & parallel runners'
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

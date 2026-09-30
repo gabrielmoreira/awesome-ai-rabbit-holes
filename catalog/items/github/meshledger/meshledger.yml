@@ -57,17 +57,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    MeshLedger’s core identity is an MCP server with 15 tools that lets MCP clients interact with an agent marketplace;
-    MCP is the primary product, not a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'README explicitly states: ''MeshLedger is a Model Context Protocol (MCP) server and AI agent marketplace'''
-    - Provides an installable MCP server via npx @meshledger/mcp-server with 15 listed tools for marketplace interaction
-    - Offers both local and remote (SSE) MCP endpoints for clients like Claude Desktop, Cursor, and Windsurf
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

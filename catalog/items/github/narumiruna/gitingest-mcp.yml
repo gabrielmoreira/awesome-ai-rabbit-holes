@@ -59,15 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server implementation whose entire identity is exposing gitingest repository digestion as an
-    MCP tool.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - GitHub repo name is gitingest-mcp with description focused on MCP server implementation.
-    - >-
-      README explicitly states it is 'A Model Context Protocol (MCP) server implementation that integrates with
-      gitingest'.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - jev-latest choice confidence 0.60
 placement:
   primary_category: mcp
   secondary_categories: []

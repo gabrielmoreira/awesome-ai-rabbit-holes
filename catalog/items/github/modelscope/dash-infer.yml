@@ -67,15 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a developer-facing runtime engine for running AI on local or self-hosted hardware, fitting the 'Local AI'
-    category's focus on local runtimes and serving stacks.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - Repo description explicitly defines it as a 'native LLM inference engine' for CUDA, x86, and ARMv9.
-    - README highlights lightweight architecture and C++/Python interfaces for integration into existing systems.
-    - >-
-      Supported hardware includes local CUDA GPUs (T4, 4090, A100) and CPUs (x86, ARMv9), emphasizing self-hosted
-      execution.
+    - jev-latest choice confidence 0.67
 placement:
   primary_category: local-ai
   secondary_categories: []

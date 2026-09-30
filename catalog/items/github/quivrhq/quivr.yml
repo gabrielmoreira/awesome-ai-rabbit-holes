@@ -102,19 +102,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Quivr is primarily a code-first SDK and framework for building RAG and retrieval infrastructure, not a coding
-    assistant, orchestration platform, or end-user app builder.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly calls it an 'Opiniated RAG' framework for integrating GenAI into apps.
-    - >-
-      README shows a Python SDK workflow: pip install quivr-core, import Brain, configure YAML workflows, and ask
-      questions.
-    - Source lists include it under Knowledge Management and 知识库 RAG as an open-source RAG project.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Memory & Retrieval Infrastructure
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (39133) exceeded threshold (150)

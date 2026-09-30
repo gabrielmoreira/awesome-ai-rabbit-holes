@@ -93,17 +93,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    SuperAGI is a runtime platform and control plane for coordinating autonomous agents with a web UI and marketplace,
-    making it a clear fit for Agent Orchestration over a code-first SDK.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description explicitly calls it a 'dev-first open source autonomous AI agent framework' for building and
-      managing agents.
-    - README positions it as a platform with a cloud app, marketplace, and API surface rather than a library to import.
-    - >-
-      Included in awesome-llm-agents under 'Frameworks' and awesome-langchain under 'Tools > Agents', signaling
-      ecosystem recognition.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

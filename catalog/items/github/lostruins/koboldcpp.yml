@@ -83,15 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    KoboldCpp is a self-contained runtime for running GGUF models locally, matching the core purpose of the Local AI
-    category.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - 'Repo description: ''Run GGUF models easily with a KoboldAI UI. One File. Zero Install.'''
-    - 'README: ''Single file executable, with no installation required and no external dependencies'''
-    - >-
-      Source-list context: Listed in awesome-local-ai under 'Inference Engine' and awesome-LLM-resources under '推理
-      Inference'
+    - jev-latest choice confidence 0.95
 placement:
   primary_category: local-ai
   secondary_categories: []

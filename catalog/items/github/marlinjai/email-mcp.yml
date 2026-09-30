@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server first and foremost, providing email access as a domain-specific MCP service, making MCP
-    Servers & Tooling the correct category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''Unified MCP server for email access across Gmail, Outlook, iCloud, and IMAP'''
-    - README positions it as an MCP server to be added to .mcp.json and used in Claude Code
-    - 'Source-list context: listed in awesome-mcp-servers under Communication'
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

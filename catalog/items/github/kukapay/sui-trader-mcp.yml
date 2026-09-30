@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server whose primary identity is providing Sui blockchain swap capabilities through
-    the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for AI agents to perform token swaps on Sui
-    - README confirms it implements MCP server interface with swap tool for Cetus Aggregator
-    - Project is new (created 2025-05-10) but active and not archived
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

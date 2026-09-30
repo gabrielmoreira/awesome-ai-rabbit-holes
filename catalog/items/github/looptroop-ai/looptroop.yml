@@ -92,13 +92,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It acts as an operated workbench that coordinates multiple roles (Council, Ralph, OpenCode) to manage a long-running
-    software delivery lifecycle.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README describes it as a 'local GUI orchestrator for long-running, high-correctness AI software delivery'
-    - Workflow includes 'LLM Council Planning' and 'Ralph-Style Recovery Loops' coordinating multiple agents
-    - Moves beyond a simple assistant by managing task decomposition, execution, and verification stages
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

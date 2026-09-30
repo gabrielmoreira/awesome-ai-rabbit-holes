@@ -74,21 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a self-contained MCP server with governance-focused tools and resources, making MCP its core identity
-    rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description: 'Standalone MCP server — cross-session memory, 10-gate VERITAS build pipeline, cryptographic
-      audit ledger, Cortex approval gate.'
-    - >-
-      README: 'Omega Brain MCP is a self-contained Model Context Protocol (MCP) server that runs as a local process
-      alongside any MCP-compatible AI client.'
-    - 'Source-list context: Listed in ''awesome-mcp-servers'' under ''Server Implementations > Developer Tools''.'
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

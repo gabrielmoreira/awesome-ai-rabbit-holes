@@ -87,20 +87,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    LangKit is an LLM observability toolkit focused on measuring and monitoring model outputs for safety and quality,
-    aligning with the evals category's core purpose of assessing AI behavior rather than acting as a coding assistant or
-    app builder.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - >-
-      Repo description: 'LangKit: An open-source toolkit for monitoring Large Language Models (LLMs). Extracts signals
-      from prompts & responses, ensuring safety & security.'
-    - >-
-      README: 'Productionizing language models... comes with a range of risks... The unstructured nature of text poses a
-      challenge in the ML observability space'.
-    - >-
-      Features include text quality, relevance, security/privacy (jailbreaks, prompt injection, hallucinations), and
-      sentiment/toxicity analysis — all evaluation metrics.
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: evals
   secondary_categories: []

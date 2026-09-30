@@ -82,13 +82,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a code-first library used by developers to script LLM and agent behavior in Go, which aligns with Frameworks &
-    SDKs rather than control planes or standalone assistants.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly calls it a 'Library designed for developers' using a 'Go-idiomatic approach'.
-    - README shows code examples of importing and using the package as a Go SDK for OpenAI and RAG operations.
-    - Listed in awesome-langchain under 'Other LLM Frameworks', reinforcing its identity as a framework.
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

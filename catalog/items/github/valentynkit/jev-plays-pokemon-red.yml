@@ -114,20 +114,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    jev-plays-pokemon-red - Pokemon Red on PyBoy where code owns the route and the arithmetic, Jev only picks at
+    branches, and every battle turn's faint prediction is scored by Brier against RAM state.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - jev-latest choice confidence 0.88
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null

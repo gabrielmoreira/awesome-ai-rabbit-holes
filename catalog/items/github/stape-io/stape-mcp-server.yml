@@ -64,13 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server for a specific domain (Stape/GTM), fitting cleanly into Domain Servers under
-    MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP server for interacting with the Stape API via AI assistants.
-    - README demonstrates MCP server configuration for Claude Desktop and Cursor.
-    - Listed in awesome-mcp-servers under the Marketing section, confirming its domain-specific MCP identity.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

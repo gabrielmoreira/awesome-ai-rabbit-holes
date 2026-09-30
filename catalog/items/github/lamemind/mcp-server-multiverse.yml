@@ -79,13 +79,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity: this is a middleware server explicitly designed to manage MCP server instances,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is a middleware server for MCP servers
-    - README details features like isolated MCP server instances with unique namespaces/configs
-    - Listed in awesome-mcp-list and awesome-mcp-servers under MCP-related sections
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

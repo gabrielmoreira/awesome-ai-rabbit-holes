@@ -66,15 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a code-first SDK and framework that developers import and script against to build web agents, fitting
-    the Frameworks & SDKs category better than a standalone coding agent or orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly calls it 'Best framework to build web agents' with Python SDK and PyPI package.
-    - README shows developers import notte, create sessions, and script agents in Python code.
-    - >-
-      Provides both open-source framework and hosted API service, but primary identity is the SDK/framework developers
-      build with.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

@@ -74,17 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server implementation for Apache Unomi, making MCP its primary identity and fitting the
-    Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP implementation for Apache Unomi CDP
-    - README details MCP server tools for profile, consent, and session management
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Customer Data Platforms
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

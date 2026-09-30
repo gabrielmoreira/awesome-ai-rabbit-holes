@@ -65,17 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product’s core identity is an MCP server for spreadsheet interaction, with an MCP-first design that explicitly
-    ships a stateful MCP surface alongside CLI and SDK forms.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - >-
-      Repo description: 'MCP server for spreadsheet analysis and editing. Slim, token-efficient tool surface designed
-      for LLM agents.'
-    - >-
-      README: 'MCP server | spreadsheet-mcp | Stateful | Multi-turn agent sessions, workbook caching, fork/recalc
-      workflows'.
-    - 'Source list: included in awesome-mcp-servers under Server Implementations > Developer Tools.'
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: mcp
   secondary_categories: []

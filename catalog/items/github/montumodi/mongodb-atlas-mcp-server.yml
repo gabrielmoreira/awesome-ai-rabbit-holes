@@ -69,19 +69,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server exposing MongoDB Atlas API functionality as tools, which aligns directly
-    with the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description states: ''MCP server for mongodb atlas api. Internally uses mongodb-atlas-api-client.'''
-    - >-
-      README confirms the server 'wraps the mongodb-atlas-api-client package to expose MongoDB Atlas functionality
-      through MCP tools.'
-    - Listed in awesome-mcp-servers under Server Implementations > Databases, reinforcing its MCP server identity.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

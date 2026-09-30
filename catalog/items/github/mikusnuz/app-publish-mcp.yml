@@ -74,17 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server designed to give AI assistants access to specific mobile publishing
-    ecosystems, fitting the Domain Servers section perfectly.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description states it is a 'Unified MCP server for App Store Connect & Google Play Console'.
-    - README confirms it implements the Model Context Protocol with 91 specific tools for iOS and Android.
-    - Listed in awesome-mcp-servers under 'Developer Tools', reinforcing its identity as protocol infrastructure.
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

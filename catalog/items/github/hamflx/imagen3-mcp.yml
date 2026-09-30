@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server implementation, with MCP as its primary identity, providing a
-    domain-specific (image generation) capability.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - README explicitly describes it as an MCP-based image generation tool for Google Imagen 3.0
-    - Source-list context includes it in 'awesome-mcp-servers' under Server Implementations
-    - Installation instructions detail MCP server configuration for Cherry Studio and Cursor
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

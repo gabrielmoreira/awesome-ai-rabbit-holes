@@ -69,19 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server implementation focused on memory and context retrieval for AI
-    agents, aligning perfectly with the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      README explicitly states 'Zero-dependency MCP memory server for AI agents' and runs as a stdio MCP server via
-      `aimemo serve`.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section.
-    - Topics include 'mcp', 'memory', 'context-protocol', and 'knowledge-graph', confirming the MCP server identity.
+    - jev-latest choice confidence 0.62
 placement:
-  primary_category: mcp
+  primary_category: memory-and-context
   secondary_categories: []
-  section: Middleware & Generic
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: curated
   reason: null

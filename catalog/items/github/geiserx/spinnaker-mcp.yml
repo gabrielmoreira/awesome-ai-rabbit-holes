@@ -80,11 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is a Model Context Protocol server designed to bridge Spinnaker to AI agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP Server for Spinnaker'
-    - README defines the tool as a bridge exposing Spinnaker via JSON-RPC over MCP
-    - Provides specific tool definitions like 'trigger_pipeline' and 'cancel_execution' for LLM consumption
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

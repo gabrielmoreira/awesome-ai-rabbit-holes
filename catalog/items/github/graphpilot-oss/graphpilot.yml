@@ -71,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is the structural indexing and memory system used to shape context for other assistants, making it
-    a context engineering tool rather than a standalone agent.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - README describes it as 'structural memory for coding agents'
-    - Core value prop is reducing tokens and hallucinations via a persistent graph index
-    - Provides the data (symbols, call-edges) that assistants use to avoid re-grepping files
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: memory-and-context
   secondary_categories: []

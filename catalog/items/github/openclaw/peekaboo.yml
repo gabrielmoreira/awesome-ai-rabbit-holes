@@ -66,17 +66,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity as both a shipped MCP server and a core integration point for Claude Desktop and Cursor,
-    making it a domain-specific MCP tool rather than a standalone coding assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is 'a macOS CLI & optional MCP server' for AI agents.
-    - README highlights 'MCP server for Claude Desktop and Cursor plus a native CLI; the same tools in both.'
-    - Listed in awesome-mcp-servers under Community Servers, reinforcing its MCP-first identity.
+    - jev-latest choice confidence 0.65
 placement:
-  primary_category: coding-agents
+  primary_category: mcp
   secondary_categories: []
-  section: Browser & Computer-Use Agents
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (3252) exceeded threshold (150)

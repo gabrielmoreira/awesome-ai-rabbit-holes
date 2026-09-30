@@ -83,17 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server built specifically to give AI assistants diagram-generation capabilities via the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo name is 'mermaid-mcp' and the README explicitly describes it as 'Mermaid MCP Server' providing a Model
-      Context Protocol interface.
-    - Topics include 'mcp', 'mcp-server', and 'model-context-protocol', confirming MCP is the core identity.
-    - >-
-      Listed in awesome-mcp-servers under 'Architecture & Design' server implementations, reinforcing the MCP server
-      classification.
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

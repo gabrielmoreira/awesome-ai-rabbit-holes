@@ -85,19 +85,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server purpose-built to expose Prometheus metrics to MCP-compatible clients, which
-    fits the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description states it is 'A Model Context Protocol (MCP) server' for querying Prometheus metrics.
-    - >-
-      README positions it as an MCP server with setup instructions for Claude Desktop, Claude Code, VS Code, Cursor, and
-      Docker Desktop.
-    - Included in awesome-mcp-list and awesome-mcp-servers under database/server implementation sections.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (434) exceeded threshold (150)

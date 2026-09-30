@@ -62,19 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server providing terminal and SSH capabilities to AI agents, fitting cleanly into
-    the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description clearly states: 'MCP server for interactive terminal sessions — local shells, SSH, serial ports,
-      and persistent remote sessions'.
-    - >-
-      README architecture diagram shows the product as an MCP Server providing session management via JSON-RPC stdio to
-      AI agents like Claude Code.
-    - >-
-      Listed in awesome-mcp-servers under 'Server Implementations > Command Line', confirming its identity as an MCP
-      tool.
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []

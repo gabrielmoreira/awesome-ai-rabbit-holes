@@ -60,18 +60,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core product is a CLI workbench for coordinating multiple AI agents across git worktrees and tmux sessions,
-    which aligns with agent orchestration control planes and workbenches rather than being a standalone coding assistant
-    or thin extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description states it is a 'Reusable toolkit for tmux + git worktree multi-agent workflows'.
-    - >-
-      README explicitly says it 'Orchestrate[s] parallel AI agents in isolated git worktrees with shared tmux
-      visibility'.
-    - >-
-      Source list awesome-cli-coding-agents places it in 'Harnesses & orchestration > Session managers & parallel
-      runners'.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

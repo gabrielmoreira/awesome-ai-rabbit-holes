@@ -58,18 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is an MCP server focused on a specific domain (trading), making it a clear fit for MCP Servers & Tooling
-    under Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description: 'MCP for the Alpaca trading API to manage stock and crypto portfolios, place trades, and access
-      market data'
-    - >-
-      README title and opening line: 'Alpaca Trading MCP Server' and 'A Model Context Protocol (MCP) server that
-      provides an interface to the Alpaca trading API'
-    - Resources and tools are defined as MCP primitives (e.g., `account://info`, `place_market_order`)
-    - 'Actively maintained: pushed 2025-07-14, not archived, MIT licensed'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

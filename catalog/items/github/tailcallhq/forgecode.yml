@@ -76,17 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Forge is a standalone terminal coding agent that reads code, plans changes, edits files, and assists with debugging
-    across a repo, fitting the primary coding assistant definition.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description states it is an 'AI enabled pair programmer' for Claude, GPT, Grok, Gemini and 300+ models.
-    - >-
-      README positions it as 'a comprehensive coding agent that integrates AI capabilities with your development
-      environment' with interactive TUI and CLI modes.
-    - >-
-      Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source' and has 7,221 stars with
-      recent pushes.
+    - jev-latest choice confidence 0.95
 placement:
   primary_category: coding-agents
   secondary_categories: []

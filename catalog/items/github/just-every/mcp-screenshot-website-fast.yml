@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a purpose-built MCP server for screenshot capture, not a generic tool with MCP
-    as an adapter.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly states it is an MCP server for screenshotting webpages
-    - README highlights MCP integration as a core feature with installation instructions for multiple MCP clients
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []

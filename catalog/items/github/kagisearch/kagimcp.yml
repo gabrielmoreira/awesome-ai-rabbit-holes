@@ -53,14 +53,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here, and it is explicitly an MCP server for Kagi's tools.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is the official MCP server for Kagi Search
-    - README details setup for MCP clients like Claude Desktop and Codex CLI
-    - Listed in awesome-mcp-servers under Official Servers
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (376) exceeded threshold (150)

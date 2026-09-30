@@ -84,13 +84,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    DroidMind's primary identity is as an MCP server for Android device control, making it a clear fit for MCP Servers &
-    Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is for controlling Android devices with AI using MCP
-    - README highlights MCP as the core protocol and lists MCP-compatible clients (Claude, Cursor, Cline)
-    - Source-list context places it in MCP server directories under Developer Tools
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -63,20 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product identity is a control plane (UFO³ Galaxy) for coordinating multiple agents and tasks across devices
-    using DAG-based orchestration, fitting the 'operated workbench/platform' definition better than a single coding
-    agent.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      README explicitly positions UFO³ as a 'Multi-Device Agent Galaxy' with 'DAG-based task orchestration' and
-      'constellation' coordination logic.
-    - >-
-      UFO² is described as a 'Desktop AgentOS' that 'can serve as Galaxy device agent', reinforcing the
-      platform-over-agent identity.
-    - >-
-      Created Jan 2024 with active pushes as of April 2026 (8.5k stars), showing it is an active, distinct ecosystem
-      play rather than a simple coding assistant.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

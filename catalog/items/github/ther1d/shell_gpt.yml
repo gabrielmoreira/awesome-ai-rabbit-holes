@@ -77,17 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool acts as a primary command-line coding and shell assistant that generates, explains, and executes commands
-    and code snippets directly for the developer.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - >-
-      Repo description states it is a 'command-line productivity tool powered by AI large language models' that helps
-      accomplish tasks faster.
-    - >-
-      README demonstrates direct code/shell generation use cases like `sgpt --shell 'find all json files'` and `git diff
-      | sgpt 'Generate git commit message'`.
-    - Listed in awesome-ai-coding-tools under the section 'CLI Tools' as a relevant developer tool.
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: coding-agents
   secondary_categories: []

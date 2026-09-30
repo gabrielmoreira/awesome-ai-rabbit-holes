@@ -71,15 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core value is providing structured specification artifacts (schemas, design systems, RLS policies) that
-    serve as the primary driver for AI coding workflows.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      README claims it reduces token consumption by 70-85% by providing structured specs instead of prompting for
-      reasoning from scratch
-    - Provides specific tools for generating production-ready artifacts like DESIGN.md and PostgreSQL/Supabase schemas
-    - Designed specifically for integration into agentic workflows via MCP for tools like Claude Code and Cursor
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []

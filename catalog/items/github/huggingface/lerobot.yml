@@ -62,17 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    LeRobot is a code-first SDK and library for implementing robotic policies rather than a managed orchestration
-    workbench.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - Python-native interface with pip-installable library
-    - Standardized LeRobotDataset format for scalable training
-    - Unified Robot class for hardware-agnostic control
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: LLM & Agent SDKs
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (25346) exceeded threshold (150)

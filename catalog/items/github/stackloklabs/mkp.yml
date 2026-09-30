@@ -77,15 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server for a specific domain (Kubernetes), aligning perfectly with the
-    Domain Servers section of the MCP category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description explicitly states: ''MKP is a Model Context Protocol (MCP) server for Kubernetes''.'
-    - README confirms it 'provides tools for listing and applying Kubernetes resources through the MCP protocol'.
-    - >-
-      Listed in 'awesome-mcp-servers' under 'Server Implementations > Cloud Platforms', confirming community recognition
-      as an MCP server.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

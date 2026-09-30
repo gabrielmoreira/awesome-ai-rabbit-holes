@@ -76,19 +76,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a code-first framework for building and orchestrating multi-agent systems, fitting the 'Frameworks &
-    SDKs' category where developers primarily import and script against it.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description: ''The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework'''
-    - >-
-      README: Provides 'prebuilt multi-agent architectures' and emphasizes code-first usage (pip install, SDK-style
-      integration)
-    - 'Source-list context: Listed under ''Core Frameworks > Swarm Intelligence Frameworks'' in awesome-agent-orchestration'
+    - jev-latest choice confidence 0.57
 placement:
-  primary_category: ai-frameworks
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Multi-Agent Systems
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (6636) exceeded threshold (150)

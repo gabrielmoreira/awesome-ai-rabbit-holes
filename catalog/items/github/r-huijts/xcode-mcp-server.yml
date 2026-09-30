@@ -78,13 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server purpose-built to expose Xcode and Apple-platform tooling to MCP-compatible assistants,
-    fitting the MCP Servers & Tooling category cleanly.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description states: ''MCP Server implementation for Xcode integration'''
-    - README describes comprehensive Xcode, simulator, CocoaPods, and SPM capabilities exposed via MCP
-    - Included in awesome-mcp-list and awesome-mcp-servers under Developer Tools sections
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -53,11 +53,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing chess capabilities via the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP server for playing chess against AI
-    - README details MCP configuration and tool endpoints (e.g., get_board_visualization, make_move)
-    - Project is actively maintained (pushed_at 2025-05-05)
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

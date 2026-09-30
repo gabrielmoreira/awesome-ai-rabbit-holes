@@ -41,18 +41,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    jev-writer — Unlike generative writing assistants that flatter drafts, jev-writer enforces strict statistical
+    safeguards: an observational power gate, date-confound controls, and Benjamini-Hochberg false-discovery corrections.
+    It reports what it finds in plain English and refuses to state findings when sample sizes cannot support them.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  evidence:
+    - jev-latest choice confidence 0.90
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  secondary_categories: []
+  section: Verification, Guardrails & Safety
 lifecycle:
   status: curated
   reason: null

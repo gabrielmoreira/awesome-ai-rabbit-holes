@@ -62,17 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server (per topics and repo description) providing financial data access, making
-    MCP its primary identity.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
-    - Repo description explicitly states 'AI & Developer centric financial data API'
-    - Topics include 'mcp' and 'mcp-server'
-    - README describes a TypeScript API library for Finbud Data REST API, generated with Stainless
+    - jev-latest choice confidence 0.59
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Provider & Model Abstractions
 lifecycle:
   status: curated
   reason: null

@@ -83,13 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server that exposes Perfetto trace analysis capabilities to agentic
-    clients, placing it squarely in MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'Perfetto trace analysis via MCP'.
-    - README identifies it as 'An MCP server for analyzing Perfetto traces with LLMs'.
-    - Listed in awesome-mcp-servers under 'Developer Tools'.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

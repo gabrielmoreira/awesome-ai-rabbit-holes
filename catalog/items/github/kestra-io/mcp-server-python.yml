@@ -62,17 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: this is a dedicated MCP server exposing Kestra's tools, not a generic extension or
-    framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is a 'Python MCP Server for Kestra'
-    - README focuses on MCP server configuration and tool exposure
-    - Already listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

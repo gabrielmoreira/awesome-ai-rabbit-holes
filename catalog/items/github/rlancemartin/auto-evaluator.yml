@@ -60,17 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job is measuring and scoring LLM QA chain behavior across configurations, which aligns directly with the
-    evals category rather than coding agents or frameworks.
+  reason: Jev decision-model reclassifier placed this item in evals / Prompt Regression & Testing
   evidence:
-    - Repo description states it is an 'Evaluation tool for LLM QA chains'.
-    - README says it auto-generates QA pairs, runs chains, and uses an LLM to score responses across configurations.
-    - Appears in awesome-langchain under Tools > Services as an evaluation service.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: evals
   secondary_categories: []
-  section: Agent & LLM Benchmarks
+  section: Prompt Regression & Testing
 lifecycle:
   status: curated
   reason: Stars (1092) exceeded threshold (150)

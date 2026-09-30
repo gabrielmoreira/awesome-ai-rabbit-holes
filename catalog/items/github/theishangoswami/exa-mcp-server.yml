@@ -50,16 +50,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server providing web search capabilities via Exa, fitting cleanly as protocol-level infrastructure
-    rather than a standalone assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''Claude can perform Web Search | Exa with MCP (Model Context Protocol)'''
-    - 'README states: ''A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Search API'''
-    - Included in awesome-mcp-servers under 'Community Servers'
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

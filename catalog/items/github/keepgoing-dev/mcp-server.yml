@@ -60,11 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here—a server that exposes tools for project memory, not just a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly calls it an MCP server
-    - README details MCP server setup and tools like get_momentum and get_reentry_briefing
-    - Integration instructions are MCP-first (Claude Code, Cursor, etc.)
+    - jev-latest choice confidence 0.63
 placement:
   primary_category: mcp
   secondary_categories: []

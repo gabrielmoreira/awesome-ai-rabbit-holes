@@ -71,17 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is MCP infrastructure, acting as a platform and gateway for running, securing, and
-    observing MCP servers across desktop and Kubernetes environments.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description explicitly states it is 'an enterprise-grade platform for running and managing Model Context
-      Protocol (MCP) servers.'
-    - >-
-      README highlights running 'any MCP server securely' and connecting clients like Claude Code and Cursor to these
-      servers.
-    - Topics include 'mcp', 'mcp-servers', 'mcp-tools', and 'mcp-security', confirming the MCP-first identity.
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []

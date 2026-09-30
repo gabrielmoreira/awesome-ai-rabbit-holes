@@ -74,23 +74,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MLRun is a code-first platform used to script and manage ML/AI pipelines, fitting the framework category better than
-    orchestration platforms or agents.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - >-
-      Repo description defines it as an 'open source MLOps platform' for managing ML applications across their
-      lifecycle.
-    - >-
-      README positions it as a development tool integrating into CI/CD environments with Python SDK support (PyPI
-      package).
-    - >-
-      Source list context places it in 'Awesome-LLMOps > Training > Experiment Tracking', indicating a tooling/framework
-      role.
+    - jev-latest choice confidence 0.56
 placement:
-  primary_category: evals
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Observability & Tracing
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (1666) exceeded threshold (150)

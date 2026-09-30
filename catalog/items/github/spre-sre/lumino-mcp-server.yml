@@ -63,19 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server with 37+ tools for Kubernetes and OpenShift observability, making it a
-    textbook fit for the MCP Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description states it is 'an AI/ML-powered diagnostic engine... using the Model Context Protocol (MCP) and
-      40+ tools'
-    - README confirms it 'exposing 37 specialized tools through the Model Context Protocol' for SRE observability
-    - Listed in awesome-mcp-servers under 'Cloud Platforms' section as a server implementation
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Dev & Code Tools
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

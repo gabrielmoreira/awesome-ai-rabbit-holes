@@ -63,17 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server that gives AI agents structured access to Jira and GitHub APIs,
-    directly matching the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server exposing Jira and GitHub actions'.
-    - >-
-      README confirms it 'works with any MCP-compatible agent (e.g., GitHub Copilot) over stdio' and uses the fastmcp
-      library.
-    - >-
-      Listed in the awesome-mcp-servers directory under 'Developer Tools', confirming its ecosystem identity as an MCP
-      implementation.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

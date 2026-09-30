@@ -57,17 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is fundamentally an MCP server whose primary purpose is exposing a specific domain API (PBS) through the
-    Model Context Protocol, making MCP the core product identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description explicitly states it is an 'Australian Pharmaceutical Benefits Scheme PBS API Server using
-      Anthropic MCP'
-    - >-
-      README describes it as a 'standalone Model Context Protocol (MCP) server' with MCP-specific features like tools,
-      transport layers, and LLM integration
-    - Listed in 'awesome-mcp-servers' under Community Servers section, confirming its recognition as an MCP server
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

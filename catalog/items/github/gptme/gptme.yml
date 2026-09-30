@@ -77,17 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a primary coding assistant that developers delegate repo work to in a terminal/CLI context, matching
-    the canonical positives like Claude Code and OpenCode.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - >-
-      Repo description: 'Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses
-      the web.'
-    - >-
-      README: 'A personal AI agent that runs anywhere a terminal runs... A great coding agent, but general-purpose
-      enough to assist in all kinds of knowledge-work.'
-    - 'Source-list context: Listed in ''awesome-cli-coding-agents'' under ''Terminal-native coding agents > Open Source'''
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: coding-agents
   secondary_categories: []

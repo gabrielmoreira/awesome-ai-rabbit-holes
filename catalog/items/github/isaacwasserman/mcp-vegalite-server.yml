@@ -54,17 +54,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server providing domain-specific (data visualization) capabilities, making MCP its
-    primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README describes it as a 'Model Context Protocol (MCP) server implementation'
-    - Provides Vega-Lite-specific tools (`save_data`, `visualize_data`)
-    - Listed in awesome-mcp-servers under 'Community Servers'
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

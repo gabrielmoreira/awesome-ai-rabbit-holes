@@ -77,15 +77,9 @@ insights:
   confidence: low
 curation:
   status: included
-  reason: >-
-    It is a concrete MCP server implementation specifically for persistent agent memory, fitting the protocol
-    infrastructure category as domain-specific server tooling despite low current traction.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Listed in awesome-mcp-servers as a Knowledge & Memory server implementation
-    - Repo explicitly implements an MCP server interface bridging to agent-memory-daemon
-    - >-
-      Exposes memory_read, memory_append_session, and memory_search tools via MCP protocol to Kiro, Claude Desktop, and
-      Cursor
+    - jev-latest choice confidence 0.57
 placement:
   primary_category: mcp
   secondary_categories: []

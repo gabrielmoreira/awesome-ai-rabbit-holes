@@ -59,17 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The repo is a code-first SDK and framework used by developers to build modular AI systems and optimize LM prompts in
-    Python, fitting cleanly as an Agent Framework.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description states it is 'The framework for programming—not prompting—language models'.
-    - >-
-      README explicitly says DSPy is a framework where you 'write compositional Python code' and provides algorithms for
-      optimizing prompts and weights.
-    - >-
-      Source list 'awesome-langchain' includes it under 'Other LLM Frameworks', reinforcing its identity as a developer
-      library.
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

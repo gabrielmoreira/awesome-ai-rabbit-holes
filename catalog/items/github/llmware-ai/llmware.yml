@@ -69,19 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    llmware is a code-first SDK and framework used to build RAG and LLM applications, not a hosted control plane or
-    end-user product.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''Unified framework for building enterprise RAG pipelines with small, specialized models'''
-    - >-
-      README: provides model catalog, library ingestion, embedding installation, and query APIs intended to be used in
-      Python code
-    - Listed in awesome-langchain under 'Other LLM Frameworks', aligning with code-first building blocks
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Memory & Retrieval Infrastructure
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (14863) exceeded threshold (150)

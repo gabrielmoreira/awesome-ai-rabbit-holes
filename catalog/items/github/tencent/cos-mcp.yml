@@ -56,15 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server for Tencent Cloud COS/CI, and MCP is its core identity, making it a clear fit for the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is a '腾讯云 COS MCP Server' based on the MCP protocol.
-    - >-
-      README confirms it exposes cloud storage and media processing (upload, download, image quality assessment, video
-      capture) as MCP tools.
-    - Listed in awesome-mcp-servers under 'Official Servers', confirming ecosystem placement.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

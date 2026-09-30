@@ -67,17 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server providing 3D printer access, fitting cleanly into the MCP Servers &
-    Tooling category as a domain-specific implementation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description explicitly states: 'A free 3D Printing MCP server that allows for getting live printer state,
-      webcam snapshots, and printer control.'
-    - >-
-      README confirms the product is a cloud MCP server: 'A free, private, and secure cloud MCP server for 3D printer
-      access, monitoring, and control.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture' as a valid MCP implementation.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -58,15 +58,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server with Steam library integration as its core identity, fitting the MCP Servers
-    & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description states it is an MCP server for Steam library access
-    - README details tools for querying Steam data via MCP protocol
-    - Project is actively maintained (pushed_at 2026-03-23)
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly an MCP server implementation, making its product identity entirely based on the Model
-    Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''MCP server for the PostStack Email API'''
-    - README provides specific JSON config and CLI commands for Claude Desktop and Claude Code MCP integration
-    - Included in awesome-mcp-servers under 'Server Implementations'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

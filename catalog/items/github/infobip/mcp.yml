@@ -58,17 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity here: these are official Infobip MCP servers providing domain-specific capabilities
-    (messaging, auth, customer data) via MCP.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'Infobip Remote MCP Servers Documentation'
-    - README details multiple MCP server endpoints (e.g., SMS, WhatsApp, 2FA) under the MCP protocol
-    - Source-list context confirms inclusion in awesome-mcp-servers under 'Server Implementations > Communication'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

@@ -63,13 +63,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for knowledge and memory systems, matching the MCP Servers & Tooling
-    category and fitting the Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description states: ''MCP Server for local knowledge systems'''
-    - README identifies it as a 'Семантический MCP-сервер' with tools like suggest_metadata and embed
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section
+    - jev-latest choice confidence 0.58
 placement:
   primary_category: mcp
   secondary_categories: []

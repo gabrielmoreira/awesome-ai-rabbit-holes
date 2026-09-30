@@ -62,17 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is an MCP server designed specifically for the discovery and installation of other
-    MCP-compatible skills, making it a piece of MCP infrastructure.
+  reason: Jev decision-model reclassifier placed this item in mcp / Registries & Discovery
   evidence:
-    - Repo description explicitly defines it as an 'MCP server for AI agent skill discovery'
-    - README lists a remote MCP endpoint (https://aiskillstore.io/mcp) and provides MCP server configuration
-    - Included in awesome-mcp-servers under the 'Aggregators' section
+    - jev-latest choice confidence 0.70
 placement:
-  primary_category: skills
+  primary_category: mcp
   secondary_categories: []
-  section: Registries & Directories
+  section: Registries & Discovery
 lifecycle:
   status: curated
   reason: null

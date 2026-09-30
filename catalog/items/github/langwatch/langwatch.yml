@@ -88,19 +88,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    LangWatch centers on evaluating, tracing, and optimizing LLM agents through simulation, dataset-driven testing, and
-    prompt/model iteration, matching the evals category's focus on measuring agent behavior.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - 'Repo description: ''The platform for LLM evaluations and AI agent testing'''
-    - 'README: ''Run realistic scenarios against your full stack... pinpoint where your agents break'''
-    - >-
-      README: 'Eval + observability + prompts in one loop → Trace → dataset → evaluate → optimize prompts/models →
-      re-test'
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: evals
   secondary_categories: []
-  section: Observability & Tracing
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: curated
   reason: Stars (3240) exceeded threshold (150)

@@ -82,17 +82,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a workbench for coordinating multiple coding agents across repos, not a primary coding assistant
-    or thin extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'Orchestrate coding agents across repos. Local-first, self-hosted, runs inside your existing
-      Claude / Codex CLI.'
-    - 'README: ''Slack for your coding agents. Coordinate coding agents across repos — with an audit trail.'''
-    - >-
-      Source-list context: Listed under 'Harnesses & orchestration > Orchestrators & autonomous loops' in
-      awesome-cli-coding-agents.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

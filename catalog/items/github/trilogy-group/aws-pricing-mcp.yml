@@ -77,18 +77,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project's entire identity is as a Model Context Protocol server for AWS EC2 pricing lookups, fitting squarely in
-    the MCP Servers & Tooling category under Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repository name and description explicitly brand it as 'aws-pricing-mcp' and 'An MCP server that exposes AWS EC2
-      pricing data'.
-    - >-
-      README centers on MCP protocol compliance, JSON-RPC 2.0, and deployment guides for the server rather than general
-      library usage.
-    - Listed in awesome-mcp-servers under Cloud Platforms, confirming community categorization as MCP infrastructure.
-    - Active and unarchived with recent development push on 2025-07-24.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

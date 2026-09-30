@@ -57,15 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity here: a domain-specific server exposing Hearthstone tools to LLMs.'
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly labels it as a Hearthstone MCP server
-    - README details 9 MCP tools for card/deck/strategy operations
-    - MCP compatibility is a core feature (badges, config examples)
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

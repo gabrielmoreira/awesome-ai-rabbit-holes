@@ -62,11 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server designed to provide specific domain capabilities to an MCP client.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description defines it as an MCP server
-    - README focuses on enabling AI assistants to query and manage Alertmanager
-    - Implements specific MCP transport modes like stdio, http, and sse
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

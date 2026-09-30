@@ -66,17 +66,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is exposing the Aesthetics Wiki as a tool for LLMs, making MCP the
-    primary product identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''MCP server for the Aesthetics Wiki'''
-    - 'README: Explicitly positions itself as an MCP server that lets LLMs search, read, and discover aesthetics'
-    - 'Source-list context: Listed in awesome-mcp-servers under Art & Culture'
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: null

@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a domain-specific MCP server for controlling Nanoleaf devices, fitting cleanly into MCP Servers &
-    Tooling as a protocol-native extension for smart home hardware.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'MCP server for controlling Nanoleaf smart lights through Warp terminal'
-    - README lists MCP tools like set_color, set_effect, and turn_on_nanoleaf for device control
-    - Included in awesome-mcp-servers under Community Servers, confirming protocol-first identity
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

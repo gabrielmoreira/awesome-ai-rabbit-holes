@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server for a specific domain (vulnerability data), making it a canonical
-    fit for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'An MCP server for OSV'
-    - README confirms it 'implements an SSE-based MCP server' providing tools for the OSV database
-    - Listed in awesome-mcp-servers under 'Community Servers' for vulnerability querying
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

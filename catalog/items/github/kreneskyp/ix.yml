@@ -90,19 +90,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a workbench and runtime platform for coordinating multiple agents, with a no-code editor and
-    multi-agent chat interface as primary surfaces.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      README describes it as a platform for designing/deploying autonomous agents with multi-agent chat and parallel
-      execution
-    - Includes a no-code editor and message-queue-driven worker scaling for agent orchestration
-    - Source lists categorize it under agent frameworks/workbenches (e.g., awesome-llm-agents)
+    - jev-latest choice confidence 0.73
 placement:
-  primary_category: ai-frameworks
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Multi-Agent Systems
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (1041) exceeded threshold (150)

@@ -56,19 +56,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project explicitly identifies as a 'Zero-Code Multi-Agent Platform' and 'comprehensive multi-agent orchestration
-    platform' rather than a direct coding assistant.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - 'Repo description states: ''Dev All through LLM-powered Multi-Agent Collaboration''.'
-    - >-
-      README claims ChatDev 2.0 is a 'Zero-Code Multi-Agent Platform' for orchestrating agents across various scenarios
-      like data visualization and 3D generation.
-    - Canonical positive listed in category definition for agent-orchestration is 'ChatDev'.
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Visual Builders & Workbenches
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (33011) exceeded threshold (150)

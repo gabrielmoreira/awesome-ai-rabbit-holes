@@ -95,13 +95,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server for a specific database platform, and MCP is its entire identity, making it a textbook
-    fit for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly calls it an 'MCP server for Nile Database'.
-    - README states it is 'A Model Context Protocol (MCP) server implementation for Nile database platform.'
-    - Included in awesome-mcp-list and awesome-mcp-servers directories under database sections.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

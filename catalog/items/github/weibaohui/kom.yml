@@ -90,21 +90,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    kom is primarily a code-first SDK/library for Kubernetes operations that developers import and script against,
-    making it a framework/SDK rather than an MCP server or coding agent.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
-    - >-
-      Repo description describes kom as 'SDK级的kubectl、client-go的使用封装' (SDK-level encapsulation of kubectl/client-go
-      usage)
-    - 'README shows usage as Go imports: ''import ("github.com/weibaohui/kom")'' and programmatic cluster registration'
-    - >-
-      Core functionality is providing a library interface for Kubernetes operations (CRUD, SQL queries, POD file
-      operations) that developers call from their code
+    - jev-latest choice confidence 0.70
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Provider & Model Abstractions
 lifecycle:
   status: curated
   reason: null

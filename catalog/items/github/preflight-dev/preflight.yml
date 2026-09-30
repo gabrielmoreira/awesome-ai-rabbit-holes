@@ -103,23 +103,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is intercepting prompts, analyzing intent, searching session history via LanceDB, and managing
-    context/prompt quality rather than acting as the primary coding assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly calls it a '24-tool MCP server for Claude Code' focused on preflight checks, session
-      history search, and cost estimation.
-    - >-
-      README states the solution is '24 tools in 5 categories' that catch vague prompts, enforce structure, and provide
-      semantic search across session history.
-    - >-
-      Decision ladder rule: 'If its core novelty is memory, retrieval, compression, prompt management, or
-      context-shaping infrastructure, prefer Prompt & Context Engineering even when the first host is Claude Code.'
+    - jev-latest choice confidence 0.55
 placement:
-  primary_category: extensions-and-addons
+  primary_category: mcp
   secondary_categories: []
-  section: Claude Code & Agent Tools
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

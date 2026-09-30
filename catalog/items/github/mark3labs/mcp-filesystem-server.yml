@@ -97,19 +97,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's entire identity is an MCP server for filesystem access, placing it squarely in MCP Servers & Tooling
-    as a domain-specific server implementation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - >-
-      Repo description explicitly states 'Go server implementing Model Context Protocol (MCP) for filesystem
-      operations.'
-    - >-
-      README documents MCP resources and tools (read_file, write_file, search_files, etc.) designed for MCP client
-      integration.
-    - >-
-      Included in awesome-mcp-list and awesome-mcp-servers under File Systems sections, confirming its role as an MCP
-      ecosystem component.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

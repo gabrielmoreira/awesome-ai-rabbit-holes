@@ -59,19 +59,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server proxy and registry that aggregates multiple tool providers into a single MCP
-    endpoint, directly matching the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''MCPBundles .mcpb package releases for MCP registry'''
-    - >-
-      README: 'Execute tools from your enabled bundles directly from Claude, Cursor, and other MCP-compatible AI
-      assistants using the Model Context Protocol.'
-    - 'Source list: included in awesome-mcp-servers under ''Server Implementations > Aggregators'''
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Registries & Discovery
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

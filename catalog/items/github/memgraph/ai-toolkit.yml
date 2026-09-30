@@ -60,19 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a code-first set of libraries and integrations (toolbox, LangChain package, MCP server) for building
-    graph-RAG and agent workflows on Memgraph, fitting the Frameworks & SDKs category.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description: 'Toolkit for building AI-driven graph apps on Memgraph, with LangChain, MCP, and agent
-      implementations.'
-    - >-
-      README shows multiple pip-installable packages (memgraph-toolbox, langchain-memgraph, mcp-memgraph,
-      unstructured2graph) used as code-first building blocks.
-    - >-
-      Source list appearance in awesome-mcp-servers under Databases, but primary identity is a broader Memgraph toolkit,
-      not only MCP infrastructure.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

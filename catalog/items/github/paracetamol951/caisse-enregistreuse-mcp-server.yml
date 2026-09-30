@@ -65,17 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: it is an official, hosted MCP server exposing 46 tools for the Kash POS/CRM platform to
-    any MCP-compatible AI.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description explicitly states 'Kash.click MCP server [Official]' and README confirms it is 'the official
-      Model Context Protocol (MCP) server for Kash'.
-    - Source list context shows inclusion in awesome-mcp-servers under 'Server Implementations > Data Platforms'.
-    - >-
-      README lists 46 structured MCP tools (account, auth, sales, catalog, CRM) and provides a hosted endpoint at
-      https://mcp.kash.click.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

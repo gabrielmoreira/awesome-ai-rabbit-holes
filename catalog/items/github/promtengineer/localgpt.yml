@@ -76,17 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product’s core identity is private, on-device document Q&A with local inference and retrievable memory, which
-    fits Local AI’s local serving and tooling scope.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
   evidence:
-    - >-
-      Repo description: 'Chat with your documents on your local device using GPT models. No data leaves your device and
-      100% private.'
-    - >-
-      README: 'LocalGPT is a fully private, on-premise Document Intelligence platform... with a pure-Python core... API
-      access for integration.'
-    - Supports local execution via Ollama, CUDA, CPU, HPU, and MPS with no external data sharing.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: local-ai
   secondary_categories: []

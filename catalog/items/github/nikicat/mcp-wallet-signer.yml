@@ -74,21 +74,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server whose primary identity is exposing EVM wallet signing as MCP tools for AI
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly calls it an 'MCP server that routes blockchain transactions to browser wallets for
-      signing'.
-    - >-
-      README states it 'exposes browser-evm-signer as MCP tools for AI agents' and lists compatibility with Claude
-      Desktop, Claude Code, Cursor, and Windsurf.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

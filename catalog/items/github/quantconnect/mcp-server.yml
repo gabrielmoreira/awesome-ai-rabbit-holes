@@ -84,21 +84,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server implementation maintained by QuantConnect to give AI assistants API access
-    to a specific domain (finance/trading).
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description confirms it is the 'Official Python MCP server for local interactions with the QuantConnect API'.
-    - >-
-      README states it is a 'bridge for AIs (such as Claude and OpenAI o3 Pro) to interact with our cloud platform' via
-      Docker.
-    - >-
-      Listed in 'awesome-mcp-servers' under the 'Finance & Fintech' section, confirming its identity as a
-      domain-specific MCP server.
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

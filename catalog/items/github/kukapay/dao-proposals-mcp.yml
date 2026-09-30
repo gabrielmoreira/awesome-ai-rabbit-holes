@@ -56,13 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server whose primary identity is providing DAO governance data via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for DAO proposals
-    - README details MCP tools (`list_spaces`, `list_proposals`, etc.) and Snapshot integration
-    - Installation instructions target MCP/Claude Desktop usage
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

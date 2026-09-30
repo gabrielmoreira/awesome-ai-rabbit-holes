@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity and value lie in exposing .NET debugging capabilities via the Model
-    Context Protocol, making it MCP infrastructure first and a debugging tool second.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server that lets AI agents (Claude, Cursor) debug your .NET / ASP.NET Core app'''
-    - 'README: ''An MIT-licensed [MCP] server that lets an AI agent (Claude, etc.) debug your .NET / ASP.NET Core app'''
-    - Listed in awesome-mcp-servers under Developer Tools > Server Implementations
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

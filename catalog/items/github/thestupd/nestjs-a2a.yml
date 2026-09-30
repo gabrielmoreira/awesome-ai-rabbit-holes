@@ -59,19 +59,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first library and SDK that developers import into their NestJS applications to implement agent
-    protocols, fitting the Frameworks & SDKs category.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description explicitly states it is a 'NestJS library for implementing Google's Agent-to-Agent (A2A)
-      protocol.'
-    - README shows code-first usage via `npm install` and `@Skill` decorators typical of an SDK/framework.
-    - Listed in 'awesome-agent-orchestration' under 'Agent Communication Protocols > Agent-to-Agent (A2A)'.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Multi-Agent Systems
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

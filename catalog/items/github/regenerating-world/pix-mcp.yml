@@ -61,19 +61,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is a specialized MCP server for Pix payment generation, matching the MCP Servers & Tooling
-    category and fitting the Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      README explicitly defines it as 'A lightweight Model Context Protocol (MCP) server' with a `generateStaticPix`
-      tool.
-    - Included in the 'awesome-mcp-servers' list under the Finance & Fintech section.
-    - Provides configuration examples for Claude Desktop, Cursor, and Windsurf MCP integrations.
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

@@ -70,15 +70,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a specialized MCP server providing domain-specific tools for an AI assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Explicitly identifies as an MCP server in the README
-    - Implements specific tools (`create_invoice`, `list_templates`) to bridge LLMs and a web service
-    - Uses the Model Context Protocol as its primary identity and distribution method
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

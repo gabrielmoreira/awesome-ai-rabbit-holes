@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server with domain-specific functionality (crypto news), making MCP its primary
-    identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description states it is 'An MCP server that provides real-time cryptocurrency news'
-    - README details MCP tools (`get_latest_news`, `get_crypto_news`) and installation via Smithery/MCP CLI
-    - Project is actively maintained (pushed_at 2025-12-10)
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -52,17 +52,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is positioned as a general-purpose AI agent system, which aligns with multi-agent runtime platforms
-    rather than a single coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly calls it an 'end-to-end product-level general-purpose AI agent'
-    - Source-list context places it under 'Agents' in a curated LLM resources list
-    - High star count (11935) and recent activity (pushed in 2026) indicate traction and maintenance
+    - jev-latest choice confidence 0.58
 placement:
-  primary_category: ai-frameworks
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Multi-Agent Systems
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (11712) exceeded threshold (150)

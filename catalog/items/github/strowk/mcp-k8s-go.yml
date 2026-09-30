@@ -97,13 +97,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server purpose-built to connect Kubernetes to MCP-compatible assistants, matching the
-    MCP Servers & Tooling category exactly.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description states: ''MCP server connecting to Kubernetes'''
-    - README lists MCP tools for Kubernetes resources, pods, logs, events, and namespaces
-    - Featured in awesome-mcp-list and awesome-mcp-servers under Cloud Platforms / Server Implementations
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

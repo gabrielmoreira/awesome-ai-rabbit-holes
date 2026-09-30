@@ -71,15 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a focused, automated code review agent that directly reviews diffs and posts feedback, fitting the
-    Review, Testing & Repair Agents section of coding-agents.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - >-
-      Repo description states: 'Z.ai Code Review for GitHub Actions' and README says it provides 'AI-driven PR feedback'
-      and 'Automatic PR comments, bug detection, and improvement suggestions'.
-    - Featured in awesome-ai-coding-tools under 'Code Review and Refactoring', aligning with the review agent identity.
-    - Active as of 2026-04-16, not archived, and licensed MIT, showing it is a usable, maintained developer tool.
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: coding-agents
   secondary_categories: []

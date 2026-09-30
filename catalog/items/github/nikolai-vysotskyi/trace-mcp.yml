@@ -84,13 +84,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server that provides code and knowledge-graph intelligence to agents like
-    Claude Code and Codex, exactly matching the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP server for Claude Code and Codex'
-    - README positions it as 'serves it through MCP' with 58 framework integrations across 81 languages
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: mcp
   secondary_categories: []

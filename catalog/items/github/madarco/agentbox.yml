@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool acts as a runtime and control plane for launching and managing multiple parallel agentic sessions in
-    isolated environments.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README describes running multiple agents in parallel sandboxed VMs with a single command
-    - Provides lifecycle management including attach, shell, and dashboard for multiple 'boxes'
-    - Supports various cloud providers and local Docker runtimes for agent execution
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

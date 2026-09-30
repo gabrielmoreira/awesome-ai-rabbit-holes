@@ -68,23 +68,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Harness is a platform that coordinates multiple specialized AI agents (Software Delivery, Security Testing, Runtime
-    Protection, Cost Management) across the software delivery lifecycle, making it an agent orchestration platform
-    rather than a single coding agent or app builder.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Domain & Enterprise Platforms
   evidence:
-    - >-
-      Source-list context: listed in awesome-ai-coding-tools under DevOps and Infrastructure as a 'unified AI software
-      delivery platform to manage the SDLC using purpose-built AI agents'
-    - >-
-      README/scraped site: describes multiple AI agents (Software Delivery Agent, Security Testing Agent, Runtime
-      Protection Agent, Cost Management Agent) that operate across commits, builds, deployments, and runtime
-    - >-
-      Product positioning: 'AI for everything after code' and 'Autonomous SDLC Platform' emphasizes coordination of
-      agents across workflows, not direct code editing or app generation
+    - jev-latest choice confidence 0.65
 placement:
   primary_category: agent-orchestration
-  section: Hosted Agent Platforms
+  secondary_categories: []
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: curated
   reason: null

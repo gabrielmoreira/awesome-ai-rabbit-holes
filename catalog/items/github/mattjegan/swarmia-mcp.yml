@@ -60,19 +60,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server that provides Swarmia API access to MCP clients, cleanly fitting the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description states it is 'A read-only local MCP server to interact with swarmia.com'.
-    - >-
-      README shows it implements MCP tools like get_dora_metrics and get_pull_request_metrics for Claude, Cursor, and
-      other MCP clients.
-    - Listed in awesome-mcp-servers under 'Developer Tools' as a server implementation.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

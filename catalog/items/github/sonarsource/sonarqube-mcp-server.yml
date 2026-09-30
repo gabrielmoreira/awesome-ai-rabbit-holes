@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is explicitly an MCP server built to integrate SonarQube's analysis capabilities into
-    MCP-compatible AI agents and clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description is 'SonarQube MCP Server' and topics include 'mcp-server'.
-    - README confirms it is a Model Context Protocol server for SonarQube Server or Cloud integration.
-    - Listed in awesome-mcp-servers under the 'Official Servers' section.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

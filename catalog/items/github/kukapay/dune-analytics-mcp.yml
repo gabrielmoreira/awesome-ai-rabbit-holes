@@ -76,11 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is bridging Dune Analytics data to AI agents via MCP.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description states it is 'A mcp server that bridges Dune Analytics data to AI agents'
-    - README confirms MCP server functionality with tools like get_latest_result and run_query
-    - Listed in awesome-mcp-list under Finance & Fintech section
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

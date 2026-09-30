@@ -74,15 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is providing Model Context Protocol access to Google Ad Manager,
-    making MCP the primary product identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''MCP server for Google Ad Manager'''
-    - >-
-      README: 'Automate Google Ad Manager with AI. An MCP server that lets AI assistants like Claude, ChatGPT, Gemini,
-      Cursor, and VS Code manage your ad campaigns'
-    - MCP badges and documentation throughout README emphasize MCP as the central mechanism
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -58,17 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server providing core developer tools via the Model Context Protocol, making MCP its primary
-    identity rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      The README explicitly states it is a 'general purpose Model Context Protocol (MCP) server' providing developer
-      tools.
-    - Installation and configuration instructions are specifically for integrating with MCP clients like Claude Desktop.
-    - >-
-      The architecture is structured around MCP server capabilities: text editor, shell, screen capture, image
-      processor, workflow, and security layer.
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

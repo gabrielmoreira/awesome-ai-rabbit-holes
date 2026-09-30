@@ -58,15 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is providing MCP infrastructure to connect GitHub Copilot CLI to
-    MCP clients, making it a clear fit for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''MCP server for GitHub Copilot CLI integration'''
-    - >-
-      README: 'Copilot MCP Tool is an open‑source Model Context Protocol (MCP) server that connects your IDE or AI
-      assistant to GitHub Copilot CLI'
-    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

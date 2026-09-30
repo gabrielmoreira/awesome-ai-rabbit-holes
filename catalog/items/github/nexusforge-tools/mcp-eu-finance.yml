@@ -76,17 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server delivering European financial data to AI agents, which fits cleanly into the
-    MCP Servers & Tooling category under Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description explicitly states: 'MCP server for European financial data — ECB rates, Eurostat inflation, GDP,
-      unemployment.'
-    - >-
-      README provides MCP config examples for Claude, Cursor, and Windsurf and lists tools like get_ecb_rates and
-      get_eu_inflation.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section as a server implementation.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

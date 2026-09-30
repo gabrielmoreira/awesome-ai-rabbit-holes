@@ -60,17 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool does not act as a coding assistant itself, but rather as a harness that augments and automates existing
-    assistants with a programmatic interface.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - README describes it as a wrapper that 'runs coding CLIs inside tmux'
-    - Explicitly designed to normalize interfaces for Claude, Codex, Gemini, and Cursor
-    - Provides 'Host Integrations & Automation' by bridging interactive CLI sessions to scripts
+    - jev-latest choice confidence 0.50
 placement:
-  primary_category: agent-orchestration
+  primary_category: coding-agents
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Terminal & CLI Agents
 lifecycle:
   status: curated
   reason: null

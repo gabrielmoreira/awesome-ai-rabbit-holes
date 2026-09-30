@@ -59,13 +59,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server that exposes RAD Security capabilities to MCP-compatible assistants, making MCP
-    its core product identity rather than a compatibility footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'Rad Security MCP Server' as the product identity.
-    - README demonstrates MCP-first usage with Claude Desktop and Cursor IDE configuration examples.
-    - Source-list context confirms inclusion in awesome-mcp-servers under 'Official Servers' section.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

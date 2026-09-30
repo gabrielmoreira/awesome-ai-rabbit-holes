@@ -92,13 +92,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a dedicated MCP server whose core identity is providing BigQuery access via the Model Context
-    Protocol, making MCP the primary product rather than an extension or agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''A Model Context Protocol server that provides access to BigQuery'''
-    - 'README provides MCP server tools: execute-query, list-tables, describe-table'
-    - Listed in awesome-mcp-servers under Databases section
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -60,13 +60,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is an MCP server whose core identity is exposing project rules and validation over the Model Context Protocol,
-    making it a clean fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description calls it an 'MCP server that keeps every agent grounded in your project's rules'
-    - README states it 'gives AI agents a project-aware rulebook' via MCP tools like get_rules and validate_snippet
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: mcp
   secondary_categories: []

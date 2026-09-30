@@ -99,19 +99,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core novelty is a memory and context system for agents—combining embeddings, graphs, and retrieval—rather than
-    being a coding assistant, extension, or MCP-first tool.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      Repo description says 'Memory control plane for AI Agents' and topics include ai-memory, context-engineering,
-      graph-rag, knowledge-graph.
-    - >-
-      README states it 'combines embeddings, graphs and cognitive science approaches' to provide searchable, connected,
-      and learning memory for agents.
-    - >-
-      Although listed in awesome-mcp lists, MCP is only a compatibility adapter (Claude Code plugin exists), not the
-      product identity.
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: memory-and-context
   secondary_categories: []

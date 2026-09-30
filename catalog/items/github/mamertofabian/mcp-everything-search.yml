@@ -93,19 +93,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server whose core identity is providing file search capabilities via the Model Context Protocol,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      README describes it as 'An MCP server that provides fast file searching capabilities across Windows, macOS, and
-      Linux'
-    - Listed in multiple awesome-mcp lists under File Systems section
-    - Uses platform-specific search backends (Everything SDK, mdfind, locate/plocate) to serve search over MCP
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (325) exceeded threshold (150)

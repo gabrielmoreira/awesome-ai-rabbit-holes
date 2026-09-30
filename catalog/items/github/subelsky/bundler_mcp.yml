@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server that exposes Ruby project dependency information to agents, fitting cleanly into the MCP
-    Servers & Tooling category as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server'.
-    - 'Provides two MCP tools: list_project_gems and get_gem_details for Ruby projects.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Data Science Tools'.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

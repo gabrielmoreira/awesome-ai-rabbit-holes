@@ -57,17 +57,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: this is a server implementation that specifically bridges OpenAI API for MCP
-    clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'MCP Server - Bridge to OpenAI API'
-    - README shows installation and usage as an MCP server for Claude Desktop
-    - Listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

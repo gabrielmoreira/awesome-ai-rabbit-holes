@@ -72,15 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The repository provides an MCP server as a first-class package alongside Python and Node SDKs, making it a
-    domain-specific MCP tool for comment moderation.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
-    - Repo description explicitly lists 'MCP-server clients' as a core offering alongside Python and TypeScript SDKs.
-    - >-
-      Includes a dedicated `sentisift-mcp` package published on PyPI with instructions for Claude Desktop, Cursor, and
-      VS Code.
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Marketing'.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is delivering domain-specific (crypto sentiment) data
-    to AI agents via MCP.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description states it is 'An MCP server that delivers cryptocurrency sentiment analysis to AI agents'
-    - README details MCP-compatible tools and configuration for server integration
-    - Project is active (pushed 2025-03-27) and unarchived
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

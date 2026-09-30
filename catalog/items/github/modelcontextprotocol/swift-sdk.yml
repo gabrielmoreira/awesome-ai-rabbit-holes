@@ -60,21 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first SDK that developers import and program against to build MCP clients and servers, fitting
-    cleanly as a provider/model abstraction framework.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description states it is 'The official Swift SDK for Model Context Protocol servers and clients.'
-    - >-
-      README shows import MCP and Package.swift installation, confirming a code-first library used via Swift Package
-      Manager.
-    - >-
-      Source list places it under 'Agent Communication Protocols > Model Context Protocol (MCP) > Official Resources',
-      reinforcing its protocol-infrastructure identity.
+    - jev-latest choice confidence 0.70
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (1371) exceeded threshold (150)

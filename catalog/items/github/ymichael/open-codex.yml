@@ -56,15 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a standalone terminal-based coding assistant that plans, writes, and executes code changes, fitting the core
-    definition of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''Lightweight coding agent that runs in your terminal'''
-    - >-
-      README: 'ChatGPT-level reasoning plus the power to actually run code, manipulate files, and iterate – all under
-      version control'
-    - 'CLI usage: accepts prompts to scaffold files, run them in a sandbox, install dependencies, and show live results'
+    - jev-latest choice confidence 0.95
 placement:
   primary_category: coding-agents
   secondary_categories: []

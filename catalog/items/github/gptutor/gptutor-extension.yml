@@ -56,15 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is a VS Code extension that augments the editor with AI-powered code explanations and reviews, rather than
-    being a standalone coding assistant.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / IDE & Editor Add-ons
   evidence:
-    - README describes it as a VS Code extension for code explanations and reviews
-    - >-
-      Source-list context places it in 'Documentation' section of a coding tools list, but the product is clearly an
-      extension
-    - Core functionality is host-integration (VS Code) with AI capabilities
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []

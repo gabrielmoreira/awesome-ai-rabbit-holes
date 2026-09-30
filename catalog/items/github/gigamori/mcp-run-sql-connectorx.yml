@@ -76,13 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server first and foremost, providing database query execution as an MCP tool, matching the core
-    identity of MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''An MCP server that executes SQL via ConnectorX'''
-    - 'README: defines an MCP tool ''run_sql'' with arguments and example MCP call'
-    - Listed in awesome-mcp-servers under Server Implementations > Databases and Community Servers
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

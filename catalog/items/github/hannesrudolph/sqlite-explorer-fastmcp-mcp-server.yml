@@ -89,11 +89,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is explicitly an MCP server designed to provide specific database capabilities to a host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - README defines it as an 'MCP server'
-    - Uses FastMCP framework for MCP implementation
-    - Exposes specific MCP tools like read_query and describe_table
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

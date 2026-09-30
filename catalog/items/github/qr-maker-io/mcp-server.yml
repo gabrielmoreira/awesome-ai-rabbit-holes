@@ -61,15 +61,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server implementation that connects AI assistants to the QR Maker API, fitting
-    cleanly into the MCP Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'MCP server for QR Maker'.
-    - >-
-      README details 19 MCP tools for QR generation, short links, and landing pages, configured for Claude Code, Cursor,
-      and Windsurf.
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Marketing'.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

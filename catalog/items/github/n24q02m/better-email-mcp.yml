@@ -77,13 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server for email, fitting cleanly as domain-specific protocol infrastructure rather than a
-    framework, extension, or coding assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states 'MCP server for Email (IMAP/SMTP) - composite tools optimized for AI agents'
-    - README positions it as an MCP server with 6 composite tools and multi-account support
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

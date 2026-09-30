@@ -56,11 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP-enabled tool that provides a shared knowledge base via the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - README explicitly states it works everywhere via Claude Desktop or Cursor as an MCP-enabled agent
-    - Core functionality is providing 'find_solution' and 'publish_solution' tools via MCP
-    - Primary delivery mechanism is an npm package for MCP (cache-overflow-mcp)
+    - jev-latest choice confidence 0.62
 placement:
   primary_category: memory-and-context
   secondary_categories: []

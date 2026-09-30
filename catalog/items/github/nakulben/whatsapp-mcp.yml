@@ -66,17 +66,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server, and MCP is the product identity, not just a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly calls it 'WhatsApp MCP Server'
-    - >-
-      README positions it as an MCP server with stdio, sse, and streamable-http transports for Claude, Cursor, and
-      ChatGPT
-    - Listed in awesome-mcp-servers under Server Implementations > Communication
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

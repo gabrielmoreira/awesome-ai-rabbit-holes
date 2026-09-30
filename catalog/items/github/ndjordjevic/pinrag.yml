@@ -77,19 +77,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is explicitly built and distributed as an MCP server for knowledge and memory, making it a textbook fit
-    for the MCP Servers & Tooling category rather than a generic RAG framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description states it is 'designed as an MCP server for Cursor, VS Code, and other AI assistants'.
-    - >-
-      README lists MCP tools, MCP resources, and MCP prompts as the primary interface and details Cursor/VS Code MCP
-      configuration.
-    - Listed in awesome-mcp-servers under the Knowledge & Memory section.
+    - jev-latest choice confidence 0.52
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Retrieval & Fresh Docs
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

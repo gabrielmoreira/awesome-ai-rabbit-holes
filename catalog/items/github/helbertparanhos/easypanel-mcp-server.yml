@@ -75,17 +75,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is a Model Context Protocol server that exposes a specific domain's API to AI
-    assistants.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Explicitly identified as an MCP server in the repo description
-    - Maps the Easypanel API to 57 typed tools for AI consumption
-    - Designed to be used as a protocol-level server for Claude Code, Cursor, and Claude Desktop
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

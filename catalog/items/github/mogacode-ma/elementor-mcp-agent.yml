@@ -76,20 +76,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project's entire identity is as an MCP server implementing the Model Context Protocol for a specific CMS domain;
-    it belongs in MCP Servers & Tooling as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly labels it an 'Agency-grade MCP server for WordPress Elementor'.
-    - >-
-      README centers on MCP client configuration, Claude Desktop integration, and tool enumeration for Elementor
-      operations.
-    - Already listed in awesome-mcp-servers under Server Implementations > Developer Tools.
-    - Created 2026-05-21 and pushed 2026-06-07; actively maintained but very early traction with only 2 stars.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

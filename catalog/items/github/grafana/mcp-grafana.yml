@@ -73,15 +73,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the primary product identity here—a server exposing Grafana capabilities via MCP, not a compatibility
-    footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP server for Grafana
-    - README details MCP-specific configuration and tooling for Grafana integration
-    - Listed in multiple MCP-focused curated lists (awesome-mcp-list, awesome-mcp-servers)
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

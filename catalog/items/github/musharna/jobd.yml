@@ -71,19 +71,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    jobd is primarily an MCP server that enables LLM agents to submit, monitor, and manage GPU jobs across personal
-    machines, making it an integration layer rather than a coding assistant or standalone platform.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - 'Repo description: ''Self-hostable GPU-aware job broker for your own machines, with native MCP/agent integration'''
-    - >-
-      README: 'Ships a first-class [MCP](https://modelcontextprotocol.io/) server so an LLM agent (Claude Code, etc.)
-      can submit, monitor, and babysit jobs as tool calls'
-    - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Code Execution'''
+    - jev-latest choice confidence 0.61
 placement:
-  primary_category: agent-orchestration
+  primary_category: local-ai
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Inference Engines
 lifecycle:
   status: curated
   reason: null

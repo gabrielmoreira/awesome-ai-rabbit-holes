@@ -60,15 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is a Model Context Protocol server implementation for a specific cloud provider,
-    fitting the MCP Servers & Tooling category as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      GitHub repo name is 'qiniu-mcp-server' and README describes it as '基于七牛云产品构建的 Model Context Protocol (MCP)
-      Server'.
-    - Source list context confirms placement in 'awesome-mcp-servers' under 'Cloud Platforms'.
-    - Setup instructions are provided specifically for Cline, Cursor, and Claude Desktop MCP configurations.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

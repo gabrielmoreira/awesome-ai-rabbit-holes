@@ -102,23 +102,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a regression testing framework for AI agents, focused on measuring, diffing, and classifying
-    behavior changes—squarely in the evals/observability domain.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - >-
-      Repo description explicitly states 'Regression testing for AI agents. Snapshot behavior, diff tool calls, catch
-      regressions in CI.'
-    - >-
-      README positions it as 'the open-source behavior regression gate for AI agents' with deterministic replay and CI
-      integration.
-    - >-
-      Topics include agent-benchmark, agent-evaluation, regression-testing, pytest, and it works with LangGraph, CrewAI,
-      etc.
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: evals
   secondary_categories: []
-  section: Prompt Regression & Testing
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: curated
   reason: null

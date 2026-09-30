@@ -56,14 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server providing database tooling, making MCP its core identity rather than an extension or
-    agent.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description: ''MCP Server for the VictoriaMetrics.'''
-    - README provides MCP server installation via Smithery and lists MCP tools like vm_query_range and vm_data_write.
-    - Listed in awesome-mcp-servers under Server Implementations > Databases.
-    - Primary functionality exposes VictoriaMetrics operations as MCP tools, not as a coding assistant or extension.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

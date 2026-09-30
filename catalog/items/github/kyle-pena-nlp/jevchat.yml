@@ -42,20 +42,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    jevchat - Repo + HN thread (173 points, 49 comments): deliberately misuses Jev as a generator to locate where the
+    typed-decision model stops being useful.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - jev-latest choice confidence 0.70
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Open & Local Decision Models
 lifecycle:
   status: curated
   reason: null

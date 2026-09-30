@@ -69,22 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server for Chrome Web Store management, fitting cleanly into the MCP
-    Servers & Tooling category as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states: 'MCP server for Chrome Web Store — upload, publish, status, metadata &
-      Playwright-based UI automation'
-    - >-
-      README positions it as: 'MCP server for Chrome Web Store extension management... directly from Claude Code or any
-      MCP client'
-    - >-
-      Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', confirming its MCP identity in the
-      ecosystem
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

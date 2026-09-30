@@ -81,11 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server implementation for the Keboola platform, making MCP its primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description states it is an MCP Server for the Keboola Platform
-    - README explicitly positions it as a bridge between Keboola and MCP clients
-    - Listed in awesome-mcp-servers under Server Implementations > Data Platforms
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

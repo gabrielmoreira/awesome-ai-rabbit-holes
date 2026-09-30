@@ -42,20 +42,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    jev-baselines-eval — Every latency number here is \*\*wall-clock duration of one API call\*\* measured in the
+    client: a timestamp before the request, another after the full response body is read (\\code/run\_b1.py:32\\,
+    \\code/common.py:50\\). Non-streaming on both sides, so these are completion times, not time-to-first-token.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - jev-latest choice confidence 0.61
 placement:
-  primary_category: null
+  primary_category: evals
   secondary_categories: []
-  section: null
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: curated
   reason: null

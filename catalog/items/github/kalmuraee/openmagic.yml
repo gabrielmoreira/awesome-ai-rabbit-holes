@@ -81,13 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    OpenMagic acts as a primary coding assistant that directly reads, plans, and edits code in a developer's repo via a
-    visual interface, fitting the core definition of a coding agent.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Browser & Computer-Use Agents
   evidence:
-    - Repo description explicitly states it is an 'AI coding toolbar' for editing real source code
-    - 'README details workflow: select element, describe change, review diff, approve edits'
-    - Operates as a standalone assistant (not an extension for another tool) with its own reverse proxy and file I/O
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: coding-agents
   secondary_categories: []

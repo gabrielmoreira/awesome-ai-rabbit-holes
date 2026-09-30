@@ -71,19 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first library developers import to build LLM-powered workflows with structured outputs, fitting
-    cleanly as a model abstraction and provider framework rather than a coding agent or orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description: 'build cognitive systems, pythonic' and README positions it as a library using Pydantic and
-      LangChain.
-    - >-
-      Usage model is importing funcchain and defining functions returning chain(), not operating a runtime or agent
-      workbench.
-    - >-
-      Listed in awesome-langchain under 'Open Source Projects > Other / Chatbots', consistent with a LangChain-based
-      SDK.
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

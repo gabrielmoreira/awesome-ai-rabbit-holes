@@ -65,21 +65,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is a standalone MCP server exposing a specific domain (HomeyPro), fitting cleanly into MCP Servers &
-    Tooling as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly identifies it as 'A Model Context Protocol (MCP) server for interacting with
-      HomeyPro'.
-    - Listed in awesome-mcp-servers under the 'Community Servers' section.
-    - >-
-      README details specific MCP tool implementations like @mcp.tool() decorators and tool enable/disable
-      configuration.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

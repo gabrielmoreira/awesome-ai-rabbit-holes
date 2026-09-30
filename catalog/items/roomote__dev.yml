@@ -53,18 +53,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a standalone agent that autonomously handles specific engineering tasks like bug fixing and QA regressions by
-    providing verified PRs.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Browser & Computer-Use Agents
   evidence:
-    - Claims to handle bugs, escalations, chores, and repo questions autonomously.
-    - >-
-      Explicitly differentiates itself from IDE-based tools like Cursor by owning the interrupt queue rather than being
-      an editor extension.
-    - Provides a complete loop of investigation, code execution, and verified PR delivery.
+    - jev-latest choice confidence 0.55
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair
+  secondary_categories: []
+  section: Browser & Computer-Use Agents
 lifecycle:
   status: curated
   reason: null

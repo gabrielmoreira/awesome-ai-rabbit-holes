@@ -76,15 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP client and dev tool for managing MCP servers inside Neovim, which fits
-    squarely into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - Repo description explicitly states 'An MCP client for Neovim that seamlessly integrates MCP servers'.
-    - >-
-      README excerpt confirms it is 'A MCP client for neovim' providing an interface for 'managing, testing, and using
-      MCP servers'.
-    - Appears in awesome-mcp-servers under the 'Clients' section, reinforcing its MCP infrastructure identity.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

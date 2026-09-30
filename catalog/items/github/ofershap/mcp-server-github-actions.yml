@@ -72,17 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server that gives AI assistants access to GitHub Actions capabilities, fitting
-    cleanly into MCP Servers & Tooling as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states 'MCP server for GitHub Actions — view runs, read logs, re-run jobs, trigger
-      workflows'.
-    - >-
-      README positions it as filling the gap in GitHub's official MCP server by adding Actions support for Claude,
-      Cursor, and VS Code Copilot.
-    - Included in awesome-mcp-servers under 'Developer Tools', confirming its identity as an MCP domain server.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

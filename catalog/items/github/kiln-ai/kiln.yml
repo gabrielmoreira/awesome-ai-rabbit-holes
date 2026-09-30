@@ -115,21 +115,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Kiln's core identity is its evaluation and optimization framework for AI systems, with strong emphasis on measurable
-    iteration, making it a clear fit for the Evals & Benchmarks category.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - >-
-      Repo description explicitly highlights 'Evals, RAG, agents, fine-tuning, synthetic data generation' as core
-      features
-    - README emphasizes 'Evals & Specs', 'Prompt Optimizer', and 'measure, improve, repeat' as primary workflows
-    - >-
-      Source-list context includes it under 'Frameworks' in awesome-llm-agents and 'Fine-Tuning' in
-      awesome-LLM-resources
+    - jev-latest choice confidence 0.68
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: LLM & Agent SDKs
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (4803) exceeded threshold (150)

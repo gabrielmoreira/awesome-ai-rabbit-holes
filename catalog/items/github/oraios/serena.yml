@@ -87,17 +87,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Serena's primary identity is an MCP server that provides semantic IDE tools to agents, making it a core MCP
-    infrastructure product rather than a standalone coding agent or simple extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly calls it 'A powerful MCP toolkit for coding' and 'the IDE for your agent'.
-    - >-
-      README states it 'integrates with any client/LLM via the model context protocol (MCP)' and provides tools for
-      agents to use.
-    - >-
-      Source list awesome-mcp-servers catalogs it under 'Server Implementations > Coding Agents', confirming its MCP
-      server identity.
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

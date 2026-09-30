@@ -57,13 +57,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The repository is explicitly an MCP server implementation for DolphinDB, making it a textbook fit for the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo name and description are both 'dolphindb-mcp-server', confirming the MCP identity.
-    - README details installation via uvx/pip and exposes functions like list_dbs and query_dolphindb.
-    - Listed in awesome-mcp-servers under the Databases section.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

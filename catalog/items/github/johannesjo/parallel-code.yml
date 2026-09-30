@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool functions as a control plane and workbench for coordinating multiple agents and managing their execution
-    environment via git worktrees.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - README describes dispatching agents in parallel across multiple branches/worktrees
-    - Provides a dashboard/interface to monitor progress and review diffs across sessions
-    - Supports multiple agents like Claude Code, Codex, and Gemini simultaneously
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

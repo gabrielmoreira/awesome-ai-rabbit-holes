@@ -63,15 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first library and SDK for building LLM applications in Go, fitting the Frameworks & SDKs category as
-    a direct port of LangChain for a specific language.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description explicitly states: ''LangChain for Go, the easiest way to write LLM-based programs in Go''.'
-    - README positions it as the 'Go language implementation of LangChain' with package references and code imports.
-    - >-
-      Source list context places it under 'Ports to other languages' in awesome-langchain, confirming its identity as a
-      framework port.
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

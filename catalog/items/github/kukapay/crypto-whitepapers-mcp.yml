@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server whose primary identity is serving structured crypto whitepaper data to AI
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description states it is 'An MCP server serving as a structured knowledge base of crypto whitepapers'
-    - README details MCP integration with Claude Desktop and lists MCP-specific tools/prompts
-    - Core functionality revolves around MCP server capabilities (search, load, query whitepapers)
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: mcp
   secondary_categories: []

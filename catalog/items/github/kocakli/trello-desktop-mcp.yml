@@ -67,15 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing Trello capabilities via the Model Context
-    Protocol, fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - >-
-      Repo description explicitly states it is a 'Trello integration for Claude Desktop via Model Context Protocol
-      (MCP)'
-    - README confirms it is an MCP server with 19 tools for Trello management
-    - Listed in awesome-mcp-servers under 'Community Servers'
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

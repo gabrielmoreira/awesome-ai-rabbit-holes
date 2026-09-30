@@ -65,19 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The primary artifact is a code-first SDK and provider library for a financial API, which fits the Frameworks & SDKs
-    category; the MCP server is a secondary compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
-    - Repo description is 'LongPort OpenAPI SDK Base' with topics including rust, python, and sdk.
-    - >-
-      README highlights multi-language SDKs (Rust, Python, Node.js, Java, C, C++) as the main components, with MCP
-      listed as an additional sub-component.
-    - Source list context shows it in awesome-mcp-servers, but the core product identity is the SDK, not the MCP server.
+    - jev-latest choice confidence 0.75
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Provider & Model Abstractions
 lifecycle:
   status: curated
   reason: Stars (419) exceeded threshold (150)

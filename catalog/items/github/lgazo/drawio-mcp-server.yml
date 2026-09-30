@@ -60,18 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server providing diagramming capabilities to any MCP-compatible client, fitting
-    cleanly into the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states 'Draw.io Model Context Protocol (MCP) Server'.
-    - >-
-      README confirms 'MCP server that lets AI agents control Draw.io diagrams' and works with Claude Desktop, Zed, and
-      other MCP clients.
-    - Listed in awesome-agent-orchestration under 'Model Context Protocol (MCP) > Specialized Servers'.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: Stars (1200) exceeded threshold (150)

@@ -70,13 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server packaging Tomba.io APIs into tools, resources, and prompts, making MCP its
-    core identity rather than a compatibility footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description states: ''MCP Server for Tomba.io API integration''.'
-    - README lists 12 tools, 7 resources, and 16 pre-built prompts exposed via MCP with stdio and HTTP transports.
-    - Appears in awesome-mcp-servers under 'Server Implementations > Marketing', confirming its MCP server identity.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

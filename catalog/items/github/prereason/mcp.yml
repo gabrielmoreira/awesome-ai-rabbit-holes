@@ -64,17 +64,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that exposes financial market briefings to agents, which is a clear fit for the MCP
-    Servers & Tooling category under Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description explicitly states: ''MCP server for PreReason, the Context API for financial agents.'''
-    - >-
-      README documents 5 MCP tools (list_briefings, get_context, get_metric, etc.) and multiple connection methods for
-      Claude, Cursor, and other MCP clients.
-    - >-
-      Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech, reinforcing its MCP server
-      identity.
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []

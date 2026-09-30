@@ -63,19 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: it is explicitly an MCP server that bridges LLMs and CLI agents, and it is listed and
-    positioned as MCP infrastructure in the ecosystem.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description states it is 'An MCP server that acts as a bridge to query multiple OpenAI-compatible LLMs with
-      MCP tool access.'
-    - README lists 'MCP Bridge' and 'MCP Prompts' as core features and links to the MCP Registry.
-    - Seen in awesome-mcp-servers under 'Server Implementations', reinforcing its MCP infrastructure identity.
+    - jev-latest choice confidence 0.53
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (162) exceeded threshold (150)

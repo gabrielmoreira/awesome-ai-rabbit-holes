@@ -50,15 +50,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Wopee.io performs autonomous testing tasks—exploring apps, generating tests, running them, and self-healing—making
-    it a coding agent focused on testing and repair workflows rather than a framework, extension, or app builder.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - >-
-      AI agents explore your web app, generate Playwright tests, run them across browsers, and self-heal when the UI
-      changes.
-    - 'The product performs the full pipeline: explore, generate, execute, validate, maintain test code.'
-    - It is positioned as an AI testing agent that closes the velocity gap between AI coding and testing.
+    - jev-latest choice confidence 0.64
 placement:
   primary_category: coding-agents
   secondary_categories: []

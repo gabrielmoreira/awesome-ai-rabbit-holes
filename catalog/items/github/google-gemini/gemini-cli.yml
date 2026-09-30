@@ -97,17 +97,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Gemini CLI is a primary coding assistant that developers delegate repo work to in the terminal, fitting the
-    canonical positive for Coding Agents.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''An open-source AI agent that brings the power of Gemini directly into your terminal.'''
-    - >-
-      README highlights: code understanding/generation, automation, GitHub integration, and MCP support as core
-      features.
-    - >-
-      Source-list context: listed under 'Terminal-native coding agents' in awesome-cli-coding-agents and 'Coding Agents'
-      in awesome-ai-coding-tools.
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: coding-agents
   secondary_categories: []

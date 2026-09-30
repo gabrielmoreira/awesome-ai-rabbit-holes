@@ -73,14 +73,14 @@ insights:
     - agents
   confidence: high
 curation:
-  status: pending
-  reason: 'Manual audit: Primary identity is a Python charting library; MCP is incidental.'
+  status: included
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Manual review of Jev Middleware & Generic audit, 2026-09-19
+    - jev-latest choice confidence 0.60
 placement:
-  primary_category: null
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: null
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

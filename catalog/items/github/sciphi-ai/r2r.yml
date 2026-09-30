@@ -68,17 +68,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a code-first framework and SDK used to build retrieval and RAG capabilities into applications, fitting the
-    Memory / Retrieval Infrastructure section of Frameworks & SDKs.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly defines it as a 'SoTA production-ready AI retrieval system' with a RESTful API.
-    - README demonstrates usage via Python/JS SDK clients (R2RClient) and programmatic document ingestion.
-    - Listed in awesome-langchain under 'Other LLM Frameworks', reinforcing its identity as a developer building block.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Memory & Retrieval Infrastructure
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (7804) exceeded threshold (150)

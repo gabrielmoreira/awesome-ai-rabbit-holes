@@ -80,15 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the primary product identity—it is explicitly an MCP server designed to give agents access to Neovim, fitting
-    the Domain Servers section.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description states: ''MCP server that connects AI agents to your running Neovim instance via msgpack-RPC''.'
-    - >-
-      README confirms it 'gives AI agents first-class access to your running Neovim session' and works with Cursor,
-      Claude Code, and other MCP-compatible clients.
-    - Listed in awesome-mcp-servers under 'Developer Tools', reinforcing its identity as an MCP server.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

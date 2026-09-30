@@ -62,19 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a code-first Python framework and SDK used by importing agents, tasks, crews, and pipelines in
-    scripts, making it a classic developer building block rather than a control plane or standalone assistant.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
   evidence:
-    - >-
-      Repo description explicitly positions it as a minimalist repository for creating AI agents with A2A and MCP
-      protocols.
-    - >-
-      README shows Python imports like `from mangaba.core import Agent, Task, Crew` and pipeline/stage constructs used
-      programmatically.
-    - >-
-      Listed in awesome-agent-orchestration under Agent Communication Protocols, reinforcing its framework identity
-      rather than operated platform.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

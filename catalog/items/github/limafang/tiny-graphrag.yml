@@ -57,19 +57,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is a code-first library and engine for building graph-based RAG pipelines, fitting cleanly as retrieval
-    infrastructure rather than an assistant, orchestrator, or learning resource.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Memory & Retrieval Infrastructure
   evidence:
-    - >-
-      README frames it as a simplified GraphRAG implementation with a Python API for adding documents and running
-      queries.
-    - >-
-      Developers import and script against TinyGraph, LLM, and embedding classes rather than operating a platform or
-      assistant.
-    - >-
-      Project explicitly notes it is not for production and points to Microsoft GraphRAG and nano-graphrag for full
-      implementations.
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

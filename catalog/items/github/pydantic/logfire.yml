@@ -74,15 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is observability, tracing, and measurement for LLM and agent systems, which aligns directly with
-    the Evals & Benchmarks category’s focus on tracing and eval ops.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - 'Repo description: ''AI observability platform for production LLM and agent systems.'''
-    - >-
-      README: 'opiniated wrapper around OpenTelemetry... traces, metrics and logs' and 'understand the data flowing
-      through your Pydantic Validation models.'
-    - Source list context places it under 'Tools & Infrastructure > Observability & Tracing' for agent orchestration.
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: evals
   secondary_categories: []

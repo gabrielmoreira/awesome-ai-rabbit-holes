@@ -73,17 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that exposes CloudBase cloud capabilities to MCP-compatible AI IDEs, making MCP its
-    core identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description explicitly states: ''CloudBase MCP - Connect CloudBase to your AI Agent.'''
-    - >-
-      README positions it as an MCP server for Cursor, WindSurf, and CodeBuddy, providing JSON configs for local and
-      hosted MCP modes.
-    - >-
-      Featured in awesome-mcp-servers under 'Cloud Platforms', reinforcing its identity as domain-specific MCP
-      infrastructure.
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: mcp
   secondary_categories: []

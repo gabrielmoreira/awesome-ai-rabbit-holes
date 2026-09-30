@@ -67,17 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server as its core identity, enabling MCP clients to interact with Home Assistant, fitting the
-    MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''Home Assistant MCP Server'''
-    - 'README: ''A Model Context Protocol (MCP) server for Home Assistant integration with Claude and other LLMs'''
-    - 'Source-list context: Listed in awesome-mcp-servers under Community Servers'
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (295) exceeded threshold (150)

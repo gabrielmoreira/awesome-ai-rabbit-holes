@@ -77,19 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Haft's core identity is enforcing spec-first workflows with evidence-based decision contracts, not acting as a
-    coding assistant or host integration.
+  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
   evidence:
-    - 'README: ''Specify → Think → Run → Govern.'' and ''record decisions as falsifiable contracts'''
-    - >-
-      Repo description: 'Engineering decisions engine that know when they're stale. Frame, compare, decide — with
-      evidence decay and parity enforcement.'
-    - 'Source-list context: listed in awesome-spec-driven-development under ''Specification Tools'''
+    - jev-latest choice confidence 0.84
 placement:
-  primary_category: coding-agents
+  primary_category: decision-models
   secondary_categories: []
-  section: Spec-First & Plan-Execute
+  section: Agent Gates, Routers & Skills
 lifecycle:
   status: curated
   reason: Stars (1313) exceeded threshold (150)

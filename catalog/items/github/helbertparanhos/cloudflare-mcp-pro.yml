@@ -73,15 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server first and foremost — its identity is providing Cloudflare API access via the Model
-    Context Protocol, not augmenting another agent or editing code directly.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''Cloudflare MCP: 69 tools over the REST API v4'''
-    - >-
-      README: 'MCP server for the Cloudflare REST API v4 — 69 tools across DNS, Workers, KV, R2, D1, Pages, WAF, SSL,
-      Email, AI'
-    - 'Source-list context: Listed in awesome-mcp-servers under Cloud Platforms'
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

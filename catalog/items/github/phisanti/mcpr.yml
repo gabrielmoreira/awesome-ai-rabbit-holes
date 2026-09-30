@@ -64,21 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product’s core identity is an MCP server that exposes R session management, code execution, and plotting as
-    tools for AI agents, fitting cleanly as a domain-specific MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description states: 'MCPR enables AI agents to participate in interactive R sessions for professional
-      analysis workflows.'
-    - >-
-      README explains it exposes functionality as tools via MCP and includes manual MCP server configuration for Claude,
-      Gemini, Copilot, and Codex.
-    - Listed in awesome-mcp-servers under 'Data Science Tools', confirming its adoption as an MCP server implementation.
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

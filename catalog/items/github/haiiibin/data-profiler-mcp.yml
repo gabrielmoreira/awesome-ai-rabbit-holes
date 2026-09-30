@@ -72,13 +72,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is explicitly designed and distributed as a Model Context Protocol server to provide domain-specific
-    capabilities to LLM clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Explicitly identifies as an MCP server in the repo description and README
-    - Provides specialized tools for data profiling via the MCP protocol
-    - Designed for integration with Claude Desktop, Claude Code, and Cursor via MCP
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

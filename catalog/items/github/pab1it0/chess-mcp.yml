@@ -63,16 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server built specifically to expose Chess.com data to MCP-compatible assistants, fitting
-    cleanly as a domain-specific MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol server for Chess.com's Published Data API'
-    - >-
-      README shows it ships tools like get_player_profile and get_player_games_by_month for use with Claude Desktop via
-      MCP config
-    - Listed in awesome-mcp-servers under 'Gaming' section as a server implementation
-    - Active project with recent push in 2025-11-15 and not archived
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

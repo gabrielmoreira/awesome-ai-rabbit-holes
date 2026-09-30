@@ -83,13 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity here, with the server/client explicitly built around the Model Context Protocol to
-    expose Playwright-based browser control as MCP tools.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly states it is an MCP server/client
-    - README details MCP server implementation with FastMCP and Playwright integration
-    - Source lists (awesome-mcp-list, awesome-mcp-servers) categorize it under MCP browser automation
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

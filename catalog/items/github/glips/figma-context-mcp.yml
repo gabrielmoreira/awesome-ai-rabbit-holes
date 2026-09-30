@@ -79,17 +79,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server providing Figma data to coding agents, making MCP the primary adopted
-    thing.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for Figma layout information
-    - README emphasizes MCP as the protocol and integration method
-    - Listed in multiple MCP-focused directories under Developer Tools
+    - jev-latest choice confidence 0.75
 placement:
-  primary_category: extensions-and-addons
+  primary_category: mcp
   secondary_categories: []
-  section: API & Service Integrations
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (14636) exceeded threshold (150)

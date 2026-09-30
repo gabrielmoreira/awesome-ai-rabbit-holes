@@ -51,17 +51,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is exposing VISO TRUST API via the Model Context Protocol, matching
-    the MCP category's definition.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      README describes it as 'A Model Context Protocol (MCP) server for integrating VISO TRUST API capabilities with AI
-      assistants'
-    - Source-list context shows it appears in 'awesome-mcp-servers' under 'Official Servers'
-    - >-
-      Configuration and installation details focus on MCP server deployment via stdio, SSE, or Docker for use with AI
-      assistants
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

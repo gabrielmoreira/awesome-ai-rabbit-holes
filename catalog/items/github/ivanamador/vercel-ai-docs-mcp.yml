@@ -60,16 +60,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the core product identity, and the server provides domain-specific documentation search capabilities for the
-    Vercel AI SDK.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - Repo description explicitly states it is an MCP server for Vercel AI SDK documentation
-    - README details MCP server architecture and integration with Claude Desktop and Cursor
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: null

@@ -68,19 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a first-party MCP server that exists specifically to expose Redis capabilities to MCP clients, making it a
-    textbook fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - >-
-      Repo description explicitly calls it 'the official Redis MCP Server' and a 'natural language interface designed
-      for agentic applications.'
-    - >-
-      README lists tool coverage for strings, hashes, lists, sets, sorted sets, streams, JSON, pub/sub, vector search,
-      and Redis docs search as MCP tools.
-    - >-
-      Seen in awesome-mcp-servers under 'Databases', and the README documents integrations with Claude Desktop, VS Code
-      + Copilot, Augment, and OpenAI Agents SDK.
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

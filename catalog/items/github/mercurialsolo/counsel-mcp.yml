@@ -58,17 +58,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server that integrates a specific third-party API (Counsel) into MCP-compatible
-    clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'MCP server for counsel'.
-    - README describes it as a server connecting AI agents to the Counsel API via MCP.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory'.
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

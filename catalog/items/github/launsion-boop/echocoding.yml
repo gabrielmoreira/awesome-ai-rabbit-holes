@@ -63,19 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is explicitly designed to augment existing coding assistants with audio capabilities rather than acting as
-    a primary coding assistant itself.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
-    - >-
-      README states 'pipes, not brains' and that it 'gives your AI agent a mouth and ears' rather than doing coding
-      itself.
-    - >-
-      Supported clients explicitly listed include Claude Code, Cursor, Windsurf, Codex CLI, Gemini CLI, and any
-      MCP-compatible tool.
-    - >-
-      Source list placed it in 'Harnesses & orchestration > Agent infrastructure', but the product identity is clearly
-      an integration layer.
+    - jev-latest choice confidence 0.95
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []

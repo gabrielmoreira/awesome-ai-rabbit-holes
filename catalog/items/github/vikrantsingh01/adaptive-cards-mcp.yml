@@ -86,17 +86,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is fundamentally an MCP server implementation whose entire product identity is providing domain-specific tools
-    (Adaptive Card generation) via the Model Context Protocol, fitting cleanly into Domain Servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies as 'AI-powered Adaptive Card MCP server' with MCP as the core protocol
-    - >-
-      Listed in awesome-mcp-servers under Server Implementations > Developer Tools, confirming community categorization
-      as MCP infrastructure
-    - >-
-      README provides MCP configuration snippets for Claude Code, Copilot, Cursor, Windsurf, and Copilot Studio,
-      demonstrating it is infrastructure for those hosts rather than a standalone assistant
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -67,19 +67,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is an MCP server that exposes Optuna capabilities to MCP clients, fitting cleanly into MCP
-    Servers & Tooling as a domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description states it is 'a Model Context Protocol (MCP) server to interact with Optuna APIs.'
-    - >-
-      README shows it is configured as an mcpServer in Claude Desktop and provides Optuna tools like create_study and
-      ask.
-    - Listed in awesome-mcp-servers under Server Implementations > Data Science Tools.
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

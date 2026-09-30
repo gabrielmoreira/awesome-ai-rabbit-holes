@@ -95,13 +95,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    SGLang is a developer-facing serving stack whose core identity is high-performance local or self-hosted LLM/VLM
-    inference rather than a coding assistant, IDE, or framework.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - Repo description states it is a high-performance serving framework for LLMs and multimodal models.
-    - Topics and README emphasize inference, CUDA, TPU, Blackwell, and day-0 model support rather than coding workflows.
-    - Included in awesome-local-ai under Inference Engine, reinforcing its local serving role.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: local-ai
   secondary_categories: []

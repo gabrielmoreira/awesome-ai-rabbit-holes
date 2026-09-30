@@ -64,19 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server that gives coding agents access to documentation, making it a clear fit for the MCP Servers &
-    Tooling category as an official domain-specific server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description explicitly states it is an MCP server for helping coding agents work with documentation
-      efficiently.
-    - Listed in awesome-mcp-servers under 'Official Servers' section.
-    - README describes MCP tools like ref_search_documentation and ref_read_url for documentation access.
+    - jev-latest choice confidence 0.59
 placement:
-  primary_category: memory-and-context
+  primary_category: mcp
   secondary_categories: []
-  section: Retrieval & Fresh Docs
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (1099) exceeded threshold (150)

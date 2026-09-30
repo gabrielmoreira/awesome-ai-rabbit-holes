@@ -68,17 +68,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first framework and CLI that developers import and script against to build MCP servers, making it a
-    classic fit for Frameworks & SDKs.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
   evidence:
-    - Repo description explicitly calls it 'The Typescript MCP Framework'.
-    - README highlights CLI commands (mcp create, mcp add tool) and TypeScript base classes for building servers.
-    - Featured in awesome-mcp-servers under the Frameworks section.
+    - jev-latest choice confidence 0.52
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: Multi-Agent Systems
 lifecycle:
   status: curated
   reason: Stars (916) exceeded threshold (150)

@@ -66,13 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server providing domain-specific tools (URL scanning, brand monitoring) and is listed in an
-    official MCP servers directory, making MCP its core identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''urlDNA MCP server'''
-    - 'README: Enables native tool use for security-focused LLM agents via the urlDNA threat intelligence platform'
-    - 'Seen in source list: awesome-mcp-servers under ''Official Servers'' section'
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

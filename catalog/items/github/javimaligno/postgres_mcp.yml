@@ -57,11 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server for PostgreSQL, where MCP is the core product identity and primary adopted thing.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - Repo description explicitly states it is an MCP server for PostgreSQL
-    - README confirms it works with Claude Code, Cursor, and other MCP-compatible clients
-    - Already listed in awesome-mcp-servers under Databases
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: mcp
   secondary_categories: []

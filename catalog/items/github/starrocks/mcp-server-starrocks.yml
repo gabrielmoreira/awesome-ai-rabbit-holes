@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server for a specific database domain, fitting the MCP Servers & Tooling category's
-    definition of protocol-native infrastructure.
+  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
-    - 'Repo description states: ''StarRocks MCP (Model Context Protocol) Server''.'
-    - Listed in 'awesome-mcp-servers' under the 'Official Servers' section.
-    - README details MCP transport modes (stdio, streamable-http) and tool definitions (read_query, table_overview).
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -99,15 +99,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a developer-facing SDK and instrumentation library for tracing and monitoring LLM applications, fitting the
-    eval/observability mold rather than an agent or extension.
+  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
-    - 'Repo description: ''Open-source observability for your GenAI or LLM application, based on OpenTelemetry'''
-    - >-
-      README: 'standard OpenTelemetry instrumentations for LLM providers and Vector DBs' and 'tracing your code with
-      OpenLLMetry'
-    - 'Source lists: Featured in Awesome-LLMOps under ''Security > Observability'''
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: evals
   secondary_categories: []

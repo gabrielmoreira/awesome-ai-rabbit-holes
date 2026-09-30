@@ -65,12 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is specifically an MCP server designed to extend the capabilities of an MCP host, matching the product
-    identity required for the MCP category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly labels it as an 'Instagram Direct messages MCP'
-    - README provides specific configuration instructions for MCP hosts like Claude Desktop and Cursor
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

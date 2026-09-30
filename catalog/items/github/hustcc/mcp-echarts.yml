@@ -76,15 +76,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server for ECharts visualization, fitting the MCP Servers & Tooling category
-    where MCP is the primary adopted thing.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is an MCP server for ECharts
-    - README highlights MCP compatibility and usage with desktop apps (Claude, VSCode, etc.)
-    - Listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

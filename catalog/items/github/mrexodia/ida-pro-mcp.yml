@@ -67,13 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server that exposes IDA Pro's capabilities to model context protocol
-    clients for domain-specific reverse engineering.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is 'an MCP Server' bridging IDA Pro with language models.
-    - Listed in awesome-mcp-servers under 'Community Servers' for the MCP ecosystem.
-    - README confirms it is a 'Simple MCP Server' requiring an external MCP client like Claude or Cursor to function.
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: mcp
   secondary_categories: []

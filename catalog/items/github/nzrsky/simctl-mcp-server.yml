@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server implementation that provides iOS simulator tooling to MCP-compatible clients
-    like Claude Desktop and VS Code.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'iOS simctl MCP server'
-    - README documents configuration for Claude Desktop and VS Code MCP extension as primary use cases
-    - Listed in awesome-mcp-servers under 'Community Servers' section
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

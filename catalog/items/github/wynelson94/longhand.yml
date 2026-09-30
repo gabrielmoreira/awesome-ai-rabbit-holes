@@ -77,15 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Longhand is an MCP server that augments Claude Code with persistent local memory rather than acting as a standalone
-    coding assistant, making it an extension focused on memory and context add-ons.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - 'Repo description: ''Lossless local memory for Claude Code'''
-    - >-
-      README: 'Persistent local memory for Claude Code. Every tool call, every file edit, every thinking block from
-      every Claude Code session — stored verbatim on your machine.'
-    - 'Source-list context: Listed in awesome-mcp-servers under Knowledge & Memory'
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: memory-and-context
   secondary_categories: []

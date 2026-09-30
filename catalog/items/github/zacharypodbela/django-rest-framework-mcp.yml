@@ -56,15 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server that exposes DRF APIs as MCP tools, making it MCP infrastructure first
-    and a Django extension second.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''Quickly build MCP servers that expose your Django Rest Framework APIs as tools for LLMs'''
-    - >-
-      README: '@mcp_viewset decorator exposes ViewSet methods as MCP tools' and 'Connect any MCP client to
-      http://localhost:8000/mcp/'
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

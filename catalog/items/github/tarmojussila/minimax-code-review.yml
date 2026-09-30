@@ -68,15 +68,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is a focused AI agent that directly reviews diffs and posts feedback on pull requests, fitting the Review,
-    Testing & Repair Agents section of Coding Agents.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - 'Repo description: ''MiniMax Code Review for GitHub Actions'''
-    - >-
-      README: 'AI-powered GitHub Pull Request code review using MiniMax models. Automatic PR comments, bug detection,
-      and improvement suggestions.'
-    - Appears in awesome-ai-coding-tools under 'Code Review and Refactoring'
+    - jev-latest choice confidence 0.52
 placement:
   primary_category: coding-agents
   secondary_categories: []

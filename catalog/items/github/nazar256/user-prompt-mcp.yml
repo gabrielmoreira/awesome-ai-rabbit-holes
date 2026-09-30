@@ -58,19 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server designed to add interactive prompting capabilities to Cursor, fitting the MCP Servers &
-    Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - >-
-      Repo description explicitly states: 'A Model Context Protocol (MCP) server for Cursor that enables requesting user
-      input during generation'.
-    - README confirms it implements an MCP server that allows Cursor to request input via stdio transport.
-    - Listed in the awesome-mcp-servers directory under the 'Community Servers' section.
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: null

@@ -107,13 +107,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is a middleware gateway that transforms non-MCP protocols into the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Converts REST, SOAP, GraphQL, and SQL to MCP
-    - Provides a self-hosted gateway for Claude, ChatGPT, and Cursor
-    - Acts as an aggregator for 175+ pre-built adapters
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -63,19 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly built and distributed as an MCP server to provide health economics tools to hosts like
-    Claude, fitting the 'Domain Servers' section of the MCP category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo name is 'heor-agent-mcp' and README states it is an 'AI-powered Health Economics and Outcomes Research (HEOR)
-      agent as a Model Context Protocol server.'
-    - >-
-      Installation instructions are specifically for MCP hosts: 'claude mcp add heor-agent -- npx heor-agent-mcp' and
-      Claude Desktop JSON config.
-    - >-
-      Listed in 'awesome-mcp-servers' under the 'Biology, Medicine and Bioinformatics' section, confirming its identity
-      as a domain-specific MCP implementation.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

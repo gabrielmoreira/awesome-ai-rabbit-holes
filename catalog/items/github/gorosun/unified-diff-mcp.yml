@@ -77,13 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose core identity is providing diff visualization capabilities via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - README explicitly identifies it as an MCP server for Claude Desktop
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
-    - Provides MCP tools like visualize_diff_html_content and visualize_diff_output_file
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

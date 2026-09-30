@@ -66,15 +66,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a standalone CLI coding assistant that directly plans, proposes, and executes repo tasks, fitting the primary
-    assistant identity.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description: ''A conversational semi-autonomous developer assistant'''
-    - >-
-      README: 'DuetGPT is an experimental AI powered CLI tool and semi-autonomous agent that helps developers with
-      coding tasks and file system tasks'
-    - Uses OpenAI function calling to propose and execute commands after developer approval
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: coding-agents
   secondary_categories: []

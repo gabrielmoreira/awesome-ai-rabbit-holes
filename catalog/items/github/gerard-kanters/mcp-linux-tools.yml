@@ -68,13 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is a Model Context Protocol (MCP) server designed to provide specific domain tools to an
-    assistant host.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Explicitly describes itself as an MCP server in the README and repo description
-    - Provides domain-specific toolsets for Linux, WordPress, and MySQL
-    - Includes security features like whitelisting and sandboxed Python execution
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that exposes financial data tools to MCP-compatible assistants, making it a clear fit
-    for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states 'ShareSeer MCP Server' and integrates with Claude via MCP.
-    - README lists MCP tools like get_company_filings and get_insider_transactions for SEC and trading data.
-    - Listed in awesome-mcp-servers under Finance & Fintech, confirming its MCP ecosystem role.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

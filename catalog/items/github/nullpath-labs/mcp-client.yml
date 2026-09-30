@@ -82,13 +82,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is an MCP client that acts as the middleware connecting an LLM host to an external agent
-    marketplace.
+  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
-    - README explicitly states it connects to Nullpath's REST API via stdio for Claude Desktop and Cursor
-    - The primary function is exposing `discover_agents` and `execute_agent` tools via the Model Context Protocol
-    - Identity is defined by the MCP connectivity layer rather than the marketplace itself
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: mcp
   secondary_categories: []

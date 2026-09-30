@@ -84,11 +84,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server designed to expose Unreal Engine capabilities to external clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description specifies driving Unreal Engine from any MCP client
-    - README claims 151 tools via a local TCP socket
-    - Explicit support for MCP-compliant clients like Claude Code and Cursor
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

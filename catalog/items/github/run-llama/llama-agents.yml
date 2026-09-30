@@ -71,17 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first library and CLI (pip install, @step decorators, llamactl) for building agent workflows, which
-    fits Frameworks & SDKs better than a control-plane orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Workflow & Graph Engines
   evidence:
-    - >-
-      Repo description: 'event-driven, async-first, step-based way to control the execution flow of AI applications like
-      agents.'
-    - >-
-      README: 'pip install llama-index-workflows', define workflows in Python with @step, and use llamactl CLI to
-      build/deploy.
-    - Topics include agentic-framework and orchestration; source list places it under 'Other LLM Frameworks'.
+    - jev-latest choice confidence 0.70
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

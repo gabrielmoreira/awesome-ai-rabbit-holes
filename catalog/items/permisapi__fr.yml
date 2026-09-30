@@ -58,17 +58,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool provides a specialized MCP server that integrates domain-specific French urban and real estate data into AI
-    coding workflows.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Provides an official MCP connector via 'pip install permisapi-mcp' for Claude, ChatGPT, and Cursor.
-    - Offers a REST API covering 1.2M+ construction permits, urban zoning, and environmental risks in France.
-    - Categorized in 'awesome-mcp-servers' under Data Platforms.
+    - jev-latest choice confidence 0.69
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

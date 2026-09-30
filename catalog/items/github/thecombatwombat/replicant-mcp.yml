@@ -62,15 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server that gives AI assistants access to Android-specific capabilities
-    like emulators, APKs, and UI automation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'Android MCP server - production-grade, token-optimized'.
-    - >-
-      README states 'replicant-mcp is a Model Context Protocol server that gives AI assistants like Claude the ability
-      to interact with your Android development environment.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

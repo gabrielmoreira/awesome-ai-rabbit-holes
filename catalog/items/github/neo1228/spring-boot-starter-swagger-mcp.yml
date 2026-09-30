@@ -77,15 +77,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is an MCP server implementation that bridges Spring Boot APIs to MCP clients, and MCP is the core product
-    identity rather than a side feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''Turn SpringDoc OpenAPI into production-ready MCP tools for Spring Boot'''
-    - >-
-      README: 'Turn any SpringDoc-powered Spring Boot API into a production-ready MCP gateway' with MCP tool
-      registration and gateway tools
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - jev-latest choice confidence 0.64
 placement:
   primary_category: mcp
   secondary_categories: []

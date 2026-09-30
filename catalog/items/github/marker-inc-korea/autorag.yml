@@ -96,21 +96,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job of this product is evaluating, benchmarking, and optimizing RAG pipeline combinations, which aligns
-    directly with the evals category's focus on measuring and comparing model/prompt/agent behavior.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - Repo description explicitly states it is an 'RAG Evaluation & Optimization' tool with 'AutoML-Style Automation'.
-    - >-
-      README states the tool's purpose is to 'evaluate various RAG modules automatically' and 'find the best RAG
-      pipeline for your own use-case' using metrics and optimization.
-    - >-
-      Topics include evaluation, benchmarking, and optimization, and it is listed in Awesome-LLMOps under the 'AutoML'
-      section for evaluation purposes.
+    - jev-latest choice confidence 0.56
 placement:
-  primary_category: ai-frameworks
+  primary_category: evals
   secondary_categories: []
-  section: Memory & Retrieval Infrastructure
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: curated
   reason: Stars (4749) exceeded threshold (150)

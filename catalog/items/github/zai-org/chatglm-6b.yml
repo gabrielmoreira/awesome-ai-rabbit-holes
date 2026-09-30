@@ -56,16 +56,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    ChatGLM-6B is primarily a downloadable model designed for local inference and fine-tuning, fitting the Local AI
-    category as a runtime for self-hosted execution.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Fine-tuning & Training
   evidence:
-    - 'Repo description: ''ChatGLM-6B: An Open Bilingual Dialogue Language Model'''
-    - 'README: ''users can perform local deployment (INT4 quantization level requires only 6GB VRAM)'''
-    - 'README: ''INT4 quantization level, only 7GB VRAM is needed to start fine-tuning'''
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: local-ai
-  section: Inference Engines
+  secondary_categories: []
+  section: Fine-tuning & Training
 lifecycle:
   status: curated
   reason: Stars (41107) exceeded threshold (150)

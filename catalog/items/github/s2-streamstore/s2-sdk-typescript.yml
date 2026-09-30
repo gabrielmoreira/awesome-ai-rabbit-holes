@@ -67,15 +67,12 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is a code-first SDK and provider client for a managed streaming service, fitting cleanly as a developer building
-    block rather than an assistant, IDE, or orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
-    - 'Repo description states: ''TypeScript SDK for S2, the durable streams API''.'
-    - 'README says: ''This repo contains the official TypeScript SDK for S2... built on the service''s REST API''.'
-    - Package install is via npm/yarn/bun as @s2-dev/streamstore, and primary usage is programmatic import.
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: ai-frameworks
+  secondary_categories: []
   section: Provider & Model Abstractions
 lifecycle:
   status: curated

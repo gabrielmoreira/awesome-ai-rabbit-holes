@@ -52,18 +52,22 @@ metadata:
       fetched_at: '2026-08-03T05:16:58.742Z'
       bytes: 8066
 insights:
-  summary: null
+  summary: >-
+    The evidence layer for MCP — every registry server probed live, graded with verbatim evidence, plus Trust Receipts.
+    Itself an MCP server at mcpqueen.com/mcp (7 tools, no auth).
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
+  evidence:
+    - jev-latest choice confidence 0.77
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

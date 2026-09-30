@@ -62,15 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server providing domain-specific data access, fitting cleanly into the MCP Servers
-    & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description explicitly states: 'A Model Context Protocol (MCP) server that provides AI assistants with access
-      to the Smithsonian Institution's Open Access collections.'
-    - README lists '16 MCP Tools' and confirms compatibility with Claude Desktop and other MCP clients.
-    - Included in the 'awesome-mcp-servers' list under the 'Art & Culture' section.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

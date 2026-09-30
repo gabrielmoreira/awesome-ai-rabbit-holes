@@ -54,18 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    TestDriver functions as an autonomous coding agent focused on testing: it reads PRs, generates test code, runs apps
-    in sandboxes, and contributes test files—making its primary identity a developer-facing agent that performs coding
-    tasks (test authoring and execution) on behalf of the user.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
-    - TestDriver writes UI tests and catches regressions before they merge (source-list context)
-    - >-
-      TestDriver automatically runs every pull request in a real desktop sandbox, finds bugs, and builds regression
-      tests (README excerpt)
-    - >-
-      Once the agent has a passing test, it opens a fresh pull request with the generated test code committed for you
-      (README excerpt)
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: coding-agents
   secondary_categories: []

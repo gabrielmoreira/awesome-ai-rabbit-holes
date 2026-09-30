@@ -72,15 +72,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server providing domain-specific tools for a particular API.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description identifies it as 'The most complete MCP server for the Resend email API'
-    - README specifies 75 tools and a unique debug/diagnostics layer for email lifecycle inspection
-    - Explicitly supports MCP clients like Claude Code, Cursor, and Claude Desktop
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

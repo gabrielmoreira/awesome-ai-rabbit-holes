@@ -63,17 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first SDK that developers import and script against to add search algorithms to their own agents,
-    fitting squarely as an agent framework rather than a standalone coding assistant or orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description explicitly states 'Plug-and-play tree search for agents' with topics: agents, ai, llms,
-      monte-carlo-tree-search.
-    - >-
-      README quickstart shows importing MonteCarloAgent, Evaluator, and Model in Python code to build a custom agent in
-      a few lines.
-    - Listed in awesome-llm-agents under 'Frameworks', and the last push was 2025-07-27, showing active maintenance.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

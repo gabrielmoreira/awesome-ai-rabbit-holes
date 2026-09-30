@@ -73,13 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server that gives AI assistants DNS and WHOIS capabilities, making it a clear fit for
-    the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states 'MCP server for DNS — lookups, reverse DNS, WHOIS, zero auth'
-    - README positions it as a tool that 'Works with Claude Desktop, Cursor, VS Code Copilot, and any MCP client'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' section
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []

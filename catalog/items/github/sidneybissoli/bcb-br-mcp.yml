@@ -82,15 +82,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server with MCP as its core product identity, making it a clean fit for the MCP
-    Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states 'MCP server for Brazil Central Bank (BCB) data'
-    - >-
-      README shows it is distributed as an MCP server via npx, Smithery, and a hosted HTTP endpoint for Claude and other
-      MCP clients
-    - Listed in awesome-mcp-servers under Finance & Fintech, confirming its identity as an MCP server
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

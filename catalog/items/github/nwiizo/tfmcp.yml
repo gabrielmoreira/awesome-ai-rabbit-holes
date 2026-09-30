@@ -85,13 +85,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is explicitly an MCP server designed to give AI assistants access to Terraform capabilities,
-    fitting the 'Domain Servers' section of MCP tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description defines it as a 'Terraform Model Context Protocol (MCP) Tool'.
-    - README states it 'Runs as a Model Context Protocol server, allowing AI assistants to access and manage Terraform'.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under 'Cloud Platforms'.
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: mcp
   secondary_categories: []

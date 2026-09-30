@@ -64,15 +64,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server that exposes JMeter test execution and analysis as tools for MCP-compatible clients,
-    making MCP its primary product identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly positions it as a JMeter MCP Server for AI workflows.
-    - >-
-      README details MCP tools like execute_jmeter_test_non_gui, analyze_jmeter_results, and
-      identify_performance_bottlenecks.
-    - Included in awesome-mcp-servers under Developer Tools, aligning with its MCP infrastructure identity.
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -62,15 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly the official registry service for the Model Context Protocol, serving as the primary
-    discovery layer for MCP servers.
+  reason: Jev decision-model reclassifier placed this item in mcp / Registries & Discovery
   evidence:
-    - Repo description states it is a 'community driven registry service for Model Context Protocol (MCP) servers'.
-    - README describes it as providing 'MCP clients with a list of MCP servers, like an app store for MCP servers'.
-    - >-
-      Source list context places it under 'Agent Communication Protocols > Model Context Protocol (MCP) > Official
-      Resources'.
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []

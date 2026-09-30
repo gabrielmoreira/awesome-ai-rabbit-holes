@@ -74,11 +74,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is exposing Whale Alert API capabilities through MCP.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for tracking crypto whale transactions
-    - README confirms it implements MCP with tools/resources/prompts for Whale Alert API
-    - Listed in awesome-mcp-list under Finance & Fintech
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

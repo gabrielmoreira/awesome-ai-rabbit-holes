@@ -63,13 +63,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server for Gitee with MCP as the core identity, fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description states it is 'a Model Context Protocol (MCP) server implementation for Gitee'.
-    - >-
-      README positions it as an MCP server with toolset management and explicit host configs for Claude, Cursor, Cline,
-      Trae, and Windsurf.
-    - Listed in awesome-mcp-servers under 'Official Servers', reinforcing its MCP infrastructure role.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -87,23 +87,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server providing domain-specific access to the Brightspace LMS, fitting
-    cleanly into the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description explicitly states 'MCP server for Brightspace (D2L)' and lists compatibility with Claude,
-      ChatGPT, Cursor, and Windsurf.
-    - >-
-      Found in awesome-mcp-servers under the 'Education' section, confirming its identity as a community-recognized MCP
-      implementation.
-    - >-
-      README instructions center on running the server via 'npx brightspace-mcp-server' to expose Brightspace tools to
-      MCP clients.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

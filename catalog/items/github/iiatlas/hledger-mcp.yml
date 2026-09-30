@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server providing domain-specific (finance/accounting)
-    capabilities to AI clients.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is 'A local MCP server for interacting with the HLedger cli'
-    - README confirms it implements MCP server protocol to expose HLedger functionality
-    - Already listed in awesome-mcp-servers under Finance & Fintech
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

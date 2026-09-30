@@ -56,17 +56,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server implementation for a specific domain (Perplexity API), making it a
-    clear fit for the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'README states: ''MCP Server for the Perplexity API'' and exposes an ''ask_perplexity'' tool.'
-    - Found in the 'awesome-mcp-servers' list under the 'Community Servers' section.
-    - Setup instructions are specific to configuring it as an MCP server within Claude Desktop.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

@@ -54,16 +54,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Hex is primarily an analytics platform that uses a prompt-to-app loop to generate interactive dashboards and data
-    applications.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
   evidence:
-    - Explicitly features 'Generative data apps' that can be built with just a prompt
-    - Focuses on turning conversational analytics into deployable, shareable data apps
-    - Provides an agentic pair-programmer specifically for data-centric code like Python and SQL
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: app-builders
-  section: Internal Tools & Dashboards
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: curated
   reason: null

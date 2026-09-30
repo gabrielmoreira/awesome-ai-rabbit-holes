@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server with domain-specific tools for tracking Binance Alpha trades, making MCP its
-    primary identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for tracking Binance Alpha trades
-    - README details MCP tools like get_top_tokens and get_trade_stats
-    - Project is actively maintained (created and pushed in May 2025)
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

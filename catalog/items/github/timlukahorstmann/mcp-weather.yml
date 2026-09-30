@@ -77,15 +77,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server providing domain-specific tool access (weather forecasts), which fits cleanly as a domain
-    server under MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server' for weather forecasts.
-    - README shows MCP config examples for Claude Desktop and usage of the @timlukahorstmann/mcp-weather npm package.
-    - >-
-      Listed in awesome-mcp-servers under 'Location Services' and 'Community Servers', confirming its identity as an MCP
-      server.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

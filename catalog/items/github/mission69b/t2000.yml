@@ -74,23 +74,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The primary artifact is a code-first SDK, CLI, and engine that developers import and script against to build
-    financial agents, fitting the Frameworks & SDKs definition.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      README explicitly lists packages: @t2000/sdk (core library), @t2000/engine, and @t2000/cli for developers to build
-      upon.
-    - >-
-      Provides code examples showing developers scripting agent actions like agent.send() and agent.swap()
-      programmatically.
-    - >-
-      Brand architecture identifies t2000.ai specifically as 'Infrastructure (CLI, SDK, MCP, engine, gateway)' for the
-      Audric consumer product.
+    - jev-latest choice confidence 0.51
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

@@ -66,15 +66,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server for a specific domain (Markdown-to-mindmap conversion).'
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description explicitly states it is an MCP server for Markdown-to-mindmap conversion
-    - README details MCP client configuration and tool exposure (markdown-to-mindmap)
-    - Project is actively maintained (pushed_at 2026-03-18)
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: Stars (198) exceeded threshold (150)

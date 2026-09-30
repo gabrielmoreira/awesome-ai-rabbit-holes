@@ -62,19 +62,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product’s identity is an MCP server that gives Claude structured access to Fusion 360 CAD operations, which fits
-    squarely as a domain-specific MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      README explicitly describes it as 'An MCP (Model Context Protocol) server add-in that connects Claude to Autodesk
-      Fusion 360'
-    - Includes 64 MCP tools covering sketch, features, modify, patterns, JIS fasteners, and export operations
-    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
+    - jev-latest choice confidence 0.71
 placement:
-  primary_category: extensions-and-addons
+  primary_category: mcp
   secondary_categories: []
-  section: API & Service Integrations
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

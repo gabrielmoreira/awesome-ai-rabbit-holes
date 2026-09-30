@@ -83,19 +83,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a code-first library and SDK used by developers to build LLM applications in Java, fitting squarely
-    into Frameworks & SDKs rather than an operated platform or agent.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description explicitly calls it an 'idiomatic, open-source Java library for building LLM-powered
-      applications'.
-    - >-
-      README states 'LangChain4j is not a Java port... it is an idiomatic Java library designed from the ground up' for
-      developers to import and use.
-    - >-
-      It integrates as a dependency with Quarkus, Spring Boot, Helidon, and Micronaut rather than acting as a standalone
-      agent or platform.
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

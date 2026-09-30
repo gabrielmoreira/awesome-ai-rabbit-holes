@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a framework for generating and running benchmarks to measure model behavior, which fits squarely
-    in the evals category.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - Repo description explicitly states it is for benchmarking LLMs on your data
-    - README emphasizes generating QA pairs and evaluation datasets from documents
-    - Source-list context places it in an 'Evaluation' section
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: evals
   secondary_categories: []

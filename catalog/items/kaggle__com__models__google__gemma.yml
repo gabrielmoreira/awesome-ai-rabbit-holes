@@ -75,20 +75,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Gemma is a model family designed for local execution and self-hosting, fitting the Local & Self-hosted AI category
-    as a foundational model for local inference stacks.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Fine-tuning & Training
   evidence:
-    - >-
-      Repo description: Gemma is a family of lightweight, open models built from the research and technology that Google
-      used to create the Gemini models.
-    - >-
-      Seen in source lists: Awesome-LLMOps lists Gemma under Model > Large Language Model, indicating its role as a
-      deployable model for developer use.
-    - 'Homepage: (none) — but Kaggle model listing implies self-serve download and local usage intent.'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: local-ai
-  section: Local API Servers
+  secondary_categories: []
+  section: Fine-tuning & Training
 lifecycle:
   status: curated
   reason: null

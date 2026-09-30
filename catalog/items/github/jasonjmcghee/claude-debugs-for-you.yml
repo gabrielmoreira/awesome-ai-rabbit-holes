@@ -92,13 +92,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is primarily an extension that augments VS Code and MCP clients with debugging capabilities, rather than
-    being a standalone coding assistant.
+  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / IDE & Editor Add-ons
   evidence:
-    - Repo description explicitly states it is an MCP server and VS Code extension for interactive debugging
-    - README confirms it integrates with Claude Desktop, Continue, and Cursor via MCP
-    - Source-list context places it under Developer Tools in MCP server lists
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []

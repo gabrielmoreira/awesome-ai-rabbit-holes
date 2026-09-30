@@ -65,17 +65,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a code-first adapter library that integrates MCP servers into agent frameworks, fitting the
-    Frameworks & SDKs category as a reusable building block.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly states it unlocks MCP servers in agentic frameworks
-    - README shows it is a Python library with framework-specific adapters (LangChain, CrewAI, etc.)
-    - >-
-      Source-list context places it under MCP Protocol > Development & Tools, but primary identity is framework
-      integration
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: ai-frameworks
+  secondary_categories: []
   section: LLM & Agent SDKs
 lifecycle:
   status: curated

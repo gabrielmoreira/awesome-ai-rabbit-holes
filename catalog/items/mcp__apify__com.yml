@@ -53,19 +53,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's primary identity is an MCP server exposing Apify's tools, making MCP the core purpose rather than a
-    side feature of a coding agent or orchestrator.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Scraped site title: ''Apify MCP server'''
-    - >-
-      Scraped site description: 'Connect Claude, Cursor, and your AI agents with thousands of web scraping and
-      automation tools. Run Actors, access results, and search Apify documentation.'
-    - 'Source-list context: Listed in awesome-mcp-servers under ''Official Servers'' with the same description'
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

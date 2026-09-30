@@ -65,17 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity here: Arbitova ships an MCP server as its primary integration surface for agent-to-agent
-    payments, with SDKs as secondary artifacts.
+  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
   evidence:
-    - Repo description explicitly lists 'MCP server' as a core component
-    - README shows MCP server as the primary integration path (Claude/any MCP client example first)
-    - Source-list context places it in 'Server Implementations > Finance & Fintech' for MCP servers
+    - jev-latest choice confidence 0.69
 placement:
-  primary_category: mcp
+  primary_category: decision-models
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null

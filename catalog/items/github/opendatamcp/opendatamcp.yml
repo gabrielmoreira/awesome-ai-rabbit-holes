@@ -78,15 +78,12 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is providing MCP servers and a CLI to connect open datasets to LLMs, making it a clear
-    fit for MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''Connect any Open Data to any LLM with Model Context Protocol.'''
-    - 'README: ''Setup our MCP servers in your LLM application in 2 clicks via our CLI tool (starting with Claude).'''
-    - Included in awesome-mcp-list and awesome-mcp-servers under Customer Data Platforms / Server Implementations.
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Middleware & Generic
 lifecycle:
   status: curated

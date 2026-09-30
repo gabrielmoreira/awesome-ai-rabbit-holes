@@ -102,13 +102,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core value is context optimization (compression, selection, and memory) rather than just providing
-    extra tools to a host assistant.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
   evidence:
-    - Claims to cut Claude/OpenAI/Gemini bills by 70–95% via context compression
-    - Provides an auditable context control plane with features like 'Select', 'Verify', and 'Memory OS'
-    - Acts as a local-first proxy/drop-in for existing tools like Cursor and Aider
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: memory-and-context
   secondary_categories: []

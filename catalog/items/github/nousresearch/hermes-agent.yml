@@ -101,15 +101,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Hermes Agent is a standalone terminal-native coding assistant with its own learning loop, skill creation, and
-    multi-platform gateway, making it a primary agent rather than an extension or integration layer.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - >-
-      Repo description states 'The agent that grows with you' and README identifies it as 'The self-improving AI agent
-      built by Nous Research'.
-    - Source list places it in 'Terminal-native coding agents > Open Source' alongside Pi, OpenCode, Aider, and Goose.
-    - Active development with pushed_at 2026-05-06 and 135,819 stars indicates strong ecosystem traction.
+    - jev-latest choice confidence 0.94
 placement:
   primary_category: coding-agents
   secondary_categories: []

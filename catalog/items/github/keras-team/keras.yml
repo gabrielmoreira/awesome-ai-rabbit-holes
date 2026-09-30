@@ -69,15 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Keras 3 is a code-first deep learning framework/SDK, not a coding assistant, IDE, or orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Training & Model Infrastructure
   evidence:
-    - 'Repo description: ''Deep Learning for humans'''
-    - 'README: ''Keras 3 is a multi-backend deep learning framework'' with backend support for JAX, TensorFlow, PyTorch'
-    - 'Source-list context: Listed under ''Training > Frameworks for Training'' in Awesome-LLMOps'
+    - jev-latest choice confidence 0.93
 placement:
-  primary_category: local-ai
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Fine-tuning & Training
+  section: Training & Model Infrastructure
 lifecycle:
   status: curated
   reason: Stars (64060) exceeded threshold (150)

@@ -93,15 +93,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server that gives agents wallet capabilities, placing it squarely in MCP
-    domain servers rather than as a generic extension or framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states 'MCP Server for Lightning Faucet - Give your AI agent a Bitcoin wallet'.
-    - >-
-      README promotes both MCP server mode for Claude Code/Cursor and a standalone CLI, with MCP configuration examples
-      front and center.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []

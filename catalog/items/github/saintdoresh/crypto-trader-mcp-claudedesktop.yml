@@ -62,15 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's identity is specifically an MCP server implementation designed to give Claude Desktop access to
-    financial data via the CoinGecko API.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description explicitly states: 'An MCP (Model Context Protocol) tool that provides cryptocurrency market
-      data... specifically designed for Claude Desktop.'
-    - README details 'Integration with Claude Desktop' via MCP configuration settings.
-    - Listed in 'awesome-mcp-servers' under the 'Finance & Fintech' section.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

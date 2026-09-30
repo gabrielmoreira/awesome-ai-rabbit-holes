@@ -60,15 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server providing domain-specific tools, making MCP its core identity rather than a
-    compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''stdio MCP wrapper for x402.tunedfor.ai'''
-    - >-
-      README: 'x402-mcp is a stdio MCP server that exposes [x402.tunedfor.ai] as 7 tools any MCP-compatible client can
-      call'
-    - Listed in awesome-mcp-servers under Finance & Fintech > Server Implementations
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

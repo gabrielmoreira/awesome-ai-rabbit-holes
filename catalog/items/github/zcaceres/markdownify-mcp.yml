@@ -83,19 +83,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is an MCP server whose primary function is file and content conversion to Markdown, making MCP its core
-    identity rather than a secondary feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''A Model Context Protocol server for converting almost anything to Markdown'''
-    - >-
-      README states: 'Markdownify is a Model Context Protocol (MCP) server that converts various file types and web
-      content to Markdown format'
-    - Source-list context shows inclusion in awesome-mcp-servers under 'Server Implementations'
+    - jev-latest choice confidence 0.65
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Communication, Files & Productivity
 lifecycle:
   status: curated
   reason: Stars (2675) exceeded threshold (150)

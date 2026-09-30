@@ -56,15 +56,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    APIFold is an MCP server generator that turns OpenAPI specs into live MCP endpoints, making MCP the core product
-    identity rather than an extension or compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - 'Repo description: ''Turn any REST API into an MCP server. No code required.'''
-    - >-
-      README: 'APIFold reads an OpenAPI 3.x or Swagger 2.x specification and generates a live, production-ready MCP
-      server endpoint.'
-    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Aggregators'
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []

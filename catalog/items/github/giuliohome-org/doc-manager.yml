@@ -75,13 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's core identity is an MCP server providing a specific capability (document vaulting) to an assistant,
-    rather than being the assistant itself.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - README explicitly identifies as an 'MCP server'
-    - Provides a set of MCP tools like `list_documents` and `search_documents`
-    - Identity is centered on the Model Context Protocol implementation
+    - jev-latest choice confidence 0.52
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -71,17 +71,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool provides an MCP server as a core interface for agents to interact with email safely, making it a
-    specialized tool for the MCP ecosystem.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Provides an MCP server for Claude Desktop and Cursor
-    - Offers SDKs for JS and Python to integrate guardrails into agent workflows
-    - Implements a human-in-the-loop pattern (request_human_confirmation)
+    - jev-latest choice confidence 0.58
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: null

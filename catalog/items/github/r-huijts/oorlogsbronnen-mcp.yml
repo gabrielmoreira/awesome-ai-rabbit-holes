@@ -62,19 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server providing domain-specific access to a historical archive API, matching the 'Domain Servers'
-    section under MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Repo description explicitly states 'MCP server for accessing Dutch World War II archives through the
-      Oorlogsbronnen API.'
-    - Installation instructions focus on configuring it as an MCP server within Claude Desktop.
-    - Listed in awesome-mcp-servers under the 'Art & Culture' domain servers section.
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

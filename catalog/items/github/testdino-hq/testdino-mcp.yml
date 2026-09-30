@@ -62,13 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is a Model Context Protocol server that bridges a specific domain platform (TestDino) to
-    MCP-compatible agents, fitting the MCP Servers category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description explicitly states: ''A MCP server that bridges TestDino with AI agents'''
-    - README confirms 'Built on the Model Context Protocol standard' with 13 domain-specific tools for test management
-    - Listed in awesome-mcp-servers under 'Developer Tools', reinforcing its MCP infrastructure identity
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: mcp
   secondary_categories: []

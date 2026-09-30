@@ -62,17 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server providing domain-specific data tools and workflow prompts, fitting cleanly as a
-    domain-specific MCP server rather than a framework, extension, or assistant.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - README explicitly describes it as serving data 'via the Model Context Protocol'
-    - Includes multiple MCP configuration examples for Claude Desktop and Cline
-    - Listed in awesome-mcp-servers under Server Implementations > Legal
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

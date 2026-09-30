@@ -101,17 +101,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It functions as an operated workbench and control plane for multi-agent coordination, offering a no-code builder and
-    multi-tenant deployment capabilities.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
   evidence:
-    - README defines it as a no-code platform for building generative AI agents and workflows.
-    - Supports multi-model chaining and connecting agents to internal data and business processes.
-    - Includes deployment options for cloud or on-premise, indicating a platform/control plane identity.
+    - jev-latest choice confidence 0.76
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Visual Builders & Workbenches
+  section: Hosted Agent Platforms
 lifecycle:
   status: curated
   reason: Stars (2296) exceeded threshold (150)

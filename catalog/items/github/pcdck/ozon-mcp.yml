@@ -73,13 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's identity is an MCP server for a specific domain (Ozon e-commerce), fitting cleanly into MCP Servers &
-    Tooling as a domain-specific implementation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'MCP-сервер для Ozon Seller API' (MCP server for Ozon Seller API).
-    - README confirms it is a 'knowledge-rich MCP server' using FastMCP to expose 466 API methods as tools.
-    - Listed in awesome-mcp-servers under 'E-Commerce' section, confirming its ecosystem identity.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []

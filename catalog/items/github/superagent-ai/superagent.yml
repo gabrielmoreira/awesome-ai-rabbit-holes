@@ -69,19 +69,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a code-first SDK, CLI, and set of open-weight models that developers import or script against to add
-    safety checks, redaction, and scanning to AI apps.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - Repo description explicitly calls it an SDK for blocking prompt injections, redacting PII, and scanning repos.
-    - README emphasizes TypeScript and Python SDK usage, a CLI, and self-hosted open-weight guard models (0.6B–4B).
-    - >-
-      Integration table lists SDK, CLI, and MCP as options, with the SDKs positioned as the primary developer-facing
-      surface.
+    - jev-latest choice confidence 0.57
 placement:
-  primary_category: evals
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Safety, Fairness & Red-teaming
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (6578) exceeded threshold (150)

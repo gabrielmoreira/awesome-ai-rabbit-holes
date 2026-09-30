@@ -83,13 +83,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose explicit identity is exposing document-conversion primitives to AI agents,
-    fitting cleanly into MCP Servers & Tooling rather than a generic extension category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - Repo description and README brand it exclusively as a 'Model Context Protocol (MCP) server' for file conversion.
-    - Listed in awesome-mcp-servers under File Systems, confirming its accepted role as MCP infrastructure.
-    - 'Archived: no and recently pushed (2026-06-19), though it is very new with 0 stars.'
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

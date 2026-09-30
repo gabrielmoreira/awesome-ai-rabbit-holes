@@ -77,17 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP-first server whose primary identity is providing YouTube transcript retrieval as an MCP-compatible
-    tool.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states it is an MCP server for YouTube transcripts
-    - README details MCP tool calls, Smithery/Claude Desktop integration, and MCP Inspector usage
-    - Listed in multiple MCP-focused directories (awesome-mcp-list, awesome-mcp-servers)
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: Stars (534) exceeded threshold (150)

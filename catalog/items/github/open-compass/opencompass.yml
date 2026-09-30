@@ -70,15 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job of the project is measuring, scoring, and comparing model behavior across standard and custom
-    benchmarks, fitting the Evals category perfectly.
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - Repo description explicitly identifies it as an 'LLM evaluation platform' over 100+ datasets.
-    - >-
-      README highlights evaluation of specific models (DeepSeek-R1, Intern-S1) and features like 'CascadeEvaluator' and
-      'MATHVerifyEvaluator'.
-    - Listed in awesome-LLM-resources under the '评估 Evaluation' section.
+    - jev-latest choice confidence 0.92
 placement:
   primary_category: evals
   secondary_categories: []

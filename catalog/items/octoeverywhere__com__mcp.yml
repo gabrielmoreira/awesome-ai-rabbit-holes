@@ -50,20 +50,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server exposing 3D printer control and monitoring capabilities, making MCP its
-    primary purpose rather than an add-on feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Described as a 'Free, private, and secure remote AI MCP server for 3D printing' in both source-list and scraped
-      context.
-    - >-
-      Explicitly markets connecting 'Any AI Assistant To Your 3D Printer' via MCP, supporting Claude, ChatGPT, Gemini,
-      Grok, Deepseek, and local AIs.
+    - jev-latest choice confidence 0.89
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

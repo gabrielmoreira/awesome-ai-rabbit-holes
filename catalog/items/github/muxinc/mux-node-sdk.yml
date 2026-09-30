@@ -65,17 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The primary artifact is a code-first SDK and API wrapper for the Mux platform, with an MCP server bundled as a
-    secondary integration feature.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
-    - 'Repo description: ''Official Mux API wrapper for Node projects, supporting both Mux Data and Mux Video.'''
-    - README shows primary usage as `import Mux from '@mux/mux-node'` with TypeScript types and REST API access.
-    - 'MCP server is presented as an add-on: ''Use the Mux MCP Server to enable AI assistants to interact with this API.'''
+    - jev-latest choice confidence 0.73
 placement:
-  primary_category: mcp
+  primary_category: ai-frameworks
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Provider & Model Abstractions
 lifecycle:
   status: curated
   reason: Stars (179) exceeded threshold (150)

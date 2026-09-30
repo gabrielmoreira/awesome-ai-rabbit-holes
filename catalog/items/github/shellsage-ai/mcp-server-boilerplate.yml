@@ -59,17 +59,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product identity is a starter kit and set of templates specifically for building MCP servers, which fits
-    squarely into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description states: ''Production-ready MCP server templates in TypeScript and Python.'''
-    - README defines it as 'starter templates for building Model Context Protocol servers' with SDK examples.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

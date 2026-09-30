@@ -60,17 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server that exposes macOS system monitoring capabilities as structured tools, making MCP the clear
-    product identity rather than a compatibility footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      README title and overview explicitly define it as 'A Model Context Protocol (MCP) server' for macOS resource
-      monitoring.
-    - Source list context places it in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
-    - >-
-      Exposes three MCP tools (get_resource_intensive_processes, get_processes_by_category, get_system_overview)
-      returning structured JSON for LLM clients.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

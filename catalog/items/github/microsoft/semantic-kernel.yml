@@ -113,13 +113,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Semantic Kernel is primarily a code-first SDK for embedding AI agents into applications, matching the Frameworks &
-    SDKs category’s focus on importable libraries rather than operated platforms or assistants.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - README describes it as a 'model-agnostic SDK that empowers developers to build, orchestrate, and deploy AI agents'
-    - Installation via pip, dotnet add package, and Java SDK shows it is designed to be imported into developer code
-    - Source lists place it in 'AI Frameworks and SDKs' and 'Other LLM Frameworks' sections
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

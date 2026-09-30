@@ -78,13 +78,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    This is a purpose-built MCP server where the protocol is the primary product identity, fitting cleanly into
-    domain-specific server infrastructure for location services.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly identifies as 'Geocoding MCP server'
-    - Built with FastMCP framework and exposes geocoding tools to LLMs per README
-    - Listed in awesome-mcp-servers and awesome-mcp-list under Location Services sections
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

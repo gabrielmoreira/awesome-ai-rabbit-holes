@@ -77,21 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Cloudwright turns natural-language prompts into deployable infrastructure code and diagrams, making it a
-    prompt-to-infrastructure builder rather than a coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Scaffolding & Boilerplate
   evidence:
-    - >-
-      Repo description: 'AI-powered cloud architecture - describe infrastructure in natural language, get Terraform,
-      cost estimates, and compliance reports'
-    - >-
-      README: 'Prompt to spec, cost breakdown, compliance check, and Terraform in one pass' and 'cloudwright design
-      "HIPAA healthcare API on AWS with Postgres and Redis"'
-    - Generates Terraform, Pulumi, CloudFormation, diagrams, and compliance reports from a single CLI command
+    - jev-latest choice confidence 0.66
 placement:
-  primary_category: mcp
+  primary_category: app-builders
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Scaffolding & Boilerplate
 lifecycle:
   status: curated
   reason: null

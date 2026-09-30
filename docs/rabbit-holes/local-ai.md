@@ -7,21 +7,13 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
 ## Contents
 
-- [Inference Engines](#inference-engines) — 32
-- [Local API Servers](#local-api-servers) — 14
-- [Desktop Chat & UIs](#desktop-chat--uis) — 31
-- [Fine-tuning & Training](#fine-tuning--training) — 28
+- [Inference Engines](#inference-engines) — 38
+- [Local API Servers](#local-api-servers) — 18
+- [Desktop Chat & UIs](#desktop-chat--uis) — 36
+- [Fine-tuning & Training](#fine-tuning--training) — 13
 
 ## Inference Engines
 
-- **[Ollama](https://github.com/ollama/ollama)** `⭐ 176.5k` `updated ≤90d` Ollama is a local runtime and serving stack for downloading, running, and managing open-weight LLMs via a simple CLI and REST API on macOS, Windows, Linux, and Docker. <details><summary>More about</summary>
-
-  It gives developers a one-command way to run private, local models and wire them into coding agents like Claude Code, Codex, and Copilot CLI without sending code to external APIs.
-
-  _You now have 170,000 stars worth of justification to run a 70B model locally, immediately discovering that your laptop was never the bottleneck, your prompts were._
-
-  `local-ai` `llm` `cli` `self-hosted` `inference`
-  </details>
 - **[llama.cpp](https://github.com/ggml-org/llama.cpp)** 🔥 `⭐ 126.8k` `updated ≤30d` High-performance LLM inference engine written in C/C++ designed for local execution. <details><summary>More about</summary>
 
   It enables developers to run large language models on consumer-grade hardware with high efficiency through quantization.
@@ -46,13 +38,13 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `speech-to-text` `inference` `whisper` `c-cpp` `local-ai`
   </details>
-- **[chatglm-6b](https://github.com/zai-org/chatglm-6b)** `⭐ 41k` `updated >1y` ChatGLM-6B is an open-source bilingual dialogue language model with 6.2B parameters for local deployment and fine-tuning. <details><summary>More about</summary>
+- **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** `⭐ 32.3k` `updated ≤90d` ZeroClaw is a Rust-based autonomous AI personal assistant runtime that runs locally, connects to multiple LLM providers and communication channels, and executes actions via tools including shell, browser, hardware, and MCP servers. <details><summary>More about</summary>
 
-  It lets developers run and customize a capable LLM locally on modest hardware for research or application building.
+  It gives developers a fully self-hosted, extensible agent they can own and customize for automating workflows across desktop, terminal, and hardware without relying on hosted assistants.
 
-  _Another model repo that makes you feel guilty for not quantizing it and running llama.cpp instead._
+  _Another 'own your agent' pitch that makes you wonder if you're escaping vendor lock-in just to become your own DevOps team._
 
-  `local-ai` `llm` `open-source`
+  `ai-agent` `local-ai` `autonomous` `cli-tool` `rust`
   </details>
 - **[SGLang](https://github.com/sgl-project/sglang)** `⭐ 30.5k` `updated ≤90d` SGLang is a high-performance serving framework for running and scaling large language models and multimodal models locally or in infrastructure. <details><summary>More about</summary>
 
@@ -61,6 +53,22 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _Yet another carefully tuned inference stack to master while you wait for the one model that finally makes your local GPU stop sounding like a jet engine._
 
   `llm` `inference` `local-ai` `serving` `multimodal`
+  </details>
+- **[NanoClaw](https://github.com/nanocoai/nanoclaw)** `⭐ 30.3k` `updated ≤90d` Nanoclaw is a lightweight, container-isolated AI assistant that connects to messaging apps and runs on Anthropic's Agents SDK for secure personal automation. <details><summary>More about</summary>
+
+  It gives developers a secure, understandable AI agent they can self-host and customize to interact with personal messaging platforms without trusting large opaque systems.
+
+  _Finally, an AI assistant that runs in Docker so you can blame the container when it messages your boss instead of you._
+
+  `ai-agent` `claude-code` `cli` `containerized` `containers` `messaging` `messaging-bridge` `personal-automation` `self-hosted`
+  </details>
+- **[PicoClaw](https://github.com/sipeed/picoclaw)** `⭐ 29.7k` `updated ≤90d` PicoClaw is an ultra-lightweight, self-bootstrapping AI assistant written in Go that runs on $10 hardware with less than 10MB of RAM. <details><summary>More about</summary>
+
+  It enables developers to run a self-hosted, multi-provider AI agent on edge devices or low-spec servers, supporting CLI, Android, and multiple messaging channels.
+
+  _Just when you thought your MacBook Pro was the minimum viable hardware for an AI agent, a 10MB Go binary arrives to make your cooling fans feel personally insulted._
+
+  `go` `edge-ai` `low-resource` `self-hosted` `cli-agent`
   </details>
 - **[AirLLM](https://github.com/lyogavin/airllm)** `⭐ 25.9k` `updated ≤90d` AirLLM enables running 70B parameter large language models on a single 4GB GPU using memory optimization techniques. <details><summary>More about</summary>
 
@@ -86,13 +94,13 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `llm` `coding-model` `local-ai` `qwen` `open-weight`
   </details>
-- **[TensorRT-LLM](https://github.com/nvidia/tensorrt-llm)** `⭐ 14.2k` `updated ≤90d` TensorRT LLM is a Python and C++ framework from NVIDIA for defining, optimizing, and serving Large Language Models with specialized kernels and efficient runtimes on NVIDIA GPUs. <details><summary>More about</summary>
+- **[IronClaw](https://github.com/nearai/ironclaw)** `⭐ 12.5k` `updated ≤90d` IronClaw is an open-source, Rust-based personal AI agent OS that runs locally with WASM sandboxing, persistent memory, and multi-channel interfaces for secure task automation. <details><summary>More about</summary>
 
-  It allows developers to squeeze maximum inference performance out of NVIDIA hardware for LLMs and Visual Gen models through state-of-the-art optimizations and distributed serving strategies.
+  It offers developers a self-hosted alternative to cloud-bound assistants with strong security guarantees, dynamic tool building, and local data control.
 
-  _Nothing says 'I enjoy my job' quite like spending three days tuning CUDA graph batch sizes just to shave 40 milliseconds off a token that nobody asked for._
+  _Yet another local AI agent promising you the moon, so you can happily spend your weekend tweaking PostgreSQL pgvector indexes instead of actually shipping code._
 
-  `inference` `nvidia` `llm-serving` `cuda` `optimization`
+  `local-ai` `agent-os` `security` `rust` `wasm`
   </details>
 - **[koboldcpp](https://github.com/lostruins/koboldcpp)** `⭐ 11.3k` `updated ≤90d` KoboldCpp is a single-file executable for running GGUF models with a KoboldAI-inspired UI and multi-modal capabilities. <details><summary>More about</summary>
 
@@ -117,14 +125,6 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _Finally, a way to pretend your RTX 4090 is a datacenter while your fan sounds like a jet taking off._
 
   `local-ai` `inference` `moe`
-  </details>
-- **[Kserve](https://github.com/kserve/kserve)** `⭐ 5.7k` `updated ≤90d` Standardized distributed generative and predictive AI inference platform for scalable, multi-framework deployment on Kubernetes. <details><summary>More about</summary>
-
-  It provides a unified, Kubernetes-native way to deploy and scale both generative and predictive AI models with advanced features like autoscaling, GPU acceleration, and model explainability.
-
-  _Because nothing says 'simple deployment' like a Kubernetes-based inference platform with canary rollouts, inference pipelines, and KV cache offloading._
-
-  `kubernetes` `model-serving` `inference` `mlops` `genai`
   </details>
 - **[GPUStack](https://github.com/gpustack/gpustack)** `⭐ 5.6k` `updated ≤30d` gpustack is a GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment. <details><summary>More about</summary>
 
@@ -158,6 +158,14 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `llm-inference` `lora` `model-serving` `local-ai` `llmops`
   </details>
+- **[luotuo-chinese-llm](https://github.com/lc1332/luotuo-chinese-llm)** `⭐ 3.6k` `updated >1y` Luotuo is an open-source Chinese large language model project that includes base models, embeddings, QA, and derivative applications. <details><summary>More about</summary>
+
+  Provides developers with Chinese-language LLMs and related tooling for building or adapting Chinese AI applications.
+
+  _Yet another Chinese LLM project where the real challenge is explaining why this isn’t just another Llama fork with a camel theme._
+
+  `chinese-llm` `open-source-model` `local-ai`
+  </details>
 - **[ExLlama](https://github.com/turboderp/exllama)** `⭐ 2.9k` `updated >1y` ExLlama is a memory-efficient CUDA-based implementation of Llama for running 4-bit quantized weights on modern NVIDIA GPUs. <details><summary>More about</summary>
 
   It enables developers to run large language models locally with lower VRAM usage, making on-device inference more accessible.
@@ -165,6 +173,14 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _The quiet relief of fitting a 7B model in 12GB VRAM, followed by the dread of realizing you still need to fine-tune it._
 
   `local-ai` `inference` `cuda` `quantization`
+  </details>
+- **[Moltis](https://github.com/moltis-org/moltis)** `⭐ 2.8k` `updated ≤90d` A secure, persistent personal agent server written in Rust that runs as a single binary with sandboxed execution, multi-provider LLM support, voice capabilities, memory, messaging integrations, and MCP tooling. <details><summary>More about</summary>
+
+  Developers can run a self-contained, auditable AI agent on their own hardware with built-in memory, sandboxing, and messaging integrations without relying on Node.js or complex plugin ecosystems.
+
+  _Yet another personal agent runtime promising you'll finally self-host your way out of context-window anxiety, this time in Rust, because apparently the 47th agent server was missing memory and a Telegram bridge._
+
+  `rust` `self-hosted` `personal-agent` `mcp` `sandbox`
   </details>
 - **[HunyuanOCR](https://github.com/tencent-hunyuan/hunyuanocr)** `⭐ 1.9k` `updated ≤90d` HunyuanOCR is a 1B parameter vision-language model from Tencent for end-to-end OCR, supporting document parsing, multilingual text extraction, and image-to-text translation. <details><summary>More about</summary>
 
@@ -198,14 +214,7 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `distributed-inference` `llm-serving` `p2p` `gpu-cluster` `self-hosted`
   </details>
-- **[MInference](https://github.com/microsoft/minference)** `⭐ 1.2k` `updated ≤180d` MInference is a Microsoft library that accelerates long-context LLM inference using dynamic sparse attention to reduce latency by up to 10x on hardware like A100 while preserving accuracy. <details><summary>More about</summary>
-
-  It lets developers run long-context models faster and cheaper without sacrificing quality, improving throughput for RAG, agents, and code understanding workflows.
-
-  _Another layer of optimization to chase before realizing your prompt engineering still can't fit the whole codebase in context._
-
-  `inference` `optimization` `long-context`
-  </details>
+- **[whisper-ctranslate2](https://github.com/softcatala/whisper-ctranslate2)** `⭐ 1.3k` `updated ≤1y` Whisper command line client compatible with original OpenAI client based on CTranslate2.
 - **[llama2.rs](https://github.com/srush/llama2.rs)** `⭐ 1.1k` `updated >1y` A fast, pure-Rust implementation of the Llama 2 inference decoder for running quantized models locally on CPU. <details><summary>More about</summary>
 
   It gives developers a lightweight, Python-callable way to run 70B models locally with SIMD and memory mapping without touching a GPU or a heavy framework.
@@ -230,40 +239,39 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `llm-inference` `local-ai` `performance` `cuda` `optimization`
   </details>
-- **[DashInfer](https://github.com/modelscope/dash-infer)** `⭐ 273` `updated >1y` DashInfer is a high-performance, C++-based LLM inference engine with C++ and Python APIs, optimized for CUDA, x86, and ARMv9 hardware architectures. <details><summary>More about</summary>
+- **[BlockAGI](https://github.com/orgexyz/blockagi)** `⭐ 320` `updated >1y` blockagi is a self-hosted, hackable research agent inspired by AutoGPT, designed for autonomous task execution using LLMs. <details><summary>More about</summary>
 
-  It allows developers to deploy optimized local LLM inference with features like continuous batching and quantized caching across diverse hardware without heavy dependencies.
+  It offers developers a customizable foundation for building autonomous agents that can plan, browse, and act on goals without constant supervision.
 
-  _Just what the ecosystem needed: another highly optimized inference engine to evaluate while your existing vLLM setup is already quietly burning through your GPU budget._
+  _Another AutoGPT clone promising full autonomy while quietly requiring constant prompt engineering and API key management._
 
-  `llm-inference` `local-ai` `cpp` `cuda` `performance`
-  </details>
-- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 209` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
-
-  It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
-
-  _Because what started as 'I don't want to send data to OpenAI' inevitably becomes 'I now operate a mini OpenAI-compatible platform on Kubernetes with circuit breakers for PII and a metal-agent binary running on my MacBook.'._
-
-  `kubernetes` `local-inference` `self-hosted` `gpu-serving` `llm-operator`
-  </details>
-- **[ClawFleet](https://github.com/clawfleet/clawfleet)** `⭐ 173` `updated ≤180d` ClawFleet is a self-hosted Docker-based fleet manager for running isolated instances of AI agents like OpenClaw and Hermes with a browser dashboard. <details><summary>More about</summary>
-
-  It lets developers run and manage multiple local AI agents without cloud costs, using their own API keys and hardware.
-
-  _Finally, a way to feel like a Silicon Valley CEO by orchestrating a fleet of AI interns from your laptop’s terminal._
-
-  `self-hosted` `docker` `ai-agents` `fleet-management`
+  `ai-agent` `autogpt` `self-hosted`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+2 more in Inference Engines &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+8 more in Inference Engines &nbsp;—&nbsp; click to expand</strong></summary>
 
+- **[DashInfer](https://github.com/modelscope/dash-infer)** `⭐ 273` `updated >1y` DashInfer is a high-performance, C++-based LLM inference engine with C++ and Python APIs, optimized for CUDA, x86, and ARMv9 hardware architectures.
+- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 209` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API.
+- **[ClawFleet](https://github.com/clawfleet/clawfleet)** `⭐ 173` `updated ≤180d` ClawFleet is a self-hosted Docker-based fleet manager for running isolated instances of AI agents like OpenClaw and Hermes with a browser dashboard.
 - **[How Much VRAM](https://github.com/alexbodner/how_much_vram)** `⭐ 101` `updated >1y` A web tool that estimates VRAM requirements for running local LLMs based on model parameters and configuration.
+- **[LLMHub](https://github.com/jmather/llmhub)** `⭐ 9` `updated >1y` LLMHub is a lightweight CLI and REST API platform for managing, starting, stopping, and interacting with multiple language models.
+- **[musharna/jobd](https://github.com/musharna/jobd)** `⭐ 3` `updated ≤90d` Self-hostable GPU-aware job broker for personal machines with native MCP/agent integration.
 - **[FireworksAI](https://fireworks.ai)** Fireworks.ai provides fast inference for generative AI models, including open-source LLMs and image models, with optional fine-tuning and deployment capabilities.
+- **[H2OAI](https://h2o.ai)** An end-to-end generative and predictive AI platform designed for air-gapped, on-premises, and private cloud environments.
 
 </details>
 
 ## Local API Servers
 
+- **[Ollama](https://github.com/ollama/ollama)** `⭐ 176.5k` `updated ≤90d` Ollama is a local runtime and serving stack for downloading, running, and managing open-weight LLMs via a simple CLI and REST API on macOS, Windows, Linux, and Docker. <details><summary>More about</summary>
+
+  It gives developers a one-command way to run private, local models and wire them into coding agents like Claude Code, Codex, and Copilot CLI without sending code to external APIs.
+
+  _You now have 170,000 stars worth of justification to run a 70B model locally, immediately discovering that your laptop was never the bottleneck, your prompts were._
+
+  `local-ai` `llm` `cli` `self-hosted` `inference`
+  </details>
+- **[Private GPT](https://github.com/zylon-ai/private-gpt)** `⭐ 57.4k` `updated ≤90d` Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.
 - **[LocalAI](https://github.com/mudler/localai)** `⭐ 48.2k` `updated ≤90d` LocalAI is an open-source local inference engine that runs LLMs, vision, voice, and image models on any hardware with drop-in OpenAI and Anthropic API compatibility. <details><summary>More about</summary>
 
   It lets developers run a private, local AI stack that behaves like OpenAI or Anthropic APIs, making it easy to test, build, and deploy without sending data to external providers.
@@ -272,13 +280,13 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `local-ai` `inference` `self-hosted` `api-compatible` `open-source`
   </details>
-- **[textgen](https://github.com/oobabooga/textgen)** `⭐ 47.5k` `updated ≤180d` An open-source desktop application for running local LLMs with support for text, vision, tool-calling, and OpenAI/Anthropic-compatible APIs. <details><summary>More about</summary>
+- **[Tabby](https://github.com/tabbyml/tabby)** `⭐ 33.8k` `updated ≤180d` Tabby is a self-hosted, open-source AI coding assistant that runs locally or on-premises to provide code completion and chat capabilities similar to GitHub Copilot. <details><summary>More about</summary>
 
-  It provides developers with a private, drop-in API server and UI to run and test models locally without telemetry or cloud dependencies.
+  It allows teams to run AI-assisted coding entirely within their own infrastructure, supporting consumer-grade GPUs and integrating directly into IDEs without relying on third-party cloud services.
 
-  _Nothing says 'I am optimizing my token spend' quite like downloading 40GB of weights just to see if a 7B model can debug a missing semicolon._
+  _Finally, you can spend three days configuring a self-hosted inference stack just to recreate the experience of typing half a line of code before the model suggests the other half._
 
-  `local-ai` `llm` `self-hosted` `desktop-app` `api`
+  `self-hosted` `coding-assistant` `local-ai` `ide-integration` `on-premises`
   </details>
 - **[clip-as-service](https://github.com/jina-ai/clip-as-service)** `⭐ 12.8k` `updated >1y` clip-as-service is a scalable inference service for generating multimodal embeddings using the CLIP model for images and text. <details><summary>More about</summary>
 
@@ -336,6 +344,7 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `inference-server` `llama-cpp` `local-llm` `macos` `openai-api` `openai-compatible` `self-hosted`
   </details>
+- **[OpenModelZ](https://github.com/tensorchord/openmodelz)** `⭐ 281` `updated >1y` Autoscale LLM (vLLM, SGLang, LMDeploy) inferences on Kubernetes (and others).
 - **[Modelz-LLM](https://github.com/tensorchord/modelz-llm)** `⭐ 276` `updated >1y` An OpenAI-compatible API server for running self-hosted open-source LLMs like LLaMA and ChatGLM locally or in the cloud. <details><summary>More about</summary>
 
   It lets developers swap OpenAI's hosted API for a local or self-managed inference endpoint without changing their existing SDK or LangChain code.
@@ -345,6 +354,14 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   `local-ai` `inference` `openai-compatible` `self-hosted` `llm-serving`
   </details>
 - **[donvito/ai-backends](https://github.com/donvito/ai-backends)** `⭐ 147` `updated ≤30d` API server runtime for common AI use cases — supports multiple models and providers. Run locally with Ollama or LM Studio, or in the cloud via OpenRouter, OpenAI, Anthropic, or Google.
+- **[Shell-Pilot](https://github.com/reid41/shell-pilot)** `⭐ 116` `updated >1y` A pure shell script that lets developers interact with OpenAI, Ollama, Mistral, Anthropic, and other LLMs directly from the terminal to generate and run commands, manage system tasks, and maintain chat context without external dependencies. <details><summary>More about</summary>
+
+  It gives developers a zero-dependency, local-first CLI bridge to multiple LLM providers for on-terminal command generation, system management, and interactive coding chat.
+
+  _Another proud monument to the modern developer condition: writing a 200-line shell script with jq just to avoid leaving the terminal to ask an AI what the grep flags do._
+
+  `cli` `local-ai` `shell` `llm` `terminal`
+  </details>
 - **[AI-Mask](https://github.com/pacwoodson/ai-mask)** `⭐ 32` `updated >1y` A Chrome extension that acts as a local AI inference provider, caching models once in the browser and serving them to compatible web apps via an SDK. <details><summary>More about</summary>
 
   It lets developers build web apps with free, private, on-device inference while avoiding repeated multi-gigabyte model downloads per domain.
@@ -353,21 +370,14 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `local-ai` `chrome-extension` `webgpu` `inference` `sdk`
   </details>
-- **[LLMHub](https://github.com/jmather/llmhub)** `⭐ 9` `updated >1y` LLMHub is a lightweight CLI and REST API platform for managing, starting, stopping, and interacting with multiple language models. <details><summary>More about</summary>
+- **[openagentemail/openagentemail](https://github.com/openagentemail/openagentemail)** openagentemail/openagentemail - Self-hosted email for AI agents: unlimited mailboxes on your own domain with a single docker compose up. OTP and verification-link extraction built in, long-poll mail_wait_for, read/unread state, plus a web dashboard for humans. Install with npx -y @openagentemail/mcp.
+- **[OpenCSG](https://opencsg.com)** OpenCSG is a hybrid Hugging Face–style platform offering CSGHub for enterprise open-source model hosting and CSGShip for AgenticOps intelligent agent construction. <details><summary>More about</summary>
 
-  It lets developers run and switch between different LLMs with varying configurations and context sizes without manual setup overhead.
+  It provides infrastructure for developers to self-host model ecosystems and build agent workflows without relying on proprietary cloud platforms.
 
-  _Because nothing says 'productivity' like spending an afternoon configuring yet another LLM runtime._
+  _Another ‘open alternative’ to Hugging Face that forces you to evaluate whether yet another platform lock-in is worth avoiding the original lock-in._
 
-  `llm-management` `cli` `rest-api` `local-inference`
-  </details>
-- **[Gemma](https://kaggle.com/models/google/gemma)** Gemma is a family of lightweight, open language models released by Google via Kaggle Models. <details><summary>More about</summary>
-
-  Provides developers with accessible, compact models for local fine-tuning and inference without relying on proprietary APIs.
-
-  _Another model drop that promises efficiency but still requires you to wrestle with quantization and VRAM limits to run locally._
-
-  `open-model` `local-ai` `google`
+  `agent-ops` `model-hosting` `enterprise-ai`
   </details>
 
 ## Desktop Chat & UIs
@@ -404,6 +414,14 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `local-ai` `chatbot` `cost-effective` `self-hosted`
   </details>
+- **[textgen](https://github.com/oobabooga/textgen)** `⭐ 47.5k` `updated ≤180d` An open-source desktop application for running local LLMs with support for text, vision, tool-calling, and OpenAI/Anthropic-compatible APIs. <details><summary>More about</summary>
+
+  It provides developers with a private, drop-in API server and UI to run and test models locally without telemetry or cloud dependencies.
+
+  _Nothing says 'I am optimizing my token spend' quite like downloading 40GB of weights just to see if a 7B model can debug a missing semicolon._
+
+  `local-ai` `llm` `self-hosted` `desktop-app` `api`
+  </details>
 - **[Jan](https://github.com/janhq/jan)** `⭐ 43.8k` `updated ≤90d` Jan is an open-source, offline-first desktop application for running and interacting with LLMs locally or via cloud providers. <details><summary>More about</summary>
 
   Developers can run, fine-tune, and deploy LLMs on their own hardware with full privacy control, or integrate with cloud models via a unified interface.
@@ -419,6 +437,14 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _Now you can run a full hybrid-search RAG stack on your laptop and still find a way to blame the context window when the answer is mediocre._
 
   `local-ai` `rag` `private` `documents` `ollama`
+  </details>
+- **[QAnything](https://github.com/netease-youdao/qanything)** `⭐ 14k` `updated >1y` QAnything is a local, self-hosted knowledge base question-answering system that ingests files and web links to provide offline document retrieval and Q&A. <details><summary>More about</summary>
+
+  Developers can deploy it locally to index technical documentation, codebases, and internal knowledge without sending data to external LLM APIs.
+
+  _Finally, a way to ask your 400-page PDF specifications questions, while quietly wondering if the real RAG was the context tokens we burned along the way._
+
+  `rag` `local-ai` `knowledge-base` `document-qa`
   </details>
 - **[enchanted](https://github.com/gluonfield/enchanted)** `⭐ 6k` `updated ≤90d` Enchanted is an open-source iOS/macOS/visionOS app for chatting with private, self-hosted language models via Ollama. <details><summary>More about</summary>
 
@@ -518,9 +544,12 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   </details>
 - **[baiyuscc13724-max/deepseek-harness-desktop](https://github.com/baiyuscc13724-max/deepseek-harness-desktop)** `⭐ 10` `updated ≤30d` DeepSeek Harness 中文 Windows 桌面版：女仆鲸桌宠、主题、插件市场、模型路由与安全更新。.
 - **[amanadhav/traderai](https://github.com/amanadhav/traderai)** `⭐ 4` `updated ≤30d` Self-hosted AI trading intelligence platform - scoring engine, two-model AI analyst (Claude + TypeSafe Jev), risk engine, discipline guardian, backtester, React dashboard.
+- **[DSH Studio](https://github.com/moresyl/dsh-studio)** DSH Studio – Open-source cross-platform desktop host for installing, running, health-checking, and supervising DeepSeek Harness locally.
+- **[Jev Voice](https://github.com/kevinbadi/jev-voice)** jev-voice - Talk to your Mac. Local whisper.cpp + one Jev (TypeSafe) call per command + macOS automation.
 - **[LibreChat](https://github.com/librechat-ai/librechat)** LibreChat Open-source AI Web UI, supporting multiple providers including OpenAI, Anthropic, Google, Ollama, and local models. Includes MCP support for Agents.
 - **[miaowunya/rikkahub-sillytavern-android](https://github.com/miaowunya/rikkahub-sillytavern-android)** RikkaHub Plus Huadeng Edition - Android AI chat client & SillyTavern Android tavern compatibility. Connected to API instant chat: prefix cache to save token, semantic memory RAG, Jev intelligent decision-making, QuickJS plug-in, voice call, WeChat QQ Bot; character card, world book Lorebook, default, regular, QR, beautification theme can be imported with one click according to the official semantics of the tavern, without Termux/Node.js.
-- **[PyGPT](https://github.com/szczyglis-dev/py-gpt)** Desktop AI assistant with a Jev plugin for typed classification, routing, verification, and scoring.
+- **[ollama_agent_roll_cage](https://github.com/leoleojames1/ollama_agent_roll_cage)** 35. OARC: ollama_agent_roll_cage (OARC) is a local python agent fusing ollama llm's with Coqui-TTS speech models, Keras classifiers, Llava vision, Whisper recognition, and more to create a unified chatbot agent for local, custom automation.
+- **[OpenQuack](https://github.com/larryxiao/openquack)** OpenQuack – Local voice dictation menu bar app for macOS that pairs with Cursor, Claude Code, Codex, and Aider; long contextual prompts via WhisperKit on Apple Silicon, pastes at the cursor, all on-device.
 - **[Bodega One Code](https://bodegaone.ai)** Bodega One Code – Free, local-first AI IDE with a built-in coding agent, bring-your-own-LLM, and full offline/air-gap support.
 - **[FuLLMetalAi](https://fullmetal.ai)** FuLLMetalAi is a local AI inference UI listed in the awesome-local-ai directory under Inference UI. <details><summary>More about</summary>
 
@@ -530,42 +559,14 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `local-ai` `desktop-ui` `inference`
   </details>
-- **[GPT4All](https://nomic.ai/gpt4all)** GPT4All is a desktop application that runs open-source language models locally on Windows, macOS, and Linux for private, offline AI chat and document interaction. <details><summary>More about</summary>
 
-  It lets developers run and experiment with LLMs without internet or cloud dependencies, enabling private prototyping and offline workflows.
+<details><summary><strong>▸ &nbsp;&nbsp;+6 more in Desktop Chat & UIs &nbsp;—&nbsp; click to expand</strong></summary>
 
-  _Finally, an AI tool that won’t leak your code — until you accidentally paste it into the local chat and forget it’s writing to a log file somewhere._
-
-  `local-ai` `desktop-chat` `offline-llm`
-  </details>
-- **[LibreChat](https://www.librechat.ai)** An open-source, self-hostable platform that provides a unified interface for multiple AI models, agents, and tools. <details><summary>More about</summary>
-
-  It allows developers to centralize access to various LLM providers and agentic capabilities through a single, customizable, and private interface.
-
-  _One more unified dashboard to keep in sync with your increasingly fragmented collection of API keys and model versions._
-
-  `self-hosted` `chat-ui` `multi-model` `open-source` `agents`
-  </details>
-- **[Naut](https://ruliad.co)** Ruliad Chat is a self-sovereign intelligence chat interface. <details><summary>More about</summary>
-
-  It offers developers a private, locally controlled AI chat experience focused on autonomy and data ownership.
-
-  _Another chat UI promising sovereignty while you still wonder if it just wraps a cloud model behind a local frontend._
-
-  `local-ai` `chat`
-  </details>
-- **[NVIDIA ChatRTX](https://nvidia.com/en-us/ai-on-rtx)** NVIDIA ChatRTX is a desktop AI assistant that runs locally on RTX PCs to answer questions using personal documents and data. <details><summary>More about</summary>
-
-  It lets developers run private, offline LLM-powered search and Q&A on their own files without relying on cloud APIs or internet access.
-
-  _Another 'AI PC' app that makes you wonder if your GPU is now a full-time therapist for your messy Downloads folder._
-
-  `local-ai` `desktop-assistant` `offline-ai`
-  </details>
+- **[GPT4All](https://nomic.ai/gpt4all)** GPT4All is a desktop application that runs open-source language models locally on Windows, macOS, and Linux for private, offline AI chat and document interaction.
+- **[LibreChat](https://www.librechat.ai)** An open-source, self-hostable platform that provides a unified interface for multiple AI models, agents, and tools.
+- **[Naut](https://ruliad.co)** Ruliad Chat is a self-sovereign intelligence chat interface.
+- **[NVIDIA ChatRTX](https://nvidia.com/en-us/ai-on-rtx)** NVIDIA ChatRTX is a desktop AI assistant that runs locally on RTX PCs to answer questions using personal documents and data.
 - **[Try app](https://ai.quantdinger.com)** QuantDinger - Open source · Free source build · BYOK. Self-hosted AI trading OS with optional TypeSafe Jev pre-trade entry gates; hosted app also available. Product · Try app · Project guide.
-
-<details><summary><strong>▸ &nbsp;&nbsp;+1 more in Desktop Chat & UIs &nbsp;—&nbsp; click to expand</strong></summary>
-
 - **[Whisper by Remskill](https://whisper.remskill.com)** Whisper by Remskill – Local-first desktop voice-to-text (Windows & macOS) for hands-free dictation of code comments, commit messages, docs, and AI prompts into any editor; runs fully offline with local Whisper/Parakeet models or via OpenAI cloud. Free local tier.
 
 </details>
@@ -580,53 +581,13 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `local-ai` `fine-tuning` `llm` `self-hosted`
   </details>
-- **[Keras](https://github.com/keras-team/keras)** `⭐ 64.2k` `updated ≤90d` Keras 3 is a multi-backend deep learning framework for building and training models with support for JAX, TensorFlow, PyTorch, and OpenVINO. <details><summary>More about</summary>
+- **[chatglm-6b](https://github.com/zai-org/chatglm-6b)** `⭐ 41k` `updated >1y` ChatGLM-6B is an open-source bilingual dialogue language model with 6.2B parameters for local deployment and fine-tuning. <details><summary>More about</summary>
 
-  It enables developers to write high-level, backend-agnostic deep learning code that can scale from local laptops to large GPU/TPU clusters.
+  It lets developers run and customize a capable LLM locally on modest hardware for research or application building.
 
-  _Finally, a framework that lets you switch backends like you switch tabs—just don’t ask which one is actually fastest today._
+  _Another model repo that makes you feel guilty for not quantizing it and running llama.cpp instead._
 
-  `deep-learning` `multi-backend` `python` `framework`
-  </details>
-- **[ColossalAI](https://github.com/hpcaitech/colossalai)** `⭐ 41.4k` `updated ≤90d` A framework for making large AI models cheaper, faster, and more accessible via distributed training and inference. <details><summary>More about</summary>
-
-  Enables developers to train and deploy large-scale models efficiently with parallelism strategies like data, model, and pipeline parallelism.
-
-  _Because nothing says 'accessible' like needing a PhD in distributed systems to use it._
-
-  `distributed-training` `large-models` `hpc` `framework` `parallelism`
-  </details>
-- **[PyTorch Lightning](https://github.com/lightning-ai/pytorch-lightning)** `⭐ 31.3k` `updated ≤90d` PyTorch Lightning is a framework that automates PyTorch training engineering like backpropagation, mixed precision, and multi-GPU scaling while preserving full model control. <details><summary>More about</summary>
-
-  It lets developers focus on model science instead of repetitive training infrastructure code, scaling from CPU to thousands of GPUs without changing core logic.
-
-  _You’ll spend less time debugging distributed training loops and more time wondering why your model still won’t converge._
-
-  `pytorch` `deep-learning` `training-framework` `ai-infrastructure`
-  </details>
-- **[veRL](https://github.com/verl-project/verl)** `⭐ 22.6k` `updated ≤90d` A flexible, efficient RL post-training framework for large language models that implements algorithms like GRPO and PPO with seamless integration into existing LLM training infrastructure. <details><summary>More about</summary>
-
-  Gives developers a production-ready, modular toolkit for RLHF and reasoning training at scale, decoupling computation from data dependencies to support trillion-parameter models across distributed clusters.
-
-  _Finally, a framework elegant enough to orchestrate your trillion-parameter model's existential crisis across 64 H800s, only to discover the reward model started gaming the metric in epoch two._
-
-  `rlhf` `post-training` `distributed-training` `llm-training` `hybridflow`
-  </details>
-- **[PEFT](https://github.com/huggingface/peft)** `⭐ 21.5k` `updated ≤90d` PEFT is a Python library for state-of-the-art Parameter-Efficient Fine-Tuning methods like LoRA, enabling adaptation of large pre-trained models with minimal computational and storage costs. <details><summary>More about</summary>
-
-  It allows developers to fine-tune large models efficiently by only training a small subset of parameters, reducing resource requirements while maintaining performance.
-
-  _Now you can fine-tune that 70B parameter model on your laptop, or at least pretend you can until your GPU melts._
-
-  `fine-tuning` `peft` `lora` `pytorch` `huggingface`
-  </details>
-- **[LitGPT](https://github.com/lightning-ai/litgpt)** `⭐ 13.6k` `updated ≤90d` litgpt provides 20+ high-performance LLMs with recipes to pretrain, finetune, and deploy at scale. <details><summary>More about</summary>
-
-  It gives developers ready-to-use, optimized LLM implementations and training/deployment workflows for building and customizing models.
-
-  _Another LLM repo promising 'recipes' that assumes you have 8x A100s and a PhD in transformer surgery._
-
-  `llm` `training` `inference`
+  `local-ai` `llm` `open-source`
   </details>
 - **[axolotl](https://github.com/axolotl-ai-cloud/axolotl)** `⭐ 12.5k` `updated ≤30d` An open-source framework designed for fine-tuning large language models. <details><summary>More about</summary>
 
@@ -635,46 +596,6 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _Another layer of abstraction to manage before you realize your GPU VRAM is still crying._
 
   `fine-tuning` `llm` `training` `open-source` `lora`
-  </details>
-- **[ART](https://github.com/openpipe/art)** `⭐ 10.5k` `updated ≤90d` Agent Reinforcement Trainer (ART) is an open-source framework and managed service for training multi-step LLM agents using GRPO reinforcement learning on models like Qwen, Llama, and GPT-OSS. <details><summary>More about</summary>
-
-  It provides developers with the infrastructure to move agents beyond static prompting by teaching them new behaviors through reward functions and experience.
-
-  _Finally, a framework that lets you spend GPU cycles teaching a model how to play 2048 so it can forget how to write a valid SQL query._
-
-  `reinforcement-learning` `grpo` `agent-training` `fine-tuning` `wandb`
-  </details>
-- **[Accelerate](https://github.com/huggingface/accelerate)** `⭐ 9.8k` `updated ≤90d` A PyTorch library that simplifies distributed training and mixed precision by abstracting boilerplate code for multi-GPU/TPU/fp16 setups. <details><summary>More about</summary>
-
-  Developers can run the same training script on any hardware configuration without rewriting device placement or precision logic.
-
-  _Finally, a way to pretend you understand distributed training while letting Hugging Face handle the actual complexity._
-
-  `pytorch` `distributed-training` `mixed-precision` `huggingface` `ml-framework`
-  </details>
-- **[Oumi](https://github.com/oumi-ai/oumi)** `⭐ 9.4k` `updated ≤90d` A code-first, open-source framework and CLI for fine-tuning, evaluating, and deploying open-source LLMs and VLMs across local and cloud environments. <details><summary>More about</summary>
-
-  It gives developers a unified toolkit to take models like Qwen3 and DeepSeek-R1 from fine-tuning through evaluation to dedicated inference endpoints without stitching together disparate scripts.
-
-  _Yet another 'end-to-end' ML platform that promises to solve your model lifecycle so you can spend three weeks configuring YAML instead of actually shipping a feature._
-
-  `fine-tuning` `llm-eval` `model-deployment` `cli`
-  </details>
-- **[Liger-Kernel](https://github.com/linkedin/liger-kernel)** `⭐ 6.5k` `updated ≤90d` A collection of optimized Triton kernels designed to increase LLM training throughput and reduce memory usage. <details><summary>More about</summary>
-
-  It enables developers to train models with longer context lengths and larger batch sizes by optimizing the low-level math operations.
-
-  _Because nothing says 'fun weekend' like debugging memory OOM errors caused by inefficiently implemented fused kernels._
-
-  `triton` `llm-training` `finetuning` `performance-optimization`
-  </details>
-- **[torchtune](https://github.com/meta-pytorch/torchtune)** `⭐ 5.8k` `updated ≤90d` PyTorch native post-training library for large language model fine-tuning. <details><summary>More about</summary>
-
-  Provides a streamlined, native PyTorch approach to LLM fine-tuning, reducing friction in model customization workflows.
-
-  _Fine-tuning anxiety wrapped in another PyTorch abstraction layer._
-
-  `llm` `fine-tuning` `pytorch`
   </details>
 - **[MLX-VLM](https://github.com/blaizzy/mlx-vlm)** `⭐ 5.5k` `updated ≤30d` MLX-VLM is a package for inference and fine-tuning of Vision Language Models on Mac using MLX. <details><summary>More about</summary>
 
@@ -692,14 +613,6 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `fine-tuning` `lora` `no-code` `llm-ops` `dpo`
   </details>
-- **[luotuo-chinese-llm](https://github.com/lc1332/luotuo-chinese-llm)** `⭐ 3.6k` `updated >1y` Luotuo is an open-source Chinese large language model project that includes base models, embeddings, QA, and derivative applications. <details><summary>More about</summary>
-
-  Provides developers with Chinese-language LLMs and related tooling for building or adapting Chinese AI applications.
-
-  _Yet another Chinese LLM project where the real challenge is explaining why this isn’t just another Llama fork with a camel theme._
-
-  `chinese-llm` `open-source-model` `local-ai`
-  </details>
 - **[xTuring](https://github.com/stochasticai/xturing)** `⭐ 2.7k` `updated ≤1y` A Python library and CLI for fine-tuning, evaluating, and running open-source LLMs locally or in a private cloud using techniques like LoRA and INT4/INT8 quantization. <details><summary>More about</summary>
 
   It provides a simplified API to personalize models like LLaMA and GPT-OSS on private infrastructure, abstracting away the boilerplate of PEFT and mixed-precision training.
@@ -716,22 +629,6 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `vision` `optimization` `model-compression`
   </details>
-- **[automl-gs](https://github.com/minimaxir/automl-gs)** `⭐ 1.9k` `updated >1y` AutoML tool that generates trained models and pipeline code from a CSV and target field using TensorFlow or XGBoost. <details><summary>More about</summary>
-
-  Lets developers quickly prototype ML models without manual feature engineering or model definition, accelerating baseline experimentation.
-
-  _The illusion that AutoML eliminates thinking, when really it just shifts the cognitive load from tuning to trusting opaque hyperparameter searches._
-
-  `automl` `machine-learning` `python` `tensorflow` `xgboost`
-  </details>
-- **[RL-Factory](https://github.com/simple-efficient/rl-factory)** `⭐ 1.8k` `updated ≤1y` RLFactory is an RL post-training framework for agentic learning that decouples the environment from training, supports async tool-calling, and enables fast training of agent models like Qwen3 with MCP tools. <details><summary>More about</summary>
-
-  It gives developers a code-first way to train custom agent models with tool-use and reward shaping, cutting environment boilerplate and doubling RL training speed.
-
-  _Just when you thought you were done fine-tuning chatbots, it’s time to RL-train your agent against a custom reward function, because nothing says developer productivity like debugging a policy gradient loop at 2am._
-
-  `rl-training` `agentic-learning` `qwen3` `mcp` `finetuning`
-  </details>
 - **[Skills](https://github.com/nvidia-nemo/skills)** `⭐ 1k` `updated ≤90d` Nemo Skills is a pipeline toolkit for improving LLM capabilities via synthetic data generation, model training, and large-scale benchmark evaluation. <details><summary>More about</summary>
 
   It gives developers a unified, scalable path from local workstation experiments to Slurm clusters for fine-tuning and evaluating models on benchmarks like SWE-bench and AIME.
@@ -739,22 +636,6 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _Nothing says 'improving LLM skills' quite like needing a ten-thousand-GPU cluster to prove your model can still fail at high-school math._
 
   `llm-training` `evaluation` `synthetic-data` `nvidia` `benchmarks`
-  </details>
-- **[LLM-Dojo 开源大模型学习场所，使用简洁且易阅读的代码构建模型训练框架](https://github.com/mst272/llm-dojo)** `⭐ 938` `updated ≤1y` A lightweight, code-first post-training framework for LLMs supporting SFT, RLVR, and various knowledge distillation techniques built on top of OpenRLHF. <details><summary>More about</summary>
-
-  It provides developers with a streamlined, scriptable toolkit to run fine-tuning and distillation experiments without the overhead of full-scale RLHF infrastructure.
-
-  _Another weekend gone, chasing the impossible dream of teaching a 7B model to reason by tweaking reward signals until the heat death of your GPU._
-
-  `llm` `post-training` `fine-tuning` `rlhf` `knowledge-distillation`
-  </details>
-- **[InternEvo](https://github.com/internlm/internevo)** `⭐ 421` `updated >1y` InternEvo is an open-source lightweight training framework for model pre-training and fine-tuning with minimal dependencies. <details><summary>More about</summary>
-
-  It enables developers to train large-scale models on clusters or fine-tune on single GPUs with high efficiency and performance optimizations.
-
-  _Because nothing says 'lightweight' like a framework that still requires you to manually configure 1024 GPUs._
-
-  `llm-training` `pytorch` `framework` `fine-tuning` `distributed-training`
   </details>
 - **[finetune-Qwen2-VL](https://github.com/zhangfaen/finetune-qwen2-vl)** `⭐ 395` `updated >1y` A GitHub repository providing fine-tuning scripts for Qwen2-VL vision-language models with single and multi-GPU support. <details><summary>More about</summary>
 
@@ -764,22 +645,8 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `fine-tuning` `vision-language` `qwen2-vl` `pytorch` `multi-gpu`
   </details>
-- **[Effective LLM Alignment](https://github.com/vikhrmodels/effective_llm_alignment)** `⭐ 153` `updated >1y` Effective LLM Alignment Toolkit provides configurable scripts for SFT, DPO, ORPO, CPO, SimPO, SMPO, GPO, distillation, reward modeling, classification, and prompt optimization using Hugging Face standards. <details><summary>More about</summary>
-
-  It gives developers a unified, customizable toolkit to align LLMs with multiple advanced preference optimization methods without stitching together disparate repositories.
-
-  _Another week, another alignment method—now you can try them all in one place before realizing you still need more compute._
-
-  `llm-alignment` `preference-optimization` `fine-tuning`
-  </details>
-- **[Simplifine](https://github.com/simplifine-gamedev/simplifine)** `⭐ 96` `updated >1y` Simplifine is an open-source Python toolkit and cloud service that simplifies LLM fine-tuning with one-line commands, handling infrastructure, cloud storage, and training optimizations like DeepSpeed. <details><summary>More about</summary>
-
-  It lowers the barrier to customizing models by automating hyperparameter selection, data quality checks, and the complex infrastructure required to train or fine-tune LLMs on the cloud.
-
-  _Yet another abstraction layer promising to hide the terrifying complexity of distributed training behind a 'simple decorator', ensuring you can now ruin a cloud budget with just a single line of Python._
-
-  `llm-finetuning` `cloud-training` `deepspeed` `lora` `python-sdk`
-  </details>
+- **[lmms-finetune](https://github.com/zjysteven/lmms-finetune)** `⭐ 373` `updated ≤1y` A minimal codebase for finetuning large multimodal models, supporting llava-1.5/1.6, llava-interleave, llava-next-video, llava-onevision, llama-3.2-vision, qwen-vl, qwen2-vl, phi3-v etc.
+- **[Soup](https://github.com/makazhanalpamys/soup)** 53. Soup: One-config CLI for LLM post-training (SFT/DPO/GRPO/KTO/ORPO). Layer streaming trains an 8B model on a 4 GB laptop GPU by streaming the frozen base from host RAM one decoder layer at a time.
 - **[Axolotl](http://docs.axolotl.ai)** Axolotl is a free and open-source framework for post-training and fine-tuning large language models. <details><summary>More about</summary>
 
   It enables developers to customize and optimize LLMs for specific tasks using flexible configuration and advanced training methods.
@@ -788,11 +655,11 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `llm` `fine-tuning` `open-source`
   </details>
-- **[H2OAI](https://h2o.ai)** An end-to-end generative and predictive AI platform designed for air-gapped, on-premises, and private cloud environments. <details><summary>More about</summary>
+- **[Gemma](https://kaggle.com/models/google/gemma)** Gemma is a family of lightweight, open language models released by Google via Kaggle Models. <details><summary>More about</summary>
 
-  It enables developers in highly regulated industries to build and deploy autonomous agents and models while maintaining total data sovereignty.
+  Provides developers with accessible, compact models for local fine-tuning and inference without relying on proprietary APIs.
 
-  _It's 'local AI' for people who have to clear their model weights with a compliance committee first._
+  _Another model drop that promises efficiency but still requires you to wrestle with quantization and VRAM limits to run locally._
 
-  `enterprise-ai` `local-ai` `mlops` `generative-ai`
+  `open-model` `local-ai` `google`
   </details>

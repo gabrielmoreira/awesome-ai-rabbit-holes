@@ -57,13 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing TeamCity integration via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly identifies it as a 'Teamcity MCP Server'
-    - README details full MCP protocol compliance and TeamCity resource exposure
-    - Already curated in awesome-mcp-servers under 'Community Servers'
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

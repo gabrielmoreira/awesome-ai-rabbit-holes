@@ -73,17 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server with SQL analysis as its core identity, fitting the MCP Servers & Tooling
-    category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description states it is an MCP server for SQL static analysis
-    - README details tools like lint_sql, transpile_sql, and reference extraction
-    - Listed in awesome-mcp-list and awesome-mcp-servers under MCP server sections
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

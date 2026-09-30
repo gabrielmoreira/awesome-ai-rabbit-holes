@@ -68,17 +68,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    McGravity is a terminal-based coding assistant surface that orchestrates repo-level plan→execute→review workflows
-    using external AI CLIs, fitting the primary assistant role in a TUI rather than acting as a thin extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - >-
-      Repo description: 'Fast TUI that orchestrates AI coding tools (Claude Code, Codex, Gemini) in a
-      plan→execute→review loop.'
-    - >-
-      README: 'McGravity runs a continuous improvement loop: plan small tasks → execute one at a time → review →
-      replan.'
-    - 'Active project: created 2025-04-13, pushed 2026-02-15, not archived.'
+    - jev-latest choice confidence 0.81
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

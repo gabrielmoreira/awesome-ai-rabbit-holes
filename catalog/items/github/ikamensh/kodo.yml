@@ -61,16 +61,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The primary product identity is multi-agent coordination for coding workflows, with a runtime platform that
-    orchestrates agents (orchestrator, architect, workers, testers) rather than being a single coding assistant or a
-    thin extension.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly calls it an 'Orchestrator for AI coding'
-    - >-
-      README emphasizes autonomous multi-agent workflows with role separation (orchestrator, architect, workers,
-      testers)
-    - Source-list context places it under 'Harnesses & orchestration > Orchestrators & autonomous loops'
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: agent-orchestration
   secondary_categories: []

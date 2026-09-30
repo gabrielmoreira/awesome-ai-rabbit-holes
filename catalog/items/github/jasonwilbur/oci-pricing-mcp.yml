@@ -69,11 +69,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing OCI pricing data via the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly identifies it as an MCP server for OCI pricing
-    - README details its role as a server providing pricing tools to AI assistants
-    - Listed in awesome-mcp-servers under Cloud Platforms
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -61,13 +61,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a purpose-built MCP server exposing crypto tools, not a generic extension or
-    framework.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - 'Repo description: ''use Bitget’s API to get cryptocurrency info'' and topics include ''mcp-server''.'
-    - README states it is built with FastMCP and exposes tools like getTokenPrice for MCP clients.
-    - Listed in awesome-mcp-servers under Finance & Fintech, confirming its role as a domain-specific MCP server.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

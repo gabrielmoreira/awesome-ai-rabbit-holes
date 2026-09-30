@@ -58,13 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a domain-specific MCP server whose primary identity is serving Uniswap price data via the Model Context
-    Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states it is an MCP server for Uniswap V3 token prices
-    - README details MCP-compatible client configuration and tool usage
-    - Core functionality is delivering real-time token prices across multiple chains
+    - jev-latest choice confidence 0.87
 placement:
   primary_category: mcp
   secondary_categories: []

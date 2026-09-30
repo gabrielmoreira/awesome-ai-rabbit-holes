@@ -62,17 +62,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    It is a standalone terminal-based coding assistant that reads user queries, plans web searches, fetches content, and
-    generates answers using an LLM, fitting the core behavior of a coding agent despite its search focus.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - 'Repo description: ''The simplest open-source implementation of perplexity.ai'''
-    - >-
-      README: The script prompts for a question, executes Google search via LLM decision, builds prompts with fetched
-      context, and streams LLM output to a markdown file
-    - >-
-      It operates as a self-contained Python script that developers run directly to perform AI-assisted information
-      gathering and answer generation
+    - jev-latest choice confidence 0.59
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

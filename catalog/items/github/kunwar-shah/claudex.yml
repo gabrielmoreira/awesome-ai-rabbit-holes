@@ -81,15 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Claudex primarily augments Claude Code with persistent memory and search capabilities rather than acting as a
-    standalone coding assistant, making it an extension focused on memory and context.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''MCP server with persistent memory + FTS5 search for Claude Code conversation history'''
-    - >-
-      README: 'Give Claude Code persistent memory — conventions, architecture, decisions, and error patterns survive
-      across sessions'
-    - Features include MCP server with 10 tools for context management, not code generation or editing
+    - jev-latest choice confidence 0.55
 placement:
   primary_category: mcp
   secondary_categories: []

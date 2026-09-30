@@ -62,18 +62,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's primary identity is an MCP server that exposes domain-specific conversational AI tools to existing
-    agents.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - >-
-      Explicitly offers an MCP server to provide agents with tools like 'write_phone_script' and
-      'generate_voice_agent_prompt'
-    - Provides a no-key API for telephony logic, including missed-call cost calculations
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null

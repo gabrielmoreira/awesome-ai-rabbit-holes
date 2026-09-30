@@ -73,17 +73,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product identity is an MCP server and middleware layer that exposes browser-session APIs to any MCP client,
-    making it MCP infrastructure rather than a standalone coding agent or generic extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states 'OpenTabs calls APIs' and topics include 'mcp-server'.
-    - README states 'Works with any MCP client' and is listed in awesome-mcp-servers under 'Server Implementations'.
-    - Active development with recent push date (2026-05-06) and MIT license.
+    - jev-latest choice confidence 0.62
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (470) exceeded threshold (150)

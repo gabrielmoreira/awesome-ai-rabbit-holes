@@ -67,11 +67,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing web content extraction as an MCP-compatible tool.
+  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
-    - Repo description explicitly states it is an MCP server for web scraping
-    - README emphasizes MCP integration with Claude Code, VS Code, Cursor, and JetBrains IDEs
-    - Listed in awesome-mcp-servers under Community Servers
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
   secondary_categories: []

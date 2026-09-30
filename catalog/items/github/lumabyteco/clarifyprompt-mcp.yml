@@ -58,20 +58,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The tool is an MCP server whose core identity is providing MCP-based prompt compilation, making MCP Servers &
-    Tooling the best fit over extensions or context engineering.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      README describes it as a 'context-aware MCP prompt compiler' that transforms vague prompts into platform-optimized
-      prompts
-    - Source-list context shows it is included in awesome-mcp-servers under Server Implementations > Developer Tools
-    - >-
-      The product exposes MCP tools and resources, with no indication it is primarily a thin wrapper or integration
-      layer for another assistant
+    - jev-latest choice confidence 0.74
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

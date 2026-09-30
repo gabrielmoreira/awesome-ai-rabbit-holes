@@ -71,15 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose entire identity is exposing developer utilities over the Model Context Protocol,
-    fitting cleanly into MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''Zero-auth MCP server with everyday developer utilities'''
-    - >-
-      README: 'An MCP server that gives your AI assistant 17 developer utilities' with explicit Claude/Cursor/Copilot
-      configs
-    - Listed in awesome-mcp-servers under 'Developer Tools' section
+    - jev-latest choice confidence 0.80
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -73,17 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is an MCP server delivering financial data tools, making MCP the core product identity rather than a
-    compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - >-
-      Repo description: 'Financial Market Intelligence MCP Server — stock quotes, technical analysis, crypto data, and
-      portfolio insights for AI agents'
-    - >-
-      README states: 'FinanceKit is an MCP server that gives Claude Code, Cursor, Windsurf, and any AI agent instant
-      access to financial market data'
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' as an MCP server implementation
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

@@ -80,13 +80,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is explicitly built as an MCP server to provide a specific domain capability (DeFi treasury management)
-    to any LLM agent, making its primary identity an MCP implementation.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly states 'MCP server for GBLIN'
-    - README describes it as a 'Model Context Protocol (MCP) server' for autonomous agents
-    - Included in awesome-mcp-servers under 'Finance & Fintech'
+    - jev-latest choice confidence 0.72
 placement:
   primary_category: mcp
   secondary_categories: []

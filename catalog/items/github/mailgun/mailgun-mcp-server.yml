@@ -54,15 +54,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server providing domain-specific tooling for Mailgun APIs, making MCP the core identity rather
-    than a compatibility layer.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''Implementation of Model Context Protocol server for Mailgun APIs'''
-    - >-
-      README: Explicitly positions itself as an MCP server with capabilities like sending email, managing domains, and
-      querying analytics via MCP tools
-    - 'Source-list context: Listed in ''awesome-mcp-servers'' under ''Official Servers'' section'
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: mcp
   secondary_categories: []

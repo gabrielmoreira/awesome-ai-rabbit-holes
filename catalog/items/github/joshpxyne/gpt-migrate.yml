@@ -73,13 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool directly reads, plans, and rewrites code across a repo as its primary function, fitting the definition of a
-    coding assistant.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly states it migrates codebases between frameworks/languages
-    - README details CLI usage for migrating entire directories of code
-    - Active development (pushed 2024-09-17) with 6981 stars
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: coding-agents
   secondary_categories: []

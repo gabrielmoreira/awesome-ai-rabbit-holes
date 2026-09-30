@@ -63,21 +63,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The repository is a core engineering system and catalog for building Microsoft MCP servers, making MCP
-    infrastructure its primary product identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - >-
-      Repo description explicitly states it is a 'Catalog of official Microsoft MCP (Model Context Protocol) server
-      implementations'.
-    - >-
-      README positions the repo as containing 'core libraries, test frameworks, engineering systems, pipelines, and
-      tooling for Microsoft MCP Server contributors'.
-    - Seen in source lists under 'Agent Communication Protocols > Model Context Protocol (MCP) > Official Resources'.
+    - jev-latest choice confidence 0.79
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Registries & Discovery
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: Stars (3100) exceeded threshold (150)

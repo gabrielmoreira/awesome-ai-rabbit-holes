@@ -63,13 +63,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core novelty is context compression, flattening nested API responses to fit agent context windows, which aligns
-    with Prompt & Context Engineering rather than a coding agent or generic extension.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
   evidence:
-    - 'Repo description: ''CLI for the ClickUp API, optimized for AI agents'''
-    - 'README: ''clickup-cli solves this with token-efficient output by default'', reducing 12,000 tokens to ~150 tokens'
-    - 'README: ''no SDK, no auth boilerplate, no JSON parsing — just shell commands with structured output'' for agents'
+    - jev-latest choice confidence 0.78
 placement:
   primary_category: memory-and-context
   secondary_categories: []

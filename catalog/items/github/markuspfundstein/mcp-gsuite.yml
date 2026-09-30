@@ -52,13 +52,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server first and foremost, providing Google Workspace access via the Model Context Protocol,
-    making MCP its core identity.
+  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
-    - 'Repo description: ''MCP Server to interact with Google Gsuite prodcuts'''
-    - README positions it as an MCP server for Gmail and Calendar with Smithery integration
-    - Listed in awesome-mcp-list under Communication section
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []

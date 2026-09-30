@@ -55,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool is a dedicated MCP server providing calculator functionality, making MCP its core identity rather than a
-    compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''A Model Context Protocol server for calculating'''
-    - 'README: Explicitly positions itself as enabling LLMs to use calculator for precise numerical calculations via MCP'
-    - Listed in awesome-mcp-servers under Community Servers section
+    - jev-latest choice confidence 0.73
 placement:
   primary_category: mcp
   secondary_categories: []

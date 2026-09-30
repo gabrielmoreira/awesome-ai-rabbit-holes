@@ -103,24 +103,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product augments other coding assistants and editors with design-system memory, audits, and MCP-based
-    context rather than acting as a primary coding agent itself.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - >-
-      Repo description: 'Shadcn-native Design CI for Tailwind apps: export registries that work with shadcn, v0, AI
-      editors, and npm.'
-    - >-
-      README: 'Give Codex, Claude Code, Cursor, OpenCode, Hermes, OpenClaw, shadcn, v0, and Figma the same design-system
-      memory before they edit your app.'
-    - >-
-      README shows MCP config generation for Claude Code and Cursor via `memi mcp start` and agent skill installs for
-      Hermes/OpenClaw.
-    - >-
-      README states: 'Give Claude Code, Cursor, and Codex memory of your tokens, components, and Figma — so they edit
-      your app without breaking the design.'
-    - Provides MCP config and skill kits for external agents, not a self-directed coding agent.
-    - Core function is exporting design tokens and components as registries for AI tool consumption.
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: memory-and-context
   secondary_categories: []

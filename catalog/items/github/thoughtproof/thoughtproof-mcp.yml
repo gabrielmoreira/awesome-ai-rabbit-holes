@@ -64,19 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server that adds adversarial claim verification to AI agents, which aligns with the
-    MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description states it is an 'Adversarial multi-model reasoning verification MCP server for AI agents.'
-    - >-
-      README demonstrates MCP server setup for Claude Desktop, Cursor, Windsurf, and Cline with `verify_claim` and
-      `check_agent_score` tools.
-    - Included in awesome-mcp-servers under Server Implementations, reinforcing its MCP server identity.
+    - jev-latest choice confidence 0.56
 placement:
-  primary_category: evals
+  primary_category: mcp
   secondary_categories: []
-  section: Safety, Fairness & Red-teaming
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null

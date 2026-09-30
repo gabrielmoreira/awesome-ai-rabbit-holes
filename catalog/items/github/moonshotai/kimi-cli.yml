@@ -75,13 +75,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a standalone terminal-native coding assistant that autonomously plans, edits, and executes tasks,
-    matching the canonical shape of tools like Claude Code and Gemini CLI.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - 'Repo description states: ''Kimi Code CLI is your next CLI agent.'''
-    - README lists core features as reading/editing code, executing shell commands, and autonomous planning.
-    - Included in the awesome-cli-coding-agents list under 'Terminal-native coding agents > Open Source'.
+    - jev-latest choice confidence 0.97
 placement:
   primary_category: coding-agents
   secondary_categories: []

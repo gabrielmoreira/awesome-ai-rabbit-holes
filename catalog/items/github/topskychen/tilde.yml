@@ -61,17 +61,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is explicitly built as an MCP server to act as a universal memory and profile layer, which aligns
-    directly with the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
-    - README explicitly states tilde is a 'privacy-first Model Context Protocol (MCP) server'.
-    - Source list context shows it is already curated in awesome-mcp-servers under 'Knowledge & Memory'.
-    - Setup instructions focus on configuring the MCP server block for Cursor, Claude Desktop, and Antigravity.
+    - jev-latest choice confidence 0.56
 placement:
-  primary_category: mcp
+  primary_category: memory-and-context
   secondary_categories: []
-  section: Middleware & Generic
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: curated
   reason: null

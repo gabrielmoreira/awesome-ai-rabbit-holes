@@ -62,15 +62,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server providing postal code lookup capabilities, fitting cleanly as a domain-specific MCP
-    server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'MCP server for PostalDataPI — postal code lookups for AI agents'.
-    - >-
-      README demonstrates MCP tools (lookup_postal_code, validate_postal_code) and configuration for Claude Desktop and
-      Claude Code.
-    - Listed in awesome-mcp-servers under 'Location Services', confirming its role as an MCP domain server.
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

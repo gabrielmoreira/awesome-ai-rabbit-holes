@@ -77,24 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product is a code-first Python toolkit that developers import and script against to build retrieval and
-    context infrastructure, which aligns with Frameworks & SDKs, specifically the Memory / Retrieval Infrastructure
-    section.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      Repo description explicitly defines it as 'a Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB
-      or PostgreSQL'.
-    - >-
-      README emphasizes library-level usage: pip install, LiteLLM integration, chunking strategies, and optional Ragas
-      evaluation.
-    - >-
-      Topics and features center on retrieval infrastructure: vector search, reranking, late chunking, hybrid search,
-      and query adapters.
+    - jev-latest choice confidence 0.91
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Memory & Retrieval Infrastructure
+  section: LLM & Agent SDKs
 lifecycle:
   status: curated
   reason: Stars (1155) exceeded threshold (150)

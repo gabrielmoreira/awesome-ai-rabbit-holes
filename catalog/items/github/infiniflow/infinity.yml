@@ -98,13 +98,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a code-first database/SDK for retrieval infrastructure, not a primary assistant, extension, or
-    orchestration platform.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Memory & Retrieval Infrastructure
   evidence:
-    - Repo description explicitly calls it an 'AI-native database built for LLM applications'
-    - README emphasizes Python API, SDK, and deployment as a server/client binary
-    - Source-list context places it under 'Vector search' in LLMOps tools
+    - jev-latest choice confidence 0.66
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

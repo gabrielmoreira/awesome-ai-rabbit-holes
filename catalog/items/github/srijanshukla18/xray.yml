@@ -81,17 +81,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server designed to give coding assistants structural code analysis capabilities,
-    fitting the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - >-
-      Repo description states: 'XRAY MCP provides progressive code intelligence... through structural code analysis
-      using ast-grep'.
-    - >-
-      Architecture diagram shows a 'FastMCP Server' implementation with specific MCP tools like explore_repo and
-      find_symbol.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - jev-latest choice confidence 0.71
 placement:
   primary_category: mcp
   secondary_categories: []

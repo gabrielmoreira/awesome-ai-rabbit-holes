@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project is a standalone, primary coding assistant designed for the terminal, matching the 'Terminal & CLI
-    Agents' profile of the coding-agents category.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - Repo description explicitly defines it as a 'Minimal CLI coding agent by Mistral'.
-    - README states it is 'Mistral's open-source CLI coding assistant' with tools to read, write, and execute commands.
-    - Listed in the 'awesome-cli-coding-agents' directory under 'Terminal-native coding agents > Open Source'.
+    - jev-latest choice confidence 0.95
 placement:
   primary_category: coding-agents
   secondary_categories: []

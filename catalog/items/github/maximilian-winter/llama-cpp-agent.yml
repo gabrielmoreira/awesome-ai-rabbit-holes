@@ -71,17 +71,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a code-first library and SDK used to script agentic chains, function calling, and structured output against
-    local LLM backends, fitting the framework definition.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
-    - >-
-      README states it is a 'framework' installed via pip and used to script chat, function calling, and agent chains in
-      Python code.
-    - >-
-      Key features include agent chains, function calling, and structured output using guided sampling with llama.cpp
-      and vllm providers.
-    - Github description explicitly calls it 'the llama-cpp-agent framework' for interacting with LLMs.
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

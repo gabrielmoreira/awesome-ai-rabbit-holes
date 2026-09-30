@@ -64,19 +64,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Forage is an MCP-first product whose identity is a gateway/proxy MCP server for dynamic tool discovery and
-    installation, fitting squarely in MCP Servers & Tooling.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - Repo description explicitly states it is 'Self-improving tool discovery for AI agents' via MCP
-    - >-
-      README details its role as a gateway/proxy MCP server that searches registries, installs tools as subprocesses,
-      and re-registers their capabilities
-    - Source-list context places it in awesome-mcp-servers under 'Aggregators'
+    - jev-latest choice confidence 0.64
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Registries & Discovery
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null

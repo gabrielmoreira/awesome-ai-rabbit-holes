@@ -59,18 +59,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
+  summary: >-
+    jevcache (kushals256) (site) - Skip expensive LLM calls when TypeSafe Jev says same intent. OpenAI-compatible local
+    cache proxy — npx @kushalicious/jevcache.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
+  evidence:
+    - jev-latest choice confidence 0.55
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  secondary_categories: []
+  section: Local Serving & Gateways
 lifecycle:
   status: curated
   reason: null

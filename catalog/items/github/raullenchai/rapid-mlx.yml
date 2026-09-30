@@ -101,17 +101,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product identity is a local runtime and serving stack for Apple Silicon, prioritizing private, on-device
-    execution and OpenAI-compatible API access over being a coding assistant or framework.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Local API Servers
   evidence:
-    - >-
-      Repo description explicitly calls it 'The fastest local AI engine for Apple Silicon' with 4.2x faster speed than
-      Ollama.
-    - README emphasizes running local models on Mac with an OpenAI-compatible server accessible at localhost:8000.
-    - >-
-      Topics and README confirm it is an 'ollama-alternative' focused on local inference, tool calling, and integration
-      with editors like Cursor and Claude Code.
+    - jev-latest choice confidence 0.90
 placement:
   primary_category: local-ai
   secondary_categories: []

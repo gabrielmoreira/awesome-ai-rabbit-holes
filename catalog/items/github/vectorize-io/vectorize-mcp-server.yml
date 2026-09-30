@@ -60,13 +60,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server implementation whose core identity is providing Vectorize-specific tools over MCP,
-    making it MCP infrastructure rather than a coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
-    - 'Repo description: ''Official Vectorize MCP Server'''
-    - 'README exposes MCP tools: retrieve, extract, deep-research'
-    - Listed in awesome-mcp-servers under 'Official Servers'
+    - jev-latest choice confidence 0.84
 placement:
   primary_category: mcp
   secondary_categories: []

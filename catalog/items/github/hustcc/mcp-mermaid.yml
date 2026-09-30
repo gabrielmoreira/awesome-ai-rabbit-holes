@@ -77,17 +77,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    MCP is the product identity: this is a dedicated MCP server for Mermaid diagram generation, not a compatibility
-    footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo description explicitly states it is an MCP server for Mermaid
-    - README details MCP server configuration, transports (SSE/Streamable), and CLI usage
-    - Listed in awesome-mcp-servers under Server Implementations
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: Stars (540) exceeded threshold (150)

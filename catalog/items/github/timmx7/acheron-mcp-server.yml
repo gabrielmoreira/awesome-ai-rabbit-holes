@@ -63,13 +63,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is an MCP server providing memory infrastructure across Claude surfaces, making MCP its clear product
-    identity rather than a compatibility footnote.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''MCP server bridging context between Claude Chat, Code, and Cowork.'''
-    - 'README: ''Acheron is an MCP server. It stores context in a local SQLite database...'' with six bridge_ tools.'
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section.
+    - jev-latest choice confidence 0.60
 placement:
   primary_category: mcp
   secondary_categories: []

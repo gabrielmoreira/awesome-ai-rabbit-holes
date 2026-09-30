@@ -82,17 +82,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is a spec-first environment for Claude Code, using specs as the primary artifact to
-    drive a multi-agent execution and quality loop.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
-    - Repo description explicitly calls it a 'SPEC-First Agentic Development Kit for Claude Code'.
-    - README states 'Harness Engineering paradigm' where 'Human steers, agents execute' via specs and quality gates.
-    - Already curated in 'awesome-spec-driven-development' under 'Development Frameworks'.
+    - jev-latest choice confidence 0.56
 placement:
-  primary_category: extensions-and-addons
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Claude Code & Agent Tools
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated
   reason: Stars (982) exceeded threshold (150)

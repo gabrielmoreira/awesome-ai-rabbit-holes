@@ -73,13 +73,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is an MCP server providing domain-specific tools for plant genomics, making MCP the
-    primary product rather than a compatibility feature.
+  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
-    - 'Repo description: ''Plant genomics MCP server — 32 tools across 11 backends'''
-    - 'README: Explicitly positions as an MCP server with stdio + Streamable-HTTP transports'
-    - 'Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics'
+    - jev-latest choice confidence 0.86
 placement:
   primary_category: mcp
   secondary_categories: []

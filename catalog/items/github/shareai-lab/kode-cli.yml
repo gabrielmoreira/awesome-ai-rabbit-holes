@@ -78,17 +78,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Kode is a standalone terminal-native coding assistant that edits files, runs commands, and handles workflows,
-    fitting the primary identity of a coding agent rather than an extension or framework.
+  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
-    - >-
-      Repo description defines it as a 'unit agent for every human & computer task', positioning it as a primary
-      assistant.
-    - >-
-      README states 'Kode is a powerful AI assistant that lives in your terminal' and details capabilities for editing
-      files, running commands, and handling workflows.
-    - Included in the awesome-cli-coding-agents list under the 'Terminal-native coding agents > Open Source' section.
+    - jev-latest choice confidence 0.93
 placement:
   primary_category: coding-agents
   secondary_categories: []

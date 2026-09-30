@@ -76,15 +76,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is an MCP server whose core identity is providing Sentry-specific tooling through the Model Context
-    Protocol, making it a domain-specific MCP server rather than a coding assistant or extension.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - 'Repo description: ''An MCP server for interacting with Sentry via LLMs.'''
-    - >-
-      README: 'This remote MCP server acts as middleware to the upstream Sentry API, optimized for coding assistants
-      like Cursor, Claude Code, and similar development tools.'
-    - 'Source-list context: Listed in ''awesome-mcp-servers'' under ''Official Servers'' section.'
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: mcp
   secondary_categories: []

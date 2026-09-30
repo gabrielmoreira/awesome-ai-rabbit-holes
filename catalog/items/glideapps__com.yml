@@ -65,19 +65,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Glide’s core function is generating deployable apps from spreadsheets and prompts, fitting the App Builders category
-    as it creates new internal tools from scratch rather than editing existing codebases.
+  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
   evidence:
-    - Source-list placement in awesome-ai-coding-tools under App Builders
-    - 'README excerpt: ''Turn spreadsheets into apps & agents you can trust to run your business'''
-    - >-
-      Scraped site: 'Glide reads the structure, data, relationships, and logic behind your spreadsheet, then helps
-      create the screens and workflows your business needs.'
+    - jev-latest choice confidence 0.95
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: Internal Tools & Dashboards
+  section: Full App Builders
 lifecycle:
   status: curated
   reason: null

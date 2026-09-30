@@ -58,13 +58,9 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product is explicitly an MCP server implementation that wraps the Riza API, making MCP its primary identity and
-    fitting cleanly as a domain-specific MCP server.
+  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
-    - Repo name is riza-mcp and README标题 is 'Riza MCP Server'.
-    - 'README states: ''Our MCP server implementation wraps the Riza API and presents endpoints as individual tools.'''
-    - Listed in awesome-mcp-servers under section 'Official Servers'.
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: mcp
   secondary_categories: []

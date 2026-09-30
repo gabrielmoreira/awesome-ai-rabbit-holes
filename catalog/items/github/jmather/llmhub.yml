@@ -60,17 +60,13 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The core product is a local runtime/serving layer for managing LLMs, which fits the Local AI category better than
-    frameworks or orchestration.
+  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
   evidence:
-    - Repo description explicitly calls it a 'lightweight management platform' for LLMs with CLI/REST API
-    - Supports running multiple models with different configurations (local inference focus)
-    - Not archived, recent pushes (2024-11-23)
+    - jev-latest choice confidence 0.82
 placement:
   primary_category: local-ai
   secondary_categories: []
-  section: Local API Servers
+  section: Inference Engines
 lifecycle:
   status: curated
   reason: null

@@ -65,13 +65,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is an MCP server that provides weather data tools for MCP-compatible clients, fitting
-    cleanly into the MCP Servers & Tooling category.
+  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
   evidence:
-    - Repo description explicitly states 'Weather MCP server which returns 7 days of detailed weather forecasts'.
-    - README demonstrates MCP client configuration for Claude Desktop and Cursor with weather tool definitions.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Location Services'.
+    - jev-latest choice confidence 0.83
 placement:
   primary_category: mcp
   secondary_categories: []

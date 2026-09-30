@@ -70,19 +70,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first SDK and library set for implementing the A2A protocol in .NET, fitting the definition of a
-    framework developers build against rather than a control plane they operate.
+  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Multi-Agent Systems
   evidence:
-    - >-
-      Repo description explicitly calls it a '.NET implementation' and lists core/client/server NuGet packages
-      (A2A.Core, A2A.Client, A2A.Server).
-    - >-
-      The README details dependencies, transports (HTTP, gRPC, JSON-RPC), and persistence options (Redis, Memory),
-      typical of a library/framework.
-    - >-
-      Source list 'awesome-agent-orchestration' places it under 'Agent Communication Protocols', reinforcing its role as
-      a protocol implementation toolkit.
+    - jev-latest choice confidence 0.88
 placement:
   primary_category: ai-frameworks
   secondary_categories: []

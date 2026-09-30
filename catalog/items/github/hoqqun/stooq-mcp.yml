@@ -58,11 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing stock data via the Model Context Protocol.
+  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
-    - Repo description explicitly identifies it as an MCP server for stock prices
-    - README details MCP server implementation with Rust and rmcp crate
-    - Installation instructions include Claude Code/Desktop MCP registration
+    - jev-latest choice confidence 0.85
 placement:
   primary_category: mcp
   secondary_categories: []

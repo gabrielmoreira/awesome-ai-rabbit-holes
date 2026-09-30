@@ -58,15 +58,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core job is measuring, scoring, and comparing prompt performance using an ELO rating system, which aligns
-    directly with eval and experimentation tooling for developers.
+  reason: Jev decision-model reclassifier placed this item in evals / Prompt Regression & Testing
   evidence:
-    - >-
-      README states it 'generate[s], test[s], and rank[s] a multitude of prompts to find the ones that perform the best'
-      using an ELO rating system.
-    - Includes optional logging to Weights & Biases and Portkey for tracing and comparing prompt chain performance.
-    - Active repo (pushed 2025-10-16) with ~9655 stars, showing strong ecosystem traction for a prompt-testing utility.
+    - jev-latest choice confidence 0.77
 placement:
   primary_category: evals
   secondary_categories: []

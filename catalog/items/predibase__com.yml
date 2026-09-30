@@ -50,17 +50,13 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly positioned as an enterprise control layer for AI agents, focusing on monitoring,
-    governance, and remediation of multi-agent deployments.
+  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
   evidence:
-    - Site describes it as 'AI Agent Operations Platform' with 'enterprise control layer for AI agents'
-    - Core features include monitoring agent actions, governing behavior, and rewinding mistakes
-    - Targeted at production environments with multi-agent coordination needs
+    - jev-latest choice confidence 0.57
 placement:
-  primary_category: evals
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: Observability & Tracing
+  section: Hosted Agent Platforms
 lifecycle:
   status: curated
   reason: null
