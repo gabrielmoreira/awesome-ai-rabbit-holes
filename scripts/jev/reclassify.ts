@@ -395,21 +395,49 @@ function collapseWhitespace(value: string): string {
   return value.replace(/\s+/g, " ").trim();
 }
 
-/** One line per category so the model sees every identity before choosing one. */
-function buildCategoryRoster(categories: CategoryWithHints[]): string {
-  return categories
-    .map((cat) => `- ${cat.id} (${cat.name}): ${cat.prompt.use_when[0] ?? collapseWhitespace(cat.prompt.instructions)}`)
+/** One line per category id, so a roster can be built for any subset. */
+function buildRosterLines(categories: CategoryWithHints[]): Record<string, string> {
+  return Object.fromEntries(
+    categories.map((cat) => [
+      cat.id,
+      `- ${cat.id} (${cat.name}): ${cat.prompt.use_when[0] ?? collapseWhitespace(cat.prompt.instructions)}`,
+    ]),
+  );
+}
+
+function rosterFor(lines: Record<string, string>, keep?: Set<string>): string {
+  return Object.entries(lines)
+    .filter(([id]) => !keep || keep.has(id))
+    .map(([, line]) => line)
     .join("\n");
 }
 
-function computeCriteriaHash(): string {
+/**
+ * One line per category instead of its full rules: the coarse first stage of a
+ * cascade. It cannot decide the lookalike pairs on its own — that is the point,
+ * it only has to keep the right answer inside the window that does.
+ */
+function buildCategoryShortlist(categories: CategoryWithHints[]): Record<string, string> {
+  const criteria: Record<string, string> = {
+    [EXCLUDED_PLACEMENT_KEY]:
+      "Not a developer-facing AI tool: a documentation page, a citation, an auxiliary link, a generic non-AI product, or too little information to judge.",
+  };
+  for (const cat of categories) {
+    criteria[cat.id] = `${cat.name}: ${cat.prompt.use_when[0] ?? collapseWhitespace(cat.prompt.instructions)}`;
+  }
+  return criteria;
+}
+
+function computeCriteriaHash(ablation: string): string {
   // Hash the raw categories.yml file — if it changes, all items re-evaluate
   const content = fs.readFileSync(CATEGORIES_PATH, "utf8");
-  // Provider and model are part of the key: switching either must not reuse the
-  // other one's verdicts.
+  // Provider, model and ablation are part of the key: a prompt variant must not
+  // reuse another variant's verdicts. Without this a terse-criteria run reads
+  // the full-criteria cache and measures nothing.
   return crypto.createHash("sha1").update(`${content}
 ${client.endpoint}
-${client.model}`).digest("hex").slice(0, 12);
+${client.model}
+${ablation}`).digest("hex").slice(0, 12);
 }
 
 // ─── State builder ────────────────────────────────────────────────────────────
@@ -527,10 +555,13 @@ async function reclassifyItem(
   context: {
     categories: CategoryWithHints[];
     categoryCriteria: Record<string, string>;
-    roster: string;
+    shortlistCriteria: Record<string, string>;
+    rosterLines: Record<string, string>;
     ablation: string;
     tieBreaks: boolean;
     sectionContext: boolean;
+    /** 0 disables the cascade: category rules are sent in full, once. */
+    cascadeWindow: number;
   },
   apiKey: string,
   minConfidence: number,
@@ -550,14 +581,65 @@ async function reclassifyItem(
 
   const state = buildItemState(item, summary);
 
-  // Pass 1 — the category, where the full rules can be stated once per identity.
+  // Pass 1 — the category. With a cascade, a first call over one line per
+  // category narrows the field, and only those few are re-asked with their full
+  // rules. The state and the instructions are paid again in that second call,
+  // so the saving is bounded by how much of the prompt the rules are; what it
+  // buys is a decision made over 3-4 options instead of 14.
+  //
+  // Measured on the golden cases (winnow:e4b, the same 50 items): full rules
+  // 80.0% at 7,646 tokens/item, window 4 68.0% at 4,020, window 3 68.0% at
+  // 3,640. The first pass over one line per category misranks the lookalikes —
+  // skills__sh came back awesome-awesomes, checkmarx__com came back
+  // agent-orchestration — and a category it drops cannot return in the second
+  // pass. That trades 12 points of accuracy for 2x the speed. Off by default,
+  // kept as an ablation knob because a larger model may not pay the same price.
+  let categoryCriteria = context.categoryCriteria;
+  let shortlistTokens = 0;
+  if (context.cascadeWindow > 0) {
+    const shortlistResult = await callJevWithRetry(state, {
+      category: {
+        type: "choice",
+        instructions:
+          "Pick the single category whose primary identity this developer tool matches, from its " +
+          "main reason to exist rather than from side features or integrations it also supports. " +
+          "This is the first of two questions and the answer only has to keep the right category " +
+          "in the running: when two categories both look plausible, prefer the one whose identity " +
+          "line names the product's main job.",
+        criteria: context.shortlistCriteria,
+      },
+    }, apiKey);
+    if (!shortlistResult) return skip("jev_400_invalid_request");
+    shortlistTokens = shortlistResult.usage.input_tokens;
+    const probabilities = (shortlistResult.answers.category as JevChoiceAnswer).probabilities ?? {};
+    const keep = new Set(
+      Object.entries(probabilities)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, context.cascadeWindow)
+        .map(([id]) => id),
+    );
+    // Two entries never leave the shortlist. The incumbent, because one line per
+    // category is a coarse filter and a vague line must not be able to hide the
+    // placement the item already has. The exclusion, because dropping it would
+    // force an out-of-scope item into a category it does not belong to.
+    if (oldCategory && context.categoryCriteria[oldCategory]) keep.add(oldCategory);
+    keep.add(EXCLUDED_PLACEMENT_KEY);
+    categoryCriteria = Object.fromEntries(
+      Object.entries(context.categoryCriteria).filter(([id]) => keep.has(id)),
+    );
+  }
+
   const categoryResult = await callJevWithRetry(state, {
     category: {
       type: "choice",
       instructions:
         "Pick the single category whose primary identity this developer tool matches, from its " +
         "main reason to exist rather than from side features or integrations it also supports. " +
-        "Every category is listed in the roster with the one thing it means:\n" + context.roster + "\n" +
+        (context.cascadeWindow > 0
+          ? "Every category still under consideration is listed in the roster with the one thing it " +
+            "means; a category absent from this list was ruled out by the first question:\n" +
+            rosterFor(context.rosterLines, new Set(Object.keys(categoryCriteria))) + "\n"
+          : "Every category is listed in the roster with the one thing it means:\n" + rosterFor(context.rosterLines) + "\n") +
         (context.tieBreaks ? "Tie-breaks, when two categories both look plausible:\n" + TIE_BREAKS + "\n" : "") +
         "Precedence, when a product could sit in two: a decision model (Jev, TypeSafe System One, " +
         "Laya, Kev, and similar) or a tool whose judgment IS the product goes to decision-models " +
@@ -566,7 +648,7 @@ async function reclassifyItem(
         "coding agent stays in coding-agents; an MCP server whose identity is the protocol stays " +
         "in mcp. Choose '" + EXCLUDED_PLACEMENT_KEY + "' only when this is not a developer-facing AI " +
         "tool at all.",
-      criteria: context.categoryCriteria,
+      criteria: categoryCriteria,
     },
     should_include: {
       type: "noul",
@@ -589,7 +671,7 @@ async function reclassifyItem(
   const chosenCategory = context.categories.find((entry) => entry.id === chosenKey) ?? null;
   const shouldInclude = !isExcluded && chosenCategory !== null && includeAnswer.noul >= 0.4;
   const confidence = categoryAnswer.confidence;
-  const inputTokens = categoryResult.usage.input_tokens;
+  const inputTokens = categoryResult.usage.input_tokens + shortlistTokens;
   const model = categoryResult.model;
 
   if (!shouldInclude || !chosenCategory) {
@@ -657,10 +739,11 @@ interface CliArgs {
   tieBreaks: boolean;
   sectionContext: boolean;
   terseCriteria: boolean;
+  cascadeWindow: number;
 }
 function parseArgs(): CliArgs {
   const argv = process.argv.slice(2);
-  const args: CliArgs = { sample: null, category: null, ids: null, dryRun: false, concurrency: 20, minConfidence: 0.55, resetCache: false, seedOnly: false, endpoint: DEFAULT_ENDPOINT, model: DEFAULT_MODEL, tieBreaks: false, sectionContext: false, terseCriteria: false };
+  const args: CliArgs = { sample: null, category: null, ids: null, dryRun: false, concurrency: 20, minConfidence: 0.55, resetCache: false, seedOnly: false, endpoint: DEFAULT_ENDPOINT, model: DEFAULT_MODEL, tieBreaks: false, sectionContext: false, terseCriteria: false, cascadeWindow: 0 };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === "--sample" && argv[i + 1]) args.sample = Number(argv[++i]);
     else if (argv[i] === "--category" && argv[i + 1]) args.category = argv[++i] ?? null;
@@ -679,6 +762,7 @@ function parseArgs(): CliArgs {
     else if (argv[i] === "--no-tie-breaks") args.tieBreaks = false;
     else if (argv[i] === "--no-section-context") args.sectionContext = false;
     else if (argv[i] === "--terse-criteria") args.terseCriteria = true;
+    else if (argv[i] === "--cascade" && argv[i + 1]) args.cascadeWindow = Number(argv[++i]);
   }
   return args;
 }
@@ -720,10 +804,11 @@ async function main() {
 
   const categories = loadCategories() as CategoryWithHints[];
   const categoryCriteria = buildCategoryCriteria(categories, args.terseCriteria);
-  const roster = buildCategoryRoster(categories);
-  const ablation = [args.tieBreaks ? "tb" : "-", args.sectionContext ? "sc" : "-", args.terseCriteria ? "tc" : "-"].join("");
-  const context = { categories, categoryCriteria, roster, ablation, tieBreaks: args.tieBreaks, sectionContext: args.sectionContext };
-  const criteriaHash = computeCriteriaHash();
+  const shortlistCriteria = buildCategoryShortlist(categories);
+  const rosterLines = buildRosterLines(categories);
+  const ablation = [args.tieBreaks ? "tb" : "-", args.sectionContext ? "sc" : "-", args.terseCriteria ? "tc" : "-", args.cascadeWindow > 0 ? "cs" + args.cascadeWindow : "-"].join("");
+  const context = { categories, categoryCriteria, shortlistCriteria, rosterLines, ablation, tieBreaks: args.tieBreaks, sectionContext: args.sectionContext, cascadeWindow: args.cascadeWindow };
+  const criteriaHash = computeCriteriaHash(ablation);
   const cache = loadCache(criteriaHash, args.resetCache);
 
   console.log(`Jev Reclassifier`);
