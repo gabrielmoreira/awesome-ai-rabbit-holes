@@ -86,9 +86,14 @@ curation:
     - Repo description defines it as infrastructure for computer-use agents including sandboxes, SDKs, and benchmarks
     - README provides a Python SDK ('pip install cua') for managing ephemeral sandboxes
     - Includes specific tools for agent evaluation via Cua Bench
+    - >-
+      jev winnow:e4b 0.32 below gate 0.50; proposed mcp / Middleware & Generic; placement kept at ai-frameworks
+      (unverified)
 placement:
   primary_category: ai-frameworks
   section: LLM & Agent SDKs
+  secondary_categories:
+    - mcp
 lifecycle:
   status: curated
   reason: Stars (16158) exceeded threshold (150)

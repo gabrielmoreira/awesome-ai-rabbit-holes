@@ -55,9 +55,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Spec-First & Plan-Execute
   evidence:
     - jev-latest choice confidence 0.51
+    - >-
+      jev winnow:e4b 0.47 below gate 0.50; proposed coding-agents / Spec-First & Plan-Execute; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
-  secondary_categories: []
+  secondary_categories:
+    - extensions-and-addons
   section: Spec-First & Plan-Execute
 lifecycle:
   status: curated

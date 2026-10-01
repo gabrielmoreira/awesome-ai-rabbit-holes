@@ -78,9 +78,11 @@ curation:
     - 'Repo description: ''MCP server that reads dependency changelogs and tells you what''s risky in an upgrade.'''
     - README positions it as an MCP server installable via `claude mcp add` and configurable in MCP client configs.
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - jev winnow:e4b 0.46 below gate 0.50; proposed mcp / Dev & Code Tools; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - skills
   section: Dev & Code Tools
 lifecycle:
   status: curated

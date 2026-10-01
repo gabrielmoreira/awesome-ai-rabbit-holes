@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__599yongyang__datasetloom__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 数据 Data
         anchor_text: DatasetLoom (`multimodal`)
         extracted_url: https://github.com/599yongyang/datasetloom
-        surrounding_text: "40. [DatasetLoom (`multimodal`)](https://github.com/599yongyang/DatasetLoom): 一个面向多模态大模型训练的智能数据集构建与评估平台."
+        surrounding_text: '40. [DatasetLoom (`multimodal`)](https://github.com/599yongyang/DatasetLoom): 一个面向多模态大模型训练的智能数据集构建与评估平台.'
         confidence: high
 metadata:
   github:
@@ -29,10 +29,10 @@ metadata:
     archived: false
     full_name: 599yongyang/DatasetLoom
     html_url: https://github.com/599yongyang/DatasetLoom
-    created_at: "2025-05-10T10:17:00Z"
-    pushed_at: "2025-12-13T04:58:45Z"
+    created_at: '2025-05-10T10:17:00Z'
+    pushed_at: '2025-12-13T04:58:45Z'
     description: 一个面向多模态大模型训练的智能数据集构建与评估平台
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - dataset
@@ -42,14 +42,20 @@ metadata:
       - shadcn-ui
       - typescript
       - vlm
-    last_checked_at: "2026-09-17T04:13:26.515Z"
+    last_checked_at: '2026-09-17T04:13:26.515Z'
     readme:
-      fetched_at: "2026-09-17T04:13:26.515Z"
+      fetched_at: '2026-09-17T04:13:26.515Z'
       bytes: 8501
 insights:
-  summary: DatasetLoom is a TypeScript-based monorepo platform for building and evaluating multimodal training datasets for large language models.
-  why_it_matters: It provides a complete workflow for AI engineers to generate high-quality SFT/DPO datasets from documents and images, improving training data quality and reproducibility.
-  mental_damage: Another data tool that promises to solve the 'garbage in, garbage out' problem while adding yet another layer to the AI development stack.
+  summary: >-
+    DatasetLoom is a TypeScript-based monorepo platform for building and evaluating multimodal training datasets for
+    large language models.
+  why_it_matters: >-
+    It provides a complete workflow for AI engineers to generate high-quality SFT/DPO datasets from documents and
+    images, improving training data quality and reproducibility.
+  mental_damage: >-
+    Another data tool that promises to solve the 'garbage in, garbage out' problem while adding yet another layer to the
+    AI development stack.
   tags:
     - ai
     - dataset
@@ -59,32 +65,41 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core utility focuses on the automated creation, scoring, and evaluation of model outputs and datasets, fitting the evaluation and data quality profile.
+  reason: >-
+    The core utility focuses on the automated creation, scoring, and evaluation of model outputs and datasets, fitting
+    the evaluation and data quality profile.
   evidence:
     - Claims ability to perform 'AI automatic scoring' and model output comparison
     - Supports SFT and DPO dataset construction pipelines
     - Integrates RAG to generate verifiable, professional dialogue datasets
+    - >-
+      jev winnow:e4b 0.45 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; placement kept at
+      local-ai (unverified)
 placement:
   primary_category: local-ai
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: null
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'local-ai', proposed 'coding-agents'"
+  reason: >-
+    Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary
+    'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'local-ai', proposed
+    'coding-agents'
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:26.516Z"
+    updated_at: '2026-09-17T04:13:26.516Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:41:11.135Z"
+    updated_at: '2026-09-24T04:41:11.135Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -99,12 +114,21 @@ processing:
       disagreement: true
       decision_reason: DatasetLoom is a memory and context infrastructure tool for AI agents rather than a coding agent itself.
       decision_evidence:
-        - The README explicitly states it supports 'RAG capability' and 'driving models based on real knowledge' for generating training data
-        - It includes 'context7' style persistent memory and retrieval features through Qdrant vector database integration
+        - >-
+          The README explicitly states it supports 'RAG capability' and 'driving models based on real knowledge' for
+          generating training data
+        - >-
+          It includes 'context7' style persistent memory and retrieval features through Qdrant vector database
+          integration
         - The project focuses on 'intelligent dataset construction' rather than autonomous code generation or editing
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because it provides memory and retrieval infrastructure for agents rather than acting as the primary coding assistant.
-      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'local-ai', proposed 'coding-agents'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because it provides memory and retrieval infrastructure for agents
+        rather than acting as the primary coding assistant.
+      review_reason: >-
+        Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary
+        'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'local-ai', proposed
+        'coding-agents'
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hatmanstack__ragstack-lambda__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: HatmanStack/ragstack-mcp
         extracted_url: https://github.com/hatmanstack/ragstack-lambda
-        surrounding_text: "- [HatmanStack/ragstack-mcp](https://github.com/HatmanStack/RAGStack-Lambda/tree/main/src/ragstack-mcp) 🐍 ☁️ 🍎 🪟 🐧 - MCP server for RAGStack serverless knowledge bases. Search, chat with AI-generated answers, upload documents/media, scrape websites, and analyze metadata through an AWS-powered RAG pipeline (Lambda, Bedrock, S3, DynamoDB)."
+        surrounding_text: >-
+          - [HatmanStack/ragstack-mcp](https://github.com/HatmanStack/RAGStack-Lambda/tree/main/src/ragstack-mcp) 🐍 ☁️
+          🍎 🪟 🐧 - MCP server for RAGStack serverless knowledge bases. Search, chat with AI-generated answers, upload
+          documents/media, scrape websites, and analyze metadata through an AWS-powered RAG pipeline (Lambda, Bedrock,
+          S3, DynamoDB).
         confidence: high
 metadata:
   github:
@@ -30,18 +34,22 @@ metadata:
     archived: false
     full_name: HatmanStack/RAGStack-Lambda
     html_url: https://github.com/HatmanStack/RAGStack-Lambda
-    created_at: "2025-10-26T01:03:41Z"
-    pushed_at: "2026-07-29T20:06:15Z"
+    created_at: '2025-10-26T01:03:41Z'
+    pushed_at: '2026-07-29T20:06:15Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:35.869Z"
+    last_checked_at: '2026-07-30T05:05:35.869Z'
     readme:
-      fetched_at: "2026-07-30T05:05:35.869Z"
+      fetched_at: '2026-07-30T05:05:35.869Z'
       bytes: 10657
 insights:
-  summary: Serverless document and media processing stack with AI chat, using AWS Lambda, Bedrock, and MCP for retrieval-augmented generation.
-  why_it_matters: Lets developers deploy a zero-cost-at-rest RAG pipeline for documents, images, video, and audio without managing vector databases or idle infrastructure.
+  summary: >-
+    Serverless document and media processing stack with AI chat, using AWS Lambda, Bedrock, and MCP for
+    retrieval-augmented generation.
+  why_it_matters: >-
+    Lets developers deploy a zero-cost-at-rest RAG pipeline for documents, images, video, and audio without managing
+    vector databases or idle infrastructure.
   mental_damage: Finally, a way to turn your AWS bill into a surprise party where the only guest is your CFO’s panic.
   tags:
     - serverless
@@ -52,33 +60,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary developer-facing integration point is its MCP interface for querying the knowledge base, making it an MCP server rather than a generic RAG framework.
+  reason: >-
+    The product's primary developer-facing integration point is its MCP interface for querying the knowledge base,
+    making it an MCP server rather than a generic RAG framework.
   evidence:
     - README states it allows querying via 'your AI assistant via MCP'.
     - Listed in awesome-mcp-servers under Knowledge & Memory servers.
     - Core architecture is a serverless AWS pipeline exposing a knowledge base through chat and MCP.
+    - >-
+      jev winnow:e4b 0.20 below gate 0.50; proposed ai-frameworks / Memory & Retrieval Infrastructure; placement kept at
+      mcp (unverified)
 placement:
   primary_category: mcp
   section: null
+  secondary_categories:
+    - ai-frameworks
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-frameworks'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-03T05:16:59.388Z"
+    updated_at: '2026-09-03T05:16:59.388Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for hatmanstack/ragstack-lambda
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -93,7 +108,9 @@ processing:
       input_hash: sha256:57fc794bfaa0a32c2e217d89224980d0cb2e7a6c3e149c7fc5fbd4cdddb2f3dd
       proposed_primary_category: ai-frameworks
       disagreement: true
-      decision_reason: Core identity is a code-first serverless RAG workflow (Lambda + Step Functions) that developers deploy and integrate, not a primary assistant, extension, or orchestration platform.
+      decision_reason: >-
+        Core identity is a code-first serverless RAG workflow (Lambda + Step Functions) that developers deploy and
+        integrate, not a primary assistant, extension, or orchestration platform.
       decision_evidence:
         - README describes a serverless architecture for document/media processing with AI chat
         - One-click deploy via CloudFormation, API access, and web component integration
@@ -101,6 +118,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - context-engineering
-      contrastive_reason: Choose ai-frameworks over context-engineering because the product is a deployable workflow engine (Lambda/Step Functions) rather than a standalone retrieval or memory system.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
+      contrastive_reason: >-
+        Choose ai-frameworks over context-engineering because the product is a deployable workflow engine (Lambda/Step
+        Functions) rather than a standalone retrieval or memory system.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-frameworks'''
       review_resume_lifecycle: null

@@ -51,9 +51,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
     - jev-latest choice confidence 0.77
+    - >-
+      jev winnow:e4b 0.30 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; placement kept at
+      skills (unverified)
 placement:
   primary_category: skills
-  secondary_categories: []
+  secondary_categories:
+    - awesome-awesomes
   section: Skill Packs & Libraries
 lifecycle:
   status: curated

@@ -53,9 +53,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
     - jev-latest choice confidence 0.62
+    - >-
+      jev winnow:e4b 0.31 below gate 0.50; proposed mcp / Middleware & Generic; placement kept at memory-and-context
+      (unverified)
 placement:
   primary_category: memory-and-context
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Persistent Memory & Knowledge
 lifecycle:
   status: curated

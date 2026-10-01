@@ -49,9 +49,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Prompt Engineering & Management
   evidence:
     - jev-latest choice confidence 0.48
+    - >-
+      jev winnow:e4b 0.35 below gate 0.50; proposed decision-models / Open & Local Decision Models; placement kept at
+      memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Prompt Engineering & Management
 lifecycle:
   status: curated

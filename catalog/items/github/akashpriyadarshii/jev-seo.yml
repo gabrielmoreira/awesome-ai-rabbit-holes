@@ -149,9 +149,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
   evidence:
     - jev-latest choice confidence 0.46
+    - >-
+      jev winnow:e4b 0.46 below gate 0.50; proposed decision-models / Client SDKs & CLIs; placement kept at
+      decision-models (unverified)
 placement:
   primary_category: decision-models
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Client SDKs & CLIs
 lifecycle:
   status: curated

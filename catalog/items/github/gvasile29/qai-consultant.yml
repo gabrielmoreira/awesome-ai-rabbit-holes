@@ -86,9 +86,13 @@ curation:
     - Generates structured QA artifacts like Test Plans, Risk Registers, and Effort Estimation reports.
     - Uses RAG to ground recommendations in established standards (ISTQB, OWASP, ISO 26262).
     - Provides a standalone agent experience via Web UI and CLI, in addition to an MCP server.
+    - >-
+      jev winnow:e4b 0.32 below gate 0.50; proposed coding-agents / Review, Testing & Repair; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Review, Testing & Repair
 lifecycle:
   status: curated

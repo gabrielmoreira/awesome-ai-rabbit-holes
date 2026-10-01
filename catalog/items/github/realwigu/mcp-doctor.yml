@@ -87,9 +87,11 @@ curation:
     - >-
       Includes a 'MCP Server Mode' to expose its tools via stdio transport, confirming MCP is the product identity, not
       just a compatibility feature.
+    - jev winnow:e4b 0.34 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - evals
   section: Clients & Inspector Tools
 lifecycle:
   status: curated

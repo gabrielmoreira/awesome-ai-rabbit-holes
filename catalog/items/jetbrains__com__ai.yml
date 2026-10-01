@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jetbrains__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Code Completion
         anchor_text: JetBrains AI
         extracted_url: https://jetbrains.com/ai
-        surrounding_text: "- **[JetBrains AI](https://www.jetbrains.com/ai/)** – Integrated AI for code completion and analysis in all JetBrains IDEs."
+        surrounding_text: >-
+          - **[JetBrains AI](https://www.jetbrains.com/ai/)** – Integrated AI for code completion and analysis in all
+          JetBrains IDEs.
         confidence: high
     - id: discovery__www__jetbrains__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +35,9 @@ provenance:
           - Code Completion
         anchor_text: JetBrains AI
         extracted_url: https://www.jetbrains.com/ai
-        surrounding_text: "- **[JetBrains AI](https://www.jetbrains.com/ai/)** – Integrated AI for code completion and analysis in all JetBrains IDEs."
+        surrounding_text: >-
+          - **[JetBrains AI](https://www.jetbrains.com/ai/)** – Integrated AI for code completion and analysis in all
+          JetBrains IDEs.
         confidence: high
 metadata:
   github:
@@ -51,9 +55,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: JetBrains AI is a platform that provides AI-powered coding assistance and agentic workflows integrated into JetBrains IDEs, including the Junie coding agent and support for third-party agents via ACP.
-  why_it_matters: It gives developers access to multiple AI coding agents within their existing IDE environment, reducing context switching and enabling agent-driven development workflows.
-  mental_damage: Finally, an AI tool that doesn’t try to replace your IDE but instead makes you question whether you’ve been underutilizing your $200/year IDE subscription all along.
+  summary: >-
+    JetBrains AI is a platform that provides AI-powered coding assistance and agentic workflows integrated into
+    JetBrains IDEs, including the Junie coding agent and support for third-party agents via ACP.
+  why_it_matters: >-
+    It gives developers access to multiple AI coding agents within their existing IDE environment, reducing context
+    switching and enabling agent-driven development workflows.
+  mental_damage: >-
+    Finally, an AI tool that doesn’t try to replace your IDE but instead makes you question whether you’ve been
+    underutilizing your $200/year IDE subscription all along.
   tags:
     - ide-integration
     - coding-agent
@@ -61,22 +71,28 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary product identity is an AI-native IDE/editor surface (JetBrains' ecosystem) with integrated AI assistance, not a standalone agent or extension.
+  reason: >-
+    The primary product identity is an AI-native IDE/editor surface (JetBrains' ecosystem) with integrated AI
+    assistance, not a standalone agent or extension.
   evidence:
     - Source-list context places it under 'Code Completion' in a curated AI coding tools list
     - Scraped site describes it as 'integrated AI tools and software development expertise'
     - JetBrains is known for its IDE products, making this an IDE-native AI integration
+    - >-
+      jev winnow:e4b 0.35 below gate 0.50; proposed coding-agents / IDE-Native & Editor Agents; placement kept at
+      extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  secondary_categories: []
+  secondary_categories:
+    - coding-agents
   section: null
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
+  reason: 'Categorization review required: placement disagreement: retained ''extensions-and-addons'', proposed ''coding-agents'''
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:42:10.092Z"
+    updated_at: '2026-09-28T04:42:10.092Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -89,20 +105,28 @@ processing:
       input_hash: sha256:8b8d05499e1e73f00ef404c041ac593a0c58253a5492245e22e1272ed49c3807
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: JetBrains AI functions as a coding agent ecosystem where the primary value lies in agents like Junie performing coding tasks inside the IDE, not in extending another agent or serving as a framework.
+      decision_reason: >-
+        JetBrains AI functions as a coding agent ecosystem where the primary value lies in agents like Junie performing
+        coding tasks inside the IDE, not in extending another agent or serving as a framework.
       decision_evidence:
         - The JetBrains AI ecosystem includes Junie, a coding agent that performs coding tasks in JetBrains IDEs
         - It enables agent-driven workflows where AI assists with coding, testing, CI/CD, and collaboration
-        - It positions itself as an open platform for coding agents, allowing users to bring their own models or connect external agents via ACP
+        - >-
+          It positions itself as an open platform for coding agents, allowing users to bring their own models or connect
+          external agents via ACP
       category_candidates:
         - coding-agents
         - extensions-and-addons
-      contrastive_reason: Choose coding-agents over extensions-and-addons because JetBrains AI is not primarily an add-on to another coding agent but provides its own agents (like Junie) and orchestration layer for coding tasks within the IDE.
-      review_reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
+      contrastive_reason: >-
+        Choose coding-agents over extensions-and-addons because JetBrains AI is not primarily an add-on to another
+        coding agent but provides its own agents (like Junie) and orchestration layer for coding tasks within the IDE.
+      review_reason: >-
+        Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed
+        'coding-agents'
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause: null
     next_retry_at: null
   stars:

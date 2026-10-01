@@ -85,9 +85,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
   evidence:
     - jev-latest choice confidence 0.59
+    - >-
+      jev winnow:e4b 0.27 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
+      decision-models (unverified)
 placement:
   primary_category: decision-models
-  secondary_categories: []
+  secondary_categories:
+    - evals
   section: Verification, Guardrails & Safety
 lifecycle:
   status: curated

@@ -104,9 +104,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
     - jev-latest choice confidence 0.50
+    - >-
+      jev winnow:e4b 0.19 below gate 0.50; proposed extensions-and-addons / API & Service Integrations; placement kept
+      at evals (unverified)
 placement:
   primary_category: evals
-  secondary_categories: []
+  secondary_categories:
+    - extensions-and-addons
   section: Observability & Tracing
 lifecycle:
   status: curated

@@ -64,9 +64,11 @@ curation:
     - 'Repo description explicitly defines it as an ''MCP server: grounding/hallucination guard'''
     - README provides mcpServers configuration block for integration
     - Core functionality is a tool (`verify_claim`) designed for MCP hosts
+    - jev winnow:e4b 0.43 below gate 0.50; proposed mcp / Dev & Code Tools; placement kept at evals (unverified)
 placement:
   primary_category: evals
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Safety, Fairness & Red-teaming
 lifecycle:
   status: curated

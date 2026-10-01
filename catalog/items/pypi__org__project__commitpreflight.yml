@@ -51,9 +51,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Testing & Code Quality
   evidence:
     - jev-latest choice confidence 0.66
+    - >-
+      jev winnow:e4b 0.24 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; placement kept
+      at extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Testing & Code Quality
 lifecycle:
   status: curated

@@ -131,9 +131,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
   evidence:
     - jev-latest choice confidence 0.96
+    - >-
+      jev winnow:e4b 0.35 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at decision-models
+      (unverified)
 placement:
   primary_category: decision-models
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Agent Gates, Routers & Skills
 lifecycle:
   status: curated

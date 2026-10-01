@@ -55,9 +55,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
   evidence:
     - jev-latest choice confidence 0.67
+    - >-
+      jev winnow:e4b 0.32 below gate 0.50; proposed memory-and-context / Compression & Token Optimization; placement
+      kept at memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Compression & Token Optimization
 lifecycle:
   status: curated

@@ -74,9 +74,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Visual Builders & Workbenches
   evidence:
     - jev-latest choice confidence 0.71
+    - >-
+      jev winnow:e4b 0.47 below gate 0.50; proposed agent-orchestration / Visual Builders & Workbenches; placement kept
+      at agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Visual Builders & Workbenches
 lifecycle:
   status: curated

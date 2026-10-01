@@ -66,9 +66,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Context Compaction & Memory
   evidence:
     - jev-latest choice confidence 0.45
+    - >-
+      jev winnow:e4b 0.30 below gate 0.50; proposed extensions-and-addons / Claude Code & Agent Tools; placement kept at
+      decision-models (unverified)
 placement:
   primary_category: decision-models
-  secondary_categories: []
+  secondary_categories:
+    - extensions-and-addons
   section: Context Compaction & Memory
 lifecycle:
   status: curated

@@ -99,9 +99,13 @@ curation:
   reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
     - Jev classification confidence below inclusion threshold
+    - >-
+      jev winnow:e4b 0.38 below gate 0.50; proposed ai-frameworks / Workflow & Graph Engines; no placement kept
+      (unverified)
 placement:
   primary_category: null
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: null
 lifecycle:
   status: curated

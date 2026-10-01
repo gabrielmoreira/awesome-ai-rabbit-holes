@@ -69,9 +69,11 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
     - jev-latest choice confidence 0.41
+    - jev winnow:e4b 0.19 below gate 0.50; proposed mcp / Dev & Code Tools; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Review, Testing & Repair
 lifecycle:
   status: curated

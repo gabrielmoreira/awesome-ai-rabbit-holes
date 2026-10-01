@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__codeium__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Code Completion
         anchor_text: Codeium
         extracted_url: https://www.codeium.com
-        surrounding_text: "- **[Codeium](https://www.codeium.com/)** – Free AI code completion for 70+ languages and 40+ IDEs."
+        surrounding_text: '- **[Codeium](https://www.codeium.com/)** – Free AI code completion for 70+ languages and 40+ IDEs.'
         confidence: high
 metadata:
   github:
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: Devin Desktop is a desktop IDE with agent management features for coordinating local and cloud coding agents.
-  why_it_matters: It lets developers manage fleets of coding agents from a single IDE surface, combining code editing with agent orchestration.
+  why_it_matters: >-
+    It lets developers manage fleets of coding agents from a single IDE surface, combining code editing with agent
+    orchestration.
   mental_damage: Finally, a way to feel guilty about underutilizing not just one AI agent, but an entire fleet of them.
   tags:
     - ide
@@ -46,20 +48,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Codeium is a primary coding assistant that integrates directly into IDEs to provide code completion and chat, fitting the IDE-Native Assistants section.
+  reason: >-
+    Codeium is a primary coding assistant that integrates directly into IDEs to provide code completion and chat,
+    fitting the IDE-Native Assistants section.
   evidence:
     - Seen in awesome-ai-coding-tools under the section 'Code Completion'.
     - Positioned as a direct competitor to Copilot, functioning as a primary assistant rather than an extension.
+    - jev winnow:e4b 0.18 below gate 0.50; proposed out of scope; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   section: null
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.667Z"
+    updated_at: '2026-05-06T22:12:15.667Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:50:29.024Z"
+    updated_at: '2026-09-28T04:50:29.024Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -81,14 +86,22 @@ processing:
       input_hash: sha256:b0e9d8dd2d841b60edcc9754a4f085c105083efbda72ad94a348820de7c97b36
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: Devin Desktop’s core identity is managing multiple agents via Spaces, Kanban, and multi-agent workflows, making it an agent orchestration platform despite its IDE features.
+      decision_reason: >-
+        Devin Desktop’s core identity is managing multiple agents via Spaces, Kanban, and multi-agent workflows, making
+        it an agent orchestration platform despite its IDE features.
       decision_evidence:
-        - Manage fleets of local and cloud agents from one surface. Plan, delegate, review, and ship without leaving your editor.
-        - Devin Desktop is the home for coding agents to do your best work. You decide what to build, then your agents write the code, chase the edge cases, and test every detail.
+        - >-
+          Manage fleets of local and cloud agents from one surface. Plan, delegate, review, and ship without leaving
+          your editor.
+        - >-
+          Devin Desktop is the home for coding agents to do your best work. You decide what to build, then your agents
+          write the code, chase the edge cases, and test every detail.
         - Use Spaces to share context and Git worktrees across all your agents.
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because the primary value is coordinating multiple agents and managing agent workflows, not performing coding tasks directly as a solo agent.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because the primary value is coordinating multiple agents and
+        managing agent workflows, not performing coding tasks directly as a solo agent.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

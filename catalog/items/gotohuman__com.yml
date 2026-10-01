@@ -122,9 +122,13 @@ curation:
       approvals
     - Integrations include n8n, Make, SDKs, and an MCP server, positioning it as a coordination layer
     - Source lists categorize it under LLMOps and MCP servers, signaling orchestration/control-plane identity
+    - >-
+      jev winnow:e4b 0.36 below gate 0.50; proposed agent-orchestration / Hosted Agent Platforms; placement kept at
+      agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Hosted Agent Platforms
 lifecycle:
   status: curated

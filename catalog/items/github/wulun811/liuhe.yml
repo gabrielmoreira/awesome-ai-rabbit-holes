@@ -54,9 +54,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
     - jev-latest choice confidence 0.73
+    - >-
+      jev winnow:e4b 0.31 below gate 0.50; proposed coding-agents / Autonomous & Multi-Agent Coding; placement kept at
+      mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - coding-agents
   section: Dev & Code Tools
 lifecycle:
   status: curated

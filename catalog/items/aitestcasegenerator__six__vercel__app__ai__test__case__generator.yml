@@ -51,9 +51,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
     - jev-latest choice confidence 0.66
+    - >-
+      jev winnow:e4b 0.35 below gate 0.50; proposed app-builders / Scaffolding & Boilerplate; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
-  secondary_categories: []
+  secondary_categories:
+    - app-builders
   section: Review, Testing & Repair
 lifecycle:
   status: curated

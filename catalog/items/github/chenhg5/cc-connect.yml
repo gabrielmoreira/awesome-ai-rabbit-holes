@@ -67,9 +67,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / API & Service Integrations
   evidence:
     - jev-latest choice confidence 0.97
+    - >-
+      jev winnow:e4b 0.33 below gate 0.50; proposed coding-agents / Terminal & CLI Agents; placement kept at
+      extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  secondary_categories: []
+  secondary_categories:
+    - coding-agents
   section: API & Service Integrations
 lifecycle:
   status: curated

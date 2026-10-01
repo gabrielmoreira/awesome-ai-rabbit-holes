@@ -55,9 +55,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
     - jev-latest choice confidence 0.48
+    - >-
+      jev winnow:e4b 0.25 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
+      mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - agent-orchestration
   section: Middleware & Generic
 lifecycle:
   status: curated

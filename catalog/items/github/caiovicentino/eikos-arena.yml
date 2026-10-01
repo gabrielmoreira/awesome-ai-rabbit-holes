@@ -56,9 +56,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
     - jev-latest choice confidence 0.63
+    - >-
+      jev winnow:e4b 0.39 below gate 0.50; proposed decision-models / Apps, Games & Simulation; placement kept at evals
+      (unverified)
 placement:
   primary_category: evals
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Agent & LLM Benchmarks
 lifecycle:
   status: curated

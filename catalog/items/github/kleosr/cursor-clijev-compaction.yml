@@ -51,9 +51,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Context Compaction & Memory
   evidence:
     - jev-latest choice confidence 0.92
+    - >-
+      jev winnow:e4b 0.39 below gate 0.50; proposed decision-models / Context Compaction & Memory; placement kept at
+      decision-models (unverified)
 placement:
   primary_category: decision-models
-  secondary_categories: []
+  secondary_categories:
+    - memory-and-context
   section: Context Compaction & Memory
 lifecycle:
   status: curated

@@ -116,9 +116,11 @@ curation:
   reason: 'Definitive manual audit: Reference implementation of a RAG chatbot, not a tool.'
   evidence:
     - Manual review, 2026-09-19
+    - jev winnow:e4b 0.42 below gate 0.50; proposed local-ai / Fine-tuning & Training; no placement kept (unverified)
 placement:
   primary_category: null
-  secondary_categories: []
+  secondary_categories:
+    - local-ai
   section: null
 lifecycle:
   status: curated

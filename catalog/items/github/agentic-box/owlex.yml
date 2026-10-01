@@ -61,9 +61,11 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
     - jev-latest choice confidence 0.68
+    - jev winnow:e4b 0.38 below gate 0.50; proposed mcp / Dev & Code Tools; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - agent-orchestration
   section: Dev & Code Tools
 lifecycle:
   status: needs_review

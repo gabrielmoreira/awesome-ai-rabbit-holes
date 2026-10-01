@@ -81,9 +81,13 @@ curation:
     - Repo description explicitly positions it as API quality ratings 'for AI trading agents' with MCP topics.
     - README includes a dedicated 'For MCP-Compatible Agents' section with JSON config for Claude Code and Cursor.
     - Included in awesome-mcp-servers under Finance & Fintech, reinforcing its MCP server identity.
+    - >-
+      jev winnow:e4b 0.40 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; placement kept
+      at mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Finance, Crypto & DeFi
 lifecycle:
   status: curated

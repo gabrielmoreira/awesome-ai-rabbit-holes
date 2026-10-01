@@ -69,9 +69,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
     - jev-latest choice confidence 0.58
+    - >-
+      jev winnow:e4b 0.46 below gate 0.50; proposed decision-models / Cloud Gateways & Providers; placement kept at mcp
+      (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Middleware & Generic
 lifecycle:
   status: curated

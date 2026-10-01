@@ -82,9 +82,13 @@ curation:
     - Repo description explicitly states it's a self-hosted mem0 MCP server for Claude Code
     - README details MCP tool integration and server setup for memory management
     - Topics include mcp, mcp-server, and mem0
+    - >-
+      jev winnow:e4b 0.35 below gate 0.50; proposed mcp / Middleware & Generic; placement kept at memory-and-context
+      (unverified)
 placement:
   primary_category: memory-and-context
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Persistent Memory & Knowledge
 lifecycle:
   status: curated

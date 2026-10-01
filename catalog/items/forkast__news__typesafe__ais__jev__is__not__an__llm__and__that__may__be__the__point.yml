@@ -52,9 +52,13 @@ curation:
   reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
     - Jev classification confidence below inclusion threshold
+    - >-
+      jev winnow:e4b 0.32 below gate 0.50; proposed awesome-awesomes / Publications & Feeds; no placement kept
+      (unverified)
 placement:
   primary_category: null
-  secondary_categories: []
+  secondary_categories:
+    - awesome-awesomes
   section: null
 lifecycle:
   status: curated

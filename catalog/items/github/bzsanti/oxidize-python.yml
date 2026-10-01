@@ -76,9 +76,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in document-ai / Document Parsing & Layout
   evidence:
     - jev-latest choice confidence 0.41
+    - >-
+      jev winnow:e4b 0.42 below gate 0.50; proposed ai-frameworks / Memory & Retrieval Infrastructure; placement kept at
+      document-ai (unverified)
 placement:
   primary_category: document-ai
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Document Parsing & Layout
 lifecycle:
   status: curated

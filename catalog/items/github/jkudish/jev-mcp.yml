@@ -125,9 +125,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
     - jev-latest choice confidence 0.59
+    - >-
+      jev winnow:e4b 0.45 below gate 0.50; proposed decision-models / Local Serving & Gateways; placement kept at mcp
+      (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: AI & Model Services
 lifecycle:
   status: curated

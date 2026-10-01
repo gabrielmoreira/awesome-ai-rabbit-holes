@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bmad-code-org__bmad-method__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -19,7 +19,10 @@ provenance:
           - Development Frameworks
         anchor_text: BMAD-METHOD
         extracted_url: https://github.com/bmad-code-org/bmad-method
-        surrounding_text: "- [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) ![](https://img.shields.io/github/stars/bmad-code-org/BMAD-METHOD.svg) - Breakthrough Method for AI-driven Agile Development, providing a modular framework for agile AI workflows."
+        surrounding_text: >-
+          - [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
+          ![](https://img.shields.io/github/stars/bmad-code-org/BMAD-METHOD.svg) - Breakthrough Method for AI-driven
+          Agile Development, providing a modular framework for agile AI workflows.
         confidence: high
 metadata:
   github:
@@ -29,24 +32,30 @@ metadata:
     archived: false
     full_name: bmad-code-org/BMAD-METHOD
     html_url: https://github.com/bmad-code-org/BMAD-METHOD
-    created_at: "2025-04-13T14:54:25Z"
-    pushed_at: "2026-09-23T23:23:56Z"
+    created_at: '2025-04-13T14:54:25Z'
+    pushed_at: '2026-09-23T23:23:56Z'
     description: Breakthrough Method for Agile Ai Driven Development
-    homepage: ""
+    homepage: ''
     topics:
       - agile
       - ai
       - context-engineering
       - sdlc
       - spec-driven-development
-    last_checked_at: "2026-09-24T04:13:01.642Z"
+    last_checked_at: '2026-09-24T04:13:01.642Z'
     readme:
-      fetched_at: "2026-09-24T04:13:01.642Z"
+      fetched_at: '2026-09-24T04:13:01.642Z'
       bytes: 7084
 insights:
-  summary: BMad Method is a spec-driven development workflow that uses AI agents and skills to guide planning, building, and learning in software development.
-  why_it_matters: It helps developers balance speed and rigor by making AI-assisted decisions explicit and reusable across changes and teams.
-  mental_damage: Another framework promising to fix the gap between vibe-coding and architecture, while adding yet another skill to install.
+  summary: >-
+    BMad Method is a spec-driven development workflow that uses AI agents and skills to guide planning, building, and
+    learning in software development.
+  why_it_matters: >-
+    It helps developers balance speed and rigor by making AI-assisted decisions explicit and reusable across changes and
+    teams.
+  mental_damage: >-
+    Another framework promising to fix the gap between vibe-coding and architecture, while adding yet another skill to
+    install.
   tags:
     - spec-driven
     - workflow
@@ -56,33 +65,48 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: BMad Method is a developer-facing workflow that centers on spec-first planning and iterative delivery using AI agents, making it a clear fit for spec-driven development rather than a general coding agent or extension.
+  reason: >-
+    BMad Method is a developer-facing workflow that centers on spec-first planning and iterative delivery using AI
+    agents, making it a clear fit for spec-driven development rather than a general coding agent or extension.
   evidence:
-    - "Repo description: 'Breakthrough Method for Agile Ai Driven Development'"
-    - "README: 'Agile Ai Driven Development — turn an idea or change request into working software without giving up the thinking.'"
-    - "Source-list context: listed in awesome-spec-driven-development under 'Development Frameworks'"
-    - "README: 'BMad keeps you in control while its agents and workflows make the important decisions explicit and preserve them as context for the work that follows.'"
-    - "README: features skills CLI, Claude Code/Codex plugin install, and modules for planning, building, testing, and retrospectives"
+    - 'Repo description: ''Breakthrough Method for Agile Ai Driven Development'''
+    - >-
+      README: 'Agile Ai Driven Development — turn an idea or change request into working software without giving up the
+      thinking.'
+    - 'Source-list context: listed in awesome-spec-driven-development under ''Development Frameworks'''
+    - >-
+      README: 'BMad keeps you in control while its agents and workflows make the important decisions explicit and
+      preserve them as context for the work that follows.'
+    - >-
+      README: features skills CLI, Claude Code/Codex plugin install, and modules for planning, building, testing, and
+      retrospectives
+    - >-
+      jev winnow:e4b 0.44 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
   section: Spec-First & Plan-Execute
+  secondary_categories:
+    - agent-orchestration
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): spec-driven-development; invalid primary 'spec-driven-development' promoted runner-up 'coding-agents'"
+  reason: >-
+    Categorization review required: unknown category candidate(s): spec-driven-development; invalid primary
+    'spec-driven-development' promoted runner-up 'coding-agents'
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-24T04:13:01.642Z"
+    updated_at: '2026-09-24T04:13:01.642Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:57:32.494Z"
+    updated_at: '2026-09-28T04:57:32.494Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -95,16 +119,28 @@ processing:
       input_hash: sha256:6b58e39391e5098def2d3c40cfe57a85245e9dff004b43f638f40b7500c6d816
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: BMad Method is a developer-facing workflow that centers on spec-first planning and iterative delivery using AI agents, making it a clear fit for spec-driven development rather than a general coding agent or extension.
+      decision_reason: >-
+        BMad Method is a developer-facing workflow that centers on spec-first planning and iterative delivery using AI
+        agents, making it a clear fit for spec-driven development rather than a general coding agent or extension.
       decision_evidence:
-        - "Repo description: 'Breakthrough Method for Agile Ai Driven Development'"
-        - "README: 'Agile Ai Driven Development — turn an idea or change request into working software without giving up the thinking.'"
-        - "Source-list context: listed in awesome-spec-driven-development under 'Development Frameworks'"
-        - "README: 'BMad keeps you in control while its agents and workflows make the important decisions explicit and preserve them as context for the work that follows.'"
-        - "README: features skills CLI, Claude Code/Codex plugin install, and modules for planning, building, testing, and retrospectives"
+        - 'Repo description: ''Breakthrough Method for Agile Ai Driven Development'''
+        - >-
+          README: 'Agile Ai Driven Development — turn an idea or change request into working software without giving up
+          the thinking.'
+        - 'Source-list context: listed in awesome-spec-driven-development under ''Development Frameworks'''
+        - >-
+          README: 'BMad keeps you in control while its agents and workflows make the important decisions explicit and
+          preserve them as context for the work that follows.'
+        - >-
+          README: features skills CLI, Claude Code/Codex plugin install, and modules for planning, building, testing,
+          and retrospectives
       category_candidates:
         - spec-driven-development
         - coding-agents
-      contrastive_reason: Choose spec-driven-development over coding-agents because BMad Method’s core identity is a spec-first workflow and decision-making framework, not an autonomous agent that writes or edits code directly.
-      review_reason: "Categorization review required: unknown category candidate(s): spec-driven-development; invalid primary 'spec-driven-development' promoted runner-up 'coding-agents'"
+      contrastive_reason: >-
+        Choose spec-driven-development over coding-agents because BMad Method’s core identity is a spec-first workflow
+        and decision-making framework, not an autonomous agent that writes or edits code directly.
+      review_reason: >-
+        Categorization review required: unknown category candidate(s): spec-driven-development; invalid primary
+        'spec-driven-development' promoted runner-up 'coding-agents'
       review_resume_lifecycle: null

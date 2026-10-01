@@ -81,9 +81,13 @@ curation:
     - 'Repo description: ''The missing context layer for AI-assisted refactoring'''
     - 'README: ''Depwire builds a DETERMINISTIC, NOT PROBABILISTIC dependency graph of your codebase'' using tree-sitter'
     - Serves pre-computed graph data via 17 MCP tools to AI assistants
+    - >-
+      jev winnow:e4b 0.36 below gate 0.50; proposed memory-and-context / Context & Session Management; placement kept at
+      mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - memory-and-context
   section: Dev & Code Tools
 lifecycle:
   status: curated

@@ -66,9 +66,13 @@ curation:
     - README explicitly describes it as an MCP server with 7 tools for Claude Desktop/AI agents
     - Repo provides multiple MCP integration methods (remote HTTP, uvx, pip install)
     - Core functionality is exposing CryptoGuard API via MCP protocol
+    - >-
+      jev winnow:e4b 0.36 below gate 0.50; proposed decision-models / Client SDKs & CLIs; placement kept at mcp
+      (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Finance, Crypto & DeFi
 lifecycle:
   status: curated

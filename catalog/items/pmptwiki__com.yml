@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pmptwiki__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: pmptwiki.com
         extracted_url: https://pmptwiki.com
-        surrounding_text: "- [pmptwiki/pmpt-cli](https://github.com/pmptwiki/pmpt-cli) [![pmpt-mcp MCP server](https://glama.ai/mcp/servers/@pmptwiki/pmpt-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@pmptwiki/pmpt-mcp) 📇 🏠 - Record and share your AI-driven development journey. Auto-saves project milestones with summaries, generates structured AI prompts via 5-question planning, and publishes to [pmptwiki.com](https://pmptwiki.com) community platform."
+        surrounding_text: >-
+          - [pmptwiki/pmpt-cli](https://github.com/pmptwiki/pmpt-cli) [![pmpt-mcp MCP
+          server](https://glama.ai/mcp/servers/@pmptwiki/pmpt-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@pmptwiki/pmpt-mcp)
+          📇 🏠 - Record and share your AI-driven development journey. Auto-saves project milestones with summaries,
+          generates structured AI prompts via 5-question planning, and publishes to [pmptwiki.com](https://pmptwiki.com)
+          community platform.
         confidence: high
 metadata:
   github:
@@ -37,8 +42,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: pmptwiki.com is a platform for sharing and reproducing AI-assisted product development journeys via structured prompts and a CLI tool.
-  why_it_matters: It helps developers replicate AI-built projects end-to-end by capturing the full prompt evolution, not just final code.
+  summary: >-
+    pmptwiki.com is a platform for sharing and reproducing AI-assisted product development journeys via structured
+    prompts and a CLI tool.
+  why_it_matters: >-
+    It helps developers replicate AI-built projects end-to-end by capturing the full prompt evolution, not just final
+    code.
   mental_damage: Finally, a way to feel guilty about not documenting your vibe coding journey in a format others can clone.
   tags:
     - prompt-sharing
@@ -47,22 +56,32 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core product centers on structured prompt planning, cloning journeys, and reproducible build sequences rather than acting as a coding assistant or generic platform.
+  reason: >-
+    The core product centers on structured prompt planning, cloning journeys, and reproducible build sequences rather
+    than acting as a coding assistant or generic platform.
   evidence:
-    - "Site states: 'Share the entire journey — anyone can reproduce it' and 'Answer 5 questions, get a structured AI prompt'."
-    - "CLI workflow: pmpt plan, pmpt save, pmpt publish, and pmpt clone to reproduce projects."
-    - Listed in awesome-mcp-servers but MCP is only an adapter ('MCP Connect your AI tool — it records everything automatically').
+    - >-
+      Site states: 'Share the entire journey — anyone can reproduce it' and 'Answer 5 questions, get a structured AI
+      prompt'.
+    - 'CLI workflow: pmpt plan, pmpt save, pmpt publish, and pmpt clone to reproduce projects.'
+    - >-
+      Listed in awesome-mcp-servers but MCP is only an adapter ('MCP Connect your AI tool — it records everything
+      automatically').
+    - >-
+      jev winnow:e4b 0.14 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; placement kept at
+      memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
-  secondary_categories: []
+  secondary_categories:
+    - awesome-awesomes
   section: null
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'app-builders'"
+  reason: 'Categorization review required: placement disagreement: retained ''memory-and-context'', proposed ''app-builders'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +90,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:34:35.695Z"
+    updated_at: '2026-09-28T04:34:35.695Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +103,24 @@ processing:
       input_hash: sha256:cdd346c5b2bb92eb5b99ce958dfb6fba24a6a8d18bee73bd60f23bc911b36d27
       proposed_primary_category: app-builders
       disagreement: true
-      decision_reason: pmptwiki.com enables prompt-to-app reproduction where users clone projects and apply structured prompts to generate working apps from scratch, making it a prompt-first app builder rather than a coding agent.
+      decision_reason: >-
+        pmptwiki.com enables prompt-to-app reproduction where users clone projects and apply structured prompts to
+        generate working apps from scratch, making it a prompt-first app builder rather than a coding agent.
       decision_evidence:
-        - The platform lets users 'clone someone's project' and apply a saved prompt via 'pmpt clone' to reproduce AI-built apps like Prism or Sentinel.
-        - Its core loop is 'pmpt plan → pmpt save → pmpt publish' to share the full AI-assisted development journey, not just code edits.
-        - Outputs are deployable apps (e.g., Tinder-style swipe app, news briefing service) generated from prompts, not modifications to existing codebases.
+        - >-
+          The platform lets users 'clone someone's project' and apply a saved prompt via 'pmpt clone' to reproduce
+          AI-built apps like Prism or Sentinel.
+        - >-
+          Its core loop is 'pmpt plan → pmpt save → pmpt publish' to share the full AI-assisted development journey, not
+          just code edits.
+        - >-
+          Outputs are deployable apps (e.g., Tinder-style swipe app, news briefing service) generated from prompts, not
+          modifications to existing codebases.
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the primary artifact is a deployable app generated from prompts, not autonomous code editing within an existing repo.
-      review_reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'app-builders'"
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because the primary artifact is a deployable app generated from prompts,
+        not autonomous code editing within an existing repo.
+      review_reason: 'Categorization review required: placement disagreement: retained ''memory-and-context'', proposed ''app-builders'''
       review_resume_lifecycle: null

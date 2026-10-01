@@ -65,9 +65,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
     - jev-latest choice confidence 0.75
+    - >-
+      jev winnow:e4b 0.32 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
+      agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated

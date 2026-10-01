@@ -68,9 +68,12 @@ curation:
       and CUDA 12.9.
     - Introduction describes it as a lightweight 1B parameter model designed for local deployment with reduced costs.
     - Pushed recently (2026-04-08) and shows active maintenance with bug fixes and vLLM compatibility updates.
+    - jev winnow:e4b 0.50 below gate 0.50; proposed document-ai / OCR Engines; placement kept at local-ai (unverified)
 placement:
   primary_category: local-ai
   section: Inference Engines
+  secondary_categories:
+    - document-ai
 lifecycle:
   status: curated
   reason: Stars (1611) exceeded threshold (150)

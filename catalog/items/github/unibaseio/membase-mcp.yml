@@ -71,9 +71,11 @@ curation:
       README: Explicitly calls itself 'Membase mcp server' and provides MCP server functions like get_conversation_id,
       save_message, and get_messages.
     - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.'
+    - jev winnow:e4b 0.41 below gate 0.50; proposed mcp / Middleware & Generic; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - memory-and-context
   section: Middleware & Generic
 lifecycle:
   status: curated

@@ -72,9 +72,13 @@ curation:
     - Generates test cases from live traffic and business context to catch regressions in PRs
     - Self-iterates on tests when errors occur and maintains existing suites autonomously
     - Positioned as an 'AI verification layer for coding agents' that runs via CLI in CI/CD
+    - >-
+      jev winnow:e4b 0.27 below gate 0.50; proposed evals / Prompt Regression & Testing; placement kept at coding-agents
+      (unverified)
 placement:
   primary_category: coding-agents
-  secondary_categories: []
+  secondary_categories:
+    - evals
   section: Review, Testing & Repair
 lifecycle:
   status: curated

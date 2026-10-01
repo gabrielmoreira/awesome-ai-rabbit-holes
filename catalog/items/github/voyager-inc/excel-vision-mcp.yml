@@ -55,9 +55,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
     - jev-latest choice confidence 0.82
+    - >-
+      jev winnow:e4b 0.49 below gate 0.50; proposed document-ai / Document Parsing & Layout; placement kept at mcp
+      (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - document-ai
   section: Data & Databases
 lifecycle:
   status: curated

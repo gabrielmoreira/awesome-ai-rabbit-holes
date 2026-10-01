@@ -81,9 +81,13 @@ curation:
     - 'Repo description: ''a framework and no-code GUI for fine-tuning LLMs'''
     - README lists CLI for fine-tuning and support for LoRA, DPO, and DeepSpeed
     - Provides infrastructure for model checkpoints and Hugging Face Hub export
+    - >-
+      jev winnow:e4b 0.34 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; placement kept at
+      local-ai (unverified)
 placement:
   primary_category: local-ai
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Fine-tuning & Training
 lifecycle:
   status: curated

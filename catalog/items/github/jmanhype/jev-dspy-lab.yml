@@ -67,9 +67,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
     - jev-latest choice confidence 0.99
+    - >-
+      jev winnow:e4b 0.31 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
+      decision-models (unverified)
 placement:
   primary_category: decision-models
-  secondary_categories: []
+  secondary_categories:
+    - evals
   section: Evals, Benchmarks & Calibration
 lifecycle:
   status: curated

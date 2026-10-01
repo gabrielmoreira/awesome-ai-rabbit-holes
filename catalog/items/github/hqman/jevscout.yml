@@ -51,9 +51,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
     - jev-latest choice confidence 0.63
+    - >-
+      jev winnow:e4b 0.40 below gate 0.50; proposed coding-agents / Browser & Computer-Use Agents; placement kept at
+      skills (unverified)
 placement:
   primary_category: skills
-  secondary_categories: []
+  secondary_categories:
+    - coding-agents
   section: Skill Packs & Libraries
 lifecycle:
   status: curated

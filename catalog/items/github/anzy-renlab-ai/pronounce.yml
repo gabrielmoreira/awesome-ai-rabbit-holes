@@ -89,9 +89,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / IDE & Editor Add-ons
   evidence:
     - jev-latest choice confidence 0.54
+    - >-
+      jev winnow:e4b 0.23 below gate 0.50; proposed skills / Skill Packs & Libraries; placement kept at
+      extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  secondary_categories: []
+  secondary_categories:
+    - skills
   section: IDE & Editor Add-ons
 lifecycle:
   status: curated

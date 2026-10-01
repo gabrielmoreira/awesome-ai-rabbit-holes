@@ -74,9 +74,13 @@ curation:
     - 'Repo description: ''Kubernetes AI Toolchain Operator'''
     - 'README: automates LLM inference, fine-tuning, and RAG engine deployment in Kubernetes'
     - 'Source-list context: listed under ''Serving > Frameworks/Servers for Serving'' in Awesome-LLMOps'
+    - >-
+      jev winnow:e4b 0.36 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; placement kept at
+      local-ai (unverified)
 placement:
   primary_category: local-ai
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Inference Engines
 lifecycle:
   status: curated

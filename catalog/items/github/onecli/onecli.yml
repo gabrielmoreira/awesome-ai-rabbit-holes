@@ -88,9 +88,13 @@ curation:
     - >-
       Source list 'awesome-cli-coding-agents' already catalogs it under 'Harnesses & orchestration > Agent
       infrastructure'.
+    - >-
+      jev winnow:e4b 0.16 below gate 0.50; proposed mcp / Middleware & Generic; placement kept at agent-orchestration
+      (unverified)
 placement:
   primary_category: agent-orchestration
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated

@@ -108,9 +108,13 @@ curation:
     - README claims to 'harness' AI code using repo history as a non-hallucinatory linter
     - Provides a CLI tool (`argot audit`) to evaluate diffs against a learned baseline
     - Included in awesome-mcp-servers as a developer tool
+    - >-
+      jev winnow:e4b 0.34 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; placement kept
+      at mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Dev & Code Tools
 lifecycle:
   status: curated

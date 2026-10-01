@@ -78,9 +78,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
     - jev-latest choice confidence 0.46
+    - >-
+      jev winnow:e4b 0.48 below gate 0.50; proposed coding-agents / Review, Testing & Repair; placement kept at mcp
+      (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - coding-agents
   section: Browser & Web Automation
 lifecycle:
   status: curated

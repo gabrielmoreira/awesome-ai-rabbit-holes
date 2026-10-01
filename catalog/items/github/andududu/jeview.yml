@@ -127,9 +127,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
     - jev-latest choice confidence 0.75
+    - >-
+      jev winnow:e4b 0.46 below gate 0.50; proposed decision-models / Open & Local Decision Models; placement kept at
+      evals (unverified)
 placement:
   primary_category: evals
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Observability & Tracing
 lifecycle:
   status: curated

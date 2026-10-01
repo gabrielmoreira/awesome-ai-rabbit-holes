@@ -61,9 +61,14 @@ curation:
     - Scores release confidence using pass rate, coverage percentage, and critical path analysis
     - Diagnoses untested changes and coverage gaps before release
     - Integrates with AI coding tools like Claude Code to include their tests in coverage analysis
+    - >-
+      jev winnow:e4b 0.21 below gate 0.50; proposed agent-orchestration / Hosted Agent Platforms; placement kept at
+      evals (unverified)
 placement:
   primary_category: evals
   section: Prompt Regression & Testing
+  secondary_categories:
+    - agent-orchestration
 lifecycle:
   status: curated
   reason: null

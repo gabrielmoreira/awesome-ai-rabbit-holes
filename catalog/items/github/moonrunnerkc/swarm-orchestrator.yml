@@ -52,9 +52,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
     - jev-latest choice confidence 0.53
+    - >-
+      jev winnow:e4b 0.23 below gate 0.50; proposed evals / Safety, Fairness & Red-teaming; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
-  secondary_categories: []
+  secondary_categories:
+    - evals
   section: Review, Testing & Repair
 lifecycle:
   status: curated

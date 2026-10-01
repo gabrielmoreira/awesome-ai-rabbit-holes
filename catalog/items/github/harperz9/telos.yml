@@ -96,9 +96,13 @@ curation:
     - README claims a 'five-server MCP surface' with 69+ tools
     - Primary interface is via stdio MCP server
     - Provides ready-to-paste config for Claude and OpenAI Agents
+    - >-
+      jev winnow:e4b 0.29 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
+      agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated

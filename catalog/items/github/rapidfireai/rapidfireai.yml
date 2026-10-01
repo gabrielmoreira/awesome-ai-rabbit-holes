@@ -49,9 +49,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
     - jev-latest choice confidence 0.50
+    - >-
+      jev winnow:e4b 0.29 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; placement kept at
+      evals (unverified)
 placement:
   primary_category: evals
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Agent & LLM Benchmarks
 lifecycle:
   status: curated

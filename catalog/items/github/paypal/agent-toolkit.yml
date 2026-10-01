@@ -71,9 +71,11 @@ curation:
       README shows it works with 'Model Context Protocol (MCP)' and frameworks like LangChain and Vercel's AI SDK to
       wrap PayPal APIs.
     - The toolkit provides specific tool definitions (create_invoice, create_order, etc.) for agent consumption.
+    - jev winnow:e4b 0.42 below gate 0.50; proposed mcp / Clients & Inspector Tools; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Finance, Crypto & DeFi
 lifecycle:
   status: curated

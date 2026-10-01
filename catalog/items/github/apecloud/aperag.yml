@@ -67,9 +67,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Retrieval & Fresh Docs
   evidence:
     - jev-latest choice confidence 0.95
+    - >-
+      jev winnow:e4b 0.47 below gate 0.50; proposed ai-frameworks / Memory & Retrieval Infrastructure; placement kept at
+      memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Retrieval & Fresh Docs
 lifecycle:
   status: needs_review

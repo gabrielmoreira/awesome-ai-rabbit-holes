@@ -70,9 +70,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
   evidence:
     - jev-latest choice confidence 0.58
+    - >-
+      jev winnow:e4b 0.24 below gate 0.50; proposed coding-agents / Autonomous & Multi-Agent Coding; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: needs_review

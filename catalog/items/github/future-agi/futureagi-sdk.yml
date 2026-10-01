@@ -79,9 +79,13 @@ curation:
     - Repo description explicitly identifies it as 'AI evaluation, prompt management & observability SDK'.
     - README features 'Evaluations', 'Guardrails', and 'Analytics' as core pillars.
     - Includes 'OpenTelemetry-native tracing' for observability.
+    - >-
+      jev winnow:e4b 0.42 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at evals
+      (unverified)
 placement:
   primary_category: evals
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Observability & Tracing
 lifecycle:
   status: curated

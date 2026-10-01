@@ -78,9 +78,13 @@ curation:
     - Repo description identifies it as 'signal-mcp'
     - README explicitly lists '72 MCP tools' and 'Claude via MCP' as the primary usage patterns
     - Included in 'awesome-signal-mcp' under 'Domain Servers' (via the provided source-list context logic)
+    - >-
+      jev winnow:e4b 0.37 below gate 0.50; proposed mcp / Communication, Files & Productivity; placement kept at mcp
+      (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - skills
   section: Communication, Files & Productivity
 lifecycle:
   status: curated

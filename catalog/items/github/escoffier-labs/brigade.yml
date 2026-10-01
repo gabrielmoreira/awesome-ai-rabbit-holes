@@ -73,9 +73,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Context & Session Management
   evidence:
     - jev-latest choice confidence 0.64
+    - >-
+      jev winnow:e4b 0.27 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
+      memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
-  secondary_categories: []
+  secondary_categories:
+    - agent-orchestration
   section: Context & Session Management
 lifecycle:
   status: curated

@@ -77,9 +77,13 @@ curation:
     - PyPI package available for pip installation
     - Uses YAML-based recipe definitions for orchestration
     - Provides a core execution kernel rather than a standalone chat interface
+    - >-
+      jev winnow:e4b 0.22 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
+      agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated

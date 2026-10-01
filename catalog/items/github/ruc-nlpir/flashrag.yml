@@ -72,9 +72,11 @@ curation:
     - >-
       Source list context places it in a 'RAG' section of an LLM resources list, confirming its identity as a
       research/infra tool.
+    - jev winnow:e4b 0.43 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at evals (unverified)
 placement:
   primary_category: evals
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Agent & LLM Benchmarks
 lifecycle:
   status: curated

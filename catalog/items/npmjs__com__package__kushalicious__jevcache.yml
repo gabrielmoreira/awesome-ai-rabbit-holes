@@ -51,9 +51,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
   evidence:
     - jev-latest choice confidence 0.44
+    - >-
+      jev winnow:e4b 0.40 below gate 0.50; proposed decision-models / Local Serving & Gateways; placement kept at
+      decision-models (unverified)
 placement:
   primary_category: decision-models
-  secondary_categories: []
+  secondary_categories:
+    - local-ai
   section: Local Serving & Gateways
 lifecycle:
   status: curated

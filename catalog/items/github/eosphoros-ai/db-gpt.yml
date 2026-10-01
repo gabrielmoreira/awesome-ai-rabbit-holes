@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eosphoros-ai__db-gpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,10 +20,13 @@ provenance:
           - Other / Chatbots
         anchor_text: DB GPT
         extracted_url: https://github.com/csunny/db-gpt
-        surrounding_text: "- [DB GPT](https://github.com/csunny/DB-GPT): Interact your data and environment using the local GPT, no data leaks, 100% privately, 100% security ![GitHub Repo stars](https://img.shields.io/github/stars/csunny/DB-GPT?style=social)"
+        surrounding_text: >-
+          - [DB GPT](https://github.com/csunny/DB-GPT): Interact your data and environment using the local GPT, no data
+          leaks, 100% privately, 100% security ![GitHub Repo
+          stars](https://img.shields.io/github/stars/csunny/DB-GPT?style=social)
         confidence: high
     - id: discovery__github__eosphoros-ai__db-gpt__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -35,7 +38,12 @@ provenance:
           - 知识库 RAG
         anchor_text: DB-GPT GraphRAG
         extracted_url: https://github.com/eosphoros-ai/db-gpt
-        surrounding_text: "27. [DB-GPT GraphRAG](https://github.com/eosphoros-ai/DB-GPT/tree/main/dbgpt/storage/knowledge_graph): DB-GPT GraphRAG integrates both triplet-based knowledge graphs and document structure graphs while leveraging community and document retrieval mechanisms to enhance RAG capabilities, achieving comparable performance while consuming only 50% of the tokens required by Microsoft's GraphRAG. Refer to the DB-GPT [Graph RAG User Manual](http://docs.dbgpt.cn/docs/cookbook/rag/graph_rag_app_develop/) for details."
+        surrounding_text: >-
+          27. [DB-GPT GraphRAG](https://github.com/eosphoros-ai/DB-GPT/tree/main/dbgpt/storage/knowledge_graph): DB-GPT
+          GraphRAG integrates both triplet-based knowledge graphs and document structure graphs while leveraging
+          community and document retrieval mechanisms to enhance RAG capabilities, achieving comparable performance
+          while consuming only 50% of the tokens required by Microsoft's GraphRAG. Refer to the DB-GPT [Graph RAG User
+          Manual](http://docs.dbgpt.cn/docs/cookbook/rag/graph_rag_app_develop/) for details.
         confidence: high
 metadata:
   github:
@@ -45,8 +53,8 @@ metadata:
     archived: false
     full_name: eosphoros-ai/DB-GPT
     html_url: https://github.com/eosphoros-ai/DB-GPT
-    created_at: "2023-04-13T14:52:43Z"
-    pushed_at: "2026-08-26T11:10:31Z"
+    created_at: '2023-04-13T14:52:43Z'
+    pushed_at: '2026-08-26T11:10:31Z'
     description: open-source agentic AI data assistant for the next generation of AI + Data products.
     homepage: http://docs.dbgpt.cn
     topics:
@@ -62,14 +70,20 @@ metadata:
       - rag
       - security
       - vicuna
-    last_checked_at: "2026-08-27T09:23:24.195Z"
+    last_checked_at: '2026-08-27T09:23:24.195Z'
     readme:
-      fetched_at: "2026-08-27T09:23:24.195Z"
+      fetched_at: '2026-08-27T09:23:24.195Z'
       bytes: 21133
 insights:
-  summary: An open-source agentic AI data assistant that connects to databases, writes SQL and code, runs skills in sandboxed environments, and generates reports and insights.
-  why_it_matters: Developers can delegate data analysis, SQL generation, and multi-source workflows to an AI agent that operates across databases, spreadsheets, and knowledge bases.
-  mental_damage: Finally, a tool that writes SQL for you—so you can spend more time explaining to stakeholders why the SQL it wrote is wrong.
+  summary: >-
+    An open-source agentic AI data assistant that connects to databases, writes SQL and code, runs skills in sandboxed
+    environments, and generates reports and insights.
+  why_it_matters: >-
+    Developers can delegate data analysis, SQL generation, and multi-source workflows to an AI agent that operates
+    across databases, spreadsheets, and knowledge bases.
+  mental_damage: >-
+    Finally, a tool that writes SQL for you—so you can spend more time explaining to stakeholders why the SQL it wrote
+    is wrong.
   tags:
     - data-analysis
     - sql-generation
@@ -79,31 +93,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: DB-GPT is a standalone agentic assistant that plans, writes SQL/code, and executes analysis workflows across data sources, fitting the primary coding assistant profile rather than a framework or extension.
+  reason: >-
+    DB-GPT is a standalone agentic assistant that plans, writes SQL/code, and executes analysis workflows across data
+    sources, fitting the primary coding assistant profile rather than a framework or extension.
   evidence:
-    - "Repo description: 'open-source agentic AI data assistant for the next generation of AI + Data products.'"
-    - "README: 'write SQL autonomously', 'run Python- and code-driven analysis workflows', and 'execute tasks safely in sandboxed environments'."
-    - Active project with 18,673 stars and recent pushes, positioned as a full assistant rather than a library or plugin.
+    - 'Repo description: ''open-source agentic AI data assistant for the next generation of AI + Data products.'''
+    - >-
+      README: 'write SQL autonomously', 'run Python- and code-driven analysis workflows', and 'execute tasks safely in
+      sandboxed environments'.
+    - >-
+      Active project with 18,673 stars and recent pushes, positioned as a full assistant rather than a library or
+      plugin.
+    - >-
+      jev winnow:e4b 0.31 below gate 0.50; proposed coding-agents / Autonomous & Multi-Agent Coding; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
   section: null
+  secondary_categories:
+    - agent-orchestration
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.585Z"
+    updated_at: '2026-05-06T22:12:15.585Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:24.195Z"
+    updated_at: '2026-08-27T09:23:24.195Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.165Z"
+    updated_at: '2026-09-28T04:14:00.165Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -118,14 +143,20 @@ processing:
       input_hash: sha256:5f1c167f2dcf235c0c71746537b3149efa1054d3801d51fe45612d3f9fb1aabf
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: DB-GPT is a workbench for coordinating data analysis workflows across multiple sources, tools, and skills, fitting the agent orchestration category better than a pure coding agent or framework.
+      decision_reason: >-
+        DB-GPT is a workbench for coordinating data analysis workflows across multiple sources, tools, and skills,
+        fitting the agent orchestration category better than a pure coding agent or framework.
       decision_evidence:
-        - "Repo description: 'open-source agentic AI data assistant for the next generation of AI + Data products'"
-        - "README: 'plan tasks, break work into steps, call tools, and complete analysis workflows end to end'"
-        - "README: 'platform for building AI-native data agents, workflows, and applications with agents, AWEL, RAG, and multi-model support'"
+        - 'Repo description: ''open-source agentic AI data assistant for the next generation of AI + Data products'''
+        - 'README: ''plan tasks, break work into steps, call tools, and complete analysis workflows end to end'''
+        - >-
+          README: 'platform for building AI-native data agents, workflows, and applications with agents, AWEL, RAG, and
+          multi-model support'
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the primary product is an operated workbench for multi-step data workflows rather than a code-first library or SDK.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the primary product is an operated workbench for
+        multi-step data workflows rather than a code-first library or SDK.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

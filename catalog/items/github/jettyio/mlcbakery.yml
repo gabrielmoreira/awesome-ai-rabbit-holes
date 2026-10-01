@@ -59,9 +59,13 @@ curation:
   reason: 'Manual audit: ML model provenance/lineage service, out of catalog scope.'
   evidence:
     - Manual review of Jev Middleware & Generic audit, 2026-09-19
+    - >-
+      jev winnow:e4b 0.25 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; no placement kept
+      (unverified)
 placement:
   primary_category: null
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: null
 lifecycle:
   status: curated

@@ -50,9 +50,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Official Jev & System One
   evidence:
     - jev-latest choice confidence 0.41
+    - >-
+      jev winnow:e4b 0.23 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
+      decision-models (unverified)
 placement:
   primary_category: decision-models
-  secondary_categories: []
+  secondary_categories:
+    - awesome-awesomes
   section: Official Jev & System One
 lifecycle:
   status: curated

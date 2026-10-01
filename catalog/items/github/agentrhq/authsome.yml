@@ -88,9 +88,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
     - jev-latest choice confidence 0.81
+    - >-
+      jev winnow:e4b 0.27 below gate 0.50; proposed extensions-and-addons / Security & DevSecOps; placement kept at
+      extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Claude Code & Agent Tools
 lifecycle:
   status: needs_review

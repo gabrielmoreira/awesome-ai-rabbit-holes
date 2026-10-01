@@ -90,9 +90,13 @@ curation:
     - Repo description explicitly states it is a governance framework for AI coding agents
     - README demonstrates enforcement via pre-operation hooks for Claude Code and git hooks for others
     - Source-list context places it under 'Agent infrastructure' in a curated CLI coding agents directory
+    - >-
+      jev winnow:e4b 0.35 below gate 0.50; proposed extensions-and-addons / Claude Code & Agent Tools; placement kept at
+      extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Claude Code & Agent Tools
 lifecycle:
   status: curated

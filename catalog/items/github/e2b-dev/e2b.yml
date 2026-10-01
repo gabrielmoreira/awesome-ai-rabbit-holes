@@ -117,9 +117,13 @@ curation:
       README: 'E2B is an open-source infrastructure that allows you to run AI-generated code in secure isolated
       sandboxes in the cloud. To start and control sandboxes, use our JavaScript SDK or Python SDK.'
     - Provides SDKs (npm, PyPI) as the main integration surface.
+    - >-
+      jev winnow:e4b 0.16 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at ai-frameworks
+      (unverified)
 placement:
   primary_category: ai-frameworks
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: LLM & Agent SDKs
 lifecycle:
   status: curated

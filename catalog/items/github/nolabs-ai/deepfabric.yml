@@ -100,9 +100,13 @@ curation:
       README: 'DeepFabric's built-in evaluation engine assesses model performance... covering evaluation-only questions,
       answers, and tool traces'
     - 'Topics include: evaluation, fine-tuning, synthetic-data, agents'
+    - >-
+      jev winnow:e4b 0.42 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; placement kept at
+      evals (unverified)
 placement:
   primary_category: evals
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Agent & LLM Benchmarks
 lifecycle:
   status: curated

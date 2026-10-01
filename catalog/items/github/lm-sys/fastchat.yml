@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lm-sys__fastchat__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,12 @@ provenance:
           - Training
         anchor_text: FastChat
         extracted_url: https://github.com/lm-sys/fastchat
-        surrounding_text: "- [FastChat](https://github.com/lm-sys/FastChat) - An open platform for training, serving, and evaluating large language models."
+        surrounding_text: >-
+          - [FastChat](https://github.com/lm-sys/FastChat) - An open platform for training, serving, and evaluating
+          large language models.
         confidence: high
     - id: discovery__github__lm-sys__fastchat__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,7 +37,11 @@ provenance:
           - Large Language Model
         anchor_text: FastChat (Vicuna)
         extracted_url: https://github.com/lm-sys/fastchat
-        surrounding_text: "| [FastChat (Vicuna)](https://github.com/lm-sys/FastChat)                 | An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and FastChat-T5.                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/lm-sys/FastChat.svg?style=flat-square)                |"
+        surrounding_text: >-
+          | [FastChat (Vicuna)](https://github.com/lm-sys/FastChat)                 | An open platform for training,
+          serving, and evaluating large language models. Release repo for Vicuna and
+          FastChat-T5.                                                                     | ![GitHub
+          Badge](https://img.shields.io/github/stars/lm-sys/FastChat.svg?style=flat-square)                |
         confidence: high
 metadata:
   github:
@@ -45,19 +51,27 @@ metadata:
     archived: false
     full_name: lm-sys/FastChat
     html_url: https://github.com/lm-sys/FastChat
-    created_at: "2023-03-19T00:18:02Z"
-    pushed_at: "2026-05-01T00:25:53Z"
-    description: An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena.
-    homepage: ""
+    created_at: '2023-03-19T00:18:02Z'
+    pushed_at: '2026-05-01T00:25:53Z'
+    description: >-
+      An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot
+      Arena.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:06:07.229Z"
+    last_checked_at: '2026-07-30T05:06:07.229Z'
     readme:
-      fetched_at: "2026-07-30T05:06:07.229Z"
+      fetched_at: '2026-07-30T05:06:07.229Z'
       bytes: 20103
 insights:
-  summary: FastChat is an open platform for training, serving, and evaluating large language models, including the Vicuna chatbot family and Chatbot Arena benchmark.
-  why_it_matters: It gives developers a complete control over LLM development, deployment, and evaluation—everything from fine-tuning Vicuna weights to running a public leaderboard.
-  mental_damage: You now have to maintain your own model serving stack just to feel like you're not falling behind the LLM leaderboard arms race.
+  summary: >-
+    FastChat is an open platform for training, serving, and evaluating large language models, including the Vicuna
+    chatbot family and Chatbot Arena benchmark.
+  why_it_matters: >-
+    It gives developers a complete control over LLM development, deployment, and evaluation—everything from fine-tuning
+    Vicuna weights to running a public leaderboard.
+  mental_damage: >-
+    You now have to maintain your own model serving stack just to feel like you're not falling behind the LLM
+    leaderboard arms race.
   tags:
     - llm
     - serving
@@ -67,31 +81,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a self-hosted serving stack and training platform for LLMs, fitting the 'Local AI' category because it enables developers to run and evaluate models on their own infrastructure.
+  reason: >-
+    The project is a self-hosted serving stack and training platform for LLMs, fitting the 'Local AI' category because
+    it enables developers to run and evaluate models on their own infrastructure.
   evidence:
-    - "Repo description: 'An open platform for training, serving, and evaluating large language models.'"
-    - "README: 'A distributed multi-model serving system with web UI and OpenAI-compatible RESTful APIs.'"
-    - "Source lists: 'awesome-local-ai' (section: Training) and 'Awesome-LLMOps' (section: Model > Large Language Model)."
+    - 'Repo description: ''An open platform for training, serving, and evaluating large language models.'''
+    - 'README: ''A distributed multi-model serving system with web UI and OpenAI-compatible RESTful APIs.'''
+    - 'Source lists: ''awesome-local-ai'' (section: Training) and ''Awesome-LLMOps'' (section: Model > Large Language Model).'
+    - >-
+      jev winnow:e4b 0.39 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; placement kept at
+      local-ai (unverified)
 placement:
   primary_category: local-ai
   section: null
+  secondary_categories:
+    - ai-frameworks
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'ai-frameworks'"
+  reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''ai-frameworks'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.590Z"
+    updated_at: '2026-05-06T22:12:15.590Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:07.229Z"
+    updated_at: '2026-07-30T05:06:07.229Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-28T04:14:00.166Z"
+    updated_at: '2026-09-28T04:14:00.166Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -106,14 +127,18 @@ processing:
       input_hash: sha256:bdcb72be5df19545256115123ebf90ef309d11f8506e4206391738c2bc11acfe
       proposed_primary_category: ai-frameworks
       disagreement: true
-      decision_reason: FastChat is a code-first SDK and CLI for LLM training, serving, and evaluation, making it a reusable toolkit rather than an operated platform or coding assistant.
+      decision_reason: >-
+        FastChat is a code-first SDK and CLI for LLM training, serving, and evaluation, making it a reusable toolkit
+        rather than an operated platform or coding assistant.
       decision_evidence:
-        - "Repo description: 'An open platform for training, serving, and evaluating large language models.'"
+        - 'Repo description: ''An open platform for training, serving, and evaluating large language models.'''
         - README highlights distributed multi-model serving system with CLI, web UI, and OpenAI-compatible APIs.
         - Used as a library via `pip install fschat` and imported in code for model workers and API servers.
       category_candidates:
         - ai-frameworks
         - local-ai
-      contrastive_reason: Choose ai-frameworks over local-ai because developers primarily import and script against FastChat as a provider CLI and SDK rather than using it as a end-user desktop app for local inference.
-      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'ai-frameworks'"
+      contrastive_reason: >-
+        Choose ai-frameworks over local-ai because developers primarily import and script against FastChat as a provider
+        CLI and SDK rather than using it as a end-user desktop app for local inference.
+      review_reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''ai-frameworks'''
       review_resume_lifecycle: null

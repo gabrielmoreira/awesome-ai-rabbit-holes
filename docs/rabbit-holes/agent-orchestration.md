@@ -3,11 +3,11 @@
 
 Platforms and runtimes for coordinating multiple agents: designing workflows, routing tasks between specialists, and deploying autonomous agent teams.
 
-_317 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_318 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Hosted Agent Platforms](#hosted-agent-platforms) — 23
+- [Hosted Agent Platforms](#hosted-agent-platforms) — 24
 - [Visual Builders & Workbenches](#visual-builders--workbenches) — 13
 - [Agent Runtimes & Harnesses](#agent-runtimes--harnesses) — 273
 - [Domain & Enterprise Platforms](#domain--enterprise-platforms) — 8
@@ -72,6 +72,7 @@ _317 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `agent-hosting` `client-workspaces` `persistent-memory`
   </details>
+- **[Aomni](https://duet.so)** For consultants and agencies who build agents for their clients. Duet gives each client a workspace that holds your agents, their memory and skill files, the apps they build, and an always-on machine to run them. You look after the agent. Duet looks after everything under it.
 - **[Athena Intelligence](https://athenaintel.com)** Athena Intelligence is a platform for building and orchestrating AI agents for complex, regulated knowledge work. <details><summary>More about</summary>
 
   It enables enterprises to deploy autonomous AI workers in regulated environments with built-in governance, identity, and audit trails.

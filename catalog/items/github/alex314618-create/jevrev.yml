@@ -89,9 +89,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
     - jev-latest choice confidence 0.65
+    - >-
+      jev winnow:e4b 0.38 below gate 0.50; proposed decision-models / Framework & SDK Integrations; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Terminal & CLI Agents
 lifecycle:
   status: curated

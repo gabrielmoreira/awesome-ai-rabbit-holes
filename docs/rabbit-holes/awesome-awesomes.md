@@ -3,11 +3,11 @@
 
 Awesome lists, curated directories, ecosystem maps, newsletters, and publications for discovering tools and staying current with AI development.
 
-_172 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_173 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Awesome Lists & Directories](#awesome-lists--directories) — 154
+- [Awesome Lists & Directories](#awesome-lists--directories) — 155
 - [Ecosystem Maps & Landscapes](#ecosystem-maps--landscapes) — 7
 - [Publications & Feeds](#publications--feeds) — 11
 
@@ -254,7 +254,7 @@ _172 entries in 3 sections, ranked by stars. Each section opens with its top 30;
   `awesome-list` `ecosystem` `langgraph`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+124 more in Awesome Lists & Directories &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+125 more in Awesome Lists & Directories &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers)** `⭐ 1.6k` `updated ≤90d` A curated list of research papers on multi-agent systems and swarm intelligence for AI agents.
 - **[currentslab/awesome-vector-search](https://github.com/currentslab/awesome-vector-search)** `⭐ 1.6k` `updated ≤90d` A curated list of vector search frameworks, engines, libraries, cloud services, and research papers.
@@ -367,6 +367,7 @@ _172 entries in 3 sections, ranked by stars. Each section opens with its top 30;
 - **[MCP Server Finder](https://mcpserverfinder.com/servers)** MCP Server Finder is a directory listing and discovery tool for Model Context Protocol servers.
 - **[mcpstore.co](https://mcpstore.co)** MCP Store is a directory and discovery service for Model Context Protocol servers that allows users to add MCP-enabled AI capabilities to clients like Claude and Cursor.
 - **[Model Merging Paper](https://huggingface.co/collections/osanseviero/model-merging)** A curated collection of research papers focused on the techniques and evolution of model merging for large language models.
+- **[ModelScope](https://modelscope.cn/home)** ModelScope 魔搭社区——开源模型社区，提供模型、数据集与在线 Demo 的一站式服务。.
 - **[Modelscope Skills](https://modelscope.cn/skills)** ModelScope Skills is a directory of reusable skill components that extend AI model applications within the ModelScope community.
 - **[Not Human Search](https://nothumansearch.ai/mcp)** mcp is a curated directory of Model Context Protocol servers and related resources for developers.
 - **[nothumansearch.ai](https://nothumansearch.ai)** unitedideas/nothumansearch : MCP server for AI tool discovery. Search 8,600+ indexed AI tools and MCP servers. Live at nothumansearch.ai.

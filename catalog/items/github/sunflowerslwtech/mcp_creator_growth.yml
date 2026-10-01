@@ -73,9 +73,12 @@ curation:
     - >-
       Provides MCP tools like learning_session, debug_search, debug_record, and term_get rather than acting as a primary
       coding assistant.
+    - jev winnow:e4b 0.43 below gate 0.50; proposed mcp / Dev & Code Tools; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   section: Middleware & Generic
+  secondary_categories:
+    - memory-and-context
 lifecycle:
   status: curated
   reason: null

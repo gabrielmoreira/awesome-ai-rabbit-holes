@@ -92,9 +92,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Framework & SDK Integrations
   evidence:
     - jev-latest choice confidence 0.51
+    - >-
+      jev winnow:e4b 0.35 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at
+      decision-models (unverified)
 placement:
   primary_category: decision-models
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Framework & SDK Integrations
 lifecycle:
   status: curated

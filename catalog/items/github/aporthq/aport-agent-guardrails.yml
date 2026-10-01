@@ -70,9 +70,13 @@ curation:
     - 'README: ''Deterministic pre-action authorization for AI agents. Guardrails run before tool execution'''
     - 'Installation: Framework-specific setup commands for claude-code, openclaw, langchain, etc.'
     - 'Source-list context: Listed in awesome-llm-agents under ''Safety, Security & Evaluation'''
+    - >-
+      jev winnow:e4b 0.36 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
+      extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Security & DevSecOps
 lifecycle:
   status: curated

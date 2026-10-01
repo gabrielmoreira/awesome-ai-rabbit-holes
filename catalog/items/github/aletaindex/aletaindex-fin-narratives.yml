@@ -74,9 +74,11 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
     - jev-latest choice confidence 0.93
+    - jev winnow:e4b 0.41 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Finance, Crypto & DeFi
 lifecycle:
   status: curated

@@ -63,9 +63,11 @@ curation:
   reason: Jev decision-model reclassifier placed this item in evals / Safety, Fairness & Red-teaming
   evidence:
     - jev-latest choice confidence 0.58
+    - jev winnow:e4b 0.40 below gate 0.50; proposed mcp / Dev & Code Tools; placement kept at evals (unverified)
 placement:
   primary_category: evals
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Safety, Fairness & Red-teaming
 lifecycle:
   status: curated

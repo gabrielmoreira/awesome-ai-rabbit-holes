@@ -85,9 +85,13 @@ curation:
       Cursor
     - Uses Bazel aspects to ensure analysis is build-graph-aware and only targets changed files
     - Enforces quality gates via a versioned `gavel.yaml` configuration
+    - >-
+      jev winnow:e4b 0.33 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; placement kept
+      at mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Dev & Code Tools
 lifecycle:
   status: curated

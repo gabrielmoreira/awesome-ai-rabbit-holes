@@ -64,9 +64,13 @@ curation:
       README: Tool to 'understand and accelerate discovery in machine learning' by visualizing model architecture and
       internal data
     - 'Not a coding assistant: does not plan, write, test, or debug code; focused on model introspection'
+    - >-
+      jev winnow:e4b 0.23 below gate 0.50; proposed evals / Observability & Tracing; placement kept at evals
+      (unverified)
 placement:
   primary_category: evals
-  secondary_categories: []
+  secondary_categories:
+    - extensions-and-addons
   section: Observability & Tracing
 lifecycle:
   status: curated

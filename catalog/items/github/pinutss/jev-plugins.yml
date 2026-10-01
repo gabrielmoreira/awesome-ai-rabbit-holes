@@ -50,9 +50,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in skills / Registries & Directories
   evidence:
     - jev-latest choice confidence 0.46
+    - >-
+      jev winnow:e4b 0.41 below gate 0.50; proposed extensions-and-addons / IDE & Editor Add-ons; placement kept at
+      skills (unverified)
 placement:
   primary_category: skills
-  secondary_categories: []
+  secondary_categories:
+    - extensions-and-addons
   section: Registries & Directories
 lifecycle:
   status: curated

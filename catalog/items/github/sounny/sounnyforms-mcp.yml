@@ -54,9 +54,11 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
     - jev-latest choice confidence 0.46
+    - jev winnow:e4b 0.35 below gate 0.50; proposed mcp / Cloud & API Integration; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Communication, Files & Productivity
 lifecycle:
   status: curated

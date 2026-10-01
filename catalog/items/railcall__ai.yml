@@ -62,9 +62,13 @@ curation:
     - Provides 'RailCall Studio' for building and monitoring workflows
     - Implements a local-first 'airlock' to stage and approve all agent writes
     - Offers both a standalone CLI and an MCP server to integrate with existing agents
+    - >-
+      jev winnow:e4b 0.32 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
+      agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated

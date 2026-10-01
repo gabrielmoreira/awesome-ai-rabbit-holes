@@ -54,9 +54,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
     - jev-latest choice confidence 0.75
+    - >-
+      jev winnow:e4b 0.48 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; placement kept at
+      mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - awesome-awesomes
   section: Finance, Crypto & DeFi
 lifecycle:
   status: curated

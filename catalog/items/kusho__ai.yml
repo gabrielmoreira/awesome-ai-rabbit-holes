@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kusho__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Kusho
         anchor_text: Kusho
         extracted_url: https://kusho.ai
-        surrounding_text: "## [Kusho](https://kusho.ai/)"
+        surrounding_text: '## [Kusho](https://kusho.ai/)'
         confidence: high
     - id: discovery__kusho__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Testing and QA
         anchor_text: KushoAI
         extracted_url: https://kusho.ai
-        surrounding_text: "- **[KushoAI](https://kusho.ai/)** – AI-driven API testing."
+        surrounding_text: '- **[KushoAI](https://kusho.ai/)** – AI-driven API testing.'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: KushoAI is an AI-native infrastructure platform for software maintenance that provides autonomous agents for testing, healing, and monitoring in CI/CD pipelines.
-  why_it_matters: It reduces QA time by 80% and increases test coverage to 93%+ by automating API contract testing, security scanning, and self-healing test generation.
-  mental_damage: Another AI testing tool promising to free developers from test maintenance while adding yet another layer of tooling to manage.
+  summary: >-
+    KushoAI is an AI-native infrastructure platform for software maintenance that provides autonomous agents for
+    testing, healing, and monitoring in CI/CD pipelines.
+  why_it_matters: >-
+    It reduces QA time by 80% and increases test coverage to 93%+ by automating API contract testing, security scanning,
+    and self-healing test generation.
+  mental_damage: >-
+    Another AI testing tool promising to free developers from test maintenance while adding yet another layer of tooling
+    to manage.
   tags:
     - testing
     - ci-cd
@@ -61,22 +67,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a control plane for autonomous agents that handle testing, healing, and monitoring continuously within the software maintenance lifecycle.
+  reason: >-
+    The product is a control plane for autonomous agents that handle testing, healing, and monitoring continuously
+    within the software maintenance lifecycle.
   evidence:
-    - Scraped site describes 'Autonomous agents that live in your CI/CD and handle testing, healing, and monitoring continuously.'
+    - >-
+      Scraped site describes 'Autonomous agents that live in your CI/CD and handle testing, healing, and monitoring
+      continuously.'
     - Positioned as a 'reliability layer' and 'control panel' rather than a simple script or library.
     - Listed in awesome-ai-agents under sections describing infrastructure for software maintenance.
+    - >-
+      jev winnow:e4b 0.26 below gate 0.50; proposed extensions-and-addons / Testing & Code Quality; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
-  secondary_categories: []
+  secondary_categories:
+    - extensions-and-addons
   section: null
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.597Z"
+    updated_at: '2026-05-06T22:12:15.597Z'
     cause: null
     next_retry_at: null
   stars:
@@ -85,7 +99,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:30:50.137Z"
+    updated_at: '2026-09-28T04:30:50.137Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -98,7 +112,9 @@ processing:
       input_hash: sha256:10259121a15d5e2475d2943ab6117a9e5687548da381ae6e46fcd56fad035de0
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: KushoAI coordinates multiple autonomous agents for testing, healing, and monitoring across the software lifecycle, functioning as a control plane for AI-driven quality engineering rather than a single coding agent.
+      decision_reason: >-
+        KushoAI coordinates multiple autonomous agents for testing, healing, and monitoring across the software
+        lifecycle, functioning as a control plane for AI-driven quality engineering rather than a single coding agent.
       decision_evidence:
         - Autonomous agents that live in your CI/CD and handle testing, healing, and monitoring continuously
         - KushoAI detects contract drift and automatically updates impacted tests
@@ -106,6 +122,9 @@ processing:
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because KushoAI primarily coordinates multiple specialized agents (testing, security, healing) in a CI/CD control plane rather than acting as a single autonomous coding assistant writing or editing code.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because KushoAI primarily coordinates multiple specialized agents
+        (testing, security, healing) in a CI/CD control plane rather than acting as a single autonomous coding assistant
+        writing or editing code.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

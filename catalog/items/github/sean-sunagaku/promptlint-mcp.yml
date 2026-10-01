@@ -54,9 +54,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in evals / Prompt Regression & Testing
   evidence:
     - jev-latest choice confidence 0.47
+    - >-
+      jev winnow:e4b 0.37 below gate 0.50; proposed evals / Prompt Regression & Testing; placement kept at evals
+      (unverified)
 placement:
   primary_category: evals
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Prompt Regression & Testing
 lifecycle:
   status: curated

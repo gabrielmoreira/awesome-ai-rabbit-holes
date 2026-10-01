@@ -87,9 +87,13 @@ curation:
       README says 'The agent does the heavy lifting. LionClaw provides the security boundary, session state, runtime
       launch path, and audit log'.
     - Supports running existing agents like Codex and OpenCode via their native CLI paths rather than replacing them.
+    - >-
+      jev winnow:e4b 0.41 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
+      agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
-  secondary_categories: []
+  secondary_categories:
+    - coding-agents
   section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated

@@ -72,9 +72,13 @@ curation:
     - README states it is a 'Runtime enforcement and observability for AI agent harnesses'
     - Explicitly differentiates itself from sandboxes by providing 'corrective feedback' to the agent
     - Designed to run existing agents under its harness (e.g., 'actplane run claude')
+    - >-
+      jev winnow:e4b 0.30 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
+      agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated

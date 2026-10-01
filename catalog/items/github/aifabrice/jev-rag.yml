@@ -93,9 +93,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Retrieval & Fresh Docs
   evidence:
     - jev-latest choice confidence 0.93
+    - >-
+      jev winnow:e4b 0.24 below gate 0.50; proposed decision-models / Search, Retrieval & Data; placement kept at
+      memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Retrieval & Fresh Docs
 lifecycle:
   status: curated

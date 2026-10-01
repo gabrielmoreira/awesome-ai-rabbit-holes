@@ -72,9 +72,13 @@ curation:
     - Claims ~80% token savings and significant wall-time reduction via Bash output compaction
     - Provides structural code navigation and persistent memory to manage agent context
     - Explicitly targets improving the performance of existing agents like Claude Code
+    - >-
+      jev winnow:e4b 0.41 below gate 0.50; proposed mcp / Dev & Code Tools; placement kept at memory-and-context
+      (unverified)
 placement:
   primary_category: memory-and-context
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Compression & Token Optimization
 lifecycle:
   status: curated

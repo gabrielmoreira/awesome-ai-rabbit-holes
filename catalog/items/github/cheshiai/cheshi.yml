@@ -98,9 +98,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Context & Session Management
   evidence:
     - jev-latest choice confidence 0.82
+    - >-
+      jev winnow:e4b 0.38 below gate 0.50; proposed memory-and-context / Persistent Memory & Knowledge; placement kept
+      at memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Context & Session Management
 lifecycle:
   status: curated

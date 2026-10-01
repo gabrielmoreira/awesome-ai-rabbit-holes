@@ -60,9 +60,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
   evidence:
     - jev-latest choice confidence 0.75
+    - >-
+      jev winnow:e4b 0.41 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
-  secondary_categories: []
+  secondary_categories:
+    - agent-orchestration
   section: IDE-Native & Editor Agents
 lifecycle:
   status: curated

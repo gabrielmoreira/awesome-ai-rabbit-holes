@@ -49,9 +49,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
     - jev-latest choice confidence 0.41
+    - >-
+      jev winnow:e4b 0.37 below gate 0.50; proposed extensions-and-addons / Security & DevSecOps; placement kept at
+      ai-frameworks (unverified)
 placement:
   primary_category: ai-frameworks
-  secondary_categories: []
+  secondary_categories:
+    - extensions-and-addons
   section: LLM & Agent SDKs
 lifecycle:
   status: curated

@@ -83,9 +83,13 @@ curation:
     - 'Repo description states: ''Markdown vector search MCP server for Claude Code.'''
     - README confirms it is configured as an MCP server in Claude Code via the mcpServers json config.
     - Listed in awesome-mcp-servers under 'Knowledge & Memory' section.
+    - >-
+      jev winnow:e4b 0.32 below gate 0.50; proposed memory-and-context / Retrieval & Fresh Docs; placement kept at mcp
+      (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - memory-and-context
   section: AI & Model Services
 lifecycle:
   status: curated

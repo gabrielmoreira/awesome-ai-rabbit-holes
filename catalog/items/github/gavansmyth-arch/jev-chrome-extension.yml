@@ -52,9 +52,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Official Jev & System One
   evidence:
     - jev-latest choice confidence 0.45
+    - >-
+      jev winnow:e4b 0.38 below gate 0.50; proposed extensions-and-addons / API & Service Integrations; placement kept
+      at decision-models (unverified)
 placement:
   primary_category: decision-models
-  secondary_categories: []
+  secondary_categories:
+    - extensions-and-addons
   section: Official Jev & System One
 lifecycle:
   status: curated

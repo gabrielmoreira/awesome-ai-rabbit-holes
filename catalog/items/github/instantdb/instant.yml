@@ -61,9 +61,11 @@ curation:
   reason: 'Definitive manual audit: Backend-as-a-service platform; AI-adjacent marketing but not an AI tool.'
   evidence:
     - Manual review, 2026-09-19
+    - jev winnow:e4b 0.50 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; no placement kept (unverified)
 placement:
   primary_category: null
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: null
 lifecycle:
   status: curated

@@ -93,9 +93,13 @@ curation:
     - README describes it as an 'open-source coding-agent harness' with its own REPL and daemon modes
     - Provides full tool access (Bash, file ops, web fetch) and handles task decomposition via slash commands
     - Features a standalone CLI interface (`afk chat`, `afk daemon`)
+    - >-
+      jev winnow:e4b 0.30 below gate 0.50; proposed extensions-and-addons / Claude Code & Agent Tools; placement kept at
+      agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
-  secondary_categories: []
+  secondary_categories:
+    - extensions-and-addons
   section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated

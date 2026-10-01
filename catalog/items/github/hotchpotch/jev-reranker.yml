@@ -126,9 +126,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Search, Retrieval & Data
   evidence:
     - jev-latest choice confidence 0.91
+    - >-
+      jev winnow:e4b 0.38 below gate 0.50; proposed decision-models / Search, Retrieval & Data; placement kept at
+      decision-models (unverified)
 placement:
   primary_category: decision-models
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Search, Retrieval & Data
 lifecycle:
   status: curated

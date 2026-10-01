@@ -93,9 +93,13 @@ curation:
       README shows v5.1.0 includes 'Multi-Agent Orchestration' and a dashboard for running workflows like code-review
       and bug-predict directly.
     - Instructions explicitly state it runs 'from your terminal or Claude Code' as the primary interface.
+    - >-
+      jev winnow:e4b 0.42 below gate 0.50; proposed memory-and-context / Persistent Memory & Knowledge; placement kept
+      at extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  secondary_categories: []
+  secondary_categories:
+    - memory-and-context
   section: Claude Code & Agent Tools
 lifecycle:
   status: curated

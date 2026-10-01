@@ -77,9 +77,13 @@ curation:
     - Repo description explicitly states 'Claude Code framework' and 'Claude Code plugin'
     - README positions it as 'one plugin that covers the full development lifecycle' on top of Claude Code
     - Topics include 'claude-code-plugin', confirming its identity as an extension rather than a primary assistant
+    - >-
+      jev winnow:e4b 0.27 below gate 0.50; proposed extensions-and-addons / Claude Code & Agent Tools; placement kept at
+      extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  secondary_categories: []
+  secondary_categories:
+    - agent-orchestration
   section: Claude Code & Agent Tools
 lifecycle:
   status: curated

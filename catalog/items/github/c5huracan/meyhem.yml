@@ -62,9 +62,11 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Registries & Discovery
   evidence:
     - jev-latest choice confidence 0.98
+    - jev winnow:e4b 0.22 below gate 0.50; proposed mcp / Registries & Discovery; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Registries & Discovery
 lifecycle:
   status: curated

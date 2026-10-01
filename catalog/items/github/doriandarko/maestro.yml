@@ -64,9 +64,13 @@ curation:
     - Repo description explicitly calls it a framework for orchestrating subagents
     - README details a workflow where Opus breaks down tasks, Haiku executes them, and Opus refines results
     - Supports multiple model providers (Anthropic, OpenAI, Gemini, Groq, Ollama, LMStudio) via LiteLLM
+    - >-
+      jev winnow:e4b 0.49 below gate 0.50; proposed ai-frameworks / Multi-Agent Systems; placement kept at ai-frameworks
+      (unverified)
 placement:
   primary_category: ai-frameworks
-  secondary_categories: []
+  secondary_categories:
+    - agent-orchestration
   section: Multi-Agent Systems
 lifecycle:
   status: curated

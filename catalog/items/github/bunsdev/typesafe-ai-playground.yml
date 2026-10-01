@@ -57,9 +57,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
     - jev-latest choice confidence 0.58
+    - >-
+      jev winnow:e4b 0.24 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; placement kept at
+      evals (unverified)
 placement:
   primary_category: evals
-  secondary_categories: []
+  secondary_categories:
+    - awesome-awesomes
   section: Agent & LLM Benchmarks
 lifecycle:
   status: curated

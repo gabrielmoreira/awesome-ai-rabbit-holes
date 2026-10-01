@@ -90,9 +90,13 @@ curation:
       README states 'Untether just bridges them to Telegram' and supports multiple existing agents rather than being one
       itself
     - Source list places it under 'Harnesses & orchestration > Agent infrastructure', aligning with its integration role
+    - >-
+      jev winnow:e4b 0.40 below gate 0.50; proposed coding-agents / Terminal & CLI Agents; placement kept at
+      extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  secondary_categories: []
+  secondary_categories:
+    - coding-agents
   section: Claude Code & Agent Tools
 lifecycle:
   status: curated

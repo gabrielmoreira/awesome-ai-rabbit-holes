@@ -74,9 +74,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
   evidence:
     - jev-latest choice confidence 0.43
+    - >-
+      jev winnow:e4b 0.14 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
+      evals (unverified)
 placement:
   primary_category: evals
-  secondary_categories: []
+  secondary_categories:
+    - agent-orchestration
   section: Observability & Tracing
 lifecycle:
   status: needs_review

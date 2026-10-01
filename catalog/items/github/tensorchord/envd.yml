@@ -76,9 +76,11 @@ curation:
   reason: 'Definitive manual audit: Container dev-environment provisioning; not AI-specific.'
   evidence:
     - Manual review, 2026-09-19
+    - jev winnow:e4b 0.10 below gate 0.50; proposed decision-models / Client SDKs & CLIs; no placement kept (unverified)
 placement:
   primary_category: null
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: null
 lifecycle:
   status: curated

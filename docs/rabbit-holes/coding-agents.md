@@ -3,12 +3,12 @@
 
 Agents that directly act on code: planning, writing, editing, reviewing, testing, and repairing across a terminal, IDE, browser, or operating system.
 
-_283 entries in 6 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_284 entries in 6 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
 - [Terminal & CLI Agents](#terminal--cli-agents) — 130
-- [IDE-Native & Editor Agents](#ide-native--editor-agents) — 21
+- [IDE-Native & Editor Agents](#ide-native--editor-agents) — 22
 - [Browser & Computer-Use Agents](#browser--computer-use-agents) — 25
 - [Review, Testing & Repair](#review-testing--repair) — 39
 - [Spec-First & Plan-Execute](#spec-first--plan-execute) — 23
@@ -416,6 +416,7 @@ _283 entries in 6 sections, ranked by stars. Each section opens with its top 30;
 
   `ai-coding-assistant` `tencent-cloud` `code-completion`
   </details>
+- **[CodeBuddy](https://copilot.tencent.com)** 腾讯云代码助手CodeBuddy，是一款辅助编码工具，基于混元代码大模型，提供技术对话、代码补全、代码诊断和优化等能力。为你生成优质代码，帮你解决技术难题，提升编码效率。.
 - **[Cursor](https://cursor.com)** An AI-native code editor designed for building software through agentic assistance and deep codebase understanding. <details><summary>More about</summary>
 
   It shifts the developer workflow from manual editing to high-level orchestration using integrated agents and composer modes.

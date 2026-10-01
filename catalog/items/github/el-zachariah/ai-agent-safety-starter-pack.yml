@@ -60,9 +60,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Security & DevSecOps
   evidence:
     - jev-latest choice confidence 0.88
+    - >-
+      jev winnow:e4b 0.44 below gate 0.50; proposed extensions-and-addons / Security & DevSecOps; placement kept at
+      extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  secondary_categories: []
+  secondary_categories:
+    - awesome-awesomes
   section: Security & DevSecOps
 lifecycle:
   status: curated

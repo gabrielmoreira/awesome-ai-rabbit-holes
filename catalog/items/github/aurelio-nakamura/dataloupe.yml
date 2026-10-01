@@ -77,9 +77,11 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
     - jev-latest choice confidence 0.81
+    - jev winnow:e4b 0.28 below gate 0.50; proposed local-ai / Desktop Chat & UIs; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - local-ai
   section: Data & Databases
 lifecycle:
   status: curated

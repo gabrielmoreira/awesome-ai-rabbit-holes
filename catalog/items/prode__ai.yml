@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__prode__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Prode.ai
         extracted_url: https://prode.ai
-        surrounding_text: "- **[ProdEAI](https://github.com/CuriousBox-AI/ProdE-mc)** - Your 24/7 production engineer that preserves context across multiple codebases [Prode.ai](https://prode.ai)."
+        surrounding_text: >-
+          - **[ProdEAI](https://github.com/CuriousBox-AI/ProdE-mc)** - Your 24/7 production engineer that preserves
+          context across multiple codebases [Prode.ai](https://prode.ai).
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ProdE is a planning layer that turns PM and engineering ideas into coding-agent-ready specifications grounded in a codebase.
-  why_it_matters: It reduces back-and-forth between product and engineering by generating agent-ready specs from codebase context, accelerating agentic development.
-  mental_damage: Finally, a tool that makes spec writing feel less like archaeology and more like outsourcing your job to an overachieving intern.
+  summary: >-
+    ProdE is a planning layer that turns PM and engineering ideas into coding-agent-ready specifications grounded in a
+    codebase.
+  why_it_matters: >-
+    It reduces back-and-forth between product and engineering by generating agent-ready specs from codebase context,
+    accelerating agentic development.
+  mental_damage: >-
+    Finally, a tool that makes spec writing feel less like archaeology and more like outsourcing your job to an
+    overachieving intern.
   tags:
     - spec-driven
     - mcp
@@ -46,22 +54,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: ProdE's core value is creating and maintaining agent-ready specs grounded in the codebase, which aligns with spec-first development workflows.
+  reason: >-
+    ProdE's core value is creating and maintaining agent-ready specs grounded in the codebase, which aligns with
+    spec-first development workflows.
   evidence:
     - Described as 'the planning layer built for agentic development' that turns ideas into 'coding-agent-ready specs'
     - Explicitly positions itself as the layer before coding agents, producing specs grounded in code
     - Provides MCP server access to specs, requirements, and architectural context for agents
+    - >-
+      jev winnow:e4b 0.22 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: null
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): spec-driven-development; invalid primary 'spec-driven-development' promoted runner-up 'mcp'; placement disagreement: retained 'coding-agents', proposed 'mcp'"
+  reason: >-
+    Categorization review required: unknown category candidate(s): spec-driven-development; invalid primary
+    'spec-driven-development' promoted runner-up 'mcp'; placement disagreement: retained 'coding-agents', proposed 'mcp'
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +86,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:34:58.490Z"
+    updated_at: '2026-09-28T04:34:58.490Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -83,7 +99,9 @@ processing:
       input_hash: sha256:0d8f1d5b05ae91a0881a8948ad2cbce6abb30d361821a6661475c785d8f33fd8
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: ProdE fits spec-driven development because its core function is generating agent-ready plans grounded in codebase intelligence, not executing code or orchestrating agents.
+      decision_reason: >-
+        ProdE fits spec-driven development because its core function is generating agent-ready plans grounded in
+        codebase intelligence, not executing code or orchestrating agents.
       decision_evidence:
         - ProdE turns ideas into Claude Code ready specs grounded in your codebase
         - It creates specs before coding begins, with sprint planning and change impact analysis
@@ -91,6 +109,11 @@ processing:
       category_candidates:
         - spec-driven-development
         - mcp
-      contrastive_reason: Choose spec-driven-development over mcp because ProdE's primary identity is a spec/planning layer for agentic development, with MCP serving as an integration mechanism rather than the core product.
-      review_reason: "Categorization review required: unknown category candidate(s): spec-driven-development; invalid primary 'spec-driven-development' promoted runner-up 'mcp'; placement disagreement: retained 'coding-agents', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose spec-driven-development over mcp because ProdE's primary identity is a spec/planning layer for agentic
+        development, with MCP serving as an integration mechanism rather than the core product.
+      review_reason: >-
+        Categorization review required: unknown category candidate(s): spec-driven-development; invalid primary
+        'spec-driven-development' promoted runner-up 'mcp'; placement disagreement: retained 'coding-agents', proposed
+        'mcp'
       review_resume_lifecycle: null

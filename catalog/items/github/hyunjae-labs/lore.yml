@@ -73,9 +73,13 @@ curation:
       README details MCP-specific integration (e.g., `claude mcp add`, `codex mcp add`) and MCP tooling (e.g., `index`,
       `search`, `get_context`)
     - 'Core functionality is MCP-first: hybrid search, local execution, and agent-agnostic conversation indexing'
+    - >-
+      jev winnow:e4b 0.35 below gate 0.50; proposed memory-and-context / Persistent Memory & Knowledge; placement kept
+      at mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - memory-and-context
   section: Middleware & Generic
 lifecycle:
   status: curated

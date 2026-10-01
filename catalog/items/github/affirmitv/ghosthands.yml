@@ -57,9 +57,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Browser & Computer-Use Agents
   evidence:
     - jev-latest choice confidence 0.88
+    - >-
+      jev winnow:e4b 0.25 below gate 0.50; proposed decision-models / Browser & Computer Use; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Browser & Computer-Use Agents
 lifecycle:
   status: curated

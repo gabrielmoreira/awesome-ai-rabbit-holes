@@ -54,9 +54,11 @@ curation:
   reason: Jev decision-model reclassifier placed this item in skills / Registries & Directories
   evidence:
     - jev-latest choice confidence 0.90
+    - jev winnow:e4b 0.25 below gate 0.50; proposed mcp / Registries & Discovery; placement kept at skills (unverified)
 placement:
   primary_category: skills
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Registries & Directories
 lifecycle:
   status: curated

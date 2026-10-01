@@ -95,9 +95,13 @@ curation:
       README emphasizes solving the problem of AI forgetting context and lacking specialized knowledge via a memory
       engine and 5,100 knowledge modules.
     - Topics and README confirm it exposes MCP tools specifically for memory (recall, remember) and knowledge retrieval.
+    - >-
+      jev winnow:e4b 0.47 below gate 0.50; proposed mcp / Middleware & Generic; placement kept at memory-and-context
+      (unverified)
 placement:
   primary_category: memory-and-context
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Persistent Memory & Knowledge
 lifecycle:
   status: curated

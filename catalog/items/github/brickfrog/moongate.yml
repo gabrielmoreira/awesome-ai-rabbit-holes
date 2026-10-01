@@ -55,9 +55,13 @@ curation:
   reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
     - Jev classification confidence below inclusion threshold
+    - >-
+      jev winnow:e4b 0.27 below gate 0.50; proposed coding-agents / Review, Testing & Repair; no placement kept
+      (unverified)
 placement:
   primary_category: null
-  secondary_categories: []
+  secondary_categories:
+    - coding-agents
   section: null
 lifecycle:
   status: curated

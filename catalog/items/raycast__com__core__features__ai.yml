@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__raycast__com__core__features__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Raycast AI
         extracted_url: https://raycast.com/ai
-        surrounding_text: "- **[Raycast AI](https://raycast.com/ai)** – AI-powered productivity launcher with coding capabilities and workflow automation."
+        surrounding_text: >-
+          - **[Raycast AI](https://raycast.com/ai)** – AI-powered productivity launcher with coding capabilities and
+          workflow automation.
         confidence: high
     - id: discovery__www__raycast__com__core__features__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +35,9 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Raycast AI
         extracted_url: https://raycast.com/ai
-        surrounding_text: "- **[Raycast AI](https://raycast.com/ai)** – AI-powered productivity launcher with coding capabilities and workflow automation."
+        surrounding_text: >-
+          - **[Raycast AI](https://raycast.com/ai)** – AI-powered productivity launcher with coding capabilities and
+          workflow automation.
         confidence: high
 metadata:
   github:
@@ -51,9 +55,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Raycast AI is a macOS productivity app that provides system-wide AI agent access via keyboard shortcuts, connecting to multiple LLM providers and integrating with user tools and workflows.
-  why_it_matters: It lets developers invoke AI agents contextually across any app or window without leaving their workflow, reducing context-switching for coding-related tasks like debugging, PR triage, or inbox management.
-  mental_damage: Another layer of AI omnipresence that promises to eliminate tab anxiety while silently training you to expect instant agentic replies to every stray thought.
+  summary: >-
+    Raycast AI is a macOS productivity app that provides system-wide AI agent access via keyboard shortcuts, connecting
+    to multiple LLM providers and integrating with user tools and workflows.
+  why_it_matters: >-
+    It lets developers invoke AI agents contextually across any app or window without leaving their workflow, reducing
+    context-switching for coding-related tasks like debugging, PR triage, or inbox management.
+  mental_damage: >-
+    Another layer of AI omnipresence that promises to eliminate tab anxiety while silently training you to expect
+    instant agentic replies to every stray thought.
   tags:
     - ai-assistant
     - productivity
@@ -61,23 +71,37 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Raycast AI functions as a system-level AI extension that augments existing developer tools and workflows rather than acting as a primary coding agent, making it a better fit for extensions than coding agents.
+  reason: >-
+    Raycast AI functions as a system-level AI extension that augments existing developer tools and workflows rather than
+    acting as a primary coding agent, making it a better fit for extensions than coding agents.
   evidence:
-    - Raycast AI uses the tools you already rely on to get work done — positioning it as an enhancer of existing workflows, not a standalone coder
-    - Features like Screen Awareness, AI Extensions, and Quick AI emphasize contextual augmentation across apps, not autonomous code editing
-    - It supports bringing your own LLM keys and integrates with developer tools like Linear, GitHub, and Things via scheduled agents
+    - >-
+      Raycast AI uses the tools you already rely on to get work done — positioning it as an enhancer of existing
+      workflows, not a standalone coder
+    - >-
+      Features like Screen Awareness, AI Extensions, and Quick AI emphasize contextual augmentation across apps, not
+      autonomous code editing
+    - >-
+      It supports bringing your own LLM keys and integrates with developer tools like Linear, GitHub, and Things via
+      scheduled agents
     - Appears in awesome-ai-coding-tools under Developer Productivity Tools as an AI-enhanced workflow aid
+    - >-
+      jev winnow:e4b 0.47 below gate 0.50; proposed coding-agents / Browser & Computer-Use Agents; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: null
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'"
+  reason: >-
+    Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary
+    'ai-dev-extensions' promoted runner-up 'coding-agents'
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:44:45.019Z"
+    updated_at: '2026-09-28T04:44:45.019Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -90,21 +114,34 @@ processing:
       input_hash: sha256:bcd379da7781593a0677bd4e31d7252042a3c062b2d5d5692d7f1a4808837677
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Raycast AI functions as a system-level AI extension that augments existing developer tools and workflows rather than acting as a primary coding agent, making it a better fit for extensions than coding agents.
+      decision_reason: >-
+        Raycast AI functions as a system-level AI extension that augments existing developer tools and workflows rather
+        than acting as a primary coding agent, making it a better fit for extensions than coding agents.
       decision_evidence:
-        - Raycast AI uses the tools you already rely on to get work done — positioning it as an enhancer of existing workflows, not a standalone coder
-        - Features like Screen Awareness, AI Extensions, and Quick AI emphasize contextual augmentation across apps, not autonomous code editing
-        - It supports bringing your own LLM keys and integrates with developer tools like Linear, GitHub, and Things via scheduled agents
+        - >-
+          Raycast AI uses the tools you already rely on to get work done — positioning it as an enhancer of existing
+          workflows, not a standalone coder
+        - >-
+          Features like Screen Awareness, AI Extensions, and Quick AI emphasize contextual augmentation across apps, not
+          autonomous code editing
+        - >-
+          It supports bringing your own LLM keys and integrates with developer tools like Linear, GitHub, and Things via
+          scheduled agents
         - Appears in awesome-ai-coding-tools under Developer Productivity Tools as an AI-enhanced workflow aid
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because Raycast AI primarily augments existing tools and workflows via system-level AI access rather than acting as a primary agent that plans and executes coding tasks across a codebase.
-      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because Raycast AI primarily augments existing tools and workflows
+        via system-level AI access rather than acting as a primary agent that plans and executes coding tasks across a
+        codebase.
+      review_reason: >-
+        Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary
+        'ai-dev-extensions' promoted runner-up 'coding-agents'
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.969Z"
+    updated_at: '2026-07-21T15:20:21.969Z'
     cause: null
     next_retry_at: null
   stars:

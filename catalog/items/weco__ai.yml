@@ -87,9 +87,13 @@ curation:
     - Claims to autonomously generate and test candidate solutions, keeping improvements and discarding failed attempts
     - Offers a CLI and specialized skills for Claude Code and Cursor
     - Supports code optimization across multiple languages including Python, C++, Rust, and JS
+    - >-
+      jev winnow:e4b 0.35 below gate 0.50; proposed evals / Observability & Tracing; placement kept at evals
+      (unverified)
 placement:
   primary_category: evals
-  secondary_categories: []
+  secondary_categories:
+    - coding-agents
   section: Observability & Tracing
 lifecycle:
   status: curated

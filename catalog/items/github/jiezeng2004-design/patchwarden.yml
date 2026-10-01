@@ -109,9 +109,12 @@ curation:
     - README claims it is a 'afety and verification layer' using a 'plan -> task -> verify' workflow
     - Explicitly prevents arbitrary shell execution in favor of restricted, allowlisted commands
     - Focuses on auditable task evidence and scope-violation detection
+    - jev winnow:e4b 0.39 below gate 0.50; proposed mcp / Dev & Code Tools; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   section: Spec-First & Plan-Execute
+  secondary_categories:
+    - mcp
 lifecycle:
   status: curated
   reason: null

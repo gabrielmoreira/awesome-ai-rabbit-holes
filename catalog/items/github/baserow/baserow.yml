@@ -94,9 +94,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in app-builders / Internal Tools & Dashboards
   evidence:
     - jev-latest choice confidence 0.60
+    - >-
+      jev winnow:e4b 0.50 below gate 0.50; proposed app-builders / Internal Tools & Dashboards; placement kept at
+      app-builders (unverified)
 placement:
   primary_category: app-builders
-  secondary_categories: []
+  secondary_categories:
+    - local-ai
   section: Internal Tools & Dashboards
 lifecycle:
   status: curated

@@ -52,9 +52,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in app-builders / Scaffolding & Boilerplate
   evidence:
     - jev-latest choice confidence 0.42
+    - >-
+      jev winnow:e4b 0.29 below gate 0.50; proposed decision-models / Framework & SDK Integrations; placement kept at
+      app-builders (unverified)
 placement:
   primary_category: app-builders
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Scaffolding & Boilerplate
 lifecycle:
   status: curated

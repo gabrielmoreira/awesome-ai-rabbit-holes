@@ -70,9 +70,13 @@ curation:
       README states it supports evaluation on code (swe-bench, livecodebench), math, and instruction following
       benchmarks.
     - Includes model training via NeMo-RL or verl, but evaluation and benchmarking are central, supported surface areas.
+    - >-
+      jev winnow:e4b 0.38 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; placement kept at
+      local-ai (unverified)
 placement:
   primary_category: local-ai
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Fine-tuning & Training
 lifecycle:
   status: curated

@@ -68,9 +68,14 @@ curation:
     - 'Repo description explicitly states: ''AIlice is a fully autonomous, general-purpose AI agent.'''
     - README claims proficiency in 'thematic research, coding, system management' using the IACT architecture.
     - Active development with a push date of 2025-08-18 and 1406 stars, confirming it is not archived or stale.
+    - >-
+      jev winnow:e4b 0.43 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
+  secondary_categories:
+    - agent-orchestration
 lifecycle:
   status: curated
   reason: Stars (1406) exceeded threshold (150)

@@ -53,9 +53,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
     - jev-latest choice confidence 0.61
+    - >-
+      jev winnow:e4b 0.42 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
+      extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Claude Code & Agent Tools
 lifecycle:
   status: curated

@@ -89,9 +89,13 @@ curation:
     - README claims 80%+ token savings through Edge LLM context synthesis/distillation.
     - Uses HTTP 402 micro-settlements via USDC on Base L2 to replace traditional API subscriptions.
     - Provides an MCP configuration to expose scraping and auditing tools to assistants like Claude and Cursor.
+    - >-
+      jev winnow:e4b 0.30 below gate 0.50; proposed memory-and-context / Compression & Token Optimization; placement
+      kept at mcp (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - memory-and-context
   section: Browser & Web Automation
 lifecycle:
   status: curated

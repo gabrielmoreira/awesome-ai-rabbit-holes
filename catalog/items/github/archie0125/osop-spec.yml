@@ -64,9 +64,14 @@ curation:
     - Repo description explicitly states it is a JSON Schema and spec for AI agent workflows
     - README emphasizes structured workflow definitions (`.osop`) and execution logs (`.osoplog`) as primary artifacts
     - Ecosystem includes validation tools, editors, and examples centered on the spec
+    - >-
+      jev winnow:e4b 0.24 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
+      coding-agents (unverified)
 placement:
   primary_category: coding-agents
   section: Spec-First & Plan-Execute
+  secondary_categories:
+    - agent-orchestration
 lifecycle:
   status: curated
   reason: null

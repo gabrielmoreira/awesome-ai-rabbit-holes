@@ -96,9 +96,13 @@ curation:
       Positions itself as a 'starter kit' for turning failures into instructions, which is a context management
       workflow.
     - Focused on 'repository harnessing' rather than being the primary coding assistant engine.
+    - >-
+      jev winnow:e4b 0.11 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
+      agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
-  secondary_categories: []
+  secondary_categories:
+    - coding-agents
   section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated

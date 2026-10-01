@@ -93,9 +93,13 @@ curation:
       README: 'The core novelty is memory, retrieval, prompt management, compression, distillation, or fresh-doc lookup
       rather than the host integration layer.'
     - 'Source list: listed in awesome-mcp-servers under Knowledge & Memory, aligning with a memory/context identity.'
+    - >-
+      jev winnow:e4b 0.42 below gate 0.50; proposed mcp / Middleware & Generic; placement kept at memory-and-context
+      (unverified)
 placement:
   primary_category: memory-and-context
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Persistent Memory & Knowledge
 lifecycle:
   status: curated

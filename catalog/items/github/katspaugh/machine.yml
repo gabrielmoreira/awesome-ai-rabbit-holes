@@ -74,9 +74,13 @@ curation:
     - README claims it solves the 'etup problem' and 'afety problem' for agents
     - Specifically mentions sandboxing Claude Code using Lima VMs
     - Provides tool profiles (Docker, Node, Cypress) to augment the agent's workspace
+    - >-
+      jev winnow:e4b 0.27 below gate 0.50; proposed extensions-and-addons / Claude Code & Agent Tools; placement kept at
+      agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
-  secondary_categories: []
+  secondary_categories:
+    - extensions-and-addons
   section: Agent Runtimes & Harnesses
 lifecycle:
   status: curated

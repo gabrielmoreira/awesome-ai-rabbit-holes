@@ -75,9 +75,13 @@ curation:
     - Repo description states 'Persistent Intelligence Infrastructure for AI Agents' with mcp-server topic.
     - README highlights 'learns your patterns', 'instant project context', and 'semantic search' as core features.
     - Explicitly acts as an MCP server to provide memory to Claude/Copilot rather than being a standalone coding agent.
+    - >-
+      jev winnow:e4b 0.48 below gate 0.50; proposed mcp / Middleware & Generic; placement kept at memory-and-context
+      (unverified)
 placement:
   primary_category: memory-and-context
-  secondary_categories: []
+  secondary_categories:
+    - mcp
   section: Persistent Memory & Knowledge
 lifecycle:
   status: curated

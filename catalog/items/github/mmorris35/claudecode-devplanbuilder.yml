@@ -70,9 +70,13 @@ curation:
       phases/tasks/subtasks.
     - Generates executor and verifier agents in .claude/agents/ to execute and validate the plan.
     - Repository is very new (2025-10-09) and low traction (3 stars), but the product identity is clear.
+    - >-
+      jev winnow:e4b 0.14 below gate 0.50; proposed skills / Skill Packs & Libraries; placement kept at skills
+      (unverified)
 placement:
   primary_category: skills
-  secondary_categories: []
+  secondary_categories:
+    - agent-orchestration
   section: Skill Packs & Libraries
 lifecycle:
   status: curated

@@ -91,9 +91,13 @@ curation:
     - >-
       Core features are plan, parallel execution, validate, and retry workflows that augment the underlying assistant's
       existing capabilities
+    - >-
+      jev winnow:e4b 0.45 below gate 0.50; proposed extensions-and-addons / Claude Code & Agent Tools; placement kept at
+      extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  secondary_categories: []
+  secondary_categories:
+    - agent-orchestration
   section: Claude Code & Agent Tools
 lifecycle:
   status: curated

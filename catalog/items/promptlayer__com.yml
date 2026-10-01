@@ -82,9 +82,13 @@ curation:
     - Identifies as a 'prompt management platform' and 'prompt CMS' in site context
     - Provides toolsets for versioning, A/B testing, and deploying prompts without code changes
     - Includes observability and evaluation features as part of a unified prompt management stack
+    - >-
+      jev winnow:e4b 0.32 below gate 0.50; proposed evals / Prompt Regression & Testing; placement kept at
+      memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
-  secondary_categories: []
+  secondary_categories:
+    - evals
   section: Prompt Engineering & Management
 lifecycle:
   status: curated

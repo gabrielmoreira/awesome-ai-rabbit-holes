@@ -53,9 +53,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
   evidence:
     - jev-latest choice confidence 0.40
+    - >-
+      jev winnow:e4b 0.29 below gate 0.50; proposed decision-models / Apps, Games & Simulation; placement kept at
+      local-ai (unverified)
 placement:
   primary_category: local-ai
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Desktop Chat & UIs
 lifecycle:
   status: curated

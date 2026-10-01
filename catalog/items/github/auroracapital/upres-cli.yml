@@ -64,9 +64,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
     - jev-latest choice confidence 0.94
+    - >-
+      jev winnow:e4b 0.48 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at
+      ai-frameworks (unverified)
 placement:
   primary_category: ai-frameworks
-  secondary_categories: []
+  secondary_categories:
+    - coding-agents
   section: Provider & Model Abstractions
 lifecycle:
   status: curated

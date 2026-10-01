@@ -73,9 +73,13 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
   evidence:
     - jev-latest choice confidence 0.41
+    - >-
+      jev winnow:e4b 0.20 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
+      decision-models (unverified)
 placement:
   primary_category: decision-models
-  secondary_categories: []
+  secondary_categories:
+    - extensions-and-addons
   section: Open & Local Decision Models
 lifecycle:
   status: curated

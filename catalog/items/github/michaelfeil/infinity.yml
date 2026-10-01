@@ -75,9 +75,13 @@ curation:
       README: 'Infinity is a high-throughput, low-latency REST API for serving text-embeddings, reranking models, clip,
       clap and colpali'
     - 'Source-list context: listed in Awesome-LLMOps under Serving > Large Model Serving'
+    - >-
+      jev winnow:e4b 0.48 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; placement kept at
+      local-ai (unverified)
 placement:
   primary_category: local-ai
-  secondary_categories: []
+  secondary_categories:
+    - ai-frameworks
   section: Local API Servers
 lifecycle:
   status: curated

@@ -105,9 +105,13 @@ curation:
     - README describes it as a 'small command that keeps each account's Codex state separate'
     - It acts as a wrapper for the CODEX_HOME environment variable
     - The core value is workflow management (account switching) for another tool
+    - >-
+      jev winnow:e4b 0.26 below gate 0.50; proposed extensions-and-addons / Claude Code & Agent Tools; placement kept at
+      extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  secondary_categories: []
+  secondary_categories:
+    - memory-and-context
   section: Claude Code & Agent Tools
 lifecycle:
   status: curated

@@ -64,9 +64,13 @@ curation:
     - 'Repo description: ''CLI based natural language queries on local or remote data'''
     - README shows Python API usage (ask_file, ask_database, ask_wikidata) and CLI focus
     - Supports OpenAI-compatible APIs (Ollama, DeepSeek) via environment variables
+    - >-
+      jev winnow:e4b 0.19 below gate 0.50; proposed decision-models / Client SDKs & CLIs; placement kept at mcp
+      (unverified)
 placement:
   primary_category: mcp
-  secondary_categories: []
+  secondary_categories:
+    - decision-models
   section: Data & Databases
 lifecycle:
   status: curated

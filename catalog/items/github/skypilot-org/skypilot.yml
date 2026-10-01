@@ -83,9 +83,13 @@ curation:
   reason: 'Definitive manual audit: AI compute orchestration (MLOps infra); outside catalog taxonomy.'
   evidence:
     - Manual review, 2026-09-19
+    - >-
+      jev winnow:e4b 0.43 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; no placement kept
+      (unverified)
 placement:
   primary_category: null
-  secondary_categories: []
+  secondary_categories:
+    - agent-orchestration
   section: null
 lifecycle:
   status: curated
