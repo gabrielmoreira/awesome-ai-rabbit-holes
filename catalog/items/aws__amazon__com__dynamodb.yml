@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed for high-performance applications at any scale.
-  why_it_matters: It provides a highly scalable, zero-maintenance data storage layer that simplifies infrastructure management for high-concurrency workloads.
-  mental_damage: It's a reliable way to ensure you'll never have to manage a database server, but you'll spend your life worrying about partition keys and throughput provisioning.
+  summary: Amazon DynamoDB is a fully managed, serverless NoSQL database service.
+  why_it_matters: Provides scalable, low-latency data storage for agentic AI applications and developer workflows needing persistent state or vector search.
+  mental_damage: Yet another reason to pretend your side project needs global tables and ACID transactions for a to-do list.
   tags:
-    - nosql
-    - serverless
     - database
+    - nosql
     - aws
-    - key-value
+    - serverless
+    - agentic-ai
   confidence: high
 curation:
   status: excluded
-  reason: DynamoDB is a general-purpose cloud database service, not a developer-facing AI tool, agent, or workflow utility.
+  reason: DynamoDB is a general-purpose cloud database service without a developer-facing AI tooling identity; its inclusion in awesome-mcp-servers reflects MCP compatibility, not a primary AI developer tool.
   evidence:
-    - Primary product is a managed NoSQL database
-    - Does not perform AI tasks, coding assistance, or agentic orchestration
-    - The provided context describes it as a data storage and infrastructure service
+    - Scraped site context describes DynamoDB as a fully managed, serverless key-value NoSQL database for high-performance applications.
+    - Source-list context notes it appears in awesome-mcp-servers under 'Community Servers' due to MCP compatibility, not as an MCP-first product.
+    - No evidence of agentic, coding, orchestration, or developer workflow identity beyond being a data backend.
 placement:
   primary_category: null
   section: null
@@ -70,27 +70,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:43.443Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for aws__amazon__com__dynamodb: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:24:24.168Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5c5470ccc614690b564993a4df6d9d0a6c22e6592a420e7f62bd7e83acb99a0a
+      category_rules_version: c367d6101132
+      input_hash: sha256:8f4dfa1097adb068957f224216efd2a006721d7643412b3287b90e6bcbfb6bc2
       proposed_primary_category: null
       disagreement: false
-      decision_reason: DynamoDB is a general-purpose cloud database service, not a developer-facing AI tool, agent, or workflow utility.
+      decision_reason: DynamoDB is a general-purpose cloud database service without a developer-facing AI tooling identity; its inclusion in awesome-mcp-servers reflects MCP compatibility, not a primary AI developer tool.
       decision_evidence:
-        - Primary product is a managed NoSQL database
-        - Does not perform AI tasks, coding assistance, or agentic orchestration
-        - The provided context describes it as a data storage and infrastructure service
+        - Scraped site context describes DynamoDB as a fully managed, serverless key-value NoSQL database for high-performance applications.
+        - Source-list context notes it appears in awesome-mcp-servers under 'Community Servers' due to MCP compatibility, not as an MCP-first product.
+        - No evidence of agentic, coding, orchestration, or developer workflow identity beyond being a data backend.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

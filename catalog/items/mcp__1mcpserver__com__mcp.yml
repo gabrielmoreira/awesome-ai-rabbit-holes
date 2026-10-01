@@ -36,28 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Model Context Protocol (MCP) server or resource hosted at a dedicated MCP domain.
-  why_it_matters: Provides MCP-based tooling or server capabilities for developers integrating with the Model Context Protocol ecosystem.
-  mental_damage: Another MCP endpoint to juggle in your already overcrowded local agent runtime zoo.
+  summary: Model Context Protocol infrastructure for AI agents to communicate with tools and data sources.
+  why_it_matters: Provides a standardized interface for AI agents to access external capabilities, reducing integration complexity.
+  mental_damage: Yet another protocol promising to solve the 'AI can't use your tools' problem we've already solved with custom APIs.
   tags:
     - mcp
+    - ai-infrastructure
     - protocol
-    - server
-    - tooling
-  confidence: low
+  confidence: medium
 curation:
-  status: excluded
-  reason: The URL and source-list context suggest MCP-related infrastructure, but the lack of repo description, README, or concrete product identity makes it impossible to verify as a standalone MCP server or tooling project.
+  status: included
+  reason: The project is explicitly identified as MCP infrastructure in its URL and source-list context, making MCP its primary identity rather than a feature of another product.
   evidence:
-    - No repo description or README provided to confirm product identity
-    - Source-list context only shows it appears in an MCP servers list, not what it actually is
-    - No verifiable signals (stars, license, activity) to establish credibility or scope
+    - "URL: https://mcp.1mcpserver.com/mcp indicates MCP focus"
+    - Listed in awesome-mcp-servers under 'Official Servers' section
+    - No evidence of being a coding agent, extension, or broader platform
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Dev & Code Tools
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -69,28 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:32:10.916Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for mcp__1mcpserver__com__mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:28:42.820Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d24d5a3396dceef6f4f03b7e9165cec07c834e3c5448cf1715c5f2669801588c
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:09a543f8d4c6b468ba1f987fb6bc1ddc0d91459a97c53eccc8645adf5c3a4058
+      proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The URL and source-list context suggest MCP-related infrastructure, but the lack of repo description, README, or concrete product identity makes it impossible to verify as a standalone MCP server or tooling project.
+      decision_reason: The project is explicitly identified as MCP infrastructure in its URL and source-list context, making MCP its primary identity rather than a feature of another product.
       decision_evidence:
-        - No repo description or README provided to confirm product identity
-        - Source-list context only shows it appears in an MCP servers list, not what it actually is
-        - No verifiable signals (stars, license, activity) to establish credibility or scope
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+        - "URL: https://mcp.1mcpserver.com/mcp indicates MCP focus"
+        - Listed in awesome-mcp-servers under 'Official Servers' section
+        - No evidence of being a coding agent, extension, or broader platform
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's identity is MCP infrastructure itself, not an add-on that extends a coding agent or editor.
+      review_reason: null
       review_resume_lifecycle: null

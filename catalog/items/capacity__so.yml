@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered platform that generates full-stack web and mobile applications from natural language descriptions.
-  why_it_matters: It streamlines the path from idea to deployment by automating the generation of React, TypeScript, and backend infrastructure.
-  mental_damage: It brings us one step closer to the era where 'building an app' is just a fancy way of saying 'typing a very long paragraph'.
+  summary: Capacity.so is a no-code platform that turns plain-language app ideas into live web applications with accounts, payments, and custom domains using AI.
+  why_it_matters: It lets developers and non-developers ship functional apps from descriptions without writing code, accelerating prototyping and idea validation.
+  mental_damage: The quiet dread that your weekend project now has a Stripe integration and real users before you’ve picked a framework.
   tags:
-    - prompt-to-app
-    - full-stack
-    - react
-    - typescript
+    - app-builder
     - no-code
+    - ai-generated
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is generating complete, deployable applications from prompts rather than assisting a developer with existing code.
+  reason: Capacity.so matches the App Builders category by generating deployable apps from plain language prompts without requiring users to edit an existing codebase.
   evidence:
-    - Claims to generate 'production-ready React applications with Tailwind CSS, TypeScript, and tRPC/REST APIs
-    - Features a 'Spec Mode' to transform ideas into detailed implementation plans
-    - Focuses on users with 'no coding skills needed'
+    - "Described in source list as: 'Describe your idea in plain words. Capacity asks the right questions, builds your app, and puts it online: accounts, payments, your own domain.'"
+    - "README states: 'You never write or see code' and 'Your app can have member accounts, logins, saved information, payments: everything real products have.'"
+    - "Primary workflow is prompt-to-live-app: 'Describe your idea...' → AI asks clarifying questions → builds and publishes to a custom domain."
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -71,30 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:35:13.819Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for capacity__so: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:25:01.731Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7ce67b8cf917e3d4c49fdafc5f6240ec0930ad0dc816cd1eee4b797a884247f9
+      category_rules_version: c367d6101132
+      input_hash: sha256:a4a02e8782ea30a9c27cd0aaffb39e94c5080c6ddefa4338b25f50c554e11b99
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product's core identity is generating complete, deployable applications from prompts rather than assisting a developer with existing code.
+      decision_reason: Capacity.so matches the App Builders category by generating deployable apps from plain language prompts without requiring users to edit an existing codebase.
       decision_evidence:
-        - Claims to generate 'production-ready React applications with Tailwind CSS, TypeScript, and tRPC/REST APIs
-        - Features a 'Spec Mode' to transform ideas into detailed implementation plans
-        - Focuses on users with 'no coding skills needed'
+        - "Described in source list as: 'Describe your idea in plain words. Capacity asks the right questions, builds your app, and puts it online: accounts, payments, your own domain.'"
+        - "README states: 'You never write or see code' and 'Your app can have member accounts, logins, saved information, payments: everything real products have.'"
+        - "Primary workflow is prompt-to-live-app: 'Describe your idea...' → AI asks clarifying questions → builds and publishes to a custom domain."
       category_candidates:
         - app-builders
-        - spec-driven-development
-      contrastive_reason: Choose app-builders over spec-driven-development because the final output is a complete, deployed application rather than just a structured specification or plan.
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because Capacity.so’s primary function is generating new apps from scratch via prompts, not editing or operating on existing codebases as a coding agent would.
       review_reason: null
       review_resume_lifecycle: null

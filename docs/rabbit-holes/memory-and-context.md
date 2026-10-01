@@ -1098,13 +1098,13 @@ _These are new or low-traffic entries being watched._
   `mcp` `knowledge-base` `retrieval` `context-engineering` `langchain`
   </details>
 
-- **[16x Prompt](https://prompt.16x.engineer)** 16x Prompt is a desktop application that helps developers compose and manage prompts with source code context for AI coding tasks. <details><summary>More about</summary>
+- **[16x Prompt](https://prompt.16x.engineer)** 16x Prompt is a desktop application that helps developers manage code context and craft optimized prompts for AI coding tasks. <details><summary>More about</summary>
 
-  It streamlines prompt engineering for coding by organizing context, tracking tokens, and integrating with multiple LLM APIs, reducing manual copy-paste workflows.
+  It streamlines the prompt engineering workflow for developers by organizing code context, tracking token limits, and enabling reuse of custom instructions across projects.
 
-  _Finally, a tool that lets you spend more time crafting the perfect prompt than actually writing code._
+  _Another layer of UI to manage the ever-growing stack of AI coding tools, promising to reduce copy-paste fatigue while adding yet another window to your dev setup._
 
-  `prompt-engineering` `context-management` `ai-coding` `desktop-app` `multi-llm`
+  `prompt-engineering` `context-management` `developer-tool`
   </details>
 
 - **[Augments](https://augments.dev)** An MCP server that provides type signatures, prose documentation, and code examples for any npm package. <details><summary>More about</summary>
@@ -1123,15 +1123,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a place where your AI agents can gossip about you without you being able to delete the chat history._
 
   `context-engineering` `mcp` `data-platform`
-  </details>
-
-- **[Dosu](https://dosu.dev)** Dosu is a knowledge infrastructure layer that automatically captures and syncs team documentation to reduce token usage and improve agent performance. <details><summary>More about</summary>
-
-  It aims to solve the problem of stale context by automatically maintaining project documentation (like AGENTS.md) through real-time observation of agent sessions and communication tools.
-
-  _Finally, an automated way to ensure your agent's hallucination-inducing context window is filled with actual, up-to-date project truth._
-
-  `mcp` `knowledge-base` `agent-infrastructure` `documentation` `context-management`
   </details>
 
 - **[Graphlit](https://graphlit.com)** Graphlit provides a managed context layer for AI agents with real-time sync across Slack, GitHub, and Jira, plus built-in semantic search. <details><summary>More about</summary>
@@ -1168,6 +1159,15 @@ _These are new or low-traffic entries being watched._
   _Another 'AI workspace' promising memory and learning from every use, as if the real problem was forgetting your last pivot table._
 
   `ai-data-analysis` `context-engineering` `private-cloud`
+  </details>
+
+- **[Powerdrill AI](https://powerdrill.ai/es)** Powerdrill Bloom is an AI workspace with memory that learns from each data analysis to improve agent intelligence over time. <details><summary>More about</summary>
+
+  It promises to make AI agents progressively smarter through usage, potentially reducing repetitive context setup in data workflows.
+
+  _Another 'AI that learns from you' claim that adds to the growing pile of tools whose memory never actually transfers beyond their own walled garden._
+
+  `ai-workspace` `memory` `data-analysis`
   </details>
 
 - **[Prompteams](https://prompteams.com)** Prompteams is a prompt management system with versioning, testing, and auto-generated APIs for team collaboration on LLM prompts. <details><summary>More about</summary>

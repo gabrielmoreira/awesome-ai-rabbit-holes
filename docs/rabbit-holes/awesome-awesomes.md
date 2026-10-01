@@ -135,6 +135,15 @@ Awesome lists, curated directories, ecosystem maps, newsletters, and publication
 
 _These are new or low-traffic entries being watched._
 
+- **[![Forkers repo roster for @WangRongsheng/awesome-LLM-resourses](https://reporoster.com/forks/WangRongsheng/awesome-LLM-resourses)** awesome-LLM-resourses is an aggregated directory listing LLM-related resources across modalities, agents, tooling, and workflows. <details><summary>More about</summary>
+
+  It helps developers navigate a broad set of LLM topics by compiling links and references in one place.
+
+  _Yet another awesome list promising to be 'the world’s best' while adding to the scroll fatigue of tool discovery._
+
+  `awesome-list` `llm-resources` `curated-directory`
+  </details>
+
 - **[![Stargazers repo roster for @WangRongsheng/awesome-LLM-resourses](https://reporoster.com/stars/WangRongsheng/awesome-LLM-resourses)** awesome-LLM-resourses is a curated list of LLM-related resources covering topics like multimodal generation, agents, coding assistance, and MCP. <details><summary>More about</summary>
 
   It helps developers discover a broad range of LLM tools and materials in one place, reducing discovery friction.
@@ -142,6 +151,33 @@ _These are new or low-traffic entries being watched._
   _Yet another awesome list promising to be 'the best' while adding to the infinite scroll of resource overload._
 
   `awesome-list` `llm-resources` `curated`
+  </details>
+
+- **[《面向开发者的LLM入门教程》](https://datawhalechina.github.io/llm-cookbook)** A curated resource list summarizing the world's best LLM materials, including multimodal generation, agents, coding assistance, and related topics. <details><summary>More about</summary>
+
+  Helps developers navigate the overwhelming LLM ecosystem by aggregating high-quality resources in one place.
+
+  _Another awesome list to star and never actually read, adding to the guilt of infinite unopened tabs._
+
+  `awesome-list` `llm` `resources`
+  </details>
+
+- **[AI For Developers](https://aifordevelopers.org)** AI for Developers is a curated directory of AI coding tools and resources for software developers. <details><summary>More about</summary>
+
+  It helps developers discover and evaluate AI-powered coding assistants, app builders, and related tools in one organized place.
+
+  _Another directory promising to save you time while adding yet another tab to your overflowing AI tool research workflow._
+
+  `curated-list` `developer-resources` `ai-tools-directory`
+  </details>
+
+- **[aifordevelopers.substack.com](https://aifordevelopers.substack.com)** aifordevelopers.substack.com is a newsletter covering AI development topics for software developers. <details><summary>More about</summary>
+
+  It helps developers stay informed about AI tools, trends, and techniques relevant to coding and agent workflows.
+
+  _Another AI newsletter to add to the inbox pile, promising insights while contributing to the fear of missing out on the next big thing._
+
+  `newsletter` `ai-development` `curated-content`
   </details>
 
 - **[AI开发者频道](https://techdiylife.github.io/blog/blog_list.html)** blog_list.html is a static HTML page listing articles from the TechDIYLife website, which shares tech DIY content, YouTube videos, GitHub code, and free ebooks. <details><summary>More about</summary>
@@ -162,13 +198,31 @@ _These are new or low-traffic entries being watched._
   `copilot` `skills` `awesome-list`
   </details>
 
-- **[Altern](https://altern.ai)** A curated directory of AI tools, agents, and SDKs. <details><summary>More about</summary>
+- **[Altern](https://altern.ai)** Altern is a discovery portal that indexes and categorizes AI tools, models, APIs, and libraries across domains. <details><summary>More about</summary>
 
-  It acts as a discovery layer for developers trying to navigate the rapidly shifting landscape of AI-powered development utilities.
+  It helps developers find AI tools by aggregating them into searchable, browsable categories and lists.
 
-  _Because choosing between 100 different 'top' tools is a much more efficient way to procrastinate than actually writing code._
+  _Another AI directory promising 'everything in one place' while adding to the overload of places to check._
 
-  `directory` `curation` `discovery`
+  `ai-directory` `tool-discovery`
+  </details>
+
+- **[Awesome GitHub Copilot](https://awesome-copilot.github.com)** Awesome GitHub Copilot is a community-curated directory of agents, instructions, skills, plugins, and extensions for GitHub Copilot. <details><summary>More about</summary>
+
+  It helps developers discover and install community-built enhancements to extend GitHub Copilot's capabilities in their workflow.
+
+  _Another curated list promising to save you time while you spend hours browsing it instead of coding._
+
+  `awesome-list` `copilot` `extensions`
+  </details>
+
+- **[awesomeagents.substack.com](https://awesomeagents.substack.com)** awesomeagents.substack.com is a Substack newsletter curating AI agents and developer tooling content. <details><summary>More about</summary>
+
+  It helps developers discover and stay updated on AI agents, tools, and workflows through a regular publication.
+
+  _Subscribing feels like adding another tab to the ever-growing AI tooling doomscroll, promising clarity while contributing to the noise._
+
+  `newsletter` `curated` `ai-agents`
   </details>
 
 - **[awesomelangchain.substack.com](https://awesomelangchain.substack.com)** A Substack newsletter providing curated updates and insights regarding the LangChain ecosystem. <details><summary>More about</summary>
@@ -207,22 +261,22 @@ _These are new or low-traffic entries being watched._
   `blog` `ai-production` `mloops`
   </details>
 
-- **[CodeCosts](https://codecosts.pages.dev)** A comparison and cost calculation platform for AI coding assistants and IDEs. <details><summary>More about</summary>
+- **[CodeCosts](https://codecosts.pages.dev)** CodeCosts is a free web tool that compares AI coding assistants' pricing, features, and tiers side-by-side with a cost calculator for team estimates. <details><summary>More about</summary>
 
-  Helps developers and engineering managers navigate the shifting pricing tiers and feature sets of the rapidly evolving AI coding tool landscape.
+  Helps developers and teams quickly evaluate and budget for AI coding tools based on real pricing data and use-case fit.
 
-  _Because nothing says 'developer productivity' like spending three hours calculating the ROI of a $20/month subscription._
+  _Another spreadsheet in disguise, because choosing your AI pair programmer shouldn’t require a finance degree._
 
-  `comparison` `pricing` `productivity` `ide` `ai-tools`
+  `pricing` `comparison` `developer-tools`
   </details>
 
-- **[DIDLogic](https://didlogic.com)** A collection of Model Context Protocol (MCP) server implementations. <details><summary>More about</summary>
+- **[DevTools Directory](https://devtools.directory)** devtools.directory is a community-maintained open wiki cataloging developer tools, languages, frameworks, libraries, books, courses, and newsletters. <details><summary>More about</summary>
 
-  It provides a curated list of standardized connectors to give AI assistants access to external tools and data sources.
+  It helps developers discover and navigate the ecosystem through curated, up-to-date entries contributed via GitHub.
 
-  _Because one protocol to rule them all is the only way to stop manually copy-pasting JSON into your chat window._
+  _Another directory to star and forget while searching for the one tool that actually solves your problem._
 
-  `mcp` `protocols` `integrations` `ai-tooling`
+  `directory` `discovery` `curated`
   </details>
 
 - **[HuggingFace](https://huggingface.co)** Hugging Face is a platform for hosting, discovering, and collaborating on machine learning models, datasets, and applications. <details><summary>More about</summary>
@@ -241,6 +295,15 @@ _These are new or low-traffic entries being watched._
   _It provides just enough cutting-edge content to ensure you feel academically inadequate before your first cup of coffee._
 
   `research` `papers` `huggingface` `ai-news`
+  </details>
+
+- **[HuggingFace Learn](https://huggingface.co/learn)** Hugging Face Learn is a collection of free educational courses on AI topics including LLMs, agents, diffusion, and robotics using Hugging Face libraries. <details><summary>More about</summary>
+
+  It gives developers structured, hands-on learning paths to build AI skills with tools they’ll actually use in practice.
+
+  _Another free course to add to the backlog of things you’ll start next week after you finish the last one._
+
+  `education` `tutorials` `huggingface`
   </details>
 
 - **[Large Language Model Agents](https://llmagents-learning.org/f24)** f24 is a Fall 2024 MOOC on Large Language Model Agents covering topics like reasoning, tool use, code generation, and multi-agent systems. <details><summary>More about</summary>
@@ -279,6 +342,15 @@ _These are new or low-traffic entries being watched._
   `llm` `resources` `curated-list`
   </details>
 
+- **[llms.txt](https://awesome-copilot.github.com/llms.txt)** awesome-copilot is a community-driven collection of custom agents, instructions, skills, and learning resources to enhance GitHub Copilot experiences. <details><summary>More about</summary>
+
+  It helps developers discover and install reusable Copilot customizations that extend AI-assisted coding across domains and workflows.
+
+  _Another curated list promising to unlock Copilot’s true potential, as if the default wasn’t already overwhelming enough._
+
+  `awesome-list` `copilot` `extensions`
+  </details>
+
 - **[LLM训练-pretrain](https://zhuanlan.zhihu.com/p/718354385)** A Zhihu column article summarizing global LLM resources across modalities, agents, coding assistance, and related topics. <details><summary>More about</summary>
 
   Serves as a curated reference for developers seeking a broad overview of LLM applications and tooling in one place.
@@ -295,15 +367,6 @@ _These are new or low-traffic entries being watched._
   _It is a convenient way to track exactly how many new merging algorithms will make your current implementation obsolete by next Tuesday._
 
   `model-merging` `llm-research` `huggingface`
-  </details>
-
-- **[on Discord](https://discord.com/invite/35NF4Y8WSE)** The official Discord community for E2B, a runtime sandbox designed for executing code within AI applications. <details><summary>More about</summary>
-
-  It provides a direct line to the developer community building sandboxed execution environments for LLM agents.
-
-  _Another community to join in the frantic race to figure out how to safely let an LLM run `rm -rf` on your infrastructure._
-
-  `community` `runtime` `sandboxing` `agent-infrastructure`
   </details>
 
 - **[OpsLevel](https://opslevel.com)** OpsLevel is an internal developer portal that provides a unified catalog, scorecards, workflows, and AI-powered context to improve developer experience and software standards. <details><summary>More about</summary>
@@ -331,4 +394,13 @@ _These are new or low-traffic entries being watched._
   _Another directory to bookmark before realizing you still have to vet each server for authenticity and maintenance._
 
   `mcp` `directory` `discovery`
+  </details>
+
+- **[基于 transformers 的 generate() 方法实现多样化文本生成：参数含义和算法原理解读](https://blog.csdn.net/muyao987/article/details/125917234)** A CSDN blog post summarizing global LLM resources including multimodal generation, agents, AI-assisted programming, and MCP. <details><summary>More about</summary>
+
+  Helps developers discover LLM-related tools and topics in one curated reference.
+
+  _Yet another 'awesome list' that pretends to be a tool, adding to the pile of resources you’ll never actually read._
+
+  `llm-resources` `curated-list`
   </details>

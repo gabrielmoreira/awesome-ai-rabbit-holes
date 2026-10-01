@@ -36,28 +36,28 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A shared workspace for reviewing AI-generated plans before code changes are applied, enabling accountability in AI-driven development workflows.
-  why_it_matters: It addresses the gap between AI-generated code suggestions and human oversight by providing a collaborative space to validate changes before they become diffs.
-  mental_damage: Finally, a way to make AI slow down and explain itself before it rewrites your entire codebase at 3 AM.
+  summary: Ref.tools is a shared workspace for reviewing plans before code changes to ensure AI accountability without slowing down development.
+  why_it_matters: It addresses the gap between AI-generated plans and developer review, aiming to prevent errors while maintaining workflow velocity.
+  mental_damage: Another layer of process to trust AI less, because even accountability needs a checklist now.
   tags:
-    - code-review
-    - ai-accountability
-    - collaboration
     - workflow
-  confidence: medium
+    - ai-accountability
+    - code-review
+  confidence: high
 curation:
-  status: included
-  reason: The product is a team workspace for planning, reviewing, and managing coding agents, which maps directly to a control plane for agent coordination.
+  status: excluded
+  reason: Ref.tools does not perform coding tasks, generate apps, or act as an AI developer tool — it is a collaboration layer for plan review, which falls outside the catalog's scope of practical AI development tools.
   evidence:
-    - "Scraped site title and description: 'Ref - Review every important decision' and 'One workspace to plan, review and manage coding agents with your team.'"
-    - Listed in awesome-mcp-servers under Official Servers with the same control-plane description.
+    - "Scraped site description: 'A shared workspace to review the plan before the diff, so AI creates accountability without slowing people down.'"
+    - "Source-list context: listed in awesome-mcp-servers under 'Official Servers' with a focus on pre-diff plan review."
+    - No evidence of code editing, app generation, agent behavior, or infrastructure for AI development workflows.
 placement:
-  primary_category: coding-agents
+  primary_category: null
   secondary_categories: []
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'spec-driven-development'"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -69,29 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:35:29.572Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for ref__tools: Invalid AI response format: SyntaxError: Unexpected token 'R', ...\"_reason\": Ref primar\"... is not valid JSON"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:29:23.553Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:8824192e38014efecb0daec9ff0e9669a30bf029052ef21df2d9601b6d1cb277
-      proposed_primary_category: spec-driven-development
-      disagreement: true
-      decision_reason: The product centers on a spec-first loop for reviewing AI-generated plans before execution, making it a fit for spec-driven development rather than a generic coding assistant or extension.
+      category_rules_version: c367d6101132
+      input_hash: sha256:1c40bed231d8e6496db750a7a73ca0f6f658a4ebe86621e2f5775d4187a7dee8
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Ref.tools does not perform coding tasks, generate apps, or act as an AI developer tool — it is a collaboration layer for plan review, which falls outside the catalog's scope of practical AI development tools.
       decision_evidence:
-        - "Site description: 'A shared workspace to review the plan before the diff, so AI creates accountability without slowing people down.'"
-        - "Source-list context: Listed under MCP servers but the core value is plan review, not MCP infrastructure."
-      category_candidates:
-        - spec-driven-development
-        - ai-dev-extensions
-      contrastive_reason: Choose spec-driven-development over ai-dev-extensions because the core novelty is the plan-review workflow, not augmenting another assistant with host integrations.
-      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'spec-driven-development'"
+        - "Scraped site description: 'A shared workspace to review the plan before the diff, so AI creates accountability without slowing people down.'"
+        - "Source-list context: listed in awesome-mcp-servers under 'Official Servers' with a focus on pre-diff plan review."
+        - No evidence of code editing, app generation, agent behavior, or infrastructure for AI development workflows.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

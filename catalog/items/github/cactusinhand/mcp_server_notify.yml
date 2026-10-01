@@ -78,11 +78,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:59:51.566Z"
+    status: skipped
+    updated_at: "2026-10-01T04:13:58.891Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__cactusinhand__mcp_server_notify: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template

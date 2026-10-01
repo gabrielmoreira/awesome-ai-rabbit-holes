@@ -96,11 +96,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:58:15.505Z"
+    status: skipped
+    updated_at: "2026-10-01T04:13:58.891Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__bridgenode-ai__bridgenode-mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+      type: missing_metadata
+      message: Item is not ready for categorization
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template

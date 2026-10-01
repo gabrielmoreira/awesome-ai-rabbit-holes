@@ -67,23 +67,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server for Convex that lets AI agents introspect deployments, run functions, and read/write data.
-  why_it_matters: Developers can now grant AI assistants direct, sandboxed access to their Convex backend for querying, analysis, and safe data manipulation.
-  mental_damage: Finally, a way to let your AI poke your database without immediately regretting it.
+  summary: Convex MCP Server exposes Convex deployment state, functions, and data as MCP tools for AI agents.
+  why_it_matters: Lets AI agents safely inspect and interact with Convex backends through a standardized tool interface.
+  mental_damage: Another MCP server to add to your growing list of 'things agents can call before they hallucinate schema'.
   tags:
     - mcp
-    - backend
     - convex
-    - database
-    - server
+    - backend
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: this is a dedicated MCP server exposing Convex backend capabilities to AI agents."
+  reason: The product is an MCP server whose primary identity is exposing Convex backend capabilities over the Model Context Protocol, fitting the MCP ecosystem category.
   evidence:
-    - Source lists explicitly categorize it as an MCP server under Databases
-    - Primary page describes it as a 'powerful MCP server' for Convex deployments
-    - Implementation details confirm it follows MCP protocol for tool exposure
+    - Scraped site describes it as 'a beta MCP server for Convex' that lets agents introspect deployments, run functions, and read/write data
+    - "Source-list context places it in awesome-mcp-servers under 'Official Servers' with description: 'Convex now supports a powerful MCP server that lets you introspect your deployment's state, run functions, and read and write data'"
+    - Primary page excerpt shows MCP server implementation via npx convex@latest mcp start and details tool exposure for tables, functions, environment variables, and sandboxed queries
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -102,30 +100,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:38:07.037Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for stack__convex__dev__convex__mcp__server: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:29:54.642Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b21b14f14c73e0495628c355bee74ebbf07b5f3f23d8de7fa5e13032d5a56686
+      category_rules_version: c367d6101132
+      input_hash: sha256:d1c59fb3f49ce71f08cc6c88de8ba4e4631f84a3c9c017cefc83ebc797dc533d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: this is a dedicated MCP server exposing Convex backend capabilities to AI agents."
+      decision_reason: The product is an MCP server whose primary identity is exposing Convex backend capabilities over the Model Context Protocol, fitting the MCP ecosystem category.
       decision_evidence:
-        - Source lists explicitly categorize it as an MCP server under Databases
-        - Primary page describes it as a 'powerful MCP server' for Convex deployments
-        - Implementation details confirm it follows MCP protocol for tool exposure
+        - Scraped site describes it as 'a beta MCP server for Convex' that lets agents introspect deployments, run functions, and read/write data
+        - "Source-list context places it in awesome-mcp-servers under 'Official Servers' with description: 'Convex now supports a powerful MCP server that lets you introspect your deployment's state, run functions, and read and write data'"
+        - Primary page excerpt shows MCP server implementation via npx convex@latest mcp start and details tool exposure for tables, functions, environment variables, and sandboxed queries
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is the MCP server itself, not an extension augmenting another assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's core identity is being an MCP server infrastructure, not an add-on that extends a host coding agent.
       review_reason: null
       review_resume_lifecycle: null

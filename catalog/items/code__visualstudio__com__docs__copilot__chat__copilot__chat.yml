@@ -36,24 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The conversational interface for GitHub Copilot within the Visual Studio Code editor.
-  why_it_matters: It provides multiple interaction surfaces—inline, sidebar, and an dedicated agents window—to perform natural language coding tasks, refactoring, and debugging directly in the IDE.
-  mental_damage: It turns your IDE into a conversation where you spend more time negotiating with a side panel than actually typing code.
+  summary: GitHub Copilot Chat is an AI-powered chat interface in Visual Studio Code that allows developers to ask questions about code, request changes, and review AI-generated edits within the editor.
+  why_it_matters: It integrates AI assistance directly into the developer's workflow, enabling real-time code explanations, refactoring, and test generation without leaving VS Code.
+  mental_damage: Another reminder that your IDE now has a know-it-all pair programmer who occasionally suggests deleting your entire codebase.
   tags:
+    - ai-assistant
+    - vscode-extension
     - copilot
-    - vscode
-    - chat-interface
-    - ai-assistance
   confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Copilot Chat functions as an interactive coding agent within VS Code, performing code-related tasks like editing, explaining, and generating code based on natural language prompts, fitting the core definition of a coding agent.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - The tool allows users to 'ask about code, send requests, add context, and review AI-generated changes' directly in VS Code.
+    - It operates as an integrated agent that reads codebases, writes or edits files, and assists with coding tasks via chat interface.
+    - It is not a general AI feature but a developer-facing agent whose primary identity is performing coding tasks interactively within the editor.
 placement:
-  primary_category: null
+  primary_category: coding-agents
   secondary_categories: []
-  section: null
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: incubating
   reason: null
@@ -70,30 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:35:36.233Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for code__visualstudio__com__docs__copilot__chat__copilot__chat: Invalid AI response structure: Missing required field: mental_damage"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:25:18.760Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ac8e7b04b03d5827a8c96c371446418224ce55729a6c373eaddf25bc0086b7ae
-      proposed_primary_category: ai-dev-extensions
+      category_rules_version: c367d6101132
+      input_hash: sha256:27330de73515decabdd5e2009d36bf054cd601c97786469af3b693f3f7363cd0
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Copilot Chat is an extension that augments the VS Code editor with conversational capabilities rather than being a standalone IDE or the primary coding agent itself.
+      decision_reason: Copilot Chat functions as an interactive coding agent within VS Code, performing code-related tasks like editing, explaining, and generating code based on natural language prompts, fitting the core definition of a coding agent.
       decision_evidence:
-        - The tool provides chat surfaces (Inline Chat, Chat View) that live within VS Code.
-        - "It augments the editor with features like context mentions (#file, #codebase) and code review overlays."
-        - The documentation describes it as a way to interact with agents within the existing VS Code environment.
+        - The tool allows users to 'ask about code, send requests, add context, and review AI-generated changes' directly in VS Code.
+        - It operates as an integrated agent that reads codebases, writes or edits files, and assists with coding tasks via chat interface.
+        - It is not a general AI feature but a developer-facing agent whose primary identity is performing coding tasks interactively within the editor.
       category_candidates:
-        - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because the tool's primary identity is a host integration that augments the VS Code editor rather than being a standalone coding assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Copilot Chat is the primary AI coding assistant itself within VS Code, not a plugin that extends another agent's capabilities.
       review_reason: null
       review_resume_lifecycle: null

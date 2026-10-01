@@ -37,20 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Arknights is a strategic RPG mobile game with a fantasy theme.
-  why_it_matters: It does not matter to software developers as it is a consumer gaming product rather than a development tool.
-  mental_damage: Another distraction to pull you away from debugging the very code you were supposed to be writing.
-  tags:
-    - gaming
-    - rpg
-    - mobile-game
+  summary: Arknights.global is the official website for the Arknights mobile game, a strategic RPG with fantasy themes.
+  why_it_matters: It does not provide any developer tooling, AI infrastructure, or coding-related functionality relevant to software developers.
+  mental_damage: Another reminder that not everything with a '.global' domain is secretly an AI agent framework for your terminal.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The product is a consumer mobile game and has no relevance to developer-facing AI tooling or infrastructure.
+  reason: The site is a game landing page with no developer-facing AI tools, agents, workflows, or infrastructure; it lacks any connection to the catalog's scope of practical AI tooling for software development.
   evidence:
-    - Scraped site context identifies it as a strategic RPG mobile game.
-    - No developer-tooling functionality or developer-facing application identified.
+    - "Repo description: (none)"
+    - "Scraped site context: Title: Arknights, Description: Welcome to the official website of Arknights. Arknights is a strategic RPG mobile game with a fantasy theme."
 placement:
   primary_category: null
   section: null
@@ -68,26 +65,24 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:11.058Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for arknights__global: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (350/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:23:37.562Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:86fdd8c403ee033520f99000ac5fb25fae0f0cd63783a87c6c8296c6d9715394
+      category_rules_version: c367d6101132
+      input_hash: sha256:eb23b4c9d83225fe67e2f28b1c2a4a8a8a00ceb492b241f1ad512d8b6971d367
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a consumer mobile game and has no relevance to developer-facing AI tooling or infrastructure.
+      decision_reason: The site is a game landing page with no developer-facing AI tools, agents, workflows, or infrastructure; it lacks any connection to the catalog's scope of practical AI tooling for software development.
       decision_evidence:
-        - Scraped site context identifies it as a strategic RPG mobile game.
-        - No developer-tooling functionality or developer-facing application identified.
+        - "Repo description: (none)"
+        - "Scraped site context: Title: Arknights, Description: Welcome to the official website of Arknights. Arknights is a strategic RPG mobile game with a fantasy theme."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

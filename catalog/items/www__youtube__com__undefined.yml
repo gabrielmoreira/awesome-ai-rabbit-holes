@@ -36,18 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The input provides no identifiable product name, description, or valid URL.
-  why_it_matters: No information was provided to determine utility for developers.
-  mental_damage: There is a profound existential dread in reviewing a tool that doesn't even have the decency to exist in its own metadata.
+  summary: A YouTube tutorial video regarding MCP servers.
+  why_it_matters: N/A
+  mental_damage: N/A
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The entry appears to be a failed scrape of a YouTube link from a source list, containing no substantive product or resource information.
+  reason: The input refers to a single YouTube tutorial/video rather than a standalone tool, framework, or a sustained curated publication.
   evidence:
-    - Name is listed as 'undefined'
-    - URL is 'https://www.youtube.com/undefined'
-    - Repo description and README are missing
+    - Source-list context identifies the item as a 'Tutorial' within an awesome list.
+    - The provided URL is a YouTube link, and the content is described as video-based rather than a functional product.
 placement:
   primary_category: null
   section: null
@@ -66,9 +65,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:17:57.467Z"
+    updated_at: "2026-10-01T04:14:34.505Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -79,11 +78,10 @@ processing:
       input_hash: sha256:e0cac4636f042b13bce84b82df6887ab8c0409772741f8e85a9ea3f4397fa650
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The entry appears to be a failed scrape of a YouTube link from a source list, containing no substantive product or resource information.
+      decision_reason: The input refers to a single YouTube tutorial/video rather than a standalone tool, framework, or a sustained curated publication.
       decision_evidence:
-        - Name is listed as 'undefined'
-        - URL is 'https://www.youtube.com/undefined'
-        - Repo description and README are missing
+        - Source-list context identifies the item as a 'Tutorial' within an awesome list.
+        - The provided URL is a YouTube link, and the content is described as video-based rather than a functional product.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

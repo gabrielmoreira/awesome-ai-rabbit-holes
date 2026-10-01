@@ -36,25 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered development platform that automates workflows from ticket creation to pull request completion.
-  why_it_matters: It aims to bridge the gap between project management and code execution by treating the development lifecycle as an automated pipeline.
-  mental_damage: The sound of your Linear backlog turning itself into pull requests is exactly how I imagined the end of the junior developer.
+  summary: Codegen is a blog and news site sharing engineering perspectives on AI coding, developer workflows, and software development trends.
+  why_it_matters: Provides developers with commentary and case studies on AI-assisted coding practices and tooling evolution.
+  mental_damage: Another AI blog where you read about agents automating your job while you manually refresh Hacker News for the next tool that might.
   tags:
-    - ai-coding
-    - workflow-automation
-    - agentic-workflows
-    - devops
+    - blog
+    - engineering-insights
+    - ai-development
   confidence: high
 curation:
-  status: included
-  reason: Codegen acts as a standalone agentic platform that automates the full development lifecycle from tickets to PRs.
+  status: excluded
+  reason: The site is a curated blog and news publication about AI coding, not a developer-facing tool, agent, framework, or infrastructure product.
   evidence:
-    - Claims to automate the full development workflow from ticket to pull request
-    - Describes itself as 'The operating system for AI coding agents'
-    - Recently acquired by ClickUp, integrating with project management/tasking
+    - "Title: 'The Codegen Blog - What we’re building, how we’re building it, and what we’re learning along the way.'"
+    - Primary page excerpt shows navigation for Blog, Engineering at the frontier, Perspectives on AI coding, developer workflows, and the future of software engineering.
+    - Content sections include AI & Software Development, Developer Tools & Workflows, Engineering Insights, Product & Features, Case Studies, Security & Compliance, Codemods & Refactoring — all indicative of a publication, not a tool.
 placement:
-  primary_category: coding-agents
-  section: Review, Testing & Repair
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,30 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:35:44.859Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for codegen__com__home: Invalid AI response structure: Missing required field: mental_damage"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:25:28.818Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d83a541512b4a51bfad2bddbf155711881512b16889df288564b5c6d2c66aac4
-      proposed_primary_category: coding-agents
+      category_rules_version: c367d6101132
+      input_hash: sha256:b3ef01404d5cd3287d1830e30191b11d4f47a9153f6c7f1ef61dc0e4dcd68506
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: Codegen acts as a standalone agentic platform that automates the full development lifecycle from tickets to PRs.
+      decision_reason: The site is a curated blog and news publication about AI coding, not a developer-facing tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - Claims to automate the full development workflow from ticket to pull request
-        - Describes itself as 'The operating system for AI coding agents'
-        - Recently acquired by ClickUp, integrating with project management/tasking
-      category_candidates:
-        - coding-agents
-        - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the product focuses on executing specific coding tasks and PR creation rather than just acting as a general-purpose coordination workbench.
+        - "Title: 'The Codegen Blog - What we’re building, how we’re building it, and what we’re learning along the way.'"
+        - Primary page excerpt shows navigation for Blog, Engineering at the frontier, Perspectives on AI coding, developer workflows, and the future of software engineering.
+        - Content sections include AI & Software Development, Developer Tools & Workflows, Engineering Insights, Product & Features, Case Studies, Security & Compliance, Codemods & Refactoring — all indicative of a publication, not a tool.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

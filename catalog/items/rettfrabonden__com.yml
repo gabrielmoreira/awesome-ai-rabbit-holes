@@ -72,11 +72,11 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-21T04:34:02.245Z"
+    updated_at: "2026-10-01T04:18:01.801Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for rettfrabonden__com: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 2
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for rettfrabonden__com: Invalid AI response structure: Missing required field: why_it_matters"
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

@@ -1,0 +1,74 @@
+id: github__1clawai__1claw-mcp
+kind: github-repo
+name: 1clawai/1claw-mcp
+canonical_url: https://github.com/1clawai/1claw-mcp
+identity:
+  github_repo: 1clawai/1claw-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__1clawai__1claw-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-10-01T04:13:52.898Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 💻 Developer Tools
+        anchor_text: 1clawAI/1claw-mcp
+        extracted_url: https://github.com/1clawai/1claw-mcp
+        surrounding_text: "-   **[1clawAI/1claw-mcp](https://github.com/1clawAI/1claw-mcp)** [![GitHub stars](https://img.shields.io/github/stars/1clawAI/1claw-mcp?style=social)](https://github.com/1clawAI/1claw-mcp): HSM-backed secret vault for AI agents. Fetches API keys and tokens at call time with scoped, short-lived, revocable access so raw secrets never touch the model context, environment, or logs. Also does keyless multi-chain signing and a no-account local prompt-injection inspector."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-10-01T04:13:52.901Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: "2026-10-01T04:13:55.165Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for 1clawai/1claw-mcp
+  categorize:
+    status: skipped
+    updated_at: "2026-10-01T04:13:58.890Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

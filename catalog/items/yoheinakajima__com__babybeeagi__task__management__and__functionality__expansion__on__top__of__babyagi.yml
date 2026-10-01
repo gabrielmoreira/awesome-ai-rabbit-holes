@@ -69,11 +69,11 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-21T04:34:04.638Z"
+    updated_at: "2026-10-01T04:19:24.255Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for yoheinakajima__com__babybeeagi__task__management__and__functionality__expansion__on__top__of__babyagi: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 2
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for yoheinakajima__com__babybeeagi__task__management__and__functionality__expansion__on__top__of__babyagi: Invalid AI response structure: Missing required field: summary"
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

@@ -152,11 +152,11 @@ lifecycle:
   reason: Stars (844) exceeded threshold (150)
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:55:46.178Z"
+    status: skipped
+    updated_at: "2026-10-01T04:13:58.891Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__bgauryy__octocode: Invalid AI response format: SyntaxError: Unexpected token 'O', ...\"_reason\": Octocode's\"... is not valid JSON"
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

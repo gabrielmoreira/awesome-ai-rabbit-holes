@@ -37,24 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server providing finance and fintech capabilities to AI models.
-  why_it_matters: It allows developers to integrate financial data and fintech workflows into their agentic workflows via the Model Context Protocol.
-  mental_damage: Because giving a coding agent direct access to financial markets is exactly the kind of chaos our terminal deserves.
-  tags:
-    - mcp
-    - finance
-    - fintech
-  confidence: medium
+  summary: A project identified solely by the domain lighter.xyz.
+  why_it_matters: Its relevance to a software developer's workflow cannot be determined without additional context.
+  mental_damage: Staring into the void of a README-less repository is the ultimate productivity killer.
+  tags: []
+  confidence: high
 curation:
-  status: included
-  reason: The tool is an MCP server specifically designed for the finance and fintech domain.
+  status: excluded
+  reason: The project lacks a description, README, or any scraped context, making it impossible to verify if it fits the catalog's specific developer-tooling scope.
   evidence:
-    - Listed in the awesome-mcp-servers directory
-    - Categorized under Finance & Fintech section
+    - No repository description provided
+    - No README excerpt or scraped site context provided
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +66,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-21T04:29:34.957Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for lighter__xyz: Invalid AI response structure: Missing required field: summary"
-    attempts: 2
+    status: done
+    updated_at: "2026-10-01T04:15:22.178Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:d243609e260be0df0734ddd71eac1c340e108ffdf1bcb411095f89755a1d619c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks a description, README, or any scraped context, making it impossible to verify if it fits the catalog's specific developer-tooling scope.
+      decision_evidence:
+        - No repository description provided
+        - No README excerpt or scraped site context provided
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

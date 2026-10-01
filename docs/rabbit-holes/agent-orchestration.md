@@ -1503,13 +1503,13 @@ _These are new or low-traffic entries being watched._
   `agent-hosting` `client-workspaces` `persistent-memory`
   </details>
 
-- **[APIDNA](https://apidna.io)** An enterprise agent execution platform that automates complex, domain-specific workflows across APIs, databases, and legacy systems. <details><summary>More about</summary>
+- **[APIDNA](https://apidna.io)** APIDNA is a vertically-trained AI agent platform that automates enterprise workflows across systems with domain-specific agents. <details><summary>More about</summary>
 
-  It targets the gap between chat-based AI demos and reliable, auditable production operations by using vertically-trained agents rather than general-purpose prompts.
+  It enables developers to deploy reliable, auditable AI agents for complex operational tasks like reconciliation and compliance without building custom integrations.
 
-  _Because apparently, 'it worked in my playground' is no longer a valid excuse for why the reconciliation agent just hallucinated an entire financial quarter._
+  _Finally, an AI agent that won't hallucinate your PSD2 report—just your hope that this doesn't require another six-month procurement cycle._
 
-  `agent-orchestration` `enterprise-automation` `workflow-automation` `multi-agent-systems` `compliance-tech`
+  `ai-agents` `workflow-automation` `enterprise-ai`
   </details>
 
 - **[Athena Intelligence](https://athenaintel.com)** Athena Intelligence is a platform for building and orchestrating AI agents for complex, regulated knowledge work. <details><summary>More about</summary>
@@ -1555,6 +1555,42 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to feel like a tech CEO while actually just delegating your to-do list to a bunch of LLMs arguing in chat rooms._
 
   `ai-agents` `desktop-app` `multi-agent` `local-ai` `workflow-automation`
+  </details>
+
+- **[Buildkite](https://buildkite.com/home)** Buildkite is a CI/CD platform offering scalable pipelines, test optimization, package registries, mobile delivery, and agentic workflow components for AI-powered automation. <details><summary>More about</summary>
+
+  It enables developers to run reliable, high-scale CI/CD with AI-native features like LLM-connected pipelines and flaky test routing to agents.
+
+  _Another CI platform promising to finally fix your flaky tests—until the YAML grows again and you miss Jenkins._
+
+  `ci-cd` `devops` `ai-workflows`
+  </details>
+
+- **[Code Interpreter SDK](https://e2b.dev/docs)** E2B provides isolated sandboxes that let AI agents safely execute code and run tools using SDKs. <details><summary>More about</summary>
+
+  Developers can run untrusted code from AI agents in secure environments, enabling safe agentic workflows.
+
+  _Finally, a way to let your AI agent break things without breaking your laptop._
+
+  `sandbox` `agent-infrastructure` `security`
+  </details>
+
+- **[Cognosys](https://cognosys.ai)** Cognosys.ai is an AI agent platform that coordinates multiple autonomous agents to perform tasks like research, data analysis, and workflow automation. <details><summary>More about</summary>
+
+  It lets developers orchestrate teams of AI agents to handle complex, multi-step workflows without manual intervention.
+
+  _Yet another promise of 'set it and forget it' automation that still requires you to babysit the agents when they hallucinate a CSV schema._
+
+  `agent-orchestration` `ai-workflows` `multi-agent`
+  </details>
+
+- **[Duckie AI](https://duckie.ai)** Duckie is an agentic platform for support teams to build AI agents that resolve tickets and automate workflows using natural language. <details><summary>More about</summary>
+
+  It enables non-engineers to create production-grade support agents that connect to tools like Zendesk and Stripe without writing code.
+
+  _Another 'no-code AI agent builder' promising to replace your support team while quietly requiring you to become an AI systems manager._
+
+  `ai-agents` `customer-support` `workflow-automation`
   </details>
 
 - **[Epsilla](https://epsilla.com)** Epsilla is a managed Agent-as-a-Service platform for building and deploying vertical AI agents with enterprise features like RAG, multi-tenancy, and no-code agent building. <details><summary>More about</summary>
@@ -1629,6 +1665,15 @@ _These are new or low-traffic entries being watched._
   `ai-agents` `orchestration` `developer-tools`
   </details>
 
+- **[Lindy](https://lindy.ai)** Lindy is an AI teammate that connects to workplace tools like Slack, email, Notion, and CRM to perform real work such as pulling reports, debugging code, updating tickets, and drafting responses based on user instructions. <details><summary>More about</summary>
+
+  It automates repetitive cross-tool workflows for teams by acting as an AI employee that executes tasks across integrated apps without requiring API keys or IT setup.
+
+  _Finally, an AI that doesn’t just chat — it does your busywork while you pretend to be productive._
+
+  `ai-agent` `workflow-automation` `team-productivity`
+  </details>
+
 - **[Magick](https://magickml.com)** Magick is an AI agent platform for building autonomous agents with customizable skills and workflows. <details><summary>More about</summary>
 
   It helps developers create and manage AI agents that can perform tasks across tools and data sources, reducing manual effort in agent development.
@@ -1683,13 +1728,13 @@ _These are new or low-traffic entries being watched._
   `ai-workspace` `agent-orchestration` `team-collaboration`
   </details>
 
-- **[Rebyte](https://rebyte.ai)** A platform for hiring and coordinating teams of AI agents that operate as digital employees with their own cloud computers, identities, and tool access. <details><summary>More about</summary>
+- **[Rebyte](https://rebyte.ai)** Rebyte is an execution layer for running enterprise agents in the cloud with policy control and feedback-driven improvement. <details><summary>More about</summary>
 
-  It lets developers delegate end-to-end software tasks (e.g., code reviews, PR fixes, on-call triage) to specialized agents that work autonomously in Slack or via API.
+  It lets developers deploy and govern autonomous agents without building infrastructure, turning agent runs into observable, improvable feedback loops.
 
-  _Now you can fire your intern and replace them with a Slack thread that never sleeps, complains, or asks for equity._
+  _Yet another layer promising control over AI agents while quietly adding to the stack you now have to monitor, patch, and explain in standups._
 
-  `multi-agent` `slack-integration` `autonomous-agents` `cloud-compute` `workforce-platform`
+  `agent-orchestration` `enterprise` `mcp`
   </details>
 
 - **[systemprompt.io](https://systemprompt.io)** SystemPrompt is a self-hosted Rust runtime for governing AI client access, model routing, and tool execution with centralized policy enforcement and audit logging. <details><summary>More about</summary>
@@ -1701,13 +1746,13 @@ _These are new or low-traffic entries being watched._
   `ai-governance` `self-hosted` `security` `mcp` `rust`
   </details>
 
-- **[TrueFoundry](https://truefoundry.com/llmops)** Enterprise LLMOps platform for deploying, fine-tuning, and scaling GenAI applications with governance and observability. <details><summary>More about</summary>
+- **[VibeFuse](https://fuseintelligence.org/products/vibefuse)** VibeFuse is a free Windows desktop harness that runs AI coding agents (Claude Code, Codex, Cursor, Gemini, Qwen) alongside terminals, browsers, and custom widgets in a unified canvas. <details><summary>More about</summary>
 
-  Provides a unified control plane for managing LLM lifecycles, from model serving to agent orchestration, with enterprise-grade security and compliance.
+  It gives developers a single desktop workspace to orchestrate multiple coding agents and UI widgets without paying for another IDE seat or cloud computer subscription.
 
-  _Because nothing says 'production-ready' like a platform that promises to unify your LLM chaos while adding 17 new tabs to your browser._
+  _Now you can finally feel the existential dread of managing six concurrent AI agents while Jarvis whispers 'Yes, sir?' in your ear._
 
-  `llmops` `enterprise-ai` `model-serving` `agent-orchestration` `governance`
+  `ai-harness` `desktop-agent` `windows-only` `multi-agent` `widget-marketplace`
   </details>
 
 - **[Windsurf](https://devin.ai/desktop)** Devin Desktop is a desktop application that provides an IDE and agent command center for managing local and cloud coding agents from one surface. <details><summary>More about</summary>

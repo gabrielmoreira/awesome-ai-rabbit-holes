@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube video with no identifiable developer tooling content.
-  why_it_matters: It does not meaningfully impact developer workflows, AI-assisted coding, or related tooling.
-  mental_damage: Another reminder that not every link in the wild is a productivity breakthrough, just someone’s upload.
+  summary: A YouTube video with no description or context provided.
+  why_it_matters: It does not matter to developers as it provides no discernible tool, service, or resource related to software development or AI tooling.
+  mental_damage: Another content-free link in the AI tooling graveyard, reminding us that not every YouTube URL is a agent waiting to happen.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input is a bare YouTube URL with no description, code, or tooling claims; it lacks any developer-facing product identity.
+  reason: The input is a bare YouTube video URL with no title, description, or contextual clues indicating it is an AI tool, agent, or developer resource; it lacks any product identity or developer-facing utility.
   evidence:
-    - URL points to a YouTube video (https://youtu.be/wxCCzo9dGj0)
-    - Scraped site context shows generic YouTube homepage text, no project or tool description
-    - No repo description, README, or source-list context to indicate developer tooling relevance
+    - "URL: https://youtu.be/wxCCzo9dGj0"
+    - "Scraped site context: Title is '- YouTube', description is generic YouTube platform text, excerpt contains only boilerplate copyright and policy links"
+    - No repo description, README, stars, topics, license, or activity signals provided
 placement:
   primary_category: null
   section: null
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:51:30.027Z"
+    updated_at: "2026-10-01T04:31:38.752Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -79,11 +79,11 @@ processing:
       input_hash: sha256:dc01f26363e8eb6aeeb050a55b61362cab95e838098665342649de14f713f5dd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a bare YouTube URL with no description, code, or tooling claims; it lacks any developer-facing product identity.
+      decision_reason: The input is a bare YouTube video URL with no title, description, or contextual clues indicating it is an AI tool, agent, or developer resource; it lacks any product identity or developer-facing utility.
       decision_evidence:
-        - URL points to a YouTube video (https://youtu.be/wxCCzo9dGj0)
-        - Scraped site context shows generic YouTube homepage text, no project or tool description
-        - No repo description, README, or source-list context to indicate developer tooling relevance
+        - "URL: https://youtu.be/wxCCzo9dGj0"
+        - "Scraped site context: Title is '- YouTube', description is generic YouTube platform text, excerpt contains only boilerplate copyright and policy links"
+        - No repo description, README, stars, topics, license, or activity signals provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

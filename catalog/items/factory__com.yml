@@ -1,0 +1,110 @@
+id: factory__com
+kind: website
+name: factory.com
+canonical_url: https://factory.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__factory__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-10-01T04:13:52.898Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Factory
+        anchor_text: Factory
+        extracted_url: https://factory.ai
+        surrounding_text: "## [Factory](https://www.factory.ai/)"
+        confidence: high
+    - id: discovery__factory__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-10-01T04:13:52.898Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Factory
+        extracted_url: https://factory.ai
+        surrounding_text: "- **[Factory](https://factory.ai/)** – AI platform automating repetitive coding tasks at scale."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Factory is a platform that provides autonomous AI coding agents (Droids) to automate coding, testing, and deployment across desktop, terminal, web, and CLI environments.
+  why_it_matters: It lets development teams delegate full software lifecycle tasks to governed, self-improving agents that operate on their codebases with measurable business impact tracking.
+  mental_damage: Finally, a way to make your Jira tickets feel guilty for not writing themselves.
+  tags:
+    - ai-agents
+    - developer-productivity
+    - autonomous-coding
+  confidence: high
+curation:
+  status: included
+  reason: Factory positions itself as a primary coding agent platform where Droids autonomously plan, build, review, and ship software, fitting the coding-agent identity rather than being an extension or orchestration layer.
+  evidence:
+    - "Scraped site states: 'Build your software factory [...] Use Droid to plan, build, and validate changes' and 'autonomous agents across desktop, terminal, web, and CLI'"
+    - "Source-list context: listed under 'awesome-ai-coding-tools' in the 'Coding Agents' section with description 'Factory Droids automate coding, testing, and deployment'"
+    - Product emphasizes agent-native software development with sovereign intelligence, governance, and value measurement — core to autonomous coding agents
+placement:
+  primary_category: coding-agents
+  section: Autonomous & Multi-Agent Coding
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-10-01T04:13:52.900Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-10-01T04:32:19.539Z"
+    cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:1831870ffecc61c72309a961d5942d8e52e65b07a5f15a760e63407a7d32829e
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Factory positions itself as a primary coding agent platform where Droids autonomously plan, build, review, and ship software, fitting the coding-agent identity rather than being an extension or orchestration layer.
+      decision_evidence:
+        - "Scraped site states: 'Build your software factory [...] Use Droid to plan, build, and validate changes' and 'autonomous agents across desktop, terminal, web, and CLI'"
+        - "Source-list context: listed under 'awesome-ai-coding-tools' in the 'Coding Agents' section with description 'Factory Droids automate coding, testing, and deployment'"
+        - Product emphasizes agent-native software development with sovereign intelligence, governance, and value measurement — core to autonomous coding agents
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because Factory's primary identity is deploying autonomous coding agents (Droids) that perform coding tasks directly, not managing multiple agent teams or workflows between them.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: c367d6101132
+    next_retry_at: null

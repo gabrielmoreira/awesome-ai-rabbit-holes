@@ -36,30 +36,30 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An agentic application security platform that uses AI-powered agents and hybrid scanning to detect, prioritize, and remediate vulnerabilities across the SDLC.
-  why_it_matters: It aims to bridge the gap between high-speed AI code generation and the security requirements of enterprise software through automated triage and remediation.
-  mental_damage: Because nothing says 'odern development' like needing an autonomous security agent to police the code written by your first autonomous coding agent.
+  summary: Checkmarx One is an AI-powered application security platform that uses hybrid scanning and agentic AI to detect and remediate vulnerabilities across the SDLC.
+  why_it_matters: It helps developers secure AI-generated and traditional code by providing agent-assisted triage, remediation, and risk prioritization directly in development workflows.
+  mental_damage: Another security tool that promises to shift left but adds yet another AI agent to your IDE that you’ll need to triage.
   tags:
-    - application-security
     - appsec
-    - devsecops
     - ai-security
-    - vulnerability-remediation
-  confidence: medium
+    - devsecops
+    - mcp
+    - agents
+  confidence: high
 curation:
   status: included
-  reason: The product is primarily an enterprise security platform that integrates into the developer workflow as an add-on layer (IDE integration) rather than a standalone coding agent that plans and writes code.
+  reason: Checkmarx One is primarily a security platform that integrates AI agents and MCP tooling into developer workflows via IDE and CI/CD hooks, making it an extension to coding agents and editors rather than a standalone coding agent or framework.
   evidence:
-    - Description identifies it as an 'Agentic AppSec platform' focused on SAST, SCA, and ASPM rather than code generation.
-    - Site excerpt highlights 'Developer Assist' as an in-IDE agent for 'vulnerability prevention and fix', acting as an augmentation to the dev workflow.
-    - Included in 'awesome-ai-coding-tools' under the 'Security' section, confirming its role as a security extension rather than a primary coding assistant.
+    - Checkmarx provides Developer Assist, Triage Assist, and Remediation Assist agents that operate in the IDE and PR workflows to surface fix proposals and prioritize risks
+    - It offers a Checkmarx MCP Server and MCP scanning capabilities to expose security data via the Model Context Protocol for agent consumption
+    - It is positioned as a platform that secures code creation, CI/CD, AI supply chain, and runtime — with MCP, IDE, and PR hooks that enforce security at every agentic control point
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
   section: Security & DevSecOps
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'coding-agents'"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -71,30 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:35:12.769Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for checkmarx__com: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:24:59.004Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:59322cd9f7d9bdb08d2dfefcb85e5c1b546f9b03362f41d9b123a6431b1dfd33
-      proposed_primary_category: coding-agents
-      disagreement: true
-      decision_reason: The platform functions as an autonomous security agent that interacts with the development workflow to triage, prioritize, and propose fixes for vulnerabilities.
+      category_rules_version: c367d6101132
+      input_hash: sha256:e68a796f5e5429acf1d25aa0737c636c374bd100a5567e9da571d0fc2316bc35
+      proposed_primary_category: extensions-and-addons
+      disagreement: false
+      decision_reason: Checkmarx One is primarily a security platform that integrates AI agents and MCP tooling into developer workflows via IDE and CI/CD hooks, making it an extension to coding agents and editors rather than a standalone coding agent or framework.
       decision_evidence:
-        - Claims to provide 'Agentic Application Security' with 'Triage & Remediation Assist Agents'
-        - Focuses on automated detection and automated fixes at the point of code creation
-        - Offers specialized tools like 'Checkmarx Assist' and 'Developer Assist Agent'
+        - Checkmarx provides Developer Assist, Triage Assist, and Remediation Assist agents that operate in the IDE and PR workflows to surface fix proposals and prioritize risks
+        - It offers a Checkmarx MCP Server and MCP scanning capabilities to expose security data via the Model Context Protocol for agent consumption
+        - It is positioned as a platform that secures code creation, CI/CD, AI supply chain, and runtime — with MCP, IDE, and PR hooks that enforce security at every agentic control point
       category_candidates:
-        - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool acts as a proactive agent capable of autonomous triage and remediation rather than just a passive integration layer.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'coding-agents'"
+        - extensions-and-addons
+        - mcp
+      contrastive_reason: Choose extensions-and-addons over mcp because while Checkmarx offers MCP server capabilities, its primary identity is as a security platform that extends coding agents and developer workflows, not as MCP infrastructure itself.
+      review_reason: null
       review_resume_lifecycle: null

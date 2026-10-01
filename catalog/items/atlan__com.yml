@@ -36,16 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An enterprise context layer that unifies business logic, data lineage, and institutional knowledge into a graph for AI agents.
-  why_it_matters: It solves the 'issing context' problem by providing agents with the semantic meaning and governance required to act on enterprise data accurately.
-  mental_damage: Because apparently, our models are smart, but they still can't figure out what 'evenue' actually means in your specific SQL table.
+  summary: Atlan is an enterprise context layer that unifies data, business logic, and governance into a queryable graph for AI agents via MCP, SQL, and APIs.
+  why_it_matters: It lets AI agents access governed, production-ready enterprise context without manual per-use-case setup, reducing hallucinations and compliance risks.
+  mental_damage: Finally, a way to make your AI agents stop guessing what 'revenue' means — now they can just ask the context layer and still get it wrong in new ways.
   tags:
     - context-engineering
-    - enterprise-data
-    - mcp-server
+    - mcp
     - data-governance
-    - knowledge-graph
-  confidence: high
+  confidence: medium
 curation:
   status: included
   reason: Atlan's core value is building and serving a semantic/business context layer to existing agents rather than being the agent itself.
@@ -56,10 +54,10 @@ curation:
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Data & Databases
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'memory-and-context'"
 processing:
   discover:
     status: done
@@ -71,30 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:24.515Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for atlan__com: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:23:56.041Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:229e95b15df815173e271e9360c1c2dcb6db79061ec1d6fa914e9beb0649a884
-      proposed_primary_category: context-engineering
-      disagreement: false
-      decision_reason: Atlan's core value is building and serving a semantic/business context layer to existing agents rather than being the agent itself.
+      category_rules_version: c367d6101132
+      input_hash: sha256:58159c3a06444f9461558786ec30684fbab037fb5132ef47cf0f0da577c55bb8
+      proposed_primary_category: memory-and-context
+      disagreement: true
+      decision_reason: Atlan’s core identity is an enterprise context layer that unifies and certifies business semantics, lineage, and governance for AI agents — matching the memory-and-context category’s focus on persistent knowledge and context systems rather than being a coding agent, MCP server, or app builder.
       decision_evidence:
-        - Claims to be the 'issing context layer for enterprise AI'
-        - Provides an MCP server to deliver certified context to downstream agents
-        - Focuses on semantic/ontology/lineage to solve agent hallucination
+        - Atlan is described as 'the context layer for enterprise AI' that unifies data graphs, business logic, and governance into a living graph for AI agents.
+        - It provides certified context via MCP server, SQL, and APIs, with context agents that auto-generate descriptions, metrics, and ontology across the data graph.
+        - It appears in awesome-mcp-servers under 'Official Servers' as a context layer giving AI agents access to trusted data graph and business logic.
       category_candidates:
-        - context-engineering
+        - memory-and-context
         - mcp
-      contrastive_reason: "Choose context-engineering over mcp because MCP is the delivery mechanism for their primary product identity: the enterprise context layer."
-      review_reason: null
+      contrastive_reason: Choose memory-and-context over mcp because while Atlan provides an MCP server, its primary identity is as an enterprise context layer for unifying and certifying business knowledge — MCP is an activation channel, not the core product.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'memory-and-context'"
       review_resume_lifecycle: null

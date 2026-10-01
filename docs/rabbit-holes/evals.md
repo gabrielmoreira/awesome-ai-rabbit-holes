@@ -774,13 +774,13 @@ _These are new or low-traffic entries being watched._
   `llmops` `observability` `evals` `tracing`
   </details>
 
-- **[LM Arena](https://arena.ai)** An interactive platform for chatting with, comparing, and voting on various AI models. <details><summary>More about</summary>
+- **[LM Arena](https://arena.ai)** Arena AI is a public leaderboard and chat platform for comparing and voting on AI models through real-world evaluation. <details><summary>More about</summary>
 
-  It provides real-world comparative data to help developers decide which models are actually effective for specific tasks like coding or image generation.
+  It lets developers benchmark and discover top-performing models via community-driven, task-based comparisons rather than relying solely on static leaderboards.
 
-  _Nothing fuels the existential dread of an architecture review quite like watching a community vote on which model's hallucination is the most aesthetically pleasing._
+  _Another vibe-based eval where you vote on which AI feels smarter today, because benchmark fatigue is real and vibes are all we have left._
 
-  `benchmarking` `model-comparison` `leaderboard` `llm-evaluation`
+  `leaderboard` `evals` `model-comparison`
   </details>
 
 - **[Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)** A Hugging Face Space that tracks, ranks, and evaluates the performance of open-source large language models. <details><summary>More about</summary>
@@ -801,13 +801,13 @@ _These are new or low-traffic entries being watched._
   `evals` `llmops` `observability`
   </details>
 
-- **[Predibase](https://predibase.com)** Enterprise control layer for monitoring, governing, and remediating AI agent behavior across deployments. <details><summary>More about</summary>
+- **[Portkey](https://portkey.ai)** Portkey.ai is an LLMops platform for managing, monitoring, and securing LLM applications in production. <details><summary>More about</summary>
 
-  Provides real-time observability, policy enforcement, and rollback capabilities for multi-agent AI systems in production environments.
+  It gives developers observability and control over LLM API usage, helping reduce cost, latency, and failure rates in AI-powered apps.
 
-  _Finally, a way to undo that time your agent decided to recursively delete your prod database._
+  _Yet another dashboard to stare at while wondering if your LLM call just cost more than your server bill._
 
-  `agent-ops` `enterprise-ai` `governance` `observability` `security`
+  `llmops` `observability` `monitoring`
   </details>
 
 - **[Root Signals](https://scorable.ai)** Scorable is an LLM evaluation platform for building and monitoring custom LLM-as-a-judge evaluators. <details><summary>More about</summary>
@@ -853,13 +853,4 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to quantify the existential dread of wondering if your latest prompt tweak actually made things worse._
 
   `evals` `llm-observability` `testing`
-  </details>
-
-- **[Weco Observe](https://weco.ai)** An autonomous agentic platform that iteratively optimizes code and machine learning pipelines by testing candidate solutions against specific performance metrics. <details><summary>More about</summary>
-
-  It automates the tedious, manual trial-and-error loop of hyperparameter tuning, prompt engineering, and code performance optimization.
-
-  _It’s a way to let an agent spend three days and a few cents chasing a 0.01% metric improvement while you contemplate your career choices._
-
-  `automation` `coding-agents` `mlops` `optimization`
   </details>

@@ -37,17 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: mcp.myshipi.com provides an API endpoint for the Model Context Protocol without clear product identity or developer-facing tooling.
-  why_it_matters: It does not offer a discernible developer tool, agent, framework, or infrastructure that meaningfully impacts software development workflows.
-  mental_damage: Another undifferentiated MCP API link that adds to the noise of protocol proliferation without delivering usable tooling.
-  tags: []
+  summary: An MCP API endpoint at mcp.myshipi.com providing MCP protocol services via HTTP.
+  why_it_matters: It offers a hosted way for AI agents to access tools and data through the Model Context Protocol without self-hosting.
+  mental_damage: Another MCP wrapper that makes you wonder if we're building infrastructure just to rebuild the same HTTP APIs we already had.
+  tags:
+    - mcp
+    - api
   confidence: low
 curation:
   status: excluded
-  reason: The input describes only an API URL with no repo description, README, stars, activity, or evidence of being a standalone product, SDK, server, client, or toolkit — MCP is not demonstrated as the product's primary identity.
+  reason: The input describes only an HTTP API endpoint with no clear product identity beyond being an MCP service; there is insufficient evidence to determine if MCP is the primary identity or merely a feature of a broader, unnamed platform.
   evidence:
-    - "Repo description: (none)"
-    - URL is an API endpoint with no indication of being a server, client, registry, or developer tooling product
+    - URL is https://mcp.myshipi.com/api/mcp, indicating an HTTP API endpoint
+    - No repo description, README, or scraped site context provided to clarify product identity
+    - No stars, creation date, or activity signals to assess traction or legitimacy
 placement:
   primary_category: null
   secondary_categories: []
@@ -67,9 +70,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:32:36.383Z"
+    updated_at: "2026-10-01T04:28:46.785Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -80,10 +83,11 @@ processing:
       input_hash: sha256:e746648123a24bb8df39088afa028c873dc7dce94c3cb07673e233455bf1ad5f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input describes only an API URL with no repo description, README, stars, activity, or evidence of being a standalone product, SDK, server, client, or toolkit — MCP is not demonstrated as the product's primary identity.
+      decision_reason: The input describes only an HTTP API endpoint with no clear product identity beyond being an MCP service; there is insufficient evidence to determine if MCP is the primary identity or merely a feature of a broader, unnamed platform.
       decision_evidence:
-        - "Repo description: (none)"
-        - URL is an API endpoint with no indication of being a server, client, registry, or developer tooling product
+        - URL is https://mcp.myshipi.com/api/mcp, indicating an HTTP API endpoint
+        - No repo description, README, or scraped site context provided to clarify product identity
+        - No stars, creation date, or activity signals to assess traction or legitimacy
       category_candidates: []
       contrastive_reason: null
       review_reason: "Categorization review required: low confidence"

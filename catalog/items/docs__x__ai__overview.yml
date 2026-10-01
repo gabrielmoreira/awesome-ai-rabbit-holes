@@ -37,22 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The official documentation for xAI's Grok models and API services.
-  why_it_matters: Provides access to Grok models for text, image, video, and voice generation, including agentic tool calling and reasoning capabilities.
-  mental_damage: Another API endpoint to keep track of amidst the infinite sprawl of competing model benchmarks.
+  summary: Official API documentation for xAI's Grok models, providing access to text, image, video, voice generation, and tool calling capabilities.
+  why_it_matters: Enables developers to integrate multimodal AI capabilities into applications via a unified API with agentic coding features.
+  mental_damage: Another model provider API to add to your growing list of 'just one more thing to check' before building anything.
   tags:
-    - grok
-    - xai
-    - llm-api
+    - api
+    - llm
     - multimodal
-    - agentic-ai
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation site for a model provider, not a standalone developer tool, framework, or orchestration platform.
+  reason: This is documentation for a model API, not a developer-facing tool, framework, or agent that performs coding tasks or builds apps; it serves as reference material rather than a product in the catalog's scope.
   evidence:
-    - The content is primarily documentation for API usage, model capabilities, and pricing
-    - The URL leads to a docs site, not a software product or library
+    - The content is official API documentation for Grok models, not a standalone developer tool.
+    - It provides reference guides, quickstarts, and API reference for accessing xAI's models.
+    - No indication of being a coding agent, app builder, framework, or other developer tooling product.
 placement:
   primary_category: null
   section: null
@@ -70,26 +69,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:38:56.617Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for docs__x__ai__overview: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:27:05.935Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b7b4ff2e344c92c8f653a741bcfdf3ca4fbe8749530af2c66e34fd1db788433d
+      category_rules_version: c367d6101132
+      input_hash: sha256:68d9e6a3c00812dde85e900620060ba39b474dd0ed6c39e0c9ef5c12a3915f85
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a documentation site for a model provider, not a standalone developer tool, framework, or orchestration platform.
+      decision_reason: This is documentation for a model API, not a developer-facing tool, framework, or agent that performs coding tasks or builds apps; it serves as reference material rather than a product in the catalog's scope.
       decision_evidence:
-        - The content is primarily documentation for API usage, model capabilities, and pricing
-        - The URL leads to a docs site, not a software product or library
+        - The content is official API documentation for Grok models, not a standalone developer tool.
+        - It provides reference guides, quickstarts, and API reference for accessing xAI's models.
+        - No indication of being a coding agent, app builder, framework, or other developer tooling product.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

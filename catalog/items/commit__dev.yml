@@ -36,27 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An autonomous AI agent specialized in executing git-based developer workflows.
-  why_it_matters: It promises to move beyond mere chat assistance by directly handling the mechanics of commits and version control.
-  mental_damage: Another layer of autonomy to manage between you and your git history.
+  summary: Commit.dev is a platform listed in awesome-ai-agents as an AI autonomous agent, though its specific functionality is not described in the provided inputs.
+  why_it_matters: If it functions as an autonomous agent, it could reduce manual coding effort by executing tasks on behalf of developers.
+  mental_damage: Another agent promising autonomy while leaving developers to wonder what 'autonomous' actually means when the PR still needs review.
   tags:
-    - git
-    - ai-agents
-    - automation
-  confidence: low
+    - ai-agent
+    - autonomous
+  confidence: medium
 curation:
   status: included
-  reason: The project is categorized as an autonomous agent that handles repo-level tasks, making it a coding agent rather than just an extension.
+  reason: Listed under 'AI autonomous agents' in awesome-ai-agents, suggesting it performs coding tasks autonomously, aligning with the coding-agents category despite lack of detailed description.
   evidence:
-    - Identified as an autonomous agent in awesome-ai-agents
-    - Domain focus is 'Commit', implying direct repo manipulation
+    - "Listed in awesome-ai-agents under the 'Commit' section with purpose: 'A list of AI autonomous agents'"
+    - No repo description, README, or scraped site context provided to contradict agent identity
+    - No evidence of being a framework, orchestrator, or extension that would override agent classification
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -68,29 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:36:13.006Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for commit__dev: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:25:46.762Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:6dd0b4d4bb7377d86fdda1272ec3d976642cb8fb299d2f7117a1964aaea3dd2f
+      category_rules_version: c367d6101132
+      input_hash: sha256:2630c9fbf6bea633cfb59f826af08364c3084c8f4b89e3a93e9c7ac51d1147a3
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The project is categorized as an autonomous agent that handles repo-level tasks, making it a coding agent rather than just an extension.
+      decision_reason: Listed under 'AI autonomous agents' in awesome-ai-agents, suggesting it performs coding tasks autonomously, aligning with the coding-agents category despite lack of detailed description.
       decision_evidence:
-        - Identified as an autonomous agent in awesome-ai-agents
-        - Domain focus is 'Commit', implying direct repo manipulation
+        - "Listed in awesome-ai-agents under the 'Commit' section with purpose: 'A list of AI autonomous agents'"
+        - No repo description, README, or scraped site context provided to contradict agent identity
+        - No evidence of being a framework, orchestrator, or extension that would override agent classification
       category_candidates:
         - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the source-list context identifies it as an autonomous agent rather than a simple integration for an existing editor.
-      review_reason: "Categorization review required: low confidence"
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the source-list context identifies it as an autonomous agent performing tasks, not a platform coordinating multiple agents.
+      review_reason: null
       review_resume_lifecycle: null

@@ -36,27 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A learning hub by Cohere providing courses and technical resources for mastering enterprise AI technologies.
-  why_it_matters: It provides structured educational paths for developers to learn how to integrate enterprise-grade models like Command and Embed into production workflows.
-  mental_damage: Because even if you master these courses, the API documentation will likely change before you finish the final module.
+  summary: LLM University is Cohere's educational platform offering courses and resources for developers to learn enterprise AI technologies.
+  why_it_matters: Provides structured learning paths for developers to build skills in deploying and using Cohere's AI models in enterprise contexts.
+  mental_damage: Another vendor academy promising AI mastery while you quietly wonder if completing the course will actually stop your models from hallucinating in production.
   tags:
     - education
     - enterprise-ai
-    - cohere
-    - machine-learning
+    - learning
   confidence: high
 curation:
-  status: included
-  reason: It is an educational resource/tutorial hub rather than a standalone developer tool, making it a useful navigation aid for the ecosystem.
+  status: excluded
+  reason: Excluded because it is an educational resource platform, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - README/Scraped content identifies it as 'LLM University' for learning and mastering AI technologies
-    - Offers courses, step-by-step guides, and technical resources rather than a software utility
+    - Described as 'your premier learning destination for mastering Enterprise AI technologies' offering 'comprehensive resources, expert-led courses, and step-by-step guides'
+    - Listed in awesome-LLM-resources under the '课程 Course' section as a learning resource
+    - No evidence of being a coding agent, app builder, framework, or other developer tooling product; primary identity is educational content delivery
 placement:
-  primary_category: awesome-awesomes
-  section: Awesome Lists & Directories
+  primary_category: null
+  section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): publications-and-feeds"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -68,29 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:36:02.907Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for cohere__com__llmu: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:25:31.135Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:301d99afa6f6e0d0cd20577456b6b736d695570a9aaaaf29160f270840e9a021
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: c367d6101132
+      input_hash: sha256:6b5b3ac2650c2fb64cf023617c11a3df94acecad5325bc6bac8aea5315abaf30
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: It is an educational resource/tutorial hub rather than a standalone developer tool, making it a useful navigation aid for the ecosystem.
+      decision_reason: Excluded because it is an educational resource platform, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - README/Scraped content identifies it as 'LLM University' for learning and mastering AI technologies
-        - Offers courses, step-by-step guides, and technical resources rather than a software utility
-      category_candidates:
-        - awesome-awesomes
-        - publications-and-feeds
-      contrastive_reason: Choose awesome-awesomes over publications-and-feeds because the primary value is acting as a curated directory of learning modules rather than a recurring news feed or periodical publication.
-      review_reason: "Categorization review required: unknown category candidate(s): publications-and-feeds"
+        - Described as 'your premier learning destination for mastering Enterprise AI technologies' offering 'comprehensive resources, expert-led courses, and step-by-step guides'
+        - Listed in awesome-LLM-resources under the '课程 Course' section as a learning resource
+        - No evidence of being a coding agent, app builder, framework, or other developer tooling product; primary identity is educational content delivery
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

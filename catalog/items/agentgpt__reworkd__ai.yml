@@ -51,17 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web-based platform for creating and deploying autonomous AI agents for general-purpose tasks.
-  why_it_matters: It serves as a consumer-facing agent deployment platform rather than a developer tool for building or managing AI workflows.
-  mental_damage: Watching an agent spend your API budget planning a trip to Hawaii while your production server is on fire.
-  tags: []
+  summary: AgentGPT is a browser-based interface for creating, configuring, and deploying autonomous AI agents with predefined goals like research, travel planning, or study assistance.
+  why_it_matters: It lets developers prototype and test goal-driven agent workflows without coding, lowering the barrier to experimenting with autonomous AI in personal or internal tooling.
+  mental_damage: Another 'autonomous agent' demo that works great until you ask it to do something useful, then it loops on vague thoughts while you question your life choices.
+  tags:
+    - agents
+    - browser
+    - prototyping
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general-purpose agent platform aimed at end-user tasks like research and travel planning, lacking a primary identity as a developer-facing tool for coding, infrastructure, or agent orchestration.
+  reason: AgentGPT is a no-code agent configurator focused on high-level task completion (e.g., research, travel) rather than coding assistance, app generation, or developer workflow integration, placing it outside the catalog's developer-tooling scope.
   evidence:
-    - Scraped site context shows consumer-focused examples like TravelGPT and StudyGPT
-    - The tool lacks a developer-centric interface such as an SDK, IDE extension, or CLI for building software
+    - "Scraped site description: 'Assemble, configure, and deploy autonomous AI Agents in your browser.'"
+    - "README/examples show non-coding use cases: ResearchGPT, TravelGPT, StudyGPT — none involve code editing, generation, or developer tooling."
+    - "Source-list context: listed in awesome-ai-agents and awesome-local-ai under generic 'Agents' section, not developer-specific subcategories."
 placement:
   primary_category: null
   section: null
@@ -80,23 +84,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:32:49.233Z"
+    updated_at: "2026-10-01T04:22:23.667Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: c367d6101132
       input_hash: sha256:990c62ff1bcfbcb25d6bca2b54a109f49252899ddc02fdf5637f6206a75b81cc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a general-purpose agent platform aimed at end-user tasks like research and travel planning, lacking a primary identity as a developer-facing tool for coding, infrastructure, or agent orchestration.
+      decision_reason: AgentGPT is a no-code agent configurator focused on high-level task completion (e.g., research, travel) rather than coding assistance, app generation, or developer workflow integration, placing it outside the catalog's developer-tooling scope.
       decision_evidence:
-        - Scraped site context shows consumer-focused examples like TravelGPT and StudyGPT
-        - The tool lacks a developer-centric interface such as an SDK, IDE extension, or CLI for building software
+        - "Scraped site description: 'Assemble, configure, and deploy autonomous AI Agents in your browser.'"
+        - "README/examples show non-coding use cases: ResearchGPT, TravelGPT, StudyGPT — none involve code editing, generation, or developer tooling."
+        - "Source-list context: listed in awesome-ai-agents and awesome-local-ai under generic 'Agents' section, not developer-specific subcategories."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -36,23 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Substack newsletter providing commentary and updates on AI developments specifically for software developers.
-  why_it_matters: It filters the overwhelming noise of general AI news into actionable insights and technical trends relevant to engineering workflows.
-  mental_damage: Another subscription to manage in a world where the delta between 'tate of the art' and 'obsolete' is measured in weeks.
+  summary: aifordevelopers.substack.com is a newsletter covering AI development topics for software developers.
+  why_it_matters: It helps developers stay informed about AI tools, trends, and techniques relevant to coding and agent workflows.
+  mental_damage: Another AI newsletter to add to the inbox pile, promising insights while contributing to the fear of missing out on the next big thing.
   tags:
     - newsletter
-    - developer-education
-    - ai-trends
+    - ai-development
+    - curated-content
   confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The Substack newsletter is a recurring publication focused on AI development topics, fitting the curated lists and resources category as a developer-facing feed.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding tools"
+    - "Name: aifordevelopers.substack.com | URL: https://aifordevelopers.substack.com"
+    - Available categories include awesome-awesomes for newsletters, blogs, and recurring publications covering AI development topics.
 placement:
-  primary_category: null
+  primary_category: awesome-awesomes
   secondary_categories: []
-  section: null
+  section: Publications & Feeds
 lifecycle:
   status: incubating
   reason: null
@@ -67,30 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:33:34.944Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for aifordevelopers__substack__com: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:23:05.915Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:32ed987af2c2d6ac364eef2f268c4a94c2ccdd232ad8595bf3338fffcd5d4847
-      proposed_primary_category: newsletters-and-feeds
+      category_rules_version: c367d6101132
+      input_hash: sha256:8773cad3a94a909b0d455693ba1eeae117eb5e607dc80cbe68c907d9b6aea38e
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: It is a media resource providing ongoing commentary and educational updates for developers, fitting the definition of a newsletter.
+      decision_reason: The Substack newsletter is a recurring publication focused on AI development topics, fitting the curated lists and resources category as a developer-facing feed.
       decision_evidence:
-        - URL is a Substack domain
-        - In 'awesome-ai-coding-tools' as a source list entry
-        - Matches 'Publications & Feeds' description
+        - "Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding tools"
+        - "Name: aifordevelopers.substack.com | URL: https://aifordevelopers.substack.com"
+        - Available categories include awesome-awesomes for newsletters, blogs, and recurring publications covering AI development topics.
       category_candidates:
-        - newsletters-and-feeds
         - awesome-awesomes
-      contrastive_reason: Choose newsletters-and-feeds over awesome-awesomes because its primary value is recurring commentary and educational media rather than being a static directory or map.
+        - skills
+      contrastive_reason: Choose awesome-awesomes over skills because the newsletter is a recurring publication for staying informed, not a reusable skill pack or rules bundle installed into coding agents.
       review_reason: null
       review_resume_lifecycle: null

@@ -37,17 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An X (Twitter) post URL with no associated tool or product data.
-  why_it_matters: No actionable developer tooling can be identified from the provided context.
-  mental_damage: Staring at a link that promises nothing is the ultimate developer experience.
+  summary: A single X (formerly Twitter) post link with no discernible content or tool context.
+  why_it_matters: It provides no actionable information or developer utility.
+  mental_damage: Staring at a social media login wall in search of a product roadmap is the ultimate developer productivity hack.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input is a single social media link with no descriptive content or metadata to identify a product.
+  reason: The input is a link to a social media post that contains no descriptive text, README, or tool identity, providing nothing to evaluate.
   evidence:
-    - URL points to an X (Twitter) post
-    - Scraped content is generic site boilerplate with no tool details
+    - Input is a URL to an X (Twitter) status post
+    - Scraped site context contains only generic X login and sign-up boilerplate
+    - No repository description or project metadata provided
 placement:
   primary_category: null
   section: null
@@ -66,9 +67,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:25:22.721Z"
+    updated_at: "2026-10-01T04:22:01.416Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -79,10 +80,11 @@ processing:
       input_hash: sha256:273c3968ea56d15d6a13313904d3900362597d38485aada664f3443d1161d688
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a single social media link with no descriptive content or metadata to identify a product.
+      decision_reason: The input is a link to a social media post that contains no descriptive text, README, or tool identity, providing nothing to evaluate.
       decision_evidence:
-        - URL points to an X (Twitter) post
-        - Scraped content is generic site boilerplate with no tool details
+        - Input is a URL to an X (Twitter) status post
+        - Scraped site context contains only generic X login and sign-up boilerplate
+        - No repository description or project metadata provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

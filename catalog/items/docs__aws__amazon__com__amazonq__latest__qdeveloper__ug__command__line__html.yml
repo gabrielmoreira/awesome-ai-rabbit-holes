@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Amazon Q Developer for command line is an AI-powered terminal enhancement providing command autocompletion, natural language chat, and code generation for various CLIs.
-  why_it_matters: It integrates generative AI directly into the shell workflow to reduce the mental overhead of remembering complex CLI flags and syntax.
-  mental_damage: Another layer of magic between your fingers and the shell, ensuring you'll never have to actually read a man page again.
+  summary: Documentation for using Amazon Q Developer as a command-line interface with AI-powered autocompletion, chat, and code generation.
+  why_it_matters: It shows how AWS integrates AI assistance into terminal workflows for developers using CLIs.
+  mental_damage: Yet another reminder that your shell now needs an AI intern to remember git flags.
   tags:
     - cli
-    - terminal
-    - autocomplete
-    - productivity
+    - ai-assistant
     - aws
   confidence: high
 curation:
   status: excluded
-  reason: The input is a documentation page for a specific feature of a broader cloud service, rather than a standalone developer tool or product.
+  reason: This is documentation, not a standalone product or tool; it describes usage of Amazon Q Developer CLI but does not constitute the tool itself.
   evidence:
-    - Input is a documentation URL (docs.aws.amazon.com) rather than a code repository or product page
-    - Content describes a single feature of the existing Amazon Q Developer ecosystem
-    - Provides auxiliary documentation rather than a discrete tool for the catalog
+    - URL points to AWS documentation page (docs.aws.amazon.com)
+    - Scraped content is help text and feedback prompts, not product features
+    - Source-list context links to awesome-ai-coding-tools but references the documentation, not a repo
 placement:
   primary_category: null
   section: null
@@ -70,27 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:37:57.545Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for docs__aws__amazon__com__amazonq__latest__qdeveloper__ug__command__line__html: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:26:48.565Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:97ecca9b420d873e911aed097edc1c0066fac11ebe95fae9738e0a959d5dcc3f
+      category_rules_version: c367d6101132
+      input_hash: sha256:4f405f26a1cd51095d68f3fa8491022549add1ddfdc9178d25f8a2160fdcd78b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a documentation page for a specific feature of a broader cloud service, rather than a standalone developer tool or product.
+      decision_reason: This is documentation, not a standalone product or tool; it describes usage of Amazon Q Developer CLI but does not constitute the tool itself.
       decision_evidence:
-        - Input is a documentation URL (docs.aws.amazon.com) rather than a code repository or product page
-        - Content describes a single feature of the existing Amazon Q Developer ecosystem
-        - Provides auxiliary documentation rather than a discrete tool for the catalog
+        - URL points to AWS documentation page (docs.aws.amazon.com)
+        - Scraped content is help text and feedback prompts, not product features
+        - Source-list context links to awesome-ai-coding-tools but references the documentation, not a repo
       category_candidates: []
       contrastive_reason: null
       review_reason: null

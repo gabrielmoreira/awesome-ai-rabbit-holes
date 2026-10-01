@@ -67,23 +67,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An autonomous AI software engineer capable of planning, executing, and managing complex engineering tasks including code migrations and bug fixing.
-  why_it_matters: It aims to handle large-scale, repetitive engineering work like multi-repo refactors and incident resolution, allowing humans to act as project managers rather than manual implementers.
-  mental_damage: Now you can watch a cloud-hosted agent confidently refactor your entire monolith while you sip coffee and pray it doesn't trigger a production outage.
+  summary: Devin is an AI coding agent that autonomously plans, writes, edits, and reviews code across multi-repo projects using cloud-based agents.
+  why_it_matters: It lets engineering teams delegate complex coding tasks like migrations, incident resolution, and PR reviews to autonomous agents, reducing manual toil.
+  mental_damage: The quiet dread of watching your job description get eaten by a fleet of cloud agents that never need coffee breaks.
   tags:
     - coding-agent
-    - autonomous-agent
-    - software-engineering
-    - cloud-agent
-    - refactoring
+    - autonomous
+    - cloud-ai
   confidence: high
 curation:
   status: included
-  reason: Devin is a standalone autonomous agent that plans and executes repo-wide engineering tasks rather than just augmenting an existing IDE.
+  reason: Devin is a standalone AI agent whose core identity is performing coding tasks autonomously across repos, terminals, and browsers — not an extension, framework, or orchestration platform.
   evidence:
-    - Claims to be an 'AI coding agent and software engineer'
-    - Capable of autonomous tasks like code migrations and incident resolution
-    - Operates across repos and uses various tools like Slack, GitHub, and Datadog
+    - Described as 'an AI coding agent and software engineer that helps developers build better software faster' in source lists and scraped site
+    - Performs PR review, code migration, bug fixing, documentation, and incident resolution autonomously
+    - Spins up teams of Devins for multi-week, multi-repo projects and learns from past session trajectories
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -102,30 +100,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:37:38.094Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for devin__ai: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:26:34.121Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:dc9386e706c6e172f5dc1a1c7d747d5ba0740bef1c06fa12e39ee45c1417d452
+      category_rules_version: c367d6101132
+      input_hash: sha256:fa172c812a6a132ccfb7552885e674a132a66dfee82f7b5bf963c5437b34fe04
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Devin is a standalone autonomous agent that plans and executes repo-wide engineering tasks rather than just augmenting an existing IDE.
+      decision_reason: Devin is a standalone AI agent whose core identity is performing coding tasks autonomously across repos, terminals, and browsers — not an extension, framework, or orchestration platform.
       decision_evidence:
-        - Claims to be an 'AI coding agent and software engineer'
-        - Capable of autonomous tasks like code migrations and incident resolution
-        - Operates across repos and uses various tools like Slack, GitHub, and Datadog
+        - Described as 'an AI coding agent and software engineer that helps developers build better software faster' in source lists and scraped site
+        - Performs PR review, code migration, bug fixing, documentation, and incident resolution autonomously
+        - Spins up teams of Devins for multi-week, multi-repo projects and learns from past session trajectories
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because Devin is a primary coding assistant/agent that developers delegate work to, rather than a general-purpose orchestration workbench.
+      contrastive_reason: Choose coding-agents over agent-orchestration because Devin performs coding tasks directly rather than managing or coordinating multiple agents as a control plane.
       review_reason: null
       review_resume_lifecycle: null

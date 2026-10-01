@@ -1,0 +1,87 @@
+id: github__stablyai__orca
+kind: github-repo
+name: stablyai/orca
+canonical_url: https://github.com/stablyai/orca
+identity:
+  github_repo: stablyai/orca
+provenance:
+  discoveries:
+    - id: discovery__github__stablyai__orca__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-10-01T04:13:52.898Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: Orca (Stably)
+        extracted_url: https://github.com/stablyai/orca
+        surrounding_text: "- **[Orca (Stably)](https://github.com/stablyai/orca)** `⭐ 80.5k` — Agentic development environment for a fleet of parallel agents: Codex, Claude Code, OpenCode, and Pi run side by side, each in its own git worktree, in Ghostty-class terminal splits with scrollback that survives restarts. Scriptable from an `orca` CLI (`worktree create`, `snapshot`, `click`, `fill`), with remote sessions and a click-to-prompt Chromium inspector. MIT."
+        confidence: high
+    - id: discovery__github__stablyai__orca__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-10-01T04:13:52.898Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Coding Agents
+        anchor_text: Orca
+        extracted_url: https://onorca.dev
+        surrounding_text: "- **[Orca](https://onorca.dev)** – An open-source IDE for orchestrating multiple AI coding agents — Claude Code, Codex, Cursor, Gemini, OpenCode and more — side-by-side, each in its own isolated git worktree."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-10-01T04:13:52.900Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-10-01T04:13:58.896Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

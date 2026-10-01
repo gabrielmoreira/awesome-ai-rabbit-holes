@@ -252,22 +252,22 @@ _These are new or low-traffic entries being watched._
   `skills` `directory` `modelscope`
   </details>
 
-- **[openclawmp.stepfun.com](https://openclawmp.stepfun.com)** A marketplace for sharing and installing skills, plugins, triggers, and communicators to extend AI agents. <details><summary>More about</summary>
+- **[openclawmp.stepfun.com](https://openclawmp.stepfun.com)** Water Product Market is an Agent skill and plugin marketplace where users share and install capabilities like skills, plugins, triggers, and communicators to extend Agent functionality. <details><summary>More about</summary>
 
-  Developers can enhance their agents with reusable capabilities like code extensions, event triggers, and messaging adapters.
+  It provides a centralized directory for discovering and distributing Agent extensions, helping developers enhance their agents with reusable components.
 
-  _Finally, a place where your agent can learn to fish instead of just being told to fish._
+  _Yet another App Store for AI agents, promising infinite evolution while you wrestle with version drift across ten different skill packs._
 
-  `agent-skills` `marketplace` `plugins` `triggers` `communicators`
+  `agent-skills` `marketplace` `extensions`
   </details>
 
-- **[Skills.Sh](https://skills.sh)** A directory and registry for discovering and installing reusable skills for AI agents. <details><summary>More about</summary>
+- **[Skills.Sh](https://skills.sh)** A directory and registry for discovering and installing reusable skill packs that extend AI agent capabilities via a single command. <details><summary>More about</summary>
 
-  Developers can extend their AI agents with pre-built, shareable capabilities for specific workflows or domains.
+  Developers can rapidly enhance AI agents with procedural knowledge like debugging, design, or automation without writing custom prompts or code.
 
-  _Now you can spend hours browsing skills instead of writing code, because why solve problems when you can curate them?_
+  _Yet another skill marketplace promising to fix agent limitations, while we all wonder if we're just trading prompt engineering for skill hunting._
 
-  `skills-registry` `ai-agents` `reusable-components` `workflow-automation`
+  `skills` `agent-extension` `registry`
   </details>
 
 - **[Skillsmp](https://skillsmp.com)** SkillsMP is a searchable marketplace for 1.7M+ agent skills in SKILL.md format compatible with Claude Code, Codex CLI, and ChatGPT. <details><summary>More about</summary>

@@ -621,6 +621,15 @@ _These are new or low-traffic entries being watched._
   `cost-management` `ai-agents` `budgeting`
   </details>
 
+- **[Checkmarx](https://checkmarx.com)** Checkmarx One is an AI-powered application security platform that uses hybrid scanning and agentic AI to detect and remediate vulnerabilities across the SDLC. <details><summary>More about</summary>
+
+  It helps developers secure AI-generated and traditional code by providing agent-assisted triage, remediation, and risk prioritization directly in development workflows.
+
+  _Another security tool that promises to shift left but adds yet another AI agent to your IDE that you’ll need to triage._
+
+  `appsec` `ai-security` `devsecops` `mcp` `agents`
+  </details>
+
 - **[ClevAgent](https://clevagent.io)** ClevAgent is a supervised terminal layer that adds guidance and safety checks for AI agents running in developer environments. <details><summary>More about</summary>
 
   It reduces wasted effort and security risks when running AI agents by enforcing guardrails and auditing actions.
@@ -630,13 +639,22 @@ _These are new or low-traffic entries being watched._
   `ai-dev-extensions` `mcp`
   </details>
 
-- **[GistPad VS Code extension](https://marketplace.visualstudio.com/items)** A Visual Studio Code extension for managing GitHub Gists and repositories directly from the editor. <details><summary>More about</summary>
+- **[Corgea](https://corgea.com)** Corgea is an AI-native application security platform that detects and fixes vulnerabilities in code, packages, infrastructure, and containers. <details><summary>More about</summary>
 
-  Developers can edit, create, and organize code snippets, notes, and repositories without local cloning or manual Git operations.
+  It reduces noise and false positives in security scanning while delivering developer-ready fixes, helping teams ship secure code faster.
 
-  _Finally, a way to turn your GitHub Gists into a personal knowledge base without pretending you’ll ever organize them._
+  _Finally, a security tool that doesn't make you wish you'd majored in interpretive dance to understand its findings._
 
-  `vscode-extension` `github-integration` `code-snippets` `knowledge-management`
+  `security` `sast` `devsecops` `ai`
+  </details>
+
+- **[Gecko Security](https://gecko.security)** Gecko Security is an AI-native static application security testing tool that builds a semantic understanding of codebases to detect business logic flaws and multi-step vulnerabilities. <details><summary>More about</summary>
+
+  It helps developers find exploitable security issues that traditional SAST tools miss, reducing noise and accelerating remediation within existing workflows.
+
+  _Another AI-powered security scanner promising to finally understand your code—until the next framework rewrite makes its semantic model obsolete._
+
+  `security` `sast` `ai-native` `devsecops`
   </details>
 
 - **[GitGuardian](https://gitguardian.com)** GitGuardian is a security platform that detects and remediates exposed secrets, API keys, and non-human identities across code repositories, developer endpoints, and cloud infrastructure. <details><summary>More about</summary>
@@ -666,15 +684,6 @@ _These are new or low-traffic entries being watched._
   `security` `devsecops` `ai-agent` `automation`
   </details>
 
-- **[OpenClaw](https://docs.openclaw.ai/zh-CN)** A self-hosted AI agent gateway that connects messaging channels like Discord, Slack, and WhatsApp to AI coding agents. <details><summary>More about</summary>
-
-  It enables developers to interact with their coding agents through their existing communication tools, bridging the gap between chat apps and development workflows.
-
-  _Because having your coding agent respond to a WhatsApp message is exactly how you accidentally deploy buggy code from a coffee shop._
-
-  `ai-agent` `gateway` `messaging-integration` `self-hosted` `automation`
-  </details>
-
 - **[Parasoft](https://parasoft.com)** Parasoft is an enterprise automated testing platform that uses AI for static analysis, test generation, and test maintenance across the software development lifecycle. <details><summary>More about</summary>
 
   It helps developers improve code quality and reduce technical debt by integrating AI-driven testing into CI/CD pipelines and static analysis workflows.
@@ -682,6 +691,15 @@ _These are new or low-traffic entries being watched._
   _Yet another tool promising to 'weave AI into your workflow' while adding another enterprise dashboard to monitor._
 
   `testing` `static-analysis` `ai` `qa` `enterprise`
+  </details>
+
+- **[PATAPIM](https://patapim.ai)** Patapim.ai is a desktop utility that adds multi-project workspaces, voice dictation, remote control, and browser automation to Claude Code and compatible CLI agents. <details><summary>More about</summary>
+
+  It lets developers run multiple agent sessions in parallel with persistent context and system-level control without leaving the terminal.
+
+  _Finally, a way to feel productive while juggling six terminal windows that all think they're the main character._
+
+  `cli` `agent-extension` `workflow`
   </details>
 
 - **[Postman API](https://postman.com/postman/postman-public-workspace)** Postman API is a widely used platform for designing, testing, and managing HTTP APIs, featuring collaborative workspaces and automated documentation generation. <details><summary>More about</summary>
@@ -693,6 +711,15 @@ _These are new or low-traffic entries being watched._
   `api` `testing` `collaboration`
   </details>
 
+- **[Push To Display](https://pushtodisplay.com)** Push To Display is a platform that pushes structured content from AI agents, scripts, or automation tools to programmable display boards on iOS and Android devices via HTTP API, CLI, MCP server, or integrations. <details><summary>More about</summary>
+
+  It gives developers a simple way to surface real-time data, alerts, or AI agent output on shared physical screens without building custom display infrastructure.
+
+  _Finally, a way to make your terminal spam visible to coworkers who still believe in stand-up meetings._
+
+  `display` `mcp` `automation` `iot`
+  </details>
+
 - **[ScreenshotOne](https://screenshotone.com)** ScreenshotOne is a developer API for capturing website screenshots, PDFs, and scrolling videos with built-in ad and banner blocking. <details><summary>More about</summary>
 
   It lets developers automate visual testing, documentation, or AI agent workflows without managing browser infrastructure or handling edge cases like lazy loading or consent popups.
@@ -702,13 +729,13 @@ _These are new or low-traffic entries being watched._
   `screenshot` `api` `automation` `testing` `ai-agents`
   </details>
 
-- **[Semgrep](https://semgrep.dev)** An extensible application security platform that scans source code for vulnerabilities using AI-assisted SAST, SCA, and secrets detection. <details><summary>More about</summary>
+- **[Semgrep](https://semgrep.dev)** Semgrep is an application security platform that uses AI-assisted static analysis to scan source code for vulnerabilities, secrets, and malware. <details><summary>More about</summary>
 
-  It helps developers catch, flag, and fix real vulnerabilities before they ship, integrating with CI/CD, IDEs, and AI tools like Cursor and Replit via MCP.
+  It helps developers catch security issues early in PRs and IDEs with high-precision findings that reduce false positives and security backlog.
 
-  _Now your AI coding assistant can ship insecure code faster, but at least Semgrep will catch it before it hits prod._
+  _Yet another security tool that promises 'zero false positives' while adding another checkbox to your CI pipeline._
 
-  `security` `static-analysis` `ai-assisted` `sast` `mcp`
+  `security` `sast` `ai-assisted`
   </details>
 
 - **[Supercode.sh](https://supercode.sh)** Supercode.sh is an extension for Claude, Codex, and Cursor that optimizes token usage, provides curated agent skills, and enables spec-driven development. <details><summary>More about</summary>
@@ -718,6 +745,15 @@ _These are new or low-traffic entries being watched._
   _Another layer between you and the AI, promising to fix the very inefficiencies introduced by relying on AI to write code._
 
   `ai-extension` `token-optimization` `agent-skills`
+  </details>
+
+- **[Testim](https://testim.io)** Testim is an AI-powered automated testing platform for creating and maintaining stable web, mobile, and Salesforce UI tests using natural language and self-healing locators. <details><summary>More about</summary>
+
+  It reduces test authoring time by up to 95% and minimizes maintenance through AI-driven test stability, letting developers ship faster with confidence.
+
+  _Finally, a tool that promises to fix the one part of CI/CD everyone ignores until tests start flaking in production._
+
+  `testing` `qa` `ai-powered`
   </details>
 
 - **[Vulert](https://vulert.com)** Vulert is a web-based software composition analysis service that scans dependency manifests and SBOMs to detect vulnerabilities and provide version-specific remediation guidance without accessing source code. <details><summary>More about</summary>

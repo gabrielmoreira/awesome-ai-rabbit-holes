@@ -36,27 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server that provides AI agents access to the Apify Career Site Job Listing API.
-  why_it_matters: It enables AI agents to programmatically query real-time job postings across hundreds of company career sites and ATS platforms.
-  mental_damage: Now your agent can autonomously hunt for jobs while you're still busy writing the code to fix the job search scraper.
+  summary: An MCP server exposing the Career Site Job Listing API for AI agent integration via Apify.
+  why_it_matters: Lets AI agents access structured job data from career sites without custom scraping, reducing integration effort for hiring tools.
+  mental_damage: Yet another MCP wrapper making you wonder if we've replaced yak shaving with protocol shaving.
   tags:
     - mcp
-    - job-search
-    - api
-    - scraping
-    - automation
-  confidence: high
+    - api-integration
+    - job-data
+  confidence: medium
 curation:
   status: included
-  reason: The product identity is specifically an MCP server designed to expose a specialized API to LLM clients.
+  reason: The product's core identity is an MCP server exposing a specific API, making MCP the primary product identity rather than a compatibility feature.
   evidence:
-    - Scraped site context confirms it is an 'MCP server' for the Career Site Job Listing API
-    - README provides specific JSON configuration for MCP clients
-    - Listed in 'awesome-mcp-servers' as a community server
+    - Described as 'Career Site Job Listing API MCP server' in Apify documentation
+    - Provides MCP configuration exposing tools like fetch-actor-details and fantastic-jobs/career-site-job-listing-api
+    - Listed in awesome-mcp-servers under Community Servers for MCP server discovery
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Browser & Web Automation
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
@@ -71,30 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:10.004Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for apify__com__fantastic__jobs__career__site__job__listing__api__api__mcp: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:23:33.747Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e4579ed1e60cfc5c718568d67c5b9803c36cf5afd7cf1c6af69bbb6a7d8a810c
+      category_rules_version: c367d6101132
+      input_hash: sha256:95eac5ca00211912c4cd21ca06edafe2b1ab8e345a69f749c0e598f8654540d4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product identity is specifically an MCP server designed to expose a specialized API to LLM clients.
+      decision_reason: The product's core identity is an MCP server exposing a specific API, making MCP the primary product identity rather than a compatibility feature.
       decision_evidence:
-        - Scraped site context confirms it is an 'MCP server' for the Career Site Job Listing API
-        - README provides specific JSON configuration for MCP clients
-        - Listed in 'awesome-mcp-servers' as a community server
+        - Described as 'Career Site Job Listing API MCP server' in Apify documentation
+        - Provides MCP configuration exposing tools like fetch-actor-details and fantastic-jobs/career-site-job-listing-api
+        - Listed in awesome-mcp-servers under Community Servers for MCP server discovery
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is the implementation of the Model Context Protocol rather than a general workflow extension.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server exposing tools over the protocol, not an extension that augments a coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null

@@ -37,20 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An academic paper hosted on arXiv regarding Large Language Models.
-  why_it_matters: Research papers can signal upcoming shifts in agentic reasoning or model architecture before they hit production.
-  mental_damage: It is just one more PDF to add to the pile of things you will definitely read once you've finished your current sprint.
+  summary: An arXiv paper (2510.18692) about large language model resources, not a software tool.
+  why_it_matters: It does not provide any developer-facing functionality, so it has no direct impact on workflows.
+  mental_damage: Another PDF in the endless stack of 'everything AI' lists that shifts the burden of curation onto the reader.
   tags:
-    - research
     - paper
-    - llm
+    - survey
   confidence: high
 curation:
   status: excluded
-  reason: This is a research paper on arXiv, not a developer tool, product, or curated directory.
+  reason: This is an arXiv survey paper, not a software product, and lacks any developer tooling identity or executable artifact.
   evidence:
-    - URL points to arxiv.org (research repository)
-    - No repo description, stars, or product substance provided
+    - URL is an arXiv PDF (https://arxiv.org/pdf/2510.18692)
+    - Repo description is missing; no README, stars, or activity signals
+    - Source-list context shows it is listed as a resource in an awesome list under 'Video > Models', not as a tool
 placement:
   primary_category: null
   section: null
@@ -68,26 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:24.968Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for arxiv__org__pdf__2510__18692: Invalid AI response structure: Included responses must rank primary_category first in category_candidates"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:23:52.166Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ab4e166c050760a487b1dceffb60dfabebe36f8ed6f17db5aeab7c0a564c3563
+      category_rules_version: c367d6101132
+      input_hash: sha256:9ff79cf72ffd985fa2503d9153f25ec6e9191407c056dfbdbc0bbd6c8d414fd1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a research paper on arXiv, not a developer tool, product, or curated directory.
+      decision_reason: This is an arXiv survey paper, not a software product, and lacks any developer tooling identity or executable artifact.
       decision_evidence:
-        - URL points to arxiv.org (research repository)
-        - No repo description, stars, or product substance provided
+        - URL is an arXiv PDF (https://arxiv.org/pdf/2510.18692)
+        - Repo description is missing; no README, stars, or activity signals
+        - Source-list context shows it is listed as a resource in an awesome list under 'Video > Models', not as a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

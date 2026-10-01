@@ -36,20 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated directory of AI coding tools, agents, and developer-focused infrastructure.
-  why_it_matters: It helps developers cut through the noise of the exploding AI ecosystem to find practical, task-specific tooling.
-  mental_damage: Nothing cures terminal decision paralysis quite like scrolling through an endless list of tools that all claim to replace your entire workflow.
+  summary: AI for Developers is a curated directory of AI coding tools and resources for software developers.
+  why_it_matters: It helps developers discover and evaluate AI-powered coding assistants, app builders, and related tools in one organized place.
+  mental_damage: Another directory promising to save you time while adding yet another tab to your overflowing AI tool research workflow.
   tags:
     - curated-list
-    - ai-tools
     - developer-resources
-    - directory
-  confidence: high
+    - ai-tools-directory
+  confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The site functions as a curated directory of AI developer tools, matching the awesome-awesomes category's purpose of helping developers discover and navigate the ecosystem.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Scraped site description: 'Explore a curated list of the best AI coding tools for developers, featuring GitHub Copilot, Windsurf, Cody, and more.'"
+    - "Source-list context: Listed in 'awesome-ai-coding-tools' with purpose 'A curated list of AI-powered coding tools'."
+    - "Primary page excerpt: 'Curated AI tools and resources. Discover practical AI tools, model updates, and implementation guides built for developers.'"
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
@@ -68,29 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:33:36.643Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for aifordevelopers__org: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:23:08.892Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:73206c2deabf44bde195f0e9558a745bdf19bb0eb9f9dd24d27ec3a6a88a9f12
+      category_rules_version: c367d6101132
+      input_hash: sha256:c4a0e2715b21cb2ea228e334f8b1e8dbf053f61307253370c36f02255d83dd28
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: It is a curated directory designed for navigating the AI developer ecosystem.
+      decision_reason: The site functions as a curated directory of AI developer tools, matching the awesome-awesomes category's purpose of helping developers discover and navigate the ecosystem.
       decision_evidence:
-        - Scraped site context describes it as a 'curated list of AI coding tools'
-        - Main value proposition is discovery and navigation of AI tools and resources
+        - "Scraped site description: 'Explore a curated list of the best AI coding tools for developers, featuring GitHub Copilot, Windsurf, Cody, and more.'"
+        - "Source-list context: Listed in 'awesome-ai-coding-tools' with purpose 'A curated list of AI-powered coding tools'."
+        - "Primary page excerpt: 'Curated AI tools and resources. Discover practical AI tools, model updates, and implementation guides built for developers.'"
       category_candidates:
         - awesome-awesomes
-        - newsletters-and-feeds
-      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because the site functions primarily as a categorized index/directory of tools rather than a recurring media publication.
+        - evals
+      contrastive_reason: Choose awesome-awesomes over evals because the site's core identity is tool discovery and curation, not measuring, scoring, or comparing model/prompt/agent behavior.
       review_reason: null
       review_resume_lifecycle: null

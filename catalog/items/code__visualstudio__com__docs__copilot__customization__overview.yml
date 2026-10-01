@@ -36,22 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Microsoft documentation for customizing GitHub Copilot within Visual Studio Code using custom instructions, agents, and MCP servers.
-  why_it_matters: It enables developers to tailor the Copilot experience to specific coding standards, workflows, and external toolsets like MCP.
-  mental_damage: "Just what every developer needs: another layer of configuration to ensure the AI actually follows the team's specific brand of insanity."
+  summary: Documentation page for customizing AI in Visual Studio Code with instructions, prompt files, agents, and MCP servers.
+  why_it_matters: Helps developers tailor GitHub Copilot and AI features in VS Code to match their coding practices and workflows.
+  mental_damage: Another settings page to bookmark, because remembering where Copilot’s ‘Add Context’ lives is now a core developer skill.
   tags:
-    - visual-studio-code
-    - github-copilot
-    - mcp
+    - vscode
+    - copilot
     - ai-customization
   confidence: high
 curation:
   status: excluded
-  reason: The input is a documentation page for an existing product feature rather than a standalone tool, framework, or resource.
+  reason: This is official product documentation, not a standalone developer tool, extension, or product with autonomous identity.
   evidence:
-    - URL points to vscode.com documentation
-    - Content is a feature overview/guide for existing Copilot customization
-    - Not a standalone product, repository, or curated directory
+    - URL is Microsoft's VS Code documentation site (code.visualstudio.com/docs/copilot/customization/overview)
+    - Content describes VS Code and Copilot features rather than introducing a new tool or product
 placement:
   primary_category: null
   section: null
@@ -69,27 +67,24 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:35:26.057Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for code__visualstudio__com__docs__copilot__customization__overview: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:25:09.155Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ed87839c9fe779c6ce1f1d7b21a5f16ad1e5b3d41e38076e38be0c67b428b40b
+      category_rules_version: c367d6101132
+      input_hash: sha256:782f5fdaaf07bed912ae889423a7083b3b45e1e1526305c1f79e8a8bf4dd9da7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a documentation page for an existing product feature rather than a standalone tool, framework, or resource.
+      decision_reason: This is official product documentation, not a standalone developer tool, extension, or product with autonomous identity.
       decision_evidence:
-        - URL points to vscode.com documentation
-        - Content is a feature overview/guide for existing Copilot customization
-        - Not a standalone product, repository, or curated directory
+        - URL is Microsoft's VS Code documentation site (code.visualstudio.com/docs/copilot/customization/overview)
+        - Content describes VS Code and Copilot features rather than introducing a new tool or product
       category_candidates: []
       contrastive_reason: null
       review_reason: null

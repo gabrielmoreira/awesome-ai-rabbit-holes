@@ -36,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered testing platform that automatically generates, executes, and self-heals Playwright end-to-end and API tests.
-  why_it_matters: It aims to eliminate the manual toil of writing and maintaining brittle E2E test suites by using agents to fix broken tests autonomously.
-  mental_damage: Now you don't have to spend your weekends fixing flaky selectors; you can spend them reviewing the PRs where the AI fixed them.
+  summary: Checksum is an AI-powered platform that generates, runs, and maintains Playwright and API tests automatically using specialized agents that heal failures and integrate with CI.
+  why_it_matters: It reduces manual test maintenance by autonomously creating and healing end-to-end tests, letting engineering teams ship faster without sacrificing quality.
+  mental_damage: Finally, a tool that promises to make tests write themselves — until you realize you’re now trusting an AI to guard the gate you used to swear at.
   tags:
-    - e2e-testing
-    - playwright
-    - automated-qa
-    - self-healing-tests
-    - ci-cd
+    - testing
+    - ai-agents
+    - qa
+    - test-automation
   confidence: high
 curation:
   status: included
-  reason: The product is a specialized agentic system designed to autonomously repair and maintain test code, fitting the 'Repair Agents' definition.
+  reason: Checksum functions as an autonomous agent that writes, runs, and repairs test code in response to code changes, fitting the coding agent identity through its test-generation and healing loop, even though it is domain-specific to testing.
   evidence:
-    - Claims to resolve 70% of failures autonomously without engineer intervention
-    - Provides specialized E2E, CI, and API agents
-    - Generates and heals Playwright tests automatically
+    - Checksum generates, runs, and maintains end-to-end tests automatically using AI agents that heal broken tests with minimal human intervention
+    - It operates as a background agent that creates Playwright and API tests, detects failures from UI or selector changes, and opens PRs with fixes — acting as a coding agent focused on test code
+    - Listed in 'awesome-ai-coding-tools' under Testing and QA, confirming its recognition as an AI-powered coding tool in the developer tooling ecosystem
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -71,30 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:35:08.978Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for checksum__ai: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:25:01.851Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d4aafda578caca9822e56312c009a4e8848c8c1f425b61b7ec424db373bdfb18
+      category_rules_version: c367d6101132
+      input_hash: sha256:d1b56a06ad78500a8a7b54129860688512059e2cf17deb0506165dec5a5937cb
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The product is a specialized agentic system designed to autonomously repair and maintain test code, fitting the 'Repair Agents' definition.
+      decision_reason: Checksum functions as an autonomous agent that writes, runs, and repairs test code in response to code changes, fitting the coding agent identity through its test-generation and healing loop, even though it is domain-specific to testing.
       decision_evidence:
-        - Claims to resolve 70% of failures autonomously without engineer intervention
-        - Provides specialized E2E, CI, and API agents
-        - Generates and heals Playwright tests automatically
+        - Checksum generates, runs, and maintains end-to-end tests automatically using AI agents that heal broken tests with minimal human intervention
+        - It operates as a background agent that creates Playwright and API tests, detects failures from UI or selector changes, and opens PRs with fixes — acting as a coding agent focused on test code
+        - Listed in 'awesome-ai-coding-tools' under Testing and QA, confirming its recognition as an AI-powered coding tool in the developer tooling ecosystem
       category_candidates:
         - coding-agents
-        - evals
-      contrastive_reason: Choose coding-agents over evals because the tool's primary function is the active repair and generation of test code rather than just the scoring or measurement of it.
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Checksum operates as a standalone AI agent that generates and maintains test code autonomously, rather than extending or integrating with an existing coding assistant like Claude Code or Cursor.
       review_reason: null
       review_resume_lifecycle: null

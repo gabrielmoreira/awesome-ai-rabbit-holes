@@ -1,0 +1,113 @@
+id: fuseintelligence__org__products__vibefuse
+kind: website
+name: vibefuse
+canonical_url: https://fuseintelligence.org/products/vibefuse
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__fuseintelligence__org__products__vibefuse__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-10-01T04:13:52.898Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: VibeFuse
+        extracted_url: https://fuseintelligence.org/products/vibefuse
+        surrounding_text: "- **[VibeFuse](https://fuseintelligence.org/products/vibefuse)** — Free Windows desktop harness that runs Claude Code, Codex, Gemini CLI, Cursor Agent, and Qwen as live PTY widgets on one canvas; named sessions you can park, clone for side-by-side prompt comparison, and restore after a restart with scrollback. On-device voice (whisper.cpp STT + Piper TTS), a built-in MCP tools panel, and a marketplace for AI skills and widgets where sellers keep 80% (Stripe Connect). Closed source; Windows only."
+        confidence: high
+    - id: discovery__fuseintelligence__org__products__vibefuse__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-10-01T04:13:52.898Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: VibeFuse
+        extracted_url: https://fuseintelligence.org/products/vibefuse
+        surrounding_text: "- **[VibeFuse](https://fuseintelligence.org/products/vibefuse)** – Free Windows desktop harness that runs Claude Code, Codex, Gemini, Cursor, and Qwen as live widgets on one canvas, with a marketplace for selling AI skills and widgets (sellers keep 80%)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: VibeFuse is a free Windows desktop harness that runs AI coding agents (Claude Code, Codex, Cursor, Gemini, Qwen) alongside terminals, browsers, and custom widgets in a unified canvas.
+  why_it_matters: It gives developers a single desktop workspace to orchestrate multiple coding agents and UI widgets without paying for another IDE seat or cloud computer subscription.
+  mental_damage: Now you can finally feel the existential dread of managing six concurrent AI agents while Jarvis whispers 'Yes, sir?' in your ear.
+  tags:
+    - ai-harness
+    - desktop-agent
+    - windows-only
+    - multi-agent
+    - widget-marketplace
+  confidence: medium
+curation:
+  status: included
+  reason: VibeFuse is included because it primarily coordinates multiple coding agents and UI widgets on a shared desktop canvas, making it a harness for agent workflows rather than a standalone coding agent.
+  evidence:
+    - VibeFuse runs Claude Code, Codex, Gemini, Cursor, and Qwen side-by-side on one canvas with terminals and browsers
+    - It enables voice-controlled canvas layout, named sessions, and multi-agent workflows (e.g., comparing Claude and Codex in parallel)
+    - The product markets itself as a 'free Windows harness' and 'agent drives custom marketplace widgets' — positioning it as a coordination layer, not a primary coder
+placement:
+  primary_category: agent-orchestration
+  section: Agent Runtimes & Harnesses
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-10-01T04:13:52.900Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-10-01T04:32:25.157Z"
+    cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:a87297690e354f75a38baa7d913a86add444d8f57bf9d25bf4691b2d82b5b5b6
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: VibeFuse is included because it primarily coordinates multiple coding agents and UI widgets on a shared desktop canvas, making it a harness for agent workflows rather than a standalone coding agent.
+      decision_evidence:
+        - VibeFuse runs Claude Code, Codex, Gemini, Cursor, and Qwen side-by-side on one canvas with terminals and browsers
+        - It enables voice-controlled canvas layout, named sessions, and multi-agent workflows (e.g., comparing Claude and Codex in parallel)
+        - The product markets itself as a 'free Windows harness' and 'agent drives custom marketplace widgets' — positioning it as a coordination layer, not a primary coder
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because VibeFuse’s core value is managing multiple agents and UI widgets in a shared desktop environment, not autonomously performing coding tasks itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: c367d6101132
+    next_retry_at: null

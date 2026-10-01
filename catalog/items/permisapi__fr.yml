@@ -37,27 +37,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An API and MCP server providing French construction permit data, urban zoning, and real estate opportunity scores.
-  why_it_matters: It enables developers to bring granular, domain-specific French urban planning and construction data directly into the context of AI assistants like Claude or Cursor via MCP.
-  mental_damage: Because your LLM definitely needs to understand French 'zonage PLU' to help you debug a React component.
+  summary: French construction and real estate data API with an official MCP connector for AI assistants.
+  why_it_matters: Provides highly specific domain data (permits, zoning, market margins) that can be directly queried by agents via the Model Context Protocol.
+  mental_damage: Because now your AI assistant can audit French real estate margins before you've even finished your first sprint.
   tags:
+    - api
     - mcp
     - real-estate
-    - api
-    - data-platform
+    - data-source
     - france
   confidence: high
 curation:
-  status: included
-  reason: The tool provides a specialized MCP server that integrates domain-specific French urban and real estate data into AI coding workflows.
+  status: excluded
+  reason: The product's primary identity is a domain-specific data service for the French construction industry, not a developer-tooling product or MCP infrastructure.
   evidence:
-    - Provides an official MCP connector via 'pip install permisapi-mcp' for Claude, ChatGPT, and Cursor.
-    - Offers a REST API covering 1.2M+ construction permits, urban zoning, and environmental risks in France.
-    - Categorized in 'awesome-mcp-servers' under Data Platforms.
+    - The core product is a REST API for construction permits and urbanism data.
+    - MCP is presented as a 'connector' or compatibility feature rather than the product's primary identity.
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: Data & Databases
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -72,26 +71,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-21T04:30:35.045Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for permisapi__fr: ```json
-        {
-          "summary": "An API and integration service providing French building permit, urban zoning, and real estate data.",
-          "why_it_matters": "It allows developers to equip AI agents with specialized, real-world domain knowledge for French construction and urban planning workflows.",
-          "mental_damage": "Your agent can now argue about French zoning laws, but it still can't fix your broken build pipeline.",
-          "tags": [
-            "api",
-            "mcp",
-            "real-estate",
-            "data-integration",
-            "france"
-          ],
-          "should_include": true,
-          "primary_category": "extensions-and-addons",
-    attempts: 2
+    status: done
+    updated_at: "2026-10-01T04:16:05.094Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:67241952feaa9785aa858afd6355d7f6861833484d7a78ce7db9cffa883efd5f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product's primary identity is a domain-specific data service for the French construction industry, not a developer-tooling product or MCP infrastructure.
+      decision_evidence:
+        - The core product is a REST API for construction permits and urbanism data.
+        - MCP is presented as a 'connector' or compatibility feature rather than the product's primary identity.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

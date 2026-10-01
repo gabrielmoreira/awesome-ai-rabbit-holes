@@ -37,18 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: osop-editor.vercel.app is a Vercel-hosted Google AI Studio app with no clear developer-tooling identity.
-  why_it_matters: It does not meaningfully change how developers write, test, or deploy code, nor does it serve as a coding agent, app builder, or infrastructure tool.
-  mental_damage: Another vague AI demo that pretends to be useful while offering zero clarity on what it actually does for engineers.
-  tags: []
+  summary: A Vercel-hosted Google AI Studio web app for interacting with Gemini models.
+  why_it_matters: Provides a lightweight interface for developers to test Gemini prompts without leaving the browser.
+  mental_damage: Another wrapper around a model UI that pretends to be a dev tool while just saving you one tab.
+  tags:
+    - ai-studio
+    - gemini
+    - vercel
   confidence: high
 curation:
   status: excluded
-  reason: The tool lacks any discernible developer-facing functionality; it appears to be a hosted Google AI Studio interface with no coding-agent, app-builder, or infrastructure traits.
+  reason: It is a frontend for Google's AI Studio, not a developer-facing AI tool that edits code, builds apps, or extends workflows.
   evidence:
-    - Repo description is missing, and the scraped site title 'My Google AI Studio App' suggests a generic AI interface, not a developer tool.
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure' but linked to a Google AI Studio app, which is not a coding agent or orchestration tool.
-    - No README, stars, creation date, or push activity provided to assess functionality or maintenance.
+    - "Scraped site title: 'My Google AI Studio App'"
+    - "URL: https://osop-editor.vercel.app indicates a Vercel deployment of a personal AI Studio interface"
+    - Source-list context shows it was listed under 'Harnesses & orchestration > Agent infrastructure' but the page itself is a Gemini client, not an agent or harness
 placement:
   primary_category: null
   section: null
@@ -67,9 +70,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:51:57.199Z"
+    updated_at: "2026-10-01T04:31:52.109Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -80,11 +83,11 @@ processing:
       input_hash: sha256:ce6920df255bef3f0d87ce186faf8c5a68909b2115a585eb99ad1e90aca9e1ac
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool lacks any discernible developer-facing functionality; it appears to be a hosted Google AI Studio interface with no coding-agent, app-builder, or infrastructure traits.
+      decision_reason: It is a frontend for Google's AI Studio, not a developer-facing AI tool that edits code, builds apps, or extends workflows.
       decision_evidence:
-        - Repo description is missing, and the scraped site title 'My Google AI Studio App' suggests a generic AI interface, not a developer tool.
-        - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure' but linked to a Google AI Studio app, which is not a coding agent or orchestration tool.
-        - No README, stars, creation date, or push activity provided to assess functionality or maintenance.
+        - "Scraped site title: 'My Google AI Studio App'"
+        - "URL: https://osop-editor.vercel.app indicates a Vercel deployment of a personal AI Studio interface"
+        - Source-list context shows it was listed under 'Harnesses & orchestration > Agent infrastructure' but the page itself is a Gemini client, not an agent or harness
       category_candidates: []
       contrastive_reason: null
       review_reason: null

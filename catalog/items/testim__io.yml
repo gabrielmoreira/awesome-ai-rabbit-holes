@@ -51,54 +51,52 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Testim is an AI-powered automated testing platform for web, mobile, and Salesforce applications.
-  why_it_matters: It accelerates test authoring and maintenance with AI-driven locators and agentic automation, reducing manual effort in QA workflows.
-  mental_damage: Finally, a way to make your tests as flaky as your confidence in them.
+  summary: Testim is an AI-powered automated testing platform for creating and maintaining stable web, mobile, and Salesforce UI tests using natural language and self-healing locators.
+  why_it_matters: It reduces test authoring time by up to 95% and minimizes maintenance through AI-driven test stability, letting developers ship faster with confidence.
+  mental_damage: Finally, a tool that promises to fix the one part of CI/CD everyone ignores until tests start flaking in production.
   tags:
     - testing
     - qa
-    - ai-automation
-    - e2e
-    - salesforce
-  confidence: high
+    - ai-powered
+  confidence: medium
 curation:
-  status: excluded
-  reason: Testim is a SaaS testing/QA platform, not a developer-tooling product focused on coding agents, IDEs, or adjacent infrastructure.
+  status: included
+  reason: Testim is an AI-enhanced testing tool that integrates into developer workflows via CI/CD, IDEs, and version control to improve test creation and maintenance, making it a workflow extension rather than a standalone coding agent or app builder.
   evidence:
-    - Described as an 'automated testing platform for fast authoring of AI-powered stable tests'
-    - Primary value is UI/E2E test automation for web/mobile/Salesforce, not developer workflow augmentation
-    - Listed in source lists under 'Testing and QA', not developer tooling
+    - "Source-list context: listed in awesome-ai-coding-tools under Testing and QA as an automated testing platform for AI-powered stable tests"
+    - "README/scraped context: emphasizes AI-driven test authoring, self-healing locators, and integration with CI/CD tools like Jenkins, CircleCI, GitHub, and Slack"
+    - "Product positioning: focuses on accelerating testing, reducing maintenance, and root cause analysis — not generating code or apps from prompts"
 placement:
-  primary_category: null
-  section: null
+  primary_category: extensions-and-addons
+  section: Testing & Code Quality
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:46:49.331Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for testim__io: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": Testim is \"... is not valid JSON"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:30:53.999Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4091cf1c4927365e25d4a6cda199c27db6024523ec9c1944dacd8cddc73d5fa0
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:73123b320cc483b3f12f0ecef4eb2f2c53edf4865985605edb32192d107fd577
+      proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: Testim is a SaaS testing/QA platform, not a developer-tooling product focused on coding agents, IDEs, or adjacent infrastructure.
+      decision_reason: Testim is an AI-enhanced testing tool that integrates into developer workflows via CI/CD, IDEs, and version control to improve test creation and maintenance, making it a workflow extension rather than a standalone coding agent or app builder.
       decision_evidence:
-        - Described as an 'automated testing platform for fast authoring of AI-powered stable tests'
-        - Primary value is UI/E2E test automation for web/mobile/Salesforce, not developer workflow augmentation
-        - Listed in source lists under 'Testing and QA', not developer tooling
-      category_candidates: []
-      contrastive_reason: null
+        - "Source-list context: listed in awesome-ai-coding-tools under Testing and QA as an automated testing platform for AI-powered stable tests"
+        - "README/scraped context: emphasizes AI-driven test authoring, self-healing locators, and integration with CI/CD tools like Jenkins, CircleCI, GitHub, and Slack"
+        - "Product positioning: focuses on accelerating testing, reducing maintenance, and root cause analysis — not generating code or apps from prompts"
+      category_candidates:
+        - extensions-and-addons
+        - evals
+      contrastive_reason: Choose extensions-and-addons over evals because Testim's primary function is enhancing test creation and stability within existing workflows, not measuring or benchmarking AI/model behavior.
       review_reason: null
       review_resume_lifecycle: null
   discover:

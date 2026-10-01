@@ -36,25 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated collection of LLM resources including multimodal generation, agents, coding assistance, and MCP insights.
-  why_it_matters: It provides a high-density starting point for developers navigating the rapidly evolving landscape of LLM capabilities and agentic workflows.
-  mental_damage: A single bookmark that promises to keep you updated on everything from o1 models to MCP, ensuring you never feel truly caught up.
+  summary: A CSDN blog post summarizing global LLM resources including multimodal generation, agents, AI-assisted programming, and MCP.
+  why_it_matters: Helps developers discover LLM-related tools and topics in one curated reference.
+  mental_damage: Yet another 'awesome list' that pretends to be a tool, adding to the pile of resources you’ll never actually read.
   tags:
     - llm-resources
-    - agents
-    - coding-assistance
-    - mcp
-    - multimodal
+    - curated-list
   confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The source is a blog post functioning as a curated directory of LLM resources, matching the scope of awesome-awesomes as a publication feed for developers.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Seen in awesome-LLM-resources with purpose: 'Summary of the world's best LLM resources' under 技巧 Tips"
+    - URL is a CSDN blog article (https://blog.csdn.net/muyao987/article/details/125917234), not a standalone tool or product
+    - No GitHub repo, stars, or activity signals — purely a content resource
 placement:
-  primary_category: null
+  primary_category: awesome-awesomes
   secondary_categories: []
-  section: null
+  section: Publications & Feeds
 lifecycle:
   status: incubating
   reason: null
@@ -69,29 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:50.876Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for blog__csdn__net__muyao987__article__details__125917234: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:24:36.714Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0b170b99eb79f59d06ee3f028207d90c1987330abd7d96788c279b949014a21e
+      category_rules_version: c367d6101132
+      input_hash: sha256:7dad79e24ad132783f7a51c56127d54ce908053b63fe211a150df00e2a91f7ad
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: The content is a curated summary of diverse LLM resources rather than a standalone tool or framework.
+      decision_reason: The source is a blog post functioning as a curated directory of LLM resources, matching the scope of awesome-awesomes as a publication feed for developers.
       decision_evidence:
-        - Listed in source-list context as a summary of the world's best LLM resources
-        - Covers a broad range of topics like Agent, MCP, and Coding Assistance
+        - "Seen in awesome-LLM-resources with purpose: 'Summary of the world's best LLM resources' under 技巧 Tips"
+        - URL is a CSDN blog article (https://blog.csdn.net/muyao987/article/details/125917234), not a standalone tool or product
+        - No GitHub repo, stars, or activity signals — purely a content resource
       category_candidates:
         - awesome-awesomes
         - skills
-      contrastive_reason: Choose awesome-awesomes over skills because the resource is a collection of diverse topics and information rather than a specific, portable pack of reusable agent instructions.
+      contrastive_reason: Choose awesome-awesomes over skills because the resource is a blog post curating LLM topics and tools, not a distributable skill pack or ruleset for coding agents.
       review_reason: null
       review_resume_lifecycle: null

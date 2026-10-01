@@ -37,22 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A fast, offline documentation browser that allows developers to search through over 100 different programming language and web technology documentations in a single web application.
-  why_it_matters: It provides a centralized, high-speed way to access critical API references without the friction of multiple open tabs or slow-loading official sites.
-  mental_damage: Nothing prepares you for the sudden realization of how many browser tabs you've been hoarding just to keep track of syntax.
+  summary: DevDocs is a fast, offline, and free documentation browser for developers that aggregates 100+ technical references into a single searchable web app.
+  why_it_matters: It lets developers quickly look up language, framework, and API docs without context switching or network dependency, improving reference velocity during coding.
+  mental_damage: The quiet relief of never having to say 'let me check the docs' while silently dreading the 12-tab MDN spiral you’re about to unleash.
   tags:
     - documentation
-    - developer-tools
-    - offline-first
-    - productivity
+    - reference
+    - offline
+    - search
   confidence: high
 curation:
   status: excluded
-  reason: The project is a standalone utility for documentation browsing rather than a developer-facing AI tool, framework, or workflow integration.
+  reason: DevDocs is a documentation browser and reference tool, not an AI-powered developer tool; it lacks any AI agent, workflow, model integration, or intelligent automation fitting the catalog’s AI-tooling scope.
   evidence:
-    - Scraped site context defines it as a documentation browser.
-    - README/Site claims focus on offline search for 100+ docs.
-    - No mention of AI, LLM, or machine learning capabilities in the provided text.
+    - "Repo description: (none)"
+    - "Scraped site context: 'Fast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, and many more.'"
+    - No AI, agent, LLM, prompt, or automation claims appear in title, description, or excerpt.
 placement:
   primary_category: null
   section: null
@@ -70,27 +70,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:37:30.851Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for devdocs__io: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (51/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:26:30.227Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:798d59e7a286322ee49108edbcc78f218d2778649b5d474d6cbf5d90d7639166
+      category_rules_version: c367d6101132
+      input_hash: sha256:b89fb69e67606dec168258eae8f23ec3a479e099fd6cc61700aba9e164883311
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a standalone utility for documentation browsing rather than a developer-facing AI tool, framework, or workflow integration.
+      decision_reason: DevDocs is a documentation browser and reference tool, not an AI-powered developer tool; it lacks any AI agent, workflow, model integration, or intelligent automation fitting the catalog’s AI-tooling scope.
       decision_evidence:
-        - Scraped site context defines it as a documentation browser.
-        - README/Site claims focus on offline search for 100+ docs.
-        - No mention of AI, LLM, or machine learning capabilities in the provided text.
+        - "Repo description: (none)"
+        - "Scraped site context: 'Fast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, and many more.'"
+        - No AI, agent, LLM, prompt, or automation claims appear in title, description, or excerpt.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

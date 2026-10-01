@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Bilibili personal space of a former State Grid engineer sharing tutorials and resources on building production-ready AI agents and vibe coding.
-  why_it_matters: Provides practical guidance for developers on implementing and deploying AI agents, particularly in production environments.
-  mental_damage: Another day, another engineer from a power grid company teaching you how to ship agents before your startup does.
+  summary: Bilibili personal space of UP主 木羽Cheney sharing videos, audio, articles, and dynamics about Agent and Vibe Coding.
+  why_it_matters: Provides developer-focused educational content on building Agents and Vibe Coding from a self-described硬核大模型工程师.
+  mental_damage: Another influencer-led 'learn AI coding' feed where the signal-to-noise ratio depends on whether you enjoy watching someone build Agents while wearing a hard hat.
   tags:
-    - tutorial
-    - agent-development
-    - chinese
-    - bilibili
+    - content
+    - video
+    - education
   confidence: high
 curation:
   status: excluded
-  reason: This is a personal content creator's page, not a developer tool, framework, or product.
+  reason: This is a personal content channel, not a developer-facing tool, agent, framework, or infrastructure product.
   evidence:
-    - URL is a Bilibili personal space (space.bilibili.com)
-    - Scraped context describes it as a personal account sharing videos/articles, not a tool
-    - Source-list context places it under 'Tutorial' section, not a product category
+    - Scraped site context describes it as a Bilibili personal space offering videos, audio, articles, and dynamics from UP主 木羽Cheney
+    - Source-list context notes it is included in awesome-LLM-resources under 教程 Tutorial as a content summary
+    - No evidence of a standalone product, tool, agent, framework, or infrastructure—only educational media
 placement:
   primary_category: null
   section: null
@@ -69,27 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:37:52.776Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for space__bilibili__com__3537113897241540: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:29:50.892Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:74e7f1a5c1dffeffa7b6b809dce538f977bd3abfa5d1addad402ccd618684d1e
+      category_rules_version: c367d6101132
+      input_hash: sha256:21b52436f56b264cb5ef399ecea9d8e8150541a7aa2a7079215e2282434af7c8
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a personal content creator's page, not a developer tool, framework, or product.
+      decision_reason: This is a personal content channel, not a developer-facing tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - URL is a Bilibili personal space (space.bilibili.com)
-        - Scraped context describes it as a personal account sharing videos/articles, not a tool
-        - Source-list context places it under 'Tutorial' section, not a product category
+        - Scraped site context describes it as a Bilibili personal space offering videos, audio, articles, and dynamics from UP主 木羽Cheney
+        - Source-list context notes it is included in awesome-LLM-resources under 教程 Tutorial as a content summary
+        - No evidence of a standalone product, tool, agent, framework, or infrastructure—only educational media
       category_candidates: []
       contrastive_reason: null
       review_reason: null

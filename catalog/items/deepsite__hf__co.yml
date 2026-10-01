@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered web development platform that generates and deploys multi-page websites from text prompts.
-  why_it_matters: It accelerates the prototyping and deployment phase by converting natural language descriptions directly into live, hosted web applications.
-  mental_damage: The gap between 'prompting a landing page' and 'aintaining a production codebase' is about to get much, much wider.
+  summary: DeepSite is an AI-powered web development tool that builds, deploys, and hosts websites from prompts using open-source models.
+  why_it_matters: It enables developers to generate and deploy full websites instantly without writing code or managing infrastructure.
+  mental_damage: Finally, a tool that lets you skip learning HTML/CSS while still pretending you're a full-stack engineer.
   tags:
-    - ai-web-builder
+    - ai
+    - web-development
     - no-code
-    - deployment
-    - deployment-automation
+    - huggingface
   confidence: high
 curation:
   status: included
-  reason: The tool's core identity is a prompt-to-site/app generator that handles the full lifecycle from creation to hosting.
+  reason: DeepSite generates deployable websites from natural language prompts without requiring an existing codebase, fitting the app-builder pattern of prompt-to-deployable-artifact.
   evidence:
-    - README describes building and deploying stunning websites in minutes
-    - Features include multi-page generation, auto-deploy, and free hosting
-    - Source-list context identifies it as a UI Generator for web development
+    - "Scraped site context: 'Build, design, and deploy stunning websites in minutes with AI-powered development.'"
+    - "Source-list context: listed in awesome-ai-coding-tools under 'UI Generators' with description 'DeepSite is a web development tool that helps you build websites with AI, no code required.'"
+    - "Primary page excerpt: 'Auto Deploy: Push your changes and watch them go live instantly. No complex CI/CD setup required.' and 'Free Hosting: Host your websites for free with global CDN.'"
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -70,30 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:37:22.275Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for deepsite__hf__co: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:26:24.143Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0f4a59a95fcce86d89bf59e67aae2244ff63a1d5bdd5984e5c0ddbd1423c2964
+      category_rules_version: c367d6101132
+      input_hash: sha256:2828e74e977046c39c1a0ab30d4e88cf1967909cb5ead23e67257c058707d643
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The tool's core identity is a prompt-to-site/app generator that handles the full lifecycle from creation to hosting.
+      decision_reason: DeepSite generates deployable websites from natural language prompts without requiring an existing codebase, fitting the app-builder pattern of prompt-to-deployable-artifact.
       decision_evidence:
-        - README describes building and deploying stunning websites in minutes
-        - Features include multi-page generation, auto-deploy, and free hosting
-        - Source-list context identifies it as a UI Generator for web development
+        - "Scraped site context: 'Build, design, and deploy stunning websites in minutes with AI-powered development.'"
+        - "Source-list context: listed in awesome-ai-coding-tools under 'UI Generators' with description 'DeepSite is a web development tool that helps you build websites with AI, no code required.'"
+        - "Primary page excerpt: 'Auto Deploy: Push your changes and watch them go live instantly. No complex CI/CD setup required.' and 'Free Hosting: Host your websites for free with global CDN.'"
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the user experience centers on generating and deploying entire sites from prompts rather than editing an existing codebase.
+      contrastive_reason: Choose app-builders over coding-agents because DeepSite creates new websites from prompts rather than editing or assisting within an existing codebase.
       review_reason: null
       review_resume_lifecycle: null

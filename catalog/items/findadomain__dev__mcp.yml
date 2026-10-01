@@ -36,25 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server that enables AI assistants to check domain availability, TLD listings, and WHOIS data.
-  why_it_matters: It allows agents to perform real-time domain research and brand validation directly within an AI-driven development workflow.
-  mental_damage: Now your LLM can tell you your million-dollar startup idea is taken before you've even written a single line of code.
+  summary: MCP server exposing domain availability and TLD listing via HTTP transport for integration with AI assistants.
+  why_it_matters: Lets AI agents programmatically check domain names and list supported TLDs inside agent workflows without leaving the assistant.
+  mental_damage: Another tiny MCP server that does one thing well, reminding us that the future of AI tooling is a thousand niche protocols holding hands.
   tags:
     - mcp
-    - domain-search
-    - ai-tooling
-    - dev-workflow
+    - domain-tools
+    - api
   confidence: high
 curation:
   status: included
-  reason: The product is specifically an MCP server designed to expose domain search capabilities to AI assistants.
+  reason: The product is an MCP server whose core identity is exposing domain tools over the Model Context Protocol, fitting the MCP ecosystem category.
   evidence:
-    - Scraped site context identifies it as 'MCP tools for domain availability checking'
-    - Explicitly provides an MCP endpoint (HTTP transport)
-    - Provides specific tools (check_domain, list_tlds) for MCP clients
+    - Described as 'MCP tools for domain availability checking and TLD listing' in scraped site context
+    - Provides MCP tools like check_domain and list_tlds over HTTP transport
+    - Listed in awesome-mcp-servers under Official Servers as an MCP server
 placement:
   primary_category: mcp
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
@@ -69,30 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:39:28.370Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for findadomain__dev__mcp: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:27:44.091Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:800130e5dd72b608d0fed987864e0f6779eaeb8ce1273f20450858b4672c0e9e
+      category_rules_version: c367d6101132
+      input_hash: sha256:5d60bd143ec4e475529615168064e70e063298d6d389df9f930c419ec23bf462
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is specifically an MCP server designed to expose domain search capabilities to AI assistants.
+      decision_reason: The product is an MCP server whose core identity is exposing domain tools over the Model Context Protocol, fitting the MCP ecosystem category.
       decision_evidence:
-        - Scraped site context identifies it as 'MCP tools for domain availability checking'
-        - Explicitly provides an MCP endpoint (HTTP transport)
-        - Provides specific tools (check_domain, list_tlds) for MCP clients
+        - Described as 'MCP tools for domain availability checking and TLD listing' in scraped site context
+        - Provides MCP tools like check_domain and list_tlds over HTTP transport
+        - Listed in awesome-mcp-servers under Official Servers as an MCP server
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is a specialized MCP server rather than a general workflow integration for a specific editor.
+        - app-builders
+      contrastive_reason: Choose mcp over app-builders because it is an MCP server exposing domain tools, not a prompt-to-app generator that creates deployable artifacts from scratch.
       review_reason: null
       review_resume_lifecycle: null

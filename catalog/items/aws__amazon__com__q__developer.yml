@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered coding assistant by AWS that provides code suggestions, chat, and agentic capabilities for software development tasks.
-  why_it_matters: It provides deep integration with AWS services and agentic capabilities for automating complex tasks like refactoring and software upgrades.
-  mental_damage: Because nothing says 'developer productivity' quite like delegating your entire software upgrade path to an AWS agent.
+  summary: Amazon Q Developer is an AI coding assistant that writes, debugs, and refactors code natively in IDEs and terminals.
+  why_it_matters: It boosts developer productivity by autonomously handling coding tasks across the software lifecycle within familiar development environments.
+  mental_damage: Yet another reminder that your IDE now has a coworker who never takes breaks and occasionally suggests rewriting your entire codebase.
   tags:
-    - aws
-    - ide-extension
-    - coding-assistant
-    - agentic-workflows
-    - cloud-integration
+    - ai-assistant
+    - ide-integration
+    - agentic-coding
   confidence: high
 curation:
   status: included
-  reason: It functions as a standalone coding assistant with agentic capabilities that can read, write, and execute tasks, though it is primarily used via IDE extensions.
+  reason: Amazon Q Developer is a standalone AI agent whose core function is performing coding tasks like writing, debugging, and refactoring code directly in developer environments, making it a coding agent rather than an extension or app builder.
   evidence:
-    - Claims agentic capabilities for implementing features, documenting, testing, and refactoring code.
-    - Available as plugins for JetBrains, VS Code, and Visual Studio.
-    - Directly performs multi-step tasks like.NET porting and Java upgrades.
+    - Scraped site describes it as 'The most capable generative AI–powered assistant for software development' that 'writes, debugs, and refactors code natively in your IDE'
+    - It offers agentic capabilities that 'autonomously perform a range of tasks–everything from implementing features, documenting, testing, reviewing, and refactoring code'
+    - Available as plugins/extensions for VS Code, JetBrains, Visual Studio, Eclipse, and CLI, indicating it operates as a primary coding assistant within host tools
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -71,30 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:44.481Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for aws__amazon__com__q__developer: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:24:26.773Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e39ea7c5dec50f4a3248c765a3c16d763d986d884d8a0ac5bd32aa32c8d8737a
+      category_rules_version: c367d6101132
+      input_hash: sha256:f287f9a02b8ef964095ec67f12e66d3cca884869ac407b39291338ce680a9a68
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It functions as a standalone coding assistant with agentic capabilities that can read, write, and execute tasks, though it is primarily used via IDE extensions.
+      decision_reason: Amazon Q Developer is a standalone AI agent whose core function is performing coding tasks like writing, debugging, and refactoring code directly in developer environments, making it a coding agent rather than an extension or app builder.
       decision_evidence:
-        - Claims agentic capabilities for implementing features, documenting, testing, and refactoring code.
-        - Available as plugins for JetBrains, VS Code, and Visual Studio.
-        - Directly performs multi-step tasks like.NET porting and Java upgrades.
+        - Scraped site describes it as 'The most capable generative AI–powered assistant for software development' that 'writes, debugs, and refactors code natively in your IDE'
+        - It offers agentic capabilities that 'autonomously perform a range of tasks–everything from implementing features, documenting, testing, reviewing, and refactoring code'
+        - Available as plugins/extensions for VS Code, JetBrains, Visual Studio, Eclipse, and CLI, indicating it operates as a primary coding assistant within host tools
       category_candidates:
         - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because its core value proposition is the agentic ability to autonomously plan and execute complex, multi-step development tasks rather than just being a thin UI augmentation.
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Amazon Q Developer is the primary AI agent performing coding tasks, not a plugin that augments another agent's capabilities.
       review_reason: null
       review_resume_lifecycle: null

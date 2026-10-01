@@ -51,53 +51,52 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A private AI tool that connects to company data sources (Notion, JIRA, Slack, GitHub) to enable natural language queries over organizational knowledge.
-  why_it_matters: It solves the problem of fragmented internal knowledge by providing a secure, private way to query company data without training on external models.
-  mental_damage: Finally, a way to ask 'Where did we bury that decision from 2022?' without digging through Slack archives like a forensic archaeologist.
+  summary: PrivateGPT is a self-hosted tool that connects private data sources to a natural language AI interface for organizational knowledge retrieval.
+  why_it_matters: It lets developers query company data securely without relying on external AI services that could leak sensitive information.
+  mental_damage: Finally, a way to feel guilty about not documenting things while also being unable to find anything because it's all in PrivateGPT now.
   tags:
-    - enterprise-search
-    - private-ai
+    - local-ai
+    - rag
     - knowledge-management
-    - data-integration
-  confidence: high
+  confidence: medium
 curation:
-  status: excluded
-  reason: The product is a hosted SaaS for enterprise knowledge management, not a developer-tooling product (no code editing, repo work, or developer workflow integration).
+  status: included
+  reason: PrivateGPT's core identity is running AI models locally on private infrastructure to enable secure, private data querying, matching the local-ai category's focus on self-hosted execution as the primary value.
   evidence:
-    - "Site description: 'Connect your own data sources to a private AI powered tool and start asking in natural language'"
-    - Primary use case is organizational knowledge retrieval, not developer workflows
-    - No evidence of code editing, repo integration, or developer tooling capabilities
+    - Scraped site context emphasizes 'Your data is yours and won't be used to train AI' and 'Private' as core features
+    - Source-list placement in awesome-ai-agents under 'Connect your own data sources to a private AI powered tool' highlights self-hosted, private data integration
+    - README excerpt describes connecting Notion, JIRA, Slack, GitHub etc. to ask questions in natural language, positioning it as a local AI tool for organizational knowledge
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Local API Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:44:21.747Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for privategpt__io: Invalid AI response format: SyntaxError: Unexpected token 'P', ...\"summary\": Private GP\"... is not valid JSON"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:30:42.479Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7fb3255413365e263c98eb820a96f2f54bf74a173a9883b90596218fd3e492c7
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:1519b66ae41bf72f50610fd9df27c78437bf077a1c5801ff44d97b7f9579278f
+      proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: The product is a hosted SaaS for enterprise knowledge management, not a developer-tooling product (no code editing, repo work, or developer workflow integration).
+      decision_reason: PrivateGPT's core identity is running AI models locally on private infrastructure to enable secure, private data querying, matching the local-ai category's focus on self-hosted execution as the primary value.
       decision_evidence:
-        - "Site description: 'Connect your own data sources to a private AI powered tool and start asking in natural language'"
-        - Primary use case is organizational knowledge retrieval, not developer workflows
-        - No evidence of code editing, repo integration, or developer tooling capabilities
-      category_candidates: []
-      contrastive_reason: null
+        - Scraped site context emphasizes 'Your data is yours and won't be used to train AI' and 'Private' as core features
+        - Source-list placement in awesome-ai-agents under 'Connect your own data sources to a private AI powered tool' highlights self-hosted, private data integration
+        - README excerpt describes connecting Notion, JIRA, Slack, GitHub etc. to ask questions in natural language, positioning it as a local AI tool for organizational knowledge
+      category_candidates:
+        - local-ai
+        - memory-and-context
+      contrastive_reason: Choose local-ai over memory-and-context because PrivateGPT's primary identity is local/private execution as the enabler of secure querying, whereas its RAG/retrieval functionality serves that local AI purpose rather than being the core novelty itself.
       review_reason: null
       review_resume_lifecycle: null
   discover:

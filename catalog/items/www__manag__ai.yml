@@ -36,18 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: www.manag.ai hosts the ABYZ Admin Panel, a generic admin interface with no stated AI functionality.
-  why_it_matters: It does not currently claim to assist developers with AI-powered coding, workflows, or tooling.
-  mental_damage: Another admin panel pretending relevance in the AI directory swamp.
-  tags: []
+  summary: ABYZ Admin Panel is a web-based interface for managing system administration tasks.
+  why_it_matters: It may offer a UI for configuring infrastructure or services relevant to developer workflows, though its AI relevance is unclear.
+  mental_damage: Another admin panel promising to simplify DevOps, adding to the pile of tools that shift complexity from terminals to dashboards.
+  tags:
+    - admin-panel
+    - infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: The site provides no evidence of AI capabilities, developer tooling, or integration with coding workflows; it appears to be a generic admin dashboard.
+  reason: The project lacks clear AI or developer-tooling identity; it is positioned as a generic admin panel with no evidence of AI integration, agent behavior, or workflow enhancement for developers.
   evidence:
-    - "Title: ABYZ Admin Panel"
-    - "Description: (none)"
-    - No README, repo description, or AI-related claims provided
+    - Repo description is missing; no indication of AI, agents, or developer tooling in available metadata.
+    - Scraped site title 'ABYZ Admin Panel' and absent description suggest a generic infrastructure UI without AI features.
+    - No source-list context indicates inclusion in any curated developer-focused AI resource.
 placement:
   primary_category: null
   section: null
@@ -66,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:52:06.617Z"
+    updated_at: "2026-10-01T04:32:01.322Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -79,11 +81,11 @@ processing:
       input_hash: sha256:9b849776d4c2884d9017b23c103ff9d59d32c5b56f0b41c86382c992f257d45b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site provides no evidence of AI capabilities, developer tooling, or integration with coding workflows; it appears to be a generic admin dashboard.
+      decision_reason: The project lacks clear AI or developer-tooling identity; it is positioned as a generic admin panel with no evidence of AI integration, agent behavior, or workflow enhancement for developers.
       decision_evidence:
-        - "Title: ABYZ Admin Panel"
-        - "Description: (none)"
-        - No README, repo description, or AI-related claims provided
+        - Repo description is missing; no indication of AI, agents, or developer tooling in available metadata.
+        - Scraped site title 'ABYZ Admin Panel' and absent description suggest a generic infrastructure UI without AI features.
+        - No source-list context indicates inclusion in any curated developer-focused AI resource.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

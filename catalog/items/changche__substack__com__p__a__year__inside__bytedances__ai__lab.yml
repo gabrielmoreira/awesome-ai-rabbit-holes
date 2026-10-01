@@ -37,20 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Substack publication detailing ByteDance's AI laboratory operations and research insights over a one-year period.
-  why_it_matters: Provides high-signal technical context on how a major AI lab approaches model training, agents, and infra in production.
-  mental_damage: Another long-form essay to read while your local LLM is busy hallucinating a semi-working implementation of the very research described.
+  summary: A Substack article reflecting on a year inside ByteDance's AI Lab.
+  why_it_matters: Offers insider perspective on AI research culture at a major tech company, potentially informing developers about industry trends and practices.
+  mental_damage: Another lengthy corporate memoir that pretends tech industry navel-gazing is useful career advice for engineers.
   tags:
-    - insights
-    - research
-    - ai-lab
-    - case-study
+    - article
+    - reflection
+    - ai-research
   confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: This is a reflective blog post, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - Source is a Substack article titled 'a-year-inside-bytedances-ai-lab'
+    - No GitHub repo, no tool, no SDK, no agent — just a personal narrative
+    - Listed in awesome-LLM-resources under 'Podcast' as a suggestion, not as a tool
 placement:
   primary_category: null
   secondary_categories: []
@@ -69,29 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:35:01.449Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for changche__substack__com__p__a__year__inside__bytedances__ai__lab: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:24:49.216Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:af1fe640817be91d8ac5d84e2ac87c0753156752f015000f2cdadf7300af14e3
-      proposed_primary_category: newsletters-and-feeds
+      category_rules_version: c367d6101132
+      input_hash: sha256:8dada42093a774465d24a343032a6117405d6615d3a18cfabe789bad67b9d044
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a periodic publication/media resource providing commentary and research insights rather than a functional developer tool.
+      decision_reason: This is a reflective blog post, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - Source URL is a Substack publication
-        - Source-list context identifies it as a 'Podcast/Summary' style resource
-      category_candidates:
-        - newsletters-and-feeds
-        - awesome-awesomes
-      contrastive_reason: Choose newsletters-and-feeds over awesome-awesomes because the primary value is ongoing commentary and research analysis rather than a curated directory of tools.
+        - Source is a Substack article titled 'a-year-inside-bytedances-ai-lab'
+        - No GitHub repo, no tool, no SDK, no agent — just a personal narrative
+        - Listed in awesome-LLM-resources under 'Podcast' as a suggestion, not as a tool
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

@@ -37,17 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A website feedback widget that uses animated characters to collect visitor responses via a single script tag.
-  why_it_matters: N/A
-  mental_damage: N/A
-  tags: []
+  summary: A website feedback widget that uses animated characters to collect visitor responses and route them to Slack, Telegram, or a dashboard.
+  why_it_matters: It offers a low-friction way for site owners to gather user feedback via a simple script tag integration.
+  mental_damage: The inevitable evolution of the web where every single site eventually features a tiny, animated stranger interrogating your users.
+  tags:
+    - feedback-widget
+    - user-experience
+    - saas
+    - marketing-tool
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a customer feedback widget for collecting website visitor input and does not provide any functionality relevant to AI development, coding, or agentic workflows.
+  reason: The product is a general-purpose marketing and user-experience tool rather than a tool for the software development lifecycle or AI engineering.
   evidence:
-    - Scraped site context describes the product as a feedback widget for WordPress and Shopify stores
-    - The product identity is centered on customer feedback collection rather than developer-facing AI infrastructure or tooling
+    - Product identity is a website feedback widget for collecting visitor answers
+    - Main value proposition is user feedback collection, not developer-facing AI infrastructure or tooling
 placement:
   primary_category: null
   section: null
@@ -66,9 +70,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:19:28.148Z"
+    updated_at: "2026-10-01T04:20:28.205Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -76,13 +80,13 @@ processing:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: c367d6101132
-      input_hash: sha256:8fa21390c4f27a05f3622a66d100a0dc09cd84435b9b39ef705dda9eb8b3858b
+      input_hash: sha256:a2ad1a18c0c71287660f92b0654813b97d4b32b12ea1cd375aa24941538c61ef
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a customer feedback widget for collecting website visitor input and does not provide any functionality relevant to AI development, coding, or agentic workflows.
+      decision_reason: The product is a general-purpose marketing and user-experience tool rather than a tool for the software development lifecycle or AI engineering.
       decision_evidence:
-        - Scraped site context describes the product as a feedback widget for WordPress and Shopify stores
-        - The product identity is centered on customer feedback collection rather than developer-facing AI infrastructure or tooling
+        - Product identity is a website feedback widget for collecting visitor answers
+        - Main value proposition is user feedback collection, not developer-facing AI infrastructure or tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null

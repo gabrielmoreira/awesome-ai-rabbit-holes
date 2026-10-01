@@ -37,26 +37,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server that enables AI agents to quote, book, and track freight shipments using Warp's carrier network.
-  why_it_matters: It allows developers to build shipping integrations or manage logistics directly via AI chat without switching to a separate logistics portal.
-  mental_damage: We have officially reached the era where you can accidentally book a full truckload of cargo via a hallucinated prompt in your IDE.
+  summary: Warp MCP Server provides 31 freight quote, booking, and tracking tools via the Model Context Protocol for use in Claude, Cursor, and similar clients.
+  why_it_matters: Developers can query real LTL/FTL rates and book freight directly from their AI coding assistant without leaving the chat.
+  mental_damage: Now your AI can ghost you not just with bad code, but with a misrouted pallet of shrink-wrapped despair.
   tags:
     - mcp
-    - logistics
     - freight
-    - api-integration
+    - logistics
+    - ai-agent
+    - developer-tool
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server that provides a specific domain of tools (freight) to compatible AI clients.
+  reason: The product's primary identity is an MCP server exposing domain-specific freight tools; it is not a coding agent, extension, or app builder but infrastructure enabling MCP-native tool use.
   evidence:
-    - Explicitly identifies as the 'first MCP server for booking real freight'
-    - Provides a standard MCP configuration for Claude Desktop, Cursor, and Windsurf
-    - Listed in the Official MCP Registry as io.github.warpfreight/warp-agent-mcp
+    - Exposes 31 MCP tools for quoting, booking, and tracking freight via npx warp-agent-mcp
+    - Marketed as 'The first MCP server for booking real freight' with hosted and local install options
+    - Requires MCP-compatible clients (Claude Desktop, Cursor, Claude Code, etc.) to function
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
@@ -71,12 +72,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-21T04:34:02.976Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for www__wearewarp__com__agents__mcp: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (1707/16)"
-    attempts: 2
+    status: done
+    updated_at: "2026-10-01T04:18:00.439Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:b661e62eeba49a6e60c76fc79365fe7072e9a2485c7d7f1cd8fd1f3ac8187ab2
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's primary identity is an MCP server exposing domain-specific freight tools; it is not a coding agent, extension, or app builder but infrastructure enabling MCP-native tool use.
+      decision_evidence:
+        - Exposes 31 MCP tools for quoting, booking, and tracking freight via npx warp-agent-mcp
+        - Marketed as 'The first MCP server for booking real freight' with hosted and local install options
+        - Requires MCP-compatible clients (Claude Desktop, Cursor, Claude Code, etc.) to function
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server exposing tools over the protocol, not a plugin that augments a coding agent's capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

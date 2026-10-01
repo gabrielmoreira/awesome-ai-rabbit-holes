@@ -37,15 +37,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A communication-focused MCP server implementation.
-  why_it_matters: It extends Model Context Protocol capabilities with communication tools, enabling developers to integrate conversational or messaging features into their AI workflows.
-  mental_damage: Because nothing says 'developer productivity' like adding yet another protocol layer to your already fragmented AI toolchain.
+  summary: spix.sh is a tool that enables AI agents to read and write files by converting directory structures into XML prompts.
+  why_it_matters: It helps developers give AI coding assistants structured access to codebases for better context in terminal or editor workflows.
+  mental_damage: Yet another XML wrapper for folder trees, promising that this time the AI won’t hallucinate file paths.
   tags:
-    - mcp
-    - communication
-    - server
-    - protocol
-  confidence: high
+    - context-engineering
+    - ai-dev-extensions
+  confidence: medium
 curation:
   status: included
   reason: MCP is the product identity here, as evidenced by its inclusion in the awesome-mcp-servers list under Server Implementations for communication.
@@ -55,10 +53,10 @@ curation:
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'mcp', proposed 'memory-and-context'"
 processing:
   discover:
     status: done
@@ -70,29 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:38:18.755Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for spix__sh: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:29:58.657Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3a5433a33fb7949b999b291d62659d1d02cec15615556aab059db0796a74d569
-      proposed_primary_category: mcp
-      disagreement: false
-      decision_reason: MCP is the product identity here, as evidenced by its inclusion in the awesome-mcp-servers list under Server Implementations for communication.
+      category_rules_version: c367d6101132
+      input_hash: sha256:af109577e5d888096ed85b7f66bd3eec1eef00f286aadf8783773f319a6c41a8
+      proposed_primary_category: memory-and-context
+      disagreement: true
+      decision_reason: spix.sh provides context compression by transforming directory trees into XML for agent consumption, making it a context-shaping tool rather than a coding agent or extension.
       decision_evidence:
-        - Listed in awesome-mcp-servers under Server Implementations > Communication
-        - Product identity is explicitly an MCP server
+        - Converts directory structures into XML prompts for AI agents to read and write files
+        - Designed to improve what goes into the model by shaping context for AI sessions
+        - Focuses on context management and retrieval rather than autonomous code editing
       category_candidates:
-        - mcp
+        - memory-and-context
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server implementation, not an extension layer for another tool.
-      review_reason: null
+      contrastive_reason: Choose memory-and-context over ai-dev-extensions because the core novelty is context compression and prompt shaping, not extending a host agent with new capabilities like debugger or browser access.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'mcp', proposed 'memory-and-context'"
       review_resume_lifecycle: null

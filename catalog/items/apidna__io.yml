@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An enterprise agent execution platform that automates complex, domain-specific workflows across APIs, databases, and legacy systems.
-  why_it_matters: It targets the gap between chat-based AI demos and reliable, auditable production operations by using vertically-trained agents rather than general-purpose prompts.
-  mental_damage: Because apparently, 'it worked in my playground' is no longer a valid excuse for why the reconciliation agent just hallucinated an entire financial quarter.
+  summary: APIDNA is a vertically-trained AI agent platform that automates enterprise workflows across systems with domain-specific agents.
+  why_it_matters: It enables developers to deploy reliable, auditable AI agents for complex operational tasks like reconciliation and compliance without building custom integrations.
+  mental_damage: Finally, an AI agent that won't hallucinate your PSD2 report—just your hope that this doesn't require another six-month procurement cycle.
   tags:
-    - agent-orchestration
-    - enterprise-automation
+    - ai-agents
     - workflow-automation
-    - multi-agent-systems
-    - compliance-tech
-  confidence: high
+    - enterprise-ai
+  confidence: medium
 curation:
   status: included
-  reason: APIDNA is an operated execution platform that coordinates multiple specialized agents to perform complex, multi-step business workflows.
+  reason: APIDNA is a platform that coordinates multiple specialized agents to execute complex, multi-system workflows with governance and audit trails, making it an agent orchestration tool rather than a coding agent or app builder.
   evidence:
-    - Claims to provide an 'execution layer' and 'agent orchestration' for real-world operational workflows.
-    - Focuses on multi-agent coordination with state management and human-in-the-loop escalation.
-    - Provides specialized agents (Reconciliation, Compliance, etc.) working in parallel.
+    - APIDNA deploys and coordinates multiple specialized agents (ReconciliationAgent, ComplianceAgent, etc.) working in parallel on interdependent tasks.
+    - The platform includes agent orchestration layer with workflow routing, state management, and human escalation paths.
+    - It executes across APIs, ERPs, databases, and legacy infrastructure in a single coherent workflow as part of multi-agent coordination.
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
@@ -71,30 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:10.509Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for apidna__io: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:23:30.827Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:2c49a6456351e6f2a0a6c50f3638a427549ba741886a346318dd91796c36435b
+      category_rules_version: c367d6101132
+      input_hash: sha256:017ec20ae86a6f3e22428a3cc062173fc927b5c5794a0099fad0f9d4975636bc
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: APIDNA is an operated execution platform that coordinates multiple specialized agents to perform complex, multi-step business workflows.
+      decision_reason: APIDNA is a platform that coordinates multiple specialized agents to execute complex, multi-system workflows with governance and audit trails, making it an agent orchestration tool rather than a coding agent or app builder.
       decision_evidence:
-        - Claims to provide an 'execution layer' and 'agent orchestration' for real-world operational workflows.
-        - Focuses on multi-agent coordination with state management and human-in-the-loop escalation.
-        - Provides specialized agents (Reconciliation, Compliance, etc.) working in parallel.
+        - APIDNA deploys and coordinates multiple specialized agents (ReconciliationAgent, ComplianceAgent, etc.) working in parallel on interdependent tasks.
+        - The platform includes agent orchestration layer with workflow routing, state management, and human escalation paths.
+        - It executes across APIs, ERPs, databases, and legacy infrastructure in a single coherent workflow as part of multi-agent coordination.
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is presented as an operated platform and control plane for coordinating agents rather than a library for developers to import.
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because APIDNA is an operated platform for managing agent teams, not a code-first library developers import and program against.
       review_reason: null
       review_resume_lifecycle: null

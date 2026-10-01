@@ -36,22 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Fibery is a low-code work management platform that combines project management, CRM, and knowledge management into a single integrated workspace.
-  why_it_matters: It allows teams to build custom relational data structures and automated workflows to manage complex development processes without writing custom internal tools.
-  mental_damage: The sheer flexibility of mapping every single dependency in your life will eventually lead to a crisis of architectural over-engineering.
+  summary: Fibery.io is a workspace platform for connecting data, processes, and collaboration, not a developer-facing AI tool.
+  why_it_matters: It helps teams manage workflows and knowledge, but does not provide AI-assisted coding, app building, or agent orchestration for software development.
+  mental_damage: Just another all-in-one workspace pretending AI integration makes it essential for developers, when it’s really a Notion clone with extra steps.
   tags:
-    - work-management
-    - low-code
-    - project-management
-    - no-code
     - productivity
+    - workspace
+    - collaboration
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a general-purpose low-code work management platform rather than a developer-focused AI tool, agent, or coding infrastructure.
+  reason: Fibery.io is a general-purpose work and knowledge management platform; its MCP server listing is incidental to its core identity as a SaaS tool, not a developer-facing AI utility.
   evidence:
-    - Product is a general SaaS work management/low-code platform
-    - No clear AI-native developer tooling or agentic workflow identity in the context
+    - "Seen in source lists: awesome-mcp-servers | purpose: A curated list of Model Context Protocol (MCP) servers | section: Official Servers"
+    - No GitHub repo description, stars, or activity signals provided; homepage describes a connected workspace for teams, not AI developer tooling
 placement:
   primary_category: null
   section: null
@@ -69,26 +67,24 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:39:27.677Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for fibery__io: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:27:32.437Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:35030aa4c09ea604181af96455951e0e90c1319017ecc7dd8df88b2ebfd2e6f9
+      category_rules_version: c367d6101132
+      input_hash: sha256:199d2d3fa052a544f4607f8331c12e822d176ef26753923ce4571d156ed6a2f3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a general-purpose low-code work management platform rather than a developer-focused AI tool, agent, or coding infrastructure.
+      decision_reason: Fibery.io is a general-purpose work and knowledge management platform; its MCP server listing is incidental to its core identity as a SaaS tool, not a developer-facing AI utility.
       decision_evidence:
-        - Product is a general SaaS work management/low-code platform
-        - No clear AI-native developer tooling or agentic workflow identity in the context
+        - "Seen in source lists: awesome-mcp-servers | purpose: A curated list of Model Context Protocol (MCP) servers | section: Official Servers"
+        - No GitHub repo description, stars, or activity signals provided; homepage describes a connected workspace for teams, not AI developer tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null

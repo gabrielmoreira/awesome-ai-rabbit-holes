@@ -819,6 +819,15 @@ _These are new or low-traffic entries being watched._
   `llm-management` `cli` `rest-api` `local-inference`
   </details>
 
+- **[backyard.ai](https://backyard.ai)** Backyard AI is a platform for creating and chatting with immersive AI-powered characters, offering fictional text and voice interactions with customizable lorebooks, author notes, and model parameters. <details><summary>More about</summary>
+
+  It matters to developers interested in local AI or prompt engineering who want to experiment with character-driven storytelling, context injection, or model tuning in a no-code environment.
+
+  _Another reminder that 'no filters' is both a feature and a moderation nightmare waiting to happen._
+
+  `local-ai` `prompt-engineering` `character-ai`
+  </details>
+
 - **[FireworksAI](https://fireworks.ai)** Fireworks.ai provides fast inference for generative AI models, including open-source LLMs and image models, with optional fine-tuning and deployment capabilities. <details><summary>More about</summary>
 
   It enables developers to run high-speed, cost-effective AI inference locally or via API, reducing latency and operational overhead for AI-powered applications.
@@ -889,4 +898,13 @@ _These are new or low-traffic entries being watched._
   _Another 'AI PC' app that makes you wonder if your GPU is now a full-time therapist for your messy Downloads folder._
 
   `local-ai` `desktop-assistant` `offline-ai`
+  </details>
+
+- **[Private GPT](https://privategpt.io)** PrivateGPT is a self-hosted tool that connects private data sources to a natural language AI interface for organizational knowledge retrieval. <details><summary>More about</summary>
+
+  It lets developers query company data securely without relying on external AI services that could leak sensitive information.
+
+  _Finally, a way to feel guilty about not documenting things while also being unable to find anything because it's all in PrivateGPT now._
+
+  `local-ai` `rag` `knowledge-management`
   </details>

@@ -36,26 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Backyard AI is a desktop application for creating immersive AI-powered characters for roleplay and text-based storytelling.
-  why_it_matters: It provides a local interface for running specialized LLM configurations, including custom grammars and lorebooks, for creative storytelling.
-  mental_damage: Because why spend time debugging production code when you could be fine-tuning the emotional nuances of a fantasy elf guard?
+  summary: Backyard AI is a platform for creating and chatting with immersive AI-powered characters, offering fictional text and voice interactions with customizable lorebooks, author notes, and model parameters.
+  why_it_matters: It matters to developers interested in local AI or prompt engineering who want to experiment with character-driven storytelling, context injection, or model tuning in a no-code environment.
+  mental_damage: Another reminder that 'no filters' is both a feature and a moderation nightmare waiting to happen.
   tags:
     - local-ai
-    - roleplay
-    - text-generation
-    - desktop-app
-    - creative-writing
-  confidence: high
+    - prompt-engineering
+    - character-ai
+  confidence: medium
 curation:
-  status: excluded
-  reason: The tool is an end-user entertainment product for creative roleplay rather than a developer-facing tool for software engineering workflows.
+  status: included
+  reason: Backyard AI is included as a local AI desktop chat UI focused on immersive character interactions, with self-hosted potential and model parameter controls that align with local AI tooling for developers.
   evidence:
-    - Scraped site context focuses on fictional text and voice chats
-    - README/Site content describes immersive character creation and lorebooks
-    - Product identity is a consumer entertainment platform, not developer infrastructure
+    - Scraped site context shows desktop and mobile apps (Android/iOS) with local-feeling character chat and customization features like lorebooks and author notes
+    - Source-list context from awesome-local-ai places it in the 'Inference UI' section, indicating recognition as a local AI interface
+    - README excerpt emphasizes immersive, customizable AI character chats with no filters, suggesting a self-contained, user-driven AI experience
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Desktop Chat & UIs
 lifecycle:
   status: incubating
   reason: null
@@ -70,28 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:44.951Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for backyard__ai: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:24:33.691Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ea0c1f2cebf316ca5972e3acc319ac3ac07d000d9488c8242c667bd31a847ea4
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:8bba8d169be06bf93feccee640d59cb738587e72323bdd0f815c94725e69aacc
+      proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: The tool is an end-user entertainment product for creative roleplay rather than a developer-facing tool for software engineering workflows.
+      decision_reason: Backyard AI is included as a local AI desktop chat UI focused on immersive character interactions, with self-hosted potential and model parameter controls that align with local AI tooling for developers.
       decision_evidence:
-        - Scraped site context focuses on fictional text and voice chats
-        - README/Site content describes immersive character creation and lorebooks
-        - Product identity is a consumer entertainment platform, not developer infrastructure
-      category_candidates: []
-      contrastive_reason: null
+        - Scraped site context shows desktop and mobile apps (Android/iOS) with local-feeling character chat and customization features like lorebooks and author notes
+        - Source-list context from awesome-local-ai places it in the 'Inference UI' section, indicating recognition as a local AI interface
+        - README excerpt emphasizes immersive, customizable AI character chats with no filters, suggesting a self-contained, user-driven AI experience
+      category_candidates:
+        - local-ai
+        - memory-and-context
+      contrastive_reason: Choose local-ai over memory-and-context because Backyard AI's primary identity is a desktop chat UI for local AI character interaction, not a dedicated memory or retrieval system, even though it uses lorebooks for context enrichment.
       review_reason: null
       review_resume_lifecycle: null

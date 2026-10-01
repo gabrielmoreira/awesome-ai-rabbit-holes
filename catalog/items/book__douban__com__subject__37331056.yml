@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: "A technical book titled \"Large Model Algorithms: Reinforcement Learning, Fine-tuning, and Alignment\" covering LLM training, SFT, DPO, and RLHF."
-  why_it_matters: Provides deep theoretical and practical grounding on the mathematical and algorithmic mechanics behind modern transformer-based models and alignment techniques.
-  mental_damage: Because apparently, reading the original research papers wasn't enough to help you understand why your model is hallucinating.
+  summary: 《大模型算法：强化学习、微调与对齐》 is a Chinese technical book covering LLM algorithms, including SFT, DPO, RLHF, and related optimization techniques.
+  why_it_matters: It serves as a reference for developers and engineers seeking to understand and implement LLM training and alignment methods in practical AI development workflows.
+  mental_damage: Another PDF-heavy resource promising deep learning mastery while quietly accepting that most readers will skim it for interview keywords.
   tags:
     - llm
     - reinforcement-learning
     - fine-tuning
-    - rlhf
-    - algorithms
+    - alignment
+    - chinese
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational book/publication, not a software tool, framework, or developer-facing product.
+  reason: The resource is an educational book, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - "Product identity is a printed/digital book (ISBN: 9787121500725)"
-    - Content covers theoretical algorithms and mathematical principles rather than providing a usable tool or SDK
-    - Categorized in source-list as a 'Book' for learning
+    - Scraped site context identifies it as a published book from 电子工业出版社 with ISBN 9787121500725, 240 pages, and a focus on explaining LLM algorithms.
+    - README excerpt and source-list context describe it as a technical summary of LLM training techniques, not a tool or platform.
+    - No GitHub repo, CLI, API, SDK, or runtime is associated; it is purely a literature resource.
 placement:
   primary_category: null
   section: null
@@ -70,27 +70,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:35:05.382Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for book__douban__com__subject__37331056: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:24:55.554Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0daa884da7952ec687f687999c902798c906494ac73f6eee0cee083fe2a03961
+      category_rules_version: c367d6101132
+      input_hash: sha256:547fa4983aeb74a000d5cd24de978982731cfaf273c75f90230df952cec8b298
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational book/publication, not a software tool, framework, or developer-facing product.
+      decision_reason: The resource is an educational book, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - "Product identity is a printed/digital book (ISBN: 9787121500725)"
-        - Content covers theoretical algorithms and mathematical principles rather than providing a usable tool or SDK
-        - Categorized in source-list as a 'Book' for learning
+        - Scraped site context identifies it as a published book from 电子工业出版社 with ISBN 9787121500725, 240 pages, and a focus on explaining LLM algorithms.
+        - README excerpt and source-list context describe it as a technical summary of LLM training techniques, not a tool or platform.
+        - No GitHub repo, CLI, API, SDK, or runtime is associated; it is purely a literature resource.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

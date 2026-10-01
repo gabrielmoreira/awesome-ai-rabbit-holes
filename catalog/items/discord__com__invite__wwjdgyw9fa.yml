@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Discord community for Jan, an open-source local AI desktop application designed to provide an easy-to-use interface for running large language models locally.
-  why_it_matters: It provides a community space for developers using local Runtimes to discuss privacy-focused, self-hosted AI workflows.
-  mental_damage: Another community to join while you wait for your local GPU to finish loading a 70B model.
+  summary: A Discord invite link for the Jan community, which is building open-source AI tools for open superintelligence.
+  why_it_matters: Provides access to a developer-focused community discussing local AI tools and open-source contributions relevant to AI development workflows.
+  mental_damage: Joining another Discord server to feel like you're contributing to AGI while actually just scrolling through memes and help requests.
   tags:
-    - local-ai
-    - open-source
     - community
+    - discord
+    - local-ai
   confidence: high
 curation:
   status: excluded
-  reason: This is a community Discord link for a project, rather than a standalone developer tool, framework, or piece of infrastructure.
+  reason: The input is a Discord invite link, not a standalone product, tool, or resource with developer-facing functionality; it serves as a community access point rather than a dev tool.
   evidence:
-    - URL is a Discord invite link
-    - Content is community/social interaction rather than a functional software component
-    - Scraped context describes it as a Discord server for Jan
+    - "URL is a Discord invite: https://discord.com/invite/WWjdgYw9Fa"
+    - Scraped site context describes it as 'Join the Jan Discord Server!' with community-focused messaging
+    - Source-list context shows it was listed in 'awesome-local-ai' under 'Community' section, indicating its role as a community hub
 placement:
   primary_category: null
   section: null
@@ -68,27 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:37:49.698Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for discord__com__invite__wwjdgyw9fa: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:26:41.029Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:da38d38ceba098f75e2d48ca095215d8f5636eebf7800f33773915b7ff0db5db
+      category_rules_version: c367d6101132
+      input_hash: sha256:77e9e39cb1ef9b57e53b234a6cb4b00dc8df350d613489b5efdbca07294fda2a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a community Discord link for a project, rather than a standalone developer tool, framework, or piece of infrastructure.
+      decision_reason: The input is a Discord invite link, not a standalone product, tool, or resource with developer-facing functionality; it serves as a community access point rather than a dev tool.
       decision_evidence:
-        - URL is a Discord invite link
-        - Content is community/social interaction rather than a functional software component
-        - Scraped context describes it as a Discord server for Jan
+        - "URL is a Discord invite: https://discord.com/invite/WWjdgYw9Fa"
+        - Scraped site context describes it as 'Join the Jan Discord Server!' with community-focused messaging
+        - Source-list context shows it was listed in 'awesome-local-ai' under 'Community' section, indicating its role as a community hub
       category_candidates: []
       contrastive_reason: null
       review_reason: null

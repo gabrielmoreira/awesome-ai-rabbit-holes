@@ -37,23 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A video game database API providing metadata, reviews, and semantic search for 775,000+ titles across 70+ platforms.
-  why_it_matters: Provides developers with structured gaming data, sentiment analysis via unique scoring, and MCP support for LLM integration.
-  mental_damage: "Because your custom AI agent definitely needs to know if Kingdom Come: Deliverance II is worth your weekend."
+  summary: Video Games API providing structured data, search, recommendations, and MCP access to 775,000+ games with ratings, media, and store links.
+  why_it_matters: Developers can integrate rich video game metadata and AI-powered discovery into apps without building or maintaining their own database.
+  mental_damage: Finally, an API that lets you outsource your gaming addiction as a service dependency.
   tags:
-    - game-data
     - api
+    - games
     - mcp
-    - search
     - metadata
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general-purpose content/data API rather than a developer-focused AI infrastructure or orchestration tool.
+  reason: The product is a general-purpose data API for video game information with MCP as an optional feature, not a developer-facing AI tool, agent, workflow, or infrastructure product whose primary identity serves software development tasks.
   evidence:
-    - Primary product is a video game database
-    - Offers semantic search and game recommendations
-    - MCP is a secondary compatibility feature
+    - Scraped site describes GameBrain as 'one of the largest video game database and game discovery service' sharing data with the world.
+    - Primary use cases focus on searching, suggesting, and retrieving game details for end-user applications, not developer tooling workflows.
+    - MCP is presented as a compatibility feature ('MCP for the AI powered era') to connect data with chatbots, not as the product's core identity.
 placement:
   primary_category: null
   section: null
@@ -71,27 +70,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:40:01.908Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for gamebrain__co__api: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:27:55.419Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0263bf4645c92127db1f6304e2f5a665d31306f44b84a801ba3e76998915d13a
+      category_rules_version: c367d6101132
+      input_hash: sha256:84429860489c053d613dfa8088a063029e856600301a9fcf2c8430da8aed176a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a general-purpose content/data API rather than a developer-focused AI infrastructure or orchestration tool.
+      decision_reason: The product is a general-purpose data API for video game information with MCP as an optional feature, not a developer-facing AI tool, agent, workflow, or infrastructure product whose primary identity serves software development tasks.
       decision_evidence:
-        - Primary product is a video game database
-        - Offers semantic search and game recommendations
-        - MCP is a secondary compatibility feature
+        - Scraped site describes GameBrain as 'one of the largest video game database and game discovery service' sharing data with the world.
+        - Primary use cases focus on searching, suggesting, and retrieving game details for end-user applications, not developer tooling workflows.
+        - MCP is presented as a compatibility feature ('MCP for the AI powered era') to connect data with chatbots, not as the product's core identity.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

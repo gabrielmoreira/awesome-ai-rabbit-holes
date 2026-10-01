@@ -36,27 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Dosu is a knowledge infrastructure layer that automatically captures and syncs team documentation to reduce token usage and improve agent performance.
-  why_it_matters: It aims to solve the problem of stale context by automatically maintaining project documentation (like AGENTS.md) through real-time observation of agent sessions and communication tools.
-  mental_damage: Finally, an automated way to ensure your agent's hallucination-inducing context window is filled with actual, up-to-date project truth.
+  summary: Dosu is a knowledge infrastructure service that automatically captures and shares agent and team learnings to reduce redundant context gathering.
+  why_it_matters: It reduces token waste and speeds up AI coding agents by turning session insights into reusable, up-to-date knowledge without workflow changes.
+  mental_damage: Finally, a tool that acknowledges your agents keep relearning the same thing — and sells you a knowledge cache to fix the amnesia loop.
   tags:
-    - mcp
-    - knowledge-base
-    - agent-infrastructure
-    - documentation
-    - context-management
+    - knowledge-sharing
+    - agent-context
+    - token-efficiency
   confidence: high
 curation:
-  status: included
-  reason: The core value proposition is providing automated, fresh context and memory to agents via an MCP server to optimize token usage.
+  status: excluded
+  reason: Dosu is a knowledge infrastructure layer for agents, not a developer-facing AI tool itself; it serves agents and teams as a backend service, not a direct coding assistant, builder, or workflow tool for developers to use in their loop.
   evidence:
-    - Claims to reduce token costs by 50% via optimized context
-    - Uses an MCP server to provide consistent, token-efficient context to agents
-    - Automatically maintains documentation like AGENTS.md and CLAUDE.md
+    - "Scraped site: 'Knowledge infrastructure for agents' and 'Dosu automatically captures what your team and agents learn'"
+    - "Source-list context: Listed in awesome-ai-agents under 'Dosu' with purpose 'Shared knowledge makes agents faster and more reliable'"
+    - README emphasizes connecting agents to Dosu via MCP and improving agent performance, not direct developer interaction
 placement:
-  primary_category: memory-and-context
+  primary_category: null
   secondary_categories: []
-  section: Retrieval & Fresh Docs
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -71,30 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:39:06.417Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for dosu__dev: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:27:15.763Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a4d16436baba67305ed0fa8d8363f6e207de7d638b7ef50e3a5299ef06fd67a8
-      proposed_primary_category: context-engineering
+      category_rules_version: c367d6101132
+      input_hash: sha256:b0ca11f6580105ddc6efe42d49de17edf6dccdb90209b9e184057e6ea28147a5
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: The core value proposition is providing automated, fresh context and memory to agents via an MCP server to optimize token usage.
+      decision_reason: Dosu is a knowledge infrastructure layer for agents, not a developer-facing AI tool itself; it serves agents and teams as a backend service, not a direct coding assistant, builder, or workflow tool for developers to use in their loop.
       decision_evidence:
-        - Claims to reduce token costs by 50% via optimized context
-        - Uses an MCP server to provide consistent, token-efficient context to agents
-        - Automatically maintains documentation like AGENTS.md and CLAUDE.md
-      category_candidates:
-        - context-engineering
-        - mcp
-      contrastive_reason: Choose context-engineering over mcp because while it uses MCP as a delivery mechanism, its primary identity is the automated generation and management of high-quality context/memory.
+        - "Scraped site: 'Knowledge infrastructure for agents' and 'Dosu automatically captures what your team and agents learn'"
+        - "Source-list context: Listed in awesome-ai-agents under 'Dosu' with purpose 'Shared knowledge makes agents faster and more reliable'"
+        - README emphasizes connecting agents to Dosu via MCP and improving agent performance, not direct developer interaction
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

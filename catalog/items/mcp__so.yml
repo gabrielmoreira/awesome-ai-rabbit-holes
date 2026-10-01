@@ -51,16 +51,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A community-driven directory for discovering and browsing MCP servers, clients, and integrations.
-  why_it_matters: It centralizes the fragmented MCP ecosystem, making it easier for developers to find and integrate tools that extend AI assistants with external data and capabilities.
-  mental_damage: Because nothing says 'standardization' like a directory of 500 ways to plug your AI into everything except your actual workflow.
+  summary: mcp.so is a curated directory listing MCP servers and resources for the Model Context Protocol ecosystem.
+  why_it_matters: It helps developers discover and evaluate MCP servers that enable AI agents to access tools and data through a standardized interface.
+  mental_damage: Another directory to scroll through while trying to find the one MCP server that actually works for your use case.
   tags:
     - mcp
     - directory
     - discovery
-    - protocol
-    - marketplace
-  confidence: high
+  confidence: medium
 curation:
   status: included
   reason: The product is a discovery and navigation directory for MCP servers and clients, which fits squarely as a developer-facing map of the ecosystem rather than a standalone tool, framework, or agent.
@@ -71,10 +69,10 @@ curation:
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Registries & Discovery
+  section: null
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'awesome-awesomes'"
 processing:
   discover:
     status: done
@@ -86,30 +84,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:33:02.123Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for mcp__so: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:28:51.776Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b50fdb0e6a5d50a2ca1e5201e51f808b130b98473e106570247f101c78f8a4a4
-      proposed_primary_category: mcp
+      category_rules_version: c367d6101132
+      input_hash: sha256:c20b03f0d5a1119da312438599f365543c2bbff7c03386037b8b09e5ed55030e
+      proposed_primary_category: awesome-awesomes
       disagreement: true
-      decision_reason: The product's core identity is as an MCP-first directory and registry, explicitly focused on MCP servers, clients, and tooling.
+      decision_reason: mcp.so is a curated directory focused on MCP servers, matching the awesome-awesomes category for resource lists that help developers discover tools in the AI ecosystem.
       decision_evidence:
-        - "Site title and description: 'Discover useful MCP servers and clients'"
-        - "Primary page excerpt: 'MCP.so Search MCP servers, tools, integrations' and 'Find MCP servers, clients, and integrations in one MCP marketplace'"
-        - "Source-list context: Listed under 'MCP Servers and Directories' in awesome-ai-coding-tools and '模型上下文协议 MCP' in awesome-LLM-resources"
+        - Listed in awesome-ai-coding-tools under 'MCP Servers and Directories' section
+        - Also appears in awesome-LLM-resources under the MCP section
+        - Described as a curated list of AI-powered coding tools in its source-list context
       category_candidates:
-        - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because the product is a protocol-specific registry rather than a general AI tooling directory.
-      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+        - mcp
+      contrastive_reason: Choose awesome-awesomes over mcp because mcp.so is a directory/resource list rather than MCP infrastructure itself (servers, clients, or tooling), and its primary value is curation and discovery.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'awesome-awesomes'"
       review_resume_lifecycle: null

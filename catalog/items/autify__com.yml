@@ -36,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-native quality engineering platform designed for autonomous software testing across web, mobile, and desktop applications.
-  why_it_matters: It uses AI agents and natural language to automate end-to-end test creation and execution, reducing manual scripting and maintenance overhead.
-  mental_damage: Because nothing says 'peace of mind' quite like trusting an agent to autonomously decide if your new deployment actually works.
+  summary: Autify provides an AI-powered quality engineering platform for automating end-to-end testing of web, mobile, and desktop applications using natural language and visual recognition.
+  why_it_matters: It reduces manual test scripting and maintenance by letting QA and development teams generate, execute, and manage tests through AI agents that adapt to application changes.
+  mental_damage: Another testing tool promising 'no maintenance' while quietly adding yet another AI agent to monitor your flaky test dashboards.
   tags:
-    - ai-testing
-    - qa-automation
-    - e2e-testing
-    - no-code-testing
-    - autonomous-agents
-  confidence: high
+    - testing
+    - qa
+    - ai-agent
+    - automation
+  confidence: medium
 curation:
   status: included
-  reason: It functions as an autonomous testing agent that plans, executes, and maintains tests, fitting the 'Review, Testing & Repair' profile.
+  reason: Autify's Aximo functions as an AI testing agent that autonomously creates and executes tests, aligning with the coding-agents category's focus on agents performing developer tasks like testing and repair, rather than being a passive integration or framework.
   evidence:
-    - Claims to be an 'AI testing agent' using natural language and visual recognition
-    - Automates end-to-end tests across web, mobile, and desktop
-    - Featured in awesome-ai-coding-tools under Testing and QA
+    - Aximo is described as 'an AI testing agent that uses natural language and visual recognition to autonomously generate and execute end-to-end tests'
+    - Appears in awesome-ai-coding-tools under Testing and QA section as an AI-powered Quality Engineering Platform
+    - Core functionality involves AI-driven test creation, execution, and maintenance without manual scripting
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -71,30 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:25.542Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for autify__com: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:24:03.984Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4c96d2a39b45cc4f180f8152efe4d1ead12fb30f331a5a550d713101da609921
+      category_rules_version: c367d6101132
+      input_hash: sha256:3ebdb61882ae8800f586f82d5660adacdd082a3c25affcc769a2d08744782854
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It functions as an autonomous testing agent that plans, executes, and maintains tests, fitting the 'Review, Testing & Repair' profile.
+      decision_reason: Autify's Aximo functions as an AI testing agent that autonomously creates and executes tests, aligning with the coding-agents category's focus on agents performing developer tasks like testing and repair, rather than being a passive integration or framework.
       decision_evidence:
-        - Claims to be an 'AI testing agent' using natural language and visual recognition
-        - Automates end-to-end tests across web, mobile, and desktop
-        - Featured in awesome-ai-coding-tools under Testing and QA
+        - Aximo is described as 'an AI testing agent that uses natural language and visual recognition to autonomously generate and execute end-to-end tests'
+        - Appears in awesome-ai-coding-tools under Testing and QA section as an AI-powered Quality Engineering Platform
+        - Core functionality involves AI-driven test creation, execution, and maintenance without manual scripting
       category_candidates:
         - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product is a standalone autonomous agentic platform for testing rather than a simple plugin for an IDE.
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Autify's Aximo acts as a primary AI agent performing testing tasks autonomously, rather than augmenting an existing coding assistant or editor with additional capabilities.
       review_reason: null
       review_resume_lifecycle: null

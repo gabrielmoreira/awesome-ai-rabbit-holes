@@ -36,27 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated documentation site for AI-powered coding tools.
-  why_it_matters: It serves as a centralized resource for discovering AI-driven developer workflows and automation tools.
-  mental_damage: Your bookmark bar is about to become a graveyard of 'game-changing' tools you will never actually set up.
+  summary: ai is a GitBook documentation page for AI topics, not a standalone product or developer tool.
+  why_it_matters: It serves as a reference or learning resource but does not provide executable tooling, agents, or infrastructure for software development workflows.
+  mental_damage: Another AI documentation site promising clarity while adding to the stack of tabs you’ll never actually read.
   tags:
-    - directory
-    - curation
-    - ai-coding
-    - developer-resources
+    - documentation
+    - reference
   confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: The resource is a GitBook page with no evidence of being a tool, agent, SDK, or platform that developers actively use in their workflow; it is purely informational content.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - Repo description is missing, indicating no GitHub-based project or tool.
+    - Source-list context shows it appears only as a documentation entry in awesome-ai-coding-tools, not as a tool itself.
+    - URL points to gitbook.com/ai, confirming it is a documentation site, not a deployable or integrable product.
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): publications-and-feeds"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -68,29 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:40:16.203Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for gitbook__com__ai: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:27:58.736Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1fd3cba642be27e74489f612ab30e7d0b343397bc660360ba5f2ba21807809c2
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: c367d6101132
+      input_hash: sha256:93569f39d06da72a3eab55d846be71a93b521e8a17f44ed4774bec8094221b35
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a curated directory designed for navigating the AI coding ecosystem, making it a perfect fit for the awesome-awesomes category.
+      decision_reason: The resource is a GitBook page with no evidence of being a tool, agent, SDK, or platform that developers actively use in their workflow; it is purely informational content.
       decision_evidence:
-        - Found in awesome-ai-coding-tools as a documentation resource
-        - Gitbook-hosted directory for discovering AI tools
-      category_candidates:
-        - awesome-awesomes
-        - publications-and-feeds
-      contrastive_reason: Choose awesome-awesomes over publications-and-feeds because the primary value is as a directory/map for discovery rather than a recurring editorial publication.
-      review_reason: "Categorization review required: unknown category candidate(s): publications-and-feeds"
+        - Repo description is missing, indicating no GitHub-based project or tool.
+        - Source-list context shows it appears only as a documentation entry in awesome-ai-coding-tools, not as a tool itself.
+        - URL points to gitbook.com/ai, confirming it is a documentation site, not a deployable or integrable product.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

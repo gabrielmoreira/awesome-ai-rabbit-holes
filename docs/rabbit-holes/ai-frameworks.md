@@ -2520,6 +2520,15 @@ _These are new or low-traffic entries being watched._
   `rust` `mcp` `idempotency` `agents` `concurrency`
   </details>
 
+- **[APIMatic](https://apimatic.io)** APIMatic generates SDKs, developer portals, Context Plugins for AI coding tools, and MCP servers from OpenAPI specs. <details><summary>More about</summary>
+
+  It lets developers turn API specs into production-ready client code and agent-ready integrations without manual work.
+
+  _Finally, a way to stop pretending your OpenAPI spec is just documentation and start treating it as the single source of truth for both humans and hallucination-prone agents._
+
+  `sdk-generation` `api-tooling` `context-plugins` `mcp`
+  </details>
+
 - **[AutoGen Documentation](https://microsoft.github.io/autogen)** AutoGen is a Microsoft-maintained code-first framework for building multi-agent AI systems. <details><summary>More about</summary>
 
   It lets developers orchestrate multiple AI agents in code to automate complex workflows without managing low-level agent communication.
@@ -2538,6 +2547,15 @@ _These are new or low-traffic entries being watched._
   `llm` `fine-tuning` `open-source`
   </details>
 
+- **[Bitrise](https://bitrise.io)** Bitrise is a managed mobile DevOps platform for building, testing, and deploying iOS and Android applications with CI/CD, build caching, release management, and AI-assisted debugging. <details><summary>More about</summary>
+
+  It abstracts away complex mobile CI setup like macOS runners, code signing, and device testing so developers can ship mobile apps faster without infrastructure overhead.
+
+  _Yet another CI platform promising 'AI-driven velocity' while you still wait 20 minutes for a Gradle build to finish on an M4 Pro._
+
+  `ci-cd` `mobile-devops` `build-automation`
+  </details>
+
 - **[Codestral](https://mistral.ai/news/codestral)** Codestral is an open-weight 22B parameter code generation model from Mistral AI trained on 80+ programming languages with a 32k context window. <details><summary>More about</summary>
 
   Provides developers with a high-performance, permissively licensed foundation model for code completion, test generation, and AI-assisted development workflows.
@@ -2547,13 +2565,13 @@ _These are new or low-traffic entries being watched._
   `code-model` `foundation-model` `mistral` `code-generation` `open-weights`
   </details>
 
-- **[CrewAI](https://crewai.io)** An open-source multi-agent orchestration framework for building collaborative AI workflows. <details><summary>More about</summary>
+- **[CrewAI](https://crewai.io)** crewai.io is a code-first Python framework for building multi-agent systems. <details><summary>More about</summary>
 
-  It enables developers to move beyond single-prompt interactions by coordinating multiple specialized agents to handle complex, multi-step tasks.
+  It lets developers orchestrate agent teams using familiar Python code rather than visual builders or hosted platforms.
 
-  _Now you can replace one unmanageable LLM prompt with a chaotic committee of specialized agents that might still hallucinate in unison._
+  _Another framework promising agent synergy while you spend more time wiring YAML than shipping code._
 
-  `multi-agent` `orchestration` `agents` `framework` `python`
+  `ai-framework` `multi-agent` `python`
   </details>
 
 - **[CSV-AI 🧠](https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/snowflake.html)** LangChain provides a minimal, configurable agent harness for composing agents from model, tools, prompt, and middleware. <details><summary>More about</summary>
@@ -2628,15 +2646,6 @@ _These are new or low-traffic entries being watched._
   `model-router` `api-abstraction` `llm-provider`
   </details>
 
-- **[PyPI](https://pypi.org/project/agent-cost-guardrails)** A Python package for managing cost guardrails in AI agent workflows. <details><summary>More about</summary>
-
-  Helps developers control and monitor expenses when running AI agents, preventing unexpected cost overruns.
-
-  _Because nothing says 'developer productivity' like a tool that exists solely to stop your agents from bankrupting you._
-
-  `cost-control` `ai-agents` `python` `guardrails`
-  </details>
-
 - **[Ragie](https://www.ragie.ai)** Ragie is a managed RAG-as-a-service platform that provides APIs for document ingestion, chunking, embedding, and retrieval to augment LLMs with private data. <details><summary>More about</summary>
 
   It lets developers add retrieval-augmented generation to AI apps without building and maintaining their own vector database or data pipelines.
@@ -2691,11 +2700,11 @@ _These are new or low-traffic entries being watched._
   `data-prep` `etl` `ai-infrastructure`
   </details>
 
-- **[Vercel AI SDK](https://ai-sdk.dev)** A unified TypeScript SDK from Vercel for building AI-powered applications with support for streaming, fallbacks, and multiple model providers. <details><summary>More about</summary>
+- **[Vercel AI SDK](https://ai-sdk.dev)** AI SDK is a TypeScript library for building AI applications with streaming, fallbacks, and multi-model support via a unified API for text, image, speech, and video generation. <details><summary>More about</summary>
 
-  It provides a standardized, framework-agnostic abstraction layer that simplifies complex tasks like streaming responses and tool-calling across different LLM providers.
+  It lets developers switch LLM providers with one line of code and build production-ready AI features without custom parsing or fallback logic.
 
-  _Just when you thought you'd mastered one LLM provider's API, another unified abstraction arrives to render your custom wrapper code obsolete._
+  _Another abstraction layer promising 'just works' streaming while you secretly maintain three provider-specific fallbacks in a utility folder._
 
-  `typescript` `sdk` `streaming` `multi-model` `vercel`
+  `ai-sdk` `typescript` `llm-abstraction`
   </details>

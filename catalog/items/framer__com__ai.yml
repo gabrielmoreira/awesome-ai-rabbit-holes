@@ -36,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Framer AI is a design-to-site platform that uses generative AI to build and deploy websites from text prompts.
-  why_it_matters: It enables rapid prototyping and deployment of production-ready web interfaces through natural language, bypassing traditional layout manual labor.
-  mental_damage: It turns the 'I'll just quickly fix this div' workflow into 'I'll just prompt a whole new layout and pray it doesn't break the CMS'.
+  summary: Framer's AI tool generates interactive websites and UI prototypes from text prompts.
+  why_it_matters: It lets developers and designers quickly turn ideas into functional web experiences without writing code from scratch.
+  mental_damage: Another prompt-to-pixel tool that makes you wonder if 'no-code' is just code you didn't have to debug.
   tags:
-    - app-builders
-    - no-code
-    - design-to-site
-    - web-generation
-  confidence: high
+    - app-builder
+    - ai-generated
+    - web-design
+  confidence: medium
 curation:
   status: included
-  reason: The product's core identity is turning prompts into deployed websites, which matches the 'App Builders' definition perfectly.
+  reason: Framer AI fits the app-builder category as it generates deployable websites and prototypes from prompts, not code edits in existing repos.
   evidence:
-    - Source-list context identifies it in 'awesome-ai-coding-tools' under 'App Builders'
-    - Product identity is prompt-to-site generation
+    - Source-list context shows it's categorized under 'App Builders' in awesome-ai-coding-tools
+    - Framer.com/ai markets AI-powered website generation from text prompts
+    - No evidence suggests it operates as a coding agent editing existing codebases
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: Site & Landing Page Builders
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
@@ -69,29 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:39:53.936Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for framer__com__ai: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:27:47.598Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:72a859da767cfa4c24430aa3504a0c314d45b4df3c2ad9f9c8dbec48faa4cdfa
+      category_rules_version: c367d6101132
+      input_hash: sha256:4f8fac9cbbd7adf8a0993ba8207aa0ea7010a4be4a53d7b6b4ad9720ea722165
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product's core identity is turning prompts into deployed websites, which matches the 'App Builders' definition perfectly.
+      decision_reason: Framer AI fits the app-builder category as it generates deployable websites and prototypes from prompts, not code edits in existing repos.
       decision_evidence:
-        - Source-list context identifies it in 'awesome-ai-coding-tools' under 'App Builders'
-        - Product identity is prompt-to-site generation
+        - Source-list context shows it's categorized under 'App Builders' in awesome-ai-coding-tools
+        - Framer.com/ai markets AI-powered website generation from text prompts
+        - No evidence suggests it operates as a coding agent editing existing codebases
       category_candidates:
         - app-builders
-        - ai-ides-editors
-      contrastive_reason: Choose app-builders over ai-ides-editors because the product generates a complete deployed site from prompts rather than acting as a developer's primary coding environment.
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because Framer AI generates new websites from prompts rather than editing existing codebases.
       review_reason: null
       review_resume_lifecycle: null

@@ -101,12 +101,12 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-28T04:55:22.412Z"
+    updated_at: "2026-10-01T04:32:18.932Z"
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for v0__app: Invalid AI response format: SyntaxError: Unexpected token 'v', ...\"_reason\": v0.app’s c\"... is not valid JSON"
+      message: "Catalog LLM categorization failed for v0__app: Invalid AI response format: SyntaxError: Unexpected token 'v', ...\"_reason\": v0 matches\"... is not valid JSON"
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template

@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An unidentified project or domain titled gpt.nexus.
-  why_it_matters: Unable to determine utility due to lack of documentation.
-  mental_damage: The existential dread of a project with zero stars and zero description.
+  summary: No descriptive metadata or documentation provided to identify the product's purpose.
+  why_it_matters: N/A
+  mental_damage: The void of a missing README is the ultimate developer experience.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The project lacks sufficient descriptive substance to determine if it is a functional developer tool, and its presence in source lists suggests it may be a sub-curation or landing page rather than a standalone product.
+  reason: Insufficient information provided to determine if the project is a developer-facing tool or falls within the catalog's scope.
   evidence:
-    - No repo description or README provided
-    - No scraped site context or text available
-    - Identified as a section (NexusGPT) within an existing awesome list
+    - Repo description is missing
+    - No README or scraped site context provided
+    - Source-list context is too vague to establish product identity
 placement:
   primary_category: null
   secondary_categories: []
@@ -67,9 +67,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:19:08.786Z"
+    updated_at: "2026-10-01T04:20:13.055Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -80,11 +80,11 @@ processing:
       input_hash: sha256:e3f36e1e1fc3725d7ebd167465f5045d8507246127db07b4af7690090e0c7b1e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project lacks sufficient descriptive substance to determine if it is a functional developer tool, and its presence in source lists suggests it may be a sub-curation or landing page rather than a standalone product.
+      decision_reason: Insufficient information provided to determine if the project is a developer-facing tool or falls within the catalog's scope.
       decision_evidence:
-        - No repo description or README provided
-        - No scraped site context or text available
-        - Identified as a section (NexusGPT) within an existing awesome list
+        - Repo description is missing
+        - No README or scraped site context provided
+        - Source-list context is too vague to establish product identity
       category_candidates: []
       contrastive_reason: null
       review_reason: null

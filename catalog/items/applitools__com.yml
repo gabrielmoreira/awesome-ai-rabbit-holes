@@ -36,26 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Applitools is an intelligent testing platform that uses visual AI to automate visual, functional, and accessibility testing across web and mobile applications.
-  why_it_matters: It replaces fragile, pixel-based regression testing with deterministic Visual AI, making automated UI validation more reliable during agentic SDLC workflows.
-  mental_damage: Because nothing says 'trust the automation' quite like relying on computer vision to ensure your UI hasn't drifted into a chaotic, unclickable mess.
+  summary: Applitools is an AI-powered end-to-end testing platform that combines Visual AI with GenAI and no-code approaches to automate test coverage, maintenance, and reduce false positives.
+  why_it_matters: It helps developers and QA teams catch UI regressions and hallucinations in AI-generated code by providing deterministic visual validation, reducing flaky tests and manual oversight.
+  mental_damage: Another AI testing tool promising to eliminate flaky CI while quietly adding yet another dashboard, SDK, and pricing tier to your already bloated stack.
   tags:
-    - visual-testing
-    - qa-automation
+    - testing
     - visual-ai
-    - regression-testing
+    - qa
   confidence: high
 curation:
-  status: included
-  reason: Applitools is a specialized QA and testing platform that augments the development lifecycle rather than acting as a primary coding assistant.
+  status: excluded
+  reason: Applitools is an AI-enhanced testing platform focused on visual and functional validation of applications, not a developer-facing AI tool for coding, agent orchestration, or workflow automation; its primary users are QA engineers and testers, not developers writing or editing code.
   evidence:
-    - Provides 'Intelligent Testing Platform' for visual and functional validation
-    - Integrates with CI/CD and existing testing frameworks like Playwright
-    - Offers 'Autonomous' features for automated test creation and analysis
+    - Applitools describes itself as an 'AI-powered end-to-end testing platform' with products like Eyes and Autonomous for visual and functional testing.
+    - Source-list placement in awesome-ai-coding-tools under 'Testing and QA' confirms its identity as a testing tool, not a coding agent or developer workflow tool.
+    - Core features center on test creation, execution, analysis, and UI validation via Visual AI and NLP, not on writing, editing, reviewing, or repairing code.
 placement:
-  primary_category: coding-agents
+  primary_category: null
   secondary_categories: []
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -70,30 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:11.544Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for applitools__com: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:23:46.565Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4743d9570cb6a223826b0a7a0bde1cccab9a463b7e2fcd3e6cd335d6fd452427
-      proposed_primary_category: ai-dev-extensions
+      category_rules_version: c367d6101132
+      input_hash: sha256:b32c504e91202054c4e94a8364944aa0f15dfb39b5384c45b6e3742c27754b64
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: Applitools is a specialized QA and testing platform that augments the development lifecycle rather than acting as a primary coding assistant.
+      decision_reason: Applitools is an AI-enhanced testing platform focused on visual and functional validation of applications, not a developer-facing AI tool for coding, agent orchestration, or workflow automation; its primary users are QA engineers and testers, not developers writing or editing code.
       decision_evidence:
-        - Provides 'Intelligent Testing Platform' for visual and functional validation
-        - Integrates with CI/CD and existing testing frameworks like Playwright
-        - Offers 'Autonomous' features for automated test creation and analysis
-      category_candidates:
-        - ai-dev-extensions
-        - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because it functions as a specialized QA augmentation for the development workflow rather than a primary code-writing assistant.
+        - Applitools describes itself as an 'AI-powered end-to-end testing platform' with products like Eyes and Autonomous for visual and functional testing.
+        - Source-list placement in awesome-ai-coding-tools under 'Testing and QA' confirms its identity as a testing tool, not a coding agent or developer workflow tool.
+        - Core features center on test creation, execution, analysis, and UI validation via Visual AI and NLP, not on writing, editing, reviewing, or repairing code.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

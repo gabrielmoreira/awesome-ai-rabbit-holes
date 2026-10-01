@@ -36,20 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A managed service that provides hosted Model Context Protocol (MCP) servers for connecting AI agents to various SaaS applications.
-  why_it_matters: It allows developers to quickly grant AI agents access to a vast array of enterprise tools like Salesforce, HubSpot, and Jira without writing custom integration code for each one.
-  mental_damage: Now you have to manage a centralized hub of third-party connectors just to keep your agents from being trapped in a context-less vacuum.
+  summary: A documentation guide for setting up and operating SaaS MCP servers managed by Knit.
+  why_it_matters: It helps developers deploy MCP servers to connect AI agents with business applications like CRM and ATS systems.
+  mental_damage: Another MCP server setup guide that treats 'SaaS' as a feature, not a trade-off in control and cost.
   tags:
     - mcp
-    - saas-integrations
-    - ai-agents
-    - connectivity
+    - saas
+    - documentation
   confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: This is documentation, not a standalone product or tool, so it does not qualify as developer-tooling in the catalog.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - The URL points to a documentation page on developers.getknit.dev
+    - The content is a step-by-step guide for setting up Knit MCP Server on IDEs and CLIs
+    - No GitHub repo, stars, or product identity is present — only instructional text
 placement:
   primary_category: null
   secondary_categories: []
@@ -68,30 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:37:26.669Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for developers__getknit__dev__docs__knit__mcp__server__getting__started: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:26:26.730Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:759760c27a0034ebbea556102a79ac82d9648993a12b867f6ac280b15745d693
-      proposed_primary_category: mcp
+      category_rules_version: c367d6101132
+      input_hash: sha256:9129a0f117141df02911d09eafeb4b05ca49bd6dccda5f8ca137c19b13bf35da
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: The product's core identity is serving as a managed hub of MCP servers to facilitate agent-to-SaaS connectivity.
+      decision_reason: This is documentation, not a standalone product or tool, so it does not qualify as developer-tooling in the catalog.
       decision_evidence:
-        - Directly describes itself as an 'MCP Hub for AI Agents'
-        - Provides a marketplace-style selection of tools (CRM, Accounting, HRIS) to package into an MCP server
-        - Supports deployment to Claude, Cursor, and Windsurf via MCP
-      category_candidates:
-        - mcp
-        - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the primary product identity is the provision of MCP-compliant servers and middleware rather than an operated multi-agent workbench.
+        - The URL points to a documentation page on developers.getknit.dev
+        - The content is a step-by-step guide for setting up Knit MCP Server on IDEs and CLIs
+        - No GitHub repo, stars, or product identity is present — only instructional text
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

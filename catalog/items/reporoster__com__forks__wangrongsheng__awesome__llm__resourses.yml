@@ -36,24 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated list of LLM resources covering multimodal generation, agents, coding assistance, AI review, data processing, model training, inference, o1 models, MCP, small language models, and vision-language models.
-  why_it_matters: Provides developers with a centralized starting point to discover and navigate the fragmented landscape of LLM tools and research.
-  mental_damage: Another awesome list to bookmark and forget about until you need to pretend you’ve been keeping up.
+  summary: awesome-LLM-resourses is an aggregated directory listing LLM-related resources across modalities, agents, tooling, and workflows.
+  why_it_matters: It helps developers navigate a broad set of LLM topics by compiling links and references in one place.
+  mental_damage: Yet another awesome list promising to be 'the world’s best' while adding to the scroll fatigue of tool discovery.
   tags:
     - awesome-list
     - llm-resources
     - curated-directory
-    - developer-navigation
-  confidence: high
+  confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The project is a curated directory focused on LLM resources and fits the awesome-awesomes category as a discovery aid for developers, despite unclear maintenance status.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Source-list context shows inclusion in 'awesome-LLM-resources' with purpose: 🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型）"
+    - No GitHub repo description, stars, topics, license, or activity dates are available, indicating minimal project metadata
+    - The resource aggregates LLM topics including agents, coding assistance, MCP, and model types, aligning with developer-facing AI tooling discovery
 placement:
-  primary_category: null
+  primary_category: awesome-awesomes
   secondary_categories: []
-  section: null
+  section: Awesome Lists & Directories
 lifecycle:
   status: incubating
   reason: null
@@ -68,29 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:35:44.512Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for reporoster__com__forks__wangrongsheng__awesome__llm__resourses: Invalid AI response format: Error: No JSON found in AI response"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:29:33.992Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:54b555596ee41513da3ab6d5b1f5d889a5417189e447b20cc360c5927eeb81e6
+      category_rules_version: c367d6101132
+      input_hash: sha256:d1a8877b9486c9fed2d291b6cee62ff6aa332522e62f12e68a629a1a59883e3b
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of LLM resources, which fits the scope of navigation aids for developers under awesome-awesomes.
+      decision_reason: The project is a curated directory focused on LLM resources and fits the awesome-awesomes category as a discovery aid for developers, despite unclear maintenance status.
       decision_evidence:
-        - Source-list context describes it as a summary of the world's best LLM resources
-        - Covers developer-relevant topics like coding assistance, MCP, and model training
+        - "Source-list context shows inclusion in 'awesome-LLM-resources' with purpose: 🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型）"
+        - No GitHub repo description, stars, topics, license, or activity dates are available, indicating minimal project metadata
+        - The resource aggregates LLM topics including agents, coding assistance, MCP, and model types, aligning with developer-facing AI tooling discovery
       category_candidates:
         - awesome-awesomes
-        - newsletters-and-feeds
-      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because it is a static curated list rather than a recurring publication or feed.
+        - skills
+      contrastive_reason: Choose awesome-awesomes over skills because the project is a curated list of LLM resources rather than a distributable skill pack or ruleset for coding agents.
       review_reason: null
       review_resume_lifecycle: null

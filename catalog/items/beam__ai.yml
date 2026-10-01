@@ -36,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An autonomous AI agent designed for executing complex tasks and workflows.
-  why_it_matters: It promises to offload end-to-end task execution by acting as an autonomous worker rather than just a code completion engine.
-  mental_damage: Another autonomous agent to watch carefully while it decides whether to fix your bug or accidentally delete your production database.
+  summary: Beam.ai is a platform offering AI-powered autonomous agents for business workflows, with one agent listed in the awesome-ai-agents directory.
+  why_it_matters: It provides a glimpse into how enterprises are packaging AI agents for operational use, which may inspire developer-focused agent patterns.
+  mental_damage: Another 'AI agent' platform promising autonomy while developers still spend hours debugging why it won't connect to their internal tools.
   tags:
-    - autonomous-agents
-    - ai-workforce
-    - task-automation
-  confidence: low
+    - ai-agents
+    - platform
+  confidence: medium
 curation:
-  status: included
-  reason: The project is categorized as an autonomous agent capable of performing tasks, which aligns with the core identity of coding/tasking agents.
+  status: excluded
+  reason: Beam.ai positions itself as a general AI agent platform for business workflows, not a developer-facing tool for coding, editing, or software development tasks.
   evidence:
-    - Listed in 'awesome-ai-agents' as an autonomous agent
-    - Primary identity is an autonomous agent rather than a library or extension
+    - "Listed in awesome-ai-agents under the purpose: 'A list of AI autonomous agents'"
+    - No repo description, README, or technical details provided to indicate developer-tooling functionality
+    - Product identity appears to be enterprise workflow automation rather than code-centric agent behavior
 placement:
-  primary_category: coding-agents
-  section: Browser & Computer-Use Agents
+  primary_category: null
+  section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -67,29 +67,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:45.517Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for beam__ai: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:24:29.704Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4ed291ba1fe01957275a2d2968ef65bab518b9685bb2669929c3e2e18be79e94
-      proposed_primary_category: coding-agents
+      category_rules_version: c367d6101132
+      input_hash: sha256:b1a38edbc2d77873dce7d3cf9f3a23ab311082b17489a4999f109b0ee9dbc197
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is categorized as an autonomous agent capable of performing tasks, which aligns with the core identity of coding/tasking agents.
+      decision_reason: Beam.ai positions itself as a general AI agent platform for business workflows, not a developer-facing tool for coding, editing, or software development tasks.
       decision_evidence:
-        - Listed in 'awesome-ai-agents' as an autonomous agent
-        - Primary identity is an autonomous agent rather than a library or extension
-      category_candidates:
-        - coding-agents
-        - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the source context identifies it as an autonomous agent rather than a multi-agent coordination framework.
-      review_reason: "Categorization review required: low confidence"
+        - "Listed in awesome-ai-agents under the purpose: 'A list of AI autonomous agents'"
+        - No repo description, README, or technical details provided to indicate developer-tooling functionality
+        - Product identity appears to be enterprise workflow automation rather than code-centric agent behavior
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

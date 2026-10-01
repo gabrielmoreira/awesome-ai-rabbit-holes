@@ -37,22 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered marketing automation engine designed to find buyer intent and generate evidence-backed content for social and blog channels.
-  why_it_matters: It automates the loop of identifying customer questions on platforms like Reddit and X and converting them into attributable marketing content.
-  mental_damage: Now you can outsource the guilt of having an unread blog to an autonomous engine that tracks exactly how much revenue it's missing.
+  summary: BlogBurst is an AI sales growth engine for founders that maps buyer intent, generates evidence-backed content, ships it across channels with tracked links, and provides growth diagnostics.
+  why_it_matters: It helps developers and founders turn real buyer questions into measurable growth experiments with attribution, reducing guesswork in content-driven acquisition.
+  mental_damage: Finally, an AI tool that pretends to solve marketing by making you feel like a data scientist while still chasing vanity metrics with better-looking dashboards.
   tags:
-    - marketing-automation
-    - content-generation
-    - growth-engine
-    - seo-automation
+    - marketing
+    - growth
+    - saas
+    - ai-content
+    - attribution
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a general-purpose SaaS marketing automation platform rather than a developer-facing coding, infra, or workflow tool.
+  reason: BlogBurst is a marketing and growth automation tool focused on buyer intent, content generation, and attribution for founders and SaaS products—not a developer-facing AI tool for coding, agents, infrastructure, or workflows.
   evidence:
-    - Product identity is a 'ales growth engine' for founders
-    - Focuses on content distribution (WordPress, X, Reddit) and revenue targets
-    - No functionality related to code generation, IDE augmentation, or software development workflows
+    - "Target audience: founders with something to sell, indie developers, early-stage SaaS founders, and service providers—not developers building or augmenting coding agents or dev tooling"
+    - "Core function: maps buyer intent from Google, ChatGPT, Reddit, X; creates evidence-backed content; ships to blogs/social; adds tracked links; shows diagnostics—no code editing, agent orchestration, or dev workflow integration"
+    - "Positioning: sold as an 'AI sales growth engine' and 'proof-led growth operator' for acquisition, not as a coding assistant, IDE extension, framework, or agent orchestration platform"
 placement:
   primary_category: null
   section: null
@@ -70,27 +71,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:56.382Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for blogburst__ai: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:24:44.056Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:fe61c0739b0e16e89d76162cbf0d22656ad558d4cdc984bcf288f741364e458b
+      category_rules_version: c367d6101132
+      input_hash: sha256:a7068280a970731583bd6832302507ef95757a2ab03cf7c7a894c8d81570f3dc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a general-purpose SaaS marketing automation platform rather than a developer-facing coding, infra, or workflow tool.
+      decision_reason: BlogBurst is a marketing and growth automation tool focused on buyer intent, content generation, and attribution for founders and SaaS products—not a developer-facing AI tool for coding, agents, infrastructure, or workflows.
       decision_evidence:
-        - Product identity is a 'ales growth engine' for founders
-        - Focuses on content distribution (WordPress, X, Reddit) and revenue targets
-        - No functionality related to code generation, IDE augmentation, or software development workflows
+        - "Target audience: founders with something to sell, indie developers, early-stage SaaS founders, and service providers—not developers building or augmenting coding agents or dev tooling"
+        - "Core function: maps buyer intent from Google, ChatGPT, Reddit, X; creates evidence-backed content; ships to blogs/social; adds tracked links; shows diagnostics—no code editing, agent orchestration, or dev workflow integration"
+        - "Positioning: sold as an 'AI sales growth engine' and 'proof-led growth operator' for acquisition, not as a coding assistant, IDE extension, framework, or agent orchestration platform"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

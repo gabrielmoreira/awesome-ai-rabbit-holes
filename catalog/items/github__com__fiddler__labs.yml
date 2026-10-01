@@ -37,17 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Fiddler AI is an organization providing tools and examples centered around AI observability and model trust.
-  why_it_matters: N/A
-  mental_damage: Navigating a company's GitHub organization is a high-effort way to realize you are mostly looking at a collection of abandoned forks and examples.
-  tags: []
+  summary: Fiddler Labs is a GitHub organization hosting repositories related to monitoring, tracing, and OpenTelemetry integration for AI systems.
+  why_it_matters: Provides infrastructure for observability and monitoring of AI models and services in production.
+  mental_damage: Yet another observability wrapper that assumes you have the bandwidth to instrument your AI like it's a microservice from 2019.
+  tags:
+    - observability
+    - opentelemetry
+    - monitoring
+    - ai-infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: The input is a GitHub organization profile rather than a single, specific developer tool, and the repositories consist primarily of forks, examples, and niche infrastructure plugins.
+  reason: Fiddler Labs is primarily an organization hosting miscellaneous infrastructure repos (monitoring, tracing, backups) without a cohesive developer-facing AI tool or product identity; none of its repositories clearly serve as AI developer tooling per catalog scope.
   evidence:
-    - The organization contains several archived or forked repositories (e.g., locust, checklist, intercom-go).
-    - The primary non-forked repository is a specialized OpenTelemetry collector plugin, which is niche infrastructure rather than a primary coding or agentic tool.
+    - The GitHub organization hosts 8 repositories including monitoring tools (otel-collector-with-fiddler), backups (altinity-clickhouse-backup), and forks of general-purpose tools (locust, intercom-go), none of which are AI developer tools.
+    - Scraped site context shows Fiddler AI markets itself as an enterprise AI trust and monitoring platform, not a developer-facing coding agent, app builder, or infrastructure tool for AI workflows.
+    - Source-list context notes inclusion in Awesome-LLMOps under Training > Visualization, but this reflects enterprise MLOps monitoring, not direct developer tooling in scope.
 placement:
   primary_category: null
   section: null
@@ -68,23 +73,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:15:07.646Z"
+    updated_at: "2026-10-01T04:28:07.429Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: c367d6101132
-      input_hash: sha256:efecbe1b34a9b5f6a51ee2bf029a6ce9b11d5908447acaabf84c6da9c7953f04
+      input_hash: sha256:7299b7cf6e38a54918dcf4851db572c111294c90bec5aed1148321971752eecb
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a GitHub organization profile rather than a single, specific developer tool, and the repositories consist primarily of forks, examples, and niche infrastructure plugins.
+      decision_reason: Fiddler Labs is primarily an organization hosting miscellaneous infrastructure repos (monitoring, tracing, backups) without a cohesive developer-facing AI tool or product identity; none of its repositories clearly serve as AI developer tooling per catalog scope.
       decision_evidence:
-        - The organization contains several archived or forked repositories (e.g., locust, checklist, intercom-go).
-        - The primary non-forked repository is a specialized OpenTelemetry collector plugin, which is niche infrastructure rather than a primary coding or agentic tool.
+        - The GitHub organization hosts 8 repositories including monitoring tools (otel-collector-with-fiddler), backups (altinity-clickhouse-backup), and forks of general-purpose tools (locust, intercom-go), none of which are AI developer tools.
+        - Scraped site context shows Fiddler AI markets itself as an enterprise AI trust and monitoring platform, not a developer-facing coding agent, app builder, or infrastructure tool for AI workflows.
+        - Source-list context notes inclusion in Awesome-LLMOps under Training > Visualization, but this reflects enterprise MLOps monitoring, not direct developer tooling in scope.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

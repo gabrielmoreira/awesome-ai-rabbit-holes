@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered search and discovery platform designed to provide answers and curated content.
-  why_it_matters: It aims to streamline information discovery and knowledge retrieval through a natural language interface.
-  mental_damage: Another tool to add to the growing pile of 'answer engines' competing for your limited cognitive bandwidth.
+  summary: Pandi is a curiosity-driven AI search tool that answers questions by exploring connected topics.
+  why_it_matters: It helps developers discover related concepts and unexpected insights while researching technical topics.
+  mental_damage: Another AI search rabbit hole that promises serendipity but delivers yet another tab to close after 20 minutes.
   tags:
     - search
     - discovery
-    - knowledge-retrieval
+    - research
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a general-purpose search and discovery platform rather than a developer-centric engineering or coding tool.
+  reason: Pandi is a general-purpose AI search and discovery tool without a specific developer-tooling focus or coding workflow integration.
   evidence:
-    - Scraped site context describes it as a tool for searching answers and discovering content
-    - No developer-specific functionality or integration mentioned in provided context
-    - Primary identity is a general information platform, not a coding assistant or infra
+    - Scraped site describes it as 'Stay curious. Search what's on your mind. Discover what you didn't know to look for.'
+    - Source-list context shows it in awesome-ai-agents under 'Ask Pandi' with the description 'Ask anything and discover answers with Pandi'.
+    - No evidence of code editing, agent orchestration, app building, or other developer-specific workflows in the provided inputs.
 placement:
   primary_category: null
   section: null
@@ -68,27 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:23.988Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for askpandi__com: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:23:49.126Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:be33965be99232799d2533c08fa2fa063fdfe07ad628b259f97fe4146d46eba1
+      category_rules_version: c367d6101132
+      input_hash: sha256:29e42d583291278a97273a64346e987cc854484a8d6b12525c324da58c18dbaa
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a general-purpose search and discovery platform rather than a developer-centric engineering or coding tool.
+      decision_reason: Pandi is a general-purpose AI search and discovery tool without a specific developer-tooling focus or coding workflow integration.
       decision_evidence:
-        - Scraped site context describes it as a tool for searching answers and discovering content
-        - No developer-specific functionality or integration mentioned in provided context
-        - Primary identity is a general information platform, not a coding assistant or infra
+        - Scraped site describes it as 'Stay curious. Search what's on your mind. Discover what you didn't know to look for.'
+        - Source-list context shows it in awesome-ai-agents under 'Ask Pandi' with the description 'Ask anything and discover answers with Pandi'.
+        - No evidence of code editing, agent orchestration, app building, or other developer-specific workflows in the provided inputs.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -51,50 +51,53 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: APIMatic is an API development and management platform.
-  why_it_matters: It helps developers design, build, and manage APIs efficiently.
-  mental_damage: Because nothing says 'developer productivity' like another layer of abstraction between you and your endpoints.
+  summary: APIMatic generates SDKs, developer portals, Context Plugins for AI coding tools, and MCP servers from OpenAPI specs.
+  why_it_matters: It lets developers turn API specs into production-ready client code and agent-ready integrations without manual work.
+  mental_damage: Finally, a way to stop pretending your OpenAPI spec is just documentation and start treating it as the single source of truth for both humans and hallucination-prone agents.
   tags:
-    - api-development
-    - api-management
-    - developer-tools
+    - sdk-generation
+    - api-tooling
+    - context-plugins
+    - mcp
   confidence: high
 curation:
-  status: excluded
-  reason: APIMatic is an API development and management platform, not a practical AI tool, agent, workflow, or infrastructure relevant to AI-assisted software development.
+  status: included
+  reason: APIMatic is a deterministic engine that generates SDKs and infrastructure from OpenAPI specs, functioning as a provider abstraction layer rather than a coding agent, extension, or MCP-first product.
   evidence:
-    - The product is an API development and management platform, not AI-focused
-    - No evidence of AI-specific functionality or developer-tooling angle in the provided context
+    - APIMatic's deterministic engine generates production SDKs in 7+ languages, developer portals, Context Plugins, and MCP servers from OpenAPI specs
+    - It is used by developers to generate idiomatic SDKs with type safety, authentication, and resilience built in — core artifacts of an SDK/provider abstraction
+    - Listed in awesome-mcp-servers as an Official Server, but MCP is one output among many; the primary identity is SDK generation and API readiness
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider & Model Abstractions
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:38:48.510Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for apimatic__io: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": APIMatic's\"... is not valid JSON"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:30:02.938Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:6c9361ab041948f5e826da2e54e4bdc77ac56cc235fef4e6ceaf5f7231e9d941
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:e088341f66a9ff54f59caf04b475894018f0a68365df0638f53de86b4d4e5324
+      proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: APIMatic is an API development and management platform, not a practical AI tool, agent, workflow, or infrastructure relevant to AI-assisted software development.
+      decision_reason: APIMatic is a deterministic engine that generates SDKs and infrastructure from OpenAPI specs, functioning as a provider abstraction layer rather than a coding agent, extension, or MCP-first product.
       decision_evidence:
-        - The product is an API development and management platform, not AI-focused
-        - No evidence of AI-specific functionality or developer-tooling angle in the provided context
-      category_candidates: []
-      contrastive_reason: null
+        - APIMatic's deterministic engine generates production SDKs in 7+ languages, developer portals, Context Plugins, and MCP servers from OpenAPI specs
+        - It is used by developers to generate idiomatic SDKs with type safety, authentication, and resilience built in — core artifacts of an SDK/provider abstraction
+        - Listed in awesome-mcp-servers as an Official Server, but MCP is one output among many; the primary identity is SDK generation and API readiness
+      category_candidates:
+        - ai-frameworks
+        - mcp
+      contrastive_reason: Choose ai-frameworks over mcp because APIMatic's core identity is generating SDKs and developer portals from OpenAPI specs — MCP is an output, not the product's primary purpose.
       review_reason: null
       review_resume_lifecycle: null
   discover:

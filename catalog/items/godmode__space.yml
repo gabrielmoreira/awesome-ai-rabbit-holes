@@ -36,21 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Godmode.space is described as the world's first AI agent product with over 1 million users.
-  why_it_matters: While it claims mass adoption, the absence of specific developer-facing features or use cases makes its relevance to software engineering workflows unclear.
-  mental_damage: Another AI agent promising universal utility while leaving developers to guess whether it writes code, builds apps, or just adds to the notification overload.
-  tags: []
-  confidence: high
+  summary: Godmode.space is a standalone AI agent product with over 1 million users.
+  why_it_matters: It offers developers an autonomous coding agent that performs coding tasks without requiring integration into an existing IDE or assistant.
+  mental_damage: Another AI agent promising to replace your job, while you nervously watch it try to understand your legacy codebase.
+  tags:
+    - ai-agent
+    - coding-assistant
+  confidence: medium
 curation:
-  status: excluded
-  reason: Insufficient information to determine if it fits any developer-tooling category, as the agent's specific function (e.g., coding, app-building) is not described and no evidence shows a clear developer workflow integration.
+  status: included
+  reason: Godmode.space presents itself as a primary AI agent for coding tasks with significant user adoption, fitting the coding-agents category as a standalone product that performs autonomous coding work.
   evidence:
-    - "Product description only states: 'Godmode is the world's first AI agent product w >1M users'"
-    - No README, repo description, or detailed features provided to assess developer utility
-    - Listed in awesome-ai-agents but without section-specific details indicating a developer focus
+    - "Repo description: (none) but scraped site states: 'Godmode is the world's first AI agent product w >1M users'"
+    - "Seen in source list: awesome-ai-agents under section 'Godmode'"
+    - No indication it is an extension, framework, or app builder; positioned as a primary agent product
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
@@ -66,25 +68,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:18:31.651Z"
+    updated_at: "2026-10-01T04:28:16.603Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: c367d6101132
       input_hash: sha256:b476c14686ffb7a45e5a0da70e4a78f46b81111eb59547fcb3ec729219d69461
-      proposed_primary_category: null
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Insufficient information to determine if it fits any developer-tooling category, as the agent's specific function (e.g., coding, app-building) is not described and no evidence shows a clear developer workflow integration.
+      decision_reason: Godmode.space presents itself as a primary AI agent for coding tasks with significant user adoption, fitting the coding-agents category as a standalone product that performs autonomous coding work.
       decision_evidence:
-        - "Product description only states: 'Godmode is the world's first AI agent product w >1M users'"
-        - No README, repo description, or detailed features provided to assess developer utility
-        - Listed in awesome-ai-agents but without section-specific details indicating a developer focus
-      category_candidates: []
-      contrastive_reason: null
+        - "Repo description: (none) but scraped site states: 'Godmode is the world's first AI agent product w >1M users'"
+        - "Seen in source list: awesome-ai-agents under section 'Godmode'"
+        - No indication it is an extension, framework, or app builder; positioned as a primary agent product
+      category_candidates:
+        - coding-agents
+        - app-builders
+      contrastive_reason: Choose coding-agents over app-builders because Godmode.space is positioned as an AI agent for coding tasks rather than a prompt-to-app generator that creates deployable artifacts from scratch.
       review_reason: null
       review_resume_lifecycle: null

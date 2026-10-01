@@ -51,15 +51,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: HackerOne Code is a security-focused AI coding assistant for identifying and fixing vulnerabilities in code.
-  why_it_matters: It helps developers proactively find and remediate security issues in their codebases using AI-driven analysis.
-  mental_damage: Because nothing says 'secure' like an AI that might hallucinate your next CVE.
+  summary: HackerOne Code is a product that integrates AI-powered security scanning and vulnerability detection into the software development lifecycle.
+  why_it_matters: It helps developers catch security flaws early by providing automated code analysis and remediation guidance within their existing workflows.
+  mental_damage: Yet another tool promising to shift security left, while developers still spend half their day waiting for scan results to finish.
   tags:
     - security
-    - code-analysis
-    - vulnerability-detection
-    - ai-assistant
-  confidence: high
+    - devsecops
+    - ai-powered
+  confidence: medium
 curation:
   status: included
   reason: It is a developer-facing coding assistant specialized in security review and vulnerability remediation, fitting the Review, Testing & Repair Agents section.
@@ -69,37 +68,36 @@ curation:
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:41:34.830Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for hackerone__com__product__code: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": It is an A\"... is not valid JSON"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:30:28.017Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0f9e0b9cb163c7636f30a24c4621132d94c00cbc5a672dab53216eda8df9c88b
-      proposed_primary_category: coding-agents
-      disagreement: false
-      decision_reason: It is a developer-facing coding assistant specialized in security review and vulnerability remediation, fitting the Review, Testing & Repair Agents section.
+      category_rules_version: c367d6101132
+      input_hash: sha256:ac54e2a35ba7a84717e7558453e9088ad28dc409a0a0f5ae0e3e37e0b0d87cc7
+      proposed_primary_category: extensions-and-addons
+      disagreement: true
+      decision_reason: HackerOne Code functions as a security-focused add-on that enhances developer workflows with AI-driven vulnerability detection, fitting the extensions-and-addons category as it integrates into existing tools rather than acting as a standalone coding agent or app builder.
       decision_evidence:
-        - Source-list context places it in the Security section of awesome-ai-coding-tools
-        - Product identity is a coding assistant focused on security (HackerOne Code)
+        - Listed in awesome-ai-coding-tools under the Security section
+        - Product URL points to hackerone.com/product/code, indicating a security product offering
+        - No evidence of autonomous coding, app generation, or framework-like behavior in provided inputs
       category_candidates:
+        - extensions-and-addons
         - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because its primary role is as a standalone security-focused coding assistant rather than an extension for another tool.
-      review_reason: null
+      contrastive_reason: Choose extensions-and-addons over coding-agents because HackerOne Code primarily adds security scanning capabilities to development workflows rather than acting as a primary agent that writes, edits, or reviews code autonomously.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
       review_resume_lifecycle: null
   discover:
     status: done

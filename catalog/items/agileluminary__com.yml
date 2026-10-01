@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-native project management platform designed to automate user story creation and agile documentation.
-  why_it_matters: It attempts to bridge the gap between high-level product requirements and technical execution by using LLMs to transform raw data into INVEST-compliant user stories and release notes.
-  mental_damage: Because if we don't automate the creation of user stories, we might accidentally have to talk to our product managers instead of just prompting them.
+  summary: Agile Luminary is an AI-powered enterprise project management platform for agile workflows.
+  why_it_matters: It reduces manual effort in backlog grooming and documentation by generating user stories and release notes from prompts.
+  mental_damage: Hope you enjoy explaining to stakeholders why your 'AI-native' sprint planning still needs human grooming.
   tags:
     - project-management
     - agile
-    - ai-native
-    - agile-automation
+    - ai-powered
   confidence: high
 curation:
   status: excluded
-  reason: The product is a specialized SaaS for project management and agile workflows rather than a developer-facing coding tool or agent.
+  reason: Agile Luminary is a project management SaaS with AI features, not a developer-facing AI tool for coding, workflows, or infrastructure.
   evidence:
-    - Focuses on generating epics, features, and user stories from documents/images
-    - Provides Kanban boards and sprint planning tools
-    - Main identity is a project management application, not a coding assistant or IDE extension
+    - Primary page excerpt emphasizes enterprise agile project management, product backlog software, and AI-powered story creation from spreadsheets/documents.
+    - Source-list context shows inclusion in awesome-mcp-servers as an 'Enterprise agile project management, product backlog software' entry, not as a developer tool.
+    - No evidence of coding assistance, agent orchestration, prompt engineering, or app building — core features are Kanban boards, wiki/RAG search, and sprint planning.
 placement:
   primary_category: null
   section: null
@@ -69,27 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:33:05.954Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for agileluminary__com: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:22:30.112Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b3d6f659eb699a434204d628e3e1e4aca0706cb76015eed9d457a37bcf840262
+      category_rules_version: c367d6101132
+      input_hash: sha256:a25c13a8858db07ae2749de6a7d7f84002c6402541d44c86af4c8c8d6404c531
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a specialized SaaS for project management and agile workflows rather than a developer-facing coding tool or agent.
+      decision_reason: Agile Luminary is a project management SaaS with AI features, not a developer-facing AI tool for coding, workflows, or infrastructure.
       decision_evidence:
-        - Focuses on generating epics, features, and user stories from documents/images
-        - Provides Kanban boards and sprint planning tools
-        - Main identity is a project management application, not a coding assistant or IDE extension
+        - Primary page excerpt emphasizes enterprise agile project management, product backlog software, and AI-powered story creation from spreadsheets/documents.
+        - Source-list context shows inclusion in awesome-mcp-servers as an 'Enterprise agile project management, product backlog software' entry, not as a developer tool.
+        - No evidence of coding assistance, agent orchestration, prompt engineering, or app building — core features are Kanban boards, wiki/RAG search, and sprint planning.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -37,25 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server implementation for integrating Customer Data Platform (CDP) data into AI assistants.
-  why_it_matters: Allows developers to give their AI agents direct, standardized access to customer data and behavioral profiles via the Model Context Protocol.
-  mental_damage: Now your agent can hallucinate about a customer's churn risk using real-time data instead of just guessing based on the prompt.
-  tags:
-    - mcp
-    - cdp
-    - customer-data
-    - context-protocol
-  confidence: medium
+  summary: A dashboard landing page with no available documentation or technical description.
+  why_it_matters: N/A
+  mental_damage: The existential dread of a tool that claims to be listening but refuses to explain its purpose.
+  tags: []
+  confidence: high
 curation:
-  status: included
-  reason: The project is explicitly curated as an MCP server implementation, making its core identity an MCP tool for a specific domain (Customer Data Platforms).
+  status: excluded
+  reason: Insufficient information provided to determine if the product is a relevant AI tool for software developers.
   evidence:
-    - Listed in awesome-mcp-servers under 'Server Implementations > Customer Data Platforms'
-    - Product identity is focused on providing MCP connectivity to customer data
+    - No repository description or README is available
+    - Scraped site content ('we're listening you') provides no technical or functional context
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: Data & Databases
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -70,12 +66,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-21T04:34:13.081Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for dashboard__yanifend__com: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 2
+    status: done
+    updated_at: "2026-10-01T04:19:13.139Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:203e369cbf8192c03ad8495f987ef122fc816e1148b8eb9a279f2bc744360493
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Insufficient information provided to determine if the product is a relevant AI tool for software developers.
+      decision_evidence:
+        - No repository description or README is available
+        - Scraped site content ('we're listening you') provides no technical or functional context
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

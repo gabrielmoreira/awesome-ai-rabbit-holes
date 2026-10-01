@@ -37,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A registry of 9,411+ remote MCP servers for connecting AI agents like Claude, ChatGPT, and Cursor to external tools and data sources without local installation.
-  why_it_matters: Developers can instantly extend their AI agents with pre-built connectors for APIs, databases, and services, reducing integration boilerplate.
-  mental_damage: The sheer volume of connectors suggests we’ve collectively decided that the solution to AI tool sprawl is more AI tool sprawl.
+  summary: Glama is a hosted directory of MCP servers (connectors) that lets developers browse and connect to AI agent tools without local installation.
+  why_it_matters: It reduces friction for developers wanting to quickly test or use MCP-based tools in their agents by providing a searchable registry of ready-to-use servers.
+  mental_damage: Yet another MCP directory promising '23,482 connectors' while most are useless wrappers around public APIs no agent actually needs.
   tags:
     - mcp
     - registry
-    - connectors
-    - ai-agents
-    - integration
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP registry, and MCP is the core product identity rather than a compatibility feature.
+  reason: Glama's core product is an MCP server registry and discovery service, making MCP its primary identity rather than a feature of a broader tool.
   evidence:
-    - Page title and description explicitly frame it as 'Remote MCP Servers' and 'official MCP Registry'
-    - Source-list context places it in 'Server Implementations' under MCP servers
-    - Primary page excerpt lists thousands of MCP connectors with MCP-specific metadata (e.g., 'No Auth', 'Healthy', 'Tools')
+    - "Title: 'Remote MCP Servers – 23,482 Connectors for Claude, ChatGPT & Cursor'"
+    - "Description: 'Browse MCP Connectors from the official MCP Registry. Connect to these servers directly without local installation.'"
+    - Primary page excerpt shows searchable MCP server listings with metadata like stars, health, and tools
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -72,30 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:16:20.887Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for glama__ai__mcp__connectors: Invalid AI response format: SyntaxError: Bad control character in string literal in JSON at position 568 (line 6 column 6)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:28:14.448Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0cb700c0c289a9fc5a316d2f01a4adbd79dee56989c78426dcbf9303eb57dd3e
+      category_rules_version: c367d6101132
+      input_hash: sha256:0ab2ee5b264de41c5927aad87ec0bf308d168491462c2bc70318321b64111b4a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP registry, and MCP is the core product identity rather than a compatibility feature.
+      decision_reason: Glama's core product is an MCP server registry and discovery service, making MCP its primary identity rather than a feature of a broader tool.
       decision_evidence:
-        - Page title and description explicitly frame it as 'Remote MCP Servers' and 'official MCP Registry'
-        - Source-list context places it in 'Server Implementations' under MCP servers
-        - Primary page excerpt lists thousands of MCP connectors with MCP-specific metadata (e.g., 'No Auth', 'Healthy', 'Tools')
+        - "Title: 'Remote MCP Servers – 23,482 Connectors for Claude, ChatGPT & Cursor'"
+        - "Description: 'Browse MCP Connectors from the official MCP Registry. Connect to these servers directly without local installation.'"
+        - Primary page excerpt shows searchable MCP server listings with metadata like stars, health, and tools
       category_candidates:
         - mcp
-        - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because the product is an operational registry of MCP servers, not merely a curated list of ecosystem links.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because Glama is an MCP registry and discovery service, not an integration that extends a specific coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null

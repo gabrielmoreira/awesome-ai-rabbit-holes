@@ -37,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered equity research platform that parses financial filings and earnings transcripts to extract and explain financial metrics.
-  why_it_matters: It automates the extraction of structured financial data and causal reasoning from dense SEC filings and transcripts.
-  mental_damage: Now you can spend 20 minutes instead of 8 hours feeling guilty about not being a quantitative analyst.
+  summary: EquiVault.ai is an AI-powered equity research platform that answers natural-language questions about public companies with sourced, timestamped citations from SEC filings and earnings transcripts.
+  why_it_matters: It saves developers and analysts time by automating deep financial research into defensible theses with verifiable data, turning hours of filing-reading into minutes of insight.
+  mental_damage: Finally, an AI tool that makes you feel guilty for not reading 10-Ks yourself — until you realize you still have to verify the sources anyway.
   tags:
-    - equity-research
-    - financial-data
-    - ai-analysis
+    - finance
+    - research
+    - ai-agent
   confidence: high
 curation:
   status: excluded
-  reason: The product is a domain-specific SaaS for financial analysis rather than a developer-facing tool or infrastructure.
+  reason: EquiVault.ai is an AI-powered financial research tool for equity analysis, not a developer-facing AI tool for coding, workflow automation, or software creation; its core function is financial analysis, not developer-tooling.
   evidence:
-    - Targeted at equity research and financial analysis (10-Ks, earnings transcripts)
-    - Main value is generating financial investment theses, not writing/testing code
-    - SaaS platform for end-users (analysts, advisors) rather than dev-tooling
+    - Platform answers questions about AAPL, MSFT, NVDA using 10-Ks, earnings transcripts, and insider trades with cited sources
+    - Marketed to analysts, advisors, and teams for financial research, not software development or code-related tasks
+    - No mention of code generation, IDE integration, agent workflows, or any developer tooling functionality in the provided context
 placement:
   primary_category: null
   section: null
@@ -69,27 +69,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:39:19.010Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for equivault__ai: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:27:26.305Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ae2758607d45c6819ba3b1595c14ea1229e56ae9c2f2ad5878c13ac4f3df3481
+      category_rules_version: c367d6101132
+      input_hash: sha256:d1a80b40eedf59c78756fc53c11699a48b7f513fa2a9bf43e44e28294b7ee1e4
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a domain-specific SaaS for financial analysis rather than a developer-facing tool or infrastructure.
+      decision_reason: EquiVault.ai is an AI-powered financial research tool for equity analysis, not a developer-facing AI tool for coding, workflow automation, or software creation; its core function is financial analysis, not developer-tooling.
       decision_evidence:
-        - Targeted at equity research and financial analysis (10-Ks, earnings transcripts)
-        - Main value is generating financial investment theses, not writing/testing code
-        - SaaS platform for end-users (analysts, advisors) rather than dev-tooling
+        - Platform answers questions about AAPL, MSFT, NVDA using 10-Ks, earnings transcripts, and insider trades with cited sources
+        - Marketed to analysts, advisors, and teams for financial research, not software development or code-related tasks
+        - No mention of code generation, IDE integration, agent workflows, or any developer tooling functionality in the provided context
       category_candidates: []
       contrastive_reason: null
       review_reason: null

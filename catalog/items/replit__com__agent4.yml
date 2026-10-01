@@ -36,27 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Replit's Agent 4 is an AI agent for building, designing, and shipping apps, sites, and other digital products within the Replit platform.
-  why_it_matters: It enables developers and teams to collaborate with an AI agent that can design, build, and coordinate tasks in parallel, accelerating the development of full-stack applications.
-  mental_damage: Finally, an agent that can turn your napkin sketch into a deployable app while you argue with your team about tabs vs. spaces.
+  summary: Agent 4 is Replit's AI coding agent that performs autonomous coding tasks like designing, building, and shipping apps through natural language prompts.
+  why_it_matters: It lets developers delegate full-stack app creation to an agent that works in parallel across design, code, and deployment, reducing manual context switching.
+  mental_damage: Now you can feel guilty not just for vibing, but for watching an agent vibe for you while you pretend to supervise.
   tags:
-    - app-builder
     - ai-agent
     - replit
-    - collaboration
-    - multi-agent
+    - full-stack
+    - vibe-coding
   confidence: high
 curation:
   status: included
-  reason: Agent 4's primary value is turning prompts and collaborative input into full applications, sites, and tools within Replit, fitting the app-builder category better than a generic coding agent.
+  reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
   evidence:
-    - Described as Replit's 'fastest, most versatile Agent to date' with pillars like 'Design Freely', 'Build Together', 'Ship Anything', and 'Move Faster'
-    - Explicitly supports building apps, sites, decks, mobile apps, and more from prompts in a shared project context
-    - Source-list context places it in 'Coding Agents', but its core identity is prompt-to-app generation
+    - "Source-list context identifies it as a 'Coding Agent' in awesome-ai-coding-tools with the description: 'Replit's fastest, most versatile Agent to date is here.'"
+    - "README excerpt emphasizes autonomous task execution: 'Agent 4 handles all the messy coordination and execution,' 'Agents run independent tasks simultaneously,' and 'You can still vibe code critical pieces while your agents work in the background.'"
+    - "It performs end-to-end development: designing in code, building apps/sites/decks, creating Linear tickets, analyzing data, and converting web to mobile — all triggered by prompts and executed across the stack."
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: Full App Builders
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -71,30 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:35:40.512Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for replit__com__agent4: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": Agent 4’s \"... is not valid JSON"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:29:33.892Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d80292d6a52d2a2bd70ff37c0230e33e9864edc851436ebc0c6d29a3726a1e89
+      category_rules_version: c367d6101132
+      input_hash: sha256:16f1386c946bcde965d3785ce9ee5f6bed2bbda5a8d66f0ab690bafbf27f60fe
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: Agent 4's primary value is turning prompts and collaborative input into full applications, sites, and tools within Replit, fitting the app-builder category better than a generic coding agent.
+      decision_reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
       decision_evidence:
-        - Described as Replit's 'fastest, most versatile Agent to date' with pillars like 'Design Freely', 'Build Together', 'Ship Anything', and 'Move Faster'
-        - Explicitly supports building apps, sites, decks, mobile apps, and more from prompts in a shared project context
-        - Source-list context places it in 'Coding Agents', but its core identity is prompt-to-app generation
+        - "Source-list context identifies it as a 'Coding Agent' in awesome-ai-coding-tools with the description: 'Replit's fastest, most versatile Agent to date is here.'"
+        - "README excerpt emphasizes autonomous task execution: 'Agent 4 handles all the messy coordination and execution,' 'Agents run independent tasks simultaneously,' and 'You can still vibe code critical pieces while your agents work in the background.'"
+        - "It performs end-to-end development: designing in code, building apps/sites/decks, creating Linear tickets, analyzing data, and converting web to mobile — all triggered by prompts and executed across the stack."
       category_candidates:
-        - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because Agent 4's main surface is creating new apps/sites/tools from prompts rather than editing existing repos.
+        - app-builders
+      contrastive_reason: Choose coding-agents over app-builders because Agent 4 operates on and evolves an existing codebase through iterative, parallel agent workflows rather than generating a deployable app from a blank-slate prompt alone.
       review_reason: null
       review_resume_lifecycle: null

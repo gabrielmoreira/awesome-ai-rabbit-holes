@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A marketplace for sharing and installing skills, plugins, triggers, and communicators to extend AI agents.
-  why_it_matters: Developers can enhance their agents with reusable capabilities like code extensions, event triggers, and messaging adapters.
-  mental_damage: Finally, a place where your agent can learn to fish instead of just being told to fish.
+  summary: Water Product Market is an Agent skill and plugin marketplace where users share and install capabilities like skills, plugins, triggers, and communicators to extend Agent functionality.
+  why_it_matters: It provides a centralized directory for discovering and distributing Agent extensions, helping developers enhance their agents with reusable components.
+  mental_damage: Yet another App Store for AI agents, promising infinite evolution while you wrestle with version drift across ten different skill packs.
   tags:
     - agent-skills
     - marketplace
-    - plugins
-    - triggers
-    - communicators
-  confidence: high
+    - extensions
+  confidence: medium
 curation:
   status: included
-  reason: The product is a registry/marketplace for reusable agent skills and extensions, matching the Agent Skills category's focus on skill packs and directories.
+  reason: The platform distributes reusable skill packs, plugins, and triggers as installable content for Agents, making it a skill registry and directory rather than a standalone agent or framework.
   evidence:
-    - Site describes itself as a marketplace for skills, plugins, triggers, and communicators for agents
-    - Source-list context places it in a 'Skills' section of an LLM resource directory
-    - Primary value is discovery and distribution of agent capabilities
+    - Described as a place to '探索、分享技能、经验/集合、插件、触发器和通信器，让你的 Agent 加入无限的进化' (explore, share skills, experience sets, plugins, triggers, and communicators to let your Agent join infinite evolution)
+    - Features categorized sections for '技能' (skills), '插件' (plugins), '触发器' (triggers), and '通信器' (communicators) as installable assets for Agents
+    - Listed in awesome-LLM-resources under the 技能 (Skills) section as a resource for discovering and sharing Agent skills and plugins
 placement:
   primary_category: skills
   secondary_categories: []
@@ -71,30 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:34:41.804Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for openclawmp__stepfun__com: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:29:09.832Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0731c99fd8b1c7aeaf38cc0bb851232d7c30473048ae1986d56eda3107845ccd
+      category_rules_version: c367d6101132
+      input_hash: sha256:109d15ebbef5e7eddb300a199a721ec46edb61cf1deee46f5bbb5bf922c9f8f3
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: The product is a registry/marketplace for reusable agent skills and extensions, matching the Agent Skills category's focus on skill packs and directories.
+      decision_reason: The platform distributes reusable skill packs, plugins, and triggers as installable content for Agents, making it a skill registry and directory rather than a standalone agent or framework.
       decision_evidence:
-        - Site describes itself as a marketplace for skills, plugins, triggers, and communicators for agents
-        - Source-list context places it in a 'Skills' section of an LLM resource directory
-        - Primary value is discovery and distribution of agent capabilities
+        - Described as a place to '探索、分享技能、经验/集合、插件、触发器和通信器，让你的 Agent 加入无限的进化' (explore, share skills, experience sets, plugins, triggers, and communicators to let your Agent join infinite evolution)
+        - Features categorized sections for '技能' (skills), '插件' (plugins), '触发器' (triggers), and '通信器' (communicators) as installable assets for Agents
+        - Listed in awesome-LLM-resources under the 技能 (Skills) section as a resource for discovering and sharing Agent skills and plugins
       category_candidates:
         - skills
-        - agent-orchestration
-      contrastive_reason: Choose skills over agent-orchestration because the core product is a skill registry/marketplace rather than a multi-agent coordination platform.
+        - extensions-and-addons
+      contrastive_reason: Choose skills over extensions-and-addons because the primary artifact is installable content like skill packs and plugins rather than executable tools that integrate into a host agent.
       review_reason: null
       review_resume_lifecycle: null

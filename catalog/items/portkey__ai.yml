@@ -36,24 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Portkey.ai is a platform for LLMOps, providing tools and infrastructure for managing and operating large language models in production.
-  why_it_matters: It helps developers deploy, monitor, and scale LLM applications with observability and control features tailored for production workflows.
-  mental_damage: Because nothing says 'production-ready' like another layer of abstraction between you and the models you’re already struggling to debug.
+  summary: Portkey.ai is an LLMops platform for managing, monitoring, and securing LLM applications in production.
+  why_it_matters: It gives developers observability and control over LLM API usage, helping reduce cost, latency, and failure rates in AI-powered apps.
+  mental_damage: Yet another dashboard to stare at while wondering if your LLM call just cost more than your server bill.
   tags:
     - llmops
     - observability
-    - production-ai
-    - model-management
-  confidence: high
+    - monitoring
+  confidence: medium
 curation:
-  status: excluded
-  reason: Portkey.ai is primarily an LLMOps platform for production model management, which falls outside the catalog's focus on developer-facing coding tools, agents, and workflows.
+  status: included
+  reason: Portkey.ai is included as an LLMOps observability platform focused on monitoring and tracing LLM behavior, which aligns with the evals category's core purpose of measuring and improving agent/model performance.
   evidence:
-    - Source-list context places it in Awesome-LLMOps under LLMOps
-    - No repo description or README excerpt suggests a developer-tooling angle beyond ops infrastructure
+    - Seen in Awesome-LLMOps under the LLMOps section, indicating recognition as an LLMOps tool
+    - Product positioning as an LLMops platform for managing, monitoring, and securing LLM applications
+    - Core functionality includes monitoring, tracing, and observability of LLM usage in production
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability & Tracing
 lifecycle:
   status: incubating
   reason: null
@@ -68,27 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:34:40.946Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for portkey__ai: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:29:08.236Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:803c680fa5b35ca3987b4309a3f4a72d60a118f11cbe2d55b24a315d24b07e06
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:f52b19f7da7a2a82593bc8fe0600f6f141b4000d98e78909a82c1bf837f4a614
+      proposed_primary_category: evals
       disagreement: false
-      decision_reason: Portkey.ai is primarily an LLMOps platform for production model management, which falls outside the catalog's focus on developer-facing coding tools, agents, and workflows.
+      decision_reason: Portkey.ai is included as an LLMOps observability platform focused on monitoring and tracing LLM behavior, which aligns with the evals category's core purpose of measuring and improving agent/model performance.
       decision_evidence:
-        - Source-list context places it in Awesome-LLMOps under LLMOps
-        - No repo description or README excerpt suggests a developer-tooling angle beyond ops infrastructure
-      category_candidates: []
-      contrastive_reason: null
+        - Seen in Awesome-LLMOps under the LLMOps section, indicating recognition as an LLMOps tool
+        - Product positioning as an LLMops platform for managing, monitoring, and securing LLM applications
+        - Core functionality includes monitoring, tracing, and observability of LLM usage in production
+      category_candidates:
+        - evals
+        - agent-orchestration
+      contrastive_reason: Choose evals over agent-orchestration because Portkey.ai's primary identity is observability and tracing of LLM behavior, not coordinating multiple agents or managing agent workflows.
       review_reason: null
       review_resume_lifecycle: null

@@ -36,17 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Business automation service using RPA and LLMs.
-  why_it_matters: N/A
-  mental_damage: N/A
-  tags: []
+  summary: AgentScale AI provides business automation solutions using RPA, LLMs, and AI agents.
+  why_it_matters: It targets business process automation rather than developer workflows or code-centric tasks.
+  mental_damage: Another enterprise AI wrapper promising 'agents' while developers just want to stop context-switching.
+  tags:
+    - enterprise
+    - automation
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a business-centric automation service focused on RPA rather than a developer-facing tool for software engineering or agent orchestration.
+  reason: AgentScale AI is a business-focused automation platform using RPA and LLMs, not a developer-facing AI tool for coding, app building, or workflow augmentation.
   evidence:
-    - Scraped site context explicitly identifies the target audience as 'businesses' for 'automation solutions'.
-    - The core value proposition is RPA (Robotic Process Automation) and business automation, which falls outside the scope of developer-tooling.
+    - "Scraped site description: 'AgentScale AI empowers businesses with cutting-edge automation solutions using robotic process automation, large language models and AI agents.'"
+    - "Source-list context: Listed in awesome-ai-agents under 'AgentScale' with focus on business automation solutions."
+    - No evidence of developer tooling, code interaction, IDE integration, or API/SDK use for software development.
 placement:
   primary_category: null
   section: null
@@ -65,23 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:32:20.674Z"
+    updated_at: "2026-10-01T04:22:18.859Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: c367d6101132
       input_hash: sha256:4c46cf445564d4c4209fd58abf9446458f60a07f0fd5376ee6e081394cc6f8de
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a business-centric automation service focused on RPA rather than a developer-facing tool for software engineering or agent orchestration.
+      decision_reason: AgentScale AI is a business-focused automation platform using RPA and LLMs, not a developer-facing AI tool for coding, app building, or workflow augmentation.
       decision_evidence:
-        - Scraped site context explicitly identifies the target audience as 'businesses' for 'automation solutions'.
-        - The core value proposition is RPA (Robotic Process Automation) and business automation, which falls outside the scope of developer-tooling.
+        - "Scraped site description: 'AgentScale AI empowers businesses with cutting-edge automation solutions using robotic process automation, large language models and AI agents.'"
+        - "Source-list context: Listed in awesome-ai-agents under 'AgentScale' with focus on business automation solutions."
+        - No evidence of developer tooling, code interaction, IDE integration, or API/SDK use for software development.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

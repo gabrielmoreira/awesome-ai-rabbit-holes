@@ -37,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered coding assistant that operates directly within the terminal.
-  why_it_matters: It enables developers to perform codebase searches, code reviews, and task execution through a command-line interface without switching contexts from their terminal.
-  mental_damage: Another layer of abstraction between your hands and your shell, ensuring you never have to actually leave your terminal to feel productive.
+  summary: Tabnine CLI is a terminal-based AI coding assistant that provides code completions, chat, agent features, and context-aware assistance within a developer's existing workflow.
+  why_it_matters: It brings Tabnine's AI-powered coding capabilities directly to the terminal, allowing developers to get AI assistance without leaving their command-line environment.
+  mental_damage: Yet another AI coding assistant promising to boost productivity while fragmenting the developer's attention across yet another tool interface.
   tags:
     - cli
-    - terminal
-    - coding-assistant
-    - code-review
-    - code-search
-  confidence: high
+    - ai-assistant
+    - code-completion
+  confidence: medium
 curation:
   status: included
-  reason: It is a standalone terminal-native coding assistant that plans, reviews, and searches codebases.
+  reason: Tabnine CLI functions as a primary coding agent in the terminal, performing autonomous coding tasks like code completions, chat, and agent-based assistance, fitting the coding-agents category despite its maintenance mode status.
   evidence:
-    - README explicitly identifies it as 'your AI-powered coding assistant in the terminal'
-    - Provides direct capabilities like 'Search large codebases', 'Review my code', and 'Troubleshoot issues'
-    - Functions as a primary interface for developer tasks within the CLI environment
+    - Tabnine CLI is described as 'your AI-powered coding assistant in the terminal' in the documentation
+    - It provides core coding agent features including Tabnine Agent, Tabnine Chat, and Context Engine capabilities
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source' as a recognized terminal-based coding agent
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -72,30 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:38:51.098Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for docs__tabnine__com__main__getting__started__tabnine__cli: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:27:03.512Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b33d9d83210b74a9f87a4967b5563bc8af72148830268ebed6bf692e7e5f896c
+      category_rules_version: c367d6101132
+      input_hash: sha256:414f6e8e5bfe53e5ff678c384953fca6527b4d43b2587aec0b32bff5d2e0feea
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a standalone terminal-native coding assistant that plans, reviews, and searches codebases.
+      decision_reason: Tabnine CLI functions as a primary coding agent in the terminal, performing autonomous coding tasks like code completions, chat, and agent-based assistance, fitting the coding-agents category despite its maintenance mode status.
       decision_evidence:
-        - README explicitly identifies it as 'your AI-powered coding assistant in the terminal'
-        - Provides direct capabilities like 'Search large codebases', 'Review my code', and 'Troubleshoot issues'
-        - Functions as a primary interface for developer tasks within the CLI environment
+        - Tabnine CLI is described as 'your AI-powered coding assistant in the terminal' in the documentation
+        - It provides core coding agent features including Tabnine Agent, Tabnine Chat, and Context Engine capabilities
+        - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source' as a recognized terminal-based coding agent
       category_candidates:
         - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the CLI acts as the primary interface for interacting with the codebase rather than merely augmenting an existing editor or assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Tabnine CLI operates as a standalone primary coding assistant in the terminal rather than merely extending another agent or editor's capabilities.
       review_reason: null
       review_resume_lifecycle: null

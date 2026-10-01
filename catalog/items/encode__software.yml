@@ -36,14 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An autonomous AI agent designed for executing complex tasks and managing workflows.
-  why_it_matters: It offers an automated way to handle multi-step processes that would otherwise require manual orchestration.
-  mental_damage: Another autonomous agent to add to the growing list of things that might try to rewrite your entire architecture while you're getting coffee.
+  summary: encode.software is a directory of AI autonomous agents, serving as a curated list for discovering AI agents.
+  why_it_matters: Helps developers find and evaluate AI agents for development tasks by providing a focused discovery resource.
+  mental_damage: Yet another list to scroll through when you're already overwhelmed by the number of AI agents promising to replace your job.
   tags:
     - ai-agents
-    - automation
-    - autonomous-workflows
-  confidence: low
+    - directory
+    - curated-list
+  confidence: medium
 curation:
   status: included
   reason: The project is listed in an 'awesome-ai-agents' directory and identifies as an autonomous agent capable of executing tasks.
@@ -53,10 +53,10 @@ curation:
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Autonomous & Multi-Agent Coding
+  section: null
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: low confidence"
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'awesome-awesomes'"
 processing:
   discover:
     status: done
@@ -68,29 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:39:19.758Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for encode__software: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:27:29.786Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:f79b013d526aeb67b21ecb1f4fb7b9b158251fd02e2f27ce74381631148e6556
-      proposed_primary_category: coding-agents
-      disagreement: false
-      decision_reason: The project is listed in an 'awesome-ai-agents' directory and identifies as an autonomous agent capable of executing tasks.
+      category_rules_version: c367d6101132
+      input_hash: sha256:3ea931c7b3ba81376e88f2ef2fa735baf2a3a66e2196fef671d2e4c4733a6316
+      proposed_primary_category: awesome-awesomes
+      disagreement: true
+      decision_reason: As a curated directory of AI autonomous agents, it fits the awesome-awesomes category as a navigation aid for developers discovering AI tools.
       decision_evidence:
-        - "Listed in awesome-ai-agents under purpose: A list of AI autonomous agents"
-        - Product identity is an autonomous agent
+        - "Seen in source list 'awesome-ai-agents' with purpose: 'A list of AI autonomous agents' in section 'encode'"
+        - No repo description, stars, or activity data available, but presented as a standalone directory site
+        - Presents itself as a resource for discovering AI agents rather than a tool that performs agent functions
       category_candidates:
+        - awesome-awesomes
         - coding-agents
-        - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the project is identified as an autonomous agent rather than a multi-agent control plane or workbench.
-      review_reason: "Categorization review required: low confidence"
+      contrastive_reason: Choose awesome-awesomes over coding-agents because it is a curated directory for discovering AI agents rather than an agent that performs coding tasks itself.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'awesome-awesomes'"
       review_resume_lifecycle: null

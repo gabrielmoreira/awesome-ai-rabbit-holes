@@ -72,11 +72,11 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:34:33.036Z"
+    updated_at: "2026-10-01T04:24:11.694Z"
     cause:
       type: invalid_llm_json
-      message: "Catalog LLM categorization failed for augments__dev: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+      message: "Catalog LLM categorization failed for augments__dev: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": Augments.d\"... is not valid JSON"
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

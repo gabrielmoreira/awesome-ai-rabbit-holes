@@ -37,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A tweet describing an agent-computer interface design insight for LMs interacting with terminals.
-  why_it_matters: Highlights the need for carefully designed interfaces when LMs interact with development environments like terminals.
-  mental_damage: Turns out LMs also hate bad UX—who knew indentation feedback was the missing dev tool.
+  summary: An X post describing the SWE-agent project's insight that language models require carefully designed agent-computer interfaces to edit code effectively.
+  why_it_matters: "Highlights a key principle in AI agent design: effective coding agents need specialized interfaces beyond raw terminal access to prevent common errors like indentation mistakes."
+  mental_damage: Another reminder that giving AI a bash shell is like giving a toddler a chainsaw—you need the right safety guards first.
   tags:
-    - agent-interface
-    - terminal-agents
-    - ux-for-ai
+    - ai-agents
+    - agent-computer-interface
+    - swe-agent
   confidence: high
 curation:
   status: excluded
-  reason: This is a social media post describing a concept, not a standalone product, tool, or repository.
+  reason: The input is a social media post describing a project's insight, not the project itself or a developer-facing tool with standalone utility.
   evidence:
-    - Source is a tweet, not a repo or product page
-    - No linked tool, code, or executable artifact
-    - Describes an insight rather than a usable developer tool
+    - Source is an X (Twitter) post by John Yang discussing SWE-agent's design philosophy
+    - No repository, CLI, SDK, or deployable artifact is described or linked as the primary subject
+    - The content is promotional/explanatory rather than a functional tool for developer workflows
 placement:
   primary_category: null
   section: null
@@ -69,27 +69,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:51:02.713Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for x__com__jyangballin__status__1775114448513958134: Invalid AI response format: SyntaxError: Unexpected token 'S', ...\"_reason\": SWE-agent \"... is not valid JSON"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:31:31.325Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:89cbdbc19201ef146410c18b465f0299a0dd1f6fa1219fbace263c5972d3769e
+      category_rules_version: c367d6101132
+      input_hash: sha256:fcb25b244855f9b63bcbf02468a170071e73a34d68bde07a4b6e27b31c99d4bf
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a social media post describing a concept, not a standalone product, tool, or repository.
+      decision_reason: The input is a social media post describing a project's insight, not the project itself or a developer-facing tool with standalone utility.
       decision_evidence:
-        - Source is a tweet, not a repo or product page
-        - No linked tool, code, or executable artifact
-        - Describes an insight rather than a usable developer tool
+        - Source is an X (Twitter) post by John Yang discussing SWE-agent's design philosophy
+        - No repository, CLI, SDK, or deployable artifact is described or linked as the primary subject
+        - The content is promotional/explanatory rather than a functional tool for developer workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null

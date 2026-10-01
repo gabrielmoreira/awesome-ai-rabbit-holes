@@ -37,27 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Google Colab notebook for learning the LangChain framework.
-  why_it_matters: Provides a zero-setup, browser-based environment to experiment with LangChain's orchestration patterns and components.
-  mental_damage: One more interactive notebook to add to the endless pile of 'copy-paste-and-pray' tutorials.
-  tags:
-    - langchain
-    - notebooks
-    - learning
-    - colab
-  confidence: high
+  summary: A Google Colab notebook link with no title or description.
+  why_it_matters: It does not provide any developer-facing tool, workflow, or product description to assess its relevance.
+  mental_damage: Another unverified link in the ecosystem that forces maintainers to guess whether it's useful or just noise.
+  tags: []
+  confidence: low
 curation:
   status: excluded
-  reason: This is a single educational notebook/resource rather than a standalone developer tool or product.
+  reason: The input is a bare Google Colab URL with no metadata, description, or readable content, making it impossible to determine if it is a developer-facing AI tool.
   evidence:
-    - "Source-list context: listed in awesome-langchain under Learn > Notebooks"
-    - "URL: Points to a Google Colab instance, not a software product"
+    - "URL: https://colab.research.google.com/drive/1AVh9dOsG9DKzfK7gOFrJuitPIcLPqlbO"
+    - "Repo description: (none)"
+    - "Scraped site context: Title: Google Colab, Description: (none), Primary page excerpt: 'Sign in'"
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -69,27 +66,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:36:03.340Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for colab__research__google__com__drive__1avh9dosg9dkzfk7gofrjuitpiclpqlbo: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:25:34.195Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:86965140305e1bf5c22dcc812b1f89e2e3d06031880fb1377627e029f1d6498a
+      category_rules_version: c367d6101132
+      input_hash: sha256:ac3f68ae6d45631b8440f4ddbbc81696c17bba6ef8af776f0a100bc4daf4bbe2
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a single educational notebook/resource rather than a standalone developer tool or product.
+      decision_reason: The input is a bare Google Colab URL with no metadata, description, or readable content, making it impossible to determine if it is a developer-facing AI tool.
       decision_evidence:
-        - "Source-list context: listed in awesome-langchain under Learn > Notebooks"
-        - "URL: Points to a Google Colab instance, not a software product"
+        - "URL: https://colab.research.google.com/drive/1AVh9dOsG9DKzfK7gOFrJuitPIcLPqlbO"
+        - "Repo description: (none)"
+        - "Scraped site context: Title: Google Colab, Description: (none), Primary page excerpt: 'Sign in'"
       category_candidates: []
       contrastive_reason: null
-      review_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

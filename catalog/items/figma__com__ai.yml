@@ -36,20 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Figma's integrated AI features for generating and manipulating design assets.
-  why_it_matters: It allows designers to iterate on UI layouts and assets using generative AI, bridging the gap between design intent and high-fidelity prototypes.
-  mental_damage: It turns the act of 'oving pixels' into a high-stakes negotiation with a latent diffusion model.
+  summary: Figma's AI-powered UI generator for creating design mockups and prototypes from prompts.
+  why_it_matters: It accelerates early-stage UI ideation by turning natural language descriptions into editable Figma designs, reducing manual mockup time.
+  mental_damage: Another promise of 'just describe it' that still leaves you tweaking alignment and component overrides for an hour.
   tags:
-    - design-automation
     - ui-generation
-    - creative-ai
+    - figma-plugin
+    - ai-design
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a broad SaaS design platform with integrated AI, not a developer-focused coding tool, agent, or infrastructure component.
+  reason: The tool is a design-focused AI feature within Figma, not a developer-facing coding agent, app builder, or infrastructure tool; its output is design mockups, not deployable code or apps.
   evidence:
-    - URL points to Figma's general product site
-    - Source-list context labels it as 'UI Generators' in a design-centric context, not developer-centric
+    - Source-list context shows it appears in 'awesome-ai-coding-tools' under 'UI Generators', indicating design-to-design output, not code generation
+    - URL points to figma.com/ai, a feature page for Figma's internal AI capabilities, not a standalone developer tool or open-source project
+    - No repo description, stars, or activity signals suggest it is a developer-facing product with code-level integration or autonomy
 placement:
   primary_category: null
   section: null
@@ -67,26 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:39:27.943Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for figma__com__ai: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:27:34.419Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:9517f4b3a34d352295733cd2e7f7d39b6fa294746aa4210e3b237d02b030f11e
+      category_rules_version: c367d6101132
+      input_hash: sha256:80a4ffe021ba074295797a502b1fcae265f3385a3f3fd42f2061481c1346ec3c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool is a broad SaaS design platform with integrated AI, not a developer-focused coding tool, agent, or infrastructure component.
+      decision_reason: The tool is a design-focused AI feature within Figma, not a developer-facing coding agent, app builder, or infrastructure tool; its output is design mockups, not deployable code or apps.
       decision_evidence:
-        - URL points to Figma's general product site
-        - Source-list context labels it as 'UI Generators' in a design-centric context, not developer-centric
+        - Source-list context shows it appears in 'awesome-ai-coding-tools' under 'UI Generators', indicating design-to-design output, not code generation
+        - URL points to figma.com/ai, a feature page for Figma's internal AI capabilities, not a standalone developer tool or open-source project
+        - No repo description, stars, or activity signals suggest it is a developer-facing product with code-level integration or autonomy
       category_candidates: []
       contrastive_reason: null
       review_reason: null

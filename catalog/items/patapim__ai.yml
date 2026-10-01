@@ -37,30 +37,28 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A superpower suite for Claude Code that adds multi-project workspaces, voice dictation, remote control, live notifications, and embedded browser automation.
-  why_it_matters: It transforms Claude Code from a terminal agent into a more agentic, multi-session, and remotely accessible workflow without replacing the core assistant.
-  mental_damage: Finally, a way to make Claude Code feel like it’s actually paying attention to more than one thing at a time.
+  summary: Patapim.ai is a desktop utility that adds multi-project workspaces, voice dictation, remote control, and browser automation to Claude Code and compatible CLI agents.
+  why_it_matters: It lets developers run multiple agent sessions in parallel with persistent context and system-level control without leaving the terminal.
+  mental_damage: Finally, a way to feel productive while juggling six terminal windows that all think they're the main character.
   tags:
-    - claude-code
-    - terminal-agents
-    - remote-access
-    - voice-dictation
-    - browser-automation
+    - cli
+    - agent-extension
+    - workflow
   confidence: high
 curation:
   status: included
-  reason: It is a terminal-native workspace that orchestrates existing coding agents (Claude Code, Gemini, Codex) rather than being a framework, IDE, or thin extension.
+  reason: Patapim is an extension that augments Claude Code with system capabilities like computer control and voice input, not a standalone coding agent.
   evidence:
-    - Site markets 'Multi-AI War Room' running Claude, Gemini & Codex side by side in terminals.
-    - Listed in awesome-cli-coding-agents under 'Session managers & parallel runners'.
-    - Core features include folder-oriented workspace, session restore, and integrated browser for agent testing.
+    - Source-list context identifies it as adding 'multi-project workspaces, voice, remote control, live notifications' to Claude Code
+    - "Scraped site states: 'Patapim adds everything Claude Code is missing — without taking the terminal away from you'"
+    - Features include local API, SDK, and plugin system that register MCP tools in Claude Code sessions
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
   section: Claude Code & Agent Tools
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -72,30 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:34:17.207Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for patapim__ai: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:29:01.154Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:2df4af8bcbd958cedb402500dac6e6fb752e840de2059f53980d9c79308311f3
-      proposed_primary_category: ai-dev-extensions
-      disagreement: true
-      decision_reason: It is primarily an extension layer that augments Claude Code (and similar CLIs) with workflow, UI, and host integration capabilities rather than being a standalone coding assistant.
+      category_rules_version: c367d6101132
+      input_hash: sha256:9b5722308198233568480443b7aede36e076ec1683c4cb12d59ce9d9d1d6927a
+      proposed_primary_category: extensions-and-addons
+      disagreement: false
+      decision_reason: Patapim is an extension that augments Claude Code with system capabilities like computer control and voice input, not a standalone coding agent.
       decision_evidence:
-        - Described as 'adds everything Claude Code is missing' (multi-project workspaces, voice, remote control, notifications)
-        - Explicitly positions itself as a superpower suite for Claude Code, Codex, Antigravity, or custom CLIs
-        - Source-list context places it under 'Harnesses & orchestration > Session managers & parallel runners'
+        - Source-list context identifies it as adding 'multi-project workspaces, voice, remote control, live notifications' to Claude Code
+        - "Scraped site states: 'Patapim adds everything Claude Code is missing — without taking the terminal away from you'"
+        - Features include local API, SDK, and plugin system that register MCP tools in Claude Code sessions
       category_candidates:
-        - ai-dev-extensions
+        - extensions-and-addons
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because its core value is augmenting Claude Code with workflow, UI, and host integrations rather than acting as the primary coding assistant.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
+      contrastive_reason: Choose extensions-and-addons over coding-agents because Patapim’s primary value is augmenting Claude Code with system-level features rather than performing coding tasks autonomously.
+      review_reason: null
       review_resume_lifecycle: null

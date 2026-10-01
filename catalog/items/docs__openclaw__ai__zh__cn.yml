@@ -36,16 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A self-hosted AI agent gateway that connects messaging channels like Discord, Slack, and WhatsApp to AI coding agents.
-  why_it_matters: It enables developers to interact with their coding agents through their existing communication tools, bridging the gap between chat apps and development workflows.
-  mental_damage: Because having your coding agent respond to a WhatsApp message is exactly how you accidentally deploy buggy code from a coffee shop.
+  summary: OpenClaw is a self-hosted multi-channel AI agent gateway that connects chat apps to coding agents.
+  why_it_matters: It lets developers run their own AI coding assistant infrastructure on any OS while keeping data under their control.
+  mental_damage: Yet another layer to manage between your chat app and the AI that writes your code, just to feel like you own the stack.
   tags:
     - ai-agent
-    - gateway
-    - messaging-integration
     - self-hosted
-    - automation
-  confidence: high
+    - gateway
+  confidence: medium
 curation:
   status: included
   reason: It acts as a host integration layer that augments existing messaging platforms with agentic capabilities rather than being the primary coding assistant itself.
@@ -56,10 +54,10 @@ curation:
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
-  section: API & Service Integrations
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -71,30 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:38:32.686Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for docs__openclaw__ai__zh__cn: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:26:56.031Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:bbb231868a2c2ad15faec217a7a1d4504e3f048659e3c026c7502be7b809345c
-      proposed_primary_category: ai-dev-extensions
-      disagreement: false
-      decision_reason: It acts as a host integration layer that augments existing messaging platforms with agentic capabilities rather than being the primary coding assistant itself.
+      category_rules_version: c367d6101132
+      input_hash: sha256:c360ea0d6ad407110267d84bf287b2a7ae665c38b3fc0b8f0df389b94cace78a
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: OpenClaw is primarily a gateway/runtime that coordinates multiple agents, manages sessions, memory, and routing across channels, making it an agent orchestration platform rather than a coding agent itself.
       decision_evidence:
-        - README describes it as a 'Gateway' connecting messaging channels to AI coding agents
-        - Primary value is routing messages from Discord, Slack, etc., to an agent
-        - Provides mobile nodes for iOS/Android to interface with the gateway
+        - Described as a '多渠道 AI 智能体 Gateway 网关' (multi-channel AI agent gateway)
+        - Handles agent runtime, sessions, memory, multi-agent routing, and tool integration
+        - Positioned as a self-hosted infrastructure layer for connecting chat apps to AI agents
       category_candidates:
-        - ai-dev-extensions
         - agent-orchestration
-      contrastive_reason: Choose ai-dev-extensions over agent-orchestration because the core product identity is a connectivity layer (Gateway) that augments existing communication hosts.
-      review_reason: null
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because OpenClaw's core identity is managing agent runtime, sessions, and multi-agent routing rather than directly performing coding tasks.
+      review_reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'agent-orchestration'"
       review_resume_lifecycle: null

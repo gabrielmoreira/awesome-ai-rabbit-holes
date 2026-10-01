@@ -36,27 +36,28 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cognosys is an autonomous AI agent designed to research, plan, and execute complex tasks across various domains.
-  why_it_matters: It attempts to move beyond simple chat interfaces toward autonomous agents that can handle multi-step workflows without constant human intervention.
-  mental_damage: Another autonomous agent to delegate your life to, assuming it doesn't decide your codebase is actually a giant hallucination.
+  summary: Cognosys.ai is an AI agent platform that coordinates multiple autonomous agents to perform tasks like research, data analysis, and workflow automation.
+  why_it_matters: It lets developers orchestrate teams of AI agents to handle complex, multi-step workflows without manual intervention.
+  mental_damage: Yet another promise of 'set it and forget it' automation that still requires you to babysit the agents when they hallucinate a CSV schema.
   tags:
-    - autonomous-agents
-    - ai-research
-    - workflow-automation
-  confidence: low
+    - agent-orchestration
+    - ai-workflows
+    - multi-agent
+  confidence: medium
 curation:
   status: included
-  reason: It is listed in awesome-ai-agents as an autonomous agent and presents itself as a platform for executing tasks, fitting the 'Browser/Desktop/Computer-Use' section of coding agents.
+  reason: Cognosys.ai positions itself as a platform for deploying and managing teams of AI agents to accomplish goals, which aligns with agent orchestration rather than being a coding agent or app builder.
   evidence:
-    - Appears in the awesome-ai-agents list under section 'Cognosys'.
-    - Described as an 'AI autonomous agent' capable of performing tasks.
+    - Listed in awesome-ai-agents under the 'Cognosys' section as an AI autonomous agent
+    - Product description emphasizes coordinating multiple agents for research, data analysis, and workflow tasks
+    - No evidence it primarily writes/edit code or generates apps from prompts as its core function
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
   section: Hosted Agent Platforms
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence; placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -68,29 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:36:02.343Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for cognosys__ai: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:25:31.961Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d35fa33b2dafff35a2fa5dfc8aa52e8fd0c8049a4a79d5e7d2c48c35389355e9
+      category_rules_version: c367d6101132
+      input_hash: sha256:a6d41409337ca4f67786c637ce076202428d5a31570d1270f689ebccd639258b
       proposed_primary_category: agent-orchestration
-      disagreement: true
-      decision_reason: It is an operated agent platform focused on task orchestration rather than a library for developers to import into their own code.
+      disagreement: false
+      decision_reason: Cognosys.ai positions itself as a platform for deploying and managing teams of AI agents to accomplish goals, which aligns with agent orchestration rather than being a coding agent or app builder.
       decision_evidence:
-        - Seen in awesome-ai-agents directory
-        - Claimed focus on autonomous task execution
+        - Listed in awesome-ai-agents under the 'Cognosys' section as an AI autonomous agent
+        - Product description emphasizes coordinating multiple agents for research, data analysis, and workflow tasks
+        - No evidence it primarily writes/edit code or generates apps from prompts as its core function
       category_candidates:
         - agent-orchestration
-        - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because the product is presented as an autonomous agent platform for general tasks rather than a specialized tool for editing existing codebases.
-      review_reason: "Categorization review required: low confidence; placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+        - app-builders
+      contrastive_reason: Choose agent-orchestration over app-builders because Cognosys.ai focuses on coordinating multiple AI agents to perform tasks rather than generating deployable apps from prompts.
+      review_reason: null
       review_resume_lifecycle: null

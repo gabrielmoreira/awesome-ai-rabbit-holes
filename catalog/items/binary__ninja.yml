@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform.
-  why_it_matters: It provides scriptable reverse engineering capabilities and AI-assisted analysis to accelerate deep binary inspection and automation.
-  mental_damage: Nothing says 'I've lost control of my codebase' quite like having to reverse engineer it with an AI-powered decompiler.
+  summary: Binary Ninja is a modern reverse engineering platform with a scriptable and extensible decompiler, disassembler, debugger, and binary analysis tool built by reverse engineers for reverse engineers.
+  why_it_matters: It enables developers to analyze, debug, and understand compiled binaries through automation, visualization, and scripting in Python, C++, or Rust.
+  mental_damage: Another powerful tool that makes you feel like a hacker in a movie until you realize you've spent three hours staring at assembly trying to find a single function.
   tags:
     - reverse-engineering
-    - decompiler
-    - debugger
     - binary-analysis
-    - disassembler
+    - debugging
   confidence: high
 curation:
   status: excluded
-  reason: Binary Ninja is a specialized professional reverse engineering tool rather than a developer-facing AI coding assistant, IDE, or workflow agent.
+  reason: Binary Ninja is a reverse engineering platform, not an AI coding tool, agent, builder, or infrastructure relevant to software development workflows involving AI-assisted code generation, editing, or orchestration.
   evidence:
-    - Core identity is a disassembler and decompiler for binary analysis
-    - Product focus is on reverse engineering, not repo-scale application development
-    - AI features are described as 'accelerating analysis' rather than being the primary coding interface
+    - "Repo description: (none)"
+    - "Scraped site context: 'Binary Ninja is a modern reverse engineering platform with a scriptable and extensible decompiler.'"
+    - "Source-list context: Listed in awesome-mcp-servers as a 'Community Server' with description 'Binary Ninja is a modern reverse engineering platform with a scriptable and extensible decompiler.'"
 placement:
   primary_category: null
   section: null
@@ -70,27 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:34:58.608Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for binary__ninja: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:24:41.703Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:2241e0030d3eae6ac1f1bf40bd82398552913e51f4ac99eb3cf8d54ae536e763
+      category_rules_version: c367d6101132
+      input_hash: sha256:84a8ce4a7fbaa2eb73098c24cf4ee92ba043efe705fe00e0c1490a5c46b44fd4
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Binary Ninja is a specialized professional reverse engineering tool rather than a developer-facing AI coding assistant, IDE, or workflow agent.
+      decision_reason: Binary Ninja is a reverse engineering platform, not an AI coding tool, agent, builder, or infrastructure relevant to software development workflows involving AI-assisted code generation, editing, or orchestration.
       decision_evidence:
-        - Core identity is a disassembler and decompiler for binary analysis
-        - Product focus is on reverse engineering, not repo-scale application development
-        - AI features are described as 'accelerating analysis' rather than being the primary coding interface
+        - "Repo description: (none)"
+        - "Scraped site context: 'Binary Ninja is a modern reverse engineering platform with a scriptable and extensible decompiler.'"
+        - "Source-list context: Listed in awesome-mcp-servers as a 'Community Server' with description 'Binary Ninja is a modern reverse engineering platform with a scriptable and extensible decompiler.'"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

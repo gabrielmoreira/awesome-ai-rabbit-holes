@@ -37,17 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A tweet announcing that Wordware added the Mixtral model to their model selection interface.
-  why_it_matters: None; this is a social media post, not a developer tool or resource.
-  mental_damage: Another reminder that AI news moves faster than our ability to distinguish signal from noise in the feed.
-  tags: []
+  summary: A tweet announcing the addition of the Mixtral model to Wordware AI's model selection interface.
+  why_it_matters: Shows how model selection UX evolves with new open weights releases, relevant for developers evaluating LLM providers.
+  mental_damage: Yet another model drop that makes you question whether symmetry in a dropdown is now a competitive moat.
+  tags:
+    - llm
+    - model-selection
+    - wordware
   confidence: high
 curation:
   status: excluded
-  reason: This is a single social media post with no standalone product, tool, or developer-facing utility; it lacks the permanence and utility required for inclusion in a curated developer catalog.
+  reason: This is a social media post about a model addition, not a developer-facing tool, agent, or infrastructure product.
   evidence:
-    - Source is a single tweet/X post from @bertie_ai announcing a model addition to Wordware.
-    - No repo, product, tool, or developer workflow is described or linked; it is purely anecdotal platform news.
+    - Source is a tweet/X post by Robert Chandler (@bertie_ai) announcing Wordware AI added the Mixtral model
+    - No evidence of a standalone product, tool, SDK, or agent — only a UI update mention
+    - Appears in awesome-ai-agents list only as a linked page under a description, not as a curated agent itself
 placement:
   primary_category: null
   section: null
@@ -66,9 +70,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:51:17.840Z"
+    updated_at: "2026-10-01T04:31:33.656Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -76,13 +80,14 @@ processing:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: c367d6101132
-      input_hash: sha256:c86c868562d1017205fa9be408565e893b1efd68f7bf790cef55a99b69c56c3c
+      input_hash: sha256:bd83121a9b9f30c1996893f9514ab428b9d8ba81d530462ba823dcc662bcd153
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a single social media post with no standalone product, tool, or developer-facing utility; it lacks the permanence and utility required for inclusion in a curated developer catalog.
+      decision_reason: This is a social media post about a model addition, not a developer-facing tool, agent, or infrastructure product.
       decision_evidence:
-        - Source is a single tweet/X post from @bertie_ai announcing a model addition to Wordware.
-        - No repo, product, tool, or developer workflow is described or linked; it is purely anecdotal platform news.
+        - Source is a tweet/X post by Robert Chandler (@bertie_ai) announcing Wordware AI added the Mixtral model
+        - No evidence of a standalone product, tool, SDK, or agent — only a UI update mention
+        - Appears in awesome-ai-agents list only as a linked page under a description, not as a curated agent itself
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -51,54 +51,53 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AI design tool that generates production-ready UI from prompts, matching existing design systems for rapid prototyping.
-  why_it_matters: Accelerates frontend development by turning prompts into high-fidelity UI prototypes that align with existing design systems, enabling faster iteration and collaboration.
-  mental_damage: Finally, a way to skip the 'make it pop' feedback loop and go straight to 'ship it'.
+  summary: Magic Patterns is an AI design tool that turns prompts into production-ready UI using a user's design system for rapid prototyping and team collaboration.
+  why_it_matters: It accelerates frontend iteration by letting product and engineering teams generate and test UI directly from prompts, reducing time from idea to feedback.
+  mental_damage: Finally, a tool that promises to bridge the design-engineering gap — as long as you enjoy rebuilding the same button in three different AI-generated variants before lunch.
   tags:
     - ui-generation
-    - design-systems
+    - design-system
     - prototyping
     - frontend
-    - ai-design
   confidence: high
 curation:
-  status: excluded
-  reason: Magic Patterns is a UI/UX design tool for product teams, not a developer-facing coding tool, framework, or workflow utility.
+  status: included
+  reason: Magic Patterns generates deployable UI from prompts using a design system, fitting the app-builder identity of turning natural language into frontend artifacts without requiring an existing codebase.
   evidence:
-    - Site description explicitly positions it as an 'AI design tool to turn prompts into production-ready UI'
-    - Primary value proposition is prototyping and design system matching, not code editing or developer workflows
-    - Source-list context places it under 'UI Generators' in a coding tools list, but the product itself is design-focused
+    - Turn a prompt, product requirement, or feature idea into high-fidelity UI in minutes.
+    - Bring your existing screenshots, components, styles, and design-system rules into Magic Patterns for consistent prototyping.
+    - Seen in source list under 'UI Generators' as an AI design tool to turn prompts into production-ready UI.
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Internal Tools & Dashboards
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-09-28T04:42:25.388Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for magicpatterns__com: Invalid AI response format: SyntaxError: Unexpected token 'M', ...\"_reason\": Magic Patt\"... is not valid JSON"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:30:37.256Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5a7c1f2a3cb712db1512088ccf91ec19ee1e7e836c32baeac10af0491fd2a64d
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:9ba8869e92dfef813bef7a2993cafc9bc281536234c26a585f03c2dc8003059a
+      proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: Magic Patterns is a UI/UX design tool for product teams, not a developer-facing coding tool, framework, or workflow utility.
+      decision_reason: Magic Patterns generates deployable UI from prompts using a design system, fitting the app-builder identity of turning natural language into frontend artifacts without requiring an existing codebase.
       decision_evidence:
-        - Site description explicitly positions it as an 'AI design tool to turn prompts into production-ready UI'
-        - Primary value proposition is prototyping and design system matching, not code editing or developer workflows
-        - Source-list context places it under 'UI Generators' in a coding tools list, but the product itself is design-focused
-      category_candidates: []
-      contrastive_reason: null
+        - Turn a prompt, product requirement, or feature idea into high-fidelity UI in minutes.
+        - Bring your existing screenshots, components, styles, and design-system rules into Magic Patterns for consistent prototyping.
+        - Seen in source list under 'UI Generators' as an AI design tool to turn prompts into production-ready UI.
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because Magic Patterns generates new UI from prompts rather than editing or operating on an existing codebase as a coding agent would.
       review_reason: null
       review_resume_lifecycle: null
   discover:

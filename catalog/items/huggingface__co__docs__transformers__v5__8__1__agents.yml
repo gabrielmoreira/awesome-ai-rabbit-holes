@@ -36,17 +36,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation for the agents feature within the Hugging Face Transformers library.
-  why_it_matters: It serves as a reference for implementing agentic logic using the Transformers SDK.
-  mental_damage: Nothing quite captures the modern developer experience like a documentation link that tells you it doesn't exist.
-  tags: []
+  summary: Documentation for the agentic functionality within the Hugging Face Transformers library.
+  why_it_matters: It provides the instructional context for developers attempting to implement tool-use and autonomous loops using Transformers models.
+  mental_damage: Chasing a redirect loop in versioned documentation is the most authentic way to experience the current state of AI development.
+  tags:
+    - huggingface
+    - documentation
   confidence: high
 curation:
   status: excluded
-  reason: The entry is a documentation link for a library feature rather than a standalone product or tool.
+  reason: The input is a link to a documentation page rather than a standalone product, agent, or framework.
   evidence:
-    - The URL points specifically to a documentation sub-path for the Transformers library.
-    - The scraped context describes a redirect notice for a non-existent documentation page in the specified version.
+    - URL points to a documentation path within the Hugging Face Transformers repository
+    - Scraped context indicates the specific page does not exist in the requested version and is a redirect
 placement:
   primary_category: null
   section: null
@@ -65,9 +67,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-21T04:19:49.890Z"
+    updated_at: "2026-10-01T04:14:31.754Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -78,10 +80,10 @@ processing:
       input_hash: sha256:d7068bf685fa7b8d0c13facde1ccea29bf5298d0134d0e2c544895c66027e50e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The entry is a documentation link for a library feature rather than a standalone product or tool.
+      decision_reason: The input is a link to a documentation page rather than a standalone product, agent, or framework.
       decision_evidence:
-        - The URL points specifically to a documentation sub-path for the Transformers library.
-        - The scraped context describes a redirect notice for a non-existent documentation page in the specified version.
+        - URL points to a documentation path within the Hugging Face Transformers repository
+        - Scraped context indicates the specific page does not exist in the requested version and is a redirect
       category_candidates: []
       contrastive_reason: null
       review_reason: null

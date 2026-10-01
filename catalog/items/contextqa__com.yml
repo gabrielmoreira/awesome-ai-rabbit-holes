@@ -36,27 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-native testing platform that automates end-to-end QA for enterprise applications and AI agents through self-healing tests and MCP integration.
-  why_it_matters: It helps developers validate non-deterministic AI agents and complex enterprise workflows by automatically catching hallucinations and selector drift.
-  mental_damage: Finally, a way to watch your AI agent hallucinate in a controlled, automated environment before it does it to your customers.
+  summary: ContextQA is an AI-powered test automation platform for enterprise applications and AI agents.
+  why_it_matters: It reduces manual testing effort by auto-generating and self-healing test suites across web, mobile, API, database, and AI agent workflows.
+  mental_damage: Finally, a QA tool that understands your test suite is a house of cards built on selectors written during a caffeine crash.
   tags:
-    - ai-testing
-    - qa-automation
+    - testing
+    - automation
+    - ai-agents
+    - enterprise
     - mcp
-    - enterprise-software
-    - agent-validation
   confidence: high
 curation:
-  status: included
-  reason: The product's core value is measuring, scoring, and regression-testing the behavior and quality of AI agents and enterprise apps.
+  status: excluded
+  reason: ContextQA is a SaaS testing platform focused on enterprise test automation, not a developer-facing AI tool for coding, agents, or workflows; its core identity is QA, not developer tooling.
   evidence:
-    - Claims to catch hallucinations and drift in AI agents
-    - Uses AI judgment and deterministic checks to score response quality
-    - Provides automated regression testing for model versions
+    - AI Test Automation Platform for Enterprise & AI Agents - creates, runs, and maintains tests across web, mobile, APIs, databases, and AI agents
+    - Positioned as an enterprise QA solution with demos, support, and compliance features, not as a coding agent or developer workflow tool
+    - Listed in awesome-ai-agents under 'ContextQA' section, but described as unifying AI agent testing and enterprise app automation
 placement:
-  primary_category: coding-agents
+  primary_category: null
   secondary_categories: []
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -71,30 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:36:14.232Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for contextqa__com: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:25:44.385Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:6d23962da26244a5f33a03e8dc1f0b7839f728b8991a663fb0af0f4121775d29
-      proposed_primary_category: evals
+      category_rules_version: c367d6101132
+      input_hash: sha256:35f49b6b86e7930535ac8b686b3e98aeaa4a8d278c8331e27b42baa5f222a8fa
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: The product's core value is measuring, scoring, and regression-testing the behavior and quality of AI agents and enterprise apps.
+      decision_reason: ContextQA is a SaaS testing platform focused on enterprise test automation, not a developer-facing AI tool for coding, agents, or workflows; its core identity is QA, not developer tooling.
       decision_evidence:
-        - Claims to catch hallucinations and drift in AI agents
-        - Uses AI judgment and deterministic checks to score response quality
-        - Provides automated regression testing for model versions
-      category_candidates:
-        - evals
-        - ai-dev-extensions
-      contrastive_reason: Choose evals over ai-dev-extensions because the primary job of the tool is measuring agent behavior and quality rather than merely acting as an integration layer for an editor.
+        - AI Test Automation Platform for Enterprise & AI Agents - creates, runs, and maintains tests across web, mobile, APIs, databases, and AI agents
+        - Positioned as an enterprise QA solution with demos, support, and compliance features, not as a coding agent or developer workflow tool
+        - Listed in awesome-ai-agents under 'ContextQA' section, but described as unifying AI agent testing and enterprise app automation
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

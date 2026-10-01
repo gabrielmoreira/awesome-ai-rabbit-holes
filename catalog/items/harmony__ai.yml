@@ -36,18 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A voice AI platform designed for sales and revenue teams to automate lead qualification, outbound calls, and customer engagement.
-  why_it_matters: While it represents a sophisticated use of agentic workflows, it is a business-facing application rather than a tool for the developer's technical workflow.
-  mental_damage: The agentic revolution is finally moving from the terminal to the telephone, and the sales floor is officially first in line.
-  tags: []
+  summary: A voice AI platform designed for sales and revenue teams to automate inbound and outbound customer calls.
+  why_it_matters: This is a business-facing sales automation tool rather than a developer-facing tool for building or managing software.
+  mental_damage: The only 'agent' here is working a sales desk, not your terminal.
+  tags:
+    - voice-ai
+    - sales-automation
+    - saas
   confidence: high
 curation:
   status: excluded
-  reason: It is a vertical SaaS product for business revenue teams rather than a developer-facing tool, framework, or infrastructure.
+  reason: The product is a vertical SaaS solution for sales operations and revenue teams, which falls outside the catalog's scope of developer-centric tooling.
   evidence:
-    - The product is marketed as a 'system for running revenue calls' for business use cases like lead qualification and appointment setting.
-    - The site explicitly distinguishes itself from developer toolkits like Vapi or Retell.
-    - It does not provide coding assistance, IDE integration, or developer-centric agent orchestration.
+    - Site content explicitly targets 'revenue teams' and 'business' use cases like lead qualification and appointment setting.
+    - The product is described as a 'no-code' system for running calls rather than a library, framework, or orchestration engine for developers.
 placement:
   primary_category: null
   section: null
@@ -66,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:20:49.442Z"
+    updated_at: "2026-10-01T04:21:12.902Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -79,11 +81,10 @@ processing:
       input_hash: sha256:1be03ec824d1c93860242aad3fc3fd6381de098edfe11984ce463d60027628af
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a vertical SaaS product for business revenue teams rather than a developer-facing tool, framework, or infrastructure.
+      decision_reason: The product is a vertical SaaS solution for sales operations and revenue teams, which falls outside the catalog's scope of developer-centric tooling.
       decision_evidence:
-        - The product is marketed as a 'system for running revenue calls' for business use cases like lead qualification and appointment setting.
-        - The site explicitly distinguishes itself from developer toolkits like Vapi or Retell.
-        - It does not provide coding assistance, IDE integration, or developer-centric agent orchestration.
+        - Site content explicitly targets 'revenue teams' and 'business' use cases like lead qualification and appointment setting.
+        - The product is described as a 'no-code' system for running calls rather than a library, framework, or orchestration engine for developers.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

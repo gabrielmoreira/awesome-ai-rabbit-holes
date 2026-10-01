@@ -36,28 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An autonomous agent platform designed for complex workflow automation and multi-agent coordination.
-  why_it_matters: It provides a framework for orchestrating multiple specialized agents to solve complex, multi-step tasks that a single LLM prompt cannot handle.
-  mental_damage: Because deciding which specific agent to delegate your actual job to is the new way to waste a Tuesday afternoon.
+  summary: AilaFlow is a low-code workflow automation platform that enables teams to design and run business processes involving human tasks, AI agents, JavaScript integrations, and external systems via shared human-AI interfaces.
+  why_it_matters: It lets developers and teams automate complex approval and onboarding workflows using visual design or AI assistance while connecting to existing systems through sandboxed JavaScript execution.
+  mental_damage: Finally, a way to turn your team’s approval bottlenecks into a drag-and-drop flowchart that still requires someone to actually click 'approve'.
   tags:
-    - agents
-    - automation
-    - multi-agent
-    - orchestration
-  confidence: low
+    - low-code
+    - workflow-automation
+    - ai-agents
+    - human-ai-collaboration
+  confidence: high
 curation:
-  status: included
-  reason: The project is listed in 'awesome-ai-agents' as an autonomous agent platform, implying a focus on multi-agent coordination rather than just a single assistant.
+  status: excluded
+  reason: AilaFlow is a general-purpose low-code business workflow platform focused on human-AI collaboration in approval processes, not a developer-facing AI tool for coding, app building, or agent development.
   evidence:
-    - Included in awesome-ai-agents under 'AilaFlow'
-    - URL ailaflow.com indicates a workflow-oriented platform
+    - The platform emphasizes business workflows like purchase approvals, employee onboarding, and incident response rather than software development tasks.
+    - It positions itself as a collaborative workspace where people and AI agents build business processes, not as a tool for developers to write, test, or manage code.
+    - While it supports JavaScript integrations and Docker sandboxes, its core identity is workflow automation for business teams, not AI-assisted coding or agent orchestration for developers.
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -69,29 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:33:44.243Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for ailaflow__com: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:23:12.171Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:15c8b75c63d5e851ccf5aa7a4807d07e113bb175e2a462cb4667c9a04905f7d9
-      proposed_primary_category: agent-orchestration
+      category_rules_version: c367d6101132
+      input_hash: sha256:4d2cec46cd5fbff81ef7c532543a198883d38401029dae474286f0cd6cb8c570
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is listed in 'awesome-ai-agents' as an autonomous agent platform, implying a focus on multi-agent coordination rather than just a single assistant.
+      decision_reason: AilaFlow is a general-purpose low-code business workflow platform focused on human-AI collaboration in approval processes, not a developer-facing AI tool for coding, app building, or agent development.
       decision_evidence:
-        - Included in awesome-ai-agents under 'AilaFlow'
-        - URL ailaflow.com indicates a workflow-oriented platform
-      category_candidates:
-        - agent-orchestration
-        - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the source-list context and naming suggest a runtime/platform for autonomous workflows rather than a library for developers to script against.
-      review_reason: "Categorization review required: low confidence"
+        - The platform emphasizes business workflows like purchase approvals, employee onboarding, and incident response rather than software development tasks.
+        - It positions itself as a collaborative workspace where people and AI agents build business processes, not as a tool for developers to write, test, or manage code.
+        - While it supports JavaScript integrations and Docker sandboxes, its core identity is workflow automation for business teams, not AI-assisted coding or agent orchestration for developers.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

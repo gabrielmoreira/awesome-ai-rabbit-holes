@@ -36,20 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An educational hub featuring structured courses and notebooks on topics like LLMs, agents, robotics, and computer vision.
-  why_it_matters: It provides developers with guided, technical learning paths to master the models and libraries used in modern AI workflows.
-  mental_damage: Each course completed only provides the technical vocabulary necessary to precisely describe why your agent is hallucinating.
-  tags: []
-  confidence: high
+  summary: Hugging Face Learn is a collection of free educational courses on AI topics including LLMs, agents, diffusion, and robotics using Hugging Face libraries.
+  why_it_matters: It gives developers structured, hands-on learning paths to build AI skills with tools they’ll actually use in practice.
+  mental_damage: Another free course to add to the backlog of things you’ll start next week after you finish the last one.
+  tags:
+    - education
+    - tutorials
+    - huggingface
+  confidence: medium
 curation:
-  status: excluded
-  reason: It is an educational resource hub and documentation landing page rather than a functional developer tool, agent, or framework.
+  status: included
+  reason: While Hugging Face Learn is educational content, its role as a curated, structured learning resource aligns with the catalog’s inclusion of developer-facing newsletters, feeds, and curated directories under awesome-awesomes.
   evidence:
-    - The site consists of instructional courses (e.g., LLM Course, Agents Course) rather than a deployable product or SDK
-    - The content is pedagogical material intended for learning rather than an operational part of a developer's tech stack
+    - Source-list context shows it is included in awesome-LLM-resources under the '课程 Course' section as a summarized LLM resource.
+    - Scraped site context describes it as a journey to advance and democratize AI through open source and open science, with multiple free courses on LLMs, agents, robotics, and more.
+    - It is not a tool, agent, framework, or platform — it is educational material, which fits the awesome-awesomes category for curated learning resources.
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Publications & Feeds
 lifecycle:
   status: incubating
   reason: null
@@ -65,24 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:25:47.961Z"
+    updated_at: "2026-10-01T04:28:25.124Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: c367d6101132
       input_hash: sha256:9241afbeb6545e51a5da5b832dd9620ea295f8c3ae33dcb9d6406f4fdf8df22c
-      proposed_primary_category: null
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: It is an educational resource hub and documentation landing page rather than a functional developer tool, agent, or framework.
+      decision_reason: While Hugging Face Learn is educational content, its role as a curated, structured learning resource aligns with the catalog’s inclusion of developer-facing newsletters, feeds, and curated directories under awesome-awesomes.
       decision_evidence:
-        - The site consists of instructional courses (e.g., LLM Course, Agents Course) rather than a deployable product or SDK
-        - The content is pedagogical material intended for learning rather than an operational part of a developer's tech stack
-      category_candidates: []
-      contrastive_reason: null
+        - Source-list context shows it is included in awesome-LLM-resources under the '课程 Course' section as a summarized LLM resource.
+        - Scraped site context describes it as a journey to advance and democratize AI through open source and open science, with multiple free courses on LLMs, agents, robotics, and more.
+        - It is not a tool, agent, framework, or platform — it is educational material, which fits the awesome-awesomes category for curated learning resources.
+      category_candidates:
+        - awesome-awesomes
+        - memory-and-context
+      contrastive_reason: Choose awesome-awesomes over memory-and-context because Hugging Face Learn is an educational resource collection, not a working system for memory, retrieval, or context engineering.
       review_reason: null
       review_resume_lifecycle: null

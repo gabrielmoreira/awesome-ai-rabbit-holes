@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Official Visual Studio Code documentation page covering how to use the built-in chat interface with GitHub Copilot Chat, including sending requests, adding context, and reviewing AI-generated changes.
-  why_it_matters: Developers navigating VS Code's native AI features need reference material on chat mechanics, context handling, and checkpoint workflows to use the IDE's Copilot integration effectively.
-  mental_damage: We've reached the point where our impulse is to catalog the user manual alongside the tool, as if reading documentation were itself a developer workflow.
+  summary: Official documentation for the AI chat features and agent capabilities within Visual Studio Code.
+  why_it_matters: Provides guidance on leveraging context, agents, and chat controls to enhance the development workflow inside the editor.
+  mental_damage: The realization that you now need to study a manual just to interact with your editor.
   tags:
-    - documentation
     - vscode
-    - copilot-chat
-    - ide-native
+    - documentation
+    - chat
+    - copilot
   confidence: high
 curation:
   status: excluded
-  reason: This is an official documentation page for an existing IDE feature, not a standalone AI tool, extension, or product that developers adopt independently.
+  reason: This is an official documentation page for a feature within an existing IDE, rather than a standalone product or tool.
   evidence:
-    - The source URL is code.visualstudio.com/docs/chat/chat-overview, a documentation path rather than a repo or product homepage.
-    - Scraped content describes how to interact with existing chat surfaces in VS Code rather than shipping a new tool, framework, or integration.
-    - It appears in an awesome list's 'Additional Resources' section as a learning link, not as a curated tool.
+    - The URL is a documentation link for Visual Studio Code.
+    - The content consists of guides, tutorials, and feature overviews for the VS Code Chat interface.
 placement:
   primary_category: null
   section: null
@@ -69,12 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-21T04:34:03.594Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for code__visualstudio__com__docs__chat__chat__overview: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 2
+    status: done
+    updated_at: "2026-10-01T04:18:26.461Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:cf0df50825fc428dccbc354d1136f88b02b15cf0b42ba411d39b5168d7d975f7
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an official documentation page for a feature within an existing IDE, rather than a standalone product or tool.
+      decision_evidence:
+        - The URL is a documentation link for Visual Studio Code.
+        - The content consists of guides, tutorials, and feature overviews for the VS Code Chat interface.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

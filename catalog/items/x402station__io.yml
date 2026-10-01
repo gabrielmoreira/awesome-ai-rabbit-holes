@@ -37,15 +37,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: x402station.io is an independent risk signal layer providing endpoint evidence for x402 agentic commerce before payment authorization.
-  why_it_matters: It gives AI agents verifiable, real-time risk signals to make safer autonomous payment decisions in agentic workflows.
-  mental_damage: Watching your AI agent hesitate over a payment because the risk layer just flagged a zombie endpoint is the new form of checkout anxiety.
+  summary: x402station.io provides a risk-signal layer for x402 agentic commerce, offering decoy/zombie/price-trap detection before agents authorize payments.
+  why_it_matters: It gives developers building AI payment agents a pre-flight check to avoid costly fraud or failed transactions in agent-driven commerce.
+  mental_damage: Yet another layer of monitoring to add to your agent stack, because nothing says 'production-ready' like paying $0.001 per probe to avoid zombie wallets.
   tags:
-    - agentic-commerce
-    - risk-signals
-    - mcp
-    - x402
     - payments
+    - security
+    - agent-commerce
   confidence: medium
 curation:
   status: included
@@ -57,10 +55,10 @@ curation:
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'extensions-and-addons'"
 processing:
   discover:
     status: done
@@ -72,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-21T04:33:01.387Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for x402station__io: Invalid AI response format: SyntaxError: No number after minus sign in JSON at position 1112 (line 12 column 6)"
-    attempts: 2
+    status: done
+    updated_at: "2026-10-01T04:16:30.988Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:6fff39b10eb8eace62ec019c7a824fddf571a1e8dcfb7256df1113a76ba3d7a4
+      proposed_primary_category: extensions-and-addons
+      disagreement: true
+      decision_reason: The product is an API-based risk signal service that augments coding agents or agent workflows with pre-payment fraud detection, making it an integration layer rather than a standalone agent or framework.
+      decision_evidence:
+        - Described as an 'independent risk-signal layer for x402 agentic commerce' with endpoint evidence checks before payment authorization
+        - Offers MCP agent pre-flight skill preview and SDK middleware, indicating integration-focused tooling
+        - Provides guard, watch, and forensics APIs priced per check, positioned as a service for agent decision flows
+      category_candidates:
+        - extensions-and-addons
+        - mcp
+      contrastive_reason: Choose extensions-and-addons over mcp because while it offers MCP compatibility, its core identity is a risk-signaling API service for agent commerce, not MCP infrastructure itself.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'extensions-and-addons'"
+      review_resume_lifecycle: null

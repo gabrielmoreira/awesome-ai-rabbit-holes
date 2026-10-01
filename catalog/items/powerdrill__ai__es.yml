@@ -36,24 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Spanish-language landing page for Powerdrill Bloom, an AI data-analysis workspace with memory aimed at market research and business intelligence.
-  why_it_matters: It targets business analysts rather than software developers, centering on economic, financial, and healthcare data exploration instead of code or developer workflows.
-  mental_damage: Your agents now remember every spreadsheet you’ve ever opened, yet still can’t explain why your build is failing.
+  summary: Powerdrill Bloom is an AI workspace with memory that learns from each data analysis to improve agent intelligence over time.
+  why_it_matters: It promises to make AI agents progressively smarter through usage, potentially reducing repetitive context setup in data workflows.
+  mental_damage: Another 'AI that learns from you' claim that adds to the growing pile of tools whose memory never actually transfers beyond their own walled garden.
   tags:
-    - data-analysis
     - ai-workspace
-    - market-research
-  confidence: high
+    - memory
+    - data-analysis
+  confidence: medium
 curation:
-  status: excluded
-  reason: This is a localized marketing page for a business data-analysis SaaS, not a developer-facing coding tool, agent, or infrastructure product; its core use cases are market research and business intelligence rather than software development.
+  status: included
+  reason: The product's core novelty is persistent agent memory that improves with use, fitting the memory and context engineering category rather than being a coding agent or app builder.
   evidence:
-    - Scraped page describes 'Powerdrill Bloom' as an AI data-analysis workspace with memory, highlighting Data Analysis and Market Research categories
-    - Featured capabilities include Economic Data Explorer, Financial Market Data, Healthcare Data Explorer, and Shipment Tracking—non-developer verticals
-    - No GitHub repository or developer-tooling identity; the URL is a localized subpage (/es) rather than a standalone developer product
+    - "Tu espacio de trabajo de IA con memoria: más inteligente con cada uso. Tus agentes aprenden de cada análisis."
+    - Powerdrill Bloom — Espacio de trabajo de análisis de datos con IA y memoria
+    - No evidence of code editing, terminal interaction, or autonomous coding tasks; focus is on data analysis workspace with memory.
 placement:
-  primary_category: null
-  section: null
+  primary_category: memory-and-context
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
@@ -68,12 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:29:35.663Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for powerdrill__ai__es: Invalid AI response structure: Missing required field: why_it_matters"
-    attempts: 2
+    status: done
+    updated_at: "2026-10-01T04:23:06.207Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:6f438362909d6fd6c455dd0193d2c6098828ecbf224ec41bc2f0bd3f24725e86
+      proposed_primary_category: memory-and-context
+      disagreement: false
+      decision_reason: The product's core novelty is persistent agent memory that improves with use, fitting the memory and context engineering category rather than being a coding agent or app builder.
+      decision_evidence:
+        - "Tu espacio de trabajo de IA con memoria: más inteligente con cada uso. Tus agentes aprenden de cada análisis."
+        - Powerdrill Bloom — Espacio de trabajo de análisis de datos con IA y memoria
+        - No evidence of code editing, terminal interaction, or autonomous coding tasks; focus is on data analysis workspace with memory.
+      category_candidates:
+        - memory-and-context
+        - coding-agents
+      contrastive_reason: Choose memory-and-context over coding-agents because the product's primary identity is a memory-enhanced data analysis workspace, not an agent that performs coding tasks like editing files or running commands.
+      review_reason: null
+      review_resume_lifecycle: null
