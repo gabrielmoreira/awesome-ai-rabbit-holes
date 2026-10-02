@@ -87,15 +87,18 @@ insights:
   tags: []
   confidence: null
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  status: excluded
+  reason: >-
+    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
+    repo
   evidence:
-    - jev-latest choice confidence 0.81
-    - 'ungh: repo not found on GitHub (zzz1yao/datajev) — star count set to 0'
+    - GitHub API returned 404 for zzz1yao/datajev
+    - ungh.cc (cached GitHub proxy) returned 404 for zzz1yao/datajev
+    - excluded by the dead-repo cleanup on 2026-10-02
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: null
 lifecycle:
   status: curated
   reason: null

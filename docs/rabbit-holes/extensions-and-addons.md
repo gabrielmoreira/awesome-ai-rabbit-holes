@@ -3,12 +3,12 @@
 
 Plugins, integrations, and tools that extend a coding agent, editor, or development workflow rather than standing alone as a primary product.
 
-_168 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_167 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
 - [IDE & Editor Add-ons](#ide--editor-add-ons) — 29
-- [Claude Code & Agent Tools](#claude-code--agent-tools) — 78
+- [Claude Code & Agent Tools](#claude-code--agent-tools) — 77
 - [Testing & Code Quality](#testing--code-quality) — 15
 - [Security & DevSecOps](#security--devsecops) — 20
 - [API & Service Integrations](#api--service-integrations) — 26
@@ -267,7 +267,7 @@ _168 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   </details>
 - **[commandcodeai/cmd-mod-jev-nudge](https://github.com/commandcodeai/cmd-mod-jev-nudge)** `⭐ 16` `updated ≤30d` Command Code mod: nudges the agent to keep going when it stops with work left, judged by Jev.
 
-<details><summary><strong>▸ &nbsp;&nbsp;+48 more in Claude Code & Agent Tools &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+47 more in Claude Code & Agent Tools &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[kyu1204/oh-my-harness](https://github.com/kyu1204/oh-my-harness)** `⭐ 16` Tame your AI coding agents with natural language. Generate enforced guardrails (CLAUDE.md, hooks, settings) from a single command.
 - **[Claude Pet](https://github.com/nikhilagrima/claude-pet)** `⭐ 14` Claude Pet – Desktop companion for Claude Code that reacts to hook events with animated emotions, maintains a local graph memory per project, promotes repeated patterns into skill files, and monitors GitHub repository activity. macOS/Windows/Linux, 100% local, MIT.
@@ -303,7 +303,6 @@ _168 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[raimondasl/isitdone](https://github.com/raimondasl/isitdone)** `⭐ 1` Stop hook and CLI that blocks a coding agent's "done" until the repo's real test, typecheck and lint commands pass on the exact working tree; scans the diff for weakened tests and leaves a git-bound PASS/FAIL/STALE receipt. One init command per host for Claude Code, Codex CLI, Cursor, Gemini CLI, Copilot CLI, Qwen Code, Goose, Droid, Devin, Auggie, OpenCode and Junie, plus an MCP server for agents without hooks. Zero LLM calls, zero dependencies. npm isitdone. MIT.
 - **[wotai-dev/typesafe-jev-tools](https://github.com/wotai-dev/typesafe-jev-tools)** `⭐ 1` typesafe-jev-tools — A Claude Code hook that asks whether the decision you are writing needs a model at all. Includes a measured 149-row comparison of TypeSafe Jev against Claude Haiku 4.5.
 - **[zbush/jev-context](https://github.com/zbush/jev-context)** `⭐ 1` jev-context — A Codex search plugin that filters ripgrep passages through Jev before returning relevant code.
-- **[Agent Island](https://github.com/tristan666666/agent-island)** `⭐ 0` Agent Island — Local status companion for Claude Code and Codex sessions on macOS and Windows; shows working, your-turn, stalled, and attention states without uploading session data. MIT.
 - **[auschoi96/jev-pi-token-reduction](https://github.com/auschoi96/jev-pi-token-reduction)** `⭐ 0` `updated ≤30d` Pi extension that uses TypeSafe's Jev to trim retrieved tool output before the model sees it (~15% lower cost on read-heavy work).
 - **[bobaba99/motionlint](https://github.com/bobaba99/motionlint)** `⭐ 0` `updated ≤90d` MotionLint is a CLI tool that performs deterministic motion audits and vision-LLM design reviews of web animations via Playwright and MCP integration.
 - **[haystackeditor/stop-rules](https://github.com/haystackeditor/stop-rules)** `⭐ 0` `updated ≤30d` Holds your coding agent to your team's written coding rules. A stop hook for Claude Code, Codex, Cursor and ten more agents that asks Jev whether each changed piece breaks a rule, and hands the piece back to the agent.

@@ -3,13 +3,13 @@
 
 Platforms and runtimes for coordinating multiple agents: designing workflows, routing tasks between specialists, and deploying autonomous agent teams.
 
-_317 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_311 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Hosted Agent Platforms](#hosted-agent-platforms) — 22
+- [Hosted Agent Platforms](#hosted-agent-platforms) — 21
 - [Visual Builders & Workbenches](#visual-builders--workbenches) — 13
-- [Agent Runtimes & Harnesses](#agent-runtimes--harnesses) — 273
+- [Agent Runtimes & Harnesses](#agent-runtimes--harnesses) — 268
 - [Domain & Enterprise Platforms](#domain--enterprise-platforms) — 9
 
 ## Hosted Agent Platforms
@@ -63,7 +63,6 @@ _317 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   `agents` `fastapi` `deployment` `cloud` `rest-api`
   </details>
 - **[VibeKit-Bot/vibekit-mcp](https://github.com/vibekit-bot/vibekit-mcp)** `⭐ 1` VibeKit-Bot/vibekit-mcp ☁️ - Build, deploy and manage hosted VibeKit apps, each with a live URL and its own persistent server-side agent to chat with.
-- **[deadpixel/roundtable-dashboard](https://github.com/deadpixel/roundtable-dashboard)** `⭐ 0` deadpixel/roundtable-dashboard : Multi-model AI debate platform — GPT-4o, Claude, Gemini & 200+ models discuss, then synthesize insight. Tools: consult_council, review_code, debug_issue, design_architecture, plan_implementation, assess_tradeoffs.
 - **[Aomni](https://aomni.com)** Duet is a hosted workspace platform that allows consultants and agencies to build, deploy, and manage AI agents with persistent memory, skill files, and real computer access for client-specific workflows. <details><summary>More about</summary>
 
   It lets developers package their agent-building expertise into reusable, client-isolated workspaces that persist state and run continuously without infrastructure overhead.
@@ -478,7 +477,7 @@ _317 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   `desktop-app` `multi-model` `mcp` `electron` `agent-client`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+243 more in Agent Runtimes & Harnesses &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+238 more in Agent Runtimes & Harnesses &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[SandBox](https://github.com/agent-infra/sandbox)** `⭐ 6.1k` `updated ≤30d` An all-in-one sandbox environment for AI agents that provides a single Docker container with a browser, shell, filesystem, VSCode server, and MCP support.
 - **[Emdash](https://github.com/generalaction/emdash)** `⭐ 5.9k` `updated ≤30d` Emdash is an open-source terminal-native harness that runs multiple coding agents in parallel using any provider.
@@ -696,15 +695,10 @@ _317 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 - **[musharna/llm-panel](https://github.com/musharna/llm-panel)** `⭐ 1` Put one question or diff to several LLM CLIs in parallel (codex, claude, opencode/OpenRouter, ollama); every answer shown in full, an anonymized rebuttal round, cost accounting, a GitHub Action, and a measured miss rate on AACR-Bench. Python, PyPI llm-panel. MIT.
 - **[postmortemthis](https://github.com/softeria/postmortemthis)** `⭐ 1` `updated ≤90d` Every AI coding-agent CLI (Claude Code, Codex, Gemini, Qwen, Vibe) reviews your diff in parallel, read-only, for one ship/no-ship verdict. One tiny script: no server, no MCP.
 - **[the-perfect-orchestrator](https://github.com/daman8271/the-perfect-orchestrator)** `⭐ 1` `updated ≤180d` The Perfect Orchestrator is a tmux-based CLI tool that lets one Claude Code session spawn and adversarially verify N autonomous Claude Code workers.
-- **[AgentVerse](https://github.com/openbml/agentverse)** `⭐ 0` Platform for running multiple LLM agents in simulated environments.
 - **[AgentX](https://github.com/archemind/agentx)** `⭐ 0` `updated ≤30d` A CLI runtime manager for discovering, installing, and resuming sessions across multiple AI coding agent executables.
 - **[aisenseapi/aamio-python](https://github.com/aisenseapi/aamio-python)** `⭐ 0` `updated ≤30d` aisenseapi/aamio-python ☁️ - Ephemeral rendezvous for agents: expiring threads with a secret read key and public write address, plus an open board where agents find each other.
 - **[alexshpunt/pi-agent-foreman](https://github.com/alexshpunt/pi-agent-foreman)** `⭐ 0` `updated ≤30d` Send Pi agents back to work when they stop before the job is done.
-- **[Better Agent](https://github.com/ofekron/better-agent)** `⭐ 0` Better Agent — Local web workspace that launches and supervises native Claude, Codex, and Gemini CLI sessions with parallel delegation, persistent state, approval gates, file access, and restart recovery. Source-available; free for non-commercial use.
 - **[lanekingsbery/open-task-relay-public](https://github.com/lanekingsbery/open-task-relay-public)** `⭐ 0` lanekingsbery/open-task-relay-public ☁️ - Open Task Relay: bounded public-good tasks that AI agents can discover, complete, submit and independently verify.
-- **[Loopy](https://github.com/arjunkshah/loopy)** `⭐ 0` Kanban-based agent operating system that orchestrates 43 coding-agent CLIs (Codex, Claude Code, Cursor, Gemini) with complexity-aware routing, named subagents, and verifiable execution receipts. Core loop runs fully locally; optional integrations via user-provided API keys.
-- **[pi-builder](https://github.com/arosstale/pi-builder)** `⭐ 0` TypeScript monorepo that wraps any installed CLI coding agent (Claude Code, Aider, OpenCode, Codex, Gemini CLI, Goose, Plandex, SWE-agent, Crush, gptme) behind a single interface; capability-based routing, health caching, fallback chains, SQLite persistence, and a streaming OrchestratorService. MIT.
-- **[Team1-Factory](https://github.com/team1-dev/team1-factory)** `⭐ 0` Unattended GitHub issue-to-merged-PR loop: triage, implement, review, and merge stages run against real issues and pull requests, driving Claude Code sessions with test-gated merges. Runs once or as a long-lived polling service under Docker. Apache-2.0.
 - **[Ability AI](https://ability.ai)** Ability AI provides an open-source production runtime (Trinity) and self-improving cognitive core (Cornelius) for sovereign agentic systems.
 - **[ACP](https://agentcommunicationprotocol.dev/introduction/welcome)** An open REST-based protocol and SDK for enabling interoperability and communication between AI agents across different frameworks.
 - **[Agent Fleet](https://woodor.ai/agent-fleet)** Agent Fleet — Messaging layer for coding-agent sessions: every live Claude Code or Codex session takes a name@project address, and sessions exchange messages and files on one machine, across a LAN, or across networks. Also does remote session lifecycle control — compact, clear, handoff, restart. Native on macOS, Windows (x64 and arm64), and Linux x64, with no WSL or tmux. Closed source; free on a local network, paid cloud relay.

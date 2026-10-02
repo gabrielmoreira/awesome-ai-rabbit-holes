@@ -54,15 +54,18 @@ insights:
   tags: []
   confidence: null
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
+  status: excluded
+  reason: >-
+    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
+    repo
   evidence:
-    - jev-latest choice confidence 0.64
-    - 'ungh: repo not found on GitHub (scotia1973-bot/api-hub) — star count set to 0'
+    - GitHub API returned 404 for scotia1973-bot/api-hub
+    - ungh.cc (cached GitHub proxy) returned 404 for scotia1973-bot/api-hub
+    - excluded by the dead-repo cleanup on 2026-10-02
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: Middleware & Generic
+  section: null
 lifecycle:
   status: curated
   reason: null

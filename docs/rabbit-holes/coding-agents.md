@@ -3,7 +3,7 @@
 
 Agents that directly act on code: planning, writing, editing, reviewing, testing, and repairing across a terminal, IDE, browser, or operating system.
 
-_285 entries in 7 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_284 entries in 7 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
@@ -12,7 +12,7 @@ _285 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 - [Browser & Computer-Use Agents](#browser--computer-use-agents) — 26
 - [Review, Testing & Repair](#review-testing--repair) — 38
 - [Spec-First & Plan-Execute](#spec-first--plan-execute) — 23
-- [Autonomous & Multi-Agent Coding](#autonomous--multi-agent-coding) — 45
+- [Autonomous & Multi-Agent Coding](#autonomous--multi-agent-coding) — 44
 - [Others](#others) — 1
 
 ## Terminal & CLI Agents
@@ -1019,12 +1019,11 @@ _285 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 - **[DevIntern](https://github.com/getdevintern/devintern)** `⭐ 3` `updated ≤30d` Self-hosted worker that turns ready Jira, Linear, and GitHub tickets into pull requests with your coding agent—on your machines and keys.
 - **[JevCode](https://github.com/coasty-ai/jevcode)** `⭐ 2` `updated ≤30d` JevCode - Jev can code. We want to dogfood JevCode.
 
-<details><summary><strong>▸ &nbsp;&nbsp;+15 more in Autonomous & Multi-Agent Coding &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+14 more in Autonomous & Multi-Agent Coding &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[lawrencehui/Citio](https://github.com/lawrencehui/citio)** `⭐ 2` `updated ≤90d` Self-hosted AI coding agents that live in Slack — run Claude Code or Codex in your own infra, ship PRs, and keep every credential behind a controlled MCP tool layer.
 - **[Nexus-Agent](https://github.com/parkain707/nexus-agent)** `⭐ 1` Nexus-Agent – Open-source autonomous AI software engineering agent featuring dual-engine UX (Rich TUI + Cyberpunk Web Visualizer) and self-healing AST code engine.
 - **[BoundedCode](https://github.com/akynte/boundedcode)** `⭐ 0` `updated ≤30d` A coding agent for 8 GB GPUs: generation runs on your machine, decisions are typed through a required Jev decision plane, and nothing is accepted without verification. Go supervisor with a code graph, scoped writes, sandboxed verification, and a human approval gate.
-- **[prode-mc](https://github.com/curiousbox-ai/prode-mc)** `⭐ 0` ProdEAI - Your 24/7 production engineer that preserves context across multiple codebases Prode.ai.
 - **[AgentRunner.ai](https://agentrunner.ai)** AgentRunner.ai is a platform for running and managing autonomous AI agents that perform coding tasks.
 - **[Code Autopilot](https://codeautopilot.com)** Code Autopilot is a GitHub-integrated AI coding agent that solves bugs, implements features, and reviews pull requests using LLM-powered agents.
 - **[Codex Infinity](https://codex-infinity.com)** An autonomous coding agent platform that provides advanced reasoning, AI art generation, and cloud orchestration.

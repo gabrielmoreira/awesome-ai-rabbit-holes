@@ -3,12 +3,12 @@
 
 Frameworks, platforms, and tooling for measuring, tracing, comparing, and improving model, prompt, and agent behavior.
 
-_173 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_170 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Agent & LLM Benchmarks](#agent--llm-benchmarks) — 90
-- [Observability & Tracing](#observability--tracing) — 58
+- [Agent & LLM Benchmarks](#agent--llm-benchmarks) — 89
+- [Observability & Tracing](#observability--tracing) — 56
 - [Prompt Regression & Testing](#prompt-regression--testing) — 15
 - [Safety, Fairness & Red-teaming](#safety-fairness--red-teaming) — 10
 
@@ -227,7 +227,7 @@ _173 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   `evals` `cli` `docker` `agent-skills` `openrouter`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+60 more in Agent & LLM Benchmarks &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+59 more in Agent & LLM Benchmarks &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[tool-definition-quality-score](https://github.com/glama-ai/tool-definition-quality-score)** `⭐ 38` `updated ≤30d` An open framework and rubric for scoring the quality of Model Context Protocol (MCP) tool definitions to ensure they are clearly communicable to AI agents.
 - **[bunsdev/typesafe-ai-playground](https://github.com/bunsdev/typesafe-ai-playground)** `⭐ 21` `updated ≤30d` Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI.
@@ -268,7 +268,6 @@ _173 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 - **[mohibshaikh/jev-skillbench](https://github.com/mohibshaikh/jev-skillbench)** `⭐ 1` Benchmark of Jev as a malicious agent-skill detector on MalSkillBench with verify-and-escalate evaluation.
 - **[ppramanik62/yc-jev-bench](https://github.com/ppramanik62/yc-jev-bench)** `⭐ 1` yc-jev-bench (site) - Can Jev replace an LLM reranker? A benchmark of TypeSafe's Jev vs Claude Haiku and BGE on natural-language search over all 6,245 YC companies, with a live search demo.
 - **[shibadogcap/kyotsu-ai-bench](https://github.com/shibadogcap/kyotsu-ai-bench)** `⭐ 1` kyotsu-ai-bench - AI benchmark on Japan's 2026 Common Test: Jev vs luna-none vs luna-low (static dashboard).
-- **[Agent Operator Score](https://github.com/monglong0214/agent-operator-score)** `⭐ 0` Agent Operator Score – Local-first CLI (aos) that scores how well you operate Claude Code, Codex, and Grok CLI from your own session transcripts, plus a controlled-run assessment suite with a hidden verifier. No model calls in review mode; nothing leaves your disk.
 - **[blas0/jev-shadcn-lint-eval](https://github.com/blas0/jev-shadcn-lint-eval)** `⭐ 0` `updated ≤30d` A small second eval for shadcn-ui/lint that uses TypeSafe's Jev to judge the linter's own output.
 - **[marianoberton/agent-evals](https://github.com/marianoberton/agent-evals)** `⭐ 0` agent-evals - Deterministic LLM-agent eval harness with optional calibrated TypeSafe Jev judge for CI deploy gates. Project guide.
 - **[redhatpanda/jev-regress-bench](https://github.com/redhatpanda/jev-regress-bench)** `⭐ 0` jev-regress-bench - Agent regression testing: after a config edit, one Choice (same / fact_differs / action_differs / specificity_differs) decides which of an agent's approved answers changed meaning rather than wording, and on 109 before/after pairs whose ground truth is derived from what each config rule does to the answer, Jev catches all 19 real changes with 13 false alarms against 33 for a markers-then-embeddings-then-LLM stack and 19 for the LLM judge alone.
@@ -493,7 +492,7 @@ _173 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   </details>
 - **[iyashjayesh/tokenchit](https://github.com/iyashjayesh/tokenchit)** `⭐ 15` iyashjayesh/tokenchit - Reads local Claude Code, Codex and OpenCode usage logs: token totals, daily and hourly activity, per-agent and per-model breakdowns and a year-in-review recap.
 
-<details><summary><strong>▸ &nbsp;&nbsp;+28 more in Observability & Tracing &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+26 more in Observability & Tracing &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[mishanefedov/agentwatch](https://github.com/mishanefedov/agentwatch)** `⭐ 15` agentwatch – Local-only TUI + web dashboard observing every AI coding agent on your machine (Claude Code, Codex, Gemini CLI, Cursor, Hermes, OpenClaw) on one unified timeline. Per-turn token + cost accounting with cache-hit weighting, MAD z-score anomaly detection, context compaction visualizer, hybrid semantic search, MCP server mode, and OpenTelemetry exporter. No cloud, no telemetry. Free and MIT.
 - **[RagTune](https://github.com/metawake/ragtune)** `⭐ 13` `updated ≤1y` RagTune is a CLI tool for debugging, benchmarking, and evaluating RAG retrieval layers across vector stores.
@@ -507,10 +506,8 @@ _173 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 - **[ashutoshvjti/progressgate](https://github.com/ashutoshvjti/progressgate)** `⭐ 0` `updated ≤30d` Detect semantic stagnation in AI agent loops.
 - **[brandonbryant12/transcript-scorecard](https://github.com/brandonbryant12/transcript-scorecard)** `⭐ 0` `updated ≤30d` ACME live support-call scoring demo with TypeSafe AI, Effect, SQLite, React, Vite, and Turborepo.
 - **[bricelancasterwcp-sudo/sensorium](https://github.com/bricelancasterwcp-sudo/sensorium)** `⭐ 0` `updated ≤30d` Record what a program actually did and ask it questions afterward — Python, Rust and TypeScript recorders writing one trace format, read by one LLM-native query CLI that refuses rather than guesses.
-- **[Lunary](https://github.com/lunary-ai/lunary)** `⭐ 0` Observability and prompt management for LLM chabots and agents. Debug agents with powerful tracing and logging. Usage analytics and dive deep into the history of your requests. Developer friendly modules with plug-and-play integration into LangChain.
 - **[serennity007/agent-trace](https://github.com/serennity007/agent-trace)** `⭐ 0` agent-trace – Post-session analysis for AI coding agents. Track costs, tokens, tool health, and every conversation. Supports Kimi Code, Claude Code, Codex, OpenCode.
 - **[Source Trace](https://github.com/srctrace/source-trace)** `⭐ 0` Source Trace – AI git blame for every commit: see which lines came from AI and which model wrote them. Compare models by amount of code written pre-commit, committed, and survived in codebase. Teams can use dashboard to track adoption and AI metrics. Zero-config VS Code extension, no git or agent hooks required.
-- **[typesafe-ai/overwatch](https://github.com/typesafe-ai/overwatch)** `⭐ 0` Official tooling for observing and evaluating System One workflows.
 - **[Atla API](https://docs.atla-ai.com/overview)** Atla is an observability platform designed to monitor, trace, and debug the behavior of AI agents.
 - **[CloudByte PMS](https://getpms.cloudbyte.ai)** CloudByte PMS – Team analytics for AI coding assistants: tracks Claude Code, GitHub Copilot, and Cursor sessions, prompts, and commits to surface adoption, ROI, ghost seats, and prompt governance in one dashboard with role-based access.
 - **[CostGoat](https://costgoat.com)** CostGoat – Privacy-first menubar app tracking AI agent quotas (Claude Code, Codex, Kimi, Z.ai), LLM API costs (OpenAI, OpenRouter, Anthropic, ElevenLabs), cloud spend, and SaaS subscriptions in real-time.

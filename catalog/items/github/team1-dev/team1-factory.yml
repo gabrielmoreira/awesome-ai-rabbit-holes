@@ -50,19 +50,18 @@ insights:
   tags: []
   confidence: null
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  status: excluded
+  reason: >-
+    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
+    repo
   evidence:
-    - jev-latest choice confidence 0.78
-    - >-
-      jev winnow:e4b 0.38 below gate 0.50; proposed coding-agents / Autonomous & Multi-Agent Coding; placement kept at
-      agent-orchestration (unverified)
-    - 'ungh: repo not found on GitHub (team1-dev/team1-factory) — star count set to 0'
+    - GitHub API returned 404 for team1-dev/team1-factory
+    - ungh.cc (cached GitHub proxy) returned 404 for team1-dev/team1-factory
+    - excluded by the dead-repo cleanup on 2026-10-02
 placement:
-  primary_category: agent-orchestration
-  secondary_categories:
-    - coding-agents
-  section: Agent Runtimes & Harnesses
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: curated
   reason: null

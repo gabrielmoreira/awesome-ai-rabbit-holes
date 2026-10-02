@@ -3,12 +3,12 @@
 
 Tools that read documents — turning scans, PDFs, screenshots, and office files into text, structure, or extracted fields.
 
-_19 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_18 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
 - [Document Parsing & Layout](#document-parsing--layout) — 14
-- [File Conversion & Markdown](#file-conversion--markdown) — 4
+- [File Conversion & Markdown](#file-conversion--markdown) — 3
 - [Extraction & Structured Output](#extraction--structured-output) — 1
 
 ## Document Parsing & Layout
@@ -109,7 +109,6 @@ _19 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
   `markdown` `document-processing` `llm-utility`
   </details>
 - **[SylphxAI/anymd](https://github.com/sylphxai/anymd)** `⭐ 1k` SylphxAI/anymd : Converts any file (PDF, DOCX, PPTX, XLSX/CSV, EPUB, HTML/URLs, images, audio/video) to clean Markdown for AI agents, locally in Rust with no API key.
-- **[ebbfijsf/agent-reader](https://github.com/ebbfijsf/agent-reader)** `⭐ 0` ebbfijsf/agent-reader - Document beautifier for AI agents. Converts Markdown to styled webpages (with sidebar TOC), Word, PDF, and full-screen image slideshows. Zero-config via npx agent-reader mcp.
 - **[Markovo](https://github.com/fisher-byte/markovo)** `⭐ 0` fisher-byte/markovo : Converts PDF, DOCX, PPTX, XLSX and authorized public pages (Google Docs, Notion, GitHub, Hacker News, YouTube) into clean, structured Markdown for agent context — remote Streamable HTTP endpoint with OAuth 2.1 plus local stdio server sandboxed to a dedicated root directory.
 
 ## Extraction & Structured Output

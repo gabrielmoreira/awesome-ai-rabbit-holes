@@ -49,15 +49,18 @@ insights:
   tags: []
   confidence: null
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
+  status: excluded
+  reason: >-
+    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
+    repo
   evidence:
-    - jev-latest choice confidence 0.62
-    - 'ungh: repo not found on GitHub (yuvalsuede/agent-media) — star count set to 0'
+    - GitHub API returned 404 for yuvalsuede/agent-media
+    - ungh.cc (cached GitHub proxy) returned 404 for yuvalsuede/agent-media
+    - excluded by the dead-repo cleanup on 2026-10-02
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: AI & Model Services
+  section: null
 lifecycle:
   status: curated
   reason: null

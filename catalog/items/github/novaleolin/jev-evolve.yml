@@ -49,15 +49,18 @@ insights:
   tags: []
   confidence: null
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  status: excluded
+  reason: >-
+    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
+    repo
   evidence:
-    - jev-latest choice confidence 0.90
-    - 'ungh: repo not found on GitHub (novaleolin/jev-evolve) — star count set to 0'
+    - GitHub API returned 404 for novaleolin/jev-evolve
+    - ungh.cc (cached GitHub proxy) returned 404 for novaleolin/jev-evolve
+    - excluded by the dead-repo cleanup on 2026-10-02
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Open & Local Decision Models
+  section: null
 lifecycle:
   status: curated
   reason: null

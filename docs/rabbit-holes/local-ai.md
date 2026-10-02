@@ -3,13 +3,13 @@
 
 Runtimes, serving stacks, desktop apps, and tooling for running AI models on your own hardware or self-hosted infrastructure.
 
-_105 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_104 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
 - [Inference Engines](#inference-engines) — 38
 - [Local API Servers](#local-api-servers) — 18
-- [Desktop Chat & UIs](#desktop-chat--uis) — 36
+- [Desktop Chat & UIs](#desktop-chat--uis) — 35
 - [Fine-tuning & Training](#fine-tuning--training) — 13
 
 ## Inference Engines
@@ -549,7 +549,6 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 - **[OpenQuack](https://github.com/larryxiao/openquack)** `⭐ 51` OpenQuack – Local voice dictation menu bar app for macOS that pairs with Cursor, Claude Code, Codex, and Aider; long contextual prompts via WhisperKit on Apple Silicon, pastes at the cursor, all on-device.
 - **[baiyuscc13724-max/deepseek-harness-desktop](https://github.com/baiyuscc13724-max/deepseek-harness-desktop)** `⭐ 11` `updated ≤30d` DeepSeek Harness 中文 Windows 桌面版：女仆鲸桌宠、主题、插件市场、模型路由与安全更新。.
 - **[amanadhav/traderai](https://github.com/amanadhav/traderai)** `⭐ 4` `updated ≤30d` Self-hosted AI trading intelligence platform - scoring engine, two-model AI analyst (Claude + TypeSafe Jev), risk engine, discipline guardian, backtester, React dashboard.
-- **[ollama_agent_roll_cage](https://github.com/leoleojames1/ollama_agent_roll_cage)** `⭐ 0` 35. OARC: ollama_agent_roll_cage (OARC) is a local python agent fusing ollama llm's with Coqui-TTS speech models, Keras classifiers, Llava vision, Whisper recognition, and more to create a unified chatbot agent for local, custom automation.
 - **[Bodega One Code](https://bodegaone.ai)** Bodega One Code – Free, local-first AI IDE with a built-in coding agent, bring-your-own-LLM, and full offline/air-gap support.
 - **[FuLLMetalAi](https://fullmetal.ai)** FuLLMetalAi is a local AI inference UI listed in the awesome-local-ai directory under Inference UI. <details><summary>More about</summary>
 
@@ -559,10 +558,17 @@ _105 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   `local-ai` `desktop-ui` `inference`
   </details>
+- **[GPT4All](https://nomic.ai/gpt4all)** GPT4All is a desktop application that runs open-source language models locally on Windows, macOS, and Linux for private, offline AI chat and document interaction. <details><summary>More about</summary>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+6 more in Desktop Chat & UIs &nbsp;—&nbsp; click to expand</strong></summary>
+  It lets developers run and experiment with LLMs without internet or cloud dependencies, enabling private prototyping and offline workflows.
 
-- **[GPT4All](https://nomic.ai/gpt4all)** GPT4All is a desktop application that runs open-source language models locally on Windows, macOS, and Linux for private, offline AI chat and document interaction.
+  _Finally, an AI tool that won’t leak your code — until you accidentally paste it into the local chat and forget it’s writing to a log file somewhere._
+
+  `local-ai` `desktop-chat` `offline-llm`
+  </details>
+
+<details><summary><strong>▸ &nbsp;&nbsp;+5 more in Desktop Chat & UIs &nbsp;—&nbsp; click to expand</strong></summary>
+
 - **[LibreChat](https://www.librechat.ai)** An open-source, self-hostable platform that provides a unified interface for multiple AI models, agents, and tools.
 - **[Naut](https://ruliad.co)** Ruliad Chat is a self-sovereign intelligence chat interface.
 - **[NVIDIA ChatRTX](https://nvidia.com/en-us/ai-on-rtx)** NVIDIA ChatRTX is a desktop AI assistant that runs locally on RTX PCs to answer questions using personal documents and data.

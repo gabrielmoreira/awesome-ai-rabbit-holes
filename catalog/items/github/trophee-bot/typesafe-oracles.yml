@@ -65,15 +65,18 @@ insights:
   tags: []
   confidence: null
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  status: excluded
+  reason: >-
+    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
+    repo
   evidence:
-    - jev-latest choice confidence 0.50
-    - 'ungh: repo not found on GitHub (trophee-bot/typesafe-oracles) — star count set to 0'
+    - GitHub API returned 404 for trophee-bot/typesafe-oracles
+    - ungh.cc (cached GitHub proxy) returned 404 for trophee-bot/typesafe-oracles
+    - excluded by the dead-repo cleanup on 2026-10-02
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Evals, Benchmarks & Calibration
+  section: null
 lifecycle:
   status: curated
   reason: null

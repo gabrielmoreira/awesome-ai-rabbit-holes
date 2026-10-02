@@ -68,15 +68,18 @@ insights:
   tags: []
   confidence: null
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
+  status: excluded
+  reason: >-
+    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
+    repo
   evidence:
-    - jev-latest choice confidence 0.72
-    - 'ungh: repo not found on GitHub (ashishakkumar/jev-checkpoint) — star count set to 0'
+    - GitHub API returned 404 for ashishakkumar/jev-checkpoint
+    - ungh.cc (cached GitHub proxy) returned 404 for ashishakkumar/jev-checkpoint
+    - excluded by the dead-repo cleanup on 2026-10-02
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Local Serving & Gateways
+  section: null
 lifecycle:
   status: curated
   reason: null

@@ -49,15 +49,18 @@ insights:
   tags: []
   confidence: null
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
+  status: excluded
+  reason: >-
+    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
+    repo
   evidence:
-    - jev-latest choice confidence 0.83
-    - 'ungh: repo not found on GitHub (tristan666666/agent-island) — star count set to 0'
+    - GitHub API returned 404 for tristan666666/agent-island
+    - ungh.cc (cached GitHub proxy) returned 404 for tristan666666/agent-island
+    - excluded by the dead-repo cleanup on 2026-10-02
 placement:
-  primary_category: extensions-and-addons
+  primary_category: null
   secondary_categories: []
-  section: Claude Code & Agent Tools
+  section: null
 lifecycle:
   status: curated
   reason: null

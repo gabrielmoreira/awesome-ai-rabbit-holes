@@ -3,16 +3,16 @@
 
 Code-first libraries, SDKs, and engines that developers import and program against to build AI-powered applications and agent systems.
 
-_504 entries in 7 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_495 entries in 7 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [LLM & Agent SDKs](#llm--agent-sdks) — 220
+- [LLM & Agent SDKs](#llm--agent-sdks) — 217
 - [Multi-Agent Systems](#multi-agent-systems) — 60
-- [Provider & Model Abstractions](#provider--model-abstractions) — 109
-- [Workflow & Graph Engines](#workflow--graph-engines) — 27
-- [Memory & Retrieval Infrastructure](#memory--retrieval-infrastructure) — 34
-- [Training & Model Infrastructure](#training--model-infrastructure) — 53
+- [Provider & Model Abstractions](#provider--model-abstractions) — 108
+- [Workflow & Graph Engines](#workflow--graph-engines) — 25
+- [Memory & Retrieval Infrastructure](#memory--retrieval-infrastructure) — 33
+- [Training & Model Infrastructure](#training--model-infrastructure) — 51
 - [Others](#others) — 1
 
 ## LLM & Agent SDKs
@@ -230,7 +230,7 @@ _504 entries in 7 sections, ranked by stars. Each section opens with its top 30;
   `rag` `local-ai` `framework` `enterprise` `small-models`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+190 more in LLM & Agent SDKs &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+187 more in LLM & Agent SDKs &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[E2B](https://github.com/e2b-dev/e2b)** `⭐ 14.1k` `updated ≤30d` Open-source infrastructure for running AI-generated code in secure isolated cloud sandboxes via SDKs.
 - **[Eino](https://github.com/cloudwego/eino)** `⭐ 13.2k` `updated ≤30d` Eino is a Go-based LLM application development framework with components, agent toolkits, and workflow orchestration.
@@ -405,10 +405,7 @@ _504 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 - **[marras0914/agent-toolbelt](https://github.com/marras0914/agent-toolbelt)** `⭐ 1` `updated ≤90d` A collection of stock research and utility tools for AI agents, accessible via a production API and npm SDK.
 - **[MervinPraison/praisonai-mcp](https://github.com/mervinpraison/praisonai-mcp)** `⭐ 1` MervinPraison/praisonai-mcp : AI Agent framework with built-in MCP tools for search, memory, workflows, code execution, and file operations.
 - **[System-R-AI/systemr-python](https://github.com/system-r-ai/systemr-python)** `⭐ 1` `updated ≤180d` A Python SDK for agents.systemr.ai providing 55 MCP-compatible tools and 25 broker integrations for building AI-driven trading agents with institutional-grade risk management.
-- **[Agents.js](https://github.com/webgburnet/agents.js)** `⭐ 0` Agents.js - JavaScript framework for.
 - **[JEV ADK](https://github.com/abyakod/jev_adk)** `⭐ 0` `updated ≤30d` Agent Development Kit for System-One AI: Sub-100ms non-autoregressive decision pipelines, guardrails, and dual-brain agent orchestrator powered by TypeSafe AI's Jev.
-- **[langchain-text-summarizer](https://github.com/alphasecio/langchain-text-summarizer)** `⭐ 0` langchain-text-summarizer: A sample streamlit application summarizing text using LangChain.
-- **[PromptDX](https://github.com/puzzlet-ai/promptdx)** `⭐ 0` A declarative, extensible, and composable approach for developing LLM prompts using Markdown and JSX.
 - **[soulware-studio/promethic-mcp](https://github.com/soulware-studio/promethic-mcp)** `⭐ 0` soulware-studio/promethic-mcp ☁️ - Prompt library with versioned prompts and per-version model settings for text, image and JSON; tracks edits and proposes refined versions.
 - **[TypeSafeAI](https://github.com/tryagi/typesafeai)** `⭐ 0` TypeSafeAI (site) - First-class, NativeAOT-ready .NET SDK for TypeSafe AI System One, generated with AutoSDK.
 - **[agent-cost-guardrails](https://npmjs.com/package/agent-cost-guardrails)** agent-cost-guardrails is an npm package that provides cost monitoring and budget controls for AI agents.
@@ -855,7 +852,7 @@ _504 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 - **[sanmai/typesafe-ai-php](https://github.com/sanmai/typesafe-ai-php)** `⭐ 14` SDKs & clients (2): typesafe-ai-php, SystemOneSharp.
 - **[twister915/typesafe-ai](https://github.com/twister915/typesafe-ai)** `⭐ 13` typesafe-ai - Typed TypeSafe AI clients for Rust, with async and blocking backends and observable retries.
 
-<details><summary><strong>▸ &nbsp;&nbsp;+79 more in Provider & Model Abstractions &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+78 more in Provider & Model Abstractions &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[atharvamhaske/typesafe-sdk-go](https://github.com/atharvamhaske/typesafe-sdk-go)** `⭐ 12` `updated ≤30d` unofficial go sdk for typesafe ai. not affiliated with or endorsed by typesafe ai. a side project built to fill the missing go sdk gap, for the community to use.
 - **[saibimajdi/typesafeai-dotnet-sdk](https://github.com/saibimajdi/typesafeai-dotnet-sdk)** `⭐ 12` typesafe-dotnet-sdk (site) - Community .NET SDK for the TypeSafe AI System One API — typed noul, choice, and score questions with structured, confidence-scored answers. Not affiliated with TypeSafe AI.
@@ -917,7 +914,6 @@ _504 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 - **[dfa1/typesafe-java](https://github.com/dfa1/typesafe-java)** `⭐ 0` `updated ≤30d` Java client and CLI for the TypeSafe AI API.
 - **[dotnetvibecoderz/vibe_sdk](https://github.com/dotnetvibecoderz/vibe_sdk)** `⭐ 0` `updated ≤30d` SDKs that created by vibing.
 - **[hfiguera/typesafe_ai](https://github.com/hfiguera/typesafe_ai)** `⭐ 0` `updated ≤30d` An Elixir client for TypeSafe AI with typed responses and bounded concurrency.
-- **[ReliableGPT](https://github.com/berriai/reliablegpt)** `⭐ 0` Handle OpenAI Errors (overloaded OpenAI servers, rotated keys, or context window errors) for your production LLM Applications.
 - **[shubham510/typesafe-go](https://github.com/shubham510/typesafe-go)** `⭐ 0` Unofficial Go SDK for TypeSafe AI's System One API (Jev).
 - **[signaltech-org/bolthub-sdk](https://github.com/signaltech-org/bolthub-sdk)** `⭐ 0` `updated ≤90d` Source for bolthub's published SDK packages (npm @bolthub/*, PyPI bolthub).
 - **[typesend/typesafe_ai](https://github.com/typesend/typesafe_ai)** `⭐ 0` typesafe_ai (typesend) (site) - Unofficial Elixir SDK for the TypeSafe AI API.
@@ -1112,8 +1108,6 @@ _504 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 
   `laravel` `php` `agent-orchestration` `workflow-engine` `event-driven`
   </details>
-- **[minions](https://github.com/getminions/minions)** `⭐ 0` Scientific workflow automation- minions - Extensible framework for AI.
-- **[portia-sdk-python](https://github.com/portiaai/portia-sdk-python)** `⭐ 0` Execution Toolkit- Portia AI - Open source framework for predictable,.
 - **[LangGraph Documentation](https://langchain-ai.github.io/langgraph)** LangGraph is a workflow engine framework for building stateful, multi-agent AI applications using graph-based orchestration. <details><summary>More about</summary>
 
   It lets developers structure complex agent interactions with controllable state and branching logic, moving beyond simple linear chains.
@@ -1331,9 +1325,8 @@ _504 entries in 7 sections, ranked by stars. Each section opens with its top 30;
   `semantic-cache` `llmops` `self-hosted` `vector-search` `scaling`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+4 more in Memory & Retrieval Infrastructure &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+3 more in Memory & Retrieval Infrastructure &nbsp;—&nbsp; click to expand</strong></summary>
 
-- **[Chonkie](https://github.com/bhavnicksm/chonkie)** `⭐ 0` 28. Chonkie: The no-nonsense RAG chunking library that's lightweight, lightning-fast, and ready to CHONK your texts.
 - **[Firecrawl](https://firecrawl.dev)** Firecrawl is a web scraping and crawler engine designed to turn entire websites into clean, LLM-ready markdown or structured data.
 - **[Ragie](https://www.ragie.ai)** Ragie is a managed RAG-as-a-service platform that provides APIs for document ingestion, chunking, embedding, and retrieval to augment LLMs with private data.
 - **[Rivestack](https://rivestack.io)** Managed PostgreSQL with optimized pgvector on dedicated NVMe storage for AI workloads, offering low-latency vector search and built-in semantic search tools.
@@ -1569,7 +1562,7 @@ _504 entries in 7 sections, ranked by stars. Each section opens with its top 30;
   `multi-modal` `model-training` `distributed-training` `pytorch` `framework`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+23 more in Training & Model Infrastructure &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+21 more in Training & Model Infrastructure &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[automl-gs](https://github.com/minimaxir/automl-gs)** `⭐ 1.9k` `updated >1y` AutoML tool that generates trained models and pipeline code from a CSV and target field using TensorFlow or XGBoost.
 - **[RL-Factory](https://github.com/simple-efficient/rl-factory)** `⭐ 1.8k` `updated ≤1y` RLFactory is an RL post-training framework for agentic learning that decouples the environment from training, supports async tool-calling, and enables fast training of agent models like Qwen3 with MCP tools.
@@ -1591,8 +1584,6 @@ _504 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 - **[Simplifine](https://github.com/simplifine-gamedev/simplifine)** `⭐ 96` `updated >1y` Simplifine is an open-source Python toolkit and cloud service that simplifies LLM fine-tuning with one-line commands, handling infrastructure, cloud storage, and training optimizations like DeepSpeed.
 - **[leap-laboratories/discovery-engine](https://github.com/leap-laboratories/discovery-engine)** `⭐ 7` `updated ≤90d` Discovery Engine is a statistical pattern-finding tool that identifies validated, novel feature interactions in tabular data using ML and literature checks.
 - **[drumst0ck/uploadkit](https://github.com/drumst0ck/uploadkit)** `⭐ 3` `updated ≤90d` Open-source TypeScript SDK and React components for file uploads with managed or BYOS storage, plus an MCP server for AI assistant integration.
-- **[HAL](https://github.com/dean/hal)** `⭐ 0` HAL - HTTP toolkit providing all 7 HTTP methods (GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS) with secret substitution, comprehensive error handling, and support for JSON, XML, HTML, and form data.
-- **[RoboMamba](https://github.com/hustvl/robomamba)** `⭐ 0` An efficient VLA model leveraging State Space Models (Mamba) instead of standard self-attention, offering linear inference complexity for efficient, recurrent robotic reasoning.
 - **[flaml-a-fast-and-lightweight-automl-library](https://microsoft.com/en-us/research/publication/flaml-a-fast-and-lightweight-automl-library)** FLAML is a fast and lightweight AutoML library from Microsoft Research that automates learner and hyperparameter selection with low computational cost.
 
 </details>

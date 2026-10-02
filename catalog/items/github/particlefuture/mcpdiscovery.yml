@@ -49,15 +49,18 @@ insights:
   tags: []
   confidence: null
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  status: excluded
+  reason: >-
+    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
+    repo
   evidence:
-    - jev-latest choice confidence 0.64
-    - 'ungh: repo not found on GitHub (particlefuture/mcpdiscovery) — star count set to 0'
+    - GitHub API returned 404 for particlefuture/mcpdiscovery
+    - ungh.cc (cached GitHub proxy) returned 404 for particlefuture/mcpdiscovery
+    - excluded by the dead-repo cleanup on 2026-10-02
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: curated
   reason: null

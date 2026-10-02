@@ -49,19 +49,18 @@ insights:
   tags: []
   confidence: null
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  status: excluded
+  reason: >-
+    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
+    repo
   evidence:
-    - jev-latest choice confidence 0.50
-    - >-
-      jev winnow:e4b 0.35 below gate 0.50; proposed decision-models / Local Serving & Gateways; placement kept at
-      decision-models (unverified)
-    - 'ungh: repo not found on GitHub (anuran-de/tripwire) — star count set to 0'
+    - GitHub API returned 404 for anuran-de/tripwire
+    - ungh.cc (cached GitHub proxy) returned 404 for anuran-de/tripwire
+    - excluded by the dead-repo cleanup on 2026-10-02
 placement:
-  primary_category: decision-models
-  secondary_categories:
-    - extensions-and-addons
-  section: Verification, Guardrails & Safety
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: curated
   reason: null

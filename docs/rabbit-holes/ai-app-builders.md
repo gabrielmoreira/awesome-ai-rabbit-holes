@@ -3,11 +3,11 @@
 
 Products that generate complete apps, websites, dashboards, or scaffolds from prompts — the user starts from zero and receives a deployable artifact.
 
-_84 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_83 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Full App Builders](#full-app-builders) — 33
+- [Full App Builders](#full-app-builders) — 32
 - [Site & Landing Page Builders](#site--landing-page-builders) — 13
 - [Internal Tools & Dashboards](#internal-tools--dashboards) — 9
 - [Scaffolding & Boilerplate](#scaffolding--boilerplate) — 28
@@ -55,7 +55,6 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `ai-native-ide` `cloud-development` `code-generation` `live-preview`
   </details>
-- **[vibesdiy/vibes.diy](https://github.com/vibesdiy/vibes.diy)** `⭐ 0` Vibes DIY – Open-source AI app builder that turns a plain-English description into a real, live web app you can share, remix, and collaborate on.
 - **[base44](https://base44.com)** A no-code AI platform that generates full-stack applications, websites, and AI agents from natural language prompts. <details><summary>More about</summary>
 
   It allows users to bypass traditional development setup by automatically handling backend, authentication, and hosting through 'vibe coding'.
@@ -213,10 +212,17 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `vercel` `full-stack` `prompt-to-app` `web-dev`
   </details>
+- **[v0](https://v0.dev)** v0 by Vercel is an AI assistant that generates full-stack web applications from natural language prompts and deploys them to Vercel. <details><summary>More about</summary>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+3 more in Full App Builders &nbsp;—&nbsp; click to expand</strong></summary>
+  It lets developers go from idea to live web app in seconds using AI-generated code and one-click deployment.
 
-- **[v0](https://v0.dev)** v0 by Vercel is an AI assistant that generates full-stack web applications from natural language prompts and deploys them to Vercel.
+  _The promise of skipping all the boilerplate and configuration work feels like magic until you realize you still have to understand and maintain the code it generates._
+
+  `app-builder` `ai-assisted` `full-stack` `vercel`
+  </details>
+
+<details><summary><strong>▸ &nbsp;&nbsp;+2 more in Full App Builders &nbsp;—&nbsp; click to expand</strong></summary>
+
 - **[Vibes DIY](https://vibes.diy)** Vibes DIY – Open-source AI app builder that turns a plain-English description into a real, live web app you can share, remix, and collaborate on.
 - **[VULK](https://vulk.dev)** VULK – AI app builder for full-stack React + PostgreSQL, Flutter mobile, Three.js games, Shopify themes. Firecracker microVM live preview, BYOM with 16+ models, EU-hosted, full code export.
 

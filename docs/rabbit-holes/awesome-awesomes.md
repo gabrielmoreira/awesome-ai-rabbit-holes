@@ -3,12 +3,12 @@
 
 Awesome lists, curated directories, ecosystem maps, newsletters, and publications for discovering tools and staying current with AI development.
 
-_174 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_172 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Awesome Lists & Directories](#awesome-lists--directories) — 157
-- [Ecosystem Maps & Landscapes](#ecosystem-maps--landscapes) — 6
+- [Awesome Lists & Directories](#awesome-lists--directories) — 156
+- [Ecosystem Maps & Landscapes](#ecosystem-maps--landscapes) — 5
 - [Publications & Feeds](#publications--feeds) — 11
 
 ## Awesome Lists & Directories
@@ -247,7 +247,7 @@ _174 entries in 3 sections, ranked by stars. Each section opens with its top 30;
   `federated-learning` `research` `awesome-list` `machine-learning`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+127 more in Awesome Lists & Directories &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+126 more in Awesome Lists & Directories &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[awesome-LangGraph](https://github.com/vonzosten/awesome-langgraph)** `⭐ 2k` `updated ≤90d` An index of the LangChain + LangGraph ecosystem with concepts, projects, tools, templates, and guides for LLM & multi-agent apps.
 - **[awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers)** `⭐ 1.7k` `updated ≤90d` A curated list of research papers on multi-agent systems and swarm intelligence for AI agents.
@@ -332,7 +332,6 @@ _174 entries in 3 sections, ranked by stars. Each section opens with its top 30;
 - **[fabricioctelles/modelsystem](https://github.com/fabricioctelles/modelsystem)** `⭐ 1` `updated ≤30d` Curated catalog of System One / Decision Models — contributions for modelsystem.one.
 - **[rhc98/awesome-jev](https://github.com/rhc98/awesome-jev)** `⭐ 1` Projects built on Jev (TypeSafe AI's System One model), curated by Jev itself.
 - **[skillselion/skillselion-mcp](https://github.com/skillselion/skillselion-mcp)** `⭐ 1` skillselion/skillselion-mcp ☁️ - Search thousands of community-vetted Claude Code skills, MCP servers and marketplaces from the Skillselion catalog, ranked by real install counts + GitHub stars. load_skill fetches a real SKILL.md mid-task. Install: npx -y skillselion-mcp.
-- **[mcpdiscovery](https://github.com/particlefuture/mcpdiscovery)** `⭐ 0` AllInOneMCP - MCP of MCPs. A central hub for MCP servers. Helps you discover available MCP servers and learn how to install and use them. REMOTE! Use the url https://mcp.pfvc.io/mcp/ to add the server. Remember the final backslash\*\*.
 - **[《面向开发者的LLM入门教程》](https://datawhalechina.github.io/llm-cookbook)** An introductory tutorial for developers on using Large Language Models.
 - **[AI For Developers](https://aifordevelopers.org)** A curated directory of AI coding tools, agents, and developer-focused infrastructure.
 - **[All skills →](https://awesome-copilot.github.com/skills)** A curated list of community-contributed instructions, agents, skills, and configurations for GitHub Copilot.
@@ -383,7 +382,6 @@ _174 entries in 3 sections, ranked by stars. Each section opens with its top 30;
 
 - **[everyinfra/jev-radar](https://github.com/everyinfra/jev-radar)** `⭐ 31` `updated ≤30d` 全网最全 · The world's most comprehensive tracker of the Jev (TypeSafe AI System One) ecosystem — 220+ documented cases · 108 confidence-graded entries · verified & rescanned every 3 hours · API access guide included.
 - **[Nadeus/toolradar-mcp](https://github.com/nadeus/toolradar-mcp)** `⭐ 4` Nadeus/toolradar-mcp : Search, compare, and get pricing for 8,600+ software tools with verified data, editorial scores, G2/Capterra ratings, and real alternatives. Install via npx -y toolradar-mcp.
-- **[Registry Broker](https://github.com/hashgraph-online/registry-broker)** `⭐ 0` Universal index and routing layer for AI agents. Aggregates agent metadata from multiple registries (NANDA, MCP, Virtuals, OpenRouter, A2A, X402 Bazaar) across web2 and web3, normalizes profiles, and provides protocol translation between agent ecosystems.
 - **[HuggingFace](https://huggingface.co)** Hugging Face is a platform for hosting, discovering, and collaborating on machine learning models, datasets, and applications. <details><summary>More about</summary>
 
   It provides developers with centralized access to pre-trained models, datasets, and demo apps (Spaces), accelerating ML experimentation and deployment.

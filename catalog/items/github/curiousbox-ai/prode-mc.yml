@@ -45,19 +45,18 @@ insights:
   tags: []
   confidence: null
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
+  status: excluded
+  reason: >-
+    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
+    repo
   evidence:
-    - jev-latest choice confidence 0.85
-    - >-
-      jev winnow:e4b 0.30 below gate 0.50; proposed coding-agents / Autonomous & Multi-Agent Coding; placement kept at
-      coding-agents (unverified)
-    - 'ungh: repo not found on GitHub (curiousbox-ai/prode-mc) — star count set to 0'
+    - GitHub API returned 404 for curiousbox-ai/prode-mc
+    - ungh.cc (cached GitHub proxy) returned 404 for curiousbox-ai/prode-mc
+    - excluded by the dead-repo cleanup on 2026-10-02
 placement:
-  primary_category: coding-agents
-  secondary_categories:
-    - decision-models
-  section: Autonomous & Multi-Agent Coding
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: curated
   reason: null

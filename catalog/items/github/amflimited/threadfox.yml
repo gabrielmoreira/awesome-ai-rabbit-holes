@@ -52,17 +52,18 @@ insights:
   tags: []
   confidence: null
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
+  status: excluded
+  reason: >-
+    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
+    repo
   evidence:
-    - jev-latest choice confidence 0.97
-    - jev winnow:e4b 0.38 below gate 0.50; proposed mcp / Browser & Web Automation; placement kept at mcp (unverified)
-    - 'ungh: repo not found on GitHub (amflimited/threadfox) — star count set to 0'
+    - GitHub API returned 404 for amflimited/threadfox
+    - ungh.cc (cached GitHub proxy) returned 404 for amflimited/threadfox
+    - excluded by the dead-repo cleanup on 2026-10-02
 placement:
-  primary_category: mcp
-  secondary_categories:
-    - skills
-  section: Browser & Web Automation
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: curated
   reason: null

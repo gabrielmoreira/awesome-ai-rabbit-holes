@@ -3,11 +3,11 @@
 
 Systems that improve what goes into the model: persistent agent memory, retrieval and RAG pipelines, context compression, and prompt management.
 
-_231 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_226 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Persistent Memory & Knowledge](#persistent-memory--knowledge) — 142
+- [Persistent Memory & Knowledge](#persistent-memory--knowledge) — 137
 - [Context & Session Management](#context--session-management) — 22
 - [Compression & Token Optimization](#compression--token-optimization) — 35
 - [Retrieval & Fresh Docs](#retrieval--fresh-docs) — 22
@@ -200,7 +200,7 @@ _231 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   `agent-memory` `context-engineering` `mcp-compatible` `langchain-integration` `procedural-learning`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+112 more in Persistent Memory & Knowledge &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+107 more in Persistent Memory & Knowledge &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[pi22by7/In-Memoria](https://github.com/pi22by7/in-memoria)** `⭐ 174` `updated ≤1y` An MCP server that indexes codebases to provide persistent memory, pattern recognition, and semantic search across sessions for AI coding assistants.
 - **[Jean Memory](https://github.com/jean-technologies/jean-memory)** `⭐ 172` `updated ≤1y` AI memory infrastructure providing a persistent, intelligent context layer for applications via SDKs and APIs.
@@ -300,14 +300,9 @@ _231 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[MyAgentHubs/aimemo](https://github.com/myagenthubs/aimemo)** `⭐ 1` `updated ≤1y` A zero-dependency, local-first MCP memory server written in Go that stores and retrieves structured project context for AI coding assistants like Claude Code.
 - **[peterbeck111/knowledgelib-io](https://github.com/peterbeck111/knowledgelib-io)** `⭐ 1` `updated ≤90d` A structured knowledge library offering pre-verified, cited knowledge units via MCP, REST, and LangChain integrations to reduce token usage and hallucinations in AI agents.
 - **[pfillion42/memviz](https://github.com/pfillion42/memviz)** `⭐ 1` `updated ≤1y` A local web UI for browsing, searching, visualizing, and managing the SQLite-vec memory databases created by the MCP Memory Service.
-- **[AgenticRevolution/memory-nexus-cloud](https://github.com/agenticrevolution/memory-nexus-cloud)** `⭐ 0` AgenticRevolution/memory-nexus-cloud ☁️ - Cloud-hosted persistent semantic memory for AI agents. Semantic search, knowledge graphs, specialist expertise hats, and multi-tenant isolation. Free 7-day trial.
-- **[CanopyHQ/phloem](https://github.com/canopyhq/phloem)** `⭐ 0` CanopyHQ/phloem ️ - Local-first AI memory with causal graphs and citation verification. Semantic search, confidence decay when code drifts, and zero network connections. Works across Claude Code, Cursor, VS Code, and 7 more MCP clients.
-- **[instinct](https://github.com/wrg-11/instinct)** `⭐ 0` yakuphanycl/instinct - Self-learning memory for AI coding agents. Observes tool sequences, user preferences, and recurring fixes; confidence-based promotion (hits ≥5 → mature, ≥10 → rule) so agents stop repeating mistakes without explicit instruction. SQLite-backed, project-aware, zero external deps. Works with Claude Code, Cursor, Windsurf, Goose, Codex. Published on PyPI as instinct-mcp and registered in the MCP Registry.
 - **[jonimartin27/claudescope](https://github.com/jonimartin27/claudescope)** `⭐ 0` claudescope – Local-first CLI (npx claudescope) that indexes your local Claude Code session transcripts (.claude/projects/*.jsonl) into a searchable dashboard with full-text search across your coding-session history. Zero dependencies, zero network calls — fully private and offline. MIT licensed.
-- **[smriti-AA/smriti](https://github.com/smriti-aa/smriti)** `⭐ 0` smriti-AA/smriti - Self-hosted knowledge store and memory layer for AI agents with knowledge graph, wiki-links, full-text search (FTS5), and agent memory with namespaces and TTL.
 - **[stonianua/neither-mcp](https://github.com/stonianua/neither-mcp)** `⭐ 0` stonianua/neither-mcp : Hosted company-context graph for AI agents — decisions and memory with supersession; MCP server for Cursor and Claude Desktop (npx -y @neitherai/mcp-server@latest).
 - **[techreone/xknow-mcp](https://github.com/techreone/xknow-mcp)** `⭐ 0` techreone/xknow-mcp : Domain knowledge base for AI agents: curated, source-backed SEO, SaaS, and LLM-wiki notes with ranked keyword search, full-note retrieval, knowledge-graph exploration, and citations. Local stdio, no API key. npx -y xknow-mcp.
-- **[yakuphanycl/instinct](https://github.com/yakuphanycl/instinct)** `⭐ 0` yakuphanycl/instinct - Self-learning memory for AI coding agents. Observes tool sequences, user preferences, and recurring fixes; confidence-based promotion (hits ≥5 → mature, ≥10 → rule) so agents stop repeating mistakes without explicit instruction. SQLite-backed, project-aware, zero external deps. Works with Claude Code, Cursor, Windsurf, Goose, Codex. Published on PyPI as instinct-mcp and registered in the MCP Registry.
 - **[Atlan](https://atlan.com)** An enterprise context layer that unifies business logic, data lineage, and institutional knowledge into a graph for AI agents.
 - **[Context by Fulcra](https://fulcradynamics.com)** Fulcra is a user-owned context backend for AI agents that unifies real-world data, files, and agent work into a controllable context lake.
 - **[jevmem](https://npmjs.com/package/jevmem)** jevmem (site) - Jev decides. The LLM writes one line. Your project never forgets. Jev-powered memory layer for AI coding tools.
