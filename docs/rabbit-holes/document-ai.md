@@ -13,7 +13,7 @@ _19 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
 ## Document Parsing & Layout
 
-- **[PaddleOCR](https://github.com/paddlepaddle/paddleocr)** `⭐ 85.9k` `updated ≤90d` A lightweight, multilingual OCR toolkit that converts images and PDFs into structured data formats like JSON and Markdown for use in LLM pipelines. <details><summary>More about</summary>
+- **[PaddleOCR](https://github.com/paddlepaddle/paddleocr)** `⭐ 90.5k` `updated ≤90d` A lightweight, multilingual OCR toolkit that converts images and PDFs into structured data formats like JSON and Markdown for use in LLM pipelines. <details><summary>More about</summary>
 
   It provides the document ingestion layer necessary to feed clean, structured context into RAG systems and AI agents without relying on brittle, closed-source parsers.
 
@@ -21,7 +21,7 @@ _19 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `ocr` `document-ai` `rag` `pdf-parsing` `paddlepaddle`
   </details>
-- **[MinerU](https://github.com/opendatalab/mineru)** `⭐ 75.2k` `updated ≤90d` MinerU is a Python toolkit that parses PDFs, Office documents, and other complex files into markdown or JSON structured for LLM and agent pipelines. <details><summary>More about</summary>
+- **[MinerU](https://github.com/opendatalab/mineru)** `⭐ 81k` `updated ≤90d` MinerU is a Python toolkit that parses PDFs, Office documents, and other complex files into markdown or JSON structured for LLM and agent pipelines. <details><summary>More about</summary>
 
   It removes the boilerplate of layout analysis, OCR, and table extraction so developers can feed clean, structured documents directly into RAG systems and coding agents.
 
@@ -29,7 +29,7 @@ _19 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `pdf-parser` `rag` `document-extraction` `llm-tooling` `python`
   </details>
-- **[Docling](https://github.com/docling-project/docling)** 🔥 `⭐ 66.4k` `updated ≤30d` Docling is a document parsing library that converts PDF, DOCX, PPTX, HTML, and other formats into structured Markdown or JSON for AI workflows. <details><summary>More about</summary>
+- **[Docling](https://github.com/docling-project/docling)** 🔥 `⭐ 68.3k` `updated ≤30d` Docling is a document parsing library that converts PDF, DOCX, PPTX, HTML, and other formats into structured Markdown or JSON for AI workflows. <details><summary>More about</summary>
 
   It lets developers reliably extract clean text and tables from complex documents to feed LLMs, reducing hallucinations from poor input parsing.
 
@@ -45,7 +45,7 @@ _19 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `ocr` `document-extraction` `vision-models` `data-processing`
   </details>
-- **[PDF-Extract-Kit](https://github.com/opendatalab/pdf-extract-kit)** `⭐ 9.8k` `updated >1y` A modular Python toolkit that bundles fine-tuned models for layout detection, OCR, formula recognition, and table extraction to parse complex PDF documents into structured content. <details><summary>More about</summary>
+- **[PDF-Extract-Kit](https://github.com/opendatalab/pdf-extract-kit)** `⭐ 10k` `updated >1y` A modular Python toolkit that bundles fine-tuned models for layout detection, OCR, formula recognition, and table extraction to parse complex PDF documents into structured content. <details><summary>More about</summary>
 
   It provides the high-quality document parsing layer needed to feed clean, structured data into LLMs for RAG, document Q&A, and translation workflows.
 
@@ -69,7 +69,8 @@ _19 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `pdf-ocr` `markdown-conversion` `multimodal` `document-processing`
   </details>
-- **[pdfmux](https://github.com/nameetp/pdfmux)** `⭐ 77` `updated ≤90d` A self-healing PDF extraction CLI and Python library that routes pages through multiple backends and audits output quality, with optional LLM fallbacks and an MCP server for Claude Desktop. <details><summary>More about</summary>
+- **[Kentucky-ai/opentakeoff](https://github.com/kentucky-ai/opentakeoff)** `⭐ 149` `updated ≤90d` Open-source (Apache-2.0) PDF takeoff for construction & flooring — the first engine an AI agent drives natively over MCP, not bolted on. One-click room detection, materials + quantities, built for preconstruction. Runs entirely in your browser.
+- **[pdfmux](https://github.com/nameetp/pdfmux)** `⭐ 82` `updated ≤90d` A self-healing PDF extraction CLI and Python library that routes pages through multiple backends and audits output quality, with optional LLM fallbacks and an MCP server for Claude Desktop. <details><summary>More about</summary>
 
   It gives developers a single pipeline to get clean Markdown or JSON out of messy PDFs for RAG and LLM workflows, with confidence scoring and automatic re-extraction.
 
@@ -77,7 +78,7 @@ _19 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `pdf-extraction` `rag` `mcp` `self-healing` `cli`
   </details>
-- **[Kentucky-ai/opentakeoff](https://github.com/kentucky-ai/opentakeoff)** `⭐ 36` `updated ≤90d` Open-source (Apache-2.0) PDF takeoff for construction & flooring — the first engine an AI agent drives natively over MCP, not bolted on. One-click room detection, materials + quantities, built for preconstruction. Runs entirely in your browser.
+- **[misbahsy/doc-router](https://github.com/misbahsy/doc-router)** `⭐ 28` doc-router - Routes PDF pages between local text extraction and OCR using optional Jev judgments, with a Rust CLI and Python bindings. Project guide.
 - **[bzsanti/oxidize-python](https://github.com/bzsanti/oxidize-python)** `⭐ 5` `updated ≤30d` A Rust-powered Python library for PDF generation, parsing, and manipulation that includes a built-in MCP server. <details><summary>More about</summary>
 
   It allows AI agents to perform complex PDF operations like text extraction, conversion to RAG-optimized formats, and form filling without requiring heavy C or Java dependencies.
@@ -87,7 +88,6 @@ _19 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
   `python` `rust` `mcp` `pdf` `rag`
   </details>
 - **[velyan/pdf-card-mcp](https://github.com/velyan/pdf-card-mcp)** `⭐ 2` `updated ≤180d` Local-first MCP tool that converts PDFs into polished standalone card-based HTML readers.
-- **[misbahsy/doc-router](https://github.com/misbahsy/doc-router)** doc-router - Routes PDF pages between local text extraction and OCR using optional Jev judgments, with a Rust CLI and Python bindings. Project guide.
 - **[jev-information-extraction-fibby-prod-telegram.up.railway.app](https://jev-information-extraction-fibby-prod-telegram.up.railway.app)** jev-information-extraction (site) - Parsing the PDF and extracting the relevant information.
 - **[Unstructured Platform](https://unstructured.io)** unstructured.io provides tools to extract, clean, and structure unstructured data like documents, PDFs, and web pages for downstream AI processing. <details><summary>More about</summary>
 
@@ -100,7 +100,7 @@ _19 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
 ## File Conversion & Markdown
 
-- **[MarkItDown](https://github.com/microsoft/markitdown)** `⭐ 170.9k` `updated ≤90d` Python tool for converting files and office documents to Markdown. <details><summary>More about</summary>
+- **[MarkItDown](https://github.com/microsoft/markitdown)** `⭐ 188k` `updated ≤90d` Python tool for converting files and office documents to Markdown. <details><summary>More about</summary>
 
   Lets developers feed diverse document formats into LLMs by standardizing them as Markdown.
 
@@ -108,9 +108,9 @@ _19 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
   `markdown` `document-processing` `llm-utility`
   </details>
-- **[ebbfijsf/agent-reader](https://github.com/ebbfijsf/agent-reader)** ebbfijsf/agent-reader - Document beautifier for AI agents. Converts Markdown to styled webpages (with sidebar TOC), Word, PDF, and full-screen image slideshows. Zero-config via npx agent-reader mcp.
-- **[Markovo](https://github.com/fisher-byte/markovo)** fisher-byte/markovo : Converts PDF, DOCX, PPTX, XLSX and authorized public pages (Google Docs, Notion, GitHub, Hacker News, YouTube) into clean, structured Markdown for agent context — remote Streamable HTTP endpoint with OAuth 2.1 plus local stdio server sandboxed to a dedicated root directory.
-- **[SylphxAI/anymd](https://github.com/sylphxai/anymd)** SylphxAI/anymd : Converts any file (PDF, DOCX, PPTX, XLSX/CSV, EPUB, HTML/URLs, images, audio/video) to clean Markdown for AI agents, locally in Rust with no API key.
+- **[SylphxAI/anymd](https://github.com/sylphxai/anymd)** `⭐ 1k` SylphxAI/anymd : Converts any file (PDF, DOCX, PPTX, XLSX/CSV, EPUB, HTML/URLs, images, audio/video) to clean Markdown for AI agents, locally in Rust with no API key.
+- **[ebbfijsf/agent-reader](https://github.com/ebbfijsf/agent-reader)** `⭐ 0` ebbfijsf/agent-reader - Document beautifier for AI agents. Converts Markdown to styled webpages (with sidebar TOC), Word, PDF, and full-screen image slideshows. Zero-config via npx agent-reader mcp.
+- **[Markovo](https://github.com/fisher-byte/markovo)** `⭐ 0` fisher-byte/markovo : Converts PDF, DOCX, PPTX, XLSX and authorized public pages (Google Docs, Notion, GitHub, Hacker News, YouTube) into clean, structured Markdown for agent context — remote Streamable HTTP endpoint with OAuth 2.1 plus local stdio server sandboxed to a dedicated root directory.
 
 ## Extraction & Structured Output
 

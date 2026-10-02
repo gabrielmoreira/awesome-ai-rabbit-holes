@@ -15,7 +15,7 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
 ## Full App Builders
 
-- **[dyad](https://github.com/dyad-sh/dyad)** 🔥 `⭐ 21.5k` `updated ≤30d` Local, open-source AI app builder for creating applications with various AI models on your own machine. <details><summary>More about</summary>
+- **[dyad](https://github.com/dyad-sh/dyad)** 🔥 `⭐ 21.6k` `updated ≤30d` Local, open-source AI app builder for creating applications with various AI models on your own machine. <details><summary>More about</summary>
 
   Developers can build AI-powered apps locally with their own API keys, avoiding vendor lock-in while maintaining privacy and control.
 
@@ -23,7 +23,7 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `app-builder` `local-ai` `open-source` `prompt-to-app` `typescript`
   </details>
-- **[Bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** `⭐ 19.6k` `updated ≤1y` An open-source, browser-based development environment that lets you prompt, run, edit, and deploy full-stack web applications using your choice of 19+ LLM providers. <details><summary>More about</summary>
+- **[Bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** `⭐ 19.9k` `updated ≤1y` An open-source, browser-based development environment that lets you prompt, run, edit, and deploy full-stack web applications using your choice of 19+ LLM providers. <details><summary>More about</summary>
 
   It decouples the AI coding experience from proprietary backends, letting developers self-host and swap models while generating and deploying NodeJS apps directly from the browser.
 
@@ -39,7 +39,7 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `ai-search` `ui-generator` `hybrid-ai`
   </details>
-- **[Friday](https://github.com/amirrezasalimi/friday)** `⭐ 66` `updated >1y` Friday is a developer assistant that generates whole Node.js projects from prompts using GPT-4. <details><summary>More about</summary>
+- **[Friday](https://github.com/amirrezasalimi/friday)** `⭐ 67` `updated >1y` Friday is a developer assistant that generates whole Node.js projects from prompts using GPT-4. <details><summary>More about</summary>
 
   It lets developers scaffold and generate entire applications by describing app sections as prompts, reducing manual setup time.
 
@@ -47,7 +47,7 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `prompt-to-app` `nodejs` `gpt-4` `scaffolding`
   </details>
-- **[GitWit](https://github.com/gitwitorg/gitwit)** `⭐ 64` `updated ≤180d` An open-source, AI-native cloud-based coding platform for building apps with integrated code generation, live preview, and AI chat. <details><summary>More about</summary>
+- **[GitWit](https://github.com/gitwitorg/gitwit)** `⭐ 65` `updated ≤180d` An open-source, AI-native cloud-based coding platform for building apps with integrated code generation, live preview, and AI chat. <details><summary>More about</summary>
 
   It provides a hosted development environment where developers can rapidly prototype and build applications using AI-assisted code generation and real-time collaboration features.
 
@@ -55,7 +55,7 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `ai-native-ide` `cloud-development` `code-generation` `live-preview`
   </details>
-- **[vibesdiy/vibes.diy](https://github.com/vibesdiy/vibes.diy)** Vibes DIY – Open-source AI app builder that turns a plain-English description into a real, live web app you can share, remix, and collaborate on.
+- **[vibesdiy/vibes.diy](https://github.com/vibesdiy/vibes.diy)** `⭐ 0` Vibes DIY – Open-source AI app builder that turns a plain-English description into a real, live web app you can share, remix, and collaborate on.
 - **[base44](https://base44.com)** A no-code AI platform that generates full-stack applications, websites, and AI agents from natural language prompts. <details><summary>More about</summary>
 
   It allows users to bypass traditional development setup by automatically handling backend, authentication, and hosting through 'vibe coding'.
@@ -224,10 +224,10 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
 ## Site & Landing Page Builders
 
-- **[joevidev/ui-generator-instinct-jev](https://github.com/joevidev/ui-generator-instinct-jev)** Instinct (site) - Instinct: describe a case in free text and Jev picks the UI from a fixed catalog without generating a line of code or copy.
-- **[kleaphq/cli](https://github.com/kleaphq/cli)** kleaphq/cli : AI website builder MCP — create apps, edit files, connect domains, and publish over a remote HTTP endpoint (https://kleap.co/api/mcp).
-- **[shiped-app/shiped-mcp](https://github.com/shiped-app/shiped-mcp)** shiped-app/shiped-mcp ☁️ - Deploy AI-generated HTML, CSS and JavaScript to a public HTTPS URL.
-- **[tcgunel/mobius-mcp](https://github.com/tcgunel/mobius-mcp)** tcgunel/mobius-mcp - Build WordPress sites on the Sweipe or FlatMobile themes: import demos, build a site from a brief, review it, rewrite page copy and change settings.
+- **[joevidev/ui-generator-instinct-jev](https://github.com/joevidev/ui-generator-instinct-jev)** `⭐ 7` Instinct (site) - Instinct: describe a case in free text and Jev picks the UI from a fixed catalog without generating a line of code or copy.
+- **[kleaphq/cli](https://github.com/kleaphq/cli)** `⭐ 1` kleaphq/cli : AI website builder MCP — create apps, edit files, connect domains, and publish over a remote HTTP endpoint (https://kleap.co/api/mcp).
+- **[shiped-app/shiped-mcp](https://github.com/shiped-app/shiped-mcp)** `⭐ 0` shiped-app/shiped-mcp ☁️ - Deploy AI-generated HTML, CSS and JavaScript to a public HTTPS URL.
+- **[tcgunel/mobius-mcp](https://github.com/tcgunel/mobius-mcp)** `⭐ 0` tcgunel/mobius-mcp - Build WordPress sites on the Sweipe or FlatMobile themes: import demos, build a site from a brief, review it, rewrite page copy and change settings.
 - **[10Web](https://10web.io)** An AI-powered website and WordPress builder that generates, optimizes, and hosts sites from prompts or Figma designs. <details><summary>More about</summary>
 
   It enables rapid scaffolding and deployment of production-ready WordPress and ecommerce sites through natural language and design-to-code workflows.
@@ -282,7 +282,7 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
 ## Internal Tools & Dashboards
 
-- **[Baserow](https://github.com/baserow/baserow)** `⭐ 6k` `updated ≤30d` Open-source no-code platform for building databases, automations, apps, and AI agents with self-hosting options. <details><summary>More about</summary>
+- **[Baserow](https://github.com/baserow/baserow)** `⭐ 6.1k` `updated ≤30d` Open-source no-code platform for building databases, automations, apps, and AI agents with self-hosting options. <details><summary>More about</summary>
 
   Developers can use it to rapidly create internal tools, dashboards, and workflows without writing code, while retaining full data control via self-hosting.
 
@@ -357,7 +357,7 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
 ## Scaffolding & Boilerplate
 
-- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** 🔥 `⭐ 79.1k` `updated ≤30d` An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks. <details><summary>More about</summary>
+- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** 🔥 `⭐ 79.9k` `updated ≤30d` An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks. <details><summary>More about</summary>
 
   It accelerates the prototyping phase by turning visual designs directly into structured HTML, Tailwind, React, or Vue code.
 
@@ -365,7 +365,7 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `prompt-to-app` `frontend` `react` `tailwind` `prototyping`
   </details>
-- **[LLMApp](https://github.com/pathwaycom/llm-app)** `⭐ 59k` `updated ≤90d` A repository of ready-to-deploy Docker templates for building RAG pipelines, enterprise search, and AI applications that sync live with data sources like SharePoint, Google Drive, S3, and Kafka. <details><summary>More about</summary>
+- **[LLMApp](https://github.com/pathwaycom/llm-app)** `⭐ 58.9k` `updated ≤90d` A repository of ready-to-deploy Docker templates for building RAG pipelines, enterprise search, and AI applications that sync live with data sources like SharePoint, Google Drive, S3, and Kafka. <details><summary>More about</summary>
 
   It gives developers pre-built, scalable pipelines for real-time data ingestion and retrieval, reducing the boilerplate needed to stand up production RAG systems.
 
@@ -381,7 +381,7 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `cli` `scaffolding` `agent` `library` `python`
   </details>
-- **[builder](https://github.com/builderio/builder)** `⭐ 8.8k` `updated ≤30d` A visual development platform that connects to existing sites and apps to generate code from Figma designs or a drag-and-drop editor. <details><summary>More about</summary>
+- **[builder](https://github.com/builderio/builder)** `⭐ 8.9k` `updated ≤30d` A visual development platform that connects to existing sites and apps to generate code from Figma designs or a drag-and-drop editor. <details><summary>More about</summary>
 
   It bridges the gap between design and production code by allowing developers to visually edit their own existing components rather than regenerating static pages.
 
@@ -389,21 +389,13 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `visual-development` `design-to-code` `cms` `figma-integration`
   </details>
-- **[create-t3-turbo-ai](https://github.com/zckly/create-t3-turbo-ai)** `⭐ 354` `updated >1y` A Turborepo-based starter kit for building full-stack, type-safe LLM-powered apps using the T3 Stack, OpenAI, and LangChain. <details><summary>More about</summary>
+- **[create-t3-turbo-ai](https://github.com/zckly/create-t3-turbo-ai)** `⭐ 353` `updated >1y` A Turborepo-based starter kit for building full-stack, type-safe LLM-powered apps using the T3 Stack, OpenAI, and LangChain. <details><summary>More about</summary>
 
   It gives developers a production-ready scaffold to quickly bootstrap AI-enhanced web apps with modern tooling and type safety.
 
   _Another starter kit that promises 'ultimate' while leaving half the features as TODO, because why ship when you can scaffold forever?_
 
   `starter-kit` `t3-stack` `langchain` `openai` `turborepo`
-  </details>
-- **[English Compiler](https://github.com/uilicious/english-compiler)** `⭐ 298` `updated >1y` English Compiler is a proof-of-concept CLI tool that compiles English-language Markdown specifications into functional code via chained AI prompts. <details><summary>More about</summary>
-
-  It demonstrates a speculative workflow where developers delegate full code generation to AI based solely on natural-language specs, skipping manual coding.
-
-  _It highlights the absurdity of trading readable, version-controlled code for brittle, slow, and opaque AI-generated output that requires re-prompting to fix._
-
-  `spec-driven` `code-generation` `proof-of-concept`
   </details>
 - **[langchain-streamlit-template](https://github.com/hwchase17/langchain-streamlit-template)** `⭐ 298` `updated >1y` A Streamlit template for deploying LangGraph agents as chatbots. <details><summary>More about</summary>
 
@@ -413,7 +405,15 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `streamlit` `langgraph` `template` `deployment` `chatbot`
   </details>
-- **[OpenZeppelin/contracts-wizard](https://github.com/openzeppelin/contracts-wizard)** `⭐ 293` `updated ≤90d` An interactive web tool and CLI for generating smart contract code based on OpenZeppelin templates, with optional MCP integration for AI agents. <details><summary>More about</summary>
+- **[English Compiler](https://github.com/uilicious/english-compiler)** `⭐ 296` `updated >1y` English Compiler is a proof-of-concept CLI tool that compiles English-language Markdown specifications into functional code via chained AI prompts. <details><summary>More about</summary>
+
+  It demonstrates a speculative workflow where developers delegate full code generation to AI based solely on natural-language specs, skipping manual coding.
+
+  _It highlights the absurdity of trading readable, version-controlled code for brittle, slow, and opaque AI-generated output that requires re-prompting to fix._
+
+  `spec-driven` `code-generation` `proof-of-concept`
+  </details>
+- **[OpenZeppelin/contracts-wizard](https://github.com/openzeppelin/contracts-wizard)** `⭐ 294` `updated ≤90d` An interactive web tool and CLI for generating smart contract code based on OpenZeppelin templates, with optional MCP integration for AI agents. <details><summary>More about</summary>
 
   It lets developers scaffold secure, standards-based smart contracts in Solidity, Cairo, and Stellar without memorizing OpenZeppelin APIs or copy-pasting boilerplate.
 
@@ -454,8 +454,9 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `mcp` `typescript` `scaffolding` `nodejs` `tooling`
   </details>
-- **[BetterTyped/hype-stack](https://github.com/bettertyped/hype-stack)** `⭐ 8` `updated ≤30d` Fastest fullstack monorepo template for your SaaS. Built with vite, oxc, tsgo, pnpm. E2E typesafety, builds Desktop and Web, Browser Extensions and Mobile applications. Comes with a shadcn-style CLI for fullstack features: install them, or write your own and share.
-- **[karyaboyraz/mockit-mcp](https://github.com/karyaboyraz/mockit-mcp)** `⭐ 3` `updated ≤180d` An MCP server that generates iOS mobile UI mockups in PNG and HTML/Tailwind formats using Claude and Playwright. <details><summary>More about</summary>
+- **[ng-galien/maket](https://github.com/ng-galien/maket)** `⭐ 19` ng-galien/maket - Local-first visual design workspace for AI assistants. Compose wireframes and branded multi-page HTML/CSS documents with live preview, annotations, brand and asset libraries, typed data collections, layout validation, PDF export, and draft-only Gmail handoff. Install: npx -y @ng-galien/maket.
+- **[BetterTyped/hype-stack](https://github.com/bettertyped/hype-stack)** `⭐ 9` `updated ≤30d` Fastest fullstack monorepo template for your SaaS. Built with vite, oxc, tsgo, pnpm. E2E typesafety, builds Desktop and Web, Browser Extensions and Mobile applications. Comes with a shadcn-style CLI for fullstack features: install them, or write your own and share.
+- **[karyaboyraz/mockit-mcp](https://github.com/karyaboyraz/mockit-mcp)** `⭐ 5` `updated ≤180d` An MCP server that generates iOS mobile UI mockups in PNG and HTML/Tailwind formats using Claude and Playwright. <details><summary>More about</summary>
 
   It allows developers to bridge the gap between prompt-based planning and visual prototyping directly within their existing AI coding environments.
 
@@ -464,10 +465,9 @@ _84 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
   `mcp` `ios` `ui-design` `playwright` `mockups`
   </details>
 - **[DanMat/create-packkit](https://github.com/packkitjs/create-packkit)** `⭐ 1` `updated ≤90d` Provider-neutral project generator for modern JS/TS — packages, CLIs, apps & services — from a CLI or web configurator, with an embedded API and safe upgrades.
+- **[packkitlabs/create-packkit-js](https://github.com/packkitlabs/create-packkit-js)** `⭐ 1` DanMat/create-packkit - Scaffold modern npm packages, CLIs, services, and full-stack monorepos from your agent. Three tools: inspect the option schema, preview the generated file tree, and write the project to disk — optionally creating the GitHub repo and pushing to it, or merging into an existing clone without overwriting anything. Also available as a CLI and a web configurator. npx -y packkit-mcp.
 - **[ciliyun007/openspec-scaffold](https://github.com/ciliyun007/openspec-scaffold)** `⭐ 0` `updated ≤30d` Generate the four OpenSpec files (proposal / spec / design / tasks) for a change, from one sentence. No AI call, no network.
-- **[ng-galien/maket](https://github.com/ng-galien/maket)** ng-galien/maket - Local-first visual design workspace for AI assistants. Compose wireframes and branded multi-page HTML/CSS documents with live preview, annotations, brand and asset libraries, typed data collections, layout validation, PDF export, and draft-only Gmail handoff. Install: npx -y @ng-galien/maket.
-- **[packkitlabs/create-packkit-js](https://github.com/packkitlabs/create-packkit-js)** DanMat/create-packkit - Scaffold modern npm packages, CLIs, services, and full-stack monorepos from your agent. Three tools: inspect the option schema, preview the generated file tree, and write the project to disk — optionally creating the GitHub repo and pushing to it, or merging into an existing clone without overwriting anything. Also available as a CLI and a web configurator. npx -y packkit-mcp.
-- **[PackkitLabs/packkit-mcp](https://github.com/packkitlabs/packkit-mcp)** PackkitLabs/packkit-mcp - Scaffold and upgrade multi-language projects with the create-packkit generators, and compose a frontend and backend into one fullstack repo.
+- **[PackkitLabs/packkit-mcp](https://github.com/packkitlabs/packkit-mcp)** `⭐ 0` PackkitLabs/packkit-mcp - Scaffold and upgrade multi-language projects with the create-packkit generators, and compose a frontend and backend into one fullstack repo.
 - **[KI-App-Bauplan](https://agentic-coder.de/tools/ki-app-bauplan)** KI-App-Bauplan – Free guided planner that turns an app idea into a focused MVP scope, risk review, seven-step build plan, and a starter prompt for Cursor, Claude Code, or Codex.
 - **[Makedraft](https://makedraft.com)** A web-based tool that generates HTML templates from AI prompts. <details><summary>More about</summary>
 

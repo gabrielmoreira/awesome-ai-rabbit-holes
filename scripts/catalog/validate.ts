@@ -53,6 +53,18 @@ export function validateCatalogItem(item: CatalogItem): ValidationError[] {
   if (!item.curation?.status || !VALID_CURATION_STATUSES.has(item.curation.status)) {
     errors.push({ path: item.id ?? "unknown", message: "Item missing or invalid field: curation.status" });
   }
+
+  // A star-count badge from the source list is the list's own display of data
+  // this catalog takes from the GitHub API. Left in a published summary it
+  // shows a stale number the reader cannot tell from the real one.
+  if (item.curation?.status === "included" && typeof item.insights?.summary === "string" && /[⭐★☆]\s*[\d.,]+\s*[kKmMbB]?/.test(item.insights.summary)) {
+    errors.push({ path: item.id, message: "Item summary carries a star-count badge from the source list" });
+  }
+  // A published GitHub repo with no star count makes the ranking lie: the
+  // renderer sorts by stars, and a repo without one sorts as if it had none.
+  if (item.curation?.status === "included" && item.kind === "github-repo" && item.placement?.primary_category != null && item.metadata?.github?.stars == null) {
+    errors.push({ path: item.id, message: "Published GitHub repo has no star count (metadata.github.stars is null)" });
+  }
   errors.push(...validateProcessing(item));
 
   return errors;

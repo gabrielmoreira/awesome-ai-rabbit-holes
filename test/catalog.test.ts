@@ -252,6 +252,23 @@ describe("validate", () => {
       expect(errors[0].message).toContain("provenance");
     });
 
+
+    it("rejects a star-count badge baked into the summary of a published item", () => {
+      const item = makeItem({
+        insights: { summary: "Claudette ⭐ 3 — Native iOS mobile control plane for coding agents.", why_it_matters: null, mental_damage: null, tags: [], confidence: null },
+      });
+      const errors = validateCatalogItem(item);
+      expect(errors.some((e) => e.message.includes("star-count badge"))).toBe(true);
+    });
+
+    it("rejects a published GitHub repo with no star count", () => {
+      const item = makeItem({
+        placement: { primary_category: "coding-agents", secondary_categories: [], section: "Terminal & CLI Agents" },
+      });
+      const errors = validateCatalogItem(item);
+      expect(errors.some((e) => e.message.includes("no star count"))).toBe(true);
+    });
+
     it("valid empty catalog passes", () => {
       expect(validateCatalogItems([])).toHaveLength(0);
     });

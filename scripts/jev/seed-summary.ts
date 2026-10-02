@@ -11,6 +11,7 @@
  */
 
 export type SeedSummaryItem = {
+  name?: string;
   canonical_url?: string;
   metadata?: { github?: { description?: string | null } };
   provenance?: { discoveries?: Array<{ extraction?: { surrounding_text?: string | null } }> };
@@ -37,6 +38,12 @@ const EXCERPT_LIMIT = 300;
  * which beats the page behind it. Only the first two sources are the item's, so
  * a page is read only when the item says nothing — the cache is keyed by URL and
  * a miss costs a cache read.
+ *
+ * An index line is written for a list, not for the item. It opens with the
+ * linked name, often carries a star badge the list renders inline, and reads
+ * from that name as the subject of the sentence. None of that is the item's
+ * description. The name is stripped only at the start, because a name that
+ * appears later in the line is usually part of what the item does.
  */
 export function deriveSeedSummary(item: SeedSummaryItem, readPage: PageLookup): string {
   const description = sanitizeText(item.metadata?.github?.description);
@@ -44,7 +51,7 @@ export function deriveSeedSummary(item: SeedSummaryItem, readPage: PageLookup): 
 
   for (const discovery of item.provenance?.discoveries ?? []) {
     const line = cleanIndexLine(discovery.extraction?.surrounding_text);
-    if (line.length >= 15) return line;
+    if (line.length >= 15) return stripLeadingSelfReference(line, item.name);
   }
 
   const url = sanitizeText(item.canonical_url);
@@ -58,6 +65,14 @@ export function deriveSeedSummary(item: SeedSummaryItem, readPage: PageLookup): 
   return "";
 }
 
+/**
+ * An index line opens with the linked name and often a star badge the list
+ * renders inline, because the line was written to be read in the list, not as
+ * a description of the item. Both are noise here: the star count is the list's
+ * own display of data the catalog takes from the GitHub API, and keeping it in
+ * the summary publishes a stale number the reader has no way to distinguish
+ * from the real one.
+ */
 export function sanitizeText(text: string | null | undefined): string {
   if (!text) return "";
   return text
@@ -78,8 +93,31 @@ export function cleanIndexLine(raw: string | null | undefined): string {
     .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
     .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
     .replace(/\*\*|`/g, "")
+    // A star badge the list renders inline is the list's display of data the
+    // catalog takes from the GitHub API; left in the summary it publishes a
+    // stale number the reader cannot tell from the real one.
+    .replace(/[⭐★☆]\s*[\d.,]+\s*[kKmMbB]?/g, " ")
     .replace(/^\s*[-*]\s*/, "")
     .replace(/[|]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+/**
+ * An index line reads from the linked name as the subject of the sentence:
+ * "**[Claudette](url)** — Native iOS...". The name is not the item's
+ * description, and repeating it makes the rendered page show it twice. Only a
+ * leading match is stripped, because a name that appears later in the line is
+ * usually part of what the item does.
+ */
+function stripLeadingSelfReference(line: string, name: string | null | undefined): string {
+  if (!name) return line;
+  const short = name.includes("/") ? name.split("/").pop() ?? name : name;
+  if (!short || short.length < 3) return line;
+  const pattern = new RegExp(`^${escapeRegExp(short)}\\s*[:;—–-]?\\s*`, "iu");
+  return line.replace(pattern, "").replace(/^[\s—–-]+\s*/, "").trim();
+}
+
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }

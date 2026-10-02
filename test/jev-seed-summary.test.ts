@@ -54,4 +54,60 @@ describe("the provisional summary an item can produce on its own", () => {
     deriveSeedSummary(item({ metadata: { github: { description: "A fairness library for LLM evaluations." } } }), counting);
     expect(asked).toBe(0);
   });
+
+  it("strips a star-count badge from the index line before it becomes a summary", () => {
+    const subject = item({
+      name: "olorin-ai-git/claudette",
+      provenance: {
+        discoveries: [
+          {
+            extraction: {
+              surrounding_text:
+                "- **[Claudette](https://github.com/Olorin-ai-git/claudette)** `⭐ 3` — Native iOS/Android mobile control plane for local CLI coding-agent sessions.",
+            },
+          },
+        ],
+      },
+    });
+    const summary = deriveSeedSummary(subject, noPage);
+    expect(summary).not.toMatch(/⭐|★/);
+    expect(summary).toContain("Native iOS/Android mobile control plane");
+  });
+
+  it("does not repeat the item's own name at the start of its summary", () => {
+    const subject = item({
+      name: "olorin-ai-git/claudette",
+      provenance: {
+        discoveries: [
+          {
+            extraction: {
+              surrounding_text:
+                "**[Claudette](https://github.com/Olorin-ai-git/claudette)** — Native iOS/Android mobile control plane for local CLI coding-agent sessions.",
+            },
+          },
+        ],
+      },
+    });
+    const summary = deriveSeedSummary(subject, noPage);
+    expect(summary.startsWith("Claudette")).toBe(false);
+    expect(summary).not.toMatch(/^[\s—-]+/);
+    expect(summary).toContain("Native iOS/Android mobile control plane");
+  });
+
+  it("keeps a name that is part of the sentence, not the leading subject", () => {
+    const subject = item({
+      name: "hmbown/codewhale",
+      provenance: {
+        discoveries: [
+          {
+            extraction: {
+              surrounding_text: "Terminal coding agent that supports 30+ providers across the fleet. Codewhale was formerly deepseek-tui.",
+            },
+          },
+        ],
+      },
+    });
+    const summary = deriveSeedSummary(subject, noPage);
+    expect(summary).toContain("Codewhale was formerly deepseek-tui");
+  });
 });
