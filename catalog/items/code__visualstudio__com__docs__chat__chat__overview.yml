@@ -48,10 +48,10 @@ insights:
     We've reached the point where our impulse is to catalog the user manual alongside the tool, as if reading
     documentation were itself a developer workflow.
   tags:
-    - documentation
     - vscode
-    - copilot-chat
-    - ide-native
+    - documentation
+    - chat
+    - copilot
   confidence: high
 curation:
   status: excluded
@@ -92,5 +92,20 @@ processing:
         Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:cf0df50825fc428dccbc354d1136f88b02b15cf0b42ba411d39b5168d7d975f7
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an official documentation page for a feature within an existing IDE, rather than a standalone product or tool.
+      decision_evidence:
+        - The URL is a documentation link for Visual Studio Code.
+        - The content consists of guides, tutorials, and feature overviews for the VS Code Chat interface.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -46,11 +46,11 @@ insights:
     Finally, a way to watch your AI agent hallucinate in a controlled, automated environment before it does it to your
     customers.
   tags:
-    - ai-testing
-    - qa-automation
+    - testing
+    - automation
+    - ai-agents
+    - enterprise
     - mcp
-    - enterprise-software
-    - agent-validation
   confidence: high
 curation:
   status: included
@@ -84,14 +84,14 @@ processing:
         local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:6d23962da26244a5f33a03e8dc1f0b7839f728b8991a663fb0af0f4121775d29
-      proposed_primary_category: evals
+      category_rules_version: c367d6101132
+      input_hash: sha256:35f49b6b86e7930535ac8b686b3e98aeaa4a8d278c8331e27b42baa5f222a8fa
+      proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The product's core value is measuring, scoring, and regression-testing the behavior and quality of AI agents and

@@ -49,10 +49,9 @@ insights:
     perfectly formatted markdown.
   tags:
     - web-scraping
-    - llm-context
     - data-extraction
-    - crawler
-    - markdown
+    - api
+    - ai-tool
   confidence: high
 curation:
   status: included
@@ -86,14 +85,14 @@ processing:
         mental_damage
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b34bcd40a654c19eb2f16a651c7938d74ccb50df8dc2e55a1750aae450afdba9
-      proposed_primary_category: context-engineering
+      category_rules_version: c367d6101132
+      input_hash: sha256:922ce33363755fec0ffb6204a778477cb0aa0be731e5398a5d257c2430776042
+      proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The core utility of Firecrawl is converting raw web content into structured, optimized context for LLMs, which

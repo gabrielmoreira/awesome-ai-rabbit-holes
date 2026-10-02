@@ -66,11 +66,10 @@ insights:
     Nothing cures the fear of a broken CI pipeline quite like an AI agent being handed a dashboard of your most
     frequent, un-flakable failures.
   tags:
-    - playwright
     - testing
-    - observability
+    - playwright
     - ci-cd
-    - qa
+    - debugging
   confidence: high
 curation:
   status: included
@@ -112,10 +111,10 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:8f343d3e5e8e000f32cb7bfeff1aad2f98c8cb9e25253c1572b91e2513221746

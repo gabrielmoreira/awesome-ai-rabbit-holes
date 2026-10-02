@@ -46,10 +46,8 @@ insights:
     The joy of clicking a link only to be told the page doesn't exist in your current version and you must be redirected
     to a different version of the truth.
   tags:
-    - huggingface
-    - transformers
-    - agents
     - documentation
+    - huggingface
   confidence: high
 curation:
   status: excluded
@@ -57,9 +55,8 @@ curation:
     This is a documentation page for a specific library's feature, not a standalone product, tool, or framework in its
     own right.
   evidence:
-    - The URL and scraped context indicate this is a documentation page ('/docs/transformers/.../agents')
-    - The scraped text explicitly states 'The documentation page AGENTS doesn't exist in v5.10.2'
-    - It is a part of the larger Transformers library, not a standalone agent product
+    - The scraped context identifies this as a documentation page that does not exist in the specified version.
+    - The URL points to a documentation subdirectory of the Transformers library.
 placement:
   primary_category: null
   section: null
@@ -86,5 +83,20 @@ processing:
         from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:989bdb44a3694a303271f6c7d818196c4f03d8bb871ee46df2fdeca9d2201cee
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The item is a documentation page rather than a standalone tool, framework, or product.
+      decision_evidence:
+        - The scraped context identifies this as a documentation page that does not exist in the specified version.
+        - The URL points to a documentation subdirectory of the Transformers library.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

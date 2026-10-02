@@ -44,10 +44,9 @@ insights:
     Just what the world needed: another 'all-in-one' dashboard to manage the infinite complexity of your business's AI
     dependencies.
   tags:
-    - chat-widget
-    - customer-support
-    - no-code
+    - chatbot
     - saas
+    - ai-tools
   confidence: high
 curation:
   status: excluded
@@ -55,9 +54,9 @@ curation:
     The tool is a generic business SaaS for non-developers rather than a developer-facing tool, framework, or
     infrastructure component.
   evidence:
-    - Focuses on business/study workflows like WordPress auto-posting and Yelp review analysis
-    - Primary feature is a no-code website chat widget for customer support
-    - Not a coding tool, agent, or developer infrastructure
+    - The platform emphasizes 'Free AI Chat Widget - for your website' and tools like 'AI Writer & WordPress Auto Poster' and 'AI Yelp Reviews Analyzer' aimed at business owners and marketers
+    - Core functionality revolves around enabling non-developers to deploy AI chatbots and automate tasks like content generation and review analysis without coding
+    - No evidence of developer tooling such as APIs, SDKs, CLI tools, or extensibility features for engineers to integrate into development workflows
 placement:
   primary_category: null
   section: null
@@ -84,22 +83,22 @@ processing:
         total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b24426ffc7843bde8c9a4e586497f2f0b3c89036c6a68fd04d117b1b20431730
+      category_rules_version: c367d6101132
+      input_hash: sha256:0084beed1409cac0b4818c2354ce388ee79b16560c559028a47bf083182be720
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The tool is a generic business SaaS for non-developers rather than a developer-facing tool, framework, or
         infrastructure component.
       decision_evidence:
-        - Focuses on business/study workflows like WordPress auto-posting and Yelp review analysis
-        - Primary feature is a no-code website chat widget for customer support
-        - Not a coding tool, agent, or developer infrastructure
+        - The platform emphasizes 'Free AI Chat Widget - for your website' and tools like 'AI Writer & WordPress Auto Poster' and 'AI Yelp Reviews Analyzer' aimed at business owners and marketers
+        - Core functionality revolves around enabling non-developers to deploy AI chatbots and automate tasks like content generation and review analysis without coding
+        - No evidence of developer tooling such as APIs, SDKs, CLI tools, or extensibility features for engineers to integrate into development workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null

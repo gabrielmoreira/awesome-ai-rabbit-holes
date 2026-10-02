@@ -49,8 +49,7 @@ insights:
     - whatsapp
     - mcp
     - ai-integration
-    - team-collaboration
-    - automation
+    - business-api
   confidence: high
 curation:
   status: included
@@ -84,22 +83,22 @@ processing:
         'W', ..."_reason": Wassenger'"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5ab9984daf0846a0869a02b11b6f341121f5eda96e5c1ce3d73ffd0c0892eaa6
+      category_rules_version: c367d6101132
+      input_hash: sha256:efb44850c48691c11029cc01d1e7de5f7c3ecb96cf424c8492b443c5113b69e2
       proposed_primary_category: mcp
       disagreement: false
       decision_reason: >-
         The product's core developer-facing value is its MCP server, which explicitly connects WhatsApp to AI
         assistants, making MCP the primary identity.
       decision_evidence:
-        - Explicitly markets an MCP server for connecting WhatsApp to AI assistants (Claude, ChatGPT, Cursor)
-        - Listed in awesome-mcp-servers under 'Community Servers'
-        - Offers REST API and MCP as primary integration paths for developers
+        - "The site explicitly promotes 'MCP Server: Connect WhatsApp to AI assistants' as a developer feature under the Developers section"
+        - It provides an official MCP server that works out of the box to connect WhatsApp to Claude, ChatGPT, or any AI agent
+        - Source-list context shows it appears in awesome-mcp-servers under Community Servers with the description 'One WhatsApp number for your whole team, with AI in every chat'
       category_candidates:
         - mcp
         - ai-dev-extensions

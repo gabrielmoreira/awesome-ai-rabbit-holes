@@ -48,8 +48,7 @@ insights:
   tags:
     - project-management
     - agile
-    - ai-native
-    - agile-automation
+    - ai-powered
   confidence: high
 curation:
   status: excluded
@@ -57,9 +56,9 @@ curation:
     The product is a specialized SaaS for project management and agile workflows rather than a developer-facing coding
     tool or agent.
   evidence:
-    - Focuses on generating epics, features, and user stories from documents/images
-    - Provides Kanban boards and sprint planning tools
-    - Main identity is a project management application, not a coding assistant or IDE extension
+    - Primary page excerpt emphasizes enterprise agile project management, product backlog software, and AI-powered story creation from spreadsheets/documents.
+    - Source-list context shows inclusion in awesome-mcp-servers as an 'Enterprise agile project management, product backlog software' entry, not as a developer tool.
+    - No evidence of coding assistance, agent orchestration, prompt engineering, or app building — core features are Kanban boards, wiki/RAG search, and sprint planning.
 placement:
   primary_category: null
   section: null
@@ -86,22 +85,22 @@ processing:
         local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b3d6f659eb699a434204d628e3e1e4aca0706cb76015eed9d457a37bcf840262
+      category_rules_version: c367d6101132
+      input_hash: sha256:a25c13a8858db07ae2749de6a7d7f84002c6402541d44c86af4c8c8d6404c531
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The product is a specialized SaaS for project management and agile workflows rather than a developer-facing
         coding tool or agent.
       decision_evidence:
-        - Focuses on generating epics, features, and user stories from documents/images
-        - Provides Kanban boards and sprint planning tools
-        - Main identity is a project management application, not a coding assistant or IDE extension
+        - Primary page excerpt emphasizes enterprise agile project management, product backlog software, and AI-powered story creation from spreadsheets/documents.
+        - Source-list context shows inclusion in awesome-mcp-servers as an 'Enterprise agile project management, product backlog software' entry, not as a developer tool.
+        - No evidence of coding assistance, agent orchestration, prompt engineering, or app building — core features are Kanban boards, wiki/RAG search, and sprint planning.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

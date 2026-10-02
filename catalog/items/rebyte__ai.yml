@@ -44,12 +44,10 @@ insights:
     agents that work autonomously in Slack or via API.
   mental_damage: Now you can fire your intern and replace them with a Slack thread that never sleeps, complains, or asks for equity.
   tags:
-    - multi-agent
-    - slack-integration
-    - autonomous-agents
-    - cloud-compute
-    - workforce-platform
-  confidence: high
+    - agent-orchestration
+    - enterprise
+    - mcp
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
@@ -58,7 +56,7 @@ curation:
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: curated
   reason: null
@@ -82,13 +80,13 @@ processing:
         ..."_matters":Enables de"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:cecad8518dec8c7933a53392ab63987794ed4c741b9f32efc5e33a549639faab
+      category_rules_version: c367d6101132
+      input_hash: sha256:3cd2e2b1658263dc283a890c0a1624a4211b71faebce79b49482ddbc6fd1b56b
       proposed_primary_category: agent-orchestration
       disagreement: false
       decision_reason: >-

@@ -54,15 +54,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server implementation hosted on GitLab under the elementfm organization.
-  why_it_matters: Provides a Model Context Protocol server for developers to integrate with MCP-compatible clients or workflows.
-  mental_damage: Another MCP server to add to the pile of things you now have to explain to your teammates.
+  summary: A GitLab project hosting an MCP (Model Context Protocol) server implementation.
+  why_it_matters: Provides a foundational MCP server that enables AI agents to interact with tools and data through a standardized interface.
+  mental_damage: Another MCP server to add to the growing list of protocol implementations you’ll need to vet before your agent can talk to anything.
   tags:
     - mcp
     - server
     - protocol
-    - gitlab
-  confidence: high
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
@@ -95,22 +94,22 @@ processing:
         required field: summary
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:965e3a3d731325cf487d26b8c69523adf595629cdd0ab82ff53d0c35491a0d67
+      category_rules_version: c367d6101132
+      input_hash: sha256:5245255e5fe4cb4aa8ca570933ed382a7fe2b9f2e8d85ed4e406a624afaa0e9a
       proposed_primary_category: mcp
       disagreement: false
       decision_reason: >-
         MCP is the primary identity of this project, as evidenced by its inclusion in MCP server directories and its
         GitLab repository name.
       decision_evidence:
-        - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms' and 'Official Servers'
-        - Repository name is 'mcp' under elementfm organization
-        - Licensed under GNU GPL v3.0 or later
+        - Scraped site context shows a GitLab project named 'mcp' with repository metadata
+        - Source-list context shows inclusion in 'awesome-mcp-servers' under 'Official Servers' section
+        - README excerpt confirms it is an MCP project with commits, branches, tags, and releases
       category_candidates:
         - mcp
         - ai-dev-extensions

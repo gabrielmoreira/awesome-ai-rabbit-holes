@@ -51,9 +51,9 @@ insights:
     syntax.
   tags:
     - documentation
-    - developer-tools
-    - offline-first
-    - productivity
+    - reference
+    - offline
+    - search
   confidence: high
 curation:
   status: excluded
@@ -61,9 +61,9 @@ curation:
     The project is a standalone utility for documentation browsing rather than a developer-facing AI tool, framework, or
     workflow integration.
   evidence:
-    - Scraped site context defines it as a documentation browser.
-    - README/Site claims focus on offline search for 100+ docs.
-    - No mention of AI, LLM, or machine learning capabilities in the provided text.
+    - "Repo description: (none)"
+    - "Scraped site context: 'Fast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, and many more.'"
+    - No AI, agent, LLM, prompt, or automation claims appear in title, description, or excerpt.
 placement:
   primary_category: null
   section: null
@@ -90,22 +90,22 @@ processing:
         total request limit reached (51/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:798d59e7a286322ee49108edbcc78f218d2778649b5d474d6cbf5d90d7639166
+      category_rules_version: c367d6101132
+      input_hash: sha256:b89fb69e67606dec168258eae8f23ec3a479e099fd6cc61700aba9e164883311
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The project is a standalone utility for documentation browsing rather than a developer-facing AI tool,
         framework, or workflow integration.
       decision_evidence:
-        - Scraped site context defines it as a documentation browser.
-        - README/Site claims focus on offline search for 100+ docs.
-        - No mention of AI, LLM, or machine learning capabilities in the provided text.
+        - "Repo description: (none)"
+        - "Scraped site context: 'Fast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, and many more.'"
+        - No AI, agent, LLM, prompt, or automation claims appear in title, description, or excerpt.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

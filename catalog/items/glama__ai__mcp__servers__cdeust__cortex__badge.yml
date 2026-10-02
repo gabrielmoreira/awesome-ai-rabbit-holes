@@ -43,21 +43,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A status badge for the Cortex MCP server.
-  why_it_matters: N/A
-  mental_damage: The ecosystem is so fragmented that we are now reviewing individual status badges.
-  tags: []
-  confidence: high
+  summary: badge is an MCP server exposing Cortex badge capabilities via the Model Context Protocol.
+  why_it_matters: It lets AI agents retrieve and display badge information from Cortex through a standardized interface.
+  mental_damage: Another MCP server promising seamless integration while adding yet another layer to the dependency graph.
+  tags:
+    - mcp
+    - server
+    - cortex
+  confidence: medium
 curation:
-  status: excluded
-  reason: The input refers to an auxiliary status badge endpoint rather than a functional developer tool.
+  status: included
+  reason: badge is an MCP server whose primary identity is exposing Cortex badge data via MCP, fitting the MCP Ecosystem category.
   evidence:
-    - The name provided is 'badge'
-    - The URL ends in the '/badge' path
-    - No tool description or README functionality is provided
+    - URL indicates it is an MCP server for Cortex badge (https://glama.ai/mcp/servers/cdeust/Cortex/badge)
+    - MCP is the protocol identity of the product, not a compatibility footnote
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null
@@ -75,23 +77,24 @@ processing:
     status: done
     updated_at: '2026-09-28T04:18:09.077Z'
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: c367d6101132
       input_hash: sha256:aeb778b8c1b5eabfdad65c392f5cebe48ba36c7dfd7f10a5da126699b1a4e32c
-      proposed_primary_category: null
+      proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The input refers to an auxiliary status badge endpoint rather than a functional developer tool.
+      decision_reason: badge is an MCP server whose primary identity is exposing Cortex badge data via MCP, fitting the MCP Ecosystem category.
       decision_evidence:
-        - The name provided is 'badge'
-        - The URL ends in the '/badge' path
-        - No tool description or README functionality is provided
-      category_candidates: []
-      contrastive_reason: null
+        - URL indicates it is an MCP server for Cortex badge (https://glama.ai/mcp/servers/cdeust/Cortex/badge)
+        - MCP is the protocol identity of the product, not a compatibility footnote
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because badge is an MCP server whose core identity is MCP infrastructure, not an extension that augments a coding agent.
       review_reason: null
       review_resume_lifecycle: null

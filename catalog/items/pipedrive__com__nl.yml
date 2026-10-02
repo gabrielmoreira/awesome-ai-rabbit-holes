@@ -49,16 +49,17 @@ insights:
     software development workflows.
   mental_damage: Another link in the graveyard of AI tooling where curiosity goes to die after one click.
   tags: []
-  confidence: high
+  confidence: low
 curation:
   status: excluded
   reason: >-
     The input provides no evidence of a developer-facing AI tool, agent, or infrastructure — only a hosted URL with no
     repo, description, README, or activity signals.
   evidence:
-    - Repo description is none
+    - Repo description is missing
     - README excerpt is not provided
-    - Stars, created_at, pushed_at, and archived status are all unknown
+    - Scraped site context is unavailable
+    - Source-list context shows no curation
 placement:
   primary_category: null
   section: null
@@ -80,7 +81,7 @@ processing:
     updated_at: '2026-09-28T04:54:04.745Z'
     cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
@@ -92,12 +93,13 @@ processing:
         The input provides no evidence of a developer-facing AI tool, agent, or infrastructure — only a hosted URL with
         no repo, description, README, or activity signals.
       decision_evidence:
-        - Repo description is none
+        - Repo description is missing
         - README excerpt is not provided
-        - Stars, created_at, pushed_at, and archived status are all unknown
+        - Scraped site context is unavailable
+        - Source-list context shows no curation
       category_candidates: []
       contrastive_reason: null
-      review_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132

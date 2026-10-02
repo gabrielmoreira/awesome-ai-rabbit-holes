@@ -42,9 +42,9 @@ insights:
     agent development for those familiar with component-based architectures.
   mental_damage: Now you can debug your agents with the same existential dread you debug your React state.
   tags:
-    - agent-orchestration
-    - react-like
-    - web-platform
+    - ai-agents
+    - automation
+    - development
   confidence: medium
 curation:
   status: included
@@ -78,23 +78,23 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4bbda06ed1d8eb5123d9a53cd52f1889e99634d88137551e6384c08d3a78d3f5
-      proposed_primary_category: agent-orchestration
+      category_rules_version: c367d6101132
+      input_hash: sha256:11624baa98254e23de325de7d759aa3db92efa3bcfebf19f295a0b7c9572bc9f
+      proposed_primary_category: ai-frameworks
       disagreement: true
       decision_reason: >-
         The product is a platform for coordinating AI agents, fitting the agent orchestration category as a workbench
         surface rather than a code-first framework or single assistant.
       decision_evidence:
-        - Listed in awesome-ai-agents under 'React Agent' as an autonomous agent tool
-        - URL and name suggest a web-based agent-building platform
+        - The product positions itself as a platform for building autonomous AI agents
+        - It enables developers to create agents that perform coding tasks through programmable interfaces
+        - Seen in awesome-ai-agents list under 'React Agent' section as a tool for agent creation
       category_candidates:
-        - agent-orchestration
         - ai-frameworks
       contrastive_reason: >-
         Choose agent-orchestration over ai-frameworks because the product is an operated workbench for building agents

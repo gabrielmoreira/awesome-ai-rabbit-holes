@@ -42,9 +42,9 @@ insights:
     and high-fidelity prototypes.
   mental_damage: It turns the act of 'oving pixels' into a high-stakes negotiation with a latent diffusion model.
   tags:
-    - design-automation
     - ui-generation
-    - creative-ai
+    - figma-plugin
+    - ai-design
   confidence: high
 curation:
   status: excluded
@@ -52,8 +52,9 @@ curation:
     The tool is a broad SaaS design platform with integrated AI, not a developer-focused coding tool, agent, or
     infrastructure component.
   evidence:
-    - URL points to Figma's general product site
-    - Source-list context labels it as 'UI Generators' in a design-centric context, not developer-centric
+    - Source-list context shows it appears in 'awesome-ai-coding-tools' under 'UI Generators', indicating design-to-design output, not code generation
+    - URL points to figma.com/ai, a feature page for Figma's internal AI capabilities, not a standalone developer tool or open-source project
+    - No repo description, stars, or activity signals suggest it is a developer-facing product with code-level integration or autonomy
 placement:
   primary_category: null
   section: null
@@ -80,21 +81,22 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:9517f4b3a34d352295733cd2e7f7d39b6fa294746aa4210e3b237d02b030f11e
+      category_rules_version: c367d6101132
+      input_hash: sha256:80a4ffe021ba074295797a502b1fcae265f3385a3f3fd42f2061481c1346ec3c
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The tool is a broad SaaS design platform with integrated AI, not a developer-focused coding tool, agent, or
         infrastructure component.
       decision_evidence:
-        - URL points to Figma's general product site
-        - Source-list context labels it as 'UI Generators' in a design-centric context, not developer-centric
+        - Source-list context shows it appears in 'awesome-ai-coding-tools' under 'UI Generators', indicating design-to-design output, not code generation
+        - URL points to figma.com/ai, a feature page for Figma's internal AI capabilities, not a standalone developer tool or open-source project
+        - No repo description, stars, or activity signals suggest it is a developer-facing product with code-level integration or autonomy
       category_candidates: []
       contrastive_reason: null
       review_reason: null

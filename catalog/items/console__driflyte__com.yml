@@ -46,9 +46,8 @@ insights:
   mental_damage: Another layer of abstraction to debug when the LLM suddenly starts hallucinating your database schema.
   tags:
     - mcp
-    - protocol
-    - connectivity
-    - llm-tools
+    - directory
+    - discovery
   confidence: high
 curation:
   status: included
@@ -56,7 +55,7 @@ curation:
   evidence:
     - jev-latest choice confidence 0.83
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
   section: Middleware & Generic
 lifecycle:
@@ -82,14 +81,14 @@ processing:
         Worker local total request limit reached (277/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a9945a761556adb30ad579f49aff946d70b5203a469b878e00484dfcca7f39bf
-      proposed_primary_category: mcp
+      category_rules_version: c367d6101132
+      input_hash: sha256:93a437ec5ebab5b488d3538f5d579c30dc6b67d9490d167ede35dda1c76313ca
+      proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The project is explicitly identified in source lists as an MCP server registry/collection, making MCP its

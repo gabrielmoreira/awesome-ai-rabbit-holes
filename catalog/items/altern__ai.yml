@@ -44,10 +44,9 @@ insights:
     Because choosing between 100 different 'top' tools is a much more efficient way to procrastinate than actually
     writing code.
   tags:
-    - directory
-    - curation
-    - discovery
-  confidence: high
+    - ai-directory
+    - tool-discovery
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
@@ -80,22 +79,22 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4b7e0624393d2b4010b4a0af0aca9661e80efdd16cc8d4fdc4d47777b2179058
+      category_rules_version: c367d6101132
+      input_hash: sha256:440b0b7fc455d066b4d597d72cd43328dfb3b14e2d0679a3d9ee7591b86c08ee
       proposed_primary_category: awesome-awesomes
       disagreement: false
       decision_reason: >-
         The product is a directory and map for discovering the AI ecosystem, which aligns with the core mission of the
         awesome-awesomes category.
       decision_evidence:
-        - Scraped site explicitly defines itself as an 'AI Tool Directory'
-        - Lists 100+ tools across categories like IDE, App Builders, and Coding Agents
-        - Provides collections and curated lists for navigation
+        - Scraped site context shows Altern indexes 2173 AIs and offers browsing by categories like Code Assistant, DevTools, and AI Directories
+        - Source-list context indicates it is listed in awesome-ai-coding-tools under 'Related Lists' as a discovery resource
+        - Primary page excerpt emphasizes 'Discover AI tools, curated lists, and categories — all in one place' and features sections for Curated lists, Leaderboard, and Buildboard
       category_candidates:
         - awesome-awesomes
         - coding-agents

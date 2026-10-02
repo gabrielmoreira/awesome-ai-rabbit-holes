@@ -46,9 +46,7 @@ insights:
   tags:
     - serverless
     - containers
-    - paas
-    - cloud-computing
-    - deployment
+    - gcp
   confidence: high
 curation:
   status: excluded
@@ -56,8 +54,9 @@ curation:
     The product is a general-purpose cloud infrastructure service, not a developer-facing AI tool, agent, or specialized
     AI workflow instrument.
   evidence:
-    - The product is a standard cloud compute platform (Google Cloud Run)
-    - It lacks specific AI-native features or developer-facing AI tooling functionality
+    - Seen in awesome-mcp-servers as an 'Official Server' listing, but the source is Google Cloud Run, which provides generic container hosting.
+    - No indication it is MCP-native or AI-focused; it is a broad compute service used for any workload.
+    - Primary product identity is cloud infrastructure, not AI agents, extensions, or developer tooling.
 placement:
   primary_category: null
   section: null
@@ -84,21 +83,22 @@ processing:
         Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ace2e428a61b427192f04a4d5692053153bc524e75dea624bb095f1ff9ef759c
+      category_rules_version: c367d6101132
+      input_hash: sha256:c7607e5579ce361867b015cf2b48e30fa32fcc8a93ed3732573623a84d73c2d1
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The product is a general-purpose cloud infrastructure service, not a developer-facing AI tool, agent, or
         specialized AI workflow instrument.
       decision_evidence:
-        - The product is a standard cloud compute platform (Google Cloud Run)
-        - It lacks specific AI-native features or developer-facing AI tooling functionality
+        - Seen in awesome-mcp-servers as an 'Official Server' listing, but the source is Google Cloud Run, which provides generic container hosting.
+        - No indication it is MCP-native or AI-focused; it is a broad compute service used for any workload.
+        - Primary product identity is cloud infrastructure, not AI agents, extensions, or developer tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -53,7 +53,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a single educational notebook/resource rather than a standalone developer tool or product.
+  reason: The input is a bare Google Colab URL with no metadata, description, or readable content, making it impossible to determine if it is a developer-facing AI tool.
   evidence:
     - 'Source-list context: listed in awesome-langchain under Learn > Notebooks'
     - 'URL: Points to a Google Colab instance, not a software product'
@@ -83,20 +83,20 @@ processing:
         Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:86965140305e1bf5c22dcc812b1f89e2e3d06031880fb1377627e029f1d6498a
+      category_rules_version: c367d6101132
+      input_hash: sha256:ac3f68ae6d45631b8440f4ddbbc81696c17bba6ef8af776f0a100bc4daf4bbe2
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a single educational notebook/resource rather than a standalone developer tool or product.
+      decision_reason: The input is a bare Google Colab URL with no metadata, description, or readable content, making it impossible to determine if it is a developer-facing AI tool.
       decision_evidence:
         - 'Source-list context: listed in awesome-langchain under Learn > Notebooks'
         - 'URL: Points to a Google Colab instance, not a software product'
       category_candidates: []
       contrastive_reason: null
-      review_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

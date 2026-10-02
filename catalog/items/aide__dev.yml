@@ -46,11 +46,10 @@ insights:
     Because apparently, the only way to fix your code is to give the model significantly more time to think about how
     much it messed up.
   tags:
-    - ai-agents
-    - software-engineering
-    - inference-time-scaling
-    - agentic-systems
-  confidence: high
+    - coding-agent
+    - inference-scaling
+    - swebench
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
@@ -59,7 +58,7 @@ curation:
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: IDE-Native & Editor Agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: curated
   reason: null
@@ -83,22 +82,22 @@ processing:
         total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5ea2e258e50b3b45c9213f1a678fc0b3d2d5f668f9f2a4ee10a95dc391aa5e9e
+      category_rules_version: c367d6101132
+      input_hash: sha256:04e1e1eb13933d891b5801d17099fa5ff9c64a0153866f11919e9f3311565ad2
       proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-
         The tool is described as an agentic system for writing, debugging, and maintaining code, making it a direct
         coding agent.
       decision_evidence:
-        - Claims to resolve 62.2% of issues on swe-bench-verified
-        - Focuses on 'how agentic systems can reshape the way software is written, debugged, and maintained'
-        - Uses scaling test-time inference with Sonnet 3.5
+        - Scraped site describes Aide as 'AI agents for software engineering, scaled at inference time'
+        - Primary page excerpt highlights SOTA on SWE-bench-verified by resolving 62.2% of issues via test-time inference scaling
+        - Source-list context places it in 'AI agents for software engineering' under Code Editors and Assistants in awesome-ai-coding-tools
       category_candidates:
         - coding-agents
         - spec-driven-development

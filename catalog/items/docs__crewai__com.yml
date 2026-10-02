@@ -45,17 +45,16 @@ insights:
     Nothing makes you question your architecture faster than debugging a logic loop between three different agents who
     are just gaslighting each other.
   tags:
-    - multi-agent
-    - orchestration
-    - framework
-    - automation
+    - documentation
+    - reference
   confidence: high
 curation:
   status: excluded
-  reason: The input is a documentation link for a product, rather than the product itself.
+  reason: This is a documentation site, not a standalone AI developer tool or product; it supports CrewAI but does not perform coding, orchestrate agents, build apps, or provide infrastructure.
   evidence:
-    - URL is docs.crewai.com
-    - Source-list context identifies it as documentation for the CrewAI framework
+    - "Repo description: (none)"
+    - "Scraped site title: CrewAI Documentation - CrewAI"
+    - Primary page excerpt shows navigation for Welcome, Documentation, API Reference, Examples, etc.
 placement:
   primary_category: null
   section: null
@@ -82,19 +81,20 @@ processing:
         mental_damage
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b698be59fc67022c371e8c9c3b13816e4ad82c11707d9050f71668e5f337bc7a
+      category_rules_version: c367d6101132
+      input_hash: sha256:530e92056525f9061e45e06bde5f6a21a08e18a0a8073a8670a6e7a1cc0e26f3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a documentation link for a product, rather than the product itself.
+      decision_reason: This is a documentation site, not a standalone AI developer tool or product; it supports CrewAI but does not perform coding, orchestrate agents, build apps, or provide infrastructure.
       decision_evidence:
-        - URL is docs.crewai.com
-        - Source-list context identifies it as documentation for the CrewAI framework
+        - "Repo description: (none)"
+        - "Scraped site title: CrewAI Documentation - CrewAI"
+        - Primary page excerpt shows navigation for Welcome, Documentation, API Reference, Examples, etc.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

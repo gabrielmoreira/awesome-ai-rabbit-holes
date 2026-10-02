@@ -44,11 +44,10 @@ insights:
     It turns the 'I'll just quickly fix this div' workflow into 'I'll just prompt a whole new layout and pray it doesn't
     break the CMS'.
   tags:
-    - app-builders
-    - no-code
-    - design-to-site
-    - web-generation
-  confidence: high
+    - app-builder
+    - ai-generated
+    - web-design
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in app-builders / Site & Landing Page Builders
@@ -57,7 +56,7 @@ curation:
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: Site & Landing Page Builders
+  section: Full App Builders
 lifecycle:
   status: curated
   reason: null
@@ -81,21 +80,22 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:72a859da767cfa4c24430aa3504a0c314d45b4df3c2ad9f9c8dbec48faa4cdfa
+      category_rules_version: c367d6101132
+      input_hash: sha256:4f8fac9cbbd7adf8a0993ba8207aa0ea7010a4be4a53d7b6b4ad9720ea722165
       proposed_primary_category: app-builders
       disagreement: false
       decision_reason: >-
         The product's core identity is turning prompts into deployed websites, which matches the 'App Builders'
         definition perfectly.
       decision_evidence:
-        - Source-list context identifies it in 'awesome-ai-coding-tools' under 'App Builders'
-        - Product identity is prompt-to-site generation
+        - Source-list context shows it's categorized under 'App Builders' in awesome-ai-coding-tools
+        - Framer.com/ai markets AI-powered website generation from text prompts
+        - No evidence suggests it operates as a coding agent editing existing codebases
       category_candidates:
         - app-builders
         - ai-ides-editors

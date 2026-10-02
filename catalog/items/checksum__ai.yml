@@ -46,11 +46,10 @@ insights:
     Now you don't have to spend your weekends fixing flaky selectors; you can spend them reviewing the PRs where the AI
     fixed them.
   tags:
-    - e2e-testing
-    - playwright
-    - automated-qa
-    - self-healing-tests
-    - ci-cd
+    - testing
+    - ai-agents
+    - qa
+    - test-automation
   confidence: high
 curation:
   status: included
@@ -84,22 +83,22 @@ processing:
         total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d4aafda578caca9822e56312c009a4e8848c8c1f425b61b7ec424db373bdfb18
+      category_rules_version: c367d6101132
+      input_hash: sha256:d1b56a06ad78500a8a7b54129860688512059e2cf17deb0506165dec5a5937cb
       proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-
         The product is a specialized agentic system designed to autonomously repair and maintain test code, fitting the
         'Repair Agents' definition.
       decision_evidence:
-        - Claims to resolve 70% of failures autonomously without engineer intervention
-        - Provides specialized E2E, CI, and API agents
-        - Generates and heals Playwright tests automatically
+        - Checksum generates, runs, and maintains end-to-end tests automatically using AI agents that heal broken tests with minimal human intervention
+        - It operates as a background agent that creates Playwright and API tests, detects failures from UI or selector changes, and opens PRs with fixes — acting as a coding agent focused on test code
+        - Listed in 'awesome-ai-coding-tools' under Testing and QA, confirming its recognition as an AI-powered coding tool in the developer tooling ecosystem
       category_candidates:
         - coding-agents
         - evals

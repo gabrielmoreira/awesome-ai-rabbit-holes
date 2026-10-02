@@ -46,10 +46,9 @@ insights:
   mental_damage: Another subscription to manage in a world where the agentic frontier moves faster than your ability to unread it.
   tags:
     - newsletter
+    - curated
     - ai-agents
-    - curation
-    - agentic-workflows
-  confidence: high
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Publications & Feeds
@@ -82,21 +81,21 @@ processing:
         responses must rank primary_category first in category_candidates
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ceaadfb3d8a2e77603760c6dc52bdc7c1bd852bdd0bf6cc520ed618d7dc5fb71
-      proposed_primary_category: newsletters-and-feeds
+      category_rules_version: c367d6101132
+      input_hash: sha256:359b5984d58248f8dd641f8e065d61bdd04bae983e8ca14759445adaca8dd5a4
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: It is a recurring media publication focused on AI agent developments.
+      decision_reason: The Substack functions as a curated publication focused on AI agents and developer tools, aligning with the catalog's inclusion of newsletters and feeds as discovery resources.
       decision_evidence:
-        - Domain is a Substack newsletter
-        - Topic is specifically focused on agents
+        - The source is a Substack newsletter (awesomeagents.substack.com) dedicated to AI agents.
+        - Newsletters and recurring publications covering AI development topics are explicitly included in the awesome-awesomes category under Publications & Feeds.
+        - It serves as a discovery tool for developers navigating the AI agent ecosystem, not as a standalone tool or framework.
       category_candidates:
-        - newsletters-and-feeds
         - awesome-awesomes
       contrastive_reason: >-
         Choose newsletters-and-feeds over awesome-awesomes because the primary value is recurring commentary and updates

@@ -50,11 +50,9 @@ insights:
     Because nothing says 'developer productivity' like adding yet another protocol layer to your already fragmented AI
     toolchain.
   tags:
-    - mcp
-    - communication
-    - server
-    - protocol
-  confidence: high
+    - context-engineering
+    - ai-dev-extensions
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
@@ -63,7 +61,7 @@ curation:
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: null
 lifecycle:
   status: curated
   reason: null
@@ -87,10 +85,10 @@ processing:
         total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:3a5433a33fb7949b999b291d62659d1d02cec15615556aab059db0796a74d569
@@ -100,10 +98,11 @@ processing:
         MCP is the product identity here, as evidenced by its inclusion in the awesome-mcp-servers list under Server
         Implementations for communication.
       decision_evidence:
-        - Listed in awesome-mcp-servers under Server Implementations > Communication
-        - Product identity is explicitly an MCP server
+        - Converts directory structures into XML prompts for AI agents to read and write files
+        - Designed to improve what goes into the model by shaping context for AI sessions
+        - Focuses on context management and retrieval rather than autonomous code editing
       category_candidates:
-        - mcp
+        - memory-and-context
         - ai-dev-extensions
       contrastive_reason: >-
         Choose mcp over ai-dev-extensions because the core identity is an MCP server implementation, not an extension

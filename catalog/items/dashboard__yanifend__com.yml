@@ -61,7 +61,7 @@ curation:
   evidence:
     - jev-latest choice confidence 0.75
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
   section: Middleware & Generic
 lifecycle:
@@ -87,5 +87,20 @@ processing:
         Worker local total request limit reached (16/16)
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:203e369cbf8192c03ad8495f987ef122fc816e1148b8eb9a279f2bc744360493
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Insufficient information provided to determine if the product is a relevant AI tool for software developers.
+      decision_evidence:
+        - No repository description or README is available
+        - Scraped site content ('we're listening you') provides no technical or functional context
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

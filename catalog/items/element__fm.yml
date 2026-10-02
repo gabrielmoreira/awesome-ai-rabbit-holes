@@ -46,17 +46,17 @@ insights:
     Because your podcast was already a full-time job, now it just has automated transcription to document the
     exhaustion.
   tags:
-    - podcast-hosting
-    - content-creation
-    - ai-automation
+    - podcasting
+    - ai-transcription
+    - self-hosted
   confidence: high
 curation:
   status: excluded
-  reason: The product is a consumer-facing podcasting SaaS, not a developer-focused AI tool or workflow.
+  reason: Element.fm is a podcast hosting service with AI features, not a developer-facing AI tool for coding, agents, or software workflows.
   evidence:
-    - Scraped site content describes it as an 'ultimate podcast hosting platform'
-    - Primary value proposition is hosting, transcription, and show note generation for creators
-    - Appears in an MCP list likely due to an incorrect or non-functional server implementation
+    - Scraped site context identifies it as 'the ultimate podcast hosting platform' with AI-powered show notes and transcripts
+    - Source-list context shows it appears only in 'awesome-mcp-servers' as a podcast platform, not as an MCP server or developer tool
+    - No evidence of coding agent, app builder, framework, or infrastructure functionality for software developers
 placement:
   primary_category: null
   section: null
@@ -83,20 +83,20 @@ processing:
         total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:f58d5636b463facfabe4b1daa1cd5143226dabc3fe260cef82838a38fd2d820e
+      category_rules_version: c367d6101132
+      input_hash: sha256:005e1c414661a5e3190a4a64936da23561127cd6b348acdfaecf029fc19403e9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a consumer-facing podcasting SaaS, not a developer-focused AI tool or workflow.
+      decision_reason: Element.fm is a podcast hosting service with AI features, not a developer-facing AI tool for coding, agents, or software workflows.
       decision_evidence:
-        - Scraped site content describes it as an 'ultimate podcast hosting platform'
-        - Primary value proposition is hosting, transcription, and show note generation for creators
-        - Appears in an MCP list likely due to an incorrect or non-functional server implementation
+        - Scraped site context identifies it as 'the ultimate podcast hosting platform' with AI-powered show notes and transcripts
+        - Source-list context shows it appears only in 'awesome-mcp-servers' as a podcast platform, not as an MCP server or developer tool
+        - No evidence of coding agent, app builder, framework, or infrastructure functionality for software developers
       category_candidates: []
       contrastive_reason: null
       review_reason: null

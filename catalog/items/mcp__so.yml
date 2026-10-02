@@ -62,9 +62,7 @@ insights:
     - mcp
     - directory
     - discovery
-    - protocol
-    - marketplace
-  confidence: high
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
@@ -97,14 +95,14 @@ processing:
         request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b50fdb0e6a5d50a2ca1e5201e51f808b130b98473e106570247f101c78f8a4a4
-      proposed_primary_category: mcp
+      category_rules_version: c367d6101132
+      input_hash: sha256:c20b03f0d5a1119da312438599f365543c2bbff7c03386037b8b09e5ed55030e
+      proposed_primary_category: awesome-awesomes
       disagreement: true
       decision_reason: >-
         The product's core identity is as an MCP-first directory and registry, explicitly focused on MCP servers,
@@ -118,7 +116,6 @@ processing:
           Source-list context: Listed under 'MCP Servers and Directories' in awesome-ai-coding-tools and '模型上下文协议 MCP'
           in awesome-LLM-resources
       category_candidates:
-        - mcp
         - awesome-awesomes
       contrastive_reason: >-
         Choose mcp over awesome-awesomes because the product is a protocol-specific registry rather than a general AI

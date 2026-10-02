@@ -46,10 +46,9 @@ insights:
     Another long-form essay to read while your local LLM is busy hallucinating a semi-working implementation of the very
     research described.
   tags:
-    - insights
-    - research
-    - ai-lab
-    - case-study
+    - article
+    - reflection
+    - ai-research
   confidence: high
 curation:
   status: included
@@ -83,14 +82,14 @@ processing:
         error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:af1fe640817be91d8ac5d84e2ac87c0753156752f015000f2cdadf7300af14e3
-      proposed_primary_category: newsletters-and-feeds
+      category_rules_version: c367d6101132
+      input_hash: sha256:8dada42093a774465d24a343032a6117405d6615d3a18cfabe789bad67b9d044
+      proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         It is a periodic publication/media resource providing commentary and research insights rather than a functional

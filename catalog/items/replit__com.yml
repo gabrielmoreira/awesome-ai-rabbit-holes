@@ -46,11 +46,9 @@ insights:
     The promise of 'no coding needed' collides with the reality of debugging Agent 4’s interpretation of your napkin
     sketch.
   tags:
-    - prompt-to-app
+    - app-builder
+    - ai-generated
     - full-stack
-    - collaboration
-    - ai-agent
-    - hosted
   confidence: high
 curation:
   status: included
@@ -86,13 +84,13 @@ processing:
           "mental_damage": "The promise of vibe coding makes you feel like a genius until you realize you’ve outsourced your
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:f5c7cbd2964737e0666cf33e19dd9aa2614b96e62280e84209657a52f49b1dfe
+      category_rules_version: c367d6101132
+      input_hash: sha256:42e0c3185c5a058fc516ec0dc4f8a21a99d15ae45f11109338f1dc841b46af16
       proposed_primary_category: app-builders
       disagreement: false
       decision_reason: >-

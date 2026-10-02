@@ -44,10 +44,10 @@ insights:
     hosted web applications.
   mental_damage: The gap between 'prompting a landing page' and 'aintaining a production codebase' is about to get much, much wider.
   tags:
-    - ai-web-builder
+    - ai
+    - web-development
     - no-code
-    - deployment
-    - deployment-automation
+    - huggingface
   confidence: high
 curation:
   status: included
@@ -81,22 +81,22 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0f4a59a95fcce86d89bf59e67aae2244ff63a1d5bdd5984e5c0ddbd1423c2964
+      category_rules_version: c367d6101132
+      input_hash: sha256:2828e74e977046c39c1a0ab30d4e88cf1967909cb5ead23e67257c058707d643
       proposed_primary_category: app-builders
       disagreement: false
       decision_reason: >-
         The tool's core identity is a prompt-to-site/app generator that handles the full lifecycle from creation to
         hosting.
       decision_evidence:
-        - README describes building and deploying stunning websites in minutes
-        - Features include multi-page generation, auto-deploy, and free hosting
-        - Source-list context identifies it as a UI Generator for web development
+        - "Scraped site context: 'Build, design, and deploy stunning websites in minutes with AI-powered development.'"
+        - "Source-list context: listed in awesome-ai-coding-tools under 'UI Generators' with description 'DeepSite is a web development tool that helps you build websites with AI, no code required.'"
+        - "Primary page excerpt: 'Auto Deploy: Push your changes and watch them go live instantly. No complex CI/CD setup required.' and 'Free Hosting: Host your websites for free with global CDN.'"
       category_candidates:
         - app-builders
         - coding-agents

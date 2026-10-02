@@ -50,9 +50,7 @@ insights:
     again.
   tags:
     - cli
-    - terminal
-    - autocomplete
-    - productivity
+    - ai-assistant
     - aws
   confidence: high
 curation:
@@ -61,9 +59,9 @@ curation:
     The input is a documentation page for a specific feature of a broader cloud service, rather than a standalone
     developer tool or product.
   evidence:
-    - Input is a documentation URL (docs.aws.amazon.com) rather than a code repository or product page
-    - Content describes a single feature of the existing Amazon Q Developer ecosystem
-    - Provides auxiliary documentation rather than a discrete tool for the catalog
+    - URL points to AWS documentation page (docs.aws.amazon.com)
+    - Scraped content is help text and feedback prompts, not product features
+    - Source-list context links to awesome-ai-coding-tools but references the documentation, not a repo
 placement:
   primary_category: null
   section: null
@@ -91,22 +89,22 @@ processing:
         ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:97ecca9b420d873e911aed097edc1c0066fac11ebe95fae9738e0a959d5dcc3f
+      category_rules_version: c367d6101132
+      input_hash: sha256:4f405f26a1cd51095d68f3fa8491022549add1ddfdc9178d25f8a2160fdcd78b
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The input is a documentation page for a specific feature of a broader cloud service, rather than a standalone
         developer tool or product.
       decision_evidence:
-        - Input is a documentation URL (docs.aws.amazon.com) rather than a code repository or product page
-        - Content describes a single feature of the existing Amazon Q Developer ecosystem
-        - Provides auxiliary documentation rather than a discrete tool for the catalog
+        - URL points to AWS documentation page (docs.aws.amazon.com)
+        - Scraped content is help text and feedback prompts, not product features
+        - Source-list context links to awesome-ai-coding-tools but references the documentation, not a repo
       category_candidates: []
       contrastive_reason: null
       review_reason: null

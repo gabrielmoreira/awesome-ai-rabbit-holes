@@ -44,10 +44,9 @@ insights:
     information and coordination demands.
   mental_damage: Finally, an AI that will approve your emails so you can stop pretending to read them.
   tags:
+    - ai-agent
     - email-automation
-    - workflow-agent
-    - cognitive-augmentation
-    - saas
+    - workflow
   confidence: high
 curation:
   status: excluded
@@ -55,9 +54,9 @@ curation:
     The product is a consumer/enterprise email workflow automation tool with no developer-tooling angle, despite its
     'cognitive extension' framing.
   evidence:
-    - Primary product is a predictive email workflow agent for end-users
-    - No developer-facing features, SDKs, or integrations mentioned
-    - Source-list context describes it as a consumer agent, not a dev tool
+    - "Scraped site states: 'Lobby builds extensions of human cognition. Our first application coordinates email workflows across the tools you already use, without prompt.'"
+    - "Source-list context: listed in 'awesome-ai-agents' under section 'Floose' as a 'predictive email workflow agent'."
+    - No mention of code editing, IDE integration, terminal use, or any developer-facing coding activity in the provided materials.
 placement:
   primary_category: null
   section: null
@@ -84,22 +83,22 @@ processing:
         'L', ..."summary": Lobby is a"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1b804b02cbb47d6d5e9e65a0d37cb28a02411917fc8d2e1f65fcc00b5ef5bb6c
+      category_rules_version: c367d6101132
+      input_hash: sha256:682c9b1d12cd28419de5d4b50a85f66eaecb7386105358f128e4a6a1b3b54819
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The product is a consumer/enterprise email workflow automation tool with no developer-tooling angle, despite its
         'cognitive extension' framing.
       decision_evidence:
-        - Primary product is a predictive email workflow agent for end-users
-        - No developer-facing features, SDKs, or integrations mentioned
-        - Source-list context describes it as a consumer agent, not a dev tool
+        - "Scraped site states: 'Lobby builds extensions of human cognition. Our first application coordinates email workflows across the tools you already use, without prompt.'"
+        - "Source-list context: listed in 'awesome-ai-agents' under section 'Floose' as a 'predictive email workflow agent'."
+        - No mention of code editing, IDE integration, terminal use, or any developer-facing coding activity in the provided materials.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

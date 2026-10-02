@@ -82,10 +82,8 @@ insights:
     doesn't trigger a production outage.
   tags:
     - coding-agent
-    - autonomous-agent
-    - software-engineering
-    - cloud-agent
-    - refactoring
+    - autonomous
+    - cloud-ai
   confidence: high
 curation:
   status: included
@@ -119,22 +117,22 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:dc9386e706c6e172f5dc1a1c7d747d5ba0740bef1c06fa12e39ee45c1417d452
+      category_rules_version: c367d6101132
+      input_hash: sha256:fa172c812a6a132ccfb7552885e674a132a66dfee82f7b5bf963c5437b34fe04
       proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-
         Devin is a standalone autonomous agent that plans and executes repo-wide engineering tasks rather than just
         augmenting an existing IDE.
       decision_evidence:
-        - Claims to be an 'AI coding agent and software engineer'
-        - Capable of autonomous tasks like code migrations and incident resolution
-        - Operates across repos and uses various tools like Slack, GitHub, and Datadog
+        - Described as 'an AI coding agent and software engineer that helps developers build better software faster' in source lists and scraped site
+        - Performs PR review, code migration, bug fixing, documentation, and incident resolution autonomously
+        - Spins up teams of Devins for multi-week, multi-repo projects and learns from past session trajectories
       category_candidates:
         - coding-agents
         - agent-orchestration

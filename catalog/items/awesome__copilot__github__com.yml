@@ -48,9 +48,8 @@ insights:
     Another layer of abstraction between you and your code, because clearly, you weren't getting enough 'agic' from your
     IDE already.
   tags:
+    - awesome-list
     - copilot
-    - instructions
-    - skills
     - extensions
   confidence: high
 curation:
@@ -85,22 +84,22 @@ processing:
         ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:57531bb883a847cd67f758ac80207a0f0f0da9ade39fbc1b88fb40187dd9e1eb
+      category_rules_version: c367d6101132
+      input_hash: sha256:a7e92593e2de393df1746ad201a7470a8d094627717eb8bb25603b06a08faea9
       proposed_primary_category: awesome-awesomes
       disagreement: false
       decision_reason: >-
         This is a curated directory of resources (agents, instructions, skills) designed to help developers navigate and
         utilize GitHub Copilot more effectively.
       decision_evidence:
-        - README describes it as a repository for community-contributed agents, instructions, and skills
-        - Site content organizes resources into Agents, Instructions, Skills, Plugins, and Canvas Extensions
-        - The project serves as a navigation aid for the Copilot ecosystem
+        - "Scraped site context describes it as 'The community library for GitHub Copilot: agents, instructions, skills, plugins, and extensions.'"
+        - "Source-list context shows it appears in 'awesome-copilot' with purpose: 'Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.'"
+        - The site organizes content into categories like Agents, Instructions, Skills, Plugins, Extensions, Hooks, Workflows, Tools, and Learning Hub — all installable or usable content for GitHub Copilot.
       category_candidates:
         - awesome-awesomes
         - skills

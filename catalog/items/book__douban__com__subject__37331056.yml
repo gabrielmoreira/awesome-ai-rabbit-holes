@@ -49,12 +49,12 @@ insights:
     - llm
     - reinforcement-learning
     - fine-tuning
-    - rlhf
-    - algorithms
+    - alignment
+    - chinese
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational book/publication, not a software tool, framework, or developer-facing product.
+  reason: The resource is an educational book, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
     - 'Product identity is a printed/digital book (ISBN: 9787121500725)'
     - Content covers theoretical algorithms and mathematical principles rather than providing a usable tool or SDK
@@ -85,16 +85,16 @@ processing:
         Invalid confidence value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0daa884da7952ec687f687999c902798c906494ac73f6eee0cee083fe2a03961
+      category_rules_version: c367d6101132
+      input_hash: sha256:547fa4983aeb74a000d5cd24de978982731cfaf273c75f90230df952cec8b298
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational book/publication, not a software tool, framework, or developer-facing product.
+      decision_reason: The resource is an educational book, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
         - 'Product identity is a printed/digital book (ISBN: 9787121500725)'
         - Content covers theoretical algorithms and mathematical principles rather than providing a usable tool or SDK

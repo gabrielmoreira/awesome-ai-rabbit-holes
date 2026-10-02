@@ -391,11 +391,11 @@ _173 entries in 3 sections, ranked by stars. Each section opens with its top 30;
 - **[Registry Broker](https://github.com/hashgraph-online/registry-broker)** Universal index and routing layer for AI agents. Aggregates agent metadata from multiple registries (NANDA, MCP, Virtuals, OpenRouter, A2A, X402 Bazaar) across web2 and web3, normalizes profiles, and provides protocol translation between agent ecosystems.
 - **[CodeCosts](https://codecosts.pages.dev)** A comparison and cost calculation platform for AI coding assistants and IDEs. <details><summary>More about</summary>
 
-  Helps developers and engineering managers navigate the shifting pricing tiers and feature sets of the rapidly evolving AI coding tool landscape.
+  Helps developers and teams quickly evaluate and budget for AI coding tools based on real pricing data and use-case fit.
 
-  _Because nothing says 'developer productivity' like spending three hours calculating the ROI of a $20/month subscription._
+  _Another spreadsheet in disguise, because choosing your AI pair programmer shouldn’t require a finance degree._
 
-  `comparison` `pricing` `productivity` `ide` `ai-tools`
+  `pricing` `comparison` `developer-tools`
   </details>
 - **[HuggingFace](https://huggingface.co)** Hugging Face is a platform for hosting, discovering, and collaborating on machine learning models, datasets, and applications. <details><summary>More about</summary>
 

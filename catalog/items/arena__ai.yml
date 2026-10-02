@@ -44,10 +44,9 @@ insights:
     Nothing fuels the existential dread of an architecture review quite like watching a community vote on which model's
     hallucination is the most aesthetically pleasing.
   tags:
-    - benchmarking
-    - model-comparison
     - leaderboard
-    - llm-evaluation
+    - evals
+    - model-comparison
   confidence: medium
 curation:
   status: included
@@ -81,20 +80,20 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ca513e1f5ce3da322ed8d2129357dd243947fffafd80c0dab7c5adcab87b1b07
+      category_rules_version: c367d6101132
+      input_hash: sha256:d72113f20e697774d6d3122714720d85097f7c82d18c4948424cbacb38234dba
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The platform's core identity is providing human-in-the-loop evaluation and rankings for LLM performance.
+      decision_reason: Arena AI fits the evals category as its core function is measuring and comparing model behavior through community voting and real-world task performance, not building or orchestrating AI systems.
       decision_evidence:
-        - Site title is 'The Official AI Ranking & LLM Leaderboard'
-        - Core functionality involves chatting, comparing, and voting on models
-        - Source-list context identifies it as a tool for real-world evaluation
+        - Scraped site describes it as 'Chat, compare, vote for the world's best AI models' and 'Join the community shaping the public leaderboard for LLMs, image, and code models through real-world evaluation.'
+        - Listed in awesome-LLM-resources under '体验 Usage' (Experience/Usage) with a focus on chatting, comparing, and voting on models.
+        - Primary interface involves prompting models and comparing outputs via battle mode, aligning with human-in-the-loop evaluation.
       category_candidates:
         - evals
         - awesome-awesomes

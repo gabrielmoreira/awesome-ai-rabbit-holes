@@ -45,15 +45,18 @@ insights:
   mental_damage: Another layer of abstraction to parse before you can even begin wondering why your deployment failed.
   tags:
     - api
-    - hosting
     - documentation
+    - hostinger
+    - mcp
+    - cli
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation site for a hosting provider's API, not a standalone AI developer tool or framework.
+  reason: This is documentation for Hostinger's API and related tooling, not a standalone AI developer tool or product with autonomous functionality; it serves as reference material rather than an agent, framework, or automation platform.
   evidence:
-    - Scraped site context identifies it as 'Hostinger API Reference'
-    - Does not provide an AI-driven development experience or tool
+    - The scraped site context shows API reference documentation for Hostinger services, including endpoints, authentication, and rate limits.
+    - It mentions MCP server as one of several automation options (CLI, SDKs, MCP server), but MCP is not the product's primary identity.
+    - No evidence of AI agent behavior, code generation, orchestration, or developer workflow automation beyond standard API usage.
 placement:
   primary_category: null
   section: null
@@ -80,19 +83,20 @@ processing:
         confidence value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:c478bf6d12a30ca167629115df2bb6c51e29725287ded355882796154bd873cb
+      category_rules_version: c367d6101132
+      input_hash: sha256:5296e44fa3ac223d32a077ed3b9fcc182d4964d348c51ee1e7c5f083d6e2538c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a documentation site for a hosting provider's API, not a standalone AI developer tool or framework.
+      decision_reason: This is documentation for Hostinger's API and related tooling, not a standalone AI developer tool or product with autonomous functionality; it serves as reference material rather than an agent, framework, or automation platform.
       decision_evidence:
-        - Scraped site context identifies it as 'Hostinger API Reference'
-        - Does not provide an AI-driven development experience or tool
+        - The scraped site context shows API reference documentation for Hostinger services, including endpoints, authentication, and rate limits.
+        - It mentions MCP server as one of several automation options (CLI, SDKs, MCP server), but MCP is not the product's primary identity.
+        - No evidence of AI agent behavior, code generation, orchestration, or developer workflow automation beyond standard API usage.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

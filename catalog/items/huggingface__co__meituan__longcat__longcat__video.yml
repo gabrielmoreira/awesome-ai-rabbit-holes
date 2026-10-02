@@ -78,15 +78,15 @@ processing:
     status: done
     updated_at: '2026-09-28T04:27:16.578Z'
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: c367d6101132
-      input_hash: sha256:ef56e0af564aa7307b05b5fd0067a742617939063a9d2e322507e566c77b3bd1
+      input_hash: sha256:8b5de4d47a769caae33c3ba928c202ca2e85c509f2fec582f077f5b8d62a7497
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-

@@ -50,10 +50,8 @@ insights:
     enter a recursive loop of terminal commands.
   tags:
     - ide
-    - ai-agent
-    - multi-agent
-    - autonomous-coding
-    - vscode-fork
+    - coding-agents
+    - agent-orchestration
   confidence: high
 curation:
   status: included
@@ -91,24 +89,23 @@ processing:
         ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:bde86c3aa0021d64129dc1cd51cc547ee60cbb8eb567c49ac4e5f7cab1d32aee
-      proposed_primary_category: ai-ides-editors
+      category_rules_version: c367d6101132
+      input_hash: sha256:e853fd8502792331441326f55f007c8a83128fa83f13f9a155c2c596d25821bd
+      proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-
         The product is a standalone development environment (a VS Code fork) rather than a plugin or a terminal-only
         agent.
       decision_evidence:
-        - Product is described as an 'AI-powered integrated development environment'
-        - Built on a modified fork of Visual Studio Code
-        - Features a 'two-view architecture' including an Editor View and a Manager View
+        - Deploys autonomous AI agents that independently plan tasks, write code, execute terminal commands, and open a built-in Chrome browser to visually test applications.
+        - "Features a two-view architecture: Editor View for hands-on coding and Manager View ('Mission Control') to dispatch up to five agents working on different tasks in parallel."
+        - Positioned as 'Google's Free, Agent-First IDE' that lets AI plan, code, and test for you, distinguishing it from chatbot-style assistants like Cursor or Copilot.
       category_candidates:
-        - ai-ides-editors
         - coding-agents
       contrastive_reason: >-
         Choose ai-ides-editors over coding-agents because the product identity is a complete development

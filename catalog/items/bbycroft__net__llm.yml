@@ -43,17 +43,16 @@ insights:
     statistical probability distributions.
   tags:
     - visualization
-    - educational
-    - llm-internals
-    - transformers
+    - llm
+    - education
   confidence: high
 curation:
   status: excluded
-  reason: The project is an educational visualization rather than a developer tool, framework, or workflow utility.
+  reason: This is an educational visualization page, not a developer tool, agent, framework, or infrastructure product.
   evidence:
-    - Scraped site context describes it as an 'animated visualization with a walkthrough'
-    - Source-list context categorizes it under 'Tutorial' rather than a tool or library
-    - The product is a media resource/educational guide, which is an exclusion anchor for the catalog
+    - "Scraped site title: 'LLM Visualization'"
+    - "Description: 'A 3D animated visualization of an LLM with a walkthrough.'"
+    - Source-list context shows it appears in a general LLM resources list under 'Tutorial', not a developer tooling category
 placement:
   primary_category: null
   section: null
@@ -80,20 +79,20 @@ processing:
         value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:14f31c95178634d587515f42ccfb8f725f4c11167bc866f33f5d2fee53294dbc
+      category_rules_version: c367d6101132
+      input_hash: sha256:ad610a84969e46ceaee084c7ffc3bb1f1947920ed74e8f19876c4387d7c7bcaa
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is an educational visualization rather than a developer tool, framework, or workflow utility.
+      decision_reason: This is an educational visualization page, not a developer tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - Scraped site context describes it as an 'animated visualization with a walkthrough'
-        - Source-list context categorizes it under 'Tutorial' rather than a tool or library
-        - The product is a media resource/educational guide, which is an exclusion anchor for the catalog
+        - "Scraped site title: 'LLM Visualization'"
+        - "Description: 'A 3D animated visualization of an LLM with a walkthrough.'"
+        - Source-list context shows it appears in a general LLM resources list under 'Tutorial', not a developer tooling category
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -47,16 +47,16 @@ insights:
   mental_damage: Nothing says 'eamless AI workflow' like a governance layer standing between you and your next commit.
   tags:
     - mcp
-    - governance
-    - compliance
-    - security
-    - code-quality
+    - ide-integration
+    - automated-installer
   confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: This is documentation for an MCP server, not a standalone product; the MCP server itself would belong in MCP Ecosystem, but this page is auxiliary material and not a tool.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - URL is a documentation page (docs.zenable.io) about MCP Server Installation
+    - Source-list context shows it appears in awesome-mcp-servers as a linked page, not as a server entry itself
+    - "Content is purely instructional: setup steps, IDE compatibility lists, and troubleshooting for the Zenable MCP Server"
 placement:
   primary_category: null
   secondary_categories: []
@@ -84,14 +84,14 @@ processing:
         response structure: Invalid confidence value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7b0f0f857c3eacb4f3268dd9e77a38fd5977e97c4469cebb7fcae8b21e470a13
-      proposed_primary_category: mcp
+      category_rules_version: c367d6101132
+      input_hash: sha256:0484ffff4b265be9a64a8abf6a4310575576d3ba332498cc5e07088f68d4bf59
+      proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The product's primary identity is the Zenable MCP server which facilitates automated code checking via the Model

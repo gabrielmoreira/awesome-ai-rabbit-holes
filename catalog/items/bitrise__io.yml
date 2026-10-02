@@ -47,24 +47,22 @@ insights:
     Because nothing says modern development like having an AI agent try to debug your mobile build pipeline while you
     watch your macOS runners burn.
   tags:
-    - mobile-devops
     - ci-cd
-    - ios-android
-    - automations
-    - build-infrastructure
-  confidence: high
+    - mobile-devops
+    - build-automation
+  confidence: medium
 curation:
   status: excluded
   reason: >-
     The product is a broad mobile DevOps/CI/CD SaaS platform, not a developer-facing AI agent, assistant, or engineering
     framework.
   evidence:
-    - Core product is a Mobile DevOps platform for CI/CD
-    - AI features are secondary 'intelligent fixes' within a broader DevOps context
-    - Primary value is infrastructure and release management, not agentic coding
+    - Bitrise provides managed macOS and Linux build environments, automated code signing, real device testing, and app store deployment.
+    - It offers Bitrise AI for context-aware fixes via MCP and Remote Dev Environments to run AI agents in the cloud.
+    - The platform emphasizes replacing multiple tools with one managed mobile CI/CD solution for iOS, Android, and cross-platform frameworks.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider & Model Abstractions
 lifecycle:
   status: curated
   reason: null
@@ -88,23 +86,25 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:335bfd873003dad17c93a522550b81a0a6da58ebbc34199718870512867c52a4
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:a1a002678beca494b66f40c707603dd50cdf5ec0f070ba8663e2eaa8a92e896f
+      proposed_primary_category: ai-frameworks
       disagreement: false
       decision_reason: >-
         The product is a broad mobile DevOps/CI/CD SaaS platform, not a developer-facing AI agent, assistant, or
         engineering framework.
       decision_evidence:
-        - Core product is a Mobile DevOps platform for CI/CD
-        - AI features are secondary 'intelligent fixes' within a broader DevOps context
-        - Primary value is infrastructure and release management, not agentic coding
-      category_candidates: []
-      contrastive_reason: null
+        - Bitrise provides managed macOS and Linux build environments, automated code signing, real device testing, and app store deployment.
+        - It offers Bitrise AI for context-aware fixes via MCP and Remote Dev Environments to run AI agents in the cloud.
+        - The platform emphasizes replacing multiple tools with one managed mobile CI/CD solution for iOS, Android, and cross-platform frameworks.
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because Bitrise provides managed infrastructure and SDK-like access to mobile build and deployment capabilities rather than coordinating multiple AI agents in a workflow or control plane.
       review_reason: null
       review_resume_lifecycle: null

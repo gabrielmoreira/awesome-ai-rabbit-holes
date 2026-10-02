@@ -44,17 +44,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A commercial services page for Fox Davidson.
+  summary: A commercial services page for a consultancy.
   why_it_matters: N/A
   mental_damage: N/A
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input refers to a commercial service website rather than an AI development tool, framework, or curated resource.
+  reason: The input is a commercial services landing page rather than a software product, tool, or developer-facing resource.
   evidence:
-    - No repository description or README provided
-    - URL points to a business service page, not a software product or AI tool
+    - No repository description or README content provided
+    - URL points to a commercial business page rather than a software project
 placement:
   primary_category: null
   section: null
@@ -75,7 +75,7 @@ processing:
     status: done
     updated_at: '2026-09-24T04:14:25.342Z'
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -90,8 +90,8 @@ processing:
         The input refers to a commercial service website rather than an AI development tool, framework, or curated
         resource.
       decision_evidence:
-        - No repository description or README provided
-        - URL points to a business service page, not a software product or AI tool
+        - No repository description or README content provided
+        - URL points to a commercial business page rather than a software project
       category_candidates: []
       contrastive_reason: null
       review_reason: null

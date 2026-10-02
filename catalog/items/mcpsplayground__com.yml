@@ -43,10 +43,8 @@ insights:
   mental_damage: Because nothing says 'modern development' like debugging a protocol server through a chat interface.
   tags:
     - mcp
+    - developer-tools
     - testing
-    - playground
-    - protocol
-    - debugging
   confidence: high
 curation:
   status: included
@@ -80,16 +78,16 @@ processing:
         local total request limit reached (292/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d9d26efce58543ccb34b3e9c7ac5f35f1c0215c87d28c145176b089826a4949b
+      category_rules_version: c367d6101132
+      input_hash: sha256:b4e298897f564a5be77c9cc6d32377da39d6ad638f0df31bc627901208b8cec1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the core product identity, and the tool is explicitly a client/inspector for MCP servers.
+      decision_reason: The product's core identity is an MCP client/inspector tool for testing MCP servers, making MCP the primary protocol identity rather than a secondary feature.
       decision_evidence:
         - Source-list context lists it under 'Clients' in awesome-mcp-servers
         - >-

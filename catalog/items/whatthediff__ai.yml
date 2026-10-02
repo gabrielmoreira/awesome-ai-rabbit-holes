@@ -44,10 +44,9 @@ insights:
     automated, human-readable summaries of code changes.
   mental_damage: Finally, a way to stop writing PR descriptions that no one reads anyway.
   tags:
-    - code-review
-    - github-integration
-    - gitlab-integration
     - pr-automation
+    - code-review
+    - ai-assistant
   confidence: high
 curation:
   status: included
@@ -91,13 +90,13 @@ processing:
         'W', ..."_reason": What-the-D"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7f60652d2bb1b26e458844cea8fe0febba66f3d0fe53ec274f864506f848bb14
+      category_rules_version: c367d6101132
+      input_hash: sha256:8e36144928af9e7a4f30c4be6a998b7cc80a73bcb002ca291d0a47fd6e3b5a5e
       proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-

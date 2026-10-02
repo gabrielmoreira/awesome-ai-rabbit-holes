@@ -44,10 +44,10 @@ insights:
     exploration instead of code or developer workflows.
   mental_damage: Your agents now remember every spreadsheet you’ve ever opened, yet still can’t explain why your build is failing.
   tags:
-    - data-analysis
     - ai-workspace
-    - market-research
-  confidence: high
+    - memory
+    - data-analysis
+  confidence: medium
 curation:
   status: excluded
   reason: >-
@@ -65,8 +65,8 @@ curation:
       No GitHub repository or developer-tooling identity; the URL is a localized subpage (/es) rather than a standalone
       developer product
 placement:
-  primary_category: null
-  section: null
+  primary_category: memory-and-context
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: curated
   reason: null
@@ -90,5 +90,23 @@ processing:
         why_it_matters
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:6f438362909d6fd6c455dd0193d2c6098828ecbf224ec41bc2f0bd3f24725e86
+      proposed_primary_category: memory-and-context
+      disagreement: false
+      decision_reason: The product's core novelty is persistent agent memory that improves with use, fitting the memory and context engineering category rather than being a coding agent or app builder.
+      decision_evidence:
+        - "Tu espacio de trabajo de IA con memoria: más inteligente con cada uso. Tus agentes aprenden de cada análisis."
+        - Powerdrill Bloom — Espacio de trabajo de análisis de datos con IA y memoria
+        - No evidence of code editing, terminal interaction, or autonomous coding tasks; focus is on data analysis workspace with memory.
+      category_candidates:
+        - memory-and-context
+        - coding-agents
+      contrastive_reason: Choose memory-and-context over coding-agents because the product's primary identity is a memory-enhanced data analysis workspace, not an agent that performs coding tasks like editing files or running commands.
+      review_reason: null
+      review_resume_lifecycle: null

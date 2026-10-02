@@ -61,11 +61,10 @@ insights:
     Finally, a way to ask 'Where did we bury that decision from 2022?' without digging through Slack archives like a
     forensic archaeologist.
   tags:
-    - enterprise-search
-    - private-ai
+    - local-ai
+    - rag
     - knowledge-management
-    - data-integration
-  confidence: high
+  confidence: medium
 curation:
   status: excluded
   reason: >-
@@ -78,8 +77,8 @@ curation:
     - Primary use case is organizational knowledge retrieval, not developer workflows
     - No evidence of code editing, repo integration, or developer tooling capabilities
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Local API Servers
 lifecycle:
   status: curated
   reason: null
@@ -94,14 +93,14 @@ processing:
         'P', ..."summary": Private GP"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7fb3255413365e263c98eb820a96f2f54bf74a173a9883b90596218fd3e492c7
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:1519b66ae41bf72f50610fd9df27c78437bf077a1c5801ff44d97b7f9579278f
+      proposed_primary_category: local-ai
       disagreement: false
       decision_reason: >-
         The product is a hosted SaaS for enterprise knowledge management, not a developer-tooling product (no code

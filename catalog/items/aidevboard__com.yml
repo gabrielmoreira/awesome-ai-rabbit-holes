@@ -64,9 +64,9 @@ insights:
     infrastructure and applications.
   mental_damage: Finally, a way to quantify exactly how much your specific flavor of LLM prompting is worth in the current market.
   tags:
-    - job-board
-    - career-data
-    - ai-hiring
+    - jobs
+    - career
+    - salary
   confidence: high
 curation:
   status: excluded
@@ -74,9 +74,9 @@ curation:
     The product is a job board and career resource, which falls under broad news/media/career rather than
     developer-facing tooling or infrastructure.
   evidence:
-    - Scraped site title is 'AI Dev Jobs
-    - Primary function is listing job roles and market data
-    - Does not provide a functional developer tool, framework, or utility
+    - "Scraped site title and description: 'AI Dev Jobs — 9122 AI Developer Jobs · Hire ML Engineers'"
+    - Primary page excerpt shows job listings with filters for location, salary, experience, and tech stack
+    - Appears in source lists as a job board under 'Developer Productivity Tools' and 'MCP' sections, but these are misplacements
 placement:
   primary_category: null
   section: null
@@ -103,22 +103,22 @@ processing:
         local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3bb66336e76ca6e14bfa32a510e14530f7ebc00ac1b6a8f072e9a5440efff1dd
+      category_rules_version: c367d6101132
+      input_hash: sha256:9733f15a6e9681511570175be25d5af47b4b8148eaa5f66c2b646ac288d73283
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The product is a job board and career resource, which falls under broad news/media/career rather than
         developer-facing tooling or infrastructure.
       decision_evidence:
-        - Scraped site title is 'AI Dev Jobs
-        - Primary function is listing job roles and market data
-        - Does not provide a functional developer tool, framework, or utility
+        - "Scraped site title and description: 'AI Dev Jobs — 9122 AI Developer Jobs · Hire ML Engineers'"
+        - Primary page excerpt shows job listings with filters for location, salary, experience, and tech stack
+        - Appears in source lists as a job board under 'Developer Productivity Tools' and 'MCP' sections, but these are misplacements
       category_candidates: []
       contrastive_reason: null
       review_reason: null

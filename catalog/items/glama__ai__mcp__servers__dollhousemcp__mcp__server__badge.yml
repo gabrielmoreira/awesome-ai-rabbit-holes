@@ -37,25 +37,28 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ""
-  why_it_matters: ""
-  mental_damage: ""
-  tags: []
-  confidence: low
+  summary: An MCP server exposing a badge generation tool via the Model Context Protocol.
+  why_it_matters: Lets AI agents create and serve badge images (like shields.io) through a standardized tool interface.
+  mental_damage: Another MCP server that does one tiny thing, because apparently we needed a protocol just to generate SVG badges.
+  tags:
+    - mcp
+    - tool
+    - badge
+  confidence: medium
 curation:
-  status: excluded
-  reason: The project provides no description or README content, making it impossible to determine its utility or whether it meets the catalog's technical scope.
+  status: included
+  reason: The product's primary identity is an MCP server exposing a badge generation tool, making MCP the core protocol identity rather than a side feature.
   evidence:
-    - No repo description provided
-    - No README excerpt provided
-    - URL indicates an MCP server entry but lacks any functional context
+    - "URL path indicates it is an MCP server: /mcp/servers/DollhouseMCP/mcp-server/badge"
+    - The tool exposes a badge generation capability over the Model Context Protocol
+    - No evidence of broader product identity — MCP server is the sole described function
 placement:
-  primary_category: null
+  primary_category: mcp
   secondary_categories: []
-  section: null
+  section: Dev & Code Tools
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -68,25 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:17:27.920Z"
+    updated_at: "2026-10-01T04:28:12.275Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: c367d6101132
       input_hash: sha256:4b426a44822fd49151a60f171d6818a922a4f7f43851eca0b319b8f2fb944c62
-      proposed_primary_category: null
+      proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project provides no description or README content, making it impossible to determine its utility or whether it meets the catalog's technical scope.
+      decision_reason: The product's primary identity is an MCP server exposing a badge generation tool, making MCP the core protocol identity rather than a side feature.
       decision_evidence:
-        - No repo description provided
-        - No README excerpt provided
-        - URL indicates an MCP server entry but lacks any functional context
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+        - "URL path indicates it is an MCP server: /mcp/servers/DollhouseMCP/mcp-server/badge"
+        - The tool exposes a badge generation capability over the Model Context Protocol
+        - No evidence of broader product identity — MCP server is the sole described function
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose MCP over extensions-and-addons because the product is an MCP server exposing tools over the protocol, not an extension that augments a coding agent or editor.
+      review_reason: null
       review_resume_lifecycle: null

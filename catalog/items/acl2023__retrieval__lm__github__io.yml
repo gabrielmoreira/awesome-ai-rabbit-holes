@@ -48,10 +48,9 @@ insights:
     Discovering that every RAG startup pitch deck is secretly just these ACL 2023 slides with the university logos
     swapped for YC hexagons.
   tags:
+    - tutorial
     - retrieval-augmented-generation
-    - academic-tutorial
-    - conference-slides
-    - nlp
+    - academic
   confidence: high
 curation:
   status: excluded
@@ -92,13 +91,13 @@ processing:
         required field: why_it_matters
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:dfac00c3516a4fff7b47732644e70bea202443ba70a56318fb37c26c3dc30c3d
+      category_rules_version: c367d6101132
+      input_hash: sha256:cefed8d67a411e039cd72386e99605b39ada5f6411b29892be1d3a19c2e9ae2a
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-

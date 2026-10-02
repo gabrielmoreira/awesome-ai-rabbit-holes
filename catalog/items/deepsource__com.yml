@@ -49,10 +49,10 @@ insights:
     open doors.
   tags:
     - code-review
-    - static-analysis
     - security
-    - automation
-    - saas
+    - static-analysis
+    - ai-agent
+    - devsecops
   confidence: high
 curation:
   status: included
@@ -86,22 +86,22 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:296c0bf63493ecf4f23c9ef9679eeb2cfa6e99aaec0435660f5baada3bd027ef
+      category_rules_version: c367d6101132
+      input_hash: sha256:98228e61a8382de3e08993ef89a31846bd46f8cd4a191bbb69af8fdc9bfe80b5
       proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-
         DeepSource acts as an automated reviewer that directly inspects code to plan, detect, and repair bugs and
         security flaws.
       decision_evidence:
-        - Claims to use AI agents for deep code review and automated fixes (Autofix™)
-        - Provides structured feedback on security, reliability, and complexity during pull requests
-        - Found in awesome-ai-coding-tools under Code Review and Refactoring
+        - Automates code reviews using 5,000+ deterministic rules and a state-of-the-art AI review agent
+        - Provides Autofix™ — verified, pre-generated patches for most issues
+        - Integrates directly into pull request workflows with inline review comments and PR Report Card feedback
       category_candidates:
         - coding-agents
         - ai-dev-extensions

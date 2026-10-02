@@ -47,11 +47,10 @@ insights:
     realize you still have to review their work.
   tags:
     - testing
-    - qa
     - ai-agents
-    - test-automation
-    - software-quality
-  confidence: high
+    - mcp
+    - qac
+  confidence: medium
 curation:
   status: included
   reason: >-
@@ -65,7 +64,7 @@ curation:
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
   status: needs_review
   reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
@@ -89,14 +88,14 @@ processing:
         total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:eea34b53b0fcc1d8f4a1d8e08120518adb65e21ad449fd27ed9fbbd6e34bbfaf
-      proposed_primary_category: ai-dev-extensions
+      category_rules_version: c367d6101132
+      input_hash: sha256:d3438e0cdcf38d18cca23cb16b1a79a65ef30c2b17d9f2d7be75504924baf039
+      proposed_primary_category: extensions-and-addons
       disagreement: true
       decision_reason: >-
         The product is primarily a testing and QA platform that integrates AI agents into the workflow, augmenting

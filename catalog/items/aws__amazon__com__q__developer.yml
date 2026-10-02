@@ -48,11 +48,9 @@ insights:
     Because nothing says 'developer productivity' quite like delegating your entire software upgrade path to an AWS
     agent.
   tags:
-    - aws
-    - ide-extension
-    - coding-assistant
-    - agentic-workflows
-    - cloud-integration
+    - ai-assistant
+    - ide-integration
+    - agentic-coding
   confidence: high
 curation:
   status: included
@@ -86,22 +84,22 @@ processing:
         ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e39ea7c5dec50f4a3248c765a3c16d763d986d884d8a0ac5bd32aa32c8d8737a
+      category_rules_version: c367d6101132
+      input_hash: sha256:f287f9a02b8ef964095ec67f12e66d3cca884869ac407b39291338ce680a9a68
       proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-
         It functions as a standalone coding assistant with agentic capabilities that can read, write, and execute tasks,
         though it is primarily used via IDE extensions.
       decision_evidence:
-        - Claims agentic capabilities for implementing features, documenting, testing, and refactoring code.
-        - Available as plugins for JetBrains, VS Code, and Visual Studio.
-        - Directly performs multi-step tasks like.NET porting and Java upgrades.
+        - Scraped site describes it as 'The most capable generative AI–powered assistant for software development' that 'writes, debugs, and refactors code natively in your IDE'
+        - It offers agentic capabilities that 'autonomously perform a range of tasks–everything from implementing features, documenting, testing, reviewing, and refactoring code'
+        - Available as plugins/extensions for VS Code, JetBrains, Visual Studio, Eclipse, and CLI, indicating it operates as a primary coding assistant within host tools
       category_candidates:
         - coding-agents
         - ai-dev-extensions

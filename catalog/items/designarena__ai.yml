@@ -44,10 +44,9 @@ insights:
     Nothing says 'the future of creative engineering' quite like having to crowdsource aesthetic consensus via manual
     voting.
   tags:
-    - benchmarking
-    - design-ai
-    - evals
-    - multimodal
+    - benchmark
+    - ai-evaluation
+    - design
   confidence: high
 curation:
   status: excluded
@@ -55,9 +54,9 @@ curation:
     The tool is a general-purpose creative benchmark rather than a developer-facing tool for coding, infrastructure, or
     software engineering workflows.
   evidence:
-    - Focuses on creative prompts (Website, Slides, Mobile Apps, Game Dev) rather than code/repo work
-    - Primary function is crowdsourced user voting for design 'taste'
-    - Lacks direct relevance to software development workflows, IDEs, or agent orchestration
+    - "Scraped site context: 'Design Arena is the largest global crowdsourced benchmark for design. Challenge, Vote, Crown your Winner.'"
+    - "Source-list context: Listed in awesome-LLM-resources under '体验 Usage' as a benchmark, not a developer tool."
+    - "README excerpt: Focuses on generating websites, slides, images, games, etc., from prompts and comparing model outputs — no coding assistance, editing, or agent behavior."
 placement:
   primary_category: null
   section: null
@@ -84,22 +83,22 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:45a6952e0d656fa8c20d8bc082c4c5914354fac26f4598fdccd282220a7d907a
+      category_rules_version: c367d6101132
+      input_hash: sha256:e5682fed22ac53335118a8ccd99bfa626b9a0212ee4a9d9dfc684f06e5d661ca
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The tool is a general-purpose creative benchmark rather than a developer-facing tool for coding, infrastructure,
         or software engineering workflows.
       decision_evidence:
-        - Focuses on creative prompts (Website, Slides, Mobile Apps, Game Dev) rather than code/repo work
-        - Primary function is crowdsourced user voting for design 'taste'
-        - Lacks direct relevance to software development workflows, IDEs, or agent orchestration
+        - "Scraped site context: 'Design Arena is the largest global crowdsourced benchmark for design. Challenge, Vote, Crown your Winner.'"
+        - "Source-list context: Listed in awesome-LLM-resources under '体验 Usage' as a benchmark, not a developer tool."
+        - "README excerpt: Focuses on generating websites, slides, images, games, etc., from prompts and comparing model outputs — no coding assistance, editing, or agent behavior."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

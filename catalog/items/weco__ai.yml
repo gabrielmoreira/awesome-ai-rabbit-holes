@@ -109,8 +109,24 @@ processing:
         sign in JSON at position 946 (line 12 column 6)
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:bad84508fda2d668fbe745617d748c333a603cb966d6d9de89067deddd376efc
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project identifies as a research lab building foundational AI rather than providing a specific, practical developer tool like an agent, SDK, or framework.
+      decision_evidence:
+        - The website explicitly describes Weco as a 'research and product lab'.
+        - The provided content focuses on research breakthroughs and benchmarks (e.g., SpecBench, AIDE²) rather than a deployable developer tool.
+        - There is no clear product identity for a developer-facing utility, despite the name 'Weco Observe' and its presence in an LLMOps list.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: '2026-07-21T15:20:21.971Z'

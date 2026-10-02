@@ -47,11 +47,11 @@ insights:
     and a token-based bill.
   tags:
     - web-scraping
-    - rag
+    - ai-powered
     - data-extraction
+    - api-first
     - mcp
-    - api
-  confidence: high
+  confidence: medium
 curation:
   status: included
   reason: >-
@@ -95,11 +95,11 @@ processing:
         Catalog LLM categorization failed for scrapezy__com: Upstream error from Nvidia: ResourceExhausted: Worker local
         total request limit reached (16/16)
     next_retry_at: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:5c6a570fb45ddcf095e23b9b0069d4c36502da56593eb8fa629731d84921e016
@@ -109,11 +109,10 @@ processing:
         The core novelty is providing fresh, structured web data for LLM context, which fits the retrieval and
         context-shaping definition.
       decision_evidence:
-        - Outputs markdown-formatted documents optimized for RAG systems
-        - API-first design specifically for AI pipelines
-        - Includes MCP integration for assistant tools like Claude
+        - "Listed in awesome-mcp-servers under 'Official Servers' with the description: 'Transform any website into structured data with Scrapezy'"
+        - "Scraped site context highlights: 'MCP integration for Claude, direct API access for custom AI workflows' and 'Markdown-formatted documents optimized for LLM consumption and RAG systems'"
+        - "Product emphasizes: 'Built for your workflow' and 'API-first design means your data flows seamlessly into any tool. Connect with Claude, Cursor, or build custom automations'"
       category_candidates:
-        - context-engineering
         - mcp
       contrastive_reason: >-
         Choose context-engineering over mcp because the product is a scraping service with MCP compatibility rather than

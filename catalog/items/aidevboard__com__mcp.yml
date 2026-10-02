@@ -45,10 +45,9 @@ insights:
   mental_damage: Just another layer of abstraction to manage in your quest to give an LLM a keyboard and a browser.
   tags:
     - mcp
-    - ai-agents
-    - tooling
-    - connectivity
-  confidence: high
+    - protocol
+    - servers
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
@@ -81,19 +80,20 @@ processing:
         field: mental_damage
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b788456fb367c27c2ca5ac7e037465a031121f37784fccb2c40b3809e8f2ecd9
+      category_rules_version: c367d6101132
+      input_hash: sha256:ff1fda32a9ff03e25db5833afb7eb93e6304cbc67c568da3ef709a11785945a8
       proposed_primary_category: mcp
-      disagreement: true
-      decision_reason: The tool is explicitly a directory of MCP servers, making it a registry for the Model Context Protocol.
+      disagreement: false
+      decision_reason: The repository contains MCP server implementations and reference material, making its primary identity MCP infrastructure rather than a coding agent, framework, or extension.
       decision_evidence:
-        - URL points to a dedicated MCP directory
-        - Included in awesome-ai-coding-tools under 'MCP Servers and Directories'
+        - Source-list context shows inclusion in 'awesome-ai-coding-tools' under 'MCP Servers and Directories'
+        - Repo name 'mcp' and URL path '/mcp' indicate focus on Model Context Protocol
+        - No evidence of being a coding agent, app builder, or orchestration platform in the provided inputs
       category_candidates:
         - mcp
         - awesome-awesomes

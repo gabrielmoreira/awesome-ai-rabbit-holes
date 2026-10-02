@@ -59,11 +59,9 @@ insights:
     Finally, an AI that can handle your calendar so you don’t have to pretend to be ‘in the zone’ during back-to-back
     meetings.
   tags:
-    - ai-assistant
-    - productivity
-    - automation
-    - scheduling
-    - email
+    - ai-agent
+    - workflow-automation
+    - team-productivity
   confidence: high
 curation:
   status: excluded
@@ -71,12 +69,12 @@ curation:
     Lindy is a general-purpose executive assistant for administrative tasks, not a developer-tooling product focused on
     coding, IDEs, or AI workflows for software development.
   evidence:
-    - Primary product identity is an AI executive assistant for inbox, meetings, and calendar management
-    - No developer-specific workflows, coding assistance, or tooling integrations mentioned
-    - Source-list context places it in a general AI agents directory, not a developer-tooling context
+    - Lindy connects to Slack, Gmail, Notion, HubSpot, Zendesk, PostHog, GitHub, Linear, and 1,000+ more tools to execute workflows like debugging ad spend, triaging support tickets, and reconciling finances.
+    - It performs multi-agent-like task chains (e.g., pull data → analyze → draft response → file ticket) autonomously after a single user prompt in chat.
+    - Appears in awesome-ai-agents under the Lindy section as an AI employee that connects to all tools and does real work for the whole team.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: curated
   reason: null
@@ -91,24 +89,26 @@ processing:
         property name in JSON at position 184 (line 3 column 36)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:83ce790fa829def528fe1ebd5b4f5089fb52a7126894344126e67bf6b506448b
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:b22b8a79b7000936d6e98ef4b398e2d90f40c307bb925523790da1e9f00bd7da
+      proposed_primary_category: agent-orchestration
       disagreement: false
       decision_reason: >-
         Lindy is a general-purpose executive assistant for administrative tasks, not a developer-tooling product focused
         on coding, IDEs, or AI workflows for software development.
       decision_evidence:
-        - Primary product identity is an AI executive assistant for inbox, meetings, and calendar management
-        - No developer-specific workflows, coding assistance, or tooling integrations mentioned
-        - Source-list context places it in a general AI agents directory, not a developer-tooling context
-      category_candidates: []
-      contrastive_reason: null
+        - Lindy connects to Slack, Gmail, Notion, HubSpot, Zendesk, PostHog, GitHub, Linear, and 1,000+ more tools to execute workflows like debugging ad spend, triaging support tickets, and reconciling finances.
+        - It performs multi-agent-like task chains (e.g., pull data → analyze → draft response → file ticket) autonomously after a single user prompt in chat.
+        - Appears in awesome-ai-agents under the Lindy section as an AI employee that connects to all tools and does real work for the whole team.
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because Lindy’s primary function is coordinating workflows across non-code tools (email, CRM, Slack, etc.) to complete business tasks, not writing, editing, or reviewing code in a repository.
       review_reason: null
       review_resume_lifecycle: null
   discover:

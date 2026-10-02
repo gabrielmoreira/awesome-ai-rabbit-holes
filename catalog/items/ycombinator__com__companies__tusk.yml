@@ -63,11 +63,10 @@ insights:
     It writes the tests you sacrificed to meet the deadline, so your CI bot can discover the bug before your next
     high-value demo does.
   tags:
+    - ai-agent
     - test-generation
     - ci-cd
-    - pr-agent
-    - code-quality
-    - regression-testing
+    - developer-tools
   confidence: high
 curation:
   status: included
@@ -92,13 +91,13 @@ processing:
         SyntaxError: Unexpected token 'T', ..."_reason": Tusk perfo"... is not valid JSON
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:41b9041528c78a5dbbaa59b57debc37ad9e1a0d44f7dcfab92308570a4614436
+      category_rules_version: c367d6101132
+      input_hash: sha256:b332541b31b9c8daac85d0152157a6cc4cbc2f6646906aa8b20daa544cfa9144
       proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-

@@ -41,14 +41,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A global stock market visualization tool featuring treemaps and histograms for major exchanges.
-  why_it_matters: Provides visual market data and news tracking for financial analysis.
-  mental_damage: Another dashboard to check while pretending you aren't actually coding.
+  summary: finmap.org is a global stock market visualization tool with treemap and histogram views for exchanges like NASDAQ, NYSE, and LSE, plus a news feed reader.
+  why_it_matters: It gives developers a visual, aggregated view of market data and news that could inform decisions in fintech or trading-related applications.
+  mental_damage: Another dashboard promising market clarity while you refresh it hoping for alpha, only to realize you're just doomscrolling candlesticks.
   tags:
     - finance
     - visualization
-    - stock-market
-    - data-viz
+    - market-data
   confidence: high
 curation:
   status: excluded
@@ -56,9 +55,9 @@ curation:
     The tool is a general-purpose financial visualization platform and does not relate to software development, AI
     workflows, or coding infrastructure.
   evidence:
-    - Site content focuses on stock market visualization (NASDAQ, NYSE, LSE)
-    - Functionality is centered on market capitalization and news feeds
-    - No connection to developer tooling, AI agents, or programming workflows
+    - "Repo description: (none)"
+    - "Scraped site context: Global stock market visualisation tool and your personal news feed reader. Focuses on treemap, histogram, market cap, value, trades, and news from exchanges like NASDAQ, NYSE, LSE."
+    - No AI, agent, coding, SDK, framework, orchestration, or developer tooling claims are present in the inputs.
 placement:
   primary_category: null
   section: null
@@ -85,22 +84,22 @@ processing:
         total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:800fb05a45996a86363c84e72b62e2862df1e0300788d5896fc16f0dfde6eb34
+      category_rules_version: c367d6101132
+      input_hash: sha256:239fbec448c06b050e5ea8fb8b88d8c66feff5c1bfe1fe842e874f0707df2fe3
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The tool is a general-purpose financial visualization platform and does not relate to software development, AI
         workflows, or coding infrastructure.
       decision_evidence:
-        - Site content focuses on stock market visualization (NASDAQ, NYSE, LSE)
-        - Functionality is centered on market capitalization and news feeds
-        - No connection to developer tooling, AI agents, or programming workflows
+        - "Repo description: (none)"
+        - "Scraped site context: Global stock market visualisation tool and your personal news feed reader. Focuses on treemap, histogram, market cap, value, trades, and news from exchanges like NASDAQ, NYSE, LSE."
+        - No AI, agent, coding, SDK, framework, orchestration, or developer tooling claims are present in the inputs.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

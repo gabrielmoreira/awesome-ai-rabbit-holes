@@ -74,10 +74,10 @@ insights:
     tabs to your browser.
   tags:
     - llmops
-    - enterprise-ai
+    - ai-infrastructure
     - model-serving
-    - agent-orchestration
-    - governance
+    - agent-lifecycle
+    - self-hosted
   confidence: high
 curation:
   status: included
@@ -85,9 +85,9 @@ curation:
   evidence:
     - jev-latest choice confidence 0.76
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
   status: curated
   reason: null
@@ -102,14 +102,14 @@ processing:
         Unexpected token 'T', ..."_reason": TrueFoundr"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1a588e2e470b0b5b8d948496612b6a3e5d290567f2c6232f23b0d339a0eafae2
-      proposed_primary_category: agent-orchestration
+      category_rules_version: c367d6101132
+      input_hash: sha256:3e7d10e1ff8e2fb4f3b09f6bc28c6f38d4feac6c3d2860dd2e2706d026555902
+      proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The product is a control plane for coordinating LLMOps workflows, including agent lifecycle management,

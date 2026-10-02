@@ -44,10 +44,9 @@ insights:
     The promise of 'infinite' coding sessions is a bold way to describe the inevitable loop of debugging an agent that
     is currently debugging itself.
   tags:
-    - autonomous-agents
-    - cloud-orchestration
-    - coding-assistant
-    - ai-art
+    - coding-agent
+    - autonomous
+    - cloud
   confidence: medium
 curation:
   status: included
@@ -81,22 +80,22 @@ processing:
         value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:df78068d48bed25ad81637bc91098ec617c918a5d3aa0ec1f5fde13b53e8978f
+      category_rules_version: c367d6101132
+      input_hash: sha256:d91adf7eec70d86ac1e73d028791265ce48dbc3c72c51caca6c1ff55b9652a0c
       proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-
         The product is positioned as a standalone platform for running autonomous coding sessions rather than an
         integration for an existing editor.
       decision_evidence:
-        - Claims to be an 'infinite coding agent platform'
-        - Features advanced reasoning and cloud orchestration
-        - Found in awesome-ai-coding-tools as a Coding Agent
+        - "Scraped site title: 'Codex Infinity - Autonomous AI Coding Agents in the Cloud'"
+        - "Scraped site description: 'Bare-metal AI coding agents with full autonomy. Ship code, run CI, and orchestrate cloud workers on Codex Infinity.'"
+        - "Source-list context: Listed in awesome-ai-coding-tools under 'Coding Agents' with description 'Bare-metal AI coding agents with full autonomy. Ship code, run CI, and orchestrate cloud workers on Codex Infinity.'"
       category_candidates:
         - coding-agents
         - agent-orchestration

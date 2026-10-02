@@ -171,19 +171,19 @@ _318 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   </details>
 - **[Rebyte](https://rebyte.ai)** A platform for hiring and coordinating teams of AI agents that operate as digital employees with their own cloud computers, identities, and tool access. <details><summary>More about</summary>
 
-  It lets developers delegate end-to-end software tasks (e.g., code reviews, PR fixes, on-call triage) to specialized agents that work autonomously in Slack or via API.
+  It lets developers deploy and govern autonomous agents without building infrastructure, turning agent runs into observable, improvable feedback loops.
 
-  _Now you can fire your intern and replace them with a Slack thread that never sleeps, complains, or asks for equity._
+  _Yet another layer promising control over AI agents while quietly adding to the stack you now have to monitor, patch, and explain in standups._
 
-  `multi-agent` `slack-integration` `autonomous-agents` `cloud-compute` `workforce-platform`
+  `agent-orchestration` `enterprise` `mcp`
   </details>
 - **[TrueFoundry](https://truefoundry.com/llmops)** Enterprise LLMOps platform for deploying, fine-tuning, and scaling GenAI applications with governance and observability. <details><summary>More about</summary>
 
-  Provides a unified control plane for managing LLM lifecycles, from model serving to agent orchestration, with enterprise-grade security and compliance.
+  It gives developers a single desktop workspace to orchestrate multiple coding agents and UI widgets without paying for another IDE seat or cloud computer subscription.
 
-  _Because nothing says 'production-ready' like a platform that promises to unify your LLM chaos while adding 17 new tabs to your browser._
+  _Now you can finally feel the existential dread of managing six concurrent AI agents while Jarvis whispers 'Yes, sir?' in your ear._
 
-  `llmops` `enterprise-ai` `model-serving` `agent-orchestration` `governance`
+  `ai-harness` `desktop-agent` `windows-only` `multi-agent` `widget-marketplace`
   </details>
 
 ## Visual Builders & Workbenches

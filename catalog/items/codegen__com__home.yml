@@ -44,10 +44,9 @@ insights:
     The sound of your Linear backlog turning itself into pull requests is exactly how I imagined the end of the junior
     developer.
   tags:
-    - ai-coding
-    - workflow-automation
-    - agentic-workflows
-    - devops
+    - blog
+    - engineering-insights
+    - ai-development
   confidence: high
 curation:
   status: included
@@ -85,16 +84,16 @@ processing:
         mental_damage
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d83a541512b4a51bfad2bddbf155711881512b16889df288564b5c6d2c66aac4
-      proposed_primary_category: coding-agents
+      category_rules_version: c367d6101132
+      input_hash: sha256:b3ef01404d5cd3287d1830e30191b11d4f47a9153f6c7f1ef61dc0e4dcd68506
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: Codegen acts as a standalone agentic platform that automates the full development lifecycle from tickets to PRs.
+      decision_reason: The site is a curated blog and news publication about AI coding, not a developer-facing tool, agent, framework, or infrastructure product.
       decision_evidence:
         - Claims to automate the full development workflow from ticket to pull request
         - Describes itself as 'The operating system for AI coding agents'

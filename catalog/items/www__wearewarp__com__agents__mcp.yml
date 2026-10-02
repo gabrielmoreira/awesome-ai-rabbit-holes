@@ -52,9 +52,10 @@ insights:
     prompt in your IDE.
   tags:
     - mcp
-    - logistics
     - freight
-    - api-integration
+    - logistics
+    - ai-agent
+    - developer-tool
   confidence: high
 curation:
   status: included
@@ -64,7 +65,7 @@ curation:
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null
@@ -88,5 +89,23 @@ processing:
         ResourceExhausted: Worker local total request limit reached (1707/16)
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:b661e62eeba49a6e60c76fc79365fe7072e9a2485c7d7f1cd8fd1f3ac8187ab2
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's primary identity is an MCP server exposing domain-specific freight tools; it is not a coding agent, extension, or app builder but infrastructure enabling MCP-native tool use.
+      decision_evidence:
+        - Exposes 31 MCP tools for quoting, booking, and tracking freight via npx warp-agent-mcp
+        - Marketed as 'The first MCP server for booking real freight' with hosted and local install options
+        - Requires MCP-compatible clients (Claude Desktop, Cursor, Claude Code, etc.) to function
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server exposing tools over the protocol, not a plugin that augments a coding agent's capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

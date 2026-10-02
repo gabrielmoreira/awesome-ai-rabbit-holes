@@ -43,9 +43,8 @@ insights:
   mental_damage: Another infinite list to scroll through while you pretend you aren't just procrastinating on your actual setup.
   tags:
     - directory
-    - open-source
-    - developer-resources
-    - curated-list
+    - discovery
+    - curated
   confidence: high
 curation:
   status: included
@@ -79,13 +78,13 @@ processing:
         value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:922e21596639da359f5482a25c7e990106897b94ba8a55643cac55c9636704ba
+      category_rules_version: c367d6101132
+      input_hash: sha256:87a8f6e3e92f0f23ae507dab005050e0bba5c2457194a65fbcb422df9ed49e8d
       proposed_primary_category: awesome-awesomes
       disagreement: false
       decision_reason: >-

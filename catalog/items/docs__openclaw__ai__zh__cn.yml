@@ -47,11 +47,9 @@ insights:
     from a coffee shop.
   tags:
     - ai-agent
-    - gateway
-    - messaging-integration
     - self-hosted
-    - automation
-  confidence: high
+    - gateway
+  confidence: medium
 curation:
   status: included
   reason: >-
@@ -92,10 +90,10 @@ processing:
         Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:bbb231868a2c2ad15faec217a7a1d4504e3f048659e3c026c7502be7b809345c
@@ -105,11 +103,10 @@ processing:
         It acts as a host integration layer that augments existing messaging platforms with agentic capabilities rather
         than being the primary coding assistant itself.
       decision_evidence:
-        - README describes it as a 'Gateway' connecting messaging channels to AI coding agents
-        - Primary value is routing messages from Discord, Slack, etc., to an agent
-        - Provides mobile nodes for iOS/Android to interface with the gateway
+        - Described as a '多渠道 AI 智能体 Gateway 网关' (multi-channel AI agent gateway)
+        - Handles agent runtime, sessions, memory, multi-agent routing, and tool integration
+        - Positioned as a self-hosted infrastructure layer for connecting chat apps to AI agents
       category_candidates:
-        - ai-dev-extensions
         - agent-orchestration
       contrastive_reason: >-
         Choose ai-dev-extensions over agent-orchestration because the core product identity is a connectivity layer

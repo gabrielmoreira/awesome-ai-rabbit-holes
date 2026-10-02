@@ -44,12 +44,12 @@ insights:
     analytics with built-in governance.
   mental_damage: Now you have to decide whether to trust your agent's SQL query or spend the afternoon auditing its semantic model.
   tags:
-    - genbi
-    - text-to-sql
-    - data-engineering
-    - agentic-analytics
-    - governance
-  confidence: high
+    - data-agent
+    - mcp
+    - context-engineering
+    - governed-ai
+    - open-core
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
@@ -82,20 +82,20 @@ processing:
         total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:84b35f7c024524af63b56e5260969b35d244c495d8bf2a2e87e0c01610c53ddd
-      proposed_primary_category: app-builders
-      disagreement: false
-      decision_reason: The product is primarily an end-user platform for generating dashboards and interactive data tools from prompts.
+      category_rules_version: c367d6101132
+      input_hash: sha256:cbd9ea745e1e27737630a446fc59eb27d699b3d1b4f8df49aee73927cb45040d
+      proposed_primary_category: memory-and-context
+      disagreement: true
+      decision_reason: Wren AI's core novelty is its governed context layer that ensures consistent, policy-enforced answers across agents and databases, making it a context-shaping infrastructure rather than a coding agent or MCP-first product.
       decision_evidence:
-        - Claims to build 'eal-time dashboards' in one prompt
-        - Provides embedded UI components for developers to ship conversational analytics
-        - Focuses on generating GenBI apps and structured insights
+        - "Scraped site context: 'One governed answer. Your team asks Wren's GenBI agent in plain language. Claude, ChatGPT or your own agents call Wren as a sub-agent over MCP. Same answer either way, from a context layer you own.'"
+        - "README excerpt: 'Every answer runs through definitions you own. Versioned in git. Shared by people and agents.'"
+        - "Source-list context: Included in awesome-ai-agents under 'Wren' as 'One governed data agent for people and AI agents.'"
       category_candidates:
         - app-builders
         - ai-frameworks

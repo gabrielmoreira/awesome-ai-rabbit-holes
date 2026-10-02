@@ -48,8 +48,8 @@ insights:
     weeks.
   tags:
     - newsletter
-    - developer-education
-    - ai-trends
+    - ai-development
+    - curated-content
   confidence: high
 curation:
   status: included
@@ -83,24 +83,23 @@ processing:
         confidence value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:32ed987af2c2d6ac364eef2f268c4a94c2ccdd232ad8595bf3338fffcd5d4847
-      proposed_primary_category: newsletters-and-feeds
+      category_rules_version: c367d6101132
+      input_hash: sha256:8773cad3a94a909b0d455693ba1eeae117eb5e607dc80cbe68c907d9b6aea38e
+      proposed_primary_category: awesome-awesomes
       disagreement: false
       decision_reason: >-
         It is a media resource providing ongoing commentary and educational updates for developers, fitting the
         definition of a newsletter.
       decision_evidence:
-        - URL is a Substack domain
-        - In 'awesome-ai-coding-tools' as a source list entry
-        - Matches 'Publications & Feeds' description
+        - "Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding tools"
+        - "Name: aifordevelopers.substack.com | URL: https://aifordevelopers.substack.com"
+        - Available categories include awesome-awesomes for newsletters, blogs, and recurring publications covering AI development topics.
       category_candidates:
-        - newsletters-and-feeds
         - awesome-awesomes
       contrastive_reason: >-
         Choose newsletters-and-feeds over awesome-awesomes because its primary value is recurring commentary and

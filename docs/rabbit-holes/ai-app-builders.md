@@ -82,11 +82,11 @@ _83 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 - **[Cactal](https://cactal.ai)** Cactal – Cactal is the website platform for AI agents. Connect Claude Code, Cursor, or anything that speaks MCP, and your agent gets the tools to design, build, host, and operate production websites: source code, CMS, assets, domains, analytics, and publishing.
 - **[Capacity](https://capacity.so)** An AI-powered platform that generates full-stack web and mobile applications from natural language descriptions. <details><summary>More about</summary>
 
-  It streamlines the path from idea to deployment by automating the generation of React, TypeScript, and backend infrastructure.
+  It lets developers and non-developers ship functional apps from descriptions without writing code, accelerating prototyping and idea validation.
 
-  _It brings us one step closer to the era where 'building an app' is just a fancy way of saying 'typing a very long paragraph'._
+  _The quiet dread that your weekend project now has a Stripe integration and real users before you’ve picked a framework._
 
-  `prompt-to-app` `full-stack` `react` `typescript` `no-code`
+  `app-builder` `no-code` `ai-generated`
   </details>
 - **[Create.xyz](https://create.xyz)** create.xyz is an AI app builder that turns natural language prompts into deployable mobile apps, websites, and tools with code generation and 40+ integrations. <details><summary>More about</summary>
 
@@ -165,27 +165,27 @@ _83 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 - **[RapidNative](https://rapidnative.com)** RapidNative – AI-native mobile app builder that turns ideas, sketches, or screenshots into working React Native and Expo apps with production-ready code. Freemium with 20 free credits.
 - **[Replit](https://replit.com)** Replit is a cloud-based platform for building, deploying, and collaborating on software projects with AI assistance. <details><summary>More about</summary>
 
-  It enables developers and teams to turn prompts into full-stack apps, sites, or internal tools with built-in infrastructure and parallel agent workflows.
+  It lowers the barrier to turning ideas into working software by combining AI code generation with zero-config infrastructure, enabling rapid prototyping without manual setup.
 
-  _The promise of 'no coding needed' collides with the reality of debugging Agent 4’s interpretation of your napkin sketch._
+  _Watch as your vague 'make me a SaaS for dogs' prompt becomes a production app you now have to maintain, scale, and explain to investors at 2 a.m._
 
-  `prompt-to-app` `full-stack` `collaboration` `ai-agent` `hosted`
+  `app-builder` `ai-generated` `full-stack`
   </details>
 - **[Replit Agent](https://replit.com/agent4)** Replit's Agent 4 is an AI agent for building, designing, and shipping apps, sites, and other digital products within the Replit platform. <details><summary>More about</summary>
 
-  It enables developers and teams to collaborate with an AI agent that can design, build, and coordinate tasks in parallel, accelerating the development of full-stack applications.
+  It lets developers delegate full-stack app creation to an agent that works in parallel across design, code, and deployment, reducing manual context switching.
 
-  _Finally, an agent that can turn your napkin sketch into a deployable app while you argue with your team about tabs vs. spaces._
+  _Now you can feel guilty not just for vibing, but for watching an agent vibe for you while you pretend to supervise._
 
-  `app-builder` `ai-agent` `replit` `collaboration` `multi-agent`
+  `ai-agent` `replit` `full-stack` `vibe-coding`
   </details>
 - **[Rocket.new](https://rocket.new)** Rocket is a prompt-to-app platform that also provides market research and competitive intelligence for deciding what to build. <details><summary>More about</summary>
 
-  It lets developers turn ideas into production-grade apps while maintaining shared context across research, building, and tracking phases.
+  It lets developers skip scaffolding and go from idea to working product in one step, accelerating early-stage prototyping.
 
-  _Finally, a tool that will tell you what to build, build it for you, and then watch your competitors do it better._
+  _Another tool that makes you wonder if ‘building’ is just prompting and waiting for the AI to get bored._
 
-  `prompt-to-app` `competitive-intelligence` `ai-builder` `vibe-solutioning`
+  `app-builder` `no-code` `prompt-to-app`
   </details>
 - **[Rosebud AI](https://rosebud.ai)** Rosebud AI Game Maker lets users create and deploy playable games from AI prompts or templates without coding. <details><summary>More about</summary>
 

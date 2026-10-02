@@ -50,11 +50,10 @@ insights:
     Finally, an AI that can turn your vague architectural dreams into a Jira-style backlog before you have a chance to
     realize you don't actually want to build it.
   tags:
+    - app-builder
     - mcp
-    - scaffolding
-    - task-management
-    - saas-generation
-  confidence: high
+    - saas
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
@@ -91,22 +90,22 @@ processing:
         total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5dccd68d563e1cf58d57e929e8c842c369ef45639fd7d193856e788c7cf6b398
+      category_rules_version: c367d6101132
+      input_hash: sha256:8f9a704acfa45c65f5ad8765905bbd2011109600a2a02c441ae7f44e325f6738
       proposed_primary_category: app-builders
       disagreement: false
       decision_reason: >-
         The product's core value is the end-to-end generation of project plans and repository scaffolding rather than
         acting as a general-purpose coding assistant.
       decision_evidence:
-        - Claims to plan backlogs and scaffold private repos from an idea
-        - Provides a structured workflow from idea to implementation tasks
-        - Features an AI task engine specifically for building SaaS products
+        - Buildable plans the backlog, scaffolds a private repo, then streams MCP tasks to any AI assistant.
+        - "The output is a deployable artifact: a GitHub repo under the user’s account with CI/CD and repository structure ready to go."
+        - It positions itself as different from Copilot because it ‘decides what to build, where it lives and how to test it’ rather than writing code directly.
       category_candidates:
         - app-builders
         - agent-orchestration

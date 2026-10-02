@@ -44,17 +44,17 @@ insights:
     workspace-specific configurations.
   mental_damage: Spending your afternoon debugging a nested JSON hierarchy just to make sure your editor ignores certain file types.
   tags:
-    - ide-config
-    - editor-settings
     - vscode
+    - configuration
+    - documentation
   confidence: high
 curation:
   status: excluded
-  reason: This is documentation for an existing editor feature rather than a standalone AI tool, framework, or integration.
+  reason: This is auxiliary documentation, not a standalone developer-facing AI tool or product.
   evidence:
-    - Scraped content is purely technical documentation for VS Code settings
-    - The product identity is the VS Code editor itself, not an AI-native tool
-    - Does not offer new AI capabilities, but rather manages existing editor behavior
+    - URL is a Microsoft Docs page (code.visualstudio.com/docs/configure/settings)
+    - Source-list context shows it's only referenced as a linked page in awesome-copilot under 'Additional Resources'
+    - Content describes how to modify settings, with no claims of being an AI tool, agent, or developer product
 placement:
   primary_category: null
   section: null
@@ -81,22 +81,22 @@ processing:
         Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ef6742c690d8581e9dfdd4bb1a643aeb36007c1ff907fdeb9d1e8e940fe8b781
+      category_rules_version: c367d6101132
+      input_hash: sha256:aeb51a4a16f2a83a29f79caeb053265bc794e9a2cf1991ca6be293da3a9a1b77
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         This is documentation for an existing editor feature rather than a standalone AI tool, framework, or
         integration.
       decision_evidence:
-        - Scraped content is purely technical documentation for VS Code settings
-        - The product identity is the VS Code editor itself, not an AI-native tool
-        - Does not offer new AI capabilities, but rather manages existing editor behavior
+        - URL is a Microsoft Docs page (code.visualstudio.com/docs/configure/settings)
+        - Source-list context shows it's only referenced as a linked page in awesome-copilot under 'Additional Resources'
+        - Content describes how to modify settings, with no claims of being an AI tool, agent, or developer product
       category_candidates: []
       contrastive_reason: null
       review_reason: null

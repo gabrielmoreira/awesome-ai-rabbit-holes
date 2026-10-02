@@ -36,12 +36,10 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A gambling platform with no apparent connection to AI or developer tooling.
-  why_it_matters: It does not matter to developers as it is unrelated to AI or software development workflows.
-  mental_damage: The only thing being 'spelled' here is a misdirected URL in an AI tooling list.
-  tags:
-    - gambling
-    - off-topic
+  summary: A GitHub directory index listing files with no discernible purpose or content.
+  why_it_matters: It does not matter to developers as it offers no tooling, agent, framework, or infrastructure value.
+  mental_damage: Stumbling onto this feels like finding an empty folder labeled 'AI' in a shared drive — mildly confusing, ultimately pointless.
+  tags: []
   confidence: high
 curation:
   status: excluded
@@ -49,8 +47,9 @@ curation:
     The site is a gambling platform with no developer-tooling relevance, and the source-list context appears to be a
     mislink or spam.
   evidence:
-    - Scraped site context describes a gambling platform (MEGAWIN288) with no AI or developer tooling content
-    - Source-list context links to the same gambling site, indicating a likely misentry
+    - Scraped page shows only an 'Index of /' with Name, Last modified, Size, Description columns and no file entries or descriptive text.
+    - No repo description, README excerpt, or meaningful content was provided to assess functionality.
+    - Listed in awesome-ai-agents under a 'Spell' section, but the linked page contains no agent or tool information.
 placement:
   primary_category: null
   section: null
@@ -77,21 +76,22 @@ processing:
         mental_damage
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:c577a78cb2739e90f44b5fc634df8ffd1a1a9c051f2e2d0ae036883275c34607
+      category_rules_version: c367d6101132
+      input_hash: sha256:4ccfa025a94423f61499f2b9f16ac38a0198e6fb53a10ba7127015dfda3d5687
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The site is a gambling platform with no developer-tooling relevance, and the source-list context appears to be a
         mislink or spam.
       decision_evidence:
-        - Scraped site context describes a gambling platform (MEGAWIN288) with no AI or developer tooling content
-        - Source-list context links to the same gambling site, indicating a likely misentry
+        - Scraped page shows only an 'Index of /' with Name, Last modified, Size, Description columns and no file entries or descriptive text.
+        - No repo description, README excerpt, or meaningful content was provided to assess functionality.
+        - Listed in awesome-ai-agents under a 'Spell' section, but the linked page contains no agent or tool information.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

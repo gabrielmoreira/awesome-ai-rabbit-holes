@@ -46,11 +46,9 @@ insights:
     Finally, an automated way to ensure your agent's hallucination-inducing context window is filled with actual,
     up-to-date project truth.
   tags:
-    - mcp
-    - knowledge-base
-    - agent-infrastructure
-    - documentation
-    - context-management
+    - knowledge-sharing
+    - agent-context
+    - token-efficiency
   confidence: high
 curation:
   status: included
@@ -58,7 +56,7 @@ curation:
   evidence:
     - jev-latest choice confidence 0.83
 placement:
-  primary_category: memory-and-context
+  primary_category: null
   secondary_categories: []
   section: Persistent Memory & Knowledge
 lifecycle:
@@ -84,14 +82,14 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a4d16436baba67305ed0fa8d8363f6e207de7d638b7ef50e3a5299ef06fd67a8
-      proposed_primary_category: context-engineering
+      category_rules_version: c367d6101132
+      input_hash: sha256:b0ca11f6580105ddc6efe42d49de17edf6dccdb90209b9e184057e6ea28147a5
+      proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The core value proposition is providing automated, fresh context and memory to agents via an MCP server to

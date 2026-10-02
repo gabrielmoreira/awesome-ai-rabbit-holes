@@ -44,21 +44,24 @@ insights:
     Nothing says 'I've lost the plot' like needing a specialized chart to track how many people actually liked your
     README.
   tags:
-    - visualization
     - github
-    - analytics
-  confidence: high
+    - visualization
+    - svg
+    - api
+    - developer-tools
+  confidence: low
 curation:
   status: excluded
   reason: >-
     The tool is a generic visualization utility for GitHub metrics and lacks any connection to AI, LLMs, or
     developer-facing AI tooling.
   evidence:
-    - URL indicates it is an API for star-history SVGs
-    - No mention of AI, LLMs, or coding assistance in the provided context
+    - Provides SVG output via API endpoint at https://api.star-history.com/svg
+    - Generates repository star trend graphs for visualization and sharing
+    - No GitHub repo, description, or active maintenance signals available
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Awesome Lists & Directories
 lifecycle:
   status: curated
   reason: null
@@ -82,22 +85,25 @@ processing:
         ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:295ddfef695081ea78ad5415ed114033e5a99a1cdffa2f335d123347216233a1
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:a6db48d9244c033e9ec2294ec48393ac196d28a96d54fc42f9f0f508b1a11e5f
+      proposed_primary_category: awesome-awesomes
       disagreement: false
       decision_reason: >-
         The tool is a generic visualization utility for GitHub metrics and lacks any connection to AI, LLMs, or
         developer-facing AI tooling.
       decision_evidence:
-        - URL indicates it is an API for star-history SVGs
-        - No mention of AI, LLMs, or coding assistance in the provided context
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: null
+        - Provides SVG output via API endpoint at https://api.star-history.com/svg
+        - Generates repository star trend graphs for visualization and sharing
+        - No GitHub repo, description, or active maintenance signals available
+      category_candidates:
+        - awesome-awesomes
+        - local-ai
+      contrastive_reason: Choose awesome-awesomes over local-ai because the Star History API is a developer-facing utility for visualization and discovery rather than a tool for running AI models locally.
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

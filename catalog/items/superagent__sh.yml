@@ -58,11 +58,10 @@ insights:
   mental_damage: Now your security team can finally sleep, knowing the bots are filing PRs at 3 AM.
   tags:
     - security
-    - automated-patching
-    - vulnerability-detection
-    - ai-agents
-    - ci-cd
-  confidence: high
+    - autonomous-agents
+    - devsecops
+    - ai-workers
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Security & DevSecOps
@@ -86,23 +85,25 @@ processing:
         'S', ..."_reason": Superagent"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:48d400a1e356124bc5fc065e9e1cead28b86cebcad3d7e2dd1f903560e0942d3
-      proposed_primary_category: coding-agents
+      category_rules_version: c367d6101132
+      input_hash: sha256:8a3dbb5b2f09c19640aef405ef04e23fa2469ecbe58343263b1108ce0981b49b
+      proposed_primary_category: extensions-and-addons
       disagreement: true
       decision_reason: >-
         The product directly acts as an autonomous agent that reads code, identifies vulnerabilities, and proposes fixes
         via PRs, fitting the definition of a coding agent focused on review and repair.
       decision_evidence:
-        - Described as 'an AI security team that finds, patches, and discloses vulnerabilities'
-        - Delivers fixes as PRs for developer approval
-        - Integrates with CI/CD workflows and runs on PRs or scheduled scans
+        - Superagent connects with your integrations — the tools, coding agents, and delivery workflows you already run.
+        - It adds security workers that defend your software around the clock, such as PR security, secure dependency updates, and red teaming.
+        - Use cases show it sends triaged findings to Cursor for remediation and puts Context Guardrails between Resend and your agent.
+        - Appears in awesome-ai-agents under the Superagent section as an autonomous security factory for applications, repos, agents, and infrastructure.
       category_candidates:
+        - extensions-and-addons
         - coding-agents
         - agent-orchestration
       contrastive_reason: >-

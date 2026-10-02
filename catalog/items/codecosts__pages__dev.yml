@@ -46,12 +46,10 @@ insights:
     Because nothing says 'developer productivity' like spending three hours calculating the ROI of a $20/month
     subscription.
   tags:
-    - comparison
     - pricing
-    - productivity
-    - ide
-    - ai-tools
-  confidence: high
+    - comparison
+    - developer-tools
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Ecosystem Maps & Landscapes
@@ -60,7 +58,7 @@ curation:
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
-  section: Ecosystem Maps & Landscapes
+  section: Awesome Lists & Directories
 lifecycle:
   status: curated
   reason: null
@@ -88,22 +86,22 @@ processing:
         Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:dc30fdbdfe529a523cbffa5b8de2d1d3bbf95742aaf205d425ba8c1fba9a13d0
+      category_rules_version: c367d6101132
+      input_hash: sha256:e56570fa552f2ccd797ad0e865ca1d02014cea907a3bb4850601f80d5b768e50
       proposed_primary_category: awesome-awesomes
       disagreement: false
       decision_reason: >-
         It is a curated directory/map designed to help users navigate the AI coding ecosystem, which fits the definition
         of an awesome list/index.
       decision_evidence:
-        - Provides side-by-side comparisons of major AI tools like Copilot, Cursor, and Windsurf
-        - Includes a cost calculator for team-wide deployment
-        - Offers structured JSON data for tool pricing
+        - Listed in 'awesome-ai-coding-tools' under 'Developer Productivity Tools' as a side-by-side comparison of AI coding assistants
+        - Provides structured pricing data, feature comparisons, and guides for AI coding tools like Copilot, Cursor, and Claude Code
+        - Offers open data (JSON/TypeScript) and a free API for integrating pricing into other tools or workflows
       category_candidates:
         - awesome-awesomes
         - evals

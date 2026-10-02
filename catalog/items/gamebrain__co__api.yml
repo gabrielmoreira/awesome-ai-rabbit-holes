@@ -45,10 +45,9 @@ insights:
     integration.
   mental_damage: 'Because your custom AI agent definitely needs to know if Kingdom Come: Deliverance II is worth your weekend.'
   tags:
-    - game-data
     - api
+    - games
     - mcp
-    - search
     - metadata
   confidence: high
 curation:
@@ -57,9 +56,9 @@ curation:
     The product is a general-purpose content/data API rather than a developer-focused AI infrastructure or orchestration
     tool.
   evidence:
-    - Primary product is a video game database
-    - Offers semantic search and game recommendations
-    - MCP is a secondary compatibility feature
+    - Scraped site describes GameBrain as 'one of the largest video game database and game discovery service' sharing data with the world.
+    - Primary use cases focus on searching, suggesting, and retrieving game details for end-user applications, not developer tooling workflows.
+    - MCP is presented as a compatibility feature ('MCP for the AI powered era') to connect data with chatbots, not as the product's core identity.
 placement:
   primary_category: null
   section: null
@@ -86,22 +85,22 @@ processing:
         value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0263bf4645c92127db1f6304e2f5a665d31306f44b84a801ba3e76998915d13a
+      category_rules_version: c367d6101132
+      input_hash: sha256:84429860489c053d613dfa8088a063029e856600301a9fcf2c8430da8aed176a
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The product is a general-purpose content/data API rather than a developer-focused AI infrastructure or
         orchestration tool.
       decision_evidence:
-        - Primary product is a video game database
-        - Offers semantic search and game recommendations
-        - MCP is a secondary compatibility feature
+        - Scraped site describes GameBrain as 'one of the largest video game database and game discovery service' sharing data with the world.
+        - Primary use cases focus on searching, suggesting, and retrieving game details for end-user applications, not developer tooling workflows.
+        - MCP is presented as a compatibility feature ('MCP for the AI powered era') to connect data with chatbots, not as the product's core identity.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

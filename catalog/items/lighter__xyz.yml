@@ -60,9 +60,9 @@ curation:
   evidence:
     - jev-latest choice confidence 0.77
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: null
 lifecycle:
   status: curated
   reason: null
@@ -86,5 +86,20 @@ processing:
         summary
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:d243609e260be0df0734ddd71eac1c340e108ffdf1bcb411095f89755a1d619c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks a description, README, or any scraped context, making it impossible to verify if it fits the catalog's specific developer-tooling scope.
+      decision_evidence:
+        - No repository description provided
+        - No README excerpt or scraped site context provided
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

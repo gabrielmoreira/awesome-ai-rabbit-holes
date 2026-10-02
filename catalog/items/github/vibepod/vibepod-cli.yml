@@ -25,6 +25,21 @@ provenance:
           isolated Docker containers; zero-config setup, local metrics, HTTP traffic tracking, and an analytics
           dashboard for side-by-side comparison.
         confidence: high
+    - id: discovery__github__vibepod__vibepod-cli__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-10-01T04:13:52.898Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - CLI Tools
+        anchor_text: VibePod
+        extracted_url: https://github.com/vibepod/vibepod-cli
+        surrounding_text: "- **[VibePod](https://github.com/VibePod/vibepod-cli)** – Unified CLI for running Claude Code, Codex, OpenCode, Pi, and other AI coding agents in isolated Docker or Podman containers, with local metrics and an analytics dashboard."
+        confidence: high
 metadata:
   github:
     stars: 97

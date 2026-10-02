@@ -394,19 +394,19 @@ _284 entries in 6 sections, ranked by stars. Each section opens with its top 30;
 - **[julianbei/arno](https://github.com/julianbei/arno)** julianbei/arno ️ - IDE for agents: read code by symbol, edit with compiler diagnostics, validate with the project's own build and tests, and revert to checkpoints.
 - **[Aide](https://aide.dev)** Aide is an AI-native developer tools lab focused on using inference-time scaling and agentic systems to automate software engineering tasks. <details><summary>More about</summary>
 
-  It attempts to solve complex engineering problems by scaling computation during inference to achieve higher accuracy on benchmarks like SWE-bench.
+  It pushes the frontier of autonomous coding agents by demonstrating how scaling test-time compute improves real-world software engineering performance on benchmarks like SWE-bench.
 
-  _Because apparently, the only way to fix your code is to give the model significantly more time to think about how much it messed up._
+  _Another lab promising that if we just throw more tokens at the problem, the agent will finally stop hallucinating API calls — until the next benchmark drops._
 
-  `ai-agents` `software-engineering` `inference-time-scaling` `agentic-systems`
+  `coding-agent` `inference-scaling` `swebench`
   </details>
 - **[Amazon Q Developer](https://aws.amazon.com/q/developer)** An AI-powered coding assistant by AWS that provides code suggestions, chat, and agentic capabilities for software development tasks. <details><summary>More about</summary>
 
-  It provides deep integration with AWS services and agentic capabilities for automating complex tasks like refactoring and software upgrades.
+  It boosts developer productivity by autonomously handling coding tasks across the software lifecycle within familiar development environments.
 
-  _Because nothing says 'developer productivity' quite like delegating your entire software upgrade path to an AWS agent._
+  _Yet another reminder that your IDE now has a coworker who never takes breaks and occasionally suggests rewriting your entire codebase._
 
-  `aws` `ide-extension` `coding-assistant` `agentic-workflows` `cloud-integration`
+  `ai-assistant` `ide-integration` `agentic-coding`
   </details>
 - **[CodeBuddy](https://codebuddy.cn)** CodeBuddy is an AI coding assistant by Tencent Cloud that provides code completion, technical dialogue, and optimization using the Hunyuan code model. <details><summary>More about</summary>
 
@@ -419,11 +419,11 @@ _284 entries in 6 sections, ranked by stars. Each section opens with its top 30;
 - **[CodeBuddy](https://copilot.tencent.com)** 腾讯云代码助手CodeBuddy，是一款辅助编码工具，基于混元代码大模型，提供技术对话、代码补全、代码诊断和优化等能力。为你生成优质代码，帮你解决技术难题，提升编码效率。.
 - **[Cursor](https://cursor.com)** An AI-native code editor designed for building software through agentic assistance and deep codebase understanding. <details><summary>More about</summary>
 
-  It shifts the developer workflow from manual editing to high-level orchestration using integrated agents and composer modes.
+  It accelerates software development by allowing developers to delegate coding tasks to AI agents while maintaining control via natural language and IDE workflows.
 
-  _You'll spend more time deciding which level of autonomy to grant the agent than actually typing code._
+  _Using Cursor makes you feel like a tech CEO yelling 'Make it so!' at your screen while the AI silently refactors your legacy codebase._
 
-  `ide` `ai-editor` `coding-agent` `composer`
+  `ai-coding-agent` `ide-integration` `autonomous-coding`
   </details>
 - **[GitHub Copilot X](https://github.com/features/preview/copilot-x)** GitHub Copilot X is a preview of next-generation AI coding features integrating chat, voice, and pull request support into GitHub's Copilot service. <details><summary>More about</summary>
 
@@ -435,11 +435,29 @@ _284 entries in 6 sections, ranked by stars. Each section opens with its top 30;
   </details>
 - **[Google Code Assist (Gemini)](https://codeassist.google)** Google's enterprise-grade AI coding assistance service integrated within Google Cloud and IDEs. <details><summary>More about</summary>
 
-  It brings Gemini's large context window and deep integration with Google Cloud infrastructure directly into the development workflow.
+  It offers developers an autonomous coding agent that performs coding tasks without requiring integration into an existing IDE or assistant.
 
-  _Because deciding between three different cloud provider AI assistants is the peak of modern developer existential dread._
+  _Another AI agent promising to replace your job, while you nervously watch it try to understand your legacy codebase._
 
-  `google-cloud` `gemini` `enterprise-ai` `cloud-ide`
+  `ai-agent` `coding-assistant`
+  </details>
+
+- **[Google Antigravity](https://antigravity.google)** Google Antigravity is an agentic development platform offering agents, IDE, CLI, and SDK for building applications in the agent-first era. <details><summary>More about</summary>
+
+  It provides a cohesive suite of agent-powered tools that aim to streamline full-stack development workflows from coding to deployment.
+
+  _Yet another 'next-gen agent platform' promising to replace your IDE while quietly adding yet another layer of tooling to learn._
+
+  `ai-agent-platform` `developer-tools` `cli` `ide`
+  </details>
+
+- **[Google Code Assist (Gemini)](https://codeassist.google)** codeassist.google is a web-based coding agent that assists with code generation, debugging, and refactoring using AI models. <details><summary>More about</summary>
+
+  It enables developers to offload routine coding tasks to an AI agent directly from the browser, reducing context-switching and accelerating development workflows.
+
+  _Another browser tab promising to be your pair programmer, until you realize you're still the one fixing its mistakes._
+
+  `coding-agent` `ai-assistant` `browser-based`
   </details>
 - **[JunieAI (JetBrains)](https://jetbrains.com/junieai)** Junie by JetBrains is an AI coding agent that works with any model via Bring Your Own Key and operates in terminal, IDE, or CI/CD environments. <details><summary>More about</summary>
 
@@ -459,11 +477,11 @@ _284 entries in 6 sections, ranked by stars. Each section opens with its top 30;
   </details>
 - **[Potpie](https://potpie.ai)** A web-based AI coding assistant that helps developers write, review, and debug code. <details><summary>More about</summary>
 
-  It provides an accessible, browser-based interface for AI-assisted coding workflows, reducing local setup friction.
+  It automates writing, editing, reviewing, and testing code by acting as a developer-facing coding agent.
 
-  _Another tab to keep open while you pretend you’re not just copy-pasting from Stack Overflow._
+  _Finally, an AI that promises to write your code so you can spend more time reading about AI tools that write code._
 
-  `coding-assistant` `web-based` `ai-development`
+  `ai-agent` `code-generation` `developer-tool`
   </details>
 - **[Qoder](https://qoder.com)** Qoder is an AI-powered IDE and agent platform that offers intelligent code completion, conversational programming, and autonomous coding agents across desktop, mobile, CLI, and IDE plugin formats. <details><summary>More about</summary>
 
@@ -483,11 +501,11 @@ _284 entries in 6 sections, ranked by stars. Each section opens with its top 30;
   </details>
 - **[Review](https://aifordevelopers.org/tool/antigravity)** Antigravity is an AI-native IDE built on a VS Code fork that uses autonomous agents to plan, write, execute, and test code. <details><summary>More about</summary>
 
-  It introduces a 'Mission Control' architecture that allows developers to manage multiple parallel agents for different tasks like refactoring or UI building.
+  It redefines the IDE as an agent orchestration surface where developers delegate full coding workflows to multiple AI agents working in parallel.
 
-  _Nothing says 'oftware engineering' like managing a workforce of five autonomous agents while praying they don't enter a recursive loop of terminal commands._
+  _Finally, an IDE where your AI agents have better task management than you do._
 
-  `ide` `ai-agent` `multi-agent` `autonomous-coding` `vscode-fork`
+  `ide` `coding-agents` `agent-orchestration`
   </details>
 - **[Trae](https://trae.ai)** Trae offers TraeCode as an AI coding engineer and TraeWork as an AI work assistant for developer workflows. <details><summary>More about</summary>
 

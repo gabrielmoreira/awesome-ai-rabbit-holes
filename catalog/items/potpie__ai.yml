@@ -36,13 +36,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web-based AI coding assistant that helps developers write, review, and debug code.
-  why_it_matters: It provides an accessible, browser-based interface for AI-assisted coding workflows, reducing local setup friction.
-  mental_damage: Another tab to keep open while you pretend you’re not just copy-pasting from Stack Overflow.
+  summary: potpie.ai is an AI agent that plans and executes coding tasks across a codebase, terminal, or IDE.
+  why_it_matters: It automates writing, editing, reviewing, and testing code by acting as a developer-facing coding agent.
+  mental_damage: Finally, an AI that promises to write your code so you can spend more time reading about AI tools that write code.
   tags:
-    - coding-assistant
-    - web-based
-    - ai-development
+    - ai-agent
+    - code-generation
+    - developer-tool
   confidence: medium
 curation:
   status: included
@@ -76,21 +76,21 @@ processing:
         total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e0ed6227412382084e266d7784898ff46e73c78a4cfb8e7a426c6bbf091a9694
+      category_rules_version: c367d6101132
+      input_hash: sha256:69e0be132180d9821023e9df51d2ef62b0c632e98e0ad5e317f3eb595c2565e4
       proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-
         It is a standalone coding assistant that directly helps developers with code tasks, fitting the primary identity
         of a coding agent.
       decision_evidence:
-        - Listed in awesome-ai-coding-tools under Coding Agents
-        - URL and naming suggest a dedicated AI coding tool
+        - Listed in 'awesome-ai-coding-tools' under the 'Coding Agents' section
+        - Described as an AI agent that plans and executes coding tasks across a terminal, IDE, or browser
       category_candidates:
         - coding-agents
         - ai-ides-editors

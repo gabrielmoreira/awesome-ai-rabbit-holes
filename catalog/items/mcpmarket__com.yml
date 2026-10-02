@@ -44,8 +44,7 @@ insights:
   tags:
     - mcp
     - directory
-    - discovery
-    - marketplace
+    - ai-integrations
   confidence: high
 curation:
   status: included
@@ -79,23 +78,23 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5dc1526b0ef4b38915c91641cc9253faec9046b3d209490ca317791c7140b661
-      proposed_primary_category: mcp
+      category_rules_version: c367d6101132
+      input_hash: sha256:831d7483d516d9c3b64858e75da574001496ac1dc4dddf31f066cb66136387fb
+      proposed_primary_category: awesome-awesomes
       disagreement: true
       decision_reason: >-
         The product is explicitly a directory/marketplace for MCP servers, which aligns with the MCP Servers & Tooling
         category where MCP is the primary identity.
       decision_evidence:
-        - Seen in awesome-ai-coding-tools under 'MCP Servers and Directories'
-        - URL and name (mcpmarket.com) indicate a marketplace/directory focus for MCP
+        - Listed in awesome-ai-coding-tools under 'MCP Servers and Directories' as a discovery resource
+        - Described as a 'Directory of awesome MCP servers and clients to connect AI agents with your favorite tools'
+        - Provides categorized browsing and search for MCP servers, clients, and agent skills
       category_candidates:
-        - mcp
         - awesome-awesomes
       contrastive_reason: >-
         Choose mcp over awesome-awesomes because the product's core identity is MCP-specific infrastructure (a

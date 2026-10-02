@@ -45,18 +45,17 @@ insights:
     reference implementation.
   mental_damage: Another chatbot demo in a sea of chatbot demos, but at least it’s on Hugging Face.
   tags:
+    - demo
     - langchain
     - chatbot
-    - huggingface
-    - demo
   confidence: high
 curation:
   status: excluded
-  reason: This is a demo/chatbot implementation rather than a developer tool, framework, or workflow product.
+  reason: It is a demonstration or educational Hugging Face Space, not a standalone developer-facing tool, agent, or infrastructure product with ongoing utility or maintainership.
   evidence:
-    - Hosted on Hugging Face as a Space (demo/experimental project)
-    - Described as a chatbot built with LangChain and ChatGPT
-    - Listed in awesome-langchain under 'Open Source Projects > Other / Chatbots'
+    - Hosted on Hugging Face Spaces as a demo by user JavaFXpert
+    - No repository description, stars, topics, or license provided indicating minimal project traction or maintenance
+    - Combines ChatGPT and LangChain in a basic conversational interface without claims of autonomy, extensibility, or developer workflow integration
 placement:
   primary_category: null
   section: null
@@ -83,20 +82,20 @@ processing:
         response structure: Missing required field: why_it_matters
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d20ce38478eda2fbbd1711e17f6af30190260a9f88167a6665f2c10f157df4f6
+      category_rules_version: c367d6101132
+      input_hash: sha256:34f62dba5931ab1978e903a697dc655b08ead425ac770845784eb4542ac6c697
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a demo/chatbot implementation rather than a developer tool, framework, or workflow product.
+      decision_reason: It is a demonstration or educational Hugging Face Space, not a standalone developer-facing tool, agent, or infrastructure product with ongoing utility or maintainership.
       decision_evidence:
-        - Hosted on Hugging Face as a Space (demo/experimental project)
-        - Described as a chatbot built with LangChain and ChatGPT
-        - Listed in awesome-langchain under 'Open Source Projects > Other / Chatbots'
+        - Hosted on Hugging Face Spaces as a demo by user JavaFXpert
+        - No repository description, stars, topics, or license provided indicating minimal project traction or maintenance
+        - Combines ChatGPT and LangChain in a basic conversational interface without claims of autonomy, extensibility, or developer workflow integration
       category_candidates: []
       contrastive_reason: null
       review_reason: null

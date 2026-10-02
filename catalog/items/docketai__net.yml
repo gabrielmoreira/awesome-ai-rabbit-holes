@@ -36,27 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An autonomous AI agent designed to handle complex tasks and workflows.
-  why_it_matters: It offers an automated way to manage multi-step processes that would otherwise require manual coordination.
-  mental_damage: Another agent to delegate your actual job to while you watch a terminal window spin in circles.
+  summary: DocketAI is a prototype AI agent built on Replit with an unclear or placeholder description.
+  why_it_matters: It does not currently offer a defined developer tooling function or clear value proposition for software developers.
+  mental_damage: Another AI demo that promises autonomy but delivers only a Replit skeleton and a TODO to update the description.
   tags:
-    - autonomous-agents
-    - ai-automation
-    - workflow-automation
-  confidence: low
+    - ai-agent
+    - replit
+    - prototype
+  confidence: high
 curation:
   status: excluded
-  reason: Insufficient information to determine the product's specific developer-tooling utility or core identity.
+  reason: The project lacks a substantive identity as a developer-facing AI tool, offering only a vague Replit-based prototype with no clear functionality, workflow integration, or product maturity.
   evidence:
-    - No repo description or README provided
-    - No stars or activity metrics available
-    - Only source-list context provided via 'awesome-ai-agents' which is a generic directory reference
+    - Repo description is missing; scraped site title and description only state 'DocketAI — built on Replit. Update this description to reflect the app.'
+    - Listed in awesome-ai-agents under 'Docket AI' with a note to update the description, indicating incompleteness.
+    - No stars, creation, or push dates provided; no evidence of active development, defined features, or developer tooling scope.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -68,28 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-24T04:37:57.097Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for docketai__net: Invalid AI response structure: Invalid confidence value: undefined"
-    attempts: 3
+    status: done
+    updated_at: "2026-10-01T04:26:46.587Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:fbbfb28afa87e25f169a8f5c78f3cccc7b1108cc99a7877ef94028f792caab03
+      category_rules_version: c367d6101132
+      input_hash: sha256:9322b9a82efcba87939f29eb67000b2ba97ac88ab35c45e2a678c64b379fd1dd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Insufficient information to determine the product's specific developer-tooling utility or core identity.
+      decision_reason: The project lacks a substantive identity as a developer-facing AI tool, offering only a vague Replit-based prototype with no clear functionality, workflow integration, or product maturity.
       decision_evidence:
-        - No repo description or README provided
-        - No stars or activity metrics available
-        - Only source-list context provided via 'awesome-ai-agents' which is a generic directory reference
+        - Repo description is missing; scraped site title and description only state 'DocketAI — built on Replit. Update this description to reflect the app.'
+        - Listed in awesome-ai-agents under 'Docket AI' with a note to update the description, indicating incompleteness.
+        - No stars, creation, or push dates provided; no evidence of active development, defined features, or developer tooling scope.
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+      review_reason: null
       review_resume_lifecycle: null

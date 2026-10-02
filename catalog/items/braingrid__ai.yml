@@ -69,9 +69,8 @@ insights:
   tags:
     - app-builder
     - spec-driven
-    - ai-agent
+    - mcp
     - verification
-    - prompt-to-app
   confidence: high
 curation:
   status: included
@@ -96,13 +95,13 @@ processing:
         'B', ..."_reason": BrainGrid'"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1104d99f559abb7802c745546773949695143a1877ba44c8579f286dbf4be4c9
+      category_rules_version: c367d6101132
+      input_hash: sha256:8a76507cebcca5f15a3e58422f011cd41a34edbb7997d033de598f3b1ad1f1a1
       proposed_primary_category: app-builders
       disagreement: true
       decision_reason: >-

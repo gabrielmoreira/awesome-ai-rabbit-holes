@@ -52,17 +52,17 @@ insights:
     transcripts.
   mental_damage: Now you can spend 20 minutes instead of 8 hours feeling guilty about not being a quantitative analyst.
   tags:
-    - equity-research
-    - financial-data
-    - ai-analysis
+    - finance
+    - research
+    - ai-agent
   confidence: high
 curation:
   status: excluded
-  reason: The product is a domain-specific SaaS for financial analysis rather than a developer-facing tool or infrastructure.
+  reason: EquiVault.ai is an AI-powered financial research tool for equity analysis, not a developer-facing AI tool for coding, workflow automation, or software creation; its core function is financial analysis, not developer-tooling.
   evidence:
-    - Targeted at equity research and financial analysis (10-Ks, earnings transcripts)
-    - Main value is generating financial investment theses, not writing/testing code
-    - SaaS platform for end-users (analysts, advisors) rather than dev-tooling
+    - Platform answers questions about AAPL, MSFT, NVDA using 10-Ks, earnings transcripts, and insider trades with cited sources
+    - Marketed to analysts, advisors, and teams for financial research, not software development or code-related tasks
+    - No mention of code generation, IDE integration, agent workflows, or any developer tooling functionality in the provided context
 placement:
   primary_category: null
   section: null
@@ -89,22 +89,22 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ae2758607d45c6819ba3b1595c14ea1229e56ae9c2f2ad5878c13ac4f3df3481
+      category_rules_version: c367d6101132
+      input_hash: sha256:d1a80b40eedf59c78756fc53c11699a48b7f513fa2a9bf43e44e28294b7ee1e4
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The product is a domain-specific SaaS for financial analysis rather than a developer-facing tool or
         infrastructure.
       decision_evidence:
-        - Targeted at equity research and financial analysis (10-Ks, earnings transcripts)
-        - Main value is generating financial investment theses, not writing/testing code
-        - SaaS platform for end-users (analysts, advisors) rather than dev-tooling
+        - Platform answers questions about AAPL, MSFT, NVDA using 10-Ks, earnings transcripts, and insider trades with cited sources
+        - Marketed to analysts, advisors, and teams for financial research, not software development or code-related tasks
+        - No mention of code generation, IDE integration, agent workflows, or any developer tooling functionality in the provided context
       category_candidates: []
       contrastive_reason: null
       review_reason: null

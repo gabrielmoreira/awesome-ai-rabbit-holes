@@ -59,22 +59,20 @@ insights:
   tags:
     - testing
     - qa
-    - ai-automation
-    - e2e
-    - salesforce
-  confidence: high
+    - ai-powered
+  confidence: medium
 curation:
   status: excluded
   reason: >-
     Testim is a SaaS testing/QA platform, not a developer-tooling product focused on coding agents, IDEs, or adjacent
     infrastructure.
   evidence:
-    - Described as an 'automated testing platform for fast authoring of AI-powered stable tests'
-    - Primary value is UI/E2E test automation for web/mobile/Salesforce, not developer workflow augmentation
-    - Listed in source lists under 'Testing and QA', not developer tooling
+    - "Source-list context: listed in awesome-ai-coding-tools under Testing and QA as an automated testing platform for AI-powered stable tests"
+    - "README/scraped context: emphasizes AI-driven test authoring, self-healing locators, and integration with CI/CD tools like Jenkins, CircleCI, GitHub, and Slack"
+    - "Product positioning: focuses on accelerating testing, reducing maintenance, and root cause analysis — not generating code or apps from prompts"
 placement:
-  primary_category: null
-  section: null
+  primary_category: extensions-and-addons
+  section: Testing & Code Quality
 lifecycle:
   status: curated
   reason: null
@@ -89,24 +87,26 @@ processing:
         ..."_reason": Testim is "... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4091cf1c4927365e25d4a6cda199c27db6024523ec9c1944dacd8cddc73d5fa0
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:73123b320cc483b3f12f0ecef4eb2f2c53edf4865985605edb32192d107fd577
+      proposed_primary_category: extensions-and-addons
       disagreement: false
       decision_reason: >-
         Testim is a SaaS testing/QA platform, not a developer-tooling product focused on coding agents, IDEs, or
         adjacent infrastructure.
       decision_evidence:
-        - Described as an 'automated testing platform for fast authoring of AI-powered stable tests'
-        - Primary value is UI/E2E test automation for web/mobile/Salesforce, not developer workflow augmentation
-        - Listed in source lists under 'Testing and QA', not developer tooling
-      category_candidates: []
-      contrastive_reason: null
+        - "Source-list context: listed in awesome-ai-coding-tools under Testing and QA as an automated testing platform for AI-powered stable tests"
+        - "README/scraped context: emphasizes AI-driven test authoring, self-healing locators, and integration with CI/CD tools like Jenkins, CircleCI, GitHub, and Slack"
+        - "Product positioning: focuses on accelerating testing, reducing maintenance, and root cause analysis — not generating code or apps from prompts"
+      category_candidates:
+        - extensions-and-addons
+        - evals
+      contrastive_reason: Choose extensions-and-addons over evals because Testim's primary function is enhancing test creation and stability within existing workflows, not measuring or benchmarking AI/model behavior.
       review_reason: null
       review_resume_lifecycle: null
   discover:

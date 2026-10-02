@@ -50,9 +50,8 @@ insights:
     Just what every developer needs: another layer of configuration to ensure the AI actually follows the team's
     specific brand of insanity.
   tags:
-    - visual-studio-code
-    - github-copilot
-    - mcp
+    - vscode
+    - copilot
     - ai-customization
   confidence: high
 curation:
@@ -61,9 +60,8 @@ curation:
     The input is a documentation page for an existing product feature rather than a standalone tool, framework, or
     resource.
   evidence:
-    - URL points to vscode.com documentation
-    - Content is a feature overview/guide for existing Copilot customization
-    - Not a standalone product, repository, or curated directory
+    - URL is Microsoft's VS Code documentation site (code.visualstudio.com/docs/copilot/customization/overview)
+    - Content describes VS Code and Copilot features rather than introducing a new tool or product
 placement:
   primary_category: null
   section: null
@@ -90,22 +88,21 @@ processing:
         error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ed87839c9fe779c6ce1f1d7b21a5f16ad1e5b3d41e38076e38be0c67b428b40b
+      category_rules_version: c367d6101132
+      input_hash: sha256:782f5fdaaf07bed912ae889423a7083b3b45e1e1526305c1f79e8a8bf4dd9da7
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The input is a documentation page for an existing product feature rather than a standalone tool, framework, or
         resource.
       decision_evidence:
-        - URL points to vscode.com documentation
-        - Content is a feature overview/guide for existing Copilot customization
-        - Not a standalone product, repository, or curated directory
+        - URL is Microsoft's VS Code documentation site (code.visualstudio.com/docs/copilot/customization/overview)
+        - Content describes VS Code and Copilot features rather than introducing a new tool or product
       category_candidates: []
       contrastive_reason: null
       review_reason: null

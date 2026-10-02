@@ -44,10 +44,9 @@ insights:
     A perfect way to feel productive by reading about the tools you'll definitely use once you've finished reading about
     the tools you're currently reading about.
   tags:
+    - tutorial
     - llm
-    - resources
-    - tutorials
-    - agents
+    - education
   confidence: high
 curation:
   status: included
@@ -81,16 +80,16 @@ processing:
         Invalid confidence value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7d65cba6cd8071aa9468d8f8ee926459856a02cf546ef9da6d341efd43603ffa
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: c367d6101132
+      input_hash: sha256:38290fde3f62362e88f5e7f46c4ebc0132a501a4d441741bc7ea01f0b7b325b2
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a curated directory of resources meant to help developers navigate the expanding LLM ecosystem.
+      decision_reason: llm-universe is an educational resource collection, not a developer-facing AI tool, agent, framework, or infrastructure product; it belongs in learning materials, not the developer tooling catalog.
       decision_evidence:
         - Source-list context identifies it as a 'Summary of the world's best LLM resources'
         - Scraped title '动手学大模型应用开发' implies educational/tutorial content

@@ -48,8 +48,7 @@ insights:
   tags:
     - prediction-markets
     - solana
-    - fintech
-    - crypto
+    - trading
   confidence: high
 curation:
   status: excluded
@@ -57,8 +56,8 @@ curation:
     The product is a consumer-facing betting/fintech application, not a developer tool, framework, or infrastructure
     component.
   evidence:
-    - Scraped site context describes it as a prediction market for sports, politics, and culture
-    - Identified as a 'Finance & Fintech' implementation within an awesome-mcp-servers list
+    - "Title: Baozi - Prediction Markets on Solana"
+    - "Description: Trade prediction markets on Solana with SOL. Pari-mutuel betting on crypto, sports, politics, culture."
 placement:
   primary_category: null
   section: null
@@ -85,21 +84,21 @@ processing:
         total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:8dc3a4b0695332329f4c68d185ab921fc2c5af3bcd6fca590db7903067baaf4a
+      category_rules_version: c367d6101132
+      input_hash: sha256:9d6a0b78a2b2233dddcfd9b300e20bc9f0d89f3940d7b1c96e7fd3cc91ea5fb7
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The product is a consumer-facing betting/fintech application, not a developer tool, framework, or infrastructure
         component.
       decision_evidence:
-        - Scraped site context describes it as a prediction market for sports, politics, and culture
-        - Identified as a 'Finance & Fintech' implementation within an awesome-mcp-servers list
+        - "Title: Baozi - Prediction Markets on Solana"
+        - "Description: Trade prediction markets on Solana with SOL. Pari-mutuel betting on crypto, sports, politics, culture."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

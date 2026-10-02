@@ -49,16 +49,17 @@ insights:
     Nothing says 'I've lost control of my application logic' like needing a dedicated observability platform to figure
     out why a prompt just hallucinated a whole new backend.
   tags:
-    - llmops
-    - observability
-    - tracing
-    - evaluation
+    - documentation
+    - prompt-engineering
+    - mlops
   confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: This is a documentation page requiring an access code, not a standalone AI tool or developer-facing product with functional utility.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "URL points to a W&B docs page: https://docs.wandb.ai/guides/prompts"
+    - Primary page excerpt shows 'Access Restricted' prompt requiring an access code
+    - No repo description, stars, or activity signals indicating a deployable tool or platform
 placement:
   primary_category: null
   secondary_categories: []
@@ -86,14 +87,14 @@ processing:
         confidence value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3912e70ab1554ec7eadf30a84dce960c3acdeb10d12a072d0f36913541632d8f
-      proposed_primary_category: evals
+      category_rules_version: c367d6101132
+      input_hash: sha256:1176215060144a080d902212027fa40c0caf5c62f8e233ec4dd029af01303f47
+      proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The tool is specifically designed for measuring, tracing, and evaluating model/prompt behavior within a

@@ -47,9 +47,8 @@ insights:
     toward managing a fleet of autonomous interns who can all edit your source code simultaneously.
   tags:
     - vscode
-    - github-copilot
-    - agentic-workflow
-    - ide-integration
+    - copilot
+    - documentation
   confidence: high
 curation:
   status: included
@@ -87,5 +86,20 @@ processing:
         format: SyntaxError: Expected ',' or '}' after property value in JSON at position 142 (line 3 column 29)
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:92a665d8036838c0b0a357ae7120cb4266926a41d550c1409ca537e530e75c5e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a documentation resource for a feature within an existing IDE, rather than a standalone AI tool or agent.
+      decision_evidence:
+        - The URL is a VS Code documentation page.
+        - The content describes integrated editor features like 'Inline Chat' and 'Agents window' rather than a separate product.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -48,11 +48,11 @@ insights:
     Now you can finally feed an LLM every TikTok trend, because nothing says 'production-ready' like a model trained on
     the entire 'Never Gonna Give You Up' corpus.
   tags:
-    - video-transcription
     - api
-    - data-extraction
-    - ai-training
+    - transcription
     - social-media
+    - data-extraction
+    - rag
   confidence: high
 curation:
   status: excluded
@@ -60,9 +60,9 @@ curation:
     The product is a general-purpose API for video data extraction, not a developer-tooling product focused on coding
     workflows, agent orchestration, or AI-assisted development.
   evidence:
-    - Primary product is a video-to-text API for social media content
-    - Positioned as a data pipeline for AI training/retrieval, not developer tooling
-    - No coding agent, IDE, framework, or developer workflow integration
+    - Scraped site context describes it as 'one stop-shop API for makers to read web and YouTube content, ready for AI training and retrieval'
+    - Source-list context appears in awesome-mcp-servers as an Official Server, but MCP is presented as a compatibility feature, not the product identity
+    - README emphasizes use cases like chatbots, content repurposing, and brand monitoring — end-user applications, not developer tooling workflows
 placement:
   primary_category: null
   section: null
@@ -89,22 +89,22 @@ processing:
         'S', ..."_reason": Supadata.a"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ed46dc0eb70b089e65364c1fa1a576dca10f23e6921f7a87d79c43817c0db0d0
+      category_rules_version: c367d6101132
+      input_hash: sha256:3766e7d5139380534a80369beb20c1f86b9c589baa41602a00156735e0c95e79
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The product is a general-purpose API for video data extraction, not a developer-tooling product focused on
         coding workflows, agent orchestration, or AI-assisted development.
       decision_evidence:
-        - Primary product is a video-to-text API for social media content
-        - Positioned as a data pipeline for AI training/retrieval, not developer tooling
-        - No coding agent, IDE, framework, or developer workflow integration
+        - Scraped site context describes it as 'one stop-shop API for makers to read web and YouTube content, ready for AI training and retrieval'
+        - Source-list context appears in awesome-mcp-servers as an Official Server, but MCP is presented as a compatibility feature, not the product identity
+        - README emphasizes use cases like chatbots, content repurposing, and brand monitoring — end-user applications, not developer tooling workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null

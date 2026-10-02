@@ -45,9 +45,8 @@ insights:
     engagement tokens?
   tags:
     - ai-agents
-    - creator-economy
     - livestreaming
-    - autonomous-agents
+    - creator-tools
   confidence: high
 curation:
   status: excluded
@@ -55,9 +54,9 @@ curation:
     The project is an end-user consumer/creator platform for AI personalities rather than a developer-facing tool,
     framework, or infrastructure.
   evidence:
-    - Focuses on 'launching AI streamers' and 'onetizing every moment'
-    - Targeted at creators, brands, and communities for entertainment
-    - Does not provide developer primitives like SDKs, APIs, or coding assistance
+    - Scraped site describes AITV as 'the world's first AI streamer factory' for creators, brands, and communities
+    - Features focus on livestreaming, avatar creation, audience engagement, and token-based monetization via $AITV on blockchain
+    - Source-list placement in awesome-ai-agents is under 'evo.ninja' with no indication of developer tooling or code-related functionality
 placement:
   primary_category: null
   section: null
@@ -84,22 +83,22 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3e562c4069461e04c97390990e571bde428eea94e6a145ef67a82100d34bd581
+      category_rules_version: c367d6101132
+      input_hash: sha256:b699c6038b2e04adeb5653e92055f58cadc6bde1d6a50779d3f9f1a03dd08fd0
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The project is an end-user consumer/creator platform for AI personalities rather than a developer-facing tool,
         framework, or infrastructure.
       decision_evidence:
-        - Focuses on 'launching AI streamers' and 'onetizing every moment'
-        - Targeted at creators, brands, and communities for entertainment
-        - Does not provide developer primitives like SDKs, APIs, or coding assistance
+        - Scraped site describes AITV as 'the world's first AI streamer factory' for creators, brands, and communities
+        - Features focus on livestreaming, avatar creation, audience engagement, and token-based monetization via $AITV on blockchain
+        - Source-list placement in awesome-ai-agents is under 'evo.ninja' with no indication of developer tooling or code-related functionality
       category_candidates: []
       contrastive_reason: null
       review_reason: null

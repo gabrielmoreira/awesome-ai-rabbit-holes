@@ -56,11 +56,10 @@ insights:
     The realization that your 'generational wealth' is actually just a complex math problem involving the Alternative
     Minimum Tax and a prayer.
   tags:
-    - equity-planning
-    - taxes
-    - rsus
-    - iso
-    - financial-planning
+    - tax
+    - equity
+    - calculator
+    - finance
   confidence: high
 curation:
   status: excluded
@@ -68,9 +67,9 @@ curation:
     This is a financial planning and tax calculator tool for employees, not a tool for building software or an AI tool
     for developers' coding workflows.
   evidence:
-    - Focuses on 'tax-aware' sell schedules and 'ISO exercise' calculations
-    - The site provides financial calculators for RSU and QSBS qualification
-    - No mention of AI-driven development, coding agents, or developer infrastructure
+    - "Repo description: (none)"
+    - "Scraped site context: Free Calculators for Equity Holders | OptionsAhoy — focused on stock concentration, protective puts, ISO exercise schedules, and tax calculations."
+    - No evidence of AI integration, agent behavior, code generation, or developer tooling beyond basic web forms.
 placement:
   primary_category: null
   section: null
@@ -97,5 +96,21 @@ processing:
         Worker local total request limit reached (2492/16)
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:5dd06a6d54848bd7741664376399510db8bb0b914c64ffbb295a4f0c722d3797
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: OptionsAhoy is a financial tax calculator suite for equity holders, not a developer-facing AI tool, agent, framework, or workflow product.
+      decision_evidence:
+        - "Repo description: (none)"
+        - "Scraped site context: Free Calculators for Equity Holders | OptionsAhoy — focused on stock concentration, protective puts, ISO exercise schedules, and tax calculations."
+        - No evidence of AI integration, agent behavior, code generation, or developer tooling beyond basic web forms.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

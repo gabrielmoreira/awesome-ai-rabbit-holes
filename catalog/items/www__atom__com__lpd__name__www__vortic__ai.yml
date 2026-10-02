@@ -36,17 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A domain name auction page for vortic.ai on Atom.com.
-  why_it_matters: N/A
-  mental_damage: The brief moment of hope that a new AI tool has arrived, only to realize it is just a domain for sale.
-  tags: []
+  summary: A domain name marketplace listing for the URL www.vortic.ai on Atom.com.
+  why_it_matters: It is not a developer tool, but rather a piece of digital real estate currently for sale.
+  mental_damage: "Just what every developer needs: more high-priced domain names to add to the graveyard of unused startup ideas."
+  tags:
+    - domain-marketplace
   confidence: high
 curation:
   status: excluded
-  reason: The input is a domain name marketplace listing rather than a software product, tool, or library.
+  reason: The input is a domain name for sale on a marketplace, not a software product, tool, or resource.
   evidence:
-    - The URL points to an Atom.com domain sale page
-    - No repository, README, or product description was provided
+    - The URL leads to Atom.com, a domain marketplace
+    - No repository, README, or product description is provided
 placement:
   primary_category: null
   section: null
@@ -67,7 +68,7 @@ processing:
     status: done
     updated_at: '2026-09-24T04:14:19.144Z'
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -78,10 +79,10 @@ processing:
       input_hash: sha256:e792591f20e0523b226a98a2670ac2218fcb3037cc555370372b7f3605bb3df9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a domain name marketplace listing rather than a software product, tool, or library.
+      decision_reason: The input is a domain name for sale on a marketplace, not a software product, tool, or resource.
       decision_evidence:
-        - The URL points to an Atom.com domain sale page
-        - No repository, README, or product description was provided
+        - The URL leads to Atom.com, a domain marketplace
+        - No repository, README, or product description is provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

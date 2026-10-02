@@ -40,21 +40,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Google Colab notebook serving as an educational resource for the LangChain framework.
-  why_it_matters: It provides a sandboxed environment to experiment with LangChain's orchestration capabilities without local setup.
-  mental_damage: Another notebook to bookmark and never actually finish.
-  tags:
-    - langchain
-    - notebooks
-    - education
+  summary: A Google Colab notebook with an opaque identifier and no discernible content.
+  why_it_matters: It does not matter to developers as it provides no tool, code, or usable resource.
+  mental_damage: Another cryptic Colab link promising AI enlightenment that delivers only a sign-in wall and existential doubt.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational notebook/tutorial rather than a standalone developer tool or product.
+  reason: The resource is a private or inaccessible Google Colab notebook with no discernible purpose, content, or developer-facing utility.
   evidence:
-    - Source list context identifies it as 'Learn > Notebooks' in an awesome-langchain list
-    - The URL points to a Google Colab notebook, which is an execution environment, not the tool itself
-    - The content is an auxiliary educational resource for a framework
+    - "Repo description: (none)"
+    - "Scraped site excerpt: 'Sign in'"
+    - "Source-list context: listed in awesome-langchain under Learn > Notebooks but with no accessible notebook content"
 placement:
   primary_category: null
   section: null
@@ -81,20 +78,20 @@ processing:
         Invalid AI response structure: Invalid confidence value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:527aae90e35dae4312c5d8dd555ecfc6429083f1f3b94b6fbf75c5c8a399f70b
+      category_rules_version: c367d6101132
+      input_hash: sha256:71a5b65b887acf0a6c7f406042768cde18d38e8c12d178c5c37770f7e52aba7b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational notebook/tutorial rather than a standalone developer tool or product.
+      decision_reason: The resource is a private or inaccessible Google Colab notebook with no discernible purpose, content, or developer-facing utility.
       decision_evidence:
-        - Source list context identifies it as 'Learn > Notebooks' in an awesome-langchain list
-        - The URL points to a Google Colab notebook, which is an execution environment, not the tool itself
-        - The content is an auxiliary educational resource for a framework
+        - "Repo description: (none)"
+        - "Scraped site excerpt: 'Sign in'"
+        - "Source-list context: listed in awesome-langchain under Learn > Notebooks but with no accessible notebook content"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -49,11 +49,9 @@ insights:
     Because apparently, even with a trillion-parameter model, we still need a crowdsourced manual to figure out how to
     make it act like a senior architect.
   tags:
-    - github-copilot
-    - custom-agents
-    - skills
-    - instructions
-    - productivity
+    - awesome-list
+    - copilot
+    - extensions
   confidence: high
 curation:
   status: included
@@ -87,22 +85,22 @@ processing:
         ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:9022d1017508a67c9d6e147b4105d6ef79db92842b89c68cf5f2deb24cd8b95c
+      category_rules_version: c367d6101132
+      input_hash: sha256:75e15701e1e378189c0bd90862e11edf3753d944f3eb1668822343068e7ad183
       proposed_primary_category: awesome-awesomes
       disagreement: false
       decision_reason: >-
         The project is a curated directory of community-contributed resources rather than a standalone tool or software
         product.
       decision_evidence:
-        - README identifies as a 'community-driven collection'
-        - Content consists of various 'Agents', 'Instructions', and 'Skills'
-        - Source-list context from awesome-copilot confirms it is a collection of resources
+        - Listed in source-list context as 'Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot' under awesome-copilot
+        - Primary page excerpt describes it as 'A community-driven collection of custom agents, instructions, and skills to enhance GitHub Copilot experiences across various domains, languages, and use cases'
+        - Contains categorized resources like Agents, Instructions, Skills, and Learning Hub content for Copilot customization
       category_candidates:
         - awesome-awesomes
         - skills

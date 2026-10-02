@@ -47,9 +47,10 @@ insights:
   mental_damage: Because nothing says 'trustless' like an AI-generated contract you still have to audit yourself.
   tags:
     - smart-contracts
-    - openzeppelin
     - blockchain
     - code-generation
+    - solidity
+    - web3
   confidence: high
 curation:
   status: included
@@ -83,14 +84,14 @@ processing:
         Unexpected token 'I', ..."_reason": It generat"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:dd54a8b9f6140c66eb24c68349e902e45c8a9ca57b191e4755c7d23169d7e666
-      proposed_primary_category: app-builders
+      category_rules_version: c367d6101132
+      input_hash: sha256:26df99d3f69870fbde95684a670d761667892c8cf07d7bede7e307962e96bf56
+      proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The tool's primary function is generating smart contract code from prompts/inputs, fitting the app-builder

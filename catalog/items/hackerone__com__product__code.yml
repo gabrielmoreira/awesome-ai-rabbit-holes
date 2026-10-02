@@ -55,15 +55,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: HackerOne Code is a security-focused AI coding assistant for identifying and fixing vulnerabilities in code.
-  why_it_matters: It helps developers proactively find and remediate security issues in their codebases using AI-driven analysis.
-  mental_damage: Because nothing says 'secure' like an AI that might hallucinate your next CVE.
+  summary: HackerOne Code is a product that integrates AI-powered security scanning and vulnerability detection into the software development lifecycle.
+  why_it_matters: It helps developers catch security flaws early by providing automated code analysis and remediation guidance within their existing workflows.
+  mental_damage: Yet another tool promising to shift security left, while developers still spend half their day waiting for scan results to finish.
   tags:
     - security
-    - code-analysis
-    - vulnerability-detection
-    - ai-assistant
-  confidence: high
+    - devsecops
+    - ai-powered
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
@@ -72,7 +71,7 @@ curation:
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
   status: curated
   reason: null
@@ -87,10 +86,10 @@ processing:
         Unexpected token 'I', ..."_reason": It is an A"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:0f9e0b9cb163c7636f30a24c4621132d94c00cbc5a672dab53216eda8df9c88b
@@ -100,9 +99,11 @@ processing:
         It is a developer-facing coding assistant specialized in security review and vulnerability remediation, fitting
         the Review, Testing & Repair Agents section.
       decision_evidence:
-        - Source-list context places it in the Security section of awesome-ai-coding-tools
-        - Product identity is a coding assistant focused on security (HackerOne Code)
+        - Listed in awesome-ai-coding-tools under the Security section
+        - Product URL points to hackerone.com/product/code, indicating a security product offering
+        - No evidence of autonomous coding, app generation, or framework-like behavior in provided inputs
       category_candidates:
+        - extensions-and-addons
         - coding-agents
         - ai-dev-extensions
       contrastive_reason: >-

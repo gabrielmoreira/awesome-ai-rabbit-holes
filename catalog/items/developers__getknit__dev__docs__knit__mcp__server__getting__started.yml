@@ -50,9 +50,8 @@ insights:
     context-less vacuum.
   tags:
     - mcp
-    - saas-integrations
-    - ai-agents
-    - connectivity
+    - saas
+    - documentation
   confidence: high
 curation:
   status: included
@@ -86,16 +85,16 @@ processing:
         Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:759760c27a0034ebbea556102a79ac82d9648993a12b867f6ac280b15745d693
-      proposed_primary_category: mcp
+      category_rules_version: c367d6101132
+      input_hash: sha256:9129a0f117141df02911d09eafeb4b05ca49bd6dccda5f8ca137c19b13bf35da
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: The product's core identity is serving as a managed hub of MCP servers to facilitate agent-to-SaaS connectivity.
+      decision_reason: This is documentation, not a standalone product or tool, so it does not qualify as developer-tooling in the catalog.
       decision_evidence:
         - Directly describes itself as an 'MCP Hub for AI Agents'
         - Provides a marketplace-style selection of tools (CRM, Accounting, HRIS) to package into an MCP server

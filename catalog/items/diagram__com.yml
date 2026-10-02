@@ -69,11 +69,11 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-09-24T04:37:38.545Z"
+    updated_at: "2026-10-01T04:26:36.588Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for diagram__com: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
-    attempts: 3
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for diagram__com: Invalid AI response format: SyntaxError: Unexpected token 'D', ...\"_reason\": Diagram.co\"... is not valid JSON"
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

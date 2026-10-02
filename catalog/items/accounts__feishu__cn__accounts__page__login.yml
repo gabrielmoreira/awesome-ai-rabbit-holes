@@ -36,17 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A login page for the Feishu productivity platform.
-  why_it_matters: It provides no developer utility or AI-related functionality.
-  mental_damage: The ecosystem has finally reached the point where we are reviewing authentication endpoints.
+  summary: A Feishu login page for account authentication.
+  why_it_matters: None — it does not provide AI tooling, development workflows, or code-related functionality for developers.
+  mental_damage: Clicking yet another SSO portal just to remember you still don’t have access to whatever internal AI tool this was meant to gate.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The provided URL is a standard login page for Feishu and is not a developer tool, library, or AI resource.
+  reason: This is a corporate login portal with no AI, development, or tooling identity; it serves only as an authentication gate for Feishu accounts.
   evidence:
-    - The URL points to an account login page (feishu.cn)
-    - No repo description, README, or technical context is provided
+    - "URL: https://accounts.feishu.cn/accounts/page/login — a Feishu (Lark) account login page"
+    - "Repo description: (none) — no GitHub repo or product description provided"
+    - "Seen in source list: awesome-LLM-resources under '课程 Course' — listed as a resource, not a tool"
 placement:
   primary_category: null
   section: null
@@ -67,21 +68,22 @@ processing:
     status: done
     updated_at: '2026-09-24T04:29:52.390Z'
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: c367d6101132
       input_hash: sha256:009e18bfbcd68e1886aeab443d1e98b66de42b173cf6b7843a9cccc8eb4bd83c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The provided URL is a standard login page for Feishu and is not a developer tool, library, or AI resource.
+      decision_reason: This is a corporate login portal with no AI, development, or tooling identity; it serves only as an authentication gate for Feishu accounts.
       decision_evidence:
-        - The URL points to an account login page (feishu.cn)
-        - No repo description, README, or technical context is provided
+        - "URL: https://accounts.feishu.cn/accounts/page/login — a Feishu (Lark) account login page"
+        - "Repo description: (none) — no GitHub repo or product description provided"
+        - "Seen in source list: awesome-LLM-resources under '课程 Course' — listed as a resource, not a tool"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

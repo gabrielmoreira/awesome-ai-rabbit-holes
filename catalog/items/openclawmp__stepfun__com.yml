@@ -44,10 +44,8 @@ insights:
   tags:
     - agent-skills
     - marketplace
-    - plugins
-    - triggers
-    - communicators
-  confidence: high
+    - extensions
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in skills / Registries & Directories
@@ -80,22 +78,22 @@ processing:
         Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0731c99fd8b1c7aeaf38cc0bb851232d7c30473048ae1986d56eda3107845ccd
+      category_rules_version: c367d6101132
+      input_hash: sha256:109d15ebbef5e7eddb300a199a721ec46edb61cf1deee46f5bbb5bf922c9f8f3
       proposed_primary_category: skills
       disagreement: false
       decision_reason: >-
         The product is a registry/marketplace for reusable agent skills and extensions, matching the Agent Skills
         category's focus on skill packs and directories.
       decision_evidence:
-        - Site describes itself as a marketplace for skills, plugins, triggers, and communicators for agents
-        - Source-list context places it in a 'Skills' section of an LLM resource directory
-        - Primary value is discovery and distribution of agent capabilities
+        - Described as a place to '探索、分享技能、经验/集合、插件、触发器和通信器，让你的 Agent 加入无限的进化' (explore, share skills, experience sets, plugins, triggers, and communicators to let your Agent join infinite evolution)
+        - Features categorized sections for '技能' (skills), '插件' (plugins), '触发器' (triggers), and '通信器' (communicators) as installable assets for Agents
+        - Listed in awesome-LLM-resources under the 技能 (Skills) section as a resource for discovering and sharing Agent skills and plugins
       category_candidates:
         - skills
         - agent-orchestration

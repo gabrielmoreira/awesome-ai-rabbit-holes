@@ -49,11 +49,9 @@ insights:
     specific SQL table.
   tags:
     - context-engineering
-    - enterprise-data
-    - mcp-server
+    - mcp
     - data-governance
-    - knowledge-graph
-  confidence: high
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
@@ -86,10 +84,10 @@ processing:
         total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:229e95b15df815173e271e9360c1c2dcb6db79061ec1d6fa914e9beb0649a884
@@ -99,11 +97,11 @@ processing:
         Atlan's core value is building and serving a semantic/business context layer to existing agents rather than
         being the agent itself.
       decision_evidence:
-        - Claims to be the 'issing context layer for enterprise AI'
-        - Provides an MCP server to deliver certified context to downstream agents
-        - Focuses on semantic/ontology/lineage to solve agent hallucination
+        - Atlan is described as 'the context layer for enterprise AI' that unifies data graphs, business logic, and governance into a living graph for AI agents.
+        - It provides certified context via MCP server, SQL, and APIs, with context agents that auto-generate descriptions, metrics, and ontology across the data graph.
+        - It appears in awesome-mcp-servers under 'Official Servers' as a context layer giving AI agents access to trusted data graph and business logic.
       category_candidates:
-        - context-engineering
+        - memory-and-context
         - mcp
       contrastive_reason: >-
         Choose context-engineering over mcp because MCP is the delivery mechanism for their primary product identity:

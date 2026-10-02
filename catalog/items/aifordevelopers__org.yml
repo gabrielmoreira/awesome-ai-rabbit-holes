@@ -46,10 +46,9 @@ insights:
     replace your entire workflow.
   tags:
     - curated-list
-    - ai-tools
     - developer-resources
-    - directory
-  confidence: high
+    - ai-tools-directory
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
@@ -82,19 +81,20 @@ processing:
         value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:73206c2deabf44bde195f0e9558a745bdf19bb0eb9f9dd24d27ec3a6a88a9f12
+      category_rules_version: c367d6101132
+      input_hash: sha256:c4a0e2715b21cb2ea228e334f8b1e8dbf053f61307253370c36f02255d83dd28
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: It is a curated directory designed for navigating the AI developer ecosystem.
+      decision_reason: The site functions as a curated directory of AI developer tools, matching the awesome-awesomes category's purpose of helping developers discover and navigate the ecosystem.
       decision_evidence:
-        - Scraped site context describes it as a 'curated list of AI coding tools'
-        - Main value proposition is discovery and navigation of AI tools and resources
+        - "Scraped site description: 'Explore a curated list of the best AI coding tools for developers, featuring GitHub Copilot, Windsurf, Cody, and more.'"
+        - "Source-list context: Listed in 'awesome-ai-coding-tools' with purpose 'A curated list of AI-powered coding tools'."
+        - "Primary page excerpt: 'Curated AI tools and resources. Discover practical AI tools, model updates, and implementation guides built for developers.'"
       category_candidates:
         - awesome-awesomes
         - newsletters-and-feeds

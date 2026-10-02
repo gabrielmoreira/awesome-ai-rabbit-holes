@@ -46,12 +46,11 @@ insights:
     Because nothing says 'peace of mind' quite like trusting an agent to autonomously decide if your new deployment
     actually works.
   tags:
-    - ai-testing
-    - qa-automation
-    - e2e-testing
-    - no-code-testing
-    - autonomous-agents
-  confidence: high
+    - testing
+    - qa
+    - ai-agent
+    - automation
+  confidence: medium
 curation:
   status: included
   reason: >-
@@ -92,22 +91,22 @@ processing:
         total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4c96d2a39b45cc4f180f8152efe4d1ead12fb30f331a5a550d713101da609921
+      category_rules_version: c367d6101132
+      input_hash: sha256:3ebdb61882ae8800f586f82d5660adacdd082a3c25affcc769a2d08744782854
       proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-
         It functions as an autonomous testing agent that plans, executes, and maintains tests, fitting the 'Review,
         Testing & Repair' profile.
       decision_evidence:
-        - Claims to be an 'AI testing agent' using natural language and visual recognition
-        - Automates end-to-end tests across web, mobile, and desktop
-        - Featured in awesome-ai-coding-tools under Testing and QA
+        - Aximo is described as 'an AI testing agent that uses natural language and visual recognition to autonomously generate and execute end-to-end tests'
+        - Appears in awesome-ai-coding-tools under Testing and QA section as an AI-powered Quality Engineering Platform
+        - Core functionality involves AI-driven test creation, execution, and maintenance without manual scripting
       category_candidates:
         - coding-agents
         - ai-dev-extensions

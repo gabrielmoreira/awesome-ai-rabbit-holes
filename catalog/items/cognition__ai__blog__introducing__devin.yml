@@ -46,11 +46,9 @@ insights:
     The existential dread of watching a sandboxed shell execute itself while you realize your primary job might just be
     approving its PRs.
   tags:
-    - autonomous-agents
-    - ai-engineer
+    - ai-agent
     - software-engineering
-    - devin
-    - cognition-ai
+    - autonomous-coding
   confidence: high
 curation:
   status: included
@@ -84,22 +82,22 @@ processing:
         Invalid confidence value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:26609c465427d0a95acb5c8ac1149951cf5e77806b34cbfa10e6f5c8962e911f
+      category_rules_version: c367d6101132
+      input_hash: sha256:77250189de0b214c3a74154b7af31d57783a206aa84eb85435bceeae81c3a6d3
       proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-
         Devin is a standalone, autonomous agent that performs the core duties of a software engineer (planning, coding,
         testing, debugging) rather than just augmenting an existing IDE.
       decision_evidence:
-        - Claims to be the 'first fully autonomous AI software engineer'
-        - Capable of independent planning, executing tasks in a sandboxed environment, and fixing bugs autonomously
-        - Evaluated on SWE-bench for resolving real-world GitHub issues
+        - Devin can plan and execute complex engineering tasks requiring thousands of decisions using shell, code editor, and browser in a sandboxed environment.
+        - Devin correctly resolves 13.86% of SWE-bench issues end-to-end, significantly exceeding prior state-of-the-art on real-world GitHub bug resolution.
+        - Devin autonomously finds and fixes bugs, builds and deploys apps end to end, and contributes to mature production repositories without human intervention on each step.
       category_candidates:
         - coding-agents
         - app-builders

@@ -48,9 +48,8 @@ insights:
     you.
   tags:
     - cost-control
-    - ai-agents
+    - agent-tooling
     - python
-    - guardrails
   confidence: medium
 curation:
   status: included
@@ -60,7 +59,7 @@ curation:
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: LLM & Agent SDKs
+  section: null
 lifecycle:
   status: curated
   reason: null
@@ -84,10 +83,10 @@ processing:
         ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:1ef3c8c4a437121f16485d30342d4632ab06116bf32d2063a426b216f715c603
@@ -97,9 +96,9 @@ processing:
         The package is a code-first building block for embedding cost control into AI agent workflows, fitting the
         Frameworks & SDKs category.
       decision_evidence:
-        - PyPI package named 'agent-cost-guardrails' implies a library/toolkit identity
-        - Source-list context places it under 'Developer Productivity Tools'
-        - No evidence of being a standalone assistant, IDE, or orchestration platform
+        - Distributed via PyPI as 'agent-cost-guardrails', indicating a developer-installable Python package
+        - Appears in awesome-ai-coding-tools under 'Developer Productivity Tools' with a client challenge link
+        - No evidence of autonomous coding behavior; primary function is cost monitoring and enforcement
       category_candidates:
         - ai-frameworks
         - agent-orchestration

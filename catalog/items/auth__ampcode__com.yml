@@ -64,9 +64,9 @@ insights:
     An authentication page so unapologetically focused on capturing your email that it forgot to bring a product
     description along.
   tags:
-    - auth
-    - login-page
-    - amp
+    - authentication
+    - login
+    - saas
   confidence: high
 curation:
   status: excluded
@@ -107,5 +107,21 @@ processing:
         local total request limit reached (16/16)
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:28e078bbacc3db3b603703ac6886f275dfd257aee4b0f336e72eb4bcbec6f319
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The page is solely an authentication interface with no indication of being a developer-facing AI tool, agent, framework, or workflow product.
+      decision_evidence:
+        - The scraped site shows only a login form with email and Google sign-in options.
+        - No repository description, README, or product details are provided to indicate developer tooling functionality.
+        - The domain auth.ampcode.com suggests an authentication service, but no evidence of AI, coding agents, or dev tooling is present in the inputs.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

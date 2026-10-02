@@ -50,10 +50,10 @@ insights:
     the context of AI assistants like Claude or Cursor via MCP.
   mental_damage: Because your LLM definitely needs to understand French 'zonage PLU' to help you debug a React component.
   tags:
+    - api
     - mcp
     - real-estate
-    - api
-    - data-platform
+    - data-source
     - france
   confidence: high
 curation:
@@ -62,7 +62,7 @@ curation:
   evidence:
     - jev-latest choice confidence 0.69
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
   section: Cloud & API Integration
 lifecycle:
@@ -100,5 +100,20 @@ processing:
           "primary_category": "extensions-and-addons",
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:67241952feaa9785aa858afd6355d7f6861833484d7a78ce7db9cffa883efd5f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product's primary identity is a domain-specific data service for the French construction industry, not a developer-tooling product or MCP infrastructure.
+      decision_evidence:
+        - The core product is a REST API for construction permits and urbanism data.
+        - MCP is presented as a 'connector' or compatibility feature rather than the product's primary identity.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

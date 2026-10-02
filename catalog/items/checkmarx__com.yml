@@ -46,12 +46,12 @@ insights:
     Because nothing says 'odern development' like needing an autonomous security agent to police the code written by
     your first autonomous coding agent.
   tags:
-    - application-security
     - appsec
-    - devsecops
     - ai-security
-    - vulnerability-remediation
-  confidence: medium
+    - devsecops
+    - mcp
+    - agents
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Security & DevSecOps
@@ -84,10 +84,10 @@ processing:
         local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:59322cd9f7d9bdb08d2dfefcb85e5c1b546f9b03362f41d9b123a6431b1dfd33
@@ -97,9 +97,9 @@ processing:
         The platform functions as an autonomous security agent that interacts with the development workflow to triage,
         prioritize, and propose fixes for vulnerabilities.
       decision_evidence:
-        - Claims to provide 'Agentic Application Security' with 'Triage & Remediation Assist Agents'
-        - Focuses on automated detection and automated fixes at the point of code creation
-        - Offers specialized tools like 'Checkmarx Assist' and 'Developer Assist Agent'
+        - Checkmarx provides Developer Assist, Triage Assist, and Remediation Assist agents that operate in the IDE and PR workflows to surface fix proposals and prioritize risks
+        - It offers a Checkmarx MCP Server and MCP scanning capabilities to expose security data via the Model Context Protocol for agent consumption
+        - It is positioned as a platform that secures code creation, CI/CD, AI supply chain, and runtime — with MCP, IDE, and PR hooks that enforce security at every agentic control point
       category_candidates:
         - coding-agents
         - ai-dev-extensions

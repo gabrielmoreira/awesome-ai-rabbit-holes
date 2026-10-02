@@ -49,9 +49,8 @@ insights:
   tags:
     - cli
     - coding-agent
-    - terminal-native
-    - mentat
-  confidence: high
+    - terminal
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
@@ -84,21 +83,22 @@ processing:
         token 'M', ..."_reason": Mentat CLI"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:c06afbc54888dfb6d9fd95b4d1461770007407849c0b6448c39306083b1c5f73
+      category_rules_version: c367d6101132
+      input_hash: sha256:5d9206833a4b215c55e8de46968fef327aa3d2755f5718b0e3fa69a0ddeb1383
       proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-
         The product is a terminal-native coding assistant that developers delegate repo work to, fitting the core
         definition of Coding Agents.
       decision_evidence:
-        - Seen in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'
-        - URL path (mentat.ai/docs/cli) indicates a CLI-focused product
+        - Seen in source list 'awesome-cli-coding-agents' under section 'Terminal-native coding agents > Closed Source', indicating recognition as a terminal-native AI coding agent.
+        - URL path '/docs/cli' and name 'cli' suggest a command-line interface focused on direct coding agent functionality.
+        - No evidence of app generation, MCP serving, or framework characteristics; identity centers on being a coding agent in the terminal.
       category_candidates:
         - coding-agents
         - ai-dev-extensions

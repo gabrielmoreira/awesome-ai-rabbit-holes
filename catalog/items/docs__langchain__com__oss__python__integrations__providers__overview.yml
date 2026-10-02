@@ -50,10 +50,9 @@ insights:
     It provides the ultimate abstraction layer that helps you confidently swap one
     slightly-different-but-mostly-the-same LLM for another.
   tags:
-    - llm-abstraction
-    - python-sdk
-    - agent-framework
+    - langchain
     - integrations
+    - documentation
   confidence: high
 curation:
   status: included
@@ -91,16 +90,16 @@ processing:
         Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:91e7ea84c324e4600113389df7e48547d88d96039f27b6b669037be4d4a4824b
-      proposed_primary_category: ai-frameworks
+      category_rules_version: c367d6101132
+      input_hash: sha256:21e4160cb404f82455b30cf8d2d6df171363950f379ff3854d6d50d99366991e
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: LangChain is the industry-standard SDK/framework for building AI applications via programmatic imports.
+      decision_reason: This is a documentation page, not a standalone product, tool, or developer-facing artifact that performs a function; it describes integrations but does not provide them.
       decision_evidence:
         - README describes it as a set of integrations for chat models, embedding models, and tools
         - Content focuses on Python packages to implement standard interfaces

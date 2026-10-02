@@ -46,9 +46,8 @@ insights:
   tags:
     - ai-agents
     - customer-support
-    - automation
-    - ticket-resolution
-  confidence: high
+    - workflow-automation
+  confidence: medium
 curation:
   status: excluded
   reason: >-
@@ -61,8 +60,8 @@ curation:
       workflows
     - Claims to replace/augment support teams rather than developer workflows
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: curated
   reason: null
@@ -86,14 +85,14 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e860e3d4998b6a5d9cb977524ab8a62f3b1805a13eb9ddffc37a7ee4aa1aee3f
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:bae913d4586b0479ca6be9061b2bcb5a11198d65588e4b3ec2312b997eec912f
+      proposed_primary_category: agent-orchestration
       disagreement: false
       decision_reason: >-
         The product is a vertical SaaS solution for customer support automation rather than a general-purpose developer

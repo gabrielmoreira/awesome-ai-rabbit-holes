@@ -50,10 +50,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation page for a library rather than a standalone tool, framework, or product.
+  reason: The input is documentation for a feature within the Transformers library, not a standalone product, agent, or tool.
   evidence:
-    - Scraped site context indicates it is a 'documentation page'
-    - The page content is a redirect notice for v5.11.0 documentation
+    - Scraped site context indicates the page is a redirect to the main Transformers documentation.
+    - The URL points to an auxiliary resource page rather than a distinct tool or repository.
 placement:
   primary_category: null
   section: null
@@ -80,5 +80,20 @@ processing:
         from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:4c84bcd75b43915d18a03e8803fc60d8fe517c8544823eacd01e63f122b240fb
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is documentation for a feature within the Transformers library, not a standalone product, agent, or tool.
+      decision_evidence:
+        - Scraped site context indicates the page is a redirect to the main Transformers documentation.
+        - The URL points to an auxiliary resource page rather than a distinct tool or repository.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

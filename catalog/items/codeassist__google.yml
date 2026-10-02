@@ -46,10 +46,9 @@ insights:
     Because deciding between three different cloud provider AI assistants is the peak of modern developer existential
     dread.
   tags:
-    - google-cloud
-    - gemini
-    - enterprise-ai
-    - cloud-ide
+    - coding-agent
+    - ai-assistant
+    - browser-based
   confidence: medium
 curation:
   status: included
@@ -59,7 +58,7 @@ curation:
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: IDE-Native & Editor Agents
+  section: Browser & Computer-Use Agents
 lifecycle:
   status: curated
   reason: null
@@ -83,21 +82,22 @@ processing:
         local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4c57d9f19dd5eca7a8b02ea4499f1b2d2fa0ffc813a5f32c86c1c6b094a27e3c
+      category_rules_version: c367d6101132
+      input_hash: sha256:e6492dc443d98a69ef15ec3008c1ac861093f3814b42a3c63639fdb4dde834c9
       proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-
         It is a primary coding assistant that integrates with the developer's environment to assist with code completion
         and cloud-integrated tasks.
       decision_evidence:
-        - Source list placement in 'Code Completion' section of awesome-ai-coding-tools
-        - Product is an AI-powered coding assistant service
+        - The tool is presented as a coding agent at codeassist.google with a focus on AI-assisted code tasks
+        - It is listed in awesome-ai-coding-tools under the Code Completion section, indicating recognition as an AI-powered coding tool
+        - No evidence suggests it is primarily an extension, framework, or app builder; its identity centers on being an agent that acts on code
       category_candidates:
         - coding-agents
         - ai-ides-editors

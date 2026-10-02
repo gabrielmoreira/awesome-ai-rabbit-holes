@@ -44,10 +44,8 @@ insights:
     Now you can replace one unmanageable LLM prompt with a chaotic committee of specialized agents that might still
     hallucinate in unison.
   tags:
+    - ai-framework
     - multi-agent
-    - orchestration
-    - agents
-    - framework
     - python
   confidence: high
 curation:
@@ -82,21 +80,22 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4b1685efb216c4acbdca227f573f4e42e36f50bf06192cea118dd119f449f5f6
+      category_rules_version: c367d6101132
+      input_hash: sha256:9877fd07aa97d1b489e2333a15fe90a92a879503c87490aad75e7af5c294706b
       proposed_primary_category: ai-frameworks
       disagreement: false
       decision_reason: >-
         CrewAI is a code-first framework used to script and program multi-agent workflows, rather than an operated
         control plane.
       decision_evidence:
-        - Included in awesome-local-ai for Agents
-        - Brand identity centers on multi-agent orchestration through programming
+        - Source-list context shows it appears in awesome-local-ai under Agents, but the scraped site and common understanding identify it as a Python framework for agent orchestration.
+        - Category definitions classify CrewAI as a code-first SDK belonging in ai-frameworks, not agent-orchestration or coding-agents.
+        - The product is used as a library developers import, not an operated platform or standalone agent.
       category_candidates:
         - ai-frameworks
         - agent-orchestration

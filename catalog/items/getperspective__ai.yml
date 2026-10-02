@@ -52,9 +52,8 @@ insights:
     polite but just as likely to fail your edge cases.
   tags:
     - ai-forms
+    - workflow-automation
     - structured-data
-    - conversational-ui
-    - automation-trigger
   confidence: high
 curation:
   status: excluded
@@ -93,13 +92,13 @@ processing:
         value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:01f1dedc1825f50b0f74a6d43b41ef12b70b78585e01b598324fb79d31cb6373
+      category_rules_version: c367d6101132
+      input_hash: sha256:d4aa2ddd343fb5a35321b56ff783b6f1ebd2821b8ec5c4a83e1912ccc4a4c413
       proposed_primary_category: null
       disagreement: false
       decision_reason: >-

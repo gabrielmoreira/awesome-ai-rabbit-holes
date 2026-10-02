@@ -46,10 +46,9 @@ insights:
     It turns your IDE into a conversation where you spend more time negotiating with a side panel than actually typing
     code.
   tags:
+    - ai-assistant
+    - vscode-extension
     - copilot
-    - vscode
-    - chat-interface
-    - ai-assistance
   confidence: high
 curation:
   status: included
@@ -87,14 +86,14 @@ processing:
         response structure: Missing required field: mental_damage
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ac8e7b04b03d5827a8c96c371446418224ce55729a6c373eaddf25bc0086b7ae
-      proposed_primary_category: ai-dev-extensions
+      category_rules_version: c367d6101132
+      input_hash: sha256:27330de73515decabdd5e2009d36bf054cd601c97786469af3b693f3f7363cd0
+      proposed_primary_category: coding-agents
       disagreement: false
       decision_reason: >-
         Copilot Chat is an extension that augments the VS Code editor with conversational capabilities rather than being
@@ -104,7 +103,6 @@ processing:
         - 'It augments the editor with features like context mentions (#file, #codebase) and code review overlays.'
         - The documentation describes it as a way to interact with agents within the existing VS Code environment.
       category_candidates:
-        - ai-dev-extensions
         - coding-agents
       contrastive_reason: >-
         Choose ai-dev-extensions over coding-agents because the tool's primary identity is a host integration that

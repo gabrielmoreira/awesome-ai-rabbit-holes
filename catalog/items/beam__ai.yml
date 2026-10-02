@@ -44,10 +44,9 @@ insights:
     Another autonomous agent to watch carefully while it decides whether to fix your bug or accidentally delete your
     production database.
   tags:
-    - autonomous-agents
-    - ai-workforce
-    - task-automation
-  confidence: low
+    - ai-agents
+    - platform
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
@@ -84,14 +83,14 @@ processing:
         total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4ed291ba1fe01957275a2d2968ef65bab518b9685bb2669929c3e2e18be79e94
-      proposed_primary_category: coding-agents
+      category_rules_version: c367d6101132
+      input_hash: sha256:b1a38edbc2d77873dce7d3cf9f3a23ab311082b17489a4999f109b0ee9dbc197
+      proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The project is categorized as an autonomous agent capable of performing tasks, which aligns with the core

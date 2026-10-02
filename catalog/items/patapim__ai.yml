@@ -48,11 +48,9 @@ insights:
     without replacing the core assistant.
   mental_damage: Finally, a way to make Claude Code feel like it’s actually paying attention to more than one thing at a time.
   tags:
-    - claude-code
-    - terminal-agents
-    - remote-access
-    - voice-dictation
-    - browser-automation
+    - cli
+    - agent-extension
+    - workflow
   confidence: high
 curation:
   status: included
@@ -86,10 +84,10 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:2df4af8bcbd958cedb402500dac6e6fb752e840de2059f53980d9c79308311f3
@@ -105,7 +103,7 @@ processing:
         - Explicitly positions itself as a superpower suite for Claude Code, Codex, Antigravity, or custom CLIs
         - Source-list context places it under 'Harnesses & orchestration > Session managers & parallel runners'
       category_candidates:
-        - ai-dev-extensions
+        - extensions-and-addons
         - coding-agents
       contrastive_reason: >-
         Choose ai-dev-extensions over coding-agents because its core value is augmenting Claude Code with workflow, UI,

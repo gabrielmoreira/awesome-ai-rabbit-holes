@@ -48,11 +48,9 @@ insights:
     scraper.
   tags:
     - mcp
-    - job-search
-    - api
-    - scraping
-    - automation
-  confidence: high
+    - api-integration
+    - job-data
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
@@ -85,20 +83,20 @@ processing:
         Invalid AI response structure: Invalid confidence value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e4579ed1e60cfc5c718568d67c5b9803c36cf5afd7cf1c6af69bbb6a7d8a810c
+      category_rules_version: c367d6101132
+      input_hash: sha256:95eac5ca00211912c4cd21ca06edafe2b1ab8e345a69f749c0e598f8654540d4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product identity is specifically an MCP server designed to expose a specialized API to LLM clients.
+      decision_reason: The product's core identity is an MCP server exposing a specific API, making MCP the primary product identity rather than a compatibility feature.
       decision_evidence:
-        - Scraped site context confirms it is an 'MCP server' for the Career Site Job Listing API
-        - README provides specific JSON configuration for MCP clients
-        - Listed in 'awesome-mcp-servers' as a community server
+        - Described as 'Career Site Job Listing API MCP server' in Apify documentation
+        - Provides MCP configuration exposing tools like fetch-actor-details and fantastic-jobs/career-site-job-listing-api
+        - Listed in awesome-mcp-servers under Community Servers for MCP server discovery
       category_candidates:
         - mcp
         - ai-dev-extensions

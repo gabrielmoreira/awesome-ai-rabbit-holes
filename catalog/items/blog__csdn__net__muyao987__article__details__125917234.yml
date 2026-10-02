@@ -48,10 +48,7 @@ insights:
     truly caught up.
   tags:
     - llm-resources
-    - agents
-    - coding-assistance
-    - mcp
-    - multimodal
+    - curated-list
   confidence: medium
 curation:
   status: included
@@ -85,19 +82,20 @@ processing:
         from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0b170b99eb79f59d06ee3f028207d90c1987330abd7d96788c279b949014a21e
+      category_rules_version: c367d6101132
+      input_hash: sha256:7dad79e24ad132783f7a51c56127d54ce908053b63fe211a150df00e2a91f7ad
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: The content is a curated summary of diverse LLM resources rather than a standalone tool or framework.
+      decision_reason: The source is a blog post functioning as a curated directory of LLM resources, matching the scope of awesome-awesomes as a publication feed for developers.
       decision_evidence:
-        - Listed in source-list context as a summary of the world's best LLM resources
-        - Covers a broad range of topics like Agent, MCP, and Coding Assistance
+        - "Seen in awesome-LLM-resources with purpose: 'Summary of the world's best LLM resources' under 技巧 Tips"
+        - URL is a CSDN blog article (https://blog.csdn.net/muyao987/article/details/125917234), not a standalone tool or product
+        - No GitHub repo, stars, or activity signals — purely a content resource
       category_candidates:
         - awesome-awesomes
         - skills

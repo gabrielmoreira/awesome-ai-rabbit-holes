@@ -47,10 +47,9 @@ insights:
     where it was vaguely discussed.
   tags:
     - mcp
-    - tldv
-    - meeting-context
-    - integrations
-  confidence: high
+    - meeting-transcription
+    - video-summarization
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
@@ -59,7 +58,7 @@ curation:
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Communication, Files & Productivity
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: null
@@ -82,22 +81,23 @@ processing:
         Catalog LLM categorization failed for gitlab__com__tldv__tldv__mcp__server: Invalid AI response format:
         SyntaxError: Unexpected token 'T', ..."_reason": The produc"... is not valid JSON
     next_retry_at: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:cc162638e45fffbccacad3598db3beee8f039b7c192c1c13a189900484d86d2b
+      category_rules_version: c367d6101132
+      input_hash: sha256:0c26283f70bed51398c1a64d7fef768bd5b10accdeea6a6af68dac5196c2851a
       proposed_primary_category: mcp
       disagreement: false
       decision_reason: >-
         The project is specifically an MCP server designed to serve a particular domain (tldv meeting data) to
         MCP-compatible clients.
       decision_evidence:
-        - Project name explicitly identifies it as an mcp-server
-        - Included in the awesome-mcp-servers directory under Official Servers
+        - The repository is named tldv-mcp-server and is listed in the awesome-mcp-servers directory under 'Official Servers'
+        - The GitLab page shows it as a project with commits and a README, indicating it is a standalone MCP server implementation
+        - No description or README details are provided, but the naming and source-list context confirm its purpose as an MCP server for tl;dv
       category_candidates:
         - mcp
         - ai-dev-extensions

@@ -60,10 +60,9 @@ insights:
   mental_damage: Finally, a way to skip the 'make it pop' feedback loop and go straight to 'ship it'.
   tags:
     - ui-generation
-    - design-systems
+    - design-system
     - prototyping
     - frontend
-    - ai-design
   confidence: high
 curation:
   status: excluded
@@ -77,8 +76,8 @@ curation:
       Source-list context places it under 'UI Generators' in a coding tools list, but the product itself is
       design-focused
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Internal Tools & Dashboards
 lifecycle:
   status: curated
   reason: null
@@ -93,14 +92,14 @@ processing:
         token 'M', ..."_reason": Magic Patt"... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5a7c1f2a3cb712db1512088ccf91ec19ee1e7e836c32baeac10af0491fd2a64d
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:9ba8869e92dfef813bef7a2993cafc9bc281536234c26a585f03c2dc8003059a
+      proposed_primary_category: app-builders
       disagreement: false
       decision_reason: >-
         Magic Patterns is a UI/UX design tool for product teams, not a developer-facing coding tool, framework, or

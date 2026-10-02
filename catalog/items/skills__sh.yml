@@ -42,10 +42,9 @@ insights:
     Now you can spend hours browsing skills instead of writing code, because why solve problems when you can curate
     them?
   tags:
-    - skills-registry
-    - ai-agents
-    - reusable-components
-    - workflow-automation
+    - skills
+    - agent-extension
+    - registry
   confidence: high
 curation:
   status: included
@@ -79,13 +78,13 @@ processing:
         name or '}' in JSON at position 3 (line 2 column 2)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a59fadc73410935c69c0c897841a336d804af1b6a3988d2c9f6de832615b297f
+      category_rules_version: c367d6101132
+      input_hash: sha256:b9c8509805a7eabe54d368a75a164b4ff2b5db60740a1e0af9a01300360632f6
       proposed_primary_category: skills
       disagreement: false
       decision_reason: >-

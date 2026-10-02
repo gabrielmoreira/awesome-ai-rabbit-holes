@@ -54,9 +54,7 @@ insights:
   tags:
     - mcp
     - registry
-    - connectors
-    - ai-agents
-    - integration
+    - developer-tools
   confidence: high
 curation:
   status: included
@@ -90,16 +88,16 @@ processing:
         control character in string literal in JSON at position 568 (line 6 column 6)
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0cb700c0c289a9fc5a316d2f01a4adbd79dee56989c78426dcbf9303eb57dd3e
+      category_rules_version: c367d6101132
+      input_hash: sha256:0ab2ee5b264de41c5927aad87ec0bf308d168491462c2bc70318321b64111b4a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP registry, and MCP is the core product identity rather than a compatibility feature.
+      decision_reason: Glama's core product is an MCP server registry and discovery service, making MCP its primary identity rather than a feature of a broader tool.
       decision_evidence:
         - Page title and description explicitly frame it as 'Remote MCP Servers' and 'official MCP Registry'
         - Source-list context places it in 'Server Implementations' under MCP servers

@@ -48,9 +48,7 @@ insights:
   tags:
     - prompt-engineering
     - context-management
-    - ai-coding
-    - desktop-app
-    - multi-llm
+    - developer-tool
   confidence: high
 curation:
   status: included
@@ -84,20 +82,20 @@ processing:
         value: undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:949785d5914fa9eaf838144ff85d1809543d85f01cadbdbb8812df3730a109d8
-      proposed_primary_category: context-engineering
+      category_rules_version: c367d6101132
+      input_hash: sha256:9fc2cfbc1aa7d4ef45882340885f1ff55d47b65994e327f39cac086ccb50663c
+      proposed_primary_category: memory-and-context
       disagreement: false
-      decision_reason: The core product is prompt and context management for AI coding, not a primary coding assistant or extension.
+      decision_reason: The tool's core identity revolves around managing source code context, customizing prompts, and saving reusable instructions—placing it firmly in the memory and context engineering space rather than as a coding agent or extension.
       decision_evidence:
-        - Described as 'AI Coding with Advanced Context Management'
-        - Focuses on prompt creation, context selection, and token tracking
-        - Supports BYOK API integrations but is not itself an assistant
+        - "Scraped site states: '16x Prompt helps developers manage source code context and craft prompts for complex coding tasks on existing codebases.'"
+        - "README excerpt emphasizes: 'Prompt Management', 'Custom Instructions & Prompt Customization', 'Workspaces', and 'Structured Prompt Creation for Coding'."
+        - "Source-list context from awesome-ai-coding-tools places it in 'Code Search and Navigation' with description: 'Manage code context, customize prompts, and ship features faster with multiple LLM API integrations.'"
       category_candidates:
         - context-engineering
         - ai-dev-extensions

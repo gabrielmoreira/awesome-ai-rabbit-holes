@@ -48,11 +48,10 @@ insights:
     Finally, an agent that can turn your napkin sketch into a deployable app while you argue with your team about tabs
     vs. spaces.
   tags:
-    - app-builder
     - ai-agent
     - replit
-    - collaboration
-    - multi-agent
+    - full-stack
+    - vibe-coding
   confidence: high
 curation:
   status: included
@@ -62,7 +61,7 @@ curation:
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: Full App Builders
+  section: null
 lifecycle:
   status: curated
   reason: null
@@ -86,13 +85,13 @@ processing:
         token 'A', ..."_reason": Agent 4’s "... is not valid JSON
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d80292d6a52d2a2bd70ff37c0230e33e9864edc851436ebc0c6d29a3726a1e89
+      category_rules_version: c367d6101132
+      input_hash: sha256:16f1386c946bcde965d3785ce9ee5f6bed2bbda5a8d66f0ab690bafbf27f60fe
       proposed_primary_category: app-builders
       disagreement: false
       decision_reason: >-
@@ -107,7 +106,6 @@ processing:
           context
         - Source-list context places it in 'Coding Agents', but its core identity is prompt-to-app generation
       category_candidates:
-        - app-builders
         - coding-agents
       contrastive_reason: >-
         Choose app-builders over coding-agents because Agent 4's main surface is creating new apps/sites/tools from

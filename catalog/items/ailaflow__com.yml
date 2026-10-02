@@ -42,18 +42,18 @@ insights:
     single LLM prompt cannot handle.
   mental_damage: Because deciding which specific agent to delegate your actual job to is the new way to waste a Tuesday afternoon.
   tags:
-    - agents
-    - automation
-    - multi-agent
-    - orchestration
-  confidence: low
+    - low-code
+    - workflow-automation
+    - ai-agents
+    - human-ai-collaboration
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
     - jev-latest choice confidence 0.90
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
   section: Agent Runtimes & Harnesses
 lifecycle:
@@ -79,14 +79,14 @@ processing:
         undefined
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:15c8b75c63d5e851ccf5aa7a4807d07e113bb175e2a462cb4667c9a04905f7d9
-      proposed_primary_category: agent-orchestration
+      category_rules_version: c367d6101132
+      input_hash: sha256:4d2cec46cd5fbff81ef7c532543a198883d38401029dae474286f0cd6cb8c570
+      proposed_primary_category: null
       disagreement: false
       decision_reason: >-
         The project is listed in 'awesome-ai-agents' as an autonomous agent platform, implying a focus on multi-agent

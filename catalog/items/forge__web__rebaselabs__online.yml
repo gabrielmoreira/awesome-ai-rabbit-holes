@@ -47,11 +47,10 @@ insights:
     Another way to generate a functional frontend in thirty seconds, ensuring you spend the rest of your afternoon
     debugging the logic the AI hallucinated.
   tags:
-    - app-builders
-    - prompt-to-app
-    - web-generation
+    - app-builder
     - low-code
-  confidence: low
+    - prompt-to-app
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
@@ -84,21 +83,22 @@ processing:
         required field: mental_damage
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:62e652e0c7e84195b6c6f8a89965282c294f4d9cf21d66f75f27909d62294b8b
+      category_rules_version: c367d6101132
+      input_hash: sha256:590e1cdd3ed488b57b904a32bde494c7b7242746d1758be9196b7bc83b5c6b70
       proposed_primary_category: app-builders
       disagreement: false
       decision_reason: >-
         The project's presence in an awesome list under 'App Builders' and its URL structure suggest it is a platform
         for turning prompts into deployed web apps.
       decision_evidence:
-        - Included in awesome-ai-coding-tools under 'App Builders' section
-        - URL indicates a hosted web application for generating content/apps
+        - Listed in awesome-ai-coding-tools under the App Builders section
+        - URL suggests a hosted web interface for application generation
+        - No evidence of coding agent behavior like editing existing repos or terminal-based code manipulation
       category_candidates:
         - app-builders
         - coding-agents

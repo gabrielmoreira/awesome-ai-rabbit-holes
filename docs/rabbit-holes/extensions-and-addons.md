@@ -472,11 +472,11 @@ _168 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   </details>
 - **[Semgrep](https://semgrep.dev)** An extensible application security platform that scans source code for vulnerabilities using AI-assisted SAST, SCA, and secrets detection. <details><summary>More about</summary>
 
-  It helps developers catch, flag, and fix real vulnerabilities before they ship, integrating with CI/CD, IDEs, and AI tools like Cursor and Replit via MCP.
+  It helps developers catch security issues early in PRs and IDEs with high-precision findings that reduce false positives and security backlog.
 
-  _Now your AI coding assistant can ship insecure code faster, but at least Semgrep will catch it before it hits prod._
+  _Yet another security tool that promises 'zero false positives' while adding another checkbox to your CI pipeline._
 
-  `security` `static-analysis` `ai-assisted` `sast` `mcp`
+  `security` `sast` `ai-assisted`
   </details>
 - **[Vulert](https://vulert.com)** Vulert is a web-based software composition analysis service that scans dependency manifests and SBOMs to detect vulnerabilities and provide version-specific remediation guidance without accessing source code. <details><summary>More about</summary>
 
