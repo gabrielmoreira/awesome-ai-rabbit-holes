@@ -236,17 +236,17 @@ _70 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
   </details>
 - **[openclawmp.stepfun.com](https://openclawmp.stepfun.com)** A marketplace for sharing and installing skills, plugins, triggers, and communicators to extend AI agents. <details><summary>More about</summary>
 
-  It provides a centralized directory for discovering and distributing Agent extensions, helping developers enhance their agents with reusable components.
+  Developers can enhance their agents with reusable capabilities like code extensions, event triggers, and messaging adapters.
 
-  _Yet another App Store for AI agents, promising infinite evolution while you wrestle with version drift across ten different skill packs._
+  _Finally, a place where your agent can learn to fish instead of just being told to fish._
 
   `agent-skills` `marketplace` `extensions`
   </details>
 - **[Skills.Sh](https://skills.sh)** A directory and registry for discovering and installing reusable skills for AI agents. <details><summary>More about</summary>
 
-  Developers can rapidly enhance AI agents with procedural knowledge like debugging, design, or automation without writing custom prompts or code.
+  Developers can extend their AI agents with pre-built, shareable capabilities for specific workflows or domains.
 
-  _Yet another skill marketplace promising to fix agent limitations, while we all wonder if we're just trading prompt engineering for skill hunting._
+  _Now you can spend hours browsing skills instead of writing code, because why solve problems when you can curate them?_
 
   `skills` `agent-extension` `registry`
   </details>

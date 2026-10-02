@@ -3,14 +3,15 @@
 
 Products that generate complete apps, websites, dashboards, or scaffolds from prompts — the user starts from zero and receives a deployable artifact.
 
-_83 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_84 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
 - [Full App Builders](#full-app-builders) — 33
-- [Site & Landing Page Builders](#site--landing-page-builders) — 14
-- [Internal Tools & Dashboards](#internal-tools--dashboards) — 8
+- [Site & Landing Page Builders](#site--landing-page-builders) — 13
+- [Internal Tools & Dashboards](#internal-tools--dashboards) — 9
 - [Scaffolding & Boilerplate](#scaffolding--boilerplate) — 28
+- [Others](#others) — 1
 
 ## Full App Builders
 
@@ -82,9 +83,9 @@ _83 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 - **[Cactal](https://cactal.ai)** Cactal – Cactal is the website platform for AI agents. Connect Claude Code, Cursor, or anything that speaks MCP, and your agent gets the tools to design, build, host, and operate production websites: source code, CMS, assets, domains, analytics, and publishing.
 - **[Capacity](https://capacity.so)** An AI-powered platform that generates full-stack web and mobile applications from natural language descriptions. <details><summary>More about</summary>
 
-  It lets developers and non-developers ship functional apps from descriptions without writing code, accelerating prototyping and idea validation.
+  It streamlines the path from idea to deployment by automating the generation of React, TypeScript, and backend infrastructure.
 
-  _The quiet dread that your weekend project now has a Stripe integration and real users before you’ve picked a framework._
+  _It brings us one step closer to the era where 'building an app' is just a fancy way of saying 'typing a very long paragraph'._
 
   `app-builder` `no-code` `ai-generated`
   </details>
@@ -104,6 +105,14 @@ _83 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
   _You’ll spend more time explaining why your ‘no-code’ app still needs a Flutter engineer than actually building features._
 
   `low-code` `app-builder` `firebase` `flutter` `visual-development`
+  </details>
+- **[Framer AI](https://framer.com/ai)** Framer AI is a design-to-site platform that uses generative AI to build and deploy websites from text prompts. <details><summary>More about</summary>
+
+  It enables rapid prototyping and deployment of production-ready web interfaces through natural language, bypassing traditional layout manual labor.
+
+  _It turns the 'I'll just quickly fix this div' workflow into 'I'll just prompt a whole new layout and pray it doesn't break the CMS'._
+
+  `app-builder` `ai-generated` `web-design`
   </details>
 - **[Glide](https://glideapps.com)** Glide turns spreadsheets into business applications using AI to infer schema and generate connected web and mobile apps. <details><summary>More about</summary>
 
@@ -165,25 +174,17 @@ _83 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 - **[RapidNative](https://rapidnative.com)** RapidNative – AI-native mobile app builder that turns ideas, sketches, or screenshots into working React Native and Expo apps with production-ready code. Freemium with 20 free credits.
 - **[Replit](https://replit.com)** Replit is a cloud-based platform for building, deploying, and collaborating on software projects with AI assistance. <details><summary>More about</summary>
 
-  It lowers the barrier to turning ideas into working software by combining AI code generation with zero-config infrastructure, enabling rapid prototyping without manual setup.
+  It enables developers and teams to turn prompts into full-stack apps, sites, or internal tools with built-in infrastructure and parallel agent workflows.
 
-  _Watch as your vague 'make me a SaaS for dogs' prompt becomes a production app you now have to maintain, scale, and explain to investors at 2 a.m._
+  _The promise of 'no coding needed' collides with the reality of debugging Agent 4’s interpretation of your napkin sketch._
 
   `app-builder` `ai-generated` `full-stack`
   </details>
-- **[Replit Agent](https://replit.com/agent4)** Replit's Agent 4 is an AI agent for building, designing, and shipping apps, sites, and other digital products within the Replit platform. <details><summary>More about</summary>
-
-  It lets developers delegate full-stack app creation to an agent that works in parallel across design, code, and deployment, reducing manual context switching.
-
-  _Now you can feel guilty not just for vibing, but for watching an agent vibe for you while you pretend to supervise._
-
-  `ai-agent` `replit` `full-stack` `vibe-coding`
-  </details>
 - **[Rocket.new](https://rocket.new)** Rocket is a prompt-to-app platform that also provides market research and competitive intelligence for deciding what to build. <details><summary>More about</summary>
 
-  It lets developers skip scaffolding and go from idea to working product in one step, accelerating early-stage prototyping.
+  It lets developers turn ideas into production-grade apps while maintaining shared context across research, building, and tracking phases.
 
-  _Another tool that makes you wonder if ‘building’ is just prompting and waiting for the AI to get bored._
+  _Finally, a tool that will tell you what to build, build it for you, and then watch your competitors do it better._
 
   `app-builder` `no-code` `prompt-to-app`
   </details>
@@ -257,15 +258,7 @@ _83 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   _The gap between 'prompting a landing page' and 'aintaining a production codebase' is about to get much, much wider._
 
-  `ai-web-builder` `no-code` `deployment` `deployment-automation`
-  </details>
-- **[Framer AI](https://framer.com/ai)** Framer AI is a design-to-site platform that uses generative AI to build and deploy websites from text prompts. <details><summary>More about</summary>
-
-  It enables rapid prototyping and deployment of production-ready web interfaces through natural language, bypassing traditional layout manual labor.
-
-  _It turns the 'I'll just quickly fix this div' workflow into 'I'll just prompt a whole new layout and pray it doesn't break the CMS'._
-
-  `app-builders` `no-code` `design-to-site` `web-generation`
+  `ai` `web-development` `no-code` `huggingface`
   </details>
 - **[Kombai](https://kombai.com)** Kombai is an AI design engineer that generates production-ready frontend code and designs from prompts while reusing components and patterns from existing codebases. <details><summary>More about</summary>
 
@@ -283,7 +276,7 @@ _83 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   _Finally, a tool that lets you build websites by describing them—until you realize you still have to explain to stakeholders why the AI chose Comic Sans._
 
-  `low-code` `ai-website-builder` `visual-builder` `static-sites` `figma-to-code`
+  `low-code` `ui-builder` `static-site` `ai-assisted` `frontend`
   </details>
 - **[ui-generator-instinct-jev.vercel.app](https://ui-generator-instinct-jev.vercel.app)** Instinct (site) - Instinct: describe a case in free text and Jev picks the UI from a fixed catalog without generating a line of code or copy.
 
@@ -304,6 +297,14 @@ _83 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
   _We have finally invented a tool that turns a CSV into a dashboard so you can procrastinate building a real analytics pipeline with a single, beautiful HTML file._
 
   `csv` `dashboard` `mcp` `data-visualization` `cli`
+  </details>
+- **[Avanzai](https://avanz.ai)** Avanz.ai is an AI agent platform that helps generate financial and data analysis code from natural language prompts. <details><summary>More about</summary>
+
+  It lets developers automate quantitative workflows by turning analytical requests into executable Python or SQL code.
+
+  _Another 'just describe your spreadsheet problem' tool that assumes your data is clean and your intentions are unambiguous._
+
+  `ai-agent` `data-analysis` `code-generation`
   </details>
 - **[DiagramGPT (Eraser)](https://eraser.io/diagramgpt)** DiagramGPT is an AI diagram generator that creates polished technical diagrams from text prompts in seconds. <details><summary>More about</summary>
 
@@ -482,7 +483,7 @@ _83 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   _Because nothing says 'trustless' like an AI-generated contract you still have to audit yourself._
 
-  `smart-contracts` `openzeppelin` `blockchain` `code-generation`
+  `smart-contracts` `blockchain` `code-generation` `solidity` `web3`
   </details>
 - **[OTF — Open Template Forest](https://otf-kit.dev)** OTF — Open Template Forest – Production-ready full-stack kits (Next.js, Expo) pre-wired for Claude Code, Cursor, and Lovable, with tested prompt libraries and AI configs included. MIT SDK + commercial kits.
 - **[Puzzlet AI](https://puzzlet.ai)** Puzzlet AI is a web-based tool that generates code from natural language prompts for software development tasks. <details><summary>More about</summary>
@@ -503,3 +504,14 @@ _83 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
   `ui-generation` `design-to-code` `frontend`
   </details>
 - **[Vellum](https://vellum.ai)** An AI product development platform to experiment with, evaluate, and deploy advanced LLM apps.
+
+## Others
+
+- **[Replit Agent](https://replit.com/agent4)** Replit's Agent 4 is an AI agent for building, designing, and shipping apps, sites, and other digital products within the Replit platform. <details><summary>More about</summary>
+
+  It enables developers and teams to collaborate with an AI agent that can design, build, and coordinate tasks in parallel, accelerating the development of full-stack applications.
+
+  _Finally, an agent that can turn your napkin sketch into a deployable app while you argue with your team about tabs vs. spaces._
+
+  `ai-agent` `replit` `full-stack` `vibe-coding`
+  </details>

@@ -94311,18 +94311,52 @@
       "activity_bucket": null
     },
     {
+      "id": "glama__ai__mcp__servers__cdeust__cortex__badge",
+      "kind": "website",
+      "name": "![badge",
+      "canonical_url": "https://glama.ai/mcp/servers/cdeust/Cortex/badge",
+      "summary": "badge is an MCP server exposing Cortex badge capabilities via the Model Context Protocol.",
+      "tags": [
+        "mcp",
+        "server",
+        "cortex"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "glama__ai__mcp__servers__dollhousemcp__mcp__server__badge",
+      "kind": "website",
+      "name": "![DollhouseMCP MCP server",
+      "canonical_url": "https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge",
+      "summary": "An MCP server exposing a badge generation tool via the Model Context Protocol.",
+      "tags": [
+        "mcp",
+        "tool",
+        "badge"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "datawhalechina__github__io__llm__cookbook",
       "kind": "website",
       "name": "《面向开发者的LLM入门教程》",
       "canonical_url": "https://datawhalechina.github.io/llm-cookbook",
-      "summary": "A curated resource list summarizing the world's best LLM materials, including multimodal generation, agents, coding assistance, and related topics.",
+      "summary": "An introductory tutorial for developers on using Large Language Models.",
       "tags": [
         "awesome-list",
         "llm",
         "resources"
       ],
       "primary_category": "awesome-awesomes",
-      "lifecycle_status": "incubating",
+      "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -94382,7 +94416,7 @@
       "kind": "website",
       "name": "16x Prompt",
       "canonical_url": "https://prompt.16x.engineer",
-      "summary": "16x Prompt is a desktop application that helps developers manage code context and craft optimized prompts for AI coding tasks.",
+      "summary": "16x Prompt is a desktop application that helps developers compose and manage prompts with source code context for AI coding tasks.",
       "tags": [
         "prompt-engineering",
         "context-management",
@@ -94678,9 +94712,8 @@
       "summary": "A curated directory of AI coding tools, agents, and developer-focused infrastructure.",
       "tags": [
         "curated-list",
-        "ai-tools",
         "developer-resources",
-        "directory"
+        "ai-tools-directory"
       ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "curated",
@@ -94702,28 +94735,11 @@
       "activity_bucket": null
     },
     {
-      "id": "aifordevelopers__org",
-      "kind": "website",
-      "name": "AI For Developers",
-      "canonical_url": "https://aifordevelopers.org",
-      "summary": "AI for Developers is a curated directory of AI coding tools and resources for software developers.",
-      "tags": [
-        "curated-list",
-        "developer-resources",
-        "ai-tools-directory"
-      ],
-      "primary_category": "awesome-awesomes",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "aide__dev",
       "kind": "website",
       "name": "Aide",
       "canonical_url": "https://aide.dev",
-      "summary": "Aide is a developer tools lab exploring inference-time scaling and agentic systems to reshape software writing, debugging, and maintenance.",
+      "summary": "Aide is an AI-native developer tools lab focused on using inference-time scaling and agentic systems to automate software engineering tasks.",
       "tags": [
         "coding-agent",
         "inference-scaling",
@@ -94773,8 +94789,8 @@
       "summary": "A Substack newsletter providing commentary and updates on AI developments specifically for software developers.",
       "tags": [
         "newsletter",
-        "developer-education",
-        "ai-trends"
+        "ai-development",
+        "curated-content"
       ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "curated",
@@ -94785,16 +94801,17 @@
     {
       "id": "ailaflow__com",
       "kind": "website",
-      "name": "aifordevelopers.substack.com",
-      "canonical_url": "https://aifordevelopers.substack.com",
-      "summary": "aifordevelopers.substack.com is a newsletter covering AI development topics for software developers.",
+      "name": "AilaFlow",
+      "canonical_url": "https://ailaflow.com",
+      "summary": "An autonomous agent platform designed for complex workflow automation and multi-agent coordination.",
       "tags": [
-        "newsletter",
-        "ai-development",
-        "curated-content"
+        "low-code",
+        "workflow-automation",
+        "ai-agents",
+        "human-ai-collaboration"
       ],
-      "primary_category": "awesome-awesomes",
-      "lifecycle_status": "incubating",
+      "primary_category": null,
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -94894,7 +94911,7 @@
       "kind": "website",
       "name": "Altern",
       "canonical_url": "https://altern.ai",
-      "summary": "Altern is a discovery portal that indexes and categorizes AI tools, models, APIs, and libraries across domains.",
+      "summary": "A curated directory of AI tools, agents, and SDKs.",
       "tags": [
         "ai-directory",
         "tool-discovery"
@@ -94929,7 +94946,7 @@
       "kind": "website",
       "name": "Amazon Q Developer",
       "canonical_url": "https://aws.amazon.com/q/developer",
-      "summary": "Amazon Q Developer is an AI coding assistant that writes, debugs, and refactors code natively in IDEs and terminals.",
+      "summary": "An AI-powered coding assistant by AWS that provides code suggestions, chat, and agentic capabilities for software development tasks.",
       "tags": [
         "ai-assistant",
         "ide-integration",
@@ -94946,7 +94963,7 @@
       "kind": "website",
       "name": "Amp (Sourcegraph)",
       "canonical_url": "https://ampcode.com",
-      "summary": "Amp is a frontier coding agent that enables developers to use leading AI models for coding tasks across web, terminal, and mobile platforms.",
+      "summary": "A frontier coding agent that provides remote execution environments and multi-device access to AI-driven development workflows.",
       "tags": [
         "coding-agent",
         "ai-agent",
@@ -94980,9 +94997,9 @@
       "summary": "An enterprise-grade web scraping API that transforms any website into structured data optimized for LLMs.",
       "tags": [
         "web-scraping",
-        "data-extraction",
+        "api",
         "llm-ready",
-        "api"
+        "developer-tool"
       ],
       "primary_category": "mcp",
       "lifecycle_status": "curated",
@@ -95038,7 +95055,7 @@
       "kind": "website",
       "name": "APIDNA",
       "canonical_url": "https://apidna.io",
-      "summary": "APIDNA is a vertically-trained AI agent platform that automates enterprise workflows across systems with domain-specific agents.",
+      "summary": "An enterprise agent execution platform that automates complex, domain-specific workflows across APIs, databases, and legacy systems.",
       "tags": [
         "ai-agents",
         "workflow-automation",
@@ -95051,16 +95068,15 @@
       "activity_bucket": null
     },
     {
-      "id": "apimatic__io",
+      "id": "applitools__com",
       "kind": "website",
-      "name": "APIMatic",
-      "canonical_url": "https://apimatic.io",
-      "summary": "APIMatic generates SDKs, developer portals, Context Plugins for AI coding tools, and MCP servers from OpenAPI specs.",
+      "name": "Applitools",
+      "canonical_url": "https://applitools.com",
+      "summary": "Applitools is an intelligent testing platform that uses visual AI to automate visual, functional, and accessibility testing across web and mobile applications.",
       "tags": [
-        "sdk-generation",
-        "api-tooling",
-        "context-plugins",
-        "mcp"
+        "testing",
+        "visual-ai",
+        "qa"
       ],
       "primary_category": "coding-agents",
       "lifecycle_status": "curated",
@@ -95204,7 +95220,7 @@
       "kind": "website",
       "name": "Atlan",
       "canonical_url": "https://atlan.com",
-      "summary": "Atlan is an enterprise context layer that unifies data, business logic, and governance into a queryable graph for AI agents via MCP, SQL, and APIs.",
+      "summary": "An enterprise context layer that unifies business logic, data lineage, and institutional knowledge into a graph for AI agents.",
       "tags": [
         "context-engineering",
         "mcp",
@@ -95276,7 +95292,7 @@
       "kind": "website",
       "name": "Autify",
       "canonical_url": "https://autify.com",
-      "summary": "Autify provides an AI-powered quality engineering platform for automating end-to-end testing of web, mobile, and desktop applications using natural language and visual recognition.",
+      "summary": "An AI-native quality engineering platform designed for autonomous software testing across web, mobile, and desktop applications.",
       "tags": [
         "testing",
         "qa",
@@ -95342,24 +95358,6 @@
       "activity_bucket": null
     },
     {
-      "id": "awesome__copilot__github__com",
-      "kind": "website",
-      "name": "Awesome GitHub Copilot",
-      "canonical_url": "https://awesome-copilot.github.com",
-      "summary": "A community-curated repository of agents, instructions, skills, and plugins to enhance the GitHub Copilot experience.",
-      "tags": [
-        "copilot",
-        "instructions",
-        "skills",
-        "extensions"
-      ],
-      "primary_category": "awesome-awesomes",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "avanz__ai",
       "kind": "website",
       "name": "Avanzai",
@@ -95381,14 +95379,14 @@
       "kind": "website",
       "name": "Awesome GitHub Copilot",
       "canonical_url": "https://awesome-copilot.github.com",
-      "summary": "Awesome GitHub Copilot is a community-curated directory of agents, instructions, skills, plugins, and extensions for GitHub Copilot.",
+      "summary": "A community-curated repository of agents, instructions, skills, and plugins to enhance the GitHub Copilot experience.",
       "tags": [
         "awesome-list",
         "copilot",
         "extensions"
       ],
       "primary_category": "awesome-awesomes",
-      "lifecycle_status": "incubating",
+      "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -95502,9 +95500,8 @@
       "summary": "A Substack newsletter dedicated to tracking and analyzing the emerging landscape of AI agents.",
       "tags": [
         "newsletter",
-        "ai-agents",
-        "curation",
-        "agentic-workflows"
+        "curated",
+        "ai-agents"
       ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "curated",
@@ -95599,18 +95596,17 @@
       "activity_bucket": null
     },
     {
-      "id": "bitrise__io",
+      "id": "beam__ai",
       "kind": "website",
-      "name": "Bitrise",
-      "canonical_url": "https://bitrise.io",
-      "summary": "Bitrise is a managed mobile DevOps platform for building, testing, and deploying iOS and Android applications with CI/CD, build caching, release management, and AI-assisted debugging.",
+      "name": "Beam",
+      "canonical_url": "https://beam.ai",
+      "summary": "An autonomous AI agent designed for executing complex tasks and workflows.",
       "tags": [
-        "ci-cd",
-        "mobile-devops",
-        "build-automation"
+        "ai-agents",
+        "platform"
       ],
-      "primary_category": "ai-frameworks",
-      "lifecycle_status": "incubating",
+      "primary_category": "coding-agents",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -95651,7 +95647,7 @@
       "kind": "website",
       "name": "bldbl.dev",
       "canonical_url": "https://bldbl.dev",
-      "summary": "Buildable is a SaaS platform that uses AI to generate project plans, scaffold private repositories, and stream MCP-powered development tasks to any AI assistant.",
+      "summary": "An AI task engine that plans project backlogs, scaffolds repositories, and streams implementation tasks via the Model Context Protocol (MCP).",
       "tags": [
         "app-builder",
         "mcp",
@@ -95744,7 +95740,7 @@
       "kind": "website",
       "name": "BrainGrid",
       "canonical_url": "https://braingrid.ai",
-      "summary": "BrainGrid is an AI app builder that creates a detailed spec from user input, gets sign-off, then builds and verifies the app using coding agents like Claude Code or Cursor via MCP or CLI.",
+      "summary": "BrainGrid is a spec-first app-building platform that plans, builds, verifies, and deploys applications from natural language descriptions.",
       "tags": [
         "app-builder",
         "spec-driven",
@@ -95808,23 +95804,6 @@
       ],
       "primary_category": "app-builders",
       "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "buildkite__com__home",
-      "kind": "website",
-      "name": "Buildkite",
-      "canonical_url": "https://buildkite.com/home",
-      "summary": "Buildkite is a CI/CD platform offering scalable pipelines, test optimization, package registries, mobile delivery, and agentic workflow components for AI-powered automation.",
-      "tags": [
-        "ci-cd",
-        "devops",
-        "ai-workflows"
-      ],
-      "primary_category": "agent-orchestration",
-      "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -95900,12 +95879,10 @@
       "summary": "Cal.com is an open-source scheduling infrastructure and API designed to handle complex booking workflows.",
       "tags": [
         "scheduling",
-        "open-source",
         "api",
-        "infrastructure",
-        "mcp-server"
+        "infrastructure"
       ],
-      "primary_category": "mcp",
+      "primary_category": null,
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -95916,7 +95893,7 @@
       "kind": "website",
       "name": "Capacity",
       "canonical_url": "https://capacity.so",
-      "summary": "Capacity.so is a no-code platform that turns plain-language app ideas into live web applications with accounts, payments, and custom domains using AI.",
+      "summary": "An AI-powered platform that generates full-stack web and mobile applications from natural language descriptions.",
       "tags": [
         "app-builder",
         "no-code",
@@ -95950,7 +95927,7 @@
       "kind": "website",
       "name": "Career Site Jobs",
       "canonical_url": "https://apify.com/fantastic-jobs/career-site-job-listing-api/api/mcp",
-      "summary": "An MCP server exposing the Career Site Job Listing API for AI agent integration via Apify.",
+      "summary": "An MCP server that provides AI agents access to the Apify Career Site Job Listing API.",
       "tags": [
         "mcp",
         "api-integration",
@@ -96026,7 +96003,7 @@
       "kind": "website",
       "name": "Checkmarx",
       "canonical_url": "https://checkmarx.com",
-      "summary": "Checkmarx One is an AI-powered application security platform that uses hybrid scanning and agentic AI to detect and remediate vulnerabilities across the SDLC.",
+      "summary": "An agentic application security platform that uses AI-powered agents and hybrid scanning to detect, prioritize, and remediate vulnerabilities across the SDLC.",
       "tags": [
         "appsec",
         "ai-security",
@@ -96035,7 +96012,7 @@
         "agents"
       ],
       "primary_category": "extensions-and-addons",
-      "lifecycle_status": "incubating",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -96045,7 +96022,7 @@
       "kind": "website",
       "name": "Checksum AI",
       "canonical_url": "https://checksum.ai",
-      "summary": "Checksum is an AI-powered platform that generates, runs, and maintains Playwright and API tests automatically using specialized agents that heal failures and integrate with CI.",
+      "summary": "An AI-powered testing platform that automatically generates, executes, and self-heals Playwright end-to-end and API tests.",
       "tags": [
         "testing",
         "ai-agents",
@@ -96268,23 +96245,6 @@
       "activity_bucket": null
     },
     {
-      "id": "e2b__dev__docs",
-      "kind": "website",
-      "name": "Code Interpreter SDK",
-      "canonical_url": "https://e2b.dev/docs",
-      "summary": "E2B provides isolated sandboxes that let AI agents safely execute code and run tools using SDKs.",
-      "tags": [
-        "sandbox",
-        "agent-infrastructure",
-        "security"
-      ],
-      "primary_category": "agent-orchestration",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "codebuddy__cn",
       "kind": "website",
       "name": "CodeBuddy",
@@ -96319,7 +96279,7 @@
       "kind": "website",
       "name": "CodeCosts",
       "canonical_url": "https://codecosts.pages.dev",
-      "summary": "CodeCosts is a free web tool that compares AI coding assistants' pricing, features, and tiers side-by-side with a cost calculator for team estimates.",
+      "summary": "A comparison and cost calculation platform for AI coding assistants and IDEs.",
       "tags": [
         "pricing",
         "comparison",
@@ -96372,10 +96332,9 @@
       "canonical_url": "https://codegen.com/home",
       "summary": "An AI-powered development platform that automates workflows from ticket creation to pull request completion.",
       "tags": [
-        "ai-coding",
-        "workflow-automation",
-        "agentic-workflows",
-        "devops"
+        "blog",
+        "engineering-insights",
+        "ai-development"
       ],
       "primary_category": "coding-agents",
       "lifecycle_status": "curated",
@@ -96484,28 +96443,11 @@
       "kind": "website",
       "name": "Codex Infinity",
       "canonical_url": "https://codex-infinity.com",
-      "summary": "Codex Infinity provides bare-metal AI coding agents with full autonomy to ship code, run CI, and orchestrate cloud workers in the cloud.",
+      "summary": "An autonomous coding agent platform that provides advanced reasoning, AI art generation, and cloud orchestration.",
       "tags": [
         "coding-agent",
         "autonomous",
         "cloud"
-      ],
-      "primary_category": "coding-agents",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "sourcegraph__com__docs__cody",
-      "kind": "website",
-      "name": "Cody by Sourcegraph",
-      "canonical_url": "https://sourcegraph.com/docs/cody",
-      "summary": "Cody is an AI coding assistant that integrates with IDEs and the web to provide context-aware chat, code completions, and edits using Sourcegraph's code search.",
-      "tags": [
-        "ai-assistant",
-        "code-completion",
-        "context-aware"
       ],
       "primary_category": "coding-agents",
       "lifecycle_status": "curated",
@@ -96544,14 +96486,31 @@
       "kind": "website",
       "name": "Cognosys",
       "canonical_url": "https://cognosys.ai",
-      "summary": "Cognosys.ai is an AI agent platform that coordinates multiple autonomous agents to perform tasks like research, data analysis, and workflow automation.",
+      "summary": "Cognosys is an autonomous AI agent designed to research, plan, and execute complex tasks across various domains.",
       "tags": [
         "agent-orchestration",
         "ai-workflows",
         "multi-agent"
       ],
       "primary_category": "agent-orchestration",
-      "lifecycle_status": "incubating",
+      "lifecycle_status": "needs_review",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "cohere__com__llmu",
+      "kind": "website",
+      "name": "Cohere LLM University",
+      "canonical_url": "https://cohere.com/llmu",
+      "summary": "A learning hub by Cohere providing courses and technical resources for mastering enterprise AI technologies.",
+      "tags": [
+        "education",
+        "enterprise-ai",
+        "learning"
+      ],
+      "primary_category": "awesome-awesomes",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -96584,7 +96543,7 @@
         "autonomous"
       ],
       "primary_category": "coding-agents",
-      "lifecycle_status": "incubating",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -96630,11 +96589,11 @@
       "canonical_url": "https://contextqa.com",
       "summary": "An AI-native testing platform that automates end-to-end QA for enterprise applications and AI agents through self-healing tests and MCP integration.",
       "tags": [
-        "ai-testing",
-        "qa-automation",
-        "mcp",
-        "enterprise-software",
-        "agent-validation"
+        "testing",
+        "automation",
+        "ai-agents",
+        "enterprise",
+        "mcp"
       ],
       "primary_category": "evals",
       "lifecycle_status": "curated",
@@ -96696,7 +96655,7 @@
       "kind": "website",
       "name": "Convex",
       "canonical_url": "https://stack.convex.dev/convex-mcp-server",
-      "summary": "Convex MCP Server exposes Convex deployment state, functions, and data as MCP tools for AI agents.",
+      "summary": "An MCP server for Convex that lets AI agents introspect deployments, run functions, and read/write data.",
       "tags": [
         "mcp",
         "convex",
@@ -96731,7 +96690,7 @@
       "kind": "website",
       "name": "Corgea",
       "canonical_url": "https://corgea.com",
-      "summary": "Corgea is an AI-native application security platform that detects and fixes vulnerabilities in code, packages, infrastructure, and containers.",
+      "summary": "An AI-native application security platform that automates the detection and remediation of vulnerabilities in code, dependencies, infrastructure, and containers.",
       "tags": [
         "security",
         "sast",
@@ -96739,7 +96698,7 @@
         "ai"
       ],
       "primary_category": "extensions-and-addons",
-      "lifecycle_status": "incubating",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -96798,7 +96757,7 @@
       "kind": "website",
       "name": "CrewAI",
       "canonical_url": "https://crewai.io",
-      "summary": "crewai.io is a code-first Python framework for building multi-agent systems.",
+      "summary": "An open-source multi-agent orchestration framework for building collaborative AI workflows.",
       "tags": [
         "ai-framework",
         "multi-agent",
@@ -96871,7 +96830,7 @@
       "kind": "website",
       "name": "Cursor",
       "canonical_url": "https://cursor.com",
-      "summary": "Cursor is an AI-powered coding agent that helps developers write, edit, and manage code through autonomous agents and IDE integration.",
+      "summary": "An AI-native code editor designed for building software through agentic assistance and deep codebase understanding.",
       "tags": [
         "ai-coding-agent",
         "ide-integration",
@@ -96888,7 +96847,7 @@
       "kind": "website",
       "name": "Cursor CLI",
       "canonical_url": "https://cursor.com/cli",
-      "summary": "Cursor CLI is a terminal-based AI coding agent that allows developers to run Cursor's agent capabilities in scripts, automations, and GitHub Actions using the same commands as the IDE.",
+      "summary": "A terminal-based interface that brings Cursor's agentic capabilities to any environment via the command line.",
       "tags": [
         "cli",
         "coding-agent",
@@ -97023,7 +96982,7 @@
       "kind": "website",
       "name": "Deepsite",
       "canonical_url": "https://deepsite.hf.co",
-      "summary": "DeepSite is an AI-powered web development tool that builds, deploys, and hosts websites from prompts using open-source models.",
+      "summary": "An AI-powered web development platform that generates and deploys multi-page websites from text prompts.",
       "tags": [
         "ai",
         "web-development",
@@ -97041,7 +97000,7 @@
       "kind": "website",
       "name": "DeepSource",
       "canonical_url": "https://deepsource.com",
-      "summary": "DeepSource is an AI-powered code review platform that automates pull request analysis using hybrid static analysis and AI agents to detect security issues, bugs, and code quality problems.",
+      "summary": "An AI-powered code review platform that combines static analysis with AI agents to automate security, quality, and complexity checks.",
       "tags": [
         "code-review",
         "security",
@@ -97063,9 +97022,8 @@
       "summary": "An MCP server that provides Devin with access to DeepWiki's knowledge base.",
       "tags": [
         "mcp",
-        "devin",
-        "knowledge-retrieval",
-        "ai-agents"
+        "documentation",
+        "ai-agent"
       ],
       "primary_category": "mcp",
       "lifecycle_status": "curated",
@@ -97100,28 +97058,11 @@
       "activity_bucket": null
     },
     {
-      "id": "docs__devin__ai__work__with__devin__deepwiki__mcp",
-      "kind": "website",
-      "name": "DeepWiki by Devin",
-      "canonical_url": "https://docs.devin.ai/work-with-devin/deepwiki-mcp",
-      "summary": "DeepWiki MCP is a free remote MCP server providing programmatic access to public GitHub repository documentation and question-answering via the Model Context Protocol.",
-      "tags": [
-        "mcp",
-        "documentation",
-        "ai-agent"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "app__e2b__dev__agent__smol__developer",
       "kind": "website",
       "name": "Deployed in few seconds via e2b",
       "canonical_url": "https://app.e2b.dev/agent/smol-developer",
-      "summary": "Smol Developer is an AI agent that autonomously plans and executes coding tasks via terminal or browser to generate or modify codebases.",
+      "summary": "An autonomous AI software engineer that uses E2B sandboxed environments to plan, write, and execute code.",
       "tags": [
         "ai-agent",
         "coding-assistant",
@@ -97138,7 +97079,7 @@
       "kind": "website",
       "name": "Devin",
       "canonical_url": "https://cognition.ai/blog/introducing-devin",
-      "summary": "Devin is an autonomous AI software engineer that performs coding tasks such as building, debugging, and deploying applications using a sandboxed environment with shell, editor, and browser access.",
+      "summary": "Devin is an autonomous AI software engineer capable of planning, executing complex engineering tasks, and using developer tools like shells and browsers.",
       "tags": [
         "ai-agent",
         "software-engineering",
@@ -97173,7 +97114,7 @@
       "kind": "website",
       "name": "Devin",
       "canonical_url": "https://devin.ai",
-      "summary": "Devin is an AI coding agent that autonomously plans, writes, edits, and reviews code across multi-repo projects using cloud-based agents.",
+      "summary": "An autonomous AI software engineer capable of planning, executing, and managing complex engineering tasks including code migrations and bug fixing.",
       "tags": [
         "coding-agent",
         "autonomous",
@@ -97207,14 +97148,14 @@
       "kind": "website",
       "name": "DevTools Directory",
       "canonical_url": "https://devtools.directory",
-      "summary": "devtools.directory is a community-maintained open wiki cataloging developer tools, languages, frameworks, libraries, books, courses, and newsletters.",
+      "summary": "An open-source, community-maintained directory of developer tools, languages, frameworks, and learning resources.",
       "tags": [
         "directory",
         "discovery",
         "curated"
       ],
       "primary_category": "awesome-awesomes",
-      "lifecycle_status": "incubating",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -97256,10 +97197,11 @@
       "canonical_url": "https://didlogic.com",
       "summary": "A collection of Model Context Protocol (MCP) server implementations.",
       "tags": [
-        "mcp",
-        "protocols",
-        "integrations",
-        "ai-tooling"
+        "sip",
+        "voip",
+        "telephony",
+        "ai-voice",
+        "infrastructure"
       ],
       "primary_category": "mcp",
       "lifecycle_status": "curated",
@@ -97349,13 +97291,11 @@
       "canonical_url": "https://dosu.dev",
       "summary": "Dosu is a knowledge infrastructure layer that automatically captures and syncs team documentation to reduce token usage and improve agent performance.",
       "tags": [
-        "mcp",
-        "knowledge-base",
-        "agent-infrastructure",
-        "documentation",
-        "context-management"
+        "knowledge-sharing",
+        "agent-context",
+        "token-efficiency"
       ],
-      "primary_category": "memory-and-context",
+      "primary_category": null,
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -97399,11 +97339,10 @@
       "summary": "A collection of Model Context Protocol (MCP) servers used to connect AI models to external data and tools.",
       "tags": [
         "mcp",
-        "protocol",
-        "connectivity",
-        "llm-tools"
+        "directory",
+        "discovery"
       ],
-      "primary_category": "mcp",
+      "primary_category": null,
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -97506,23 +97445,6 @@
       "activity_bucket": null
     },
     {
-      "id": "duckie__ai",
-      "kind": "website",
-      "name": "Duckie AI",
-      "canonical_url": "https://duckie.ai",
-      "summary": "Duckie is an agentic platform for support teams to build AI agents that resolve tickets and automate workflows using natural language.",
-      "tags": [
-        "ai-agents",
-        "customer-support",
-        "workflow-automation"
-      ],
-      "primary_category": "agent-orchestration",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "gitlab__com__elementfm__mcp",
       "kind": "website",
       "name": "ELEMENT.FM",
@@ -97578,7 +97500,7 @@
       "kind": "website",
       "name": "encode",
       "canonical_url": "https://encode.software",
-      "summary": "encode.software is a directory of AI autonomous agents, serving as a curated list for discovering AI agents.",
+      "summary": "An autonomous AI agent designed for executing complex tasks and managing workflows.",
       "tags": [
         "ai-agents",
         "directory",
@@ -97702,15 +97624,16 @@
     {
       "id": "www__fdcommercial__co__uk",
       "kind": "website",
-      "name": "Factory",
-      "canonical_url": "https://factory.com",
-      "summary": "Factory is a platform that provides autonomous AI coding agents (Droids) to automate coding, testing, and deployment across desktop, terminal, web, and CLI environments.",
+      "name": "FD Commercial",
+      "canonical_url": "https://www.fdcommercial.co.uk",
+      "summary": "A commercial finance and fintech-focused MCP server for providing financial data access to AI agents.",
       "tags": [
-        "ai-agents",
-        "developer-productivity",
-        "autonomous-coding"
+        "mcp",
+        "fintech",
+        "finance",
+        "data-connector"
       ],
-      "primary_category": "mcp",
+      "primary_category": null,
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -97769,7 +97692,7 @@
       "kind": "website",
       "name": "Find-A-Domain",
       "canonical_url": "https://findadomain.dev/mcp",
-      "summary": "MCP server exposing domain availability and TLD listing via HTTP transport for integration with AI assistants.",
+      "summary": "An MCP server that enables AI assistants to check domain availability, TLD listings, and WHOIS data.",
       "tags": [
         "mcp",
         "domain-tools",
@@ -97806,10 +97729,9 @@
       "summary": "Firecrawl is a web scraping and crawler engine designed to turn entire websites into clean, LLM-ready markdown or structured data.",
       "tags": [
         "web-scraping",
-        "llm-context",
         "data-extraction",
-        "crawler",
-        "markdown"
+        "api",
+        "ai-tool"
       ],
       "primary_category": "ai-frameworks",
       "lifecycle_status": "curated",
@@ -97893,14 +97815,14 @@
       "kind": "website",
       "name": "Forge",
       "canonical_url": "https://forge-web.rebaselabs.online",
-      "summary": "Forge-web.rebaselabs.online is a web interface for generating full-stack applications from natural language prompts.",
+      "summary": "An AI-powered application builder for generating web-based applications from prompts.",
       "tags": [
         "app-builder",
         "low-code",
         "prompt-to-app"
       ],
       "primary_category": "app-builders",
-      "lifecycle_status": "incubating",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -97923,7 +97845,7 @@
       "kind": "website",
       "name": "Framer AI",
       "canonical_url": "https://framer.com/ai",
-      "summary": "Framer's AI tool generates interactive websites and UI prototypes from text prompts.",
+      "summary": "Framer AI is a design-to-site platform that uses generative AI to build and deploy websites from text prompts.",
       "tags": [
         "app-builder",
         "ai-generated",
@@ -97940,7 +97862,7 @@
       "kind": "website",
       "name": "Free tier available",
       "canonical_url": "https://spix.sh",
-      "summary": "spix.sh is a tool that enables AI agents to read and write files by converting directory structures into XML prompts.",
+      "summary": "A communication-focused MCP server implementation.",
       "tags": [
         "context-engineering",
         "ai-dev-extensions"
@@ -97977,24 +97899,6 @@
       "tags": [],
       "primary_category": "ai-frameworks",
       "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "gecko__security",
-      "kind": "website",
-      "name": "Gecko Security",
-      "canonical_url": "https://gecko.security",
-      "summary": "Gecko Security is an AI-native static application security testing tool that builds a semantic understanding of codebases to detect business logic flaws and multi-step vulnerabilities.",
-      "tags": [
-        "security",
-        "sast",
-        "ai-native",
-        "devsecops"
-      ],
-      "primary_category": "extensions-and-addons",
-      "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -98067,9 +97971,8 @@
       "summary": "A Visual Studio Code extension for managing GitHub Gists and repositories directly from the editor.",
       "tags": [
         "vscode-extension",
-        "github-integration",
-        "code-snippets",
-        "knowledge-management"
+        "gist-manager",
+        "developer-productivity"
       ],
       "primary_category": "extensions-and-addons",
       "lifecycle_status": "curated",
@@ -98095,12 +97998,10 @@
       "kind": "website",
       "name": "GitBook AI",
       "canonical_url": "https://gitbook.com/ai",
-      "summary": "A curated documentation site for AI-powered coding tools.",
+      "summary": "ai is a GitBook documentation page for AI topics, not a standalone product or developer tool.",
       "tags": [
-        "directory",
-        "curation",
-        "ai-coding",
-        "developer-resources"
+        "documentation",
+        "reference"
       ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "needs_review",
@@ -98133,9 +98034,8 @@
       "summary": "The AI-powered chat interface and agent runtime integrated into Visual Studio Code.",
       "tags": [
         "vscode",
-        "github-copilot",
-        "agentic-workflow",
-        "ide-integration"
+        "copilot",
+        "documentation"
       ],
       "primary_category": "extensions-and-addons",
       "lifecycle_status": "curated",
@@ -98150,30 +98050,12 @@
       "canonical_url": "https://code.visualstudio.com/docs/copilot/chat/copilot-chat",
       "summary": "The conversational interface for GitHub Copilot within the Visual Studio Code editor.",
       "tags": [
-        "copilot",
-        "vscode",
-        "chat-interface",
-        "ai-assistance"
-      ],
-      "primary_category": "extensions-and-addons",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "code__visualstudio__com__docs__copilot__chat__copilot__chat",
-      "kind": "website",
-      "name": "GitHub Copilot Chat Documentation",
-      "canonical_url": "https://code.visualstudio.com/docs/copilot/chat/copilot-chat",
-      "summary": "GitHub Copilot Chat is an AI-powered chat interface in Visual Studio Code that allows developers to ask questions about code, request changes, and review AI-generated edits within the editor.",
-      "tags": [
         "ai-assistant",
         "vscode-extension",
         "copilot"
       ],
-      "primary_category": "coding-agents",
-      "lifecycle_status": "incubating",
+      "primary_category": "extensions-and-addons",
+      "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -98248,22 +98130,6 @@
       "activity_bucket": null
     },
     {
-      "id": "godmode__space",
-      "kind": "website",
-      "name": "Godmode",
-      "canonical_url": "https://godmode.space",
-      "summary": "Godmode.space is a standalone AI agent product with over 1 million users.",
-      "tags": [
-        "ai-agent",
-        "coding-assistant"
-      ],
-      "primary_category": "coding-agents",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "gooey__ai",
       "kind": "website",
       "name": "Gooey.AI",
@@ -98305,7 +98171,7 @@
       "kind": "website",
       "name": "Google Code Assist (Gemini)",
       "canonical_url": "https://codeassist.google",
-      "summary": "codeassist.google is a web-based coding agent that assists with code generation, debugging, and refactoring using AI models.",
+      "summary": "Google's enterprise-grade AI coding assistance service integrated within Google Cloud and IDEs.",
       "tags": [
         "coding-agent",
         "ai-assistant",
@@ -98635,14 +98501,14 @@
       "kind": "website",
       "name": "hosted endpoint",
       "canonical_url": "https://glama.ai/mcp/connectors",
-      "summary": "Glama is a hosted directory of MCP servers (connectors) that lets developers browse and connect to AI agent tools without local installation.",
+      "summary": "A registry of 9,411+ remote MCP servers for connecting AI agents like Claude, ChatGPT, and Cursor to external tools and data sources without local installation.",
       "tags": [
         "mcp",
         "registry",
         "developer-tools"
       ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
+      "primary_category": "awesome-awesomes",
+      "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -98658,8 +98524,8 @@
         "ai-infrastructure",
         "protocol"
       ],
-      "primary_category": "awesome-awesomes",
-      "lifecycle_status": "curated",
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -98725,23 +98591,6 @@
       "tags": [],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "huggingface__co__learn",
-      "kind": "website",
-      "name": "HuggingFace Learn",
-      "canonical_url": "https://huggingface.co/learn",
-      "summary": "Hugging Face Learn is a collection of free educational courses on AI topics including LLMs, agents, diffusion, and robotics using Hugging Face libraries.",
-      "tags": [
-        "education",
-        "tutorials",
-        "huggingface"
-      ],
-      "primary_category": "awesome-awesomes",
-      "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -99821,7 +99670,7 @@
       "kind": "website",
       "name": "Katalon Studio",
       "canonical_url": "https://katalon.com",
-      "summary": "Katalon True Platform is an AI-powered testing platform for QA teams to manage manual, automated, and AI-generated tests across web, mobile, API, and desktop applications.",
+      "summary": "Katalon True Platform is an AI-powered software quality platform for planning, authoring, executing, and analyzing tests across web, mobile, API, and desktop applications.",
       "tags": [
         "testing",
         "ai-agents",
@@ -99910,9 +99759,8 @@
       "summary": "A managed service that provides hosted Model Context Protocol (MCP) servers for connecting AI agents to various SaaS applications.",
       "tags": [
         "mcp",
-        "saas-integrations",
-        "ai-agents",
-        "connectivity"
+        "saas",
+        "documentation"
       ],
       "primary_category": "mcp",
       "lifecycle_status": "curated",
@@ -100061,10 +99909,9 @@
       "canonical_url": "https://docs.langchain.com/oss/python/integrations/providers/overview",
       "summary": "A Python library providing standardized interfaces to integrate with diverse LLM providers, tools, and vector stores.",
       "tags": [
-        "llm-abstraction",
-        "python-sdk",
-        "agent-framework",
-        "integrations"
+        "langchain",
+        "integrations",
+        "documentation"
       ],
       "primary_category": "ai-frameworks",
       "lifecycle_status": "curated",
@@ -100214,17 +100061,17 @@
       "activity_bucket": null
     },
     {
-      "id": "lindy__ai",
+      "id": "lighter__xyz",
       "kind": "website",
-      "name": "Lindy",
-      "canonical_url": "https://lindy.ai",
-      "summary": "Lindy is an AI teammate that connects to workplace tools like Slack, email, Notion, and CRM to perform real work such as pulling reports, debugging code, updating tickets, and drafting responses based on user instructions.",
+      "name": "Lighter",
+      "canonical_url": "https://lighter.xyz",
+      "summary": "An MCP server providing finance and fintech capabilities to AI models.",
       "tags": [
-        "ai-agent",
-        "workflow-automation",
-        "team-productivity"
+        "mcp",
+        "finance",
+        "fintech"
       ],
-      "primary_category": "mcp",
+      "primary_category": null,
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -100254,7 +100101,7 @@
       "kind": "website",
       "name": "Linked API",
       "canonical_url": "https://linkedapi.io",
-      "summary": "LinkedAPI.io is a commercial service providing a REST API, Node/Python SDKs, CLI, and MCP server for automating LinkedIn actions via a dedicated cloud browser.",
+      "summary": "A cloud-based automation API for LinkedIn that enables messaging, networking, data extraction, and outreach via API, SDK, CLI, or MCP integration.",
       "tags": [
         "linkedin",
         "api",
@@ -100380,11 +100227,9 @@
       "canonical_url": "https://awesome-copilot.github.com/llms.txt",
       "summary": "A community-driven collection of custom agents, instructions, and skills designed to extend GitHub Copilot's capabilities.",
       "tags": [
-        "github-copilot",
-        "custom-agents",
-        "skills",
-        "instructions",
-        "productivity"
+        "awesome-list",
+        "copilot",
+        "extensions"
       ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "curated",
@@ -100397,7 +100242,7 @@
       "kind": "website",
       "name": "LM Arena",
       "canonical_url": "https://arena.ai",
-      "summary": "Arena AI is a public leaderboard and chat platform for comparing and voting on AI models through real-world evaluation.",
+      "summary": "An interactive platform for chatting with, comparing, and voting on various AI models.",
       "tags": [
         "leaderboard",
         "evals",
@@ -100557,24 +100402,6 @@
       "activity_bucket": null
     },
     {
-      "id": "magicpatterns__com",
-      "kind": "website",
-      "name": "Magic Patterns",
-      "canonical_url": "https://magicpatterns.com",
-      "summary": "Magic Patterns is an AI design tool that turns prompts into production-ready UI using a user's design system for rapid prototyping and team collaboration.",
-      "tags": [
-        "ui-generation",
-        "design-system",
-        "prototyping",
-        "frontend"
-      ],
-      "primary_category": "app-builders",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "magickml__com",
       "kind": "website",
       "name": "Magick",
@@ -100697,7 +100524,7 @@
       "kind": "website",
       "name": "MCP Market",
       "canonical_url": "https://mcpmarket.com",
-      "summary": "MCP Market is a directory and discovery platform for MCP servers and agent skills that connect AI assistants to tools and data sources.",
+      "summary": "A directory and marketplace for discovering Model Context Protocol (MCP) servers and related tooling.",
       "tags": [
         "mcp",
         "directory",
@@ -100763,7 +100590,7 @@
       "kind": "website",
       "name": "MCP.so",
       "canonical_url": "https://mcp.so",
-      "summary": "mcp.so is a curated directory listing MCP servers and resources for the Model Context Protocol ecosystem.",
+      "summary": "A community-driven directory for discovering and browsing MCP servers, clients, and integrations.",
       "tags": [
         "mcp",
         "directory",
@@ -100793,7 +100620,7 @@
       "kind": "website",
       "name": "mcps-playground",
       "canonical_url": "https://mcpsplayground.com",
-      "summary": "Interactive playground for testing Model Context Protocol (MCP) servers with AI agents.",
+      "summary": "Interactive web playground for testing and inspecting remote Model Context Protocol (MCP) servers with AI agents.",
       "tags": [
         "mcp",
         "developer-tools",
@@ -100863,7 +100690,7 @@
       "kind": "website",
       "name": "Mentat CLI",
       "canonical_url": "https://mentat.ai/docs/cli",
-      "summary": "Mentat CLI is a terminal-native AI coding agent that performs autonomous coding tasks via command line.",
+      "summary": "A CLI tool from Mentat that provides terminal-native AI coding assistance.",
       "tags": [
         "cli",
         "coding-agent",
@@ -101208,24 +101035,6 @@
       "activity_bucket": null
     },
     {
-      "id": "myspec__dev",
-      "kind": "website",
-      "name": "MySpec",
-      "canonical_url": "https://myspec.dev",
-      "summary": "MySpec.dev is a spec-driven development tool that interviews users to generate a deterministic 4-file spec bundle (constitution, requirements, solution, tasks) for AI coding agents to build from.",
-      "tags": [
-        "spec-driven",
-        "ai-coding",
-        "mcp",
-        "prompt-engineering"
-      ],
-      "primary_category": "coding-agents",
-      "lifecycle_status": "needs_review",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "ruliad__co",
       "kind": "website",
       "name": "Naut",
@@ -101416,7 +101225,7 @@
       "kind": "website",
       "name": "OctoMind",
       "canonical_url": "https://octomind.dev",
-      "summary": "Octomind.dev is an AI-powered QA platform that creates, runs, and self-heals end-to-end tests for web applications using Playwright-based code.",
+      "summary": "Octomind is an AI-powered QA platform that creates, runs, and auto-fixes end-to-end tests for web apps.",
       "tags": [
         "testing",
         "qa",
@@ -101533,7 +101342,7 @@
       "kind": "website",
       "name": "OpenClaw",
       "canonical_url": "https://docs.openclaw.ai/zh-CN",
-      "summary": "OpenClaw is a self-hosted multi-channel AI agent gateway that connects chat apps to coding agents.",
+      "summary": "A self-hosted AI agent gateway that connects messaging channels like Discord, Slack, and WhatsApp to AI coding agents.",
       "tags": [
         "ai-agent",
         "self-hosted",
@@ -101550,7 +101359,7 @@
       "kind": "website",
       "name": "openclawmp.stepfun.com",
       "canonical_url": "https://openclawmp.stepfun.com",
-      "summary": "Water Product Market is an Agent skill and plugin marketplace where users share and install capabilities like skills, plugins, triggers, and communicators to extend Agent functionality.",
+      "summary": "A marketplace for sharing and installing skills, plugins, triggers, and communicators to extend AI agents.",
       "tags": [
         "agent-skills",
         "marketplace",
@@ -101664,9 +101473,10 @@
       "summary": "An interactive smart contract generator based on OpenZeppelin Contracts.",
       "tags": [
         "smart-contracts",
-        "openzeppelin",
         "blockchain",
-        "code-generation"
+        "code-generation",
+        "solidity",
+        "web3"
       ],
       "primary_category": "app-builders",
       "lifecycle_status": "curated",
@@ -101758,14 +101568,14 @@
       "kind": "website",
       "name": "PATAPIM",
       "canonical_url": "https://patapim.ai",
-      "summary": "Patapim.ai is a desktop utility that adds multi-project workspaces, voice dictation, remote control, and browser automation to Claude Code and compatible CLI agents.",
+      "summary": "A superpower suite for Claude Code that adds multi-project workspaces, voice dictation, remote control, live notifications, and embedded browser automation.",
       "tags": [
         "cli",
         "agent-extension",
         "workflow"
       ],
       "primary_category": "extensions-and-addons",
-      "lifecycle_status": "incubating",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -101823,13 +101633,13 @@
       "canonical_url": "https://permisapi.fr",
       "summary": "An API and MCP server providing French construction permit data, urban zoning, and real estate opportunity scores.",
       "tags": [
+        "api",
         "mcp",
         "real-estate",
-        "api",
-        "data-platform",
+        "data-source",
         "france"
       ],
-      "primary_category": "mcp",
+      "primary_category": null,
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -101842,11 +101652,11 @@
       "canonical_url": "https://pezzo.ai",
       "summary": "Pezzo is a platform for building, managing, and deploying AI agents.",
       "tags": [
-        "agent-orchestration",
-        "ai-platform",
-        "workflow-automation"
+        "prompt-engineering",
+        "observability",
+        "llmops"
       ],
-      "primary_category": "agent-orchestration",
+      "primary_category": null,
       "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
@@ -102008,15 +101818,16 @@
       "activity_bucket": null
     },
     {
-      "id": "powerdrill__ai__es",
+      "id": "predibase__com",
       "kind": "website",
-      "name": "Powerdrill AI",
-      "canonical_url": "https://powerdrill.ai/es",
-      "summary": "Powerdrill Bloom is an AI workspace with memory that learns from each data analysis to improve agent intelligence over time.",
+      "name": "Predibase",
+      "canonical_url": "https://predibase.com",
+      "summary": "Enterprise control layer for monitoring, governing, and remediating AI agent behavior across deployments.",
       "tags": [
-        "ai-workspace",
-        "memory",
-        "data-analysis"
+        "llm",
+        "fine-tuning",
+        "inference-api",
+        "mlops"
       ],
       "primary_category": "agent-orchestration",
       "lifecycle_status": "curated",
@@ -102256,32 +102067,13 @@
       "canonical_url": "https://pushtodisplay.com",
       "summary": "A programmable display layer that allows developers to push structured content from AI agents, CI/CD pipelines, or scripts to iOS and Android devices via a single API.",
       "tags": [
-        "mcp",
-        "dashboards",
-        "ios",
-        "android",
-        "automation"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "pushtodisplay__com",
-      "kind": "website",
-      "name": "Push To Display",
-      "canonical_url": "https://pushtodisplay.com",
-      "summary": "Push To Display is a platform that pushes structured content from AI agents, scripts, or automation tools to programmable display boards on iOS and Android devices via HTTP API, CLI, MCP server, or integrations.",
-      "tags": [
         "display",
         "mcp",
         "automation",
         "iot"
       ],
-      "primary_category": "extensions-and-addons",
-      "lifecycle_status": "incubating",
+      "primary_category": "mcp",
+      "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -102321,7 +102113,7 @@
       "kind": "website",
       "name": "PyPI",
       "canonical_url": "https://pypi.org/project/agent-cost-guardrails",
-      "summary": "A Python package providing cost monitoring and limit enforcement for AI agents via PyPI.",
+      "summary": "A Python package for managing cost guardrails in AI agent workflows.",
       "tags": [
         "cost-control",
         "agent-tooling",
@@ -102418,11 +102210,8 @@
       "canonical_url": "https://colab.research.google.com/drive/1sKSTjt9cPstl_WMZ86JsgEqFG-aSAwkn",
       "summary": "A Google Colab notebook serving as a tutorial or reference for the LangChain framework.",
       "tags": [
-        "langchain",
-        "notebooks",
-        "tutorials",
-        "orchestration",
-        "learning"
+        "notebook",
+        "colab"
       ],
       "primary_category": "ai-frameworks",
       "lifecycle_status": "curated",
@@ -102496,7 +102285,7 @@
       "kind": "website",
       "name": "React Agent",
       "canonical_url": "https://reactagent.io",
-      "summary": "ReactAgent.io is an AI agent platform that enables developers to build autonomous AI agents for coding and task execution.",
+      "summary": "A web-based platform for creating and managing AI agents with React-based workflows.",
       "tags": [
         "ai-agents",
         "automation",
@@ -102526,7 +102315,7 @@
       "kind": "website",
       "name": "Rebyte",
       "canonical_url": "https://rebyte.ai",
-      "summary": "Rebyte is an execution layer for running enterprise agents in the cloud with policy control and feedback-driven improvement.",
+      "summary": "A platform for hiring and coordinating teams of AI agents that operate as digital employees with their own cloud computers, identities, and tool access.",
       "tags": [
         "agent-orchestration",
         "enterprise",
@@ -102534,6 +102323,23 @@
       ],
       "primary_category": "agent-orchestration",
       "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "ref__tools",
+      "kind": "website",
+      "name": "ref.tools",
+      "canonical_url": "https://ref.tools",
+      "summary": "A shared workspace for reviewing AI-generated plans before code changes are applied, enabling accountability in AI-driven development workflows.",
+      "tags": [
+        "workflow",
+        "ai-accountability",
+        "code-review"
+      ],
+      "primary_category": "coding-agents",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -102605,7 +102411,7 @@
       "kind": "website",
       "name": "Replit",
       "canonical_url": "https://replit.com",
-      "summary": "Replit is an AI-powered platform that lets users describe apps or websites in natural language and generates deployable full-stack applications with built-in hosting, databases, and integrations.",
+      "summary": "Replit is a cloud-based platform for building, deploying, and collaborating on software projects with AI assistance.",
       "tags": [
         "app-builder",
         "ai-generated",
@@ -102622,7 +102428,7 @@
       "kind": "website",
       "name": "Replit Agent",
       "canonical_url": "https://replit.com/agent4",
-      "summary": "Agent 4 is Replit's AI coding agent that performs autonomous coding tasks like designing, building, and shipping apps through natural language prompts.",
+      "summary": "Replit's Agent 4 is an AI agent for building, designing, and shipping apps, sites, and other digital products within the Replit platform.",
       "tags": [
         "ai-agent",
         "replit",
@@ -102724,7 +102530,7 @@
       "kind": "website",
       "name": "Review",
       "canonical_url": "https://aifordevelopers.org/tool/antigravity",
-      "summary": "Antigravity is an agent-first IDE based on a modified Visual Studio Code fork that enables autonomous AI agents to plan, code, test, and browse in parallel via a dual-view interface.",
+      "summary": "Antigravity is an AI-native IDE built on a VS Code fork that uses autonomous agents to plan, write, execute, and test code.",
       "tags": [
         "ide",
         "coding-agents",
@@ -102786,7 +102592,7 @@
       "kind": "website",
       "name": "Rocket.new",
       "canonical_url": "https://rocket.new",
-      "summary": "Rocket.new is a prompt-to-app platform that generates deployable web and mobile apps from natural language descriptions.",
+      "summary": "Rocket is a prompt-to-app platform that also provides market research and competitive intelligence for deciding what to build.",
       "tags": [
         "app-builder",
         "no-code",
@@ -102921,7 +102727,7 @@
       "kind": "website",
       "name": "Scrapezy",
       "canonical_url": "https://scrapezy.com",
-      "summary": "Scrapezy is an AI-powered web scraping tool that extracts structured data from websites using natural language prompts.",
+      "summary": "An AI-powered web scraping service that converts websites into structured JSON, CSV, or Markdown for AI pipelines.",
       "tags": [
         "web-scraping",
         "ai-powered",
@@ -102930,7 +102736,7 @@
         "mcp"
       ],
       "primary_category": "mcp",
-      "lifecycle_status": "incubating",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -103028,7 +102834,7 @@
       "kind": "website",
       "name": "Semgrep",
       "canonical_url": "https://semgrep.dev",
-      "summary": "Semgrep is an application security platform that uses AI-assisted static analysis to scan source code for vulnerabilities, secrets, and malware.",
+      "summary": "An extensible application security platform that scans source code for vulnerabilities using AI-assisted SAST, SCA, and secrets detection.",
       "tags": [
         "security",
         "sast",
@@ -103131,7 +102937,7 @@
       "kind": "website",
       "name": "Skills.Sh",
       "canonical_url": "https://skills.sh",
-      "summary": "A directory and registry for discovering and installing reusable skill packs that extend AI agent capabilities via a single command.",
+      "summary": "A directory and registry for discovering and installing reusable skills for AI agents.",
       "tags": [
         "skills",
         "agent-extension",
@@ -103289,7 +103095,7 @@
       "kind": "website",
       "name": "Superagent",
       "canonical_url": "https://superagent.sh",
-      "summary": "Superagent is an autonomous security factory that deploys AI workers to perform continuous security tasks like penetration testing, dependency updates, and context guardrails.",
+      "summary": "An AI security team that finds, patches, and discloses vulnerabilities in code and agents, delivering fixes as PRs.",
       "tags": [
         "security",
         "autonomous-agents",
@@ -103468,7 +103274,7 @@
       "kind": "website",
       "name": "Tabnine CLI",
       "canonical_url": "https://docs.tabnine.com/main/getting-started/tabnine-cli",
-      "summary": "Tabnine CLI is a terminal-based AI coding assistant that provides code completions, chat, agent features, and context-aware assistance within a developer's existing workflow.",
+      "summary": "An AI-powered coding assistant that operates directly within the terminal.",
       "tags": [
         "cli",
         "ai-assistant",
@@ -103489,23 +103295,6 @@
       "tags": [],
       "primary_category": "app-builders",
       "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "hr__talentohq__com__mcp",
-      "kind": "website",
-      "name": "TalentoHQ",
-      "canonical_url": "https://hr.talentohq.com/mcp",
-      "summary": "The Model Context Protocol (MCP) is a standardized interface enabling AI agents to interact with external tools and data sources.",
-      "tags": [
-        "mcp",
-        "protocol",
-        "ai-infrastructure"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -103633,7 +103422,7 @@
       "kind": "website",
       "name": "TeleportHQ",
       "canonical_url": "https://teleporthq.io",
-      "summary": "TeleportHQ is a low-code front-end design and development platform with AI-powered website generation and visual builder tools.",
+      "summary": "Low-code front-end design and development platform with AI-powered website building and visual editing capabilities.",
       "tags": [
         "low-code",
         "ui-builder",
@@ -103675,23 +103464,6 @@
       ],
       "primary_category": "coding-agents",
       "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "testim__io",
-      "kind": "website",
-      "name": "Testim",
-      "canonical_url": "https://testim.io",
-      "summary": "Testim is an AI-powered automated testing platform for creating and maintaining stable web, mobile, and Salesforce UI tests using natural language and self-healing locators.",
-      "tags": [
-        "testing",
-        "qa",
-        "ai-powered"
-      ],
-      "primary_category": "extensions-and-addons",
-      "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -103780,7 +103552,7 @@
       "kind": "website",
       "name": "Tldv",
       "canonical_url": "https://gitlab.com/tldv/tldv-mcp-server",
-      "summary": "An MCP server that exposes tl;dv's video transcription and summarization service via the Model Context Protocol.",
+      "summary": "An MCP server that integrates tldv meeting recordings and transcripts into AI assistant workflows.",
       "tags": [
         "mcp",
         "meeting-transcription",
@@ -103884,12 +103656,12 @@
       "summary": "Enterprise LLMOps platform for deploying, fine-tuning, and scaling GenAI applications with governance and observability.",
       "tags": [
         "llmops",
-        "enterprise-ai",
+        "ai-infrastructure",
         "model-serving",
-        "agent-orchestration",
-        "governance"
+        "agent-lifecycle",
+        "self-hosted"
       ],
-      "primary_category": "agent-orchestration",
+      "primary_category": null,
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -104407,7 +104179,7 @@
       "kind": "website",
       "name": "Vercel AI SDK",
       "canonical_url": "https://ai-sdk.dev",
-      "summary": "AI SDK is a TypeScript library for building AI applications with streaming, fallbacks, and multi-model support via a unified API for text, image, speech, and video generation.",
+      "summary": "A unified TypeScript SDK from Vercel for building AI-powered applications with support for streaming, fallbacks, and multiple model providers.",
       "tags": [
         "ai-sdk",
         "typescript",
@@ -104550,7 +104322,7 @@
       "kind": "website",
       "name": "VS Code MCP Directory",
       "canonical_url": "https://code.visualstudio.com/mcp",
-      "summary": "The GitHub MCP Registry centralizes community MCP servers for discovering and integrating tools that connect AI models to files, APIs, and databases.",
+      "summary": "A centralized GitHub registry for discovering and integrating Model Context Protocol (MCP) servers.",
       "tags": [
         "mcp",
         "registry",
@@ -104616,7 +104388,7 @@
       "kind": "website",
       "name": "Wassenger",
       "canonical_url": "https://wassenger.com",
-      "summary": "Wassenger is a WhatsApp Business API platform that connects a team's WhatsApp number to AI assistants like Claude and ChatGPT via MCP and REST API.",
+      "summary": "A WhatsApp Business platform with AI automation, team inbox, and MCP server integration for connecting AI assistants like Claude and ChatGPT.",
       "tags": [
         "whatsapp",
         "mcp",
@@ -104664,7 +104436,7 @@
       "kind": "website",
       "name": "wearewarp.com/agents/mcp",
       "canonical_url": "https://www.wearewarp.com/agents/mcp",
-      "summary": "Warp MCP Server provides 31 freight quote, booking, and tracking tools via the Model Context Protocol for use in Claude, Cursor, and similar clients.",
+      "summary": "An MCP server that enables AI agents to quote, book, and track freight shipments using Warp's carrier network.",
       "tags": [
         "mcp",
         "freight",
@@ -104774,7 +104546,7 @@
       "kind": "website",
       "name": "What The Diff",
       "canonical_url": "https://whatthediff.ai",
-      "summary": "What-the-Diff is an AI-powered GitHub and GitLab app that generates plain English pull request descriptions and summaries.",
+      "summary": "An AI-powered GitHub and GitLab app that generates plain-English explanations of pull request diffs and automates PR descriptions, summaries, and changelogs.",
       "tags": [
         "pr-automation",
         "code-review",
@@ -104898,7 +104670,7 @@
       "kind": "website",
       "name": "Wren",
       "canonical_url": "https://getwren.ai",
-      "summary": "Wren AI is an open-core governed data agent that provides consistent answers from 20+ data sources via a context layer for humans and AI agents.",
+      "summary": "Wren AI is an open-source GenBI platform that converts natural language into governed text-to-SQL and structured insights across multiple data sources.",
       "tags": [
         "data-agent",
         "mcp",
@@ -104936,7 +104708,7 @@
       "kind": "website",
       "name": "x402station.io",
       "canonical_url": "https://x402station.io",
-      "summary": "x402station.io provides a risk-signal layer for x402 agentic commerce, offering decoy/zombie/price-trap detection before agents authorize payments.",
+      "summary": "x402station.io is an independent risk signal layer providing endpoint evidence for x402 agentic commerce before payment authorization.",
       "tags": [
         "payments",
         "security",
@@ -104966,7 +104738,7 @@
       "kind": "website",
       "name": "Y-combinator company",
       "canonical_url": "https://ycombinator.com/companies/tusk",
-      "summary": "Tusk is an AI agent that generates unit and integration tests using codebase context and runs them in a sandbox before PR submission.",
+      "summary": "Tusk is an AI agent that generates unit and integration tests for pull requests by analyzing codebase context and running suggestions in an ephemeral CI sandbox.",
       "tags": [
         "ai-agent",
         "test-generation",
@@ -104991,7 +104763,7 @@
         "customer-data",
         "context-protocol"
       ],
-      "primary_category": "mcp",
+      "primary_category": null,
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -105120,10 +104892,9 @@
       "canonical_url": "https://datawhalechina.github.io/llm-universe",
       "summary": "A curated collection of LLM resources covering multi-modal generation, agents, programming assistance, and model training.",
       "tags": [
+        "tutorial",
         "llm",
-        "resources",
-        "tutorials",
-        "agents"
+        "education"
       ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "curated",
@@ -105139,10 +104910,7 @@
       "summary": "A curated collection of LLM resources including multimodal generation, agents, coding assistance, and MCP insights.",
       "tags": [
         "llm-resources",
-        "agents",
-        "coding-assistance",
-        "mcp",
-        "multimodal"
+        "curated-list"
       ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "curated",
@@ -105157,10 +104925,9 @@
       "canonical_url": "https://changche.substack.com/p/a-year-inside-bytedances-ai-lab",
       "summary": "A Substack publication detailing ByteDance's AI laboratory operations and research insights over a one-year period.",
       "tags": [
-        "insights",
-        "research",
-        "ai-lab",
-        "case-study"
+        "article",
+        "reflection",
+        "ai-research"
       ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "curated",

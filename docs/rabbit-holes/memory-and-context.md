@@ -3,11 +3,11 @@
 
 Systems that improve what goes into the model: persistent agent memory, retrieval and RAG pipelines, context compression, and prompt management.
 
-_232 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_231 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Persistent Memory & Knowledge](#persistent-memory--knowledge) — 143
+- [Persistent Memory & Knowledge](#persistent-memory--knowledge) — 142
 - [Context & Session Management](#context--session-management) — 22
 - [Compression & Token Optimization](#compression--token-optimization) — 35
 - [Retrieval & Fresh Docs](#retrieval--fresh-docs) — 22
@@ -242,7 +242,7 @@ _232 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   `mcp` `memory` `claude-code` `self-hosted` `knowledge-graph`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+113 more in Persistent Memory & Knowledge &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+112 more in Persistent Memory & Knowledge &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[avinash-jetwani/jevmem](https://github.com/avinash-jetwani/jevmem)** `⭐ 98` `updated ≤30d` Automatic project memory for Claude Code. Also works with Cursor and Codex.
 - **[DomDemetz/claude-soul](https://github.com/domdemetz/claude-soul)** `⭐ 89` `updated ≤180d` A self-correcting memory and behavioral tracking engine for Claude Code that provides cross-session persistence via local SQLite and semantic search.
@@ -352,7 +352,6 @@ _232 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[zilliztech/memsearch](https://github.com/zilliztech/memsearch)** Agent memory search with optional Jev relevance judgments to rerank retrieved passages.
 - **[Atlan](https://atlan.com)** An enterprise context layer that unifies business logic, data lineage, and institutional knowledge into a graph for AI agents.
 - **[Context by Fulcra](https://fulcradynamics.com)** Fulcra is a user-owned context backend for AI agents that unifies real-world data, files, and agent work into a controllable context lake.
-- **[Dosu](https://dosu.dev)** Dosu is a knowledge infrastructure layer that automatically captures and syncs team documentation to reduce token usage and improve agent performance.
 - **[jevmem](https://npmjs.com/package/jevmem)** jevmem (site) - Jev decides. The LLM writes one line. Your project never forgets. Jev-powered memory layer for AI coding tools.
 - **[Powerdrill AI](https://powerdrill.ai)** Powerdrill.ai is an AI-powered data analysis workspace with memory that allows users to query documents and databases in plain language and get sourced answers.
 - **[Remio](https://remio.ai)** Remio – Local-first AI memory and knowledge base desktop app with a CLI/agent skill interface. Indexes files, webpages, recordings, emails, messages, images, and notes into local vectors so coding agents can retrieve focused personal/project context instead of repeatedly grepping folders or loading whole documents into prompts. CLI/skill workflows require the Remio desktop client.
@@ -690,7 +689,7 @@ _232 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   _Finally, a tool that lets you spend more time crafting the perfect prompt than actually writing code._
 
-  `prompt-engineering` `context-management` `ai-coding` `desktop-app` `multi-llm`
+  `prompt-engineering` `context-management` `developer-tool`
   </details>
 - **[Izlo](https://getizlo.com)** Izlo is a prompt management platform that provides version control, collaboration, and testing workflows for team-based AI prompts. <details><summary>More about</summary>
 

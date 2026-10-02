@@ -3,12 +3,12 @@
 
 Awesome lists, curated directories, ecosystem maps, newsletters, and publications for discovering tools and staying current with AI development.
 
-_173 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_174 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Awesome Lists & Directories](#awesome-lists--directories) — 155
-- [Ecosystem Maps & Landscapes](#ecosystem-maps--landscapes) — 7
+- [Awesome Lists & Directories](#awesome-lists--directories) — 157
+- [Ecosystem Maps & Landscapes](#ecosystem-maps--landscapes) — 6
 - [Publications & Feeds](#publications--feeds) — 11
 
 ## Awesome Lists & Directories
@@ -254,7 +254,7 @@ _173 entries in 3 sections, ranked by stars. Each section opens with its top 30;
   `awesome-list` `ecosystem` `langgraph`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+125 more in Awesome Lists & Directories &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+127 more in Awesome Lists & Directories &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers)** `⭐ 1.6k` `updated ≤90d` A curated list of research papers on multi-agent systems and swarm intelligence for AI agents.
 - **[currentslab/awesome-vector-search](https://github.com/currentslab/awesome-vector-search)** `⭐ 1.6k` `updated ≤90d` A curated list of vector search frameworks, engines, libraries, cloud services, and research papers.
@@ -340,6 +340,7 @@ _173 entries in 3 sections, ranked by stars. Each section opens with its top 30;
 - **[wuyoscar/jev-skill](https://github.com/wuyoscar/jev-skill)** jev-skill - An awesome collection of Jev use cases, workflows, and agent skills.
 - **[yibie/awesome-jev](https://github.com/yibie/awesome-jev)** Jev decision models — curated typed-decision projects across application domains.
 - **[yzfly/awesome-jev-zh](https://github.com/yzfly/awesome-jev-zh)** awesome-jev-zh (site) - Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用、Agent 工具、开源复现与独立评测，附中文上手指南，每日自动收录 GitHub 热门项目。.
+- **[《面向开发者的LLM入门教程》](https://datawhalechina.github.io/llm-cookbook)** An introductory tutorial for developers on using Large Language Models.
 - **[AI For Developers](https://aifordevelopers.org)** A curated directory of AI coding tools, agents, and developer-focused infrastructure.
 - **[All skills →](https://awesome-copilot.github.com/skills)** A curated list of community-contributed instructions, agents, skills, and configurations for GitHub Copilot.
 - **[Altern](https://altern.ai)** A curated directory of AI tools, agents, and SDKs.
@@ -354,6 +355,7 @@ _173 entries in 3 sections, ranked by stars. Each section opens with its top 30;
 - **[awesome-typesafe-jev](https://abdelstark.github.io/awesome-typesafe-jev)** awesome-typesafe (site) - Curated list of official resources and community projects for TypeSafe, System One models, and Jev, with a GitHub Pages site.
 - **[Chip Huyen](https://huyenchip.com)** Chip Huyen is a writer, computer scientist, and AI systems expert who shares insights on AI productionization through blog posts, books, talks, and curated resource lists.
 - **[clients](https://glama.ai/mcp/clients)** Clients is a directory page on glama.ai listing MCP client implementations.
+- **[CodeCosts](https://codecosts.pages.dev)** A comparison and cost calculation platform for AI coding assistants and IDEs.
 - **[hosted endpoint](https://glama.ai/mcp/connectors)** A registry of 9,411+ remote MCP servers for connecting AI agents like Claude, ChatGPT, and Cursor to external tools and data sources without local installation.
 - **[jev.guide](https://jev.guide)** jevguide (site) - Curated Jev showcases from X, organized by category with media previews and direct source links.
 - **[jevbest.com](https://jevbest.com)** awesome-jev (heyjunpenn) (site) - A verified, community-maintained catalog of 485 open-source projects built with Jev.
@@ -389,14 +391,6 @@ _173 entries in 3 sections, ranked by stars. Each section opens with its top 30;
 - **[everyinfra/jev-radar](https://github.com/everyinfra/jev-radar)** `⭐ 31` `updated ≤30d` 全网最全 · The world's most comprehensive tracker of the Jev (TypeSafe AI System One) ecosystem — 220+ documented cases · 108 confidence-graded entries · verified & rescanned every 3 hours · API access guide included.
 - **[Nadeus/toolradar-mcp](https://github.com/nadeus/toolradar-mcp)** Nadeus/toolradar-mcp : Search, compare, and get pricing for 8,600+ software tools with verified data, editorial scores, G2/Capterra ratings, and real alternatives. Install via npx -y toolradar-mcp.
 - **[Registry Broker](https://github.com/hashgraph-online/registry-broker)** Universal index and routing layer for AI agents. Aggregates agent metadata from multiple registries (NANDA, MCP, Virtuals, OpenRouter, A2A, X402 Bazaar) across web2 and web3, normalizes profiles, and provides protocol translation between agent ecosystems.
-- **[CodeCosts](https://codecosts.pages.dev)** A comparison and cost calculation platform for AI coding assistants and IDEs. <details><summary>More about</summary>
-
-  Helps developers and teams quickly evaluate and budget for AI coding tools based on real pricing data and use-case fit.
-
-  _Another spreadsheet in disguise, because choosing your AI pair programmer shouldn’t require a finance degree._
-
-  `pricing` `comparison` `developer-tools`
-  </details>
 - **[HuggingFace](https://huggingface.co)** Hugging Face is a platform for hosting, discovering, and collaborating on machine learning models, datasets, and applications. <details><summary>More about</summary>
 
   It provides developers with centralized access to pre-trained models, datasets, and demo apps (Spaces), accelerating ML experimentation and deployment.
@@ -425,7 +419,7 @@ _173 entries in 3 sections, ranked by stars. Each section opens with its top 30;
 
   _Another subscription to manage in a world where the delta between 'tate of the art' and 'obsolete' is measured in weeks._
 
-  `newsletter` `developer-education` `ai-trends`
+  `newsletter` `ai-development` `curated-content`
   </details>
 - **[AI开发者频道](https://techdiylife.github.io/blog/blog_list.html)** blog_list.html is a static HTML page listing articles from the TechDIYLife website, which shares tech DIY content, YouTube videos, GitHub code, and free ebooks. <details><summary>More about</summary>
 
@@ -441,7 +435,7 @@ _173 entries in 3 sections, ranked by stars. Each section opens with its top 30;
 
   _Another subscription to manage in a world where the agentic frontier moves faster than your ability to unread it._
 
-  `newsletter` `ai-agents` `curation` `agentic-workflows`
+  `newsletter` `curated` `ai-agents`
   </details>
 - **[awesomelangchain.substack.com](https://awesomelangchain.substack.com)** A Substack newsletter providing curated updates and insights regarding the LangChain ecosystem. <details><summary>More about</summary>
 
@@ -482,5 +476,5 @@ _173 entries in 3 sections, ranked by stars. Each section opens with its top 30;
 
   _Another long-form essay to read while your local LLM is busy hallucinating a semi-working implementation of the very research described._
 
-  `insights` `research` `ai-lab` `case-study`
+  `article` `reflection` `ai-research`
   </details>

@@ -3,14 +3,14 @@
 
 Platforms and runtimes for coordinating multiple agents: designing workflows, routing tasks between specialists, and deploying autonomous agent teams.
 
-_318 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_317 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Hosted Agent Platforms](#hosted-agent-platforms) — 24
+- [Hosted Agent Platforms](#hosted-agent-platforms) — 22
 - [Visual Builders & Workbenches](#visual-builders--workbenches) — 13
 - [Agent Runtimes & Harnesses](#agent-runtimes--harnesses) — 273
-- [Domain & Enterprise Platforms](#domain--enterprise-platforms) — 8
+- [Domain & Enterprise Platforms](#domain--enterprise-platforms) — 9
 
 ## Hosted Agent Platforms
 
@@ -167,23 +167,7 @@ _318 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   _Finally, a way to undo that time your agent decided to recursively delete your prod database._
 
-  `agent-ops` `enterprise-ai` `governance` `observability` `security`
-  </details>
-- **[Rebyte](https://rebyte.ai)** A platform for hiring and coordinating teams of AI agents that operate as digital employees with their own cloud computers, identities, and tool access. <details><summary>More about</summary>
-
-  It lets developers deploy and govern autonomous agents without building infrastructure, turning agent runs into observable, improvable feedback loops.
-
-  _Yet another layer promising control over AI agents while quietly adding to the stack you now have to monitor, patch, and explain in standups._
-
-  `agent-orchestration` `enterprise` `mcp`
-  </details>
-- **[TrueFoundry](https://truefoundry.com/llmops)** Enterprise LLMOps platform for deploying, fine-tuning, and scaling GenAI applications with governance and observability. <details><summary>More about</summary>
-
-  It gives developers a single desktop workspace to orchestrate multiple coding agents and UI widgets without paying for another IDE seat or cloud computer subscription.
-
-  _Now you can finally feel the existential dread of managing six concurrent AI agents while Jarvis whispers 'Yes, sir?' in your ear._
-
-  `ai-harness` `desktop-agent` `windows-only` `multi-agent` `widget-marketplace`
+  `llm` `fine-tuning` `inference-api` `mlops`
   </details>
 
 ## Visual Builders & Workbenches
@@ -794,7 +778,7 @@ _318 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 
   _Because apparently, 'it worked in my playground' is no longer a valid excuse for why the reconciliation agent just hallucinated an entire financial quarter._
 
-  `agent-orchestration` `enterprise-automation` `workflow-automation` `multi-agent-systems` `compliance-tech`
+  `ai-agents` `workflow-automation` `enterprise-ai`
   </details>
 - **[Athena Intelligence](https://athenaintelligence.ai)** Athena Intelligence is a platform for building and orchestrating AI agents for complex, regulated knowledge work, deployed on user-controlled infrastructure. <details><summary>More about</summary>
 
@@ -819,6 +803,14 @@ _318 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _Finally, an AI that doesn’t just write code but also manages the YAML hell that comes after — because even machines hate maintaining ArgoCD._
 
   `ai-sdlc` `devops` `ai-agents` `platform`
+  </details>
+- **[Rebyte](https://rebyte.ai)** A platform for hiring and coordinating teams of AI agents that operate as digital employees with their own cloud computers, identities, and tool access. <details><summary>More about</summary>
+
+  It lets developers delegate end-to-end software tasks (e.g., code reviews, PR fixes, on-call triage) to specialized agents that work autonomously in Slack or via API.
+
+  _Now you can fire your intern and replace them with a Slack thread that never sleeps, complains, or asks for equity._
+
+  `agent-orchestration` `enterprise` `mcp`
   </details>
 - **[Speakeasy](https://speakeasy.com/product/ai-control-plane)** Speakeasy – Enterprise AI control plane for governing access, policy, and auditability across agents, MCP servers, and Skills.
 - **[systemprompt.io](https://systemprompt.io)** SystemPrompt is a self-hosted Rust runtime for governing AI client access, model routing, and tool execution with centralized policy enforcement and audit logging. <details><summary>More about</summary>

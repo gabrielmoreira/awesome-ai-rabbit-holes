@@ -3,16 +3,17 @@
 
 Code-first libraries, SDKs, and engines that developers import and program against to build AI-powered applications and agent systems.
 
-_504 entries in 6 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_504 entries in 7 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
 - [LLM & Agent SDKs](#llm--agent-sdks) — 220
 - [Multi-Agent Systems](#multi-agent-systems) — 60
-- [Provider & Model Abstractions](#provider--model-abstractions) — 110
+- [Provider & Model Abstractions](#provider--model-abstractions) — 109
 - [Workflow & Graph Engines](#workflow--graph-engines) — 27
 - [Memory & Retrieval Infrastructure](#memory--retrieval-infrastructure) — 34
 - [Training & Model Infrastructure](#training--model-infrastructure) — 53
+- [Others](#others) — 1
 
 ## LLM & Agent SDKs
 
@@ -431,9 +432,9 @@ _504 entries in 6 sections, ranked by stars. Each section opens with its top 30;
 - **[LlamaIndex](https://llamaindex.ai)** LlamaIndex is a data framework for connecting custom data sources to large language models, enabling retrieval-augmented generation and context-aware AI applications.
 - **[Markstream Vue](https://markstream-vue.simonhe.me)** Markstream Vue – MIT-licensed streaming Markdown renderer for AI chat interfaces, with Mermaid, KaTeX, SSR, and Vue, React, Svelte, and Angular integrations.
 - **[MultiOn](https://theagi.company)** A developer platform and SDK for building autonomous agents that interact with mobile and desktop applications via screen recognition and action.
-- **[PyPI](https://pypi.org/project/agent-cost-guardrails)** A Python package for managing cost guardrails in AI agent workflows.
 - **[Query the YouTube video transcripts](https://colab.research.google.com/drive/1sKSTjt9cPstl_WMZ86JsgEqFG-aSAwkn)** A Google Colab notebook serving as a tutorial or reference for the LangChain framework.
 - **[ScrapeGraphAI](https://scrapegraphai.com)** ScrapeGraphAI is a web scraping API that extracts structured data from websites using AI without requiring proxies, selectors, or maintenance.
+- **[Vercel AI SDK](https://ai-sdk.dev)** A unified TypeScript SDK from Vercel for building AI-powered applications with support for streaming, fallbacks, and multiple model providers.
 - **[Wren](https://getwren.ai)** Wren AI is an open-source GenBI platform that converts natural language into governed text-to-SQL and structured insights across multiple data sources.
 
 </details>
@@ -889,7 +890,7 @@ _504 entries in 6 sections, ranked by stars. Each section opens with its top 30;
   </details>
 - **[haileyok/typesafe-client](https://github.com/haileyok/typesafe-client)** `⭐ 6` `updated ≤30d` Unofficial Go and Rust clients for the TypeSafe AI System One API (Jev).
 
-<details><summary><strong>▸ &nbsp;&nbsp;+80 more in Provider & Model Abstractions &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+79 more in Provider & Model Abstractions &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[alterhq/typesafe-sdk-swift](https://github.com/alterhq/typesafe-sdk-swift)** `⭐ 5` `updated ≤30d` Unofficial Swift library for the TypeSafe API.
 - **[gudcks0305/jev-java](https://github.com/gudcks0305/jev-java)** `⭐ 5` `updated ≤30d` Unofficial Java SDK for TypeSafe Jev and Vercel AI Gateway, with Spring Boot and WebClient support.
@@ -969,7 +970,6 @@ _504 entries in 6 sections, ranked by stars. Each section opens with its top 30;
 - **[spring-ai-typesafe](https://spring-ai-community.github.io/spring-ai-typesafe)** spring-ai-typesafe (site) - A Java SDK for the TypeSafe AI JEV API, & Spring AI TypeSafe integrations.
 - **[Twelve Data](https://twelvedata.com)** Twelve Data provides financial market data APIs for stocks, forex, crypto, and other assets with SDKs and WebSocket access for developers.
 - **[typesafe_ai_rs](https://docs.rs/typesafe-ai-rs/latest/typesafe_ai_rs)** typesafe-ai-rs (site) - Independent async and blocking Rust SDK for the TypeSafe AI System One API.
-- **[Vercel AI SDK](https://ai-sdk.dev)** A unified TypeScript SDK from Vercel for building AI-powered applications with support for streaming, fallbacks, and multiple model providers.
 - **[Vercel AI SDK provider](https://ai-sdk.dev/providers/ai-sdk-providers/typesafe-ai)** Vercel AI SDK provider (post) - @ai-sdk/typesafe-ai plus experimental_evaluate; use jev-latest as an evaluation model.
 
 </details>
@@ -1631,3 +1631,14 @@ _504 entries in 6 sections, ranked by stars. Each section opens with its top 30;
 - **[flaml-a-fast-and-lightweight-automl-library](https://microsoft.com/en-us/research/publication/flaml-a-fast-and-lightweight-automl-library)** FLAML is a fast and lightweight AutoML library from Microsoft Research that automates learner and hyperparameter selection with low computational cost.
 
 </details>
+
+## Others
+
+- **[PyPI](https://pypi.org/project/agent-cost-guardrails)** A Python package for managing cost guardrails in AI agent workflows. <details><summary>More about</summary>
+
+  Helps developers control and monitor expenses when running AI agents, preventing unexpected cost overruns.
+
+  _Because nothing says 'developer productivity' like a tool that exists solely to stop your agents from bankrupting you._
+
+  `cost-control` `agent-tooling` `python`
+  </details>

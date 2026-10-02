@@ -114,7 +114,7 @@ _168 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   _Finally, a way to turn your GitHub Gists into a personal knowledge base without pretending you’ll ever organize them._
 
-  `vscode-extension` `github-integration` `code-snippets` `knowledge-management`
+  `vscode-extension` `gist-manager` `developer-productivity`
   </details>
 - **[Git AutoReview](https://gitautoreview.com)** Git AutoReview – VS Code extension for pull request review on GitHub, GitLab, and Bitbucket, including self-hosted Server and Data Center. You pick Claude, Gemini, or GPT, then approve each suggestion before it posts. Runs on your own API key, so code goes straight to the provider.
 - **[GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/chat/copilot-chat)** The AI-powered chat interface and agent runtime integrated into Visual Studio Code. <details><summary>More about</summary>
@@ -123,7 +123,7 @@ _168 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   _The transition from 'Chat view' for single workspaces to an 'Agents window' for multiple projects is the first step toward managing a fleet of autonomous interns who can all edit your source code simultaneously._
 
-  `vscode` `github-copilot` `agentic-workflow` `ide-integration`
+  `vscode` `copilot` `documentation`
   </details>
 - **[GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)** The conversational interface for GitHub Copilot within the Visual Studio Code editor. <details><summary>More about</summary>
 
@@ -131,7 +131,7 @@ _168 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   _It turns your IDE into a conversation where you spend more time negotiating with a side panel than actually typing code._
 
-  `copilot` `vscode` `chat-interface` `ai-assistance`
+  `ai-assistant` `vscode-extension` `copilot`
   </details>
 - **[LegacyDoc AI](https://romanticode.com/legacydoc-ai)** LegacyDoc AI – VS Code extension that generates AI code audit reports, Markdown docs, JSDoc, and Mermaid architecture maps from existing codebases.
 - **[Supercode.sh](https://supercode.sh/en)** Supercode.sh – Cursor extension adding Architect Mode, voice input, and prompt enhancement.
@@ -460,7 +460,7 @@ _168 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   _Nothing says 'production-ready' like a bot telling you that your security architecture is essentially a series of open doors._
 
-  `code-review` `static-analysis` `security` `automation` `saas`
+  `code-review` `security` `static-analysis` `ai-agent` `devsecops`
   </details>
 - **[GitGuardian](https://gitguardian.com)** GitGuardian is a security platform that detects and remediates exposed secrets, API keys, and non-human identities across code repositories, developer endpoints, and cloud infrastructure. <details><summary>More about</summary>
 
@@ -472,9 +472,9 @@ _168 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   </details>
 - **[Semgrep](https://semgrep.dev)** An extensible application security platform that scans source code for vulnerabilities using AI-assisted SAST, SCA, and secrets detection. <details><summary>More about</summary>
 
-  It helps developers catch security issues early in PRs and IDEs with high-precision findings that reduce false positives and security backlog.
+  It helps developers catch, flag, and fix real vulnerabilities before they ship, integrating with CI/CD, IDEs, and AI tools like Cursor and Replit via MCP.
 
-  _Yet another security tool that promises 'zero false positives' while adding another checkbox to your CI pipeline._
+  _Now your AI coding assistant can ship insecure code faster, but at least Semgrep will catch it before it hits prod._
 
   `security` `sast` `ai-assisted`
   </details>
@@ -595,7 +595,7 @@ _168 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   _Because having your coding agent respond to a WhatsApp message is exactly how you accidentally deploy buggy code from a coffee shop._
 
-  `ai-agent` `gateway` `messaging-integration` `self-hosted` `automation`
+  `ai-agent` `self-hosted` `gateway`
   </details>
 - **[Postman API](https://postman.com/postman/postman-public-workspace)** Postman API is a widely used platform for designing, testing, and managing HTTP APIs, featuring collaborative workspaces and automated documentation generation. <details><summary>More about</summary>
 

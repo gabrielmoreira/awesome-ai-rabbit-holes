@@ -3,21 +3,22 @@
 
 Servers, clients, registries, and infrastructure for the Model Context Protocol — the standard that lets AI agents talk to tools and data sources through a shared interface.
 
-_2452 entries in 11 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_2449 entries in 12 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Dev & Code Tools](#dev--code-tools) — 610
-- [Finance, Crypto & DeFi](#finance-crypto--defi) — 319
+- [Dev & Code Tools](#dev--code-tools) — 615
+- [Finance, Crypto & DeFi](#finance-crypto--defi) — 317
 - [Data & Databases](#data--databases) — 171
-- [Cloud & API Integration](#cloud--api-integration) — 397
-- [AI & Model Services](#ai--model-services) — 95
+- [Cloud & API Integration](#cloud--api-integration) — 395
+- [AI & Model Services](#ai--model-services) — 96
 - [Browser & Web Automation](#browser--web-automation) — 103
-- [Communication, Files & Productivity](#communication-files--productivity) — 222
-- [Middleware & Generic](#middleware--generic) — 476
+- [Communication, Files & Productivity](#communication-files--productivity) — 219
+- [Middleware & Generic](#middleware--generic) — 473
 - [Registries & Discovery](#registries--discovery) — 24
 - [Clients & Inspector Tools](#clients--inspector-tools) — 33
 - [Domain Servers](#domain-servers) — 2
+- [Others](#others) — 1
 
 ## Dev & Code Tools
 
@@ -255,7 +256,7 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
   `mcp` `openapi` `api-documentation` `developer-tools`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+580 more in Dev & Code Tools &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+585 more in Dev & Code Tools &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[vkhanhqui/figma-mcp-go](https://github.com/vkhanhqui/figma-mcp-go)** `⭐ 838` `updated ≤180d` figma-mcp-go is an open-source MCP server that provides full read/write access to live Figma data via a plugin bridge, enabling text-to-design and design-to-code workflows without using the Figma REST API or encountering rate limits.
 - **[getsentry/sentry-mcp](https://github.com/getsentry/sentry-mcp)** `⭐ 837` `updated ≤30d` An MCP server that provides Sentry debugging and observability tools to coding assistants via the Model Context Protocol.
@@ -832,11 +833,16 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
 - **[zaebee/codegraph-brain](https://github.com/zaebee/codegraph-brain)** zaebee/codegraph-brain - Local Python/TypeScript code graph: call tracing, multi-hop impact analysis, authz reachability audits, coupling metrics and architectural drift detection.
 - **[zephexMCP/zephex-MCPs](https://github.com/zephexmcp/zephex-mcps)** zephexMCP/zephex-MCPs : Hosted MCP for coding agents — project context, find_code, package safety, Test Pulse. Cursor/Claude/Codex + CLI. https://zephex.dev/mcp.
 - **[zyqzyq/Unfour](https://github.com/zyqzyq/unfour)** zyqzyq/Unfour - Local-first backend dev workspace: API debugging, SSH, database and diagnostics tools, with scoped safety policies and confirmation for risky actions.
+- **[![badge](https://glama.ai/mcp/servers/cdeust/Cortex/badge)** badge is an MCP server exposing Cortex badge capabilities via the Model Context Protocol.
+- **[![DollhouseMCP MCP server](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge)** An MCP server exposing a badge generation tool via the Model Context Protocol.
 - **[bldbl.dev](https://bldbl.dev)** An AI task engine that plans project backlogs, scaffolds repositories, and streams implementation tasks via the Model Context Protocol (MCP).
+- **[contextstream/mcp-server](https://www.npmjs.com/package/@contextstream/mcp-server)** An MCP server package published to npm by @contextstream.
 - **[gitmcp.io](https://gitmcp.io)** GitMCP creates an instant MCP server for any GitHub repository by replacing github.com with gitmcp.io in the URL.
+- **[https://mcp.1mcpserver.com/mcp/](https://mcp.1mcpserver.com/mcp)** Model Context Protocol infrastructure for AI agents to communicate with tools and data sources.
 - **[MCP](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro)** Model Context Protocol (MCP) is an open standard enabling AI applications to connect to external data sources, tools, and workflows via a unified interface.
 - **[MCP](https://modelcontextprotocol.io/docs/getting-started/intro)** Model Context Protocol (MCP) is an open standard enabling AI applications to connect to external systems like data sources, tools, and workflows.
 - **[RepoMapper](https://github.com.mcas.ms/pdavis68/RepoMapper)** An MCP server that provides repository mapping and structural context to AI agents.
+- **[wearewarp.com/agents/mcp](https://www.wearewarp.com/agents/mcp)** An MCP server that enables AI agents to quote, book, and track freight shipments using Warp's carrier network.
 
 </details>
 
@@ -1069,7 +1075,7 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
   `mcp` `bitcoin` `lightning-network` `nwc` `ai-agents`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+289 more in Finance, Crypto & DeFi &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+287 more in Finance, Crypto & DeFi &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[heurist-network/heurist-mesh-mcp-server](https://github.com/heurist-network/heurist-mesh-mcp-server)** `⭐ 66` `updated ≤1y` An MCP server that connects to Heurist Mesh APIs, providing access to 30+ specialized Web3 analytics agents for AI applications.
 - **[@iiatlas/hledger-mcp](https://github.com/iiatlas/hledger-mcp)** `⭐ 62` `updated ≤1y` An MCP server that exposes HLedger CLI accounting functionality to AI assistants via the Model Context Protocol.
@@ -1350,9 +1356,7 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
 - **[tooyipjee/yahoofinance-mcp](https://github.com/tooyipjee/yahoofinance-mcp)** tooyipjee/yahoofinance-mcp ☁️ - TS version of yahoo finance mcp.
 - **[vbkotecha/agentservices-api](https://github.com/vbkotecha/agentservices-api)** vbkotecha/agentservices-api : 54-service x402-paid crypto/market data API platform with 37 MCP tools. Live at api.agentservices.to. Agents pay per-call via HTTP 402 micropayments.
 - **[CoinGecko](https://docs.coingecko.com/docs/ai-agent-hub/mcp-server)** CoinGecko MCP Server is a Model Context Protocol server that exposes cryptocurrency market data and analytics to AI agents.
-- **[FD Commercial](https://www.fdcommercial.co.uk)** A commercial finance and fintech-focused MCP server for providing financial data access to AI agents.
 - **[Fewsats](https://fewsats.com)** Fewsats is an MCP server enabling Bitcoin payments via the Lightning Network for AI agents.
-- **[Lighter](https://lighter.xyz)** An MCP server providing finance and fintech capabilities to AI models.
 - **[mcp-page](https://heliumtrades.com/mcp-page)** An MCP server providing trained options pricing models, market forecasts, and news bias analysis to AI assistants.
 - **[Mercado Pago](https://mcp.mercadopago.com)** Mercado Pago MCP Server is an MCP server that provides AI-powered payment integration assistance within developer IDEs.
 - **[remote server](https://hiveintelligence.xyz/crypto-mcp)** Hive Intelligence provides an MCP server exposing 525 crypto-focused tools via discovery, schema, and execution primitives.
@@ -1988,7 +1992,7 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
   `mcp` `bilibili` `search` `video-metadata` `node-js`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+367 more in Cloud & API Integration &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+365 more in Cloud & API Integration &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[stape-io/google-tag-manager-mcp-server](https://github.com/stape-io/google-tag-manager-mcp-server)** `⭐ 185` `updated ≤180d` An MCP server that provides an interface to the Google Tag Manager API with built-in Google OAuth, allowing LLM clients like Claude Desktop to manage GTM tags, triggers, and variables.
 - **[tiktok-mcp](https://github.com/seym0n/tiktok-mcp)** `⭐ 183` `updated ≤1y` An MCP server that connects TikTok to Claude and other assistants, enabling video content extraction, virality analysis, and chat via the TikNeuron API.
@@ -2353,10 +2357,8 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
 - **[mcp-server](https://zop.dev/learn/mcp-server)** zopdev/mcp : Cloud cost and infrastructure governance across AWS, Azure, GCP, Databricks and Snowflake. 263 tools (155 read, 108 write), read-only by default, over a hosted remote endpoint at https://api.zop.dev/mcp-server. Docs · Claude setup.
 - **[Mercado Libre](https://mcp.mercadolibre.com)** Mercado Libre MCP Server is an MCP server exposing Mercado Libre's API documentation and resources for natural language interaction via MCP clients.
 - **[Pearl](https://mcp.pearl.com)** Pearl API MCP Server is a Model Context Protocol server exposing Pearl API capabilities via MCP.
-- **[permisapi.fr](https://permisapi.fr)** An API and MCP server providing French construction permit data, urban zoning, and real estate opportunity scores.
 - **[pricepertoken/mcp-server](https://pricepertoken.com/mcp)** An MCP server that exposes real-time LLM pricing and benchmark data for use by AI coding assistants.
 - **[twitterapi.io](https://twitterapi.io)** kaitoInfra/twitterapi-io-mcp-server : Hosted MCP server for twitterapi.io — Twitter/X data API for AI agents. 12 read-only tools: tweet search with full operators, profiles, threads, real-time WebSocket streaming. Hosted endpoint at mcp.twitterapi.io/mcp, npm @kaitoinfra/twitterapi-io-mcp-server.
-- **[wearewarp.com/agents/mcp](https://www.wearewarp.com/agents/mcp)** An MCP server that enables AI agents to quote, book, and track freight shipments using Warp's carrier network.
 
 </details>
 
@@ -2596,7 +2598,7 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
   `mcp` `openrouter` `search` `ai-integration` `web-search`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+65 more in AI & Model Services &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+66 more in AI & Model Services &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[arikusi/nakkas](https://github.com/arikusi/nakkas)** `⭐ 22` `updated ≤90d` MCP server that enables AI to generate animated SVG graphics from natural language prompts.
 - **[creatify-mcp](https://github.com/tsavo/creatify-mcp)** `⭐ 22` `updated >1y` An MCP server that exposes Creatify AI's video generation capabilities to AI assistants and automation platforms.
@@ -2663,6 +2665,7 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
 - **[yuluo688/gen-image-mcp](https://github.com/yuluo688/gen-image-mcp)** yuluo688/gen-image-mcp - Generate and edit images via your own OpenAI-compatible or Gemini image APIs and save them into the project directory, with optional model fallback.
 - **[yuvalsuede/agent-media](https://github.com/yuvalsuede/agent-media)** yuvalsuede/agent-media ☁️ - CLI and MCP server for AI video and image generation with unified access to 7 models (Kling, Veo, Sora, Seedance, Flux, Grok Imagine). Provides 9 tools for generating, managing, and browsing media.
 - **[Magic Hour](https://magichour.ai)** magichourhq/magic-hour-mcp : Official hosted MCP server for Magic Hour, providing AI video, image, and audio generation and editing tools.
+- **[Tldv](https://gitlab.com/tldv/tldv-mcp-server)** An MCP server that integrates tldv meeting recordings and transcripts into AI assistant workflows.
 
 </details>
 
@@ -3209,7 +3212,7 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
   `mcp` `email` `jmap` `deno`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+192 more in Communication, Files & Productivity &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+189 more in Communication, Files & Productivity &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[svelte-llm-mcp](https://github.com/khromov/svelte-llm-mcp)** `⭐ 161` `updated ≤1y` An MCP server providing Svelte 5 and SvelteKit developer documentation as a context source for AI assistants.
 - **[@taskade/mcp](https://github.com/taskade/mcp)** `⭐ 154` `updated ≤180d` The official Taskade MCP server and OpenAPI-to-MCP code generator, providing 50+ tools to connect AI assistants like Claude and Cursor to Taskade workspaces for managing tasks, projects, agents, and automations.
@@ -3398,10 +3401,7 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
 - **[wildsurfer/your-mail-mcp](https://github.com/wildsurfer/your-mail-mcp)** wildsurfer/your-mail-mcp ️ - Read-only, self-hosted search over multiple IMAP accounts, mirrored by mbsync into a local notmuch index. Cannot send, delete or move mail.
 - **[YS-projectcalc/agent-cold-email](https://github.com/ys-projectcalc/agent-cold-email)** YS-projectcalc/agent-cold-email ️ ☁️ - Coldrig cold-email infrastructure run by your agent: buy domains, provision mailboxes, warm up, run sequences and handle replies.
 - **[zerodrop-dev/zerodrop-mcp](https://github.com/zerodrop-dev/zerodrop-mcp)** zerodrop-dev/zerodrop-mcp ☁️ - Disposable email inboxes for AI agents with automatic OTP and magic-link extraction, for testing signups and auth flows.
-- **[Calcom](https://cal.com)** Cal.com is an open-source scheduling infrastructure and API designed to handle complex booking workflows.
 - **[DeepWiki by Devin](https://docs.devin.ai/work-with-devin/deepwiki-mcp)** An MCP server that provides Devin with access to DeepWiki's knowledge base.
-- **[Free tier available](https://spix.sh)** A communication-focused MCP server implementation.
-- **[Tldv](https://gitlab.com/tldv/tldv-mcp-server)** An MCP server that integrates tldv meeting recordings and transcripts into AI assistant workflows.
 - **[Wassenger](https://wassenger.com)** A WhatsApp Business platform with AI automation, team inbox, and MCP server integration for connecting AI assistants like Claude and ChatGPT.
 
 </details>
@@ -3642,7 +3642,7 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
   `mcp` `api-gateway` `agent-governance` `observability` `rate-limiting`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+446 more in Middleware & Generic &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+443 more in Middleware & Generic &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[pskill9/web-search](https://github.com/pskill9/web-search)** `⭐ 461` `updated >1y` A Model Context Protocol server that provides free web search via Google results without requiring API keys.
 - **[fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies)** `⭐ 450` `updated ≤90d` A Rust-based MCP server and desktop Studio for building, validating, and reasoning over RDF/OWL ontologies using an in-memory triple store.
@@ -4074,11 +4074,9 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
 - **[Augments](https://augments.dev)** An MCP server that provides type signatures, prose documentation, and code examples for any npm package.
 - **[Carbon Voice](https://getcarbon.app)** An MCP server providing communication-related tools and capabilities to AI agents.
 - **[ContextStream](https://contextstream.io)** ContextStream – Shared project context for Cursor, Claude Code, Codex, Grok, and the rest. Intelligence isn’t the bottleneck. Context is. Remote MCP: https://mcp.contextstream.io/mcp.
-- **[contextstream/mcp-server](https://www.npmjs.com/package/@contextstream/mcp-server)** An npm package providing an MCP server implementation.
 - **[Curio MCP](https://designbycurio.com/mcp)** Curio MCP – Design-style library for AI: search hundreds of real design styles and fetch token-complete, machine-readable specs (colors, typography, spacing, components) to apply to sites, decks, and products. OAuth sign-in, free tier included. Documentation.
 - **[DAISYS](https://daisys.ai)** DAISYS is an MCP server that provides memory and context capabilities for AI agents via the Model Context Protocol.
-- **[Driflyte](https://console.driflyte.com)** A collection of Model Context Protocol (MCP) servers used to connect AI models to external data and tools.
-- **[ELEMENT.FM](https://gitlab.com/elementfm/mcp)** An MCP server implementation hosted on GitLab under the elementfm organization.
+- **[ELEMENT.FM](https://gitlab.com/elementfm/mcp)** A GitLab project hosting an MCP (Model Context Protocol) server implementation.
 - **[gxtract](https://sascharo.github.io/gxtract)** GXtract is an MCP server that extracts architectural and implementation details from documents using GroundX integration.
 - **[Instafill.ai](https://instafill.ai)** Instafill.ai – MCP server for AI-powered PDF form filling. Auto-completes any PDF form by extracting fields and filling them from saved profiles, uploaded files, or supplied data.
 - **[Knit MCP](https://developers.getknit.dev/docs/knit-mcp-server-getting-started)** A managed service that provides hosted Model Context Protocol (MCP) servers for connecting AI agents to various SaaS applications.
@@ -4087,7 +4085,6 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
 - **[Push To Display](https://pushtodisplay.com)** A programmable display layer that allows developers to push structured content from AI agents, CI/CD pipelines, or scripts to iOS and Android devices via a single API.
 - **[Unblocked MCP](https://getunblocked.com/unblocked-mcp)** An MCP server that delivers synthesized organizational context from sources like GitHub, Slack, and Jira to AI agents.
 - **[WayStation](https://waystation.ai/connect/mcp-server)** MCP server that connects MCP hosts to productivity tools via a no-code integration hub.
-- **[YaniFend](https://dashboard.yanifend.com)** An MCP server implementation for integrating Customer Data Platform (CDP) data into AI assistants.
 - **[Zapier](https://zapier.com/mcp)** Zapier MCP is a Model Context Protocol server that connects AI clients to 9,000+ apps via Zapier's managed auth and action ecosystem.
 - **[ZenML](https://zenml.io)** ZenML - Interact with your MLOps and LLMOps pipelines through your ZenML MCP server.
 
@@ -4233,7 +4230,7 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
 
   _Because one protocol to rule them all is the only way to stop manually copy-pasting JSON into your chat window._
 
-  `mcp` `protocols` `integrations` `ai-tooling`
+  `sip` `voip` `telephony` `ai-voice` `infrastructure`
   </details>
 - **[modelmarket.dev](https://modelmarket.dev)** A discovery and marketplace platform for AI agents to find and invoke capabilities via the Model Context Protocol (MCP). <details><summary>More about</summary>
 
@@ -4430,4 +4427,15 @@ _2452 entries in 11 sections, ranked by stars. Each section opens with its top 3
   _Temporary anonymous hosting, because permanent infrastructure would make this too emotionally stable._
 
   `mcp` `html-hosting` `temporary-urls` `content-sharing`
+  </details>
+
+## Others
+
+- **[Free tier available](https://spix.sh)** A communication-focused MCP server implementation. <details><summary>More about</summary>
+
+  It extends Model Context Protocol capabilities with communication tools, enabling developers to integrate conversational or messaging features into their AI workflows.
+
+  _Because nothing says 'developer productivity' like adding yet another protocol layer to your already fragmented AI toolchain._
+
+  `context-engineering` `ai-dev-extensions`
   </details>
